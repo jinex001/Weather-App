@@ -520,7 +520,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b24";
+  var BUILD = "b25";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -732,13 +732,21 @@
     setTimeout(function () { if (!lookOpen) sheet.hidden = true; }, 350);
   }
 
+  function rainNearby(data, nowLocal) {
+    var M = data.minutely_15;
+    if (!M || !M.time) return false;
+    var t = new Date(nowLocal + ":00Z").getTime(), from = new Date(t - 30 * 60000).toISOString().slice(0, 16), to = new Date(t + 30 * 60000).toISOString().slice(0, 16);
+    return M.time.some(function (x, i) { return x >= from && x <= to && (M.precipitation[i] || 0) > 0; });
+  }
+
   function render(data, place, stale) {
     var cur = data.current, H = data.hourly, D = data.daily;
     // Clock time at the place (the data's own time can be up to 15 min old)
     var nowLocal = typeof data.utc_offset_seconds === "number" ? new Date(Date.now() + data.utc_offset_seconds * 1000).toISOString().slice(0, 16) : cur.time;
-    // The model's current code can say drizzle or rain while nothing falls. With no current
-    // precipitation and a low chance this hour, show it as overcast instead.
-    if (isRain(cur.weather_code) && typeof cur.precipitation === "number" && cur.precipitation < 0.1) {
+    // The model's current code can say drizzle or rain while nothing falls. Show it as overcast only
+    // when no rain is reported now, none in the 15-minute data from 30 min ago to 30 min ahead
+    // (light rain rounds to 0.0 in a single 15-minute value), and the chance this hour is low.
+    if (isRain(cur.weather_code) && typeof cur.precipitation === "number" && cur.precipitation < 0.1 && !rainNearby(data, nowLocal)) {
       var hNow = H.time.findIndex(function (x) { return x.slice(0, 13) === nowLocal.slice(0, 13); });
       if (hNow >= 0 && (H.precipitation_probability[hNow] || 0) < 40) {
         cur = Object.assign({}, cur, { weather_code: 3 });
@@ -875,6 +883,7 @@
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation" +
       "&hourly=temperature_2m,precipitation_probability,snowfall,weather_code,is_day" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
+      "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
   }
 
