@@ -10,10 +10,10 @@
    - 정적 사이트 하나: `index.html` + `manifest.webmanifest` + 아이콘(`apple-touch-icon` 180px, 512px). 빌드 도구 없이 바닐라 HTML/CSS/JS로 충분합니다.
    - iOS Safari에서 공유 → "홈 화면에 추가"로 설치. `apple-mobile-web-app-capable`, `display: standalone`, `viewport-fit=cover`, safe-area 여백 처리.
    - 실시간 날씨 표시, 15분마다 + 앱으로 돌아올 때(`visibilitychange`) 새로고침. 마지막 데이터는 `localStorage`에 캐시해서 오프라인에서도 보이게.
-   - 배포: GitHub Pages (사용자 GitHub 계정 `jinex001`, 새 public 저장소 예: `weather`). 배포 URL을 위젯에 넣습니다.
+   - 배포: GitHub Pages (사용자 GitHub 계정 `jinex001`, 저장소 `Weather-App`, 주소 https://jinex001.github.io/Weather-App/). 배포 URL을 위젯에 넣습니다.
 
 2. **홈 화면 위젯 (Scriptable)**
-   - `reference/scriptable-widget-v1.js`가 이전 버전(옛 디자인). 이것을 새 디자인으로 다시 작성.
+   - `widget/weather-widget.js`가 새 디자인 위젯.
    - 크기: small, medium, large + 잠금화면(accessoryCircular, accessoryRectangular, accessoryInline). `design/screens/Widgets.dc.html` 참고.
    - **위젯을 누르면 웹앱이 열리도록** `widget.url = <배포 URL>` 설정.
    - 알려진 iOS 제약: 위젯 탭은 홈 화면에 추가한 앱 인스턴스가 아니라 Safari에서 같은 URL을 엽니다. 화면은 같지만 Safari 주소창이 보일 수 있음. 사용자에게 이 점을 알려줄 것.

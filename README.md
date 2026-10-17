@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨 웹앱과 Scriptable 위젯.
 
-- 앱: https://jinex001.github.io/weather-app/
+- 앱: https://jinex001.github.io/Weather-App/
 - 데이터: [Open-Meteo](https://open-meteo.com) (API 키 불필요)
 - 화면: 맑음 낮 · 비 낮 · 밤 · 비 오는 밤 · 눈 (날씨에 따라 자동 전환)
 - 언어: 기기 설정에 따라 독일어 · 한국어 · 영어

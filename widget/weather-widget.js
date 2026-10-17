@@ -5,7 +5,7 @@
 // Sizes: small, medium, large + lock screen (circular, rectangular, inline)
 // ─────────────────────────────────────────────
 
-const APP_URL = "https://jinex001.github.io/weather-app/"
+const APP_URL = "https://jinex001.github.io/Weather-App/"
 const PLACE = { lat: 52.52, lon: 13.405 }   // Berlin
 const REFRESH_MIN = 30
 
