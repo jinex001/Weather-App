@@ -12,6 +12,7 @@
 - 2026-10-17: 체감온도를 큰 기온 ° 아래로 옮김, 바람 추가, 24시간 예보 추가 (웹앱만, 위젯은 그대로).
 - 2026-10-17: 체감온도를 헤드 아래 독립 블록으로 옮기고 9단계 + 움직이는 사람 아이콘 추가. 옷차림 패널은 아직 (시안만 있음).
 - 2026-10-17: 디자인 시스템 정리. `design/tokens.json`(v2)과 `design/design-system.md`를 현재 구현에 맞춤(눈·흐림 상태, 체감온도 9단계 색·조정표, 글꼴 스타일 전체, 크기·움직임 토큰). 디자인 값은 이 두 파일이 기준.
+- 2026-10-17: 흐린 낮 배경을 쿨그레이 `#DCE1E5`로, 밤은 날씨와 상관없이 전부 `#1B2140` 한 색으로 통일. 글꼴은 Poppins.
 - 다음 작업은 사용자 요청에 따라 진행. `main`에 push하면 1~2분 뒤 사이트에 반영됨.
 - 커밋 이메일은 `jinex001@users.noreply.github.com` 사용 (공개 저장소라 개인 이메일 노출 금지).
 
@@ -38,16 +39,17 @@
 - 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
-## 화면 상태 (6가지) — `design/screens/`
+## 화면 상태 — `design/screens/`
+
+**낮에만 날씨별 색, 밤에는 날씨와 상관없이 전부 한 가지 어두운 색(`#1B2140`).** 밤 화면의 그림·그래프는 날씨를 따름(비 → 비 그림, #8FB8DE 막대; 눈 → 눈 그림, 막대 #BCC8D4).
 
 | 상태 | 조건 | 파일 | 배경 | 글자 |
 | --- | --- | --- | --- | --- |
 | 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#F2C14E` | `#141414` |
-| 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | `#BDB6AA` | `#141414` |
+| 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | `#DCE1E5` (깨끗한 쿨그레이) | `#141414` |
 | 비 낮 | is_day=1, 코드 51–67, 80–82, 95–99 | `Rain.dc.html` | `#4F5D6B` | `#E6ECF2` |
-| 맑음·흐림 밤 | is_day=0, 비·눈 아님 | `Night.dc.html` | `#1B2140` | `#F4F1E8` |
-| 비 밤 | is_day=0, 비 코드 | `RainNight.dc.html` | `#232B36` | `#E6ECF2` |
-| 눈 | 코드 71–77, 85–86 (낮·밤 공통) | `Snow.dc.html` | `#E9EEF3` | `#141414` |
+| 눈 낮 | is_day=1, 코드 71–77, 85–86 | `Snow.dc.html` | `#E9EEF3` | `#141414` |
+| 밤 (모든 날씨) | is_day=0 | `Night.dc.html` (비 오는 밤 그림은 `RainNight.dc.html`) | `#1B2140` | `#F4F1E8` |
 
 `.dc.html` 파일은 디자인 캔버스용 형식입니다(`<x-dc>`, `{{t.x}}` 바인딩, `support.js`). 실행용이 아니라 **레이아웃·수치·색·문구의 기준**으로 읽고, 실제 앱은 일반 HTML로 다시 구현하세요. 각 파일 아래 스크립트에 en/de/ko 문구가 있습니다. 숫자는 예시 값입니다.
 

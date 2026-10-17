@@ -34,9 +34,9 @@
   body[data-state="sun"]        { --bg: #F2C14E; --fg: #141414; }
   body[data-state="rain"]       { --bg: #4F5D6B; --fg: #E6ECF2; --graph: #8FB8DE; }
   body[data-state="night"]      { --bg: #1B2140; --fg: #F4F1E8; }
-  body[data-state="rain-night"] { --bg: #232B36; --fg: #E6ECF2; --graph: #8FB8DE; }
   body[data-state="snow"]       { --bg: #E9EEF3; --fg: #141414; --graph: #5C7A99; }
-  body[data-state="overcast"]   { --bg: #BDB6AA; --fg: #141414; }
+  body[data-state="overcast"]   { --bg: #DCE1E5; --fg: #141414; }
+  body[data-state="night"][data-wx="snow"] { --graph: #BCC8D4; }
 
   .app {
     max-width: 480px; margin: 0 auto; min-height: 100dvh;
@@ -325,7 +325,7 @@
     if (isOvercast(c) && isDay) return "overcast";
     return isDay ? "sun" : "night";
   }
-  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", "rain-night": "#232B36", snow: "#E9EEF3", overcast: "#BDB6AA" };
+  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#DCE1E5" };
 
   // ── Hero art (from the design files) ──
   var ART = {
@@ -334,7 +334,7 @@
     night: '<svg viewBox="0 0 240 170"><circle cx="124" cy="88" r="62" fill="#F4E9C8"/><circle cx="152" cy="68" r="54" fill="#1B2140"/><circle cx="40" cy="40" r="3" fill="#F4E9C8"/><circle cx="206" cy="132" r="2.5" fill="#F4E9C8"/><circle cx="198" cy="26" r="2" fill="#F4E9C8"/><circle cx="30" cy="140" r="2" fill="#F4E9C8"/></svg>',
     nightCloudy: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#1B2140"/><path d="M36 142h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/></svg>',
     rain: '<svg viewBox="0 0 240 170"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#2F3842"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M170 112l-8 22" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
-    rainNight: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#232B36"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M80 140l-6 16M116 140l-6 16" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
+    rainNight: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#1B2140"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M80 140l-6 16M116 140l-6 16" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
     overcast: '<svg viewBox="0 0 240 170"><g transform="translate(0 20)"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#958E81"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#EDE8DF"/></g></svg>',
     snow: '<svg viewBox="0 0 240 170"><path d="M44 112h132a30 30 0 0 0 0-60 46 46 0 0 0-88 10 26 26 0 0 0-44 50z" fill="#BCC8D4"/><g fill="#5C7A99"><circle cx="64" cy="132" r="5"/><circle cx="100" cy="150" r="5"/><circle cx="136" cy="130" r="5"/><circle cx="172" cy="148" r="5"/><circle cx="82" cy="162" r="3.5"/><circle cx="154" cy="164" r="3.5"/><circle cx="118" cy="168" r="2.5"/></g></svg>'
   };
@@ -408,8 +408,11 @@
     var cur = data.current, H = data.hourly, D = data.daily;
     var isDay = cur.is_day === 1;
     var state = stateOf(cur.weather_code, isDay);
-    document.body.dataset.state = state;
-    document.querySelector('meta[name="theme-color"]').setAttribute("content", THEME[state]);
+    // Colors: by weather during the day, one dark night color for every night (art and graphs still follow the weather)
+    var theme = isDay ? state : "night";
+    document.body.dataset.state = theme;
+    document.body.dataset.wx = state;
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", THEME[theme]);
 
     $("city").textContent = place.gps ? T.here : T.berlin;
     $("date").textContent = dateLine(cur.time);
@@ -428,7 +431,7 @@
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
     // "Pleasant" is always plain white (user's choice), even on light screens
-    $("feels").style.setProperty("--feels", band[1] === "pleasant" ? BAND_COLOR.pleasant : readableOn(BAND_COLOR[band[1]], THEME[state]));
+    $("feels").style.setProperty("--feels", band[1] === "pleasant" ? BAND_COLOR.pleasant : readableOn(BAND_COLOR[band[1]], THEME[theme]));
     playPerson();
 
     // index of the current hour
