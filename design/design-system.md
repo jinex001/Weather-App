@@ -103,7 +103,7 @@
 | 혹한 Bitter cold / Eisig | ≤ -10 | `#1E2A5A` | 꽁꽁 움츠림 + 입김 | BUNDLE UP |
 | 매우 추움 Very cold / Sehr kalt | -9 ~ -3 | `#2F4A86` | 덜덜 떨기 + 입김 | WRAP UP |
 | 추움 Cold / Kalt | -2 ~ 4 | `#5C7FB8` | 가끔 떨기 + 입김 | COAT ON |
-| 쌀쌀 Chilly / Frisch | 5 ~ 11 | `#9DB7D4` | 어깨 움츠림 | LAYER UP |
+| 쌀쌀 Chilly / Frisch | 5 ~ 11 | `#9DB7D4` | 옷깃 여미기 (몸이 좁아지며 고개 숙임) | LAYER UP |
 | 선선 Cool / Kühl | 12 ~ 16 | `#C9D6C2` | 숨쉬기 | LIGHT LAYERS |
 | 쾌적 Pleasant / Angenehm | 17 ~ 22 | `#FFFFFF` | 숨쉬기 + 좌우 | JUST RIGHT |
 | 따뜻 Warm / Warm | 23 ~ 27 | `#F2C14E` | 좌우 흔들 | SHORT SLEEVES |
