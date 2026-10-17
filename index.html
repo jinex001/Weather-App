@@ -85,7 +85,7 @@
   .person-ic .rain { stroke: var(--graph); }
   .person-ic .hd { stroke: var(--bg); stroke-width: 1.6px; paint-order: stroke; }
   .person-ic .fx { opacity: 0; }
-  /* animations run only while .play is set (on load and on tap), then the person rests */
+  /* animations loop while .play is set (always, after each render) */
   .play.b-freeze .ps { transform-origin: 13px 29px; animation: hunch 2.4s ease-in-out infinite; }
   .play.b-freeze .breath, .play.b-verycold .breath, .play.b-cold .breath { animation: breath 2.4s ease-out infinite; }
   .play.b-verycold .ps { animation: shiver 1.6s linear infinite; }
@@ -394,14 +394,11 @@
   // ── Render ──
   var $ = function (id) { return document.getElementById(id); };
 
-  // Play the person's motion for a few seconds (on each render and on tap), then let it rest
-  var playTimer;
+  // The person's motion loops forever; a tap restarts it from the beginning
   function playPerson() {
     var ic = document.querySelector("#feels-ic svg");
     if (!ic) return;
     ic.classList.remove("play"); void ic.offsetWidth; ic.classList.add("play");
-    clearTimeout(playTimer);
-    playTimer = setTimeout(function () { ic.classList.remove("play"); }, 7000);
   }
 
   function render(data, place, stale) {
