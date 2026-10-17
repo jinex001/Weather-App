@@ -506,6 +506,9 @@
     ic.classList.remove("play"); void ic.offsetWidth; ic.classList.add("play");
   }
 
+  // Shown in the status line so it is easy to tell whether the phone runs the latest version
+  var BUILD = "b15";
+
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
   // Each band: headline, deck, items [category, text]; text is {ko,en,de} with an optional f: {...} variant for women.
@@ -823,7 +826,7 @@
     $("days").innerHTML = html;
 
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
-    $("status").textContent = fmt(stale ? T.offline : T.updated, { t: when });
+    $("status").textContent = fmt(stale ? T.offline : T.updated, { t: when }) + " · " + BUILD;
   }
 
   // ── Place & data ──
@@ -868,6 +871,20 @@
 
   // The whole head (city, art, temperature, condition, feels-like) opens Today's Look; the location button keeps its own job
   $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#loc")) openLook(); });
+  // Also open on a plain tap (touch released without moving), in case iOS swallows the click.
+  // preventDefault stops the follow-up click from landing on the sheet that just opened under the finger.
+  (function () {
+    var head = $("head-tap"), t0 = null;
+    head.addEventListener("touchstart", function (e) {
+      var t = e.touches[0]; t0 = e.target.closest("#loc") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
+    }, { passive: true });
+    head.addEventListener("touchend", function (e) {
+      if (!t0) return;
+      var t = e.changedTouches[0], moved = Math.abs(t.clientX - t0.x) + Math.abs(t.clientY - t0.y);
+      if (moved < 12 && Date.now() - t0.time < 600) { e.preventDefault(); openLook(); }
+      t0 = null;
+    });
+  })();
   $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#loc")) { e.preventDefault(); openLook(); } });
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
