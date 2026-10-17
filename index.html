@@ -71,15 +71,15 @@
   /* Feels-like block: animated person + feels-like temperature + band name */
   .feels {
     display: flex; align-items: center; justify-content: center; gap: 14px;
-    margin-top: 18px; padding: 12px 0; border: 0; border-top: 1.5px solid var(--fg); border-bottom: 1.5px solid var(--fg);
-    width: 100%; background: none; color: inherit; font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent;
+    margin-top: 14px; padding: 8px 0; border: 0;
+    width: 100%; background: none; color: var(--feels, inherit); font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent;
   }
   .feels svg { width: 44px; height: 44px; flex: none; overflow: visible; }
   .feels-n { font-family: var(--display); font-size: 56px; line-height: 1; }
   .feels-t { text-align: left; }
   .feels-t span { display: block; }
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
-  .feels-l { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; margin-top: 2px; }
+  .feels-l { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; margin-bottom: 2px; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -171,7 +171,7 @@
   <button class="feels" id="feels" type="button">
     <span id="feels-ic"></span>
     <span class="feels-n" id="feels-n"></span>
-    <span class="feels-t"><span class="feels-b" id="feels-b"></span><span class="feels-l" id="feels-l"></span></span>
+    <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
   </button>
 
   <div class="grow"></div>
@@ -260,6 +260,11 @@
     [32, "hot", { en: "Hot", de: "Heiß", ko: "더움" }],
     [Infinity, "scorching", { en: "Scorching", de: "Sehr heiß", ko: "폭염" }]
   ];
+  // Band colors: a deep tone for light screens, a light tone for dark screens (≥3:1 on each)
+  var BAND_COLOR = {
+    light: { freeze: "#1E2A5A", verycold: "#2F4A86", cold: "#3E5C8E", chilly: "#2B6170", cool: "#43654B", pleasant: "#665D1E", warm: "#7D560D", hot: "#8F4C10", scorching: "#A93716" },
+    dark:  { freeze: "#A9B6F2", verycold: "#8FADEF", cold: "#8BB1EE", chilly: "#7CC6D6", cool: "#7FCF92", pleasant: "#E2CD36", warm: "#EAAA2F", hot: "#EC9B50", scorching: "#F59C86" }
+  };
   function bandOf(f) { for (var i = 0; i < BANDS.length; i++) if (f <= BANDS[i][0]) return BANDS[i]; }
 
   function fmt(s, o) { return s.replace(/\{(\w)\}/g, function (_, k) { return o[k]; }); }
@@ -394,6 +399,8 @@
     $("feels-n").innerHTML = f + '<span class="deg">°</span>';
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
+    var darkScreen = state === "rain" || state === "night" || state === "rain-night";
+    $("feels").style.setProperty("--feels", BAND_COLOR[darkScreen ? "dark" : "light"][band[1]]);
     playPerson();
 
     // index of the current hour
