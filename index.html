@@ -511,7 +511,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b17";
+  var BUILD = "b18";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -845,7 +845,9 @@
     $("days").innerHTML = html;
 
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
-    $("status").textContent = fmt(stale ? T.offline : T.updated, { t: when }) + " · " + BUILD;
+    // Data from the last 20 minutes still counts as current, even if the latest request failed
+    var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
+    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + " · " + BUILD;
   }
 
   // ── Place & data ──
@@ -867,9 +869,10 @@
       "&timezone=auto&forecast_days=8";
   }
 
-  var busy = false;
+  var busy = false, retryTimer = null, retries = 0;
   function refresh() {
     if (busy) return; busy = true;
+    clearTimeout(retryTimer);
     var cached = load("wx-data");
     if (cached && !document.getElementById("days").innerHTML) render(cached, place, true);
     if (!cached) $("status").textContent = T.loading;
@@ -879,11 +882,16 @@
         if (!data.current) throw new Error("bad data");
         data._fetched = Date.now();
         store("wx-data", data);
+        retries = 0;
         render(data, place, false);
       })
-      .catch(function () {
+      .catch(function (err) {
+        // iOS often fails the first request right after the app comes back to the foreground,
+        // so try again a few seconds later (up to 3 times) instead of waiting 15 minutes.
+        document.documentElement.dataset.lastError = String(err && err.message || err);
         var c = load("wx-data");
         if (c) render(c, place, true); else $("status").textContent = T.failed;
+        if (retries < 3) { retries++; retryTimer = setTimeout(refresh, retries * 4000); }
       })
       .then(function () { busy = false; });
   }
@@ -938,6 +946,8 @@
   updateLocButton();
   refresh();
   setInterval(refresh, 15 * 60 * 1000);
+  window.addEventListener("online", function () { retries = 0; refresh(); });
+  window.addEventListener("pageshow", function (e) { if (e.persisted) refresh(); });
   document.addEventListener("visibilitychange", function () { if (!document.hidden) { $("hours").scrollLeft = 0; refresh(); } });
 })();
 </script>
