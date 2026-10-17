@@ -344,10 +344,10 @@
     [32, "hot", { en: "Hot", de: "Heiß", ko: "더움" }],
     [Infinity, "scorching", { en: "Scorching", de: "Sehr heiß", ko: "폭염" }]
   ];
-  // Band colors from the spectrum. Used as-is unless too close to the screen background (<3:1);
-  // then just that case gets deeper (light screens) or lighter (dark screens) and more saturated until it reads.
-  var BAND_COLOR = { freeze: "#1E2A5A", verycold: "#2F4A86", cold: "#5C7FB8", chilly: "#9DB7D4", cool: "#C9D6C2",
-                     pleasant: "#FFFFFF", warm: "#F2C14E", hot: "#E8862C", scorching: "#C4401A" };
+  // Band colors from the "옷차림 by temperature" chart (blue → teal → gold → orange → red). Used as-is unless too
+  // close to the screen background (<3:1); then just that case gets deeper (light screens) or lighter (dark screens).
+  var BAND_COLOR = { freeze: "#0F2F7A", verycold: "#1848A8", cold: "#1860C0", chilly: "#68A898", cool: "#F0B818",
+                     pleasant: "#D89030", warm: "#C03810", hot: "#E82840", scorching: "#A8102A" };
   function hexRgb(h) { return [1, 3, 5].map(function (i) { return parseInt(h.substr(i, 2), 16) / 255; }); }
   function luminance(h) {
     var c = hexRgb(h).map(function (v) { return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
@@ -520,7 +520,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b25";
+  var BUILD = "b26";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -777,8 +777,7 @@
     $("feels-n").innerHTML = f + '<span class="deg">°</span>';
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
-    // "Pleasant" is always plain white (user's choice), even on light screens
-    $("feels").style.setProperty("--feels", band[1] === "pleasant" ? BAND_COLOR.pleasant : readableOn(BAND_COLOR[band[1]], THEME[theme]));
+    $("feels").style.setProperty("--feels", readableOn(BAND_COLOR[band[1]], THEME[theme]));
     playPerson();
 
     // index of the current hour
