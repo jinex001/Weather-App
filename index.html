@@ -427,7 +427,8 @@
     $("feels-n").innerHTML = f + '<span class="deg">°</span>';
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
-    $("feels").style.setProperty("--feels", readableOn(BAND_COLOR[band[1]], THEME[state]));
+    // "Pleasant" is always plain white (user's choice), even on light screens
+    $("feels").style.setProperty("--feels", band[1] === "pleasant" ? BAND_COLOR.pleasant : readableOn(BAND_COLOR[band[1]], THEME[state]));
     playPerson();
 
     // index of the current hour
