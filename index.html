@@ -67,7 +67,7 @@
                  2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
   }
   .feels-l { font-family: var(--mono); font-size: 12px; letter-spacing: .04em; }
-  .feels-n { font-family: var(--display); font-size: 56px; white-space: nowrap; }
+  .feels-n { font-family: var(--display); font-size: 54px; white-space: nowrap; }
   .cond {
     position: relative; text-align: center; font-size: 40px; font-weight: 700;
     line-height: 1.1; letter-spacing: -.5px; margin-top: -20px;
@@ -294,7 +294,7 @@
   function fitFeels() {
     var deg = document.querySelector(".temp-in > .deg"), num = document.querySelector(".feels-n");
     if (!deg || !num) return;
-    var size = 56;
+    var size = 54;
     num.style.fontSize = size + "px";
     while (num.offsetWidth > deg.offsetWidth && size > 40) { size -= 2; num.style.fontSize = size + "px"; }
   }
@@ -315,7 +315,7 @@
     var tempEl = $("temp");
     var f = r(cur.apparent_temperature);
     tempEl.innerHTML = '<span class="temp-in">' + t + '<span class="deg">°</span>' +
-      '<span class="feels"><span class="feels-l"></span><span class="feels-n">' + f + '<span class="deg">°</span></span></span></span>';
+      '<span class="feels"><span class="feels-l"></span><span class="feels-n">' + f + "</span></span></span>";
     tempEl.querySelector(".feels-l").textContent = T.feelsL;
     fitFeels();
     tempEl.classList.toggle("long", String(t).length >= 3);
