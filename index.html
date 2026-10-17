@@ -93,9 +93,13 @@
     margin: 0 -24px; padding: 14px 24px;
   }
   .hours::-webkit-scrollbar { display: none; }
-  .hour { flex: none; width: 48px; padding: 8px 0; border-radius: 24px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
-  .hour.now { background: var(--fg); color: var(--bg); }
-  .hour-t { font-family: var(--mono); font-size: 11px; }
+  .hour { flex: none; width: 48px; padding: 8px 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .hour.now .hour-v { position: relative; }
+  .hour.now .hour-v::after {
+    content: ""; position: absolute; left: 50%; bottom: -4px;
+    width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: currentColor;
+  }
+  .hour-t { font-family: var(--mono); font-size: 11px; line-height: 14px; }
   .hour-v { font-family: var(--display); font-size: 22px; }
   .hour-p { font-family: var(--mono); font-size: 10px; min-height: 12px; }
   .days {
