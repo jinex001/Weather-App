@@ -176,7 +176,7 @@
   /* Today's Look sheet (opens from the feels-like block) */
   .look {
     position: fixed; inset: 0; z-index: 10; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
-    background: var(--lk-bg); color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink);
+    background: var(--lk-bg); color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink); --graph: var(--lk-ink); /* rain drops on the person follow the ink here so they show on every band color */
     padding: calc(env(safe-area-inset-top) + 8px) 24px calc(env(safe-area-inset-bottom) + 36px);
     transform: translateY(100%); transition: transform .35s cubic-bezier(.2,.8,.2,1);
   }
@@ -507,7 +507,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b15";
+  var BUILD = "b16";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -597,19 +597,19 @@
       baby: { ko: "얇은 면 바디슈트 하나. 유모차를 천으로 덮지 말고, 가능하면 외출을 미루세요.", en: "One thin cotton bodysuit. Don't cover the stroller; put trips off if you can.", de: "Ein dünner Baumwollbody. Kinderwagen nicht abdecken; Wege wenn möglich verschieben." } }
   };
   var LT = {
-    ko: { rain: "우산 · {t}쯤 비 {p}%", rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
+    ko: { rainNow: "우산 · 지금 비가 와요", rainNowWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · 지금 비가 와요", rain: "우산 · {t}쯤 비 {p}%", rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
           o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]],
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
-    en: { rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
+    en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
           o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]],
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
-    de: { rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
+    de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
@@ -629,8 +629,8 @@
     // rain in the next 12 hours (or now) changes what to bring
     var rainHit = -1;
     for (var k = 0; k < 12 && v.i0 + k < H.time.length; k++) { if ((H.precipitation_probability[v.i0 + k] || 0) >= 50) { rainHit = v.i0 + k; break; } }
-    if (isRain(cur.weather_code) && rainHit < 0) rainHit = v.i0;
-    if (rainHit >= 0) items.push(["Rain", fmt(windy ? LT.rainWind : LT.rain, { t: hourText(H.time[rainHit]), p: H.precipitation_probability[rainHit] || 0 })]);
+    if (isRain(cur.weather_code) && (rainHit < 0 || rainHit === v.i0)) items.push(["Rain", windy ? LT.rainNowWind : LT.rainNow]);
+    else if (rainHit >= 0) items.push(["Rain", fmt(windy ? LT.rainWind : LT.rain, { t: hourText(H.time[rainHit]), p: H.precipitation_probability[rainHit] || 0 })]);
     else if (windy) items.push(["Wind", fmt(LT.wind, { w: wind })]);
     if (isSnow(cur.weather_code)) items.push(["Snow", LT.snow]);
 
@@ -717,6 +717,17 @@
 
   function render(data, place, stale) {
     var cur = data.current, H = data.hourly, D = data.daily;
+    // Clock time at the place (the data's own time can be up to 15 min old)
+    var nowLocal = typeof data.utc_offset_seconds === "number" ? new Date(Date.now() + data.utc_offset_seconds * 1000).toISOString().slice(0, 16) : cur.time;
+    // The model's current code can say drizzle or rain while nothing falls. With no current
+    // precipitation and a low chance this hour, show it as overcast instead.
+    if (isRain(cur.weather_code) && typeof cur.precipitation === "number" && cur.precipitation < 0.1) {
+      var hNow = H.time.findIndex(function (x) { return x.slice(0, 13) === nowLocal.slice(0, 13); });
+      if (hNow >= 0 && (H.precipitation_probability[hNow] || 0) < 40) {
+        cur = Object.assign({}, cur, { weather_code: 3 });
+        data = Object.assign({}, data, { current: cur });
+      }
+    }
     var isDay = cur.is_day === 1;
     var state = stateOf(cur.weather_code, isDay);
     // Colors: by weather during the day, one dark night color for every night (art and graphs still follow the weather)
@@ -726,7 +737,7 @@
     document.querySelector('meta[name="theme-color"]').setAttribute("content", THEME[theme]);
 
     $("city").textContent = place.gps ? T.here : T.berlin;
-    $("date").textContent = dateLine(cur.time);
+    $("date").textContent = dateLine(nowLocal);
     $("art").innerHTML = artFor(state, cur.weather_code, isDay);
 
     var t = r(cur.temperature_2m);
@@ -842,7 +853,7 @@
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
-      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m" +
+      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation" +
       "&hourly=temperature_2m,precipitation_probability,snowfall,weather_code,is_day" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
       "&timezone=auto&forecast_days=8";
