@@ -263,7 +263,7 @@
   // Band colors from the spectrum. Used as-is unless too close to the screen background (<3:1);
   // then just that case gets deeper (light screens) or lighter (dark screens) and more saturated until it reads.
   var BAND_COLOR = { freeze: "#1E2A5A", verycold: "#2F4A86", cold: "#5C7FB8", chilly: "#9DB7D4", cool: "#C9D6C2",
-                     pleasant: "#E8DFA6", warm: "#F2C14E", hot: "#E8862C", scorching: "#C4401A" };
+                     pleasant: "#FFFFFF", warm: "#F2C14E", hot: "#E8862C", scorching: "#C4401A" };
   function hexRgb(h) { return [1, 3, 5].map(function (i) { return parseInt(h.substr(i, 2), 16) / 255; }); }
   function luminance(h) {
     var c = hexRgb(h).map(function (v) { return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
@@ -285,7 +285,7 @@
   }
   function readableOn(hex, bg) {
     if (contrast(hex, bg) >= 3) return hex;
-    var hsl = rgbHsl(hexRgb(hex)), dir = luminance(bg) > 0.18 ? -1 : 1, out = hex, maxS = Math.min(1, hsl[1] + 0.25);
+    var hsl = rgbHsl(hexRgb(hex)), dir = luminance(bg) > 0.18 ? -1 : 1, out = hex, maxS = hsl[1] < 0.05 ? 0 : Math.min(1, hsl[1] + 0.25);
     for (var i = 0; i < 60 && contrast(out, bg) < 3; i++) {
       hsl[2] = Math.max(0, Math.min(1, hsl[2] + dir * 0.015));
       hsl[1] = Math.min(maxS, hsl[1] + 0.01);
