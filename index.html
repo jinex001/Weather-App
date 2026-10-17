@@ -519,7 +519,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b22";
+  var BUILD = "b23";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -889,7 +889,8 @@
         var m = html.match(/var BUILD = "(b\d+)"/);
         if (!m || m[1] === BUILD) return;
         try { if (sessionStorage.getItem("wx-reloaded") === m[1]) return; sessionStorage.setItem("wx-reloaded", m[1]); } catch (e) {}
-        location.reload();
+        // A new query string so the reload can't come back from the 10-minute HTTP cache of the old page.
+        location.replace(location.pathname + "?v=" + m[1]);
       })
       .catch(function () {});
   }
