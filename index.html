@@ -514,7 +514,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b20";
+  var BUILD = "b21";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -872,8 +872,26 @@
       "&timezone=auto&forecast_days=8";
   }
 
+  // The home-screen app keeps running the page it loaded, so new builds never show up on their own.
+  // Check the deployed page's BUILD and reload once when it differs (at most once a minute, once per build).
+  var lastBuildCheck = 0;
+  function checkBuild() {
+    if (Date.now() - lastBuildCheck < 60000) return;
+    lastBuildCheck = Date.now();
+    fetch(location.pathname + "?build=" + Date.now(), { cache: "no-store" })
+      .then(function (res) { return res.ok ? res.text() : ""; })
+      .then(function (html) {
+        var m = html.match(/var BUILD = "(b\d+)"/);
+        if (!m || m[1] === BUILD) return;
+        try { if (sessionStorage.getItem("wx-reloaded") === m[1]) return; sessionStorage.setItem("wx-reloaded", m[1]); } catch (e) {}
+        location.reload();
+      })
+      .catch(function () {});
+  }
+
   var busy = false, retryTimer = null, retries = 0;
   function refresh() {
+    checkBuild();
     if (busy) return; busy = true;
     clearTimeout(retryTimer);
     var cached = load("wx-data");
