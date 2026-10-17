@@ -51,8 +51,9 @@
     border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
     display: flex; align-items: center; justify-content: center; cursor: pointer;
   }
-  .hero-art { display: flex; justify-content: center; margin-top: 28px; height: 170px; }
-  .hero-art svg { width: 240px; height: 170px; overflow: hidden; }
+  /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
+  .hero-art { display: flex; justify-content: center; margin: 28px -24px 0; height: 170px; overflow: hidden; }
+  .hero-art svg { width: 100%; height: 170px; }
   /* Hero art motion (loops) */
   .art-drop { opacity: 0; animation: art-fall .9s linear infinite; }
   @keyframes art-fall { 0% { opacity: 0; transform: translate(3px,-14px); } 15%,85% { opacity: 1; } 100% { opacity: 0; transform: translate(-5px,16px); } }
@@ -67,7 +68,7 @@
   .art-bob { animation: art-bob 5s ease-in-out infinite; }
   @keyframes art-bob { 0%,100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
   .art-drift { animation: art-drift linear infinite; }
-  @keyframes art-drift { from { transform: translateX(-90px); } to { transform: translateX(300px); } }
+  @keyframes art-drift { from { transform: translateX(-200px); } to { transform: translateX(440px); } }
   .art-star { animation: art-tw 2.4s ease-in-out infinite; }
   @keyframes art-tw { 0%,100% { opacity: 1; } 50% { opacity: .2; } }
   .art-flake { opacity: 0; animation: art-snow 3s linear infinite; }
@@ -423,7 +424,7 @@
   var ART = {
     sunClear: '<svg viewBox="0 0 240 170">' + RAYS + "</svg>",
     sunMostly: '<svg viewBox="0 0 240 170">' + RAYS +
-      '<g class="art-drift" style="animation-duration:20s;animation-delay:-8s"><path transform="translate(0 112) scale(.34)" d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFF4D6"/></g></svg>',
+      '<g class="art-drift" style="animation-duration:33s;animation-delay:-13s"><path transform="translate(0 112) scale(.34)" d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFF4D6"/></g></svg>',
     sunCloudy: '<svg viewBox="0 0 240 170"><circle class="art-sun art-sun-sm" cx="168" cy="54" r="40" fill="#E8621C"/>' +
       '<path class="art-bob" d="M30 150h150a34 34 0 0 0 0-68 50 50 0 0 0-96 12 30 30 0 0 0-54 56z" fill="#FFF4D6"/></svg>',
     night: '<svg viewBox="0 0 240 170"><circle cx="124" cy="88" r="62" fill="#F4E9C8"/><circle cx="152" cy="68" r="54" fill="#1B2140"/><g fill="#F4E9C8">' +
@@ -438,9 +439,9 @@
     rainNight: '<svg viewBox="0 0 240 170">' + MOON_SMALL +
       drops([[62, 134, 0], [80, 140, .45], [98, 134, .2], [116, 140, .65], [134, 134, .35]]) +
       '<path d="' + CLOUD + '" fill="#4A5666"/></svg>',
-    overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "#B9C1C9", 22, -6) +
+    overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "#B9C1C9", 36, -10) +
       '<g transform="translate(0 20)"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#958E81"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
-      drift(112, .38, "#FFFFFF", 14, 0) + drift(-4, .26, "#FFFFFF", 18, -11) + "</svg>"
+      drift(112, .38, "#FFFFFF", 23, 0) + drift(-4, .26, "#FFFFFF", 30, -18) + "</svg>"
   };
   function snowArt(flake) {
     var f = [[64, 132, 5, 0], [100, 134, 5, 1.2], [136, 130, 5, .5], [172, 132, 5, 1.8], [82, 130, 3.5, 2.4], [154, 134, 3.5, .9], [118, 128, 2.5, 1.5]];
@@ -511,7 +512,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b18";
+  var BUILD = "b19";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
