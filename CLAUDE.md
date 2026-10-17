@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-17, 빌드 b24)
+## 현재 상태 (2026-10-17, 빌드 b25)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록 + 움직이는 사람 아이콘, 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시, 위치 버튼으로 GPS/베를린 전환.
@@ -29,6 +29,7 @@
 - b22: 쌀쌀 동작에 찬바람 두 줄이 한 번 지나간 뒤 옷깃 여미기(사용자 요청).
 - b23: 자동 업데이트 때 location.reload() 대신 `?v=<빌드>` 주소로 이동(Pages 10분 캐시 회피).
 - b24: 체감온도 블록 사람 아이콘 44 → 53px, 머리 끝·발이 숫자 윗선·바닥선과 맞게(사용자 요청).
+- b25: 비→흐림 바꾸는 b16 규칙 완화. 15분 강수(minutely_15)에서 지난 30분~앞 30분 사이 비가 조금이라도 있으면 비로 둠(약한 비가 0.0으로 반올림돼 흐림으로 나오던 문제, 사용자가 비 오는데 흐림 표시 확인).
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
 
@@ -50,7 +51,7 @@
 ## 데이터
 
 - Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`
