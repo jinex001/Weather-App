@@ -89,6 +89,8 @@
   .grow { flex-grow: 1; min-height: 24px; }
 
   /* Feels-like block: animated person + feels-like temperature + band name */
+  /* cursor: pointer also makes iOS Safari deliver taps on this non-button area */
+  .head-tap { cursor: pointer; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; outline: none; }
   .feels {
     display: flex; align-items: center; justify-content: center; gap: 14px;
     margin-top: 14px; padding: 8px 0; border: 0;
@@ -216,6 +218,7 @@
 </head>
 <body data-state="sun">
 <main class="app">
+  <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div>
       <div class="city" id="city">Berlin</div>
@@ -230,11 +233,12 @@
   <div class="temp" id="temp">–</div>
   <div class="cond" id="cond">&nbsp;</div>
   <div class="sub" id="sub">&nbsp;</div>
-  <button class="feels" id="feels" type="button">
+  <div class="feels" id="feels">
     <span id="feels-ic"></span>
     <span class="feels-n" id="feels-n"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
-  </button>
+  </div>
+  </div>
 
   <div class="grow"></div>
 
@@ -862,7 +866,9 @@
       .then(function () { busy = false; });
   }
 
-  $("feels").addEventListener("click", openLook);
+  // The whole head (city, art, temperature, condition, feels-like) opens Today's Look; the location button keeps its own job
+  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#loc")) openLook(); });
+  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#loc")) { e.preventDefault(); openLook(); } });
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
   // Swipe the sheet down from its top to close it
