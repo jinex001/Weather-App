@@ -2,20 +2,24 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-17)
+## 현재 상태 (2026-10-17, 빌드 b15)
 
-- 첫 버전 완성, GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/
-- `index.html`: 웹앱 (실시간 Open-Meteo 데이터, 5가지 상태 화면, 기기 언어 자동, 15분 새로고침, 오프라인 캐시, 위치 버튼으로 GPS/베를린 전환)
-- `widget/weather-widget.js`: Scriptable 위젯 (small/medium/large + 잠금화면 3종, 탭하면 앱 URL 열림)
-- 5개 상태와 3개 언어를 가짜 데이터로 렌더링 테스트함. 실제 아이폰에서의 확인은 아직 사용자 피드백 대기.
-- 2026-10-17: 흐린 낮 상태(웜그레이 `#BDB6AA`) 추가. 흐린 밤은 기존 밤 화면 유지.
-- 2026-10-17: 체감온도를 큰 기온 ° 아래로 옮김, 바람 추가, 24시간 예보 추가 (웹앱만, 위젯은 그대로).
-- 2026-10-17: 체감온도를 헤드 아래 독립 블록으로 옮기고 9단계 + 움직이는 사람 아이콘 추가. 옷차림 패널은 아직 (시안만 있음).
-- 2026-10-17: 디자인 시스템 정리. `design/tokens.json`(v2)과 `design/design-system.md`를 현재 구현에 맞춤(눈·흐림 상태, 체감온도 9단계 색·조정표, 글꼴 스타일 전체, 크기·움직임 토큰). 디자인 값은 이 두 파일이 기준.
-- 2026-10-17: 흐린 낮 배경을 쿨그레이 `#DCE1E5`로, 밤은 날씨와 상관없이 전부 `#1B2140` 한 색으로 통일. 글꼴은 Poppins.
-- 2026-10-17: 날씨 그림 애니메이션(맑음 0/1/2 구분), Today's Look 시트와 질문 화면 추가. 헤드 탭으로 시트 열림을 사용자가 아이폰에서 확인(b15). 상태 줄 끝 빌드 표시(BUILD)는 배포마다 올릴 것.
-- 다음 작업은 사용자 요청에 따라 진행. `main`에 push하면 1~2분 뒤 사이트에 반영됨.
+- GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
+- `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록 + 움직이는 사람 아이콘, 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시, 위치 버튼으로 GPS/베를린 전환.
+- `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음. 체감온도·Today's Look은 없음.
+- 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
+- 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도.
+- 디자인 값의 기준은 `design/tokens.json`(v3)과 `design/design-system.md`. 바꾸면 이 두 파일도 같이 고칠 것.
+- 다음 작업은 사용자 요청에 따라 진행.
 - 커밋 이메일은 `jinex001@users.noreply.github.com` 사용 (공개 저장소라 개인 이메일 노출 금지).
+
+### 변경 기록 (2026-10-17)
+- 흐린 낮 상태 추가 → 웜그레이에서 쿨그레이 `#DCE1E5`로 변경. 밤은 날씨와 상관없이 전부 `#1B2140`.
+- 체감온도: 큰 기온 옆 → 헤드 아래 독립 블록, 9단계 색·움직이는 사람 아이콘(무한 반복).
+- 24시간 예보 추가(지금 칸은 맨 앞, 5px 점).
+- 글꼴 Poppins로 통일(큰 숫자만 Anton), 상태 문구 대문자.
+- 날씨 그림 움직임(맑음 코드 0/1/2 구분).
+- Today's Look 시트와 질문 화면. 헤드 전체가 탭 영역.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
 
@@ -37,7 +41,7 @@
 ## 데이터
 
 - Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`
@@ -66,14 +70,14 @@
 
 - **큰 기온**: Anton 240px, line-height 0.86, letter-spacing -4px, 가운데 정렬.
 - **° 기호**: 숫자의 80% 크기, 윗끝을 숫자 윗선에 맞춤 → `<span style="font-size:.8em;position:relative;top:-.29em">°</span>`. (Anton 실측: 숫자 윗선 1761/2048em, ° 윗선 1607/2048em에서 계산.) 위젯 등 모든 큰 기온에 동일 적용.
-- **상태 문구**: Noto Sans KR 700, 40px, line-height 1.1, `margin-top: -20px`로 기온 아래쪽과 살짝 겹침. 겹치는 부분이 읽히도록 배경색으로 3px 외곽선(여러 겹 `text-shadow`).
+- **상태 문구**: Poppins 700(한글은 Noto Sans KR), 40px, line-height 1.1, 대문자, `margin-top: -20px`로 기온 아래쪽과 살짝 겹침. 겹치는 부분이 읽히도록 배경색으로 3px 외곽선(여러 겹 `text-shadow`).
 - **비 색 `#8FB8DE`**: 비 그래프 막대와 빗줄기는 어느 화면이든 이 색. 밝은 배경에는 쓰지 않음(그래서 비 오는 낮도 어두운 배경).
-- **눈 그래프 `#5C7A99`**: 강설 막대·눈송이. 구름 `#BCC8D4`.
+- **눈 그래프 `#5C7A99`**: 강설 막대·눈송이(낮). 밤에는 `#BCC8D4`. 구름 `#BCC8D4`.
 - **그래프**: 12시간, 막대 12개, 간격 4px, 높이 48px. 비는 precipitation_probability, 눈은 snowfall(cm). 제목 줄에 시작/그침 시각과 최대값.
 - **테두리·외곽선을 새로 넣지 말 것** (사용자 요청). 읽기 어려우면 색을 조정하지, 테두리로 해결하지 않음. 예외는 원래 디자인의 상태 문구 배경색 외곽선뿐.
-- **단색 배경만**, 그라데이션·그림자·카드 없음. 정보 묶음은 1.5px 선(글자색)으로 구분.
+- **단색 배경만**, 그라데이션·그림자·카드 없음. 정보 묶음은 1.5px 선(글자색)으로 구분(24시간·6일 예보 위만). 체감온도 블록과 Today's Look에는 선 없음.
 - **날씨 그림 (움직임, 무한 반복)**: 낮 코드 0 해만(햇살 회전·반짝, 해 숨쉬기) · 1 해 + 아주 작은 구름이 흘러감 · 2 해 앞 큰 구름(좌우로 흔들) · 3/45/48 흐림(큰 구름 2개 고정 + 작은 구름 3개가 왼→오 흐름). 밤 0–1 달+별 반짝 · 2+ 달+구름. 비는 구름 고정, 빗줄기 계속 낙하. 눈은 눈송이 살랑이며 낙하(밤엔 밝은 색). "동작 줄이기"면 정지.
-- **아이콘**: 굵은 단색 실루엣 SVG(해=원, 구름, 빗줄기, 달, 눈 점). 파일에 있는 path를 그대로 재사용.
+- **아이콘**: 굵은 단색 실루엣 SVG(해=원, 구름, 빗줄기, 달, 눈 점). 파일에 있는 path를 그대로 재사용. 옷 일러스트는 쓰지 않음(사용자 결정).
 - 글꼴: Anton(큰 숫자), 그 외 모든 글자 Poppins(문구 600–700, 날짜·데이터 줄 500; 한글은 Noto Sans KR로 대체). Google Fonts. 상태 문구는 대문자(text-transform: uppercase).
 - 날씨 상태가 바뀌면 `theme-color`(상태 표시줄 색)도 배경색으로.
 
