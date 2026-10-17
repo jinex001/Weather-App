@@ -176,11 +176,15 @@
   /* Today's Look sheet (opens from the feels-like block) */
   .look {
     position: fixed; inset: 0; z-index: 10; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
-    background: var(--lk-bg); color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink); --graph: var(--lk-ink); /* rain drops on the person follow the ink here so they show on every band color */
+    /* iOS-style glass: the band color, see-through, over the main screen blurred underneath (body.look-open) */
+    background: var(--lk-tint);
+    color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink); --graph: var(--lk-ink); /* rain drops on the person follow the ink here so they show on every band color */
     padding: calc(env(safe-area-inset-top) + 8px) 24px calc(env(safe-area-inset-bottom) + 36px);
     transform: translateY(100%); transition: transform .35s cubic-bezier(.2,.8,.2,1);
   }
   .look.open { transform: none; }
+  .app { transition: filter .35s ease, transform .35s ease; }
+  body.look-open .app { filter: blur(26px) saturate(1.5); transform: scale(1.06); }
   .look.dragging { transition: none; }
   .look > * { max-width: 432px; margin-left: auto; margin-right: auto; }
   .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
@@ -507,7 +511,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b16";
+  var BUILD = "b17";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -696,11 +700,14 @@
     var v = lastView; if (!v) return;
     var sheet = $("look");
     sheet.style.setProperty("--lk-bg", v.color);
+    var rgb = hexRgb(v.color).map(function (c) { return Math.round(c * 255); });
+    sheet.style.setProperty("--lk-tint", "rgba(" + rgb.join(",") + ",.66)");
     sheet.style.setProperty("--lk-ink", luminance(v.color) > 0.18 ? "#141414" : "#F4F1E8");
     $("lk-mast").innerHTML = "<span>Today's Look</span><span>" + esc(v.dateLine) + "</span>";
     paintLook();
     sheet.hidden = false; void sheet.offsetWidth; sheet.classList.add("open");
     document.body.style.overflow = "hidden";
+    document.body.classList.add("look-open");
     document.querySelector('meta[name="theme-color"]').setAttribute("content", v.color);
     lookOpen = true;
   }
@@ -711,6 +718,7 @@
     sheet.classList.remove("open");
     sheet.style.transform = "";
     document.body.style.overflow = "";
+    document.body.classList.remove("look-open");
     if (lastView) document.querySelector('meta[name="theme-color"]').setAttribute("content", lastView.theme);
     setTimeout(function () { if (!lookOpen) sheet.hidden = true; }, 350);
   }
