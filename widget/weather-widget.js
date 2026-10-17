@@ -30,6 +30,7 @@ const fmt = (s, o) => s.replace(/\{(\w)\}/g, (_, k) => o[k])
 // ── Weather codes ──
 const isSnow = c => (c >= 71 && c <= 77) || c === 85 || c === 86
 const isRain = c => (c >= 51 && c <= 67) || (c >= 80 && c <= 82) || c >= 95
+const isOvercast = c => c === 3 || c === 45 || c === 48
 function condKey(c, day) {
   if (c === 0) return day ? "clear" : "clearNight"
   if (c === 1) return day ? "mainly" : "clearNight"
@@ -55,10 +56,12 @@ const STATES = {
   night:       { bg: "#1B2140", fg: "#F4F1E8", graph: "#F4F1E8" },
   "rain-night":{ bg: "#232B36", fg: "#E6ECF2", graph: "#8FB8DE" },
   snow:        { bg: "#E9EEF3", fg: "#141414", graph: "#5C7A99" },
+  overcast:    { bg: "#BDB6AA", fg: "#141414", graph: "#141414" },
 }
 function stateOf(c, day) {
   if (isSnow(c)) return "snow"
   if (isRain(c)) return day ? "rain" : "rain-night"
+  if (isOvercast(c) && day) return "overcast"
   return day ? "sun" : "night"
 }
 function symbolFor(c, day) {

@@ -8,6 +8,7 @@
 - `index.html`: 웹앱 (실시간 Open-Meteo 데이터, 5가지 상태 화면, 기기 언어 자동, 15분 새로고침, 오프라인 캐시, 위치 버튼으로 GPS/베를린 전환)
 - `widget/weather-widget.js`: Scriptable 위젯 (small/medium/large + 잠금화면 3종, 탭하면 앱 URL 열림)
 - 5개 상태와 3개 언어를 가짜 데이터로 렌더링 테스트함. 실제 아이폰에서의 확인은 아직 사용자 피드백 대기.
+- 2026-10-17: 흐린 낮 상태(웜그레이 `#BDB6AA`) 추가. 흐린 밤은 기존 밤 화면 유지.
 - 다음 작업은 사용자 요청에 따라 진행. `main`에 push하면 1~2분 뒤 사이트에 반영됨.
 - 커밋 이메일은 `jinex001@users.noreply.github.com` 사용 (공개 저장소라 개인 이메일 노출 금지).
 
@@ -34,11 +35,12 @@
 - 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
-## 화면 상태 (5가지) — `design/screens/`
+## 화면 상태 (6가지) — `design/screens/`
 
 | 상태 | 조건 | 파일 | 배경 | 글자 |
 | --- | --- | --- | --- | --- |
-| 맑음·흐림 낮 | is_day=1, 비·눈 아님 | `Main.dc.html` | `#F2C14E` | `#141414` |
+| 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#F2C14E` | `#141414` |
+| 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | `#BDB6AA` | `#141414` |
 | 비 낮 | is_day=1, 코드 51–67, 80–82, 95–99 | `Rain.dc.html` | `#4F5D6B` | `#E6ECF2` |
 | 맑음·흐림 밤 | is_day=0, 비·눈 아님 | `Night.dc.html` | `#1B2140` | `#F4F1E8` |
 | 비 밤 | is_day=0, 비 코드 | `RainNight.dc.html` | `#232B36` | `#E6ECF2` |

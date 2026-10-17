@@ -36,6 +36,7 @@
   body[data-state="night"]      { --bg: #1B2140; --fg: #F4F1E8; }
   body[data-state="rain-night"] { --bg: #232B36; --fg: #E6ECF2; --graph: #8FB8DE; }
   body[data-state="snow"]       { --bg: #E9EEF3; --fg: #141414; --graph: #5C7A99; }
+  body[data-state="overcast"]   { --bg: #BDB6AA; --fg: #141414; }
 
   .app {
     max-width: 480px; margin: 0 auto; min-height: 100dvh;
@@ -183,6 +184,7 @@
   // ── Weather codes ──
   function isSnow(c) { return (c >= 71 && c <= 77) || c === 85 || c === 86; }
   function isRain(c) { return (c >= 51 && c <= 67) || (c >= 80 && c <= 82) || c >= 95; }
+  function isOvercast(c) { return c === 3 || c === 45 || c === 48; }
   function condKey(c, isDay) {
     if (c === 0) return isDay ? "clear" : "clearNight";
     if (c === 1) return isDay ? "mainly" : "clearNight";
@@ -204,9 +206,10 @@
   function stateOf(c, isDay) {
     if (isSnow(c)) return "snow";
     if (isRain(c)) return isDay ? "rain" : "rain-night";
+    if (isOvercast(c) && isDay) return "overcast";
     return isDay ? "sun" : "night";
   }
-  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", "rain-night": "#232B36", snow: "#E9EEF3" };
+  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", "rain-night": "#232B36", snow: "#E9EEF3", overcast: "#BDB6AA" };
 
   // ── Hero art (from the design files) ──
   var ART = {
@@ -216,11 +219,13 @@
     nightCloudy: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#1B2140"/><path d="M36 142h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/></svg>',
     rain: '<svg viewBox="0 0 240 170"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#2F3842"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M170 112l-8 22" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
     rainNight: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#232B36"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M80 140l-6 16M116 140l-6 16" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
+    overcast: '<svg viewBox="0 0 240 170"><g transform="translate(0 20)"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#958E81"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#EDE8DF"/></g></svg>',
     snow: '<svg viewBox="0 0 240 170"><path d="M44 112h132a30 30 0 0 0 0-60 46 46 0 0 0-88 10 26 26 0 0 0-44 50z" fill="#BCC8D4"/><g fill="#5C7A99"><circle cx="64" cy="132" r="5"/><circle cx="100" cy="150" r="5"/><circle cx="136" cy="130" r="5"/><circle cx="172" cy="148" r="5"/><circle cx="82" cy="162" r="3.5"/><circle cx="154" cy="164" r="3.5"/><circle cx="118" cy="168" r="2.5"/></g></svg>'
   };
   function artFor(state, c) {
     var cloudy = c >= 2;
     if (state === "snow") return ART.snow;
+    if (state === "overcast") return ART.overcast;
     if (state === "rain") return ART.rain;
     if (state === "rain-night") return ART.rainNight;
     if (state === "night") return cloudy ? ART.nightCloudy : ART.night;
