@@ -170,6 +170,48 @@
   .day-temp { font-family: var(--display); font-size: 22px; }
   .status { font-family: var(--mono); font-weight: 500; font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
   [hidden] { display: none !important; }
+
+  /* Today's Look sheet (opens from the feels-like block) */
+  .look {
+    position: fixed; inset: 0; z-index: 10; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
+    background: var(--lk-bg); color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink);
+    padding: calc(env(safe-area-inset-top) + 8px) 24px calc(env(safe-area-inset-bottom) + 36px);
+    transform: translateY(100%); transition: transform .35s cubic-bezier(.2,.8,.2,1);
+  }
+  .look.open { transform: none; }
+  .look.dragging { transition: none; }
+  .look > * { max-width: 432px; margin-left: auto; margin-right: auto; }
+  .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
+  .lk-grab::before { content: ""; position: absolute; left: 50%; top: 10px; width: 44px; height: 5px; margin-left: -22px; border-radius: 3px; background: var(--lk-ink); opacity: .45; }
+  .lk-mast { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-top: 8px; }
+  .lk-ic { margin-top: 22px; }
+  .lk-ic svg { width: 50px; height: 50px; display: block; overflow: visible; }
+  .lk-kicker { margin-top: 10px; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .lk-head { font-family: var(--display); font-size: 92px; line-height: .88; letter-spacing: -1px; text-transform: uppercase; margin-top: 8px; }
+  .lk-deck { font-size: 20px; font-weight: 700; line-height: 1.3; margin-top: 14px; }
+  .lk-items { margin-top: 18px; }
+  .lk-item { padding: 8px 0; }
+  .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .lk-what { font-size: 16px; font-weight: 700; line-height: 1.3; margin-top: 1px; }
+  .lk-quote { margin-top: 24px; font-size: 26px; font-weight: 700; line-height: 1.2; }
+  .lk-quote small { display: block; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .lk-baby { margin-top: 30px; }
+  .lk-bt { font-family: var(--display); font-size: 34px; line-height: .9; text-transform: uppercase; }
+  .lk-baby p { margin: 10px 0 0; font-size: 14px; font-weight: 600; line-height: 1.45; }
+  .lk-foot { margin-top: 28px; font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; }
+  .lk-foot button, .lk-skip { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 6px 0; cursor: pointer; }
+  .lk-q { margin-top: 26px; }
+  .lk-ask { font-size: 18px; font-weight: 700; margin-top: 2px; }
+  .lk-opts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .lk-opt { position: relative; font: 600 15px var(--sans); color: var(--lk-ink); background: none; border: 0; padding: 10px 16px; border-radius: 22px; cursor: pointer; }
+  .lk-opt::before { content: ""; position: absolute; inset: 0; border-radius: inherit; background: var(--lk-ink); opacity: .12; }
+  .lk-opt.on { color: var(--lk-bg); }
+  .lk-opt.on::before { opacity: 1; }
+  .lk-opt span { position: relative; }
+  .lk-go { display: block; margin-top: 34px; width: 100%; font: 700 17px var(--sans); color: var(--lk-bg); background: var(--lk-ink); border: 0; border-radius: 28px; padding: 17px; cursor: pointer; transition: opacity .2s; }
+  .lk-go:disabled { opacity: .35; cursor: default; }
+  .lk-fine { margin-top: 14px; font-size: 12px; font-weight: 500; line-height: 1.5; text-align: center; }
+  .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 </style>
 </head>
 <body data-state="sun">
@@ -207,6 +249,12 @@
   <div class="days" id="days"></div>
   <div class="status" id="status"></div>
 </main>
+
+<section class="look" id="look" role="dialog" aria-modal="true" aria-label="Today's Look" hidden>
+  <button class="lk-grab" id="lk-grab" type="button" aria-label="Close"></button>
+  <div class="lk-mast" id="lk-mast"></div>
+  <div id="lk-body"></div>
+</section>
 
 <script>
 (function () {
@@ -454,6 +502,212 @@
     ic.classList.remove("play"); void ic.offsetWidth; ic.classList.add("play");
   }
 
+  // ── Today's Look: outfit sheet behind the feels-like block ──
+  // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
+  // Each band: headline, deck, items [category, text]; text is {ko,en,de} with an optional f: {...} variant for women.
+  var LOOK = {
+    freeze: { head: "Bundle<br>Up",
+      deck: { ko: "롱패딩에 내복 위아래. 맨살은 하나도 없이.", en: "Long down coat, thermals top and bottom. No bare skin.", de: "Langer Daunenmantel, Thermowäsche oben und unten. Keine nackte Haut." },
+      items: [
+        ["Outer", { ko: "무릎 아래 롱패딩", en: "Knee-length down coat", de: "Knielanger Daunenmantel" }],
+        ["Under", { ko: "위아래 발열 내복 + 두꺼운 니트", en: "Thermal base layers + a thick knit", de: "Thermowäsche + dicker Strick" }],
+        ["Bottom", { ko: "기모 바지", en: "Fleece-lined trousers", de: "Gefütterte Hose" }],
+        ["Shoes", { ko: "방한화, 두꺼운 양말", en: "Insulated boots, thick socks", de: "Gefütterte Stiefel, dicke Socken" }],
+        ["Bring", { ko: "털모자, 장갑, 목도리", en: "Beanie, gloves, scarf", de: "Mütze, Handschuhe, Schal" }]],
+      baby: { ko: "꼭 필요한 외출만. 방한 우주복 + 모자 + 벙어리장갑, 유모차 커버 필수.", en: "Essential trips only. Snowsuit, hat and mittens; a stroller cover is a must.", de: "Nur nötige Wege. Schneeanzug, Mütze, Fäustlinge; Kinderwagen-Abdeckung ist Pflicht." } },
+    verycold: { head: "Wrap<br>Up",
+      deck: { ko: "두꺼운 패딩에 니트. 장갑과 목도리까지.", en: "A thick puffer over a knit. Gloves and scarf too.", de: "Dicke Daunenjacke über Strick. Handschuhe und Schal dazu." },
+      items: [
+        ["Outer", { ko: "두꺼운 패딩", en: "Thick puffer jacket", de: "Dicke Daunenjacke" }],
+        ["Top", { ko: "발열 내의 + 니트", en: "Thermal top + knit", de: "Thermoshirt + Strickpullover" }],
+        ["Bottom", { ko: "기모 바지나 두꺼운 청바지", en: "Lined trousers or heavy jeans", de: "Gefütterte Hose oder dicke Jeans",
+          f: { ko: "기모 스타킹에 울 스커트, 또는 기모 바지", en: "A wool skirt over fleece tights, or lined trousers", de: "Wollrock über Thermostrumpfhose oder gefütterte Hose" } }],
+        ["Shoes", { ko: "방한 부츠", en: "Warm boots", de: "Warme Stiefel" }],
+        ["Bring", { ko: "장갑, 목도리, 모자", en: "Gloves, scarf, hat", de: "Handschuhe, Schal, Mütze" }]],
+      baby: { ko: "방한 우주복 + 모자 + 벙어리장갑. 유모차엔 풋머프와 담요.", en: "Snowsuit, hat, mittens. Footmuff and blanket in the stroller.", de: "Schneeanzug, Mütze, Fäustlinge. Fußsack und Decke in den Kinderwagen." } },
+    cold: { head: "Coat<br>On",
+      deck: { ko: "패딩이나 두꺼운 울 코트. 목도리 하나.", en: "A puffer or a heavy wool coat. Add a scarf.", de: "Daunenjacke oder dicker Wollmantel. Schal dazu." },
+      items: [
+        ["Outer", { ko: "패딩이나 두꺼운 울 코트", en: "Puffer or heavy wool coat", de: "Daunenjacke oder dicker Wollmantel" }],
+        ["Top", { ko: "긴팔 + 두꺼운 니트", en: "Long sleeve + thick knit", de: "Langarmshirt + dicker Strick" }],
+        ["Bottom", { ko: "청바지나 울 바지", en: "Jeans or wool trousers", de: "Jeans oder Wollhose",
+          f: { ko: "청바지나 울 바지, 니트 원피스에 두꺼운 스타킹도 좋아요", en: "Jeans or wool trousers, or a knit dress with thick tights", de: "Jeans oder Wollhose, oder Strickkleid mit dicker Strumpfhose" } }],
+        ["Shoes", { ko: "부츠", en: "Boots", de: "Stiefel" }],
+        ["Bring", { ko: "목도리, 얇은 장갑", en: "Scarf, light gloves", de: "Schal, dünne Handschuhe" }]],
+      baby: { ko: "내복 + 긴팔 바디슈트 + 플리스 우주복, 모자. 유모차엔 풋머프.", en: "Base layer, long-sleeve bodysuit, fleece suit, hat. Footmuff in the stroller.", de: "Unterwäsche, Langarmbody, Fleeceanzug, Mütze. Fußsack in den Kinderwagen." } },
+    chilly: { head: "Layer<br>Up",
+      deck: { ko: "니트 위에 얇은 패딩이나 트렌치.", en: "A knit under a light puffer or trench.", de: "Strick unter leichter Daunenjacke oder Trench." },
+      items: [
+        ["Outer", { ko: "얇은 패딩, 트렌치, 가죽 재킷", en: "Light puffer, trench or leather jacket", de: "Leichte Daunenjacke, Trench oder Lederjacke" }],
+        ["Top", { ko: "긴팔 티 + 니트", en: "Long-sleeve tee + knit", de: "Langarmshirt + Strick" }],
+        ["Bottom", { ko: "청바지나 울 슬랙스", en: "Jeans or wool slacks", de: "Jeans oder Wollhose",
+          f: { ko: "청바지나 슬랙스, 미디 스커트에 스타킹도 좋아요", en: "Jeans or slacks, or a midi skirt with tights", de: "Jeans oder Stoffhose, oder Midirock mit Strumpfhose" } }],
+        ["Shoes", { ko: "앵클부츠나 스니커즈", en: "Ankle boots or sneakers", de: "Stiefeletten oder Sneaker" }]],
+      baby: { ko: "내복 + 긴팔 바디슈트 + 플리스 우주복, 모자. 유모차엔 담요 하나.", en: "Base layer, long-sleeve bodysuit, fleece suit, hat. A blanket in the stroller.", de: "Unterwäsche, Langarmbody, Fleeceanzug, Mütze. Eine Decke in den Kinderwagen." } },
+    cool: { head: "Light<br>Layers",
+      deck: { ko: "긴팔에 가벼운 재킷이나 카디건.", en: "Long sleeves and a light jacket or cardigan.", de: "Langarm und eine leichte Jacke oder Strickjacke." },
+      items: [
+        ["Outer", { ko: "가벼운 재킷이나 카디건", en: "Light jacket or cardigan", de: "Leichte Jacke oder Strickjacke" }],
+        ["Top", { ko: "긴팔 티나 셔츠", en: "Long-sleeve tee or shirt", de: "Langarmshirt oder Hemd" }],
+        ["Bottom", { ko: "청바지나 면바지", en: "Jeans or chinos", de: "Jeans oder Chinos",
+          f: { ko: "청바지나 면바지, 원피스도 좋아요", en: "Jeans or chinos, or a dress", de: "Jeans oder Chinos, oder ein Kleid" } }],
+        ["Shoes", { ko: "스니커즈나 로퍼", en: "Sneakers or loafers", de: "Sneaker oder Loafer" }]],
+      baby: { ko: "긴팔 바디슈트 + 얇은 니트나 맨투맨, 얇은 모자. 담요 하나 챙기기.", en: "Long-sleeve bodysuit + a light knit or sweatshirt, thin hat. Pack a blanket.", de: "Langarmbody + dünner Pulli, dünne Mütze. Eine Decke einpacken." } },
+    pleasant: { head: "Just<br>Right",
+      deck: { ko: "긴팔 하나면 충분. 겉옷은 선택.", en: "One long-sleeve layer is plenty. Jacket optional.", de: "Ein Langarmshirt reicht. Jacke optional." },
+      items: [
+        ["Top", { ko: "긴팔 티나 셔츠", en: "Long-sleeve tee or shirt", de: "Langarmshirt oder Hemd" }],
+        ["Bottom", { ko: "면바지나 청바지", en: "Chinos or jeans", de: "Chinos oder Jeans",
+          f: { ko: "원피스나 스커트, 면바지도 좋아요", en: "A dress or skirt, or chinos", de: "Kleid oder Rock, oder Chinos" } }],
+        ["Shoes", { ko: "스니커즈", en: "Sneakers", de: "Sneaker" }],
+        ["Bring", { ko: "저녁용 얇은 겉옷 하나", en: "A light layer for the evening", de: "Eine leichte Schicht für den Abend" }]],
+      baby: { ko: "긴팔 바디슈트에 얇은 바지. 그늘에선 얇은 겉옷 하나.", en: "Long-sleeve bodysuit and light trousers. A thin layer in the shade.", de: "Langarmbody und leichte Hose. Im Schatten eine dünne Schicht." } },
+    warm: { head: "Short<br>Sleeves",
+      deck: { ko: "반팔에 가벼운 하의.", en: "Short sleeves and something light below.", de: "Kurzarm und etwas Leichtes darunter." },
+      items: [
+        ["Top", { ko: "반팔 티나 셔츠", en: "T-shirt or short-sleeve shirt", de: "T-Shirt oder Kurzarmhemd" }],
+        ["Bottom", { ko: "얇은 면바지나 반바지", en: "Light chinos or shorts", de: "Leichte Chinos oder Shorts",
+          f: { ko: "원피스나 스커트, 얇은 바지도 좋아요", en: "A dress or skirt, or light trousers", de: "Kleid oder Rock, oder leichte Hose" } }],
+        ["Shoes", { ko: "스니커즈나 샌들", en: "Sneakers or sandals", de: "Sneaker oder Sandalen" }],
+        ["Bring", { ko: "선글라스, 선크림", en: "Sunglasses, sunscreen", de: "Sonnenbrille, Sonnencreme" }]],
+      baby: { ko: "반팔 바디슈트 하나와 챙 있는 모자. 그늘로 다니기.", en: "A short-sleeve bodysuit and a brimmed hat. Stick to the shade.", de: "Kurzarmbody und Hut mit Krempe. Im Schatten bleiben." } },
+    hot: { head: "Keep it<br>Light",
+      deck: { ko: "린넨에 반바지. 한낮엔 그늘로.", en: "Linen and shorts. Shade at midday.", de: "Leinen und Shorts. Mittags in den Schatten." },
+      items: [
+        ["Top", { ko: "린넨 셔츠나 반팔 티, 밝은 색", en: "Linen shirt or tee, light colours", de: "Leinenhemd oder T-Shirt, helle Farben" }],
+        ["Bottom", { ko: "반바지나 얇은 면바지", en: "Shorts or thin chinos", de: "Shorts oder dünne Chinos",
+          f: { ko: "린넨 원피스나 반바지", en: "A linen dress or shorts", de: "Leinenkleid oder Shorts" } }],
+        ["Shoes", { ko: "샌들이나 통기성 좋은 스니커즈", en: "Sandals or breathable sneakers", de: "Sandalen oder luftige Sneaker" }],
+        ["Bring", { ko: "모자, 선크림, 물 한 병", en: "Hat, sunscreen, a bottle of water", de: "Hut, Sonnencreme, eine Flasche Wasser" }]],
+      baby: { ko: "얇은 면 바디슈트 하나. 유모차를 천으로 덮지 말고, 11~16시엔 그늘로.", en: "One thin cotton bodysuit. Don't cover the stroller with a cloth; shade from 11 to 16.", de: "Ein dünner Baumwollbody. Kinderwagen nicht mit Tuch abdecken; 11–16 Uhr Schatten." } },
+    scorching: { head: "Stay<br>Cool",
+      deck: { ko: "최대한 가볍게. 11~16시엔 실내나 그늘.", en: "As light as it gets. Indoors or shade from 11 to 16.", de: "So leicht wie möglich. 11–16 Uhr drinnen oder im Schatten." },
+      items: [
+        ["Top", { ko: "헐렁한 린넨, 밝은 색", en: "Loose linen, light colours", de: "Weites Leinen, helle Farben" }],
+        ["Bottom", { ko: "반바지", en: "Shorts", de: "Shorts", f: { ko: "헐렁한 원피스나 반바지", en: "A loose dress or shorts", de: "Weites Kleid oder Shorts" } }],
+        ["Shoes", { ko: "샌들", en: "Sandals", de: "Sandalen" }],
+        ["Bring", { ko: "모자, 선크림, 물 두 병", en: "Hat, sunscreen, two bottles of water", de: "Hut, Sonnencreme, zwei Flaschen Wasser" }]],
+      baby: { ko: "얇은 면 바디슈트 하나. 유모차를 천으로 덮지 말고, 가능하면 외출을 미루세요.", en: "One thin cotton bodysuit. Don't cover the stroller; put trips off if you can.", de: "Ein dünner Baumwollbody. Kinderwagen nicht abdecken; Wege wenn möglich verschieben." } }
+  };
+  var LT = {
+    ko: { rain: "우산 · {t}쯤 비 {p}%", rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
+          tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
+          older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
+          ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
+          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]],
+          go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
+    en: { rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
+          tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
+          older: "At 50+, we suggest one more layer.",
+          ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]],
+          go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
+    de: { rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
+          tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
+          older: "Ab 50 empfehlen wir eine Schicht mehr.",
+          ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Ja", "Nein"]],
+          go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
+  }[LANG];
+  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["baby", "Baby", ["y", "n"]]];
+
+  var lastView = null, lookOpen = false;
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+
+  function lookContent(v, profile) {
+    var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
+    var fem = profile.gender === "f";
+    var items = L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
+    var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30;
+    // rain in the next 12 hours (or now) changes what to bring
+    var rainHit = -1;
+    for (var k = 0; k < 12 && v.i0 + k < H.time.length; k++) { if ((H.precipitation_probability[v.i0 + k] || 0) >= 50) { rainHit = v.i0 + k; break; } }
+    if (isRain(cur.weather_code) && rainHit < 0) rainHit = v.i0;
+    if (rainHit >= 0) items.push(["Rain", fmt(windy ? LT.rainWind : LT.rain, { t: hourText(H.time[rainHit]), p: H.precipitation_probability[rainHit] || 0 })]);
+    else if (windy) items.push(["Wind", fmt(LT.wind, { w: wind })]);
+    if (isSnow(cur.weather_code)) items.push(["Snow", LT.snow]);
+
+    var quotes = [];
+    // tonight: first later hour today that is 4° or more below now
+    var today = cur.time.slice(0, 10), now = cur.temperature_2m;
+    for (var j = v.i0 + 1; j < H.time.length && H.time[j].slice(0, 10) === today; j++) {
+      if (H.temperature_2m[j] <= now - 4) { quotes.push(["Tonight", fmt(LT.tonight, { t: hourText(H.time[j]), v: r(H.temperature_2m[j]) })]); break; }
+    }
+    if (!quotes.length && D.time.length > 1) {
+      if (D.temperature_2m_max[1] >= 30) quotes.push(["Tomorrow", fmt(LT.hotTmr, { v: r(D.temperature_2m_max[1]) })]);
+      else if (D.temperature_2m_min[1] <= 0) quotes.push(["Tomorrow", fmt(LT.coldTmr, { v: r(D.temperature_2m_min[1]) })]);
+    }
+    if (profile.age === "50" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
+
+    return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
+      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(L.deck[LANG]) + "</div>" +
+      '<div class="lk-items">' + items.map(function (it) {
+        return '<div class="lk-item"><div class="lk-cat">' + it[0] + '</div><div class="lk-what">' + esc(it[1]) + "</div></div>";
+      }).join("") + "</div>" +
+      quotes.map(function (q) { return '<div class="lk-quote"><small>' + q[0] + "</small>" + esc(q[1]) + "</div>"; }).join("") +
+      (profile.baby === "y" ? '<div class="lk-baby"><div class="lk-bt">With baby</div><p>' + esc(L.baby[LANG]) + "</p></div>" : "") +
+      '<div class="lk-foot"><span>Updated ' + v.updated + '</span><button type="button" id="lk-edit">Edit profile ›</button></div>';
+  }
+
+  function askContent(v) {
+    return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(v.band[2][LANG]) + "</div>" +
+      '<div class="lk-head">About<br>You</div><div class="lk-deck">' + esc(LT.ask) + "</div>" +
+      QKEYS.map(function (q, qi) {
+        return '<div class="lk-q"><div class="lk-cat">' + q[1] + '</div><div class="lk-ask">' + esc(LT.q[qi]) + '</div><div class="lk-opts">' +
+          q[2].map(function (val, oi) { return '<button type="button" class="lk-opt" data-q="' + q[0] + '" data-v="' + val + '"><span>' + esc(LT.o[qi][oi]) + "</span></button>"; }).join("") +
+          "</div></div>";
+      }).join("") +
+      '<button type="button" class="lk-go" id="lk-go" disabled>' + esc(LT.go) + '</button><div class="lk-fine">' + LT.fine + "</div>" +
+      '<button type="button" class="lk-skip" id="lk-skip">Skip</button>';
+  }
+
+  function paintLook(forceAsk) {
+    var v = lastView; if (!v) return;
+    var profile = load("wx-profile"), body = $("lk-body");
+    if (!profile || forceAsk) {
+      body.innerHTML = askContent(v);
+      var picked = {};
+      [].forEach.call(body.querySelectorAll(".lk-opt"), function (b) {
+        if (profile && profile[b.dataset.q] === b.dataset.v) { b.classList.add("on"); picked[b.dataset.q] = b.dataset.v; }
+        b.addEventListener("click", function () {
+          [].forEach.call(body.querySelectorAll('.lk-opt[data-q="' + b.dataset.q + '"]'), function (x) { x.classList.toggle("on", x === b); });
+          picked[b.dataset.q] = b.dataset.v;
+          $("lk-go").disabled = Object.keys(picked).length < QKEYS.length;
+        });
+      });
+      $("lk-go").disabled = Object.keys(picked).length < QKEYS.length;
+      $("lk-go").addEventListener("click", function () { store("wx-profile", picked); paintLook(); });
+      $("lk-skip").addEventListener("click", function () { store("wx-profile", profile || {}); paintLook(); });
+    } else {
+      body.innerHTML = lookContent(v, profile);
+      $("lk-edit").addEventListener("click", function () { paintLook(true); });
+    }
+    $("look").scrollTop = 0;
+  }
+
+  function openLook() {
+    var v = lastView; if (!v) return;
+    var sheet = $("look");
+    sheet.style.setProperty("--lk-bg", v.color);
+    sheet.style.setProperty("--lk-ink", luminance(v.color) > 0.18 ? "#141414" : "#F4F1E8");
+    $("lk-mast").innerHTML = "<span>Today's Look</span><span>" + esc(v.dateLine) + "</span>";
+    paintLook();
+    sheet.hidden = false; void sheet.offsetWidth; sheet.classList.add("open");
+    document.body.style.overflow = "hidden";
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", v.color);
+    lookOpen = true;
+  }
+  function closeLook() {
+    var sheet = $("look");
+    if (!lookOpen) return;
+    lookOpen = false;
+    sheet.classList.remove("open");
+    sheet.style.transform = "";
+    document.body.style.overflow = "";
+    if (lastView) document.querySelector('meta[name="theme-color"]').setAttribute("content", lastView.theme);
+    setTimeout(function () { if (!lookOpen) sheet.hidden = true; }, 350);
+  }
+
   function render(data, place, stale) {
     var cur = data.current, H = data.hourly, D = data.daily;
     var isDay = cur.is_day === 1;
@@ -549,6 +803,14 @@
     $("hours").innerHTML = hh;
     $("hours").scrollLeft = 0;
 
+    lastView = {
+      data: data, band: band, f: f, i0: i0, theme: THEME[theme], color: BAND_COLOR[band[1]],
+      icon: person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic'),
+      dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),
+      updated: new Date(data._fetched).toTimeString().slice(0, 5)
+    };
+    if (lookOpen) openLook();
+
     var html = "";
     for (var d = 1; d <= 6 && d < D.time.length; d++) {
       html += '<div class="day"><div class="day-name">' + weekday(D.time[d]) + "</div>" + icon(D.weather_code[d]) +
@@ -600,7 +862,25 @@
       .then(function () { busy = false; });
   }
 
-  $("feels").addEventListener("click", playPerson);
+  $("feels").addEventListener("click", openLook);
+  $("lk-grab").addEventListener("click", closeLook);
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
+  // Swipe the sheet down from its top to close it
+  (function () {
+    var sheet = $("look"), y0 = null, dy = 0;
+    sheet.addEventListener("touchstart", function (e) { y0 = sheet.scrollTop <= 0 ? e.touches[0].clientY : null; dy = 0; }, { passive: true });
+    sheet.addEventListener("touchmove", function (e) {
+      if (y0 === null) return;
+      dy = e.touches[0].clientY - y0;
+      if (dy > 0) { sheet.classList.add("dragging"); sheet.style.transform = "translateY(" + dy + "px)"; }
+    }, { passive: true });
+    sheet.addEventListener("touchend", function () {
+      if (y0 === null) return;
+      sheet.classList.remove("dragging");
+      if (dy > 90) closeLook(); else sheet.style.transform = "";
+      y0 = null;
+    });
+  })();
 
   $("loc").addEventListener("click", function () {
     if (place.gps) {
