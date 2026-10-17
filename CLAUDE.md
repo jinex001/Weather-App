@@ -68,7 +68,7 @@
 - **테두리·외곽선을 새로 넣지 말 것** (사용자 요청). 읽기 어려우면 색을 조정하지, 테두리로 해결하지 않음. 예외는 원래 디자인의 상태 문구 배경색 외곽선뿐.
 - **단색 배경만**, 그라데이션·그림자·카드 없음. 정보 묶음은 1.5px 선(글자색)으로 구분.
 - **아이콘**: 굵은 단색 실루엣 SVG(해=원, 구름, 빗줄기, 달, 눈 점). 파일에 있는 path를 그대로 재사용.
-- 글꼴: Anton(숫자), Poppins 600–700(문구, 한글은 Noto Sans KR로 대체), JetBrains Mono(날짜·데이터). Google Fonts.
+- 글꼴: Anton(큰 숫자), 그 외 모든 글자 Poppins(문구 600–700, 날짜·데이터 줄 500; 한글은 Noto Sans KR로 대체). Google Fonts. 상태 문구는 대문자(text-transform: uppercase).
 - 날씨 상태가 바뀌면 `theme-color`(상태 표시줄 색)도 배경색으로.
 
 색·글꼴·간격 토큰 전체: `design/tokens.json`, 원칙 설명: `design/design-system.md`.

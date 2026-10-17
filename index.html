@@ -14,13 +14,13 @@
 <link rel="icon" href="icon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;600;700&display=swap">
 <style>
   :root {
     --bg: #F2C14E; --fg: #141414; --graph: #8FB8DE;
     --display: "Anton", "Noto Sans KR", sans-serif;
     --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, monospace;
+    --mono: "Poppins", "Noto Sans KR", system-ui, sans-serif; /* data lines: same family as text, set at 500 */
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; }
@@ -45,7 +45,7 @@
   }
   .top { display: flex; justify-content: space-between; align-items: center; }
   .city { font-size: 17px; font-weight: 700; }
-  .date { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; margin-top: 2px; }
+  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .04em; margin-top: 2px; }
   .loc {
     width: 44px; height: 44px; border-radius: 22px; padding: 0;
     border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
@@ -61,11 +61,11 @@
   .deg { font-size: .8em; position: relative; top: -.29em; }
   .cond {
     position: relative; text-align: center; font-size: 40px; font-weight: 700;
-    line-height: 1.1; letter-spacing: -.5px; margin-top: -20px;
+    line-height: 1.1; letter-spacing: .5px; margin-top: -20px; text-transform: uppercase;
     text-shadow: 3px 0 var(--bg), -3px 0 var(--bg), 0 3px var(--bg), 0 -3px var(--bg),
                  2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
   }
-  .sub { text-align: center; font-family: var(--mono); font-size: 12px; letter-spacing: .04em; margin-top: 10px; }
+  .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .04em; margin-top: 10px; }
   .grow { flex-grow: 1; min-height: 24px; }
 
   /* Feels-like block: animated person + feels-like temperature + band name */
@@ -79,7 +79,7 @@
   .feels-t { text-align: left; }
   .feels-t span { display: block; }
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
-  .feels-l { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; margin-bottom: 2px; }
+  .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .04em; margin-bottom: 2px; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -121,10 +121,10 @@
   .graph { padding: 14px 0 12px; display: flex; flex-direction: column; gap: 10px; }
   .graph-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
   .graph-title { font-size: 14px; font-weight: 700; }
-  .graph-max { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
+  .graph-max { font-family: var(--mono); font-weight: 500; font-size: 12px; white-space: nowrap; }
   .bars { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; align-items: end; height: 48px; }
   .bars div { background: var(--graph); min-height: 4px; }
-  .ticks { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10px; }
+  .ticks { display: flex; justify-content: space-between; font-family: var(--mono); font-weight: 500; font-size: 10px; }
 
   .hours-wrap { border-top: 1.5px solid var(--fg); }
   .hours {
@@ -138,17 +138,17 @@
     content: ""; position: absolute; left: 50%; bottom: -4px;
     width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: currentColor;
   }
-  .hour-t { font-family: var(--mono); font-size: 11px; line-height: 14px; }
+  .hour-t { font-family: var(--mono); font-weight: 500; font-size: 11px; line-height: 14px; }
   .hour-v { font-family: var(--display); font-size: 22px; }
-  .hour-p { font-family: var(--mono); font-size: 10px; min-height: 12px; }
+  .hour-p { font-family: var(--mono); font-weight: 500; font-size: 10px; min-height: 12px; }
   .days {
     border-top: 1.5px solid var(--fg); padding-top: 14px;
     display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; text-align: center;
   }
   .day { display: flex; flex-direction: column; align-items: center; gap: 6px; }
-  .day-name { font-family: var(--mono); font-size: 11px; }
+  .day-name { font-family: var(--mono); font-weight: 500; font-size: 11px; }
   .day-temp { font-family: var(--display); font-size: 22px; }
-  .status { font-family: var(--mono); font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
+  .status { font-family: var(--mono); font-weight: 500; font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
   [hidden] { display: none !important; }
 </style>
 </head>
