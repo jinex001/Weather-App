@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weather — Night</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Noto+Sans+KR:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#F4F1E8}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; padding: 20px 24px 28px; background: #1B2140; color: #F4F1E8; display: flex; flex-direction: column; font-family: 'Noto Sans KR', sans-serif">
+  <div style="display: flex; justify-content: space-between; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <div style="font-size: 17px; font-weight: 700">{{t.city}}</div>
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.04em">{{t.date}}</div>
+    </div>
+    <button aria-label="{{t.change}}" style="width: 44px; height: 44px; border-radius: 22px; border: 1.5px solid #F4F1E8; background: transparent; color: #F4F1E8; display: flex; align-items: center; justify-content: center; padding: 0">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-top: 28px">
+    <svg width="240" height="170" viewBox="0 0 240 170" aria-hidden="true">
+      <circle cx="124" cy="88" r="62" fill="#F4E9C8"/>
+      <circle cx="152" cy="68" r="54" fill="#1B2140"/>
+      <circle cx="40" cy="40" r="3" fill="#F4E9C8"/>
+      <circle cx="206" cy="132" r="2.5" fill="#F4E9C8"/>
+      <circle cx="198" cy="26" r="2" fill="#F4E9C8"/>
+      <circle cx="30" cy="140" r="2" fill="#F4E9C8"/>
+    </svg>
+  </div>
+
+  <div style="font-family: 'Anton', sans-serif; font-size: 240px; line-height: 0.86; text-align: center; letter-spacing: -4px; margin-top: 8px">7<span style="position: relative; top: -0.29em; font-size: 0.8em">°</span></div>
+  <div style="position: relative; text-align: center; font-size: 40px; font-weight: 700; margin-top: -20px; line-height: 1.1; letter-spacing: -0.5px; text-shadow: 3px 0 #1B2140, -3px 0 #1B2140, 0 3px #1B2140, 0 -3px #1B2140, 2px 2px #1B2140, -2px -2px #1B2140, 2px -2px #1B2140, -2px 2px #1B2140">{{t.cond}}</div>
+  <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; margin-top: 6px; letter-spacing: 0.04em">{{t.feels}}</div>
+
+  <div style="flex-grow: 1"></div>
+
+  <div style="border-top: 1.5px solid #F4F1E8; padding: 14px 0; display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 500">
+    <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="#F4F1E8"/></svg>
+    {{t.tomorrow}}
+  </div>
+
+  <div style="border-top: 1.5px solid #F4F1E8; padding-top: 14px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; text-align: center">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="font-family: 'JetBrains Mono', monospace; font-size: 11px">{{t.fri}}</div><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="#F4F1E8"/></svg><div style="font-family: 'Anton', sans-serif; font-size: 22px">17</div></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="font-family: 'JetBrains Mono', monospace; font-size: 11px">{{t.sat}}</div><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 15h9a3.5 3.5 0 0 0 0-7 4.5 4.5 0 0 0-8.6 1.2A3 3 0 0 0 4 15z" fill="#F4F1E8"/></svg><div style="font-family: 'Anton', sans-serif; font-size: 22px">15</div></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="font-family: 'JetBrains Mono', monospace; font-size: 11px">{{t.sun}}</div><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 11h9a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 4 11z" fill="#F4F1E8"/><path d="M6 13.5l-1 2.5M10 13.5l-1 2.5M14 13.5l-1 2.5" stroke="#F4F1E8" stroke-width="1.5" stroke-linecap="round"/></svg><div style="font-family: 'Anton', sans-serif; font-size: 22px">11</div></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="font-family: 'JetBrains Mono', monospace; font-size: 11px">{{t.mon}}</div><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 11h9a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 4 11z" fill="#F4F1E8"/><path d="M6 13.5l-1 2.5M10 13.5l-1 2.5M14 13.5l-1 2.5" stroke="#F4F1E8" stroke-width="1.5" stroke-linecap="round"/></svg><div style="font-family: 'Anton', sans-serif; font-size: 22px">10</div></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="font-family: 'JetBrains Mono', monospace; font-size: 11px">{{t.tue}}</div><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 15h9a3.5 3.5 0 0 0 0-7 4.5 4.5 0 0 0-8.6 1.2A3 3 0 0 0 4 15z" fill="#F4F1E8"/></svg><div style="font-family: 'Anton', sans-serif; font-size: 22px">12</div></div>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="font-family: 'JetBrains Mono', monospace; font-size: 11px">{{t.wed}}</div><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" fill="#F4F1E8"/></svg><div style="font-family: 'Anton', sans-serif; font-size: 22px">14</div></div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"lang":{"editor":"enum","options":["auto","en","de","ko"],"default":"auto"},"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+renderVals() {
+var pick = this.props.lang ?? 'auto';
+var code = pick;
+if (pick === 'auto') {
+  var nav = (typeof navigator !== 'undefined' && navigator.language) ? navigator.language.toLowerCase() : 'en';
+  code = nav.indexOf('de') === 0 ? 'de' : nav.indexOf('ko') === 0 ? 'ko' : 'en';
+}
+var S = {
+  en: { city: 'Berlin', date: 'Thu, Oct 15 · 22:40', change: 'Change city', cond: 'Clear night', feels: 'Feels 5° · Low 4° overnight', tomorrow: 'Tomorrow 8 am: 6° · Clear', mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri', sat: 'Sat', sun: 'Sun' },
+  de: { city: 'Berlin', date: 'Do., 15. Okt. · 22:40', change: 'Stadt wechseln', cond: 'Klare Nacht', feels: 'Gefühlt 5° · Nachts min. 4°', tomorrow: 'Morgen 8 Uhr: 6° · Klar', mon: 'Mo', tue: 'Di', wed: 'Mi', thu: 'Do', fri: 'Fr', sat: 'Sa', sun: 'So' },
+  ko: { city: '베를린', date: '10월 15일 목 · 22:40', change: '도시 바꾸기', cond: '맑은 밤', feels: '체감 5° · 새벽 최저 4°', tomorrow: '내일 아침 8시 6° · 맑음', mon: '월', tue: '화', wed: '수', thu: '목', fri: '금', sat: '토', sun: '일' }
+};
+return { t: S[code] || S.en };
+}
+}
+</script>
+</body>
+</html>

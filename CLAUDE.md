@@ -1,0 +1,68 @@
+# 미니멀 날씨앱 — 프로젝트 브리프
+
+광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다. 이 브리프대로 실제로 동작하게 만드는 것이 목표입니다.
+
+사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
+
+## 만들 것
+
+1. **웹앱 (홈 화면에 추가)**
+   - 정적 사이트 하나: `index.html` + `manifest.webmanifest` + 아이콘(`apple-touch-icon` 180px, 512px). 빌드 도구 없이 바닐라 HTML/CSS/JS로 충분합니다.
+   - iOS Safari에서 공유 → "홈 화면에 추가"로 설치. `apple-mobile-web-app-capable`, `display: standalone`, `viewport-fit=cover`, safe-area 여백 처리.
+   - 실시간 날씨 표시, 15분마다 + 앱으로 돌아올 때(`visibilitychange`) 새로고침. 마지막 데이터는 `localStorage`에 캐시해서 오프라인에서도 보이게.
+   - 배포: GitHub Pages (사용자 GitHub 계정 `jinex001`, 새 public 저장소 예: `weather`). 배포 URL을 위젯에 넣습니다.
+
+2. **홈 화면 위젯 (Scriptable)**
+   - `reference/scriptable-widget-v1.js`가 이전 버전(옛 디자인). 이것을 새 디자인으로 다시 작성.
+   - 크기: small, medium, large + 잠금화면(accessoryCircular, accessoryRectangular, accessoryInline). `design/screens/Widgets.dc.html` 참고.
+   - **위젯을 누르면 웹앱이 열리도록** `widget.url = <배포 URL>` 설정.
+   - 알려진 iOS 제약: 위젯 탭은 홈 화면에 추가한 앱 인스턴스가 아니라 Safari에서 같은 URL을 엽니다. 화면은 같지만 Safari 주소창이 보일 수 있음. 사용자에게 이 점을 알려줄 것.
+   - Scriptable은 웹폰트를 못 쓰므로 숫자는 iOS 내장 `AvenirNextCondensed-Heavy` 등으로 Anton 느낌을 근사.
+
+## 데이터
+
+- Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
+- 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
+
+## 화면 상태 (5가지) — `design/screens/`
+
+| 상태 | 조건 | 파일 | 배경 | 글자 |
+| --- | --- | --- | --- | --- |
+| 맑음·흐림 낮 | is_day=1, 비·눈 아님 | `Main.dc.html` | `#F2C14E` | `#141414` |
+| 비 낮 | is_day=1, 코드 51–67, 80–82, 95–99 | `Rain.dc.html` | `#4F5D6B` | `#E6ECF2` |
+| 맑음·흐림 밤 | is_day=0, 비·눈 아님 | `Night.dc.html` | `#1B2140` | `#F4F1E8` |
+| 비 밤 | is_day=0, 비 코드 | `RainNight.dc.html` | `#232B36` | `#E6ECF2` |
+| 눈 | 코드 71–77, 85–86 (낮·밤 공통) | `Snow.dc.html` | `#E9EEF3` | `#141414` |
+
+`.dc.html` 파일은 디자인 캔버스용 형식입니다(`<x-dc>`, `{{t.x}}` 바인딩, `support.js`). 실행용이 아니라 **레이아웃·수치·색·문구의 기준**으로 읽고, 실제 앱은 일반 HTML로 다시 구현하세요. 각 파일 아래 스크립트에 en/de/ko 문구가 있습니다. 숫자는 예시 값입니다.
+
+화면 구조(위→아래): 도시·날짜 / 날씨 그림 / 큰 기온 / 상태 문구 / 체감·최고·최저 한 줄 / (여백) / 강수·강설 블록 또는 한 줄 요약 / 6일 예보.
+
+사용자가 캔버스에서 직접 고친 부분도 반영되어 있습니다(예: 일부 구분선 제거, 맑음 화면 간격). 파일을 기준으로 따르세요.
+
+## 디자인 규칙 (꼭 지킬 것)
+
+- **큰 기온**: Anton 240px, line-height 0.86, letter-spacing -4px, 가운데 정렬.
+- **° 기호**: 숫자의 80% 크기, 윗끝을 숫자 윗선에 맞춤 → `<span style="font-size:.8em;position:relative;top:-.29em">°</span>`. (Anton 실측: 숫자 윗선 1761/2048em, ° 윗선 1607/2048em에서 계산.) 위젯 등 모든 큰 기온에 동일 적용.
+- **상태 문구**: Noto Sans KR 700, 40px, line-height 1.1, `margin-top: -20px`로 기온 아래쪽과 살짝 겹침. 겹치는 부분이 읽히도록 배경색으로 3px 외곽선(여러 겹 `text-shadow`).
+- **비 색 `#8FB8DE`**: 비 그래프 막대와 빗줄기는 어느 화면이든 이 색. 밝은 배경에는 쓰지 않음(그래서 비 오는 낮도 어두운 배경).
+- **눈 그래프 `#5C7A99`**: 강설 막대·눈송이. 구름 `#BCC8D4`.
+- **그래프**: 12시간, 막대 12개, 간격 4px, 높이 48px. 비는 precipitation_probability, 눈은 snowfall(cm). 제목 줄에 시작/그침 시각과 최대값.
+- **단색 배경만**, 그라데이션·그림자·카드 없음. 정보 묶음은 1.5px 선(글자색)으로 구분.
+- **아이콘**: 굵은 단색 실루엣 SVG(해=원, 구름, 빗줄기, 달, 눈 점). 파일에 있는 path를 그대로 재사용.
+- 글꼴: Anton(숫자), Noto Sans KR(문구), JetBrains Mono(날짜·데이터). Google Fonts.
+- 날씨 상태가 바뀌면 `theme-color`(상태 표시줄 색)도 배경색으로.
+
+색·글꼴·간격 토큰 전체: `design/tokens.json`, 원칙 설명: `design/design-system.md`.
+
+## 언어
+
+`navigator.language`가 `de*` → 독일어, `ko*` → 한국어, 그 외 → 영어. 날짜·요일 형식도 각 언어 방식(`Intl.DateTimeFormat`). 문구는 각 `.dc.html` 하단의 en/de/ko 사전을 기준으로 확장.
+
+## 완료 기준
+
+- 아이폰 Safari에서 열면 현재 날씨에 맞는 상태 화면이 실제 데이터로 표시됨.
+- 홈 화면에 추가하면 전체 화면 앱처럼 열림, 아이콘 표시.
+- Scriptable 위젯이 같은 디자인으로 표시되고, 누르면 웹앱 URL이 열림.
+- 사용자에게 설치 방법을 짧게 안내(한국어).

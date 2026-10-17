@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Weather">
+<meta name="theme-color" content="#F2C14E">
+<title>Weather</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #F2C14E; --fg: #141414; --graph: #8FB8DE;
+    --display: "Anton", "Noto Sans KR", sans-serif;
+    --sans: "Noto Sans KR", system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color .4s ease, color .4s ease;
+  }
+  body[data-state="sun"]        { --bg: #F2C14E; --fg: #141414; }
+  body[data-state="rain"]       { --bg: #4F5D6B; --fg: #E6ECF2; --graph: #8FB8DE; }
+  body[data-state="night"]      { --bg: #1B2140; --fg: #F4F1E8; }
+  body[data-state="rain-night"] { --bg: #232B36; --fg: #E6ECF2; --graph: #8FB8DE; }
+  body[data-state="snow"]       { --bg: #E9EEF3; --fg: #141414; --graph: #5C7A99; }
+
+  .app {
+    max-width: 480px; margin: 0 auto; min-height: 100dvh;
+    display: flex; flex-direction: column;
+    padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 28px);
+  }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .city { font-size: 17px; font-weight: 700; }
+  .date { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; margin-top: 2px; }
+  .loc {
+    width: 44px; height: 44px; border-radius: 22px; padding: 0;
+    border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
+    display: flex; align-items: center; justify-content: center; cursor: pointer;
+  }
+  .hero-art { display: flex; justify-content: center; margin-top: 28px; height: 170px; }
+  .hero-art svg { width: 240px; height: 170px; }
+  .temp {
+    font-family: var(--display); font-size: 240px; line-height: .86;
+    text-align: center; letter-spacing: -4px; margin-top: 8px; white-space: nowrap;
+  }
+  .temp.long { font-size: 190px; }
+  .deg { font-size: .8em; position: relative; top: -.29em; }
+  .cond {
+    position: relative; text-align: center; font-size: 40px; font-weight: 700;
+    line-height: 1.1; letter-spacing: -.5px; margin-top: -20px;
+    text-shadow: 3px 0 var(--bg), -3px 0 var(--bg), 0 3px var(--bg), 0 -3px var(--bg),
+                 2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
+  }
+  .feels { text-align: center; font-family: var(--mono); font-size: 12px; letter-spacing: .04em; margin-top: 6px; }
+  .grow { flex-grow: 1; min-height: 24px; }
+
+  .line { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 500; padding: 14px 0; }
+  .line svg { flex: none; }
+  .graph { padding: 14px 0 12px; display: flex; flex-direction: column; gap: 10px; }
+  .graph-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .graph-title { font-size: 14px; font-weight: 700; }
+  .graph-max { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
+  .bars { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; align-items: end; height: 48px; }
+  .bars div { background: var(--graph); min-height: 4px; }
+  .ticks { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10px; }
+
+  .days {
+    border-top: 1.5px solid var(--fg); padding-top: 14px;
+    display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; text-align: center;
+  }
+  .day { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .day-name { font-family: var(--mono); font-size: 11px; }
+  .day-temp { font-family: var(--display); font-size: 22px; }
+  .status { font-family: var(--mono); font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body data-state="sun">
+<main class="app">
+  <div class="top">
+    <div>
+      <div class="city" id="city">Berlin</div>
+      <div class="date" id="date">&nbsp;</div>
+    </div>
+    <button class="loc" id="loc" type="button" aria-label="Use my location">
+      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+
+  <div class="hero-art" id="art" aria-hidden="true"></div>
+  <div class="temp" id="temp">–</div>
+  <div class="cond" id="cond">&nbsp;</div>
+  <div class="feels" id="feels">&nbsp;</div>
+
+  <div class="grow"></div>
+
+  <div class="line" id="line" hidden></div>
+  <div class="graph" id="graph" hidden>
+    <div class="graph-head"><div class="graph-title" id="gtitle"></div><div class="graph-max" id="gmax"></div></div>
+    <div class="bars" id="bars"></div>
+    <div class="ticks" id="ticks"></div>
+  </div>
+
+  <div class="days" id="days"></div>
+  <div class="status" id="status"></div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  // ── Language (follows the device setting) ──
+  var nav = (navigator.language || "en").toLowerCase();
+  var LANG = nav.indexOf("de") === 0 ? "de" : nav.indexOf("ko") === 0 ? "ko" : "en";
+  var LOCALE = { en: "en-GB", de: "de-DE", ko: "ko-KR" }[LANG];
+  document.documentElement.lang = LANG;
+
+  var T = {
+    en: {
+      berlin: "Berlin", here: "Current location", useLoc: "Use my location", useBerlin: "Show Berlin",
+      feels: "Feels {f}° · High {h}° · Low {l}°",
+      noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
+      tomorrow: "Tomorrow {t}: {v}° · {c}",
+      rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
+      snowFrom: "Snow from {t}", snowUntil: "Snow easing around {t}", snowOn: "Snow for the next 12 hours", snowLight: "Light snow possible",
+      max: "Up to {p}%", total: "About {c} cm", now: "Now",
+      updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
+    },
+    de: {
+      berlin: "Berlin", here: "Aktueller Standort", useLoc: "Meinen Standort verwenden", useBerlin: "Berlin anzeigen",
+      feels: "Gefühlt {f}° · Max {h}° · Min {l}°",
+      noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
+      tomorrow: "Morgen {t}: {v}° · {c}",
+      rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
+      snowFrom: "Ab {t} Schnee", snowUntil: "Schnee lässt gegen {t} nach", snowOn: "Schnee in den nächsten 12 Std.", snowLight: "Leichter Schneefall möglich",
+      max: "Bis {p} %", total: "Etwa {c} cm", now: "Jetzt",
+      updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
+    },
+    ko: {
+      berlin: "베를린", here: "현재 위치", useLoc: "내 위치 사용", useBerlin: "베를린 보기",
+      feels: "체감 {f}° · 최고 {h}° · 최저 {l}°",
+      noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
+      tomorrow: "내일 {t} {v}° · {c}",
+      rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
+      snowFrom: "{t}부터 눈", snowUntil: "{t}쯤 그침", snowOn: "12시간 넘게 눈", snowLight: "약한 눈 가능성",
+      max: "최대 {p}%", total: "약 {c}cm", now: "지금",
+      updated: "{t} 업데이트", offline: "오프라인 · 마지막 {t}", loading: "불러오는 중…", failed: "날씨를 불러오지 못했어요"
+    }
+  }[LANG];
+
+  var COND = {
+    clear:      { en: "Clear", de: "Klar", ko: "맑음" },
+    clearNight: { en: "Clear night", de: "Klare Nacht", ko: "맑은 밤" },
+    mainly:     { en: "Mostly clear", de: "Überwiegend klar", ko: "대체로 맑음" },
+    partly:     { en: "Partly cloudy", de: "Leicht bewölkt", ko: "구름 조금" },
+    overcast:   { en: "Overcast", de: "Bedeckt", ko: "흐림" },
+    fog:        { en: "Fog", de: "Nebel", ko: "안개" },
+    drizzle:    { en: "Drizzle", de: "Nieselregen", ko: "이슬비" },
+    rain:       { en: "Rain", de: "Regen", ko: "비" },
+    heavyRain:  { en: "Heavy rain", de: "Starkregen", ko: "강한 비" },
+    freezing:   { en: "Freezing rain", de: "Gefrierender Regen", ko: "어는 비" },
+    showers:    { en: "Showers", de: "Schauer", ko: "소나기" },
+    snow:       { en: "Snow", de: "Schnee", ko: "눈" },
+    heavySnow:  { en: "Heavy snow", de: "Starker Schneefall", ko: "함박눈" },
+    thunder:    { en: "Thunderstorm", de: "Gewitter", ko: "뇌우" }
+  };
+
+  function fmt(s, o) { return s.replace(/\{(\w)\}/g, function (_, k) { return o[k]; }); }
+
+  // ── Weather codes ──
+  function isSnow(c) { return (c >= 71 && c <= 77) || c === 85 || c === 86; }
+  function isRain(c) { return (c >= 51 && c <= 67) || (c >= 80 && c <= 82) || c >= 95; }
+  function condKey(c, isDay) {
+    if (c === 0) return isDay ? "clear" : "clearNight";
+    if (c === 1) return isDay ? "mainly" : "clearNight";
+    if (c === 2) return "partly";
+    if (c === 3) return "overcast";
+    if (c === 45 || c === 48) return "fog";
+    if (c >= 51 && c <= 55) return "drizzle";
+    if (c === 56 || c === 57 || c === 66 || c === 67) return "freezing";
+    if (c === 61 || c === 63) return "rain";
+    if (c === 65) return "heavyRain";
+    if (c === 71 || c === 73 || c === 77) return "snow";
+    if (c === 75 || c === 86) return "heavySnow";
+    if (c === 85) return "snow";
+    if (c >= 80 && c <= 82) return "showers";
+    if (c >= 95) return "thunder";
+    return "partly";
+  }
+  function condLabel(c, isDay) { return COND[condKey(c, isDay)][LANG]; }
+  function stateOf(c, isDay) {
+    if (isSnow(c)) return "snow";
+    if (isRain(c)) return isDay ? "rain" : "rain-night";
+    return isDay ? "sun" : "night";
+  }
+  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", "rain-night": "#232B36", snow: "#E9EEF3" };
+
+  // ── Hero art (from the design files) ──
+  var ART = {
+    sunClear: '<svg viewBox="0 0 240 170"><circle cx="146" cy="72" r="60" fill="#E8621C"/><path d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFF4D6"/></svg>',
+    sunCloudy: '<svg viewBox="0 0 240 170"><circle cx="168" cy="54" r="40" fill="#E8621C"/><path d="M30 150h150a34 34 0 0 0 0-68 50 50 0 0 0-96 12 30 30 0 0 0-54 56z" fill="#FFF4D6"/></svg>',
+    night: '<svg viewBox="0 0 240 170"><circle cx="124" cy="88" r="62" fill="#F4E9C8"/><circle cx="152" cy="68" r="54" fill="#1B2140"/><circle cx="40" cy="40" r="3" fill="#F4E9C8"/><circle cx="206" cy="132" r="2.5" fill="#F4E9C8"/><circle cx="198" cy="26" r="2" fill="#F4E9C8"/><circle cx="30" cy="140" r="2" fill="#F4E9C8"/></svg>',
+    nightCloudy: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#1B2140"/><path d="M36 142h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/></svg>',
+    rain: '<svg viewBox="0 0 240 170"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#2F3842"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M170 112l-8 22" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
+    rainNight: '<svg viewBox="0 0 240 170"><circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#232B36"/><path d="M36 122h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/><path d="M62 136l-8 22M98 136l-8 22M134 136l-8 22M80 140l-6 16M116 140l-6 16" stroke="#8FB8DE" stroke-width="3" stroke-linecap="round"/></svg>',
+    snow: '<svg viewBox="0 0 240 170"><path d="M44 112h132a30 30 0 0 0 0-60 46 46 0 0 0-88 10 26 26 0 0 0-44 50z" fill="#BCC8D4"/><g fill="#5C7A99"><circle cx="64" cy="132" r="5"/><circle cx="100" cy="150" r="5"/><circle cx="136" cy="130" r="5"/><circle cx="172" cy="148" r="5"/><circle cx="82" cy="162" r="3.5"/><circle cx="154" cy="164" r="3.5"/><circle cx="118" cy="168" r="2.5"/></g></svg>'
+  };
+  function artFor(state, c) {
+    var cloudy = c >= 2;
+    if (state === "snow") return ART.snow;
+    if (state === "rain") return ART.rain;
+    if (state === "rain-night") return ART.rainNight;
+    if (state === "night") return cloudy ? ART.nightCloudy : ART.night;
+    return c >= 3 ? ART.sunCloudy : ART.sunClear;
+  }
+
+  // ── Small icons (forecast row, one-line summary) ──
+  function icon(c) {
+    var f = 'fill="currentColor"';
+    if (isSnow(c)) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 11h9a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 4 11z" ' + f + '/><circle cx="5.5" cy="14.5" r="1.4" ' + f + '/><circle cx="9.5" cy="15.5" r="1.4" ' + f + '/><circle cx="13.5" cy="14.5" r="1.4" ' + f + '/></svg>';
+    if (isRain(c)) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 11h9a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 4 11z" ' + f + '/><path d="M6 13.5l-1 2.5M10 13.5l-1 2.5M14 13.5l-1 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>';
+    if (c >= 2) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 15h9a3.5 3.5 0 0 0 0-7 4.5 4.5 0 0 0-8.6 1.2A3 3 0 0 0 4 15z" ' + f + '/></svg>';
+    return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" ' + f + '/></svg>';
+  }
+  var UMBRELLA = '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 9a7 7 0 0 1 14 0z" fill="currentColor"/><path d="M9 9v5a2 2 0 0 1-4 0" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>';
+
+  // ── Time formatting (data times are local to the place, "YYYY-MM-DDTHH:MM") ──
+  function parts(s) { return { y: +s.slice(0, 4), mo: +s.slice(5, 7), d: +s.slice(8, 10), h: +s.slice(11, 13), mi: +s.slice(14, 16) }; }
+  function asDate(s) { var p = parts(s); return new Date(Date.UTC(p.y, p.mo - 1, p.d, p.h || 12, p.mi || 0)); }
+  function hourText(s) {
+    var h = parts(s).h;
+    if (LANG === "ko") return h + "시";
+    if (LANG === "de") return h + " Uhr";
+    var ap = h < 12 ? "am" : "pm"; var hh = h % 12 || 12; return hh + " " + ap;
+  }
+  function dateLine(s) {
+    var d = asDate(s);
+    var day = new Intl.DateTimeFormat(LOCALE, { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" }).format(d);
+    return day + " · " + s.slice(11, 16);
+  }
+  function weekday(s) {
+    return new Intl.DateTimeFormat(LOCALE, { weekday: "short", timeZone: "UTC" }).format(asDate(s)).replace(".", "");
+  }
+  function r(n) { var v = Math.round(n); return v === 0 ? 0 : v; }
+
+  // ── Render ──
+  var $ = function (id) { return document.getElementById(id); };
+
+  function render(data, place, stale) {
+    var cur = data.current, H = data.hourly, D = data.daily;
+    var isDay = cur.is_day === 1;
+    var state = stateOf(cur.weather_code, isDay);
+    document.body.dataset.state = state;
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", THEME[state]);
+
+    $("city").textContent = place.gps ? T.here : T.berlin;
+    $("date").textContent = dateLine(cur.time);
+    $("art").innerHTML = artFor(state, cur.weather_code);
+
+    var t = r(cur.temperature_2m);
+    var tempEl = $("temp");
+    tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
+    tempEl.classList.toggle("long", String(t).length >= 3);
+    $("cond").textContent = condLabel(cur.weather_code, isDay);
+    $("feels").textContent = fmt(T.feels, { f: r(cur.apparent_temperature), h: r(D.temperature_2m_max[0]), l: r(D.temperature_2m_min[0]) });
+
+    // index of the current hour
+    var key = cur.time.slice(0, 13);
+    var i0 = Math.max(0, H.time.findIndex(function (x) { return x.slice(0, 13) === key; }));
+    var hours = [];
+    for (var i = i0; i < Math.min(i0 + 12, H.time.length); i++) hours.push(i);
+
+    var line = $("line"), graph = $("graph");
+    if (state === "rain" || state === "rain-night" || state === "snow") {
+      line.hidden = true; graph.hidden = false;
+      var snow = state === "snow";
+      var vals = hours.map(function (i) { return snow ? (H.snowfall[i] || 0) : (H.precipitation_probability[i] || 0); });
+      var top = snow ? Math.max.apply(null, vals.concat([0.5])) : 100;
+      $("bars").innerHTML = vals.map(function (v) { return '<div style="height:' + Math.max(4, Math.round(v / top * 48)) + 'px"></div>'; }).join("");
+      var ticksAt = [0, 2, 4, 6, 8, 11];
+      $("ticks").innerHTML = ticksAt.map(function (k) {
+        if (k >= hours.length) return "<div></div>";
+        return "<div>" + (k === 0 ? T.now : H.time[hours[k]].slice(11, 13)) + "</div>";
+      }).join("");
+
+      var wet = function (k) { var i = hours[k]; return snow ? (H.snowfall[i] || 0) >= 0.1 : (H.precipitation_probability[i] || 0) >= 50; };
+      var title;
+      if (wet(0)) {
+        var endK = -1; for (var k = 1; k < hours.length; k++) { if (!wet(k)) { endK = k; break; } }
+        title = endK > 0 ? fmt(snow ? T.snowUntil : T.rainUntil, { t: hourText(H.time[hours[endK]]) }) : (snow ? T.snowOn : T.rainOn);
+      } else {
+        var startK = -1; for (var k2 = 1; k2 < hours.length; k2++) { if (wet(k2)) { startK = k2; break; } }
+        title = startK > 0 ? fmt(snow ? T.snowFrom : T.rainFrom, { t: hourText(H.time[hours[startK]]) }) : (snow ? T.snowLight : T.rainLight);
+      }
+      $("gtitle").textContent = title;
+      if (snow) {
+        var sum = vals.reduce(function (a, b) { return a + b; }, 0);
+        $("gmax").textContent = fmt(T.total, { c: sum < 1 ? sum.toFixed(1).replace(".", LANG === "de" ? "," : ".") : Math.round(sum) });
+      } else {
+        $("gmax").textContent = fmt(T.max, { p: Math.max.apply(null, vals) });
+      }
+    } else {
+      graph.hidden = true; line.hidden = false;
+      var text;
+      if (state === "night") {
+        var morning = -1;
+        for (var j = i0 + 1; j < H.time.length; j++) { if (parts(H.time[j]).h === 8) { morning = j; break; } }
+        text = morning >= 0 ? fmt(T.tomorrow, { t: hourText(H.time[morning]), v: r(H.temperature_2m[morning]), c: condLabel(H.weather_code[morning], 1) }) : T.noRain;
+        line.innerHTML = icon(morning >= 0 ? H.weather_code[morning] : 0) + "<span></span>";
+      } else {
+        var hit = -1;
+        for (var m = 0; m < hours.length; m++) { if ((H.precipitation_probability[hours[m]] || 0) >= 50) { hit = hours[m]; break; } }
+        text = hit >= 0 ? fmt(T.rainAt, { t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }) : T.noRain;
+        line.innerHTML = UMBRELLA + "<span></span>";
+      }
+      line.querySelector("span").textContent = text;
+    }
+
+    var html = "";
+    for (var d = 1; d <= 6 && d < D.time.length; d++) {
+      html += '<div class="day"><div class="day-name">' + weekday(D.time[d]) + "</div>" + icon(D.weather_code[d]) +
+              '<div class="day-temp">' + r(D.temperature_2m_max[d]) + "</div></div>";
+    }
+    $("days").innerHTML = html;
+
+    var when = new Date(data._fetched).toTimeString().slice(0, 5);
+    $("status").textContent = fmt(stale ? T.offline : T.updated, { t: when });
+  }
+
+  // ── Place & data ──
+  var BERLIN = { lat: 52.52, lon: 13.405, gps: false };
+  function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  function load(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
+
+  var place = load("wx-place") || BERLIN;
+
+  function updateLocButton() {
+    $("loc").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
+  }
+
+  function url(p) {
+    return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
+      "&current=temperature_2m,apparent_temperature,weather_code,is_day" +
+      "&hourly=temperature_2m,precipitation_probability,snowfall,weather_code,is_day" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
+      "&timezone=auto&forecast_days=8";
+  }
+
+  var busy = false;
+  function refresh() {
+    if (busy) return; busy = true;
+    var cached = load("wx-data");
+    if (cached && !document.getElementById("days").innerHTML) render(cached, place, true);
+    if (!cached) $("status").textContent = T.loading;
+    fetch(url(place), { cache: "no-store" })
+      .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(function (data) {
+        if (!data.current) throw new Error("bad data");
+        data._fetched = Date.now();
+        store("wx-data", data);
+        render(data, place, false);
+      })
+      .catch(function () {
+        var c = load("wx-data");
+        if (c) render(c, place, true); else $("status").textContent = T.failed;
+      })
+      .then(function () { busy = false; });
+  }
+
+  $("loc").addEventListener("click", function () {
+    if (place.gps) {
+      place = BERLIN; store("wx-place", place); updateLocButton(); refresh(); return;
+    }
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      place = { lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true };
+      store("wx-place", place); updateLocButton(); refresh();
+    }, function () {}, { maximumAge: 600000, timeout: 10000 });
+  });
+
+  updateLocButton();
+  refresh();
+  setInterval(refresh, 15 * 60 * 1000);
+  document.addEventListener("visibilitychange", function () { if (!document.hidden) refresh(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Weather widgets</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Noto+Sans+KR:wght@400;500;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#141414}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 760px; height: 600px; box-sizing: border-box; padding: 40px; background: #ECEAE5; color: #141414; display: flex; flex-direction: column; gap: 20px; font-family: 'Noto Sans KR', sans-serif">
+  <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.08em">{{t.home}}</div>
+  <div style="display: flex; gap: 24px; align-items: flex-start">
+    <div style="width: 170px; height: 170px; box-sizing: border-box; border-radius: 26px; background: #F2C14E; padding: 16px; display: flex; flex-direction: column">
+      <div style="display: flex; justify-content: space-between; align-items: center">
+        <div style="font-size: 12px; font-weight: 700">{{t.city}}</div>
+        <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden="true"><circle cx="11" cy="7" r="5" fill="#E8621C"/><path d="M3 15h8a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 3 15z" fill="#141414"/></svg>
+      </div>
+      <div style="flex-grow: 1"></div>
+      <div style="font-family: 'Anton', sans-serif; font-size: 78px; line-height: 0.86; letter-spacing: -2px">14<span style="position: relative; top: -0.29em; font-size: 0.8em">°</span></div>
+      <div style="font-size: 12px; font-weight: 700; margin-top: 8px">{{t.partly}}</div>
+    </div>
+
+    <div style="width: 364px; height: 170px; box-sizing: border-box; border-radius: 26px; background: #4F5D6B; color: #E6ECF2; padding: 16px; display: flex; gap: 18px">
+      <div style="display: flex; flex-direction: column; width: 110px">
+        <div style="font-size: 12px; font-weight: 700">{{t.city}}</div>
+        <div style="flex-grow: 1"></div>
+        <div style="font-family: 'Anton', sans-serif; font-size: 78px; line-height: 0.86; letter-spacing: -2px">9<span style="position: relative; top: -0.29em; font-size: 0.8em">°</span></div>
+        <div style="font-size: 12px; font-weight: 700; margin-top: 8px">{{t.rainCond}}</div>
+      </div>
+      <div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px">
+        <div style="font-size: 12px; font-weight: 700">{{t.rainFrom}}</div>
+        <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 3px; align-items: end; height: 56px">
+          <div style="height: 4px; background: #8FB8DE"></div>
+          <div style="height: 7px; background: #8FB8DE"></div>
+          <div style="height: 22px; background: #8FB8DE"></div>
+          <div style="height: 38px; background: #8FB8DE"></div>
+          <div style="height: 50px; background: #8FB8DE"></div>
+          <div style="height: 56px; background: #8FB8DE"></div>
+          <div style="height: 46px; background: #8FB8DE"></div>
+          <div style="height: 34px; background: #8FB8DE"></div>
+          <div style="height: 20px; background: #8FB8DE"></div>
+          <div style="height: 11px; background: #8FB8DE"></div>
+          <div style="height: 7px; background: #8FB8DE"></div>
+          <div style="height: 4px; background: #8FB8DE"></div>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 10px">
+          <div>{{t.now}}</div><div>18</div><div>22</div><div>01</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.08em; margin-top: 12px">{{t.lock}}</div>
+  <div style="border-radius: 26px; background: #1B2140; color: #F4F1E8; padding: 28px; display: flex; flex-direction: column; gap: 22px">
+    <div style="text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 13px">{{t.inline}}</div>
+    <div style="display: flex; gap: 24px; justify-content: center; align-items: center">
+      <div style="width: 76px; height: 76px; border-radius: 38px; background: rgba(244, 241, 232, 0.16); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px">
+        <svg width="16" height="16" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 15h9a3.5 3.5 0 0 0 0-7 4.5 4.5 0 0 0-8.6 1.2A3 3 0 0 0 4 15z" fill="#F4F1E8"/></svg>
+        <div style="font-family: 'Anton', sans-serif; font-size: 24px; line-height: 1">14<span style="position: relative; top: -0.29em; font-size: 0.8em">°</span></div>
+      </div>
+      <div style="width: 190px; height: 76px; box-sizing: border-box; border-radius: 14px; background: rgba(244, 241, 232, 0.16); padding: 10px 12px; display: flex; flex-direction: column; justify-content: center; gap: 2px">
+        <div style="display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 700">
+          <svg width="14" height="14" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 15h9a3.5 3.5 0 0 0 0-7 4.5 4.5 0 0 0-8.6 1.2A3 3 0 0 0 4 15z" fill="#F4F1E8"/></svg>
+          14° {{t.partly}}
+        </div>
+        <div style="font-size: 12px">{{t.hilo}}</div>
+        <div style="font-size: 12px">{{t.rainShort}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"lang":{"editor":"enum","options":["auto","en","de","ko"],"default":"auto"},"$preview":{"width":760,"height":600}}'>
+class Component extends DCLogic {
+renderVals() {
+var pick = this.props.lang ?? 'auto';
+var code = pick;
+if (pick === 'auto') {
+  var nav = (typeof navigator !== 'undefined' && navigator.language) ? navigator.language.toLowerCase() : 'en';
+  code = nav.indexOf('de') === 0 ? 'de' : nav.indexOf('ko') === 0 ? 'ko' : 'en';
+}
+var S = {
+  en: { home: 'HOME SCREEN', lock: 'LOCK SCREEN', city: 'Berlin', partly: 'Partly cloudy', rainCond: 'Rain', rainFrom: 'Rain from 3 pm · 80%', now: 'Now', inline: '14° Partly cloudy · Rain 3 pm 80%', hilo: '↑16° ↓8° · Feels 12°', rainShort: 'Rain 3 pm · 80%' },
+  de: { home: 'HOME-BILDSCHIRM', lock: 'SPERRBILDSCHIRM', city: 'Berlin', partly: 'Leicht bewölkt', rainCond: 'Regen', rainFrom: 'Ab 15 Uhr Regen · 80 %', now: 'Jetzt', inline: '14° Leicht bewölkt · 15 Uhr Regen 80 %', hilo: '↑16° ↓8° · Gefühlt 12°', rainShort: '15 Uhr Regen · 80 %' },
+  ko: { home: '홈 화면', lock: '잠금화면', city: '베를린', partly: '구름 조금', rainCond: '비', rainFrom: '15시부터 비 · 80%', now: '지금', inline: '14° 구름 조금 · 15시 비 80%', hilo: '↑16° ↓8° · 체감 12°', rainShort: '15시 비 · 80%' }
+};
+return { t: S[code] || S.en };
+}
+}
+</script>
+</body>
+</html>
