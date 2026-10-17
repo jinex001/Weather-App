@@ -58,14 +58,23 @@
     text-align: center; letter-spacing: -4px; margin-top: 8px; white-space: nowrap;
   }
   .temp.long { font-size: 190px; }
+  .temp-in { position: relative; display: inline-block; }
   .deg { font-size: .8em; position: relative; top: -.29em; }
+  .feels {
+    position: absolute; right: .02em; bottom: .11em; letter-spacing: 0; line-height: 1;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 4px;
+    text-shadow: 3px 0 var(--bg), -3px 0 var(--bg), 0 3px var(--bg), 0 -3px var(--bg),
+                 2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
+  }
+  .feels-l { font-family: var(--mono); font-size: 12px; letter-spacing: .04em; }
+  .feels-n { font-family: var(--display); font-size: 56px; white-space: nowrap; }
   .cond {
     position: relative; text-align: center; font-size: 40px; font-weight: 700;
     line-height: 1.1; letter-spacing: -.5px; margin-top: -20px;
     text-shadow: 3px 0 var(--bg), -3px 0 var(--bg), 0 3px var(--bg), 0 -3px var(--bg),
                  2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
   }
-  .feels { text-align: center; font-family: var(--mono); font-size: 12px; letter-spacing: .04em; margin-top: 6px; }
+  .sub { text-align: center; font-family: var(--mono); font-size: 12px; letter-spacing: .04em; margin-top: 10px; }
   .grow { flex-grow: 1; min-height: 24px; }
 
   .line { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 500; padding: 14px 0; }
@@ -78,6 +87,16 @@
   .bars div { background: var(--graph); min-height: 4px; }
   .ticks { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10px; }
 
+  .hours-wrap { border-top: 1.5px solid var(--fg); }
+  .hours {
+    display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
+    margin: 0 -24px; padding: 14px 24px;
+  }
+  .hours::-webkit-scrollbar { display: none; }
+  .hour { flex: none; width: 44px; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .hour-t { font-family: var(--mono); font-size: 11px; }
+  .hour-v { font-family: var(--display); font-size: 22px; }
+  .hour-p { font-family: var(--mono); font-size: 10px; min-height: 12px; }
   .days {
     border-top: 1.5px solid var(--fg); padding-top: 14px;
     display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; text-align: center;
@@ -104,7 +123,7 @@
   <div class="hero-art" id="art" aria-hidden="true"></div>
   <div class="temp" id="temp">–</div>
   <div class="cond" id="cond">&nbsp;</div>
-  <div class="feels" id="feels">&nbsp;</div>
+  <div class="sub" id="sub">&nbsp;</div>
 
   <div class="grow"></div>
 
@@ -115,6 +134,7 @@
     <div class="ticks" id="ticks"></div>
   </div>
 
+  <div class="hours-wrap"><div class="hours" id="hours"></div></div>
   <div class="days" id="days"></div>
   <div class="status" id="status"></div>
 </main>
@@ -132,7 +152,7 @@
   var T = {
     en: {
       berlin: "Berlin", here: "Current location", useLoc: "Use my location", useBerlin: "Show Berlin",
-      feels: "Feels {f}° · High {h}° · Low {l}°",
+      feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
       rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
@@ -142,7 +162,7 @@
     },
     de: {
       berlin: "Berlin", here: "Aktueller Standort", useLoc: "Meinen Standort verwenden", useBerlin: "Berlin anzeigen",
-      feels: "Gefühlt {f}° · Max {h}° · Min {l}°",
+      feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
       rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
@@ -152,7 +172,7 @@
     },
     ko: {
       berlin: "베를린", here: "현재 위치", useLoc: "내 위치 사용", useBerlin: "베를린 보기",
-      feels: "체감 {f}° · 최고 {h}° · 최저 {l}°",
+      feelsL: "체감", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
       rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
@@ -233,11 +253,12 @@
   }
 
   // ── Small icons (forecast row, one-line summary) ──
-  function icon(c) {
+  function icon(c, night) {
     var f = 'fill="currentColor"';
     if (isSnow(c)) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 11h9a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 4 11z" ' + f + '/><circle cx="5.5" cy="14.5" r="1.4" ' + f + '/><circle cx="9.5" cy="15.5" r="1.4" ' + f + '/><circle cx="13.5" cy="14.5" r="1.4" ' + f + '/></svg>';
     if (isRain(c)) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 11h9a3 3 0 0 0 0-6 4 4 0 0 0-7.6 1A2.5 2.5 0 0 0 4 11z" ' + f + '/><path d="M6 13.5l-1 2.5M10 13.5l-1 2.5M14 13.5l-1 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>';
     if (c >= 2) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 15h9a3.5 3.5 0 0 0 0-7 4.5 4.5 0 0 0-8.6 1.2A3 3 0 0 0 4 15z" ' + f + '/></svg>';
+    if (night) return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M11.5 2.5a6.5 6.5 0 1 0 4 11.6A7 7 0 0 1 11.5 2.5z" ' + f + '/></svg>';
     return '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><circle cx="9" cy="9" r="6" ' + f + '/></svg>';
   }
   var UMBRELLA = '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 9a7 7 0 0 1 14 0z" fill="currentColor"/><path d="M9 9v5a2 2 0 0 1-4 0" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>';
@@ -264,6 +285,16 @@
   // ── Render ──
   var $ = function (id) { return document.getElementById(id); };
 
+  // Feels-like sits in the empty space under the big °; shrink it toward that width (it may overlap a wide digit, outlined like the condition)
+  function fitFeels() {
+    var deg = document.querySelector(".temp-in > .deg"), num = document.querySelector(".feels-n");
+    if (!deg || !num) return;
+    var size = 56;
+    num.style.fontSize = size + "px";
+    while (num.offsetWidth > deg.offsetWidth && size > 40) { size -= 2; num.style.fontSize = size + "px"; }
+  }
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitFeels);
+
   function render(data, place, stale) {
     var cur = data.current, H = data.hourly, D = data.daily;
     var isDay = cur.is_day === 1;
@@ -277,10 +308,14 @@
 
     var t = r(cur.temperature_2m);
     var tempEl = $("temp");
-    tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
+    var f = r(cur.apparent_temperature);
+    tempEl.innerHTML = '<span class="temp-in">' + t + '<span class="deg">°</span>' +
+      '<span class="feels"><span class="feels-l"></span><span class="feels-n">' + f + '<span class="deg">°</span></span></span></span>';
+    tempEl.querySelector(".feels-l").textContent = T.feelsL;
+    fitFeels();
     tempEl.classList.toggle("long", String(t).length >= 3);
     $("cond").textContent = condLabel(cur.weather_code, isDay);
-    $("feels").textContent = fmt(T.feels, { f: r(cur.apparent_temperature), h: r(D.temperature_2m_max[0]), l: r(D.temperature_2m_min[0]) });
+    $("sub").textContent = fmt(T.sub, { h: r(D.temperature_2m_max[0]), l: r(D.temperature_2m_min[0]), w: r(cur.wind_speed_10m || 0) });
 
     // index of the current hour
     var key = cur.time.slice(0, 13);
@@ -334,6 +369,15 @@
       line.querySelector("span").textContent = text;
     }
 
+    var hh = "";
+    for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
+      var x = i0 + n, pp = H.precipitation_probability[x] || 0;
+      hh += '<div class="hour"><div class="hour-t">' + (n === 0 ? T.now : H.time[x].slice(11, 13)) + "</div>" +
+            icon(H.weather_code[x], H.is_day[x] === 0) + '<div class="hour-v">' + r(H.temperature_2m[x]) + "°</div>" +
+            '<div class="hour-p">' + (pp >= 20 ? pp + "%" : "") + "</div></div>";
+    }
+    $("hours").innerHTML = hh;
+
     var html = "";
     for (var d = 1; d <= 6 && d < D.time.length; d++) {
       html += '<div class="day"><div class="day-name">' + weekday(D.time[d]) + "</div>" + icon(D.weather_code[d]) +
@@ -358,7 +402,7 @@
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
-      "&current=temperature_2m,apparent_temperature,weather_code,is_day" +
+      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m" +
       "&hourly=temperature_2m,precipitation_probability,snowfall,weather_code,is_day" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
       "&timezone=auto&forecast_days=8";
