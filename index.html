@@ -580,7 +580,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b52";
+  var BUILD = "b53";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1088,7 +1088,7 @@
       line.querySelector("span").textContent = text;
     }
 
-    $("summary").textContent = summaryText(cur, H, D, i0, hours, isDay);
+    $("summary").textContent = summaryText(cur, H, D, i0, hours, isDay, band);
     $("summary").hidden = false;
 
     var hh = "";
@@ -1123,8 +1123,8 @@
     $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + " · " + BUILD;
   }
 
-  // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind
-  function summaryText(cur, H, D, i0, hours, isDay) {
+  // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind, outfit
+  function summaryText(cur, H, D, i0, hours, isDay, band) {
     var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; };
     var out = [fmt(T.sumDay, { c: low1(condLabel(D.weather_code[0], 1)), h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)) })];
     var wet = function (i) { return (H.precipitation_probability[i] || 0) >= 50; };
@@ -1143,6 +1143,8 @@
       if (low >= 0 && cur.temperature_2m - H.temperature_2m[low] >= 4) out.push(fmt(T.sumDrop, { v: r(H.temperature_2m[low]), t: hourText(H.time[low]) }));
     }
     if ((cur.wind_speed_10m || 0) >= 30) out.push(fmt(T.sumWind, { w: r(cur.wind_speed_10m) }));
+    // one outfit line: the band's deck from Today's Look
+    out.push(LOOK[band[1]].deck[LANG]);
     return out.join(" ");
   }
 
