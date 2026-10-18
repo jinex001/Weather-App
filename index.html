@@ -215,11 +215,16 @@
   /* outfit photo between the deck and the items; plain, no frame */
   /* the sheet crops are small (~75px wide), so keep them at about half width until full-size photos arrive */
   .lk-photo { display: block; width: 56%; height: auto; margin-top: 22px; background: rgba(20,20,20,.06); }
-  .lk-baby .lk-photo { margin-top: 14px; }
   /* chilly sheet (look/chilly/): one large look photo, then the pieces as a 3-column grid */
   .lk-hero { width: 100%; }
   .lk-pieces { margin-top: 22px; }
-  .lk-tabs { margin-top: 18px; }
+  /* group switcher between the headline and the deck (b48): one pill track, the picked segment filled with ink */
+  .lk-seg { display: flex; margin-top: 16px; padding: 4px; border-radius: 22px; background: rgba(20,20,20,.08); }
+  .lk-seg button { flex: 1 1 auto; padding: 10px 6px; border: 0; border-radius: 18px; background: none; cursor: pointer;
+    font: 700 11.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: var(--lk-ink); white-space: nowrap; }
+  .lk-seg button.on { background: var(--lk-ink); color: var(--lk-bg); }
+  .lk-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 22px; }
+  .lk-pair .lk-photo { width: 100%; margin-top: 0; aspect-ratio: 1; object-fit: cover; }
   .lk-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 8px; margin-top: 10px; }
   .lk-piece img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: contain; background: #FFFFFF; }
   .lk-piece span { display: block; margin-top: 5px; font-size: 11px; font-weight: 600; line-height: 1.3; }
@@ -229,9 +234,6 @@
   .lk-what { font-size: 16px; font-weight: 700; line-height: 1.3; margin-top: 1px; }
   .lk-quote { margin-top: 24px; font-size: 26px; font-weight: 700; line-height: 1.2; }
   .lk-quote small { display: block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 6px; }
-  .lk-baby { margin-top: 30px; }
-  .lk-bt { font-family: var(--display); letter-spacing: 0; font-size: 34px; line-height: .9; text-transform: uppercase; }
-  .lk-baby p { margin: 10px 0 0; font-size: 14px; font-weight: 600; line-height: 1.45; }
   .lk-foot { margin-top: 28px; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; }
   .lk-foot button, .lk-skip { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 6px 0; cursor: pointer; }
   .lk-q { margin-top: 26px; }
@@ -545,7 +547,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b47";
+  var BUILD = "b48";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -639,19 +641,19 @@
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
-          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]], styles: ["러닝·운동", "스트리트웨어", "미니멀"],
+          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
-          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal"],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
-          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal"],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
   var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["baby", "Baby", ["y", "n"]]];
@@ -793,10 +795,14 @@
   function lookContent(v, profile) {
     var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
     var fem = profile.gender === "f", pics = lookPhotos(v, profile);
-    var C = band[1] === "chilly" ? CHILLY[pics.style] : (STYLE_TEXT[band[1]] || {})[pics.style], deck = C ? C.deck : L.deck;
-    var items = C ? C.items[pics.g].map(function (it) { return [it[0], it[1][LANG]]; })
+    // Baby is a fourth segment, only for people who go out with a baby; it shows the baby text and both baby photos
+    var baby = profile.baby === "y" && profile.style === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
+    var C = baby ? null : band[1] === "chilly" ? CHILLY[pics.style] : (STYLE_TEXT[band[1]] || {})[pics.style];
+    var deck = baby ? L.baby : C ? C.deck : L.deck;
+    var items = baby ? [] : C ? C.items[pics.g].map(function (it) { return [it[0], it[1][LANG]]; })
       : L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
-    var shot = C && C.pieces ? '<img class="lk-photo lk-hero" src="look/chilly/' + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">' +
+    var shot = baby ? '<div class="lk-pair">' + photo(pics.baby.replace(/baby-\w+-/, "baby-street-")) + photo(pics.baby.replace(/baby-\w+-/, "baby-minimal-")) + "</div>"
+      : C && C.pieces ? '<img class="lk-photo lk-hero" src="look/chilly/' + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">' +
       '<div class="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-grid">' + C.pieces[pics.g].map(function (pc, i) {
         return '<div class="lk-piece"><img src="look/chilly/' + pics.style + "-" + pics.g + "-p" + (i + 1) + '.jpg" alt="" onerror="this.remove()"><span>' + esc(pc[LANG]) + "</span></div>";
       }).join("") + "</div></div>"
@@ -824,15 +830,16 @@
     if (profile.age === "50" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
 
     return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
-      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(deck[LANG]) + "</div>" +
-      '<div class="lk-opts lk-tabs" role="tablist">' + STYLES.map(function (st, i) {
-        return '<button type="button" role="tab" class="lk-opt' + (st === pics.style ? " on" : "") + '" data-style="' + st + '" aria-selected="' + (st === pics.style) + '"><span>' + esc(LT.styles[i]) + "</span></button>";
-      }).join("") + "</div>" + shot +
+      '<div class="lk-head">' + L.head + "</div>" +
+      '<div class="lk-seg" role="tablist">' + tabs.map(function (st, i) {
+        var on = st === (baby ? "baby" : pics.style);
+        return '<button type="button" role="tab" class="' + (on ? "on" : "") + '" data-style="' + st + '" aria-selected="' + on + '">' + esc(LT.styles[i]) + "</button>";
+      }).join("") + "</div>" +
+      '<div class="lk-deck">' + esc(deck[LANG]) + "</div>" + shot +
       '<div class="lk-items">' + items.map(function (it) {
         return '<div class="lk-item"><div class="lk-cat">' + it[0] + '</div><div class="lk-what">' + esc(it[1]) + "</div></div>";
       }).join("") + "</div>" +
       quotes.map(function (q) { return '<div class="lk-quote"><small>' + q[0] + "</small>" + esc(q[1]) + "</div>"; }).join("") +
-      (profile.baby === "y" ? '<div class="lk-baby"><div class="lk-bt">With baby</div><p>' + esc(L.baby[LANG]) + "</p>" + photo(pics.baby) + "</div>" : "") +
       '<div class="lk-foot"><span>Updated ' + v.updated + '</span><button type="button" id="lk-edit">Edit profile ›</button></div>';
   }
 
@@ -868,7 +875,7 @@
     } else {
       body.innerHTML = lookContent(v, profile);
       $("lk-edit").addEventListener("click", function () { paintLook(true); });
-      [].forEach.call(body.querySelectorAll(".lk-tabs .lk-opt"), function (b) {
+      [].forEach.call(body.querySelectorAll(".lk-seg button"), function (b) {
         b.addEventListener("click", function () {
           var sheet = $("look"), y = sheet.scrollTop;
           profile.style = b.dataset.style; store("wx-profile", profile);
