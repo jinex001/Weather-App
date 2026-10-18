@@ -219,6 +219,7 @@
   /* chilly sheet (look/chilly/): one large look photo, then the pieces as a 3-column grid */
   .lk-hero { width: 100%; }
   .lk-pieces { margin-top: 22px; }
+  .lk-tabs { margin-top: 18px; }
   .lk-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 8px; margin-top: 10px; }
   .lk-piece img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: contain; background: #FFFFFF; }
   .lk-piece span { display: block; margin-top: 5px; font-size: 11px; font-weight: 600; line-height: 1.3; }
@@ -544,7 +545,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b37";
+  var BUILD = "b38";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -637,24 +638,26 @@
     ko: { rainNow: "우산 · 지금 비가 와요", rainNowWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · 지금 비가 와요", rain: "우산 · {t}쯤 비 {p}%", rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
-          ask: "오늘 뭘 입을지 맞춰드릴게요. 네 가지만 알려주세요.", q: ["성별", "연령대", "평소 스타일은?", "아기와 함께 외출하나요?"],
-          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["러닝·운동", "스트리트웨어", "미니멀"], ["네", "아니요"]],
+          ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
+          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]], styles: ["러닝·운동", "스트리트웨어", "미니멀"],
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
-          ask: "Let's match today's outfit to you. Just four questions.", q: ["Gender", "Age", "Your usual style?", "Going out with a baby?"],
-          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Running", "Streetwear", "Minimal"], ["Yes", "No"]],
+          ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal"],
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
-          ask: "Wir passen den Look an dich an. Nur vier Fragen.", q: ["Geschlecht", "Alter", "Dein Stil?", "Mit Baby unterwegs?"],
-          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Laufen", "Streetwear", "Minimal"], ["Ja", "Nein"]],
+          ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal"],
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
-  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["style", "Style", ["run", "street", "minimal"]], ["baby", "Baby", ["y", "n"]]];
-  // Profiles saved before the style question get asked once more (old answers stay picked).
+  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["baby", "Baby", ["y", "n"]]];
+  // Style is picked with tabs on the look page (saved in the profile too), not asked in the questionnaire.
+  var STYLES = ["run", "street", "minimal"];
+  // Profiles saved before b36 get asked once more (old answers stay picked).
   var PROFILE_V = 2;
 
   // Outfit photos in look/: 7 temperature columns from the editorial sheet (T1 ≥30 … T7 <0), picked by feels-like.
@@ -768,7 +771,10 @@
     if (profile.age === "50" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
 
     return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
-      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(deck[LANG]) + "</div>" + shot +
+      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(deck[LANG]) + "</div>" +
+      '<div class="lk-opts lk-tabs" role="tablist">' + STYLES.map(function (st, i) {
+        return '<button type="button" role="tab" class="lk-opt' + (st === pics.style ? " on" : "") + '" data-style="' + st + '" aria-selected="' + (st === pics.style) + '"><span>' + esc(LT.styles[i]) + "</span></button>";
+      }).join("") + "</div>" + shot +
       '<div class="lk-items">' + items.map(function (it) {
         return '<div class="lk-item"><div class="lk-cat">' + it[0] + '</div><div class="lk-what">' + esc(it[1]) + "</div></div>";
       }).join("") + "</div>" +
@@ -804,11 +810,18 @@
         });
       });
       $("lk-go").disabled = Object.keys(picked).length < QKEYS.length;
-      $("lk-go").addEventListener("click", function () { picked.v = PROFILE_V; store("wx-profile", picked); paintLook(); });
+      $("lk-go").addEventListener("click", function () { picked.v = PROFILE_V; if (profile && profile.style) picked.style = profile.style; store("wx-profile", picked); paintLook(); });
       $("lk-skip").addEventListener("click", function () { var p = profile || {}; p.v = PROFILE_V; store("wx-profile", p); paintLook(); });
     } else {
       body.innerHTML = lookContent(v, profile);
       $("lk-edit").addEventListener("click", function () { paintLook(true); });
+      [].forEach.call(body.querySelectorAll(".lk-tabs .lk-opt"), function (b) {
+        b.addEventListener("click", function () {
+          var sheet = $("look"), y = sheet.scrollTop;
+          profile.style = b.dataset.style; store("wx-profile", profile);
+          paintLook(); sheet.scrollTop = y; // stay where the tabs are
+        });
+      });
     }
     $("look").scrollTop = 0;
   }
