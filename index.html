@@ -545,7 +545,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b41";
+  var BUILD = "b42";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -728,6 +728,25 @@
   // Full-size look photos the user sent one by one (look/<band>/<style>-<m|f>.jpg); these replace the small sheet crop.
   var HERO = { "cool/street-m": 1, "cool/minimal-m": 1, "cool/run-m": 1 };
 
+  // Style-specific deck and items for other bands (same shape as CHILLY, without pieces). Text: design/look-cool.md.
+  var STYLE_TEXT = {
+    cool: {
+      run: { deck: { ko: "반팔에 얇은 긴팔 하나. 5분 뛰면 반팔 날씨예요.", en: "A tee and one thin long sleeve. Five minutes in, it's T-shirt weather.", de: "Shirt plus ein dünnes Langarm. Nach fünf Minuten ist es T-Shirt-Wetter." },
+        items: {
+          m: [["Outer", { ko: "얇은 패커블 바람막이. 뛰다가 벗어 허리에 묶을 수 있는 것", en: "A thin packable windbreaker you can take off and tie round your waist", de: "Dünne, packbare Windjacke, die du ausziehen und um die Hüfte binden kannst" }],
+              ["Top", { ko: "반팔 기능성 티 + 얇은 긴팔 레이어. 15° 넘으면 반팔만", en: "Short-sleeve tech tee + a thin long-sleeve layer; above 15°, just the tee", de: "Kurzarm-Funktionsshirt + dünnes Langarmshirt; über 15° nur das Shirt" }],
+              ["Bottom", { ko: "러닝 쇼츠 + 얇은 타이츠, 또는 7부 타이츠", en: "Running shorts over thin tights, or 3/4 tights", de: "Laufshorts über dünnen Tights oder 3/4-Tights" }],
+              ["Shoes", { ko: "쿠션 러닝화. 젖은 길이면 밑창 접지력 확인", en: "Cushioned running shoes; check the grip on wet paths", de: "Gedämpfte Laufschuhe; auf nassen Wegen auf Grip achten" }],
+              ["Socks", { ko: "얇은 기능성 러닝 양말(발목 위)", en: "Thin tech running socks, above the ankle", de: "Dünne Funktions-Laufsocken, über dem Knöchel" }],
+              ["Bring", { ko: "얇은 비니나 헤어밴드. 10~12°면 얇은 장갑도", en: "A thin beanie or headband; light gloves at 10–12°", de: "Dünne Mütze oder Stirnband; bei 10–12° leichte Handschuhe" }]],
+          f: [["Outer", { ko: "얇은 패커블 바람막이나 러닝 베스트", en: "A thin packable windbreaker or running vest", de: "Dünne packbare Windjacke oder Laufweste" }],
+              ["Top", { ko: "반팔 기능성 티 + 얇은 긴팔 하프집. 안에 스포츠 브라", en: "Short-sleeve tech tee + thin long-sleeve half-zip, sports bra underneath", de: "Kurzarm-Funktionsshirt + dünnes Langarm-Half-Zip, Sport-BH darunter" }],
+              ["Bottom", { ko: "하이웨이스트 레깅스나 7부 레깅스. 위에 쇼츠도 좋아요", en: "High-waist full or 7/8 leggings; shorts on top work too", de: "High-Waist-Leggings oder 7/8-Leggings, gern mit Shorts darüber" }],
+              ["Shoes", { ko: "쿠션 러닝화. 젖은 길이면 밑창 접지력 확인", en: "Cushioned running shoes; check the grip on wet paths", de: "Gedämpfte Laufschuhe; auf nassen Wegen auf Grip achten" }],
+              ["Socks", { ko: "얇은 기능성 러닝 양말(발목 위)", en: "Thin tech running socks, above the ankle", de: "Dünne Funktions-Laufsocken, über dem Knöchel" }],
+              ["Bring", { ko: "헤어밴드나 캡. 10~12°면 얇은 장갑도", en: "A headband or cap; light gloves at 10–12°", de: "Stirnband oder Cap; bei 10–12° leichte Handschuhe" }]] } } }
+  };
+
   function lookPhotos(v, profile) {
     var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;
     var t = lookTier(v.f), style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
@@ -745,10 +764,10 @@
   function lookContent(v, profile) {
     var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
     var fem = profile.gender === "f", pics = lookPhotos(v, profile);
-    var C = band[1] === "chilly" ? CHILLY[pics.style] : null, deck = C ? C.deck : L.deck;
+    var C = band[1] === "chilly" ? CHILLY[pics.style] : (STYLE_TEXT[band[1]] || {})[pics.style], deck = C ? C.deck : L.deck;
     var items = C ? C.items[pics.g].map(function (it) { return [it[0], it[1][LANG]]; })
       : L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
-    var shot = C ? '<img class="lk-photo lk-hero" src="look/chilly/' + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">' +
+    var shot = C && C.pieces ? '<img class="lk-photo lk-hero" src="look/chilly/' + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">' +
       '<div class="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-grid">' + C.pieces[pics.g].map(function (pc, i) {
         return '<div class="lk-piece"><img src="look/chilly/' + pics.style + "-" + pics.g + "-p" + (i + 1) + '.jpg" alt="" onerror="this.remove()"><span>' + esc(pc[LANG]) + "</span></div>";
       }).join("") + "</div></div>"
