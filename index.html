@@ -523,7 +523,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b28";
+  var BUILD = "b29";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -711,16 +711,15 @@
   function openLook() {
     var v = lastView; if (!v) return;
     var sheet = $("look");
-    sheet.style.setProperty("--lk-bg", v.color);
-    var rgb = hexRgb(v.color).map(function (c) { return Math.round(c * 255); });
-    sheet.style.setProperty("--lk-tint", "rgba(" + rgb.join(",") + ",.66)");
-    sheet.style.setProperty("--lk-ink", luminance(v.color) > 0.18 ? "#141414" : "#F4F1E8");
+    // Plain white glass for every band and every screen (user's choice); text is always ink
+    sheet.style.setProperty("--lk-bg", "#FFFFFF");
+    sheet.style.setProperty("--lk-tint", "rgba(255,255,255,.6)");
+    sheet.style.setProperty("--lk-ink", "#141414");
     $("lk-mast").innerHTML = "<span>Today's Look</span><span>" + esc(v.dateLine) + "</span>";
     paintLook();
     sheet.hidden = false; void sheet.offsetWidth; sheet.classList.add("open");
     document.body.style.overflow = "hidden";
     document.body.classList.add("look-open");
-    document.querySelector('meta[name="theme-color"]').setAttribute("content", v.color);
     lookOpen = true;
   }
   function closeLook() {
