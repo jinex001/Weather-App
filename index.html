@@ -92,7 +92,7 @@
   .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 10px; }
   .grow { flex-grow: 1; min-height: 24px; }
 
-  /* Feels-like block: animated person + feels-like temperature + band name */
+  /* Feels-like block: animated person + label/band name + feels-like temperature (b55 order) */
   /* cursor: pointer also makes iOS Safari deliver taps on this non-button area */
   .head-tap { cursor: pointer; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; outline: none; }
   .feels {
@@ -277,8 +277,8 @@
   <div class="sub" id="sub">&nbsp;</div>
   <div class="feels" id="feels">
     <span class="feels-ic" id="feels-ic"></span>
-    <span class="feels-n" id="feels-n"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
+    <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
   <p class="summary" id="summary" hidden></p>
@@ -580,7 +580,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b54";
+  var BUILD = "b55";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
