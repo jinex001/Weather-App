@@ -44,15 +44,11 @@
     display: flex; flex-direction: column;
     padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 28px);
   }
-  .top { display: flex; justify-content: space-between; align-items: center; }
-  .top-l { display: flex; align-items: baseline; gap: 5px; }
-  .city { font-size: 17px; font-weight: 700; }
+  /* city · date · time on one line at the top (b57) */
+  .top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  /* tapping the city switches GPS ↔ Berlin (b58); padding widens the tap target without moving the text */
+  .city { font-size: 17px; font-weight: 700; cursor: pointer; padding: 10px 8px 10px 0; margin: -10px -8px -10px 0; }
   .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
-  .loc {
-    width: 44px; height: 44px; border-radius: 22px; padding: 0;
-    border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
-    display: flex; align-items: center; justify-content: center; cursor: pointer;
-  }
   /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
   .hero-art { display: flex; justify-content: center; margin: 31px -24px 0; height: 170px; overflow: hidden; }
   .hero-art svg { width: 100%; height: 170px; }
@@ -92,8 +88,13 @@
   }
   .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 16px; }
   .grow { flex-grow: 1; min-height: 24px; }
+  /* First screen (b56): location bar to summary fill one screen height; the extra space is split evenly over the
+     four gaps (bar–art, art–temperature, caption–feels, feels–summary). The head holds three gaps, so it grows 3:1. */
+  .first { display: flex; flex-direction: column; min-height: calc(100svh - env(safe-area-inset-top) - 20px); padding-bottom: 32px; }
+  .first .head-tap { flex: 3 0 auto; display: flex; flex-direction: column; }
+  .first .gap { flex: 1 0 0; }
 
-  /* Feels-like block: animated person + feels-like temperature + band name */
+  /* Feels-like block: animated person + label/band name + feels-like temperature (b55 order) */
   /* cursor: pointer also makes iOS Safari deliver taps on this non-button area */
   .head-tap { cursor: pointer; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; outline: none; }
   .feels {
@@ -116,6 +117,8 @@
   .feels-t span { display: block; text-transform: uppercase; }
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
   .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-bottom: 2px; }
+  /* Today's summary: plain text under the feels-like block (no box, no line) */
+  .summary { margin: 14px auto 0; max-width: 320px; word-break: keep-all; text-align: center; font-size: 15px; font-weight: 500; line-height: 1.45; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -262,26 +265,28 @@
 </head>
 <body data-state="sun">
 <main class="app">
+  <div class="first">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
-    <div class="top-l">
-      <div class="city" id="city" role="button" tabindex="0">Berlin</div>
-      <div class="date" id="date">&nbsp;</div>
-    </div>
-    <button class="loc" id="loc" type="button" aria-label="Use my location" hidden>
-      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-    </button>
+    <div class="city" id="city" role="button" tabindex="0">Berlin</div>
+    <div class="date" id="date">&nbsp;</div>
   </div>
 
+  <div class="gap"></div>
   <div class="hero-art" id="art" aria-hidden="true"></div>
+  <div class="gap"></div>
   <div class="temp" id="temp">–</div>
   <div class="cond" id="cond">&nbsp;</div>
   <div class="sub" id="sub">&nbsp;</div>
+  <div class="gap"></div>
   <div class="feels" id="feels">
     <span class="feels-ic" id="feels-ic"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
     <span class="feels-n" id="feels-n"></span>
   </div>
+  </div>
+  <div class="gap"></div>
+  <p class="summary" id="summary" hidden></p>
   </div>
 
   <div class="grow"></div>
@@ -324,6 +329,9 @@
       rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
       snowFrom: "Snow from {t}", snowUntil: "Snow easing around {t}", snowOn: "Snow for the next 12 hours", snowLight: "Light snow possible",
       max: "Up to {p}%", total: "About {c} cm", now: "Now",
+      sumDay: "Today {c}, high {h}°, low {l}°.", sumRainAt: "{w} likely around {t} ({p}%).", sumRainNow: "{w} now, easing around {t}.",
+      sumRainOn: "{w} for the rest of the day.", sumDry: "No rain in the next 12 hours.", sumDrop: "Cooling to {v}° by {t}.", sumWind: "Windy, {w} km/h.", sumUmbrella: "Don't forget an umbrella.", sumCold: "Colder days ahead: watch out for colds.",
+      wRain: "Rain", wSnow: "Snow",
       updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
     },
     de: {
@@ -335,6 +343,9 @@
       rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
       snowFrom: "Ab {t} Schnee", snowUntil: "Schnee lässt gegen {t} nach", snowOn: "Schnee in den nächsten 12 Std.", snowLight: "Leichter Schneefall möglich",
       max: "Bis {p} %", total: "Etwa {c} cm", now: "Jetzt",
+      sumDay: "Heute: {c}, max {h}°, min {l}°.", sumRainAt: "{w} gegen {t} wahrscheinlich ({p} %).", sumRainNow: "Gerade {w}, lässt gegen {t} nach.",
+      sumRainOn: "{w} bis zum Abend.", sumDry: "Kein Regen in den nächsten 12 Std.", sumDrop: "Bis {t} kühlt es auf {v}° ab.", sumWind: "Windig, {w} km/h.", sumUmbrella: "Schirm nicht vergessen.", sumCold: "Es wird kälter: Vorsicht vor Erkältungen.",
+      wRain: "Regen", wSnow: "Schnee",
       updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
     },
     ko: {
@@ -346,6 +357,9 @@
       rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
       snowFrom: "{t}부터 눈", snowUntil: "{t}쯤 그침", snowOn: "12시간 넘게 눈", snowLight: "약한 눈 가능성",
       max: "최대 {p}%", total: "약 {c}cm", now: "지금",
+      sumDay: "오늘은 {c}, 최고 {h}° 최저 {l}°.", sumRainAt: "{t}쯤 {w} 올 확률 {p}%.", sumRainNow: "지금 {w} 오는 중, {t}쯤 그쳐요.",
+      sumRainOn: "오늘은 계속 {w} 소식.", sumDry: "12시간 동안 비 소식은 없어요.", sumDrop: "{t}쯤엔 {v}°까지 내려가요.", sumWind: "바람이 강해요, {w}km/h.", sumUmbrella: "우산 꼭 챙겨요.", sumCold: "환절기 감기 조심해요.",
+      wRain: "비", wSnow: "눈",
       updated: "{t} 업데이트", offline: "오프라인 · 마지막 {t}", loading: "불러오는 중…", failed: "날씨를 불러오지 못했어요"
     }
   }[LANG];
@@ -574,7 +588,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b53";
+  var BUILD = "b58";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1098,6 +1112,9 @@
     line.innerHTML = '<span class="line-bar"></span><span></span>';
     line.lastChild.textContent = sentence;
 
+    $("summary").textContent = summaryText(cur, H, D, i0, hours, isDay, band);
+    $("summary").hidden = false;
+
     var hh = "";
     for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
       var x = i0 + n, pp = H.precipitation_probability[x] || 0;
@@ -1130,6 +1147,37 @@
     $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + " · " + BUILD;
   }
 
+  // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind, umbrella, outfit, cold tip
+  function summaryText(cur, H, D, i0, hours, isDay, band) {
+    var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; };
+    var out = [fmt(T.sumDay, { c: low1(condLabel(D.weather_code[0], 1)), h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)) })];
+    var wet = function (i) { return (H.precipitation_probability[i] || 0) >= 50; };
+    var word = function (i) { return isSnow(H.weather_code[i]) ? T.wSnow : T.wRain; };
+    if (hours.length && wet(hours[0])) {
+      var end = -1; for (var k = 1; k < hours.length; k++) { if (!wet(hours[k])) { end = hours[k]; break; } }
+      out.push(end >= 0 ? fmt(T.sumRainNow, { w: low1(word(hours[0])), t: hourText(H.time[end]) }) : fmt(T.sumRainOn, { w: word(hours[0]) }));
+      if (word(hours[0]) === T.wRain) out.push(T.sumUmbrella);
+    } else {
+      var hit = -1; for (var m = 1; m < hours.length; m++) { if (wet(hours[m])) { hit = hours[m]; break; } }
+      out.push(hit >= 0 ? fmt(T.sumRainAt, { w: word(hit), t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }) : T.sumDry);
+      if (hit >= 0 && word(hit) === T.wRain) out.push(T.sumUmbrella);
+    }
+    // lowest temperature for the rest of today (daytime only; at night the line below already looks at tomorrow)
+    if (isDay) {
+      var low = -1, today = H.time[i0].slice(0, 10);
+      for (var j = i0 + 1; j < H.time.length && H.time[j].slice(0, 10) === today; j++) { if (low < 0 || H.temperature_2m[j] < H.temperature_2m[low]) low = j; }
+      if (low >= 0 && cur.temperature_2m - H.temperature_2m[low] >= 4) out.push(fmt(T.sumDrop, { v: r(H.temperature_2m[low]), t: hourText(H.time[low]) }));
+    }
+    if ((cur.wind_speed_10m || 0) >= 30) out.push(fmt(T.sumWind, { w: r(cur.wind_speed_10m) }));
+    // one outfit line: the band's deck from Today's Look
+    out.push(LOOK[band[1]].deck[LANG]);
+    // getting colder: a 10°+ day/night gap today, or tomorrow's high 4°+ below today's
+    var gap = D.temperature_2m_max[0] - D.temperature_2m_min[0];
+    var colder = D.temperature_2m_max.length > 1 && D.temperature_2m_max[0] - D.temperature_2m_max[1] >= 4;
+    if (gap >= 10 || colder) out.push(T.sumCold);
+    return out.join(" ");
+  }
+
   // ── Place & data ──
   var BERLIN = { lat: 52.52, lon: 13.405, gps: false };
   function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
@@ -1137,8 +1185,8 @@
 
   var place = load("wx-place") || BERLIN;
 
+
   function updateLocButton() {
-    $("loc").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
     $("city").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
   }
 
@@ -1203,14 +1251,14 @@
       .then(function () { busy = false; });
   }
 
-  // The whole head (city, art, temperature, condition, feels-like) opens Today's Look; the location button keeps its own job
-  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#loc, #city")) openLook(); });
+  // The whole head (art, temperature, condition, feels-like) opens Today's Look; the city name switches the place
+  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#city")) openLook(); });
   // Also open on a plain tap (touch released without moving), in case iOS swallows the click.
   // preventDefault stops the follow-up click from landing on the sheet that just opened under the finger.
   (function () {
     var head = $("head-tap"), t0 = null;
     head.addEventListener("touchstart", function (e) {
-      var t = e.touches[0]; t0 = e.target.closest("#loc, #city") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
+      var t = e.touches[0]; t0 = e.target.closest("#city") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
     }, { passive: true });
     head.addEventListener("touchend", function (e) {
       if (!t0) return;
@@ -1219,7 +1267,7 @@
       t0 = null;
     });
   })();
-  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#loc, #city")) { e.preventDefault(); openLook(); } });
+  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#city")) { e.preventDefault(); openLook(); } });
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
   // Swipe the sheet down from its top to close it
@@ -1239,8 +1287,7 @@
     });
   })();
 
-  // The city name is the location switch (Berlin ↔ current location); the round button stays hidden (b53)
-  function toggleLocation() {
+  function switchPlace() {
     if (place.gps) {
       place = BERLIN; store("wx-place", place); updateLocButton(); refresh(); return;
     }
@@ -1250,9 +1297,8 @@
       store("wx-place", place); updateLocButton(); refresh();
     }, function () {}, { maximumAge: 600000, timeout: 10000 });
   }
-  $("loc").addEventListener("click", toggleLocation);
-  $("city").addEventListener("click", toggleLocation);
-  $("city").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleLocation(); } });
+  $("city").addEventListener("click", switchPlace);
+  $("city").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); switchPlace(); } });
 
   updateLocButton();
   refresh();
