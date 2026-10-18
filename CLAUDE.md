@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-18, 빌드 b29)
+## 현재 상태 (2026-10-18, 빌드 b30)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록 + 움직이는 사람 아이콘, 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시, 위치 버튼으로 GPS/베를린 전환.
@@ -33,6 +33,7 @@
 - b26: 체감온도 9단계 색을 사용자가 준 "기온별 옷차림" 표 색으로 다시 지정(파랑 → 청록 → 금색 → 주황 → 빨강). 쾌적 "항상 흰색" 예외 없앰.
 - b27: Today's Look 시트는 예전 단계 색(LOOK_COLOR) + 반투명 글라스 그대로. 새 색은 메인 체감온도 블록에만.
 - b28: 흐린 낮 배경 `#A9B1B9`.
+- b30: 지금 날씨(기온·바람·상태)를 독일 기상청(DWD) 관측소 실측값으로. Bright Sky `https://api.brightsky.dev/current_weather?lat&lon`를 Open-Meteo와 동시에 요청, 측정 시각이 90분 이내면 적용(체감은 모델 체감 + (실측 − 모델 기온)). condition/icon → 날씨 코드 변환(`obsCode`). 실측을 쓰면 b16/b25 비→흐림 보정은 건너뜀. 실패·독일 밖·오래된 값이면 Open-Meteo만. 상태 줄에 "· DWD" 표시. 최고·최저는 지금 기온을 포함하도록. 예보(시간별·일별)는 계속 Open-Meteo. 이 환경에선 두 API 모두 막혀 실제 응답 확인 못 함(가짜 응답으로만 테스트).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
@@ -54,7 +55,8 @@
 
 ## 데이터
 
-- Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
+- 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
+- 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
 - 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
