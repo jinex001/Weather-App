@@ -95,10 +95,15 @@
   .feels {
     display: flex; align-items: center; justify-content: center; gap: 14px;
     margin-top: 14px; padding: 8px 0; border: 0;
-    width: 100%; background: none; color: var(--feels, inherit); font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent;
+    width: 100%; background: none; color: inherit; font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent;
   }
   /* person matches the digits: head top = digit top, feet = baseline (Anton 56px digits are ~49px tall) */
-  .feels svg { width: 53px; height: 53px; flex: none; overflow: visible; position: relative; top: 2px; }
+  /* round badge in the band color, white person inside; text stays the screen's text color */
+  .feels-ic {
+    width: 56px; height: 56px; flex: none; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    background: var(--badge); color: #FFFFFF; --bg: var(--badge); --graph: #FFFFFF;
+  }
+  .feels-ic svg { width: 38px; height: 38px; flex: none; overflow: visible; position: relative; top: 1px; }
   .feels-n { font-family: var(--display); font-size: 56px; line-height: 1; }
   .feels-t { text-align: left; }
   .feels-t span { display: block; }
@@ -246,7 +251,7 @@
   <div class="cond" id="cond">&nbsp;</div>
   <div class="sub" id="sub">&nbsp;</div>
   <div class="feels" id="feels">
-    <span id="feels-ic"></span>
+    <span class="feels-ic" id="feels-ic"></span>
     <span class="feels-n" id="feels-n"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
   </div>
@@ -334,20 +339,21 @@
 
   // Feels-like bands (apparent temperature, °C): upper bound, key, names
   var BANDS = [
-    [-10, "freeze", { en: "Bitter cold", de: "Eisig", ko: "혹한" }],
-    [-3, "verycold", { en: "Very cold", de: "Sehr kalt", ko: "매우 추움" }],
-    [4, "cold", { en: "Cold", de: "Kalt", ko: "추움" }],
-    [11, "chilly", { en: "Chilly", de: "Frisch", ko: "쌀쌀" }],
-    [16, "cool", { en: "Cool", de: "Kühl", ko: "선선" }],
-    [22, "pleasant", { en: "Pleasant", de: "Angenehm", ko: "쾌적" }],
-    [27, "warm", { en: "Warm", de: "Warm", ko: "따뜻" }],
-    [32, "hot", { en: "Hot", de: "Heiß", ko: "더움" }],
-    [Infinity, "scorching", { en: "Scorching", de: "Sehr heiß", ko: "폭염" }]
+    [-20, "freeze", { en: "Extreme cold", de: "Extreme Kälte", ko: "극한 추위" }],
+    [-10, "verycold", { en: "Very cold", de: "Sehr kalt", ko: "매우 추움" }],
+    [0, "cold", { en: "Cold", de: "Kalt", ko: "추움" }],
+    [9, "chilly", { en: "Chilly", de: "Frisch", ko: "쌀쌀함" }],
+    [17, "cool", { en: "Cool", de: "Kühl", ko: "선선함" }],
+    [23, "pleasant", { en: "Comfortable", de: "Angenehm", ko: "쾌적함" }],
+    [28, "warm", { en: "Warm", de: "Warm", ko: "따뜻함" }],
+    [34, "hot", { en: "Hot", de: "Heiß", ko: "더움" }],
+    [Infinity, "scorching", { en: "Extreme heat", de: "Extreme Hitze", ko: "극심한 더위" }]
   ];
-  // Band colors from the "옷차림 by temperature" chart (blue → teal → gold → orange → red). Used as-is unless too
-  // close to the screen background (<3:1); then just that case gets deeper (light screens) or lighter (dark screens).
-  var BAND_COLOR = { freeze: "#0F2F7A", verycold: "#1848A8", cold: "#1860C0", chilly: "#68A898", cool: "#F0B818",
-                     pleasant: "#D89030", warm: "#C03810", hot: "#E82840", scorching: "#A8102A" };
+  // Band colors (purple → blue → cyan → mint → green → yellow → orange → red) fill the round badge behind the white
+  // person. The badge is a shape, not text: only when it almost disappears into the screen (<1.5:1, e.g. yellow on
+  // the sunny screen) does that case get a little deeper or lighter.
+  var BAND_COLOR = { freeze: "#6434A5", verycold: "#4762D6", cold: "#378FE4", chilly: "#58C4DC", cool: "#6FCDB0",
+                     pleasant: "#79C66C", warm: "#F0C84E", hot: "#F38B3D", scorching: "#D94448" };
   // Today's Look keeps the original soft spectrum under its glass (user's choice); only the main block uses the chart colors.
   var LOOK_COLOR = { freeze: "#1E2A5A", verycold: "#2F4A86", cold: "#5C7FB8", chilly: "#9DB7D4", cool: "#C9D6C2",
                      pleasant: "#FFFFFF", warm: "#F2C14E", hot: "#E8862C", scorching: "#C4401A" };
@@ -370,10 +376,11 @@
     function f(n) { var k = (n + h * 12) % 12, a = s * Math.min(l, 1 - l); return l - a * Math.max(-1, Math.min(k - 3, 9 - k, 1)); }
     return "#" + [f(0), f(8), f(4)].map(function (v) { return ("0" + Math.round(v * 255).toString(16)).slice(-2); }).join("");
   }
-  function readableOn(hex, bg) {
-    if (contrast(hex, bg) >= 3) return hex;
+  function readableOn(hex, bg, min) {
+    min = min || 3;
+    if (contrast(hex, bg) >= min) return hex;
     var hsl = rgbHsl(hexRgb(hex)), dir = luminance(bg) > 0.18 ? -1 : 1, out = hex, maxS = hsl[1] < 0.05 ? 0 : Math.min(1, hsl[1] + 0.25);
-    for (var i = 0; i < 60 && contrast(out, bg) < 3; i++) {
+    for (var i = 0; i < 60 && contrast(out, bg) < min; i++) {
       hsl[2] = Math.max(0, Math.min(1, hsl[2] + dir * 0.015));
       hsl[1] = Math.min(maxS, hsl[1] + 0.01);
       out = hslHex(hsl[0], hsl[1], hsl[2]);
@@ -523,7 +530,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b30";
+  var BUILD = "b31";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -819,7 +826,7 @@
     $("feels-n").innerHTML = f + '<span class="deg">°</span>';
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
-    $("feels").style.setProperty("--feels", readableOn(BAND_COLOR[band[1]], THEME[theme]));
+    $("feels").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
     playPerson();
 
     // index of the current hour
