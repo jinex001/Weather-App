@@ -172,16 +172,16 @@
   .bars div { background: var(--graph); min-height: 4px; }
   .ticks { display: flex; justify-content: space-between; font-family: var(--mono); font-weight: 500; font-size: 10px; }
 
-  .hours-wrap { border-top: 1.5px solid var(--fg); }
   .hours {
     display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
     margin: 0 -24px; padding: 14px 24px;
   }
   .hours::-webkit-scrollbar { display: none; }
   .hour { flex: none; width: 48px; padding: 8px 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
-  .hour.now .hour-v { position: relative; }
-  .hour.now .hour-v::after {
-    content: ""; position: absolute; left: 50%; bottom: -4px;
+  /* the "now" column: 5px dot above its label (b61) */
+  .hour.now .hour-t { position: relative; }
+  .hour.now .hour-t::before {
+    content: ""; position: absolute; left: 50%; top: -8px;
     width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: currentColor;
   }
   .hour-t { font-family: var(--mono); font-weight: 500; font-size: 11px; line-height: 14px; }
@@ -191,13 +191,6 @@
   .hour-bar { width: 28px; background: #8FB8DE; }
   body[data-state="sun"] .hour-bar, body[data-state="overcast"] .hour-bar, body[data-state="snow"] .hour-bar { background: #CAE2F8; }
   .hour-p { font-family: var(--mono); font-weight: 500; font-size: 10px; min-height: 12px; }
-  .days {
-    border-top: 1.5px solid var(--fg); padding-top: 14px;
-    display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 4px; text-align: center;
-  }
-  .day { display: flex; flex-direction: column; align-items: center; gap: 6px; }
-  .day-name { font-family: var(--mono); font-weight: 500; font-size: 11px; }
-  .day-temp { font-family: var(--display); letter-spacing: 0; font-size: 22px; }
   .status { font-family: var(--mono); font-weight: 500; font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
   [hidden] { display: none !important; }
 
@@ -293,7 +286,6 @@
   </div>
 
   <div class="hours-wrap"><div class="hours" id="hours"></div></div>
-  <div class="days" id="days"></div>
   <div class="status" id="status"></div>
 </main>
 
@@ -563,9 +555,6 @@
     var day = new Intl.DateTimeFormat(LOCALE, { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" }).format(d);
     return day + " · " + s.slice(11, 16);
   }
-  function weekday(s) {
-    return new Intl.DateTimeFormat(LOCALE, { weekday: "short", timeZone: "UTC" }).format(asDate(s)).replace(".", "");
-  }
   function r(n) { var v = Math.round(n); return v === 0 ? 0 : v; }
 
   // ── Render ──
@@ -579,7 +568,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b60";
+  var BUILD = "b61";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1102,13 +1091,6 @@
     };
     if (lookOpen) openLook();
 
-    var html = "";
-    for (var d = 1; d <= 6 && d < D.time.length; d++) {
-      html += '<div class="day"><div class="day-name">' + weekday(D.time[d]) + "</div>" + icon(D.weather_code[d]) +
-              '<div class="day-temp">' + r(D.temperature_2m_max[d]) + "</div></div>";
-    }
-    $("days").innerHTML = html;
-
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
     // Data from the last 20 minutes still counts as current, even if the latest request failed
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
@@ -1198,7 +1180,7 @@
     if (busy) return; busy = true;
     clearTimeout(retryTimer);
     var cached = load("wx-data");
-    if (cached && !document.getElementById("days").innerHTML) render(cached, place, true);
+    if (cached && !document.getElementById("hours").innerHTML) render(cached, place, true);
     if (!cached) $("status").textContent = T.loading;
     // Forecast (Open-Meteo) and the latest station measurement (Bright Sky / DWD) in parallel;
     // the measurement is optional (outside Germany or when it fails the app runs on the forecast alone)
