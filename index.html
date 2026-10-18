@@ -44,14 +44,10 @@
     display: flex; flex-direction: column;
     padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 28px);
   }
-  .top { display: flex; justify-content: space-between; align-items: center; }
+  /* city · date · time on one line at the top (b57) */
+  .top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
   .city { font-size: 17px; font-weight: 700; }
-  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-top: 2px; }
-  .loc {
-    width: 44px; height: 44px; border-radius: 22px; padding: 0;
-    border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
-    display: flex; align-items: center; justify-content: center; cursor: pointer;
-  }
+  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
   /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
   .hero-art { display: flex; justify-content: center; margin: 28px -24px 0; height: 170px; overflow: hidden; }
   .hero-art svg { width: 100%; height: 170px; }
@@ -268,13 +264,8 @@
   <div class="first">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
-    <div>
-      <div class="city" id="city">Berlin</div>
-      <div class="date" id="date">&nbsp;</div>
-    </div>
-    <button class="loc" id="loc" type="button" aria-label="Use my location">
-      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-    </button>
+    <div class="city" id="city">Berlin</div>
+    <div class="date" id="date">&nbsp;</div>
   </div>
 
   <div class="gap"></div>
@@ -326,7 +317,7 @@
 
   var T = {
     en: {
-      berlin: "Berlin", here: "Current location", useLoc: "Use my location", useBerlin: "Show Berlin",
+      berlin: "Berlin", here: "Current location",
       feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
@@ -339,7 +330,7 @@
       updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
     },
     de: {
-      berlin: "Berlin", here: "Aktueller Standort", useLoc: "Meinen Standort verwenden", useBerlin: "Berlin anzeigen",
+      berlin: "Berlin", here: "Aktueller Standort",
       feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
@@ -352,7 +343,7 @@
       updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
     },
     ko: {
-      berlin: "베를린", here: "현재 위치", useLoc: "내 위치 사용", useBerlin: "베를린 보기",
+      berlin: "베를린", here: "현재 위치",
       feelsL: "체감온도", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
@@ -591,7 +582,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b56";
+  var BUILD = "b57";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1172,9 +1163,6 @@
 
   var place = load("wx-place") || BERLIN;
 
-  function updateLocButton() {
-    $("loc").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
-  }
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
@@ -1237,14 +1225,14 @@
       .then(function () { busy = false; });
   }
 
-  // The whole head (city, art, temperature, condition, feels-like) opens Today's Look; the location button keeps its own job
-  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#loc")) openLook(); });
+  // The whole head (city, art, temperature, condition, feels-like) opens Today's Look
+  $("head-tap").addEventListener("click", function () { openLook(); });
   // Also open on a plain tap (touch released without moving), in case iOS swallows the click.
   // preventDefault stops the follow-up click from landing on the sheet that just opened under the finger.
   (function () {
     var head = $("head-tap"), t0 = null;
     head.addEventListener("touchstart", function (e) {
-      var t = e.touches[0]; t0 = e.target.closest("#loc") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
+      var t = e.touches[0]; t0 = { x: t.clientX, y: t.clientY, time: Date.now() };
     }, { passive: true });
     head.addEventListener("touchend", function (e) {
       if (!t0) return;
@@ -1253,7 +1241,7 @@
       t0 = null;
     });
   })();
-  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#loc")) { e.preventDefault(); openLook(); } });
+  $("head-tap").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openLook(); } });
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
   // Swipe the sheet down from its top to close it
@@ -1273,18 +1261,6 @@
     });
   })();
 
-  $("loc").addEventListener("click", function () {
-    if (place.gps) {
-      place = BERLIN; store("wx-place", place); updateLocButton(); refresh(); return;
-    }
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition(function (pos) {
-      place = { lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true };
-      store("wx-place", place); updateLocButton(); refresh();
-    }, function () {}, { maximumAge: 600000, timeout: 10000 });
-  });
-
-  updateLocButton();
   refresh();
   setInterval(refresh, 15 * 60 * 1000);
   window.addEventListener("online", function () { retries = 0; refresh(); });
