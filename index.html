@@ -483,10 +483,11 @@
       '<g transform="translate(0 20)"><circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#958E81"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
       drift(112, .38, "#FFFFFF", 23, 0) + drift(-4, .26, "#FFFFFF", 30, -18) + "</svg>"
   };
-  // Fog: a cloud dissolving into horizontal bands that slowly sway
+  // Fog: a cloud (day: with a sliver of sun behind it) dissolving into horizontal bands that slowly sway
   function fogArt(top, back, front, band) {
     var b = [[54, 196, 100, 0], [26, 150, 120, -2.5], [172, 214, 120, -2.5], [62, 222, 140, -5], [36, 128, 160, -1]];
     return '<svg viewBox="0 0 240 170">' + top + '<g transform="translate(30 4) scale(.8)">' +
+      (back ? '<circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/>' : "") +
       (back ? '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="' + back + '"/>' : "") +
       '<path d="' + CLOUD + '" fill="' + front + '"/></g><g stroke="' + band + '" stroke-width="9" stroke-linecap="round">' + b.map(function (d, i) {
         return '<line class="art-fog" style="animation-delay:' + d[3] + "s" + (i % 2 ? ";animation-direction:alternate-reverse" : "") + '" x1="' + d[0] + '" y1="' + d[2] + '" x2="' + d[1] + '" y2="' + d[2] + '"/>';
@@ -567,7 +568,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b50";
+  var BUILD = "b51";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
