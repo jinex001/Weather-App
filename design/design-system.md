@@ -110,7 +110,7 @@ Poppins는 폭이 넓어서 **기본 자간 -.02em**(body). 작은 대문자 라
 | 매우 추움 Very cold / Sehr kalt | -19 ~ -10 | `#4762D6` | 덜덜 떨기 + 입김 | WRAP UP |
 | 추움 Cold / Kalt | -9 ~ 0 | `#378FE4` | 가끔 떨기 + 입김 | COAT ON |
 | 쌀쌀함 Chilly / Frisch | 1 ~ 9 | `#58C4DC` | 찬바람이 한 번 지나가고 옷깃 여미기 (몸이 좁아지며 고개 숙임) | LAYER UP |
-| 선선함 Cool / Kühl | 10 ~ 17 | `#6FCDB0` | 숨쉬기 | LIGHT LAYERS |
+| 선선함 Cool / Kühl | 10 ~ 17 | `#6FCDB0` | 숨쉬기 + 낙엽 한 장이 빙글 떨어짐 (b49) | LIGHT LAYERS |
 | 쾌적함 Comfortable / Angenehm | 18 ~ 23 | `#79C66C` | 숨쉬기 + 좌우 | JUST RIGHT |
 | 따뜻함 Warm / Warm | 24 ~ 28 | `#F0C84E` | 좌우 흔들 | SHORT SLEEVES |
 | 더움 Hot / Heiß | 29 ~ 34 | `#F38B3D` | 땀방울 | KEEP IT LIGHT |
