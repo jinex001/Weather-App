@@ -45,15 +45,16 @@
     padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 28px);
   }
   .top { display: flex; justify-content: space-between; align-items: center; }
+  .top-l { display: flex; align-items: baseline; gap: 5px; }
   .city { font-size: 17px; font-weight: 700; }
-  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-top: 2px; }
+  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
   .loc {
     width: 44px; height: 44px; border-radius: 22px; padding: 0;
     border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
     display: flex; align-items: center; justify-content: center; cursor: pointer;
   }
   /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
-  .hero-art { display: flex; justify-content: center; margin: 28px -24px 0; height: 170px; overflow: hidden; }
+  .hero-art { display: flex; justify-content: center; margin: 31px -24px 0; height: 170px; overflow: hidden; }
   .hero-art svg { width: 100%; height: 170px; }
   /* Hero art motion (loops) */
   .art-drop { opacity: 0; animation: art-fall .9s linear infinite; }
@@ -79,7 +80,7 @@
   @media (prefers-reduced-motion: reduce) { .hero-art svg * { animation: none !important; } .art-drop, .art-flake { opacity: 1; } }
   .temp {
     font-family: var(--display); font-size: 240px; line-height: .86;
-    text-align: center; letter-spacing: -4px; margin-top: 8px; white-space: nowrap;
+    text-align: center; letter-spacing: -4px; margin-top: 50px; white-space: nowrap;
   }
   .temp.long { font-size: 190px; }
   .deg { font-size: .8em; position: relative; top: -.29em; }
@@ -89,15 +90,15 @@
     text-shadow: 3px 0 var(--bg), -3px 0 var(--bg), 0 3px var(--bg), 0 -3px var(--bg),
                  2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
   }
-  .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 10px; }
+  .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 16px; }
   .grow { flex-grow: 1; min-height: 24px; }
 
   /* Feels-like block: animated person + feels-like temperature + band name */
   /* cursor: pointer also makes iOS Safari deliver taps on this non-button area */
   .head-tap { cursor: pointer; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; user-select: none; outline: none; }
   .feels {
-    display: flex; align-items: center; justify-content: center; gap: 14px;
-    margin-top: 14px; padding: 8px 0; border: 0;
+    display: flex; align-items: center; justify-content: center; gap: 21px;
+    margin-top: 24px; padding: 8px 0; border: 0;
     width: 100%; background: none; color: inherit; font: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent;
   }
   /* person matches the digits: head top = digit top, feet = baseline (Anton 56px digits are ~49px tall) */
@@ -108,6 +109,8 @@
   }
   /* the person sits left of the 30-unit box's center (body 1.5–24.5, head–feet 2–29): nudge it to the badge's middle */
   .feels-ic svg { width: 38px; height: 38px; flex: none; overflow: visible; position: relative; left: 2.5px; top: -.6px; }
+  /* main block: no badge, the person is drawn in the screen's text color (b52); Today's Look keeps its badge */
+  #feels .feels-ic { background: none; color: var(--fg); --bg: inherit; --graph: inherit; }
   .feels-n { font-family: var(--display); letter-spacing: 0; font-size: 56px; line-height: 1; }
   .feels-t { text-align: left; }
   .feels-t span { display: block; text-transform: uppercase; }
@@ -159,8 +162,9 @@
   @keyframes fl { from { opacity: 0; transform: translateY(-6px); } 20% { opacity: 1; } to { opacity: 0; transform: translateY(10px); } }
   @media (prefers-reduced-motion: reduce) { .person-ic * { animation: none !important; } }
 
-  .line { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; padding: 14px 0; }
-  .line svg { flex: none; }
+  /* summary: a bar in the feels-like band color, then one sentence (band · today · rain · what to wear) */
+  .line { display: flex; align-items: stretch; gap: 7px; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; padding: 14px 0; }
+  .line-bar { flex: none; width: 7px; background: var(--badge); }
   .graph { padding: 14px 0 12px; display: flex; flex-direction: column; gap: 10px; }
   .graph-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
   .graph-title { font-size: 14px; font-weight: 700; }
@@ -260,11 +264,11 @@
 <main class="app">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
-    <div>
+    <div class="top-l">
       <div class="city" id="city">Berlin</div>
       <div class="date" id="date">&nbsp;</div>
     </div>
-    <button class="loc" id="loc" type="button" aria-label="Use my location">
+    <button class="loc" id="loc" type="button" aria-label="Use my location" hidden>
       <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M3 5h12M3 9h12M3 13h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
     </button>
   </div>
@@ -275,8 +279,8 @@
   <div class="sub" id="sub">&nbsp;</div>
   <div class="feels" id="feels">
     <span class="feels-ic" id="feels-ic"></span>
-    <span class="feels-n" id="feels-n"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
+    <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
 
@@ -316,6 +320,7 @@
       feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
+      today: "{b} Today {c}, high {h}°, low {l}°. {r}. {d}.",
       rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
       snowFrom: "Snow from {t}", snowUntil: "Snow easing around {t}", snowOn: "Snow for the next 12 hours", snowLight: "Light snow possible",
       max: "Up to {p}%", total: "About {c} cm", now: "Now",
@@ -326,6 +331,7 @@
       feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
+      today: "{b} Heute {c}, max. {h}°, min. {l}°. {r}. {d}.",
       rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
       snowFrom: "Ab {t} Schnee", snowUntil: "Schnee lässt gegen {t} nach", snowOn: "Schnee in den nächsten 12 Std.", snowLight: "Leichter Schneefall möglich",
       max: "Bis {p} %", total: "Etwa {c} cm", now: "Jetzt",
@@ -336,6 +342,7 @@
       feelsL: "체감온도", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
+      today: "{b} 오늘 {c}, 최고 {h}°, 최저 {l}°. {r}. {d}.",
       rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
       snowFrom: "{t}부터 눈", snowUntil: "{t}쯤 그침", snowOn: "12시간 넘게 눈", snowLight: "약한 눈 가능성",
       max: "최대 {p}%", total: "약 {c}cm", now: "지금",
@@ -536,7 +543,6 @@
       '<g class="lean"><g class="ps"><path class="fg body" d="M1.5 25.5c0-7 5-10.5 11.5-10.5s11.5 3.5 11.5 10.5c0 2.3-5.2 3.4-11.5 3.4S1.5 27.8 1.5 25.5z"/>' +
       '<circle class="fg hd" cx="13" cy="9" r="7"/>' + over + "</g></g>" + front + "</svg>";
   }
-  var UMBRELLA = '<svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 9a7 7 0 0 1 14 0z" fill="currentColor"/><path d="M9 9v5a2 2 0 0 1-4 0" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>';
 
   // ── Time formatting (data times are local to the place, "YYYY-MM-DDTHH:MM") ──
   function parts(s) { return { y: +s.slice(0, 4), mo: +s.slice(5, 7), d: +s.slice(8, 10), h: +s.slice(11, 13), mi: +s.slice(14, 16) }; }
@@ -568,7 +574,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b51";
+  var BUILD = "b52";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1011,7 +1017,8 @@
     tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
     tempEl.classList.toggle("long", String(t).length >= 3);
     $("cond").textContent = condLabel(cur.weather_code, isDay);
-    $("sub").textContent = fmt(T.sub, { h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)), w: r(cur.wind_speed_10m || 0) });
+    var hi = r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), lo = r(Math.min(D.temperature_2m_min[0], cur.temperature_2m));
+    $("sub").textContent = fmt(T.sub, { h: hi, l: lo, w: r(cur.wind_speed_10m || 0) });
 
     var f = r(cur.apparent_temperature), band = bandOf(f);
     $("feels-ic").innerHTML = person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code));
@@ -1019,6 +1026,7 @@
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
     $("feels").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
+    $("line").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
     playPerson();
 
     // index of the current hour
@@ -1032,7 +1040,7 @@
 
     var line = $("line"), graph = $("graph");
     if (state === "rain" || state === "rain-night" || state === "snow") {
-      line.hidden = true; graph.hidden = false;
+      graph.hidden = false;
       var snow = state === "snow";
       var vals = hours.map(function (i) { return snow ? (H.snowfall[i] || 0) : (H.precipitation_probability[i] || 0); });
       var top = snow ? Math.max.apply(null, vals.concat([0.5])) : 100;
@@ -1060,21 +1068,26 @@
         $("gmax").textContent = fmt(T.max, { p: Math.max.apply(null, vals) });
       }
     } else {
-      graph.hidden = true; line.hidden = false;
+      graph.hidden = true;
       var text;
       if (state === "night") {
         var morning = -1;
         for (var j = i0 + 1; j < H.time.length; j++) { if (parts(H.time[j]).h === 8) { morning = j; break; } }
         text = morning >= 0 ? fmt(T.tomorrow, { t: hourText(H.time[morning]), v: r(H.temperature_2m[morning]), c: condLabel(H.weather_code[morning], 1) }) : T.noRain;
-        line.innerHTML = icon(morning >= 0 ? H.weather_code[morning] : 0) + "<span></span>";
       } else {
         var hit = -1;
         for (var m = 0; m < hours.length; m++) { if ((H.precipitation_probability[hours[m]] || 0) >= 50) { hit = hours[m]; break; } }
         text = hit >= 0 ? fmt(T.rainAt, { t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }) : T.noRain;
-        line.innerHTML = UMBRELLA + "<span></span>";
       }
-      line.querySelector("span").textContent = text;
     }
+    // Summary sentence: band · today's weather · rain (the graph title on rain/snow screens) · what to wear
+    var cond = condLabel(cur.weather_code, isDay);
+    line.hidden = false;
+    line.innerHTML = '<span class="line-bar"></span><span></span>';
+    line.lastChild.textContent = fmt(T.today, {
+      b: band[2][LANG], c: LANG === "en" ? cond.toLowerCase() : cond, h: hi, l: lo,
+      r: (graph.hidden ? text : $("gtitle").textContent).replace(/\.$/, ""), d: LOOK[band[1]].deck[LANG].replace(/\.$/, "")
+    });
 
     var hh = "";
     for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
