@@ -216,6 +216,12 @@
   /* the sheet crops are small (~75px wide), so keep them at about half width until full-size photos arrive */
   .lk-photo { display: block; width: 56%; height: auto; margin-top: 22px; background: rgba(20,20,20,.06); }
   .lk-baby .lk-photo { margin-top: 14px; }
+  /* chilly sheet (look/chilly/): one large look photo, then the pieces as a 3-column grid */
+  .lk-hero { width: 100%; }
+  .lk-pieces { margin-top: 22px; }
+  .lk-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 8px; margin-top: 10px; }
+  .lk-piece img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: contain; background: #FFFFFF; }
+  .lk-piece span { display: block; margin-top: 5px; font-size: 11px; font-weight: 600; line-height: 1.3; }
   .lk-items { margin-top: 18px; }
   .lk-item { padding: 8px 0; }
   .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
@@ -538,10 +544,10 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b36";
+  var BUILD = "b37";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
-  // Profile (gender f/m/x, age 20/30/50, style street/minimal, baby y/n) lives only in localStorage.
+  // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
   // Each band: headline, deck, items [category, text]; text is {ko,en,de} with an optional f: {...} variant for women.
   var LOOK = {
     freeze: { head: "Bundle<br>Up",
@@ -632,43 +638,114 @@
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 네 가지만 알려주세요.", q: ["성별", "연령대", "평소 스타일은?", "아기와 함께 외출하나요?"],
-          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["스트리트웨어", "미니멀"], ["네", "아니요"]],
+          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["러닝·운동", "스트리트웨어", "미니멀"], ["네", "아니요"]],
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just four questions.", q: ["Gender", "Age", "Your usual style?", "Going out with a baby?"],
-          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Streetwear", "Minimal"], ["Yes", "No"]],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Running", "Streetwear", "Minimal"], ["Yes", "No"]],
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur vier Fragen.", q: ["Geschlecht", "Alter", "Dein Stil?", "Mit Baby unterwegs?"],
-          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Streetwear", "Minimal"], ["Ja", "Nein"]],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Laufen", "Streetwear", "Minimal"], ["Ja", "Nein"]],
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
-  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["style", "Style", ["street", "minimal"]], ["baby", "Baby", ["y", "n"]]];
+  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["style", "Style", ["run", "street", "minimal"]], ["baby", "Baby", ["y", "n"]]];
   // Profiles saved before the style question get asked once more (old answers stay picked).
   var PROFILE_V = 2;
 
   // Outfit photos in look/: 7 temperature columns from the editorial sheet (T1 ≥30 … T7 <0), picked by feels-like.
   // Adults: <m|f>-<street|minimal>-t<n>-<a|b>.jpg (two looks, alternating by day); baby: baby-<style>-t<n>.jpg.
   function lookTier(f) { return f >= 30 ? 1 : f >= 24 ? 2 : f >= 18 ? 3 : f >= 12 ? 4 : f >= 6 ? 5 : f >= 0 ? 6 : 7; }
+  // Chilly (feels 1–9°) has its own sheet per style: a full look photo, six piece photos and items per gender.
+  // Files: look/chilly/<style>-<m|f>.jpg and look/chilly/<style>-<m|f>-p<1–6>.jpg. Text: design/look-chilly.md.
+  var CHILLY = {
+    run: { deck: { ko: "출발할 때 살짝 춥게 입으세요. 10분 뛰면 체감이 10°쯤 올라가요.", en: "Start out a little cold. Ten minutes in, it feels about 10° warmer.", de: "Starte leicht fröstelnd. Nach zehn Minuten fühlt es sich rund 10° wärmer an." },
+      pieces: {
+        m: [{ ko: "방풍 재킷", en: "Wind jacket", de: "Windjacke" }, { ko: "기능성 긴팔 티", en: "Long-sleeve tech tee", de: "Funktions-Langarmshirt" }, { ko: "러닝 타이츠", en: "Running tights", de: "Lauftights" },
+            { ko: "러닝화 (방수)", en: "Running shoes (waterproof)", de: "Laufschuhe (wasserdicht)" }, { ko: "러닝 장갑", en: "Running gloves", de: "Laufhandschuhe" }, { ko: "비니 / 헤어밴드", en: "Beanie / headband", de: "Mütze / Stirnband" }],
+        f: [{ ko: "방풍 재킷", en: "Wind jacket", de: "Windjacke" }, { ko: "하프집 / 기능성 티", en: "Half-zip / tech top", de: "Half-Zip / Funktionsshirt" }, { ko: "기모 레깅스", en: "Brushed leggings", de: "Thermo-Leggings" },
+            { ko: "러닝화", en: "Running shoes", de: "Laufschuhe" }, { ko: "러닝 장갑", en: "Running gloves", de: "Laufhandschuhe" }, { ko: "헤어밴드 / 넥워머", en: "Headband / neck warmer", de: "Stirnband / Halswärmer" }] },
+      items: {
+        m: [["Outer", { ko: "가벼운 방풍 러닝 재킷. 지퍼를 끝까지 올리고, 반사 디테일이 있는 것", en: "A light windproof running jacket, zipped up, with reflective details", de: "Leichte winddichte Laufjacke, ganz zu, mit Reflektoren" }],
+            ["Top", { ko: "긴팔 기능성 티(드라이핏·메리노) 한 겹. 5° 아래면 하프집 미드레이어를 더해요", en: "One long-sleeve tech tee (dri-fit or merino). Below 5°, add a half-zip midlayer", de: "Ein Funktions-Langarmshirt (Dri-Fit oder Merino). Unter 5° ein Half-Zip darüber" }],
+            ["Bottom", { ko: "기모 러닝 타이츠, 또는 타이츠 위에 쇼츠", en: "Brushed running tights, or shorts over tights", de: "Thermo-Lauftights oder Shorts über Tights" }],
+            ["Shoes", { ko: "쿠션 러닝화. 비 오면 GTX(방수) 러닝화", en: "Cushioned running shoes; GTX (waterproof) when it rains", de: "Gedämpfte Laufschuhe; bei Regen GTX (wasserdicht)" }],
+            ["Socks", { ko: "메리노 러닝 양말(크루 길이, 발목 덮게)", en: "Merino running socks, crew length to cover the ankle", de: "Merino-Laufsocken, knöchelhoch" }],
+            ["Bring", { ko: "얇은 러닝 장갑, 귀를 덮는 헤어밴드나 비니", en: "Thin running gloves, a headband or beanie over the ears", de: "Dünne Laufhandschuhe, Stirnband oder Mütze über den Ohren" }]],
+        f: [["Outer", { ko: "허리가 짧은 방풍 재킷이나 가벼운 패딩 조끼, 반사 디테일", en: "A short windproof jacket or light padded vest, with reflective details", de: "Kurze winddichte Jacke oder leichte Steppweste, mit Reflektoren" }],
+            ["Top", { ko: "긴팔 기능성 티 또는 썸홀 있는 하프집. 안에 스포츠 브라", en: "A long-sleeve tech top or a half-zip with thumbholes, sports bra underneath", de: "Funktions-Langarmshirt oder Half-Zip mit Daumenlöchern, Sport-BH darunter" }],
+            ["Bottom", { ko: "하이웨이스트 기모 레깅스", en: "High-waist brushed leggings", de: "High-Waist-Thermo-Leggings" }],
+            ["Shoes", { ko: "쿠션 러닝화. 젖은 낙엽길이면 접지력 좋은 트레일 러닝화", en: "Cushioned running shoes; trail shoes with grip on wet leaves", de: "Gedämpfte Laufschuhe; auf nassem Laub Trailschuhe mit Grip" }],
+            ["Socks", { ko: "메리노 러닝 양말(크루 길이)", en: "Merino running socks, crew length", de: "Merino-Laufsocken, knöchelhoch" }],
+            ["Bring", { ko: "얇은 장갑, 귀를 덮는 헤어밴드, 넥워머", en: "Thin gloves, a headband over the ears, a neck warmer", de: "Dünne Handschuhe, Stirnband über den Ohren, Halswärmer" }]] } },
+    street: { deck: { ko: "후디를 겹치고 그 위에 짧은 아우터. 품은 넉넉하게.", en: "Layer a hoodie, a short jacket on top. Keep it roomy.", de: "Hoodie drunter, kurze Jacke drüber. Schön weit." },
+      pieces: {
+        m: [{ ko: "숏 패딩", en: "Short puffer", de: "Kurze Daunenjacke" }, { ko: "후디 / 스웻셔츠", en: "Hoodie / sweatshirt", de: "Hoodie / Sweatshirt" }, { ko: "와이드 데님", en: "Wide denim", de: "Weite Jeans" },
+            { ko: "청키 스니커즈", en: "Chunky sneakers", de: "Chunky Sneaker" }, { ko: "크루삭스", en: "Crew socks", de: "Crew-Socken" }, { ko: "비니 / 볼캡", en: "Beanie / cap", de: "Mütze / Cap" }],
+        f: [{ ko: "크롭 패딩", en: "Cropped puffer", de: "Kurze Daunenjacke" }, { ko: "오버핏 후디", en: "Oversized hoodie", de: "Oversized-Hoodie" }, { ko: "배기 데님", en: "Baggy denim", de: "Baggy Jeans" },
+            { ko: "플랫폼 스니커즈", en: "Platform sneakers", de: "Plateau-Sneaker" }, { ko: "크루삭스", en: "Crew socks", de: "Crew-Socken" }, { ko: "비니 / 숄더백", en: "Beanie / shoulder bag", de: "Mütze / Schultertasche" }] },
+      items: {
+        m: [["Outer", { ko: "숏 패딩, 코치 재킷, 워크 재킷(초어·카코트) 중 하나", en: "A short puffer, coach jacket or work jacket (chore, car coat)", de: "Kurze Daunenjacke, Coach- oder Workerjacke (Chore, Car Coat)" }],
+            ["Top", { ko: "헤비 후디나 스웻셔츠. 안에 롱슬리브 티", en: "A heavy hoodie or sweatshirt over a long-sleeve tee", de: "Schwerer Hoodie oder Sweatshirt über Langarmshirt" }],
+            ["Bottom", { ko: "와이드 데님, 카고 팬츠, 나일론 파라슈트 팬츠", en: "Wide denim, cargo pants or nylon parachute pants", de: "Weite Jeans, Cargohose oder Nylon-Parachute-Pants" }],
+            ["Shoes", { ko: "하이탑이나 청키 스니커즈. 비 오면 워크 부츠", en: "High-tops or chunky sneakers; work boots in the rain", de: "High-Tops oder Chunky Sneaker; bei Regen Workerboots" }],
+            ["Socks", { ko: "두툼한 화이트·그레이 크루삭스(보이게 신기)", en: "Thick white or grey crew socks, worn to show", de: "Dicke weiße oder graue Crew-Socken, sichtbar getragen" }],
+            ["Bring", { ko: "비니나 볼캡, 크로스백, 넥워머", en: "A beanie or cap, crossbody bag, neck warmer", de: "Mütze oder Cap, Crossbody-Bag, Halswärmer" }]],
+        f: [["Outer", { ko: "크롭 패딩, 오버핏 봄버, 퀼팅 재킷", en: "A cropped puffer, oversized bomber or quilted jacket", de: "Kurze Daunenjacke, Oversized-Bomber oder Steppjacke" }],
+            ["Top", { ko: "오버핏 후디나 하프집 스웻. 안에 슬림 롱슬리브나 탱크", en: "An oversized hoodie or half-zip sweat over a slim long-sleeve or tank", de: "Oversized-Hoodie oder Half-Zip-Sweat über schmalem Langarmshirt oder Top" }],
+            ["Bottom", { ko: "와이드·배기 데님, 카고 팬츠, 트랙 팬츠", en: "Wide or baggy denim, cargo or track pants", de: "Weite oder Baggy Jeans, Cargo- oder Trackpants" }],
+            ["Shoes", { ko: "청키 스니커즈, 플랫폼 스니커즈, 첼시 부츠", en: "Chunky or platform sneakers, Chelsea boots", de: "Chunky oder Plateau-Sneaker, Chelsea Boots" }],
+            ["Socks", { ko: "크루삭스나 립 니삭스", en: "Crew socks or ribbed knee socks", de: "Crew-Socken oder gerippte Kniestrümpfe" }],
+            ["Bring", { ko: "비니, 버킷햇, 숄더백, 머플러", en: "A beanie or bucket hat, shoulder bag, scarf", de: "Mütze oder Buckethat, Schultertasche, Schal" }]] } },
+    minimal: { deck: { ko: "니트 하나에 코트. 무채색과 어스톤 두세 가지 색으로만.", en: "One knit, one coat. Two or three neutral and earth tones.", de: "Ein Strick, ein Mantel. Zwei, drei neutrale und erdige Töne." },
+      pieces: {
+        m: [{ ko: "울 코트", en: "Wool coat", de: "Wollmantel" }, { ko: "터틀넥 니트", en: "Turtleneck knit", de: "Rollkragenpullover" }, { ko: "울 슬랙스", en: "Wool trousers", de: "Wollhose" },
+            { ko: "레더 더비", en: "Leather derbies", de: "Leder-Derbys" }, { ko: "드레스 삭스", en: "Dress socks", de: "Anzugsocken" }, { ko: "머플러 / 장갑", en: "Scarf / gloves", de: "Schal / Handschuhe" }],
+        f: [{ ko: "롱 코트", en: "Long coat", de: "Langer Mantel" }, { ko: "터틀넥 / 니트", en: "Turtleneck / knit", de: "Rollkragen / Strick" }, { ko: "와이드 팬츠", en: "Wide trousers", de: "Weite Hose" },
+            { ko: "앵클 부츠", en: "Ankle boots", de: "Stiefeletten" }, { ko: "울 타이츠", en: "Wool tights", de: "Wollstrumpfhose" }, { ko: "스카프 / 숄더백", en: "Scarf / shoulder bag", de: "Schal / Schultertasche" }] },
+      items: {
+        m: [["Outer", { ko: "울 싱글 코트(차콜·네이비·카멜), 또는 맥 코트(방수 트렌치)", en: "A single-breasted wool coat (charcoal, navy, camel) or a mac (waterproof trench)", de: "Einreihiger Wollmantel (Anthrazit, Navy, Camel) oder ein Mac (wasserdichter Trench)" }],
+            ["Top", { ko: "메리노·캐시미어 크루넥이나 터틀넥 니트. 안에 무지 티", en: "A merino or cashmere crewneck or turtleneck over a plain tee", de: "Merino- oder Kaschmirpullover mit Rund- oder Rollkragen über schlichtem T-Shirt" }],
+            ["Bottom", { ko: "울 슬랙스, 스트레이트 치노, 생지 데님", en: "Wool trousers, straight chinos or raw denim", de: "Wollhose, gerade Chino oder Raw Denim" }],
+            ["Shoes", { ko: "가죽 더비, 첼시 부츠, 미니멀 레더 스니커즈", en: "Leather derbies, Chelsea boots or minimal leather sneakers", de: "Leder-Derbys, Chelsea Boots oder schlichte Ledersneaker" }],
+            ["Socks", { ko: "울 혼방 드레스 삭스(바지나 신발과 같은 색)", en: "Wool-blend dress socks matching the trousers or shoes", de: "Anzugsocken aus Wollmix, passend zu Hose oder Schuhen" }],
+            ["Bring", { ko: "캐시미어 머플러, 가죽 장갑, 토트백", en: "A cashmere scarf, leather gloves, a tote", de: "Kaschmirschal, Lederhandschuhe, Tote Bag" }]],
+        f: [["Outer", { ko: "롱 울 코트나 트렌치 코트(베이지·블랙·초콜릿)", en: "A long wool coat or trench (beige, black, chocolate)", de: "Langer Wollmantel oder Trench (Beige, Schwarz, Schoko)" }],
+            ["Top", { ko: "파인게이지 터틀넥, 라운드 니트, 니트 위에 셔츠 레이어드", en: "A fine-gauge turtleneck or crewneck, or a shirt layered with a knit", de: "Feiner Rollkragen- oder Rundhalspulli, oder Hemd mit Strick darüber" }],
+            ["Bottom", { ko: "와이드 울 팬츠. 롱 니트 스커트에는 불투명 타이츠", en: "Wide wool trousers, or a long knit skirt with opaque tights", de: "Weite Wollhose, oder langer Strickrock mit blickdichter Strumpfhose" }],
+            ["Shoes", { ko: "앵클 부츠, 로퍼, 미니멀 레더 스니커즈", en: "Ankle boots, loafers or minimal leather sneakers", de: "Stiefeletten, Loafer oder schlichte Ledersneaker" }],
+            ["Socks", { ko: "울 양말, 스커트일 때는 60~80데니어 타이츠", en: "Wool socks; 60–80 denier tights with a skirt", de: "Wollsocken; zum Rock 60–80-den-Strumpfhose" }],
+            ["Bring", { ko: "울 머플러나 스카프, 가죽 장갑, 미니멀 숄더백", en: "A wool scarf, leather gloves, a minimal shoulder bag", de: "Wollschal, Lederhandschuhe, schlichte Schultertasche" }]] } }
+  };
+
   function lookPhotos(v, profile) {
     var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;
-    var t = lookTier(v.f), style = profile.style === "street" ? "street" : "minimal";
+    var t = lookTier(v.f), style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
     var g = profile.gender === "f" || profile.gender === "m" ? profile.gender : (day % 2 ? "f" : "m");
-    return { adult: "look/" + g + "-" + style + "-t" + t + "-" + (day % 2 ? "b" : "a") + ".jpg", baby: "look/baby-" + style + "-t" + t + ".jpg" };
+    var sheet = style === "run" ? "street" : style; // no running photos in the editorial sheet; baby falls back to streetwear
+    return { g: g, style: style,
+      adult: style === "run" ? null : "look/" + g + "-" + style + "-t" + t + "-" + (day % 2 ? "b" : "a") + ".jpg",
+      baby: "look/baby-" + sheet + "-t" + t + ".jpg" };
   }
-  function photo(src) { return '<img class="lk-photo" src="' + src + '" alt="" onerror="this.remove()">'; }
+  function photo(src) { return src ? '<img class="lk-photo" src="' + src + '" alt="" onerror="this.remove()">' : ""; }
 
   var lastView = null, lookOpen = false;
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
 
   function lookContent(v, profile) {
     var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
-    var fem = profile.gender === "f";
-    var items = L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
+    var fem = profile.gender === "f", pics = lookPhotos(v, profile);
+    var C = band[1] === "chilly" ? CHILLY[pics.style] : null, deck = C ? C.deck : L.deck;
+    var items = C ? C.items[pics.g].map(function (it) { return [it[0], it[1][LANG]]; })
+      : L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
+    var shot = C ? '<img class="lk-photo lk-hero" src="look/chilly/' + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">' +
+      '<div class="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-grid">' + C.pieces[pics.g].map(function (pc, i) {
+        return '<div class="lk-piece"><img src="look/chilly/' + pics.style + "-" + pics.g + "-p" + (i + 1) + '.jpg" alt="" onerror="this.remove()"><span>' + esc(pc[LANG]) + "</span></div>";
+      }).join("") + "</div></div>" : photo(pics.adult);
     var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30;
     // rain in the next 12 hours (or now) changes what to bring
     var rainHit = -1;
@@ -689,10 +766,9 @@
       else if (D.temperature_2m_min[1] <= 0) quotes.push(["Tomorrow", fmt(LT.coldTmr, { v: r(D.temperature_2m_min[1]) })]);
     }
     if (profile.age === "50" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
-    var pics = lookPhotos(v, profile);
 
     return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
-      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(L.deck[LANG]) + "</div>" + photo(pics.adult) +
+      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(deck[LANG]) + "</div>" + shot +
       '<div class="lk-items">' + items.map(function (it) {
         return '<div class="lk-item"><div class="lk-cat">' + it[0] + '</div><div class="lk-what">' + esc(it[1]) + "</div></div>";
       }).join("") + "</div>" +
