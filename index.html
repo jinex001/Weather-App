@@ -103,7 +103,8 @@
     width: 56px; height: 56px; flex: none; border-radius: 50%; display: flex; align-items: center; justify-content: center;
     background: var(--badge); color: #FFFFFF; --bg: var(--badge); --graph: #FFFFFF;
   }
-  .feels-ic svg { width: 38px; height: 38px; flex: none; overflow: visible; position: relative; top: 1px; }
+  /* the person sits left of the 30-unit box's center (body 1.5–24.5, head–feet 2–29): nudge it to the badge's middle */
+  .feels-ic svg { width: 38px; height: 38px; flex: none; overflow: visible; position: relative; left: 2.5px; top: -.6px; }
   .feels-n { font-family: var(--display); font-size: 56px; line-height: 1; }
   .feels-t { text-align: left; }
   .feels-t span { display: block; }
@@ -530,7 +531,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b31";
+  var BUILD = "b32";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
