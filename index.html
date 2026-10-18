@@ -265,7 +265,7 @@
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div class="top-l">
-      <div class="city" id="city">Berlin</div>
+      <div class="city" id="city" role="button" tabindex="0">Berlin</div>
       <div class="date" id="date">&nbsp;</div>
     </div>
     <button class="loc" id="loc" type="button" aria-label="Use my location" hidden>
@@ -320,7 +320,7 @@
       feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
-      today: "{b} Today {c}, high {h}°, low {l}°. {r}. {d}.",
+      todayLead: "Today: {b}.", today: "{c}, high {h}°, low {l}°. {r}. {d}.", nowLead: "Right now: {b}.",
       rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
       snowFrom: "Snow from {t}", snowUntil: "Snow easing around {t}", snowOn: "Snow for the next 12 hours", snowLight: "Light snow possible",
       max: "Up to {p}%", total: "About {c} cm", now: "Now",
@@ -331,7 +331,7 @@
       feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
-      today: "{b} Heute {c}, max. {h}°, min. {l}°. {r}. {d}.",
+      todayLead: "Heute: {b}.", today: "{c}, max. {h}°, min. {l}°. {r}. {d}.", nowLead: "Gerade: {b}.",
       rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
       snowFrom: "Ab {t} Schnee", snowUntil: "Schnee lässt gegen {t} nach", snowOn: "Schnee in den nächsten 12 Std.", snowLight: "Leichter Schneefall möglich",
       max: "Bis {p} %", total: "Etwa {c} cm", now: "Jetzt",
@@ -342,7 +342,7 @@
       feelsL: "체감온도", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
-      today: "{b} 오늘 {c}, 최고 {h}°, 최저 {l}°. {r}. {d}.",
+      todayLead: "오늘은 {b}.", today: "{c}, 최고 {h}°, 최저 {l}°. {r}. {d}.", nowLead: "현재는 {b}.",
       rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
       snowFrom: "{t}부터 눈", snowUntil: "{t}쯤 그침", snowOn: "12시간 넘게 눈", snowLight: "약한 눈 가능성",
       max: "최대 {p}%", total: "약 {c}cm", now: "지금",
@@ -574,7 +574,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b52";
+  var BUILD = "b53";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1081,13 +1081,22 @@
       }
     }
     // Summary sentence: band · today's weather · rain (the graph title on rain/snow screens) · what to wear
-    var cond = condLabel(cur.weather_code, isDay);
-    line.hidden = false;
-    line.innerHTML = '<span class="line-bar"></span><span></span>';
-    line.lastChild.textContent = fmt(T.today, {
-      b: band[2][LANG], c: LANG === "en" ? cond.toLowerCase() : cond, h: hi, l: lo,
+    // Starts "Today: cool." — or "Right now: cool." when the feels-like band changes later today
+    var shifts = false;
+    if (H.apparent_temperature) {
+      for (var a = i0; a < H.time.length && H.time[a].slice(0, 10) === nowLocal.slice(0, 10); a++) {
+        if (H.apparent_temperature[a] != null && bandOf(r(H.apparent_temperature[a]))[1] !== band[1]) { shifts = true; break; }
+      }
+    }
+    var bandName = LANG === "en" ? band[2].en.toLowerCase() : band[2][LANG];
+    var sentence = fmt(T.today, {
+      c: condLabel(cur.weather_code, isDay), h: hi, l: lo,
       r: (graph.hidden ? text : $("gtitle").textContent).replace(/\.$/, ""), d: LOOK[band[1]].deck[LANG].replace(/\.$/, "")
     });
+    sentence = fmt(shifts ? T.nowLead : T.todayLead, { b: bandName }) + " " + sentence;
+    line.hidden = false;
+    line.innerHTML = '<span class="line-bar"></span><span></span>';
+    line.lastChild.textContent = sentence;
 
     var hh = "";
     for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
@@ -1130,12 +1139,13 @@
 
   function updateLocButton() {
     $("loc").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
+    $("city").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
   }
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation" +
-      "&hourly=temperature_2m,precipitation_probability,snowfall,weather_code,is_day" +
+      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
@@ -1194,13 +1204,13 @@
   }
 
   // The whole head (city, art, temperature, condition, feels-like) opens Today's Look; the location button keeps its own job
-  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#loc")) openLook(); });
+  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#loc, #city")) openLook(); });
   // Also open on a plain tap (touch released without moving), in case iOS swallows the click.
   // preventDefault stops the follow-up click from landing on the sheet that just opened under the finger.
   (function () {
     var head = $("head-tap"), t0 = null;
     head.addEventListener("touchstart", function (e) {
-      var t = e.touches[0]; t0 = e.target.closest("#loc") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
+      var t = e.touches[0]; t0 = e.target.closest("#loc, #city") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
     }, { passive: true });
     head.addEventListener("touchend", function (e) {
       if (!t0) return;
@@ -1209,7 +1219,7 @@
       t0 = null;
     });
   })();
-  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#loc")) { e.preventDefault(); openLook(); } });
+  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#loc, #city")) { e.preventDefault(); openLook(); } });
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
   // Swipe the sheet down from its top to close it
@@ -1229,7 +1239,8 @@
     });
   })();
 
-  $("loc").addEventListener("click", function () {
+  // The city name is the location switch (Berlin ↔ current location); the round button stays hidden (b53)
+  function toggleLocation() {
     if (place.gps) {
       place = BERLIN; store("wx-place", place); updateLocButton(); refresh(); return;
     }
@@ -1238,7 +1249,10 @@
       place = { lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true };
       store("wx-place", place); updateLocButton(); refresh();
     }, function () {}, { maximumAge: 600000, timeout: 10000 });
-  });
+  }
+  $("loc").addEventListener("click", toggleLocation);
+  $("city").addEventListener("click", toggleLocation);
+  $("city").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleLocation(); } });
 
   updateLocButton();
   refresh();

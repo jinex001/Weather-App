@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-18, 빌드 b52)
+## 현재 상태 (2026-10-18, 빌드 b53)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록(단계 색 둥근 배지 + 흰 사람 아이콘), 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시, 위치 버튼으로 GPS/베를린 전환.
@@ -54,6 +54,7 @@
 - b50: 흐림 낮(코드 3) 그림에 뒤 구름 오른쪽 위로 해가 아주 조금 보이게(사용자 요청). 안개(45·48)는 따로 그림: 구름이 안개 띠 5줄로 풀어지고 띠가 좌우로 천천히 흔들림(낮 #EDE8DF, 밤은 작은 달 + #4A5666 구름 + #5D6979 띠). 작은 아이콘에도 안개(구름 + 줄 2개) 추가. 배경색은 그대로(안개 낮 = 흐림 낮 색).
 - b51: 안개 낮에도 뒤 구름 오른쪽 위로 해가 아주 조금(흐림과 같은 모양, 사용자 요청).
 - b52: 사용자가 Figma(파일 Weather app, 페이지 App Screens, 프레임 `App / corrections`)에서 고친 디자인 반영. 도시·날짜 한 줄(날짜는 도시 오른쪽, 5px), 위치 버튼 숨김(GPS 전환 코드는 남아 있음). 그림 위 31px, 그림과 큰 기온 사이 +42px(temp margin-top 50px), 최고·최저 줄 16px, 체감 블록 24px. 체감 블록 순서 사람 → 라벨(체감온도·단계) → 숫자, 간격 21px, **배지 없이 사람 아이콘을 화면 글자색으로**(Today's Look 시트는 배지 그대로). 우산 한 줄 대신 요약 문장 블록: 왼쪽 7px 막대(단계 색, 예전 배지 색 규칙) + Poppins 700 16px 줄간 1.5, "{단계} 오늘 {상태}, 최고 N°, 최저 N°. {비 문장}. {옷차림 한 줄}."(옷차림은 LOOK[단계].deck, 비·눈 화면에선 비 문장 = 그래프 제목). 비·눈 화면은 요약 아래 그래프. 24시간·6일 예보는 그대로.
+- b53: 위치 전환은 도시 이름 탭(베를린 ↔ 현재 위치, 헤드 탭 영역에서 제외). 나중에 위치 추가 페이지(+ 버튼) 예정, 지금은 전환만. 요약 문장 시작을 "오늘은 {단계}."로(en "Today: cool.", de "Heute: Kühl."), 오늘 남은 시간의 시간별 체감(hourly apparent_temperature 추가 요청)이 다른 단계로 바뀌면 "현재는 {단계}."(Right now / Gerade). 막대는 체감 단계 색.
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
@@ -78,7 +79,7 @@
 - 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
 - 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
 - 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
-- 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
+- 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름을 누르면 베를린 ↔ 현재 위치 전환(b53), GPS일 때 "현재 위치"(언어별)로 표시.
 
 ## 화면 상태 — `design/screens/`
 
