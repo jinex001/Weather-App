@@ -545,7 +545,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b44";
+  var BUILD = "b45";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -745,7 +745,35 @@
               ["Bottom", { ko: "하이웨이스트 레깅스나 7부 레깅스. 위에 쇼츠도 좋아요", en: "High-waist full or 7/8 leggings; shorts on top work too", de: "High-Waist-Leggings oder 7/8-Leggings, gern mit Shorts darüber" }],
               ["Shoes", { ko: "쿠션 러닝화. 젖은 길이면 밑창 접지력 확인", en: "Cushioned running shoes; check the grip on wet paths", de: "Gedämpfte Laufschuhe; auf nassen Wegen auf Grip achten" }],
               ["Socks", { ko: "얇은 기능성 러닝 양말(발목 위)", en: "Thin tech running socks, above the ankle", de: "Dünne Funktions-Laufsocken, über dem Knöchel" }],
-              ["Bring", { ko: "헤어밴드나 캡. 10~12°면 얇은 장갑도", en: "A headband or cap; light gloves at 10–12°", de: "Stirnband oder Cap; bei 10–12° leichte Handschuhe" }]] } } }
+              ["Bring", { ko: "헤어밴드나 캡. 10~12°면 얇은 장갑도", en: "A headband or cap; light gloves at 10–12°", de: "Stirnband oder Cap; bei 10–12° leichte Handschuhe" }]] } },
+      street: { deck: { ko: "후디나 니트에 가벼운 아우터. 낮엔 벗어서 들고 다니세요.", en: "A hoodie or knit under a light jacket. Carry it once the sun's out.", de: "Hoodie oder Strick unter leichter Jacke. Mittags einfach über den Arm." },
+        items: {
+          m: [["Outer", { ko: "가벼운 나일론 재킷이나 코치 재킷, 오버핏 셔켓", en: "A light nylon or coach jacket, or an oversized shacket", de: "Leichte Nylon- oder Coachjacke oder eine Oversized-Hemdjacke" }],
+              ["Top", { ko: "그레이 후디 + 안에 흰 롱슬리브 티", en: "A grey hoodie over a white long-sleeve tee", de: "Grauer Hoodie über weißem Langarmshirt" }],
+              ["Bottom", { ko: "와이드 카고 팬츠나 나일론 파라슈트 팬츠", en: "Wide cargo or nylon parachute pants", de: "Weite Cargo- oder Nylon-Parachute-Pants" }],
+              ["Shoes", { ko: "청키 러닝 스니커즈(그레이·실버)", en: "Chunky runner sneakers in grey or silver", de: "Chunky Runner-Sneaker in Grau oder Silber" }],
+              ["Socks", { ko: "화이트 크루삭스", en: "White crew socks", de: "Weiße Crew-Socken" }],
+              ["Bring", { ko: "볼캡, 백팩이나 크로스백", en: "A cap and a backpack or crossbody bag", de: "Cap und Rucksack oder Crossbody-Bag" }]],
+          f: [["Outer", { ko: "가벼운 재킷이나 셔켓. 따뜻해지면 벗어서 들고", en: "A light jacket or shacket, carried once it warms up", de: "Leichte Jacke oder Hemdjacke, über dem Arm, wenn es wärmer wird" }],
+              ["Top", { ko: "오버핏 니트나 스웻 + 밑단으로 보이는 흰 티", en: "An oversized knit or sweat with a white tee peeking out", de: "Oversized-Strick oder Sweat, weißes Shirt blitzt unten raus" }],
+              ["Bottom", { ko: "와이드 카고 팬츠나 배기 데님", en: "Wide cargo pants or baggy denim", de: "Weite Cargohose oder Baggy Jeans" }],
+              ["Shoes", { ko: "청키 스니커즈", en: "Chunky sneakers", de: "Chunky Sneaker" }],
+              ["Socks", { ko: "화이트 크루삭스", en: "White crew socks", de: "Weiße Crew-Socken" }],
+              ["Bring", { ko: "큰 숄더백. 바람 불면 볼캡", en: "A big shoulder bag; a cap if it's windy", de: "Große Schultertasche; bei Wind ein Cap" }]] } },
+      minimal: { deck: { ko: "니트 위에 얇은 코트 하나. 머플러로 온도 조절.", en: "One knit, one light coat. A scarf to fine-tune.", de: "Ein Strick, ein leichter Mantel. Mit dem Schal feinjustieren." },
+        items: {
+          m: [["Outer", { ko: "얇은 울 코트나 맥 코트(차콜·블랙)", en: "A light wool coat or mac in charcoal or black", de: "Leichter Wollmantel oder Mac in Anthrazit oder Schwarz" }],
+              ["Top", { ko: "크루넥 울 니트 + 안에 흰 티", en: "A crewneck wool knit over a white tee", de: "Rundhals-Wollpullover über weißem Shirt" }],
+              ["Bottom", { ko: "주름 잡힌 와이드 울 슬랙스", en: "Wide pleated wool trousers", de: "Weite Bundfaltenhose aus Wolle" }],
+              ["Shoes", { ko: "가죽 더비나 로퍼", en: "Leather derbies or loafers", de: "Leder-Derbys oder Loafer" }],
+              ["Socks", { ko: "울 혼방 다크 삭스", en: "Dark wool-blend socks", de: "Dunkle Socken aus Wollmix" }],
+              ["Bring", { ko: "얇은 울 머플러, 가죽 토트백", en: "A light wool scarf, a leather tote", de: "Leichter Wollschal, Leder-Tote" }]],
+          f: [["Outer", { ko: "오버핏 롱 울 코트(블랙·차콜)", en: "An oversized long wool coat in black or charcoal", de: "Oversized langer Wollmantel in Schwarz oder Anthrazit" }],
+              ["Top", { ko: "크롭 울 니트 + 밑단으로 보이는 흰 티", en: "A cropped wool knit with a white tee showing", de: "Kurzer Wollpulli, weißes Shirt blitzt unten raus" }],
+              ["Bottom", { ko: "와이드 울 팬츠", en: "Wide wool trousers", de: "Weite Wollhose" }],
+              ["Shoes", { ko: "미니멀 스니커즈나 로퍼", en: "Minimal sneakers or loafers", de: "Schlichte Sneaker oder Loafer" }],
+              ["Socks", { ko: "울 양말(바지와 같은 색)", en: "Wool socks matching the trousers", de: "Wollsocken passend zur Hose" }],
+              ["Bring", { ko: "큰 숄더백, 얇은 머플러", en: "A big shoulder bag, a light scarf", de: "Große Schultertasche, leichter Schal" }]] } } }
   };
 
   function lookPhotos(v, profile) {
