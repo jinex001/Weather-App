@@ -523,7 +523,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b29";
+  var BUILD = "b30";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
@@ -734,6 +734,44 @@
     setTimeout(function () { if (!lookOpen) sheet.hidden = true; }, 350);
   }
 
+  // Measured weather from the German Weather Service (DWD) stations via Bright Sky. When it is fresh
+  // (under 90 min), it replaces the model's "current" temperature, wind and condition; forecasts stay Open-Meteo.
+  function obsCode(o) {
+    var p = typeof o.precipitation_10 === "number" ? o.precipitation_10 : 0;
+    switch (o.condition) {
+      case "thunderstorm": return 95;
+      case "hail": return 96;
+      case "snow": return 73;
+      case "sleet": return 66;
+      case "rain": return p >= 0.5 ? 63 : 61;
+      case "fog": return 45;
+    }
+    switch (o.icon) {
+      case "clear-day": case "clear-night": return (o.cloud_cover || 0) > 20 ? 1 : 0;
+      case "partly-cloudy-day": case "partly-cloudy-night": return (o.cloud_cover || 50) < 40 ? 1 : 2;
+      case "cloudy": return 3;
+      case "fog": return 45;
+      case "rain": return 61;
+      case "snow": return 73;
+      case "sleet": return 66;
+      case "hail": return 96;
+      case "thunderstorm": return 95;
+    }
+    return null;
+  }
+  function applyObs(data) {
+    var o = data.obs;
+    if (!o || typeof o.temperature !== "number" || Date.now() - new Date(o.timestamp).getTime() > 90 * 60000) return null;
+    var cur = data.current, add = {};
+    add.temperature_2m = o.temperature;
+    // keep the model's wind and humidity effect on "feels like", moved by the measured temperature
+    if (typeof cur.apparent_temperature === "number") add.apparent_temperature = cur.apparent_temperature + (o.temperature - cur.temperature_2m);
+    if (typeof o.wind_speed_10 === "number") add.wind_speed_10m = o.wind_speed_10;
+    var code = obsCode(o);
+    if (code !== null) add.weather_code = code;
+    return Object.assign({}, data, { current: Object.assign({}, cur, add) });
+  }
+
   function rainNearby(data, nowLocal) {
     var M = data.minutely_15;
     if (!M || !M.time) return false;
@@ -742,13 +780,15 @@
   }
 
   function render(data, place, stale) {
+    var measured = applyObs(data);
+    if (measured) data = measured;
     var cur = data.current, H = data.hourly, D = data.daily;
     // Clock time at the place (the data's own time can be up to 15 min old)
     var nowLocal = typeof data.utc_offset_seconds === "number" ? new Date(Date.now() + data.utc_offset_seconds * 1000).toISOString().slice(0, 16) : cur.time;
     // The model's current code can say drizzle or rain while nothing falls. Show it as overcast only
     // when no rain is reported now, none in the 15-minute data from 30 min ago to 30 min ahead
     // (light rain rounds to 0.0 in a single 15-minute value), and the chance this hour is low.
-    if (isRain(cur.weather_code) && typeof cur.precipitation === "number" && cur.precipitation < 0.1 && !rainNearby(data, nowLocal)) {
+    if (!measured && isRain(cur.weather_code) && typeof cur.precipitation === "number" && cur.precipitation < 0.1 && !rainNearby(data, nowLocal)) {
       var hNow = H.time.findIndex(function (x) { return x.slice(0, 13) === nowLocal.slice(0, 13); });
       if (hNow >= 0 && (H.precipitation_probability[hNow] || 0) < 40) {
         cur = Object.assign({}, cur, { weather_code: 3 });
@@ -772,7 +812,7 @@
     tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
     tempEl.classList.toggle("long", String(t).length >= 3);
     $("cond").textContent = condLabel(cur.weather_code, isDay);
-    $("sub").textContent = fmt(T.sub, { h: r(D.temperature_2m_max[0]), l: r(D.temperature_2m_min[0]), w: r(cur.wind_speed_10m || 0) });
+    $("sub").textContent = fmt(T.sub, { h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)), w: r(cur.wind_speed_10m || 0) });
 
     var f = r(cur.apparent_temperature), band = bandOf(f);
     $("feels-ic").innerHTML = person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code));
@@ -865,7 +905,7 @@
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
     // Data from the last 20 minutes still counts as current, even if the latest request failed
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
-    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + " · " + BUILD;
+    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + " · " + BUILD;
   }
 
   // ── Place & data ──
@@ -914,8 +954,14 @@
     var cached = load("wx-data");
     if (cached && !document.getElementById("days").innerHTML) render(cached, place, true);
     if (!cached) $("status").textContent = T.loading;
+    // Forecast (Open-Meteo) and the latest station measurement (Bright Sky / DWD) in parallel;
+    // the measurement is optional (outside Germany or when it fails the app runs on the forecast alone)
+    var obsReq = fetch("https://api.brightsky.dev/current_weather?lat=" + place.lat + "&lon=" + place.lon, { cache: "no-store" })
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .catch(function () { return null; });
     fetch(url(place), { cache: "no-store" })
       .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(function (data) { return obsReq.then(function (bs) { if (bs && bs.weather) data.obs = bs.weather; return data; }); })
       .then(function (data) {
         if (!data.current) throw new Error("bad data");
         data._fetched = Date.now();
