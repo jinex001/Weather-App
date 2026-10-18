@@ -545,7 +545,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b39";
+  var BUILD = "b40";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -726,7 +726,7 @@
   };
 
   // Full-size look photos the user sent one by one (look/<band>/<style>-<m|f>.jpg); these replace the small sheet crop.
-  var HERO = { "cool/street-m": 1 };
+  var HERO = { "cool/street-m": 1, "cool/minimal-m": 1 };
 
   function lookPhotos(v, profile) {
     var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;

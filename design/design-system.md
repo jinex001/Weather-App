@@ -155,7 +155,7 @@ Poppins는 폭이 넓어서 **기본 자간 -.02em**(body). 작은 대문자 라
 6. 한 줄 요약 `look-deck`
 6-1. 스타일 탭 (b38): 러닝·운동 / 스트리트웨어 / 미니멀. 질문 화면 알약과 같은 모양, 고른 탭은 글자색으로 채움. 고른 값은 `wx-profile.style`, 기본 미니멀.
 6b. **쌀쌀함(체감 1~9°)만 (b37)**: 6a 대신 스타일 전용 화면. 한 줄 요약은 스타일 문구, 큰 룩 사진(폭 100%), THE PIECES(`kicker`) + 아이템 사진 6장(3열, 흰 바탕 4:5, 아래 11px 이름), 아이템은 6줄(OUTER·TOP·BOTTOM·SHOES·SOCKS·BRING). 사진 `look/chilly/<run|street|minimal>-<m|f>.jpg`·`-p1~6.jpg`, 문구 `CHILLY`(원문 `design/look-chilly.md`).
-6c. 단계별 큰 사진 (b39): `look/<단계>/<스타일>-<m|f>.jpg`가 `HERO`에 있으면 6a 대신 폭 100%로. 지금은 `cool/street-m`.
+6c. 단계별 큰 사진 (b39): `look/<단계>/<스타일>-<m|f>.jpg`가 `HERO`에 있으면 6a 대신 폭 100%로. 지금은 `cool/street-m`, `cool/minimal-m`.
 6a. 옷차림 사진 (`look/`, 테두리·둥근 모서리 없이 폭 56%). 사용자가 준 에디토리얼 시트에서 한 장씩 잘라낸 것.
    - 기온 칸 7개를 체감온도로 고름: T1 ≥30 · T2 24–29 · T3 18–23 · T4 12–17 · T5 6–11 · T6 0–5 · T7 <0.
    - 파일 이름 `<m|f>-<street|minimal>-t<1–7>-<a|b>.jpg`. 성별 여/남 그대로, "선택 안 함"은 날마다 번갈아. 룩 a/b도 날마다 번갈아. 스타일을 안 고르면 미니멀.
