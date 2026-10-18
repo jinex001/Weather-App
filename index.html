@@ -186,6 +186,10 @@
   }
   .hour-t { font-family: var(--mono); font-weight: 500; font-size: 11px; line-height: 14px; }
   .hour-v { font-family: var(--display); letter-spacing: 0; font-size: 22px; }
+  /* precipitation chance under every hour (b60): bar on a common baseline, then the % ("-" under 20%) */
+  .hour-pb { height: 32px; margin-top: 6px; display: flex; align-items: flex-end; }
+  .hour-bar { width: 28px; background: #8FB8DE; }
+  body[data-state="sun"] .hour-bar, body[data-state="overcast"] .hour-bar, body[data-state="snow"] .hour-bar { background: #CAE2F8; }
   .hour-p { font-family: var(--mono); font-weight: 500; font-size: 10px; min-height: 12px; }
   .days {
     border-top: 1.5px solid var(--fg); padding-top: 14px;
@@ -575,7 +579,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b59";
+  var BUILD = "b60";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1075,12 +1079,16 @@
     $("summary").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
     $("summary").hidden = false;
 
+    // bars scale to the wettest hour shown (at least 30%), so a 30% hour fills the 32px column
+    var pTop = 30;
+    for (var q = i0; q < i0 + 24 && q < H.time.length; q++) pTop = Math.max(pTop, H.precipitation_probability[q] || 0);
     var hh = "";
     for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
       var x = i0 + n, pp = H.precipitation_probability[x] || 0;
       hh += '<div class="hour' + (n === 0 ? " now" : "") + '"><div class="hour-t">' + (n === 0 ? T.now : H.time[x].slice(11, 13)) + "</div>" +
             icon(H.weather_code[x], H.is_day[x] === 0) + '<div class="hour-v">' + r(H.temperature_2m[x]) + "°</div>" +
-            '<div class="hour-p">' + (pp >= 20 ? pp + "%" : "") + "</div></div>";
+            '<div class="hour-pb"><div class="hour-bar" style="height:' + Math.max(3, Math.round(pp / pTop * 32)) + 'px"></div></div>' +
+            '<div class="hour-p">' + (pp >= 20 ? pp + "%" : "-") + "</div></div>";
     }
     $("hours").innerHTML = hh;
     $("hours").scrollLeft = 0;
