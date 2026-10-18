@@ -46,7 +46,8 @@
   }
   /* city · date · time on one line at the top (b57) */
   .top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
-  .city { font-size: 17px; font-weight: 700; }
+  /* tapping the city switches GPS ↔ Berlin (b58); padding widens the tap target without moving the text */
+  .city { font-size: 17px; font-weight: 700; cursor: pointer; padding: 10px 8px 10px 0; margin: -10px -8px -10px 0; }
   .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
   /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
   .hero-art { display: flex; justify-content: center; margin: 28px -24px 0; height: 170px; overflow: hidden; }
@@ -264,7 +265,7 @@
   <div class="first">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
-    <div class="city" id="city">Berlin</div>
+    <div class="city" id="city" role="button" tabindex="0">Berlin</div>
     <div class="date" id="date">&nbsp;</div>
   </div>
 
@@ -317,7 +318,7 @@
 
   var T = {
     en: {
-      berlin: "Berlin", here: "Current location",
+      berlin: "Berlin", here: "Current location", useLoc: "Use my location", useBerlin: "Show Berlin",
       feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
@@ -330,7 +331,7 @@
       updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
     },
     de: {
-      berlin: "Berlin", here: "Aktueller Standort",
+      berlin: "Berlin", here: "Aktueller Standort", useLoc: "Meinen Standort verwenden", useBerlin: "Berlin anzeigen",
       feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
@@ -343,7 +344,7 @@
       updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
     },
     ko: {
-      berlin: "베를린", here: "현재 위치",
+      berlin: "베를린", here: "현재 위치", useLoc: "내 위치 사용", useBerlin: "베를린 보기",
       feelsL: "체감온도", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
@@ -582,7 +583,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b57";
+  var BUILD = "b58";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1164,6 +1165,10 @@
   var place = load("wx-place") || BERLIN;
 
 
+  function updateLocButton() {
+    $("city").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
+  }
+
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation" +
@@ -1225,14 +1230,14 @@
       .then(function () { busy = false; });
   }
 
-  // The whole head (city, art, temperature, condition, feels-like) opens Today's Look
-  $("head-tap").addEventListener("click", function () { openLook(); });
+  // The whole head (art, temperature, condition, feels-like) opens Today's Look; the city name switches the place
+  $("head-tap").addEventListener("click", function (e) { if (!e.target.closest("#city")) openLook(); });
   // Also open on a plain tap (touch released without moving), in case iOS swallows the click.
   // preventDefault stops the follow-up click from landing on the sheet that just opened under the finger.
   (function () {
     var head = $("head-tap"), t0 = null;
     head.addEventListener("touchstart", function (e) {
-      var t = e.touches[0]; t0 = { x: t.clientX, y: t.clientY, time: Date.now() };
+      var t = e.touches[0]; t0 = e.target.closest("#city") ? null : { x: t.clientX, y: t.clientY, time: Date.now() };
     }, { passive: true });
     head.addEventListener("touchend", function (e) {
       if (!t0) return;
@@ -1241,7 +1246,7 @@
       t0 = null;
     });
   })();
-  $("head-tap").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openLook(); } });
+  $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#city")) { e.preventDefault(); openLook(); } });
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
   // Swipe the sheet down from its top to close it
@@ -1261,6 +1266,20 @@
     });
   })();
 
+  function switchPlace() {
+    if (place.gps) {
+      place = BERLIN; store("wx-place", place); updateLocButton(); refresh(); return;
+    }
+    if (!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      place = { lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true };
+      store("wx-place", place); updateLocButton(); refresh();
+    }, function () {}, { maximumAge: 600000, timeout: 10000 });
+  }
+  $("city").addEventListener("click", switchPlace);
+  $("city").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); switchPlace(); } });
+
+  updateLocButton();
   refresh();
   setInterval(refresh, 15 * 60 * 1000);
   window.addEventListener("online", function () { retries = 0; refresh(); });
