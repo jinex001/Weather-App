@@ -35,7 +35,7 @@
   body[data-state="rain"]       { --bg: #4F5D6B; --fg: #E6ECF2; --graph: #8FB8DE; }
   body[data-state="night"]      { --bg: #1B2140; --fg: #F4F1E8; }
   body[data-state="snow"]       { --bg: #E9EEF3; --fg: #141414; --graph: #5C7A99; }
-  body[data-state="overcast"]   { --bg: #DCE1E5; --fg: #141414; }
+  body[data-state="overcast"]   { --bg: #A9B1B9; --fg: #141414; }
   body[data-state="night"][data-wx="snow"] { --graph: #BCC8D4; }
 
   .app {
@@ -412,7 +412,7 @@
     if (isOvercast(c) && isDay) return "overcast";
     return isDay ? "sun" : "night";
   }
-  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#DCE1E5" };
+  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#A9B1B9" };
 
   // ── Hero art (shapes from the design files), animated with the .art-* classes ──
   // Day: code 0 sun only · 1 sun + one tiny drifting cloud · 2 sun behind a cloud · 3/45/48 overcast with drifting clouds.
@@ -449,7 +449,7 @@
     rainNight: '<svg viewBox="0 0 240 170">' + MOON_SMALL +
       drops([[62, 134, 0], [80, 140, .45], [98, 134, .2], [116, 140, .65], [134, 134, .35]]) +
       '<path d="' + CLOUD + '" fill="#4A5666"/></svg>',
-    overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "#B9C1C9", 36, -10) +
+    overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "#91989F", 36, -10) +
       '<g transform="translate(0 20)"><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#958E81"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
       drift(112, .38, "#FFFFFF", 23, 0) + drift(-4, .26, "#FFFFFF", 30, -18) + "</svg>"
   };
@@ -523,7 +523,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b27";
+  var BUILD = "b28";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
