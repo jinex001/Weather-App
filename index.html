@@ -113,6 +113,8 @@
   .feels-t span { display: block; text-transform: uppercase; }
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
   .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-bottom: 2px; }
+  /* Today's summary: plain text under the feels-like block (no box, no line) */
+  .summary { margin: 14px auto 0; max-width: 320px; text-align: center; font-size: 15px; font-weight: 500; line-height: 1.45; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -279,6 +281,7 @@
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
   </div>
   </div>
+  <p class="summary" id="summary" hidden></p>
 
   <div class="grow"></div>
 
@@ -319,6 +322,9 @@
       rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
       snowFrom: "Snow from {t}", snowUntil: "Snow easing around {t}", snowOn: "Snow for the next 12 hours", snowLight: "Light snow possible",
       max: "Up to {p}%", total: "About {c} cm", now: "Now",
+      sumDay: "Today {c}, high {h}°, low {l}°.", sumRainAt: "{w} likely around {t} ({p}%).", sumRainNow: "{w} now, easing around {t}.",
+      sumRainOn: "{w} for the rest of the day.", sumDry: "No rain in the next 12 hours.", sumDrop: "Cooling to {v}° by {t}.", sumWind: "Windy, {w} km/h.",
+      wRain: "Rain", wSnow: "Snow",
       updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
     },
     de: {
@@ -329,6 +335,9 @@
       rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
       snowFrom: "Ab {t} Schnee", snowUntil: "Schnee lässt gegen {t} nach", snowOn: "Schnee in den nächsten 12 Std.", snowLight: "Leichter Schneefall möglich",
       max: "Bis {p} %", total: "Etwa {c} cm", now: "Jetzt",
+      sumDay: "Heute: {c}, max {h}°, min {l}°.", sumRainAt: "{w} gegen {t} wahrscheinlich ({p} %).", sumRainNow: "Gerade {w}, lässt gegen {t} nach.",
+      sumRainOn: "{w} bis zum Abend.", sumDry: "Kein Regen in den nächsten 12 Std.", sumDrop: "Bis {t} kühlt es auf {v}° ab.", sumWind: "Windig, {w} km/h.",
+      wRain: "Regen", wSnow: "Schnee",
       updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
     },
     ko: {
@@ -339,6 +348,9 @@
       rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
       snowFrom: "{t}부터 눈", snowUntil: "{t}쯤 그침", snowOn: "12시간 넘게 눈", snowLight: "약한 눈 가능성",
       max: "최대 {p}%", total: "약 {c}cm", now: "지금",
+      sumDay: "오늘은 {c}, 최고 {h}° 최저 {l}°.", sumRainAt: "{t}쯤 {w} 올 확률 {p}%.", sumRainNow: "지금 {w} 오는 중, {t}쯤 그쳐요.",
+      sumRainOn: "오늘은 계속 {w} 소식.", sumDry: "12시간 동안 비 소식은 없어요.", sumDrop: "{t}쯤엔 {v}°까지 내려가요.", sumWind: "바람이 강해요, {w}km/h.",
+      wRain: "비", wSnow: "눈",
       updated: "{t} 업데이트", offline: "오프라인 · 마지막 {t}", loading: "불러오는 중…", failed: "날씨를 불러오지 못했어요"
     }
   }[LANG];
@@ -568,7 +580,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b51";
+  var BUILD = "b52";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1076,6 +1088,9 @@
       line.querySelector("span").textContent = text;
     }
 
+    $("summary").textContent = summaryText(cur, H, D, i0, hours, isDay);
+    $("summary").hidden = false;
+
     var hh = "";
     for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
       var x = i0 + n, pp = H.precipitation_probability[x] || 0;
@@ -1106,6 +1121,29 @@
     // Data from the last 20 minutes still counts as current, even if the latest request failed
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
     $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + " · " + BUILD;
+  }
+
+  // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind
+  function summaryText(cur, H, D, i0, hours, isDay) {
+    var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; };
+    var out = [fmt(T.sumDay, { c: low1(condLabel(D.weather_code[0], 1)), h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)) })];
+    var wet = function (i) { return (H.precipitation_probability[i] || 0) >= 50; };
+    var word = function (i) { return isSnow(H.weather_code[i]) ? T.wSnow : T.wRain; };
+    if (hours.length && wet(hours[0])) {
+      var end = -1; for (var k = 1; k < hours.length; k++) { if (!wet(hours[k])) { end = hours[k]; break; } }
+      out.push(end >= 0 ? fmt(T.sumRainNow, { w: low1(word(hours[0])), t: hourText(H.time[end]) }) : fmt(T.sumRainOn, { w: word(hours[0]) }));
+    } else {
+      var hit = -1; for (var m = 1; m < hours.length; m++) { if (wet(hours[m])) { hit = hours[m]; break; } }
+      out.push(hit >= 0 ? fmt(T.sumRainAt, { w: word(hit), t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }) : T.sumDry);
+    }
+    // lowest temperature for the rest of today (daytime only; at night the line below already looks at tomorrow)
+    if (isDay) {
+      var low = -1, today = H.time[i0].slice(0, 10);
+      for (var j = i0 + 1; j < H.time.length && H.time[j].slice(0, 10) === today; j++) { if (low < 0 || H.temperature_2m[j] < H.temperature_2m[low]) low = j; }
+      if (low >= 0 && cur.temperature_2m - H.temperature_2m[low] >= 4) out.push(fmt(T.sumDrop, { v: r(H.temperature_2m[low]), t: hourText(H.time[low]) }));
+    }
+    if ((cur.wind_speed_10m || 0) >= 30) out.push(fmt(T.sumWind, { w: r(cur.wind_speed_10m) }));
+    return out.join(" ");
   }
 
   // ── Place & data ──
