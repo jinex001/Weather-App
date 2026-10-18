@@ -57,7 +57,7 @@ const STATES = {
   "night-rain":{ bg: "#1B2140", fg: "#F4F1E8", graph: "#8FB8DE" },
   "rain-night":{ bg: "#232B36", fg: "#E6ECF2", graph: "#8FB8DE" },
   snow:        { bg: "#E9EEF3", fg: "#141414", graph: "#5C7A99" },
-  overcast:    { bg: "#DCE1E5", fg: "#141414", graph: "#141414" },
+  overcast:    { bg: "#A9B1B9", fg: "#141414", graph: "#141414" },
 }
 function stateOf(c, day) {
   // Every night uses the one dark night color, whatever the weather
