@@ -3,7 +3,7 @@
 광고 없이, 지금 날씨를 숫자 하나로 보여주고 오늘 뭘 입을지까지 알려주는 아이폰 날씨앱과 위젯의 디자인 시스템입니다.
 값은 모두 `tokens.json`에 있고, 이 문서는 그 값을 언제·왜 쓰는지 설명합니다. 실제 구현은 `index.html`(웹앱)과 `widget/weather-widget.js`(위젯)입니다.
 
-마지막 정리: 2026-10-18 (tokens v3, 앱 빌드 b34)
+마지막 정리: 2026-10-18 (tokens v3, 앱 빌드 b35)
 
 ## 1. 원칙
 
@@ -52,7 +52,7 @@
 | `look-head` | Anton | 92 / 0.88, 자간 -1px, 대문자 | Today's Look 헤드라인 |
 | `feels-num` | Anton | 56 / 1 | 체감온도 |
 | `forecast-num` | Anton | 22 | 24시간·6일 예보 |
-| `condition` | Poppins 700 | 40 / 1.1, 자간 .5px, **대문자** | 상태 문구 (한글은 그대로) |
+| `condition` | Poppins 700 | 40 / 1.1, 자간 -.02em, **대문자** | 상태 문구 (한글은 그대로) |
 | `look-quote` | Poppins 700 | 26 / 1.2 | Tonight·Tomorrow·Note |
 | `feels-band` · `look-deck` | Poppins 700 | 20 | 체감 단계 이름, 룩 한 줄 요약 |
 | `look-ask` | Poppins 700 | 18 | 질문 화면 질문 |
@@ -61,10 +61,12 @@
 | `look-option` | Poppins 600 | 15 | 질문 선택지 |
 | `title` | Poppins 700 | 14 / 20 | 그래프 제목 |
 | `body` | Poppins 600 | 14 / 20 | 한 줄 요약 |
-| `caption` | Poppins 500 | 12, 자간 .04em | 최고·최저·바람, 그래프 최대값 |
-| `label` | Poppins 500 | 11, 자간 .04em | 날짜, 시각, 요일, "체감온도" |
-| `kicker` | Poppins 600 | 10–12, 자간 .08em, 대문자 | Today's Look 작은 제목 |
+| `caption` | Poppins 500 | 12, 자간 .02em | 최고·최저·바람, 그래프 최대값 |
+| `label` | Poppins 500 | 11, 자간 .02em | 날짜, 시각, 요일, "체감온도" |
+| `kicker` | Poppins 600 | 10–12, 자간 .06em, 대문자 | Today's Look 작은 제목 |
 | `micro` | Poppins 500 | 10 | 눈금, 강수확률, 업데이트 상태 |
+
+Poppins는 폭이 넓어서 **기본 자간 -.02em**(body). 작은 대문자 라벨만 위 표처럼 벌리고, Anton 숫자는 0으로 되돌립니다(b35).
 
 **° 기호** — 모든 큰 숫자(기온, 체감, 위젯)에 같은 규칙: 숫자의 80% 크기, 윗끝을 숫자 윗선에 맞춤.
 `<span style="font-size:.8em;position:relative;top:-.29em">°</span>` (Anton 실측: 숫자 윗선 1761/2048em, ° 윗선 1607/2048em). 예보의 작은 숫자는 그냥 `°`.

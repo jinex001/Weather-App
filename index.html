@@ -27,6 +27,7 @@
   body {
     background: var(--bg); color: var(--fg);
     font-family: var(--sans);
+    letter-spacing: -.02em; /* Poppins runs wide: tighten every text a little (Anton numbers reset to 0) */
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
     transition: background-color .4s ease, color .4s ease;
@@ -45,7 +46,7 @@
   }
   .top { display: flex; justify-content: space-between; align-items: center; }
   .city { font-size: 17px; font-weight: 700; }
-  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .04em; margin-top: 2px; }
+  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-top: 2px; }
   .loc {
     width: 44px; height: 44px; border-radius: 22px; padding: 0;
     border: 1.5px solid var(--fg); background: transparent; color: var(--fg);
@@ -82,11 +83,11 @@
   .deg { font-size: .8em; position: relative; top: -.29em; }
   .cond {
     position: relative; text-align: center; font-size: 40px; font-weight: 700;
-    line-height: 1.1; letter-spacing: .5px; margin-top: -20px; text-transform: uppercase;
+    line-height: 1.1; letter-spacing: -.02em; margin-top: -20px; text-transform: uppercase;
     text-shadow: 3px 0 var(--bg), -3px 0 var(--bg), 0 3px var(--bg), 0 -3px var(--bg),
                  2px 2px var(--bg), -2px -2px var(--bg), 2px -2px var(--bg), -2px 2px var(--bg);
   }
-  .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .04em; margin-top: 10px; }
+  .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 10px; }
   .grow { flex-grow: 1; min-height: 24px; }
 
   /* Feels-like block: animated person + feels-like temperature + band name */
@@ -105,11 +106,11 @@
   }
   /* the person sits left of the 30-unit box's center (body 1.5–24.5, head–feet 2–29): nudge it to the badge's middle */
   .feels-ic svg { width: 38px; height: 38px; flex: none; overflow: visible; position: relative; left: 2.5px; top: -.6px; }
-  .feels-n { font-family: var(--display); font-size: 56px; line-height: 1; }
+  .feels-n { font-family: var(--display); letter-spacing: 0; font-size: 56px; line-height: 1; }
   .feels-t { text-align: left; }
   .feels-t span { display: block; text-transform: uppercase; }
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
-  .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .04em; margin-bottom: 2px; }
+  .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-bottom: 2px; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -175,7 +176,7 @@
     width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: currentColor;
   }
   .hour-t { font-family: var(--mono); font-weight: 500; font-size: 11px; line-height: 14px; }
-  .hour-v { font-family: var(--display); font-size: 22px; }
+  .hour-v { font-family: var(--display); letter-spacing: 0; font-size: 22px; }
   .hour-p { font-family: var(--mono); font-weight: 500; font-size: 10px; min-height: 12px; }
   .days {
     border-top: 1.5px solid var(--fg); padding-top: 14px;
@@ -183,7 +184,7 @@
   }
   .day { display: flex; flex-direction: column; align-items: center; gap: 6px; }
   .day-name { font-family: var(--mono); font-weight: 500; font-size: 11px; }
-  .day-temp { font-family: var(--display); font-size: 22px; }
+  .day-temp { font-family: var(--display); letter-spacing: 0; font-size: 22px; }
   .status { font-family: var(--mono); font-weight: 500; font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
   [hidden] { display: none !important; }
 
@@ -203,24 +204,24 @@
   .look > * { max-width: 432px; margin-left: auto; margin-right: auto; }
   .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
   .lk-grab::before { content: ""; position: absolute; left: 50%; top: 10px; width: 44px; height: 5px; margin-left: -22px; border-radius: 3px; background: var(--lk-ink); opacity: .45; }
-  .lk-mast { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-top: 8px; }
+  .lk-mast { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin-top: 8px; }
   .lk-ic { margin-top: 22px; }
   /* same round badge as the main block, a little larger; offsets scale with the icon (2.5 / -.6 at 38px) */
   .lk-ic .feels-ic { width: 64px; height: 64px; }
   .lk-ic .feels-ic svg { width: 43px; height: 43px; left: 2.8px; top: -.7px; }
-  .lk-kicker { margin-top: 10px; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .lk-kicker { margin-top: 10px; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .lk-head { font-family: var(--display); font-size: 92px; line-height: .88; letter-spacing: -1px; text-transform: uppercase; margin-top: 8px; }
   .lk-deck { font-size: 20px; font-weight: 700; line-height: 1.3; margin-top: 14px; }
   .lk-items { margin-top: 18px; }
   .lk-item { padding: 8px 0; }
-  .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .lk-what { font-size: 16px; font-weight: 700; line-height: 1.3; margin-top: 1px; }
   .lk-quote { margin-top: 24px; font-size: 26px; font-weight: 700; line-height: 1.2; }
-  .lk-quote small { display: block; font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 6px; }
+  .lk-quote small { display: block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 6px; }
   .lk-baby { margin-top: 30px; }
-  .lk-bt { font-family: var(--display); font-size: 34px; line-height: .9; text-transform: uppercase; }
+  .lk-bt { font-family: var(--display); letter-spacing: 0; font-size: 34px; line-height: .9; text-transform: uppercase; }
   .lk-baby p { margin: 10px 0 0; font-size: 14px; font-weight: 600; line-height: 1.45; }
-  .lk-foot { margin-top: 28px; font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; }
+  .lk-foot { margin-top: 28px; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; }
   .lk-foot button, .lk-skip { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 6px 0; cursor: pointer; }
   .lk-q { margin-top: 26px; }
   .lk-ask { font-size: 18px; font-weight: 700; margin-top: 2px; }
@@ -233,7 +234,7 @@
   .lk-go { display: block; margin-top: 34px; width: 100%; font: 700 17px var(--sans); color: var(--lk-bg); background: var(--lk-ink); border: 0; border-radius: 28px; padding: 17px; cursor: pointer; transition: opacity .2s; }
   .lk-go:disabled { opacity: .35; cursor: default; }
   .lk-fine { margin-top: 14px; font-size: 12px; font-weight: 500; line-height: 1.5; text-align: center; }
-  .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 </style>
 </head>
 <body data-state="sun">
@@ -533,7 +534,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b34";
+  var BUILD = "b35";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
