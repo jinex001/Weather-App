@@ -45,7 +45,7 @@
     padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 28px);
   }
   /* city · date · time on one line at the top (b57) */
-  .top { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .top { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; }
   /* tapping the city switches GPS ↔ Berlin (b58); padding widens the tap target without moving the text */
   .city { font-size: 17px; font-weight: 700; cursor: pointer; padding: 10px 8px 10px 0; margin: -10px -8px -10px 0; }
   .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
@@ -88,11 +88,6 @@
   }
   .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 16px; }
   .grow { flex-grow: 1; min-height: 24px; }
-  /* First screen (b56): location bar to summary fill one screen height; the extra space is split evenly over the
-     four gaps (bar–art, art–temperature, caption–feels, feels–summary). The head holds three gaps, so it grows 3:1. */
-  .first { display: flex; flex-direction: column; min-height: calc(100svh - env(safe-area-inset-top) - 20px); padding-bottom: 32px; }
-  .first .head-tap { flex: 3 0 auto; display: flex; flex-direction: column; }
-  .first .gap { flex: 1 0 0; }
 
   /* Feels-like block: animated person + label/band name + feels-like temperature (b55 order) */
   /* cursor: pointer also makes iOS Safari deliver taps on this non-button area */
@@ -110,15 +105,17 @@
   }
   /* the person sits left of the 30-unit box's center (body 1.5–24.5, head–feet 2–29): nudge it to the badge's middle */
   .feels-ic svg { width: 38px; height: 38px; flex: none; overflow: visible; position: relative; left: 2.5px; top: -.6px; }
-  /* main block: no badge, the person is drawn in the screen's text color (b52); Today's Look keeps its badge */
+  /* main block: no badge, the person is drawn in the screen's text color (b59, Figma "App / corrections"); Today's Look keeps its badge */
   #feels .feels-ic { background: none; color: var(--fg); --bg: inherit; --graph: inherit; }
   .feels-n { font-family: var(--display); letter-spacing: 0; font-size: 56px; line-height: 1; }
   .feels-t { text-align: left; }
   .feels-t span { display: block; text-transform: uppercase; }
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
   .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-bottom: 2px; }
-  /* Today's summary: plain text under the feels-like block (no box, no line) */
-  .summary { margin: 14px auto 0; max-width: 320px; word-break: keep-all; text-align: center; font-size: 15px; font-weight: 500; line-height: 1.45; }
+  /* Today's summary: a bar in the feels-like band color, then the text (b59, Figma "App / corrections") */
+  .summary { display: flex; align-items: stretch; gap: 7px; margin-top: 23px; word-break: keep-all; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; }
+  .summary[hidden] { display: none; }
+  .summary-bar { flex: none; width: 7px; background: var(--badge); }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -165,9 +162,8 @@
   @keyframes fl { from { opacity: 0; transform: translateY(-6px); } 20% { opacity: 1; } to { opacity: 0; transform: translateY(10px); } }
   @media (prefers-reduced-motion: reduce) { .person-ic * { animation: none !important; } }
 
-  /* summary: a bar in the feels-like band color, then one sentence (band · today · rain · what to wear) */
-  .line { display: flex; align-items: stretch; gap: 7px; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; padding: 14px 0; }
-  .line-bar { flex: none; width: 7px; background: var(--badge); }
+  .line { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; padding: 14px 0; }
+  .line svg { flex: none; }
   .graph { padding: 14px 0 12px; display: flex; flex-direction: column; gap: 10px; }
   .graph-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
   .graph-title { font-size: 14px; font-weight: 700; }
@@ -265,29 +261,23 @@
 </head>
 <body data-state="sun">
 <main class="app">
-  <div class="first">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div class="city" id="city" role="button" tabindex="0">Berlin</div>
     <div class="date" id="date">&nbsp;</div>
   </div>
 
-  <div class="gap"></div>
   <div class="hero-art" id="art" aria-hidden="true"></div>
-  <div class="gap"></div>
   <div class="temp" id="temp">–</div>
   <div class="cond" id="cond">&nbsp;</div>
   <div class="sub" id="sub">&nbsp;</div>
-  <div class="gap"></div>
   <div class="feels" id="feels">
     <span class="feels-ic" id="feels-ic"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
     <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
-  <div class="gap"></div>
-  <p class="summary" id="summary" hidden></p>
-  </div>
+  <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
 
   <div class="grow"></div>
 
@@ -325,11 +315,10 @@
       feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
-      todayLead: "Today: {b}.", today: "{c}, high {h}°, low {l}°. {r}. {d}.", nowLead: "Right now: {b}.",
       rainFrom: "Rain from {t}", rainUntil: "Rain easing around {t}", rainOn: "Rain for the next 12 hours", rainLight: "Small chance of rain",
       snowFrom: "Snow from {t}", snowUntil: "Snow easing around {t}", snowOn: "Snow for the next 12 hours", snowLight: "Light snow possible",
       max: "Up to {p}%", total: "About {c} cm", now: "Now",
-      sumDay: "Today {c}, high {h}°, low {l}°.", sumRainAt: "{w} likely around {t} ({p}%).", sumRainNow: "{w} now, easing around {t}.",
+      sumToday: "Today: {b}.", sumNow: "Right now: {b}.", sumDay: "{c}, high {h}°, low {l}°.", sumRainAt: "{w} likely around {t} ({p}%).", sumRainNow: "{w} now, easing around {t}.",
       sumRainOn: "{w} for the rest of the day.", sumDry: "No rain in the next 12 hours.", sumDrop: "Cooling to {v}° by {t}.", sumWind: "Windy, {w} km/h.", sumUmbrella: "Don't forget an umbrella.", sumCold: "Colder days ahead: watch out for colds.",
       wRain: "Rain", wSnow: "Snow",
       updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
@@ -339,11 +328,10 @@
       feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
-      todayLead: "Heute: {b}.", today: "{c}, max. {h}°, min. {l}°. {r}. {d}.", nowLead: "Gerade: {b}.",
       rainFrom: "Ab {t} Regen", rainUntil: "Regen lässt gegen {t} nach", rainOn: "Regen in den nächsten 12 Std.", rainLight: "Geringe Regenwahrscheinlichkeit",
       snowFrom: "Ab {t} Schnee", snowUntil: "Schnee lässt gegen {t} nach", snowOn: "Schnee in den nächsten 12 Std.", snowLight: "Leichter Schneefall möglich",
       max: "Bis {p} %", total: "Etwa {c} cm", now: "Jetzt",
-      sumDay: "Heute: {c}, max {h}°, min {l}°.", sumRainAt: "{w} gegen {t} wahrscheinlich ({p} %).", sumRainNow: "Gerade {w}, lässt gegen {t} nach.",
+      sumToday: "Heute: {b}.", sumNow: "Gerade: {b}.", sumDay: "{c}, max {h}°, min {l}°.", sumRainAt: "{w} gegen {t} wahrscheinlich ({p} %).", sumRainNow: "Gerade {w}, lässt gegen {t} nach.",
       sumRainOn: "{w} bis zum Abend.", sumDry: "Kein Regen in den nächsten 12 Std.", sumDrop: "Bis {t} kühlt es auf {v}° ab.", sumWind: "Windig, {w} km/h.", sumUmbrella: "Schirm nicht vergessen.", sumCold: "Es wird kälter: Vorsicht vor Erkältungen.",
       wRain: "Regen", wSnow: "Schnee",
       updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
@@ -353,11 +341,10 @@
       feelsL: "체감온도", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
-      todayLead: "오늘은 {b}.", today: "{c}, 최고 {h}°, 최저 {l}°. {r}. {d}.", nowLead: "현재는 {b}.",
       rainFrom: "{t}부터 비", rainUntil: "{t}쯤 그침", rainOn: "12시간 넘게 비", rainLight: "약한 비 가능성",
       snowFrom: "{t}부터 눈", snowUntil: "{t}쯤 그침", snowOn: "12시간 넘게 눈", snowLight: "약한 눈 가능성",
       max: "최대 {p}%", total: "약 {c}cm", now: "지금",
-      sumDay: "오늘은 {c}, 최고 {h}° 최저 {l}°.", sumRainAt: "{t}쯤 {w} 올 확률 {p}%.", sumRainNow: "지금 {w} 오는 중, {t}쯤 그쳐요.",
+      sumToday: "오늘은 {b}.", sumNow: "현재는 {b}.", sumDay: "{c}, 최고 {h}° 최저 {l}°.", sumRainAt: "{t}쯤 {w} 올 확률 {p}%.", sumRainNow: "지금 {w} 오는 중, {t}쯤 그쳐요.",
       sumRainOn: "오늘은 계속 {w} 소식.", sumDry: "12시간 동안 비 소식은 없어요.", sumDrop: "{t}쯤엔 {v}°까지 내려가요.", sumWind: "바람이 강해요, {w}km/h.", sumUmbrella: "우산 꼭 챙겨요.", sumCold: "환절기 감기 조심해요.",
       wRain: "비", wSnow: "눈",
       updated: "{t} 업데이트", offline: "오프라인 · 마지막 {t}", loading: "불러오는 중…", failed: "날씨를 불러오지 못했어요"
@@ -588,7 +575,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b58";
+  var BUILD = "b59";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1031,8 +1018,7 @@
     tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
     tempEl.classList.toggle("long", String(t).length >= 3);
     $("cond").textContent = condLabel(cur.weather_code, isDay);
-    var hi = r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), lo = r(Math.min(D.temperature_2m_min[0], cur.temperature_2m));
-    $("sub").textContent = fmt(T.sub, { h: hi, l: lo, w: r(cur.wind_speed_10m || 0) });
+    $("sub").textContent = fmt(T.sub, { h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)), w: r(cur.wind_speed_10m || 0) });
 
     var f = r(cur.apparent_temperature), band = bandOf(f);
     $("feels-ic").innerHTML = person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code));
@@ -1040,7 +1026,6 @@
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
     $("feels").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
-    $("line").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
     playPerson();
 
     // index of the current hour
@@ -1054,7 +1039,7 @@
 
     var line = $("line"), graph = $("graph");
     if (state === "rain" || state === "rain-night" || state === "snow") {
-      graph.hidden = false;
+      line.hidden = true; graph.hidden = false;
       var snow = state === "snow";
       var vals = hours.map(function (i) { return snow ? (H.snowfall[i] || 0) : (H.precipitation_probability[i] || 0); });
       var top = snow ? Math.max.apply(null, vals.concat([0.5])) : 100;
@@ -1082,37 +1067,12 @@
         $("gmax").textContent = fmt(T.max, { p: Math.max.apply(null, vals) });
       }
     } else {
-      graph.hidden = true;
-      var text;
-      if (state === "night") {
-        var morning = -1;
-        for (var j = i0 + 1; j < H.time.length; j++) { if (parts(H.time[j]).h === 8) { morning = j; break; } }
-        text = morning >= 0 ? fmt(T.tomorrow, { t: hourText(H.time[morning]), v: r(H.temperature_2m[morning]), c: condLabel(H.weather_code[morning], 1) }) : T.noRain;
-      } else {
-        var hit = -1;
-        for (var m = 0; m < hours.length; m++) { if ((H.precipitation_probability[hours[m]] || 0) >= 50) { hit = hours[m]; break; } }
-        text = hit >= 0 ? fmt(T.rainAt, { t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }) : T.noRain;
-      }
+      // the summary block above carries the rain outlook now (b59, Figma "App / corrections")
+      graph.hidden = true; line.hidden = true;
     }
-    // Summary sentence: band · today's weather · rain (the graph title on rain/snow screens) · what to wear
-    // Starts "Today: cool." — or "Right now: cool." when the feels-like band changes later today
-    var shifts = false;
-    if (H.apparent_temperature) {
-      for (var a = i0; a < H.time.length && H.time[a].slice(0, 10) === nowLocal.slice(0, 10); a++) {
-        if (H.apparent_temperature[a] != null && bandOf(r(H.apparent_temperature[a]))[1] !== band[1]) { shifts = true; break; }
-      }
-    }
-    var bandName = LANG === "en" ? band[2].en.toLowerCase() : band[2][LANG];
-    var sentence = fmt(T.today, {
-      c: condLabel(cur.weather_code, isDay), h: hi, l: lo,
-      r: (graph.hidden ? text : $("gtitle").textContent).replace(/\.$/, ""), d: LOOK[band[1]].deck[LANG].replace(/\.$/, "")
-    });
-    sentence = fmt(shifts ? T.nowLead : T.todayLead, { b: bandName }) + " " + sentence;
-    line.hidden = false;
-    line.innerHTML = '<span class="line-bar"></span><span></span>';
-    line.lastChild.textContent = sentence;
 
-    $("summary").textContent = summaryText(cur, H, D, i0, hours, isDay, band);
+    $("summary-t").textContent = summaryText(cur, H, D, i0, hours, isDay, band);
+    $("summary").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
     $("summary").hidden = false;
 
     var hh = "";
@@ -1150,7 +1110,14 @@
   // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind, umbrella, outfit, cold tip
   function summaryText(cur, H, D, i0, hours, isDay, band) {
     var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; };
-    var out = [fmt(T.sumDay, { c: low1(condLabel(D.weather_code[0], 1)), h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)) })];
+    // Opens with the feels-like band: "Today: cool." — or "Right now: cool." when it moves into another band later today
+    var shifts = false;
+    if (H.apparent_temperature) {
+      for (var a = i0; a < H.time.length && H.time[a].slice(0, 10) === H.time[i0].slice(0, 10); a++) {
+        if (H.apparent_temperature[a] != null && bandOf(r(H.apparent_temperature[a]))[1] !== band[1]) { shifts = true; break; }
+      }
+    }
+    var out = [fmt(shifts ? T.sumNow : T.sumToday, { b: low1(band[2][LANG]) }), fmt(T.sumDay, { c: condLabel(D.weather_code[0], 1), h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)) })];
     var wet = function (i) { return (H.precipitation_probability[i] || 0) >= 50; };
     var word = function (i) { return isSnow(H.weather_code[i]) ? T.wSnow : T.wRain; };
     if (hours.length && wet(hours[0])) {
