@@ -91,6 +91,11 @@
   }
   .sub { text-align: center; font-family: var(--mono); font-weight: 500; font-size: 12px; letter-spacing: .02em; margin-top: 10px; }
   .grow { flex-grow: 1; min-height: 24px; }
+  /* First screen (b56): location bar to summary fill one screen height; the extra space is split evenly over the
+     four gaps (bar–art, art–temperature, caption–feels, feels–summary). The head holds three gaps, so it grows 3:1. */
+  .first { display: flex; flex-direction: column; min-height: calc(100svh - env(safe-area-inset-top) - 20px); padding-bottom: 32px; }
+  .first .head-tap { flex: 3 0 auto; display: flex; flex-direction: column; }
+  .first .gap { flex: 1 0 0; }
 
   /* Feels-like block: animated person + label/band name + feels-like temperature (b55 order) */
   /* cursor: pointer also makes iOS Safari deliver taps on this non-button area */
@@ -114,7 +119,7 @@
   .feels-b { font-size: 20px; font-weight: 700; line-height: 1.2; }
   .feels-l { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; margin-bottom: 2px; }
   /* Today's summary: plain text under the feels-like block (no box, no line) */
-  .summary { margin: 14px auto 0; max-width: 320px; text-align: center; font-size: 15px; font-weight: 500; line-height: 1.45; }
+  .summary { margin: 14px auto 0; max-width: 320px; word-break: keep-all; text-align: center; font-size: 15px; font-weight: 500; line-height: 1.45; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -260,6 +265,7 @@
 </head>
 <body data-state="sun">
 <main class="app">
+  <div class="first">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div>
@@ -271,17 +277,22 @@
     </button>
   </div>
 
+  <div class="gap"></div>
   <div class="hero-art" id="art" aria-hidden="true"></div>
+  <div class="gap"></div>
   <div class="temp" id="temp">–</div>
   <div class="cond" id="cond">&nbsp;</div>
   <div class="sub" id="sub">&nbsp;</div>
+  <div class="gap"></div>
   <div class="feels" id="feels">
     <span class="feels-ic" id="feels-ic"></span>
     <span class="feels-t"><span class="feels-l" id="feels-l"></span><span class="feels-b" id="feels-b"></span></span>
     <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
+  <div class="gap"></div>
   <p class="summary" id="summary" hidden></p>
+  </div>
 
   <div class="grow"></div>
 
@@ -580,7 +591,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b55";
+  var BUILD = "b56";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
