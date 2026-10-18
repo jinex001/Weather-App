@@ -212,6 +212,10 @@
   .lk-kicker { margin-top: 10px; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .lk-head { font-family: var(--display); font-size: 92px; line-height: .88; letter-spacing: -1px; text-transform: uppercase; margin-top: 8px; }
   .lk-deck { font-size: 20px; font-weight: 700; line-height: 1.3; margin-top: 14px; }
+  /* outfit photo between the deck and the items; plain, no frame */
+  /* the sheet crops are small (~75px wide), so keep them at about half width until full-size photos arrive */
+  .lk-photo { display: block; width: 56%; height: auto; margin-top: 22px; background: rgba(20,20,20,.06); }
+  .lk-baby .lk-photo { margin-top: 14px; }
   .lk-items { margin-top: 18px; }
   .lk-item { padding: 8px 0; }
   .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
@@ -534,10 +538,10 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b35";
+  var BUILD = "b36";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
-  // Profile (gender f/m/x, age 20/30/50, baby y/n) lives only in localStorage.
+  // Profile (gender f/m/x, age 20/30/50, style street/minimal, baby y/n) lives only in localStorage.
   // Each band: headline, deck, items [category, text]; text is {ko,en,de} with an optional f: {...} variant for women.
   var LOOK = {
     freeze: { head: "Bundle<br>Up",
@@ -627,23 +631,36 @@
     ko: { rainNow: "우산 · 지금 비가 와요", rainNowWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · 지금 비가 와요", rain: "우산 · {t}쯤 비 {p}%", rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
-          ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
-          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]],
+          ask: "오늘 뭘 입을지 맞춰드릴게요. 네 가지만 알려주세요.", q: ["성별", "연령대", "평소 스타일은?", "아기와 함께 외출하나요?"],
+          o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["스트리트웨어", "미니멀"], ["네", "아니요"]],
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
-          ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
-          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]],
+          ask: "Let's match today's outfit to you. Just four questions.", q: ["Gender", "Age", "Your usual style?", "Going out with a baby?"],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Streetwear", "Minimal"], ["Yes", "No"]],
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
-          ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
-          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Ja", "Nein"]],
+          ask: "Wir passen den Look an dich an. Nur vier Fragen.", q: ["Geschlecht", "Alter", "Dein Stil?", "Mit Baby unterwegs?"],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Streetwear", "Minimal"], ["Ja", "Nein"]],
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
-  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["baby", "Baby", ["y", "n"]]];
+  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["20", "30", "50"]], ["style", "Style", ["street", "minimal"]], ["baby", "Baby", ["y", "n"]]];
+  // Profiles saved before the style question get asked once more (old answers stay picked).
+  var PROFILE_V = 2;
+
+  // Outfit photos in look/: 7 temperature columns from the editorial sheet (T1 ≥30 … T7 <0), picked by feels-like.
+  // Adults: <m|f>-<street|minimal>-t<n>-<a|b>.jpg (two looks, alternating by day); baby: baby-<style>-t<n>.jpg.
+  function lookTier(f) { return f >= 30 ? 1 : f >= 24 ? 2 : f >= 18 ? 3 : f >= 12 ? 4 : f >= 6 ? 5 : f >= 0 ? 6 : 7; }
+  function lookPhotos(v, profile) {
+    var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;
+    var t = lookTier(v.f), style = profile.style === "street" ? "street" : "minimal";
+    var g = profile.gender === "f" || profile.gender === "m" ? profile.gender : (day % 2 ? "f" : "m");
+    return { adult: "look/" + g + "-" + style + "-t" + t + "-" + (day % 2 ? "b" : "a") + ".jpg", baby: "look/baby-" + style + "-t" + t + ".jpg" };
+  }
+  function photo(src) { return '<img class="lk-photo" src="' + src + '" alt="" onerror="this.remove()">'; }
 
   var lastView = null, lookOpen = false;
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
@@ -672,14 +689,15 @@
       else if (D.temperature_2m_min[1] <= 0) quotes.push(["Tomorrow", fmt(LT.coldTmr, { v: r(D.temperature_2m_min[1]) })]);
     }
     if (profile.age === "50" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
+    var pics = lookPhotos(v, profile);
 
     return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
-      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(L.deck[LANG]) + "</div>" +
+      '<div class="lk-head">' + L.head + '</div><div class="lk-deck">' + esc(L.deck[LANG]) + "</div>" + photo(pics.adult) +
       '<div class="lk-items">' + items.map(function (it) {
         return '<div class="lk-item"><div class="lk-cat">' + it[0] + '</div><div class="lk-what">' + esc(it[1]) + "</div></div>";
       }).join("") + "</div>" +
       quotes.map(function (q) { return '<div class="lk-quote"><small>' + q[0] + "</small>" + esc(q[1]) + "</div>"; }).join("") +
-      (profile.baby === "y" ? '<div class="lk-baby"><div class="lk-bt">With baby</div><p>' + esc(L.baby[LANG]) + "</p></div>" : "") +
+      (profile.baby === "y" ? '<div class="lk-baby"><div class="lk-bt">With baby</div><p>' + esc(L.baby[LANG]) + "</p>" + photo(pics.baby) + "</div>" : "") +
       '<div class="lk-foot"><span>Updated ' + v.updated + '</span><button type="button" id="lk-edit">Edit profile ›</button></div>';
   }
 
@@ -698,7 +716,7 @@
   function paintLook(forceAsk) {
     var v = lastView; if (!v) return;
     var profile = load("wx-profile"), body = $("lk-body");
-    if (!profile || forceAsk) {
+    if (!profile || profile.v !== PROFILE_V || forceAsk) {
       body.innerHTML = askContent(v);
       var picked = {};
       [].forEach.call(body.querySelectorAll(".lk-opt"), function (b) {
@@ -710,8 +728,8 @@
         });
       });
       $("lk-go").disabled = Object.keys(picked).length < QKEYS.length;
-      $("lk-go").addEventListener("click", function () { store("wx-profile", picked); paintLook(); });
-      $("lk-skip").addEventListener("click", function () { store("wx-profile", profile || {}); paintLook(); });
+      $("lk-go").addEventListener("click", function () { picked.v = PROFILE_V; store("wx-profile", picked); paintLook(); });
+      $("lk-skip").addEventListener("click", function () { var p = profile || {}; p.v = PROFILE_V; store("wx-profile", p); paintLook(); });
     } else {
       body.innerHTML = lookContent(v, profile);
       $("lk-edit").addEventListener("click", function () { paintLook(true); });
