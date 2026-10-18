@@ -545,7 +545,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b38";
+  var BUILD = "b39";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -725,6 +725,9 @@
             ["Bring", { ko: "울 머플러나 스카프, 가죽 장갑, 미니멀 숄더백", en: "A wool scarf, leather gloves, a minimal shoulder bag", de: "Wollschal, Lederhandschuhe, schlichte Schultertasche" }]] } }
   };
 
+  // Full-size look photos the user sent one by one (look/<band>/<style>-<m|f>.jpg); these replace the small sheet crop.
+  var HERO = { "cool/street-m": 1 };
+
   function lookPhotos(v, profile) {
     var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;
     var t = lookTier(v.f), style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
@@ -748,7 +751,9 @@
     var shot = C ? '<img class="lk-photo lk-hero" src="look/chilly/' + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">' +
       '<div class="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-grid">' + C.pieces[pics.g].map(function (pc, i) {
         return '<div class="lk-piece"><img src="look/chilly/' + pics.style + "-" + pics.g + "-p" + (i + 1) + '.jpg" alt="" onerror="this.remove()"><span>' + esc(pc[LANG]) + "</span></div>";
-      }).join("") + "</div></div>" : photo(pics.adult);
+      }).join("") + "</div></div>"
+      : HERO[band[1] + "/" + pics.style + "-" + pics.g] ? '<img class="lk-photo lk-hero" src="look/' + band[1] + "/" + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">'
+      : photo(pics.adult);
     var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30;
     // rain in the next 12 hours (or now) changes what to bring
     var rainHit = -1;
