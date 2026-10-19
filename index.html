@@ -575,7 +575,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b65";
+  var BUILD = "b66";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -759,7 +759,8 @@
   // A value of 2 means a second photo (<style>-<m|f>-2.jpg), shown every other day.
   var HERO = { "cool/street-m": 1, "cool/minimal-m": 1, "cool/run-m": 1, "cool/run-f": 1,
     "cool/street-f": 1, "cool/minimal-f": 1,
-    "cold/minimal-m": 1, "cold/street-m": 2, "cold/run-m": 1 };
+    "cold/minimal-m": 1, "cold/street-m": 2, "cold/run-m": 1,
+    "cold/minimal-f": 1, "cold/street-f": 1, "cold/run-f": 1 };
 
   // Style-specific deck and items for other bands (same shape as CHILLY, without pieces). Text: design/look-cool.md, design/look-cold.md.
   // A band may have items for one gender only; the other keeps the band's default text.
@@ -808,14 +809,20 @@
               ["Socks", { ko: "울 양말(바지와 같은 색)", en: "Wool socks matching the trousers", de: "Wollsocken passend zur Hose" }],
               ["Bring", { ko: "큰 숄더백, 얇은 머플러", en: "A big shoulder bag, a light scarf", de: "Große Schultertasche, leichter Schal" }]] } } },
     cold: {
-      run: { deck: { ko: "긴 타이츠에 기모 긴팔 + 바람막이. 비니·장갑은 꼭.", en: "Long tights, a brushed long sleeve and a windbreaker. Beanie and gloves, always.", de: "Lange Tights, angerautes Langarm und Windjacke. Mütze und Handschuhe auf jeden Fall." },
+      run: { deck: { ko: "긴 타이츠에 기모 긴팔 + 바람막이. 귀 덮을 것과 장갑은 꼭.", en: "Long tights, a brushed long sleeve and a windbreaker. Cover your ears, and gloves, always.", de: "Lange Tights, angerautes Langarm und Windjacke. Ohren bedecken, Handschuhe auf jeden Fall." },
         items: {
           m: [["Outer", { ko: "후드 달린 바람막이. 0° 아래면 안에 얇은 경량 패딩 조끼", en: "A hooded windbreaker; below 0°, a thin insulated vest underneath", de: "Windjacke mit Kapuze; unter 0° eine dünne Steppweste darunter" }],
               ["Top", { ko: "기모 하프집 긴팔 + 안에 기능성 이너", en: "A brushed half-zip long sleeve over a tech base layer", de: "Angerautes Half-Zip-Langarmshirt über Funktionsunterwäsche" }],
               ["Bottom", { ko: "긴 러닝 타이츠 + 위에 러닝 쇼츠", en: "Full-length running tights with shorts on top", de: "Lange Lauftights mit Shorts darüber" }],
               ["Shoes", { ko: "쿠션 러닝화. 서리 낀 길은 접지력 좋은 밑창으로", en: "Cushioned running shoes; grippy soles for frosty paths", de: "Gedämpfte Laufschuhe; griffige Sohle für frostige Wege" }],
               ["Socks", { ko: "발목 위로 올라오는 두툼한 러닝 양말", en: "Thicker running socks above the ankle", de: "Dickere Laufsocken über dem Knöchel" }],
-              ["Bring", { ko: "러닝 비니, 터치되는 러닝 장갑, 맑은 날엔 선글라스", en: "A running beanie, touchscreen gloves, sunglasses on clear days", de: "Laufmütze, Touchscreen-Handschuhe, an klaren Tagen Sonnenbrille" }]] } },
+              ["Bring", { ko: "러닝 비니, 터치되는 러닝 장갑, 맑은 날엔 선글라스", en: "A running beanie, touchscreen gloves, sunglasses on clear days", de: "Laufmütze, Touchscreen-Handschuhe, an klaren Tagen Sonnenbrille" }]],
+          f: [["Outer", { ko: "가볍게 솜 든 러닝 재킷이나 바람막이. 밝은 색이면 어두울 때도 잘 보여요", en: "A lightly insulated running jacket or windbreaker; a bright one stays visible when it's dark", de: "Leicht gefütterte Laufjacke oder Windjacke; eine helle sieht man auch im Dunkeln" }],
+              ["Top", { ko: "기모 하프집 긴팔 + 안에 스포츠 브라", en: "A brushed half-zip long sleeve over a sports bra", de: "Angerautes Half-Zip-Langarmshirt über dem Sport-BH" }],
+              ["Bottom", { ko: "기모 하이웨이스트 긴 레깅스", en: "Fleece-lined high-waist full-length leggings", de: "Angeraute High-Waist-Leggings in voller Länge" }],
+              ["Shoes", { ko: "쿠션 러닝화. 서리 낀 길은 접지력 좋은 밑창으로", en: "Cushioned running shoes; grippy soles for frosty paths", de: "Gedämpfte Laufschuhe; griffige Sohle für frostige Wege" }],
+              ["Socks", { ko: "발목 위로 올라오는 두툼한 러닝 양말", en: "Thicker running socks above the ankle", de: "Dickere Laufsocken über dem Knöchel" }],
+              ["Bring", { ko: "귀 덮는 니트 헤어밴드나 비니, 러닝 장갑, 맑은 날엔 선글라스", en: "A knit headband or beanie over your ears, running gloves, sunglasses on clear days", de: "Strick-Stirnband oder Mütze über den Ohren, Laufhandschuhe, an klaren Tagen Sonnenbrille" }]] } },
       street: { deck: { ko: "두꺼운 후디 위에 패딩 점퍼. 목도리 하나 두르세요.", en: "A puffer over a heavy hoodie. Throw on a scarf.", de: "Daunenjacke über dickem Hoodie. Schal dazu." },
         items: {
           m: [["Outer", { ko: "오버핏 패딩이나 충전재 들어간 점퍼(블랙·카키)", en: "An oversized puffer or padded jacket (black, khaki)", de: "Oversized Daunen- oder Steppjacke (Schwarz, Khaki)" }],
@@ -823,7 +830,13 @@
               ["Bottom", { ko: "와이드 카고 팬츠(블랙·베이지). 0° 가까우면 안에 히트텍", en: "Wide cargo pants (black, beige); near 0°, thermal leggings underneath", de: "Weite Cargohose (Schwarz, Beige); nahe 0° Thermo-Leggings drunter" }],
               ["Shoes", { ko: "청키 러닝 스니커즈(그레이·크림)", en: "Chunky running sneakers (grey, cream)", de: "Chunky Running-Sneaker (Grau, Creme)" }],
               ["Socks", { ko: "두꺼운 화이트 크루삭스", en: "Thick white crew socks", de: "Dicke weiße Crew-Socken" }],
-              ["Bring", { ko: "울 머플러, 백팩, 맑은 날엔 선글라스", en: "A wool scarf, a backpack, sunglasses on clear days", de: "Wollschal, Rucksack, an klaren Tagen Sonnenbrille" }]] } },
+              ["Bring", { ko: "울 머플러, 백팩, 맑은 날엔 선글라스", en: "A wool scarf, a backpack, sunglasses on clear days", de: "Wollschal, Rucksack, an klaren Tagen Sonnenbrille" }]],
+          f: [["Outer", { ko: "오버핏 컬러블록 패딩(틸·크림·오렌지처럼 색 섞인 것)", en: "An oversized colour-block puffer (teal, cream, orange)", de: "Oversized Daunenjacke mit Colour-Blocking (Petrol, Creme, Orange)" }],
+              ["Top", { ko: "두꺼운 기모 후디(크림) + 안에 흰 롱슬리브 티", en: "A heavy fleece-lined hoodie (cream) over a white long-sleeve tee", de: "Dicker angerauter Hoodie (Creme) über weißem Longsleeve" }],
+              ["Bottom", { ko: "밑단 조이는 와이드 카고 팬츠(올리브). 0° 가까우면 안에 히트텍", en: "Wide cargo pants with cuffed hems (olive); near 0°, thermal leggings underneath", de: "Weite Cargohose mit Bündchen (Oliv); nahe 0° Thermo-Leggings drunter" }],
+              ["Shoes", { ko: "청키 러닝 스니커즈(그레이·크림)", en: "Chunky running sneakers (grey, cream)", de: "Chunky Running-Sneaker (Grau, Creme)" }],
+              ["Socks", { ko: "두꺼운 화이트 크루삭스", en: "Thick white crew socks", de: "Dicke weiße Crew-Socken" }],
+              ["Bring", { ko: "컬러 니트 비니(오렌지), 백팩, 맑은 날엔 선글라스", en: "A bright knit beanie (orange), a backpack, sunglasses on clear days", de: "Bunte Strickmütze (Orange), Rucksack, an klaren Tagen Sonnenbrille" }]] } },
       minimal: { deck: { ko: "터틀넥 위에 롱 울 코트. 머플러는 길게 늘어뜨려요.", en: "A long wool coat over a turtleneck. Let a long scarf hang loose.", de: "Langer Wollmantel über dem Rollkragen. Ein langer Schal, lose getragen." },
         items: {
           m: [["Outer", { ko: "두꺼운 롱 울 코트(블랙·차콜)", en: "A heavy long wool coat (black, charcoal)", de: "Schwerer langer Wollmantel (Schwarz, Anthrazit)" }],
@@ -831,7 +844,13 @@
               ["Bottom", { ko: "주름 잡힌 울 슬랙스(차콜)", en: "Pleated wool trousers (charcoal)", de: "Wollhose mit Bundfalte (Anthrazit)" }],
               ["Shoes", { ko: "밑창 두꺼운 가죽 첼시 부츠", en: "Leather Chelsea boots with a thick sole", de: "Chelsea-Boots aus Leder mit dicker Sohle" }],
               ["Socks", { ko: "두꺼운 울 양말(다크)", en: "Thick dark wool socks", de: "Dicke dunkle Wollsocken" }],
-              ["Bring", { ko: "길고 두툼한 울 머플러(그레이), 가죽 장갑, 맑은 날엔 선글라스", en: "A long chunky wool scarf (grey), leather gloves, sunglasses on clear days", de: "Langer dicker Wollschal (Grau), Lederhandschuhe, an klaren Tagen Sonnenbrille" }]] } } }
+              ["Bring", { ko: "길고 두툼한 울 머플러(그레이), 가죽 장갑, 맑은 날엔 선글라스", en: "A long chunky wool scarf (grey), leather gloves, sunglasses on clear days", de: "Langer dicker Wollschal (Grau), Lederhandschuhe, an klaren Tagen Sonnenbrille" }]],
+          f: [["Outer", { ko: "오버핏 롱 울 코트(그레이·차콜)", en: "An oversized long wool coat (grey, charcoal)", de: "Oversized langer Wollmantel (Grau, Anthrazit)" }],
+              ["Top", { ko: "두꺼운 케이블 니트 터틀넥(크림)", en: "A chunky cable-knit turtleneck (cream)", de: "Dicker Zopfstrick-Rollkragenpullover (Creme)" }],
+              ["Bottom", { ko: "하이웨이스트 와이드 울 팬츠(크림) + 가는 가죽 벨트. 안에 히트텍", en: "High-waist wide wool trousers (cream) with a slim leather belt; thermals underneath", de: "High-Waist-Wollhose, weit (Creme), mit schmalem Ledergürtel; Thermo drunter" }],
+              ["Shoes", { ko: "밑창 두꺼운 가죽 첼시 부츠(블랙)", en: "Black leather Chelsea boots with a thick sole", de: "Schwarze Chelsea-Boots aus Leder mit dicker Sohle" }],
+              ["Socks", { ko: "두꺼운 울 양말", en: "Thick wool socks", de: "Dicke Wollsocken" }],
+              ["Bring", { ko: "색 있는 체크 울 머플러로 포인트, 가죽 숄더백, 맑은 날엔 선글라스", en: "A bright check wool scarf for colour, a leather shoulder bag, sunglasses on clear days", de: "Bunter Karo-Wollschal als Farbtupfer, Leder-Schultertasche, an klaren Tagen Sonnenbrille" }]] } } }
   };
 
   function lookPhotos(v, profile) {
