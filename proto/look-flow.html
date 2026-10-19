@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F2C14E">
+<title>Today's Look 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #F2C14E; --ink: #141414; --soft: rgba(20,20,20,.08); --mute: rgba(20,20,20,.55); --band: #58C4DC; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--ink); }
+  body { font-family: Poppins, "Noto Sans KR", sans-serif; letter-spacing: -.02em; -webkit-font-smoothing: antialiased; }
+  .sheet { min-height: 100svh; background: rgba(255,255,255,.6); padding: calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 32px); max-width: 520px; margin: 0 auto; }
+  .mast { display: flex; justify-content: space-between; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+  .feels { margin-top: 18px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .02em; display: flex; align-items: center; gap: 8px; }
+  .feels i { width: 10px; height: 10px; border-radius: 50%; background: var(--band); display: inline-block; }
+  h1 { font-family: Anton, sans-serif; font-weight: 400; font-size: 72px; line-height: .9; letter-spacing: 0; text-transform: uppercase; margin-top: 6px; }
+  .kicker { margin-top: 28px; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; display: flex; justify-content: space-between; }
+  .steps { display: flex; gap: 6px; }
+  .steps b { width: 8px; height: 8px; border-radius: 50%; background: var(--soft); }
+  .steps b.on { background: var(--ink); }
+  .steps b.done { background: var(--mute); }
+  .photo { margin-top: 14px; width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: var(--soft); }
+  .tag { display: inline-block; margin-top: 14px; padding: 4px 10px; border-radius: 99px; background: var(--ink); color: #fff; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .tag.alt { background: var(--soft); color: var(--ink); }
+  .name { margin-top: 10px; font-size: 24px; font-weight: 700; line-height: 1.2; }
+  .why { margin-top: 6px; font-size: 15px; font-weight: 500; line-height: 1.5; color: var(--mute); }
+  .q { margin-top: 22px; font-size: 18px; font-weight: 700; }
+  .btns { margin-top: 12px; display: flex; gap: 8px; }
+  .btn { flex: 1; border: 0; border-radius: 99px; padding: 15px 10px; font: 700 14px/1 Poppins, "Noto Sans KR", sans-serif; letter-spacing: -.01em; background: var(--soft); color: var(--ink); cursor: pointer; }
+  .btn.pri { background: var(--ink); color: #fff; }
+  .btn:active { opacity: .7; }
+  .link { margin-top: 18px; background: none; border: 0; font: 600 13px Poppins, "Noto Sans KR", sans-serif; color: var(--mute); text-decoration: underline; cursor: pointer; }
+  .note { margin-top: 10px; font-size: 13px; font-weight: 500; color: var(--mute); line-height: 1.5; }
+  .grid { margin-top: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 12px; }
+  .cell img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
+  .cell .k { margin-top: 8px; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; display: flex; justify-content: space-between; }
+  .cell .k em { font-style: normal; color: var(--mute); }
+  .cell .n { margin-top: 2px; font-size: 14px; font-weight: 600; line-height: 1.3; }
+  .hero { margin-top: 20px; width: 100%; display: block; }
+  .sec { margin-top: 36px; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+  .row { display: flex; gap: 12px; align-items: center; margin-top: 12px; }
+  .row img { width: 64px; height: 64px; object-fit: cover; flex: none; }
+  .row .t { flex: 1; font-size: 14px; font-weight: 600; line-height: 1.3; }
+  .row .t small { display: block; font-size: 12px; font-weight: 500; color: var(--mute); }
+  .row .shop { flex: none; border: 0; border-radius: 99px; padding: 9px 14px; background: var(--soft); font: 700 12px Poppins, "Noto Sans KR", sans-serif; color: var(--mute); }
+  .fade { animation: fade .25s ease-out; }
+  @keyframes fade { from { opacity: 0; transform: translateY(8px); } }
+  @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="mast"><span>Today's Look</span><span>시안 · 맑음 · 베를린</span></div>
+  <div class="feels"><i></i>체감 5° · 쌀쌀함 · 스트리트</div>
+  <h1>Layer<br>Up</h1>
+  <div id="app"></div>
+</div>
+<input id="cam" type="file" accept="image/*" capture="environment" hidden>
+<script>
+(function () {
+  // Prototype: one case only (clear, chilly, streetwear, men). Answers stay in this browser.
+  var KEY = "wx-closet-proto";
+  var STEPS = [
+    { slot: "outer", label: "Outer", why: "맑아도 바람이 차가워요. 엉덩이를 덮는 길이가 좋아요.",
+      pick: { id: "outer-puffer", name: "블랙 오버핏 패딩" },
+      alt: { id: "outer-green", name: "충전재 들어간 점퍼(카키·그린)" } },
+    { slot: "top", label: "Top", why: "아우터 안에 두꺼운 한 겹이면 충분해요.",
+      pick: { id: "top-grey", name: "그레이 기모 후디" },
+      alt: { id: "top-cream", name: "크림 후디나 두꺼운 스웻" } },
+    { slot: "bottom", label: "Bottom", why: "와이드 핏이면 안에 얇은 레깅스를 겹쳐도 티가 안 나요.",
+      pick: { id: "bottom-black", name: "블랙 와이드 카고 팬츠" },
+      alt: { id: "bottom-beige", name: "베이지 카고나 와이드 치노" } },
+    { slot: "shoes", label: "Shoes", why: "마른 길이라 스니커즈로 충분해요.",
+      pick: { id: "shoes-grey", name: "그레이 청키 러닝 스니커즈" },
+      alt: { id: "shoes-cream", name: "크림·화이트 스니커즈" } },
+    { slot: "bring", label: "Bring", why: "해가 낮게 떠서 눈이 부셔요.",
+      pick: { id: "bring-glasses", name: "선글라스" },
+      alt: { id: "bring-scarf", name: "울 머플러" } }
+  ];
+  var app = document.getElementById("app"), cam = document.getElementById("cam");
+  var st = load() || fresh();
+  var view = { i: 0, phase: "ask", useAlt: false };
+
+  function fresh() { return { owned: {}, photos: {}, wish: {}, chosen: {} }; }
+  function load() { try { return JSON.parse(localStorage.getItem(KEY)); } catch (e) { return null; } }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+  function img(item) { return st.photos[item.id] || "items/" + item.id + ".jpg"; }
+
+  // Skip steps already answered; that is what makes later visits question-free
+  function nextOpen(i) { while (i < STEPS.length && st.chosen[STEPS[i].slot]) i++; return i; }
+
+  function render() {
+    view.i = nextOpen(view.i);
+    if (view.i >= STEPS.length) return renderDone();
+    var s = STEPS[view.i], item = view.useAlt ? s.alt : s.pick;
+    var dots = STEPS.map(function (x, k) { return "<b class='" + (k === view.i ? "on" : st.chosen[x.slot] ? "done" : "") + "'></b>"; }).join("");
+    var h = "<div class='fade'><div class='kicker'><span>" + s.label + " · " + (view.i + 1) + "/" + STEPS.length + "</span><span class='steps'>" + dots + "</span></div>" +
+      "<img class='photo' src='" + img(item) + "' alt=''>" +
+      "<span class='tag" + (view.useAlt ? " alt" : "") + "'>" + (view.useAlt ? "대신 이건요?" : "오늘의 추천") + "</span>" +
+      "<div class='name'>" + item.name + "</div>";
+    if (view.phase === "ask") {
+      h += "<div class='why'>" + s.why + "</div><div class='q'>이거 있어요?</div>" +
+        "<div class='btns'><button class='btn pri' data-a='yes'>네, 있어요</button><button class='btn' data-a='no'>없어요</button></div>";
+    } else {
+      h += "<div class='q'>사진 찍어 줄래요?</div><div class='note'>찍으면 다음부터 내 옷으로 보여 드려요.</div>" +
+        "<div class='btns'><button class='btn pri' data-a='shoot'>지금 찍기</button><button class='btn' data-a='later'>나중에</button></div>";
+    }
+    if (view.i > 0 || Object.keys(st.chosen).length) h += "<button class='link' data-a='reset'>처음부터 다시</button>";
+    app.innerHTML = h + "</div>";
+  }
+
+  function renderDone() {
+    var h = "<div class='fade'><div class='kicker'><span>오늘의 룩</span><span>완성</span></div><div class='grid'>";
+    STEPS.forEach(function (s) {
+      var c = st.chosen[s.slot], mine = c.owned;
+      h += "<div class='cell'><img src='" + img(c.item) + "' alt=''><div class='k'><span>" + s.label + "</span><em>" +
+        (st.photos[c.item.id] ? "내 사진" : mine ? "내 옷" : "추천") + "</em></div><div class='n'>" + c.item.name + "</div></div>";
+    });
+    h += "</div>";
+    var wish = Object.keys(st.wish);
+    if (wish.length) {
+      h += "<div class='sec'>살 것 후보 · " + wish.length + "</div>";
+      wish.forEach(function (id) {
+        var w = st.wish[id];
+        h += "<div class='row'><img src='items/" + id + ".jpg' alt=''><div class='t'>" + w.name + "<small>" + w.label + " · 없다고 답함</small></div><button class='shop' disabled>보러 가기</button></div>";
+      });
+      h += "<div class='note'>보러 가기는 시안이라 아직 연결 안 됨.</div>";
+    }
+    var later = STEPS.filter(function (s) { var c = st.chosen[s.slot]; return c.owned && !st.photos[c.item.id]; });
+    if (later.length) h += "<div class='note' style='margin-top:24px'>사진 안 찍은 내 옷 " + later.length + "개. 본 앱에서는 다음에 열 때 하나씩 다시 물어봐요.</div>";
+    h += "<div class='sec'>분위기</div><img class='hero' src='../look/clear/street-m.jpg' alt=''>" +
+      "<div class='note' style='margin-top:20px'>다시 열어도 답한 건 묻지 않고 바로 이 화면이 나와요.</div>" +
+      "<button class='link' data-a='reset'>처음부터 다시</button></div>";
+    app.innerHTML = h;
+  }
+
+  function choose(s, item, owned) {
+    st.chosen[s.slot] = { item: item, owned: owned }; save();
+    view.i++; view.phase = "ask"; view.useAlt = false; render();
+    window.scrollTo(0, 0);
+  }
+
+  app.addEventListener("click", function (e) {
+    var a = e.target.dataset && e.target.dataset.a; if (!a) return;
+    var s = STEPS[view.i], item = s && (view.useAlt ? s.alt : s.pick);
+    if (a === "reset") { st = fresh(); save(); view = { i: 0, phase: "ask", useAlt: false }; render(); return; }
+    if (a === "yes") { st.owned[item.id] = 1; save(); view.phase = "photo"; render(); }
+    else if (a === "no") {
+      st.wish[item.id] = { name: item.name, label: s.label }; save();
+      // First "no" offers the alternative; a second "no" falls back to the recommendation, shown as a suggestion
+      if (!view.useAlt) { view.useAlt = true; render(); } else choose(s, s.pick, false);
+    }
+    else if (a === "later") choose(s, item, true);
+    else if (a === "shoot") cam.click();
+  });
+
+  // Downscale the photo so it fits in localStorage
+  cam.addEventListener("change", function () {
+    var f = cam.files[0]; if (!f) return;
+    var s = STEPS[view.i], item = view.useAlt ? s.alt : s.pick, im = new Image();
+    im.onload = function () {
+      var n = 600, c = document.createElement("canvas"), side = Math.min(im.width, im.height);
+      c.width = c.height = n;
+      c.getContext("2d").drawImage(im, (im.width - side) / 2, (im.height - side) / 2, side, side, 0, 0, n, n);
+      st.photos[item.id] = c.toDataURL("image/jpeg", .8);
+      URL.revokeObjectURL(im.src); cam.value = "";
+      choose(s, item, true);
+    };
+    im.src = URL.createObjectURL(f);
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
