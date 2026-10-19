@@ -324,7 +324,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b79"></script>
+<script src="look/outfits.js?v=b80"></script>
 <script>
 (function () {
   "use strict";
@@ -601,10 +601,10 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b79";
+  var BUILD = "b80";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
-  // Profile (gender f/m/x, age u25/25/40/55, style run/street/minimal, baby y/n) lives only in localStorage.
+  // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
   // Each band: headline, deck, items [category, text]; text is {ko,en,de} with an optional f: {...} variant for women.
   var LOOK = {
     freeze: { head: "Bundle<br>Up",
@@ -695,7 +695,7 @@
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
-          o: [["여성", "남성", "선택 안 함"], ["25세 미만", "25 – 39", "40 – 55", "55+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
+          o: [["여성", "남성", "선택 안 함"], ["35세 미만", "35+", "60+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
           own: "갖고 있어요", want: "관심 있어요",
           fitToday: "오늘의 추천", fitAlso: "오늘 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
@@ -703,7 +703,7 @@
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
-          o: [["Woman", "Man", "Prefer not to say"], ["Under 25", "25 – 39", "40 – 55", "55+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 35", "35+", "60+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
           own: "I own this", want: "Interested",
           fitToday: "Today's pick", fitAlso: "Also right for today", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
@@ -711,16 +711,16 @@
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
-          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 25", "25 – 39", "40 – 55", "55+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 35", "35+", "60+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
           own: "Hab ich", want: "Interessiert mich",
           fitToday: "Heute empfohlen", fitAlso: "Passt heute auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
-  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["u25", "25", "40", "55"]], ["baby", "Baby", ["y", "n"]]];
+  var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["u35", "35", "60"]], ["baby", "Baby", ["y", "n"]]];
   // Style is picked with tabs on the look page (saved in the profile too), not asked in the questionnaire.
   var STYLES = ["run", "street", "minimal"];
   // Profiles saved before b36 get asked once more (old answers stay picked).
-  var PROFILE_V = 3; // 3 (b75): new age groups, so the questions come back once (gender and baby stay picked)
+  var PROFILE_V = 4; // 4 (b80): new age groups (under 35 / 35+ / 60+), so the questions come back once (gender and baby stay picked)
 
   // Style and gender for the look page. All photos now come from the outfit library (b71: the old sheet crops and
   // baby photos are gone), so the band's fallback slide and the baby tab have no photo.
@@ -843,7 +843,7 @@
       if (D.temperature_2m_max[1] >= 30) quotes.push(["Tomorrow", fmt(LT.hotTmr, { v: r(D.temperature_2m_max[1]) })]);
       else if (D.temperature_2m_min[1] <= 0) quotes.push(["Tomorrow", fmt(LT.coldTmr, { v: r(D.temperature_2m_min[1]) })]);
     }
-    if (profile.age === "55" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
+    if (profile.age === "60" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
 
     var main;
     if (baby) {

@@ -12,7 +12,7 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS`)에 있는 룩을 고른 스
 | `sky` | `clear`(낮 + 코드 0–2) · `cloudy`(그 외) · `any` |
 | `style` | `run` · `street` · `minimal` |
 | `gender` | `m` · `f` |
-| `age` | (b71) 사진 폴더의 연령대 기록(`"30"` = 30-40). 프로필 연령대는 b79부터 `u25` · `25` · `40` · `55`. 지금은 고를 때 안 씀 |
+| `age` | (b71) 사진 폴더의 연령대 기록(`"30"` = 30-40). 프로필 연령대는 b80부터 `u35` · `35` · `60`. 지금은 고를 때 안 씀 |
 | `image` | 큰 에디토리얼 사진(1024×1536, 2:3, JPG) |
 | `deck` | 한 줄 요약 `{ko,en,de}` |
 | `items` | Item ID 배열(보여줄 순서) |
