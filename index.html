@@ -120,13 +120,18 @@
   .summary { display: flex; align-items: stretch; gap: 7px; margin-top: 23px; word-break: keep-all; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; }
   .summary[hidden] { display: none; }
   .summary-bar { flex: none; width: 7px; background: var(--badge); }
-  /* today's outfit on the main screen (b68): photo + "Today's Look" + headline, opens Today's Look (b69: no style name, no arrow) */
-  .peek { display: flex; align-items: center; gap: 14px; width: 100%; margin-top: 22px; padding: 0; border: 0; background: none;
-    color: inherit; font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
-  .peek img { flex: none; width: 56px; height: 84px; object-fit: cover; }
-  .peek-t { flex: 1; min-width: 0; }
-  .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; text-transform: uppercase; }
-  .peek-d { display: block; font-family: var(--display); font-size: 30px; line-height: 1; letter-spacing: 0; text-transform: uppercase; margin-top: 4px; }
+  /* today's outfit on the main screen, opens Today's Look (b68). b75: a full-width 150px banner — the look photo, zoomed in
+     on the body from the neck down, is the background; "Today's Look" and the headline sit on it in white */
+  .peek { position: relative; display: flex; flex-direction: column; justify-content: flex-end; width: auto; height: 150px; margin: 22px -24px 0;
+    padding: 0 24px 18px; border: 0; overflow: hidden; background: #141414; color: #FFFFFF;
+    font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
+  /* cover at full width with the window high up shows the chest from just under the chin; scale zooms in a little more */
+  .peek img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.25); transform-origin: 50% 0; }
+  /* one flat dark layer so the white text reads on any photo (no gradient) */
+  .peek::after { content: ""; position: absolute; inset: 0; background: rgba(20,20,20,.32); }
+  .peek-t { position: relative; z-index: 1; }
+  .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+  .peek-d { display: block; font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 4px; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -325,7 +330,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b74"></script>
+<script src="look/outfits.js?v=b75"></script>
 <script>
 (function () {
   "use strict";
@@ -602,7 +607,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b74";
+  var BUILD = "b75";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -943,10 +948,10 @@
   function paintPeek() {
     var v = lastView, peek = $("peek"); if (!v) return;
     var profile = load("wx-profile") || {}, pics = lookPhotos(v, profile), pool = lookPool(v, pics), img = $("peek-img");
-    var o = (pool.filter(function (e) { return e.o.image; })[0] || pool[0]).o; // first look with a photo
+    var o = (pool.filter(function (e) { return e.o.image && !e.o.small; })[0] || pool[0]).o; // first look with a full-size photo; the tiny sheet crops would blur at banner size
     $("peek-k").textContent = "Today's Look";
     $("peek-d").textContent = LOOK[v.band[1]].head.replace(/<br>/g, " ");
-    img.hidden = !o.image;
+    img.hidden = !o.image || !!o.small;
     if (o.image && img.getAttribute("src") !== o.image) img.src = o.image;
     peek.hidden = false;
   }
