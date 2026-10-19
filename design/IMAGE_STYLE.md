@@ -1,0 +1,177 @@
+# Today's Look — 기본 이미지 스타일 가이드
+
+사용자가 승인한 기본 사진 스타일. 이후 날씨앱 에디토리얼 이미지 제작 시 이 문서를 기준으로 삼는다.
+
+기준: 베를린 가을밤 남성 30대, 기온 7°C / 체감 3°C 수정 세트의 촬영 언어. 도시·성별·연령·계절·시간·날씨·기온은 매 요청의 입력값으로 바꾼다. 밤이나 남성으로 고정하지 않는다.
+
+## 1. 핵심 방향
+
+가까운 거리에서 일상의 순간을 포착한, 개성과 유머가 있는 패션 에디토리얼.
+
+- 강한 카메라 직광 플래시, 또렷한 그림자, 피부와 원단의 실제 질감.
+- 24–28mm 광각 느낌, 손·신발·소품의 근거리 원근감, 생동감 있는 구도.
+- 장보기, 신발 끈 묶기, 물 마시기, 열쇠 찾기, 스카프 잡기 같은 구체적 행동.
+- 인물마다 다른 얼굴·표정·머리·체형. 자연스러운 피부와 연령의 특징 유지.
+- 약간의 필름 입자, 풍부하지만 현실적인 색. 주변 공간을 알아볼 수 있는 심도.
+- 프레임과 높낮이를 다양하게: 전신·무릎 위·상반신, 하이앵글·로우앵글·눈높이.
+- 세로 2:3. 기본 원본 1024 × 1536. 한 파일에 사진 한 장.
+- 사진 안에는 텍스트, 로고, 워터마크, 앱 UI, 콜라주를 넣지 않는다.
+
+## 2. 시선과 순간 포착
+
+카메라를 보는 컷과 자연스럽게 다른 곳을 보는 컷을 섞는다. 모든 사람이 렌즈를 바라보지 않게 한다.
+
+권장 편집 기준은 15장 중 직접 시선 4장, 자연스러운 시선 11장. 고정 할당은 아니며 장면에 맞게 조정한다. 5장 단위에서는 직접 시선 1~2장 정도를 기준으로 삼는다.
+
+| 장면 | 시선 |
+| --- | --- |
+| 달리는 중 | 진행 방향 |
+| 신발 끈 묶기 | 신발과 손 |
+| 스트레칭하며 웃기 | 프레임 밖 동행 |
+| 물 마시기 | 공원이나 거리 먼 곳 |
+| 식료품 들기 | 봉투 안 또는 발밑 |
+| 테이크아웃 창구 | 가게 안의 대화 상대 |
+| 열쇠 찾기 | 손과 열쇠 |
+| 떨어진 물건 줍기 | 물건 |
+| 초인종 누르기 | 버튼 |
+| 바람에 스카프 잡기 | 스카프 |
+
+눈동자만 돌리지 않는다. 머리 방향, 목, 눈, 표정이 같은 행동을 자연스럽게 따른다. 카메라를 의식하지 않는 장면에도 표정과 이야기가 있어야 한다.
+
+## 3. 날씨와 체감온도를 먼저 스타일링에 반영
+
+사진을 만들기 전에 전체 착장을 결정한다: 아우터, 상의/이너, 하의, 신발, 양말, 장갑·모자·스카프 등.
+
+- 보온 정도는 체감온도를 우선하고, 활동량·바람·강수·시간대를 함께 고려한다.
+- 같은 체감온도라도 달리는 사람과 가만히 서 있는 사람의 착장을 구분한다.
+- 추운 날에는 보온 레이어, 발목 커버, 상황에 맞는 장갑과 귀 보온을 보여준다.
+- 낮에는 실제 낮의 주변광을 유지하며 플래시로 인물을 강조한다.
+- 밤에는 어두운 하늘과 낮은 주변광, 가로등·상점 불빛 위에 강한 직광 플래시를 더한다.
+- 맑음이라고 바닥을 일부러 젖게 만들지 않는다. 비·눈·바람은 입력된 조건에 맞춘다.
+- 베를린은 생활 거리, 공원, 주택 출입구, 동네 가게 등으로 표현한다.
+
+승인된 추운 밤 예시(기온 7°C / 체감 3°C):
+
+| 스타일 | 착장 방향 |
+| --- | --- |
+| 러닝 | 보온 기능성 이너 + 방풍 셸, 긴 러닝 팬츠/타이츠, 양말, 러닝화, 장갑, 귀를 덮는 헤드밴드/비니 |
+| 스트리트 | 패딩·시어링·보온 퀼팅 재킷, 니트, 데님/팬츠, 부츠, 머플러 |
+| 미니멀 | 울 코트, 터틀넥, 울 팬츠, 부츠, 머플러·장갑 |
+
+성별과 연령은 요청에 맞춘다. 아기용은 연령에 맞는 착장·자세·보호자와의 장면으로 별도 설계하며 성인 러닝 행동을 적용하지 않는다.
+
+## 4. 러닝용 반사 디테일
+
+러닝 컷에는 기능성 용품의 재귀반사 소재가 플래시에 선명하게 반응하도록 한다. 실제 모든 러닝 제품에 반사 소재가 있다는 가정이 아니라, 이 화보의 스타일링에서 반사 디테일이 있는 제품을 선택한다.
+
+- 재킷: 어깨·가슴·소매의 가는 반사 파이핑 또는 패널.
+- 하의: 옆선·종아리의 작은 반사 포인트.
+- 장갑: 손등의 작은 분절 반사 마크.
+- 신발: 갑피·옆면·뒤축의 반사 오버레이.
+- 헤드밴드/비니: 작은 반사 탭.
+- 구도 안에 보이는 용품에 적용한다. 반사 디테일을 보여주려고 잘린 신발을 억지로 추가하지 않는다.
+- 렌즈를 향한 부분은 밝은 은백색으로, 다른 각도는 덜 밝게. 원단의 주름과 질감을 유지한다.
+- LED, 네온, 자체 발광, 별 모양 광채, 전신을 두르는 빛나는 외곽선은 사용하지 않는다.
+- 스트리트·미니멀 의상에는 이 규칙을 일괄 적용하지 않는다.
+
+## 5. 볼드한 컬러를 가끔 섞기
+
+전체 시리즈에 뉴트럴과 강렬한 컬러가 번갈아 등장하도록 한다.
+
+- 기본 운영값: 스타일별 5장 중 1~2장에 볼드한 의상 컬러를 사용한다. 사용자의 “가끔씩” 요청을 구체화한 편집 기준이며 이후 조정 가능하다.
+- 코발트 블루, 선명한 레드, 오렌지, 라임, 핫핑크, 퍼플 등을 선택적으로 사용한다.
+- 한 착장에 주인공 컬러 하나를 두고 나머지는 차콜·네이비·크림·브라운 등으로 정리한다.
+- 가끔 절제된 두 색의 컬러블록도 허용한다. 모든 컷을 다채색으로 만들지 않는다.
+- 러닝: 셸이나 이너의 볼드 컬러 + 은백색 반사 디테일.
+- 스트리트: 아우터·니트·비니 중 하나를 주인공으로.
+- 미니멀: 단순한 실루엣을 유지하면서 니트·머플러 등 한 가지 컬러 포인트.
+- 강렬한 색을 소품이나 배경에만 넣고 끝내지 않는다. 의상에도 실제로 반영한다.
+- 색보정으로 피부색을 왜곡하거나 모든 색을 과포화시키지 않는다.
+
+## 6. 재사용 기본 생성 프롬프트
+
+아래 변수들을 먼저 채우고, 러닝일 때만 반사 디테일 블록을 추가한다. 한 장마다 ACTION, GAZE, FRAMING을 명확히 지정한다. 시리즈의 시선과 컬러 배분은 생성 전에 계획한다.
+
+~~~text
+Use case: photorealistic-natural.
+Create ONE independent fashion editorial photograph for a weather app.
+
+Scene: {CITY}, {SEASON}, {TIME_OF_DAY}, {WEATHER}.
+Actual temperature {TEMPERATURE_C} C, feels like {FEELS_LIKE_C} C.
+Subject: {SUBJECT_GROUP_AND_AGE}, distinctive believable appearance,
+natural skin texture and age-appropriate character.
+Fashion category: {RUNNING / STREET / MINIMAL}.
+Complete weather-appropriate outfit: {OUTFIT_AND_ACCESSORIES}.
+Color direction for this frame: {NEUTRAL_PALETTE_OR_SPECIFIC_BOLD_GARMENT}.
+
+Photographic language: intimate close 24–28mm wide-angle snapshot,
+strong direct on-camera flash, crisp cast shadows, tactile fabric and skin,
+slightly gritty analog grain, rich believable color, recognizable everyday
+surroundings and moderate depth of field. Fashion is revealed through action.
+Frame: {FRAMING_AND_CAMERA_HEIGHT}, portrait 2:3.
+Action: {SPECIFIC_EVERYDAY_ACTION}.
+Gaze: {SPECIFIC_GAZE_TARGET_OR_DIRECT_EYE_CONTACT}.
+Head, neck, eyes and expression must naturally follow the action.
+Capture a lively unforced moment with personality and subtle humor.
+
+Adapt ambient light to the stated time. At night, retain dark sky and low
+ambient exposure with warm practical lights while flash sharply lights the
+subject. During daylight, preserve daylight surroundings with punchy fill flash.
+Represent the supplied weather accurately; do not invent rain or wet pavement.
+
+Choose layers and footwear for perceived temperature and activity.
+Occasionally use a bold clothing color across the series, not in every frame:
+one hero-colored garment with a controlled supporting palette.
+Minimal outfits retain clean silhouettes even with a vivid accent.
+
+Avoid generic catalog poses, identical expressions, repetitive camera angles,
+excessive background blur, plastic skin and artificial cinematic glow.
+No text, readable lettering, logos, watermark, UI, border or collage.
+Output a single photograph, ideally 1024 × 1536.
+~~~
+
+### 러닝에 추가할 블록
+
+~~~text
+Style the runner with believable technical retroreflective silver details
+on visible sportswear and equipment: narrow jacket piping or panels,
+small segmented glove-back marks, trouser seam/calf accents,
+shoe upper/heel overlays and a small headband or beanie tab.
+Make these surfaces strongly return the direct camera flash, with bright
+silver-white highlights strongest toward the lens and weaker at other angles.
+Retain material texture and garment folds. Use purposeful athletic detailing.
+No LEDs, neon, self-emission, fantasy glow, starbursts or full-body outlines.
+Do not add out-of-frame equipment merely to display reflective details.
+~~~
+
+## 7. 기존 사진 수정 프롬프트
+
+~~~text
+Use case: identity-preserve.
+Input image: edit target.
+Preserve the person's identity and age, body, existing outfit and warmth,
+location, props, action, close wide-angle framing, harsh direct flash,
+natural skin and tactile editorial realism.
+Change only: {GAZE_AND_HEAD_DIRECTION / REFLECTIVE_DETAILS / NAMED_COLOR_EDIT}.
+For gaze changes, turn head and eyes naturally toward {GAZE_TARGET}.
+Keep the expression alive and consistent with the action.
+For a requested clothing color change, recolor only {GARMENT} to {COLOR},
+preserving material, fit, folds and lighting.
+For running reflective edits, apply the running block above.
+No added text, logos, watermark or collage.
+~~~
+
+기본 사진을 수정할 때는 요청하지 않은 착장·인물·배경을 바꾸지 않는다. 볼드 컬러 규칙은 새 세트 기획 시 적용하고, 승인된 기존 사진의 색 변경은 해당 수정 요청이 있을 때 적용한다.
+
+## 8. 제작 전후 확인
+
+- 도시·날씨·시간·실제 기온·체감온도·대상 연령·스타일을 기록했는가?
+- 착장이 체감온도와 활동에 맞고, 사진에 보이는 아이템과 설명이 일치하는가?
+- 시선과 행동, 프레이밍이 시리즈 안에서 다양하게 구성됐는가?
+- 러닝 반사 소재가 플래시에 반응하면서 실제 소재처럼 보이는가?
+- 일부 착장에 볼드한 컬러가 있고, 전부 비슷한 무채색 또는 과도한 다채색이 되지 않았는가?
+- 인체와 손·발·소품의 형태가 자연스러운가?
+- 텍스트·로고·UI 없이 한 장의 에디토리얼 사진으로 완성됐는가?
+
+앱의 룩 데이터와 이미지 등록 방식은 [look-library.md](look-library.md)를 따른다. 이 문서는 촬영·스타일링과 프롬프트의 기준이며 앱 데이터 스키마를 변경하지 않는다.
+
