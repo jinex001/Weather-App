@@ -259,8 +259,6 @@
   .lk-seg button { flex: 1 1 auto; padding: 10px 6px; border: 0; border-radius: 18px; background: none; cursor: pointer;
     font: 700 11.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: var(--lk-ink); white-space: nowrap; }
   .lk-seg button.on { background: var(--lk-ink); color: var(--lk-bg); }
-  .lk-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 22px; }
-  .lk-pair .lk-photo { width: 100%; margin-top: 0; aspect-ratio: 1; object-fit: cover; }
   .lk-items { margin-top: 18px; }
   .lk-item { padding: 8px 0; }
   .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
@@ -323,7 +321,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b68"></script>
+<script src="look/outfits.js?v=b71"></script>
 <script>
 (function () {
   "use strict";
@@ -600,7 +598,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b70";
+  var BUILD = "b71";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -721,19 +719,14 @@
   // Profiles saved before b36 get asked once more (old answers stay picked).
   var PROFILE_V = 2;
 
-  // Outfit photos in look/: 7 temperature columns from the editorial sheet (T1 ≥30 … T7 <0), picked by feels-like.
-  // Adults: <m|f>-<street|minimal>-t<n>-<a|b>.jpg (two looks, alternating by day); baby: baby-<style>-t<n>.jpg.
-  function lookTier(f) { return f >= 30 ? 1 : f >= 24 ? 2 : f >= 18 ? 3 : f >= 12 ? 4 : f >= 6 ? 5 : f >= 0 ? 6 : 7; }
+  // Style and gender for the look page. All photos now come from the outfit library (b71: the old sheet crops and
+  // baby photos are gone), so the band's fallback slide and the baby tab have no photo.
   function lookPhotos(v, profile) {
     var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;
-    var t = lookTier(v.f), style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
+    var style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
     var g = profile.gender === "f" || profile.gender === "m" ? profile.gender : (day % 2 ? "f" : "m");
-    var sheet = style === "run" ? "street" : style; // no running photos in the editorial sheet; baby falls back to streetwear
-    return { g: g, style: style, alt: Math.floor(day / 2) % 2, // second hero photo every other day, independent of the gender swap
-      adult: style === "run" ? null : "look/" + g + "-" + style + "-t" + t + "-" + (day % 2 ? "b" : "a") + ".jpg",
-      baby: "look/baby-" + sheet + "-t" + t + ".jpg" };
+    return { g: g, style: style, adult: null };
   }
-  function photo(src) { return src ? '<img class="lk-photo" src="' + src + '" alt="" onerror="this.remove()">' : ""; }
 
   // ── Outfit library (look/outfits.js, b68): editorial outfits with their own photo and items, swiped within one style ──
   // Schema: design/look-library.md. If the file did not load, every band falls back to its own text below.
@@ -847,8 +840,7 @@
     var main;
     if (baby) {
       lookNow = null;
-      main = '<div class="lk-deck">' + esc(L.baby[LANG]) + '</div><div class="lk-pair">' + photo(pics.baby.replace(/baby-\w+-/, "baby-street-")) +
-        photo(pics.baby.replace(/baby-\w+-/, "baby-minimal-")) + "</div>" + itemsHtml({ items: [] }, extras, st);
+      main = '<div class="lk-deck">' + esc(L.baby[LANG]) + "</div>" + itemsHtml({ items: [] }, extras, st);
     } else {
       var pool = lookPool(v, pics), key = pics.style + "-" + pics.g, at = railAt[key] || 0;
       at = Math.min(at, pool.length - 1);
@@ -938,7 +930,8 @@
   // Main screen: today's first outfit under the summary (photo + headline), tap to open Today's Look
   function paintPeek() {
     var v = lastView, peek = $("peek"); if (!v) return;
-    var profile = load("wx-profile") || {}, pics = lookPhotos(v, profile), o = lookPool(v, pics)[0].o, img = $("peek-img");
+    var profile = load("wx-profile") || {}, pics = lookPhotos(v, profile), pool = lookPool(v, pics), img = $("peek-img");
+    var o = (pool.filter(function (e) { return e.o.image; })[0] || pool[0]).o; // first look with a photo
     $("peek-k").textContent = "Today's Look";
     $("peek-d").textContent = LOOK[v.band[1]].head.replace(/<br>/g, " ");
     img.hidden = !o.image;
