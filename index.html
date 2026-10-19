@@ -575,7 +575,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b62";
+  var BUILD = "b63";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -981,6 +981,32 @@
     return Object.assign({}, data, { current: Object.assign({}, cur, add) });
   }
 
+  // Cloud amount from up to three sources: DWD station (Bright Sky), MET Norway and the Open-Meteo model.
+  // The middle value decides clear / mostly clear / partly cloudy / overcast, so one source that is off can't
+  // turn a few clouds into overcast. Rain, snow, fog and storms are left as they are.
+  function metCloud(met) {
+    var ts = met && met.properties && met.properties.timeseries;
+    if (!ts) return null;
+    for (var i = 0; i < ts.length; i++) {
+      if (Math.abs(new Date(ts[i].time).getTime() - Date.now()) <= 60 * 60000) {
+        var c = ts[i].data && ts[i].data.instant && ts[i].data.instant.details.cloud_area_fraction;
+        if (typeof c === "number") return c;
+      }
+    }
+    return null;
+  }
+  function cloudVote(data, measured) {
+    var cur = data.current, list = [];
+    if (measured && data.obs && typeof data.obs.cloud_cover === "number") list.push(data.obs.cloud_cover);
+    var m = metCloud(data.met);
+    if (m !== null) list.push(m);
+    if (typeof cur.cloud_cover === "number") list.push(cur.cloud_cover);
+    if (list.length < 2 || cur.weather_code > 3) return null;
+    list.sort(function (a, b) { return a - b; });
+    var mid = list.length % 2 ? list[(list.length - 1) / 2] : (list[list.length / 2 - 1] + list[list.length / 2]) / 2;
+    return { cover: mid, code: mid < 15 ? 0 : mid < 40 ? 1 : mid < 80 ? 2 : 3, met: m !== null };
+  }
+
   function rainNearby(data, nowLocal) {
     var M = data.minutely_15;
     if (!M || !M.time) return false;
@@ -1003,6 +1029,11 @@
         cur = Object.assign({}, cur, { weather_code: 3 });
         data = Object.assign({}, data, { current: cur });
       }
+    }
+    var cloud = cloudVote(data, measured);
+    if (cloud) {
+      cur = Object.assign({}, cur, { weather_code: cloud.code });
+      data = Object.assign({}, data, { current: cur });
     }
     var isDay = cur.is_day === 1;
     var state = stateOf(cur.weather_code, isDay);
@@ -1107,7 +1138,8 @@
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
     // Data from the last 20 minutes still counts as current, even if the latest request failed
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
-    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") +
+    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + (cloud && cloud.met ? " · MET" : "") +
+      (cloud ? " · ☁" + Math.round(cloud.cover) + "%" : "") +
       (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · " + BUILD;
   }
 
@@ -1163,7 +1195,7 @@
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
-      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation" +
+      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,cloud_cover" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
@@ -1201,9 +1233,14 @@
     var obsReq = fetch("https://api.brightsky.dev/current_weather?lat=" + place.lat + "&lon=" + place.lon, { cache: "no-store" })
       .then(function (res) { return res.ok ? res.json() : null; })
       .catch(function () { return null; });
+    // MET Norway (no key; coordinates at most 4 decimals) — a second opinion on the cloud amount
+    var metReq = fetch("https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=" + (+place.lat).toFixed(4) + "&lon=" + (+place.lon).toFixed(4))
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .catch(function () { return null; });
     fetch(url(place), { cache: "no-store" })
       .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
       .then(function (data) { return obsReq.then(function (bs) { if (bs && bs.weather) data.obs = bs.weather; return data; }); })
+      .then(function (data) { return metReq.then(function (met) { if (met && met.properties && met.properties.timeseries) data.met = { properties: { timeseries: met.properties.timeseries.slice(0, 4) } }; return data; }); })
       .then(function (data) {
         if (!data.current) throw new Error("bad data");
         data._fetched = Date.now();

@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-19, 빌드 b62)
+## 현재 상태 (2026-10-19, 빌드 b63)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록(단계 색 둥근 배지 + 흰 사람 아이콘), 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -66,6 +66,7 @@
 - b62: 흐린 낮(흐림·안개) 배경을 실제 햇빛 밝기로 3단계(사용자 요청, Gemini 팔레트). Open-Meteo current `shortwave_radiation`(W/m², DWD 관측 일사량 solar_10/30/60이 있으면 실측): ≥200 밝은 흐림 `#A3A091` · 60–200 보통 `#959B9E` · <60 어두운 `#948B82`. 값이 없으면 예전 `#A9B1B9`. 흐린 밤은 그대로 `#1B2140`. 단계마다 뒤 구름·작은 회색 구름 색 조정(CSS `--oc-back`/`--oc-drift`, `body[data-light]`). 상태 줄에 "· N W/m²" 표시(기준값 맞추는 동안). 위젯은 아직 `#A9B1B9`. 기준값 60/200은 실제 베를린 값으로 확인 못 함.
 - 위젯(2026-10-19, 앱 빌드 변화 없음): 앱 날씨 그림을 위젯 배경으로(사용자: "애니메이션 아이콘이 바탕화면, 그 위에 정보"). 앱에서 멈춘 장면을 PNG 18장으로 뽑아 `widget/art/`(흐림·안개는 햇빛 3단계별), 위젯이 GitHub Pages에서 한 번 받아 저장(`ART_VERSION`). DrawContext로 배경색 + 그림을 크기별 위치에 그려 `backgroundImage`. 헤더 SF Symbol 없앰. 오늘 요약(앱 summaryText 이식, DECK·BANDS·BAND_COLOR·readableOn 복사) 추가: small 첫 문장, medium·large 3줄. 흐린 낮 3단계 색. 데이터에 wind_speed_10m·shortwave_radiation·hourly temperature_2m/apparent_temperature 추가. Scriptable 실기기 확인 전(가짜 API로 로직만 확인).
 - 위젯 시안 C(2026-10-19, 사용자 선택): 그림을 오른쪽 위 → 가운데로, 알파 40%로 흐리게(PNG에 미리 적용, `ART_VERSION` 2), 정보는 그 위 레이어. medium 요약 2줄 전체 폭, large 기온 96·막대 24px.
+- b63: 구름 양을 세 곳 값의 중간값으로(사용자: "현재 구름 약간인데 날씨가 안 맞어"). MET Norway(`https://api.met.no/weatherapi/locationforecast/2.0/compact`, 키 불필요) 추가, Open-Meteo current에 `cloud_cover` 추가. DWD 관측 cloud_cover · MET 지금 시각 cloud_area_fraction · Open-Meteo cloud_cover 중 2개 이상 있고 지금 코드가 0–3(비·눈·안개 아님)이면 중간값으로 코드 결정: <15% 맑음(0) · <40% 대체로 맑음(1) · <80% 구름 조금(2) · ≥80% 흐림(3). 상태 줄에 "· MET", "· ☁N%" 표시(기준값 맞추는 동안). 캐시엔 MET 시간대 4개만 저장. 위젯은 아직 Open-Meteo만. 이 환경에선 API가 막혀 가짜 응답으로만 확인.
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
@@ -89,7 +90,8 @@
 
 - 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
 - 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
+- 구름 양 보조: MET Norway Locationforecast (`https://api.met.no/weatherapi/locationforecast/2.0/compact`, 키 불필요, 좌표 소수 4자리). 구름 양은 DWD·MET·Open-Meteo 중간값(b63).
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`
