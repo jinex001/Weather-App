@@ -138,7 +138,7 @@ function stateOf(c, day) {
   if (isOvercast(c) && day) return "overcast"
   return day ? "sun" : "night"
 }
-// The app's weather art (static frame, PNG in widget/art/) drawn large as the widget background
+// The app's weather art (static frame, PNG in widget/art/, alpha already at 40%) drawn large in the middle of the widget
 const isFog = c => c === 45 || c === 48
 function artKey(c, day, light) {
   if (!day) return isSnow(c) ? "night-snow" : isRain(c) ? "night-rain" : isFog(c) ? "night-fog" : c >= 2 ? "night-cloudy" : "night-clear"
@@ -181,7 +181,7 @@ async function getData() {
   }
 }
 
-const ART_VERSION = 1   // bump when widget/art/*.png change
+const ART_VERSION = 2   // bump when widget/art/*.png change (2: faded to 40% for the centered layout)
 async function loadArt(key) {
   const dir = fm.joinPath(fm.documentsDirectory(), "weather-app-art")
   if (!fm.fileExists(dir)) fm.createDirectory(dir)
@@ -303,9 +303,9 @@ function summaryBlock(parent, s, size, maxLines, width, barColor, fg) {
   return t
 }
 
-// Background: screen color + the weather art, large and bleeding off the edges (same placement as the approved mock)
+// Background: screen color + the weather art, centered and faded so the information reads on top of it (mock C)
 const SIZES = { small: [158, 158], medium: [338, 158], large: [338, 354] }
-const ART_PLACE = { small: [44, -34, 200], medium: [160, -52, 270], large: [-21, -92, 380] }   // x, y, width in points
+const ART_PLACE = { small: [190, -10], medium: [250, -12], large: [360, -40] }   // width, vertical shift in points
 function background(family, bg, art) {
   const [W, H] = SIZES[family]
   const ctx = new DrawContext()
@@ -315,8 +315,8 @@ function background(family, bg, art) {
   ctx.setFillColor(new Color(bg))
   ctx.fillRect(new Rect(0, 0, W, H))
   if (art) {
-    const [x, y, aw] = ART_PLACE[family]
-    ctx.drawImageInRect(art, new Rect(x, y, aw, aw * 170 / 240))
+    const [aw, dy] = ART_PLACE[family], ah = aw * 170 / 240
+    ctx.drawImageInRect(art, new Rect((W - aw) / 2, (H - ah) / 2 + dy, aw, ah))
   }
   return ctx.getImage()
 }
@@ -377,7 +377,7 @@ async function build(d, family) {
     return w
   }
 
-  // Home screen: the art is the background, the information sits on top (bottom left)
+  // Home screen: the art fills the middle, the information sits on top of it
   const today = summaryText(d, idx, light)
   const barColor = readableOn(BAND_COLOR[today.band[1]], bg, 1.5)
   w.backgroundColor = new Color(bg)
@@ -395,7 +395,7 @@ async function build(d, family) {
   }
 
   const row = w.addStack(); row.bottomAlignContent()
-  bigTemp(row, temp, family === "large" ? 84 : 64, fg)
+  bigTemp(row, temp, family === "large" ? 96 : 64, fg)
   row.addSpacer(8)
   const side = row.addStack(); side.layoutVertically()
   text(side, label(c.weather_code, day), Font.boldSystemFont(family === "large" ? 20 : 13), fg)
@@ -404,7 +404,7 @@ async function build(d, family) {
 
   if (family === "medium") {
     w.addSpacer(6)
-    summaryBlock(w, today.text, 10.5, 3, 176, barColor, fg)
+    summaryBlock(w, today.text, 10.5, 2, 306, barColor, fg)
     return w
   }
 
@@ -412,7 +412,7 @@ async function build(d, family) {
   w.addSpacer(8)
   summaryBlock(w, today.text, 12.5, 3, 306, barColor, fg)
   w.addSpacer(10)
-  bars(w, d, idx, new Color(st.graph), 28, 4)
+  bars(w, d, idx, new Color(st.graph), 24, 4)
   return w
 }
 

@@ -6,7 +6,7 @@
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록(단계 색 둥근 배지 + 흰 사람 아이콘), 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
-- `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면)을 배경에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
+- `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면, 40% 흐리게)을 가운데에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
 - 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
 - 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도. b21부터 앱이 새로고침할 때 배포된 페이지의 `BUILD`를 확인해서 다르면 스스로 다시 불러옴(그래서 `var BUILD = "bNN"` 형식을 바꾸지 말 것).
 - 디자인 값의 기준은 `design/tokens.json`(v3)과 `design/design-system.md`. 바꾸면 이 두 파일도 같이 고칠 것.
@@ -65,6 +65,7 @@
 - b61: 검은 구분선(24시간 예보 위·6일 예보 위) 모두 없앰, 6일(요일) 예보 없앰, 24시간 예보의 "지금" 점을 "지금" 글자 위로(사용자 요청).
 - b62: 흐린 낮(흐림·안개) 배경을 실제 햇빛 밝기로 3단계(사용자 요청, Gemini 팔레트). Open-Meteo current `shortwave_radiation`(W/m², DWD 관측 일사량 solar_10/30/60이 있으면 실측): ≥200 밝은 흐림 `#A3A091` · 60–200 보통 `#959B9E` · <60 어두운 `#948B82`. 값이 없으면 예전 `#A9B1B9`. 흐린 밤은 그대로 `#1B2140`. 단계마다 뒤 구름·작은 회색 구름 색 조정(CSS `--oc-back`/`--oc-drift`, `body[data-light]`). 상태 줄에 "· N W/m²" 표시(기준값 맞추는 동안). 위젯은 아직 `#A9B1B9`. 기준값 60/200은 실제 베를린 값으로 확인 못 함.
 - 위젯(2026-10-19, 앱 빌드 변화 없음): 앱 날씨 그림을 위젯 배경으로(사용자: "애니메이션 아이콘이 바탕화면, 그 위에 정보"). 앱에서 멈춘 장면을 PNG 18장으로 뽑아 `widget/art/`(흐림·안개는 햇빛 3단계별), 위젯이 GitHub Pages에서 한 번 받아 저장(`ART_VERSION`). DrawContext로 배경색 + 그림을 크기별 위치에 그려 `backgroundImage`. 헤더 SF Symbol 없앰. 오늘 요약(앱 summaryText 이식, DECK·BANDS·BAND_COLOR·readableOn 복사) 추가: small 첫 문장, medium·large 3줄. 흐린 낮 3단계 색. 데이터에 wind_speed_10m·shortwave_radiation·hourly temperature_2m/apparent_temperature 추가. Scriptable 실기기 확인 전(가짜 API로 로직만 확인).
+- 위젯 시안 C(2026-10-19, 사용자 선택): 그림을 오른쪽 위 → 가운데로, 알파 40%로 흐리게(PNG에 미리 적용, `ART_VERSION` 2), 정보는 그 위 레이어. medium 요약 2줄 전체 폭, large 기온 96·막대 24px.
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.

@@ -228,8 +228,8 @@ Poppins는 폭이 넓어서 **기본 자간 -.02em**(body). 작은 대문자 라
 ## 10. 위젯 (Scriptable)
 
 - 앱과 같은 색 규칙(`STATES`): 낮엔 날씨별, 밤엔 모두 `night`. 흐린 낮은 앱처럼 햇빛 밝기 3단계(`shortwave_radiation`). 홈 화면 small/medium/large, 잠금화면 원형·사각·한 줄.
-- **날씨 그림이 바탕(2026-10-19)**: 앱의 큰 날씨 그림을 멈춘 한 장면(PNG, `widget/art/<키>.png`, 240×170 비율, 3배 해상도)으로 위젯 배경에 크게 깔고, 가장자리에서 잘리게 둡니다. 정보는 그림이 비는 왼쪽 아래. 위치(포인트, 기준 크기 158/338×158/338×354): small x 44 · y -34 · 폭 200, medium x 160 · y -52 · 폭 270, large x -21 · y -92 · 폭 380. 화면을 가로지르는 작은 구름(`art-drift`)은 빼고(구름 조금 낮 `sun-mostly`만 그대로). 그림 키: sun-clear/mostly/cloudy, overcast(-bright/-normal/-dim), fog(-…), rain, snow, night-clear/cloudy/fog/rain/snow. 처음 한 번 받아 Scriptable 문서 폴더에 저장(`ART_VERSION`을 올리면 다시 받음). 그림을 바꾸면 PNG도 다시 뽑을 것.
-- 배치: small = 도시 / 큰 기온 56 / 상태 / 요약 첫 문장. medium = 도시 / 큰 기온 64 + 상태·최고최저 / 요약 3줄. large = 도시 / 큰 기온 84 + 상태·최고최저·체감 / 요약 3줄 / 12시간 막대 28px.
+- **날씨 그림이 가운데 바탕(2026-10-19, 시안 C)**: 앱의 큰 날씨 그림을 멈춘 한 장면(PNG, `widget/art/<키>.png`, 240×170 비율, 3배 해상도, **알파 40%로 미리 흐리게**)으로 위젯 가운데에 크게 깔고, 정보는 그 위 레이어로 올립니다(흐리게 해서 어느 날씨든 글자가 읽힘, 테두리·그림자 없음). 크기(포인트, 기준 158/338×158/338×354): small 폭 190 · 위로 10, medium 폭 250 · 위로 12, large 폭 360 · 위로 40, 가로 가운데. 화면을 가로지르는 작은 구름(`art-drift`)은 빼고(구름 조금 낮 `sun-mostly`만 그대로). 그림 키: sun-clear/mostly/cloudy, overcast(-bright/-normal/-dim), fog(-…), rain, snow, night-clear/cloudy/fog/rain/snow. 처음 한 번 받아 Scriptable 문서 폴더에 저장(`ART_VERSION` 2, 올리면 다시 받음). 앱 그림을 바꾸면 PNG도 다시 뽑아 알파 40%로.
+- 배치: small = 도시 / 큰 기온 56 / 상태 / 요약 첫 문장. medium = 도시 / 큰 기온 64 + 상태·최고최저 / 요약 2줄. large = 도시 / 큰 기온 96 + 상태·최고최저·체감 / 요약 3줄 / 12시간 막대 24px.
 - **오늘 요약**: 앱 `summaryText`와 같은 문장(체감 단계, 상태·최고최저, 비·눈, 우산, 기온 하강, 바람, 옷차림 한 줄, 감기). 왼쪽 4px 막대는 체감 단계 색(배경과 1.5:1 미만일 때만 조정). 위젯은 DWD 실측 없이 Open-Meteo만.
 - 숫자 `AvenirNextCondensed-Heavy`, °는 앱과 같은 규칙(80% 크기, 위로 맞춤). 문구는 시스템 글꼴.
 - 잠금화면은 흑백이라 SF Symbols 아이콘 그대로.
