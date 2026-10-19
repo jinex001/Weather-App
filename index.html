@@ -120,14 +120,13 @@
   .summary { display: flex; align-items: stretch; gap: 7px; margin-top: 23px; word-break: keep-all; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; }
   .summary[hidden] { display: none; }
   .summary-bar { flex: none; width: 7px; background: var(--badge); }
-  /* today's outfit on the main screen (b68): photo + headline, opens Today's Look */
+  /* today's outfit on the main screen (b68): photo + "Today's Look" + headline, opens Today's Look (b69: no style name, no arrow) */
   .peek { display: flex; align-items: center; gap: 14px; width: 100%; margin-top: 22px; padding: 0; border: 0; background: none;
     color: inherit; font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
   .peek img { flex: none; width: 56px; height: 84px; object-fit: cover; }
   .peek-t { flex: 1; min-width: 0; }
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; text-transform: uppercase; }
   .peek-d { display: block; font-family: var(--display); font-size: 30px; line-height: 1; letter-spacing: 0; text-transform: uppercase; margin-top: 4px; }
-  .peek-go { flex: none; font-size: 26px; font-weight: 600; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -307,7 +306,7 @@
   </div>
   </div>
   <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
-  <button class="peek" id="peek" type="button" hidden><img id="peek-img" alt="" onerror="this.hidden=true"><span class="peek-t"><span class="peek-k" id="peek-k"></span><span class="peek-d" id="peek-d"></span></span><span class="peek-go" aria-hidden="true">›</span></button>
+  <button class="peek" id="peek" type="button" hidden><img id="peek-img" alt="" onerror="this.hidden=true"><span class="peek-t"><span class="peek-k" id="peek-k"></span><span class="peek-d" id="peek-d"></span></span></button>
 
   <div class="grow"></div>
 
@@ -605,7 +604,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b68";
+  var BUILD = "b69";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -963,7 +962,7 @@
   function paintPeek() {
     var v = lastView, peek = $("peek"); if (!v) return;
     var profile = load("wx-profile") || {}, pics = lookPhotos(v, profile), o = lookPool(v, pics)[0].o, img = $("peek-img");
-    $("peek-k").textContent = "Today's Look · " + LT.styles[STYLES.indexOf(pics.style)];
+    $("peek-k").textContent = "Today's Look";
     $("peek-d").textContent = LOOK[v.band[1]].head.replace(/<br>/g, " ");
     img.hidden = !o.image;
     if (o.image && img.getAttribute("src") !== o.image) img.src = o.image;
