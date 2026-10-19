@@ -575,7 +575,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b64";
+  var BUILD = "b65";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -756,11 +756,13 @@
   };
 
   // Full-size look photos the user sent one by one (look/<band>/<style>-<m|f>.jpg); these replace the small sheet crop.
+  // A value of 2 means a second photo (<style>-<m|f>-2.jpg), shown every other day.
   var HERO = { "cool/street-m": 1, "cool/minimal-m": 1, "cool/run-m": 1, "cool/run-f": 1,
     "cool/street-f": 1, "cool/minimal-f": 1,
-    "cold/minimal-m": 1, "cold/street-m": 1, "cold/run-m": 1 };
+    "cold/minimal-m": 1, "cold/street-m": 2, "cold/run-m": 1 };
 
-  // Style-specific deck and items for other bands (same shape as CHILLY, without pieces). Text: design/look-cool.md.
+  // Style-specific deck and items for other bands (same shape as CHILLY, without pieces). Text: design/look-cool.md, design/look-cold.md.
+  // A band may have items for one gender only; the other keeps the band's default text.
   var STYLE_TEXT = {
     cool: {
       run: { deck: { ko: "반팔에 얇은 긴팔 하나. 5분 뛰면 반팔 날씨예요.", en: "A tee and one thin long sleeve. Five minutes in, it's T-shirt weather.", de: "Shirt plus ein dünnes Langarm. Nach fünf Minuten ist es T-Shirt-Wetter." },
@@ -804,7 +806,32 @@
               ["Bottom", { ko: "와이드 울 팬츠", en: "Wide wool trousers", de: "Weite Wollhose" }],
               ["Shoes", { ko: "굽 낮은 앵클 부츠, 로퍼나 미니멀 스니커즈", en: "Low-heeled ankle boots, loafers or minimal sneakers", de: "Stiefeletten mit flachem Absatz, Loafer oder schlichte Sneaker" }],
               ["Socks", { ko: "울 양말(바지와 같은 색)", en: "Wool socks matching the trousers", de: "Wollsocken passend zur Hose" }],
-              ["Bring", { ko: "큰 숄더백, 얇은 머플러", en: "A big shoulder bag, a light scarf", de: "Große Schultertasche, leichter Schal" }]] } } }
+              ["Bring", { ko: "큰 숄더백, 얇은 머플러", en: "A big shoulder bag, a light scarf", de: "Große Schultertasche, leichter Schal" }]] } } },
+    cold: {
+      run: { deck: { ko: "긴 타이츠에 기모 긴팔 + 바람막이. 비니·장갑은 꼭.", en: "Long tights, a brushed long sleeve and a windbreaker. Beanie and gloves, always.", de: "Lange Tights, angerautes Langarm und Windjacke. Mütze und Handschuhe auf jeden Fall." },
+        items: {
+          m: [["Outer", { ko: "후드 달린 바람막이. 0° 아래면 안에 얇은 경량 패딩 조끼", en: "A hooded windbreaker; below 0°, a thin insulated vest underneath", de: "Windjacke mit Kapuze; unter 0° eine dünne Steppweste darunter" }],
+              ["Top", { ko: "기모 하프집 긴팔 + 안에 기능성 이너", en: "A brushed half-zip long sleeve over a tech base layer", de: "Angerautes Half-Zip-Langarmshirt über Funktionsunterwäsche" }],
+              ["Bottom", { ko: "긴 러닝 타이츠 + 위에 러닝 쇼츠", en: "Full-length running tights with shorts on top", de: "Lange Lauftights mit Shorts darüber" }],
+              ["Shoes", { ko: "쿠션 러닝화. 서리 낀 길은 접지력 좋은 밑창으로", en: "Cushioned running shoes; grippy soles for frosty paths", de: "Gedämpfte Laufschuhe; griffige Sohle für frostige Wege" }],
+              ["Socks", { ko: "발목 위로 올라오는 두툼한 러닝 양말", en: "Thicker running socks above the ankle", de: "Dickere Laufsocken über dem Knöchel" }],
+              ["Bring", { ko: "러닝 비니, 터치되는 러닝 장갑, 맑은 날엔 선글라스", en: "A running beanie, touchscreen gloves, sunglasses on clear days", de: "Laufmütze, Touchscreen-Handschuhe, an klaren Tagen Sonnenbrille" }]] } },
+      street: { deck: { ko: "두꺼운 후디 위에 패딩 점퍼. 목도리 하나 두르세요.", en: "A puffer over a heavy hoodie. Throw on a scarf.", de: "Daunenjacke über dickem Hoodie. Schal dazu." },
+        items: {
+          m: [["Outer", { ko: "오버핏 패딩이나 충전재 들어간 점퍼(블랙·카키)", en: "An oversized puffer or padded jacket (black, khaki)", de: "Oversized Daunen- oder Steppjacke (Schwarz, Khaki)" }],
+              ["Top", { ko: "두꺼운 기모 후디(그레이·크림) + 안에 흰 롱슬리브 티", en: "A heavy fleece-lined hoodie (grey, cream) over a white long-sleeve tee", de: "Dicker angerauter Hoodie (Grau, Creme) über weißem Longsleeve" }],
+              ["Bottom", { ko: "와이드 카고 팬츠(블랙·베이지). 0° 가까우면 안에 히트텍", en: "Wide cargo pants (black, beige); near 0°, thermal leggings underneath", de: "Weite Cargohose (Schwarz, Beige); nahe 0° Thermo-Leggings drunter" }],
+              ["Shoes", { ko: "청키 러닝 스니커즈(그레이·크림)", en: "Chunky running sneakers (grey, cream)", de: "Chunky Running-Sneaker (Grau, Creme)" }],
+              ["Socks", { ko: "두꺼운 화이트 크루삭스", en: "Thick white crew socks", de: "Dicke weiße Crew-Socken" }],
+              ["Bring", { ko: "울 머플러, 백팩, 맑은 날엔 선글라스", en: "A wool scarf, a backpack, sunglasses on clear days", de: "Wollschal, Rucksack, an klaren Tagen Sonnenbrille" }]] } },
+      minimal: { deck: { ko: "터틀넥 위에 롱 울 코트. 머플러는 길게 늘어뜨려요.", en: "A long wool coat over a turtleneck. Let a long scarf hang loose.", de: "Langer Wollmantel über dem Rollkragen. Ein langer Schal, lose getragen." },
+        items: {
+          m: [["Outer", { ko: "두꺼운 롱 울 코트(블랙·차콜)", en: "A heavy long wool coat (black, charcoal)", de: "Schwerer langer Wollmantel (Schwarz, Anthrazit)" }],
+              ["Top", { ko: "두꺼운 울 터틀넥(블랙)", en: "A chunky wool turtleneck (black)", de: "Dicker Woll-Rollkragenpullover (Schwarz)" }],
+              ["Bottom", { ko: "주름 잡힌 울 슬랙스(차콜)", en: "Pleated wool trousers (charcoal)", de: "Wollhose mit Bundfalte (Anthrazit)" }],
+              ["Shoes", { ko: "밑창 두꺼운 가죽 첼시 부츠", en: "Leather Chelsea boots with a thick sole", de: "Chelsea-Boots aus Leder mit dicker Sohle" }],
+              ["Socks", { ko: "두꺼운 울 양말(다크)", en: "Thick dark wool socks", de: "Dicke dunkle Wollsocken" }],
+              ["Bring", { ko: "길고 두툼한 울 머플러(그레이), 가죽 장갑, 맑은 날엔 선글라스", en: "A long chunky wool scarf (grey), leather gloves, sunglasses on clear days", de: "Langer dicker Wollschal (Grau), Lederhandschuhe, an klaren Tagen Sonnenbrille" }]] } } }
   };
 
   function lookPhotos(v, profile) {
@@ -812,7 +839,7 @@
     var t = lookTier(v.f), style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
     var g = profile.gender === "f" || profile.gender === "m" ? profile.gender : (day % 2 ? "f" : "m");
     var sheet = style === "run" ? "street" : style; // no running photos in the editorial sheet; baby falls back to streetwear
-    return { g: g, style: style,
+    return { g: g, style: style, alt: Math.floor(day / 2) % 2, // second hero photo every other day, independent of the gender swap
       adult: style === "run" ? null : "look/" + g + "-" + style + "-t" + t + "-" + (day % 2 ? "b" : "a") + ".jpg",
       baby: "look/baby-" + sheet + "-t" + t + ".jpg" };
   }
@@ -827,6 +854,8 @@
     // Baby is a fourth segment, only for people who go out with a baby; it shows the baby text and both baby photos
     var baby = profile.baby === "y" && profile.style === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
     var C = baby ? null : band[1] === "chilly" ? CHILLY[pics.style] : (STYLE_TEXT[band[1]] || {})[pics.style];
+    if (C && !C.items[pics.g]) C = null;
+    var hero = band[1] + "/" + pics.style + "-" + pics.g;
     var deck = baby ? L.baby : C ? C.deck : L.deck;
     var items = baby ? [] : C ? C.items[pics.g].map(function (it) { return [it[0], it[1][LANG]]; })
       : L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
@@ -835,7 +864,7 @@
       '<div class="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-grid">' + C.pieces[pics.g].map(function (pc, i) {
         return '<div class="lk-piece"><img src="look/chilly/' + pics.style + "-" + pics.g + "-p" + (i + 1) + '.jpg" alt="" onerror="this.remove()"><span>' + esc(pc[LANG]) + "</span></div>";
       }).join("") + "</div></div>"
-      : HERO[band[1] + "/" + pics.style + "-" + pics.g] ? '<img class="lk-photo lk-hero" src="look/' + band[1] + "/" + pics.style + "-" + pics.g + '.jpg" alt="" onerror="this.remove()">'
+      : HERO[hero] ? '<img class="lk-photo lk-hero" src="look/' + hero + (HERO[hero] > 1 && pics.alt ? "-2" : "") + '.jpg" alt="" onerror="this.remove()">'
       : photo(pics.adult);
     var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30;
     // rain in the next 12 hours (or now) changes what to bring
