@@ -234,14 +234,17 @@
   .lk-photo { display: block; width: 56%; height: auto; margin-top: 22px; background: rgba(20,20,20,.06); }
   /* full-size editorial photos (1024×1536) fill the width */
   .lk-hero { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
-  /* outfit row (b68, b70): swipe sideways within the picked style; each slide = fit tag, its own dots, photo, deck */
+  /* outfit row (b68, b74): only the photos swipe; dots, fit tag and deck stay put, the text fades to the new look */
   .lk-rail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; margin-top: 10px; }
   .lk-rail::-webkit-scrollbar { display: none; }
   .lk-slide { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; scroll-snap-stop: always; }
-  .lk-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 4px 0 12px;
+  .lk-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 14px 0 0;
     font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
-  .lk-slide .lk-photo { margin-top: 0; }
-  .lk-slide .lk-deck { margin-top: 12px; word-break: keep-all; }
+  .lk-slide .lk-photo { margin-top: 0; width: 100%; }
+  .lk-look-deck { margin-top: 12px; word-break: keep-all; }
+  .lk-fade { transition: opacity .18s ease; }
+  .lk-fade.out { opacity: 0; }
+  @media (prefers-reduced-motion: reduce) { .lk-fade { transition: none; } }
   /* dots sit above the row and stay put while it swipes; only the active dot changes (b72) */
   .lk-dots { display: flex; gap: 6px; margin-top: 18px; }
   .lk-dots span { width: 5px; height: 5px; border-radius: 50%; background: var(--lk-ink); opacity: .25; transition: opacity .2s; }
@@ -322,7 +325,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b73"></script>
+<script src="look/outfits.js?v=b74"></script>
 <script>
 (function () {
   "use strict";
@@ -599,7 +602,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b73";
+  var BUILD = "b74";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -784,13 +787,17 @@
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
   var heart = function (on) { return (on ? "♥" : "♡") + "︎ "; };
 
-  // One slide: fit tag, photo, deck (the dots above the row stay fixed, b72)
-  function slideHtml(e, i, v) {
+  // One slide is just the photo (b74); a look without one keeps an empty photo-sized space
+  function slideHtml(e, i) {
     var o = e.o;
-    return '<div class="lk-slide">' +
-      '<div class="lk-meta"><span>' + esc(fitTag(e, i, v)) + "</span></div>" +
-      (o.image ? '<img class="lk-photo' + (o.small ? "" : " lk-hero") + '" src="' + o.image + '" alt=""' + (i ? ' loading="lazy"' : "") + ' onerror="this.remove()">' : "") +
-      '<div class="lk-deck">' + esc(o.deck[LANG]) + "</div></div>";
+    return '<div class="lk-slide">' + (o.image ? '<img class="lk-photo lk-hero" src="' + o.image + '" alt=""' + (i ? ' loading="lazy"' : "") +
+      ' onerror="this.style.visibility=\'hidden\'">' : '<div class="lk-photo lk-hero"></div>') + "</div>";
+  }
+  // Fit tag and deck stay in place and fade over to the look being shown
+  function fadeText(el, text) {
+    if (!el || el.textContent === text) return;
+    el.classList.add("out");
+    setTimeout(function () { el.textContent = text; el.classList.remove("out"); }, 180);
   }
   // Items of one outfit: tap a row to see its photo and note, and answer "I own this" / "Interested"
   function itemsHtml(o, extras, st) {
@@ -843,9 +850,11 @@
     } else {
       var pool = lookPool(v, pics), key = pics.style + "-" + pics.g, at = railAt[key] || 0;
       at = Math.min(at, pool.length - 1);
-      lookNow = { pool: pool, extras: extras, key: key, at: at };
+      lookNow = { pool: pool, extras: extras, key: key, at: at, v: v };
       main = (pool.length > 1 ? '<div class="lk-dots" id="lk-dots" aria-hidden="true">' + pool.map(function (e, i) { return '<span class="' + (i === at ? "on" : "") + '"></span>'; }).join("") + "</div>" : "") +
-        '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i, v); }).join("") + "</div>" +
+        '<div class="lk-meta"><span class="lk-fade" id="lk-fit">' + esc(fitTag(pool[at], at, v)) + "</span></div>" +
+        '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i); }).join("") + "</div>" +
+        '<div class="lk-deck lk-look-deck lk-fade" id="lk-look-deck">' + esc(pool[at].o.deck[LANG]) + "</div>" +
         '<div id="lk-detail">' + itemsHtml(pool[at].o, extras, st) + "</div>";
     }
 
@@ -878,6 +887,8 @@
     if (i === lookNow.at) return;
     lookNow.at = i; railAt[lookNow.key] = i;
     [].forEach.call(document.querySelectorAll("#lk-dots span"), function (s, k) { s.className = k === i ? "on" : ""; });
+    fadeText($("lk-fit"), fitTag(lookNow.pool[i], i, lookNow.v));
+    fadeText($("lk-look-deck"), lookNow.pool[i].o.deck[LANG]);
     $("lk-detail").innerHTML = itemsHtml(lookNow.pool[i].o, lookNow.extras, lookState());
   }
 
