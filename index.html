@@ -120,18 +120,15 @@
   .summary { display: flex; align-items: stretch; gap: 7px; margin-top: 23px; word-break: keep-all; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; }
   .summary[hidden] { display: none; }
   .summary-bar { flex: none; width: 7px; background: var(--badge); }
-  /* today's outfit on the main screen, opens Today's Look (b68). b75: a full-width 150px banner — the look photo, zoomed in
-     on the body from the neck down, is the background; "Today's Look" and the headline sit on it in white */
-  .peek { position: relative; display: flex; flex-direction: column; justify-content: flex-end; width: auto; height: 150px; margin: 22px -24px 0;
-    padding: 0 24px 18px; border: 0; overflow: hidden; background: #141414; color: #FFFFFF;
+  /* today's outfit on the main screen, opens Today's Look (b68). b76: type only (user picked A over a photo banner) —
+     "Today's Look" over the band headline in Anton, a stemless chevron on the right as tall as the capitals */
+  .peek { display: block; width: 100%; margin-top: 30px; padding: 0; border: 0; background: none; color: inherit;
     font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
-  /* cover at full width with the window high up shows the chest from just under the chin; scale zooms in a little more */
-  .peek img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; transform: scale(1.25); transform-origin: 50% 0; }
-  /* one flat dark layer so the white text reads on any photo (no gradient) */
-  .peek::after { content: ""; position: absolute; inset: 0; background: rgba(20,20,20,.32); }
-  .peek-t { position: relative; z-index: 1; }
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
-  .peek-d { display: block; font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 4px; }
+  .peek-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 6px; }
+  .peek-d { font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
+  /* Anton capitals are ~.86em tall: 55px at 64px; the chevron sits on the baseline (descender gap ≈ .04em) */
+  .peek-go { flex: none; width: 28px; height: 55px; margin-bottom: 3px; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -309,7 +306,7 @@
   </div>
   </div>
   <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
-  <button class="peek" id="peek" type="button" hidden><img id="peek-img" alt="" onerror="this.hidden=true"><span class="peek-t"><span class="peek-k" id="peek-k"></span><span class="peek-d" id="peek-d"></span></span></button>
+  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><span class="peek-row"><span class="peek-d" id="peek-d"></span><svg class="peek-go" viewBox="0 0 28 55" aria-hidden="true"><path d="M5 5 L22 27.5 L5 50" fill="none" stroke="currentColor" stroke-width="8"/></svg></span></button>
 
   <div class="grow"></div>
 
@@ -330,7 +327,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b75"></script>
+<script src="look/outfits.js?v=b76"></script>
 <script>
 (function () {
   "use strict";
@@ -607,7 +604,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b75";
+  var BUILD = "b76";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -944,15 +941,11 @@
     }
   });
 
-  // Main screen: today's first outfit under the summary (photo + headline), tap to open Today's Look
+  // Main screen: "Today's Look" + the band headline under the summary, tap to open Today's Look
   function paintPeek() {
     var v = lastView, peek = $("peek"); if (!v) return;
-    var profile = load("wx-profile") || {}, pics = lookPhotos(v, profile), pool = lookPool(v, pics), img = $("peek-img");
-    var o = (pool.filter(function (e) { return e.o.image && !e.o.small; })[0] || pool[0]).o; // first look with a full-size photo; the tiny sheet crops would blur at banner size
     $("peek-k").textContent = "Today's Look";
     $("peek-d").textContent = LOOK[v.band[1]].head.replace(/<br>/g, " ");
-    img.hidden = !o.image || !!o.small;
-    if (o.image && img.getAttribute("src") !== o.image) img.src = o.image;
     peek.hidden = false;
   }
 
