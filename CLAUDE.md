@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-18, 빌드 b61)
+## 현재 상태 (2026-10-19, 빌드 b62)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록(단계 색 둥근 배지 + 흰 사람 아이콘), 24시간·6일 예보, **Today's Look**(옷차림 시트 + 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -63,6 +63,7 @@
 - b59: 사용자가 Figma(파일 Weather app · 페이지 App Screens · 프레임 `App / corrections`)에서 고친 디자인 반영. 메인 체감 블록 **배지 없앰**(사람 아이콘은 화면 글자색, 간격 21px; Today's Look 시트 배지는 그대로). 요약은 왼쪽 7px 막대(체감 단계 색, 예전 배지 색 규칙) + Poppins 700 16px 왼쪽 정렬, 줄간 1.5, 자간 .2px, 체감 블록 23px 아래. 요약 첫 문장 "오늘은 {단계}."(en Today: / de Heute:), 오늘 남은 시간 시간별 체감(hourly apparent_temperature 추가)이 다른 단계로 바뀌면 "현재는 {단계}."(Right now / Gerade). 그 뒤 상태 문장은 상태부터("안개, 최고…"). 우산·내일 8시 한 줄(`#line`)은 요약과 겹쳐 숨김(비·눈 그래프는 그대로). 날짜 간격 5px, 간격: 그림 위 31px, 그림–기온 50px, 최고최저 16px, 체감 24px. **b56 첫 화면 높이 맞춤은 보류**(사용자, `.first`/`.gap` 제거).
 - b60: 24시간 예보 칸마다 강수확률 막대 + 값(사용자가 준 시안). 기온 아래 32px 칸에 바닥 맞춘 막대(폭 28px, 높이 = 확률 ÷ max(보이는 24시간 최대, 30%) × 32px, 최소 3px), 그 아래 20% 이상이면 "N%", 아니면 "-". 색은 어두운 화면(비·밤) #8FB8DE, 밝은 화면(맑음·흐림·눈) 연한 하늘색 #CAE2F8.
 - b61: 검은 구분선(24시간 예보 위·6일 예보 위) 모두 없앰, 6일(요일) 예보 없앰, 24시간 예보의 "지금" 점을 "지금" 글자 위로(사용자 요청).
+- b62: 흐린 낮(흐림·안개) 배경을 실제 햇빛 밝기로 3단계(사용자 요청, Gemini 팔레트). Open-Meteo current `shortwave_radiation`(W/m², DWD 관측 일사량 solar_10/30/60이 있으면 실측): ≥200 밝은 흐림 `#A3A091` · 60–200 보통 `#959B9E` · <60 어두운 `#948B82`. 값이 없으면 예전 `#A9B1B9`. 흐린 밤은 그대로 `#1B2140`. 단계마다 뒤 구름·작은 회색 구름 색 조정(CSS `--oc-back`/`--oc-drift`, `body[data-light]`). 상태 줄에 "· N W/m²" 표시(기준값 맞추는 동안). 위젯은 아직 `#A9B1B9`. 기준값 60/200은 실제 베를린 값으로 확인 못 함.
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
@@ -86,7 +87,7 @@
 
 - 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
 - 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`
@@ -96,7 +97,7 @@
 | 상태 | 조건 | 파일 | 배경 | 글자 |
 | --- | --- | --- | --- | --- |
 | 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#F2C14E` | `#141414` |
-| 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | `#A9B1B9` (묵직한 쿨그레이) | `#141414` |
+| 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | 햇빛 밝기 3단계(b62): ≥200 W/m² `#A3A091` · 60–200 `#959B9E` · <60 `#948B82` (값 없으면 `#A9B1B9`) | `#141414` |
 | 비 낮 | is_day=1, 코드 51–67, 80–82, 95–99 | `Rain.dc.html` | `#4F5D6B` | `#E6ECF2` |
 | 눈 낮 | is_day=1, 코드 71–77, 85–86 | `Snow.dc.html` | `#E9EEF3` | `#141414` |
 | 밤 (모든 날씨) | is_day=0 | `Night.dc.html` (비 오는 밤 그림은 `RainNight.dc.html`) | `#1B2140` | `#F4F1E8` |

@@ -36,7 +36,11 @@
   body[data-state="rain"]       { --bg: #4F5D6B; --fg: #E6ECF2; --graph: #8FB8DE; }
   body[data-state="night"]      { --bg: #1B2140; --fg: #F4F1E8; }
   body[data-state="snow"]       { --bg: #E9EEF3; --fg: #141414; --graph: #5C7A99; }
-  body[data-state="overcast"]   { --bg: #A9B1B9; --fg: #141414; }
+  body[data-state="overcast"]   { --bg: #A9B1B9; --fg: #141414; --oc-back: #958E81; --oc-drift: #91989F; }
+  /* overcast days by how much daylight actually reaches the ground (shortwave radiation, W/m²) */
+  body[data-state="overcast"][data-light="bright"] { --bg: #A3A091; --oc-back: #7F7A6E; --oc-drift: #7C8186; }
+  body[data-state="overcast"][data-light="normal"] { --bg: #959B9E; --oc-back: #7E766C; --oc-drift: #7A8287; }
+  body[data-state="overcast"][data-light="dim"]    { --bg: #948B82; --oc-back: #746B61; --oc-drift: #6F767B; }
   body[data-state="night"][data-wx="snow"] { --graph: #BCC8D4; }
 
   .app {
@@ -447,6 +451,9 @@
     return isDay ? "sun" : "night";
   }
   var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#A9B1B9" };
+  // Overcast days: background by measured daylight, ≥200 W/m² bright · 60–200 normal · <60 dim (thick cloud, winter, near sunrise/sunset)
+  var OVERCAST_LIGHT = { bright: "#A3A091", normal: "#959B9E", dim: "#948B82" };
+  function lightOf(w) { return typeof w !== "number" ? null : w >= 200 ? "bright" : w >= 60 ? "normal" : "dim"; }
 
   // ── Hero art (shapes from the design files), animated with the .art-* classes ──
   // Day: code 0 sun only · 1 sun + one tiny drifting cloud · 2 sun behind a cloud · 3 overcast with drifting clouds and a sliver of sun · 45/48 fog.
@@ -462,7 +469,7 @@
     }).join("") + "</g>";
   }
   function drift(y, scale, fill, dur, delay) {
-    return '<g class="art-drift" style="animation-duration:' + dur + "s;animation-delay:" + delay + 's"><path transform="translate(0 ' + y + ") scale(" + scale + ')" d="' + CLOUD + '" fill="' + fill + '"/></g>';
+    return '<g class="art-drift" style="animation-duration:' + dur + "s;animation-delay:" + delay + 's"><path transform="translate(0 ' + y + ") scale(" + scale + ')" d="' + CLOUD + '" style="fill:' + fill + '"/></g>';
   }
   var MOON_SMALL = '<circle cx="170" cy="50" r="30" fill="#D9D2B8"/><circle cx="184" cy="40" r="26" fill="#1B2140"/>';
   var ART = {
@@ -483,8 +490,8 @@
     rainNight: '<svg viewBox="0 0 240 170">' + MOON_SMALL +
       drops([[62, 134, 0], [80, 140, .45], [98, 134, .2], [116, 140, .65], [134, 134, .35]]) +
       '<path d="' + CLOUD + '" fill="#4A5666"/></svg>',
-    overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "#91989F", 36, -10) +
-      '<g transform="translate(0 20)"><circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#958E81"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
+    overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "var(--oc-drift)", 36, -10) +
+      '<g transform="translate(0 20)"><circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" style="fill:var(--oc-back)"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
       drift(112, .38, "#FFFFFF", 23, 0) + drift(-4, .26, "#FFFFFF", 30, -18) + "</svg>"
   };
   // Fog: a cloud (day: with a sliver of sun behind it) dissolving into horizontal bands that slowly sway
@@ -492,12 +499,12 @@
     var b = [[54, 196, 100, 0], [26, 150, 120, -2.5], [172, 214, 120, -2.5], [62, 222, 140, -5], [36, 128, 160, -1]];
     return '<svg viewBox="0 0 240 170">' + top + '<g transform="translate(30 4) scale(.8)">' +
       (back ? '<circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/>' : "") +
-      (back ? '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="' + back + '"/>' : "") +
+      (back ? '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" style="fill:' + back + '"/>' : "") +
       '<path d="' + CLOUD + '" fill="' + front + '"/></g><g stroke="' + band + '" stroke-width="9" stroke-linecap="round">' + b.map(function (d, i) {
         return '<line class="art-fog" style="animation-delay:' + d[3] + "s" + (i % 2 ? ";animation-direction:alternate-reverse" : "") + '" x1="' + d[0] + '" y1="' + d[2] + '" x2="' + d[1] + '" y2="' + d[2] + '"/>';
       }).join("") + "</g></svg>";
   }
-  ART.fog = fogArt("", "#958E81", "#EDE8DF", "#EDE8DF");
+  ART.fog = fogArt("", "var(--oc-back)", "#EDE8DF", "#EDE8DF");
   ART.fogNight = fogArt(MOON_SMALL, "", "#4A5666", "#5D6979");
   function isFog(c) { return c === 45 || c === 48; }
   function snowArt(flake) {
@@ -568,7 +575,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b61";
+  var BUILD = "b62";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -968,6 +975,9 @@
     if (typeof o.wind_speed_10 === "number") add.wind_speed_10m = o.wind_speed_10;
     var code = obsCode(o);
     if (code !== null) add.weather_code = code;
+    // measured sunshine at the station (kWh/m² over 10/30/60 min) → average W/m²
+    var sol = typeof o.solar_10 === "number" ? o.solar_10 * 6000 : typeof o.solar_30 === "number" ? o.solar_30 * 2000 : typeof o.solar_60 === "number" ? o.solar_60 * 1000 : null;
+    if (sol !== null) add.shortwave_radiation = sol;
     return Object.assign({}, data, { current: Object.assign({}, cur, add) });
   }
 
@@ -1000,7 +1010,10 @@
     var theme = isDay ? state : "night";
     document.body.dataset.state = theme;
     document.body.dataset.wx = state;
-    document.querySelector('meta[name="theme-color"]').setAttribute("content", THEME[theme]);
+    var light = theme === "overcast" ? lightOf(cur.shortwave_radiation) : null;
+    if (light) document.body.dataset.light = light; else delete document.body.dataset.light;
+    var bgHex = light ? OVERCAST_LIGHT[light] : THEME[theme];
+    document.querySelector('meta[name="theme-color"]').setAttribute("content", bgHex);
 
     $("city").textContent = place.gps ? T.here : T.berlin;
     $("date").textContent = dateLine(nowLocal);
@@ -1018,7 +1031,7 @@
     $("feels-n").innerHTML = f + '<span class="deg">°</span>';
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
-    $("feels").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
+    $("feels").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], bgHex, 1.5));
     playPerson();
 
     // index of the current hour
@@ -1065,7 +1078,7 @@
     }
 
     $("summary-t").textContent = summaryText(cur, H, D, i0, hours, isDay, band);
-    $("summary").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], THEME[theme], 1.5));
+    $("summary").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], bgHex, 1.5));
     $("summary").hidden = false;
 
     // bars scale to the wettest hour shown (at least 30%), so a 30% hour fills the 32px column
@@ -1083,7 +1096,7 @@
     $("hours").scrollLeft = 0;
 
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: THEME[theme], color: LOOK_COLOR[band[1]],
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]],
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),
@@ -1094,7 +1107,8 @@
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
     // Data from the last 20 minutes still counts as current, even if the latest request failed
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
-    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + " · " + BUILD;
+    $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") +
+      (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · " + BUILD;
   }
 
   // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind, umbrella, outfit, cold tip
@@ -1149,7 +1163,7 @@
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
-      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation" +
+      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
