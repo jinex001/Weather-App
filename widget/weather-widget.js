@@ -165,14 +165,40 @@ function numFont(size) {
 // ── Data (falls back to the last good copy) ──
 const fm = FileManager.local()
 const cachePath = fm.joinPath(fm.cacheDirectory(), "weather-app-widget.json")
+// Optional extra sources: null when they fail
+async function optJSON(url, headers) {
+  try { const q = new Request(url); if (headers) q.headers = headers; return await q.loadJSON() } catch (e) { return null }
+}
+// Cloud amount like the app (b63): the middle of DWD station (Bright Sky), MET Norway and Open-Meteo decides
+// clear / mostly clear / partly cloudy / overcast. Rain, snow, fog and storms stay as the model says.
+function cloudVote(d, bs, met) {
+  const c = d.current, list = []
+  const o = bs && bs.weather
+  if (o && typeof o.cloud_cover === "number" && Date.now() - new Date(o.timestamp).getTime() <= 90 * 60000) list.push(o.cloud_cover)
+  const ts = (met && met.properties && met.properties.timeseries) || []
+  const now = ts.find(x => Math.abs(new Date(x.time).getTime() - Date.now()) <= 60 * 60000 && x.data && x.data.instant && typeof x.data.instant.details.cloud_area_fraction === "number")
+  if (now) list.push(now.data.instant.details.cloud_area_fraction)
+  if (typeof c.cloud_cover === "number") list.push(c.cloud_cover)
+  if (list.length < 2 || c.weather_code > 3) return
+  list.sort((a, b) => a - b)
+  const n = list.length, mid = n % 2 ? list[(n - 1) / 2] : (list[n / 2 - 1] + list[n / 2]) / 2
+  c.weather_code = mid < 15 ? 0 : mid < 40 ? 1 : mid < 80 ? 2 : 3
+}
+
 async function getData() {
   const url = "https://api.open-meteo.com/v1/forecast?latitude=" + PLACE.lat + "&longitude=" + PLACE.lon +
-    "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,shortwave_radiation" +
+    "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,shortwave_radiation,cloud_cover" +
     "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code" +
     "&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=2"
   try {
-    const d = await new Request(url).loadJSON()
+    const [d, bs, met] = await Promise.all([
+      new Request(url).loadJSON(),
+      optJSON("https://api.brightsky.dev/current_weather?lat=" + PLACE.lat + "&lon=" + PLACE.lon),
+      optJSON("https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=" + PLACE.lat.toFixed(4) + "&lon=" + PLACE.lon.toFixed(4),
+        { "User-Agent": "Weather-App/1.0 github.com/jinex001/Weather-App" })
+    ])
     if (!d.current) throw new Error("bad data")
+    cloudVote(d, bs, met)
     fm.writeString(cachePath, JSON.stringify(d))
     return d
   } catch (e) {
