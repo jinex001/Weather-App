@@ -324,7 +324,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b80"></script>
+<script src="look/outfits.js?v=b81"></script>
 <script>
 (function () {
   "use strict";
@@ -601,7 +601,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b80";
+  var BUILD = "b81";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -749,10 +749,13 @@
   }
   // Outfits for the picked style and gender, best fit first: 0 made for today's band and sky, 1 today's band on the
   // other sky (clear = day with code 0–2), 2 the neighbouring band, 3 neighbour on the other sky. Two bands away is out.
+  // From 10 minutes before sunset until sunrise the evening set (time: "evening") is used; if this style and gender has
+  // no evening looks yet, the day looks stay (b81).
   function lookPool(v, pics) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
-    LIB.outfits.forEach(function (o) {
-      if (o.style !== pics.style || o.gender !== pics.g) return;
+    var mine = LIB.outfits.filter(function (o) { return o.style === pics.style && o.gender === pics.g; });
+    var timed = mine.filter(function (o) { return (o.time === "evening") === !!v.evening; });
+    (timed.length ? timed : mine).forEach(function (o) {
       var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); }));
       if (near <= 1) list.push({ o: o, fit: near * 2 + (o.sky === "any" || o.sky === sky ? 0 : 1) });
     });
@@ -850,7 +853,7 @@
       lookNow = null;
       main = '<div class="lk-deck">' + esc(L.baby[LANG]) + "</div>" + itemsHtml({ items: [] }, extras, st);
     } else {
-      var pool = lookPool(v, pics), key = pics.style + "-" + pics.g, at = railAt[key] || 0;
+      var pool = lookPool(v, pics), key = pics.style + "-" + pics.g + (v.evening ? "-e" : ""), at = railAt[key] || 0;
       at = Math.min(at, pool.length - 1);
       lookNow = { pool: pool, extras: extras, key: key, at: at, v: v };
       main = (pool.length > 1 ? '<div class="lk-dots" id="lk-dots" aria-hidden="true">' + pool.map(function (e, i) { return '<span class="' + (i === at ? "on" : "") + '"></span>'; }).join("") + "</div>" : "") +
@@ -1162,8 +1165,12 @@
     $("hours").innerHTML = hh;
     $("hours").scrollLeft = 0;
 
+    // evening looks from 10 minutes before today's sunset until sunrise (no sun times in an old cache: night = evening)
+    var evening = !isDay, mNow = new Date(nowLocal + ":00Z").getTime();
+    if (D.sunset && D.sunset[0] && D.sunrise && D.sunrise[0])
+      evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < new Date(D.sunrise[0] + ":00Z").getTime();
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], clear: isDay && cur.weather_code <= 2,
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: (isDay || evening) && cur.weather_code <= 2,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),
@@ -1234,7 +1241,7 @@
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,cloud_cover" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day" +
-      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
   }
