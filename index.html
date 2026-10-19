@@ -120,15 +120,12 @@
   .summary { display: flex; align-items: stretch; gap: 7px; margin-top: 23px; word-break: keep-all; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; }
   .summary[hidden] { display: none; }
   .summary-bar { flex: none; width: 7px; background: var(--badge); }
-  /* today's outfit on the main screen, opens Today's Look (b68). b76: type only (user picked A over a photo banner) —
-     "Today's Look" over the band headline in Anton, a stemless chevron on the right as tall as the capitals */
-  .peek { display: block; width: 100%; margin-top: 30px; padding: 0; border: 0; background: none; color: inherit;
+  /* today's outfit on the main screen, opens Today's Look (b68). b77: type only, between the feels-like block and the summary —
+     "Today's Look" over the band headline in Anton (b76 chevron removed) */
+  .peek { display: block; width: 100%; margin-top: 28px; padding: 0; border: 0; background: none; color: inherit;
     font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
-  .peek-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 6px; }
-  .peek-d { font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
-  /* Anton capitals are ~.86em tall: 55px at 64px; the chevron sits on the baseline (descender gap ≈ .04em) */
-  .peek-go { flex: none; width: 28px; height: 55px; margin-bottom: 3px; }
+  .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -305,8 +302,8 @@
     <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
+  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><span class="peek-d" id="peek-d"></span></button>
   <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
-  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><span class="peek-row"><span class="peek-d" id="peek-d"></span><svg class="peek-go" viewBox="0 0 28 55" aria-hidden="true"><path d="M5 5 L22 27.5 L5 50" fill="none" stroke="currentColor" stroke-width="8"/></svg></span></button>
 
   <div class="grow"></div>
 
@@ -327,7 +324,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b76"></script>
+<script src="look/outfits.js?v=b77"></script>
 <script>
 (function () {
   "use strict";
@@ -604,7 +601,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b76";
+  var BUILD = "b77";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
