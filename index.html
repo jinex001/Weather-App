@@ -324,7 +324,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b77"></script>
+<script src="look/outfits.js?v=b78"></script>
 <script>
 (function () {
   "use strict";
@@ -601,7 +601,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b77";
+  var BUILD = "b78";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -757,11 +757,14 @@
       if (near <= 1) list.push({ o: o, fit: near * 2 + (o.sky === "any" || o.sky === sky ? 0 : 1) });
     });
     list.sort(function (a, b) { return a.fit - b.fit; });
-    if (!list.length || list[0].fit > 0) list.unshift({ o: bandOutfit(v, pics), fit: 0 });
+    // the band's own text (no photo) only when the library has nothing for this style and gender near today (b78: it used
+    // to lead whenever no look matched exactly, which left a blank first slide once the old photos were removed in b71)
+    if (!list.length) list.push({ o: bandOutfit(v, pics), fit: 0 });
     return list;
   }
   function fitTag(e, i, v) {
-    if (e.fit === 0) return i ? LT.fitAlso : LT.fitToday;
+    if (!i) return LT.fitToday; // the best one available is today's pick
+    if (e.fit === 0) return LT.fitAlso;
     if (e.fit === 1) return v.clear ? LT.fitCloudy : LT.fitClear;
     var bi = BAND_KEYS.indexOf(v.band[1]), b = e.o.bands.filter(function (k) { return Math.abs(BAND_KEYS.indexOf(k) - bi) === 1; })[0];
     var name = BANDS[BAND_KEYS.indexOf(b)][2][LANG];
