@@ -35,7 +35,7 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS`)에 있는 룩을 고른 스
 
 ## 저장
 
-localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, want: {itemId: 시각} }`. 이 폰에만 있음.
+localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, want: {itemId: 시각} }`. 이 폰에만 있음. b70부터 룩 저장 버튼·Saved looks는 없음(`saved`는 예전 값 그대로 두기만 함).
 
 ## 지금 들어 있는 것 (19룩 · 116아이템)
 

@@ -234,15 +234,15 @@
   .lk-photo { display: block; width: 56%; height: auto; margin-top: 22px; background: rgba(20,20,20,.06); }
   /* full-size editorial photos (1024×1536) fill the width */
   .lk-hero { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
-  /* outfit row (b68): swipe sideways within the picked style; each slide = photo, fit tag + save, deck */
+  /* outfit row (b68, b70): swipe sideways within the picked style; each slide = fit tag, its own dots, photo, deck */
   .lk-rail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; margin-top: 6px; }
   .lk-rail::-webkit-scrollbar { display: none; }
   .lk-slide { flex: 0 0 100%; min-width: 0; scroll-snap-align: start; scroll-snap-stop: always; }
-  .lk-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 10px;
+  .lk-meta { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 18px;
     font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
-  .lk-save { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 8px 0 8px 12px; cursor: pointer; white-space: nowrap; }
-  .lk-slide .lk-deck { margin-top: 4px; }
-  .lk-dots { display: flex; justify-content: center; gap: 6px; margin-top: 16px; }
+  .lk-slide .lk-photo { margin-top: 0; }
+  .lk-slide .lk-deck { margin-top: 12px; word-break: keep-all; }
+  .lk-dots { display: flex; gap: 6px; margin: 8px 0 12px; }
   .lk-dots span { width: 5px; height: 5px; border-radius: 50%; background: var(--lk-ink); opacity: .25; transition: opacity .2s; }
   .lk-dots span.on { opacity: 1; }
   /* items: tap a row to open its photo, note and "I own this" / "Interested" */
@@ -254,9 +254,6 @@
   .lk-item-img { display: block; width: 44%; aspect-ratio: 4 / 5; object-fit: contain; background: #FFFFFF; margin-bottom: 10px; }
   .lk-note { font-size: 14px; font-weight: 500; line-height: 1.45; }
   .lk-item-b .lk-opts { margin-top: 10px; }
-  .lk-saved { margin-top: 30px; }
-  .lk-saved-pic { display: block; padding: 0; border: 0; background: rgba(20,20,20,.06); cursor: pointer; }
-  .lk-saved-pic img { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
   /* group switcher between the headline and the deck (b48): one pill track, the picked segment filled with ink */
   .lk-seg { display: flex; margin-top: 16px; padding: 4px; border-radius: 22px; background: rgba(20,20,20,.08); }
   .lk-seg button { flex: 1 1 auto; padding: 10px 6px; border: 0; border-radius: 18px; background: none; cursor: pointer;
@@ -264,7 +261,6 @@
   .lk-seg button.on { background: var(--lk-ink); color: var(--lk-bg); }
   .lk-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 22px; }
   .lk-pair .lk-photo { width: 100%; margin-top: 0; aspect-ratio: 1; object-fit: cover; }
-  .lk-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 8px; margin-top: 10px; }
   .lk-items { margin-top: 18px; }
   .lk-item { padding: 8px 0; }
   .lk-cat { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
@@ -604,7 +600,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b69";
+  var BUILD = "b70";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -699,7 +695,7 @@
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
           o: [["여성", "남성", "선택 안 함"], ["20대 이하", "30~40대", "50대 이상"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
-          own: "갖고 있어요", want: "관심 있어요", save: "저장", saved: "저장됨",
+          own: "갖고 있어요", want: "관심 있어요",
           fitToday: "오늘의 추천", fitAlso: "오늘 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
@@ -707,7 +703,7 @@
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
           o: [["Woman", "Man", "Prefer not to say"], ["Under 30", "30–49", "50+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
-          own: "I own this", want: "Interested", save: "Save", saved: "Saved",
+          own: "I own this", want: "Interested",
           fitToday: "Today's pick", fitAlso: "Also right for today", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
@@ -715,7 +711,7 @@
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
           o: [["Frau", "Mann", "Keine Angabe"], ["Unter 30", "30–49", "50+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
-          own: "Hab ich", want: "Interessiert mich", save: "Merken", saved: "Gemerkt",
+          own: "Hab ich", want: "Interessiert mich",
           fitToday: "Heute empfohlen", fitAlso: "Passt heute auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
@@ -790,16 +786,18 @@
   }
 
   var lastView = null, lookOpen = false;
-  var lookNow = null, railAt = {}, gotoId = null; // the row on screen, swipe position per style + gender, a saved look to jump to
+  var lookNow = null, railAt = {}; // the row on screen, swipe position per style + gender
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
   var heart = function (on) { return (on ? "♥" : "♡") + "︎ "; };
 
-  function slideHtml(e, i, v, st) {
-    var o = e.o, on = !!st.saved[o.id];
+  // One slide: fit tag, dots (this slide's position, so they swipe along), photo, deck (b70)
+  function slideHtml(e, i, v, n) {
+    var o = e.o, dots = "";
+    for (var k = 0; k < n; k++) dots += '<span class="' + (k === i ? "on" : "") + '"></span>';
     return '<div class="lk-slide">' +
+      '<div class="lk-meta"><span>' + esc(fitTag(e, i, v)) + "</span></div>" +
+      (n > 1 ? '<div class="lk-dots" aria-hidden="true">' + dots + "</div>" : "") +
       (o.image ? '<img class="lk-photo' + (o.small ? "" : " lk-hero") + '" src="' + o.image + '" alt=""' + (i ? ' loading="lazy"' : "") + ' onerror="this.remove()">' : "") +
-      '<div class="lk-meta"><span>' + esc(fitTag(e, i, v)) + '</span><button type="button" class="lk-save" data-save="' + o.id + '" aria-pressed="' + on + '">' +
-      heart(on) + esc(on ? LT.saved : LT.save) + "</button></div>" +
       '<div class="lk-deck">' + esc(o.deck[LANG]) + "</div></div>";
   }
   // Items of one outfit: tap a row to see its photo and note, and answer "I own this" / "Interested"
@@ -853,21 +851,11 @@
         photo(pics.baby.replace(/baby-\w+-/, "baby-minimal-")) + "</div>" + itemsHtml({ items: [] }, extras, st);
     } else {
       var pool = lookPool(v, pics), key = pics.style + "-" + pics.g, at = railAt[key] || 0;
-      if (gotoId) pool.forEach(function (e, i) { if (e.o.id === gotoId) at = i; });
       at = Math.min(at, pool.length - 1);
       lookNow = { pool: pool, extras: extras, key: key, at: at };
-      main = '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i, v, st); }).join("") + "</div>" +
-        (pool.length > 1 ? '<div class="lk-dots" id="lk-dots" aria-hidden="true">' + pool.map(function (e, i) { return '<span class="' + (i === at ? "on" : "") + '"></span>'; }).join("") + "</div>" : "") +
+      main = '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i, v, pool.length); }).join("") + "</div>" +
         '<div id="lk-detail">' + itemsHtml(pool[at].o, extras, st) + "</div>";
     }
-    gotoId = null;
-
-    // saved looks with a photo, newest first; one in today's row (or another style's) jumps there
-    var saved = Object.keys(st.saved).sort(function (a, b) { return st.saved[b] - st.saved[a]; }).map(function (id) {
-      var o = LIB.outfits.filter(function (x) { return x.id === id; })[0];
-      if (!o && lookNow) lookNow.pool.forEach(function (e) { if (e.o.id === id) o = e.o; });
-      return o;
-    }).filter(function (o) { return o && o.image; });
 
     return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
       '<div class="lk-head">' + L.head + "</div>" +
@@ -876,9 +864,6 @@
         return '<button type="button" role="tab" class="' + (on ? "on" : "") + '" data-style="' + sty + '" aria-selected="' + on + '">' + esc(LT.styles[i]) + "</button>";
       }).join("") + "</div>" + main +
       quotes.map(function (q) { return '<div class="lk-quote"><small>' + q[0] + "</small>" + esc(q[1]) + "</div>"; }).join("") +
-      (saved.length ? '<div class="lk-saved"><div class="lk-cat">Saved looks</div><div class="lk-grid">' + saved.map(function (o) {
-        return '<button type="button" class="lk-saved-pic" data-goto="' + o.id + '"><img src="' + o.image + '" alt="" loading="lazy" onerror="this.remove()"></button>';
-      }).join("") + "</div></div>" : "") +
       '<div class="lk-foot"><span>Updated ' + v.updated + '</span><button type="button" id="lk-edit">Edit profile ›</button></div>';
   }
 
@@ -900,7 +885,6 @@
     var i = Math.max(0, Math.min(lookNow.pool.length - 1, Math.round(rail.scrollLeft / (rail.clientWidth + RAIL_GAP))));
     if (i === lookNow.at) return;
     lookNow.at = i; railAt[lookNow.key] = i;
-    [].forEach.call(document.querySelectorAll("#lk-dots span"), function (s, k) { s.className = k === i ? "on" : ""; });
     $("lk-detail").innerHTML = itemsHtml(lookNow.pool[i].o, lookNow.extras, lookState());
   }
 
@@ -938,23 +922,16 @@
     $("look").scrollTop = 0;
   }
 
-  // Taps inside the sheet: save a look, open an item, answer own / interested, jump to a saved look
+  // Taps inside the sheet: open an item, answer own / interested
   $("lk-body").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
-    if (b.dataset.save) {
-      var on = toggleLook("saved", b.dataset.save);
-      b.setAttribute("aria-pressed", on); b.textContent = heart(on) + (on ? LT.saved : LT.save);
-    } else if (b.classList.contains("lk-item-h")) {
+    if (b.classList.contains("lk-item-h")) {
       var open = b.getAttribute("aria-expanded") !== "true";
       b.setAttribute("aria-expanded", open); b.nextElementSibling.hidden = !open;
     } else if (b.dataset.act) {
       var row = b.closest(".lk-item"), id = row.dataset.item, yes = toggleLook(b.dataset.act, id), s = lookState();
       b.classList.toggle("on", yes); b.setAttribute("aria-pressed", yes);
       row.querySelector(".lk-mark").textContent = s.own[id] ? "✓ " + LT.own : s.want[id] ? heart(true) + LT.want : "";
-    } else if (b.dataset.goto) {
-      var o = LIB.outfits.filter(function (x) { return x.id === b.dataset.goto; })[0], p = load("wx-profile") || {};
-      if (o && o.style !== p.style && STYLES.indexOf(o.style) >= 0) { p.style = o.style; store("wx-profile", p); paintPeek(); }
-      gotoId = b.dataset.goto; paintLook();
     }
   });
 
