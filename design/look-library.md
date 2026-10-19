@@ -46,9 +46,10 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 - 스타일 `running` → `run`, `street`, `minimal`.
 - 올라온 PNG(약 2.5MB)는 같은 자리에 JPG(품질 82, 약 250KB)로 바꿔 넣고 PNG는 지움(원본은 git 기록에 남음).
 
-## 지금 들어 있는 것 (15룩 · 67아이템, b71)
+## 지금 들어 있는 것 (30룩 · 134아이템, b73)
 
-- `bm15-*` = `look/berlin-men-complete-15/Sunny/Chilly/Male/30-40/` 맑은 날 · 쌀쌀함 · 남성 · 30~40대. 러닝 5(01·02·07·08·09), 스트리트 5(03·04·10·11·12), 미니멀 5(05·06·13·14·15). 아이템·한 줄 요약(ko/en/de)은 사진을 보고 씀, 아이템 사진은 없음.
-- b71에서 예전 사진은 모두 지움: 시트에서 자른 사진(`look/<m|f>-<스타일>-t*.jpg`), 아기 사진(`look/baby-*`), `look/chilly`·`cool`·`clear`·`items`와 그 룩·아이템(예전 ID). 그래서 여성·흐린 날·다른 단계·아기는 사진 없이 단계 기본 문구만 나옴. 예전 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
+- `bm15-*-m` = `look/berlin-men-complete-15/Sunny/Chilly/Male/30-40/` 맑은 날 · 쌀쌀함 · 남성 · 30~40대. 러닝 5(01·02·07·08·09), 스트리트 5(03·04·10·11·12), 미니멀 5(05·06·13·14·15).
+- `bm15-*-f` (b73) = `look/berlin-men-complete-15/Sunny/Chilly/Female/30-40/` 맑은 날 · 쌀쌀함 · 여성 · 30~40대. 러닝 01–05, 스트리트 06–10, 미니멀 11–15. 세트 폴더 이름은 men이지만 여성도 같은 세트로 둠(사용자가 올린 그대로). 아이템·한 줄 요약(ko/en/de)은 사진을 보고 씀, 아이템 사진은 없음.
+- b71에서 예전 사진은 모두 지움: 시트에서 자른 사진(`look/<m|f>-<스타일>-t*.jpg`), 아기 사진(`look/baby-*`), `look/chilly`·`cool`·`clear`·`items`와 그 룩·아이템(예전 ID). 그래서 흐린 날·다른 단계·아기는 사진 없이 단계 기본 문구만 나옴(b73부터 여성은 맑은 날 쌀쌀함 사진 있음). 예전 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
 
 새 룩 추가: 위 폴더 형식으로 사진을 올리고 `outfits`에 한 줄, 아이템을 `items`에 추가. 기존 ID는 그대로 둘 것.
