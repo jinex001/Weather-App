@@ -575,7 +575,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b66";
+  var BUILD = "b67";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age 20/30/50, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -759,10 +759,11 @@
   // A value of 2 means a second photo (<style>-<m|f>-2.jpg), shown every other day.
   var HERO = { "cool/street-m": 1, "cool/minimal-m": 1, "cool/run-m": 1, "cool/run-f": 1,
     "cool/street-f": 1, "cool/minimal-f": 1,
-    "cold/minimal-m": 1, "cold/street-m": 2, "cold/run-m": 1,
-    "cold/minimal-f": 1, "cold/street-f": 1, "cold/run-f": 1 };
+    "clear/minimal-m": 1, "clear/street-m": 2, "clear/run-m": 1,
+    "clear/minimal-f": 1, "clear/street-f": 1, "clear/run-f": 1 };
 
-  // Style-specific deck and items for other bands (same shape as CHILLY, without pieces). Text: design/look-cool.md, design/look-cold.md.
+  // Style-specific deck and items for other bands (same shape as CHILLY, without pieces). Text: design/look-cool.md, design/look-clear.md.
+  // "clear" is not a band: it is used for chilly and cold on a clear day (day, code 0–2), with sunny photos in look/clear/.
   // A band may have items for one gender only; the other keeps the band's default text.
   var STYLE_TEXT = {
     cool: {
@@ -808,7 +809,7 @@
               ["Shoes", { ko: "굽 낮은 앵클 부츠, 로퍼나 미니멀 스니커즈", en: "Low-heeled ankle boots, loafers or minimal sneakers", de: "Stiefeletten mit flachem Absatz, Loafer oder schlichte Sneaker" }],
               ["Socks", { ko: "울 양말(바지와 같은 색)", en: "Wool socks matching the trousers", de: "Wollsocken passend zur Hose" }],
               ["Bring", { ko: "큰 숄더백, 얇은 머플러", en: "A big shoulder bag, a light scarf", de: "Große Schultertasche, leichter Schal" }]] } } },
-    cold: {
+    clear: {
       run: { deck: { ko: "긴 타이츠에 기모 긴팔 + 바람막이. 귀 덮을 것과 장갑은 꼭.", en: "Long tights, a brushed long sleeve and a windbreaker. Cover your ears, and gloves, always.", de: "Lange Tights, angerautes Langarm und Windjacke. Ohren bedecken, Handschuhe auf jeden Fall." },
         items: {
           m: [["Outer", { ko: "후드 달린 바람막이. 0° 아래면 안에 얇은 경량 패딩 조끼", en: "A hooded windbreaker; below 0°, a thin insulated vest underneath", de: "Windjacke mit Kapuze; unter 0° eine dünne Steppweste darunter" }],
@@ -872,9 +873,10 @@
     var fem = profile.gender === "f", pics = lookPhotos(v, profile);
     // Baby is a fourth segment, only for people who go out with a baby; it shows the baby text and both baby photos
     var baby = profile.baby === "y" && profile.style === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
-    var C = baby ? null : band[1] === "chilly" ? CHILLY[pics.style] : (STYLE_TEXT[band[1]] || {})[pics.style];
+    var set = v.clear && (band[1] === "chilly" || band[1] === "cold") ? "clear" : band[1];
+    var C = baby ? null : set === "chilly" ? CHILLY[pics.style] : (STYLE_TEXT[set] || {})[pics.style];
     if (C && !C.items[pics.g]) C = null;
-    var hero = band[1] + "/" + pics.style + "-" + pics.g;
+    var hero = set + "/" + pics.style + "-" + pics.g;
     var deck = baby ? L.baby : C ? C.deck : L.deck;
     var items = baby ? [] : C ? C.items[pics.g].map(function (it) { return [it[0], it[1][LANG]]; })
       : L.items.map(function (it) { var t = fem && it[1].f ? it[1].f : it[1]; return [it[0], t[LANG]]; });
@@ -1176,7 +1178,7 @@
     $("hours").scrollLeft = 0;
 
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]],
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], clear: isDay && cur.weather_code <= 2,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),

@@ -1,6 +1,6 @@
-# COLD · 추움 · 체감 -9~0°C · 겨울 초입 · 30~40대
+# CLEAR · 맑은 날 쌀쌀함·추움 · 체감 -9~9°C · 30~40대
 
-앱 문구는 index.html `STYLE_TEXT.cold`(한국어·영어·독일어). 사진은 `look/cold/<run|street|minimal>-<m|f>.jpg`(남성 스트리트는 `street-m-2.jpg`가 하나 더, 이틀씩 번갈아). 사진은 모두 맑은 날 베를린.
+쌀쌀함(1~9°)·추움(-9~0°) 단계에서 낮이고 맑음·구름 조금(코드 0–2)일 때만 씀. 흐림·비·눈·밤은 단계 기본(쌀쌀함은 `CHILLY`, 추움은 `LOOK.cold`). 앱 문구는 index.html `STYLE_TEXT.clear`(한국어·영어·독일어). 사진은 `look/clear/<run|street|minimal>-<m|f>.jpg`(남성 스트리트는 `street-m-2.jpg`가 하나 더, 이틀씩 번갈아). 사진은 모두 맑은 날 베를린.
 
 ## 1. 러닝 / 운동
 
