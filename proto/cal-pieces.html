@@ -10,7 +10,7 @@
 <style>
   /* Prototype (2026-10-20): the calendar's 7 DAYS rows end with one product cut picked by that day's weather, instead of
      EDITOR'S PICK. Real product cuts from look/outfits.js; the 7 days are made-up weather that hits every rule once.
-     ?v=a (piece at the end of the row) | ?v=b (piece on its own line under the row) · ?g=m|f */
+     b2 (user): the thumbnail only — no category, name or reason. ?g=m|f */
   :root { --bg: #F2C14E; --fg: #141414; --display: "Anton", "Noto Sans KR", sans-serif; --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif; }
   * { box-sizing: border-box; }
   html, body { margin: 0; }
@@ -33,7 +33,7 @@
   .d { display: flex; gap: 10px; margin-top: 4px; font-weight: 600; font-size: 12px; }
   /* A: the piece ends the row, right-aligned like Editor's pick was */
   .pc { justify-self: end; text-align: right; min-width: 0; max-width: 128px; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; padding: 0; cursor: pointer; }
-  .pc img, .pc .ph { display: block; width: 92px; height: 92px; margin-left: auto; object-fit: contain; background: #F3EFE8; }
+  .pc img, .pc .ph { display: block; width: 96px; height: 96px; margin-left: auto; object-fit: contain; background: #F3EFE8; }
   .ph { display: flex !important; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; color: #141414; opacity: .55; text-transform: uppercase; letter-spacing: .05em; }
   .pc .pk { font-size: 9.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; margin-top: 6px; }
   .pc .pn { font-size: 12.5px; font-weight: 700; line-height: 1.2; margin-top: 2px; word-break: keep-all; }
@@ -123,14 +123,11 @@
       return '<div class="wk"><div class="k">' + d.n + "</div>" +
         '<div class="row"><div class="art">' + ICON[d.c] + '<div class="cond">' + d.cond + "</div></div>" +
         '<div><div class="t"><span>' + d.lo + "°</span>" + d.hi + '°</div><div class="d"><span>' + d.p + "%</span><span>" + d.w + " km/h</span></div></div>" +
-        '<button class="pc" type="button">' + img + '<div class="pk">' + esc(cat) + '</div><div class="pn">' + esc(name) + '</div><div class="why">' + esc(r.why) + "</div></button></div>" +
-        '<div class="line">' + img + '<div><div class="pk">' + esc(cat) + " · " + esc(r.why) + '</div><div class="pn">' + esc(name) + "</div></div></div></div>";
+        '<button class="pc" type="button" aria-label="' + esc(name) + '">' + img + "</button></div></div>";
     }).join("");
     document.getElementById("page").innerHTML =
       '<div class="k">앞으로 7일 · 베를린</div><div class="h">7 Days</div>' +
       '<div class="ctl">' +
-        '<button data-k="v" data-x="a" class="' + (V === "a" ? "on" : "") + '">A · 줄 끝</button>' +
-        '<button data-k="v" data-x="b" class="' + (V === "b" ? "on" : "") + '">B · 아래 줄</button>' +
         '<button data-k="g" data-x="m" class="' + (G === "m" ? "on" : "") + '">남성</button>' +
         '<button data-k="g" data-x="f" class="' + (G === "f" ? "on" : "") + '">여성</button>' +
         '<button data-k="r">다시 뽑기</button></div>' + rows +
@@ -140,7 +137,7 @@
         "<li>체감 29°↑ → 쇼츠 · 캡 · 물병 (반팔·나시·선글라스 컷 필요)</li><li>맑고 체감 18°↑ → 선글라스(필요) · 캡</li>" +
         "<li>체감 1–9° → 재킷·코트</li><li>체감 10–17° → 니트·카디건</li><li>그 외 → 스니커즈 · 상의</li></ul>" +
         "<b>아직 없는 제품 컷</b>선글라스, 반팔 티, 나시, 우산 (지금 컷은 모두 쌀쌀한 흐린 날 세트에서 나와서 더운 날·비 오는 날 물건이 없어요)." +
-        "<b>누르면</b>시안에선 아무 일 없음. 실제로는 그 제품이 들어 있는 룩의 Today's Look 시트로.</div>";
+        "<b>누르면</b>시안에선 아무 일 없음. 실제로는 그 제품이 들어 있는 룩의 Today's Look 시트로. 글자 없이 썸네일만(이유·이름은 규칙 메모에만).</div>";
     [].forEach.call(document.querySelectorAll(".ctl button"), function (b) {
       b.onclick = function () {
         var k = b.getAttribute("data-k");
