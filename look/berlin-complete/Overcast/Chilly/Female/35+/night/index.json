@@ -1,143 +1,127 @@
 {
-  "schemaVersion": "1.0",
   "editorialCount": 15,
-  "productCount": 85,
-  "readyCount": 85,
+  "productCount": 95,
+  "readyCount": 95,
   "editorials": [
     {
-      "id": "men-01-running",
-      "folder": "men/01-running",
-      "data": "men/01-running/products.json",
-      "readme": "men/01-running/README.md",
-      "editorialImage": "men/01-running/editorial.png",
-      "productCount": 6,
-      "readyCount": 6
-    },
-    {
-      "id": "men-02-running",
-      "folder": "men/02-running",
-      "data": "men/02-running/products.json",
-      "readme": "men/02-running/README.md",
-      "editorialImage": "men/02-running/editorial.png",
-      "productCount": 8,
-      "readyCount": 8
-    },
-    {
-      "id": "men-03-running",
-      "folder": "men/03-running",
-      "data": "men/03-running/products.json",
-      "readme": "men/03-running/README.md",
-      "editorialImage": "men/03-running/editorial.png",
+      "id": "women-evening-01-running",
+      "folder": "01-running",
+      "style": "running",
+      "headlineEn": "BLUE HOUR, BRIGHT STRIDE",
       "productCount": 7,
       "readyCount": 7
     },
     {
-      "id": "men-04-running",
-      "folder": "men/04-running",
-      "data": "men/04-running/products.json",
-      "readme": "men/04-running/README.md",
-      "editorialImage": "men/04-running/editorial.png",
-      "productCount": 6,
-      "readyCount": 6
-    },
-    {
-      "id": "men-05-running",
-      "folder": "men/05-running",
-      "data": "men/05-running/products.json",
-      "readme": "men/05-running/README.md",
-      "editorialImage": "men/05-running/editorial.png",
-      "productCount": 5,
-      "readyCount": 5
-    },
-    {
-      "id": "men-06-street",
-      "folder": "men/06-street",
-      "data": "men/06-street/products.json",
-      "readme": "men/06-street/README.md",
-      "editorialImage": "men/06-street/editorial.png",
-      "productCount": 5,
-      "readyCount": 5
-    },
-    {
-      "id": "men-07-street",
-      "folder": "men/07-street",
-      "data": "men/07-street/products.json",
-      "readme": "men/07-street/README.md",
-      "editorialImage": "men/07-street/editorial.png",
+      "id": "women-evening-02-running",
+      "folder": "02-running",
+      "style": "running",
+      "headlineEn": "PAUSE, TIE, GO",
       "productCount": 7,
       "readyCount": 7
     },
     {
-      "id": "men-08-street",
-      "folder": "men/08-street",
-      "data": "men/08-street/products.json",
-      "readme": "men/08-street/README.md",
-      "editorialImage": "men/08-street/editorial.png",
-      "productCount": 5,
-      "readyCount": 5
+      "id": "women-evening-03-running",
+      "folder": "03-running",
+      "style": "running",
+      "headlineEn": "OLIVE AFTER HOURS",
+      "productCount": 7,
+      "readyCount": 7
     },
     {
-      "id": "men-09-street",
-      "folder": "men/09-street",
-      "data": "men/09-street/products.json",
-      "readme": "men/09-street/README.md",
-      "editorialImage": "men/09-street/editorial.png",
+      "id": "women-evening-04-running",
+      "folder": "04-running",
+      "style": "running",
+      "headlineEn": "ORANGE ON THE MOVE",
+      "productCount": 7,
+      "readyCount": 7
+    },
+    {
+      "id": "women-evening-05-running",
+      "folder": "05-running",
+      "style": "running",
+      "headlineEn": "COCOA, THEN A BREATHER",
+      "productCount": 7,
+      "readyCount": 7
+    },
+    {
+      "id": "women-evening-06-street",
+      "folder": "06-street",
+      "style": "street",
+      "headlineEn": "BREAD AFTER DARK",
       "productCount": 6,
       "readyCount": 6
     },
     {
-      "id": "men-10-street",
-      "folder": "men/10-street",
-      "data": "men/10-street/products.json",
-      "readme": "men/10-street/README.md",
-      "editorialImage": "men/10-street/editorial.png",
-      "productCount": 5,
-      "readyCount": 5
-    },
-    {
-      "id": "men-11-minimal",
-      "folder": "men/11-minimal",
-      "data": "men/11-minimal/products.json",
-      "readme": "men/11-minimal/README.md",
-      "editorialImage": "men/11-minimal/editorial.png",
-      "productCount": 5,
-      "readyCount": 5
-    },
-    {
-      "id": "men-12-minimal",
-      "folder": "men/12-minimal",
-      "data": "men/12-minimal/products.json",
-      "readme": "men/12-minimal/README.md",
-      "editorialImage": "men/12-minimal/editorial.png",
-      "productCount": 4,
-      "readyCount": 4
-    },
-    {
-      "id": "men-13-minimal",
-      "folder": "men/13-minimal",
-      "data": "men/13-minimal/products.json",
-      "readme": "men/13-minimal/README.md",
-      "editorialImage": "men/13-minimal/editorial.png",
-      "productCount": 5,
-      "readyCount": 5
-    },
-    {
-      "id": "men-14-minimal",
-      "folder": "men/14-minimal",
-      "data": "men/14-minimal/products.json",
-      "readme": "men/14-minimal/README.md",
-      "editorialImage": "men/14-minimal/editorial.png",
+      "id": "women-evening-07-street",
+      "folder": "07-street",
+      "style": "street",
+      "headlineEn": "RED AT THE WINDOW",
       "productCount": 6,
       "readyCount": 6
     },
     {
-      "id": "men-15-minimal",
-      "folder": "men/15-minimal",
-      "data": "men/15-minimal/products.json",
-      "readme": "men/15-minimal/README.md",
-      "editorialImage": "men/15-minimal/editorial.png",
-      "productCount": 5,
-      "readyCount": 4
+      "id": "women-evening-08-street",
+      "folder": "08-street",
+      "style": "street",
+      "headlineEn": "RECORDS AND QUILTING",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-09-street",
+      "folder": "09-street",
+      "style": "street",
+      "headlineEn": "LILAC AT THE DOOR",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-10-street",
+      "folder": "10-street",
+      "style": "street",
+      "headlineEn": "GREEN UNDER NAVY",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-11-minimal",
+      "folder": "11-minimal",
+      "style": "minimal",
+      "headlineEn": "OAT AFTER HOURS",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-12-minimal",
+      "folder": "12-minimal",
+      "style": "minimal",
+      "headlineEn": "A BLUE INTERRUPTION",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-13-minimal",
+      "folder": "13-minimal",
+      "style": "minimal",
+      "headlineEn": "BURGUNDY BETWEEN GRAYS",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-14-minimal",
+      "folder": "14-minimal",
+      "style": "minimal",
+      "headlineEn": "ESPRESSO AT THE CAFE",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-evening-15-minimal",
+      "folder": "15-minimal",
+      "style": "minimal",
+      "headlineEn": "RED BEFORE HOME",
+      "productCount": 6,
+      "readyCount": 6
     }
   ]
 }
