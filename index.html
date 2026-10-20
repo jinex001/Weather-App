@@ -440,7 +440,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b100"></script>
+<script src="look/outfits.js?v=b101"></script>
 <script>
 (function () {
   "use strict";
@@ -653,7 +653,13 @@
       '<path d="' + CLOUD + '" fill="#4A5666"/></svg>',
     overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "var(--oc-drift)", 36, -10) +
       '<g transform="translate(0 20)"><circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" style="fill:var(--oc-back)"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
-      drift(112, .38, "#FFFFFF", 23, 0) + drift(-4, .26, "#FFFFFF", 30, -18) + "</svg>"
+      drift(112, .38, "#FFFFFF", 23, 0) + drift(-4, .26, "#FFFFFF", 30, -18) + "</svg>",
+    // Overcast night (code 3, b101): more cloud than the cloudy night: two big clouds (like the overcast day) with the
+    // moon just showing behind, plus small night clouds drifting across
+    nightOvercast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "#3A4454", 36, -10) +
+      '<circle cx="196" cy="40" r="20" fill="#D9D2B8"/><circle cx="208" cy="31" r="17" fill="#1B2140"/><g transform="translate(0 20)">' +
+      '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#343E4C"/><path class="art-bob" d="' + CLOUD + '" fill="#4A5666"/></g>' +
+      drift(112, .38, "#5D6979", 23, 0) + drift(-4, .26, "#5D6979", 30, -18) + "</svg>"
   };
   // Fog: a cloud (day: with a sliver of sun behind it) dissolving into horizontal bands that slowly sway
   function fogArt(top, back, front, band) {
@@ -679,7 +685,7 @@
     if (state === "overcast") return isFog(c) ? ART.fog : ART.overcast;
     if (state === "rain") return ART.rain;
     if (state === "rain-night") return ART.rainNight;
-    if (state === "night") return isFog(c) ? ART.fogNight : c >= 2 ? ART.nightCloudy : ART.night;
+    if (state === "night") return isFog(c) ? ART.fogNight : c === 3 ? ART.nightOvercast : c >= 2 ? ART.nightCloudy : ART.night;
     return c === 0 ? ART.sunClear : c === 1 ? ART.sunMostly : ART.sunCloudy;
   }
 
@@ -745,7 +751,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b100";
+  var BUILD = "b101";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
