@@ -11,12 +11,13 @@
   /* Prototype (2026-10-20): Today's Look with the editorial photo, a product strip (500×500 flat lays, one card per screen
      with the next peeking, title left under each) and a magazine-style "how to wear" article instead of the item list.
      Order (user, 2026-10-20): photo → title + lede → products → detail text. No calls to action; cards still jump to their section.
+     The product strip sticks to the top while the details scroll, and turns to the product the text is about.
      Korean only, one look (run-01, men, chilly). Mirrors the sheet's type and spacing; the sheet's glass is a flat tint here. */
   :root { --ink: #141414; --display: "Anton", "Noto Sans KR", sans-serif; --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif; --prod: #F7F2EA; }
   * { box-sizing: border-box; }
   html, body { margin: 0; }
   body { background: #EEEDEA; color: var(--ink); font-family: var(--sans); letter-spacing: -.02em; -webkit-font-smoothing: antialiased; }
-  .sheet { max-width: 480px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 24px calc(env(safe-area-inset-bottom) + 48px); overflow: hidden; }
+  .sheet { max-width: 480px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 24px calc(env(safe-area-inset-bottom) + 48px); overflow-x: clip; } /* clip, not hidden: keeps position: sticky working */
   .cap { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .mast { display: flex; justify-content: space-between; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .kicker { margin-top: 22px; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
@@ -32,7 +33,9 @@
   .deck { font-size: 20px; font-weight: 700; line-height: 1.3; margin-top: 14px; word-break: keep-all; }
 
   /* product strip: one 1:1 card per screen, the next one peeking; title left under the image */
-  .pieces { margin-top: 40px; }
+  /* the product strip sticks to the top while the detail text scrolls underneath (same flat color as the page, no shadow) */
+  .pieces { margin-top: 40px; position: sticky; top: 0; z-index: 2; background: #EEEDEA;
+    margin-left: -24px; margin-right: -24px; padding: calc(env(safe-area-inset-top) + 12px) 24px 14px; }
   .strip { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
     margin: 12px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
   .strip::-webkit-scrollbar { display: none; }
@@ -51,7 +54,7 @@
   .lede { margin: 18px 0 0; font-size: 19px; font-weight: 700; line-height: 1.45; word-break: keep-all; }
   /* product cards jump here; the section lands a little below the top and its title fades in once */
   html { scroll-behavior: smooth; }
-  .article h3 { scroll-margin-top: 28px; }
+  .article h3 { scroll-margin-top: calc(var(--stick, 0px) + 22px); }
   .article h3.hit span { animation: hit 1.2s ease; }
   @keyframes hit { 0% { opacity: .15; } 100% { opacity: 1; } }
   @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .article h3.hit span { animation: none; } }
@@ -112,13 +115,35 @@
   <div class="foot"><span>Updated 08:21</span><span>Edit profile ›</span></div>
 </main>
 <script>
+  var pieces = document.querySelector(".pieces"), strip = document.querySelector(".strip");
+  var cards = [].slice.call(document.querySelectorAll(".card"));
+  var heads = [].slice.call(document.querySelectorAll(".article h3"));
+  // sections land just under the stuck strip
+  function measure() { document.documentElement.style.setProperty("--stick", pieces.offsetHeight + "px"); }
+  measure(); addEventListener("resize", measure);
+
   // tap a product → its section of the article (no visible call to action; the card itself is the link)
-  document.querySelectorAll(".card").forEach(function (c) {
+  var jumping = 0;
+  cards.forEach(function (c) {
     c.addEventListener("click", function () {
       var h = document.querySelector(c.getAttribute("href"));
       h.classList.remove("hit"); void h.offsetWidth; h.classList.add("hit");
+      jumping = Date.now(); // don't let the scroll sync below pull the strip back to the section's first card
     });
   });
+
+  // reading down the text turns the stuck strip to the product being talked about
+  var shown = null;
+  addEventListener("scroll", function () {
+    if (Date.now() - jumping < 1200) return;
+    // a section counts once its title passes 40% down the reading area under the strip
+    var top = pieces.getBoundingClientRect().bottom, line = top + (innerHeight - top) * .4, cur = null;
+    heads.forEach(function (h) { if (h.getBoundingClientRect().top <= line) cur = h; });
+    if (!cur || cur === shown) return;
+    shown = cur;
+    var card = cards.filter(function (c) { return c.getAttribute("href") === "#" + cur.id; })[0];
+    if (card) strip.scrollTo({ left: card.offsetLeft - 24, behavior: "smooth" });
+  }, { passive: true });
 </script>
 </body>
 </html>
