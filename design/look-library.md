@@ -41,6 +41,8 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 
 ## 사진 폴더 (b71부터)
 
+앱용 사진은 JPG만 저장소에 둠(2026-10-20, 원본 PNG 삭제: 큰 사진 1024×1536 ≤300KB, 제품 컷 500×500 ≤50KB, 품질 80 정도). PNG로 올라오면 JPG로 바꾸고 PNG는 지움.
+
 사용자가 GitHub에 올리는 형식: `look/<세트>/<하늘>/<단계>/<성별>/<연령대>/<번호>-<스타일>.png`
 - 예: `look/berlin-complete/Sunny/Chilly/Male/35+/03-street.png`
 - 하늘 `Sunny` → `sky: "clear"`, `Cloudy` → `"cloudy"`. 단계는 체감 9단계 영어 이름(`Chilly` → `chilly`). 성별 `Male`/`Female` → `m`/`f`. 연령대 `35+` → `age: "35"`(b81에서 `30-40` → `35+`로 이름 바꿈). 저녁 사진은 연령대 폴더 아래 `night/`(예 `Female/35+/night/11-minimal.png`) → `time: "evening"`.
