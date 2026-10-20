@@ -21,7 +21,14 @@
     --display: "Anton", "Noto Sans KR", sans-serif;
     --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif;
     --mono: "Poppins", "Noto Sans KR", system-ui, sans-serif; /* data lines: same family as text, set at 500 */
+    /* b105: one glass for every glass surface (Today's Look sheet, bottom menu), from the user's Figma Glass effect:
+       fill white 50% · Frost 49 → backdrop blur 24px · Light -45° 80% → bright edge top-left, faint edge bottom-right ·
+       Depth 20 → soft inner glow 20px. Refraction 80 / Dispersion 50 / Splay 0 have no Safari equivalent (no lens bending in CSS). */
+    --glass-fill: rgba(255,255,255,.5);
+    --glass-blur: blur(24px);
+    --glass-light: inset 1.5px 1.5px 1px rgba(255,255,255,.8), inset -1px -1px 1px rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.16);
   }
+  .glass { background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light); }
   * { box-sizing: border-box; }
   html, body { margin: 0; height: 100%; }
   body {
@@ -214,7 +221,6 @@
     position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
     display: flex; gap: 2px; padding: 5px; border-radius: 34px;
     width: min(calc(100% - 32px), 272px); transform: translateX(-50%); transform-origin: 50% 100%;
-    background: rgba(255,255,255,.6); -webkit-backdrop-filter: blur(20px) saturate(1.6); backdrop-filter: blur(20px) saturate(1.6);
     color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), width .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease;
   }
   .tabbar button {
@@ -289,16 +295,16 @@
   /* Today's Look sheet (opens from the feels-like block) */
   .look {
     position: fixed; inset: 0; z-index: 10; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
-    /* b103: solid white sheet (user's choice), nothing of the screen behind shows through */
-    background: #FFFFFF;
+    /* b105: universal glass (.glass, see :root) — white 50% over the home screen blurred behind */
     color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink); --graph: var(--lk-ink); /* rain drops on the person follow the ink here so they show on every band color */
     padding: calc(env(safe-area-inset-top) + 8px) 24px calc(env(safe-area-inset-bottom) + 36px);
     transform: translateY(100%); transition: transform .35s cubic-bezier(.2,.8,.2,1);
   }
   .look.open { transform: none; }
-  .app { transition: filter .35s ease, transform .35s ease; }
-  .page { transition: filter .35s ease, transform .35s ease; }
-  body.look-open .app, body.look-open .page { filter: blur(26px); transform: scale(1.06); }
+  /* backdrop blur stops at the screen edge, where text behind would read sharp (top safe area), so the screen behind is
+     softened a little too while the sheet is open */
+  .app, .page { transition: filter .35s ease; }
+  body.look-open .app, body.look-open .page { filter: blur(10px); }
   .look.dragging { transition: none; }
   .look > * { max-width: 432px; margin-left: auto; margin-right: auto; }
   .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
@@ -427,20 +433,20 @@
 <section class="page" id="pg-alert" hidden></section>
 
 <!-- icons: Phosphor Icons, regular (outline) weight (phosphoricons.com, MIT), b91 -->
-<nav class="tabbar" id="tabbar" aria-label="Menu">
+<nav class="tabbar glass" id="tabbar" aria-label="Menu">
   <button type="button" data-tab="home" class="on" aria-current="page"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"/></svg></button>
   <button type="button" data-tab="cal"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"/></svg></button>
   <button type="button" data-tab="set"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm109.94-52.79a8,8,0,0,0-3.89-5.4l-29.83-17-.12-33.62a8,8,0,0,0-2.83-6.08,111.91,111.91,0,0,0-36.72-20.67,8,8,0,0,0-6.46.59L128,41.85,97.88,25a8,8,0,0,0-6.47-.6A112.1,112.1,0,0,0,54.73,45.15a8,8,0,0,0-2.83,6.07l-.15,33.65-29.83,17a8,8,0,0,0-3.89,5.4,106.47,106.47,0,0,0,0,41.56,8,8,0,0,0,3.89,5.4l29.83,17,.12,33.62a8,8,0,0,0,2.83,6.08,111.91,111.91,0,0,0,36.72,20.67,8,8,0,0,0,6.46-.59L128,214.15,158.12,231a7.91,7.91,0,0,0,3.9,1,8.09,8.09,0,0,0,2.57-.42,112.1,112.1,0,0,0,36.68-20.73,8,8,0,0,0,2.83-6.07l.15-33.65,29.83-17a8,8,0,0,0,3.89-5.4A106.47,106.47,0,0,0,237.94,107.21Zm-15,34.91-28.57,16.25a8,8,0,0,0-3,3c-.58,1-1.19,2.06-1.81,3.06a7.94,7.94,0,0,0-1.22,4.21l-.15,32.25a95.89,95.89,0,0,1-25.37,14.3L134,199.13a8,8,0,0,0-3.91-1h-.19c-1.21,0-2.43,0-3.64,0a8.08,8.08,0,0,0-4.1,1l-28.84,16.1A96,96,0,0,1,67.88,201l-.11-32.2a8,8,0,0,0-1.22-4.22c-.62-1-1.23-2-1.8-3.06a8.09,8.09,0,0,0-3-3.06l-28.6-16.29a90.49,90.49,0,0,1,0-28.26L61.67,97.63a8,8,0,0,0,3-3c.58-1,1.19-2.06,1.81-3.06a7.94,7.94,0,0,0,1.22-4.21l.15-32.25a95.89,95.89,0,0,1,25.37-14.3L122,56.87a8,8,0,0,0,4.1,1c1.21,0,2.43,0,3.64,0a8.08,8.08,0,0,0,4.1-1l28.84-16.1A96,96,0,0,1,188.12,55l.11,32.2a8,8,0,0,0,1.22,4.22c.62,1,1.23,2,1.8,3.06a8.09,8.09,0,0,0,3,3.06l28.6,16.29A90.49,90.49,0,0,1,222.9,142.12Z"/></svg></button>
   <button type="button" data-tab="alert"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"/></svg><span class="tab-dot" id="tab-dot" hidden></span></button>
 </nav>
 
-<section class="look" id="look" role="dialog" aria-modal="true" aria-label="Today's Look" hidden>
+<section class="look glass" id="look" role="dialog" aria-modal="true" aria-label="Today's Look" hidden>
   <button class="lk-grab" id="lk-grab" type="button" aria-label="Close"></button>
   <div class="lk-mast" id="lk-mast"></div>
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b104"></script>
+<script src="look/outfits.js?v=b105"></script>
 <script>
 (function () {
   "use strict";
@@ -751,7 +757,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b104";
+  var BUILD = "b105";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
