@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-20, 빌드 b92)
+## 현재 상태 (2026-10-20, 빌드 b93)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록, 체감 블록과 요약 사이 오늘의 룩 글자(b77), 24시간 예보, **Today's Look**(룩 라이브러리 `look/outfits.js`를 스타일 안에서 가로로 넘김 + 아이템 탐색·저장, 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -97,6 +97,7 @@
 - b90: 하단 메뉴가 작아지면 아이콘을 선으로(Phosphor Regular, 같은 이름), 원래 크기에선 채운 아이콘(Fill) 그대로(사용자 요청).
 - b91: 하단 메뉴 아이콘을 크기와 상관없이 항상 선(Phosphor Regular)으로(사용자: 선이 맘에 듦). 앞으로 아이콘은 Phosphor Regular.
 - b92: 하단 메뉴 폭 줄임(사용자가 실기기에서 너무 넓다고 함, 내용을 덜 가리게): 400 → 272px, 작아질 때 220 → 200px, 칸 위아래 12 → 11px.
+- b93: 캘린더 화면 새로(사용자와 시안 4번 주고받음): 제목 탭 "7 DAYS" / "THIS MONTH"(같은 Anton 64px, 안 고른 쪽 한 톤 옅게). 7 DAYS = 날짜 라벨 / [큰 움직이는 날씨 그림 위에 상태 문구 겹침] [최저·최고 + 강수·바람] [줄 끝 EDITOR'S PICK / 단계 이름 / 룩 타이틀 3줄](사용자가 Editor's pick 선택). 그날 단계는 daily `apparent_temperature_max` 추가. THIS MONTH = 이번 달 달력, 예보 있는 8일만 아이콘·최고(나머지 날은 날짜만 흐리게, 과거 기록·16일 예보로 채울지는 아직 안 정함). 밝은 배경 위 비 그림 색도 아직 그대로.
 - 시안(2026-10-20, 앱 빌드 변화 없음): **Today's Look 제품 컷 + 매거진 기사** `proto/look-products.html`(https://jinex001.github.io/Weather-App/proto/look-products.html). 사용자가 C(가로 스트립) 선택. 에디토리얼 사진(`proto/run-01/look.jpg`, 남성 러닝) 아래 THE PIECES: 제품 플랫레이 500×500 1:1(`proto/run-01/01-anorak … 05-socks.jpg`, 사용자 제공, 아이보리 바닥) 카드가 한 화면에 하나 + 다음 카드 살짝(폭 100% − 56px, scroll-snap), 이미지 아래 제목 왼쪽 정렬(카테고리 · 이름 · 소재). 신발은 사진 없어 빈 칸. 아이템 리스트 대신 HOW TO WEAR 기사(Anton 제목, 리드, 01–04 소제목 + 본문, 인용구). 한국어만. 2026-10-20 사용자 제안: 제품 카드 = 앵커, 누르면 기사의 그 섹션으로 부드럽게 스크롤(01 아우터 · 02 상의 · 03 하의 · 04 장갑·양말·신발), 도착한 소제목 한 번 페이드 인, 섹션 끝에 "↑ The pieces"로 돌아가기, 기사 아래 32vh 여백(마지막 섹션도 위까지 오게). 같은 날 사용자 수정: 순서 = 에디토리얼 사진 → 기사 제목(Anton) + 바이라인(체감 1–9° · 바람 조금) + 리드 → THE PIECES 제품 스트립 → 디테일 본문(01–04 + 인용구). 사진 아래 한 줄 요약(deck)은 리드가 대신해서 뺌. 콜투액션 전부 없앰("HOW TO WEAR" 라벨, "소재와 입는 법", 카드의 "입는 법 ↓", "6 pieces · …" 안내, 섹션 끝 "↑ The pieces"). 카드는 보이는 표시 없이 그대로 해당 섹션 앵커. 제품 스트립(THE PIECES)은 스크롤하면 맨 위에 고정(position: sticky, 페이지와 같은 단색 배경, 그림자 없음)되고 디테일 본문이 그 아래로 지나감. 본문을 읽어 내려가면 고정된 스트립이 지금 읽는 섹션의 제품으로 저절로 넘어감(소제목이 스트립 아래 읽는 영역 40% 지점을 지나면). 카드를 누르면 섹션이 스트립 바로 아래에 오게(`--stick`).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
@@ -122,7 +123,7 @@
 - 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
 - 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
 - 구름 양 보조: MET Norway Locationforecast (`https://api.met.no/weatherapi/locationforecast/2.0/compact`, 키 불필요, 좌표 소수 4자리). 구름 양은 DWD·MET·Open-Meteo 중간값(b63).
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day, wind_speed_10m) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset, wind_speed_10m_max) 7일. 기상 경보: Bright Sky `/alerts?lat&lon`(DWD, 독일만, b88).
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day, wind_speed_10m) 12시간+, daily(weather_code, temperature_2m_max/min, apparent_temperature_max, precipitation_probability_max, sunrise/sunset, wind_speed_10m_max) 7일. 기상 경보: Bright Sky `/alerts?lat&lon`(DWD, 독일만, b88).
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`

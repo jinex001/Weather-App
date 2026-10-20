@@ -230,7 +230,9 @@ Poppins는 폭이 넓어서 **기본 자간 -.02em**(body). 작은 대문자 라
 **하단 메뉴 (b88)** — 화면 아래 고정, 가운데, 폭 272px(b92, 실기기에서 너무 넓어 줄임), 아래 safe-area + 12px. 흰 글라스 알약(rgba(255,255,255,.6) + `backdrop-filter` blur 20px·채도 1.6, 모서리 34px, 안쪽 5px), 글자·아이콘은 항상 `ink`. 칸 4개: 홈 · 캘린더 · 설정 · 알림(ko) / Home · Calendar · Settings · Alerts(en) / Start · Kalender · Optionen · Warnung(de). 칸 = 아이콘만(b89부터 라벨 없음, 버튼 aria-label은 남김). 아이콘은 **Phosphor Icons Regular(선)**(phosphoricons.com, MIT, 사용자가 고름, b91부터 항상 선): house · calendar-blank · gear-six · warning, 24px. 새 아이콘이 필요하면 같은 세트·같은 굵기(regular)에서 가져옴. 열린 칸은 Today's Look 그룹 스위처처럼 `ink` 알약(모서리 28px)에 흰 글자. 알림 칸은 활성 경보가 있으면 빨간 점 8px(#D94448). **스크롤**: 아래로 내리면(6px 넘게) 폭 200px·아이콘 20px로 작아지고(아이콘은 늘 선), 위로 올리거나 맨 위(24px 안)면 원래대로(0.3초, 동작 줄이기면 바로). Today's Look이 열리면 숨김. 테두리·그림자 없음.
 
 **캘린더·알림·설정 화면 (b88)** — 홈과 같은 배경·글자색, 선·카드 없이 간격으로만 나눔. 위에 kicker(11px 600 대문자) + Anton 64px 영어 제목(THIS WEEK / HEADS UP·ALL CLEAR / SETTINGS).
-- 캘린더: 앞으로 7일 한 줄씩 — 요일(오늘)·날짜 / 아이콘 18px / 강수확률 최대 % / 최대 풍속(`icon-wind` 줄 1·2·3 + km/h, Open-Meteo daily `wind_speed_10m_max`) / 최저(55% 불투명) 최고 Anton 22px.
+- 캘린더(b93): 제목 두 개가 탭 — "7 DAYS" · "THIS MONTH", 둘 다 Anton 64px 한 줄(가로로 넘침, 고른 쪽으로 밀림), 안 고른 쪽은 35% 불투명. 고른 탭은 localStorage `wx-cal`.
+  - 7 DAYS: 하루 한 칸 = 날짜 라벨(11px 600 대문자, "오늘 · 10월 20일") / 한 줄: [홈과 같은 움직이는 날씨 그림 120×85, 그 위 아래쪽에 상태 문구 17px 700 대문자를 레이어로 겹침(화면색 2px 외곽선, 홈 상태 문구와 같은 방식)] [최저(45%)·최고 Anton 30px / 강수확률 % · 최대 풍속(줄 1·2·3 + km/h)] [줄 끝 오른쪽 정렬 3줄: EDITOR'S PICK(9.5px 대문자) / 단계 이름(13px 700) / 룩 타이틀 Anton 24px]. 단계는 그날 체감 최고(daily `apparent_temperature_max`, 없으면 최고 기온). 흐림 그림 색은 어느 화면이든 기본 흐림 색.
+  - THIS MONTH: 월요일 시작 7칸 달력. 예보가 있는 날만 작은 아이콘 + 최고 Anton 16px, 나머지는 날짜만 35% 불투명. 오늘은 화면 글자색 알약(모서리 14px)에 화면 배경색 글자.
 - 알림: 독일 기상청(DWD) 경보(Bright Sky `/alerts?lat&lon`, 키 없음). 경보마다 단계(주의·경고·위험·매우 위험 = minor·moderate·severe·extreme) / 제목 20px 700 / 시작–끝 시각 / 설명. 한국어 기기는 영어 문구(DWD는 독일어·영어만). 없으면 "ALL CLEAR" + 안내, 독일 밖이면 독일에서만 된다는 안내.
 - 설정: 위치(바꾸기 = 베를린 ↔ 현재 위치) / Today's Look 프로필(성별·연령대, 수정 = 질문 화면) / 언어(기기) / 단위 °C·km/h / 데이터 출처 / 버전.
 
