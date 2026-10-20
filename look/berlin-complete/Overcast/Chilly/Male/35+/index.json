@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0",
+  "editorialCount": 15,
+  "productCount": 85,
+  "readyCount": 85,
+  "editorials": [
+    {
+      "id": "men-01-running",
+      "folder": "men/01-running",
+      "data": "men/01-running/products.json",
+      "readme": "men/01-running/README.md",
+      "editorialImage": "men/01-running/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "men-02-running",
+      "folder": "men/02-running",
+      "data": "men/02-running/products.json",
+      "readme": "men/02-running/README.md",
+      "editorialImage": "men/02-running/editorial.png",
+      "productCount": 8,
+      "readyCount": 8
+    },
+    {
+      "id": "men-03-running",
+      "folder": "men/03-running",
+      "data": "men/03-running/products.json",
+      "readme": "men/03-running/README.md",
+      "editorialImage": "men/03-running/editorial.png",
+      "productCount": 7,
+      "readyCount": 7
+    },
+    {
+      "id": "men-04-running",
+      "folder": "men/04-running",
+      "data": "men/04-running/products.json",
+      "readme": "men/04-running/README.md",
+      "editorialImage": "men/04-running/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "men-05-running",
+      "folder": "men/05-running",
+      "data": "men/05-running/products.json",
+      "readme": "men/05-running/README.md",
+      "editorialImage": "men/05-running/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "men-06-street",
+      "folder": "men/06-street",
+      "data": "men/06-street/products.json",
+      "readme": "men/06-street/README.md",
+      "editorialImage": "men/06-street/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "men-07-street",
+      "folder": "men/07-street",
+      "data": "men/07-street/products.json",
+      "readme": "men/07-street/README.md",
+      "editorialImage": "men/07-street/editorial.png",
+      "productCount": 7,
+      "readyCount": 7
+    },
+    {
+      "id": "men-08-street",
+      "folder": "men/08-street",
+      "data": "men/08-street/products.json",
+      "readme": "men/08-street/README.md",
+      "editorialImage": "men/08-street/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "men-09-street",
+      "folder": "men/09-street",
+      "data": "men/09-street/products.json",
+      "readme": "men/09-street/README.md",
+      "editorialImage": "men/09-street/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "men-10-street",
+      "folder": "men/10-street",
+      "data": "men/10-street/products.json",
+      "readme": "men/10-street/README.md",
+      "editorialImage": "men/10-street/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "men-11-minimal",
+      "folder": "men/11-minimal",
+      "data": "men/11-minimal/products.json",
+      "readme": "men/11-minimal/README.md",
+      "editorialImage": "men/11-minimal/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "men-12-minimal",
+      "folder": "men/12-minimal",
+      "data": "men/12-minimal/products.json",
+      "readme": "men/12-minimal/README.md",
+      "editorialImage": "men/12-minimal/editorial.png",
+      "productCount": 4,
+      "readyCount": 4
+    },
+    {
+      "id": "men-13-minimal",
+      "folder": "men/13-minimal",
+      "data": "men/13-minimal/products.json",
+      "readme": "men/13-minimal/README.md",
+      "editorialImage": "men/13-minimal/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "men-14-minimal",
+      "folder": "men/14-minimal",
+      "data": "men/14-minimal/products.json",
+      "readme": "men/14-minimal/README.md",
+      "editorialImage": "men/14-minimal/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "men-15-minimal",
+      "folder": "men/15-minimal",
+      "data": "men/15-minimal/products.json",
+      "readme": "men/15-minimal/README.md",
+      "editorialImage": "men/15-minimal/editorial.png",
+      "productCount": 5,
+      "readyCount": 4
+    }
+  ]
+}

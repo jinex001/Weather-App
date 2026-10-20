@@ -60,3 +60,12 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 - b71에서 예전 사진은 모두 지움: 시트에서 자른 사진(`look/<m|f>-<스타일>-t*.jpg`), 아기 사진(`look/baby-*`), `look/chilly`·`cool`·`clear`·`items`와 그 룩·아이템(예전 ID). 그래서 흐린 날·다른 단계·아기는 사진 없이 단계 기본 문구만 나옴(b73부터 여성은 맑은 날 쌀쌀함 사진 있음). 예전 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
 
 새 룩 추가: 위 폴더 형식으로 사진을 올리고 `outfits`에 한 줄, 아이템을 `items`에 추가. 기존 ID는 그대로 둘 것.
+
+## 제품 컷 + 기사 (b95)
+
+룩에 `article`이 있으면 Today's Look이 아이템 리스트 대신 기사 화면을 씀.
+
+- 룩 `article`: `title`(영문 헤드라인, 번역 안 함), `intro` {ko,en,de}, `pull`(영문 인용구), `tip` {ko,en,de}. `deck` = 캡션.
+- 아이템: `cat`(outer/top/bottom/shorts/shoes/socks/hands/headwear/eyewear/watch/jewelry/scarf/bag), `name`, `sub`(카드 보조문구), `note`(입는 법), `image`(500×500 제품 컷 JPG), `alt`.
+- 순서는 products.json `products` 순서, 카드와 문단은 같은 순서로 연결. `status`가 ready인 것만.
+- 첫 세트: `look/berlin-complete/Overcast/Chilly/Male/35+/NN-<style>/`(원본 PNG + 앱용 JPG), 룩 `oc15-NN-<run|street|minimal>-m`.
