@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-20, 빌드 b97)
+## 현재 상태 (2026-10-20, 빌드 b98)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록, 체감 블록과 요약 사이 오늘의 룩 글자(b77), 24시간 예보, **Today's Look**(룩 라이브러리 `look/outfits.js`를 스타일 안에서 가로로 넘김 + 아이템 탐색·저장, 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -103,6 +103,7 @@
 - b95: **흐린 날 남성 세트 + 제품 컷·기사 화면**(사용자가 GitHub에 올림). `look/berlin-complete/`에 올라온 01-running … 15-minimal 15폴더를 `look/berlin-complete/Overcast/Chilly/Male/35+/day/`로 옮기고, 같이 준 `index.json`·`README.md`·`VALIDATION.json`도 거기에. 각 폴더 = `editorial.png` + `products/NN-<분류>.png`(500×500) + `products.json`(문구·제품) + `README.md`(반영 규칙) + `PROMPTS.md`(화면에 안 씀). 원본 PNG는 그대로 두고 앱용 JPG 사본(`editorial.jpg`, `products/*.jpg`, 합계 약 6MB). `outfits.js` 15룩 `oc15-NN-<스타일>-m`(쌀쌀함 · sky `cloudy` · 남성 · 35+ · 낮) + 84아이템(pending 1개 제외: 15번 링). 룩에 `article`(title = headlineEn, intro, pull = pullQuoteEn, tip), deck = captionKo, 아이템에 `sub`(카드 보조문구)·`note`(입는 법)·`image`(제품 컷)·`alt`. 한국어는 products.json 그대로, en/de는 새로 번역. 브랜드·가격·링크·소재 수치는 넣지 않음(README 규칙). Today's Look: `article` 있는 룩은 사진 아래 Anton 44px 헤드라인 → 캡션(deck) → 인트로 → THE PIECES 제품 카드 가로 스트립(한 장 + 다음 살짝, 1:1 contain, 바닥색 #F3EFE8, 카드 아래 카테고리·이름·보조문구 왼쪽 정렬) → 제품별 입는 법 문단(같은 순서, 2번째 뒤에 인용구) → 팁. 제품 스트립은 시트 맨 위에 고정(sticky, 거의 불투명 흰 배경 + 블러)되고, 본문을 읽어 내려가면 그 제품 카드로 넘어감, 카드를 누르면 그 문단이 스트립 바로 아래로. 예전 아이템 리스트(갖고 있어요/관심 있어요)는 article 없는 룩에만. 75룩 · 355아이템. 가짜 데이터로만 확인.
 - b96: 흐린 날 남성 세트 폴더를 `Overcast/Chilly/Male/35+/` → **`Overcast/Chilly/Male/35+/day/`**로(사용자 요청, 맑은 날 세트와 같은 day/ 구조). index.json·README.md·VALIDATION.json도 day/ 안. `outfits.js` 경로만 바뀜, 룩 ID 그대로.
 - b97: 맑은 날 룩 사진은 맑은 날 전용(사용자: 흐린 날에 맑은 날 사진이 같이 나옴). `lookPool`: 그 스타일·성별에 오늘 하늘(clear/cloudy)에 맞는 룩이 하나라도 있으면 다른 하늘 룩은 빼고, 하나도 없을 때만 다른 하늘 룩으로 채움(지금은 흐린 날 여성 = 맑은 날 사진). Today's Look 제품 스트립 배경 투명(사용자 요청, 본문이 그 아래로 보이며 지나감).
+- b98: 투명한 제품 스트립(b97) 아래로 본문 글자가 비쳐 카드 이름과 겹치던 문제(사용자 발견) → 스트립 배경을 시트가 보이는 색 그대로 섞은 **불투명 단색**(흰색 60% + 화면 배경색 40%, `--lk-solid`, `mixHex`)으로. 따로 떠 있는 상자처럼 보이지 않고 시트에 녹아들면서 아래 글자는 완전히 가려짐(헤드리스 크롬에선 backdrop 블러만으로는 글자가 비쳐서 단색으로).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.

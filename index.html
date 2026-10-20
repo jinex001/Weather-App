@@ -331,7 +331,9 @@
   .lk-atitle:not(:empty) + .lk-look-deck { margin-top: 14px; }
   .lk-intro { margin-top: 12px; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
   .lk-pieces { position: sticky; top: calc(-8px - env(safe-area-inset-top)); z-index: 2; /* the sheet pads its top; stick flush to the screen edge */ margin: 30px -24px 0; padding: calc(env(safe-area-inset-top) + 10px) 24px 12px;
-    background: transparent; } /* b97: no background (user), the text scrolls visibly under it */
+    /* b98: b97's transparent strip let the text show through the card labels. Now a solid color mixed like the sheet
+       looks (60% white over the screen color), so it blends into the glass and fully hides what passes under it */
+    background: var(--lk-solid, #F4F4F4); }
   .lk-strip { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 10px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
   .lk-strip::-webkit-scrollbar { display: none; }
@@ -446,7 +448,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b97"></script>
+<script src="look/outfits.js?v=b98"></script>
 <script>
 (function () {
   "use strict";
@@ -751,7 +753,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b97";
+  var BUILD = "b98";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1179,6 +1181,10 @@
     peek.hidden = false;
   }
 
+  function mixHex(a, b, t) {
+    var x = hexRgb(a), y = hexRgb(b);
+    return "#" + x.map(function (c, i) { return ("0" + Math.round((c * t + y[i] * (1 - t)) * 255).toString(16)).slice(-2); }).join("");
+  }
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
     var v = sheetView || lastView; if (!v) return;
@@ -1186,6 +1192,7 @@
     // Plain white glass for every band and every screen (user's choice); text is always ink
     sheet.style.setProperty("--lk-bg", "#FFFFFF");
     sheet.style.setProperty("--lk-tint", "rgba(255,255,255,.6)");
+    sheet.style.setProperty("--lk-solid", mixHex("#FFFFFF", v.theme || "#F4F4F4", .6)); // what the glass looks like, made solid
     sheet.style.setProperty("--lk-ink", "#141414");
     $("lk-mast").innerHTML = "<span>" + esc(v.mast || "Today's Look") + "</span><span>" + esc(v.dateLine) + "</span>";
     sheet.hidden = false; // laid out first, so the outfit row knows its width
