@@ -1,5 +1,7 @@
 # CHILLY · 쌀쌀함 · 체감 1~9°C · 가을 · 30~40대
 
+> **기록용 (2026-10-20)** — b71에서 이 문구와 사진은 앱에서 빠졌습니다. index.html의 `CHILLY`와 아래에 나오는 사진 경로는 더 이상 없습니다. 지금 룩 데이터는 `look/outfits.js`, 설명은 [look-library.md](look-library.md).
+
 앱 문구는 index.html `CHILLY`(한국어·영어·독일어). 사진은 `look/chilly/<run|street|minimal>-<m|f>.jpg`, 아이템 사진 `-p1~6.jpg`.
 
 베를린 가을 기준이에요. 아침저녁은 0°C 가까이 내려가고 바람과 비가 잦아서, 얇은 옷을 여러 겹 입고 겉옷은 바람과 물을 막는 것으로 정했어요.

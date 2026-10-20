@@ -1,77 +1,89 @@
-# Today's Look 룩 라이브러리 (b68)
+# Today's Look 룩 라이브러리
 
-Today's Look은 `look/outfits.js`(`window.WX_LOOKS`)에 있는 룩을 고른 스타일·성별 안에서 가로로 넘겨 봅니다.
+Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
+
+마지막 정리: 2026-10-20 (앱 빌드 b105) · 105룩 · 541아이템. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
 
 ## Outfit
 
 | 필드 | 값 |
 | --- | --- |
-| `id` | 고정 ID. 아이템 답(갖고 있어요/관심 있어요)이 이 값을 씀 → **이름 바꾸거나 재사용 금지**. b71부터 형식 `<세트 약자>-<번호>-<스타일>-<m\|f>` (예 `bm15-03-street-m`) |
+| `id` | 고정 ID. 아이템 답(갖고 있어요/관심 있어요)이 이 값을 씀 → **이름 바꾸거나 재사용 금지**. 형식 `<세트 약자>-<번호>-<run\|street\|minimal>-<m\|f>` |
 | `bands` | 맞는 체감 단계 키 배열(`freeze verycold cold chilly cool pleasant warm hot scorching`) |
-| `sky` | `clear`(낮 + 코드 0–2) · `cloudy`(그 외) · `any` |
+| `sky` | `clear`(코드 0–2) · `cloudy`(그 외) · `any` |
 | `style` | `run` · `street` · `minimal` |
 | `gender` | `m` · `f` |
-| `age` | (b71) 사진 폴더의 연령대 기록(b81부터 `"35"` = 폴더 `35+`). 프로필 연령대는 b80부터 `u35` · `35` · `60`. 지금은 고를 때 안 씀 |
-| `image` | 큰 에디토리얼 사진(1024×1536, 2:3, JPG) |
-| `time` | (b81, 선택) `"evening"` = 저녁 룩. 없으면 낮 룩 |
-| `deck` | 한 줄 요약 `{ko,en,de}` |
-| `items` | Item ID 배열(보여줄 순서) |
+| `age` | 사진 폴더의 연령대 기록(`"35"` = 폴더 `35+`). 고를 때 아직 안 씀. 프로필 연령대는 `u35` · `35` · `60` |
+| `time` | (선택) `"evening"` = 저녁 룩. 없으면 낮 룩 |
+| `image` | 에디토리얼 사진(1024×1536, 2:3, JPG) |
+| `deck` | 한 줄 요약(캡션) `{ko,en,de}` |
+| `article` | (선택) 기사: `title`(영문 헤드라인, 번역 안 함), `intro` {ko,en,de}, `pull`(영문 인용구), `tip` {ko,en,de}(선택). 있으면 아이템 리스트 대신 제품 카드 화면 |
+| `items` | Item ID 배열(보여줄 순서 = products.json 순서) |
 
 ## Item
 
 | 필드 | 값 |
 | --- | --- |
-| `id` | 고정 ID `<outfitId>.<cat>`(액세서리가 둘이면 `.acc1`, `.acc2`). "갖고 있어요/관심 있어요"가 이 값을 씀 |
-| `cat` | `outer` `top` `under` `bottom` `shoes` `socks` `accessory`(화면 라벨 Outer/Top/Under/Bottom/Shoes/Socks/Bring) |
-| `name` | 이름 `{ko,en,de}` |
-| `note` | (선택) 자세한 설명 `{ko,en,de}`, 아이템을 펼치면 보임 |
-| `image` | (선택) 아이템 사진, 펼치면 보임 |
+| `id` | 고정 ID. 기사 룩은 `<outfitId>.<products.json id>`(예 `ofn-06-street-f.04-shoes`), 예전 룩은 `<outfitId>.<cat>` |
+| `cat` | `outer` `top` `under` `bottom` `shorts` `hosiery` `shoes` `socks` `gloves` `hands` `headwear` `eyewear` `scarf` `bag` `watch` `jewelry` `gear` `accessory`. 화면 라벨은 영어 대문자(`accessory` = BRING, 라벨 표에 없는 것은 키 그대로) |
+| `name` | 이름 `{ko,en,de}` — 기사 룩에선 카드 큰 타이틀 |
+| `note` | (선택) 입는 법 `{ko,en,de}` — 기사 룩 카드 본문, 예전 룩은 펼치면 보임 |
+| `image` | (선택) 사진. 기사 룩은 500×500 제품 컷 JPG |
+| `alt` | (선택) 제품 컷 대체 텍스트(한국어, products.json `altKo`) |
+| `sub` | (선택) 카드 보조문구. 데이터에만 있고 b99부터 화면에 안 씀 |
 
-## 고르는 순서
+## 고르는 순서 (`lookPool`)
 
-같은 스타일·성별 룩만 모으고, 그중 시간대가 맞는 것만 남김(b81: 오늘 일몰 10분 전 ~ 다음 일출 = 저녁 → `time: "evening"` 룩, 그 외 = 낮 룩. b83: 새벽 5시부터는 해 뜨기 전이어도 낮 룩(일출이 5시보다 빠르면 일출부터). 일출·일몰 값이 없으면 밤 = 저녁, 단 5~12시 밤은 낮 룩. 그 스타일·성별에 맞는 시간대 룩이 하나도 없으면 다른 시간대 룩을 그대로 씀). 저녁엔 하늘 맑음 = 코드 0–2(낮 조건 없음). 그다음 점수순(낮을수록 앞):
-0 오늘 단계 + 오늘 하늘 · 1 오늘 단계 + 다른 하늘 · 2 옆 단계 + 같은 하늘(또는 any) · 3 옆 단계 + 다른 하늘. 두 단계 이상 떨어지면 제외.
-점수 0인 룩이 없으면 그 단계 기본 문구(`LOOK[단계]`, 시트에서 자른 작은 사진)가 맨 앞(`band-<단계>-<스타일>-<성별>`, 런타임에 만듦).
-아기 탭은 예전 화면 그대로(라이브러리 밖).
+1. 같은 스타일·성별 룩만.
+2. **시간대**: 오늘 일몰 10분 전 ~ min(다음 일출, 05:00)은 저녁 → `time: "evening"` 룩, 그 외는 낮 룩. 일출·일몰 값이 없으면 밤 = 저녁(단 밤 중 5~12시는 낮). 그 스타일·성별에 맞는 시간대 룩이 하나도 없으면 다른 시간대 룩.
+3. **단계**: 오늘 단계(0점) 또는 옆 단계(2점)만. 두 단계 이상은 제외.
+4. **하늘**: 오늘 하늘(`clear` = 코드 0–2, 시간대 상관없음; 그 외 `cloudy`)과 같거나 `any`인 룩이 하나라도 있으면 그것만. 없을 때만 다른 하늘 룩(+1점).
+5. 점수가 같은 것끼리 **랜덤**으로 섞고 앞에서 **3개**. 섞는 씨앗(`lookSeed`)은 앱을 열 때와 홈에서 Today's Look을 열 때마다 새로. 캘린더 날짜 시트는 그 줄에 보이던 순서 그대로.
+6. 하나도 없으면 단계 기본 문구(`LOOK[단계]`, 사진 없음).
+
+맞춤 표시: 1번째 오늘의 추천 / 2번째 이것도 좋아요 / 3번째 이것도 나쁘지 않아요(캘린더 1번째는 이날의 추천).
 
 ## 저장
 
-localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, want: {itemId: 시각} }`. 이 폰에만 있음. b70부터 룩 저장 버튼·Saved looks는 없음(`saved`는 예전 값 그대로 두기만 함).
+localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, want: {itemId: 시각} }`. 이 폰에만 있음. `saved`는 b70부터 화면에서 안 씀(예전 값만 남음). `own`/`want`는 기사 없는 룩의 아이템 줄에서만 고를 수 있음.
 
-## 사진 폴더 (b71부터)
+## 사진 폴더
 
-앱용 사진은 JPG만 저장소에 둠(2026-10-20, 원본 PNG 삭제: 큰 사진 1024×1536 ≤300KB, 제품 컷 500×500 ≤50KB, 품질 80 정도). PNG로 올라오면 JPG로 바꾸고 PNG는 지움.
+```
+look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
+  Sunny/Chilly/Male/35+/day/05-running.jpg           ← 맑은 날 세트: 사진 한 장씩
+  Overcast/Chilly/Female/35+/night/06-street/        ← 흐린 날 세트: 착장 폴더
+      editorial.jpg  products/01-outer.jpg …  products.json  README.md  PROMPTS.md
+```
 
-사용자가 GitHub에 올리는 형식: `look/<세트>/<하늘>/<단계>/<성별>/<연령대>/<번호>-<스타일>.png`
-- 예: `look/berlin-complete/Sunny/Chilly/Male/35+/03-street.png`
-- 하늘 `Sunny` → `sky: "clear"`, `Cloudy` → `"cloudy"`. 단계는 체감 9단계 영어 이름(`Chilly` → `chilly`). 성별 `Male`/`Female` → `m`/`f`. 연령대 `35+` → `age: "35"`(b81에서 `30-40` → `35+`로 이름 바꿈). 저녁 사진은 연령대 폴더 아래 `night/`(예 `Female/35+/night/11-minimal.png`) → `time: "evening"`.
-- 스타일 `running` → `run`, `street`, `minimal`.
-- 올라온 PNG(약 2.5MB)는 같은 자리에 JPG(품질 82, 약 250KB)로 바꿔 넣고 PNG는 지움(원본은 git 기록에 남음).
+- 하늘 `Sunny` → `sky: "clear"`, `Overcast` → `"cloudy"`. 단계는 체감 9단계 영어 이름(`Chilly` → `chilly`). 성별 `Male`/`Female` → `m`/`f`. 연령대 `35+` → `age: "35"`. `night/` → `time: "evening"`.
+- 번호와 스타일: 보통 01–05 러닝, 06–10 스트리트, 11–15 미니멀. 폴더 이름 `running` → `run`.
+- **JPG만 저장소에 둠**: 에디토리얼 1024×1536 ≤300KB(품질 80), 제품 컷 500×500 ≤50KB(품질 85). PNG로 올라오면 JPG로 바꾸고 PNG는 지우고, products.json 경로도 `.jpg`로. 2026-10-20 git 기록에서도 PNG를 지움.
+- 착장 폴더의 `products.json`: `copy`(headlineEn, captionKo, introKo, pullQuoteEn, tipKo) → `article`·`deck`, `products[]`(id, category, nameKo, descriptionKo, image, altKo, status) → 아이템. 한국어는 그대로, 영어·독일어는 새로 번역. `status`가 ready인 것만. 브랜드·가격·구매 링크·소재 혼용률은 비어 있고 채우지 않음. `PROMPTS.md`·`designDescriptionEn`은 화면에 안 씀.
+- 올라온 파일이 폴더 이름과 맞는지(성별·시간대·하늘) products.json의 `gender`·`weather`와 사진으로 먼저 확인할 것(2026-10-20 여성 저녁 폴더에 남성 낮 세트가 섞여 들어온 일이 있음).
 
-## 지금 들어 있는 것 (60룩 · 271아이템, b86)
+## 지금 들어 있는 것
 
-폴더: 낮 = `<연령대>/day/`, 저녁 = `<연령대>/night/`. 남녀 × 낮·저녁 × 러닝·스트리트·미니멀 각 5룩.
+모두 쌀쌀함(체감 1~9°) · 35+ · 각 15룩(러닝 5 · 스트리트 5 · 미니멀 5).
 
-- `bn15-*-f` (b81) = `look/berlin-complete/Sunny/Chilly/Female/35+/night/` 맑은 날 · 쌀쌀함 · 여성 · 저녁(`time: "evening"`). 러닝 01–05, 스트리트 06–10, 미니멀 11–15. 낮 룩과 다른 새 옷차림이라 아이템·한 줄 요약(ko/en/de)을 사진 보고 따로 씀. 
-- `bn15-*-m` (b82) = `look/berlin-complete/Sunny/Chilly/Male/35+/night/` 맑은 날 · 쌀쌀함 · 남성 · 저녁(`time: "evening"`). 러닝 01–05, 스트리트 06–10, 미니멀 11–15. 사용자가 `Male/30-39/Night`에 올린 것을 `night/`로 옮김. 아이템·한 줄 요약(ko/en/de)은 사진 보고 씀.
-- `bd4-0N-run-m` (b84) = `look/berlin-complete/Sunny/Chilly/Male/35+/day/` 맑은 날 · 쌀쌀함 · 남성 · 러닝 4장(01–04, 낮 룩, `time` 없음). 사용자가 채팅으로 준 사진.
-- `bd15-NN-<스타일>-m` (b85) = 같은 `Male/35+/day/` 05–15(러닝 05, 스트리트 06–10, 미니멀 11–15). 사용자가 GitHub에 올림.
-- `bd15-NN-<스타일>-f` (b85·b86) = `look/berlin-complete/Sunny/Chilly/Female/35+/day/` 맑은 날 · 쌀쌀함 · 여성 · 낮. 러닝 01–05, 스트리트 06–10, 미니멀 11–15. 01–04는 채팅으로, 05–15는 GitHub로 받음.
-- b86에서 `Male/35+/`·`Female/35+/` 바로 아래 예전 낮 사진 15장씩과 그 룩(`bm15-*`, b71·b73)을 지움(사용자 요청, day/만 씀).
-- b71에서 예전 사진은 모두 지움: 시트에서 자른 사진(`look/<m|f>-<스타일>-t*.jpg`), 아기 사진(`look/baby-*`), `look/chilly`·`cool`·`clear`·`items`와 그 룩·아이템(예전 ID). 그래서 흐린 날·다른 단계·아기는 사진 없이 단계 기본 문구만 나옴(b73부터 여성은 맑은 날 쌀쌀함 사진 있음). 예전 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
+| 하늘 | 성별 | 시간 | 폴더 | 룩 ID | 화면 |
+| --- | --- | --- | --- | --- | --- |
+| 맑음 | 남 | 낮 | `Sunny/Chilly/Male/35+/day/` | `bd4-0N-run-m`(01–04), `bd15-NN-<스타일>-m`(05–15) | 아이템 리스트 |
+| 맑음 | 여 | 낮 | `Sunny/Chilly/Female/35+/day/` | `bd15-NN-<스타일>-f` | 아이템 리스트 |
+| 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 아이템 리스트 |
+| 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 아이템 리스트 |
+| 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 |
+| 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
+| 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/` | `ofn-NN-<스타일>-f` | 제품 카드 기사 |
 
-새 룩 추가: 위 폴더 형식으로 사진을 올리고 `outfits`에 한 줄, 아이템을 `items`에 추가. 기존 ID는 그대로 둘 것.
+없는 것: 흐린 날 남성 저녁(→ 맑은 날 저녁 룩이 대신), 쌀쌀함 밖의 모든 단계(→ 옆 단계 룩 또는 기본 문구), 35세 미만·60+ 전용, 아기.
 
-## 제품 컷 + 기사 (b95)
+예전 것(지움): b36–b67의 시트 자른 사진·아기 사진·`look/chilly`·`cool`·`clear`·`items`(b71), 낮 사진 `bm15-*`(b86). 그 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
 
-룩에 `article`이 있으면 Today's Look이 아이템 리스트 대신 기사 화면을 씀.
+## 새 세트 넣기
 
-- 룩 `article`: `title`(영문 헤드라인, 번역 안 함), `intro` {ko,en,de}, `pull`(영문 인용구), `tip` {ko,en,de}. `deck` = 캡션.
-- 아이템: `cat`(outer/top/bottom/shorts/shoes/socks/hands/headwear/eyewear/watch/jewelry/scarf/bag), `name`, `sub`(카드 보조문구), `note`(입는 법), `image`(500×500 제품 컷 JPG), `alt`.
-- 순서는 products.json `products` 순서, 카드와 문단은 같은 순서로 연결. `status`가 ready인 것만.
-- 첫 세트: `look/berlin-complete/Overcast/Chilly/Male/35+/day/NN-<style>/`(원본 PNG + 앱용 JPG), 룩 `oc15-NN-<run|street|minimal>-m`.
-
-- b97: 오늘 하늘에 맞는 룩(sky가 오늘과 같거나 any)이 그 스타일·성별에 하나라도 있으면 다른 하늘 룩은 빠짐. 없을 때만 다른 하늘 룩이 대신 나옴.
-- b99: 기사 화면은 카드 안에 입는 법(제품 컷 · 번호·분류 · 큰 타이틀 = 이름 · 본문 = note). `sub`는 데이터에만 남고 화면엔 안 씀. 고정 스트립·따로 있는 디테일 섹션 없음.
-- b100: 한 번에 3룩만. 맞춤 순서(같은 하늘 우선 → 점수) 안에서 랜덤으로 섞어 앞의 3개(`lookSeed`, 홈에서 열 때마다 새로). 표시: 오늘의 추천 / 이것도 좋아요 / 이것도 나쁘지 않아요. 흐린 날 여성 세트 `of15-NN-<style>-f` (`Overcast/Chilly/Female/35+/day/`).
+1. 폴더·파일 확인(위 경고), PNG → JPG, PNG 삭제, products.json 경로 `.jpg`.
+2. `outfits`에 룩, `items`에 아이템 추가(새 ID 약자, 기존 ID는 그대로).
+3. `index.html`의 `BUILD`와 `outfits.js?v=`를 올림.
+4. 이 문서의 "지금 들어 있는 것" 표와 `CLAUDE.md` 변경 기록을 고침.

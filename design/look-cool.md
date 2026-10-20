@@ -1,5 +1,7 @@
 # COOL · 선선함 · 체감 10~17°C · 가을 · 30~40대
 
+> **기록용 (2026-10-20)** — b71에서 이 문구와 사진은 앱에서 빠졌습니다. index.html의 `STYLE_TEXT.cool`와 아래에 나오는 사진 경로는 더 이상 없습니다. 지금 룩 데이터는 `look/outfits.js`, 설명은 [look-library.md](look-library.md).
+
 앱 문구는 index.html `STYLE_TEXT.cool`(한국어·영어·독일어). 사진은 `look/cool/<run|street|minimal>-<m|f>.jpg`.
 
 ## 1. 러닝 / 운동
