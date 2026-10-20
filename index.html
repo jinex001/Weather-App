@@ -252,7 +252,8 @@
   .cal-tabs button { flex: none; padding: 0; border: 0; background: none; color: inherit; cursor: pointer;
     font: 400 64px/.9 var(--display); letter-spacing: 0; text-transform: uppercase; opacity: .35; transition: opacity .2s; }
   .cal-tabs button.on { opacity: 1; }
-  .wk { display: grid; grid-template-columns: 104px 1fr auto; align-items: center; gap: 12px; padding: 10px 0; }
+  .wk { padding: 16px 0 14px; }
+  .wk-row { display: grid; grid-template-columns: 104px 1fr auto; align-items: center; gap: 12px; margin-top: 4px; }
   .wk-art { width: 104px; height: 74px; overflow: hidden; --oc-back: #958E81; --oc-drift: #91989F; }
   .wk-art svg { width: 104px; height: 74px; display: block; }
   .wk-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
@@ -260,6 +261,10 @@
   .wk-d { display: flex; gap: 10px; align-items: center; margin-top: 4px; font-family: var(--mono); font-weight: 600; font-size: 12px; }
   .wk-t { font-family: var(--display); font-size: 34px; letter-spacing: 0; text-align: right; white-space: nowrap; }
   .wk-t span { opacity: .45; margin-right: 6px; }
+  .wk-look { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+  .wk-look img { flex: none; width: 52px; height: 78px; object-fit: cover; }
+  .wk-lk { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .wk-lh { font-family: var(--display); font-size: 30px; line-height: 1; letter-spacing: 0; text-transform: uppercase; margin-top: 3px; }
   .mo { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-top: 24px; text-align: center; }
   .mo-w { font-size: 11px; font-weight: 600; padding-bottom: 6px; }
   .mo-d { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 8px 0; border-radius: 14px; min-height: 66px; }
@@ -1360,7 +1365,7 @@
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,cloud_cover" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
-      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset,wind_speed_10m_max" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
   }
@@ -1477,18 +1482,32 @@
   function whenText(iso) {
     return new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).format(new Date(iso));
   }
+  // The look for one forecast day: its feels-like band (daytime high) gives the headline; a library photo when one fits
+  function dayLook(D, i, prof) {
+    var f = D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i], band = bandOf(r(f));
+    var style = prof.style === "street" || prof.style === "run" ? prof.style : "minimal", g = prof.gender === "f" ? "f" : "m";
+    var sky = D.weather_code[i] <= 2 ? "clear" : "cloudy", best = null;
+    LIB.outfits.forEach(function (o) {
+      if (o.time || o.style !== style || o.gender !== g || o.bands.indexOf(band[1]) < 0 || !o.image) return;
+      if (!best || (o.sky === sky && best.sky !== sky)) best = o;
+    });
+    return { band: band[2][LANG], head: LOOK[band[1]].head.replace(/<br>/g, " "), img: best && (best.sky === sky || best.sky === "any") ? best.image : null };
+  }
   function paintPages(data) {
     if (!data || !data.daily) return;
     var D = data.daily, city = place.gps ? T.here : T.berlin;
     // Calendar (b93): two Anton titles as tabs, "7 Days" and "This month" (the other one a tone lighter)
-    var rows = "";
+    // Each day: date label / art · condition · rain and wind · low/high / that day's look (band headline + photo when one fits)
+    var prof = load("wx-profile") || {}, rows = "";
     for (var i = 0; i < 7 && i < D.time.length; i++) {
-      var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
-      rows += '<div class="wk"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '</div><div class="wk-b">' +
-        '<div class="wk-k">' + esc(dn.n) + " · " + esc(dn.d) + "</div>" +
+      var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null, lk = dayLook(D, i, prof);
+      rows += '<div class="wk"><div class="wk-k">' + esc(dn.n) + " · " + esc(dn.d) + "</div>" +
+        '<div class="wk-row"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '</div><div class="wk-b">' +
         '<div class="wk-c">' + esc(condLabel(c, true)) + "</div>" +
         '<div class="wk-d"><span>' + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : '<span class="day-w">' + wind3(w) + w + "</span>") + "</div></div>" +
-        '<div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div></div>";
+        '<div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div></div>" +
+        '<div class="wk-look">' + (lk.img ? '<img src="' + lk.img + '" alt="" loading="lazy">' : "") +
+        '<div><div class="wk-lk">Today\'s Look · ' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></div></div></div>";
     }
     // This month: Monday-first grid of the current month; days with a forecast show icon and high
     var t0 = D.time[0], y = +t0.slice(0, 4), mo = +t0.slice(5, 7), first = new Date(Date.UTC(y, mo - 1, 1)), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
