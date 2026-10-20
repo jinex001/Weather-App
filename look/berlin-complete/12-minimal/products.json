@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "id": "men-12-minimal",
+  "gender": "men",
+  "ageGroup": "30s",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": 12,
+    "feelsLikeC": 9
+  },
+  "editorialImage": "editorial.png",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "SOFT CONTRAST",
+    "captionKo": "초콜릿 재킷 안에 라벤더. 조용하지만 평범하지 않은 배색.",
+    "introKo": "칼라 없는 재킷은 목 주변을 간결하게 만들어요. 라벤더를 넓지 않게 드러내고 검은 팬츠로 아래를 눌러주면, 색은 부드럽고 실루엣은 또렷해져요.",
+    "pullQuoteEn": "LET ONE COLOR BREATHE.",
+    "tipKo": "이너의 색을 보여줄 만큼만 재킷을 열어 입어요.",
+    "piecesLabel": "THE PIECES",
+    "carouselHintKo": "4 pieces · 옆으로 넘겨 보세요"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "초콜릿 칼라리스 재킷",
+      "descriptor": "chocolate brown collarless wool texture jacket",
+      "subtitleKo": "칼라 없는 목선 · 브라운",
+      "descriptionKo": "목 주변에 장식이 적어 이너 색이 잘 보여요. 단추를 모두 잠그기보다 위쪽을 자연스럽게 열어주세요.",
+      "image": "products/01-outer.png",
+      "altKo": "초콜릿 칼라리스 재킷 — 아이보리 바닥에 수직으로 촬영한 제품 플랫레이",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "페일 라벤더 니트",
+      "descriptor": "pale lavender fine crewneck knit long sleeves",
+      "subtitleKo": "연한 보라 · 얇은 조직",
+      "descriptionKo": "어두운 브라운에 예상 밖의 밝기를 더해요. 선명한 보라보다 회색이 섞인 라벤더가 잘 어울려요.",
+      "image": "products/02-top.png",
+      "altKo": "페일 라벤더 니트 — 아이보리 바닥에 수직으로 촬영한 제품 플랫레이",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 릴랙스 트라우저",
+      "descriptor": "black relaxed wide tailored trousers",
+      "subtitleKo": "편안한 통 · 검정",
+      "descriptionKo": "상체의 부드러운 배색을 검은 팬츠로 정리해요. 지나치게 좁은 핏보다 여유 있는 형태가 자연스러워요.",
+      "image": "products/03-bottom.png",
+      "altKo": "블랙 릴랙스 트라우저 — 아이보리 바닥에 수직으로 촬영한 제품 플랫레이",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "nameKo": "다크 브라운 더비",
+      "descriptor": "pair dark brown leather derby shoes",
+      "subtitleKo": "브라운 표면 · 레이스업",
+      "descriptionKo": "재킷의 브라운을 발끝에서 한 번 더 이어줘요. 색을 정확히 맞추기보다 짙은 계열로 묶으면 충분해요.",
+      "image": "products/04-shoes.png",
+      "altKo": "다크 브라운 더비 — 아이보리 바닥에 수직으로 촬영한 제품 플랫레이",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    }
+  ],
+  "contentType": "ai-styled-concept",
+  "productCount": 4
+}
