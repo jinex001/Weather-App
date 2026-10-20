@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>7 Days · Piece 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;600;700&display=swap">
+<style>
+  /* Prototype (2026-10-20): the calendar's 7 DAYS rows end with one product cut picked by that day's weather, instead of
+     EDITOR'S PICK. Real product cuts from look/outfits.js; the 7 days are made-up weather that hits every rule once.
+     ?v=a (piece at the end of the row) | ?v=b (piece on its own line under the row) · ?g=m|f */
+  :root { --bg: #F2C14E; --fg: #141414; --display: "Anton", "Noto Sans KR", sans-serif; --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font-family: var(--sans); letter-spacing: -.02em; -webkit-font-smoothing: antialiased; }
+  body.night { --bg: #1B2140; --fg: #F4F1E8; }
+  .page { max-width: 480px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 24px 60px; }
+  .k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .h { font-family: var(--display); font-size: 64px; line-height: .9; text-transform: uppercase; margin-top: 10px; letter-spacing: 0; }
+  .ctl { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
+  .ctl button { font: 700 11px var(--sans); letter-spacing: .05em; text-transform: uppercase; border: 0; border-radius: 16px; padding: 8px 12px;
+    background: color-mix(in srgb, var(--fg) 10%, transparent); color: var(--fg); cursor: pointer; }
+  .ctl button.on { background: var(--fg); color: var(--bg); }
+  .wk { padding: 14px 0 12px; }
+  .row { display: grid; grid-template-columns: 76px auto 1fr; align-items: center; gap: 14px; margin-top: 4px; }
+  .art { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .art svg { width: 56px; height: 44px; display: block; }
+  .cond { font-size: 12px; font-weight: 700; text-transform: uppercase; text-align: center; line-height: 1.1; }
+  .t { font-family: var(--display); font-size: 30px; letter-spacing: 0; white-space: nowrap; }
+  .t span { opacity: .45; margin-right: 5px; }
+  .d { display: flex; gap: 10px; margin-top: 4px; font-weight: 600; font-size: 12px; }
+  /* A: the piece ends the row, right-aligned like Editor's pick was */
+  .pc { justify-self: end; text-align: right; min-width: 0; max-width: 128px; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; padding: 0; cursor: pointer; }
+  .pc img, .pc .ph { display: block; width: 92px; height: 92px; margin-left: auto; object-fit: contain; background: #F3EFE8; }
+  .ph { display: flex !important; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; color: #141414; opacity: .55; text-transform: uppercase; letter-spacing: .05em; }
+  .pc .pk { font-size: 9.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; margin-top: 6px; }
+  .pc .pn { font-size: 12.5px; font-weight: 700; line-height: 1.2; margin-top: 2px; word-break: keep-all; }
+  /* B: the row as before (art · temps), the piece on its own line underneath */
+  .b .row { grid-template-columns: 76px 1fr; }
+  .line { display: none; grid-template-columns: 72px 1fr; gap: 14px; align-items: center; margin-top: 10px; }
+  .b .line { display: grid; }
+  .b .pc { display: none; }
+  .line img, .line .ph { width: 72px; height: 72px; object-fit: contain; background: #F3EFE8; display: block; }
+  .line .pk { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .line .pn { font-family: var(--display); font-size: 24px; line-height: .95; text-transform: uppercase; margin-top: 3px; letter-spacing: 0; }
+  html[lang="ko"] .line .pn { font-family: "Noto Sans KR", sans-serif; font-weight: 700; font-size: 18px; line-height: 1.2; letter-spacing: -.03em; }
+  .line .pw { font-size: 12px; font-weight: 500; margin-top: 3px; }
+  .why { font-size: 11px; font-weight: 500; margin-top: 3px; opacity: .8; }
+  .notes { margin-top: 34px; font-size: 13px; font-weight: 500; line-height: 1.6; }
+  .notes b { display: block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin: 18px 0 4px; }
+  .notes ul { margin: 0; padding-left: 18px; }
+</style>
+</head>
+<body>
+<main class="page" id="page"></main>
+<script src="../look/outfits.js"></script>
+<script>
+  var q = new URLSearchParams(location.search), V = q.get("v") === "b" ? "b" : "a", G = q.get("g") === "f" ? "f" : "m";
+  var LIB = window.WX_LOOKS;
+  var LABEL = { outer: "Outer", top: "Top", bottom: "Bottom", shorts: "Shorts", shoes: "Shoes", socks: "Socks", hands: "Gloves", gloves: "Gloves",
+                headwear: "Headwear", eyewear: "Eyewear", watch: "Watch", jewelry: "Jewelry", scarf: "Scarf", bag: "Bag", gear: "Gear", hosiery: "Tights" };
+  // every product cut from the overcast sets (the ones with 500×500 flat lays), for this gender
+  var POOL = [];
+  LIB.outfits.forEach(function (o) {
+    if (!o.article || o.gender !== G) return;
+    o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image) POOL.push(it); });
+  });
+  // gear (the running bottle) only exists in the women's set; it is unisex, so both genders may get it
+  LIB.outfits.forEach(function (o) { if (o.article && o.gender !== G) o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.cat === "gear") POOL.push(it); }); });
+
+  // Made-up 7 days from tomorrow: each one hits a different rule
+  var DAYS = [
+    { n: "내일 · 10월 21일", c: "rain", cond: "비", lo: 8, hi: 12, f: 6, p: 70, w: 18 },
+    { n: "목요일 · 10월 22일", c: "sun", cond: "맑음", lo: 14, hi: 22, f: 21, p: 0, w: 9 },
+    { n: "금요일 · 10월 23일", c: "sun", cond: "맑음", lo: 22, hi: 31, f: 32, p: 5, w: 7 },
+    { n: "토요일 · 10월 24일", c: "snow", cond: "눈", lo: -3, hi: 1, f: -6, p: 80, w: 14 },
+    { n: "일요일 · 10월 25일", c: "sun", cond: "맑음", lo: -1, hi: 4, f: -4, p: 0, w: 36 },
+    { n: "월요일 · 10월 26일", c: "cloud", cond: "흐림", lo: 9, hi: 15, f: 13, p: 20, w: 12 },
+    { n: "화요일 · 10월 27일", c: "sun", cond: "맑음", lo: -12, hi: -6, f: -15, p: 0, w: 10 }
+  ];
+  // Rules, first match wins: [test, [[category, name pattern], …], reason]. A slot with no product cut yet shows an empty square
+  // with what it should be (so the missing shots are visible).
+  var RULES = [
+    [function (d) { return d.c === "snow"; }, [["shoes", /부츠/], ["headwear", /비니/]], "눈 · 미끄럽지 않은 부츠나 비니"],
+    [function (d) { return d.p >= 50; }, [["outer", /셸|파카|트렌치|아노락|윈드/], ["MISSING", "우산"]], "비 {p}% · 비를 막는 겉옷"],
+    [function (d) { return d.f <= -10; }, [["headwear", /비니/], ["hands", /./], ["gloves", /./], ["scarf", /./]], "체감 {f}° · 머리와 손부터"],
+    [function (d) { return d.w >= 30; }, [["scarf", /./], ["outer", /윈드|셸/]], "바람 {w}km/h · 목부터 감싸기"],
+    [function (d) { return d.f <= 0; }, [["outer", /코트|파카|퀼팅|시어링|봄버|피코트|레더/], ["scarf", /./]], "체감 {f}° · 두꺼운 겉옷"],
+    [function (d) { return d.f >= 29; }, [["shorts", /./], ["headwear", /캡/], ["gear", /보틀/], ["MISSING", "반팔 티"], ["MISSING", "나시"], ["MISSING", "선글라스"]], "체감 {f}° · 가볍게, 물은 꼭"],
+    [function (d) { return d.c === "sun" && d.f >= 18; }, [["MISSING", "선글라스"], ["headwear", /캡/]], "맑음 · 햇빛 가리기"],
+    [function (d) { return d.f <= 9; }, [["outer", /재킷|트렌치|코트|봄버/]], "체감 {f}° · 겉옷 한 겹"],
+    [function (d) { return d.f <= 17; }, [["top", /니트|스웨트|후디|터틀넥|카디건/], ["outer", /카디건|셔츠|오버셔츠/]], "체감 {f}° · 니트 한 장"],
+    [function () { return true; }, [["shoes", /스니커즈|러너|로퍼/], ["top", /./]], "가볍게"]
+  ];
+  function fill(s, d) { return s.replace("{p}", d.p).replace("{f}", d.f).replace("{w}", d.w); }
+  function pick(d) {
+    for (var i = 0; i < RULES.length; i++) {
+      if (!RULES[i][0](d)) continue;
+      // every product (and every missing slot) that fits the rule goes into one bag, one of them is drawn at random
+      var bag = [];
+      RULES[i][1].forEach(function (s) {
+        if (s[0] === "MISSING") bag.push({ missing: s[1] });
+        else POOL.forEach(function (it) { if (it.cat === s[0] && s[1].test(it.name.ko) && bag.indexOf(it) < 0) bag.push(it); });
+      });
+      if (bag.length) return { it: bag[Math.floor(Math.random() * bag.length)], why: fill(RULES[i][2], d) };
+    }
+  }
+  var ICON = {
+    sun: '<svg viewBox="0 0 56 44"><circle cx="28" cy="22" r="11" fill="#E8621C"/><g stroke="#E8621C" stroke-width="3" stroke-linecap="round"><path d="M28 3v5M28 36v5M9 22h5M42 22h5M15 9l3.5 3.5M37.5 31.5L41 35M15 35l3.5-3.5M37.5 12.5L41 9"/></g></svg>',
+    cloud: '<svg viewBox="0 0 56 44"><path d="M16 36h26a9 9 0 0 0 0-18 13 13 0 0 0-25-2 10 10 0 0 0-1 20z" fill="#EDE8DF"/></svg>',
+    rain: '<svg viewBox="0 0 56 44"><path d="M16 28h26a8 8 0 0 0 0-16 12 12 0 0 0-23-2 9 9 0 0 0-3 18z" fill="#EDE8DF"/><g stroke="#4F5D6B" stroke-width="3" stroke-linecap="round"><path d="M20 33l-2 6M29 33l-2 6M38 33l-2 6"/></g></svg>',
+    snow: '<svg viewBox="0 0 56 44"><path d="M16 28h26a8 8 0 0 0 0-16 12 12 0 0 0-23-2 9 9 0 0 0-3 18z" fill="#EDE8DF"/><g fill="#5C7A99"><circle cx="20" cy="36" r="2.4"/><circle cx="29" cy="39" r="2.4"/><circle cx="38" cy="36" r="2.4"/></g></svg>'
+  };
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  function render() {
+    document.body.className = (V === "b" ? "b" : "") + (q.get("bg") === "night" ? " night" : "");
+    var rows = DAYS.map(function (d) {
+      var r = pick(d), it = r.it;
+      var img = it.missing ? '<div class="ph">' + esc(it.missing) + "<br>사진 없음</div>" : '<img src="../' + it.image + '" alt="' + esc(it.alt || it.name.ko) + '">';
+      var cat = it.missing ? "Need" : LABEL[it.cat] || it.cat, name = it.missing ? it.missing : it.name.ko;
+      return '<div class="wk"><div class="k">' + d.n + "</div>" +
+        '<div class="row"><div class="art">' + ICON[d.c] + '<div class="cond">' + d.cond + "</div></div>" +
+        '<div><div class="t"><span>' + d.lo + "°</span>" + d.hi + '°</div><div class="d"><span>' + d.p + "%</span><span>" + d.w + " km/h</span></div></div>" +
+        '<button class="pc" type="button">' + img + '<div class="pk">' + esc(cat) + '</div><div class="pn">' + esc(name) + '</div><div class="why">' + esc(r.why) + "</div></button></div>" +
+        '<div class="line">' + img + '<div><div class="pk">' + esc(cat) + " · " + esc(r.why) + '</div><div class="pn">' + esc(name) + "</div></div></div></div>";
+    }).join("");
+    document.getElementById("page").innerHTML =
+      '<div class="k">앞으로 7일 · 베를린</div><div class="h">7 Days</div>' +
+      '<div class="ctl">' +
+        '<button data-k="v" data-x="a" class="' + (V === "a" ? "on" : "") + '">A · 줄 끝</button>' +
+        '<button data-k="v" data-x="b" class="' + (V === "b" ? "on" : "") + '">B · 아래 줄</button>' +
+        '<button data-k="g" data-x="m" class="' + (G === "m" ? "on" : "") + '">남성</button>' +
+        '<button data-k="g" data-x="f" class="' + (G === "f" ? "on" : "") + '">여성</button>' +
+        '<button data-k="r">다시 뽑기</button></div>' + rows +
+      '<div class="notes"><b>고르는 규칙 (위에서 먼저 맞는 것)</b><ul>' +
+        "<li>눈 → 부츠 · 비니</li><li>비 50%↑ → 셸·파카·트렌치 (우산 컷 필요)</li><li>체감 -10° 이하 → 비니 · 장갑 · 머플러</li>" +
+        "<li>바람 30km/h↑ → 머플러 · 윈드 재킷</li><li>체감 0° 이하 → 코트·파카·시어링 · 머플러</li>" +
+        "<li>체감 29°↑ → 쇼츠 · 캡 · 물병 (반팔·나시·선글라스 컷 필요)</li><li>맑고 체감 18°↑ → 선글라스(필요) · 캡</li>" +
+        "<li>체감 1–9° → 재킷·코트</li><li>체감 10–17° → 니트·카디건</li><li>그 외 → 스니커즈 · 상의</li></ul>" +
+        "<b>아직 없는 제품 컷</b>선글라스, 반팔 티, 나시, 우산 (지금 컷은 모두 쌀쌀한 흐린 날 세트에서 나와서 더운 날·비 오는 날 물건이 없어요)." +
+        "<b>누르면</b>시안에선 아무 일 없음. 실제로는 그 제품이 들어 있는 룩의 Today's Look 시트로.</div>";
+    [].forEach.call(document.querySelectorAll(".ctl button"), function (b) {
+      b.onclick = function () {
+        var k = b.getAttribute("data-k");
+        if (k === "v") V = b.getAttribute("data-x");
+        if (k === "g") { G = b.getAttribute("data-x"); POOL = []; LIB.outfits.forEach(function (o) { if (o.article && (o.gender === G)) o.items.forEach(function (x) { var it = LIB.items[x]; if (it && it.image) POOL.push(it); }); if (o.article) o.items.forEach(function (x) { var it = LIB.items[x]; if (it && it.cat === "gear" && POOL.indexOf(it) < 0) POOL.push(it); }); }); }
+        history.replaceState(null, "", "?v=" + V + "&g=" + G);
+        render();
+      };
+    });
+  }
+  render();
+</script>
+</body>
+</html>
