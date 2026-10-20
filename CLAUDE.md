@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-20, 빌드 b105)
+## 현재 상태 (2026-10-20, 빌드 b106)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자(b77) + 날씨 요약(b59), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -115,6 +115,7 @@
 - b104: **흐린 날 여성 저녁 세트**(사용자가 GitHub `Overcast/Chilly/Female/35+/night/`에 올림, PNG → JPG만 저장): 01–08(러닝 5 · 스트리트 3) → `outfits.js` 8룩 `ofn-NN-<스타일>-f`(쌀쌀함 · cloudy · 여성 · 35+ · `time: "evening"`) + 53아이템, 한국어는 products.json, en/de 새로 번역(번역 `scratchpad`의 ofn_tr.py 형식, 저녁 세트엔 tip·subtitle 없음). **09–15는 남성 낮 세트(`Male/35+/day/09–15`)와 같은 파일이 잘못 들어와 있어 맵핑 안 함**(사용자 요청으로 09–15 폴더 지움, 다시 올릴 예정; 같은 폴더의 index.json·README.md·VALIDATION.json도 남성 세트 것). 흐린 저녁 여성 미니멀은 아직 없어 맑은 날 저녁 미니멀(bn15)로 채워짐. 98룩 · 499아이템.
 - b105: (1) 흐린 날 여성 저녁 09–15(사용자가 다시 올림, 스트리트 2 · 미니멀 5) PNG → JPG, `ofn-NN-<스타일>-f` 7룩 + 42아이템(ko는 products.json, en/de 새로 번역). 흐린 저녁 여성 세트 15룩 완성, 105룩 · 541아이템. (2) **공통 글라스**(사용자가 Figma Glass 효과 값 줌: Light -45° 80%, Refraction 80, Depth 20, Dispersion 50, Frost 49, Splay 0): `:root`의 `--glass-fill` 흰색 50% · `--glass-blur` blur(24px)(Frost 49) · `--glass-light` 안쪽 빛(왼쪽 위 밝은 가장자리 .8, 오른쪽 아래 .2, 안쪽 20px 은은한 빛 = Light·Depth), 클래스 `.glass`. Today's Look 시트(디테일 화면)와 하단 메뉴에 같이 씀(예전 메뉴 .6 + saturate 없앰). Refraction·Dispersion(빛 굴절·색 번짐)은 Safari CSS로 못 해서 뺌. 시트가 열리면 뒤 화면도 blur(10px)(backdrop 블러가 화면 끝에서 멈춰 맨 위 글자가 비치던 것 막음). b103 불투명 흰색은 끝, 날씨 색이 은은하게 비침. 앞으로 글라스는 이 값만.
 - 문서 정리(2026-10-20, 앱 빌드 변화 없음, 사용자 요청): `design/design-system.md`를 지금 코드에 맞게 다시 씀(공통 컴포넌트 장 신설: 글라스·알약·하단 메뉴·닫기 바, 메인 화면 b77 오늘의 룩·b59 요약, Today's Look b95–b105 구조, 캘린더, 사진·콘텐츠 규칙). `tokens.json` v4(예전 시트 단계 색 `look-*` 지움, `glass-fill`·`product-ground`·`alert` 추가, 룩 기사 글꼴·카드·사진 크기·페이드 추가, `summary`·`icon-person` 값 고침, `rule`은 안 씀). `look-library.md` 다시 씀(105룩 표, 기사 필드, 3개 랜덤 규칙, 폴더·JPG 규칙). README, 이 파일의 화면 구조·Today's Look 설명도 고침.
+- b106: 캘린더 7 DAYS를 **내일부터 7일**로(사용자 요청, 오늘은 홈에 있으니). daily 인덱스 1–7(`forecast_days=8`), 첫 칸 라벨 "내일"(en Tomorrow · de Morgen, `NV.tmr`). EDITOR'S PICK 시트는 그날 인덱스 그대로. THIS MONTH는 그대로(오늘 표시 포함).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.

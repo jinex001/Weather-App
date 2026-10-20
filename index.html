@@ -446,7 +446,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b105"></script>
+<script src="look/outfits.js?v=b106"></script>
 <script>
 (function () {
   "use strict";
@@ -600,17 +600,17 @@
   }
   // Bottom menu and its pages (b88)
   var NV = {
-    en: { home: "Home", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", week: "Next 7 days",
+    en: { home: "Home", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", tmr: "Tomorrow", week: "Next 7 days",
           noAlerts: "No weather warnings for this area right now.", outside: "Weather warnings come from the German Weather Service (DWD) and are only available in Germany.",
           alertsK: "Weather warnings", until: "until", loc: "Location", locBerlin: "Berlin", locGps: "Current location", change: "Change",
           profile: "Today's Look profile", edit: "Edit", lang: "Language", langV: "English (device)", units: "Units", src: "Data", ver: "Version",
           sev: { minor: "Minor", moderate: "Moderate", severe: "Severe", extreme: "Extreme" } },
-    de: { home: "Start", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", week: "Nächste 7 Tage",
+    de: { home: "Start", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
           noAlerts: "Für diese Gegend gibt es gerade keine Unwetterwarnung.", outside: "Unwetterwarnungen kommen vom Deutschen Wetterdienst (DWD) und gibt es nur für Deutschland.",
           alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", locBerlin: "Berlin", locGps: "Aktueller Standort", change: "Ändern",
           profile: "Profil für Today's Look", edit: "Ändern", lang: "Sprache", langV: "Deutsch (Gerät)", units: "Einheiten", src: "Daten", ver: "Version",
           sev: { minor: "Wetterwarnung", moderate: "Markante Warnung", severe: "Unwetter", extreme: "Extremes Unwetter" } },
-    ko: { home: "홈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", week: "앞으로 7일",
+    ko: { home: "홈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
           noAlerts: "지금 이 지역에 기상 경보가 없어요.", outside: "기상 경보는 독일 기상청(DWD) 자료라 독일 안에서만 볼 수 있어요.",
           alertsK: "기상 경보", until: "까지", loc: "위치", locBerlin: "베를린", locGps: "현재 위치", change: "바꾸기",
           profile: "Today's Look 프로필", edit: "수정", lang: "언어", langV: "한국어 (기기 언어)", units: "단위", src: "데이터", ver: "버전",
@@ -757,7 +757,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b105";
+  var BUILD = "b106";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1577,7 +1577,7 @@
   function wind3(v) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true">' + WIND_LINES[v >= 30 ? 2 : v >= 20 ? 1 : 0] + "</svg>"; }
   function dayName(iso, i) {
     var d = new Date(iso + "T12:00:00Z");
-    return { n: i === 0 ? NV.today : new Intl.DateTimeFormat(LOCALE, { weekday: "long", timeZone: "UTC" }).format(d),
+    return { n: i === 0 ? NV.today : i === 1 ? NV.tmr : new Intl.DateTimeFormat(LOCALE, { weekday: "long", timeZone: "UTC" }).format(d),
              d: new Intl.DateTimeFormat(LOCALE, { day: "numeric", month: "short", timeZone: "UTC" }).format(d) };
   }
   function whenText(iso) {
@@ -1599,8 +1599,9 @@
     var D = data.daily, city = place.gps ? T.here : T.berlin;
     // Calendar (b93): two Anton titles as tabs, "7 Days" and "This month" (the other one a tone lighter)
     // Each day: date label / art · condition · rain and wind · low/high / that day's look (band headline + photo when one fits)
+    // b106: the 7 days start tomorrow (today is the home screen); forecast_days=8 gives indices 1–7
     var prof = load("wx-profile") || {}, rows = "";
-    for (var i = 0; i < 7 && i < D.time.length; i++) {
+    for (var i = 1; i < 8 && i < D.time.length; i++) {
       var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null, lk = dayLook(D, i, prof);
       // condition sits on the art as a layer (like the home condition over the temperature); the recommended look ends the line
       rows += '<div class="wk"><div class="wk-k">' + esc(dn.n) + " · " + esc(dn.d) + "</div>" +
