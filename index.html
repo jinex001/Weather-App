@@ -207,6 +207,58 @@
   .status { font-family: var(--mono); font-weight: 500; font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
   [hidden] { display: none !important; }
 
+  /* Bottom menu (b88): a glass pill like the Today's Look sheet with the group switcher's ink pill for the open tab.
+     Scrolling down shrinks it to icons only; scrolling up (or reaching the top) brings it back. */
+  .app, .page { padding-bottom: calc(env(safe-area-inset-bottom) + 112px); }
+  .tabbar {
+    position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
+    display: flex; gap: 2px; padding: 5px; border-radius: 34px;
+    width: min(calc(100% - 32px), 400px); transform: translateX(-50%); transform-origin: 50% 100%;
+    background: rgba(255,255,255,.6); -webkit-backdrop-filter: blur(20px) saturate(1.6); backdrop-filter: blur(20px) saturate(1.6);
+    color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), width .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease;
+  }
+  .tabbar button {
+    position: relative; flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+    padding: 9px 4px 8px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
+    font: 700 10.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; white-space: nowrap;
+    transition: padding .3s cubic-bezier(.2,.8,.2,1), background-color .2s ease, color .2s ease;
+  }
+  .tabbar button.on { background: #141414; color: #FFFFFF; }
+  .tabbar svg { width: 22px; height: 22px; flex: none; }
+  .tabbar .tab-l { display: block; max-height: 14px; line-height: 14px; overflow: hidden; transition: max-height .3s ease, opacity .2s ease; }
+  .tabbar .tab-dot { position: absolute; top: 7px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
+  .tabbar.mini { width: min(calc(100% - 32px), 236px); }
+  .tabbar.mini button { padding: 9px 4px; }
+  .tabbar.mini .tab-l { max-height: 0; opacity: 0; }
+  body.look-open .tabbar { opacity: 0; pointer-events: none; }
+  @media (prefers-reduced-motion: reduce) { .tabbar, .tabbar button, .tabbar .tab-l { transition: none; } }
+
+  /* Calendar · Alerts · Settings pages: same screen color as home, magazine type, no lines or cards */
+  .page { max-width: 480px; margin: 0 auto; min-height: 100dvh; padding-top: calc(env(safe-area-inset-top) + 20px); padding-left: 24px; padding-right: 24px; }
+  .pg-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .pg-h { font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; margin-top: 10px; }
+  .pg-list { margin-top: 26px; }
+  .day { display: grid; grid-template-columns: 1fr 22px 46px 50px 78px; align-items: center; gap: 6px; padding: 11px 0; }
+  .day-n { font-size: 16px; font-weight: 700; line-height: 1.15; }
+  .day-n small { display: block; font-family: var(--mono); font-size: 11px; font-weight: 500; }
+  .day svg { display: block; }
+  .day-p, .day-w { font-family: var(--mono); font-weight: 600; font-size: 12px; }
+  .day-w { display: flex; align-items: center; gap: 3px; }
+  .day-w svg { width: 13px; height: 13px; flex: none; }
+  .day-t { font-family: var(--display); font-size: 22px; letter-spacing: 0; text-align: right; white-space: nowrap; }
+  .day-t span { opacity: .55; }
+  .al { padding: 14px 0; }
+  .al-k { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+  .al-h { font-size: 20px; font-weight: 700; line-height: 1.25; margin-top: 4px; }
+  .al-t { font-family: var(--mono); font-size: 11px; font-weight: 500; margin-top: 4px; }
+  .al-d { font-size: 14px; font-weight: 500; line-height: 1.5; margin-top: 8px; }
+  .pg-note { font-size: 16px; font-weight: 700; line-height: 1.5; margin-top: 22px; }
+  .pg-src { font-family: var(--mono); font-size: 10px; font-weight: 500; margin-top: 24px; opacity: .8; }
+  .set { display: flex; justify-content: space-between; align-items: center; gap: 12px; width: 100%; padding: 13px 0; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; text-align: left; }
+  button.set { cursor: pointer; }
+  .set-v { display: block; font-size: 18px; font-weight: 700; margin-top: 2px; }
+  .set-a { flex: none; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+
   /* Today's Look sheet (opens from the feels-like block) */
   .look {
     position: fixed; inset: 0; z-index: 10; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
@@ -321,13 +373,24 @@
   <div class="status" id="status"></div>
 </main>
 
+<section class="page" id="pg-cal" hidden></section>
+<section class="page" id="pg-set" hidden></section>
+<section class="page" id="pg-alert" hidden></section>
+
+<nav class="tabbar" id="tabbar" aria-label="Menu">
+  <button type="button" data-tab="home" class="on" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l9.5 7.6V21h-6.5v-6h-6v6H2.5V10.4z" fill="currentColor"/></svg><span class="tab-l" id="tl-home"></span></button>
+  <button type="button" data-tab="cal"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M7 2h2.4v2h5.2V2H17v2h3.5v17h-17V4H7zM5.8 9.5v9.2h12.4V9.5z"/></svg><span class="tab-l" id="tl-cal"></span></button>
+  <button type="button" data-tab="set"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 17h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="8.5" cy="7" r="3.4" fill="currentColor"/><circle cx="15.5" cy="17" r="3.4" fill="currentColor"/></svg><span class="tab-l" id="tl-set"></span></button>
+  <button type="button" data-tab="alert"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 2.2l10.6 19.3H1.4zM10.8 9h2.4v6.2h-2.4zM12 16.6a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/></svg><span class="tab-l" id="tl-alert"></span><span class="tab-dot" id="tab-dot" hidden></span></button>
+</nav>
+
 <section class="look" id="look" role="dialog" aria-modal="true" aria-label="Today's Look" hidden>
   <button class="lk-grab" id="lk-grab" type="button" aria-label="Close"></button>
   <div class="lk-mast" id="lk-mast"></div>
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b87"></script>
+<script src="look/outfits.js?v=b88"></script>
 <script>
 (function () {
   "use strict";
@@ -479,6 +542,25 @@
     if (isOvercast(c) && isDay) return "overcast";
     return isDay ? "sun" : "night";
   }
+  // Bottom menu and its pages (b88)
+  var NV = {
+    en: { home: "Home", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", week: "Next 7 days",
+          noAlerts: "No weather warnings for this area right now.", outside: "Weather warnings come from the German Weather Service (DWD) and are only available in Germany.",
+          alertsK: "Weather warnings", until: "until", loc: "Location", locBerlin: "Berlin", locGps: "Current location", change: "Change",
+          profile: "Today's Look profile", edit: "Edit", lang: "Language", langV: "English (device)", units: "Units", src: "Data", ver: "Version",
+          sev: { minor: "Minor", moderate: "Moderate", severe: "Severe", extreme: "Extreme" } },
+    de: { home: "Start", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", week: "Nächste 7 Tage",
+          noAlerts: "Für diese Gegend gibt es gerade keine Unwetterwarnung.", outside: "Unwetterwarnungen kommen vom Deutschen Wetterdienst (DWD) und gibt es nur für Deutschland.",
+          alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", locBerlin: "Berlin", locGps: "Aktueller Standort", change: "Ändern",
+          profile: "Profil für Today's Look", edit: "Ändern", lang: "Sprache", langV: "Deutsch (Gerät)", units: "Einheiten", src: "Daten", ver: "Version",
+          sev: { minor: "Wetterwarnung", moderate: "Markante Warnung", severe: "Unwetter", extreme: "Extremes Unwetter" } },
+    ko: { home: "홈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", week: "앞으로 7일",
+          noAlerts: "지금 이 지역에 기상 경보가 없어요.", outside: "기상 경보는 독일 기상청(DWD) 자료라 독일 안에서만 볼 수 있어요.",
+          alertsK: "기상 경보", until: "까지", loc: "위치", locBerlin: "베를린", locGps: "현재 위치", change: "바꾸기",
+          profile: "Today's Look 프로필", edit: "수정", lang: "언어", langV: "한국어 (기기 언어)", units: "단위", src: "데이터", ver: "버전",
+          sev: { minor: "주의", moderate: "경고", severe: "위험", extreme: "매우 위험" } }
+  }[LANG];
+
   var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#A9B1B9" };
   // Overcast days: background by measured daylight, ≥200 W/m² bright · 60–200 normal · <60 dim (thick cloud, winter, near sunrise/sunset)
   var OVERCAST_LIGHT = { bright: "#A3A091", normal: "#959B9E", dim: "#948B82" };
@@ -613,7 +695,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b87";
+  var BUILD = "b88";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1173,7 +1255,7 @@
             icon(H.weather_code[x], H.is_day[x] === 0) + '<div class="hour-v">' + r(H.temperature_2m[x]) + "°</div>" +
             windCell(H.wind_speed_10m && H.wind_speed_10m[x]) +
             '<div class="hour-pb"><div class="hour-bar" style="height:' + Math.max(3, Math.round(pp / pTop * 32)) + 'px"></div></div>' +
-            '<div class="hour-p">' + (pp >= 20 ? pp + "%" : "-") + "</div></div>";
+            '<div class="hour-p">' + pp + "%" + "</div></div>";
     }
     $("hours").innerHTML = hh;
     $("hours").scrollLeft = 0;
@@ -1192,6 +1274,7 @@
       updated: new Date(data._fetched).toTimeString().slice(0, 5)
     };
     paintPeek();
+    paintPages(data);
     if (lookOpen) openLook();
 
     var when = new Date(data._fetched).toTimeString().slice(0, 5);
@@ -1256,7 +1339,7 @@
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,cloud_cover" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
-      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
   }
@@ -1296,8 +1379,13 @@
     var metReq = fetch("https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=" + (+place.lat).toFixed(4) + "&lon=" + (+place.lon).toFixed(4))
       .then(function (res) { return res.ok ? res.json() : null; })
       .catch(function () { return null; });
+    // DWD weather warnings for this spot via Bright Sky (Germany only; optional)
+    var alertReq = fetch("https://api.brightsky.dev/alerts?lat=" + place.lat + "&lon=" + place.lon, { cache: "no-store" })
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .catch(function () { return null; });
     fetch(url(place), { cache: "no-store" })
       .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+      .then(function (data) { return alertReq.then(function (a) { if (a && Array.isArray(a.alerts)) data.alerts = { inGermany: !!a.location, list: a.alerts }; return data; }); })
       .then(function (data) { return obsReq.then(function (bs) { if (bs && bs.weather) data.obs = bs.weather; return data; }); })
       .then(function (data) { return metReq.then(function (met) { if (met && met.properties && met.properties.timeseries) data.met = { properties: { timeseries: met.properties.timeseries.slice(0, 4) } }; return data; }); })
       .then(function (data) {
@@ -1357,14 +1445,101 @@
     });
   })();
 
+  // ── Bottom menu & pages (b88) ──
+  var tab = "home";
+  function wind3(v) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true">' + WIND_LINES[v >= 30 ? 2 : v >= 20 ? 1 : 0] + "</svg>"; }
+  function dayName(iso, i) {
+    var d = new Date(iso + "T12:00:00Z");
+    return { n: i === 0 ? NV.today : new Intl.DateTimeFormat(LOCALE, { weekday: "long", timeZone: "UTC" }).format(d),
+             d: new Intl.DateTimeFormat(LOCALE, { day: "numeric", month: "short", timeZone: "UTC" }).format(d) };
+  }
+  function whenText(iso) {
+    return new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).format(new Date(iso));
+  }
+  function paintPages(data) {
+    if (!data || !data.daily) return;
+    var D = data.daily, city = place.gps ? T.here : T.berlin;
+    // Calendar: the next 7 days, one row each (day · icon · rain chance · strongest wind · low/high)
+    var rows = "";
+    for (var i = 0; i < 7 && i < D.time.length; i++) {
+      var dn = dayName(D.time[i], i), w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
+      rows += '<div class="day"><div class="day-n">' + esc(dn.n) + "<small>" + esc(dn.d) + "</small></div>" + icon(D.weather_code[i], false) +
+        '<div class="day-p">' + (D.precipitation_probability_max[i] || 0) + "%</div>" +
+        '<div class="day-w">' + (w === null ? "" : wind3(w) + w) + "</div>" +
+        '<div class="day-t"><span>' + r(D.temperature_2m_min[i]) + "°</span> " + r(D.temperature_2m_max[i]) + "°</div></div>";
+    }
+    $("pg-cal").innerHTML = '<div class="pg-k">' + esc(NV.week) + " · " + esc(city) + '</div><div class="pg-h">This week</div><div class="pg-list">' + rows + "</div>";
+
+    // Alerts: DWD warnings (Bright Sky), newest first; the menu gets a red dot while any are active
+    var A = data.alerts, list = A && A.list ? A.list.filter(function (a) { return !a.expires || new Date(a.expires) > new Date(); }) : [];
+    var body;
+    if (list.length) {
+      body = '<div class="pg-list">' + list.map(function (a) {
+        var head = LANG === "de" ? a.headline_de || a.event_de : a.headline_en || a.event_en || a.headline_de;
+        var desc = LANG === "de" ? a.description_de : a.description_en || a.description_de;
+        return '<div class="al"><div class="al-k">' + esc(NV.sev[a.severity] || a.severity || "") + '</div><div class="al-h">' + esc(head || "") + "</div>" +
+          '<div class="al-t">' + (a.onset ? esc(whenText(a.onset)) : "") + (a.expires ? " – " + esc(whenText(a.expires)) : "") + "</div>" +
+          (desc ? '<div class="al-d">' + esc(desc) + "</div>" : "") + "</div>";
+      }).join("") + "</div>";
+    } else {
+      body = '<div class="pg-note">' + esc(A && !A.inGermany ? NV.outside : NV.noAlerts) + "</div>";
+    }
+    $("pg-alert").innerHTML = '<div class="pg-k">' + esc(NV.alertsK) + " · " + esc(city) + '</div><div class="pg-h">' + (list.length ? "Heads up" : "All clear") + "</div>" + body +
+      '<div class="pg-src">DWD · Bright Sky</div>';
+    $("tab-dot").hidden = !list.length;
+    paintSettings();
+  }
+  function paintSettings() {
+    var pr = load("wx-profile") || {}, prof = QKEYS.slice(0, 2).map(function (q, qi) { var k = q[2].indexOf(pr[q[0]]); return k < 0 ? null : LT.o[qi][k]; })
+      .filter(Boolean).join(" · ") || "–";
+    $("pg-set").innerHTML = '<div class="pg-k">' + esc(NV.set) + '</div><div class="pg-h">Settings</div><div class="pg-list">' +
+      '<button class="set" type="button" id="set-loc"><span><span class="pg-k">' + esc(NV.loc) + '</span><span class="set-v">' + esc(place.gps ? NV.locGps : NV.locBerlin) + '</span></span><span class="set-a">' + esc(NV.change) + "</span></button>" +
+      '<button class="set" type="button" id="set-prof"><span><span class="pg-k">' + esc(NV.profile) + '</span><span class="set-v">' + esc(prof) + '</span></span><span class="set-a">' + esc(NV.edit) + "</span></button>" +
+      '<div class="set"><span><span class="pg-k">' + esc(NV.lang) + '</span><span class="set-v">' + esc(NV.langV) + "</span></span></div>" +
+      '<div class="set"><span><span class="pg-k">' + esc(NV.units) + '</span><span class="set-v">°C · km/h</span></span></div>' +
+      '<div class="set"><span><span class="pg-k">' + esc(NV.src) + '</span><span class="set-v">Open-Meteo · DWD · MET Norway</span></span></div>' +
+      '<div class="set"><span><span class="pg-k">' + esc(NV.ver) + '</span><span class="set-v">' + BUILD + "</span></span></div></div>";
+    $("set-loc").addEventListener("click", function () { switchPlace(); });
+    $("set-prof").addEventListener("click", function () { openLook(); if (lookOpen) paintLook(true); });
+  }
+  function showTab(t) {
+    tab = t;
+    $("tabbar").querySelectorAll("button").forEach(function (b) {
+      var on = b.getAttribute("data-tab") === t;
+      b.classList.toggle("on", on);
+      if (on) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+    });
+    document.querySelector(".app").hidden = t !== "home";
+    $("pg-cal").hidden = t !== "cal"; $("pg-set").hidden = t !== "set"; $("pg-alert").hidden = t !== "alert";
+    if (t !== "home") paintPages(load("wx-data"));
+    window.scrollTo(0, 0);
+    $("tabbar").classList.remove("mini");
+  }
+  ["home", "cal", "set", "alert"].forEach(function (k) { $("tl-" + k).textContent = NV[k]; });
+  $("tabbar").querySelectorAll("button").forEach(function (b) {
+    b.setAttribute("aria-label", NV[b.getAttribute("data-tab")]);
+    b.addEventListener("click", function () { showTab(b.getAttribute("data-tab")); });
+  });
+  // Instagram-style: scrolling down shrinks the menu to icons, scrolling up (or the top of the page) restores it
+  (function () {
+    var lastY = window.scrollY, bar = $("tabbar");
+    window.addEventListener("scroll", function () {
+      var y = window.scrollY, dy = y - lastY;
+      if (y < 24) bar.classList.remove("mini");
+      else if (dy > 6) bar.classList.add("mini");
+      else if (dy < -6) bar.classList.remove("mini");
+      if (Math.abs(dy) > 6 || y < 24) lastY = y;
+    }, { passive: true });
+  })();
+
   function switchPlace() {
     if (place.gps) {
-      place = BERLIN; store("wx-place", place); updateLocButton(); refresh(); return;
+      place = BERLIN; store("wx-place", place); updateLocButton(); paintSettings(); refresh(); return;
     }
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(function (pos) {
       place = { lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true };
-      store("wx-place", place); updateLocButton(); refresh();
+      store("wx-place", place); updateLocButton(); paintSettings(); refresh();
     }, function () {}, { maximumAge: 600000, timeout: 10000 });
   }
   $("city").addEventListener("click", switchPlace);

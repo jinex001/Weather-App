@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-20, 빌드 b87)
+## 현재 상태 (2026-10-20, 빌드 b88)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록, 체감 블록과 요약 사이 오늘의 룩 글자(b77), 24시간 예보, **Today's Look**(룩 라이브러리 `look/outfits.js`를 스타일 안에서 가로로 넘김 + 아이템 탐색·저장, 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -92,6 +92,7 @@
 - b85: 여성 낮 러닝 사진 4장(사용자가 채팅으로 줌, 맑은 날·쌀쌀함)을 새 `Female/35+/day/01–04-running.jpg`에 → `bd15-0N-run-f`. 사용자가 GitHub `Male/35+/day/`에 올린 05–15(러닝 1·스트리트 5·미니멀 5) PNG → JPG, `bd15-NN-<스타일>-m`. 아이템·한 줄 요약은 사진 보고 씀(ko/en/de). 기존 낮 사진(`Male/35+/`, `Female/35+/` 바로 아래 15장씩)은 그대로, day 룩은 그 뒤에 붙음. 79룩 · 355아이템.
 - b86: 낮 사진은 `day/`만(사용자 요청): `Male/35+/`·`Female/35+/` 바로 아래 예전 15장씩과 룩 `bm15-*`(b71·b73) 지움. 여성 `Female/35+/day/` 05–15(사용자가 GitHub에 올림, 러닝 1·스트리트 5·미니멀 5) PNG → JPG, `bd15-NN-<스타일>-f`, 아이템·한 줄 요약 사진 보고 씀(ko/en/de). 이제 남녀 × 낮(day/)·저녁(night/) × 3스타일 각 5룩, 60룩 · 271아이템.
 - b87: 24시간 예보 칸에 **바람**(사용자가 시안 3번 중 1 선택): 기온과 강수확률 막대 사이, 바람 아이콘 13px + km/h 숫자(Poppins 600 11px, 화면 글자색, 흐리게 하지 않음). 세기는 아이콘 줄 수로만: 1줄 <20 · 2줄 20–29 · 3줄 ≥30 km/h(반올림한 표시값 기준, 30은 사람 아이콘 바람 효과 기준과 같음). Open-Meteo hourly에 `wind_speed_10m` 추가(예전 캐시엔 없으면 바람 줄 생략). `windCell()`.
+- b88: (사용자 요청) 24시간 예보 강수확률은 "-" 없이 항상 숫자(0%). 위젯 large 아래를 12시간 막대 → 다음 6시간 칸(시각 · 바람 아이콘 줄 1·2·3 + km/h · 강수 막대 + %)으로, 위젯 hourly에 `wind_speed_10m`(위젯은 Scriptable에 다시 붙여넣어야 반영, Node 가짜 Scriptable로만 확인). **하단 메뉴**: 흰 글라스 알약(그룹 스위처처럼 열린 칸 ink 채움) 홈 · 캘린더 · 설정 · 알림, 스크롤 내리면 아이콘만 작게, 올리면 원래대로(인스타그램식). 캘린더 = 앞으로 7일(daily `wind_speed_10m_max` 추가), 알림 = DWD 기상 경보(Bright Sky `/alerts`, 있으면 메뉴에 빨간 점), 설정 = 위치·프로필·언어·단위·출처·버전. 규칙은 `design/design-system.md` 5장.
 - 시안(2026-10-20, 앱 빌드 변화 없음): **Today's Look 제품 컷 + 매거진 기사** `proto/look-products.html`(https://jinex001.github.io/Weather-App/proto/look-products.html). 사용자가 C(가로 스트립) 선택. 에디토리얼 사진(`proto/run-01/look.jpg`, 남성 러닝) 아래 THE PIECES: 제품 플랫레이 500×500 1:1(`proto/run-01/01-anorak … 05-socks.jpg`, 사용자 제공, 아이보리 바닥) 카드가 한 화면에 하나 + 다음 카드 살짝(폭 100% − 56px, scroll-snap), 이미지 아래 제목 왼쪽 정렬(카테고리 · 이름 · 소재). 신발은 사진 없어 빈 칸. 아이템 리스트 대신 HOW TO WEAR 기사(Anton 제목, 리드, 01–04 소제목 + 본문, 인용구). 한국어만. 2026-10-20 사용자 제안: 제품 카드 = 앵커, 누르면 기사의 그 섹션으로 부드럽게 스크롤(01 아우터 · 02 상의 · 03 하의 · 04 장갑·양말·신발), 도착한 소제목 한 번 페이드 인, 섹션 끝에 "↑ The pieces"로 돌아가기, 기사 아래 32vh 여백(마지막 섹션도 위까지 오게). 같은 날 사용자 수정: 순서 = 에디토리얼 사진 → 기사 제목(Anton) + 바이라인(체감 1–9° · 바람 조금) + 리드 → THE PIECES 제품 스트립 → 디테일 본문(01–04 + 인용구). 사진 아래 한 줄 요약(deck)은 리드가 대신해서 뺌. 콜투액션 전부 없앰("HOW TO WEAR" 라벨, "소재와 입는 법", 카드의 "입는 법 ↓", "6 pieces · …" 안내, 섹션 끝 "↑ The pieces"). 카드는 보이는 표시 없이 그대로 해당 섹션 앵커. 제품 스트립(THE PIECES)은 스크롤하면 맨 위에 고정(position: sticky, 페이지와 같은 단색 배경, 그림자 없음)되고 디테일 본문이 그 아래로 지나감. 본문을 읽어 내려가면 고정된 스트립이 지금 읽는 섹션의 제품으로 저절로 넘어감(소제목이 스트립 아래 읽는 영역 40% 지점을 지나면). 카드를 누르면 섹션이 스트립 바로 아래에 오게(`--stick`).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
@@ -117,7 +118,7 @@
 - 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
 - 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
 - 구름 양 보조: MET Norway Locationforecast (`https://api.met.no/weatherapi/locationforecast/2.0/compact`, 키 불필요, 좌표 소수 4자리). 구름 양은 DWD·MET·Open-Meteo 중간값(b63).
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day, wind_speed_10m) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset) 7일.
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day, wind_speed_10m) 12시간+, daily(weather_code, temperature_2m_max/min, precipitation_probability_max, sunrise/sunset, wind_speed_10m_max) 7일. 기상 경보: Bright Sky `/alerts?lat&lon`(DWD, 독일만, b88).
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`
@@ -134,7 +135,7 @@
 
 `.dc.html` 파일은 디자인 캔버스용 형식입니다(`<x-dc>`, `{{t.x}}` 바인딩, `support.js`). 실행용이 아니라 **레이아웃·수치·색·문구의 기준**으로 읽고, 실제 앱은 일반 HTML로 다시 구현하세요. 각 파일 아래 스크립트에 en/de/ko 문구가 있습니다. 숫자는 예시 값입니다.
 
-화면 구조(위→아래): 도시 · 날짜 · 시각 한 줄(b57) / 날씨 그림 / 큰 기온 / 상태 문구(기온에 겹침) / 최고·최저·바람 한 줄 / 체감온도 블록(선 없음, 왼→오: 단계 색 둥근 배지 안 흰 사람 아이콘 / "체감온도" 라벨 위·단계 이름 아래 / 체감온도 Anton 56px(b55), 글자는 화면 글자색, 누르면 Today's Look 시트가 열림). 도시·날짜·그림·큰 기온·상태·최고최저·체감온도까지 헤드 전체가 탭 영역(#head-tap, 도시 이름만 제외) / (여백) / 강수·강설 블록 또는 한 줄 요약 / 24시간 예보(가로 스크롤, 1시간 단위, 칸마다 기온 아래 바람 아이콘(줄 1·2·3)+km/h(b87), 강수확률 막대 + % 또는 "-"(b60), 지금 칸은 "지금" 글자 위 5px 점(b61)). 구분선·6일 예보는 b61에서 없앰.
+화면 구조(위→아래): 도시 · 날짜 · 시각 한 줄(b57) / 날씨 그림 / 큰 기온 / 상태 문구(기온에 겹침) / 최고·최저·바람 한 줄 / 체감온도 블록(선 없음, 왼→오: 단계 색 둥근 배지 안 흰 사람 아이콘 / "체감온도" 라벨 위·단계 이름 아래 / 체감온도 Anton 56px(b55), 글자는 화면 글자색, 누르면 Today's Look 시트가 열림). 도시·날짜·그림·큰 기온·상태·최고최저·체감온도까지 헤드 전체가 탭 영역(#head-tap, 도시 이름만 제외) / (여백) / 강수·강설 블록 또는 한 줄 요약 / 24시간 예보(가로 스크롤, 1시간 단위, 칸마다 기온 아래 바람 아이콘(줄 1·2·3)+km/h(b87), 강수확률 막대 + %(b88부터 0%도 숫자), 지금 칸은 "지금" 글자 위 5px 점(b61)). 구분선·6일 예보는 b61에서 없앰. 화면 아래 고정 하단 메뉴(홈·캘린더·설정·알림, b88).
 
 **Today's Look (체감온도 블록을 누르면 아래에서 올라오는 전체 화면 시트)**: 매거진 에디토리얼 형식. 선·번호·일러스트 없음(사용자 결정). 옷차림 사진 한 장(`look/`, b36). 쌀쌀함 단계는 큰 룩 사진 + 아이템 사진 6장(`look/chilly/`, b37). 배경은 흰색 60% 반투명 + 뒤 메인 화면 블러(흰 글라스, 모든 단계·화면 공통, 사용자 결정), 글자는 항상 #141414. 위→아래: 닫기 바(누르거나 아래로 쓸어 닫기) / TODAY'S LOOK · 날짜 · 도시 / 단계 색 둥근 배지 64px + 흰 사람 43px(메인과 같은 배지, 원 정가운데) / "체감 N° · 단계" / Anton 92px 헤드라인(단계별: BUNDLE UP, WRAP UP, COAT ON, LAYER UP, LIGHT LAYERS, JUST RIGHT, SHORT SLEEVES, KEEP IT LIGHT, STAY COOL) / 그룹 스위처(러닝/스트리트/미니멀 + 아기는 아기 "네"일 때만, b48) / 고정 점 줄(b72) / 맞춤 표시(페이드) / 사진만 스와이프 / 한 줄 요약(페이드, b74) / 보고 있는 룩의 아이템(펼치면 사진·설명·갖고 있어요/관심 있어요) + Rain/Wind/Snow 추가 / Tonight(오늘 중 지금보다 4° 이상 떨어지는 첫 시각) 또는 Tomorrow(내일 최고 ≥30 물병 얼리기, 최저 ≤0 보온병) / Note(60+ + 선선 이하면 한 겹 더, b80) / Updated · Edit profile. 처음 열 때 질문 화면(ABOUT YOU: 성별 여/남/선택 안 함, 연령대 35세 미만/35+/60+(b80), 아기와 외출 네/아니요, Skip 가능). 답은 localStorage "wx-profile"에만 저장. 문구는 index.html의 LOOK/LT(ko/en/de).
 

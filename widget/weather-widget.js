@@ -188,7 +188,7 @@ function cloudVote(d, bs, met) {
 async function getData() {
   const url = "https://api.open-meteo.com/v1/forecast?latitude=" + PLACE.lat + "&longitude=" + PLACE.lon +
     "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,shortwave_radiation,cloud_cover" +
-    "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code" +
+    "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,wind_speed_10m" +
     "&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=2"
   try {
     const [d, bs, met] = await Promise.all([
@@ -347,20 +347,61 @@ function background(family, bg, art) {
   return ctx.getImage()
 }
 
-function bars(parent, d, idx, color, height, gap) {
-  const snow = isSnow(d.current.weather_code)
-  const vals = idx.map(i => snow ? (d.hourly.snowfall[i] || 0) : (d.hourly.precipitation_probability[i] || 0))
-  const top = snow ? Math.max(0.5, ...vals) : 100
+// Wind icon like the app's 24-hour forecast (b87): 1 line under 20 km/h, 2 to 29, 3 from 30. Drawn on a 24-unit grid.
+function windIcon(level, color) {
+  const k = 1.657, ctx = new DrawContext()
+  ctx.size = new Size(48, 48); ctx.opaque = false; ctx.respectScreenScale = true
+  const P = (x, y) => new Point(x * 2, y * 2)
+  // a straight line from x=3 to xe at height y, ending in a 3/4 curl that turns up (above the line) or down
+  const hook = (y, xe, up) => {
+    const s = up ? -1 : 1, cy = y + 3 * s, path = new Path()
+    path.move(P(3, y)); path.addLine(P(xe, y))
+    path.addCurve(P(xe + 3, cy), P(xe + k, y), P(xe + 3, cy - k * s))
+    path.addCurve(P(xe, cy + 3 * s), P(xe + 3, cy + k * s), P(xe + k, cy + 3 * s))
+    path.addCurve(P(xe - 3, cy), P(xe - k, cy + 3 * s), P(xe - 3, cy + k * s))
+    ctx.addPath(path); ctx.strokePath()
+  }
+  ctx.setStrokeColor(color); ctx.setLineWidth(5.2)
+  if (level === 0) hook(12, 16, true)
+  if (level === 1) { hook(9, 14, true); hook(15, 18, false) }
+  if (level === 2) {
+    hook(9, 14, true); hook(14, 18, false)
+    const p = new Path(); p.move(P(3, 19)); p.addLine(P(10, 19)); ctx.addPath(p); ctx.strokePath()
+  }
+  return ctx.getImage()
+}
+
+// Next six hours like the app's forecast columns: hour, wind (icon + km/h), rain chance bar and % (b88)
+function hourStrip(parent, d, idx, fg, light) {
+  const H = d.hourly, cols = idx.slice(0, 6), r = n => Math.round(n) || 0
+  const barColor = new Color(light ? "#CAE2F8" : "#8FB8DE")
+  const top = Math.max(30, ...cols.map(i => H.precipitation_probability[i] || 0))
   const row = parent.addStack()
   row.layoutHorizontally()
-  row.bottomAlignContent()
-  vals.forEach((v, n) => {
-    const b = row.addStack()
-    b.size = new Size(0, Math.max(3, Math.round(v / top * height)))
-    b.backgroundColor = color
-    b.layoutHorizontally()
-    b.addSpacer()
-    if (n < vals.length - 1) row.addSpacer(gap)
+  cols.forEach((i, n) => {
+    const col = row.addStack()
+    col.layoutVertically()
+    col.size = new Size(51, 0)
+    const line = (build) => { const s = col.addStack(); s.addSpacer(); build(s); s.addSpacer() }
+    line(s => text(s, n === 0 ? T.now : H.time[i].slice(11, 13), Font.mediumSystemFont(10), fg))
+    col.addSpacer(3)
+    if (H.wind_speed_10m) {
+      const w = r(H.wind_speed_10m[i])
+      line(s => {
+        s.centerAlignContent()
+        const img = s.addImage(windIcon(w >= 30 ? 2 : w >= 20 ? 1 : 0, fg)); img.imageSize = new Size(11, 11)
+        s.addSpacer(2)
+        text(s, String(w), Font.semiboldSystemFont(10), fg)
+      })
+      col.addSpacer(4)
+    }
+    const pp = H.precipitation_probability[i] || 0
+    line(s => {
+      const box = s.addStack(); box.size = new Size(24, 16); box.layoutVertically(); box.addSpacer()
+      const b = box.addStack(); b.size = new Size(24, Math.max(2, Math.round(pp / top * 16))); b.backgroundColor = barColor
+    })
+    col.addSpacer(2)
+    line(s => text(s, pp + "%", Font.mediumSystemFont(9), fg))
   })
 }
 
@@ -438,7 +479,7 @@ async function build(d, family) {
   w.addSpacer(8)
   summaryBlock(w, today.text, 12.5, 3, 306, barColor, fg)
   w.addSpacer(10)
-  bars(w, d, idx, new Color(st.graph), 24, 4)
+  hourStrip(w, d, idx, fg, st.fg === "#141414")
   return w
 }
 
