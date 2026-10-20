@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.0",
+  "editorialCount": 15,
+  "productCount": 91,
+  "readyCount": 91,
+  "editorials": [
+    {
+      "id": "women-01-running",
+      "folder": "women/01-running",
+      "data": "women/01-running/products.json",
+      "readme": "women/01-running/README.md",
+      "editorialImage": "women/01-running/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-02-running",
+      "folder": "women/02-running",
+      "data": "women/02-running/products.json",
+      "readme": "women/02-running/README.md",
+      "editorialImage": "women/02-running/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-03-running",
+      "folder": "women/03-running",
+      "data": "women/03-running/products.json",
+      "readme": "women/03-running/README.md",
+      "editorialImage": "women/03-running/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-04-running",
+      "folder": "women/04-running",
+      "data": "women/04-running/products.json",
+      "readme": "women/04-running/README.md",
+      "editorialImage": "women/04-running/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "women-05-running",
+      "folder": "women/05-running",
+      "data": "women/05-running/products.json",
+      "readme": "women/05-running/README.md",
+      "editorialImage": "women/05-running/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-06-street",
+      "folder": "women/06-street",
+      "data": "women/06-street/products.json",
+      "readme": "women/06-street/README.md",
+      "editorialImage": "women/06-street/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-07-street",
+      "folder": "women/07-street",
+      "data": "women/07-street/products.json",
+      "readme": "women/07-street/README.md",
+      "editorialImage": "women/07-street/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-08-street",
+      "folder": "women/08-street",
+      "data": "women/08-street/products.json",
+      "readme": "women/08-street/README.md",
+      "editorialImage": "women/08-street/editorial.png",
+      "productCount": 7,
+      "readyCount": 7
+    },
+    {
+      "id": "women-09-street",
+      "folder": "women/09-street",
+      "data": "women/09-street/products.json",
+      "readme": "women/09-street/README.md",
+      "editorialImage": "women/09-street/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "women-10-street",
+      "folder": "women/10-street",
+      "data": "women/10-street/products.json",
+      "readme": "women/10-street/README.md",
+      "editorialImage": "women/10-street/editorial.png",
+      "productCount": 8,
+      "readyCount": 8
+    },
+    {
+      "id": "women-11-minimal",
+      "folder": "women/11-minimal",
+      "data": "women/11-minimal/products.json",
+      "readme": "women/11-minimal/README.md",
+      "editorialImage": "women/11-minimal/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "women-12-minimal",
+      "folder": "women/12-minimal",
+      "data": "women/12-minimal/products.json",
+      "readme": "women/12-minimal/README.md",
+      "editorialImage": "women/12-minimal/editorial.png",
+      "productCount": 6,
+      "readyCount": 6
+    },
+    {
+      "id": "women-13-minimal",
+      "folder": "women/13-minimal",
+      "data": "women/13-minimal/products.json",
+      "readme": "women/13-minimal/README.md",
+      "editorialImage": "women/13-minimal/editorial.png",
+      "productCount": 5,
+      "readyCount": 5
+    },
+    {
+      "id": "women-14-minimal",
+      "folder": "women/14-minimal",
+      "data": "women/14-minimal/products.json",
+      "readme": "women/14-minimal/README.md",
+      "editorialImage": "women/14-minimal/editorial.png",
+      "productCount": 7,
+      "readyCount": 7
+    },
+    {
+      "id": "women-15-minimal",
+      "folder": "women/15-minimal",
+      "data": "women/15-minimal/products.json",
+      "readme": "women/15-minimal/README.md",
+      "editorialImage": "women/15-minimal/editorial.png",
+      "productCount": 7,
+      "readyCount": 7
+    }
+  ]
+}
