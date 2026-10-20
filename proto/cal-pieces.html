@@ -104,6 +104,8 @@
         if (s[0] === "MISSING") bag.push({ missing: s[1] });
         else POOL.forEach(function (it) { if (it.cat === s[0] && s[1].test(it.name.ko) && bag.indexOf(it) < 0) bag.push(it); });
       });
+      // a real cut wins over a missing one; the empty square only shows when nothing we have fits
+      var real = bag.filter(function (x) { return !x.missing; }); if (real.length) bag = real;
       if (bag.length) return { it: bag[Math.floor(Math.random() * bag.length)], why: fill(RULES[i][2], d) };
     }
   }
