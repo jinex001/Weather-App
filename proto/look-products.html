@@ -35,7 +35,8 @@
   .strip { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
     margin: 12px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
   .strip::-webkit-scrollbar { display: none; }
-  .card { flex: 0 0 calc(100% - 56px); scroll-snap-align: start; }
+  .card { flex: 0 0 calc(100% - 56px); scroll-snap-align: start; color: inherit; text-decoration: none; -webkit-tap-highlight-color: transparent; }
+  .card i { display: block; margin-top: 8px; font-style: normal; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .card img, .card .ph { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: var(--prod); }
   .card .ph { display: flex; align-items: center; justify-content: center; color: rgba(20,20,20,.35); font: 600 10px var(--sans); letter-spacing: .08em; text-transform: uppercase; }
   .card .cap { display: block; margin-top: 10px; }
@@ -48,11 +49,20 @@
   .article h2 { font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin: 8px 0 0; font-weight: 400; }
   .byline { margin-top: 12px; font-size: 11px; font-weight: 500; letter-spacing: .02em; opacity: .6; }
   .lede { margin-top: 22px; font-size: 19px; font-weight: 700; line-height: 1.45; word-break: keep-all; }
+  /* product cards jump here; the section lands a little below the top and its title fades in once */
+  html { scroll-behavior: smooth; }
+  .article h3 { scroll-margin-top: 28px; }
+  .article h3.hit span { animation: hit 1.2s ease; }
+  @keyframes hit { 0% { opacity: .15; } 100% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .article h3.hit span { animation: none; } }
+  .back { display: inline-block; margin-top: 14px; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: inherit; text-decoration: none; }
   .article h3 { margin: 30px 0 0; font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
   .article h3 span { display: block; margin-top: 3px; font-size: 18px; font-weight: 700; letter-spacing: -.02em; text-transform: none; }
   .article p { margin: 10px 0 0; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
   .pull { margin: 34px 0 6px; font-family: var(--display); font-size: 34px; line-height: 1.02; text-transform: uppercase; }
   .pull small { display: block; margin-top: 8px; font-family: var(--sans); font-size: 10px; font-weight: 600; letter-spacing: .08em; }
+  /* room after the article so the last sections can also scroll up to the top when a card jumps there */
+  .article { padding-bottom: 32vh; }
   .foot { margin-top: 40px; display: flex; justify-content: space-between; font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 </style>
 </head>
@@ -67,17 +77,17 @@
   <img class="hero" src="run-01/look.jpg" alt="">
   <div class="deck">어두워지는 강변엔 반사 라인이 있는 아노락. 발끝엔 라임 한 점.</div>
 
-  <section class="pieces">
+  <section class="pieces" id="pieces">
     <div class="cap">The pieces</div>
     <div class="strip">
-      <div class="card"><img src="run-01/01-anorak.jpg" alt=""><span class="cap">Outer</span><b>오버진 하프집 아노락</b><small>나일론 · 반사 파이핑 · 후드</small></div>
-      <div class="card"><img src="run-01/02-base-layer.jpg" alt=""><span class="cap">Top</span><b>차콜 모크넥 베이스 레이어</b><small>기능성 저지 · 긴팔</small></div>
-      <div class="card"><img src="run-01/03-pants.jpg" alt=""><span class="cap">Bottom</span><b>블랙 나일론 러닝 팬츠</b><small>밴딩 허리 · 조거 밑단 · 반사 스트립</small></div>
-      <div class="card"><img src="run-01/04-gloves.jpg" alt=""><span class="cap">Bring</span><b>그레이 러닝 장갑</b><small>얇은 플리스 · 반사 라인</small></div>
-      <div class="card"><img src="run-01/05-socks.jpg" alt=""><span class="cap">Socks</span><b>애시드 라임 크루 삭스</b><small>골지 코튼 혼방</small></div>
-      <div class="card"><div class="ph">Shoes</div><span class="cap">Shoes</span><b>실버 메시 러닝화</b><small>쿠션 · 통기 메시</small></div>
+      <a class="card" href="#w-outer"><img src="run-01/01-anorak.jpg" alt=""><span class="cap">Outer</span><b>오버진 하프집 아노락</b><small>나일론 · 반사 파이핑 · 후드</small><i>입는 법 ↓</i></a>
+      <a class="card" href="#w-top"><img src="run-01/02-base-layer.jpg" alt=""><span class="cap">Top</span><b>차콜 모크넥 베이스 레이어</b><small>기능성 저지 · 긴팔</small><i>입는 법 ↓</i></a>
+      <a class="card" href="#w-bottom"><img src="run-01/03-pants.jpg" alt=""><span class="cap">Bottom</span><b>블랙 나일론 러닝 팬츠</b><small>밴딩 허리 · 조거 밑단 · 반사 스트립</small><i>입는 법 ↓</i></a>
+      <a class="card" href="#w-hands"><img src="run-01/04-gloves.jpg" alt=""><span class="cap">Bring</span><b>그레이 러닝 장갑</b><small>얇은 플리스 · 반사 라인</small><i>입는 법 ↓</i></a>
+      <a class="card" href="#w-hands"><img src="run-01/05-socks.jpg" alt=""><span class="cap">Socks</span><b>애시드 라임 크루 삭스</b><small>골지 코튼 혼방</small><i>입는 법 ↓</i></a>
+      <a class="card" href="#w-hands"><div class="ph">Shoes</div><span class="cap">Shoes</span><b>실버 메시 러닝화</b><small>쿠션 · 통기 메시</small><i>입는 법 ↓</i></a>
     </div>
-    <div class="count">6 pieces · 옆으로 넘겨 보세요</div>
+    <div class="count">6 pieces · 옆으로 넘기고, 누르면 입는 법으로</div>
   </section>
 
   <article class="article">
@@ -86,22 +96,35 @@
     <div class="byline">소재와 입는 법 · 체감 1–9°, 바람 조금</div>
     <p class="lede">해가 지기 시작하는 5° 근처의 강변. 출발할 땐 살짝 춥다 싶게 입는 게 맞아요. 10분이면 체감이 10°쯤 올라가니까요.</p>
 
-    <h3>01 · Outer<span>바람만 막는 얇은 나일론</span></h3>
+    <h3 id="w-outer">01 · Outer<span>바람만 막는 얇은 나일론</span></h3>
     <p>아노락은 가볍게 코팅된 나일론이에요. 비바람은 튕겨 내고 무게는 거의 없어요. 하프집이라 달리다 더워지면 가슴까지 내려 열을 빼고, 후드는 바람이 셀 때만 쓰세요. 소매와 몸판의 은색 파이핑은 해 진 뒤 자전거 도로에서 나를 보이게 하는 장치예요.</p>
+    <a class="back" href="#pieces">↑ The pieces</a>
 
-    <h3>02 · Top<span>땀을 밀어내는 한 겹</span></h3>
+    <h3 id="w-top">02 · Top<span>땀을 밀어내는 한 겹</span></h3>
     <p>안에는 코튼 대신 기능성 저지 모크넥 하나. 땀을 피부에서 바깥으로 밀어내서, 멈춰 섰을 때 차가워지지 않아요. 목을 살짝 덮는 높이라 머플러 없이도 찬바람이 덜 들어와요.</p>
+    <a class="back" href="#pieces">↑ The pieces</a>
 
     <div class="pull">Start a little cold.<small>10분 뛰면 10°가 올라가요</small></div>
 
-    <h3>03 · Bottom<span>타이츠 대신 조거</span></h3>
+    <h3 id="w-bottom">03 · Bottom<span>타이츠 대신 조거</span></h3>
     <p>블랙 나일론 팬츠는 바람을 막으면서 통이 넉넉해 타이츠가 부담스러운 날에 좋아요. 밑단 밴딩이 발목에 딱 붙어 펄럭이지 않고, 무릎 아래 반사 스트립은 달릴 때 움직이며 더 잘 보여요.</p>
+    <a class="back" href="#pieces">↑ The pieces</a>
 
-    <h3>04 · Hands &amp; feet<span>작은 것이 체감을 바꿔요</span></h3>
+    <h3 id="w-hands">04 · Hands &amp; feet<span>작은 것이 체감을 바꿔요</span></h3>
     <p>얇은 플리스 장갑은 5° 아래에서 손끝이 먼저 시려울 때 차이가 커요. 더워지면 주머니에 쏙. 양말은 애시드 라임으로 딱 한 군데만 색을 넣었어요. 어두운 옷 사이에서 발목이 보이면 실버 러닝화와 함께 전체가 가벼워 보여요.</p>
+    <a class="back" href="#pieces">↑ The pieces</a>
   </article>
 
   <div class="foot"><span>Updated 08:21</span><span>Edit profile ›</span></div>
 </main>
+<script>
+  // tap a product → its article section; the strip remembers which card was showing
+  document.querySelectorAll(".card").forEach(function (c) {
+    c.addEventListener("click", function () {
+      var h = document.querySelector(c.getAttribute("href"));
+      h.classList.remove("hit"); void h.offsetWidth; h.classList.add("hit");
+    });
+  });
+</script>
 </body>
 </html>
