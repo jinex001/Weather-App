@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Today's Look · 카드 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;600;700&display=swap">
+<style>
+  /* Prototype (2026-10-20): the product strip carries the article. Each card = product cut + big title + how-to-wear
+     text; no separate detail section, no background behind the strip, nothing sticky. Real data from look/outfits.js.
+     ?look=<outfit id> picks the look (default oc15-13-minimal-m), ?lang=ko|en|de, ?title=anton for the Anton title variant. */
+  :root { --ink: #141414; --display: "Anton", "Noto Sans KR", sans-serif; --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: #DCDEDF; color: var(--ink); font-family: var(--sans); letter-spacing: -.02em; -webkit-font-smoothing: antialiased; }
+  .sheet { max-width: 480px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 24px calc(env(safe-area-inset-bottom) + 48px); overflow-x: clip; }
+  .cap { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .hero { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
+  .title { font-family: var(--display); font-size: 44px; line-height: .95; text-transform: uppercase; margin-top: 18px; }
+  .deck { font-size: 20px; font-weight: 700; line-height: 1.3; margin-top: 14px; word-break: keep-all; }
+  .intro { margin-top: 12px; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
+  .pieces { margin-top: 34px; }
+  .strip { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+    margin: 10px -24px 0; padding: 0 24px; scroll-padding-left: 24px; align-items: flex-start; }
+  .strip::-webkit-scrollbar { display: none; }
+  .card { flex: 0 0 calc(100% - 56px); scroll-snap-align: start; }
+  .card img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: #F3EFE8; }
+  .card .cap { display: block; margin-top: 12px; }
+  /* the detail heading becomes the card title, the how-to-wear text sits right under it */
+  .card h3 { margin: 4px 0 0; font-size: 22px; font-weight: 700; line-height: 1.25; word-break: keep-all; }
+  .anton .card h3 { font-family: var(--display); font-weight: 400; font-size: 34px; line-height: .98; letter-spacing: 0; text-transform: uppercase; }
+  .card p { margin: 8px 0 0; font-size: 15px; font-weight: 500; line-height: 1.65; word-break: keep-all; }
+  .pull { margin-top: 36px; font-family: var(--display); font-size: 34px; line-height: 1.02; text-transform: uppercase; }
+  .tip { margin-top: 18px; font-size: 15px; font-weight: 700; line-height: 1.5; word-break: keep-all; }
+</style>
+</head>
+<body>
+<main class="sheet" id="sheet"></main>
+<script src="../look/outfits.js"></script>
+<script>
+  var q = new URLSearchParams(location.search), L = q.get("lang") || "ko", id = q.get("look") || "oc15-13-minimal-m";
+  if (q.get("title") === "anton") document.body.classList.add("anton");
+  var LIB = window.WX_LOOKS, o = LIB.outfits.filter(function (x) { return x.id === id; })[0];
+  var LABEL = { outer: "Outer", top: "Top", bottom: "Bottom", shorts: "Shorts", shoes: "Shoes", socks: "Socks", hands: "Hands",
+                headwear: "Headwear", eyewear: "Eyewear", watch: "Watch", jewelry: "Jewelry", scarf: "Scarf", bag: "Bag" };
+  var esc = function (s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); };
+  var its = o.items.map(function (k) { return LIB.items[k]; });
+  document.getElementById("sheet").innerHTML =
+    '<img class="hero" src="../' + o.image + '" alt="">' +
+    '<div class="title">' + esc(o.article.title) + '</div><div class="deck">' + esc(o.deck[L]) + '</div><div class="intro">' + esc(o.article.intro[L]) + "</div>" +
+    '<section class="pieces"><div class="cap">The pieces</div><div class="strip">' + its.map(function (it, i) {
+      return '<div class="card"><img src="../' + it.image + '" alt="' + esc(it.alt || "") + '"><span class="cap">' + (i < 9 ? "0" : "") + (i + 1) + " · " + LABEL[it.cat] +
+        "</span><h3>" + esc(it.name[L]) + "</h3><p>" + esc(it.note[L]) + "</p></div>";
+    }).join("") + "</div></section>" +
+    '<div class="pull">' + esc(o.article.pull) + '</div><div class="tip">' + esc(o.article.tip[L]) + "</div>";
+</script>
+</body>
+</html>
