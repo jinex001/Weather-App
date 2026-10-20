@@ -263,7 +263,7 @@
   .wk-t { font-family: var(--display); font-size: 30px; letter-spacing: 0; white-space: nowrap; }
   .wk-t span { opacity: .45; margin-right: 5px; }
   .wk-d { display: flex; gap: 10px; align-items: center; margin-top: 4px; font-family: var(--mono); font-weight: 600; font-size: 12px; }
-  .wk-look { text-align: right; min-width: 0; }
+  .wk-look { text-align: right; min-width: 0; padding: 6px 0; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; cursor: pointer; }
   .wk-lk { font-size: 9.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
   .wk-lb { font-size: 13px; font-weight: 700; margin-top: 2px; }
   .wk-lh { font-family: var(--display); font-size: 24px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 3px; }
@@ -297,7 +297,8 @@
   }
   .look.open { transform: none; }
   .app { transition: filter .35s ease, transform .35s ease; }
-  body.look-open .app { filter: blur(26px) saturate(1.5); transform: scale(1.06); }
+  .page { transition: filter .35s ease, transform .35s ease; }
+  body.look-open .app, body.look-open .page { filter: blur(26px) saturate(1.5); transform: scale(1.06); }
   .look.dragging { transition: none; }
   .look > * { max-width: 432px; margin-left: auto; margin-right: auto; }
   .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
@@ -418,7 +419,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b93"></script>
+<script src="look/outfits.js?v=b94"></script>
 <script>
 (function () {
   "use strict";
@@ -723,7 +724,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b93";
+  var BUILD = "b94";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -813,29 +814,29 @@
       baby: { ko: "얇은 면 바디슈트 하나. 유모차를 천으로 덮지 말고, 가능하면 외출을 미루세요.", en: "One thin cotton bodysuit. Don't cover the stroller; put trips off if you can.", de: "Ein dünner Baumwollbody. Kinderwagen nicht abdecken; Wege wenn möglich verschieben." } }
   };
   var LT = {
-    ko: { rainNow: "우산 · 지금 비가 와요", rainNowWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · 지금 비가 와요", rain: "우산 · {t}쯤 비 {p}%", rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
+    ko: { rainNow: "우산 · 지금 비가 와요", rainNowWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · 지금 비가 와요", rain: "우산 · {t}쯤 비 {p}%", rainDay: "우산 · 비 올 확률 {p}%",  rainWind: "우산은 뒤집혀요. 후드 달린 방수 재킷 · {t}쯤 비", wind: "바람 {w}km/h. 바람막이나 후드를 챙기세요", snow: "미끄럽지 않은 방수 부츠",
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
           o: [["여성", "남성", "선택 안 함"], ["35세 미만", "35+", "60+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
           own: "갖고 있어요", want: "관심 있어요",
-          fitToday: "오늘의 추천", fitAlso: "오늘 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
+          fitToday: "오늘의 추천", fitAlso: "오늘 날씨에도 맞아요", fitDay: "이날의 추천", fitDayAlso: "이날 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
-    en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
+    en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainDay: "Umbrella · {p}% chance of rain",  rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
           o: [["Woman", "Man", "Prefer not to say"], ["Under 35", "35+", "60+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
           own: "I own this", want: "Interested",
-          fitToday: "Today's pick", fitAlso: "Also right for today", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
+          fitToday: "Today's pick", fitAlso: "Also right for today", fitDay: "Pick for the day", fitDayAlso: "Also right for the day", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
-    de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
+    de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainDay: "Schirm · Regenwahrscheinlichkeit {p} %",  rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
           o: [["Frau", "Mann", "Keine Angabe"], ["Unter 35", "35+", "60+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
           own: "Hab ich", want: "Interessiert mich",
-          fitToday: "Heute empfohlen", fitAlso: "Passt heute auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
+          fitToday: "Heute empfohlen", fitAlso: "Passt heute auch", fitDay: "Für diesen Tag", fitDayAlso: "Passt an diesem Tag auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
   var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["u35", "35", "60"]], ["baby", "Baby", ["y", "n"]]];
@@ -888,8 +889,9 @@
     return list;
   }
   function fitTag(e, i, v) {
-    if (!i) return LT.fitToday; // the best one available is today's pick
-    if (e.fit === 0) return LT.fitAlso;
+    var day = v.day !== undefined; // a calendar day's sheet says "that day" instead of "today" (b94)
+    if (!i) return day ? LT.fitDay : LT.fitToday; // the best one available is the pick
+    if (e.fit === 0) return day ? LT.fitDayAlso : LT.fitAlso;
     if (e.fit === 1) return v.clear ? LT.fitCloudy : LT.fitClear;
     var bi = BAND_KEYS.indexOf(v.band[1]), b = e.o.bands.filter(function (k) { return Math.abs(BAND_KEYS.indexOf(k) - bi) === 1; })[0];
     var name = BANDS[BAND_KEYS.indexOf(b)][2][LANG];
@@ -910,6 +912,7 @@
   }
 
   var lastView = null, lookOpen = false;
+  var sheetView = null; // the view the sheet shows: today (lastView) or a calendar day's editor's pick (b94)
   var lookNow = null, railAt = {}; // the row on screen, swipe position per style + gender
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
   var heart = function (on) { return (on ? "♥" : "♡") + "︎ "; };
@@ -944,12 +947,35 @@
     }).join("") + "</div>";
   }
 
+  // A calendar day opened from its editor's pick (b94): same sheet, that day's band and sky, label and date of that day.
+  // Hour-by-hour notes (rain at, tonight, tomorrow) belong to today, so a day shows only its own rain/wind/snow line.
+  function dayView(i) {
+    var v = lastView; if (!v) return null;
+    var D = v.data.daily, c = D.weather_code[i], f = r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]), band = bandOf(f);
+    var w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0;
+    return {
+      data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, updated: v.updated,
+      day: i, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
+      icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
+        person(band[1], w >= 30, isRain(c), isSnow(c)).replace('class="person-ic', 'class="play person-ic') + "</span>",
+      dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(D.time[i] + "T12:00:00Z")) + " · " + (place.gps ? T.here : T.berlin)
+    };
+  }
+  function dayContent(v, profile, pics, st, tabs, baby, L) {
+    var extras = [];
+    if (v.rainP >= 50) extras.push(["Rain", fmt(LT.rainDay, { p: v.rainP })]);
+    else if (v.windMax >= 30) extras.push(["Wind", fmt(LT.wind, { w: v.windMax })]);
+    if (isSnow(v.code)) extras.push(["Snow", LT.snow]);
+    var quotes = profile.age === "60" && BANDS.indexOf(v.band) <= 4 ? [["Note", LT.older]] : [];
+    return lookBody(v, profile, pics, st, tabs, baby, L, extras, quotes);
+  }
   function lookContent(v, profile) {
     var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
     var fem = profile.gender === "f", pics = lookPhotos(v, profile), st = lookState();
     // Baby is a fourth segment, only for people who go out with a baby; it shows the baby text and both baby photos
     var baby = profile.baby === "y" && profile.style === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
     var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30, extras = [];
+    if (v.day !== undefined) return dayContent(v, profile, pics, st, tabs, baby, L);
     // rain in the next 12 hours (or now) changes what to bring
     var rainHit = -1;
     for (var k = 0; k < 12 && v.i0 + k < H.time.length; k++) { if ((H.precipitation_probability[v.i0 + k] || 0) >= 50) { rainHit = v.i0 + k; break; } }
@@ -970,6 +996,10 @@
     }
     if (profile.age === "60" && BANDS.indexOf(band) <= 4) quotes.push(["Note", LT.older]);
 
+    return lookBody(v, profile, pics, st, tabs, baby, L, extras, quotes);
+  }
+  function lookBody(v, profile, pics, st, tabs, baby, L, extras, quotes) {
+    var band = v.band;
     var main;
     if (baby) {
       lookNow = null;
@@ -1020,7 +1050,7 @@
   }
 
   function paintLook(forceAsk) {
-    var v = lastView; if (!v) return;
+    var v = sheetView || lastView; if (!v) return;
     var profile = load("wx-profile"), body = $("lk-body");
     if (!profile || profile.v !== PROFILE_V || forceAsk) {
       lookNow = null;
@@ -1074,14 +1104,15 @@
     peek.hidden = false;
   }
 
-  function openLook() {
-    var v = lastView; if (!v) return;
+  function openLook(dayView) {
+    sheetView = dayView && dayView.mast ? dayView : null;
+    var v = sheetView || lastView; if (!v) return;
     var sheet = $("look");
     // Plain white glass for every band and every screen (user's choice); text is always ink
     sheet.style.setProperty("--lk-bg", "#FFFFFF");
     sheet.style.setProperty("--lk-tint", "rgba(255,255,255,.6)");
     sheet.style.setProperty("--lk-ink", "#141414");
-    $("lk-mast").innerHTML = "<span>Today's Look</span><span>" + esc(v.dateLine) + "</span>";
+    $("lk-mast").innerHTML = "<span>" + esc(v.mast || "Today's Look") + "</span><span>" + esc(v.dateLine) + "</span>";
     sheet.hidden = false; // laid out first, so the outfit row knows its width
     paintLook();
     void sheet.offsetWidth; sheet.classList.add("open");
@@ -1097,6 +1128,7 @@
     sheet.style.transform = "";
     document.body.style.overflow = "";
     document.body.classList.remove("look-open");
+    sheetView = null;
     if (lastView) document.querySelector('meta[name="theme-color"]').setAttribute("content", lastView.theme);
     setTimeout(function () { if (!lookOpen) sheet.hidden = true; }, 350);
   }
@@ -1508,7 +1540,7 @@
         '<div class="wk-row"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '<div class="wk-c">' + esc(condLabel(c, true)) + "</div></div>" +
         '<div class="wk-b"><div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div>" +
         '<div class="wk-d"><span>' + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : '<span class="day-w">' + wind3(w) + w + "</span>") + "</div></div>" +
-        '<div class="wk-look"><div class="wk-lk">Editor\'s pick</div><div class="wk-lb">' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></div></div></div>";
+        '<button type="button" class="wk-look" data-day="' + i + '"><div class="wk-lk">Editor\'s pick</div><div class="wk-lb">' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></button></div></div>";
     }
     // This month: Monday-first grid of the current month; days with a forecast show icon and high
     var t0 = D.time[0], y = +t0.slice(0, 4), mo = +t0.slice(5, 7), first = new Date(Date.UTC(y, mo - 1, 1)), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
@@ -1525,6 +1557,9 @@
       '<div class="cal-tabs" role="tablist"><button type="button" data-v="week" class="' + (calView === "week" ? "on" : "") + '">7 Days</button>' +
       '<button type="button" data-v="month" class="' + (calView === "month" ? "on" : "") + '">This month</button></div>' +
       (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="pg-list">' + rows + "</div>");
+    $("pg-cal").querySelectorAll(".wk-look").forEach(function (bt) {
+      bt.addEventListener("click", function () { openLook(dayView(+bt.getAttribute("data-day"))); });
+    });
     var onTab = $("pg-cal").querySelector(".cal-tabs .on");
     if (onTab) onTab.parentNode.scrollLeft = calView === "month" ? onTab.offsetLeft - 24 : 0;
     $("pg-cal").querySelectorAll(".cal-tabs button").forEach(function (bt) {
