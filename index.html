@@ -246,6 +246,27 @@
   .day-w svg { width: 13px; height: 13px; flex: none; }
   .day-t { font-family: var(--display); font-size: 22px; letter-spacing: 0; text-align: right; white-space: nowrap; }
   .day-t span { opacity: .55; }
+  /* Calendar (b93): the two titles are tabs, same Anton size; the one not shown is a tone lighter */
+  .cal-tabs { display: flex; gap: 18px; margin: 10px -24px 0; padding: 0 24px; overflow-x: auto; scrollbar-width: none; }
+  .cal-tabs::-webkit-scrollbar { display: none; }
+  .cal-tabs button { flex: none; padding: 0; border: 0; background: none; color: inherit; cursor: pointer;
+    font: 400 64px/.9 var(--display); letter-spacing: 0; text-transform: uppercase; opacity: .35; transition: opacity .2s; }
+  .cal-tabs button.on { opacity: 1; }
+  .wk { display: grid; grid-template-columns: 104px 1fr auto; align-items: center; gap: 12px; padding: 10px 0; }
+  .wk-art { width: 104px; height: 74px; overflow: hidden; --oc-back: #958E81; --oc-drift: #91989F; }
+  .wk-art svg { width: 104px; height: 74px; display: block; }
+  .wk-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .wk-c { font-size: 22px; font-weight: 700; line-height: 1.15; margin-top: 2px; }
+  .wk-d { display: flex; gap: 10px; align-items: center; margin-top: 4px; font-family: var(--mono); font-weight: 600; font-size: 12px; }
+  .wk-t { font-family: var(--display); font-size: 34px; letter-spacing: 0; text-align: right; white-space: nowrap; }
+  .wk-t span { opacity: .45; margin-right: 6px; }
+  .mo { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-top: 24px; text-align: center; }
+  .mo-w { font-size: 11px; font-weight: 600; padding-bottom: 6px; }
+  .mo-d { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 8px 0; border-radius: 14px; min-height: 66px; }
+  .mo-d b { font-size: 15px; font-weight: 700; }
+  .mo-d span { font-family: var(--display); font-size: 16px; letter-spacing: 0; }
+  .mo-d.off { opacity: .35; }
+  .mo-d.now { background: var(--fg); color: var(--bg); }
   .al { padding: 14px 0; }
   .al-k { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
   .al-h { font-size: 20px; font-weight: 700; line-height: 1.25; margin-top: 4px; }
@@ -1446,7 +1467,7 @@
   })();
 
   // ── Bottom menu & pages (b88) ──
-  var tab = "home";
+  var tab = "home", calView = load("wx-cal") === "month" ? "month" : "week";
   function wind3(v) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true">' + WIND_LINES[v >= 30 ? 2 : v >= 20 ? 1 : 0] + "</svg>"; }
   function dayName(iso, i) {
     var d = new Date(iso + "T12:00:00Z");
@@ -1459,16 +1480,36 @@
   function paintPages(data) {
     if (!data || !data.daily) return;
     var D = data.daily, city = place.gps ? T.here : T.berlin;
-    // Calendar: the next 7 days, one row each (day · icon · rain chance · strongest wind · low/high)
+    // Calendar (b93): two Anton titles as tabs, "7 Days" and "This month" (the other one a tone lighter)
     var rows = "";
     for (var i = 0; i < 7 && i < D.time.length; i++) {
-      var dn = dayName(D.time[i], i), w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
-      rows += '<div class="day"><div class="day-n">' + esc(dn.n) + "<small>" + esc(dn.d) + "</small></div>" + icon(D.weather_code[i], false) +
-        '<div class="day-p">' + (D.precipitation_probability_max[i] || 0) + "%</div>" +
-        '<div class="day-w">' + (w === null ? "" : wind3(w) + w) + "</div>" +
-        '<div class="day-t"><span>' + r(D.temperature_2m_min[i]) + "°</span> " + r(D.temperature_2m_max[i]) + "°</div></div>";
+      var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
+      rows += '<div class="wk"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '</div><div class="wk-b">' +
+        '<div class="wk-k">' + esc(dn.n) + " · " + esc(dn.d) + "</div>" +
+        '<div class="wk-c">' + esc(condLabel(c, true)) + "</div>" +
+        '<div class="wk-d"><span>' + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : '<span class="day-w">' + wind3(w) + w + "</span>") + "</div></div>" +
+        '<div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div></div>";
     }
-    $("pg-cal").innerHTML = '<div class="pg-k">' + esc(NV.week) + " · " + esc(city) + '</div><div class="pg-h">This week</div><div class="pg-list">' + rows + "</div>";
+    // This month: Monday-first grid of the current month; days with a forecast show icon and high
+    var t0 = D.time[0], y = +t0.slice(0, 4), mo = +t0.slice(5, 7), first = new Date(Date.UTC(y, mo - 1, 1)), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
+    var lead = (first.getUTCDay() + 6) % 7, cells = "";
+    for (var k = 0; k < 7; k++) cells += '<div class="mo-w">' + esc(new Intl.DateTimeFormat(LOCALE, { weekday: "narrow", timeZone: "UTC" }).format(new Date(Date.UTC(2024, 0, 1 + k)))) + "</div>";
+    for (k = 0; k < lead; k++) cells += "<div></div>";
+    for (var dd = 1; dd <= days; dd++) {
+      var iso = t0.slice(0, 8) + (dd < 10 ? "0" : "") + dd, j = D.time.indexOf(iso);
+      cells += '<div class="mo-d' + (j < 0 ? " off" : "") + (j === 0 ? " now" : "") + '"><b>' + dd + "</b>" +
+        (j < 0 ? "" : icon(D.weather_code[j], false) + "<span>" + r(D.temperature_2m_max[j]) + "°</span>") + "</div>";
+    }
+    var monthName = new Intl.DateTimeFormat(LOCALE, { month: "long", year: "numeric", timeZone: "UTC" }).format(first);
+    $("pg-cal").innerHTML = '<div class="pg-k">' + esc(calView === "month" ? monthName : NV.week) + " · " + esc(city) + "</div>" +
+      '<div class="cal-tabs" role="tablist"><button type="button" data-v="week" class="' + (calView === "week" ? "on" : "") + '">7 Days</button>' +
+      '<button type="button" data-v="month" class="' + (calView === "month" ? "on" : "") + '">This month</button></div>' +
+      (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="pg-list">' + rows + "</div>");
+    var onTab = $("pg-cal").querySelector(".cal-tabs .on");
+    if (onTab) onTab.parentNode.scrollLeft = calView === "month" ? onTab.offsetLeft - 24 : 0;
+    $("pg-cal").querySelectorAll(".cal-tabs button").forEach(function (bt) {
+      bt.addEventListener("click", function () { calView = bt.getAttribute("data-v"); store("wx-cal", calView); paintPages(load("wx-data")); });
+    });
 
     // Alerts: DWD warnings (Bright Sky), newest first; the menu gets a red dot while any are active
     var A = data.alerts, list = A && A.list ? A.list.filter(function (a) { return !a.expires || new Date(a.expires) > new Date(); }) : [];
