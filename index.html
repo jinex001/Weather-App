@@ -208,7 +208,7 @@
   [hidden] { display: none !important; }
 
   /* Bottom menu (b88): a glass pill like the Today's Look sheet with the group switcher's ink pill for the open tab.
-     Scrolling down shrinks it to icons only; scrolling up (or reaching the top) brings it back. */
+     Icons only (b89, Phosphor fill). Scrolling down shrinks it; scrolling up (or reaching the top) brings it back. */
   .app, .page { padding-bottom: calc(env(safe-area-inset-bottom) + 112px); }
   .tabbar {
     position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
@@ -218,20 +218,19 @@
     color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), width .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease;
   }
   .tabbar button {
-    position: relative; flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
-    padding: 9px 4px 8px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
-    font: 700 10.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; white-space: nowrap;
+    position: relative; flex: 1 1 0; min-width: 0; display: flex; align-items: center; justify-content: center;
+    padding: 12px 4px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
     transition: padding .3s cubic-bezier(.2,.8,.2,1), background-color .2s ease, color .2s ease;
   }
   .tabbar button.on { background: #141414; color: #FFFFFF; }
-  .tabbar svg { width: 22px; height: 22px; flex: none; }
-  .tabbar .tab-l { display: block; max-height: 14px; line-height: 14px; overflow: hidden; transition: max-height .3s ease, opacity .2s ease; }
-  .tabbar .tab-dot { position: absolute; top: 7px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
-  .tabbar.mini { width: min(calc(100% - 32px), 236px); }
-  .tabbar.mini button { padding: 9px 4px; }
-  .tabbar.mini .tab-l { max-height: 0; opacity: 0; }
+  .tabbar svg { width: 24px; height: 24px; flex: none; fill: currentColor; transition: width .3s ease, height .3s ease; }
+  .tabbar .tab-dot { position: absolute; top: 8px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
+  .tabbar.mini { width: min(calc(100% - 32px), 220px); }
+  .tabbar.mini button { padding: 8px 4px; }
+  .tabbar.mini svg { width: 20px; height: 20px; }
+  .tabbar.mini .tab-dot { top: 5px; }
   body.look-open .tabbar { opacity: 0; pointer-events: none; }
-  @media (prefers-reduced-motion: reduce) { .tabbar, .tabbar button, .tabbar .tab-l { transition: none; } }
+  @media (prefers-reduced-motion: reduce) { .tabbar, .tabbar button, .tabbar svg { transition: none; } }
 
   /* Calendar · Alerts · Settings pages: same screen color as home, magazine type, no lines or cards */
   .page { max-width: 480px; margin: 0 auto; min-height: 100dvh; padding-top: calc(env(safe-area-inset-top) + 20px); padding-left: 24px; padding-right: 24px; }
@@ -377,11 +376,12 @@
 <section class="page" id="pg-set" hidden></section>
 <section class="page" id="pg-alert" hidden></section>
 
+<!-- icons: Phosphor Icons, fill weight (phosphoricons.com, MIT) -->
 <nav class="tabbar" id="tabbar" aria-label="Menu">
-  <button type="button" data-tab="home" class="on" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l9.5 7.6V21h-6.5v-6h-6v6H2.5V10.4z" fill="currentColor"/></svg><span class="tab-l" id="tl-home"></span></button>
-  <button type="button" data-tab="cal"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M7 2h2.4v2h5.2V2H17v2h3.5v17h-17V4H7zM5.8 9.5v9.2h12.4V9.5z"/></svg><span class="tab-l" id="tl-cal"></span></button>
-  <button type="button" data-tab="set"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 17h18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="8.5" cy="7" r="3.4" fill="currentColor"/><circle cx="15.5" cy="17" r="3.4" fill="currentColor"/></svg><span class="tab-l" id="tl-set"></span></button>
-  <button type="button" data-tab="alert"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 2.2l10.6 19.3H1.4zM10.8 9h2.4v6.2h-2.4zM12 16.6a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"/></svg><span class="tab-l" id="tl-alert"></span><span class="tab-dot" id="tab-dot" hidden></span></button>
+  <button type="button" data-tab="home" class="on" aria-current="page"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,120v96a8,8,0,0,1-8,8H160a8,8,0,0,1-8-8V164a4,4,0,0,0-4-4H108a4,4,0,0,0-4,4v52a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V120a16,16,0,0,1,4.69-11.31l80-80a16,16,0,0,1,22.62,0l80,80A16,16,0,0,1,224,120Z"/></svg></button>
+  <button type="button" data-tab="cal"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,48H48V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24Z"/></svg></button>
+  <button type="button" data-tab="set"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M237.94,107.21a8,8,0,0,0-3.89-5.4l-29.83-17-.12-33.62a8,8,0,0,0-2.83-6.08,111.91,111.91,0,0,0-36.72-20.67,8,8,0,0,0-6.46.59L128,41.85,97.88,25a8,8,0,0,0-6.47-.6A111.92,111.92,0,0,0,54.73,45.15a8,8,0,0,0-2.83,6.07l-.15,33.65-29.83,17a8,8,0,0,0-3.89,5.4,106.47,106.47,0,0,0,0,41.56,8,8,0,0,0,3.89,5.4l29.83,17,.12,33.63a8,8,0,0,0,2.83,6.08,111.91,111.91,0,0,0,36.72,20.67,8,8,0,0,0,6.46-.59L128,214.15,158.12,231a7.91,7.91,0,0,0,3.9,1,8.09,8.09,0,0,0,2.57-.42,112.1,112.1,0,0,0,36.68-20.73,8,8,0,0,0,2.83-6.07l.15-33.65,29.83-17a8,8,0,0,0,3.89-5.4A106.47,106.47,0,0,0,237.94,107.21ZM128,168a40,40,0,1,1,40-40A40,40,0,0,1,128,168Z"/></svg></button>
+  <button type="button" data-tab="alert"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM120,104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm8,88a12,12,0,1,1,12-12A12,12,0,0,1,128,192Z"/></svg><span class="tab-dot" id="tab-dot" hidden></span></button>
 </nav>
 
 <section class="look" id="look" role="dialog" aria-modal="true" aria-label="Today's Look" hidden>
@@ -390,7 +390,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b88"></script>
+<script src="look/outfits.js?v=b89"></script>
 <script>
 (function () {
   "use strict";
@@ -695,7 +695,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b88";
+  var BUILD = "b89";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1515,7 +1515,6 @@
     window.scrollTo(0, 0);
     $("tabbar").classList.remove("mini");
   }
-  ["home", "cal", "set", "alert"].forEach(function (k) { $("tl-" + k).textContent = NV[k]; });
   $("tabbar").querySelectorAll("button").forEach(function (b) {
     b.setAttribute("aria-label", NV[b.getAttribute("data-tab")]);
     b.addEventListener("click", function () { showTab(b.getAttribute("data-tab")); });

@@ -227,7 +227,7 @@ Poppins는 폭이 넓어서 **기본 자간 -.02em**(body). 작은 대문자 라
 - Today's Look: 350ms로 올라오고 내려감.
 - `prefers-reduced-motion`이면 사람·그림 동작 없음.
 
-**하단 메뉴 (b88)** — 화면 아래 고정, 좌우 16px 여백, 최대 폭 400px, 아래 safe-area + 12px. 흰 글라스 알약(rgba(255,255,255,.6) + `backdrop-filter` blur 20px·채도 1.6, 모서리 34px, 안쪽 5px), 글자·아이콘은 항상 `ink`. 칸 4개: 홈 · 캘린더 · 설정 · 알림(ko) / Home · Calendar · Settings · Alerts(en) / Start · Kalender · Optionen · Warnung(de). 칸 = 굵은 실루엣 아이콘 22px(집 / 달력 / 슬라이더 / 느낌표 삼각형) + 라벨 Poppins 700 10.5px 대문자 .05em. 열린 칸은 Today's Look 그룹 스위처처럼 `ink` 알약(모서리 28px)에 흰 글자. 알림 칸은 활성 경보가 있으면 빨간 점 8px(#D94448). **스크롤**: 아래로 내리면(6px 넘게) 라벨이 사라지고 폭 236px로 줄어든 아이콘만, 위로 올리거나 맨 위(24px 안)면 원래대로(0.3초, 동작 줄이기면 바로). Today's Look이 열리면 숨김. 테두리·그림자 없음.
+**하단 메뉴 (b88)** — 화면 아래 고정, 좌우 16px 여백, 최대 폭 400px, 아래 safe-area + 12px. 흰 글라스 알약(rgba(255,255,255,.6) + `backdrop-filter` blur 20px·채도 1.6, 모서리 34px, 안쪽 5px), 글자·아이콘은 항상 `ink`. 칸 4개: 홈 · 캘린더 · 설정 · 알림(ko) / Home · Calendar · Settings · Alerts(en) / Start · Kalender · Optionen · Warnung(de). 칸 = 아이콘만(b89부터 라벨 없음, 버튼 aria-label은 남김). 아이콘은 **Phosphor Icons Fill**(phosphoricons.com, MIT, 사용자가 고름): house · calendar-blank · gear-six · warning, 24px. 새 아이콘이 필요하면 같은 세트·같은 굵기(fill)에서 가져옴. 열린 칸은 Today's Look 그룹 스위처처럼 `ink` 알약(모서리 28px)에 흰 글자. 알림 칸은 활성 경보가 있으면 빨간 점 8px(#D94448). **스크롤**: 아래로 내리면(6px 넘게) 폭 220px·아이콘 20px로 작아지고, 위로 올리거나 맨 위(24px 안)면 원래대로(0.3초, 동작 줄이기면 바로). Today's Look이 열리면 숨김. 테두리·그림자 없음.
 
 **캘린더·알림·설정 화면 (b88)** — 홈과 같은 배경·글자색, 선·카드 없이 간격으로만 나눔. 위에 kicker(11px 600 대문자) + Anton 64px 영어 제목(THIS WEEK / HEADS UP·ALL CLEAR / SETTINGS).
 - 캘린더: 앞으로 7일 한 줄씩 — 요일(오늘)·날짜 / 아이콘 18px / 강수확률 최대 % / 최대 풍속(`icon-wind` 줄 1·2·3 + km/h, Open-Meteo daily `wind_speed_10m_max`) / 최저(55% 불투명) 최고 Anton 22px.
