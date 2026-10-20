@@ -324,38 +324,30 @@
     font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .lk-slide .lk-photo { margin-top: 0; width: 100%; }
   .lk-look-deck { margin-top: 12px; word-break: keep-all; }
-  /* looks with product cuts and an article (b95, overcast set): headline above the deck, then the intro,
-     the product strip (sticks to the top of the sheet while the details scroll under it) and one paragraph per product */
+  /* looks with product cuts and an article (b95, overcast set): headline above the deck, then the intro and the product
+     strip. b99: each card carries its own how-to-wear (product cut, number · category, big title, text); no background,
+     nothing sticky, no separate detail section; the pull quote and tip follow the strip */
   .lk-atitle { font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 18px; }
   .lk-atitle:empty { display: none; }
   .lk-atitle:not(:empty) + .lk-look-deck { margin-top: 14px; }
   .lk-intro { margin-top: 12px; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
-  .lk-pieces { position: sticky; top: calc(-8px - env(safe-area-inset-top)); z-index: 2; /* the sheet pads its top; stick flush to the screen edge */ margin: 30px -24px 0; padding: calc(env(safe-area-inset-top) + 10px) 24px 12px;
-    /* b98: b97's transparent strip let the text show through the card labels. Now a solid color mixed like the sheet
-       looks (60% white over the screen color), so it blends into the glass and fully hides what passes under it */
-    background: var(--lk-solid, #F4F4F4); }
-  .lk-strip { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+  .lk-pieces { margin-top: 34px; }
+  .lk-strip { display: flex; align-items: flex-start; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 10px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
   .lk-strip::-webkit-scrollbar { display: none; }
-  .lk-card { flex: 0 0 calc(100% - 56px); scroll-snap-align: start; padding: 0; border: 0; background: none; color: inherit;
-    font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .lk-card { flex: 0 0 calc(100% - 56px); scroll-snap-align: start; }
   /* product flat lays are 500×500 on warm ivory: keep them whole (contain), no shadow or frame */
   .lk-card img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: #F3EFE8; }
-  .lk-card .lk-cat { display: block; margin-top: 8px; }
-  .lk-card b { display: block; margin-top: 1px; font-size: 15px; font-weight: 700; line-height: 1.3; }
-  .lk-card small { display: block; margin-top: 2px; font-size: 12px; font-weight: 500; opacity: .6; }
-  .lk-art { margin-top: 4px; }
-  .lk-sec { margin: 26px 0 0; font-weight: 400; scroll-margin-top: calc(var(--lk-stick, 0px) + 18px); }
-  .lk-sec .lk-cat { display: block; }
-  .lk-sec b { display: block; margin-top: 3px; font-size: 18px; font-weight: 700; line-height: 1.3; }
-  .lk-sec.hit b { animation: lk-hit 1.2s ease; }
-  @keyframes lk-hit { from { opacity: .15; } to { opacity: 1; } }
-  .lk-art p { margin: 8px 0 0; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
-  .lk-pull { margin-top: 30px; font-family: var(--display); font-size: 34px; line-height: 1.02; text-transform: uppercase; }
-  .lk-tip { margin-top: 28px; font-size: 15px; font-weight: 700; line-height: 1.5; word-break: keep-all; }
+  .lk-card .lk-cat { display: block; margin-top: 12px; }
+  /* the big title in Anton (user picked B); Anton has no Hangul, so Korean gets bold Noto Sans KR at the same size */
+  .lk-card h3 { margin: 4px 0 0; font-family: var(--display); font-weight: 400; font-size: 34px; line-height: .98; letter-spacing: 0; text-transform: uppercase; word-break: keep-all; }
+  html[lang="ko"] .lk-card h3 { font-family: "Noto Sans KR", sans-serif; font-weight: 700; font-size: 30px; line-height: 1.15; letter-spacing: -.03em; }
+  .lk-card p { margin: 8px 0 0; font-size: 15px; font-weight: 500; line-height: 1.65; word-break: keep-all; }
+  .lk-pull { margin-top: 36px; font-family: var(--display); font-size: 34px; line-height: 1.02; text-transform: uppercase; }
+  .lk-tip { margin-top: 18px; font-size: 15px; font-weight: 700; line-height: 1.5; word-break: keep-all; }
   .lk-fade { transition: opacity .18s ease; }
   .lk-fade.out { opacity: 0; }
-  @media (prefers-reduced-motion: reduce) { .lk-fade { transition: none; } .lk-sec.hit b { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { .lk-fade { transition: none; } }
   /* dots sit above the row and stay put while it swipes; only the active dot changes (b72) */
   .lk-dots { display: flex; gap: 6px; margin-top: 18px; }
   .lk-dots span { width: 5px; height: 5px; border-radius: 50%; background: var(--lk-ink); opacity: .25; transition: opacity .2s; }
@@ -448,7 +440,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b98"></script>
+<script src="look/outfits.js?v=b99"></script>
 <script>
 (function () {
   "use strict";
@@ -753,7 +745,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b98";
+  var BUILD = "b99";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -981,26 +973,20 @@
     }).join("") + "</div>";
   }
 
-  // A look with product cuts and an article (b95): intro, the product strip, one paragraph per product (same order, same
-  // id), the pull quote after the second product, the tip; weather extras (rain, wind, snow) follow as before
+  // A look with product cuts and an article (b95): intro, then the product strip in products.json order, each card with
+  // its own how-to-wear (b99), then the pull quote and the tip; weather extras (rain, wind, snow) follow as before
   function articleHtml(o, extras, st) {
     var A = o.article, its = o.items.map(function (id) { return LIB.items[id]; }).filter(Boolean);
-    var label = function (it) { return CAT_LABEL[it.cat] || it.cat; };
     return '<div class="lk-intro">' + esc(A.intro[LANG]) + "</div>" +
-      '<div class="lk-pieces" id="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-strip" id="lk-strip">' + its.map(function (it, i) {
-        return '<button type="button" class="lk-card" data-sec="lk-sec-' + i + '"><img src="' + it.image + '" alt="' + esc(it.alt || it.name[LANG]) + '" loading="lazy">' +
-          '<span class="lk-cat">' + label(it) + "</span><b>" + esc(it.name[LANG]) + "</b>" + (it.sub ? "<small>" + esc(it.sub[LANG]) + "</small>" : "") + "</button>";
+      '<div class="lk-pieces"><div class="lk-cat">The pieces</div><div class="lk-strip">' + its.map(function (it, i) {
+        return '<div class="lk-card"><img src="' + it.image + '" alt="' + esc(it.alt || it.name[LANG]) + '" loading="lazy">' +
+          '<span class="lk-cat">' + (i < 9 ? "0" : "") + (i + 1) + " · " + (CAT_LABEL[it.cat] || it.cat) + "</span>" +
+          "<h3>" + esc(it.name[LANG]) + "</h3>" + (it.note ? "<p>" + esc(it.note[LANG]) + "</p>" : "") + "</div>";
       }).join("") + "</div></div>" +
-      '<div class="lk-art">' + its.map(function (it, i) {
-        return (i === 2 && A.pull ? '<div class="lk-pull">' + esc(A.pull) + "</div>" : "") +
-          '<h3 class="lk-sec" id="lk-sec-' + i + '"><span class="lk-cat">' + (i < 9 ? "0" : "") + (i + 1) + " · " + label(it) + "</span><b>" + esc(it.name[LANG]) + "</b></h3>" +
-          (it.note ? "<p>" + esc(it.note[LANG]) + "</p>" : "");
-      }).join("") + (A.tip ? '<div class="lk-tip">' + esc(A.tip[LANG]) + "</div>" : "") + "</div>" +
+      (A.pull ? '<div class="lk-pull">' + esc(A.pull) + "</div>" : "") + (A.tip ? '<div class="lk-tip">' + esc(A.tip[LANG]) + "</div>" : "") +
       (extras.length ? itemsHtml({ items: [] }, extras, st) : "");
   }
   function detailHtml(o, extras, st) { return o.article ? articleHtml(o, extras, st) : itemsHtml(o, extras, st); }
-  // the stuck strip's height, so a section lands right under it
-  function measurePieces() { var p = $("lk-pieces"); $("look").style.setProperty("--lk-stick", (p ? p.offsetHeight : 0) + "px"); }
 
   // A calendar day opened from its editor's pick (b94): same sheet, that day's band and sky, label and date of that day.
   // Hour-by-hour notes (rain at, tonight, tomorrow) belong to today, so a day shows only its own rain/wind/snow line.
@@ -1104,7 +1090,6 @@
     fadeText($("lk-atitle"), lookNow.pool[i].o.article ? lookNow.pool[i].o.article.title : "");
     fadeText($("lk-look-deck"), lookNow.pool[i].o.deck[LANG]);
     $("lk-detail").innerHTML = detailHtml(lookNow.pool[i].o, lookNow.extras, lookState());
-    measurePieces();
   }
 
   function paintLook(forceAsk) {
@@ -1137,22 +1122,9 @@
       });
       var rail = $("lk-rail");
       if (rail) { rail.scrollLeft = lookNow.at * (rail.clientWidth + RAIL_GAP); rail.addEventListener("scroll", onRail, { passive: true }); }
-      measurePieces(); lkShown = null;
     }
     $("look").scrollTop = 0;
   }
-
-  // Reading down the article turns the stuck strip to the product being talked about (not right after a card tap)
-  var lkJump = 0, lkShown = null;
-  $("look").addEventListener("scroll", function () {
-    var strip = $("lk-strip"), pieces = $("lk-pieces"); if (!strip || Date.now() - lkJump < 1200) return;
-    var top = pieces.getBoundingClientRect().bottom, line = top + (innerHeight - top) * .4, cur = -1;
-    [].forEach.call(document.querySelectorAll(".lk-sec"), function (h, i) { if (h.getBoundingClientRect().top <= line) cur = i; });
-    if (cur < 0 || cur === lkShown) return;
-    lkShown = cur;
-    var card = strip.children[cur]; if (card) strip.scrollTo({ left: card.offsetLeft - 24, behavior: "smooth" });
-  }, { passive: true });
-  addEventListener("resize", function () { if (lookOpen) measurePieces(); });
 
   // Taps inside the sheet: open an item, answer own / interested
   $("lk-body").addEventListener("click", function (e) {
@@ -1160,12 +1132,6 @@
     if (b.classList.contains("lk-item-h")) {
       var open = b.getAttribute("aria-expanded") !== "true";
       b.setAttribute("aria-expanded", open); b.nextElementSibling.hidden = !open;
-    } else if (b.dataset.sec) {
-      // a product card jumps to its paragraph, right under the stuck strip
-      var h = $(b.dataset.sec); if (!h) return;
-      lkJump = Date.now();
-      h.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
-      h.classList.remove("hit"); void h.offsetWidth; h.classList.add("hit");
     } else if (b.dataset.act) {
       var row = b.closest(".lk-item"), id = row.dataset.item, yes = toggleLook(b.dataset.act, id), s = lookState();
       b.classList.toggle("on", yes); b.setAttribute("aria-pressed", yes);
@@ -1181,10 +1147,6 @@
     peek.hidden = false;
   }
 
-  function mixHex(a, b, t) {
-    var x = hexRgb(a), y = hexRgb(b);
-    return "#" + x.map(function (c, i) { return ("0" + Math.round((c * t + y[i] * (1 - t)) * 255).toString(16)).slice(-2); }).join("");
-  }
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
     var v = sheetView || lastView; if (!v) return;
@@ -1192,7 +1154,6 @@
     // Plain white glass for every band and every screen (user's choice); text is always ink
     sheet.style.setProperty("--lk-bg", "#FFFFFF");
     sheet.style.setProperty("--lk-tint", "rgba(255,255,255,.6)");
-    sheet.style.setProperty("--lk-solid", mixHex("#FFFFFF", v.theme || "#F4F4F4", .6)); // what the glass looks like, made solid
     sheet.style.setProperty("--lk-ink", "#141414");
     $("lk-mast").innerHTML = "<span>" + esc(v.mast || "Today's Look") + "</span><span>" + esc(v.dateLine) + "</span>";
     sheet.hidden = false; // laid out first, so the outfit row knows its width

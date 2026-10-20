@@ -71,3 +71,4 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 - 첫 세트: `look/berlin-complete/Overcast/Chilly/Male/35+/day/NN-<style>/`(원본 PNG + 앱용 JPG), 룩 `oc15-NN-<run|street|minimal>-m`.
 
 - b97: 오늘 하늘에 맞는 룩(sky가 오늘과 같거나 any)이 그 스타일·성별에 하나라도 있으면 다른 하늘 룩은 빠짐. 없을 때만 다른 하늘 룩이 대신 나옴.
+- b99: 기사 화면은 카드 안에 입는 법(제품 컷 · 번호·분류 · 큰 타이틀 = 이름 · 본문 = note). `sub`는 데이터에만 남고 화면엔 안 씀. 고정 스트립·따로 있는 디테일 섹션 없음.
