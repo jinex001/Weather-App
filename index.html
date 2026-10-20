@@ -252,19 +252,20 @@
   .cal-tabs button { flex: none; padding: 0; border: 0; background: none; color: inherit; cursor: pointer;
     font: 400 64px/.9 var(--display); letter-spacing: 0; text-transform: uppercase; opacity: .35; transition: opacity .2s; }
   .cal-tabs button.on { opacity: 1; }
-  .wk { padding: 16px 0 14px; }
-  .wk-row { display: grid; grid-template-columns: 104px 1fr auto; align-items: center; gap: 12px; margin-top: 4px; }
-  .wk-art { width: 104px; height: 74px; overflow: hidden; --oc-back: #958E81; --oc-drift: #91989F; }
-  .wk-art svg { width: 104px; height: 74px; display: block; }
+  .wk { padding: 14px 0 12px; }
+  .wk-row { display: grid; grid-template-columns: 120px auto 1fr; align-items: center; gap: 14px; margin-top: 2px; }
+  .wk-art { position: relative; width: 120px; height: 85px; overflow: hidden; --oc-back: #958E81; --oc-drift: #91989F; }
+  .wk-art svg { width: 120px; height: 85px; display: block; }
+  /* the condition is a layer over the bottom of the art, outlined with the screen color like the home condition */
+  .wk-c { position: absolute; left: 0; right: 0; bottom: 2px; text-align: center; font-size: 17px; font-weight: 700; line-height: 1.1; text-transform: uppercase;
+    text-shadow: 2px 0 var(--bg), -2px 0 var(--bg), 0 2px var(--bg), 0 -2px var(--bg), 1.5px 1.5px var(--bg), -1.5px -1.5px var(--bg), 1.5px -1.5px var(--bg), -1.5px 1.5px var(--bg); }
   .wk-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
-  .wk-c { font-size: 22px; font-weight: 700; line-height: 1.15; margin-top: 2px; }
+  .wk-t { font-family: var(--display); font-size: 30px; letter-spacing: 0; white-space: nowrap; }
+  .wk-t span { opacity: .45; margin-right: 5px; }
   .wk-d { display: flex; gap: 10px; align-items: center; margin-top: 4px; font-family: var(--mono); font-weight: 600; font-size: 12px; }
-  .wk-t { font-family: var(--display); font-size: 34px; letter-spacing: 0; text-align: right; white-space: nowrap; }
-  .wk-t span { opacity: .45; margin-right: 6px; }
-  .wk-look { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
-  .wk-look img { flex: none; width: 52px; height: 78px; object-fit: cover; }
-  .wk-lk { font-size: 10px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
-  .wk-lh { font-family: var(--display); font-size: 30px; line-height: 1; letter-spacing: 0; text-transform: uppercase; margin-top: 3px; }
+  .wk-look { text-align: right; min-width: 0; }
+  .wk-lk { font-size: 9.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+  .wk-lh { font-family: var(--display); font-size: 24px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 3px; }
   .mo { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-top: 24px; text-align: center; }
   .mo-w { font-size: 11px; font-weight: 600; padding-bottom: 6px; }
   .mo-d { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 8px 0; border-radius: 14px; min-height: 66px; }
@@ -1501,13 +1502,12 @@
     var prof = load("wx-profile") || {}, rows = "";
     for (var i = 0; i < 7 && i < D.time.length; i++) {
       var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null, lk = dayLook(D, i, prof);
+      // condition sits on the art as a layer (like the home condition over the temperature); the recommended look ends the line
       rows += '<div class="wk"><div class="wk-k">' + esc(dn.n) + " · " + esc(dn.d) + "</div>" +
-        '<div class="wk-row"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '</div><div class="wk-b">' +
-        '<div class="wk-c">' + esc(condLabel(c, true)) + "</div>" +
+        '<div class="wk-row"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '<div class="wk-c">' + esc(condLabel(c, true)) + "</div></div>" +
+        '<div class="wk-b"><div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div>" +
         '<div class="wk-d"><span>' + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : '<span class="day-w">' + wind3(w) + w + "</span>") + "</div></div>" +
-        '<div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div></div>" +
-        '<div class="wk-look">' + (lk.img ? '<img src="' + lk.img + '" alt="" loading="lazy">' : "") +
-        '<div><div class="wk-lk">Today\'s Look · ' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></div></div></div>";
+        '<div class="wk-look"><div class="wk-lk">Recommended · ' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></div></div></div>";
     }
     // This month: Monday-first grid of the current month; days with a forecast show icon and high
     var t0 = D.time[0], y = +t0.slice(0, 4), mo = +t0.slice(5, 7), first = new Date(Date.UTC(y, mo - 1, 1)), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
