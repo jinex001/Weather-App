@@ -324,7 +324,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b82"></script>
+<script src="look/outfits.js?v=b83"></script>
 <script>
 (function () {
   "use strict";
@@ -601,7 +601,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b82";
+  var BUILD = "b83";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1165,12 +1165,14 @@
     $("hours").innerHTML = hh;
     $("hours").scrollLeft = 0;
 
-    // evening looks from 10 minutes before today's sunset until sunrise (no sun times in an old cache: night = evening)
-    var evening = !isDay, mNow = new Date(nowLocal + ":00Z").getTime();
+    // evening looks from 10 minutes before today's sunset until 5:00 (b83: day looks from 5 in the morning, people dress
+    // for the day before sunrise; sunrise if it comes earlier). No sun times in an old cache: night = evening
+    var mNow = new Date(nowLocal + ":00Z").getTime(), morning = new Date(nowLocal.slice(0, 10) + "T05:00:00Z").getTime();
+    var hNowL = nowLocal.slice(11, 13), evening = !isDay && !(hNowL >= "05" && hNowL < "12");
     if (D.sunset && D.sunset[0] && D.sunrise && D.sunrise[0])
-      evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < new Date(D.sunrise[0] + ":00Z").getTime();
+      evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < Math.min(new Date(D.sunrise[0] + ":00Z").getTime(), morning);
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: (isDay || evening) && cur.weather_code <= 2,
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),
