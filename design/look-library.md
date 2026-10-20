@@ -68,4 +68,4 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 - 룩 `article`: `title`(영문 헤드라인, 번역 안 함), `intro` {ko,en,de}, `pull`(영문 인용구), `tip` {ko,en,de}. `deck` = 캡션.
 - 아이템: `cat`(outer/top/bottom/shorts/shoes/socks/hands/headwear/eyewear/watch/jewelry/scarf/bag), `name`, `sub`(카드 보조문구), `note`(입는 법), `image`(500×500 제품 컷 JPG), `alt`.
 - 순서는 products.json `products` 순서, 카드와 문단은 같은 순서로 연결. `status`가 ready인 것만.
-- 첫 세트: `look/berlin-complete/Overcast/Chilly/Male/35+/NN-<style>/`(원본 PNG + 앱용 JPG), 룩 `oc15-NN-<run|street|minimal>-m`.
+- 첫 세트: `look/berlin-complete/Overcast/Chilly/Male/35+/day/NN-<style>/`(원본 PNG + 앱용 JPG), 룩 `oc15-NN-<run|street|minimal>-m`.
