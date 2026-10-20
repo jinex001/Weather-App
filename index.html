@@ -440,7 +440,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b99"></script>
+<script src="look/outfits.js?v=b100"></script>
 <script>
 (function () {
   "use strict";
@@ -745,7 +745,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b99";
+  var BUILD = "b100";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -841,7 +841,7 @@
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
           o: [["여성", "남성", "선택 안 함"], ["35세 미만", "35+", "60+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
           own: "갖고 있어요", want: "관심 있어요",
-          fitToday: "오늘의 추천", fitAlso: "오늘 날씨에도 맞아요", fitDay: "이날의 추천", fitDayAlso: "이날 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
+          fitToday: "오늘의 추천", fitGood: "이것도 좋아요", fitOk: "이것도 나쁘지 않아요", fitAlso: "오늘 날씨에도 맞아요", fitDay: "이날의 추천", fitDayAlso: "이날 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainDay: "Umbrella · {p}% chance of rain",  rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
@@ -849,7 +849,7 @@
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
           o: [["Woman", "Man", "Prefer not to say"], ["Under 35", "35+", "60+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
           own: "I own this", want: "Interested",
-          fitToday: "Today's pick", fitAlso: "Also right for today", fitDay: "Pick for the day", fitDayAlso: "Also right for the day", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
+          fitToday: "Today's pick", fitGood: "This works too", fitOk: "Not bad either", fitAlso: "Also right for today", fitDay: "Pick for the day", fitDayAlso: "Also right for the day", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainDay: "Schirm · Regenwahrscheinlichkeit {p} %",  rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
@@ -857,7 +857,7 @@
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
           o: [["Frau", "Mann", "Keine Angabe"], ["Unter 35", "35+", "60+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
           own: "Hab ich", want: "Interessiert mich",
-          fitToday: "Heute empfohlen", fitAlso: "Passt heute auch", fitDay: "Für diesen Tag", fitDayAlso: "Passt an diesem Tag auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
+          fitToday: "Heute empfohlen", fitGood: "Passt auch gut", fitOk: "Auch nicht schlecht", fitAlso: "Passt heute auch", fitDay: "Für diesen Tag", fitDayAlso: "Passt an diesem Tag auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
   var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["u35", "35", "60"]], ["baby", "Baby", ["y", "n"]]];
@@ -908,7 +908,12 @@
     // for a style and gender that has nothing made for today's sky yet
     var sameSky = list.filter(function (e) { return e.fit % 2 === 0; });
     if (sameSky.length) list = sameSky;
-    list.sort(function (a, b) { return a.fit - b.fit; });
+    // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
+    // put until lookSeed changes: on app start and each time Today's Look opens from home)
+    var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || ""));
+    list.forEach(function (e) { e.r = rnd(); });
+    list.sort(function (a, b) { return a.fit - b.fit || a.r - b.r; });
+    list = list.slice(0, 3);
     // the band's own text (no photo) only when the library has nothing for this style and gender near today (b78: it used
     // to lead whenever no look matched exactly, which left a blank first slide once the old photos were removed in b71)
     if (!list.length) list.push({ o: bandOutfit(v, pics), fit: 0 });
@@ -917,11 +922,7 @@
   function fitTag(e, i, v) {
     var day = v.day !== undefined; // a calendar day's sheet says "that day" instead of "today" (b94)
     if (!i) return day ? LT.fitDay : LT.fitToday; // the best one available is the pick
-    if (e.fit === 0) return day ? LT.fitDayAlso : LT.fitAlso;
-    if (e.fit === 1) return v.clear ? LT.fitCloudy : LT.fitClear;
-    var bi = BAND_KEYS.indexOf(v.band[1]), b = e.o.bands.filter(function (k) { return Math.abs(BAND_KEYS.indexOf(k) - bi) === 1; })[0];
-    var name = BANDS[BAND_KEYS.indexOf(b)][2][LANG];
-    return fmt(LT.fitBand, { b: LANG === "en" ? name.toLowerCase() : name });
+    return i === 1 ? LT.fitGood : LT.fitOk; // b100: then "this works too", "not bad either"
   }
 
   // Saved looks and item answers stay on this phone: { saved: {outfitId: time}, own: {itemId: time}, want: {itemId: time} }
@@ -940,6 +941,16 @@
   var lastView = null, lookOpen = false;
   var sheetView = null; // the view the sheet shows: today (lastView) or a calendar day's editor's pick (b94)
   var lookNow = null, railAt = {}; // the row on screen, swipe position per style + gender
+  // b100: which three looks show (and in what order) is random, fixed per seed; a new seed on start and on each open from home
+  var lookSeed = String(Math.random());
+  function seeded(str) {
+    var h = 1779033703 ^ str.length;
+    for (var i = 0; i < str.length; i++) { h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; }
+    return function () { // mulberry32
+      h = h + 0x6D2B79F5 | 0; var t = Math.imul(h ^ h >>> 15, 1 | h);
+      t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    };
+  }
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
   var heart = function (on) { return (on ? "♥" : "♡") + "︎ "; };
 
@@ -1149,6 +1160,8 @@
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
+    // from home, a fresh draw of three looks; a calendar day keeps the pick its row already shows
+    if (!sheetView && !lookOpen) { lookSeed = String(Math.random()); railAt = {}; }
     var v = sheetView || lastView; if (!v) return;
     var sheet = $("look");
     // Plain white glass for every band and every screen (user's choice); text is always ink
