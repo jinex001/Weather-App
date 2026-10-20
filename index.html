@@ -213,19 +213,19 @@
   .tabbar {
     position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
     display: flex; gap: 2px; padding: 5px; border-radius: 34px;
-    width: min(calc(100% - 32px), 400px); transform: translateX(-50%); transform-origin: 50% 100%;
+    width: min(calc(100% - 32px), 272px); transform: translateX(-50%); transform-origin: 50% 100%;
     background: rgba(255,255,255,.6); -webkit-backdrop-filter: blur(20px) saturate(1.6); backdrop-filter: blur(20px) saturate(1.6);
     color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), width .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease;
   }
   .tabbar button {
     position: relative; flex: 1 1 0; min-width: 0; display: flex; align-items: center; justify-content: center;
-    padding: 12px 4px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
+    padding: 11px 4px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
     transition: padding .3s cubic-bezier(.2,.8,.2,1), background-color .2s ease, color .2s ease;
   }
   .tabbar button.on { background: #141414; color: #FFFFFF; }
   .tabbar svg { width: 24px; height: 24px; flex: none; fill: currentColor; transition: width .3s ease, height .3s ease; }
   .tabbar .tab-dot { position: absolute; top: 8px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
-  .tabbar.mini { width: min(calc(100% - 32px), 220px); }
+  .tabbar.mini { width: min(calc(100% - 32px), 200px); }
   .tabbar.mini button { padding: 8px 4px; }
   .tabbar.mini svg { width: 20px; height: 20px; }
   .tabbar.mini .tab-dot { top: 5px; }
@@ -390,7 +390,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b91"></script>
+<script src="look/outfits.js?v=b92"></script>
 <script>
 (function () {
   "use strict";
@@ -695,7 +695,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b91";
+  var BUILD = "b92";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
