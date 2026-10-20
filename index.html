@@ -289,8 +289,8 @@
   /* Today's Look sheet (opens from the feels-like block) */
   .look {
     position: fixed; inset: 0; z-index: 10; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
-    /* iOS-style glass: the band color, see-through, over the main screen blurred underneath (body.look-open) */
-    background: var(--lk-tint);
+    /* b103: solid white sheet (user's choice), nothing of the screen behind shows through */
+    background: #FFFFFF;
     color: var(--lk-ink); --bg: var(--lk-bg); --ink: var(--lk-ink); --graph: var(--lk-ink); /* rain drops on the person follow the ink here so they show on every band color */
     padding: calc(env(safe-area-inset-top) + 8px) 24px calc(env(safe-area-inset-bottom) + 36px);
     transform: translateY(100%); transition: transform .35s cubic-bezier(.2,.8,.2,1);
@@ -298,11 +298,7 @@
   .look.open { transform: none; }
   .app { transition: filter .35s ease, transform .35s ease; }
   .page { transition: filter .35s ease, transform .35s ease; }
-  /* b102: the screen behind is greyed out (was saturate(1.5)), so the white glass stays neutral instead of picking up
-     the weather color (cream on sunny days, blue-grey at night) */
-  body.look-open .app, body.look-open .page { filter: blur(26px) grayscale(1); transform: scale(1.06); }
-  /* the page color behind the app is not filtered, so it turns to its own grey while the sheet is open */
-  body.look-open { background-color: var(--look-under, #C8C8C8); }
+  body.look-open .app, body.look-open .page { filter: blur(26px); transform: scale(1.06); }
   .look.dragging { transition: none; }
   .look > * { max-width: 432px; margin-left: auto; margin-right: auto; }
   .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
@@ -444,7 +440,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b102"></script>
+<script src="look/outfits.js?v=b103"></script>
 <script>
 (function () {
   "use strict";
@@ -755,7 +751,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b102";
+  var BUILD = "b103";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1174,11 +1170,8 @@
     if (!sheetView && !lookOpen) { lookSeed = String(Math.random()); railAt = {}; }
     var v = sheetView || lastView; if (!v) return;
     var sheet = $("look");
-    // Plain white glass for every band and every screen (user's choice); text is always ink
+    // Plain white for every band and every screen (user's choice); text is always ink
     sheet.style.setProperty("--lk-bg", "#FFFFFF");
-    sheet.style.setProperty("--lk-tint", "rgba(255,255,255,.78)"); // b102: .6 → .78, lighter and closer to white
-    var c = hexRgb(v.theme || "#C8C8C8"), y = Math.round((.299 * c[0] + .587 * c[1] + .114 * c[2]) * 255);
-    document.body.style.setProperty("--look-under", "rgb(" + y + "," + y + "," + y + ")"); // the screen color as grey
     sheet.style.setProperty("--lk-ink", "#141414");
     $("lk-mast").innerHTML = "<span>" + esc(v.mast || "Today's Look") + "</span><span>" + esc(v.dateLine) + "</span>";
     sheet.hidden = false; // laid out first, so the outfit row knows its width
