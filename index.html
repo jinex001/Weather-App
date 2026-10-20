@@ -265,6 +265,7 @@
   .wk-d { display: flex; gap: 10px; align-items: center; margin-top: 4px; font-family: var(--mono); font-weight: 600; font-size: 12px; }
   .wk-look { text-align: right; min-width: 0; }
   .wk-lk { font-size: 9.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
+  .wk-lb { font-size: 13px; font-weight: 700; margin-top: 2px; }
   .wk-lh { font-family: var(--display); font-size: 24px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 3px; }
   .mo { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-top: 24px; text-align: center; }
   .mo-w { font-size: 11px; font-weight: 600; padding-bottom: 6px; }
@@ -1507,7 +1508,7 @@
         '<div class="wk-row"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '<div class="wk-c">' + esc(condLabel(c, true)) + "</div></div>" +
         '<div class="wk-b"><div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div>" +
         '<div class="wk-d"><span>' + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : '<span class="day-w">' + wind3(w) + w + "</span>") + "</div></div>" +
-        '<div class="wk-look"><div class="wk-lk">Recommended · ' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></div></div></div>";
+        '<div class="wk-look"><div class="wk-lk">Editor\'s pick</div><div class="wk-lb">' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></div></div></div>";
     }
     // This month: Monday-first grid of the current month; days with a forecast show icon and high
     var t0 = D.time[0], y = +t0.slice(0, 4), mo = +t0.slice(5, 7), first = new Date(Date.UTC(y, mo - 1, 1)), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
