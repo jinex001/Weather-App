@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-20, 빌드 b96)
+## 현재 상태 (2026-10-20, 빌드 b97)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. 실시간 Open-Meteo, 5가지 색 상태(낮 4 + 밤 1), 움직이는 날씨 그림, 체감온도 9단계 블록, 체감 블록과 요약 사이 오늘의 룩 글자(b77), 24시간 예보, **Today's Look**(룩 라이브러리 `look/outfits.js`를 스타일 안에서 가로로 넘김 + 아이템 탐색·저장, 질문 화면), 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
@@ -102,6 +102,7 @@
 - 시안(2026-10-20, 앱 빌드 변화 없음): **Today's Look 제품 컷 + 매거진 기사** `proto/look-products.html`(https://jinex001.github.io/Weather-App/proto/look-products.html). 사용자가 C(가로 스트립) 선택. 에디토리얼 사진(`proto/run-01/look.jpg`, 남성 러닝) 아래 THE PIECES: 제품 플랫레이 500×500 1:1(`proto/run-01/01-anorak … 05-socks.jpg`, 사용자 제공, 아이보리 바닥) 카드가 한 화면에 하나 + 다음 카드 살짝(폭 100% − 56px, scroll-snap), 이미지 아래 제목 왼쪽 정렬(카테고리 · 이름 · 소재). 신발은 사진 없어 빈 칸. 아이템 리스트 대신 HOW TO WEAR 기사(Anton 제목, 리드, 01–04 소제목 + 본문, 인용구). 한국어만. 2026-10-20 사용자 제안: 제품 카드 = 앵커, 누르면 기사의 그 섹션으로 부드럽게 스크롤(01 아우터 · 02 상의 · 03 하의 · 04 장갑·양말·신발), 도착한 소제목 한 번 페이드 인, 섹션 끝에 "↑ The pieces"로 돌아가기, 기사 아래 32vh 여백(마지막 섹션도 위까지 오게). 같은 날 사용자 수정: 순서 = 에디토리얼 사진 → 기사 제목(Anton) + 바이라인(체감 1–9° · 바람 조금) + 리드 → THE PIECES 제품 스트립 → 디테일 본문(01–04 + 인용구). 사진 아래 한 줄 요약(deck)은 리드가 대신해서 뺌. 콜투액션 전부 없앰("HOW TO WEAR" 라벨, "소재와 입는 법", 카드의 "입는 법 ↓", "6 pieces · …" 안내, 섹션 끝 "↑ The pieces"). 카드는 보이는 표시 없이 그대로 해당 섹션 앵커. 제품 스트립(THE PIECES)은 스크롤하면 맨 위에 고정(position: sticky, 페이지와 같은 단색 배경, 그림자 없음)되고 디테일 본문이 그 아래로 지나감. 본문을 읽어 내려가면 고정된 스트립이 지금 읽는 섹션의 제품으로 저절로 넘어감(소제목이 스트립 아래 읽는 영역 40% 지점을 지나면). 카드를 누르면 섹션이 스트립 바로 아래에 오게(`--stick`).
 - b95: **흐린 날 남성 세트 + 제품 컷·기사 화면**(사용자가 GitHub에 올림). `look/berlin-complete/`에 올라온 01-running … 15-minimal 15폴더를 `look/berlin-complete/Overcast/Chilly/Male/35+/day/`로 옮기고, 같이 준 `index.json`·`README.md`·`VALIDATION.json`도 거기에. 각 폴더 = `editorial.png` + `products/NN-<분류>.png`(500×500) + `products.json`(문구·제품) + `README.md`(반영 규칙) + `PROMPTS.md`(화면에 안 씀). 원본 PNG는 그대로 두고 앱용 JPG 사본(`editorial.jpg`, `products/*.jpg`, 합계 약 6MB). `outfits.js` 15룩 `oc15-NN-<스타일>-m`(쌀쌀함 · sky `cloudy` · 남성 · 35+ · 낮) + 84아이템(pending 1개 제외: 15번 링). 룩에 `article`(title = headlineEn, intro, pull = pullQuoteEn, tip), deck = captionKo, 아이템에 `sub`(카드 보조문구)·`note`(입는 법)·`image`(제품 컷)·`alt`. 한국어는 products.json 그대로, en/de는 새로 번역. 브랜드·가격·링크·소재 수치는 넣지 않음(README 규칙). Today's Look: `article` 있는 룩은 사진 아래 Anton 44px 헤드라인 → 캡션(deck) → 인트로 → THE PIECES 제품 카드 가로 스트립(한 장 + 다음 살짝, 1:1 contain, 바닥색 #F3EFE8, 카드 아래 카테고리·이름·보조문구 왼쪽 정렬) → 제품별 입는 법 문단(같은 순서, 2번째 뒤에 인용구) → 팁. 제품 스트립은 시트 맨 위에 고정(sticky, 거의 불투명 흰 배경 + 블러)되고, 본문을 읽어 내려가면 그 제품 카드로 넘어감, 카드를 누르면 그 문단이 스트립 바로 아래로. 예전 아이템 리스트(갖고 있어요/관심 있어요)는 article 없는 룩에만. 75룩 · 355아이템. 가짜 데이터로만 확인.
 - b96: 흐린 날 남성 세트 폴더를 `Overcast/Chilly/Male/35+/` → **`Overcast/Chilly/Male/35+/day/`**로(사용자 요청, 맑은 날 세트와 같은 day/ 구조). index.json·README.md·VALIDATION.json도 day/ 안. `outfits.js` 경로만 바뀜, 룩 ID 그대로.
+- b97: 맑은 날 룩 사진은 맑은 날 전용(사용자: 흐린 날에 맑은 날 사진이 같이 나옴). `lookPool`: 그 스타일·성별에 오늘 하늘(clear/cloudy)에 맞는 룩이 하나라도 있으면 다른 하늘 룩은 빼고, 하나도 없을 때만 다른 하늘 룩으로 채움(지금은 흐린 날 여성 = 맑은 날 사진). Today's Look 제품 스트립 배경 투명(사용자 요청, 본문이 그 아래로 보이며 지나감).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.

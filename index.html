@@ -331,7 +331,7 @@
   .lk-atitle:not(:empty) + .lk-look-deck { margin-top: 14px; }
   .lk-intro { margin-top: 12px; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
   .lk-pieces { position: sticky; top: calc(-8px - env(safe-area-inset-top)); z-index: 2; /* the sheet pads its top; stick flush to the screen edge */ margin: 30px -24px 0; padding: calc(env(safe-area-inset-top) + 10px) 24px 12px;
-    background: rgba(250,250,249,.96); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); }
+    background: transparent; } /* b97: no background (user), the text scrolls visibly under it */
   .lk-strip { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 10px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
   .lk-strip::-webkit-scrollbar { display: none; }
@@ -446,7 +446,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b96"></script>
+<script src="look/outfits.js?v=b97"></script>
 <script>
 (function () {
   "use strict";
@@ -751,7 +751,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b96";
+  var BUILD = "b97";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -910,6 +910,10 @@
       var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); }));
       if (near <= 1) list.push({ o: o, fit: near * 2 + (o.sky === "any" || o.sky === sky ? 0 : 1) });
     });
+    // b97: a look made for one sky (clear or cloudy) only shows under that sky; the other sky's looks are a fallback
+    // for a style and gender that has nothing made for today's sky yet
+    var sameSky = list.filter(function (e) { return e.fit % 2 === 0; });
+    if (sameSky.length) list = sameSky;
     list.sort(function (a, b) { return a.fit - b.fit; });
     // the band's own text (no photo) only when the library has nothing for this style and gender near today (b78: it used
     // to lead whenever no look matched exactly, which left a blank first slide once the old photos were removed in b71)

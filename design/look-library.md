@@ -69,3 +69,5 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 - 아이템: `cat`(outer/top/bottom/shorts/shoes/socks/hands/headwear/eyewear/watch/jewelry/scarf/bag), `name`, `sub`(카드 보조문구), `note`(입는 법), `image`(500×500 제품 컷 JPG), `alt`.
 - 순서는 products.json `products` 순서, 카드와 문단은 같은 순서로 연결. `status`가 ready인 것만.
 - 첫 세트: `look/berlin-complete/Overcast/Chilly/Male/35+/day/NN-<style>/`(원본 PNG + 앱용 JPG), 룩 `oc15-NN-<run|street|minimal>-m`.
+
+- b97: 오늘 하늘에 맞는 룩(sky가 오늘과 같거나 any)이 그 스타일·성별에 하나라도 있으면 다른 하늘 룩은 빠짐. 없을 때만 다른 하늘 룩이 대신 나옴.
