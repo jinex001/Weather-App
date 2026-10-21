@@ -52,8 +52,10 @@
   .deg { font-size: .8em; position: relative; top: -.29em; }
   .cond { display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700; text-transform: uppercase; margin-top: 8px; }
   .cond svg { width: 28px; height: 22px; }
-  /* b4: rain and wind moved up under the temperature, right-aligned, one per line */
-  .data { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; margin-top: 6px; font-size: 12px; font-weight: 600; line-height: 1.35; }
+  /* b5: rain and wind as icons + numbers on one line under the temperature (the app's 24-hour wind icon: 1·2·3 lines) */
+  .data { display: flex; gap: 10px; margin-top: 7px; font-size: 12px; font-weight: 600; line-height: 1; }
+  .data span { display: flex; align-items: center; gap: 3px; }
+  .data svg { width: 13px; height: 13px; flex: none; }
   .a-rays { animation: rays 18s linear infinite; }
   .a-sun { animation: breathe 2.6s ease-in-out infinite; }
   .a-drift { animation: drift 5s ease-in-out infinite alternate; }
@@ -133,6 +135,11 @@
       '<circle cx="40" cy="44" r="2.8" style="animation-delay:.9s"/><circle cx="54" cy="44" r="2.8" style="animation-delay:1.8s"/></g>' +
       '<path d="' + CL + '" fill="#958E81" transform="translate(4 -6)"/></svg>'
   };
+  // same wind icon as the app's 24-hour forecast: 1 line <20 · 2 lines 20–29 · 3 lines ≥30 km/h; a drop for rain chance
+  var WIND_LINES = ['<path d="M3 12h13a3 3 0 1 0-3-3"/>', '<path d="M3 9h11a3 3 0 1 0-3-3"/><path d="M3 15h15a3 3 0 1 1-3 3"/>',
+    '<path d="M3 9h11a3 3 0 1 0-3-3"/><path d="M3 14h15a3 3 0 1 1-3 3"/><path d="M3 19h7"/>'];
+  function wind3(v) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-label="바람">' + WIND_LINES[v >= 30 ? 2 : v >= 20 ? 1 : 0] + "</svg>"; }
+  var DROP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-label="강수"><path d="M12 3C9.2 7.4 6 10.6 6 14.5a6 6 0 0 0 12 0C18 10.6 14.8 7.4 12 3z"/></svg>';
   var ICON = {
     sun: '<svg viewBox="0 0 56 44"><circle cx="28" cy="22" r="11" fill="#E8621C"/><g stroke="#E8621C" stroke-width="3" stroke-linecap="round"><path d="M28 3v5M28 36v5M9 22h5M42 22h5M15 9l3.5 3.5M37.5 31.5L41 35M15 35l3.5-3.5M37.5 12.5L41 9"/></g></svg>',
     cloud: '<svg viewBox="0 0 56 44"><path d="M16 36h26a9 9 0 0 0 0-18 13 13 0 0 0-25-2 10 10 0 0 0-1 20z" fill="#958E81"/></svg>',
@@ -150,14 +157,14 @@
       return '<div class="card">' + pic + '<div class="over"><div>' +
         '<div class="top"><div><div class="date">' + d.n.split(" · ")[1] + '</div><div class="day">' + d.n.split(" · ")[0] + "</div></div>" +
         '<div class="wx" aria-label="' + d.cond + '">' + ANIM[d.c] + '<div class="temp">' + d.hi + deg + "<small>" + d.lo + "°</small></div>" +
-        '<div class="data"><span>강수 ' + d.p + "%</span><span>바람 " + d.w + " km/h</span></div></div></div></div></div></div>";
+        '<div class="data"><span>' + DROP + d.p + "%</span><span>" + wind3(d.w) + d.w + "</span></div></div></div></div></div></div>";
     }).join("");
     document.getElementById("page").innerHTML =
       '<div class="k">앞으로 7일 · 베를린</div><div class="h">7 Days</div>' +
       '<div class="ctl"><button data-g="m" class="' + (G === "m" ? "on" : "") + '">남성</button><button data-g="f" class="' + (G === "f" ? "on" : "") + '">여성</button><button data-r="1">다시 뽑기</button></div>' +
       '<div class="dots" id="dots">' + DAYS.map(function (d, i) { return '<span class="' + (i ? "" : "on") + '"></span>'; }).join("") + "</div>" +
       '<div class="rail" id="rail">' + cards + "</div>" +
-      '<div class="notes"><b>카드</b>한 장 = 하루(내일부터 7일). 첫 카드가 거의 다 보이고 다음 카드가 3분의 1쯤, 12% 작게 보여요(넘기면 크기도 같이 바뀜). 왼쪽 위 날짜(작게) 아래 요일(크게), 오른쪽 위 움직이는 날씨 아이콘 → 기온 → 강수·바람. 옆으로 밀면 한 장씩 멈춰요.' +
+      '<div class="notes"><b>카드</b>한 장 = 하루(내일부터 7일). 첫 카드가 거의 다 보이고 다음 카드가 3분의 1쯤, 12% 작게 보여요(넘기면 크기도 같이 바뀜). 왼쪽 위 날짜(작게) 아래 요일(크게), 오른쪽 위 움직이는 날씨 아이콘 → 기온 → 한 줄에 물방울 + 강수% · 바람 아이콘(줄 1·2·3 = 세기) + km/h. 옆으로 밀면 한 장씩 멈춰요.' +
       "<b>배경</b>그날 날씨 규칙(눈·비·한파·바람·추움·더위·맑음·쌀쌀·선선)으로 고른 제품 컷 하나를 크게. 컷의 아이보리 바닥이 카드 바탕이 돼서 상자 없이 글자가 읽혀요." +
       "<b>위에 올린 정보</b>날짜 · 최고(크게)·최저 · 상태 · 강수·바람." +
       "<b>아직 없는 컷</b>선글라스, 반팔 티, 나시, 우산.</div>";
