@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-m-35-day-run-05",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "approvalDate": "2026-10-21",
+    "evidence": "사용자가 러닝 02–05 네 컷 모두 좋다고 승인함."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "LEAVE IT BEHIND",
+    "captionKo": "낙엽 하나를 털고, 그레이와 그린으로 가볍게.",
+    "introKo": "낙엽 하나를 털고, 그레이와 그린으로 가볍게. 가벼운 비, 기온 12°C·체감 7°C의 낮 러닝 장면을 위한 스타일링 콘셉트예요.",
+    "pullQuoteEn": "LEAVE IT BEHIND.",
+    "piecesLabel": "THE PIECES",
+    "carouselHintKo": "5 pieces · 옆으로 넘겨 보세요"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "스톤 그레이 후드 러닝 셸",
+      "descriptor": "Stone-grey hooded running shell",
+      "descriptionKo": "스톤 그레이 후드 러닝 셸. 승인된 에디토리얼을 참조한 AI 콘셉트 제품 컷. 보이는 색상·실루엣을 참조했으며 숨은 구조와 미세 디테일은 재생성 과정의 추정이 포함될 수 있음.",
+      "image": "products/01-outer.jpg",
+      "altKo": "스톤 그레이 후드 러닝 셸 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 롱슬리브 러닝 이너",
+      "descriptor": "Black long-sleeve running base layer",
+      "descriptionKo": "블랙 롱슬리브 러닝 이너. 승인된 에디토리얼을 참조한 AI 콘셉트 제품 컷. 가려진 몸판·허리·발 부분 등의 세부 형태는 추정 복원.",
+      "image": "products/02-top.jpg",
+      "altKo": "블랙 롱슬리브 러닝 이너 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "포레스트 그린 러닝 타이츠",
+      "descriptor": "Forest-green running tights",
+      "descriptionKo": "포레스트 그린 러닝 타이츠. 승인된 에디토리얼을 참조한 AI 콘셉트 제품 컷. 가려진 몸판·허리·발 부분 등의 세부 형태는 추정 복원.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "포레스트 그린 러닝 타이츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "차콜 리브 러닝 양말",
+      "descriptor": "Charcoal ribbed running socks",
+      "descriptionKo": "차콜 리브 러닝 양말. 승인된 에디토리얼을 참조한 AI 콘셉트 제품 컷. 가려진 몸판·허리·발 부분 등의 세부 형태는 추정 복원.",
+      "image": "products/04-socks.jpg",
+      "altKo": "차콜 리브 러닝 양말 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "크림 그레이 러닝화",
+      "descriptor": "Cream-grey running shoes",
+      "descriptionKo": "크림 그레이 러닝화. 승인된 에디토리얼을 참조한 AI 콘셉트 제품 컷. 보이는 색상·실루엣을 참조했으며 숨은 구조와 미세 디테일은 재생성 과정의 추정이 포함될 수 있음.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "크림 그레이 러닝화 - 아이보리 배경의 개별 제품 컷 한 켤레를 가지런히 나란히 정렬한 수직 탑뷰",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "contentType": "ai-styled-concept"
+}
