@@ -15,7 +15,7 @@
 - 약간의 필름 입자, 풍부하지만 현실적인 색. 주변 공간을 알아볼 수 있는 심도.
 - 프레임과 높낮이를 다양하게: 전신·무릎 위·상반신, 하이앵글·로우앵글·눈높이.
 - 세로 2:3. 기본 원본 1024 × 1536. 한 파일에 사진 한 장.
-- 앱에 올릴 때는 JPG(품질 80, 300KB 이하)로. 제품 컷은 500 × 500 1:1, 따뜻한 아이보리 바닥(#F3EFE8 근처) 위 수직 탑뷰, JPG 50KB 이하. PNG 원본은 저장소에 두지 않는다(2026-10-20).
+- 앱에 올릴 때는 JPG(품질 80, 300KB 이하)로. 제품 컷은 500 × 500 1:1, 따뜻한 아이보리 배경(#F3EFE8 근처), 기본 수직 탑뷰(부츠는 아래 신발별 구도 규칙 적용), JPG 50KB 이하. PNG 원본은 저장소에 두지 않는다(2026-10-20).
 - 사진 안에는 텍스트, 로고, 워터마크, 앱 UI, 콜라주를 넣지 않는다.
 
 ### 카메라 원근감과 재미있는 동작 (2026-10-21 승인)
@@ -187,9 +187,24 @@ No added text, logos, watermark or collage.
 - 착장을 구성하는 아이템은 반드시 아이템 1종당 별도 이미지 파일 1장으로 생성한다. 아이템이 6종이면 제품 이미지도 각각 독립된 6장이어야 한다.
 - 여러 아이템을 한 장의 그리드·콜라주·제품 보드에 합치지 않는다. 개별 제품 이미지를 각각 따로 생성한다.
 - 신발·양말·장갑처럼 한 켤레/한 쌍으로 사용하는 제품은 한 아이템으로 취급하여 한 이미지에 해당 한 켤레/한 쌍만 담는다.
-- 신발은 두 짝을 밑창으로 바닥에 세우고 평행하게 가지런히 정렬한다. 앞코는 위쪽, 뒤꿈치는 아래쪽으로 같은 방향을 향하게 하고, 카메라는 바로 위에서 수직으로 내려다본다. 옆으로 눕히거나 대각선·엇갈림·측면 전시 구도를 사용하지 않는다.
+### 신발 제품 컷 구도 (2026-10-21 사용자 레퍼런스 기준)
+
+최우선 목적은 한 켤레를 깨끗하고 가지런하게 정돈하여 제품 전체의 형태가 잘 보이게 하는 것이다. 신발 종류에 맞춰 구도를 선택하며, 모든 신발을 탑뷰 하나로 고정하지 않는다.
+
+| 신발 종류 | 배치와 카메라 |
+| --- | --- |
+| 스니커즈·러닝화 | 두 짝을 밑창으로 바닥에 놓고 나란히 정렬한 수직 탑뷰. 현재 승인된 러닝화 제품 컷의 방식 유지 |
+| 플랫슈즈·슬리퍼·로퍼 등 낮은 신발 | 두 짝을 가지런히 나란히 놓고 위에서 수직으로 내려다본다. 앞코는 위쪽 또는 아래쪽 모두 가능하나 한 이미지 안에서는 두 짝의 방향을 통일 |
+| 앵클부츠·부츠 등 발목 높이가 있는 신발 | 밑창을 바닥에 놓고 두 짝을 똑바로 세운다. 같은 방향으로 살짝 돌린 정돈된 3/4 앵글로 앞코·옆면·발목 높이·전체 실루엣을 함께 보여준다. 두 부츠를 알아볼 수 있게 필요한 만큼만 살짝 앞뒤로 배치 가능 |
+
+- 모든 유형에서 한 켤레의 크기와 간격을 균형 있게 맞추고, 위아래·좌우 여백을 확보해 발목부터 밑창까지 전체 제품을 담는다.
+- 부츠를 옆으로 눕히거나 발목 부분을 접어 형태를 숨기지 않는다. 플랫류는 불필요하게 비틀거나 서로 다른 방향으로 흩어놓지 않는다.
+- 정돈된 배치가 우선이다. 과도한 원근 왜곡, 어지러운 교차·겹침, 잘린 제품, 인물·소품을 사용하지 않는다.
+- 배경은 기존 따뜻한 아이보리로 통일하고 부드러운 접지 그림자를 유지한다. 제공된 레퍼런스의 화면 UI·로고·텍스트는 복제하지 않는다.
+- 한 켤레는 한 아이템이며 독립된 제품 이미지 파일 1장에 담는다.
+
 - 각 이미지는 에디토리얼을 참조해 해당 아이템의 색상·소재·실루엣·지퍼·포켓·봉제선 등 보이는 디테일을 일치시킨다. 가려진 부분을 임의로 확정된 디테일처럼 설명하지 않는다.
-- 제품마다 500 × 500, 1:1 정사각형, 따뜻한 아이보리 바닥(#F3EFE8 근처), 수직 탑뷰, 부드러운 접지 그림자, 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다.
+- 제품마다 500 × 500, 1:1 정사각형, 따뜻한 아이보리 배경(#F3EFE8 근처), 기본 수직 탑뷰(부츠는 위 신발별 3/4 앵글 적용), 부드러운 접지 그림자, 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다.
 - 인물·손·마네킹·행거·다른 제품·텍스트·로고·워터마크를 넣지 않는다. 앱용 JPG 50KB 이하로 저장한다.
 
 ### 개별 제품 컷 기본 프롬프트
@@ -202,9 +217,18 @@ Preserve the visible color, material, silhouette and construction details
 of that item in the editorial. Do not redesign the item.
 One item category per image and per file. A matching pair of shoes, socks
 or gloves counts as one item and may appear together in its own image.
-Vertical overhead flat-lay on warm ivory floor near #F3EFE8,
-soft studio light, subtle contact shadow, entire item visible,
-centered composition and consistent generous margins.
+Warm ivory floor/background near #F3EFE8, soft studio light,
+subtle contact shadow, entire item visible, centered composition
+and consistent generous margins.
+Default to vertical overhead flat-lay for clothing and low footwear.
+Sneakers and flat shoes: both shoes resting on soles, parallel and neatly
+aligned side by side, camera directly overhead. Toes may face toward the
+top OR bottom of the image, consistently for both shoes in the pair.
+Ankle boots and boots: stand both boots upright on their soles, neatly
+aligned and turned slightly together for a clean three-quarter view
+showing toe, side, shaft height and complete silhouette. A modest stagger
+is allowed only to make both boots visible. Never lay boots on their sides.
+Clean, orderly presentation and full product visibility take priority.
 No other products, person, hands, mannequin, hanger, text, logo,
 watermark, grid, collage or multi-item board.
 Deliver each item separately; six items require six separate images.
