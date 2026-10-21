@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-m-35-day-street-05",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "approvalDate": "2026-10-21",
+    "evidence": "사용자가 스트리트 05 에디토리얼에 오케로 승인함."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "FOUND THE KEYS",
+    "captionKo": "매트한 토프 우비와 브라운 니트, 인디고 데님의 조합.",
+    "introKo": "베를린 낮, 기온 12°C·체감 7°C의 가벼운 비에 맞춘 스트리트웨어.",
+    "pullQuoteEn": "FOUND THE KEYS.",
+    "piecesLabel": "THE PIECES",
+    "carouselHintKo": "6 pieces · 옆으로 넘겨 보세요"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "토프 후드 우비",
+      "descriptor": "Taupe hooded raincoat",
+      "descriptionKo": "토프 후드 우비. AI 콘셉트 제품 컷. 가려진 구조는 추정 복원을 포함함.",
+      "image": "products/01-outer.jpg",
+      "altKo": "토프 후드 우비 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "초콜릿 브라운 니트",
+      "descriptor": "Chocolate brown crewneck knit",
+      "descriptionKo": "초콜릿 브라운 니트. AI 콘셉트 제품 컷. 가려진 구조는 추정 복원을 포함함.",
+      "image": "products/02-top.jpg",
+      "altKo": "초콜릿 브라운 니트 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "인디고 스트레이트 데님",
+      "descriptor": "Indigo straight jeans",
+      "descriptionKo": "인디고 스트레이트 데님. AI 콘셉트 제품 컷. 가려진 구조는 추정 복원을 포함함.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "인디고 스트레이트 데님 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "다크 양말",
+      "descriptor": "Dark crew socks",
+      "descriptionKo": "다크 양말. AI 콘셉트 제품 컷. 가려진 구조는 추정 복원을 포함함.",
+      "image": "products/04-socks.jpg",
+      "altKo": "다크 양말 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "not-visible-inferred",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 레이스업 앵클부츠",
+      "descriptor": "Black lace-up ankle boots",
+      "descriptionKo": "블랙 레이스업 앵클부츠. AI 콘셉트 제품 컷. 가려진 구조는 추정 복원을 포함함.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "블랙 레이스업 앵클부츠 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    },
+    {
+      "id": "06-bag",
+      "category": "accessory",
+      "nameKo": "블랙 크로스백",
+      "descriptor": "Black crossbody bag",
+      "descriptionKo": "블랙 크로스백. AI 콘셉트 제품 컷. 가려진 구조는 추정 복원을 포함함.",
+      "image": "products/06-bag.jpg",
+      "altKo": "블랙 크로스백 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready"
+    }
+  ],
+  "productCount": 6,
+  "contentType": "ai-styled-concept",
+  "stylingReference": "RAINS-inspired raincoat aesthetic only; not an identified retail product.",
+  "sceneProps": [
+    "keyring"
+  ]
+}
