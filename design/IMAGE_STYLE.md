@@ -8,7 +8,7 @@
 
 가까운 거리에서 일상의 순간을 포착한, 개성과 유머가 있는 패션 에디토리얼.
 
-- 강한 카메라 직광 플래시, 또렷한 그림자, 피부와 원단의 실제 질감.
+- 강한 카메라 직광 플래시를 모든 에디토리얼 컷에 반드시 사용한다. 낮·밤·날씨와 관계없이 플래시가 확실히 느껴지는 인물 조명, 또렷한 그림자, 피부와 원단의 실제 질감을 유지한다.
 - 24–28mm 광각 느낌, 손·신발·소품의 근거리 원근감, 생동감 있는 구도.
 - 장보기, 신발 끈 묶기, 물 마시기, 열쇠 찾기, 스카프 잡기 같은 구체적 행동.
 - 인물마다 다른 얼굴·표정·머리·체형. 자연스러운 피부와 연령의 특징 유지.
@@ -17,6 +17,15 @@
 - 세로 2:3. 기본 원본 1024 × 1536. 한 파일에 사진 한 장.
 - 앱에 올릴 때는 JPG(품질 80, 300KB 이하)로. 제품 컷은 500 × 500 1:1, 따뜻한 아이보리 바닥(#F3EFE8 근처) 위 수직 탑뷰, JPG 50KB 이하. PNG 원본은 저장소에 두지 않는다(2026-10-20).
 - 사진 안에는 텍스트, 로고, 워터마크, 앱 UI, 콜라주를 넣지 않는다.
+
+### 카메라 원근감과 재미있는 동작 (2026-10-21 승인)
+
+- 가까운 오브젝트를 크게 잡아 원근감의 과장을 살짝 높인다. 앞쪽 부츠·손·우산·가방·자전거 바퀴 등 장면 속 오브젝트를 렌즈 가까이에 두고 인물과 배경의 거리 차이를 활용한다.
+- 기본 24–28mm 광각을 유지하되, 원근감을 더 강조하는 컷은 20–24mm 느낌을 사용할 수 있다. 인체와 물체의 형태는 자연스럽게 유지하며 과도한 어안 왜곡은 피한다.
+- 카메라 높낮이를 적극적으로 변주한다. 지면·연석 가까이의 로우앵글, 위에서 내려다보는 하이앵글, 가까운 눈높이 구도를 섞고, 필요하면 프레임을 살짝 기울인다. 모든 컷을 같은 로우앵글이나 큰 신발 구도로 반복하지 않는다.
+- 앵글과 동작을 함께 설계한다. 물웅덩이를 넘으며 균형 잡기, 바람에 움직이는 우산 붙잡기, 장바구니를 들고 턱 내려오기, 자전거 잠금 풀기처럼 일상 속에서 재미있는 제스처와 순간을 포착한다.
+- 단순히 서 있는 모델 포즈보다 몸의 기울기, 손과 발의 움직임, 행동을 따라가는 시선과 생생한 표정으로 유머를 만든다. 과장된 원근감 속에서도 착장과 주요 아이템을 알아볼 수 있어야 한다.
+- 승인 예시: 비 오는 베를린 낮, 기온 12°C / 체감 7°C, 남성 스트리트웨어. 지면 가까운 카메라 앞에서 물웅덩이를 넘어 내딛는 부츠를 크게 잡고, 반대쪽 팔로 균형을 잡으며 웃는 순간. 강한 직광 플래시 필수.
 
 ## 2. 시선과 순간 포착
 
@@ -109,6 +118,15 @@ Photographic language: intimate close 24–28mm wide-angle snapshot,
 strong direct on-camera flash, crisp cast shadows, tactile fabric and skin,
 slightly gritty analog grain, rich believable color, recognizable everyday
 surroundings and moderate depth of field. Fashion is revealed through action.
+Direct on-camera flash is MANDATORY in every editorial frame, day or night;
+make its punch visibly strong rather than relying on ambient light alone.
+Use slightly exaggerated near/far perspective: bring {FOREGROUND_OBJECT}
+close to the lens so it appears larger, while keeping anatomy believable.
+Vary low curb-level, high and eye-level viewpoints across the series;
+20–24mm perspective may be used for stronger foreground emphasis.
+Combine the camera angle with a playful everyday gesture, expressive hands
+and feet, natural balance and a lively expression. Avoid extreme fisheye.
+Do not repeat the same oversized-boot composition throughout a series.
 Frame: {FRAMING_AND_CAMERA_HEIGHT}, portrait 2:3.
 Action: {SPECIFIC_EVERYDAY_ACTION}.
 Gaze: {SPECIFIC_GAZE_TARGET_OR_DIRECT_EYE_CONTACT}.
@@ -164,11 +182,42 @@ No added text, logos, watermark or collage.
 
 기본 사진을 수정할 때는 요청하지 않은 착장·인물·배경을 바꾸지 않는다. 볼드 컬러 규칙은 새 세트 기획 시 적용하고, 승인된 기존 사진의 색 변경은 해당 수정 요청이 있을 때 적용한다.
 
-## 8. 제작 전후 확인
+## 8. 개별 제품 이미지 브레이크다운
+
+- 착장을 구성하는 아이템은 반드시 아이템 1종당 별도 이미지 파일 1장으로 생성한다. 아이템이 6종이면 제품 이미지도 각각 독립된 6장이어야 한다.
+- 여러 아이템을 한 장의 그리드·콜라주·제품 보드에 합치지 않는다. 개별 제품 이미지를 각각 따로 생성한다.
+- 신발·양말·장갑처럼 한 켤레/한 쌍으로 사용하는 제품은 한 아이템으로 취급하여 한 이미지에 해당 한 켤레/한 쌍만 담는다.
+- 각 이미지는 에디토리얼을 참조해 해당 아이템의 색상·소재·실루엣·지퍼·포켓·봉제선 등 보이는 디테일을 일치시킨다. 가려진 부분을 임의로 확정된 디테일처럼 설명하지 않는다.
+- 제품마다 500 × 500, 1:1 정사각형, 따뜻한 아이보리 바닥(#F3EFE8 근처), 수직 탑뷰, 부드러운 접지 그림자, 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다.
+- 인물·손·마네킹·행거·다른 제품·텍스트·로고·워터마크를 넣지 않는다. 앱용 JPG 50KB 이하로 저장한다.
+
+### 개별 제품 컷 기본 프롬프트
+
+~~~text
+Use case: product-mockup.
+Use the editorial image as the outfit reference.
+Create ONE standalone square product photograph of {SINGLE_ITEM} only.
+Preserve the visible color, material, silhouette and construction details
+of that item in the editorial. Do not redesign the item.
+One item category per image and per file. A matching pair of shoes, socks
+or gloves counts as one item and may appear together in its own image.
+Vertical overhead flat-lay on warm ivory floor near #F3EFE8,
+soft studio light, subtle contact shadow, entire item visible,
+centered composition and consistent generous margins.
+No other products, person, hands, mannequin, hanger, text, logo,
+watermark, grid, collage or multi-item board.
+Deliver each item separately; six items require six separate images.
+App export: 500 × 500 JPG, 50KB maximum.
+~~~
+
+## 9. 제작 전후 확인
 
 - 도시·날씨·시간·실제 기온·체감온도·대상 연령·스타일을 기록했는가?
 - 착장이 체감온도와 활동에 맞고, 사진에 보이는 아이템과 설명이 일치하는가?
 - 시선과 행동, 프레이밍이 시리즈 안에서 다양하게 구성됐는가?
+- 가까운 오브젝트의 살짝 과장된 원근감, 카메라 높낮이, 재미있는 제스처를 함께 설계했는가?
+- 낮·밤 모두 강한 직광 플래시가 확실히 드러나는가?
+- 제품 이미지가 아이템 1종당 독립된 파일 1장이고, 6종이면 각각 6장으로 제작됐는가?
 - 러닝 반사 소재가 플래시에 반응하면서 실제 소재처럼 보이는가?
 - 일부 착장에 볼드한 컬러가 있고, 전부 비슷한 무채색 또는 과도한 다채색이 되지 않았는가?
 - 인체와 손·발·소품의 형태가 자연스러운가?
