@@ -777,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b112";
+  var BUILD = "b113";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -937,9 +937,10 @@
     if (c === 63 || c === 66 || c === 81) return "normal";
     return "pouring";
   }
-  function lookPool(v, pics) {
+  // Looks of one style and gender that fit the view, each with its sky rank (sr) and fit (lower is better)
+  function lookFits(v, style, g) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
-    var mine = LIB.outfits.filter(function (o) { return o.style === pics.style && o.gender === pics.g; });
+    var mine = LIB.outfits.filter(function (o) { return o.style === style && o.gender === g; });
     var timed = mine.filter(function (o) { return (o.time === "evening") === !!v.evening; });
     // sky rank, lower is better. Rain day: a look for this rain strength 0, another rain strength 1, cloudy/any 2, clear 3.
     // Dry day: today's sky (or any) 0, the other dry sky 1, rain looks never.
@@ -952,6 +953,10 @@
       var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); })), sr = skyRank(o);
       if (near <= 1 && sr >= 0) list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0) });
     });
+    return list;
+  }
+  function lookPool(v, pics) {
+    var list = lookFits(v, pics.style, pics.g);
     // b97: a look made for one sky only shows under that sky; looks for another sky are a fallback for a style and gender
     // that has nothing made for today's sky yet (b110: the best sky rank present wins)
     var best = Math.min.apply(null, list.map(function (e) { return e.sr; }).concat([9]));
@@ -961,6 +966,10 @@
     var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || ""));
     list.forEach(function (e) { e.r = rnd(); });
     list.sort(function (a, b) { return a.fit - b.fit || a.r - b.r; });
+    // b113: a calendar day opened from its card leads with the look that card's piece came from (the editor's pick),
+    // whatever style the profile has; the other two are drawn as usual
+    var pk = v.pick && v.pick.o.style === pics.style && v.pick.o.gender === pics.g ? v.pick.o : null;
+    if (pk) list = [{ o: pk, fit: 0 }].concat(list.filter(function (e) { return e.o !== pk; }));
     list = list.slice(0, 3);
     // the band's own text (no photo) only when the library has nothing for this style and gender near today (b78: it used
     // to lead whenever no look matched exactly, which left a blank first slide once the old photos were removed in b71)
@@ -1049,13 +1058,13 @@
 
   // A calendar day opened from its editor's pick (b94): same sheet, that day's band and sky, label and date of that day.
   // Hour-by-hour notes (rain at, tonight, tomorrow) belong to today, so a day shows only its own rain/wind/snow line.
-  function dayView(i) {
+  function dayView(i, pick) {
     var v = lastView; if (!v) return null;
     var D = v.data.daily, c = D.weather_code[i], f = r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]), band = bandOf(f);
     var w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0;
     return {
       data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, rain: rainLevel(c), updated: v.updated,
-      day: i, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
+      day: i, pick: pick || null, style: pick ? pick.o.style : null, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], w >= 30, isRain(c), isSnow(c)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(D.time[i] + "T12:00:00Z")) + " · " + (place.gps ? T.here : T.berlin)
@@ -1072,8 +1081,10 @@
   function lookContent(v, profile) {
     var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
     var fem = profile.gender === "f", pics = lookPhotos(v, profile), st = lookState();
+    // b113: a day opened from its card shows the card's look: its gender, and its style until another tab is tapped
+    if (v.pick) { pics.g = v.pick.o.gender; pics.style = v.style; }
     // Baby is a fourth segment, only for people who go out with a baby; it shows the baby text and both baby photos
-    var baby = profile.baby === "y" && profile.style === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
+    var baby = profile.baby === "y" && (v.pick ? v.style : profile.style) === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
     var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30, extras = [];
     if (v.day !== undefined) return dayContent(v, profile, pics, st, tabs, baby, L);
     // rain in the next 12 hours (or now) changes what to bring
@@ -1149,6 +1160,14 @@
     fadeText($("lk-atitle"), lookNow.pool[i].o.article ? lookNow.pool[i].o.article.title : "");
     fadeText($("lk-look-deck"), lookNow.pool[i].o.deck[LANG]);
     $("lk-detail").innerHTML = detailHtml(lookNow.pool[i].o, lookNow.extras, lookState());
+    showPiece();
+  }
+  // b113: on the card's look, the product strip starts at the piece the card showed
+  function showPiece() {
+    var v = lookNow && lookNow.v, strip = document.querySelector("#lk-detail .lk-strip");
+    if (!strip || !v.pick || lookNow.pool[lookNow.at].o !== v.pick.o) return;
+    var k = v.pick.o.items.filter(function (id) { return LIB.items[id]; }).indexOf(v.pick.item), card = strip.children[k];
+    if (card) strip.scrollLeft = card.offsetLeft - strip.children[0].offsetLeft;
   }
 
   function paintLook(forceAsk) {
@@ -1176,11 +1195,13 @@
         b.addEventListener("click", function () {
           var sheet = $("look"), y = sheet.scrollTop;
           profile.style = b.dataset.style; store("wx-profile", profile);
+          if (sheetView && sheetView.pick) sheetView.style = b.dataset.style;
           paintLook(); paintPeek(); sheet.scrollTop = y; // stay where the tabs are
         });
       });
       var rail = $("lk-rail");
       if (rail) { rail.scrollLeft = lookNow.at * (rail.clientWidth + RAIL_GAP); rail.addEventListener("scroll", onRail, { passive: true }); }
+      showPiece();
     }
     $("look").scrollTop = 0;
   }
@@ -1209,7 +1230,8 @@
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
     // from home, a fresh draw of three looks; a calendar day keeps the pick its row already shows
-    if (!sheetView && !lookOpen) { lookSeed = String(Math.random()); railAt = {}; }
+    if (!sheetView && !lookOpen) lookSeed = String(Math.random());
+    if (!lookOpen) railAt = {}; // the first slide on every open (a day's first slide is its card's look, b113)
     var v = sheetView || lastView; if (!v) return;
     var sheet = $("look");
     // Plain white for every band and every screen (user's choice); text is always ink
@@ -1635,8 +1657,10 @@
   function whenText(iso) {
     return new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).format(new Date(iso));
   }
-  // The piece for one forecast day (b107): one product cut picked by that day's weather, first rule that has a cut wins,
-  // drawn at random among the cuts that fit (fixed per session seed and day). Cuts come from the looks with product flat lays.
+  // The piece for one forecast day (b107, b113): first the looks that fit that day (its band and sky, like Today's Look,
+  // every style, looks with product cuts only), then the first rule with a cut in one of them gives the piece, drawn at
+  // random (fixed per session and day). The card shows that piece and opens that look. With no look near that day, any
+  // look of the gender gives the piece (as in b107).
   var PIECE_RULES = [
     [function (d) { return isSnow(d.c); }, [["shoes", /부츠/], ["headwear", /비니/]]],
     [function (d) { return d.p >= 50; }, [["outer", /셸|파카|트렌치|아노락|윈드/]]],
@@ -1649,21 +1673,30 @@
     [function (d) { return d.f <= 17; }, [["top", /니트|스웨트|후디|터틀넥|카디건/], ["outer", /카디건|셔츠/]]],
     [function () { return true; }, [["shoes", /스니커즈|러너|로퍼/], ["top", /./], ["outer", /./]]]
   ];
-  function dayPiece(D, i, g) {
-    var d = { c: D.weather_code[i], p: D.precipitation_probability_max[i] || 0, w: D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0,
+  var pieceSeed = String(Math.random());
+  function dayPick(D, i, g) {
+    var c = D.weather_code[i], d = { c: c, p: D.precipitation_probability_max[i] || 0, w: D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0,
               f: r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]) };
-    var cuts = [];
-    LIB.outfits.forEach(function (o) {
-      if (!o.article) return;
-      o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && (o.gender === g || it.cat === "gear") && cuts.indexOf(it) < 0) cuts.push(it); });
-    });
+    var dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false }, fits = [];
+    STYLES.forEach(function (sty) { fits = fits.concat(lookFits(dv, sty, g).filter(function (e) { return e.o.article; })); });
+    var best = Math.min.apply(null, fits.map(function (e) { return e.sr; }).concat([9]));
+    fits = fits.filter(function (e) { return e.sr === best; });
+    if (!fits.length) fits = LIB.outfits.filter(function (o) { return o.article && o.gender === g; }).map(function (o) { return { o: o, fit: 9 }; });
+    var rnd = seeded(pieceSeed + "|piece|" + D.time[i] + g);
+    function pairs(test) {
+      var out = [];
+      fits.forEach(function (e) { e.o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && test(it)) out.push({ o: e.o, item: k, it: it, fit: e.fit }); }); });
+      var top = Math.min.apply(null, out.map(function (p) { return p.fit; }));
+      return out.filter(function (p) { return p.fit === top; });
+    }
     for (var n = 0; n < PIECE_RULES.length; n++) {
       if (!PIECE_RULES[n][0](d)) continue;
-      var bag = [];
-      PIECE_RULES[n][1].forEach(function (s) { cuts.forEach(function (it) { if (it.cat === s[0] && s[1].test(it.name.ko) && bag.indexOf(it) < 0) bag.push(it); }); });
-      if (bag.length) return bag[Math.floor(seeded(lookSeed + "|piece|" + D.time[i] + g)() * bag.length)];
+      var bag = pairs(function (it) { return PIECE_RULES[n][1].some(function (sp) { return it.cat === sp[0] && sp[1].test(it.name.ko); }); });
+      if (bag.length) return bag[Math.floor(rnd() * bag.length)];
     }
-    return null;
+    // no rule has a cut in these looks: the first piece (the outer, mostly) of one of the best-fitting looks
+    var first = pairs(function () { return true; }).filter(function (p, k, all) { return !k || all[k - 1].o !== p.o; });
+    return first.length ? first[Math.floor(rnd() * first.length)] : null;
   }
   // Moving icons for the cards: drawn for the ivory ground (darker clouds than the home art). Sun turns and breathes,
   // clouds drift, rain streaks fall, flakes sway down.
@@ -1686,10 +1719,11 @@
     // b106: the 7 days start tomorrow (today is the home screen); forecast_days=8 gives indices 1–7
     // b107: each day is a card: that day's product cut as the picture, small date over the day name, moving icon,
     // high/low, rain chance and wind (same 1·2·3-line icon as the 24 hours). Tap = that day's Today's Look sheet.
-    var prof = load("wx-profile") || {}, rows = "", dots = "";
+    var prof = load("wx-profile") || {}, rows = "", dots = "", picks = {};
     for (var i = 1; i < 8 && i < D.time.length; i++) {
       var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
-      var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pc = dayPiece(D, i, g);
+      var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pk = dayPick(D, i, g), pc = pk && pk.it;
+      picks[i] = pk;
       // b109: the card color is the cut's own ivory, measured ahead in outfits.js (bg), not read from the picture at run time
       // (iOS sometimes gave black when the picture was read before it was drawn)
       rows += '<button type="button" class="dc" data-day="' + i + '"' + (pc && pc.bg ? ' style="background:' + pc.bg + '"' : "") + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
@@ -1715,7 +1749,7 @@
       '<button type="button" data-v="month" class="' + (calView === "month" ? "on" : "") + '">This month</button></div>' +
       (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="dc-dots" id="dc-dots" aria-hidden="true">' + dots + '</div><div class="dc-rail" id="dc-rail">' + rows + "</div>");
     $("pg-cal").querySelectorAll(".dc").forEach(function (bt) {
-      bt.addEventListener("click", function () { openLook(dayView(+bt.getAttribute("data-day"))); });
+      bt.addEventListener("click", function () { var k = +bt.getAttribute("data-day"); openLook(dayView(k, picks[k])); });
     });
     dayCards();
     var onTab = $("pg-cal").querySelector(".cal-tabs .on");
