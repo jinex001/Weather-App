@@ -777,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b111";
+  var BUILD = "b112";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1485,7 +1485,7 @@
         ko: "가벼운 레이어링의 미학. 몸에 밀착되는 히트텍 이너 위에 모헤어 카디건을 겹치고, 여유로운 테일러드 팬츠와 크롭 재킷으로 가을 실루엣을 완성하세요.",
         de: "Die Kunst des Layerings. Flauschiger Mohair-Strick über einem körpernahen Thermoshirt, dazu eine lässige Stoffhose und eine kurze Jacke."
       };
-      out.push(editorial[LANG] || editorial.en);
+      return editorial[LANG] || editorial.en;
     } else {
       out.push(LOOK[band[1]].deck[LANG]);
     }
