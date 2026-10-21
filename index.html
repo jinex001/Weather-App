@@ -466,7 +466,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b108"></script>
+<script src="look/outfits.js?v=b109"></script>
 <script>
 (function () {
   "use strict";
@@ -777,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b108";
+  var BUILD = "b109";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1664,7 +1664,9 @@
     for (var i = 1; i < 8 && i < D.time.length; i++) {
       var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
       var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pc = dayPiece(D, i, g);
-      rows += '<button type="button" class="dc" data-day="' + i + '" aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
+      // b109: the card color is the cut's own ivory, measured ahead in outfits.js (bg), not read from the picture at run time
+      // (iOS sometimes gave black when the picture was read before it was drawn)
+      rows += '<button type="button" class="dc" data-day="' + i + '"' + (pc && pc.bg ? ' style="background:' + pc.bg + '"' : "") + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
         (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : "") +
         '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(cardDay(D.time[i], i, dn.n)) + "</div></div>" +
         '<div class="dc-wx">' + dayIcon(c) + '<div class="dc-t">' + r(D.temperature_2m_max[i]) + '<span class="deg">°</span><small>' + r(D.temperature_2m_min[i]) + "°</small></div>" +
@@ -1715,8 +1717,7 @@
     $("tab-dot").hidden = !list.length;
     paintSettings();
   }
-  // Card row behaviour: the card at the snap point full size, the others 12% smaller with the swipe; the active dot follows;
-  // each card takes its color from its cut's corner so picture and card meet without a seam
+  // Card row behaviour: the card at the snap point full size, the others 12% smaller with the swipe; the active dot follows
   function dayCards() {
     var rail = $("dc-rail"); if (!rail) return;
     var dots = $("dc-dots").children;
@@ -1740,16 +1741,6 @@
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
     sizes();
     rail.addEventListener("scroll", sizes, { passive: true });
-    [].forEach.call(rail.querySelectorAll("img"), function (im) {
-      function tint() {
-        try {
-          var cv = document.createElement("canvas"); cv.width = cv.height = 1;
-          var x = cv.getContext("2d"); x.drawImage(im, 2, 2, 6, 6, 0, 0, 1, 1);
-          var p = x.getImageData(0, 0, 1, 1).data; im.parentNode.style.background = "rgb(" + p[0] + "," + p[1] + "," + p[2] + ")";
-        } catch (e) {}
-      }
-      if (im.complete && im.naturalWidth) tint(); else im.addEventListener("load", tint);
-    });
   }
   function paintSettings() {
     var pr = load("wx-profile") || {}, prof = QKEYS.slice(0, 2).map(function (q, qi) { var k = q[2].indexOf(pr[q[0]]); return k < 0 ? null : LT.o[qi][k]; })

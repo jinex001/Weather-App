@@ -30,6 +30,7 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 | `name` | 이름 `{ko,en,de}` — 기사 룩에선 카드 큰 타이틀 |
 | `note` | (선택) 입는 법 `{ko,en,de}` — 기사 룩 카드 본문, 예전 룩은 펼치면 보임 |
 | `image` | (선택) 사진. 기사 룩은 500×500 제품 컷 JPG |
+| `bg` | (b109, 제품 컷만) 컷 모서리 평균색 `#RRGGBB`. 캘린더 카드 바탕색. 새 제품 컷을 넣으면 같이 계산 |
 | `alt` | (선택) 제품 컷 대체 텍스트(한국어, products.json `altKo`) |
 | `sub` | (선택) 카드 보조문구. 데이터에만 있고 b99부터 화면에 안 씀 |
 
