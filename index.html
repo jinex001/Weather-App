@@ -777,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b110";
+  var BUILD = "b111";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1477,8 +1477,18 @@
       if (low >= 0 && cur.temperature_2m - H.temperature_2m[low] >= 4) out.push(fmt(T.sumDrop, { v: r(H.temperature_2m[low]), t: hourText(H.time[low]) }));
     }
     if ((cur.wind_speed_10m || 0) >= 30) out.push(fmt(T.sumWind, { w: r(cur.wind_speed_10m) }));
-    // one outfit line: the band's deck from Today's Look
-    out.push(LOOK[band[1]].deck[LANG]);
+    // b111: October 21 Berlin editorial copy on the home summary; other dates retain the existing forecast.
+    var berlinToday = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    if (berlinToday === "2026-10-21" && band[1] === "cool") {
+      var editorial = {
+        en: "The Art of Light Layering. Brushed mohair over a second-skin thermal, with relaxed tailoring and a cropped jacket for an effortless autumn silhouette.",
+        ko: "가벼운 레이어링의 미학. 몸에 밀착되는 히트텍 이너 위에 모헤어 카디건을 겹치고, 여유로운 테일러드 팬츠와 크롭 재킷으로 가을 실루엣을 완성하세요.",
+        de: "Die Kunst des Layerings. Flauschiger Mohair-Strick über einem körpernahen Thermoshirt, dazu eine lässige Stoffhose und eine kurze Jacke."
+      };
+      out.push(editorial[LANG] || editorial.en);
+    } else {
+      out.push(LOOK[band[1]].deck[LANG]);
+    }
     // getting colder: a 10°+ day/night gap today, or tomorrow's high 4°+ below today's
     var gap = D.temperature_2m_max[0] - D.temperature_2m_min[0];
     var colder = D.temperature_2m_max.length > 1 && D.temperature_2m_max[0] - D.temperature_2m_max[1] >= 4;
