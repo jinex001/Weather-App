@@ -466,7 +466,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b107"></script>
+<script src="look/outfits.js?v=b108"></script>
 <script>
 (function () {
   "use strict";
@@ -777,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b107";
+  var BUILD = "b108";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1595,6 +1595,12 @@
   // ── Bottom menu & pages (b88) ──
   var tab = "home", calView = load("wx-cal") === "month" ? "month" : "week";
   function wind3(v) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true">' + WIND_LINES[v >= 30 ? 2 : v >= 20 ? 1 : 0] + "</svg>"; }
+  // Card day names (b108): tomorrow written out; other days short in English and German (Mon. · Mo.), Korean keeps 수요일
+  function cardDay(iso, i, long) {
+    if (i === 1 || LANG === "ko") return long;
+    var s = new Intl.DateTimeFormat(LOCALE, { weekday: "short", timeZone: "UTC" }).format(new Date(iso + "T12:00:00Z"));
+    return /\.$/.test(s) ? s : s + ".";
+  }
   function dayName(iso, i) {
     var d = new Date(iso + "T12:00:00Z");
     return { n: i === 0 ? NV.today : i === 1 ? NV.tmr : new Intl.DateTimeFormat(LOCALE, { weekday: "long", timeZone: "UTC" }).format(d),
@@ -1660,7 +1666,7 @@
       var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pc = dayPiece(D, i, g);
       rows += '<button type="button" class="dc" data-day="' + i + '" aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
         (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : "") +
-        '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(dn.n) + "</div></div>" +
+        '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(cardDay(D.time[i], i, dn.n)) + "</div></div>" +
         '<div class="dc-wx">' + dayIcon(c) + '<div class="dc-t">' + r(D.temperature_2m_max[i]) + '<span class="deg">°</span><small>' + r(D.temperature_2m_min[i]) + "°</small></div>" +
         '<div class="dc-d"><span>' + DROP_IC + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : "<span>" + wind3(w) + w + "</span>") + "</div></div></div></button>";
       dots += '<span class="' + (i === 1 ? "on" : "") + '"></span>';
@@ -1721,12 +1727,14 @@
       [].forEach.call(dots, function (s, k) { s.className = k === at ? "on" : ""; });
     }
     // long day names (Donnerstag, Wednesday) shrink until they fit beside the icon and temperature (40px down to 24px)
+    // b108: one size for every card, set by "Tomorrow" (the longest word, always written out): it shrinks from 40px until it
+    // fits beside the icon and temperature, and the other days (short names) take the same size
     function fit() {
-      [].forEach.call(rail.children, function (el) {
-        var dy = el.querySelector(".dc-day"), room = el.clientWidth - 36 - el.querySelector(".dc-wx").offsetWidth - 6, px = 40;
-        dy.style.fontSize = "";
-        while (dy.scrollWidth > room && px > 24) { px -= 2; dy.style.fontSize = px + "px"; }
-      });
+      var cs = rail.children; if (!cs.length) return;
+      var dy = cs[0].querySelector(".dc-day"), room = cs[0].clientWidth - 36 - cs[0].querySelector(".dc-wx").offsetWidth - 6, px = 40;
+      dy.style.fontSize = "";
+      while (dy.scrollWidth > room && px > 22) { px -= 1; dy.style.fontSize = px + "px"; }
+      [].forEach.call(cs, function (el) { el.querySelector(".dc-day").style.fontSize = px + "px"; });
     }
     fit();
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
