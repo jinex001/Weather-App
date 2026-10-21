@@ -1,0 +1,38 @@
+# Generation prompts
+
+Mode: built-in image generation. Product image input: the approved editorial.jpg. Products were generated separately, one call per product category.
+
+## Editorial
+
+```text
+Use case: photorealistic-natural. Create ONE independent fashion editorial photograph for Today's Look weather outfit app. Portrait 2:3, ideally 1024x1536. Light Rain / male / daytime / Berlin Mitte autumn / actual 12 C / feels like 7 C / RUNNING. Clearly LIGHT rain, sparse delicate droplets and modest wet pavement, no downpour. A believable European male runner about 35–40, sandy blond hair slightly damp, natural expressive face and athletic everyday build. Complete coherent running outfit suitable for active running in cool breezy drizzle: lightweight burnt orange hooded technical running shell, hood down, black half-open center zipper, narrow silver retroreflective piping at shoulder and sleeves; graphite long sleeve quarter-zip technical base layer visible at neck; full length black running tights with small reflective shin detail; charcoal ribbed running socks; light grey technical running shoes with silver reflective overlays. No logos, no brand, no watch, no bag, no umbrella, no gloves. Candid playful action: the man is midway through a quick sideways hop around a shallow puddle on a Berlin park-side path, leading knee lifted with grey shoe coming close toward the lower left foreground, trailing foot just pushing off ground, torso twisting lightly and elbows spread asymmetrically for balance, open relaxed hands, laughing in surprise while looking down toward his landing spot. One coherent physically credible runner, exactly two arms, two legs and two shoes; energetic everyday mishap, not stunt or runway pose. Camera very close at knee height looking slightly upward with a mildly tilted frame, rectilinear wide-angle 20–24mm feel. Use slightly exaggerated foreground shoe and near hand scale via near/far perspective, full outfit visible, distinctive diagonals, no extreme fisheye or anatomical distortion. Berlin iron park fence, stone gateposts and residential facades readable behind him, autumn leaves, overcast DAY ambient light. MANDATORY harsh strong DIRECT ON-CAMERA FLASH, visibly punchy flash-lit skin and technical fabric, crisp cast shadows, tangible fabric folds, subtle silver-white retroreflective flash return on piping and shoes, no LED glow. Intimate humorous tactile fashion snapshot, fine analog grain, controlled rich orange among neutrals, moderate depth of field, no cinematic haze or overly blurred background. No text, lettering, logos, watermark, UI, frame, border, collage, product breakdown or composite. One photograph only.
+```
+
+## 01-outer
+
+```text
+Use case: product-mockup. Image 1 is the exact approved editorial outfit reference. Create ONE independent square product photo, ONLY the named item. Match visible design, color, construction, fabric and detailing in reference; do not redesign. True vertical overhead flat-lay, entire item centered on warm ivory floor #F3EFE8, generous consistent margins, soft studio light and subtle contact shadow, realistic textile texture. No person, hands, hanger, mannequin, text, logo, watermark, border, grid, collage, or other item. The burnt-orange hooded lightweight running rain shell jacket only, laid flat front facing with sleeves slightly spread, hood visible. Preserve black center zipper and narrow silver-white retroreflective piping: shoulder-to-upper-chest short angled strips and sleeve strips as in reference, elastic cuffs and hem. Dry product studio photography, do not copy wet weather background.
+```
+
+## 02-top
+
+```text
+Use case: product-mockup. Image 1 is the exact approved editorial outfit reference. Create ONE independent square product photo, ONLY the named item. Match visible design, color, construction, fabric and detailing in reference; do not redesign. True vertical overhead flat-lay, entire item centered on warm ivory floor #F3EFE8, generous consistent margins, soft studio light and subtle contact shadow, realistic textile texture. No person, hands, hanger, mannequin, text, logo, watermark, border, grid, collage, or other item. The graphite charcoal grey long sleeve technical quarter-zip running base layer ONLY, laid flat front facing, sleeves slightly spread. Match visible high collar, short black zipper and dark grey smooth fine-heather technical fabric at reference neckline. Hidden sleeves and body reconstructed conservatively as simple close fitting running base layer, straight hem, no invented piping, labels or pockets.
+```
+
+## 03-bottom
+
+```text
+Use case: product-mockup. Image 1 is the exact approved editorial outfit reference. Create ONE independent square product photo, ONLY the named item. Match visible design, color, construction, fabric and detailing in reference; do not redesign. True vertical overhead flat-lay, entire item centered on warm ivory floor #F3EFE8, generous consistent margins, soft studio light and subtle contact shadow, realistic textile texture. No person, hands, hanger, mannequin, text, logo, watermark, border, grid, collage, or other item. Only the black full-length close-fitting running tights from the reference. Lay flat front facing with two legs straight and slightly separated, elastic waistband. Match matte graphite-black knit fabric and the single narrow silver reflective dash on each outer lower shin, as seen on the nearer leg; no extra graphics, no shorts over tights. Keep slim athletic silhouette, plausible simple concealed waistband.
+```
+
+## 04-socks
+
+```text
+Use case: product-mockup. Image 1 is the exact approved editorial outfit reference. Create ONE independent square product photo, ONLY the named item. Match visible design, color, construction, fabric and detailing in reference; do not redesign. True vertical overhead flat-lay, entire item centered on warm ivory floor #F3EFE8, generous consistent margins, soft studio light and subtle contact shadow, realistic textile texture. No person, hands, hanger, mannequin, text, logo, watermark, border, grid, collage, or other item. Only ONE PAIR of charcoal grey ribbed crew-length running socks, side by side laid flat with toes pointing slightly down, matching the dark heather grey ribbed socks visible between tights and shoes in reference. Fine athletic knit, no marks, stripes or labels. A pair counts as one product. Hidden feet reconstructed simply.
+```
+
+## 05-shoes - final revised overhead alignment
+
+Use case: precise-object-edit. Image 1 is the edit target, a product photo of a pair of silver grey running shoes. Preserve the same exact shoe design, materials, grey mesh, silver overlay construction, grey laces, white midsoles and black rubber soles, and warm ivory background. Change ONLY the pair arrangement and camera viewpoint: set BOTH shoes UPRIGHT resting normally on their soles on the floor, left shoe on left, right shoe on right, neatly aligned PARALLEL side by side, equal spacing and identical orientation. Both toes point straight toward TOP of image, both heels toward BOTTOM of image. Camera DIRECTLY VERTICALLY OVERHEAD looking straight down, perfectly perpendicular to floor, so tops, toe boxes, laces and interior openings are visible symmetrically. Do not lay shoes on sides. Do not rotate shoes diagonally. No perspective side display, no sole-facing shoe, no overlap, no staggered heels. Both complete shoes at equal scale inside square image with generous margins. Soft studio lighting and subtle floor contact shadows. No other item, text, label, logo, watermark, border or collage. One standalone product image of one matching pair.
+```
