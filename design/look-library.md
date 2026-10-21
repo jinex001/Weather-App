@@ -63,6 +63,21 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 - 착장 폴더의 `products.json`: `copy`(headlineEn, captionKo, introKo, pullQuoteEn, tipKo) → `article`·`deck`, `products[]`(id, category, nameKo, descriptionKo, image, altKo, status) → 아이템. 한국어는 그대로, 영어·독일어는 새로 번역. `status`가 ready인 것만. 브랜드·가격·구매 링크·소재 혼용률은 비어 있고 채우지 않음. `PROMPTS.md`·`designDescriptionEn`은 화면에 안 씀.
 - 올라온 파일이 폴더 이름과 맞는지(성별·시간대·하늘) products.json의 `gender`·`weather`와 사진으로 먼저 확인할 것(2026-10-20 여성 저녁 폴더에 남성 낮 세트가 섞여 들어온 일이 있음).
 
+
+### 비 세트 폴더 (2026-10-21)
+
+새 비 세트는 강수 강도를 별도 단계로 구분하고, 스타일별로 번호를 매긴다.
+
+`look/berlin-complete/Rain/<강도>/<단계>/<성별>/<연령대>/<day|night>/<running|street|minimal>/<번호>/`
+
+- 현재 확정된 강도는 `Light`(Light Rain, 가벼운 비)다. 다른 강도의 이름과 구분 기준은 아직 미확정이며 임의로 배정하지 않는다.
+- 오늘 작업은 `Rain/Light/Chilly/Male/35+/day/`: 남성, 낮, 기온 12°C / 체감 7°C.
+- 예: `running/01/`, `street/01/`, `minimal/01/`. 각 스타일의 두 번째 룩은 `02/`로 증가한다. 새 비 세트에는 기존의 01–05/06–10/11–15 스타일 혼합 번호를 적용하지 않는다.
+- 각 번호 폴더에는 `editorial.jpg`, `products/01-outer.jpg` 등 아이템별 개별 파일, `products.json`, `README.md`, `PROMPTS.md`를 둔다.
+- 작업 순서: 에디토리얼 1장 생성 → 사용자 확인 → 명시적 승인 → 개별 제품 컷 제작 → GitHub 업로드 → 완료 링크 제공. 수정 요청이면 승인 전 제품 제작·업로드를 진행하지 않는다.
+- 현재는 폴더와 제작 규칙만 준비했다. 비 이미지는 아직 업로드/앱 등록하지 않았고, 앱의 기존 clear/cloudy 선택 로직도 바꾸지 않았다. 폴더의 강도 구분만으로 앱에 비 전용 노출이 생기지는 않는다.
+- 기존 Sunny/Overcast 경로와 고정 ID는 그대로 유지한다.
+
 ## 지금 들어 있는 것
 
 모두 쌀쌀함(체감 1~9°) · 35+ · 각 15룩(러닝 5 · 스트리트 5 · 미니멀 5).
