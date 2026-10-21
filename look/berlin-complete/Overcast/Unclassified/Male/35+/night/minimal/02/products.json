@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-unclassified-m-35-evening-minimal-02",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "cloudy",
+    "precipitation": "none",
+    "rainIntensity": null,
+    "timeOfDay": "evening",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      12,
+      13
+    ],
+    "feelsLikeC": null,
+    "feelsLikeBand": null,
+    "sourceNote": "Editorial production used 2026-10-21 Berlin 18-20h forecast range 12-13C. Feels-like temperature was not available; do not infer a band from actual temperature."
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "approvalDate": "2026-10-21",
+    "evidence": "사용자가 다섯 장 모두 마음에 든다고 승인하고 제품 브레이크다운 및 GitHub 업데이트를 요청함."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "mappingReviewRequired": [
+    "feelsLikeBand"
+  ],
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "LEATHER AND COBALT",
+    "captionKo": "브라운 레더와 코발트 모헤어, 버건디 로퍼.",
+    "introKo": "브라운 레더와 코발트 모헤어, 버건디 로퍼.",
+    "piecesLabel": "THE PIECES",
+    "carouselHintKo": "6 pieces · 옆으로 넘겨 보세요"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "브라운 레더 블루종",
+      "descriptor": "espresso brown leather zip-front blouson, pointed collar, side pockets",
+      "descriptionKo": "브라운 레더 블루종. AI 콘셉트 제품 이미지. 가려진 부분은 추정 복원을 포함함.",
+      "image": "products/01-outer.jpg",
+      "altKo": "브라운 레더 블루종 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F5F0EA"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "코발트 모헤어 니트",
+      "descriptor": "cobalt blue brushed fuzzy mohair crewneck sweater",
+      "descriptionKo": "코발트 모헤어 니트. AI 콘셉트 제품 이미지. 가려진 부분은 추정 복원을 포함함.",
+      "image": "products/02-top.jpg",
+      "altKo": "코발트 모헤어 니트 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F7F2EC"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "토프 플리츠 팬츠",
+      "descriptor": "taupe wide-leg tailored pleated wool trousers",
+      "descriptionKo": "토프 플리츠 팬츠. AI 콘셉트 제품 이미지. 가려진 부분은 추정 복원을 포함함.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "토프 플리츠 팬츠 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F6F0EC"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "차콜 양말",
+      "descriptor": "matching pair dark charcoal crew socks",
+      "descriptionKo": "차콜 양말. AI 콘셉트 제품 이미지. 가려진 부분은 추정 복원을 포함함.",
+      "image": "products/04-socks.jpg",
+      "altKo": "차콜 양말 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F6F3ED"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "버건디 로퍼",
+      "descriptor": "matching pair burgundy polished leather penny loafers low heels",
+      "descriptionKo": "버건디 로퍼. AI 콘셉트 제품 이미지. 가려진 부분은 추정 복원을 포함함.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "버건디 로퍼 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F9F5EF"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "브라운 레더 토트백",
+      "descriptor": "large dark brown leather open-top tall tote bag two narrow handles, empty without books",
+      "descriptionKo": "브라운 레더 토트백. AI 콘셉트 제품 이미지. 가려진 부분은 추정 복원을 포함함.",
+      "image": "products/06-bag.jpg",
+      "altKo": "브라운 레더 토트백 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F8F2EC"
+    }
+  ],
+  "productCount": 6,
+  "contentType": "ai-styled-concept",
+  "sceneProps": [
+    "two books"
+  ]
+}
