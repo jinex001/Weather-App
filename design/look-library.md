@@ -70,7 +70,8 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 
 `look/berlin-complete/Rain/<강도>/<단계>/<성별>/<연령대>/<day|night>/<running|street|minimal>/<번호>/`
 
-- 현재 확정된 강도는 `Light`(Light Rain, 가벼운 비)다. 다른 강도의 이름과 구분 기준은 아직 미확정이며 임의로 배정하지 않는다.
+- 강수 강도 폴더는 `Light`(Light Rain, 가벼운 비), `Normal`(Normal Rain, 보통 비), `Pouring`(Pouring Rain, 쏟아지는 비)로 구분한다. 사용자 확인: 2026-10-21.
+- 이 구분은 이미지 제작·보관 분류다. 강수량 수치나 날씨 API 코드와의 매핑은 아직 정하지 않았으며 임의로 적용하지 않는다.
 - 오늘 작업은 `Rain/Light/Chilly/Male/35+/day/`: 남성, 낮, 기온 12°C / 체감 7°C.
 - 예: `running/01/`, `street/01/`, `minimal/01/`. 각 스타일의 두 번째 룩은 `02/`로 증가한다. 새 비 세트에는 기존의 01–05/06–10/11–15 스타일 혼합 번호를 적용하지 않는다.
 - 각 번호 폴더에는 `editorial.jpg`, `products/01-outer.jpg` 등 아이템별 개별 파일, `products.json`, `README.md`, `PROMPTS.md`를 둔다.
