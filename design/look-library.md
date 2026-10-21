@@ -103,3 +103,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 2. `outfits`에 룩, `items`에 아이템 추가(새 ID 약자, 기존 ID는 그대로).
 3. `index.html`의 `BUILD`와 `outfits.js?v=`를 올림.
 4. 이 문서의 "지금 들어 있는 것" 표와 `CLAUDE.md` 변경 기록을 고침.
+
+## Claude Code 이미지 매핑 인수인계
+
+새 이미지 세트의 폴더 해석, 날씨·기온 메타데이터, 사용자 승인 확인, 앱 등록 절차는 [IMAGE_MAPPING_HANDOFF.md](IMAGE_MAPPING_HANDOFF.md)를 먼저 읽는다.
