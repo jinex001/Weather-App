@@ -2,11 +2,11 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-21, 빌드 b109)
+## 현재 상태 (2026-10-21, 빌드 b110)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자(b77) + 날씨 요약(b59), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨로 고른 제품 컷 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름을 누르면 GPS ↔ 베를린 전환(b58).
-- `look/outfits.js`: 룩 라이브러리(105룩 · 541아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`, JPG만. 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`.
+- `look/outfits.js`: 룩 라이브러리(110룩 · 566아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`, JPG만. 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`.
 - `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면, 40% 흐리게)을 가운데에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
 - 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
 - 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도. b21부터 앱이 새로고침할 때 배포된 페이지의 `BUILD`를 확인해서 다르면 스스로 다시 불러옴(그래서 `var BUILD = "bNN"` 형식을 바꾸지 말 것).
@@ -121,6 +121,7 @@
 - b107: **캘린더 7 DAYS를 카드로**(사용자가 `proto/cal-cards.html` 시안 확정). 예전 줄 목록(날씨 그림 120×85 · 최저최고 · EDITOR'S PICK)과 `dayLook`·`.wk-*` 없앰. 카드 = 그날 날씨 규칙(`PIECE_RULES`, 시안과 같음, 단 "사진 없음" 칸 없이 실제 컷만)으로 고른 제품 컷(`dayPiece`, 세션 씨앗 + 날짜로 랜덤, 프로필 성별·선택 안 함이면 날마다 번갈아) + 날짜 13px → 요일 40px(길면 24px까지 줄여 맞춤, `fit`) + 움직이는 아이콘(`dayIcon`, 아이보리용 진한 구름) + 최고 Anton 36 · 최저 22 + 물방울 강수% · 바람 줄 1·2·3. 다음 카드 12% 작게, 점 줄, 카드 색 = 컷 모서리 색(`dayCards`). 누르면 그날 Today's Look 시트(`dayView`). 선글라스 컷은 아직 없어 맑고 18°↑ 날엔 캡(남성), 여성은 다음 규칙으로 넘어감. 가짜 데이터로 ko/en/de 확인.
 - b108: 7 DAYS 카드 요일(사용자 요청): 카드마다 글자 크기를 따로 줄이던 것(b107 `fit`) 대신, 내일은 다 쓰고(Tomorrow · Morgen · 내일) 다른 날은 영어·독일어 줄임말(Mon. · Mo., `cardDay`, Intl short에 점), 한국어는 요일 그대로. 크기는 모든 카드 같게 = 내일 카드가 기온 옆에 들어가는 크기(40px부터 1px씩 줄임).
 - b109: 7 DAYS 카드 바탕이 까맣게 나오던 버그(사용자가 아이폰에서 발견, 일부 카드만). 원인: 카드 색을 사진 모서리에서 canvas로 읽었는데 iOS에서 사진이 그려지기 전에 읽히면 검정. 이제 제품 컷 270장의 모서리 평균색을 미리 계산해 `outfits.js` 아이템 `bg`로 넣고 그 색을 씀(canvas 코드 없앰). 새 제품 컷을 넣을 때 `bg`도 계산할 것.
+- b110: **가벼운 비 세트**(사용자가 GitHub에 올림, `Rain/Light/Chilly/Male/35+/day/running/01–05/`, 승인·ready 확인, 제품 5장씩 500×500 ≤50KB) → `outfits.js` 5룩 `bl-light-chilly-m-35-day-run-NN`(`sky: "rain"`, `rain: "light"`) + 25아이템(`bg` 포함). 제작 측 descriptionKo가 제작 메모라 입는 법·인트로는 사진 보고 새로 씀(ko/en/de), deck = caption, pull = pullQuoteEn("IS THAT ALL?." 점 정리), tip 없음. **비 날 고르기**: `rainLevel`(WMO 코드: light 51–57·61·80 / normal 63·66·81 / pouring 65·67·82·95–99), `lookPool` 하늘 순위(같은 강도 비 0 → 다른 강도 비 1 → 흐림·any 2 → 맑음 3), 비 룩은 비 안 오는 날 안 나옴. 오늘(`lastView.rain`)·캘린더 날짜(`dayView`) 모두. 강도 표·대체 규칙은 사용자 확인 전. products.json `mappingStatus` mapped. 가짜 데이터로 비(61·65·80)·흐림·맑음·여성·스트리트·밤 확인.
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.

@@ -466,7 +466,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b109"></script>
+<script src="look/outfits.js?v=b110"></script>
 <script>
 (function () {
   "use strict";
@@ -777,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b109";
+  var BUILD = "b110";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -928,18 +928,34 @@
   // other sky (clear = day with code 0–2), 2 the neighbouring band, 3 neighbour on the other sky. Two bands away is out.
   // From 10 minutes before sunset until sunrise the evening set (time: "evening") is used; if this style and gender has
   // no evening looks yet, the day looks stay (b81).
+  // b110: rain looks (sky "rain", rain: light | normal | pouring) only on rain days. Strength from the WMO weather code
+  // (the code already says it): light = drizzle 51–57, slight rain 61, slight showers 80; normal = 63, 66, 81;
+  // pouring = 65, 67, 82, thunderstorm 95–99. Not from the rain chance.
+  function rainLevel(c) {
+    if (!isRain(c)) return null;
+    if ((c >= 51 && c <= 57) || c === 61 || c === 80) return "light";
+    if (c === 63 || c === 66 || c === 81) return "normal";
+    return "pouring";
+  }
   function lookPool(v, pics) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
     var mine = LIB.outfits.filter(function (o) { return o.style === pics.style && o.gender === pics.g; });
     var timed = mine.filter(function (o) { return (o.time === "evening") === !!v.evening; });
+    // sky rank, lower is better. Rain day: a look for this rain strength 0, another rain strength 1, cloudy/any 2, clear 3.
+    // Dry day: today's sky (or any) 0, the other dry sky 1, rain looks never.
+    function skyRank(o) {
+      if (v.rain) return o.sky === "rain" ? (o.rain === v.rain ? 0 : 1) : o.sky === "clear" ? 3 : 2;
+      if (o.sky === "rain") return -1;
+      return o.sky === "any" || o.sky === sky ? 0 : 1;
+    }
     (timed.length ? timed : mine).forEach(function (o) {
-      var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); }));
-      if (near <= 1) list.push({ o: o, fit: near * 2 + (o.sky === "any" || o.sky === sky ? 0 : 1) });
+      var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); })), sr = skyRank(o);
+      if (near <= 1 && sr >= 0) list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0) });
     });
-    // b97: a look made for one sky (clear or cloudy) only shows under that sky; the other sky's looks are a fallback
-    // for a style and gender that has nothing made for today's sky yet
-    var sameSky = list.filter(function (e) { return e.fit % 2 === 0; });
-    if (sameSky.length) list = sameSky;
+    // b97: a look made for one sky only shows under that sky; looks for another sky are a fallback for a style and gender
+    // that has nothing made for today's sky yet (b110: the best sky rank present wins)
+    var best = Math.min.apply(null, list.map(function (e) { return e.sr; }).concat([9]));
+    list = list.filter(function (e) { return e.sr === best; });
     // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
     // put until lookSeed changes: on app start and each time Today's Look opens from home)
     var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || ""));
@@ -1038,7 +1054,7 @@
     var D = v.data.daily, c = D.weather_code[i], f = r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]), band = bandOf(f);
     var w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0;
     return {
-      data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, updated: v.updated,
+      data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, rain: rainLevel(c), updated: v.updated,
       day: i, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], w >= 30, isRain(c), isSnow(c)).replace('class="person-ic', 'class="play person-ic') + "</span>",
@@ -1414,7 +1430,7 @@
     if (D.sunset && D.sunset[0] && D.sunrise && D.sunrise[0])
       evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < Math.min(new Date(D.sunrise[0] + ":00Z").getTime(), morning);
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2,
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code),
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),

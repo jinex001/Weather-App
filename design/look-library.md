@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-20 (앱 빌드 b105) · 105룩 · 541아이템. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
+마지막 정리: 2026-10-20 (앱 빌드 b110) · 110룩 · 566아이템. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
 
 ## Outfit
 
@@ -11,7 +11,8 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 | --- | --- |
 | `id` | 고정 ID. 아이템 답(갖고 있어요/관심 있어요)이 이 값을 씀 → **이름 바꾸거나 재사용 금지**. 형식 `<세트 약자>-<번호>-<run\|street\|minimal>-<m\|f>` |
 | `bands` | 맞는 체감 단계 키 배열(`freeze verycold cold chilly cool pleasant warm hot scorching`) |
-| `sky` | `clear`(코드 0–2) · `cloudy`(그 외) · `any` |
+| `sky` | `clear`(코드 0–2) · `cloudy`(그 외) · `any` · `rain`(b110, 비 오는 날에만) |
+| `rain` | (b110, `sky: "rain"`만) `light` · `normal` · `pouring` = 폴더 `Rain/Light·Normal·Pouring` |
 | `style` | `run` · `street` · `minimal` |
 | `gender` | `m` · `f` |
 | `age` | 사진 폴더의 연령대 기록(`"35"` = 폴더 `35+`). 고를 때 아직 안 씀. 프로필 연령대는 `u35` · `35` · `60` |
@@ -40,6 +41,7 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 2. **시간대**: 오늘 일몰 10분 전 ~ min(다음 일출, 05:00)은 저녁 → `time: "evening"` 룩, 그 외는 낮 룩. 일출·일몰 값이 없으면 밤 = 저녁(단 밤 중 5~12시는 낮). 그 스타일·성별에 맞는 시간대 룩이 하나도 없으면 다른 시간대 룩.
 3. **단계**: 오늘 단계(0점) 또는 옆 단계(2점)만. 두 단계 이상은 제외.
 4. **하늘**: 오늘 하늘(`clear` = 코드 0–2, 시간대 상관없음; 그 외 `cloudy`)과 같거나 `any`인 룩이 하나라도 있으면 그것만. 없을 때만 다른 하늘 룩(+1점).
+   **비(b110)**: 오늘 코드가 비면 비 강도를 WMO 코드로 정함 — light = 이슬비 51–57 · 약한 비 61 · 약한 소나기 80 / normal = 63 · 66 · 81 / pouring = 65 · 67 · 82 · 뇌우 95–99(`rainLevel`, 강수확률은 안 씀). 순위: 같은 강도 비 룩 0 → 다른 강도 비 룩 1 → 흐린 날·any 룩 2 → 맑은 날 룩 3, 있는 것 중 가장 좋은 순위만. 비 룩은 비 안 오는 날엔 절대 안 나옴.
 5. 점수가 같은 것끼리 **랜덤**으로 섞고 앞에서 **3개**. 섞는 씨앗(`lookSeed`)은 앱을 열 때와 홈에서 Today's Look을 열 때마다 새로. 캘린더 날짜 시트는 그 줄에 보이던 순서 그대로.
 6. 하나도 없으면 단계 기본 문구(`LOOK[단계]`, 사진 없음).
 
@@ -93,8 +95,11 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 |
 | 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
 | 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/` | `ofn-NN-<스타일>-f` | 제품 카드 기사 |
+| 비(가벼운) | 남 | 낮 | `Rain/Light/Chilly/Male/35+/day/running/01–05/` | `bl-light-chilly-m-35-day-run-NN` (러닝만 5) | 제품 카드 기사 |
 
-없는 것: 흐린 날 남성 저녁(→ 맑은 날 저녁 룩이 대신), 쌀쌀함 밖의 모든 단계(→ 옆 단계 룩 또는 기본 문구), 35세 미만·60+ 전용, 아기.
+비 세트(b110)는 `design/IMAGE_MAPPING_HANDOFF.md` 규칙(새 폴더 `Rain/<강도>/<단계>/<성별>/<연령>/<시간>/<스타일>/<번호>/`, 승인·productionStatus 확인)대로 등록. 제작 측 descriptionKo가 제작 메모("AI 콘셉트 제품 컷… 추정 복원")라서 화면용 입는 법(note)·인트로는 사진 보고 새로 씀(ko/en/de), 제작 메모 문장("…스타일링 콘셉트예요")은 화면에 안 씀. products.json `mappingStatus`는 mapped로.
+
+없는 것: 비 오는 날 여성·스트리트·미니멀·저녁(→ 흐린 날 룩이 대신), 보통·쏟아지는 비 전용(→ 가벼운 비 룩이 대신), 흐린 날 남성 저녁(→ 맑은 날 저녁 룩이 대신), 쌀쌀함 밖의 모든 단계(→ 옆 단계 룩 또는 기본 문구), 35세 미만·60+ 전용, 아기.
 
 예전 것(지움): b36–b67의 시트 자른 사진·아기 사진·`look/chilly`·`cool`·`clear`·`items`(b71), 낮 사진 `bm15-*`(b86). 그 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
 
