@@ -270,6 +270,14 @@
   .dc { position: relative; flex: 0 0 calc((100% - 12px) * .75); scroll-snap-align: start; scroll-snap-stop: always;
     height: min(62svh, 560px); min-height: 400px; padding: 0; border: 0; background: #F3EFE8; color: #141414; overflow: hidden;
     font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; transform-origin: 0 50%; transform: scale(var(--s, 1)); }
+  /* b114: a set not made yet: ivory placeholder, the label at the bottom left (card and look slide alike) */
+  .soon { display: flex; flex-direction: column; justify-content: flex-end; padding: 22px; background: #F3EFE8; color: #141414; text-align: left; }
+  .soon .dc-ic { width: 120px; height: 95px; margin-bottom: auto; overflow: visible; }
+  .soon-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; opacity: .55; }
+  .soon-h { font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 6px; }
+  .soon-p { font-size: 13px; font-weight: 500; line-height: 1.5; margin-top: 10px; max-width: 240px; word-break: keep-all; opacity: .7; }
+  .lk-slide .soon { display: flex; background: #F3EFE8; }
+  .dc .soon { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 18px 22px; background: none; }
   .dc img { position: absolute; left: 0; right: 0; bottom: 4%; width: 100%; aspect-ratio: 1; object-fit: contain; }
   .dc-top > div:first-child { min-width: 0; }
   .dc-top { position: absolute; left: 0; right: 0; top: 0; padding: 18px; display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; }
@@ -777,7 +785,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b113";
+  var BUILD = "b114";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -873,7 +881,7 @@
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
           o: [["여성", "남성", "선택 안 함"], ["35세 미만", "35+", "60+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
           own: "갖고 있어요", want: "관심 있어요",
-          fitToday: "오늘의 추천", fitGood: "이것도 좋아요", fitOk: "이것도 나쁘지 않아요", fitAlso: "오늘 날씨에도 맞아요", fitDay: "이날의 추천", fitDayAlso: "이날 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
+          fitToday: "오늘의 추천", fitGood: "이것도 좋아요", fitOk: "이것도 나쁘지 않아요", fitAlso: "오늘 날씨에도 맞아요", fitDay: "이날의 추천", fitSoon: "준비 중", soon: "이 날씨에 맞는 룩 사진은 아직 준비 중이에요.", fitDayAlso: "이날 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
     en: { rainNow: "Umbrella · it's raining now", rainNowWind: "Umbrellas will flip. Hooded rain jacket · it's raining now", rain: "Umbrella · rain around {t}, {p}%", rainDay: "Umbrella · {p}% chance of rain",  rainWind: "Umbrellas will flip. Hooded rain jacket · rain around {t}", wind: "Wind {w} km/h. Bring a windbreaker or a hood", snow: "Waterproof boots with grip",
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
@@ -881,7 +889,7 @@
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
           o: [["Woman", "Man", "Prefer not to say"], ["Under 35", "35+", "60+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
           own: "I own this", want: "Interested",
-          fitToday: "Today's pick", fitGood: "This works too", fitOk: "Not bad either", fitAlso: "Also right for today", fitDay: "Pick for the day", fitDayAlso: "Also right for the day", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
+          fitToday: "Today's pick", fitGood: "This works too", fitOk: "Not bad either", fitAlso: "Also right for today", fitDay: "Pick for the day", fitSoon: "Coming soon", soon: "Looks for this weather are still in the works.", fitDayAlso: "Also right for the day", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
     de: { rainNow: "Schirm · es regnet gerade", rainNowWind: "Schirme klappen um. Regenjacke mit Kapuze · es regnet gerade", rain: "Schirm · Regen gegen {t}, {p} %", rainDay: "Schirm · Regenwahrscheinlichkeit {p} %",  rainWind: "Schirme klappen um. Regenjacke mit Kapuze · Regen gegen {t}", wind: "Wind {w} km/h. Windjacke oder Kapuze mitnehmen", snow: "Wasserdichte Stiefel mit Profil",
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
@@ -889,7 +897,7 @@
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
           o: [["Frau", "Mann", "Keine Angabe"], ["Unter 35", "35+", "60+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
           own: "Hab ich", want: "Interessiert mich",
-          fitToday: "Heute empfohlen", fitGood: "Passt auch gut", fitOk: "Auch nicht schlecht", fitAlso: "Passt heute auch", fitDay: "Für diesen Tag", fitDayAlso: "Passt an diesem Tag auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
+          fitToday: "Heute empfohlen", fitGood: "Passt auch gut", fitOk: "Auch nicht schlecht", fitAlso: "Passt heute auch", fitDay: "Für diesen Tag", fitSoon: "In Arbeit", soon: "Looks für dieses Wetter sind noch in Arbeit.", fitDayAlso: "Passt an diesem Tag auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
   }[LANG];
   var QKEYS = [["gender", "Gender", ["f", "m", "x"]], ["age", "Age", ["u35", "35", "60"]], ["baby", "Baby", ["y", "n"]]];
@@ -961,6 +969,9 @@
     // that has nothing made for today's sky yet (b110: the best sky rank present wins)
     var best = Math.min.apply(null, list.map(function (e) { return e.sr; }).concat([9]));
     list = list.filter(function (e) { return e.sr === best; });
+    // b114: no set made for this weather (sky, rain strength or band) in this style and gender yet: one placeholder slide
+    // ("coming soon") with the band's own text, instead of looks made for other weather
+    if (!list.length || best > 0) return [{ o: bandOutfit(v, pics), fit: 0, soon: soonLabel(v, list.length) }];
     // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
     // put until lookSeed changes: on app start and each time Today's Look opens from home)
     var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || ""));
@@ -973,11 +984,21 @@
     list = list.slice(0, 3);
     // the band's own text (no photo) only when the library has nothing for this style and gender near today (b78: it used
     // to lead whenever no look matched exactly, which left a blank first slide once the old photos were removed in b71)
-    if (!list.length) list.push({ o: bandOutfit(v, pics), fit: 0 });
     return list;
+  }
+  // What is missing, in English like the other magazine labels: the rain strength, the sky, or the band when no look is near
+  function soonLabel(v, near) {
+    if (!near) return v.band[2].en;
+    if (v.rain) return { light: "Light rain", normal: "Rain", pouring: "Heavy rain" }[v.rain];
+    return v.clear ? "Clear day" : "Cloudy day";
+  }
+  function soonHtml(label, code, cls) {
+    return '<div class="soon' + (cls ? " " + cls : "") + '">' + (code === undefined ? "" : dayIcon(code)) +
+      '<div class="soon-k">Coming soon</div><div class="soon-h">' + esc(label) + " looks</div><div class=\"soon-p\">" + esc(LT.soon) + "</div></div>";
   }
   function fitTag(e, i, v) {
     var day = v.day !== undefined; // a calendar day's sheet says "that day" instead of "today" (b94)
+    if (e.soon) return LT.fitSoon;
     if (!i) return day ? LT.fitDay : LT.fitToday; // the best one available is the pick
     return i === 1 ? LT.fitGood : LT.fitOk; // b100: then "this works too", "not bad either"
   }
@@ -1012,8 +1033,9 @@
   var heart = function (on) { return (on ? "♥" : "♡") + "︎ "; };
 
   // One slide is just the photo (b74); a look without one keeps an empty photo-sized space
-  function slideHtml(e, i) {
+  function slideHtml(e, i, v) {
     var o = e.o;
+    if (e.soon) return '<div class="lk-slide">' + soonHtml(e.soon, v.code, "lk-photo lk-hero") + "</div>";
     return '<div class="lk-slide">' + (o.image ? '<img class="lk-photo lk-hero" src="' + o.image + '" alt=""' + (i ? ' loading="lazy"' : "") +
       ' onerror="this.style.visibility=\'hidden\'">' : '<div class="lk-photo lk-hero"></div>') + "</div>";
   }
@@ -1121,7 +1143,7 @@
       lookNow = { pool: pool, extras: extras, key: key, at: at, v: v };
       main = (pool.length > 1 ? '<div class="lk-dots" id="lk-dots" aria-hidden="true">' + pool.map(function (e, i) { return '<span class="' + (i === at ? "on" : "") + '"></span>'; }).join("") + "</div>" : "") +
         '<div class="lk-meta"><span class="lk-fade" id="lk-fit">' + esc(fitTag(pool[at], at, v)) + "</span></div>" +
-        '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i); }).join("") + "</div>" +
+        '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i, v); }).join("") + "</div>" +
         '<div class="lk-atitle lk-fade" id="lk-atitle">' + esc(pool[at].o.article ? pool[at].o.article.title : "") + "</div>" +
         '<div class="lk-deck lk-look-deck lk-fade" id="lk-look-deck">' + esc(pool[at].o.deck[LANG]) + "</div>" +
         '<div id="lk-detail">' + detailHtml(pool[at].o, extras, st) + "</div>";
@@ -1452,7 +1474,7 @@
     if (D.sunset && D.sunset[0] && D.sunrise && D.sunrise[0])
       evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < Math.min(new Date(D.sunrise[0] + ":00Z").getTime(), morning);
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code),
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code), code: cur.weather_code,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),
@@ -1677,11 +1699,14 @@
   function dayPick(D, i, g) {
     var c = D.weather_code[i], d = { c: c, p: D.precipitation_probability_max[i] || 0, w: D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0,
               f: r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]) };
-    var dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false }, fits = [];
-    STYLES.forEach(function (sty) { fits = fits.concat(lookFits(dv, sty, g).filter(function (e) { return e.o.article; })); });
+    var dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false }, all = [];
+    STYLES.forEach(function (sty) { all = all.concat(lookFits(dv, sty, g)); });
+    // b114: no style has a set for that day's weather yet (rain strength, sky, band): the card shows a placeholder
+    if (!all.some(function (e) { return e.sr === 0; })) return { soon: soonLabel(dv, all.length) };
+    // product cuts only come with the article sets; a day whose own set has none (clear days) takes the closest that has
+    var fits = all.filter(function (e) { return e.o.article; });
     var best = Math.min.apply(null, fits.map(function (e) { return e.sr; }).concat([9]));
     fits = fits.filter(function (e) { return e.sr === best; });
-    if (!fits.length) fits = LIB.outfits.filter(function (o) { return o.article && o.gender === g; }).map(function (o) { return { o: o, fit: 9 }; });
     var rnd = seeded(pieceSeed + "|piece|" + D.time[i] + g);
     function pairs(test) {
       var out = [];
@@ -1723,11 +1748,11 @@
     for (var i = 1; i < 8 && i < D.time.length; i++) {
       var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
       var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pk = dayPick(D, i, g), pc = pk && pk.it;
-      picks[i] = pk;
+      picks[i] = pk && pk.o ? pk : null;
       // b109: the card color is the cut's own ivory, measured ahead in outfits.js (bg), not read from the picture at run time
       // (iOS sometimes gave black when the picture was read before it was drawn)
       rows += '<button type="button" class="dc" data-day="' + i + '"' + (pc && pc.bg ? ' style="background:' + pc.bg + '"' : "") + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
-        (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : "") +
+        (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : pk && pk.soon ? soonHtml(pk.soon) : "") +
         '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(cardDay(D.time[i], i, dn.n)) + "</div></div>" +
         '<div class="dc-wx">' + dayIcon(c) + '<div class="dc-t">' + r(D.temperature_2m_max[i]) + '<span class="deg">°</span><small>' + r(D.temperature_2m_min[i]) + "°</small></div>" +
         '<div class="dc-d"><span>' + DROP_IC + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : "<span>" + wind3(w) + w + "</span>") + "</div></div></div></button>";
