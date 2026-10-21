@@ -41,7 +41,8 @@
   .over { position: absolute; inset: 0; padding: 18px 18px 16px; display: flex; flex-direction: column; justify-content: space-between; pointer-events: none; }
   /* b2: the day leads (bigger than the temperature): day name big, date under it, temperature after */
   .day { white-space: nowrap; font-family: "Noto Sans KR", sans-serif; font-size: 40px; font-weight: 700; line-height: 1.02; letter-spacing: -.04em; }
-  .date { font-size: 15px; font-weight: 600; margin-top: 4px; }
+  /* b4: small date on top, the day name under it */
+  .date { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
   /* b3: day and date on the left, the moving weather icon in the top right with the temperature under it */
   .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; }
   .wx { display: flex; flex-direction: column; align-items: flex-end; flex: none; }
@@ -51,7 +52,8 @@
   .deg { font-size: .8em; position: relative; top: -.29em; }
   .cond { display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700; text-transform: uppercase; margin-top: 8px; }
   .cond svg { width: 28px; height: 22px; }
-  .data { display: flex; gap: 14px; font-size: 12px; font-weight: 600; }
+  /* b4: rain and wind moved up under the temperature, right-aligned, one per line */
+  .data { display: flex; flex-direction: column; align-items: flex-end; gap: 1px; margin-top: 6px; font-size: 12px; font-weight: 600; line-height: 1.35; }
   .a-rays { animation: rays 18s linear infinite; }
   .a-sun { animation: breathe 2.6s ease-in-out infinite; }
   .a-drift { animation: drift 5s ease-in-out infinite alternate; }
@@ -146,16 +148,16 @@
       var pic = it.missing ? '<div class="ph">' + esc(it.missing) + " 사진 없음</div>"
         : '<img src="../' + it.image + '" alt="' + esc(it.alt || it.name.ko) + '"' + "" + ">";
       return '<div class="card">' + pic + '<div class="over"><div>' +
-        '<div class="top"><div><div class="day">' + d.n.split(" · ")[0] + '</div><div class="date">' + d.n.split(" · ")[1] + "</div></div>" +
-        '<div class="wx" aria-label="' + d.cond + '">' + ANIM[d.c] + '<div class="temp">' + d.hi + deg + "<small>" + d.lo + "°</small></div></div></div></div>" +
-        '<div class="data"><span>강수 ' + d.p + "%</span><span>바람 " + d.w + " km/h</span></div></div></div>";
+        '<div class="top"><div><div class="date">' + d.n.split(" · ")[1] + '</div><div class="day">' + d.n.split(" · ")[0] + "</div></div>" +
+        '<div class="wx" aria-label="' + d.cond + '">' + ANIM[d.c] + '<div class="temp">' + d.hi + deg + "<small>" + d.lo + "°</small></div>" +
+        '<div class="data"><span>강수 ' + d.p + "%</span><span>바람 " + d.w + " km/h</span></div></div></div></div></div></div>";
     }).join("");
     document.getElementById("page").innerHTML =
       '<div class="k">앞으로 7일 · 베를린</div><div class="h">7 Days</div>' +
       '<div class="ctl"><button data-g="m" class="' + (G === "m" ? "on" : "") + '">남성</button><button data-g="f" class="' + (G === "f" ? "on" : "") + '">여성</button><button data-r="1">다시 뽑기</button></div>' +
       '<div class="dots" id="dots">' + DAYS.map(function (d, i) { return '<span class="' + (i ? "" : "on") + '"></span>'; }).join("") + "</div>" +
       '<div class="rail" id="rail">' + cards + "</div>" +
-      '<div class="notes"><b>카드</b>한 장 = 하루(내일부터 7일). 첫 카드가 거의 다 보이고 다음 카드가 3분의 1쯤, 12% 작게 보여요(넘기면 크기도 같이 바뀜). 왼쪽 위 요일(크게)·날짜, 오른쪽 위 움직이는 날씨 아이콘과 그 아래 기온. 옆으로 밀면 한 장씩 멈춰요.' +
+      '<div class="notes"><b>카드</b>한 장 = 하루(내일부터 7일). 첫 카드가 거의 다 보이고 다음 카드가 3분의 1쯤, 12% 작게 보여요(넘기면 크기도 같이 바뀜). 왼쪽 위 날짜(작게) 아래 요일(크게), 오른쪽 위 움직이는 날씨 아이콘 → 기온 → 강수·바람. 옆으로 밀면 한 장씩 멈춰요.' +
       "<b>배경</b>그날 날씨 규칙(눈·비·한파·바람·추움·더위·맑음·쌀쌀·선선)으로 고른 제품 컷 하나를 크게. 컷의 아이보리 바닥이 카드 바탕이 돼서 상자 없이 글자가 읽혀요." +
       "<b>위에 올린 정보</b>날짜 · 최고(크게)·최저 · 상태 · 강수·바람." +
       "<b>아직 없는 컷</b>선글라스, 반팔 티, 나시, 우산.</div>";
