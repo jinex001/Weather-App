@@ -258,21 +258,41 @@
   .cal-tabs button { flex: none; padding: 0; border: 0; background: none; color: inherit; cursor: pointer;
     font: 400 64px/.9 var(--display); letter-spacing: 0; text-transform: uppercase; opacity: .35; transition: opacity .2s; }
   .cal-tabs button.on { opacity: 1; }
-  .wk { padding: 14px 0 12px; }
-  .wk-row { display: grid; grid-template-columns: 120px auto 1fr; align-items: center; gap: 14px; margin-top: 2px; }
-  .wk-art { position: relative; width: 120px; height: 85px; overflow: hidden; --oc-back: #958E81; --oc-drift: #91989F; }
-  .wk-art svg { width: 120px; height: 85px; display: block; }
-  /* the condition is a layer over the bottom of the art, outlined with the screen color like the home condition */
-  .wk-c { position: absolute; left: 0; right: 0; bottom: 2px; text-align: center; font-size: 17px; font-weight: 700; line-height: 1.1; text-transform: uppercase;
-    text-shadow: 2px 0 var(--bg), -2px 0 var(--bg), 0 2px var(--bg), 0 -2px var(--bg), 1.5px 1.5px var(--bg), -1.5px -1.5px var(--bg), 1.5px -1.5px var(--bg), -1.5px 1.5px var(--bg); }
-  .wk-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
-  .wk-t { font-family: var(--display); font-size: 30px; letter-spacing: 0; white-space: nowrap; }
-  .wk-t span { opacity: .45; margin-right: 5px; }
-  .wk-d { display: flex; gap: 10px; align-items: center; margin-top: 4px; font-family: var(--mono); font-weight: 600; font-size: 12px; }
-  .wk-look { text-align: right; min-width: 0; padding: 6px 0; border: 0; background: none; color: inherit; font: inherit; letter-spacing: inherit; cursor: pointer; }
-  .wk-lk { font-size: 9.5px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
-  .wk-lb { font-size: 13px; font-weight: 700; margin-top: 2px; }
-  .wk-lh { font-family: var(--display); font-size: 24px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 3px; }
+  /* 7 Days as cards (b107, user picked proto/cal-cards.html): one card per day from tomorrow, swiped like the Today's Look
+     photos — one card plus a third of the next, the next one 12% smaller. The card is that day's product cut (picked by the
+     day's weather), its ivory ground is the card color; date, day, moving weather icon, temperature, rain and wind sit on top */
+  .dc-dots { display: flex; gap: 6px; margin-top: 22px; }
+  .dc-dots span { width: 5px; height: 5px; border-radius: 50%; background: currentColor; opacity: .25; transition: opacity .2s; }
+  .dc-dots span.on { opacity: 1; }
+  .dc-rail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+    margin: 12px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
+  .dc-rail::-webkit-scrollbar { display: none; }
+  .dc { position: relative; flex: 0 0 calc((100% - 12px) * .75); scroll-snap-align: start; scroll-snap-stop: always;
+    height: min(62svh, 560px); min-height: 400px; padding: 0; border: 0; background: #F3EFE8; color: #141414; overflow: hidden;
+    font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; transform-origin: 0 50%; transform: scale(var(--s, 1)); }
+  .dc img { position: absolute; left: 0; right: 0; bottom: 4%; width: 100%; aspect-ratio: 1; object-fit: contain; }
+  .dc-top > div:first-child { min-width: 0; }
+  .dc-top { position: absolute; left: 0; right: 0; top: 0; padding: 18px; display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; }
+  .dc-date { font-family: var(--mono); font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+  .dc-day { font-size: 40px; font-weight: 700; line-height: 1.02; letter-spacing: -.04em; white-space: nowrap; }
+  .dc-wx { display: flex; flex-direction: column; align-items: flex-end; flex: none; }
+  .dc-wx svg.dc-ic { width: 76px; height: 60px; display: block; overflow: visible; margin: -6px -6px 0 0; }
+  .dc-t { font-family: var(--display); font-size: 36px; line-height: .9; letter-spacing: 0; margin-top: 4px; white-space: nowrap; }
+  .dc-t small { font-size: 22px; opacity: .45; margin-left: 6px; }
+  .dc-d { display: flex; gap: 10px; margin-top: 7px; font-family: var(--mono); font-size: 12px; font-weight: 600; line-height: 1; }
+  .dc-d span { display: flex; align-items: center; gap: 3px; }
+  .dc-d svg { width: 13px; height: 13px; flex: none; }
+  .dc-rays { animation: dc-rays 18s linear infinite; transform-origin: 46px 26px; }
+  .dc-sun { animation: dc-breathe 2.6s ease-in-out infinite; transform-origin: 46px 26px; }
+  .dc-drift { animation: dc-drift 5s ease-in-out infinite alternate; }
+  .dc-drop path { animation: dc-drop .9s linear infinite; }
+  .dc-flake circle { animation: dc-flake 2.7s linear infinite; }
+  @keyframes dc-rays { to { transform: rotate(360deg); } }
+  @keyframes dc-breathe { 50% { transform: scale(1.06); } }
+  @keyframes dc-drift { from { transform: translate(-10px, 8px) scale(.8); } to { transform: translate(0, 8px) scale(.8); } }
+  @keyframes dc-drop { from { transform: translate(0, -6px); opacity: 0; } 20% { opacity: 1; } to { transform: translate(-3px, 8px); opacity: 0; } }
+  @keyframes dc-flake { 0% { transform: translate(0, -8px); opacity: 0; } 20% { opacity: 1; } 50% { transform: translate(2px, 3px); } 100% { transform: translate(-2px, 14px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .dc-rays, .dc-sun, .dc-drift, .dc-drop path, .dc-flake circle { animation: none; } }
   .mo { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-top: 24px; text-align: center; }
   .mo-w { font-size: 11px; font-weight: 600; padding-bottom: 6px; }
   .mo-d { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 8px 0; border-radius: 14px; min-height: 66px; }
@@ -446,7 +466,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b106"></script>
+<script src="look/outfits.js?v=b107"></script>
 <script>
 (function () {
   "use strict";
@@ -757,7 +777,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b106";
+  var BUILD = "b107";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1583,32 +1603,67 @@
   function whenText(iso) {
     return new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).format(new Date(iso));
   }
-  // The look for one forecast day: its feels-like band (daytime high) gives the headline; a library photo when one fits
-  function dayLook(D, i, prof) {
-    var f = D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i], band = bandOf(r(f));
-    var style = prof.style === "street" || prof.style === "run" ? prof.style : "minimal", g = prof.gender === "f" ? "f" : "m";
-    var sky = D.weather_code[i] <= 2 ? "clear" : "cloudy", best = null;
+  // The piece for one forecast day (b107): one product cut picked by that day's weather, first rule that has a cut wins,
+  // drawn at random among the cuts that fit (fixed per session seed and day). Cuts come from the looks with product flat lays.
+  var PIECE_RULES = [
+    [function (d) { return isSnow(d.c); }, [["shoes", /부츠/], ["headwear", /비니/]]],
+    [function (d) { return d.p >= 50; }, [["outer", /셸|파카|트렌치|아노락|윈드/]]],
+    [function (d) { return d.f <= -10; }, [["headwear", /비니/], ["hands", /./], ["gloves", /./], ["scarf", /./]]],
+    [function (d) { return d.w >= 30; }, [["scarf", /./], ["outer", /윈드|셸/]]],
+    [function (d) { return d.f <= 0; }, [["outer", /코트|파카|퀼팅|시어링|봄버|피코트|레더/], ["scarf", /./]]],
+    [function (d) { return d.f >= 29; }, [["shorts", /./], ["headwear", /캡/], ["gear", /보틀/]]],
+    [function (d) { return d.c <= 2 && d.f >= 18; }, [["eyewear", /선글라스/], ["headwear", /캡/]]],
+    [function (d) { return d.f <= 9; }, [["outer", /재킷|트렌치|코트|봄버/]]],
+    [function (d) { return d.f <= 17; }, [["top", /니트|스웨트|후디|터틀넥|카디건/], ["outer", /카디건|셔츠/]]],
+    [function () { return true; }, [["shoes", /스니커즈|러너|로퍼/], ["top", /./], ["outer", /./]]]
+  ];
+  function dayPiece(D, i, g) {
+    var d = { c: D.weather_code[i], p: D.precipitation_probability_max[i] || 0, w: D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0,
+              f: r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]) };
+    var cuts = [];
     LIB.outfits.forEach(function (o) {
-      if (o.time || o.style !== style || o.gender !== g || o.bands.indexOf(band[1]) < 0 || !o.image) return;
-      if (!best || (o.sky === sky && best.sky !== sky)) best = o;
+      if (!o.article) return;
+      o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && (o.gender === g || it.cat === "gear") && cuts.indexOf(it) < 0) cuts.push(it); });
     });
-    return { band: band[2][LANG], head: LOOK[band[1]].head.replace(/<br>/g, " "), img: best && (best.sky === sky || best.sky === "any") ? best.image : null };
+    for (var n = 0; n < PIECE_RULES.length; n++) {
+      if (!PIECE_RULES[n][0](d)) continue;
+      var bag = [];
+      PIECE_RULES[n][1].forEach(function (s) { cuts.forEach(function (it) { if (it.cat === s[0] && s[1].test(it.name.ko) && bag.indexOf(it) < 0) bag.push(it); }); });
+      if (bag.length) return bag[Math.floor(seeded(lookSeed + "|piece|" + D.time[i] + g)() * bag.length)];
+    }
+    return null;
   }
+  // Moving icons for the cards: drawn for the ivory ground (darker clouds than the home art). Sun turns and breathes,
+  // clouds drift, rain streaks fall, flakes sway down.
+  var DC_CL = "M18 40h34a11 11 0 0 0 0-22 16 16 0 0 0-30-3 12 12 0 0 0-4 25z";
+  function dayIcon(c) {
+    var o = '<svg class="dc-ic" viewBox="0 0 76 60" aria-hidden="true">', cl = '<path d="' + DC_CL + '" fill="#958E81" transform="translate(4 -6)"/>';
+    if (isSnow(c)) return o + '<g class="dc-flake" fill="#5C7A99"><circle cx="26" cy="44" r="2.8"/><circle cx="40" cy="44" r="2.8" style="animation-delay:.9s"/>' +
+      '<circle cx="54" cy="44" r="2.8" style="animation-delay:1.8s"/></g>' + cl + "</svg>";
+    if (isRain(c)) return o + '<g class="dc-drop" stroke="#4F5D6B" stroke-width="3" stroke-linecap="round"><path d="M26 44l-3 8"/>' +
+      '<path d="M40 44l-3 8" style="animation-delay:.3s"/><path d="M54 44l-3 8" style="animation-delay:.6s"/></g>' + cl + "</svg>";
+    if (c >= 3) return o + '<path d="' + DC_CL + '" fill="#958E81" transform="translate(4 -4)"/><path class="dc-drift" d="' + DC_CL + '" fill="#C9C2B6"/></svg>';
+    return o + '<g class="dc-rays"><g stroke="#E8621C" stroke-width="3.4" stroke-linecap="round"><path d="M46 2v6M46 44v6M22 26h6M64 26h6M29 9l4 4M59 39l4 4M29 43l4-4M59 13l4-4"/></g></g>' +
+      '<circle class="dc-sun" cx="46" cy="26" r="12" fill="#E8621C"/></svg>';
+  }
+  var DROP_IC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3C9.2 7.4 6 10.6 6 14.5a6 6 0 0 0 12 0C18 10.6 14.8 7.4 12 3z"/></svg>';
   function paintPages(data) {
     if (!data || !data.daily) return;
     var D = data.daily, city = place.gps ? T.here : T.berlin;
     // Calendar (b93): two Anton titles as tabs, "7 Days" and "This month" (the other one a tone lighter)
-    // Each day: date label / art · condition · rain and wind · low/high / that day's look (band headline + photo when one fits)
     // b106: the 7 days start tomorrow (today is the home screen); forecast_days=8 gives indices 1–7
-    var prof = load("wx-profile") || {}, rows = "";
+    // b107: each day is a card: that day's product cut as the picture, small date over the day name, moving icon,
+    // high/low, rain chance and wind (same 1·2·3-line icon as the 24 hours). Tap = that day's Today's Look sheet.
+    var prof = load("wx-profile") || {}, rows = "", dots = "";
     for (var i = 1; i < 8 && i < D.time.length; i++) {
-      var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null, lk = dayLook(D, i, prof);
-      // condition sits on the art as a layer (like the home condition over the temperature); the recommended look ends the line
-      rows += '<div class="wk"><div class="wk-k">' + esc(dn.n) + " · " + esc(dn.d) + "</div>" +
-        '<div class="wk-row"><div class="wk-art">' + artFor(stateOf(c, true), c, true) + '<div class="wk-c">' + esc(condLabel(c, true)) + "</div></div>" +
-        '<div class="wk-b"><div class="wk-t"><span>' + r(D.temperature_2m_min[i]) + "°</span>" + r(D.temperature_2m_max[i]) + "°</div>" +
-        '<div class="wk-d"><span>' + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : '<span class="day-w">' + wind3(w) + w + "</span>") + "</div></div>" +
-        '<button type="button" class="wk-look" data-day="' + i + '"><div class="wk-lk">Editor\'s pick</div><div class="wk-lb">' + esc(lk.band) + '</div><div class="wk-lh">' + lk.head + "</div></button></div></div>";
+      var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
+      var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pc = dayPiece(D, i, g);
+      rows += '<button type="button" class="dc" data-day="' + i + '" aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
+        (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : "") +
+        '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(dn.n) + "</div></div>" +
+        '<div class="dc-wx">' + dayIcon(c) + '<div class="dc-t">' + r(D.temperature_2m_max[i]) + '<span class="deg">°</span><small>' + r(D.temperature_2m_min[i]) + "°</small></div>" +
+        '<div class="dc-d"><span>' + DROP_IC + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : "<span>" + wind3(w) + w + "</span>") + "</div></div></div></button>";
+      dots += '<span class="' + (i === 1 ? "on" : "") + '"></span>';
     }
     // This month: Monday-first grid of the current month; days with a forecast show icon and high
     var t0 = D.time[0], y = +t0.slice(0, 4), mo = +t0.slice(5, 7), first = new Date(Date.UTC(y, mo - 1, 1)), days = new Date(Date.UTC(y, mo, 0)).getUTCDate();
@@ -1624,10 +1679,11 @@
     $("pg-cal").innerHTML = '<div class="pg-k">' + esc(calView === "month" ? monthName : NV.week) + " · " + esc(city) + "</div>" +
       '<div class="cal-tabs" role="tablist"><button type="button" data-v="week" class="' + (calView === "week" ? "on" : "") + '">7 Days</button>' +
       '<button type="button" data-v="month" class="' + (calView === "month" ? "on" : "") + '">This month</button></div>' +
-      (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="pg-list">' + rows + "</div>");
-    $("pg-cal").querySelectorAll(".wk-look").forEach(function (bt) {
+      (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="dc-dots" id="dc-dots" aria-hidden="true">' + dots + '</div><div class="dc-rail" id="dc-rail">' + rows + "</div>");
+    $("pg-cal").querySelectorAll(".dc").forEach(function (bt) {
       bt.addEventListener("click", function () { openLook(dayView(+bt.getAttribute("data-day"))); });
     });
+    dayCards();
     var onTab = $("pg-cal").querySelector(".cal-tabs .on");
     if (onTab) onTab.parentNode.scrollLeft = calView === "month" ? onTab.offsetLeft - 24 : 0;
     $("pg-cal").querySelectorAll(".cal-tabs button").forEach(function (bt) {
@@ -1652,6 +1708,40 @@
       '<div class="pg-src">DWD · Bright Sky</div>';
     $("tab-dot").hidden = !list.length;
     paintSettings();
+  }
+  // Card row behaviour: the card at the snap point full size, the others 12% smaller with the swipe; the active dot follows;
+  // each card takes its color from its cut's corner so picture and card meet without a seam
+  function dayCards() {
+    var rail = $("dc-rail"); if (!rail) return;
+    var dots = $("dc-dots").children;
+    function sizes() {
+      var cs = rail.children; if (!cs.length) return;
+      var w = cs[0].offsetWidth + 12, at = Math.round(rail.scrollLeft / w);
+      [].forEach.call(cs, function (el, k) { el.style.setProperty("--s", (1 - .12 * Math.min(1, Math.abs(k * w - rail.scrollLeft) / w)).toFixed(4)); });
+      [].forEach.call(dots, function (s, k) { s.className = k === at ? "on" : ""; });
+    }
+    // long day names (Donnerstag, Wednesday) shrink until they fit beside the icon and temperature (40px down to 24px)
+    function fit() {
+      [].forEach.call(rail.children, function (el) {
+        var dy = el.querySelector(".dc-day"), room = el.clientWidth - 36 - el.querySelector(".dc-wx").offsetWidth - 6, px = 40;
+        dy.style.fontSize = "";
+        while (dy.scrollWidth > room && px > 24) { px -= 2; dy.style.fontSize = px + "px"; }
+      });
+    }
+    fit();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+    sizes();
+    rail.addEventListener("scroll", sizes, { passive: true });
+    [].forEach.call(rail.querySelectorAll("img"), function (im) {
+      function tint() {
+        try {
+          var cv = document.createElement("canvas"); cv.width = cv.height = 1;
+          var x = cv.getContext("2d"); x.drawImage(im, 2, 2, 6, 6, 0, 0, 1, 1);
+          var p = x.getImageData(0, 0, 1, 1).data; im.parentNode.style.background = "rgb(" + p[0] + "," + p[1] + "," + p[2] + ")";
+        } catch (e) {}
+      }
+      if (im.complete && im.naturalWidth) tint(); else im.addEventListener("load", tint);
+    });
   }
   function paintSettings() {
     var pr = load("wx-profile") || {}, prof = QKEYS.slice(0, 2).map(function (q, qi) { var k = q[2].indexOf(pr[q[0]]); return k < 0 ? null : LT.o[qi][k]; })
