@@ -474,7 +474,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b110"></script>
+<script src="look/outfits.js?v=b115"></script>
 <script>
 (function () {
   "use strict";
@@ -785,7 +785,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b114";
+  var BUILD = "b115";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1685,7 +1685,7 @@
   // look of the gender gives the piece (as in b107).
   var PIECE_RULES = [
     [function (d) { return isSnow(d.c); }, [["shoes", /부츠/], ["headwear", /비니/]]],
-    [function (d) { return d.p >= 50; }, [["outer", /셸|파카|트렌치|아노락|윈드/]]],
+    [function (d) { return d.p >= 50; }, [["outer", /셸|파카|트렌치|아노락|윈드|우비/], ["accessory", /우산/]]],
     [function (d) { return d.f <= -10; }, [["headwear", /비니/], ["hands", /./], ["gloves", /./], ["scarf", /./]]],
     [function (d) { return d.w >= 30; }, [["scarf", /./], ["outer", /윈드|셸/]]],
     [function (d) { return d.f <= 0; }, [["outer", /코트|파카|퀼팅|시어링|봄버|피코트|레더/], ["scarf", /./]]],
