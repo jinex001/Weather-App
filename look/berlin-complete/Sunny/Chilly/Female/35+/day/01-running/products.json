@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-01-run-f",
+  "appOutfitId": "bd15-01-run-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../01-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User requested grouping the editorial and seven products, a separate README, and GitHub upload."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "BLUE IN MOTION",
+    "headlineKo": "블루 인 모션",
+    "headlineDe": "BLAU IN BEWEGUNG",
+    "captionKo": "코발트 셸 하나, 나머지는 차콜과 블랙.",
+    "captionEn": "One cobalt shell. Everything else in charcoal and black.",
+    "captionDe": "Eine kobaltblaue Jacke. Dazu Anthrazit und Schwarz.",
+    "introKo": "선명한 블루 셸에 차콜 크루넥과 블랙 타이츠를 겹쳐요. 헤드밴드와 장갑은 블랙으로 연결하고, 아이보리 삭스와 그레이 러너로 발끝만 밝게 마무리해요.",
+    "introEn": "Layer a vivid blue shell over a charcoal crew neck and black tights. Keep headband and gloves black, then lighten the finish with ivory socks and grey runners.",
+    "introDe": "Kombiniere eine kräftig blaue Jacke mit einem anthrazitfarbenen Rundhalsshirt und schwarzen Tights. Stirnband und Handschuhe bleiben schwarz; elfenbeinfarbene Socken und graue Laufschuhe setzen einen hellen Abschluss.",
+    "pullQuoteEn": "ONE BOLD LAYER. KEEP MOVING."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코발트 러닝 셸",
+      "nameEn": "Cobalt Running Shell",
+      "nameDe": "Kobaltblaue Laufjacke",
+      "name": {
+        "ko": "코발트 러닝 셸",
+        "en": "Cobalt Running Shell",
+        "de": "Kobaltblaue Laufjacke"
+      },
+      "descriptionKo": "코발트 블루 셸을 차콜 이너 위에 걸쳐 색의 중심을 잡아요. 지퍼를 조금 열어 안쪽 레이어를 보여주세요.",
+      "descriptionEn": "Wear the cobalt shell over charcoal and leave the zip slightly open to reveal the layer beneath.",
+      "descriptionDe": "Trage die kobaltblaue Jacke über Anthrazit und öffne den Reißverschluss leicht, damit die Lage darunter sichtbar wird.",
+      "image": "products/01-outer.jpg",
+      "altKo": "코발트 러닝 셸 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 러닝 롱슬리브",
+      "nameEn": "Charcoal Running Long Sleeve",
+      "nameDe": "Anthrazitfarbenes Laufshirt",
+      "name": {
+        "ko": "차콜 러닝 롱슬리브",
+        "en": "Charcoal Running Long Sleeve",
+        "de": "Anthrazitfarbenes Laufshirt"
+      },
+      "descriptionKo": "차콜 크루넥으로 블루의 선명함을 받쳐요. 재킷 아래에서 원단이 뭉치지 않게 매끈하게 정리해요.",
+      "descriptionEn": "A charcoal crew neck grounds the vivid blue. Keep the layer smooth beneath the jacket.",
+      "descriptionDe": "Ein anthrazitfarbenes Rundhalsshirt erdet das kräftige Blau. Ziehe die Lage unter der Jacke glatt.",
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 러닝 롱슬리브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 타이츠",
+      "nameEn": "Black Running Tights",
+      "nameDe": "Schwarze Lauftights",
+      "name": {
+        "ko": "블랙 러닝 타이츠",
+        "en": "Black Running Tights",
+        "de": "Schwarze Lauftights"
+      },
+      "descriptionKo": "블랙 타이츠로 하체의 실루엣을 간결하게 이어가요. 밑단은 발목에 정리하고 밝은 양말을 짧게 드러내요.",
+      "descriptionEn": "Keep the lower half streamlined with black tights and let a short section of pale sock show at the ankle.",
+      "descriptionDe": "Halte die Silhouette mit schwarzen Tights klar und lasse am Knöchel einen schmalen Streifen der hellen Socken sichtbar.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "블랙 러닝 타이츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 러닝 글러브",
+      "nameEn": "Black Running Gloves",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "name": {
+        "ko": "블랙 러닝 글러브",
+        "en": "Black Running Gloves",
+        "de": "Schwarze Laufhandschuhe"
+      },
+      "descriptionKo": "블랙 글러브를 타이츠와 연결해 색을 정리해요. 손등의 실버 디테일이 작은 포인트가 돼요.",
+      "descriptionEn": "Link black gloves to the tights for a controlled palette, with silver details as small accents.",
+      "descriptionDe": "Schwarze Handschuhe greifen die Farbe der Tights auf. Silberne Details setzen kleine Akzente.",
+      "image": "products/04-hands.jpg",
+      "altKo": "블랙 러닝 글러브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "category": "socks",
+      "nameKo": "아이보리 앵클 삭스",
+      "nameEn": "Ivory Ankle Socks",
+      "nameDe": "Elfenbeinfarbene Knöchelsocken",
+      "name": {
+        "ko": "아이보리 앵클 삭스",
+        "en": "Ivory Ankle Socks",
+        "de": "Elfenbeinfarbene Knöchelsocken"
+      },
+      "descriptionKo": "아이보리 양말을 타이츠와 러닝화 사이에 짧게 보여줘요. 주름을 과하게 쌓지 않고 발목선을 정돈해요.",
+      "descriptionEn": "Show a short band of ivory between tights and trainers, keeping the ankle neat without bunching.",
+      "descriptionDe": "Lasse zwischen Tights und Laufschuhen einen kurzen elfenbeinfarbenen Streifen sichtbar und vermeide Falten am Knöchel.",
+      "image": "products/05-socks.jpg",
+      "altKo": "아이보리 앵클 삭스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 메쉬 러너",
+      "nameEn": "Grey Mesh Runners",
+      "nameDe": "Graue Mesh-Laufschuhe",
+      "name": {
+        "ko": "그레이 메쉬 러너",
+        "en": "Grey Mesh Runners",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "descriptionKo": "라이트 그레이 러너로 발끝을 가볍게 마무리해요. 아이보리 양말과 솔의 밝은 톤을 이어주세요.",
+      "descriptionEn": "Finish with light grey runners, linking their pale soles to the ivory socks.",
+      "descriptionDe": "Runde den Look mit hellgrauen Laufschuhen ab und verbinde die helle Sohle mit den elfenbeinfarbenen Socken.",
+      "image": "products/06-shoes.jpg",
+      "altKo": "그레이 메쉬 러너 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-headwear",
+      "category": "headwear",
+      "nameKo": "블랙 러닝 헤드밴드",
+      "nameEn": "Black Running Headband",
+      "nameDe": "Schwarzes Laufstirnband",
+      "name": {
+        "ko": "블랙 러닝 헤드밴드",
+        "en": "Black Running Headband",
+        "de": "Schwarzes Laufstirnband"
+      },
+      "descriptionKo": "넓은 블랙 헤드밴드로 머리 주변을 정돈해요. 장갑과 타이츠에 맞춰 블루 셸이 돋보이게 해요.",
+      "descriptionEn": "Frame the face with a wide black headband, matching gloves and tights so the blue shell stands out.",
+      "descriptionDe": "Ein breites schwarzes Stirnband rahmt das Gesicht und passt zu Handschuhen und Tights, sodass die blaue Jacke hervorsticht.",
+      "image": "products/07-headwear.jpg",
+      "altKo": "블랙 러닝 헤드밴드 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "The base-layer neckline and upper chest are visible; long sleeves and concealed torso are inferred.",
+    "Hidden waistband, glove fingers/palms, sock feet, opposite-side shoe details and rear headband construction are conservatively reconstructed.",
+    "Exact temperature, brand, composition and performance specifications are not established."
+  ]
+}
