@@ -115,3 +115,14 @@
 - 보슬비(drizzle), 소나기(showers), 강수확률은 강수 강도와 같은 개념으로 단정하지 않는다. 강수확률만으로 세 강도를 결정하지 않는다.
 - 해당 조건에 승인된 룩이 없을 때의 fallback 정책도 임의로 강한 비용 착장을 맑은 날에 노출하는 방식으로 정하지 않는다. 기존 동작과 제약을 설명하고 필요한 정책을 확인한다.
 - 비 이미지의 빗줄기나 젖은 바닥을 육안으로 보고 기온·강수량을 추정하지 않는다.
+
+## 7. 2026-10-22 b126 — Sunny 남성 낮 Street 완료
+
+- 대상: `Sunny/Chilly/Male/35+/day/06-street`–`10-street`, 룩 ID `bd15-06-street-m`–`bd15-10-street-m`.
+- 5룩·35개 독립 제품 JPG(9/5/7/9/5), 제품 메타데이터와 ko/en/de 설명을 앱에 연결했다. productionStatus=ready, mappingStatus=mapped.
+- 기존 에디토리얼 JPG 5개는 SHA-256 불변. 각 룩 폴더 editorial.jpg는 동일 바이트 사본이고 앱의 에디토리얼 경로도 기존 경로를 유지한다.
+- 기존 아이템 ID 21개는 products.json appItemId로 보존했다. 신규 14개만 새 ID를 사용한다. 복합 accessory는 머플러 ID로 유지하고 09번 가방은 분리한다. 기존 ID가 있으면 `<outfitId>.<product id>`로 일괄 교체하지 않는다.
+- 10번의 화면 밖 신발·양말은 추가하지 않았다. 부분 관찰과 숨겨진 형태의 복원을 구분하고 온도·브랜드·가격·혼용률은 추정하지 않았다.
+- [검증 결과](validation-sunny-chilly-male-day-street.md), [세트 현황](look-coverage.md).
+
+- b126 Street 제품 매핑: `look/sunny-male-day-street.js`를 기본 `look/outfits.js` 바로 다음, 앱 초기화 전에 동기 적용한다. 기본 룩 파일은 그대로 보존했다. 앱에서 적용된 전체 수는 135룩·798아이템·기사 95룩이다. 보충 파일은 이번 5룩·35제품만 갱신하므로 점검 시 두 파일을 함께 읽는다.
