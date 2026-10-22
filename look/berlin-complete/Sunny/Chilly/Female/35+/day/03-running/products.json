@@ -16,7 +16,7 @@
   "editorialImage": "editorial.jpg",
   "sourceEditorial": "../03-running.jpg",
   "productionStatus": "ready",
-  "mappingStatus": "pending",
+  "mappingStatus": "mapped",
   "approval": {
     "upload": "authorized",
     "basis": "User explicitly requested breakdown and GitHub upload of remaining female day running editorials.",

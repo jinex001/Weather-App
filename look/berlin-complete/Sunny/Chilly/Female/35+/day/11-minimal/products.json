@@ -16,7 +16,7 @@
   "editorialImage": "editorial.jpg",
   "sourceEditorial": "../11-minimal.jpg",
   "productionStatus": "ready",
-  "mappingStatus": "pending",
+  "mappingStatus": "mapped",
   "approval": {
     "upload": "authorized",
     "authorizedOn": "2026-10-22",
