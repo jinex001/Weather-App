@@ -132,6 +132,7 @@
   .peek { display: block; width: 100%; margin-top: 28px; padding: 0; border: 0; background: none; color: inherit;
     font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+  .peek-d[hidden] { display: none; }
   .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
@@ -396,6 +397,8 @@
   .lk-note { font-size: 14px; font-weight: 500; line-height: 1.45; }
   .lk-item-b .lk-opts { margin-top: 10px; }
   /* group switcher between the headline and the deck (b48): one pill track, the picked segment filled with ink */
+  /* b119: the band headline (LAYER UP …) is gone from the sheet, the switcher follows the kicker */
+  .lk-kicker + .lk-seg { margin-top: 22px; }
   .lk-seg { display: flex; margin-top: 16px; padding: 4px; border-radius: 22px; background: rgba(20,20,20,.08); }
   .lk-seg button { flex: 1 1 auto; padding: 10px 6px; border: 0; border-radius: 18px; background: none; cursor: pointer;
     font: 700 11.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: var(--lk-ink); white-space: nowrap; }
@@ -785,7 +788,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b118";
+  var BUILD = "b119";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1150,7 +1153,6 @@
     }
 
     return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
-      '<div class="lk-head">' + L.head + "</div>" +
       '<div class="lk-seg" role="tablist">' + tabs.map(function (sty, i) {
         var on = sty === (baby ? "baby" : pics.style);
         return '<button type="button" role="tab" class="' + (on ? "on" : "") + '" data-style="' + sty + '" aria-selected="' + on + '">' + esc(LT.styles[i]) + "</button>";
@@ -1248,7 +1250,9 @@
     var v = lastView, peek = $("peek"); if (!v) return;
     var e = lookPool(v, lookPhotos(v, load("wx-profile") || {}))[0], o = e && !e.soon ? e.o : null, A = o && o.article;
     $("peek-k").textContent = "Today's Look";
-    $("peek-d").textContent = A ? A.title : LOOK[v.band[1]].head.replace(/<br>/g, " ");
+    // b119: no band headline (LAYER UP …) any more: a look without an article title shows only the kicker and summary
+    $("peek-d").textContent = A ? A.title : "";
+    $("peek-d").hidden = !A;
     var text = o ? o.deck[LANG] + (A && A.intro ? " " + A.intro[LANG] : "") : LOOK[v.band[1]].deck[LANG];
     $("summary-t").textContent = [text].concat(homeRain).join(" ");
     $("summary").hidden = false;
