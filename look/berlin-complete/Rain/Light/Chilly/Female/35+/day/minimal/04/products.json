@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-day-minimal-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "approvalDate": "2026-10-22",
+    "evidence": "사용자가 모델 외관을 30세 전후로 수정한 다섯 컷을 승인하고, 타깃·캐스팅 나이 분리 기준의 스타일 MD 기록과 품목별 제품 이미지·브레이크다운·GitHub 업로드를 요청함."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "revision": "사용자 승인: 모델 외관 30세 전후"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "UNDER AN OLIVE HOOD",
+    "captionKo": "올리브 후드와 크림 터틀넥. 비를 피하는 작은 몸짓.",
+    "introKo": "올리브 후드와 크림 터틀넥. 비를 피하는 작은 몸짓.",
+    "tipKo": "비를 막는 아우터 안에 포근한 니트를 겹치고 차분한 하의로 균형을 잡아 보세요.",
+    "piecesLabel": "THE PIECES",
+    "carouselHintKo": "7 pieces · 옆으로 넘겨 보세요"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "올리브 후드 레인코트",
+      "descriptor": "deep olive matte hooded raincoat, generous hood, simple concealed fastening and dark snaps, dense shell fabric",
+      "designDescriptionEn": "deep olive matte hooded raincoat, generous hood, simple concealed fastening and dark snaps, dense shell fabric",
+      "descriptionKo": "올리브 후드 레인코트를 레이어에 맞춰 더해 보세요.",
+      "image": "products/01-outer.jpg",
+      "altKo": "올리브 후드 레인코트 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F8F3ED"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "크림 리브 터틀넥",
+      "descriptor": "cream thick ribbed wool turtleneck sweater, large folded collar, full sleeves and rib hem",
+      "designDescriptionEn": "cream thick ribbed wool turtleneck sweater, large folded collar, full sleeves and rib hem",
+      "descriptionKo": "크림 리브 터틀넥를 레이어에 맞춰 더해 보세요.",
+      "image": "products/02-top.jpg",
+      "altKo": "크림 리브 터틀넥 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에 일부만 보임, 전체 형태 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F3EEE8"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 테일러드 팬츠",
+      "descriptor": "black straight tailored warm wool trousers, conservative minimalist shape inferred from initial styling brief because lower body is outside crop",
+      "designDescriptionEn": "black straight tailored warm wool trousers, conservative minimalist shape inferred from initial styling brief because lower body is outside crop",
+      "descriptionKo": "블랙 테일러드 팬츠를 레이어에 맞춰 더해 보세요.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "블랙 테일러드 팬츠 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 승인 컷에서 보이지 않아 초기 스타일링 기획으로 추정.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F8F3ED"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "블랙 양말",
+      "descriptor": "one matching pair plain black crew socks, hidden styling inferred",
+      "designDescriptionEn": "one matching pair plain black crew socks, hidden styling inferred",
+      "descriptionKo": "블랙 양말를 레이어에 맞춰 더해 보세요.",
+      "image": "products/04-socks.jpg",
+      "altKo": "블랙 양말 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 승인 컷에서 보이지 않아 초기 스타일링 기획으로 추정.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#FAF5EF"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 앵클부츠",
+      "descriptor": "one matching pair neat minimalist black leather ankle boots, rounded almond toe and low flat heel, inferred from initial styling brief because footwear is outside crop",
+      "designDescriptionEn": "one matching pair neat minimalist black leather ankle boots, rounded almond toe and low flat heel, inferred from initial styling brief because footwear is outside crop",
+      "descriptionKo": "블랙 앵클부츠를 레이어에 맞춰 더해 보세요.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "블랙 앵클부츠 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 승인 컷에서 보이지 않아 초기 스타일링 기획으로 추정.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F5F2EB"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "블랙 숄더 토트백",
+      "descriptor": "plain black tall rectangular smooth leather shoulder tote, long flat handles, shape conservatively reconstructed from visible side and shoulder strap",
+      "designDescriptionEn": "plain black tall rectangular smooth leather shoulder tote, long flat handles, shape conservatively reconstructed from visible side and shoulder strap",
+      "descriptionKo": "블랙 숄더 토트백를 레이어에 맞춰 더해 보세요.",
+      "image": "products/06-bag.jpg",
+      "altKo": "블랙 숄더 토트백 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에 일부만 보임, 전체 형태 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F4F1EA"
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 미니 후프 이어링",
+      "descriptor": "one matching pair tiny plain gold hoop earrings, same small smooth rounded hoop as visible ear, second earring inferred as matching pair",
+      "designDescriptionEn": "one matching pair tiny plain gold hoop earrings, same small smooth rounded hoop as visible ear, second earring inferred as matching pair",
+      "descriptionKo": "골드 미니 후프 이어링를 레이어에 맞춰 더해 보세요.",
+      "image": "products/07-jewelry.jpg",
+      "altKo": "골드 미니 후프 이어링 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에 일부만 보임, 전체 형태 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F6F2EB"
+    }
+  ],
+  "productCount": 7,
+  "contentType": "ai-styled-concept",
+  "cameraDescriptionKo": "높은 사선 근접 클로즈업, 얼굴과 후드·손·니트가 겹치는 깊이.",
+  "sceneProps": [],
+  "productionReferences": {
+    "finalEditorial": "editorial.jpg",
+    "reconstructionSource": "최종 승인 에디토리얼 한 장을 참조. 최종 컷에서 안 보이는 품목은 초기 스타일링 기획에 근거한 추정이며, 별도 전신 보조 사진은 없음."
+  }
+}

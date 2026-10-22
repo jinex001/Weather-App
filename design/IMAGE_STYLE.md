@@ -18,6 +18,15 @@
 - 앱에 올릴 때는 JPG(품질 80, 300KB 이하)로. 제품 컷은 500 × 500 1:1, 따뜻한 아이보리 배경(#F3EFE8 근처), 기본 수직 탑뷰(부츠는 아래 신발별 구도 규칙 적용), JPG 50KB 이하. PNG 원본은 저장소에 두지 않는다(2026-10-20).
 - 사진 안에는 텍스트, 로고, 워터마크, 앱 UI, 콜라주를 넣지 않는다.
 
+### 타깃 연령과 모델 외관 연령 분리 (2026-10-22 사용자 승인)
+
+- **35+는 콘텐츠 타깃 분류이고, 모델의 기본 외관은 성인 30세 전후(약 28~32세)로 설정한다.** 남녀 모두 동일하게 적용한다. 타깃 숫자를 그대로 인물 나이로 입력해 더 성숙한 외관을 자동 생성하지 않는다.
+- 폴더·앱 age·products.json ageGroup은 기존 35+ 분류를 유지한다. 모델 캐스팅은 별도 `casting.modelAppearanceAge`에 기록한다. 다른 타깃의 외관 연령은 별도로 정하고, 사용자가 지정한 캐스팅을 우선한다.
+- 새 에디토리얼 프롬프트에는 audience age group과 model appearance age를 서로 다른 항목으로 적는다. 예: `Audience: women 35+. Model: adult woman visually around 30, approximately 28–32.`
+- 자연스러운 피부결·모공·표정은 유지하면서 생기 있는 눈가, 얼굴 볼륨, 건강한 헤어와 현대적인 스타일링으로 승인된 외관을 만든다. 과도한 피부 블러·플라스틱 질감·획일적인 얼굴·십대화는 피한다.
+- 기존 사진의 외관 연령 수정이 명시적으로 요청되면 나이 보존 규칙의 예외다. 착장·앵글·크롭·동작·날씨를 유지하고 얼굴·피부·헤어 인상을 조정한다. 약한 리터치만으로 요청이 반영되지 않으면 승인 범위에서 얼굴 캐스팅을 더 분명하게 바꾼다.
+- 기준 사례: Rain / Light / Chilly / Female / 35+ / day / minimal 01–05. 사용자가 처음 생성된 얼굴이 성숙해 보인다고 수정 요청했고, 외관 30세 전후 수정본을 승인했다. 이 규칙은 앞으로의 제작 기준이며 기존 승인 자산을 자동 교체하라는 뜻은 아니다.
+
 ### 카메라 원근감과 재미있는 동작 (2026-10-21 승인)
 
 - 가까운 오브젝트를 크게 잡아 원근감의 과장을 살짝 높인다. 앞쪽 부츠·손·우산·가방·자전거 바퀴 등 장면 속 오브젝트를 렌즈 가까이에 두고 인물과 배경의 거리 차이를 활용한다.
@@ -155,8 +164,10 @@ Create ONE independent fashion editorial photograph for a weather app.
 
 Scene: {CITY}, {SEASON}, {TIME_OF_DAY}, {WEATHER}.
 Actual temperature {TEMPERATURE_C} C, feels like {FEELS_LIKE_C} C.
-Subject: {SUBJECT_GROUP_AND_AGE}, distinctive believable appearance,
-natural skin texture and age-appropriate character.
+Audience age group: {TARGET_AGE_GROUP}; keep this separate from model casting.
+Subject: {SUBJECT_GROUP}, model appearance age {MODEL_APPEARANCE_AGE}.
+For an adult 35+ target, default to visually around 30 (approximately 28–32).
+Distinctive believable appearance, natural skin texture and approved casting age.
 Fashion category: {RUNNING / STREET / MINIMAL}.
 Complete weather-appropriate outfit: {OUTFIT_AND_ACCESSORIES}.
 Color direction for this frame: {NEUTRAL_PALETTE_OR_SPECIFIC_BOLD_GARMENT}.
@@ -285,6 +296,7 @@ App export: 500 × 500 JPG, 50KB maximum.
 ## 9. 제작 전후 확인
 
 - 도시·날씨·시간·실제 기온·체감온도·대상 연령·스타일을 기록했는가?
+- 타깃 연령과 모델 외관 연령을 분리했는가? 35+ 타깃의 기본 모델 외관은 30세 전후인가?
 - 착장이 체감온도와 활동에 맞고, 사진에 보이는 아이템과 설명이 일치하는가?
 - 시선과 행동, 프레이밍이 시리즈 안에서 다양하게 구성됐는가?
 - 가까운 오브젝트의 살짝 과장된 원근감, 카메라 높낮이, 재미있는 제스처를 함께 설계했는가?

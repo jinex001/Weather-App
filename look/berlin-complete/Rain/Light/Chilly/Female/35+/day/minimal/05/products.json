@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-day-minimal-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "approvalDate": "2026-10-22",
+    "evidence": "사용자가 모델 외관을 30세 전후로 수정한 다섯 컷을 승인하고, 타깃·캐스팅 나이 분리 기준의 스타일 MD 기록과 품목별 제품 이미지·브레이크다운·GitHub 업로드를 요청함."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "revision": "사용자 승인: 모델 외관 30세 전후"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "A CHERRY NOTE ON THE STEPS",
+    "captionKo": "블랙 롱코트에 체리 레드 니트. 울 스커트와 부츠로 이어지는 따뜻한 레이어.",
+    "introKo": "블랙 롱코트에 체리 레드 니트. 울 스커트와 부츠로 이어지는 따뜻한 레이어.",
+    "tipKo": "비를 막는 아우터 안에 포근한 니트를 겹치고 차분한 하의로 균형을 잡아 보세요.",
+    "piecesLabel": "THE PIECES",
+    "carouselHintKo": "8 pieces · 옆으로 넘겨 보세요"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "블랙 롱 레인코트",
+      "descriptor": "black dense matte long minimalist rain mac coat, simple collar and concealed dark front fastening, full hem and sleeves",
+      "designDescriptionEn": "black dense matte long minimalist rain mac coat, simple collar and concealed dark front fastening, full hem and sleeves",
+      "descriptionKo": "블랙 롱 레인코트를 레이어에 맞춰 더해 보세요.",
+      "image": "products/01-outer.jpg",
+      "altKo": "블랙 롱 레인코트 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F7F3EC"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "체리 레드 모헤어 니트",
+      "descriptor": "deep cherry red fluffy mohair crewneck sweater, plush hairy texture, rib cuffs and hem, full body reconstructed from side glimpse",
+      "designDescriptionEn": "deep cherry red fluffy mohair crewneck sweater, plush hairy texture, rib cuffs and hem, full body reconstructed from side glimpse",
+      "descriptionKo": "체리 레드 모헤어 니트를 레이어에 맞춰 더해 보세요.",
+      "image": "products/02-top.jpg",
+      "altKo": "체리 레드 모헤어 니트 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에 일부만 보임, 전체 형태 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F5F0EA"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 울 미디스커트",
+      "descriptor": "charcoal gray wool straight midi skirt, soft dense wool texture, minimal waistband and simple clean side seam",
+      "designDescriptionEn": "charcoal gray wool straight midi skirt, soft dense wool texture, minimal waistband and simple clean side seam",
+      "descriptionKo": "차콜 울 미디스커트를 레이어에 맞춰 더해 보세요.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 울 미디스커트 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F8F5F0"
+    },
+    {
+      "id": "04-hosiery",
+      "category": "hosiery",
+      "nameKo": "블랙 불투명 타이츠",
+      "descriptor": "one complete pair of warm opaque black tights with waistband and two full footed legs, same black opacity as visible lower legs",
+      "designDescriptionEn": "one complete pair of warm opaque black tights with waistband and two full footed legs, same black opacity as visible lower legs",
+      "descriptionKo": "블랙 불투명 타이츠를 레이어에 맞춰 더해 보세요.",
+      "image": "products/04-hosiery.jpg",
+      "altKo": "블랙 불투명 타이츠 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에 일부만 보임, 전체 형태 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F9F6F1"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 니하이 부츠",
+      "descriptor": "one matching pair flat black leather knee-high boots, clean long shafts, rounded toes and low block heels, subtle inside zippers",
+      "designDescriptionEn": "one matching pair flat black leather knee-high boots, clean long shafts, rounded toes and low block heels, subtle inside zippers",
+      "descriptionKo": "블랙 니하이 부츠를 레이어에 맞춰 더해 보세요.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "블랙 니하이 부츠 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F7F4ED"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "블랙 롤톱 토트백",
+      "descriptor": "black matte clean roll-top tote bag, rectangular body with rolled top and two narrow flat shoulder handles",
+      "designDescriptionEn": "black matte clean roll-top tote bag, rectangular body with rolled top and two narrow flat shoulder handles",
+      "descriptionKo": "블랙 롤톱 토트백를 레이어에 맞춰 더해 보세요.",
+      "image": "products/06-bag.jpg",
+      "altKo": "블랙 롤톱 토트백 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F4EFE9"
+    },
+    {
+      "id": "07-scarf",
+      "category": "scarf",
+      "nameKo": "그레이 울 머플러",
+      "descriptor": "gray heather wool long scarf with fringed ends and soft brushed texture, match reference",
+      "designDescriptionEn": "gray heather wool long scarf with fringed ends and soft brushed texture, match reference",
+      "descriptionKo": "그레이 울 머플러를 레이어에 맞춰 더해 보세요.",
+      "image": "products/07-scarf.jpg",
+      "altKo": "그레이 울 머플러 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F5F0EA"
+    },
+    {
+      "id": "08-umbrella",
+      "category": "accessory",
+      "nameKo": "블랙 우산",
+      "descriptor": "one plain black full-length umbrella with black straight handle and shaft, neat folded black canopy, same understated hardware as reference",
+      "designDescriptionEn": "one plain black full-length umbrella with black straight handle and shaft, neat folded black canopy, same understated hardware as reference",
+      "descriptionKo": "블랙 우산를 레이어에 맞춰 더해 보세요.",
+      "image": "products/08-umbrella.jpg",
+      "altKo": "블랙 우산 - 아이보리 배경 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "AI 스타일링 콘셉트이며 실제 판매 제품의 소재 혼용률·방수 성능은 검증되지 않음. 최종 컷에서 확인, 가려진 구조 추정 복원. 제품 컷에서는 정돈된 접힌 형태로 제시하며 내부 기구는 추정 복원.",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      },
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "backgroundColor": "#F3EFE9"
+    }
+  ],
+  "productCount": 8,
+  "contentType": "ai-styled-concept",
+  "cameraDescriptionKo": "어깨 높이 뒤쪽 3/4 앵글, 계단을 오르며 돌아보는 모습과 머플러·가방의 겹침.",
+  "sceneProps": [],
+  "productionReferences": {
+    "finalEditorial": "editorial.jpg",
+    "reconstructionSource": "최종 승인 에디토리얼 한 장을 참조. 최종 컷에서 안 보이는 품목은 초기 스타일링 기획에 근거한 추정이며, 별도 전신 보조 사진은 없음."
+  }
+}
