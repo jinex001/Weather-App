@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-22, 빌드 b124)
+## 현재 상태 (2026-10-22, 빌드 b125)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -136,6 +136,7 @@
 - b123: **도시 검색·내 목록**(사용자 요청). 맨 위 도시 이름 17 → 20px + 뒤에 위치 핀(Phosphor Regular map-pin 17px). 누르면(설정 > 위치도) 글라스 위치 시트: 검색 칸이 바로 열림(키보드), Open-Meteo Geocoding(`geocoding-api.open-meteo.com/v1/search`, 기기 언어, 8개)으로 찾고, 줄을 누르면 그 도시로 바꿈, "저장"으로 내 목록에. 검색 칸이 비면 내 목록: 현재 위치(GPS) / 보는 중인데 저장 안 한 도시(저장) / 저장한 도시(삭제, 기본 베를린). 보는 곳은 이름 뒤 핀. 저장 `wx-places`, 보는 곳 `wx-place`({id, name, sub, lat, lon, gps}, 베를린 id 2950159), b58 GPS ↔ 베를린 전환은 없앰. 도시를 바꾸면 이전 요청 답은 버리고(`gen`), 캐시 `wx-data._place`가 다른 도시면 안 보여줌. 독일 밖은 DWD 실측·경보 없이 Open-Meteo(+MET)만(이미 그렇게 동작). 위젯은 아직 베를린 고정. 가짜 응답으로 검색·전환·저장·삭제 확인.
 - 문서 정리(2026-10-22, 앱 빌드 변화 없음, 사용자 요청): `design-system.md` Today's Look 순서를 b117–b122대로 다시 번호 매김(체감 줄 = 사람 34px + "FEELS N° ▌단계" 5px 막대, 배지 없음, 맞춤 표시·점 한 줄, 타이틀 사진 위), 배지·단계 헤드라인 설명 정리. `tokens.json` v5(`look-head` 안 씀 표시, `icon-person-look` 34px·배지 없음, `look-band-bar` 추가, `look-title` 위치). 새 `design/look-coverage.md`: 쌀쌀함 칸별 룩 수, 빈 칸(흐림 남성 저녁 러닝·스트리트, 비 여성 러닝, 비 저녁 전부, 보통 비·쏟아지는 비 전부, 다른 체감 단계·눈), 덜 된 것(맑은 날 60룩 제품 컷·기사 없음, oc15-15 링 pending).
 - b124: **맑은 날 여성 낮 15룩에 제품 컷·기사**(사용자가 GitHub `Sunny/Chilly/Female/35+/day/NN-<스타일>/`에 올림: editorial.jpg + products/ 5–10장 + products.json, 모두 ready, 500×500 ≤50KB). 기존 룩 `bd15-NN-<스타일>-f`(`appOutfitId`)에 붙임: article(title = headlineEn, intro ko/en/de, pull = pullQuoteEn이 있는 러닝 5룩만), deck = captionKo/En/De(예전 사진 보고 쓴 한 줄 대신), 아이템 = 제품 110개(name ko/en/de, note = description ko/en/de, `bg` 계산), 예전 글 아이템 69개는 지움. 폴더 안 editorial.jpg는 앱이 쓰던 `NN-<스타일>.jpg`와 같은 사진(재저장)이라 경로는 그대로. products.json mapped. 이제 135룩 · 784아이템, 기사 룩 90. 맑은 날 여성은 홈 타이틀·캘린더 카드도 맑은 날 세트로. 가짜 데이터로 ko/en/de 확인.
+- b125: 맑은데 흐림으로 나오던 문제(사용자: 베를린 지금 맑은데 overcast). 원인 추정: 얇은 높은 구름이면 DWD·MET·Open-Meteo 구름 양이 모두 80%↑라 중간값 규칙(b63)이 흐림으로 정함, 또는 아침 안개 코드가 남음(이 환경에선 API가 막혀 실제 값 확인 못 함). 고침: 낮에 코드 2·3·안개면 **실제 해가 난 비율**로 다시 정함 — DWD 일조 시간 `sunshine_30`(없으면 60·10분), 없으면 Open-Meteo current `direct_radiation`(새로 받음) ÷ `shortwave_radiation`. ≥75% → 대체로 맑음, ≥45% → 구름 조금, 아니면 그대로. 비·눈·밤은 안 건드림. 상태 줄 "· ☀N%". `sunShare()`. 위젯은 아직 구름 양 중간값만.
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
@@ -160,7 +161,7 @@
 - 예보: Open-Meteo (`https://api.open-meteo.com/v1/forecast`), API 키 불필요. `timezone=auto`.
 - 지금 날씨: Bright Sky (`https://api.brightsky.dev/current_weather`, DWD 관측소 실측, API 키 불필요). 90분 이내 측정값이면 기온·바람·상태를 덮어씀.
 - 구름 양 보조: MET Norway Locationforecast (`https://api.met.no/weatherapi/locationforecast/2.0/compact`, 키 불필요, 좌표 소수 4자리). 구름 양은 DWD·MET·Open-Meteo 중간값(b63).
-- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day, wind_speed_10m) 12시간+, daily(weather_code, temperature_2m_max/min, apparent_temperature_max, precipitation_probability_max, sunrise/sunset, wind_speed_10m_max) 7일. 기상 경보: Bright Sky `/alerts?lat&lon`(DWD, 독일만, b88).
+- 필요한 값: current(temperature_2m, apparent_temperature, weather_code, is_day, wind_speed_10m, precipitation, shortwave_radiation, direct_radiation, cloud_cover), minutely_15(precipitation, 지난 1시간·앞 1시간), hourly(temperature_2m, precipitation_probability, snowfall, weather_code, is_day, wind_speed_10m) 12시간+, daily(weather_code, temperature_2m_max/min, apparent_temperature_max, precipitation_probability_max, sunrise/sunset, wind_speed_10m_max) 7일. 기상 경보: Bright Sky `/alerts?lat&lon`(DWD, 독일만, b88).
 - 위치: 기본 베를린(52.52, 13.405). 사용자가 허용하면 GPS. 도시 이름은 GPS일 때 "현재 위치"(언어별)로 표시해도 됨.
 
 ## 화면 상태 — `design/screens/`

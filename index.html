@@ -506,7 +506,7 @@
   <div class="pl-body" id="pl-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b124"></script>
+<script src="look/outfits.js?v=b125"></script>
 <script>
 (function () {
   "use strict";
@@ -820,7 +820,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b124";
+  var BUILD = "b125";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1381,6 +1381,20 @@
     }
     return null;
   }
+  // Is the sun actually out? (b125) Thin high cloud makes every source report 80–100 % cover on a sunny day, so
+  // the vote alone calls it overcast. Use the share of sunshine instead when we have it: the DWD station's sunshine
+  // minutes over the last 30 (or 60 / 10) minutes, else the model's direct share of the radiation (direct / total).
+  function sunShare(data, measured) {
+    var o = measured && data.obs, cur = data.current;
+    if (o) {
+      if (typeof o.sunshine_30 === "number") return { share: o.sunshine_30 / 30, dwd: true };
+      if (typeof o.sunshine_60 === "number") return { share: o.sunshine_60 / 60, dwd: true };
+      if (typeof o.sunshine_10 === "number") return { share: o.sunshine_10 / 10, dwd: true };
+    }
+    if (typeof cur.direct_radiation === "number" && typeof cur.shortwave_radiation === "number" && cur.shortwave_radiation >= 120)
+      return { share: Math.min(1, cur.direct_radiation / cur.shortwave_radiation), dwd: false };
+    return null;
+  }
   function cloudVote(data, measured) {
     var cur = data.current, list = [];
     if (measured && data.obs && typeof data.obs.cloud_cover === "number") list.push(data.obs.cloud_cover);
@@ -1419,6 +1433,13 @@
     var cloud = cloudVote(data, measured);
     if (cloud) {
       cur = Object.assign({}, cur, { weather_code: cloud.code });
+      data = Object.assign({}, data, { current: cur });
+    }
+    // Sunshine wins over cloud amount and leftover fog in the daytime: mostly sunny (≥75 %) → mostly clear,
+    // half sunny (≥45 %) → partly cloudy; rain and snow stay as they are
+    var sun = cur.is_day === 1 && (cur.weather_code === 2 || cur.weather_code === 3 || isFog(cur.weather_code)) ? sunShare(data, measured) : null;
+    if (sun && sun.share >= .45) {
+      cur = Object.assign({}, cur, { weather_code: sun.share >= .75 ? 1 : 2 });
       data = Object.assign({}, data, { current: cur });
     }
     var isDay = cur.is_day === 1;
@@ -1533,7 +1554,7 @@
     // Data from the last 20 minutes still counts as current, even if the latest request failed
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
     $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + (cloud && cloud.met ? " · MET" : "") +
-      (cloud ? " · ☁" + Math.round(cloud.cover) + "%" : "") +
+      (cloud ? " · ☁" + Math.round(cloud.cover) + "%" : "") + (sun ? " · ☀" + Math.round(sun.share * 100) + "%" : "") +
       (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · " + BUILD;
   }
 
@@ -1578,7 +1599,7 @@
 
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
-      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,cloud_cover" +
+      "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,direct_radiation,cloud_cover" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
