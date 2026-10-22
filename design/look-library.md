@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-22 (앱 빌드 b127) · 135룩 · 807아이템 · 기사 룩 100. 칸별 현황·빈 칸 목록은 `look-coverage.md`. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
+마지막 정리: 2026-10-22 (앱 빌드 b128) · 135룩 · 819아이템(활성 참조 814) · 기사 룩 105. 칸별 현황·빈 칸 목록은 `look-coverage.md`. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
 
 ## Outfit
 
@@ -88,7 +88,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 
 | 하늘 | 성별 | 시간 | 폴더 | 룩 ID | 화면 |
 | --- | --- | --- | --- | --- | --- |
-| 맑음 | 남 | 낮 | `Sunny/Chilly/Male/35+/day/` | `bd4-0N-run-m`(01–04), `bd15-NN-<스타일>-m`(05–15) | 스트리트 06–10 제품 카드 기사(b126), 러닝·미니멀 아이템 리스트 |
+| 맑음 | 남 | 낮 | `Sunny/Chilly/Male/35+/day/` | `bd4-0N-run-m`(01–04), `bd15-NN-<스타일>-m`(05–15) | 러닝 01–05 제품 카드 기사(b128, 32제품), 스트리트 06–10 제품 카드 기사(b126), 미니멀 11–15 제품 카드 기사(b127) |
 | 맑음 | 여 | 낮 | `Sunny/Chilly/Female/35+/day/` (사진 `NN-<스타일>.jpg`, 제품 `NN-<스타일>/products/`) | `bd15-NN-<스타일>-f` | 제품 카드 기사 (b124, 문구 3개 언어 제작 측 그대로) |
 | 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 아이템 리스트 |
 | 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 아이템 리스트 |
@@ -128,3 +128,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 ### b127: Sunny male day Minimal 11–15
 
 30 individual product JPGs (6 per look), 500x500 and <=50,000 bytes. Existing outfit IDs and 21 item IDs preserved; 9 observed items added. Korean, English and German product names and styling copy mapped. Base outfits.js: 793 items, 95 articles. With the unchanged Street supplement: 807 items, 100 articles. Other 130 runtime outfits unchanged. [Validation](sunny-male-day-minimal-validation.md).
+
+### b128 · Sunny 남성 낮 Running
+
+기존 `01-running.jpg`–`05-running.jpg`는 원위치에서 보존하고, 같은 이름의 디렉터리 안에 `products/`, `products.json`, `README.md`, `PROMPTS.md`를 추가함. `editorialImage`는 `../NN-running.jpg`를 참조하며 에디토리얼을 복제하지 않음. 기존 룩 ID 및 outer/top/bottom/shoes ID 20개 보존, 독립 품목 12개 추가. 복합 accessory 기록 5개는 저장 정보 호환을 위해 보존하되 카드에는 노출하지 않음. products.json의 3개 언어 문구를 앱에 그대로 연결. 반사 디테일과 숨은 부분의 복원 한계는 각 README와 JSON에 기록. 32장 모두 500×500 JPG ≤50,000 bytes 검증. 캘린더는 기존 dayPick 규칙으로 맑은 남성 러닝 제품을 사용함.

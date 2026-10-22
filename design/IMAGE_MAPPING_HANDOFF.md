@@ -130,3 +130,7 @@
 ## b127: Sunny male day Minimal product breakdown
 
 Existing editorials 11–15 preserved. 6 products per look, 30 in total. Existing 5 appOutfitIds and 21 item IDs retained; 9 observed items added. Three-language product copy and articles mapped with measured corner background colors. productionStatus=ready, mappingStatus=mapped. Unknown temperatures remain null. Existing Street supplement and other runtime outfits preserved. [Validation](sunny-male-day-minimal-validation.md).
+
+### b128 · Sunny/Chilly/Male/35+/day Running (2026-10-22)
+
+사용자가 기존 에디토리얼 5장에 대해 제품 분해·3개 언어 문구·앱 매핑·GitHub 반영을 명시 요청함. 기존 사진은 그대로 보존, 제품 폴더 01–05-running에 7/6/6/6/7개(32 JPG)를 추가. 기존 룩 ID와 단일 품목 ID 보존. 03 양말과 가려진 부분은 reconstruction에 불확실성 기록. 검수 완료 제품만 ready/mapped로 연결. 정확한 기온·브랜드·혼용률·성능은 추측하지 않음.

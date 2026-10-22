@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd4-03-run-m",
+  "appOutfitId": "bd4-03-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../03-running.jpg",
+  "sourceEditorial": "../03-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested breakdown of the five existing editorials, product generation, mapping and GitHub publication."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "FOREST IN MOTION",
+    "captionKo": "딥그린 셸을 차콜 집넥 위에 열어 입어요. 상체의 두 어두운 톤 사이에서 실버 반사선이 선명하게 보여요.",
+    "captionEn": "Open the deep green shell over the charcoal zip neck. Silver reflectors stand out between the two dark tones.",
+    "captionDe": "Trage die dunkelgrüne Jacke über dem anthrazitfarbenen Zip-Neck-Shirt offen. Die silbernen Reflektoren heben sich von den dunklen Tönen ab.",
+    "introKo": "딥그린 셸을 차콜 집넥 위에 열어 입어요. 상체의 두 어두운 톤 사이에서 실버 반사선이 선명하게 보여요. 블랙 슬림 팬츠로 여유 있는 셸 아래 선을 정돈해요. 밑단을 접어 올려 종아리의 반사선을 가리지 않아요.",
+    "introEn": "Open the deep green shell over the charcoal zip neck. Silver reflectors stand out between the two dark tones. Keep the lower silhouette clean with slim black trousers. Leave the hems down so the calf reflectors remain visible.",
+    "introDe": "Trage die dunkelgrüne Jacke über dem anthrazitfarbenen Zip-Neck-Shirt offen. Die silbernen Reflektoren heben sich von den dunklen Tönen ab. Eine schmale schwarze Hose hält die untere Silhouette klar. Lasse die Säume unten, damit die Wadenreflektoren sichtbar bleiben."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd4-03-run-m.outer",
+      "category": "outer",
+      "nameKo": "딥그린 후드 셸",
+      "nameEn": "Deep Green Hooded Shell",
+      "nameDe": "Dunkelgrüne Laufjacke mit Kapuze",
+      "name": {
+        "ko": "딥그린 후드 셸",
+        "en": "Deep Green Hooded Shell",
+        "de": "Dunkelgrüne Laufjacke mit Kapuze"
+      },
+      "descriptionKo": "딥그린 셸을 차콜 집넥 위에 열어 입어요. 상체의 두 어두운 톤 사이에서 실버 반사선이 선명하게 보여요.",
+      "descriptionEn": "Open the deep green shell over the charcoal zip neck. Silver reflectors stand out between the two dark tones.",
+      "descriptionDe": "Trage die dunkelgrüne Jacke über dem anthrazitfarbenen Zip-Neck-Shirt offen. Die silbernen Reflektoren heben sich von den dunklen Tönen ab.",
+      "wearing": {
+        "ko": "딥그린 셸을 차콜 집넥 위에 열어 입어요. 상체의 두 어두운 톤 사이에서 실버 반사선이 선명하게 보여요.",
+        "en": "Open the deep green shell over the charcoal zip neck. Silver reflectors stand out between the two dark tones.",
+        "de": "Trage die dunkelgrüne Jacke über dem anthrazitfarbenen Zip-Neck-Shirt offen. Die silbernen Reflektoren heben sich von den dunklen Tönen ab."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "딥그린 후드 셸 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "dark forest green crinkled hooded full zip windbreaker with silver reflective strips across upper chest near shoulders and at lower sleeves",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd4-03-run-m.top",
+      "category": "top",
+      "nameKo": "차콜 하프집 러닝 톱",
+      "nameEn": "Charcoal Half-zip Running Top",
+      "nameDe": "Anthrazitfarbenes Half-Zip-Laufshirt",
+      "name": {
+        "ko": "차콜 하프집 러닝 톱",
+        "en": "Charcoal Half-zip Running Top",
+        "de": "Anthrazitfarbenes Half-Zip-Laufshirt"
+      },
+      "descriptionKo": "차콜 멜란지 집넥의 세운 칼라로 얼굴 주변을 정돈해요. 짧은 지퍼를 조절해 그린 셸 안에 얇은 세로선을 만들어요.",
+      "descriptionEn": "Use the charcoal marl zip collar to frame the face. Adjust the short zip to add a slim vertical line inside the green shell.",
+      "descriptionDe": "Der anthrazit melierte Stehkragen rahmt das Gesicht. Der kurze Reißverschluss setzt eine schmale senkrechte Linie in der grünen Jacke.",
+      "wearing": {
+        "ko": "차콜 멜란지 집넥의 세운 칼라로 얼굴 주변을 정돈해요. 짧은 지퍼를 조절해 그린 셸 안에 얇은 세로선을 만들어요.",
+        "en": "Use the charcoal marl zip collar to frame the face. Adjust the short zip to add a slim vertical line inside the green shell.",
+        "de": "Der anthrazit melierte Stehkragen rahmt das Gesicht. Der kurze Reißverschluss setzt eine schmale senkrechte Linie in der grünen Jacke."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 하프집 러닝 톱 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "charcoal heather jersey long sleeve high collar half-zip running top, black short zipper",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd4-03-run-m.bottom",
+      "category": "bottom",
+      "nameKo": "블랙 슬림 러닝 팬츠",
+      "nameEn": "Black Slim Running Trousers",
+      "nameDe": "Schwarze schmale Laufhose",
+      "name": {
+        "ko": "블랙 슬림 러닝 팬츠",
+        "en": "Black Slim Running Trousers",
+        "de": "Schwarze schmale Laufhose"
+      },
+      "descriptionKo": "블랙 슬림 팬츠로 여유 있는 셸 아래 선을 정돈해요. 밑단을 접어 올려 종아리의 반사선을 가리지 않아요.",
+      "descriptionEn": "Keep the lower silhouette clean with slim black trousers. Leave the hems down so the calf reflectors remain visible.",
+      "descriptionDe": "Eine schmale schwarze Hose hält die untere Silhouette klar. Lasse die Säume unten, damit die Wadenreflektoren sichtbar bleiben.",
+      "wearing": {
+        "ko": "블랙 슬림 팬츠로 여유 있는 셸 아래 선을 정돈해요. 밑단을 접어 올려 종아리의 반사선을 가리지 않아요.",
+        "en": "Keep the lower silhouette clean with slim black trousers. Leave the hems down so the calf reflectors remain visible.",
+        "de": "Eine schmale schwarze Hose hält die untere Silhouette klar. Lasse die Säume unten, damit die Wadenreflektoren sichtbar bleiben."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "블랙 슬림 러닝 팬츠 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "black slim tapered woven running pants with narrow white silver reflective vertical lower leg strips",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-gloves",
+      "appItemId": "bd4-03-run-m.gloves",
+      "category": "gloves",
+      "nameKo": "블랙 반사 스트라이프 글러브",
+      "nameEn": "Black Reflective-stripe Gloves",
+      "nameDe": "Schwarze Handschuhe mit Reflektorstreifen",
+      "name": {
+        "ko": "블랙 반사 스트라이프 글러브",
+        "en": "Black Reflective-stripe Gloves",
+        "de": "Schwarze Handschuhe mit Reflektorstreifen"
+      },
+      "descriptionKo": "텍스처가 있는 블랙 장갑을 차콜 이너와 이어줘요. 소매와 커프를 겹치되 손등의 긴 반사선은 드러내요.",
+      "descriptionEn": "Link textured black gloves to the charcoal layer. Overlap cuffs and sleeves without covering the long reflective backs.",
+      "descriptionDe": "Strukturierte schwarze Handschuhe passen zur anthrazitfarbenen Lage. Überlappe Ärmel und Bündchen, ohne die langen Reflektoren zu verdecken.",
+      "wearing": {
+        "ko": "텍스처가 있는 블랙 장갑을 차콜 이너와 이어줘요. 소매와 커프를 겹치되 손등의 긴 반사선은 드러내요.",
+        "en": "Link textured black gloves to the charcoal layer. Overlap cuffs and sleeves without covering the long reflective backs.",
+        "de": "Strukturierte schwarze Handschuhe passen zur anthrazitfarbenen Lage. Überlappe Ärmel und Bündchen, ohne die langen Reflektoren zu verdecken."
+      },
+      "image": "products/04-gloves.jpg",
+      "altKo": "블랙 반사 스트라이프 글러브 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair black textured full-finger running gloves long slim silver white reflective stripe on back",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bd4-03-run-m.socks",
+      "category": "socks",
+      "nameKo": "라이트 그레이 러닝 삭스",
+      "nameEn": "Light Grey Running Socks",
+      "nameDe": "Hellgraue Laufsocken",
+      "name": {
+        "ko": "라이트 그레이 러닝 삭스",
+        "en": "Light Grey Running Socks",
+        "de": "Hellgraue Laufsocken"
+      },
+      "descriptionKo": "밝은 그레이 양말은 신발 위로 최소한만 보여줘요. 팬츠와 러너 사이에서 작은 명도 차이를 만들어요.",
+      "descriptionEn": "Show only a small edge of pale grey sock above the shoes, creating a quiet tonal break beneath black trousers.",
+      "descriptionDe": "Zeige oberhalb der Schuhe nur einen schmalen hellgrauen Sockenrand als ruhigen Tonwechsel unter der schwarzen Hose.",
+      "wearing": {
+        "ko": "밝은 그레이 양말은 신발 위로 최소한만 보여줘요. 팬츠와 러너 사이에서 작은 명도 차이를 만들어요.",
+        "en": "Show only a small edge of pale grey sock above the shoes, creating a quiet tonal break beneath black trousers.",
+        "de": "Zeige oberhalb der Schuhe nur einen schmalen hellgrauen Sockenrand als ruhigen Tonwechsel unter der schwarzen Hose."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "라이트 그레이 러닝 삭스 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "inferred-colour-and-shape",
+      "visibleDetailsEn": "pair pale grey short running socks, only small ankle region visible; concealed foot conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "appItemId": "bd4-03-run-m.shoes",
+      "category": "shoes",
+      "nameKo": "라이트 그레이 러너",
+      "nameEn": "Light Grey Runners",
+      "nameDe": "Hellgraue Laufschuhe",
+      "name": {
+        "ko": "라이트 그레이 러너",
+        "en": "Light Grey Runners",
+        "de": "Hellgraue Laufschuhe"
+      },
+      "descriptionKo": "라이트 그레이 러너로 그린·차콜·블랙 조합을 밝게 마무리해요. 팬츠 밑단을 신발 위에 과하게 쌓지 않아요.",
+      "descriptionEn": "Finish the green, charcoal and black palette with light grey runners. Avoid stacking trouser fabric over the shoes.",
+      "descriptionDe": "Hellgraue Laufschuhe runden Grün, Anthrazit und Schwarz heller ab. Lasse den Hosensaum nicht über den Schuhen stauen.",
+      "wearing": {
+        "ko": "라이트 그레이 러너로 그린·차콜·블랙 조합을 밝게 마무리해요. 팬츠 밑단을 신발 위에 과하게 쌓지 않아요.",
+        "en": "Finish the green, charcoal and black palette with light grey runners. Avoid stacking trouser fabric over the shoes.",
+        "de": "Hellgraue Laufschuhe runden Grün, Anthrazit und Schwarz heller ab. Lasse den Hosensaum nicht über den Schuhen stauen."
+      },
+      "image": "products/06-shoes.jpg",
+      "altKo": "라이트 그레이 러너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair light grey mesh lace-up running shoes white midsoles and dark rubber outsole subtle silver reflective side trim; partial shoe visible hidden details conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Visible clothing and equipment are reconstructed from the existing editorial; these are AI concept products, not verified commercial goods.",
+    "Hidden torso/sleeves, waistbands, glove palms and fingers, sock feet, shoe opposite sides and backs are conservatively reconstructed.",
+    "Look 03 sock colour and height are uncertain because the ankle is largely occluded; the pale grey visible edge is the only basis.",
+    "Exact temperature, fabric composition, brands and performance certification are unknown. No unsupported equipment added."
+  ]
+}

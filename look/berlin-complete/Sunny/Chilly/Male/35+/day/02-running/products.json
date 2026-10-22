@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd4-02-run-m",
+  "appOutfitId": "bd4-02-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../02-running.jpg",
+  "sourceEditorial": "../02-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested breakdown of the five existing editorials, product generation, mapping and GitHub publication."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "SAND AND NAVY",
+    "captionKo": "샌드 베이지 셸을 네이비 위에 열어 입어 밝고 어두운 면을 나눠요. 가슴의 세로 반사선이 작은 포인트가 돼요.",
+    "captionEn": "Open the sand shell over navy to separate light and dark planes. The vertical chest reflector is a small accent.",
+    "captionDe": "Trage die sandbeige Jacke über Marineblau offen, um helle und dunkle Flächen zu trennen. Der senkrechte Brustreflektor setzt einen kleinen Akzent.",
+    "introKo": "샌드 베이지 셸을 네이비 위에 열어 입어 밝고 어두운 면을 나눠요. 가슴의 세로 반사선이 작은 포인트가 돼요. 네이비 조거의 여유 있는 허벅지와 모인 밑단을 살려요. 밑단은 그레이 양말 위에서 정리해 발목을 드러내요.",
+    "introEn": "Open the sand shell over navy to separate light and dark planes. The vertical chest reflector is a small accent. Keep the joggers relaxed through the thigh and gathered at the ankle. Finish the cuffs above the grey socks.",
+    "introDe": "Trage die sandbeige Jacke über Marineblau offen, um helle und dunkle Flächen zu trennen. Der senkrechte Brustreflektor setzt einen kleinen Akzent. Lasse die marineblauen Jogger am Oberschenkel locker sitzen. Ordne die gerafften Bündchen oberhalb der grauen Socken."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd4-02-run-m.outer",
+      "category": "outer",
+      "nameKo": "샌드 베이지 러닝 셸",
+      "nameEn": "Sand Beige Running Shell",
+      "nameDe": "Sandbeige Laufjacke",
+      "name": {
+        "ko": "샌드 베이지 러닝 셸",
+        "en": "Sand Beige Running Shell",
+        "de": "Sandbeige Laufjacke"
+      },
+      "descriptionKo": "샌드 베이지 셸을 네이비 위에 열어 입어 밝고 어두운 면을 나눠요. 가슴의 세로 반사선이 작은 포인트가 돼요.",
+      "descriptionEn": "Open the sand shell over navy to separate light and dark planes. The vertical chest reflector is a small accent.",
+      "descriptionDe": "Trage die sandbeige Jacke über Marineblau offen, um helle und dunkle Flächen zu trennen. Der senkrechte Brustreflektor setzt einen kleinen Akzent.",
+      "wearing": {
+        "ko": "샌드 베이지 셸을 네이비 위에 열어 입어 밝고 어두운 면을 나눠요. 가슴의 세로 반사선이 작은 포인트가 돼요.",
+        "en": "Open the sand shell over navy to separate light and dark planes. The vertical chest reflector is a small accent.",
+        "de": "Trage die sandbeige Jacke über Marineblau offen, um helle und dunkle Flächen zu trennen. Der senkrechte Brustreflektor setzt einen kleinen Akzent."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "샌드 베이지 러닝 셸 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "sand beige thin crinkled hooded full zip windbreaker, elastic cuffs, narrow vertical silver reflective upper chest strip",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd4-02-run-m.top",
+      "category": "top",
+      "nameKo": "네이비 크루넥 이너",
+      "nameEn": "Navy Crew-neck Base Layer",
+      "nameDe": "Marineblaues Rundhalsshirt",
+      "name": {
+        "ko": "네이비 크루넥 이너",
+        "en": "Navy Crew-neck Base Layer",
+        "de": "Marineblaues Rundhalsshirt"
+      },
+      "descriptionKo": "네이비 크루넥을 조거와 맞춰 안쪽을 한 톤으로 이어가요. 베이지 소매 끝에서 커프를 조금 보여줘요.",
+      "descriptionEn": "Match the navy crew neck to the joggers for a continuous inner column. Let a little cuff show below beige sleeves.",
+      "descriptionDe": "Stimme das marineblaue Rundhalsshirt auf die Jogger ab. Lasse unter den beigen Ärmeln etwas Bündchen sichtbar.",
+      "wearing": {
+        "ko": "네이비 크루넥을 조거와 맞춰 안쪽을 한 톤으로 이어가요. 베이지 소매 끝에서 커프를 조금 보여줘요.",
+        "en": "Match the navy crew neck to the joggers for a continuous inner column. Let a little cuff show below beige sleeves.",
+        "de": "Stimme das marineblaue Rundhalsshirt auf die Jogger ab. Lasse unter den beigen Ärmeln etwas Bündchen sichtbar."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "네이비 크루넥 이너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "dark navy crew-neck long sleeve jersey base layer, chest and cuffs visible, hidden body conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd4-02-run-m.bottom",
+      "category": "bottom",
+      "nameKo": "네이비 테이퍼드 조거",
+      "nameEn": "Navy Tapered Joggers",
+      "nameDe": "Marineblaue Laufjogger",
+      "name": {
+        "ko": "네이비 테이퍼드 조거",
+        "en": "Navy Tapered Joggers",
+        "de": "Marineblaue Laufjogger"
+      },
+      "descriptionKo": "네이비 조거의 여유 있는 허벅지와 모인 밑단을 살려요. 밑단은 그레이 양말 위에서 정리해 발목을 드러내요.",
+      "descriptionEn": "Keep the joggers relaxed through the thigh and gathered at the ankle. Finish the cuffs above the grey socks.",
+      "descriptionDe": "Lasse die marineblauen Jogger am Oberschenkel locker sitzen. Ordne die gerafften Bündchen oberhalb der grauen Socken.",
+      "wearing": {
+        "ko": "네이비 조거의 여유 있는 허벅지와 모인 밑단을 살려요. 밑단은 그레이 양말 위에서 정리해 발목을 드러내요.",
+        "en": "Keep the joggers relaxed through the thigh and gathered at the ankle. Finish the cuffs above the grey socks.",
+        "de": "Lasse die marineblauen Jogger am Oberschenkel locker sitzen. Ordne die gerafften Bündchen oberhalb der grauen Socken."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "네이비 테이퍼드 조거 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "dark navy slightly relaxed tapered woven running joggers elastic ankle cuffs and waistband narrow vertical reflective silver calf strips",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-gloves",
+      "appItemId": "bd4-02-run-m.gloves",
+      "category": "gloves",
+      "nameKo": "블랙 실버 라인 글러브",
+      "nameEn": "Black Silver-line Gloves",
+      "nameDe": "Schwarze Handschuhe mit Silberstreifen",
+      "name": {
+        "ko": "블랙 실버 라인 글러브",
+        "en": "Black Silver-line Gloves",
+        "de": "Schwarze Handschuhe mit Silberstreifen"
+      },
+      "descriptionKo": "사진처럼 장갑을 벗었을 때도 블랙이 팔레트를 잡아줘요. 착용할 때는 손등 실버 라인이 보이도록 소매와 겹쳐요.",
+      "descriptionEn": "Black gloves anchor the palette even when removed, as in the photograph. When worn, overlap the sleeves while showing the silver backs.",
+      "descriptionDe": "Schwarze Handschuhe erden die Palette auch ausgezogen wie im Foto. Trage die Ärmel über den Bündchen und lasse die silbernen Details sichtbar.",
+      "wearing": {
+        "ko": "사진처럼 장갑을 벗었을 때도 블랙이 팔레트를 잡아줘요. 착용할 때는 손등 실버 라인이 보이도록 소매와 겹쳐요.",
+        "en": "Black gloves anchor the palette even when removed, as in the photograph. When worn, overlap the sleeves while showing the silver backs.",
+        "de": "Schwarze Handschuhe erden die Palette auch ausgezogen wie im Foto. Trage die Ärmel über den Bündchen und lasse die silbernen Details sichtbar."
+      },
+      "image": "products/04-gloves.jpg",
+      "altKo": "블랙 실버 라인 글러브 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair black thin full-finger running gloves silver vertical stripe on back, gloves tucked at waist in reference",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bd4-02-run-m.socks",
+      "category": "socks",
+      "nameKo": "그레이 리브 삭스",
+      "nameEn": "Grey Ribbed Socks",
+      "nameDe": "Graue Rippensocken",
+      "name": {
+        "ko": "그레이 리브 삭스",
+        "en": "Grey Ribbed Socks",
+        "de": "Graue Rippensocken"
+      },
+      "descriptionKo": "그레이 리브 양말로 네이비 밑단과 밝은 러너 사이를 연결해요. 리브를 펴고 높이를 좌우로 맞춰요.",
+      "descriptionEn": "Bridge navy cuffs and pale runners with grey ribbed socks. Smooth the ribs and keep both cuffs level.",
+      "descriptionDe": "Graue Rippensocken verbinden marineblaue Bündchen mit hellen Laufschuhen. Ziehe die Rippen glatt und trage beide Socken gleich hoch.",
+      "wearing": {
+        "ko": "그레이 리브 양말로 네이비 밑단과 밝은 러너 사이를 연결해요. 리브를 펴고 높이를 좌우로 맞춰요.",
+        "en": "Bridge navy cuffs and pale runners with grey ribbed socks. Smooth the ribs and keep both cuffs level.",
+        "de": "Graue Rippensocken verbinden marineblaue Bündchen mit hellen Laufschuhen. Ziehe die Rippen glatt und trage beide Socken gleich hoch."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "그레이 리브 삭스 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair light grey marl ribbed crew socks",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "appItemId": "bd4-02-run-m.shoes",
+      "category": "shoes",
+      "nameKo": "오프화이트 메쉬 러너",
+      "nameEn": "Off-white Mesh Runners",
+      "nameDe": "Cremeweiße Mesh-Laufschuhe",
+      "name": {
+        "ko": "오프화이트 메쉬 러너",
+        "en": "Off-white Mesh Runners",
+        "de": "Cremeweiße Mesh-Laufschuhe"
+      },
+      "descriptionKo": "오프화이트 메쉬 러너로 베이지 셸의 밝은 톤을 발끝에 반복해요. 양말은 그레이로 살짝 대비를 줘요.",
+      "descriptionEn": "Repeat the light tone of the beige shell with off-white mesh runners. Grey socks add a gentle contrast.",
+      "descriptionDe": "Cremeweiße Mesh-Laufschuhe wiederholen den hellen Ton der beigen Jacke. Graue Socken setzen einen sanften Kontrast.",
+      "wearing": {
+        "ko": "오프화이트 메쉬 러너로 베이지 셸의 밝은 톤을 발끝에 반복해요. 양말은 그레이로 살짝 대비를 줘요.",
+        "en": "Repeat the light tone of the beige shell with off-white mesh runners. Grey socks add a gentle contrast.",
+        "de": "Cremeweiße Mesh-Laufschuhe wiederholen den hellen Ton der beigen Jacke. Graue Socken setzen einen sanften Kontrast."
+      },
+      "image": "products/06-shoes.jpg",
+      "altKo": "오프화이트 메쉬 러너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair off-white ivory mesh lace-up running shoes tonal sculpted sole grey rubber toe patch subtle silver reflective overlays",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Visible clothing and equipment are reconstructed from the existing editorial; these are AI concept products, not verified commercial goods.",
+    "Hidden torso/sleeves, waistbands, glove palms and fingers, sock feet, shoe opposite sides and backs are conservatively reconstructed.",
+    "Visible colours and reflective placements follow the source; unseen construction is not established.",
+    "Exact temperature, fabric composition, brands and performance certification are unknown. No unsupported equipment added."
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd4-04-run-m",
+  "appOutfitId": "bd4-04-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../04-running.jpg",
+  "sourceEditorial": "../04-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested breakdown of the five existing editorials, product generation, mapping and GitHub publication."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "CORAL WARM-UP",
+    "captionKo": "코럴 레드 셸을 버건디 위에 열어 따뜻한 색을 두 단계로 겹쳐요. 반사선과 가벼운 셸의 구김을 그대로 드러내요.",
+    "captionEn": "Layer the coral shell open over burgundy for two levels of warm colour. Let the reflective marks and light fabric texture show.",
+    "captionDe": "Trage die korallrote Jacke über Bordeaux offen und staffle warme Farben. Lasse Reflektoren und die leichte Knitterstruktur sichtbar.",
+    "introKo": "코럴 레드 셸을 버건디 위에 열어 따뜻한 색을 두 단계로 겹쳐요. 반사선과 가벼운 셸의 구김을 그대로 드러내요. 차콜 팬츠의 짧은 밑단으로 아이보리 양말을 드러내요. 종아리의 긴 반사선이 접히지 않게 밑단을 펴요.",
+    "introEn": "Layer the coral shell open over burgundy for two levels of warm colour. Let the reflective marks and light fabric texture show. Use the cropped charcoal hem to reveal ivory socks. Keep the long calf reflectors straight rather than rolling the hems.",
+    "introDe": "Trage die korallrote Jacke über Bordeaux offen und staffle warme Farben. Lasse Reflektoren und die leichte Knitterstruktur sichtbar. Der verkürzte anthrazitfarbene Saum zeigt die elfenbeinfarbenen Socken. Lasse die langen Wadenreflektoren glatt, statt die Säume umzuschlagen."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd4-04-run-m.outer",
+      "category": "outer",
+      "nameKo": "코럴 레드 러닝 셸",
+      "nameEn": "Coral Red Running Shell",
+      "nameDe": "Korallrote Laufjacke",
+      "name": {
+        "ko": "코럴 레드 러닝 셸",
+        "en": "Coral Red Running Shell",
+        "de": "Korallrote Laufjacke"
+      },
+      "descriptionKo": "코럴 레드 셸을 버건디 위에 열어 따뜻한 색을 두 단계로 겹쳐요. 반사선과 가벼운 셸의 구김을 그대로 드러내요.",
+      "descriptionEn": "Layer the coral shell open over burgundy for two levels of warm colour. Let the reflective marks and light fabric texture show.",
+      "descriptionDe": "Trage die korallrote Jacke über Bordeaux offen und staffle warme Farben. Lasse Reflektoren und die leichte Knitterstruktur sichtbar.",
+      "wearing": {
+        "ko": "코럴 레드 셸을 버건디 위에 열어 따뜻한 색을 두 단계로 겹쳐요. 반사선과 가벼운 셸의 구김을 그대로 드러내요.",
+        "en": "Layer the coral shell open over burgundy for two levels of warm colour. Let the reflective marks and light fabric texture show.",
+        "de": "Trage die korallrote Jacke über Bordeaux offen und staffle warme Farben. Lasse Reflektoren und die leichte Knitterstruktur sichtbar."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "코럴 레드 러닝 셸 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "coral rust red thin stand collar zip front running windbreaker, elastic hem and cuffs, silver reflective short chest strip and slanted upper sleeve strip, no hood visible",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd4-04-run-m.top",
+      "category": "top",
+      "nameKo": "버건디 집넥 이너",
+      "nameEn": "Burgundy Zip-neck Base Layer",
+      "nameDe": "Bordeauxrotes Zip-Neck-Shirt",
+      "name": {
+        "ko": "버건디 집넥 이너",
+        "en": "Burgundy Zip-neck Base Layer",
+        "de": "Bordeauxrotes Zip-Neck-Shirt"
+      },
+      "descriptionKo": "버건디 집넥을 코럴보다 어둡게 받쳐요. 칼라는 단정히 세우고 지퍼는 목에 맞춰 조절해요.",
+      "descriptionEn": "Ground coral with a darker burgundy zip neck. Keep the collar upright and adjust the zip at the neck.",
+      "descriptionDe": "Ein dunkleres bordeauxrotes Zip-Neck-Shirt erdet Korallrot. Stelle den Kragen sauber auf und passe den Reißverschluss am Hals an.",
+      "wearing": {
+        "ko": "버건디 집넥을 코럴보다 어둡게 받쳐요. 칼라는 단정히 세우고 지퍼는 목에 맞춰 조절해요.",
+        "en": "Ground coral with a darker burgundy zip neck. Keep the collar upright and adjust the zip at the neck.",
+        "de": "Ein dunkleres bordeauxrotes Zip-Neck-Shirt erdet Korallrot. Stelle den Kragen sauber auf und passe den Reißverschluss am Hals an."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "버건디 집넥 이너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "dark burgundy long sleeve high collar quarter zip jersey running base layer",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd4-04-run-m.bottom",
+      "category": "bottom",
+      "nameKo": "차콜 크롭 러닝 팬츠",
+      "nameEn": "Charcoal Cropped Running Trousers",
+      "nameDe": "Anthrazitfarbene verkürzte Laufhose",
+      "name": {
+        "ko": "차콜 크롭 러닝 팬츠",
+        "en": "Charcoal Cropped Running Trousers",
+        "de": "Anthrazitfarbene verkürzte Laufhose"
+      },
+      "descriptionKo": "차콜 팬츠의 짧은 밑단으로 아이보리 양말을 드러내요. 종아리의 긴 반사선이 접히지 않게 밑단을 펴요.",
+      "descriptionEn": "Use the cropped charcoal hem to reveal ivory socks. Keep the long calf reflectors straight rather than rolling the hems.",
+      "descriptionDe": "Der verkürzte anthrazitfarbene Saum zeigt die elfenbeinfarbenen Socken. Lasse die langen Wadenreflektoren glatt, statt die Säume umzuschlagen.",
+      "wearing": {
+        "ko": "차콜 팬츠의 짧은 밑단으로 아이보리 양말을 드러내요. 종아리의 긴 반사선이 접히지 않게 밑단을 펴요.",
+        "en": "Use the cropped charcoal hem to reveal ivory socks. Keep the long calf reflectors straight rather than rolling the hems.",
+        "de": "Der verkürzte anthrazitfarbene Saum zeigt die elfenbeinfarbenen Socken. Lasse die langen Wadenreflektoren glatt, statt die Säume umzuschlagen."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 크롭 러닝 팬츠 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "charcoal grey slim tapered ankle length running trousers flat hem with small ankle zip/slit narrow silver reflective long vertical lower calf strip",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-gloves",
+      "appItemId": "bd4-04-run-m.gloves",
+      "category": "gloves",
+      "nameKo": "블랙 분절 반사 글러브",
+      "nameEn": "Black Segmented-reflector Gloves",
+      "nameDe": "Schwarze Handschuhe mit segmentierten Reflektoren",
+      "name": {
+        "ko": "블랙 분절 반사 글러브",
+        "en": "Black Segmented-reflector Gloves",
+        "de": "Schwarze Handschuhe mit segmentierten Reflektoren"
+      },
+      "descriptionKo": "블랙 장갑으로 따뜻한 상체 컬러에 차분한 마침표를 찍어요. 손등의 분절 실버 디테일을 소매 밖으로 보여줘요.",
+      "descriptionEn": "Calm the warm upper palette with black gloves. Let the segmented silver backs extend beyond the sleeves.",
+      "descriptionDe": "Schwarze Handschuhe beruhigen die warmen Oberkörperfarben. Zeige die segmentierten Silberdetails außerhalb der Ärmel.",
+      "wearing": {
+        "ko": "블랙 장갑으로 따뜻한 상체 컬러에 차분한 마침표를 찍어요. 손등의 분절 실버 디테일을 소매 밖으로 보여줘요.",
+        "en": "Calm the warm upper palette with black gloves. Let the segmented silver backs extend beyond the sleeves.",
+        "de": "Schwarze Handschuhe beruhigen die warmen Oberkörperfarben. Zeige die segmentierten Silberdetails außerhalb der Ärmel."
+      },
+      "image": "products/04-gloves.jpg",
+      "altKo": "블랙 분절 반사 글러브 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair black full finger running gloves silver segmented rectangular strips on backs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bd4-04-run-m.socks",
+      "category": "socks",
+      "nameKo": "아이보리 리브 삭스",
+      "nameEn": "Ivory Ribbed Socks",
+      "nameDe": "Elfenbeinfarbene Rippensocken",
+      "name": {
+        "ko": "아이보리 리브 삭스",
+        "en": "Ivory Ribbed Socks",
+        "de": "Elfenbeinfarbene Rippensocken"
+      },
+      "descriptionKo": "아이보리 리브 양말을 팬츠와 올리브 러너 사이에 보여줘요. 신발의 밝은 솔과 같은 계열로 연결해요.",
+      "descriptionEn": "Show ivory ribbed socks between trousers and olive runners, echoing the pale midsoles.",
+      "descriptionDe": "Zeige elfenbeinfarbene Rippensocken zwischen Hose und olivgrünen Laufschuhen und greife damit die hellen Sohlen auf.",
+      "wearing": {
+        "ko": "아이보리 리브 양말을 팬츠와 올리브 러너 사이에 보여줘요. 신발의 밝은 솔과 같은 계열로 연결해요.",
+        "en": "Show ivory ribbed socks between trousers and olive runners, echoing the pale midsoles.",
+        "de": "Zeige elfenbeinfarbene Rippensocken zwischen Hose und olivgrünen Laufschuhen und greife damit die hellen Sohlen auf."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "아이보리 리브 삭스 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair ivory ribbed crew socks",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "appItemId": "bd4-04-run-m.shoes",
+      "category": "shoes",
+      "nameKo": "올리브 메쉬 러너",
+      "nameEn": "Olive Mesh Runners",
+      "nameDe": "Olivgrüne Mesh-Laufschuhe",
+      "name": {
+        "ko": "올리브 메쉬 러너",
+        "en": "Olive Mesh Runners",
+        "de": "Olivgrüne Mesh-Laufschuhe"
+      },
+      "descriptionKo": "올리브 메쉬로 코럴과 버건디의 따뜻한 색을 균형 잡아요. 아이보리 양말을 더해 두툼한 밝은 솔과 이어줘요.",
+      "descriptionEn": "Balance coral and burgundy with olive mesh. Add ivory socks to connect to the substantial pale soles.",
+      "descriptionDe": "Olivgrünes Mesh balanciert Korallrot und Bordeaux aus. Elfenbeinfarbene Socken verbinden sich mit den kräftigen hellen Sohlen.",
+      "wearing": {
+        "ko": "올리브 메쉬로 코럴과 버건디의 따뜻한 색을 균형 잡아요. 아이보리 양말을 더해 두툼한 밝은 솔과 이어줘요.",
+        "en": "Balance coral and burgundy with olive mesh. Add ivory socks to connect to the substantial pale soles.",
+        "de": "Olivgrünes Mesh balanciert Korallrot und Bordeaux aus. Elfenbeinfarbene Socken verbinden sich mit den kräftigen hellen Sohlen."
+      },
+      "image": "products/06-shoes.jpg",
+      "altKo": "올리브 메쉬 러너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair olive green mesh lace-up running shoes thick warm off-white midsole black rubber toe and outsole silver white narrow reflective toe and heel strips",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Visible clothing and equipment are reconstructed from the existing editorial; these are AI concept products, not verified commercial goods.",
+    "Hidden torso/sleeves, waistbands, glove palms and fingers, sock feet, shoe opposite sides and backs are conservatively reconstructed.",
+    "Visible colours and reflective placements follow the source; unseen construction is not established.",
+    "Exact temperature, fabric composition, brands and performance certification are unknown. No unsupported equipment added."
+  ]
+}

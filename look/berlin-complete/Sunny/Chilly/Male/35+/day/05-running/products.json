@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-05-run-m",
+  "appOutfitId": "bd15-05-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../05-running.jpg",
+  "sourceEditorial": "../05-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested breakdown of the five existing editorials, product generation, mapping and GitHub publication."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "NAVY, WITH ORANGE",
+    "captionKo": "네이비 셸을 밝은 크루넥 위에 조금 열어 입어요. 손목의 밝은 커프와 가슴 실버선으로 어두운 면을 나눠요.",
+    "captionEn": "Open the navy shell slightly over a pale crew neck. Light cuffs and a silver chest mark break up the dark surface.",
+    "captionDe": "Trage den marineblauen Windbreaker über einem hellen Rundhalsshirt leicht geöffnet. Helle Bündchen und ein silbernes Brustdetail gliedern die dunkle Fläche.",
+    "introKo": "네이비 셸을 밝은 크루넥 위에 조금 열어 입어요. 손목의 밝은 커프와 가슴 실버선으로 어두운 면을 나눠요. 차콜 타이츠로 네이비와 가까운 톤을 이어가요. 종아리 반사선과 그레이 양말의 경계는 또렷하게 보여줘요.",
+    "introEn": "Open the navy shell slightly over a pale crew neck. Light cuffs and a silver chest mark break up the dark surface. Continue navy with closely toned charcoal tights. Keep the calf reflector and grey sock boundary clearly visible.",
+    "introDe": "Trage den marineblauen Windbreaker über einem hellen Rundhalsshirt leicht geöffnet. Helle Bündchen und ein silbernes Brustdetail gliedern die dunkle Fläche. Anthrazitfarbene Tights führen Marineblau in einem ähnlichen Ton weiter. Lasse Wadenreflektor und Übergang zu den grauen Socken sichtbar."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd15-05-run-m.outer",
+      "category": "outer",
+      "nameKo": "네이비 후드 윈드브레이커",
+      "nameEn": "Navy Hooded Windbreaker",
+      "nameDe": "Marineblauer Windbreaker mit Kapuze",
+      "name": {
+        "ko": "네이비 후드 윈드브레이커",
+        "en": "Navy Hooded Windbreaker",
+        "de": "Marineblauer Windbreaker mit Kapuze"
+      },
+      "descriptionKo": "네이비 셸을 밝은 크루넥 위에 조금 열어 입어요. 손목의 밝은 커프와 가슴 실버선으로 어두운 면을 나눠요.",
+      "descriptionEn": "Open the navy shell slightly over a pale crew neck. Light cuffs and a silver chest mark break up the dark surface.",
+      "descriptionDe": "Trage den marineblauen Windbreaker über einem hellen Rundhalsshirt leicht geöffnet. Helle Bündchen und ein silbernes Brustdetail gliedern die dunkle Fläche.",
+      "wearing": {
+        "ko": "네이비 셸을 밝은 크루넥 위에 조금 열어 입어요. 손목의 밝은 커프와 가슴 실버선으로 어두운 면을 나눠요.",
+        "en": "Open the navy shell slightly over a pale crew neck. Light cuffs and a silver chest mark break up the dark surface.",
+        "de": "Trage den marineblauen Windbreaker über einem hellen Rundhalsshirt leicht geöffnet. Helle Bündchen und ein silbernes Brustdetail gliedern die dunkle Fläche."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "네이비 후드 윈드브레이커 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "dark navy crinkled thin hooded full zip windbreaker silver reflective small upper chest stripe elastic cuffs and hem",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd15-05-run-m.top",
+      "category": "top",
+      "nameKo": "오프화이트 크루넥 롱슬리브",
+      "nameEn": "Off-white Crew-neck Long Sleeve",
+      "nameDe": "Cremeweißes Langarmshirt",
+      "name": {
+        "ko": "오프화이트 크루넥 롱슬리브",
+        "en": "Off-white Crew-neck Long Sleeve",
+        "de": "Cremeweißes Langarmshirt"
+      },
+      "descriptionKo": "오프화이트 롱슬리브를 목과 손목에서 보여줘요. 네이비 셸 안에서 밝은 프레임이 생기도록 매끈하게 겹쳐요.",
+      "descriptionEn": "Show off-white at neck and wrists, keeping the layer smooth to frame the navy shell with pale edges.",
+      "descriptionDe": "Zeige Cremeweiß an Hals und Handgelenken. Trage die Lage glatt, damit helle Ränder den marineblauen Windbreaker rahmen.",
+      "wearing": {
+        "ko": "오프화이트 롱슬리브를 목과 손목에서 보여줘요. 네이비 셸 안에서 밝은 프레임이 생기도록 매끈하게 겹쳐요.",
+        "en": "Show off-white at neck and wrists, keeping the layer smooth to frame the navy shell with pale edges.",
+        "de": "Zeige Cremeweiß an Hals und Handgelenken. Trage die Lage glatt, damit helle Ränder den marineblauen Windbreaker rahmen."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "오프화이트 크루넥 롱슬리브 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "off-white ivory crew-neck long sleeve jersey base layer with long close cuffs visible under shell",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd15-05-run-m.bottom",
+      "category": "bottom",
+      "nameKo": "차콜 러닝 타이츠",
+      "nameEn": "Charcoal Running Tights",
+      "nameDe": "Anthrazitfarbene Lauftights",
+      "name": {
+        "ko": "차콜 러닝 타이츠",
+        "en": "Charcoal Running Tights",
+        "de": "Anthrazitfarbene Lauftights"
+      },
+      "descriptionKo": "차콜 타이츠로 네이비와 가까운 톤을 이어가요. 종아리 반사선과 그레이 양말의 경계는 또렷하게 보여줘요.",
+      "descriptionEn": "Continue navy with closely toned charcoal tights. Keep the calf reflector and grey sock boundary clearly visible.",
+      "descriptionDe": "Anthrazitfarbene Tights führen Marineblau in einem ähnlichen Ton weiter. Lasse Wadenreflektor und Übergang zu den grauen Socken sichtbar.",
+      "wearing": {
+        "ko": "차콜 타이츠로 네이비와 가까운 톤을 이어가요. 종아리 반사선과 그레이 양말의 경계는 또렷하게 보여줘요.",
+        "en": "Continue navy with closely toned charcoal tights. Keep the calf reflector and grey sock boundary clearly visible.",
+        "de": "Anthrazitfarbene Tights führen Marineblau in einem ähnlichen Ton weiter. Lasse Wadenreflektor und Übergang zu den grauen Socken sichtbar."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 러닝 타이츠 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "dark charcoal grey fitted full length running tights flatlock seams slim long silver reflective strip on outer lower calf",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-gloves",
+      "appItemId": "bd15-05-run-m.gloves",
+      "category": "gloves",
+      "nameKo": "블랙 반사 라인 글러브",
+      "nameEn": "Black Reflective-line Gloves",
+      "nameDe": "Schwarze Handschuhe mit Reflektorlinie",
+      "name": {
+        "ko": "블랙 반사 라인 글러브",
+        "en": "Black Reflective-line Gloves",
+        "de": "Schwarze Handschuhe mit Reflektorlinie"
+      },
+      "descriptionKo": "블랙 글러브를 밝은 이너 커프 위에 겹쳐 손목에 대비를 줘요. 손등의 가는 실버 라인이 셸 반사선과 이어져요.",
+      "descriptionEn": "Overlap black gloves with pale base-layer cuffs for contrast at the wrist. The fine silver backs echo the shell reflectors.",
+      "descriptionDe": "Schwarze Handschuhe über hellen Shirtbündchen setzen Kontrast am Handgelenk. Feine silberne Linien greifen die Jackenreflektoren auf.",
+      "wearing": {
+        "ko": "블랙 글러브를 밝은 이너 커프 위에 겹쳐 손목에 대비를 줘요. 손등의 가는 실버 라인이 셸 반사선과 이어져요.",
+        "en": "Overlap black gloves with pale base-layer cuffs for contrast at the wrist. The fine silver backs echo the shell reflectors.",
+        "de": "Schwarze Handschuhe über hellen Shirtbündchen setzen Kontrast am Handgelenk. Feine silberne Linien greifen die Jackenreflektoren auf."
+      },
+      "image": "products/04-gloves.jpg",
+      "altKo": "블랙 반사 라인 글러브 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair black thin full-finger running gloves silver slightly curved horizontal stripe across back",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bd15-05-run-m.socks",
+      "category": "socks",
+      "nameKo": "그레이 멜란지 삭스",
+      "nameEn": "Grey Marl Socks",
+      "nameDe": "Grau melierte Socken",
+      "name": {
+        "ko": "그레이 멜란지 삭스",
+        "en": "Grey Marl Socks",
+        "de": "Grau melierte Socken"
+      },
+      "descriptionKo": "그레이 멜란지 양말을 타이츠 밖으로 올려요. 리브를 깔끔하게 정리해 그레이 러너와 자연스럽게 이어줘요.",
+      "descriptionEn": "Wear grey marl socks over the tights. Keep the ribs neat for a smooth transition into grey runners.",
+      "descriptionDe": "Trage grau melierte Socken über den Tights. Glatte Rippen schaffen einen ruhigen Übergang zu den grauen Laufschuhen.",
+      "wearing": {
+        "ko": "그레이 멜란지 양말을 타이츠 밖으로 올려요. 리브를 깔끔하게 정리해 그레이 러너와 자연스럽게 이어줘요.",
+        "en": "Wear grey marl socks over the tights. Keep the ribs neat for a smooth transition into grey runners.",
+        "de": "Trage grau melierte Socken über den Tights. Glatte Rippen schaffen einen ruhigen Übergang zu den grauen Laufschuhen."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "그레이 멜란지 삭스 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair light grey marl ribbed crew socks",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "appItemId": "bd15-05-run-m.shoes",
+      "category": "shoes",
+      "nameKo": "그레이 쿠션 러너",
+      "nameEn": "Grey Cushioned Runners",
+      "nameDe": "Graue gedämpfte Laufschuhe",
+      "name": {
+        "ko": "그레이 쿠션 러너",
+        "en": "Grey Cushioned Runners",
+        "de": "Graue gedämpfte Laufschuhe"
+      },
+      "descriptionKo": "그레이 메쉬와 두꺼운 화이트 솔로 하체에 밝기를 더해요. 그레이 양말로 발목부터 신발까지 한 톤으로 이어가요.",
+      "descriptionEn": "Brighten the lower half with grey mesh and thick white soles. Grey socks create a tonal transition from ankle to shoe.",
+      "descriptionDe": "Graues Mesh und dicke weiße Sohlen hellen die untere Hälfte auf. Graue Socken bilden einen tonalen Übergang vom Knöchel zum Schuh.",
+      "wearing": {
+        "ko": "그레이 메쉬와 두꺼운 화이트 솔로 하체에 밝기를 더해요. 그레이 양말로 발목부터 신발까지 한 톤으로 이어가요.",
+        "en": "Brighten the lower half with grey mesh and thick white soles. Grey socks create a tonal transition from ankle to shoe.",
+        "de": "Graues Mesh und dicke weiße Sohlen hellen die untere Hälfte auf. Graue Socken bilden einen tonalen Übergang vom Knöchel zum Schuh."
+      },
+      "image": "products/06-shoes.jpg",
+      "altKo": "그레이 쿠션 러너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair medium grey mesh lace-up running shoes thick white foam midsoles black rubber toe outsole bright silver reflective heel overlay",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-gear",
+      "appItemId": "bd15-05-run-m.gear",
+      "category": "gear",
+      "nameKo": "오렌지 스포츠 물병",
+      "nameEn": "Orange Sports Bottle",
+      "nameDe": "Orange Sporttrinkflasche",
+      "name": {
+        "ko": "오렌지 스포츠 물병",
+        "en": "Orange Sports Bottle",
+        "de": "Orange Sporttrinkflasche"
+      },
+      "descriptionKo": "오렌지 물병 하나로 네이비·차콜 착장에 선명한 포인트를 줘요. 다른 액세서리 색을 줄여 이 컬러에 집중해요.",
+      "descriptionEn": "Use one orange bottle as a vivid accent against navy and charcoal. Keep other accessory colours restrained.",
+      "descriptionDe": "Eine orange Trinkflasche setzt einen kräftigen Akzent zu Marineblau und Anthrazit. Halte weitere Accessoirefarben zurück.",
+      "wearing": {
+        "ko": "오렌지 물병 하나로 네이비·차콜 착장에 선명한 포인트를 줘요. 다른 액세서리 색을 줄여 이 컬러에 집중해요.",
+        "en": "Use one orange bottle as a vivid accent against navy and charcoal. Keep other accessory colours restrained.",
+        "de": "Eine orange Trinkflasche setzt einen kräftigen Akzent zu Marineblau und Anthrazit. Halte weitere Accessoirefarben zurück."
+      },
+      "image": "products/07-gear.jpg",
+      "altKo": "오렌지 스포츠 물병 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "single translucent bright orange cylindrical sports squeeze water bottle, black collar and orange pull spout, slightly narrowed neck, flat round base",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Visible clothing and equipment are reconstructed from the existing editorial; these are AI concept products, not verified commercial goods.",
+    "Hidden torso/sleeves, waistbands, glove palms and fingers, sock feet, shoe opposite sides and backs are conservatively reconstructed.",
+    "Visible colours and reflective placements follow the source; unseen construction is not established.",
+    "Exact temperature, fabric composition, brands and performance certification are unknown. No unsupported equipment added."
+  ]
+}

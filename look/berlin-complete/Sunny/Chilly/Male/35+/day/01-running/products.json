@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd4-01-run-m",
+  "appOutfitId": "bd4-01-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../01-running.jpg",
+  "sourceEditorial": "../01-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested breakdown of the five existing editorials, product generation, mapping and GitHub publication."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "BLUE AT PACE",
+    "captionKo": "블루의 볼륨은 얇은 셸 하나로 잡아요. 차콜 이너 위에서 지퍼를 조금 열고 소매의 실버 라인을 드러내요.",
+    "captionEn": "Let the thin blue shell carry the colour. Open it slightly over charcoal and keep the silver sleeve accents visible.",
+    "captionDe": "Die dünne blaue Jacke setzt die Farbe. Trage sie über Anthrazit leicht geöffnet und lasse die silbernen Ärmeldetails sichtbar.",
+    "introKo": "블루의 볼륨은 얇은 셸 하나로 잡아요. 차콜 이너 위에서 지퍼를 조금 열고 소매의 실버 라인을 드러내요. 블랙 타이츠로 셸의 여유와 대비되는 슬림한 선을 만들어요. 발목은 깔끔하게 정리하고 종아리 반사선을 드러내요.",
+    "introEn": "Let the thin blue shell carry the colour. Open it slightly over charcoal and keep the silver sleeve accents visible. Balance the relaxed shell with fitted black tights. Keep the ankles neat and the reflective calf marks visible.",
+    "introDe": "Die dünne blaue Jacke setzt die Farbe. Trage sie über Anthrazit leicht geöffnet und lasse die silbernen Ärmeldetails sichtbar. Schwarze Tights bilden einen schmalen Gegenpol zur lockeren Jacke. Halte die Knöchel glatt und die Reflektoren an den Waden sichtbar."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd4-01-run-m.outer",
+      "category": "outer",
+      "nameKo": "코발트 후드 러닝 셸",
+      "nameEn": "Cobalt Hooded Running Shell",
+      "nameDe": "Kobaltblaue Laufjacke mit Kapuze",
+      "name": {
+        "ko": "코발트 후드 러닝 셸",
+        "en": "Cobalt Hooded Running Shell",
+        "de": "Kobaltblaue Laufjacke mit Kapuze"
+      },
+      "descriptionKo": "블루의 볼륨은 얇은 셸 하나로 잡아요. 차콜 이너 위에서 지퍼를 조금 열고 소매의 실버 라인을 드러내요.",
+      "descriptionEn": "Let the thin blue shell carry the colour. Open it slightly over charcoal and keep the silver sleeve accents visible.",
+      "descriptionDe": "Die dünne blaue Jacke setzt die Farbe. Trage sie über Anthrazit leicht geöffnet und lasse die silbernen Ärmeldetails sichtbar.",
+      "wearing": {
+        "ko": "블루의 볼륨은 얇은 셸 하나로 잡아요. 차콜 이너 위에서 지퍼를 조금 열고 소매의 실버 라인을 드러내요.",
+        "en": "Let the thin blue shell carry the colour. Open it slightly over charcoal and keep the silver sleeve accents visible.",
+        "de": "Die dünne blaue Jacke setzt die Farbe. Trage sie über Anthrazit leicht geöffnet und lasse die silbernen Ärmeldetails sichtbar."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "코발트 후드 러닝 셸 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "cobalt blue crinkled hooded full zip windbreaker, silver short reflective strips at upper chest/shoulders and forearms",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd4-01-run-m.top",
+      "category": "top",
+      "nameKo": "차콜 크루넥 이너",
+      "nameEn": "Charcoal Crew-neck Base Layer",
+      "nameDe": "Anthrazitfarbenes Rundhalsshirt",
+      "name": {
+        "ko": "차콜 크루넥 이너",
+        "en": "Charcoal Crew-neck Base Layer",
+        "de": "Anthrazitfarbenes Rundhalsshirt"
+      },
+      "descriptionKo": "차콜 크루넥으로 선명한 블루를 차분하게 받쳐요. 목둘레만 얇게 보이도록 재킷 아래에 매끈하게 입어요.",
+      "descriptionEn": "Ground the vivid blue with a charcoal crew neck. Keep the layer smooth, showing a narrow band at the neckline.",
+      "descriptionDe": "Ein anthrazitfarbenes Rundhalsshirt erdet das kräftige Blau. Trage es glatt unter der Jacke und zeige nur einen schmalen Rand am Hals.",
+      "wearing": {
+        "ko": "차콜 크루넥으로 선명한 블루를 차분하게 받쳐요. 목둘레만 얇게 보이도록 재킷 아래에 매끈하게 입어요.",
+        "en": "Ground the vivid blue with a charcoal crew neck. Keep the layer smooth, showing a narrow band at the neckline.",
+        "de": "Ein anthrazitfarbenes Rundhalsshirt erdet das kräftige Blau. Trage es glatt unter der Jacke und zeige nur einen schmalen Rand am Hals."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 크루넥 이너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "charcoal dark grey heather crew-neck long sleeve base layer, neckline visible in editorial; concealed sleeves and torso conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd4-01-run-m.bottom",
+      "category": "bottom",
+      "nameKo": "블랙 반사 타이츠",
+      "nameEn": "Black Reflective Tights",
+      "nameDe": "Schwarze Tights mit Reflektoren",
+      "name": {
+        "ko": "블랙 반사 타이츠",
+        "en": "Black Reflective Tights",
+        "de": "Schwarze Tights mit Reflektoren"
+      },
+      "descriptionKo": "블랙 타이츠로 셸의 여유와 대비되는 슬림한 선을 만들어요. 발목은 깔끔하게 정리하고 종아리 반사선을 드러내요.",
+      "descriptionEn": "Balance the relaxed shell with fitted black tights. Keep the ankles neat and the reflective calf marks visible.",
+      "descriptionDe": "Schwarze Tights bilden einen schmalen Gegenpol zur lockeren Jacke. Halte die Knöchel glatt und die Reflektoren an den Waden sichtbar.",
+      "wearing": {
+        "ko": "블랙 타이츠로 셸의 여유와 대비되는 슬림한 선을 만들어요. 발목은 깔끔하게 정리하고 종아리 반사선을 드러내요.",
+        "en": "Balance the relaxed shell with fitted black tights. Keep the ankles neat and the reflective calf marks visible.",
+        "de": "Schwarze Tights bilden einen schmalen Gegenpol zur lockeren Jacke. Halte die Knöchel glatt und die Reflektoren an den Waden sichtbar."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "블랙 반사 타이츠 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "black fitted ankle-length running tights with narrow silver reflective strip on outer lower calf",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-gloves",
+      "appItemId": "bd4-01-run-m.gloves",
+      "category": "gloves",
+      "nameKo": "블랙 반사 글러브",
+      "nameEn": "Black Reflective Gloves",
+      "nameDe": "Schwarze Laufhandschuhe mit Reflektoren",
+      "name": {
+        "ko": "블랙 반사 글러브",
+        "en": "Black Reflective Gloves",
+        "de": "Schwarze Laufhandschuhe mit Reflektoren"
+      },
+      "descriptionKo": "블랙 장갑을 타이츠와 연결해 색을 정돈해요. 커프는 재킷 소매 안쪽에 겹치고 손등 반사선을 드러내요.",
+      "descriptionEn": "Link the black gloves to the tights. Tuck their cuffs beneath the jacket sleeves and show the reflective backs.",
+      "descriptionDe": "Schwarze Handschuhe greifen die Tights auf. Schiebe die Bündchen unter die Jackenärmel und zeige die Reflektoren auf dem Handrücken.",
+      "wearing": {
+        "ko": "블랙 장갑을 타이츠와 연결해 색을 정돈해요. 커프는 재킷 소매 안쪽에 겹치고 손등 반사선을 드러내요.",
+        "en": "Link the black gloves to the tights. Tuck their cuffs beneath the jacket sleeves and show the reflective backs.",
+        "de": "Schwarze Handschuhe greifen die Tights auf. Schiebe die Bündchen unter die Jackenärmel und zeige die Reflektoren auf dem Handrücken."
+      },
+      "image": "products/04-gloves.jpg",
+      "altKo": "블랙 반사 글러브 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair black full-finger thin running gloves with narrow silver stripe on backs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bd4-01-run-m.socks",
+      "category": "socks",
+      "nameKo": "화이트 앵클 삭스",
+      "nameEn": "White Ankle Socks",
+      "nameDe": "Weiße Knöchelsocken",
+      "name": {
+        "ko": "화이트 앵클 삭스",
+        "en": "White Ankle Socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "descriptionKo": "화이트 양말을 타이츠와 그레이 러너 사이에 짧게 보여줘요. 발목에 주름을 많이 쌓지 않아요.",
+      "descriptionEn": "Show a short white band between tights and grey runners without bunching the socks at the ankle.",
+      "descriptionDe": "Lasse zwischen Tights und grauen Laufschuhen einen kurzen weißen Streifen sichtbar, ohne die Socken am Knöchel zu stauen.",
+      "wearing": {
+        "ko": "화이트 양말을 타이츠와 그레이 러너 사이에 짧게 보여줘요. 발목에 주름을 많이 쌓지 않아요.",
+        "en": "Show a short white band between tights and grey runners without bunching the socks at the ankle.",
+        "de": "Lasse zwischen Tights und grauen Laufschuhen einen kurzen weißen Streifen sichtbar, ohne die Socken am Knöchel zu stauen."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "화이트 앵클 삭스 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair white short ribbed ankle socks",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "appItemId": "bd4-01-run-m.shoes",
+      "category": "shoes",
+      "nameKo": "그레이 메쉬 러너",
+      "nameEn": "Grey Mesh Runners",
+      "nameDe": "Graue Mesh-Laufschuhe",
+      "name": {
+        "ko": "그레이 메쉬 러너",
+        "en": "Grey Mesh Runners",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "descriptionKo": "그레이 메쉬와 화이트 솔로 블랙 하체를 가볍게 마무리해요. 밝은 양말과 톤을 연결하고 끈은 단정히 묶어요.",
+      "descriptionEn": "Lighten the black lower half with grey mesh and white soles. Link them to pale socks and tie the laces neatly.",
+      "descriptionDe": "Graues Mesh und weiße Sohlen lockern die schwarze untere Hälfte auf. Kombiniere helle Socken dazu und binde die Schnürsenkel ordentlich.",
+      "wearing": {
+        "ko": "그레이 메쉬와 화이트 솔로 블랙 하체를 가볍게 마무리해요. 밝은 양말과 톤을 연결하고 끈은 단정히 묶어요.",
+        "en": "Lighten the black lower half with grey mesh and white soles. Link them to pale socks and tie the laces neatly.",
+        "de": "Graues Mesh und weiße Sohlen lockern die schwarze untere Hälfte auf. Kombiniere helle Socken dazu und binde die Schnürsenkel ordentlich."
+      },
+      "image": "products/06-shoes.jpg",
+      "altKo": "그레이 메쉬 러너 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "partially-visible-reconstructed",
+      "visibleDetailsEn": "pair grey mesh lace-up running shoes white midsoles dark rubber toes silver reflective side and heel overlays, no branding",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-headwear",
+      "appItemId": "bd4-01-run-m.headwear",
+      "category": "headwear",
+      "nameKo": "블랙 와이드 헤드밴드",
+      "nameEn": "Black Wide Headband",
+      "nameDe": "Breites schwarzes Stirnband",
+      "name": {
+        "ko": "블랙 와이드 헤드밴드",
+        "en": "Black Wide Headband",
+        "de": "Breites schwarzes Stirnband"
+      },
+      "descriptionKo": "넓은 블랙 헤드밴드를 귀 위로 안정적으로 걸쳐요. 장갑·타이츠와 블랙을 반복해 블루 재킷을 돋보이게 해요.",
+      "descriptionEn": "Wear the wide black band securely over the ears. Repeating black in gloves and tights lets the blue jacket stand out.",
+      "descriptionDe": "Trage das breite schwarze Stirnband über den Ohren. Schwarz in Handschuhen und Tights lässt die blaue Jacke hervortreten.",
+      "wearing": {
+        "ko": "넓은 블랙 헤드밴드를 귀 위로 안정적으로 걸쳐요. 장갑·타이츠와 블랙을 반복해 블루 재킷을 돋보이게 해요.",
+        "en": "Wear the wide black band securely over the ears. Repeating black in gloves and tights lets the blue jacket stand out.",
+        "de": "Trage das breite schwarze Stirnband über den Ohren. Schwarz in Handschuhen und Tights lässt die blaue Jacke hervortreten."
+      },
+      "image": "products/07-headwear.jpg",
+      "altKo": "블랙 와이드 헤드밴드 — 따뜻한 아이보리 배경의 단독 제품 이미지",
+      "reconstruction": "visible-item-reconstructed",
+      "visibleDetailsEn": "wide black textured stretch running headband small subdued silver reflective tab",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Visible clothing and equipment are reconstructed from the existing editorial; these are AI concept products, not verified commercial goods.",
+    "Hidden torso/sleeves, waistbands, glove palms and fingers, sock feet, shoe opposite sides and backs are conservatively reconstructed.",
+    "Visible colours and reflective placements follow the source; unseen construction is not established.",
+    "Exact temperature, fabric composition, brands and performance certification are unknown. No unsupported equipment added."
+  ]
+}
