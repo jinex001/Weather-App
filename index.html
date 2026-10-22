@@ -57,8 +57,9 @@
   }
   /* city · date · time on one line at the top (b57) */
   .top { display: flex; align-items: baseline; gap: 5px; flex-wrap: wrap; }
-  /* tapping the city switches GPS ↔ Berlin (b58); padding widens the tap target without moving the text */
-  .city { font-size: 17px; font-weight: 700; cursor: pointer; padding: 10px 8px 10px 0; margin: -10px -8px -10px 0; }
+  /* tapping the city (name + pin icon, b123) opens the places sheet; padding widens the tap target without moving the text */
+  .city { display: inline-flex; align-items: center; gap: 5px; font-size: 20px; font-weight: 700; cursor: pointer; padding: 10px 8px 10px 0; margin: -10px -8px -10px 0; }
+  .city svg { width: 17px; height: 17px; flex: none; fill: currentColor; }
   .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
   /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
   .hero-art { display: flex; justify-content: center; margin: 31px -24px 0; height: 170px; overflow: hidden; }
@@ -429,6 +430,21 @@
   .lk-go { display: block; margin-top: 34px; width: 100%; font: 700 17px var(--sans); color: var(--lk-bg); background: var(--lk-ink); border: 0; border-radius: 28px; padding: 17px; cursor: pointer; transition: opacity .2s; }
   .lk-go:disabled { opacity: .35; cursor: default; }
   .lk-fine { margin-top: 14px; font-size: 12px; font-weight: 500; line-height: 1.5; text-align: center; }
+  /* Places sheet (b123): search a city, view it, keep it in My places. Same glass sheet as Today's Look */
+  .pl-search { display: flex; align-items: center; gap: 10px; margin-top: 14px; padding: 0 16px; height: 48px; border-radius: 24px; background: rgba(20,20,20,.08); }
+  .pl-search svg { width: 20px; height: 20px; flex: none; fill: var(--lk-ink); opacity: .6; }
+  .pl-search input { flex: 1; min-width: 0; height: 100%; border: 0; outline: 0; background: none; padding: 0; font: 600 17px var(--sans); letter-spacing: -.02em; color: var(--lk-ink); -webkit-appearance: none; appearance: none; border-radius: 0; }
+  .pl-search input::placeholder { color: var(--lk-ink); opacity: .45; }
+  .pl-k { margin-top: 28px; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .pl-body { margin-top: 6px; }
+  .pl-row { display: flex; align-items: center; gap: 12px; }
+  .pl-main { flex: 1; min-width: 0; display: block; text-align: left; background: none; border: 0; padding: 12px 0; font: inherit; letter-spacing: inherit; color: inherit; cursor: pointer; }
+  .pl-n { display: flex; align-items: center; gap: 6px; font-size: 20px; font-weight: 700; line-height: 1.25; }
+  .pl-n span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pl-n svg { width: 17px; height: 17px; flex: none; fill: currentColor; }
+  .pl-s { display: block; margin-top: 2px; font-size: 12px; font-weight: 500; opacity: .6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pl-act { flex: none; background: none; border: 0; padding: 12px 0 12px 12px; font: 700 11px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: inherit; cursor: pointer; }
+  .pl-msg { padding: 14px 0; font-size: 14px; font-weight: 500; opacity: .6; }
   .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
 </style>
 </head>
@@ -436,7 +452,7 @@
 <main class="app">
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
-    <div class="city" id="city" role="button" tabindex="0">Berlin</div>
+    <div class="city" id="city" role="button" tabindex="0"><span id="city-n">Berlin</span><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg></div>
     <div class="date" id="date">&nbsp;</div>
   </div>
 
@@ -484,6 +500,12 @@
   <div id="lk-body"></div>
 </section>
 
+<section class="look glass" id="places" role="dialog" aria-modal="true" aria-label="Location" style="--lk-bg:#FFFFFF;--lk-ink:#141414" hidden>
+  <button class="lk-grab" id="pl-grab" type="button" aria-label="Close"></button>
+  <label class="pl-search"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"/></svg><input id="pl-q" type="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></label>
+  <div class="pl-body" id="pl-body"></div>
+</section>
+
 <script src="look/outfits.js?v=b118"></script>
 <script>
 (function () {
@@ -497,7 +519,8 @@
 
   var T = {
     en: {
-      berlin: "Berlin", here: "Current location", useLoc: "Use my location", useBerlin: "Show Berlin",
+      berlin: "Berlin", here: "Current location", germany: "Germany", plOpen: "Change location", plFind: "Search city", plMine: "My places", plSave: "Save", plDel: "Remove",
+      plNone: "No city found", plOff: "Search needs a connection", plDenied: "Allow location access in Settings",
       feelsL: "Feels like", sub: "High {h}° · Low {l}° · Wind {w} km/h",
       noRain: "No rain in the next 12 hours", rainAt: "Rain likely around {t} · {p}%",
       tomorrow: "Tomorrow {t}: {v}° · {c}",
@@ -510,7 +533,8 @@
       updated: "Updated {t}", offline: "Offline · last update {t}", loading: "Loading…", failed: "Couldn't load the weather"
     },
     de: {
-      berlin: "Berlin", here: "Aktueller Standort", useLoc: "Meinen Standort verwenden", useBerlin: "Berlin anzeigen",
+      berlin: "Berlin", here: "Aktueller Standort", germany: "Deutschland", plOpen: "Ort ändern", plFind: "Stadt suchen", plMine: "Meine Orte", plSave: "Merken", plDel: "Entfernen",
+      plNone: "Keine Stadt gefunden", plOff: "Suche braucht eine Verbindung", plDenied: "Standortzugriff in den Einstellungen erlauben",
       feelsL: "Gefühlt", sub: "Max {h}° · Min {l}° · Wind {w} km/h",
       noRain: "Kein Regen in den nächsten 12 Std.", rainAt: "Regen gegen {t} · {p} %",
       tomorrow: "Morgen {t}: {v}° · {c}",
@@ -523,7 +547,8 @@
       updated: "Aktualisiert {t}", offline: "Offline · zuletzt {t}", loading: "Lädt…", failed: "Wetter konnte nicht geladen werden"
     },
     ko: {
-      berlin: "베를린", here: "현재 위치", useLoc: "내 위치 사용", useBerlin: "베를린 보기",
+      berlin: "베를린", here: "현재 위치", germany: "독일", plOpen: "위치 바꾸기", plFind: "도시 검색", plMine: "내 목록", plSave: "저장", plDel: "삭제",
+      plNone: "찾는 도시가 없어요", plOff: "검색하려면 인터넷 연결이 필요해요", plDenied: "설정에서 위치 접근을 허용해 주세요",
       feelsL: "체감온도", sub: "최고 {h}° · 최저 {l}° · 바람 {w}km/h",
       noRain: "12시간 동안 비 소식 없음", rainAt: "{t}쯤 비 · {p}%",
       tomorrow: "내일 {t} {v}° · {c}",
@@ -640,17 +665,17 @@
   var NV = {
     en: { home: "Home", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", tmr: "Tomorrow", week: "Next 7 days",
           noAlerts: "No weather warnings for this area right now.", outside: "Weather warnings come from the German Weather Service (DWD) and are only available in Germany.",
-          alertsK: "Weather warnings", until: "until", loc: "Location", locBerlin: "Berlin", locGps: "Current location", change: "Change",
+          alertsK: "Weather warnings", until: "until", loc: "Location", change: "Change",
           profile: "Today's Look profile", edit: "Edit", lang: "Language", langV: "English (device)", units: "Units", src: "Data", ver: "Version",
           sev: { minor: "Minor", moderate: "Moderate", severe: "Severe", extreme: "Extreme" } },
     de: { home: "Start", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
           noAlerts: "Für diese Gegend gibt es gerade keine Unwetterwarnung.", outside: "Unwetterwarnungen kommen vom Deutschen Wetterdienst (DWD) und gibt es nur für Deutschland.",
-          alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", locBerlin: "Berlin", locGps: "Aktueller Standort", change: "Ändern",
+          alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", change: "Ändern",
           profile: "Profil für Today's Look", edit: "Ändern", lang: "Sprache", langV: "Deutsch (Gerät)", units: "Einheiten", src: "Daten", ver: "Version",
           sev: { minor: "Wetterwarnung", moderate: "Markante Warnung", severe: "Unwetter", extreme: "Extremes Unwetter" } },
     ko: { home: "홈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
           noAlerts: "지금 이 지역에 기상 경보가 없어요.", outside: "기상 경보는 독일 기상청(DWD) 자료라 독일 안에서만 볼 수 있어요.",
-          alertsK: "기상 경보", until: "까지", loc: "위치", locBerlin: "베를린", locGps: "현재 위치", change: "바꾸기",
+          alertsK: "기상 경보", until: "까지", loc: "위치", change: "바꾸기",
           profile: "Today's Look 프로필", edit: "수정", lang: "언어", langV: "한국어 (기기 언어)", units: "단위", src: "데이터", ver: "버전",
           sev: { minor: "주의", moderate: "경고", severe: "위험", extreme: "매우 위험" } }
   }[LANG];
@@ -795,7 +820,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b122";
+  var BUILD = "b123";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1099,7 +1124,7 @@
       day: i, pick: pick || null, style: pick ? pick.o.style : null, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], w >= 30, isRain(c), isSnow(c)).replace('class="person-ic', 'class="play person-ic') + "</span>",
-      dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(D.time[i] + "T12:00:00Z")) + " · " + (place.gps ? T.here : T.berlin)
+      dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(D.time[i] + "T12:00:00Z")) + " · " + placeName(place)
     };
   }
   function dayContent(v, profile, pics, st, tabs, baby, L) {
@@ -1407,7 +1432,7 @@
     var bgHex = light ? OVERCAST_LIGHT[light] : THEME[theme];
     document.querySelector('meta[name="theme-color"]').setAttribute("content", bgHex);
 
-    $("city").textContent = place.gps ? T.here : T.berlin;
+    $("city-n").textContent = placeName(place);
     $("date").textContent = dateLine(nowLocal);
     $("art").innerHTML = artFor(state, cur.weather_code, isDay);
 
@@ -1497,7 +1522,7 @@
       data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code), code: cur.weather_code,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
-      dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + (place.gps ? T.here : T.berlin),
+      dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + placeName(place),
       updated: new Date(data._fetched).toTimeString().slice(0, 5)
     };
     paintPeek();
@@ -1537,15 +1562,18 @@
 
 
   // ── Place & data ──
-  var BERLIN = { lat: 52.52, lon: 13.405, gps: false };
+  // Berlin carries its geocoding id, so a search for Berlin shows it as saved (b123)
+  var BERLIN = { id: 2950159, lat: 52.52, lon: 13.405, gps: false };
   function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   function load(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
 
   var place = load("wx-place") || BERLIN;
-
+  if (!place.gps && !place.id) place = BERLIN; // before b123 the only fixed place was Berlin
+  function placeName(p) { return p.gps ? T.here : p.id === BERLIN.id ? T.berlin : p.name; }
+  function placeKey(p) { return (+p.lat).toFixed(3) + "," + (+p.lon).toFixed(3); }
 
   function updateLocButton() {
-    $("city").setAttribute("aria-label", place.gps ? T.useBerlin : T.useLoc);
+    $("city").setAttribute("aria-label", T.plOpen);
   }
 
   function url(p) {
@@ -1575,12 +1603,15 @@
       .catch(function () {});
   }
 
-  var busy = false, retryTimer = null, retries = 0;
+  // gen moves on when the place changes, so a reply for the old place is dropped
+  var busy = false, retryTimer = null, retries = 0, gen = 0;
+  // cached data of another place is never shown (data from before b123 has no _place: it is the current place)
+  function cachedHere() { var c = load("wx-data"); return c && (!c._place || c._place === placeKey(place)) ? c : null; }
   function refresh() {
     checkBuild();
     if (busy) return; busy = true;
     clearTimeout(retryTimer);
-    var cached = load("wx-data");
+    var g = gen, cached = cachedHere();
     if (cached && !document.getElementById("hours").innerHTML) render(cached, place, true);
     if (!cached) $("status").textContent = T.loading;
     // Forecast (Open-Meteo) and the latest station measurement (Bright Sky / DWD) in parallel;
@@ -1602,21 +1633,24 @@
       .then(function (data) { return obsReq.then(function (bs) { if (bs && bs.weather) data.obs = bs.weather; return data; }); })
       .then(function (data) { return metReq.then(function (met) { if (met && met.properties && met.properties.timeseries) data.met = { properties: { timeseries: met.properties.timeseries.slice(0, 4) } }; return data; }); })
       .then(function (data) {
+        if (g !== gen) return;
         if (!data.current) throw new Error("bad data");
         data._fetched = Date.now();
+        data._place = placeKey(place);
         store("wx-data", data);
         retries = 0;
         render(data, place, false);
       })
       .catch(function (err) {
+        if (g !== gen) return;
         // iOS often fails the first request right after the app comes back to the foreground,
         // so try again a few seconds later (up to 3 times) instead of waiting 15 minutes.
         document.documentElement.dataset.lastError = String(err && err.message || err);
-        var c = load("wx-data");
+        var c = cachedHere();
         if (c) render(c, place, true); else $("status").textContent = T.failed;
         if (retries < 3) { retries++; retryTimer = setTimeout(refresh, retries * 4000); }
       })
-      .then(function () { busy = false; });
+      .then(function () { if (g === gen) busy = false; });
   }
 
   // The whole head (art, temperature, condition, feels-like) opens Today's Look; the city name switches the place
@@ -1638,7 +1672,7 @@
   $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#city")) { e.preventDefault(); openLook(); } });
   $("peek").addEventListener("click", openLook);
   $("lk-grab").addEventListener("click", closeLook);
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeLook(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeLook(); closePlaces(); } });
   // Swipe the sheet down from its top to close it
   (function () {
     var sheet = $("look"), x0 = 0, y0 = null, dy = 0;
@@ -1735,7 +1769,7 @@
   var DROP_IC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 3C9.2 7.4 6 10.6 6 14.5a6 6 0 0 0 12 0C18 10.6 14.8 7.4 12 3z"/></svg>';
   function paintPages(data) {
     if (!data || !data.daily) return;
-    var D = data.daily, city = place.gps ? T.here : T.berlin;
+    var D = data.daily, city = placeName(place);
     // Calendar (b93): two Anton titles as tabs, "7 Days" and "This month" (the other one a tone lighter)
     // b106: the 7 days start tomorrow (today is the home screen); forecast_days=8 gives indices 1–7
     // b107: each day is a card: that day's product cut as the picture, small date over the day name, moving icon,
@@ -1827,13 +1861,13 @@
     var pr = load("wx-profile") || {}, prof = QKEYS.slice(0, 2).map(function (q, qi) { var k = q[2].indexOf(pr[q[0]]); return k < 0 ? null : LT.o[qi][k]; })
       .filter(Boolean).join(" · ") || "–";
     $("pg-set").innerHTML = '<div class="pg-k">' + esc(NV.set) + '</div><div class="pg-h">Settings</div><div class="pg-list">' +
-      '<button class="set" type="button" id="set-loc"><span><span class="pg-k">' + esc(NV.loc) + '</span><span class="set-v">' + esc(place.gps ? NV.locGps : NV.locBerlin) + '</span></span><span class="set-a">' + esc(NV.change) + "</span></button>" +
+      '<button class="set" type="button" id="set-loc"><span><span class="pg-k">' + esc(NV.loc) + '</span><span class="set-v">' + esc(placeName(place)) + '</span></span><span class="set-a">' + esc(NV.change) + "</span></button>" +
       '<button class="set" type="button" id="set-prof"><span><span class="pg-k">' + esc(NV.profile) + '</span><span class="set-v">' + esc(prof) + '</span></span><span class="set-a">' + esc(NV.edit) + "</span></button>" +
       '<div class="set"><span><span class="pg-k">' + esc(NV.lang) + '</span><span class="set-v">' + esc(NV.langV) + "</span></span></div>" +
       '<div class="set"><span><span class="pg-k">' + esc(NV.units) + '</span><span class="set-v">°C · km/h</span></span></div>' +
       '<div class="set"><span><span class="pg-k">' + esc(NV.src) + '</span><span class="set-v">Open-Meteo · DWD · MET Norway</span></span></div>' +
       '<div class="set"><span><span class="pg-k">' + esc(NV.ver) + '</span><span class="set-v">' + BUILD + "</span></span></div></div>";
-    $("set-loc").addEventListener("click", function () { switchPlace(); });
+    $("set-loc").addEventListener("click", openPlaces);
     $("set-prof").addEventListener("click", function () { openLook(); if (lookOpen) paintLook(true); });
   }
   function showTab(t) {
@@ -1865,18 +1899,117 @@
     }, { passive: true });
   })();
 
-  function switchPlace() {
-    if (place.gps) {
-      place = BERLIN; store("wx-place", place); updateLocButton(); paintSettings(); refresh(); return;
+  // ── Places (b123): tap the city → search a city (Open-Meteo geocoding), view it, keep it in My places ──
+  var PIN = '<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg>';
+  var plResults = null, plTimer = null, plSeq = 0, gpsNote = "";
+  function myPlaces() { return load("wx-places") || [BERLIN]; }
+  function savedAt(p) { var m = myPlaces(); for (var i = 0; i < m.length; i++) if (m[i].id === p.id) return i; return -1; }
+  function setPlace(p) {
+    place = p.gps ? { lat: p.lat, lon: p.lon, gps: true } : { id: p.id, name: p.name, sub: p.sub, lat: p.lat, lon: p.lon, gps: false };
+    store("wx-place", place);
+    $("city-n").textContent = placeName(place);
+    paintSettings();
+    gen++; busy = false; retries = 0; clearTimeout(retryTimer);
+    $("status").textContent = T.loading;
+    refresh();
+  }
+  function plRow(p, pick, act, actLabel, sub) {
+    var on = p.gps ? place.gps : !place.gps && p.id === place.id;
+    if (sub === undefined) sub = p.id === BERLIN.id && !p.sub ? T.germany : p.sub || "";
+    return '<div class="pl-row"><button class="pl-main" type="button" data-pick="' + pick + '"><span class="pl-n"><span>' + esc(placeName(p)) + "</span>" + (on ? PIN : "") + "</span>" +
+      (sub ? '<span class="pl-s">' + esc(sub) + "</span>" : "") + "</button>" +
+      (act ? '<button class="pl-act" type="button" data-act="' + act + '">' + esc(actLabel) + "</button>" : "") + "</div>";
+  }
+  function paintPlaces() {
+    var h;
+    if (plResults === "off") h = '<div class="pl-msg">' + esc(T.plOff) + "</div>";
+    else if (plResults) h = plResults.length ? plResults.map(function (p, i) { return plRow(p, "r" + i, savedAt(p) < 0 ? "s" + i : "", T.plSave); }).join("")
+      : '<div class="pl-msg">' + esc(T.plNone) + "</div>";
+    else {
+      // My places: current location first, then the place on screen if it isn't kept yet, then the kept ones
+      h = '<div class="pl-k">' + esc(T.plMine) + "</div>" + plRow({ gps: true }, "g", "", "", gpsNote);
+      if (!place.gps && savedAt(place) < 0) h += plRow(place, "c", "c", T.plSave);
+      h += myPlaces().map(function (p, i) { return plRow(p, "m" + i, "d" + i, T.plDel); }).join("");
     }
+    $("pl-body").innerHTML = h;
+  }
+  function searchPlaces() {
+    var q = $("pl-q").value.trim(), seq = ++plSeq;
+    clearTimeout(plTimer);
+    if (!q) { plResults = null; paintPlaces(); return; }
+    plTimer = setTimeout(function () {
+      fetch("https://geocoding-api.open-meteo.com/v1/search?count=8&format=json&language=" + LANG + "&name=" + encodeURIComponent(q))
+        .then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+        .then(function (d) {
+          if (seq !== plSeq) return;
+          plResults = (d.results || []).map(function (r) {
+            return { id: r.id, name: r.name, lat: +r.latitude.toFixed(4), lon: +r.longitude.toFixed(4),
+              sub: [r.admin1, r.country].filter(function (x, i, a) { return x && x !== r.name && a.indexOf(x) === i; }).join(" · ") };
+          });
+          paintPlaces();
+        }, function () { if (seq === plSeq) { plResults = "off"; paintPlaces(); } });
+    }, 250);
+  }
+  function useGps() {
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(function (pos) {
-      place = { lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true };
-      store("wx-place", place); updateLocButton(); paintSettings(); refresh();
-    }, function () {}, { maximumAge: 600000, timeout: 10000 });
+      gpsNote = "";
+      setPlace({ lat: +pos.coords.latitude.toFixed(3), lon: +pos.coords.longitude.toFixed(3), gps: true });
+      closePlaces();
+    }, function () { gpsNote = T.plDenied; paintPlaces(); }, { maximumAge: 600000, timeout: 10000 });
   }
-  $("city").addEventListener("click", switchPlace);
-  $("city").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); switchPlace(); } });
+  var placesOpen = false;
+  function openPlaces() {
+    var s = $("places");
+    $("pl-q").value = ""; plResults = null; paintPlaces();
+    s.hidden = false; void s.offsetWidth; s.classList.add("open");
+    document.body.style.overflow = "hidden";
+    document.body.classList.add("look-open");
+    placesOpen = true;
+    // inside the tap, so iOS brings up the keyboard
+    $("pl-q").focus({ preventScroll: true });
+  }
+  function closePlaces() {
+    if (!placesOpen) return;
+    placesOpen = false;
+    $("pl-q").blur();
+    $("places").classList.remove("open");
+    document.body.style.overflow = "";
+    document.body.classList.remove("look-open");
+  }
+  $("pl-q").placeholder = T.plFind;
+  $("pl-q").addEventListener("input", searchPlaces);
+  $("pl-q").addEventListener("keydown", function (e) { if (e.key === "Enter") $("pl-q").blur(); });
+  $("pl-grab").addEventListener("click", closePlaces);
+  $("pl-body").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    var k = b.getAttribute("data-act") || b.getAttribute("data-pick"), c = k.charAt(0), i = +k.slice(1), mine = myPlaces();
+    if (b.hasAttribute("data-act")) {
+      if (c === "s") mine.push(plResults[i]); else if (c === "c") mine.push(place); else if (c === "d") mine.splice(i, 1);
+      store("wx-places", mine); paintPlaces(); return;
+    }
+    if (c === "g") { useGps(); return; }
+    setPlace(c === "r" ? plResults[i] : c === "m" ? mine[i] : place);
+    closePlaces();
+  });
+  // Swipe the sheet down to close it (as Today's Look)
+  (function () {
+    var sheet = $("places"), y0 = null, dy = 0;
+    sheet.addEventListener("touchstart", function (e) { y0 = sheet.scrollTop <= 0 ? e.touches[0].clientY : null; dy = 0; }, { passive: true });
+    sheet.addEventListener("touchmove", function (e) {
+      if (y0 === null) return;
+      dy = e.touches[0].clientY - y0;
+      if (dy > 0) { sheet.classList.add("dragging"); sheet.style.transform = "translateY(" + dy + "px)"; }
+    }, { passive: true });
+    sheet.addEventListener("touchend", function () {
+      if (y0 === null) return;
+      sheet.classList.remove("dragging"); sheet.style.transform = "";
+      if (dy > 90) closePlaces();
+      y0 = null;
+    });
+  })();
+  $("city").addEventListener("click", openPlaces);
+  $("city").addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openPlaces(); } });
 
   updateLocButton();
   refresh();
