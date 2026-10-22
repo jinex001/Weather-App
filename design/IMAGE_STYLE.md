@@ -27,6 +27,53 @@
 - 단순히 서 있는 모델 포즈보다 몸의 기울기, 손과 발의 움직임, 행동을 따라가는 시선과 생생한 표정으로 유머를 만든다. 과장된 원근감 속에서도 착장과 주요 아이템을 알아볼 수 있어야 한다.
 - 승인 예시: 비 오는 베를린 낮, 기온 12°C / 체감 7°C, 남성 스트리트웨어. 지면 가까운 카메라 앞에서 물웅덩이를 넘어 내딛는 부츠를 크게 잡고, 반대쪽 팔로 균형을 잡으며 웃는 순간. 강한 직광 플래시 필수.
 
+### 다섯 컷의 촬영 변주 - Rain / Light / Chilly / Male / 35+ / Minimal (2026-10-21 승인)
+
+사용자가 기존 다섯 컷의 정면 전신 반복을 지적한 뒤, 아래 수정본 다섯 장을 모두 승인했다. 착장·인물·날씨는 유지하고 **카메라 위치, 촬영 방향, 동작, 거리, 크롭**을 함께 바꾼 사례다. 기본 제작 조건은 베를린 가을 낮, 가벼운 비, 기온 12°C / 체감 7°C다. 이 촬영 언어는 다른 날씨·성별·스타일에도 입력 조건에 맞춰 적용한다.
+
+| 컷 | 카메라·거리·크롭 | 행동·시선·표정 | 전경과 깊이 |
+| --- | --- | --- | --- |
+| [01 차콜](../look/berlin-complete/Rain/Light/Chilly/Male/35+/day/minimal/01/editorial.jpg) | 머리 위에서 거의 수직으로 내려다보는 탑뷰. 약 24mm 느낌. 거리의 수평선 대신 젖은 보도가 배경이 되는 사선 프레임 | 물웅덩이를 피하며 무릎·어깨를 틀고 웃는다. 손바닥을 카메라 쪽으로 든다 | 가까운 손바닥, 얼굴, 니트, 뒤로 멀어지는 다리의 거리 차이. 정면 전신 구도로 되돌리지 않는다 |
+| [02 베이지](../look/berlin-complete/Rain/Light/Chilly/Male/35+/day/minimal/02/editorial.jpg) | 지면 가까운 낮은 위치에서 위로 올려보는 근접 광각. 약 22mm 느낌. 상체와 굽힌 무릎을 프레임 밖으로 자르는 타이트한 크롭 | 몸을 숙여 우산 아래로 촬영자를 초대하듯 다가온다. 렌즈를 보며 유쾌하게 웃는다 | 우산 천이 상단을 넓게 차지하고 가까운 손·곡선 손잡이와 얼굴의 원근감이 겹친다. 큰 신발을 전경에 넣지 않는다 |
+| [03 코발트](../look/berlin-complete/Rain/Light/Chilly/Male/35+/day/minimal/03/editorial.jpg) | 출입구 쪽에서 비껴 찍는 허리 높이의 광각. 약 24mm, 약 15도 기울인 프레임. 머리부터 허벅지 정도까지 | 접은 우산을 몸 반대쪽으로 털며 몸을 살짝 뒤로 기울인다. 얼굴·눈은 우산과 손을 따라가고 자연스럽게 웃는다 | 접은 우산이 대각선으로 렌즈 가까이 지나간다. 적은 물방울과 동작을 플래시로 포착한다. 폭우나 큰 물보라를 만들지 않는다 |
+| [04 올리브](../look/berlin-complete/Rain/Light/Chilly/Male/35+/day/minimal/04/editorial.jpg) | 가까운 높은 사선 앵글. 약 24mm 느낌. 후드·얼굴·가슴과 손만 담는 클로즈업 | 안경을 닦다가 렌즈 옆으로 얼굴을 기울이며 미소 짓는다. 눈은 안경을 따라간다 | 렌즈 가까운 안경과 손을 크게, 그 뒤 얼굴·후드·니트가 겹치게 한다. 인체·안경 구조는 자연스럽게 유지한다 |
+| [05 블랙·오렌지](../look/berlin-complete/Rain/Light/Chilly/Male/35+/day/minimal/05/editorial.jpg) | 뒤쪽 옆에서 찍는 어깨 높이 광각. 약 24mm, 약 10도 기울임. 계단과 다리가 프레임 가장자리로 빠지는 동적인 크롭 | 계단에 발을 올리며 몸은 출입구를 향하고, 얼굴만 어깨 너머로 돌아본다. 움직인 머플러 끝을 잡으며 웃는다 | 머플러가 전경을 대각선으로 가로지르고 가방·코트 뒷면·우산이 다른 깊이에 놓인다. 정면 포즈로 바꾸지 않는다 |
+
+표의 mm·각도는 생성 시 지시한 **촬영 느낌과 구성 기준**이며 실제 카메라 EXIF 측정값이 아니다.
+
+#### 앞으로 적용할 촬영 원칙
+
+- 다섯 장을 만들기 전에 각 컷의 카메라 높이·방향, 피사체와 거리, 크롭, 행동, 시선, 가까운 소품을 각각 정한다. 소품이나 코트 색만 바꾼 같은 정면 전신 컷을 다섯 번 만들지 않는다.
+- 전신을 모든 에디토리얼의 의무로 두지 않는다. 상체, 허벅지 위, 얼굴·손 클로즈업, 뒷모습을 장면에 맞게 섞는다. 크롭된 신발이나 가방을 보여주기 위해 프레임을 억지로 넓히지 않는다. **제품 컷의 전체 형태 노출 규칙과 에디토리얼의 자유로운 크롭은 다르다.**
+- 유머는 과장된 분장보다 구체적인 행동에서 만든다. 비를 피하는 작은 균형 변화, 우산 아래 몸을 숙이기, 안경 닦기, 돌아보며 소품 잡기처럼 손·어깨·무릎·머리 방향을 함께 움직인다. 모든 모델에게 같은 활짝 웃는 표정을 요구하지 않는다.
+- 렌즈 가까운 손·우산 손잡이·안경·머플러 등으로 깊이를 만든다. 가까운 오브젝트는 일부 프레임 밖으로 나가도 되지만, 손가락·관절·소품 구조는 자연스러워야 한다. 과도한 어안과 큰 신발 구도의 반복은 피한다.
+- 직광 플래시, 실제 피부결, 원단 질감, 인물의 자연스러운 나이와 주어진 날씨는 유지한다. 가벼운 비를 폭풍·과도한 물보라로 바꾸지 않는다.
+- 기존 에디토리얼을 이 방식으로 수정할 때는 **인물·착장 고정 / 카메라·동작·크롭 변경**을 프롬프트에 명확히 분리한다. 단순히 원본 사진을 잘라 확대하는 대신 카메라를 다른 위치로 옮긴 장면으로 재구성한다.
+
+#### 재촬영 프롬프트에 추가할 블록
+
+~~~text
+Preserve the reference person's identity, apparent age, exact outfit,
+colors, materials, accessories, city, time and weather.
+Recompose the scene from a genuinely new camera position.
+Camera: {HEIGHT, DIRECTION, DISTANCE, WIDE-ANGLE FEEL, OPTIONAL TILT}.
+Crop: {EXPLICIT TOP AND BOTTOM CROP; ITEMS INTENTIONALLY OUTSIDE FRAME}.
+Action: {CONCRETE PLAYFUL EVERYDAY GESTURE WITH BODY MOVEMENT}.
+Gaze and expression: {WHAT THE HEAD AND EYES FOLLOW; NATURAL EXPRESSION}.
+Foreground: {ONE CLOSE HAND OR PROP THAT CREATES NEAR/FAR DEPTH}.
+Keep strong direct on-camera flash, tactile skin and fabric, and believable anatomy.
+Do not return to the original frontal full-body composition.
+Do not force cropped footwear or accessories back into frame.
+~~~
+
+#### 타이트한 컷의 제품 복원 기록
+
+- 최종 승인 컷을 보이는 부분의 우선 근거로 삼는다. 같은 착장의 이전 전신 컷이 있으면 크롭으로 사라진 하의·신발·가방의 보조 근거로 사용한다. 이전 전신 컷은 승인된 최종 에디토리얼 대신 앱에 등록하지 않는다.
+- 최종 컷에서 보이는 제품, 보조 컷에서만 확인되는 제품, 양쪽 모두에서 안 보이는 추정 제품을 구분한다. 예: `visible-item-reconstructed`, `partially-visible-reconstructed`, `supporting-view-reconstructed`, `not-visible-inferred`.
+- Markdown·products.json에 근거 구분을 기록한다. 보조 컷의 신발이나 가려진 양말을 최종 크롭에서 직접 확인한 것처럼 설명하지 않는다.
+- 제품 사진은 여전히 품목별 별도 파일, 전체 형태가 보이는 정돈된 구도와 아이보리 배경을 사용한다.
+- 제품 생성 프롬프트는 이번 파일의 품목 하나만 묘사한다. 코트 파일에 신발·양말·안경·우산의 배치 규칙까지 나열하면 다품목 보드가 생성될 수 있으므로, 신발별 구도 규칙 등은 해당 품목을 만들 때만 넣는다. 다품목 보드가 나오면 업로드하지 않고 품목 단독 프롬프트로 다시 만든다.
+
 ## 2. 시선과 순간 포착
 
 카메라를 보는 컷과 자연스럽게 다른 곳을 보는 컷을 섞는다. 모든 사람이 렌즈를 바라보지 않게 한다.
@@ -249,4 +296,5 @@ App export: 500 × 500 JPG, 50KB maximum.
 - 텍스트·로고·UI 없이 한 장의 에디토리얼 사진으로 완성됐는가?
 
 앱의 룩 데이터와 이미지 등록 방식은 [look-library.md](look-library.md)를 따른다. 이 문서는 촬영·스타일링과 프롬프트의 기준이며 앱 데이터 스키마를 변경하지 않는다.
+
 
