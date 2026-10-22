@@ -339,7 +339,9 @@
   .lk-grab { display: block; width: 100%; height: 28px; background: none; border: 0; position: relative; cursor: pointer; }
   .lk-grab::before { content: ""; position: absolute; left: 50%; top: 10px; width: 44px; height: 5px; margin-left: -22px; border-radius: 3px; background: var(--lk-ink); opacity: .45; }
   .lk-mast { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin-top: 8px; }
-  .lk-ic { margin-top: 22px; }
+  /* b120: badge and "Feels N° · band" side by side */
+  .lk-top { display: flex; align-items: center; gap: 14px; margin-top: 22px; }
+  .lk-top .lk-kicker { margin-top: 0; }
   /* same round badge as the main block, a little larger; offsets scale with the icon (2.5 / -.6 at 38px) */
   .lk-ic .feels-ic { width: 64px; height: 64px; }
   .lk-ic .feels-ic svg { width: 43px; height: 43px; left: 2.8px; top: -.7px; }
@@ -362,9 +364,10 @@
   /* looks with product cuts and an article (b95, overcast set): headline above the deck, then the intro and the product
      strip. b99: each card carries its own how-to-wear (product cut, number · category, big title, text); no background,
      nothing sticky, no separate detail section; the pull quote and tip follow the strip */
-  .lk-atitle { font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 18px; }
+  .lk-atitle { font-family: var(--display); font-size: 44px; line-height: .95; letter-spacing: 0; text-transform: uppercase; margin-top: 10px; }
   .lk-atitle:empty { display: none; }
-  .lk-atitle:not(:empty) + .lk-look-deck { margin-top: 14px; }
+  .lk-atitle:not(:empty) + .lk-rail { margin-top: 16px; }
+  .lk-meta .lk-dots { margin-top: 0; }
   .lk-intro { margin-top: 12px; font-size: 15px; font-weight: 500; line-height: 1.7; word-break: keep-all; }
   .lk-pieces { margin-top: 34px; }
   .lk-strip { display: flex; align-items: flex-start; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
@@ -398,7 +401,7 @@
   .lk-item-b .lk-opts { margin-top: 10px; }
   /* group switcher between the headline and the deck (b48): one pill track, the picked segment filled with ink */
   /* b119: the band headline (LAYER UP …) is gone from the sheet, the switcher follows the kicker */
-  .lk-kicker + .lk-seg { margin-top: 22px; }
+  .lk-top + .lk-seg { margin-top: 18px; }
   .lk-seg { display: flex; margin-top: 16px; padding: 4px; border-radius: 22px; background: rgba(20,20,20,.08); }
   .lk-seg button { flex: 1 1 auto; padding: 10px 6px; border: 0; border-radius: 18px; background: none; cursor: pointer;
     font: 700 11.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: var(--lk-ink); white-space: nowrap; }
@@ -788,7 +791,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b119";
+  var BUILD = "b120";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1144,15 +1147,16 @@
       var pool = lookPool(v, pics), key = pics.style + "-" + pics.g + (v.evening ? "-e" : ""), at = railAt[key] || 0;
       at = Math.min(at, pool.length - 1);
       lookNow = { pool: pool, extras: extras, key: key, at: at, v: v };
-      main = (pool.length > 1 ? '<div class="lk-dots" id="lk-dots" aria-hidden="true">' + pool.map(function (e, i) { return '<span class="' + (i === at ? "on" : "") + '"></span>'; }).join("") + "</div>" : "") +
-        '<div class="lk-meta"><span class="lk-fade" id="lk-fit">' + esc(fitTag(pool[at], at, v)) + "</span></div>" +
-        '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i, v); }).join("") + "</div>" +
+      // b120: fit tag left and dots right on one line, the look title under it, then the photos
+      main = '<div class="lk-meta"><span class="lk-fade" id="lk-fit">' + esc(fitTag(pool[at], at, v)) + "</span>" +
+        (pool.length > 1 ? '<div class="lk-dots" id="lk-dots" aria-hidden="true">' + pool.map(function (e, i) { return '<span class="' + (i === at ? "on" : "") + '"></span>'; }).join("") + "</div>" : "") + "</div>" +
         '<div class="lk-atitle lk-fade" id="lk-atitle">' + esc(pool[at].o.article ? pool[at].o.article.title : "") + "</div>" +
+        '<div class="lk-rail" id="lk-rail">' + pool.map(function (e, i) { return slideHtml(e, i, v); }).join("") + "</div>" +
         '<div class="lk-deck lk-look-deck lk-fade" id="lk-look-deck">' + esc(pool[at].o.deck[LANG]) + "</div>" +
         '<div id="lk-detail">' + detailHtml(pool[at].o, extras, st) + "</div>";
     }
 
-    return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div>" +
+    return '<div class="lk-top"><div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(band[2][LANG]) + "</div></div>" +
       '<div class="lk-seg" role="tablist">' + tabs.map(function (sty, i) {
         var on = sty === (baby ? "baby" : pics.style);
         return '<button type="button" role="tab" class="' + (on ? "on" : "") + '" data-style="' + sty + '" aria-selected="' + on + '">' + esc(LT.styles[i]) + "</button>";
@@ -1162,7 +1166,7 @@
   }
 
   function askContent(v) {
-    return '<div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(v.band[2][LANG]) + "</div>" +
+    return '<div class="lk-top"><div class="lk-ic">' + v.icon + '</div><div class="lk-kicker">' + LT.feels + " " + v.f + "° · " + esc(v.band[2][LANG]) + "</div></div>" +
       '<div class="lk-head">About<br>You</div><div class="lk-deck">' + esc(LT.ask) + "</div>" +
       QKEYS.map(function (q, qi) {
         return '<div class="lk-q"><div class="lk-cat">' + q[1] + '</div><div class="lk-ask">' + esc(LT.q[qi]) + '</div><div class="lk-opts">' +
