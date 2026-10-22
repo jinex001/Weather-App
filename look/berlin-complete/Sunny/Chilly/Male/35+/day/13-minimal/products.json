@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-13-minimal-m",
+  "appOutfitId": "bd15-13-minimal-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../13-minimal.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested product breakdown, repository updates and mapping of these existing five editorials; no new editorial generated."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "NAVY, SOFTENED",
+    "headlineKo": "부드럽게 풀어낸 네이비",
+    "headlineDe": "SANFTES MARINEBLAU",
+    "captionKo": "네이비 코트와 크림 터틀넥 사이에 그레이 머플러를 느슨하게 둘러요. 차콜 팬츠로 톤을 이어가고 실버 톤 체인을 커프 옆에 살짝 드러내요.",
+    "captionEn": "Drape a grey scarf between a navy coat and cream turtleneck. Continue the soft tones with charcoal trousers and a silver-tone chain beside the cuff.",
+    "captionDe": "Lege einen grauen Schal locker zwischen marineblauen Mantel und cremefarbenen Rollkragen. Anthrazitfarbene Hose und eine silberfarbene Kette am Bündchen führen die sanften Töne weiter.",
+    "introKo": "네이비 코트와 크림 터틀넥 사이에 그레이 머플러를 느슨하게 둘러요. 차콜 팬츠로 톤을 이어가고 실버 톤 체인을 커프 옆에 살짝 드러내요.",
+    "introEn": "Drape a grey scarf between a navy coat and cream turtleneck. Continue the soft tones with charcoal trousers and a silver-tone chain beside the cuff.",
+    "introDe": "Lege einen grauen Schal locker zwischen marineblauen Mantel und cremefarbenen Rollkragen. Anthrazitfarbene Hose und eine silberfarbene Kette am Bündchen führen die sanften Töne weiter."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd15-13-minimal-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "네이비 울 코트",
+        "en": "Navy wool coat",
+        "de": "Marineblauer Wollmantel"
+      },
+      "nameKo": "네이비 울 코트",
+      "nameEn": "Navy wool coat",
+      "nameDe": "Marineblauer Wollmantel",
+      "descriptionKo": "앞을 열어 이너의 색과 질감을 드러내요. 어깨와 소매는 자연스럽게 정돈해요.",
+      "descriptionEn": "Wear it open to show the inner colour and texture. Keep shoulders and sleeves relaxed.",
+      "descriptionDe": "Trage die Jacke offen, damit Farbe und Struktur der inneren Lage sichtbar bleiben. Schultern und Ärmel sitzen locker.",
+      "image": "products/01-outer.jpg",
+      "altKo": "네이비 울 코트 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "deep navy textured wool-look coat, simple notched collar, straight relaxed silhouette; hidden front fastening and lower hem conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd15-13-minimal-m.top",
+      "category": "top",
+      "name": {
+        "ko": "크림 터틀넥",
+        "en": "Cream turtleneck",
+        "de": "Cremefarbener Rollkragenpullover"
+      },
+      "nameKo": "크림 터틀넥",
+      "nameEn": "Cream turtleneck",
+      "nameDe": "Cremefarbener Rollkragenpullover",
+      "descriptionKo": "니트의 목선과 커프를 아우터 밖으로 조금 드러내요. 밑단은 팬츠 위에 정돈해요.",
+      "descriptionEn": "Show a little neckline and cuff beyond the outer layer. Keep the hem neat above the trousers.",
+      "descriptionDe": "Zeige etwas Ausschnitt und Bündchen unter der äußeren Lage. Ordne den Saum über der Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "크림 터틀넥 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "cream wool-look fine knit turtleneck sweater, folded ribbed high neck and rib cuffs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd15-13-minimal-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 울 팬츠",
+        "en": "Charcoal wool trousers",
+        "de": "Anthrazitfarbene Wollhose"
+      },
+      "nameKo": "차콜 울 팬츠",
+      "nameEn": "Charcoal wool trousers",
+      "nameDe": "Anthrazitfarbene Wollhose",
+      "descriptionKo": "바지통을 조이지 않고 자연스럽게 떨어뜨려요. 신발 윗부분이 드러나도록 밑단을 정돈해요.",
+      "descriptionEn": "Let the legs fall naturally and keep the hem clear enough to show the shoes.",
+      "descriptionDe": "Lasse die Hosenbeine locker fallen und ordne den Saum so, dass die Schuhe sichtbar bleiben.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 울 팬츠 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "charcoal grey lightly heathered wool-look tailored straight-leg trousers",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-accessory",
+      "appItemId": "bd15-13-minimal-m.accessory",
+      "category": "scarf",
+      "name": {
+        "ko": "그레이 프린지 머플러",
+        "en": "Grey fringed scarf",
+        "de": "Grauer Fransenschal"
+      },
+      "nameKo": "그레이 프린지 머플러",
+      "nameEn": "Grey fringed scarf",
+      "nameDe": "Grauer Fransenschal",
+      "descriptionKo": "목에 느슨하게 둘러 끝을 자연스럽게 내려요. 아우터 위에서 색과 질감을 보여줘요.",
+      "descriptionEn": "Drape loosely around the neck and let the ends fall naturally over the outer layer.",
+      "descriptionDe": "Lege den Schal locker um den Hals und lasse die Enden natürlich über der Jacke fallen.",
+      "image": "products/04-accessory.jpg",
+      "altKo": "그레이 프린지 머플러 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "single light grey soft wool-look scarf, medium width, short fringed ends, laid full length with gentle fold",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "appItemId": "bd15-13-minimal-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "블랙 레이스업 슈즈",
+        "en": "Black lace-up shoes",
+        "de": "Schwarze Schnürschuhe"
+      },
+      "nameKo": "블랙 레이스업 슈즈",
+      "nameEn": "Black lace-up shoes",
+      "nameDe": "Schwarze Schnürschuhe",
+      "descriptionKo": "팬츠 밑단을 정돈해 앞코와 제품의 간결한 형태를 드러내요.",
+      "descriptionEn": "Keep the trouser hem neat to reveal the toe and clean shape of the footwear.",
+      "descriptionDe": "Ordne den Hosensaum, damit Schuhspitze und klare Form sichtbar bleiben.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "블랙 레이스업 슈즈 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair black polished leather-look lace-up low shoes, simple rounded toe; only part of one shoe visible at lower edge, unseen structure conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-jewelry",
+      "appItemId": "bd15-13-minimal-m.jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "실버 톤 체인 브레이슬릿",
+        "en": "Silver-tone chain bracelet",
+        "de": "Silberfarbenes Kettenarmband"
+      },
+      "nameKo": "실버 톤 체인 브레이슬릿",
+      "nameEn": "Silver-tone chain bracelet",
+      "nameDe": "Silberfarbenes Kettenarmband",
+      "descriptionKo": "가는 체인 하나로 마무리해요. 니트와 소매의 선을 가리지 않게 정돈해요.",
+      "descriptionEn": "Finish with one fine chain, keeping the knit and cuff lines clear.",
+      "descriptionDe": "Ergänze eine feine Kette und halte Strick und Ärmelabschlüsse frei.",
+      "image": "products/06-jewelry.jpg",
+      "altKo": "실버 톤 체인 브레이슬릿 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "single slim silver-tone linked chain bracelet without charms",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Visible details follow the existing source editorial. Hidden backs, full sleeves, closures, waistbands and opposite footwear are conservative reconstructions.",
+    "Materials describe visible appearance; brand, fibre composition, price and purchase URL are unverified.",
+    "Actual and feels-like temperature values are unknown. Chilly is the existing folder and app classification.",
+    "Only a small part of one black lace-up shoe is visible at the lower right edge. Complete shoe shape is partially reconstructed; socks are not visible and are excluded."
+  ],
+  "excludedItems": [
+    "Food, cups, crockery, paper grocery bags and groceries are scene props, not outfit products."
+  ]
+}

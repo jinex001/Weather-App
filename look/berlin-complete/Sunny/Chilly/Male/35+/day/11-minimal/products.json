@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-11-minimal-m",
+  "appOutfitId": "bd15-11-minimal-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../11-minimal.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested product breakdown, repository updates and mapping of these existing five editorials; no new editorial generated."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "CREAM IN CHARCOAL",
+    "headlineKo": "차콜 사이의 크림",
+    "headlineDe": "CREME IN ANTHRAZIT",
+    "captionKo": "차콜 재킷 안에 크림 니트와 화이트 셔츠를 겹쳐요. 블랙 플리츠 팬츠와 페니 로퍼로 아래를 연결하고 가는 골드 체인으로 마무리해요.",
+    "captionEn": "Layer a cream knit and white shirt under charcoal tailoring. Connect black pleated trousers to penny loafers and finish with a fine gold-tone chain.",
+    "captionDe": "Trage cremefarbenen Strick und ein weißes Hemd unter dem anthrazitfarbenen Blazer. Schwarze Bundfaltenhose und Pennyloafer bilden eine Linie; eine feine goldfarbene Kette ergänzt den Look.",
+    "introKo": "차콜 재킷 안에 크림 니트와 화이트 셔츠를 겹쳐요. 블랙 플리츠 팬츠와 페니 로퍼로 아래를 연결하고 가는 골드 체인으로 마무리해요.",
+    "introEn": "Layer a cream knit and white shirt under charcoal tailoring. Connect black pleated trousers to penny loafers and finish with a fine gold-tone chain.",
+    "introDe": "Trage cremefarbenen Strick und ein weißes Hemd unter dem anthrazitfarbenen Blazer. Schwarze Bundfaltenhose und Pennyloafer bilden eine Linie; eine feine goldfarbene Kette ergänzt den Look."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd15-11-minimal-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "차콜 울 재킷",
+        "en": "Charcoal wool blazer",
+        "de": "Anthrazitfarbener Wollblazer"
+      },
+      "nameKo": "차콜 울 재킷",
+      "nameEn": "Charcoal wool blazer",
+      "nameDe": "Anthrazitfarbener Wollblazer",
+      "descriptionKo": "앞을 열어 이너의 색과 질감을 드러내요. 어깨와 소매는 자연스럽게 정돈해요.",
+      "descriptionEn": "Wear it open to show the inner colour and texture. Keep shoulders and sleeves relaxed.",
+      "descriptionDe": "Trage die Jacke offen, damit Farbe und Struktur der inneren Lage sichtbar bleiben. Schultern und Ärmel sitzen locker.",
+      "image": "products/01-outer.jpg",
+      "altKo": "차콜 울 재킷 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "charcoal textured wool-look hip-length tailored blazer, notch lapels, single breasted dark buttons, lower flap pockets",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd15-11-minimal-m.top",
+      "category": "top",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream crew-neck knit",
+        "de": "Cremefarbener Rundhalspullover"
+      },
+      "nameKo": "크림 크루넥 니트",
+      "nameEn": "Cream crew-neck knit",
+      "nameDe": "Cremefarbener Rundhalspullover",
+      "descriptionKo": "니트의 목선과 커프를 아우터 밖으로 조금 드러내요. 밑단은 팬츠 위에 정돈해요.",
+      "descriptionEn": "Show a little neckline and cuff beyond the outer layer. Keep the hem neat above the trousers.",
+      "descriptionDe": "Zeige etwas Ausschnitt und Bündchen unter der äußeren Lage. Ordne den Saum über der Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "크림 크루넥 니트 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "cream fine knit crew-neck sweater, ribbed neck cuffs and hem",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-under",
+      "appItemId": "bd15-11-minimal-m.under",
+      "category": "under",
+      "name": {
+        "ko": "화이트 셔츠",
+        "en": "White shirt",
+        "de": "Weißes Hemd"
+      },
+      "nameKo": "화이트 셔츠",
+      "nameEn": "White shirt",
+      "nameDe": "Weißes Hemd",
+      "descriptionKo": "니트 아래에 겹쳐 입고 칼라와 밑단만 조금 보여줘요.",
+      "descriptionEn": "Layer beneath the knit, revealing a little collar and hem.",
+      "descriptionDe": "Trage das Hemd unter dem Strick und zeige etwas Kragen und Saum.",
+      "image": "products/03-under.jpg",
+      "altKo": "화이트 셔츠 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "white cotton-look button shirt, small pointed collar visible above knit, white hem visible below knit",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-bottom",
+      "appItemId": "bd15-11-minimal-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "블랙 플리츠 팬츠",
+        "en": "Black pleated trousers",
+        "de": "Schwarze Bundfaltenhose"
+      },
+      "nameKo": "블랙 플리츠 팬츠",
+      "nameEn": "Black pleated trousers",
+      "nameDe": "Schwarze Bundfaltenhose",
+      "descriptionKo": "바지통을 조이지 않고 자연스럽게 떨어뜨려요. 신발 윗부분이 드러나도록 밑단을 정돈해요.",
+      "descriptionEn": "Let the legs fall naturally and keep the hem clear enough to show the shoes.",
+      "descriptionDe": "Lasse die Hosenbeine locker fallen und ordne den Saum so, dass die Schuhe sichtbar bleiben.",
+      "image": "products/04-bottom.jpg",
+      "altKo": "블랙 플리츠 팬츠 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "black matte tailored loose straight-leg pleated trousers, front crease",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "appItemId": "bd15-11-minimal-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "nameEn": "Black penny loafers",
+      "nameDe": "Schwarze Pennyloafer",
+      "descriptionKo": "팬츠 밑단을 정돈해 앞코와 제품의 간결한 형태를 드러내요.",
+      "descriptionEn": "Keep the trouser hem neat to reveal the toe and clean shape of the footwear.",
+      "descriptionDe": "Ordne den Hosensaum, damit Schuhspitze und klare Form sichtbar bleiben.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "블랙 페니 로퍼 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair polished black leather-look penny loafers, rounded apron toe, black low soles",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-jewelry",
+      "appItemId": "bd15-11-minimal-m.jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "골드 톤 체인 목걸이",
+        "en": "Gold-tone chain necklace",
+        "de": "Goldfarbene Halskette"
+      },
+      "nameKo": "골드 톤 체인 목걸이",
+      "nameEn": "Gold-tone chain necklace",
+      "nameDe": "Goldfarbene Halskette",
+      "descriptionKo": "펜던트 없는 가는 체인을 크림 니트 위에 짧게 걸쳐요.",
+      "descriptionEn": "Wear the fine chain without a pendant over the cream knit.",
+      "descriptionDe": "Trage die feine Kette ohne Anhänger über dem cremefarbenen Strick.",
+      "image": "products/06-jewelry.jpg",
+      "altKo": "골드 톤 체인 목걸이 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "single delicate gold-tone chain necklace without pendant, arranged oval",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Visible details follow the existing source editorial. Hidden backs, full sleeves, closures, waistbands and opposite footwear are conservative reconstructions.",
+    "Materials describe visible appearance; brand, fibre composition, price and purchase URL are unverified.",
+    "Actual and feels-like temperature values are unknown. Chilly is the existing folder and app classification."
+  ],
+  "excludedItems": [
+    "Food, cups, crockery, paper grocery bags and groceries are scene props, not outfit products."
+  ]
+}

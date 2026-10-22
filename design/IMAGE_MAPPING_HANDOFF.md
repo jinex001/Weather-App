@@ -126,3 +126,7 @@
 - [검증 결과](validation-sunny-chilly-male-day-street.md), [세트 현황](look-coverage.md).
 
 - b126 Street 제품 매핑: `look/sunny-male-day-street.js`를 기본 `look/outfits.js` 바로 다음, 앱 초기화 전에 동기 적용한다. 기본 룩 파일은 그대로 보존했다. 앱에서 적용된 전체 수는 135룩·798아이템·기사 95룩이다. 보충 파일은 이번 5룩·35제품만 갱신하므로 점검 시 두 파일을 함께 읽는다.
+
+## b127: Sunny male day Minimal product breakdown
+
+Existing editorials 11–15 preserved. 6 products per look, 30 in total. Existing 5 appOutfitIds and 21 item IDs retained; 9 observed items added. Three-language product copy and articles mapped with measured corner background colors. productionStatus=ready, mappingStatus=mapped. Unknown temperatures remain null. Existing Street supplement and other runtime outfits preserved. [Validation](sunny-male-day-minimal-validation.md).

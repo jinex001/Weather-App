@@ -2,17 +2,21 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-22, 빌드 b126)
+## 현재 상태 (2026-10-22, 빌드 b127)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
-- `look/outfits.js`: 룩 라이브러리(135룩 · 798아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`, JPG만. 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`.
+- `look/outfits.js`: 룩 라이브러리(135룩 · 807아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`, JPG만. 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`.
 - `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면, 40% 흐리게)을 가운데에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
 - 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
 - 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도. b21부터 앱이 새로고침할 때 배포된 페이지의 `BUILD`를 확인해서 다르면 스스로 다시 불러옴(그래서 `var BUILD = "bNN"` 형식을 바꾸지 말 것).
 - 디자인 값의 기준은 `design/tokens.json`(v5)과 `design/design-system.md`(2026-10-22 b122까지 정리). 바꾸면 이 두 파일도 같이 고칠 것. 룩 데이터는 `design/look-library.md`, 세트 현황·빈 칸 목록은 `design/look-coverage.md`(세트 매핑할 때마다 고칠 것), 사진 스타일은 `design/IMAGE_STYLE.md`. `design/look-chilly.md`·`look-cool.md`·`look-clear.md`는 b71 이전 기록(앱에서 안 씀).
 - 다음 작업은 사용자 요청에 따라 진행.
 - 커밋 이메일은 `jinex001@users.noreply.github.com` 사용 (공개 저장소라 개인 이메일 노출 금지).
+
+### 변경 기록 (2026-10-22, b127)
+
+- Sunny 남성 낮 미니멀 11–15: 각 6종 총 30개 제품 컷과 3개 언어 문구·기사 연결. 기존 5개 룩 ID와 21개 아이템 ID 유지, 추가 관찰 품목 9개 추가. 다른 130룩 최종 데이터 보존. 기본 파일 793아이템, Street 보충 매핑 적용 후 총 807아이템·기사 100룩. 검증: `design/sunny-male-day-minimal-validation.md`.
 
 ### 변경 기록 (2026-10-17)
 - 흐린 낮 상태 추가 → 웜그레이 → 쿨그레이 `#DCE1E5` → 2026-10-18 더 진한 `#A9B1B9`(b28). 밤은 날씨와 상관없이 전부 `#1B2140`.
@@ -216,6 +220,6 @@
 - Scriptable 위젯이 같은 디자인으로 표시되고, 누르면 웹앱 URL이 열림.
 - 사용자에게 설치 방법을 짧게 안내(한국어).
 
-- b126 (2026-10-22): Sunny/Chilly/Male/35+/day 스트리트 06–10의 Product Breakdown 35개(9/5/7/9/5)와 ko/en/de 제품 카드 기사 연결. 기존 에디토리얼 및 룩·아이템 ID 보존, 신규 아이템 14개 추가(전체 135룩·798아이템, 기사 95룩). BUILD와 outfits 캐시 갱신. coverage·매핑 가이드·검증 기록 업데이트.
+- b126 (2026-10-22): Sunny/Chilly/Male/35+/day 스트리트 06–10의 Product Breakdown 35개(9/5/7/9/5)와 ko/en/de 제품 카드 기사 연결. 기존 에디토리얼 및 룩·아이템 ID 보존, 신규 아이템 14개 추가(전체 135룩·807아이템, 기사 100룩). BUILD와 outfits 캐시 갱신. coverage·매핑 가이드·검증 기록 업데이트.
 
-- b126 Street 제품 매핑: `look/sunny-male-day-street.js`를 기본 `look/outfits.js` 바로 다음, 앱 초기화 전에 동기 적용한다. 기본 룩 파일은 그대로 보존했다. 앱에서 적용된 전체 수는 135룩·798아이템·기사 95룩이다. 보충 파일은 이번 5룩·35제품만 갱신하므로 점검 시 두 파일을 함께 읽는다.
+- b126 Street 제품 매핑: `look/sunny-male-day-street.js`를 기본 `look/outfits.js` 바로 다음, 앱 초기화 전에 동기 적용한다. 기본 룩 파일은 그대로 보존했다. 앱에서 적용된 전체 수는 135룩·807아이템·기사 100룩이다. 보충 파일은 이번 5룩·35제품만 갱신하므로 점검 시 두 파일을 함께 읽는다.

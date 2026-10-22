@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-12-minimal-m",
+  "appOutfitId": "bd15-12-minimal-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../12-minimal.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User explicitly requested product breakdown, repository updates and mapping of these existing five editorials; no new editorial generated."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "COBALT UNDER OATMEAL",
+    "headlineKo": "오트밀 아래의 코발트",
+    "headlineDe": "KOBALTBLAU UNTER HAFER",
+    "captionKo": "오트밀 코트 안에서 코발트 크루넥을 선명하게 보여줘요. 다크 브라운 팬츠와 리브 삭스, 두꺼운 솔의 더비로 아래를 차분하게 연결해요.",
+    "captionEn": "Let a cobalt crew neck stand out beneath an oatmeal coat. Ground the colour with dark brown trousers, rib socks and substantial derby soles.",
+    "captionDe": "Lasse den kobaltblauen Rundhalspullover unter dem haferfarbenen Mantel leuchten. Dunkelbraune Hose, Rippensocken und Derbys mit kräftiger Sohle erden die Farbe.",
+    "introKo": "오트밀 코트 안에서 코발트 크루넥을 선명하게 보여줘요. 다크 브라운 팬츠와 리브 삭스, 두꺼운 솔의 더비로 아래를 차분하게 연결해요.",
+    "introEn": "Let a cobalt crew neck stand out beneath an oatmeal coat. Ground the colour with dark brown trousers, rib socks and substantial derby soles.",
+    "introDe": "Lasse den kobaltblauen Rundhalspullover unter dem haferfarbenen Mantel leuchten. Dunkelbraune Hose, Rippensocken und Derbys mit kräftiger Sohle erden die Farbe."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bd15-12-minimal-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "오트밀 울 코트",
+        "en": "Oatmeal wool coat",
+        "de": "Haferfarbener Wollmantel"
+      },
+      "nameKo": "오트밀 울 코트",
+      "nameEn": "Oatmeal wool coat",
+      "nameDe": "Haferfarbener Wollmantel",
+      "descriptionKo": "앞을 열어 이너의 색과 질감을 드러내요. 어깨와 소매는 자연스럽게 정돈해요.",
+      "descriptionEn": "Wear it open to show the inner colour and texture. Keep shoulders and sleeves relaxed.",
+      "descriptionDe": "Trage die Jacke offen, damit Farbe und Struktur der inneren Lage sichtbar bleiben. Schultern und Ärmel sitzen locker.",
+      "image": "products/01-outer.jpg",
+      "altKo": "오트밀 울 코트 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "oatmeal taupe wool-look single-breasted overcoat, wide notch lapels, clean straight silhouette; hidden lower hem conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bd15-12-minimal-m.top",
+      "category": "top",
+      "name": {
+        "ko": "코발트 크루넥 니트",
+        "en": "Cobalt crew-neck knit",
+        "de": "Kobaltblauer Rundhalspullover"
+      },
+      "nameKo": "코발트 크루넥 니트",
+      "nameEn": "Cobalt crew-neck knit",
+      "nameDe": "Kobaltblauer Rundhalspullover",
+      "descriptionKo": "니트의 목선과 커프를 아우터 밖으로 조금 드러내요. 밑단은 팬츠 위에 정돈해요.",
+      "descriptionEn": "Show a little neckline and cuff beyond the outer layer. Keep the hem neat above the trousers.",
+      "descriptionDe": "Zeige etwas Ausschnitt und Bündchen unter der äußeren Lage. Ordne den Saum über der Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "코발트 크루넥 니트 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "vivid cobalt blue fine crew-neck knit sweater, ribbed neck cuffs and hem",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bd15-12-minimal-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "다크 브라운 슬랙스",
+        "en": "Dark brown trousers",
+        "de": "Dunkelbraune Stoffhose"
+      },
+      "nameKo": "다크 브라운 슬랙스",
+      "nameEn": "Dark brown trousers",
+      "nameDe": "Dunkelbraune Stoffhose",
+      "descriptionKo": "바지통을 조이지 않고 자연스럽게 떨어뜨려요. 신발 윗부분이 드러나도록 밑단을 정돈해요.",
+      "descriptionEn": "Let the legs fall naturally and keep the hem clear enough to show the shoes.",
+      "descriptionDe": "Lasse die Hosenbeine locker fallen und ordne den Saum so, dass die Schuhe sichtbar bleiben.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "다크 브라운 슬랙스 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "dark chocolate brown tailored straight-leg trousers, plain matte fabric",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-socks",
+      "appItemId": "bd15-12-minimal-m.socks",
+      "category": "socks",
+      "name": {
+        "ko": "브라운 리브 삭스",
+        "en": "Brown rib socks",
+        "de": "Braune Rippensocken"
+      },
+      "nameKo": "브라운 리브 삭스",
+      "nameEn": "Brown rib socks",
+      "nameDe": "Braune Rippensocken",
+      "descriptionKo": "팬츠와 신발 사이에 리브 조직을 짧게 보여줘요. 발목을 편안하게 덮어요.",
+      "descriptionEn": "Show a little ribbing between trousers and shoes, comfortably covering the ankle.",
+      "descriptionDe": "Zeige zwischen Hose und Schuhen etwas Rippstruktur und bedecke den Knöchel bequem.",
+      "image": "products/04-socks.jpg",
+      "altKo": "브라운 리브 삭스 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair dark brown ribbed crew socks, softly gathered ankle",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "appItemId": "bd15-12-minimal-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "브라운 더비 슈즈",
+        "en": "Brown derby shoes",
+        "de": "Braune Derby-Schuhe"
+      },
+      "nameKo": "브라운 더비 슈즈",
+      "nameEn": "Brown derby shoes",
+      "nameDe": "Braune Derby-Schuhe",
+      "descriptionKo": "팬츠 밑단을 정돈해 앞코와 제품의 간결한 형태를 드러내요.",
+      "descriptionEn": "Keep the trouser hem neat to reveal the toe and clean shape of the footwear.",
+      "descriptionDe": "Ordne den Hosensaum, damit Schuhspitze und klare Form sichtbar bleiben.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "브라운 더비 슈즈 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair dark brown polished leather-look derby lace-up shoes, open lacing plain rounded toes and thick dark lug soles",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-jewelry",
+      "appItemId": "bd15-12-minimal-m.jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "실버 톤 체인 브레이슬릿",
+        "en": "Silver-tone chain bracelet",
+        "de": "Silberfarbenes Kettenarmband"
+      },
+      "nameKo": "실버 톤 체인 브레이슬릿",
+      "nameEn": "Silver-tone chain bracelet",
+      "nameDe": "Silberfarbenes Kettenarmband",
+      "descriptionKo": "가는 체인 하나로 마무리해요. 니트와 소매의 선을 가리지 않게 정돈해요.",
+      "descriptionEn": "Finish with one fine chain, keeping the knit and cuff lines clear.",
+      "descriptionDe": "Ergänze eine feine Kette und halte Strick und Ärmelabschlüsse frei.",
+      "image": "products/06-jewelry.jpg",
+      "altKo": "실버 톤 체인 브레이슬릿 — 아이보리 배경의 단독 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "single delicate silver-tone chain bracelet, small linked chain, no charms",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Visible details follow the existing source editorial. Hidden backs, full sleeves, closures, waistbands and opposite footwear are conservative reconstructions.",
+    "Materials describe visible appearance; brand, fibre composition, price and purchase URL are unverified.",
+    "Actual and feels-like temperature values are unknown. Chilly is the existing folder and app classification."
+  ],
+  "excludedItems": [
+    "Food, cups, crockery, paper grocery bags and groceries are scene props, not outfit products."
+  ]
+}

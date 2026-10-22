@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-22 (앱 빌드 b126) · 135룩 · 798아이템 · 기사 룩 95. 칸별 현황·빈 칸 목록은 `look-coverage.md`. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
+마지막 정리: 2026-10-22 (앱 빌드 b127) · 135룩 · 807아이템 · 기사 룩 100. 칸별 현황·빈 칸 목록은 `look-coverage.md`. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
 
 ## Outfit
 
@@ -123,4 +123,8 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 
 기존 `Sunny/Chilly/Male/35+/day/06-street.jpg`–`10-street.jpg`를 변경하지 않고, 각 `NN-street/`에 동일한 에디토리얼 사본·독립 제품 컷·products.json·README·PROMPTS를 추가했다. 제품 수는 9/5/7/9/5(총 35). ko/en/de 이름·입는 법·캡션·인트로를 연결했다. 룩 ID 5개와 기존 아이템 ID 21개를 보존하고 14개 새 제품 ID를 추가했다. 복합 accessory ID는 기존 주품목인 머플러에 유지하고 09번 파우치는 별도 ID로 분리했다. 제품별 appItemId가 실제 앱 ID이며 products.json id를 임의로 덮어붙이지 않는다. 기사 룩의 아이템 표시 순서는 products 순서와 같다. 10번의 신발·양말은 화면 밖이라 추가하지 않았으며 하의 다리·밑단 복원은 기록했다. 실제 기온·체감 수치는 근거가 없어 null로 유지한다.
 
-- b126 Street 제품 매핑: `look/sunny-male-day-street.js`를 기본 `look/outfits.js` 바로 다음, 앱 초기화 전에 동기 적용한다. 기본 룩 파일은 그대로 보존했다. 앱에서 적용된 전체 수는 135룩·798아이템·기사 95룩이다. 보충 파일은 이번 5룩·35제품만 갱신하므로 점검 시 두 파일을 함께 읽는다.
+- b126 Street 제품 매핑: `look/sunny-male-day-street.js`를 기본 `look/outfits.js` 바로 다음, 앱 초기화 전에 동기 적용한다. 기본 룩 파일은 그대로 보존했다. 앱에서 적용된 전체 수는 135룩·807아이템·기사 95룩이다. 보충 파일은 이번 5룩·35제품만 갱신하므로 점검 시 두 파일을 함께 읽는다.
+
+### b127: Sunny male day Minimal 11–15
+
+30 individual product JPGs (6 per look), 500x500 and <=50,000 bytes. Existing outfit IDs and 21 item IDs preserved; 9 observed items added. Korean, English and German product names and styling copy mapped. Base outfits.js: 793 items, 95 articles. With the unchanged Street supplement: 807 items, 100 articles. Other 130 runtime outfits unchanged. [Validation](sunny-male-day-minimal-validation.md).
