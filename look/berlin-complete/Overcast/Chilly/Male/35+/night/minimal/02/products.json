@@ -16,8 +16,9 @@
       13
     ],
     "feelsLikeC": null,
-    "feelsLikeBand": null,
-    "sourceNote": "Editorial production used 2026-10-21 Berlin 18-20h forecast range 12-13C. Feels-like temperature was not available; do not infer a band from actual temperature."
+    "feelsLikeBand": "chilly",
+    "sourceNote": "Editorial production used 2026-10-21 Berlin 18-20h forecast range 12-13C. Feels-like temperature was not available; do not infer a band from actual temperature.",
+    "bandAssignedAtMapping": "chilly (user, 2026-10-22)"
   },
   "approval": {
     "editorial": "approved",
@@ -26,10 +27,7 @@
     "evidence": "사용자가 다섯 장 모두 마음에 든다고 승인하고 제품 브레이크다운 및 GitHub 업데이트를 요청함."
   },
   "productionStatus": "ready",
-  "mappingStatus": "pending",
-  "mappingReviewRequired": [
-    "feelsLikeBand"
-  ],
+  "mappingStatus": "mapped",
   "editorialImage": "editorial.jpg",
   "copy": {
     "eyebrow": "HOW TO WEAR",

@@ -9,6 +9,7 @@
 - 2026-10-21: Rain/Light/Chilly/Male/35+/day/running/01 세트가 승인되어 에디토리얼 1장·제품 5장·products.json과 제작 기록을 업로드했다.
 - 2026-10-21 (앱 b110): running 01–05를 앱에 매핑함(`sky: "rain"`, `rain: "light"`, ID = products.json id). 비 강도 ↔ WMO 코드 표는 look-library.md "고르는 순서"에 있음(사용자 확인 대기, 바꾸기 쉬움). 강도가 다른 비 룩·흐린 날 룩이 대체로 쓰이고, 비 룩은 비 안 오는 날엔 안 나옴. products.json mappingStatus = mapped. 나머지 준비 폴더의 존재를 이미지 제작 완료로 해석하지 않는다.
 - 2026-10-21 (앱 b115): street 01–05를 같은 방식으로 매핑함(`bl-light-chilly-m-35-day-street-NN`). minimal은 README만 있는 준비 폴더라 제외. 그날 날씨에 맞는 세트가 없는 스타일은 앱이 플레이스홀더(COMING SOON)를 보여줌(b114).
+- 2026-10-22 (앱 b116): Rain/Light 남성 minimal 01–05, 여성 minimal 01–05, Overcast 남성 저녁 minimal 01–05 매핑. 체감 단계가 비어 `Overcast/Unclassified/`로 올라온 저녁 세트는 사용자가 chilly로 정해 `Overcast/Chilly/Male/35+/night/minimal/`로 옮김(feelsLikeBand만 채움, ID 유지). 앞으로도 단계가 비어 있으면 매핑 때 사용자에게 묻는다.
 - 현재 앱은 clear/cloudy만 구분한다. Rain 폴더를 만드는 것만으로 비 전용 매핑이 구현된 것은 아니다.
 - 실제 기온과 체감온도를 분리한다. 착장 보온 구간은 체감온도를 우선한다.
 

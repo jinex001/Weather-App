@@ -20,7 +20,7 @@
     "evidence": "사용자가 구도와 동작을 수정한 다섯 컷을 모두 승인하고 제품 제작·브레이크다운·스타일 MD 업데이트·GitHub 업로드를 요청함."
   },
   "productionStatus": "ready",
-  "mappingStatus": "pending",
+  "mappingStatus": "mapped",
   "editorialImage": "editorial.jpg",
   "copy": {
     "eyebrow": "HOW TO WEAR",
