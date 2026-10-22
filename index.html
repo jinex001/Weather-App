@@ -785,7 +785,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b116";
+  var BUILD = "b117";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -973,7 +973,7 @@
     // ("coming soon") with the band's own text, instead of looks made for other weather
     if (!list.length || best > 0) return [{ o: bandOutfit(v, pics), fit: 0, soon: soonLabel(v, list.length) }];
     // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
-    // put until lookSeed changes: on app start and each time Today's Look opens from home)
+    // put until lookSeed changes: on app start and on each return to the app (b117: the home text shows the same pick))
     var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || ""));
     list.forEach(function (e) { e.r = rnd(); });
     list.sort(function (a, b) { return a.fit - b.fit || a.r - b.r; });
@@ -1241,18 +1241,23 @@
     }
   });
 
-  // Main screen: "Today's Look" + the band headline under the summary, tap to open Today's Look
+  // Main screen: "Today's Look" + headline, then the summary. b117 (user picked mockup C): both follow today's pick, the
+  // look the sheet opens on: its title as the headline, its caption + intro as the summary, then the rain lines.
+  // No look for today's weather yet (placeholder) or no article: the band headline and the look's or band's own line.
   function paintPeek() {
     var v = lastView, peek = $("peek"); if (!v) return;
+    var e = lookPool(v, lookPhotos(v, load("wx-profile") || {}))[0], o = e && !e.soon ? e.o : null, A = o && o.article;
     $("peek-k").textContent = "Today's Look";
-    $("peek-d").textContent = LOOK[v.band[1]].head.replace(/<br>/g, " ");
+    $("peek-d").textContent = A ? A.title : LOOK[v.band[1]].head.replace(/<br>/g, " ");
+    var text = o ? o.deck[LANG] + (A && A.intro ? " " + A.intro[LANG] : "") : LOOK[v.band[1]].deck[LANG];
+    $("summary-t").textContent = [text].concat(homeRain).join(" ");
+    $("summary").hidden = false;
     peek.hidden = false;
   }
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
     // from home, a fresh draw of three looks; a calendar day keeps the pick its row already shows
-    if (!sheetView && !lookOpen) lookSeed = String(Math.random());
     if (!lookOpen) railAt = {}; // the first slide on every open (a day's first slide is its card's look, b113)
     var v = sheetView || lastView; if (!v) return;
     var sheet = $("look");
@@ -1448,9 +1453,8 @@
       graph.hidden = true; line.hidden = true;
     }
 
-    $("summary-t").textContent = summaryText(cur, H, D, i0, hours, isDay, band);
+    homeRain = rainText(H, hours);
     $("summary").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], bgHex, 1.5));
-    $("summary").hidden = false;
 
     // bars scale to the wettest hour shown (at least 30%), so a 30% hour fills the 32px column
     var pTop = 30;
@@ -1493,16 +1497,11 @@
   }
 
   // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind, umbrella, outfit, cold tip
-  function summaryText(cur, H, D, i0, hours, isDay, band) {
-    var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; };
-    // Opens with the feels-like band: "Today: cool." — or "Right now: cool." when it moves into another band later today
-    var shifts = false;
-    if (H.apparent_temperature) {
-      for (var a = i0; a < H.time.length && H.time[a].slice(0, 10) === H.time[i0].slice(0, 10); a++) {
-        if (H.apparent_temperature[a] != null && bandOf(r(H.apparent_temperature[a]))[1] !== band[1]) { shifts = true; break; }
-      }
-    }
-    var out = [fmt(shifts ? T.sumNow : T.sumToday, { b: low1(band[2][LANG]) }), fmt(T.sumDay, { c: condLabel(D.weather_code[0], 1), h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)) })];
+  // b117: the home summary is the pick's editorial (paintPeek); from the weather only the rain (or snow) outlook stays:
+  // raining now and when it stops, or rain all day, or when it starts in the next 12 hours, plus the umbrella line
+  var homeRain = [];
+  function rainText(H, hours) {
+    var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; }, out = [];
     var wet = function (i) { return (H.precipitation_probability[i] || 0) >= 50; };
     var word = function (i) { return isSnow(H.weather_code[i]) ? T.wSnow : T.wRain; };
     if (hours.length && wet(hours[0])) {
@@ -1511,34 +1510,14 @@
       if (word(hours[0]) === T.wRain) out.push(T.sumUmbrella);
     } else {
       var hit = -1; for (var m = 1; m < hours.length; m++) { if (wet(hours[m])) { hit = hours[m]; break; } }
-      out.push(hit >= 0 ? fmt(T.sumRainAt, { w: word(hit), t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }) : T.sumDry);
-      if (hit >= 0 && word(hit) === T.wRain) out.push(T.sumUmbrella);
+      if (hit >= 0) {
+        out.push(fmt(T.sumRainAt, { w: word(hit), t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }));
+        if (word(hit) === T.wRain) out.push(T.sumUmbrella);
+      }
     }
-    // lowest temperature for the rest of today (daytime only; at night the line below already looks at tomorrow)
-    if (isDay) {
-      var low = -1, today = H.time[i0].slice(0, 10);
-      for (var j = i0 + 1; j < H.time.length && H.time[j].slice(0, 10) === today; j++) { if (low < 0 || H.temperature_2m[j] < H.temperature_2m[low]) low = j; }
-      if (low >= 0 && cur.temperature_2m - H.temperature_2m[low] >= 4) out.push(fmt(T.sumDrop, { v: r(H.temperature_2m[low]), t: hourText(H.time[low]) }));
-    }
-    if ((cur.wind_speed_10m || 0) >= 30) out.push(fmt(T.sumWind, { w: r(cur.wind_speed_10m) }));
-    // b111: October 21 Berlin editorial copy on the home summary; other dates retain the existing forecast.
-    var berlinToday = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
-    if (berlinToday === "2026-10-21" && band[1] === "cool") {
-      var editorial = {
-        en: "The Art of Light Layering. Brushed mohair over a second-skin thermal, with relaxed tailoring and a cropped jacket for an effortless autumn silhouette.",
-        ko: "가벼운 레이어링의 미학. 몸에 밀착되는 히트텍 이너 위에 모헤어 카디건을 겹치고, 여유로운 테일러드 팬츠와 크롭 재킷으로 가을 실루엣을 완성하세요.",
-        de: "Die Kunst des Layerings. Flauschiger Mohair-Strick über einem körpernahen Thermoshirt, dazu eine lässige Stoffhose und eine kurze Jacke."
-      };
-      return editorial[LANG] || editorial.en;
-    } else {
-      out.push(LOOK[band[1]].deck[LANG]);
-    }
-    // getting colder: a 10°+ day/night gap today, or tomorrow's high 4°+ below today's
-    var gap = D.temperature_2m_max[0] - D.temperature_2m_min[0];
-    var colder = D.temperature_2m_max.length > 1 && D.temperature_2m_max[0] - D.temperature_2m_max[1] >= 4;
-    if (gap >= 10 || colder) out.push(T.sumCold);
-    return out.join(" ");
+    return out;
   }
+
 
   // ── Place & data ──
   var BERLIN = { lat: 52.52, lon: 13.405, gps: false };
@@ -1887,7 +1866,7 @@
   setInterval(refresh, 15 * 60 * 1000);
   window.addEventListener("online", function () { retries = 0; refresh(); });
   window.addEventListener("pageshow", function (e) { if (e.persisted) refresh(); });
-  document.addEventListener("visibilitychange", function () { if (!document.hidden) { $("hours").scrollLeft = 0; refresh(); } });
+  document.addEventListener("visibilitychange", function () { if (!document.hidden) { $("hours").scrollLeft = 0; if (!lookOpen) { lookSeed = String(Math.random()); paintPeek(); } refresh(); } });
 })();
 </script>
 </body>
