@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-06-street-f",
+  "appOutfitId": "bd15-06-street-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../06-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User continued the female day product breakdown and GitHub handoff workflow with the street editorials."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "CAFÉ IN CITRON",
+    "headlineKo": "카페 인 시트론",
+    "headlineDe": "CAFÉ IN ZITRONGELB",
+    "captionKo": "차콜 사이로 시트론 한 겹.",
+    "captionEn": "A layer of citron between charcoal and white.",
+    "captionDe": "Eine Lage Zitrongelb zwischen Anthrazit und Weiß.",
+    "introKo": "차콜 보머 아래 시트론 케이블 니트를 겹치고 화이트 셔츠의 칼라와 커프를 조금 드러내요. 토프 와이드 팬츠와 크림 스니커즈로 부드럽게 이어가고, 작은 골드 톤 주얼리로 마무리해요.",
+    "introEn": "Layer citron cable knit beneath a charcoal bomber, revealing a little white shirt at collar and cuffs. Taupe wide-leg trousers and cream sneakers keep the palette soft; small gold-tone jewellery finishes it.",
+    "introDe": "Trage zitrongelben Zopfstrick unter einer anthrazitfarbenen Bomberjacke und lasse weißen Hemdkragen und Manschetten hervorschauen. Eine taupefarbene weite Hose, cremefarbene Sneaker und kleine goldfarbene Schmuckstücke runden den Look ab."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "차콜 보머 재킷",
+      "nameEn": "Charcoal Bomber Jacket",
+      "nameDe": "Anthrazitfarbene Bomberjacke",
+      "name": {
+        "ko": "차콜 보머 재킷",
+        "en": "Charcoal Bomber Jacket",
+        "de": "Anthrazitfarbene Bomberjacke"
+      },
+      "descriptionKo": "앞을 열어 안쪽 레이어가 보이게 입어요. 소매와 밑단의 볼륨을 자연스럽게 남겨주세요.",
+      "descriptionEn": "Wear it open to reveal the inner layers, keeping the natural volume of sleeves and hem.",
+      "descriptionDe": "Trage die Jacke offen, damit die inneren Lagen sichtbar bleiben, und lasse Ärmeln und Saum ihr natürliches Volumen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "차콜 보머 재킷 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "washed charcoal bomber jacket, soft matte lightly crinkled fabric, dark ribbed collar cuffs hem, bronze front zip, relaxed rounded sleeves",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "시트론 케이블 니트",
+      "nameEn": "Citron Cable Knit",
+      "nameDe": "Zitrongelber Zopfstrickpullover",
+      "name": {
+        "ko": "시트론 케이블 니트",
+        "en": "Citron Cable Knit",
+        "de": "Zitrongelber Zopfstrickpullover"
+      },
+      "descriptionKo": "아우터 안에서 니트의 표면을 보여줘요. 밑단을 정돈해 와이드 하의의 여유를 살려요.",
+      "descriptionEn": "Show the knit texture beneath the jacket and keep the hem neat above the wide trousers.",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und ordne den Saum über der weiten Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "시트론 케이블 니트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "citron yellow-green fuzzy cable-knit crewneck sweater, clearly braided vertical cables and fluffy surface, ribbed cuffs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-under",
+      "category": "under",
+      "nameKo": "화이트 레이어 셔츠",
+      "nameEn": "White Layering Shirt",
+      "nameDe": "Weißes Hemd",
+      "name": {
+        "ko": "화이트 레이어 셔츠",
+        "en": "White Layering Shirt",
+        "de": "Weißes Hemd"
+      },
+      "descriptionKo": "니트 아래에 겹쳐 입고 칼라와 커프만 조금 드러내요. 몸판은 겉으로 부풀지 않게 정리해요.",
+      "descriptionEn": "Layer beneath the knit, showing a little collar and cuff while keeping the body smooth.",
+      "descriptionDe": "Trage das Hemd unter dem Strick und zeige etwas Kragen und Manschetten, während der Rumpf glatt bleibt.",
+      "image": "products/03-under.jpg",
+      "altKo": "화이트 레이어 셔츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "white long sleeve collared button shirt visible at neck, cuffs and hem under citron knit; hidden torso/back conservative plain reconstruction",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "nameKo": "토프 와이드 팬츠",
+      "nameEn": "Taupe Wide-Leg Trousers",
+      "nameDe": "Taupefarbene weite Hose",
+      "name": {
+        "ko": "토프 와이드 팬츠",
+        "en": "Taupe Wide-Leg Trousers",
+        "de": "Taupefarbene weite Hose"
+      },
+      "descriptionKo": "넉넉한 통을 접거나 조이지 않고 자연스럽게 떨어뜨려요. 상의 밑단을 정돈해 하의의 실루엣을 드러내요.",
+      "descriptionEn": "Let the generous legs fall naturally and keep the top hem neat so the trouser shape stays visible.",
+      "descriptionDe": "Lasse die weiten Beine natürlich fallen und ordne das Oberteil, damit die Form der Hose sichtbar bleibt.",
+      "image": "products/04-bottom.jpg",
+      "altKo": "토프 와이드 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "warm taupe grey-brown wide-leg tailored trousers, fluid straight wide legs, soft center crease, concealed waist conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "category": "socks",
+      "nameKo": "아이보리 리브 삭스",
+      "nameEn": "Ivory Rib Socks",
+      "nameDe": "Elfenbeinfarbene Rippensocken",
+      "name": {
+        "ko": "아이보리 리브 삭스",
+        "en": "Ivory Rib Socks",
+        "de": "Elfenbeinfarbene Rippensocken"
+      },
+      "descriptionKo": "팬츠와 신발 사이에 리브 조직을 짧게 드러내요. 발목에 과하게 뭉치지 않게 정리해요.",
+      "descriptionEn": "Show a short section of ribbing between trousers and shoes without excessive bunching.",
+      "descriptionDe": "Zeige zwischen Hose und Schuhen etwas Rippstruktur, ohne die Socken stark zu stauchen.",
+      "image": "products/05-socks.jpg",
+      "altKo": "아이보리 리브 삭스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair ivory ribbed crew socks from the visible raised ankle, hidden foot sections simply reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "category": "shoes",
+      "nameKo": "크림 로우탑 스니커즈",
+      "nameEn": "Cream Low-Top Sneakers",
+      "nameDe": "Cremefarbene Low-Top-Sneaker",
+      "name": {
+        "ko": "크림 로우탑 스니커즈",
+        "en": "Cream Low-Top Sneakers",
+        "de": "Cremefarbene Low-Top-Sneaker"
+      },
+      "descriptionKo": "와이드 하의 아래 앞코와 솔이 드러나게 밑단 길이를 정돈해요.",
+      "descriptionEn": "Set the trouser length so the toe and sole remain visible beneath the wide leg.",
+      "descriptionDe": "Wähle die Hosenlänge so, dass Spitze und Sohle unter dem weiten Bein sichtbar bleiben.",
+      "image": "products/06-shoes.jpg",
+      "altKo": "크림 로우탑 스니커즈 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair plain cream offwhite smooth leather-look low-top lace-up sneakers, offwhite flat cupsoles, minimal tonal stitching, reference visible raised shoe mirrored conservatively",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 톤 코인 네크리스",
+      "nameEn": "Gold-Tone Coin Necklace",
+      "nameDe": "Goldfarbene Münzkette",
+      "name": {
+        "ko": "골드 톤 코인 네크리스",
+        "en": "Gold-Tone Coin Necklace",
+        "de": "Goldfarbene Münzkette"
+      },
+      "descriptionKo": "니트 위로 작은 펜던트만 드러내요. 가는 체인으로 목선의 레이어를 가볍게 이어줘요.",
+      "descriptionEn": "Let the small pendant sit over the knit, keeping the neckline light with a fine chain.",
+      "descriptionDe": "Lasse den kleinen Anhänger über dem Strick liegen und halte den Ausschnitt mit einer feinen Kette leicht.",
+      "image": "products/07-jewelry.jpg",
+      "altKo": "골드 톤 코인 네크리스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE delicate gold-tone chain necklace with small round flat coin pendant visible on citron sweater, chain fully arranged simple oval; no extra jewelry",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "08-earrings",
+      "category": "jewelry",
+      "nameKo": "미니 골드 후프",
+      "nameEn": "Mini Gold Hoops",
+      "nameDe": "Kleine goldfarbene Creolen",
+      "name": {
+        "ko": "미니 골드 후프",
+        "en": "Mini Gold Hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "descriptionKo": "작은 후프로 얼굴 가까이에 은은한 포인트를 더해요. 목걸이와 비슷한 금속 톤으로 정리해요.",
+      "descriptionEn": "Add a subtle accent near the face with small earrings, keeping the metal tone coordinated.",
+      "descriptionDe": "Setze mit kleinen Ohrringen einen dezenten Akzent am Gesicht und stimme den Metallton ab.",
+      "image": "products/08-earrings.jpg",
+      "altKo": "미니 골드 후프 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair small gold-tone rounded hoop earrings based on visible ear, no necklace or additional jewelry",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 8,
+  "reconstructionNotes": [
+    "Hidden backs, waistbands, linings, shirt/sweater bodies and opposite shoes are conservatively reconstructed.",
+    "Small jewelry forms and hidden clasps/posts are interpreted from visible details; actual metal is unknown.",
+    "Material names describe visual appearance, not verified composition. Exact temperature and feels-like values are unknown."
+  ],
+  "excludedItems": [
+    "Food, drinks, crockery, shopping paper bags and keys are scene props, not outfit products."
+  ]
+}

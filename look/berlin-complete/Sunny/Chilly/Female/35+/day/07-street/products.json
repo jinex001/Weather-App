@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-07-street-f",
+  "appOutfitId": "bd15-07-street-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../07-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User continued the female day product breakdown and GitHub handoff workflow with the street editorials."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "BROWN, WITH A PATTERN",
+    "headlineKo": "브라운 위드 어 패턴",
+    "headlineDe": "BRAUN MIT MUSTER",
+    "captionKo": "브라운의 농도는 다르게, 패턴은 크게.",
+    "captionEn": "Different shades of brown. One bold pattern.",
+    "captionDe": "Verschiedene Brauntöne. Ein großes Muster.",
+    "introKo": "스웨이드의 매트한 표면과 그래픽 팬츠의 큰 패턴을 한 색 계열로 묶어요. 크림 니트를 사이에 두고 화이트 스니커즈로 발끝을 밝히면, 브라운 숄더백까지 자연스럽게 이어져요.",
+    "introEn": "Bring matte suede and a large trouser pattern together through shades of brown. A cream knit and white sneakers lighten the composition, while a chocolate shoulder bag keeps it connected.",
+    "introDe": "Verbinde matte Wildlederoptik und ein großes Hosenmuster durch verschiedene Brauntöne. Cremefarbener Strick und weiße Sneaker hellen den Look auf; eine schokoladenbraune Schultertasche führt die Palette fort."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "브라운 스웨이드 재킷",
+      "nameEn": "Brown Suede Jacket",
+      "nameDe": "Braune Wildlederjacke",
+      "name": {
+        "ko": "브라운 스웨이드 재킷",
+        "en": "Brown Suede Jacket",
+        "de": "Braune Wildlederjacke"
+      },
+      "descriptionKo": "앞을 열어 안쪽 레이어가 보이게 입어요. 소매와 밑단의 볼륨을 자연스럽게 남겨주세요.",
+      "descriptionEn": "Wear it open to reveal the inner layers, keeping the natural volume of sleeves and hem.",
+      "descriptionDe": "Trage die Jacke offen, damit die inneren Lagen sichtbar bleiben, und lasse Ärmeln und Saum ihr natürliches Volumen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "브라운 스웨이드 재킷 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "warm brown suede-look zip-front collared short jacket, relaxed cut, spread collar, subtle horizontal chest panel seams, front pockets, matte tactile nap",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "크림 크루넥 니트",
+      "nameEn": "Cream Crew-Neck Knit",
+      "nameDe": "Cremefarbener Rundhalspullover",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream Crew-Neck Knit",
+        "de": "Cremefarbener Rundhalspullover"
+      },
+      "descriptionKo": "아우터 안에서 니트의 표면을 보여줘요. 밑단을 정돈해 와이드 하의의 여유를 살려요.",
+      "descriptionEn": "Show the knit texture beneath the jacket and keep the hem neat above the wide trousers.",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und ordne den Saum über der weiten Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "크림 크루넥 니트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "plain cream fine-knit crewneck long sleeve sweater, ribbed neck cuffs hem, relaxed fit, hidden portions conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "브라운 그래픽 와이드 팬츠",
+      "nameEn": "Brown Graphic Wide-Leg Trousers",
+      "nameDe": "Braune weite Hose mit Grafikmuster",
+      "name": {
+        "ko": "브라운 그래픽 와이드 팬츠",
+        "en": "Brown Graphic Wide-Leg Trousers",
+        "de": "Braune weite Hose mit Grafikmuster"
+      },
+      "descriptionKo": "큰 그래픽 패턴을 브라운 재킷과 같은 계열로 연결해요. 크림 니트는 단색으로 두어 패턴이 잘 보이게 해요.",
+      "descriptionEn": "Link the large graphic pattern to the brown jacket and keep the cream knit plain so the print stands out.",
+      "descriptionDe": "Verbinde das große Grafikmuster mit der braunen Jacke und halte den cremefarbenen Pullover schlicht, damit das Muster wirkt.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "브라운 그래픽 와이드 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "wide-leg brown trousers with large dark chocolate abstract botanical/geometric leaf-like sweeping shapes over tan-brown ground, match reference exact large-scale print mood and colors; full pair",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "nameKo": "화이트 코트 스니커즈",
+      "nameEn": "White Court Sneakers",
+      "nameDe": "Weiße Court-Sneaker",
+      "name": {
+        "ko": "화이트 코트 스니커즈",
+        "en": "White Court Sneakers",
+        "de": "Weiße Court-Sneaker"
+      },
+      "descriptionKo": "와이드 하의 아래 앞코와 솔이 드러나게 밑단 길이를 정돈해요.",
+      "descriptionEn": "Set the trouser length so the toe and sole remain visible beneath the wide leg.",
+      "descriptionDe": "Wähle die Hosenlänge so, dass Spitze und Sohle unter dem weiten Bein sichtbar bleiben.",
+      "image": "products/04-shoes.jpg",
+      "altKo": "화이트 코트 스니커즈 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair white low-top leather-look court sneakers, white flat soles, tonal side panels and white laces, minimalist unbranded",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "초콜릿 숄더백",
+      "nameEn": "Chocolate Shoulder Bag",
+      "nameDe": "Schokoladenbraune Schultertasche",
+      "name": {
+        "ko": "초콜릿 숄더백",
+        "en": "Chocolate Shoulder Bag",
+        "de": "Schokoladenbraune Schultertasche"
+      },
+      "descriptionKo": "몸 가까이 걸쳐 실루엣을 간결하게 정리해요. 스트랩은 겉옷 위에서 자연스럽게 이어줘요.",
+      "descriptionEn": "Carry close to the body for a clean silhouette, letting the strap sit naturally over the outer layer.",
+      "descriptionDe": "Trage die Tasche nah am Körper und lasse den Riemen natürlich über der äußeren Lage liegen.",
+      "image": "products/05-bag.jpg",
+      "altKo": "초콜릿 숄더백 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE dark chocolate brown smooth leather-look medium shoulder bag with single long shoulder strap, soft rounded body resting under arm/hip in reference, hidden back conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 톤 펜던트 네크리스",
+      "nameEn": "Gold-Tone Pendant Necklace",
+      "nameDe": "Goldfarbene Halskette mit Anhänger",
+      "name": {
+        "ko": "골드 톤 펜던트 네크리스",
+        "en": "Gold-Tone Pendant Necklace",
+        "de": "Goldfarbene Halskette mit Anhänger"
+      },
+      "descriptionKo": "니트 위로 작은 펜던트만 드러내요. 가는 체인으로 목선의 레이어를 가볍게 이어줘요.",
+      "descriptionEn": "Let the small pendant sit over the knit, keeping the neckline light with a fine chain.",
+      "descriptionDe": "Lasse den kleinen Anhänger über dem Strick liegen und halte den Ausschnitt mit einer feinen Kette leicht.",
+      "image": "products/06-jewelry.jpg",
+      "altKo": "골드 톤 펜던트 네크리스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE delicate gold-tone fine chain with very small rounded coin pendant as visible over cream knit, only necklace",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-earrings",
+      "category": "jewelry",
+      "nameKo": "미니 골드 이어링",
+      "nameEn": "Mini Gold Earrings",
+      "nameDe": "Kleine goldfarbene Ohrringe",
+      "name": {
+        "ko": "미니 골드 이어링",
+        "en": "Mini Gold Earrings",
+        "de": "Kleine goldfarbene Ohrringe"
+      },
+      "descriptionKo": "작은 후프로 얼굴 가까이에 은은한 포인트를 더해요. 목걸이와 비슷한 금속 톤으로 정리해요.",
+      "descriptionEn": "Add a subtle accent near the face with small earrings, keeping the metal tone coordinated.",
+      "descriptionDe": "Setze mit kleinen Ohrringen einen dezenten Akzent am Gesicht und stimme den Metallton ab.",
+      "image": "products/07-earrings.jpg",
+      "altKo": "미니 골드 이어링 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair tiny simple gold-tone huggie/stud-like earrings based on small visible ear detail, minimal rounded form, concealed construction conservative, no extra jewelry",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Hidden backs, waistbands, linings, shirt/sweater bodies and opposite shoes are conservatively reconstructed.",
+    "Small jewelry forms and hidden clasps/posts are interpreted from visible details; actual metal is unknown.",
+    "Material names describe visual appearance, not verified composition. Exact temperature and feels-like values are unknown."
+  ],
+  "excludedItems": [
+    "Food, drinks, crockery, shopping paper bags and keys are scene props, not outfit products.",
+    "Socks not clearly visible; not generated."
+  ]
+}

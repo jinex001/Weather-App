@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-10-street-f",
+  "appOutfitId": "bd15-10-street-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../10-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User continued the female day product breakdown and GitHub handoff workflow with the street editorials."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "SOFT TEXTURE, CITY BREAK",
+    "headlineKo": "소프트 텍스처 시티 브레이크",
+    "headlineDe": "WEICHE TEXTUREN, KURZE PAUSE",
+    "captionKo": "퀼팅, 니트, 코듀로이. 부드러운 표면을 겹쳐요.",
+    "captionEn": "Quilting, knit and corduroy. Softness in layers.",
+    "captionDe": "Steppung, Strick und Cord. Weiche Texturen in Schichten.",
+    "introKo": "샌드 퀼팅 재킷 안에 차콜 니트를 넣고, 밝은 그레이 머플러를 목에서 길게 이어줘요. 브라운 코듀로이의 굵은 골과 내추럴 캔버스 백으로 소재의 차이를 살리고, 작은 골드 톤 액세서리로 정리해요.",
+    "introEn": "Wear charcoal knit beneath a sand quilted jacket and let a light grey scarf fall long from the neck. Wide-wale brown corduroy and a natural canvas bag add texture, with small gold-tone accessories to finish.",
+    "introDe": "Trage anthrazitfarbenen Strick unter einer sandfarbenen Steppjacke und lasse einen hellgrauen Schal lang fallen. Grober brauner Cord und eine naturfarbene Canvas-Tasche ergänzen Textur; kleine goldfarbene Accessoires runden den Look ab."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "샌드 퀼팅 재킷",
+      "nameEn": "Sand Quilted Jacket",
+      "nameDe": "Sandfarbene Steppjacke",
+      "name": {
+        "ko": "샌드 퀼팅 재킷",
+        "en": "Sand Quilted Jacket",
+        "de": "Sandfarbene Steppjacke"
+      },
+      "descriptionKo": "앞을 열어 안쪽 레이어가 보이게 입어요. 소매와 밑단의 볼륨을 자연스럽게 남겨주세요.",
+      "descriptionEn": "Wear it open to reveal the inner layers, keeping the natural volume of sleeves and hem.",
+      "descriptionDe": "Trage die Jacke offen, damit die inneren Lagen sichtbar bleiben, und lasse Ärmeln und Saum ihr natürliches Volumen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "샌드 퀼팅 재킷 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "sand beige quilted short jacket with curved onion/wavy stitching, collarless bound neckline, rounded bound front hem, plain tonal snap/button front, loose rounded sleeves",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 헤더 니트",
+      "nameEn": "Charcoal Heather Knit",
+      "nameDe": "Anthrazitfarbener melierter Pullover",
+      "name": {
+        "ko": "차콜 헤더 니트",
+        "en": "Charcoal Heather Knit",
+        "de": "Anthrazitfarbener melierter Pullover"
+      },
+      "descriptionKo": "아우터 안에서 니트의 표면을 보여줘요. 밑단을 정돈해 와이드 하의의 여유를 살려요.",
+      "descriptionEn": "Show the knit texture beneath the jacket and keep the hem neat above the wide trousers.",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und ordne den Saum über der weiten Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 헤더 니트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "charcoal grey heather crewneck knit sweater with dark ribbed cuffs, soft slightly fuzzy knit, full long sleeves and concealed neckline conservative reconstruction",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "브라운 코듀로이 팬츠",
+      "nameEn": "Brown Corduroy Trousers",
+      "nameDe": "Braune Cordhose",
+      "name": {
+        "ko": "브라운 코듀로이 팬츠",
+        "en": "Brown Corduroy Trousers",
+        "de": "Braune Cordhose"
+      },
+      "descriptionKo": "굵은 코듀로이 골을 눌러 펴지 않고 자연스러운 주름으로 남겨요. 퀼팅과 니트의 다른 표면을 함께 살려요.",
+      "descriptionEn": "Leave the wide cord ribs and soft folds natural, contrasting them with quilting and knit.",
+      "descriptionDe": "Lasse die breiten Cordrippen und weichen Falten natürlich und kontrastiere sie mit Steppung und Strick.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "브라운 코듀로이 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "brown wide-wale corduroy relaxed wide-leg trousers, rich visible vertical ribs and soft folds, elastic/gathered waist as visible, lower legs cropped out in reference and conservatively continued",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "라이트 그레이 프린지 머플러",
+      "nameEn": "Light Grey Fringed Scarf",
+      "nameDe": "Hellgrauer Fransenschal",
+      "name": {
+        "ko": "라이트 그레이 프린지 머플러",
+        "en": "Light Grey Fringed Scarf",
+        "de": "Hellgrauer Fransenschal"
+      },
+      "descriptionKo": "목에 한 번 두르고 양 끝을 길게 늘어뜨려요. 프린지가 하의 위로 자연스럽게 이어지게 해요.",
+      "descriptionEn": "Wrap once around the neck and let the ends fall long, with the fringe resting over the trousers.",
+      "descriptionDe": "Lege den Schal einmal um den Hals und lasse die Enden lang über die Hose fallen.",
+      "image": "products/04-scarf.jpg",
+      "altKo": "라이트 그레이 프린지 머플러 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE light grey softly fuzzy wool-look long scarf with short twisted fringes, plain heather grey, neatly laid full length",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-earrings",
+      "category": "jewelry",
+      "nameKo": "골드 톤 허기 후프",
+      "nameEn": "Gold-Tone Huggie Hoops",
+      "nameDe": "Goldfarbene Huggie-Creolen",
+      "name": {
+        "ko": "골드 톤 허기 후프",
+        "en": "Gold-Tone Huggie Hoops",
+        "de": "Goldfarbene Huggie-Creolen"
+      },
+      "descriptionKo": "작은 후프로 얼굴 가까이에 은은한 포인트를 더해요. 목걸이와 비슷한 금속 톤으로 정리해요.",
+      "descriptionEn": "Add a subtle accent near the face with small earrings, keeping the metal tone coordinated.",
+      "descriptionDe": "Setze mit kleinen Ohrringen einen dezenten Akzent am Gesicht und stimme den Metallton ab.",
+      "image": "products/05-earrings.jpg",
+      "altKo": "골드 톤 허기 후프 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair small gold-tone rounded huggie hoop earrings, match visible gold curved ear detail, no extra jewelry",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-bracelet",
+      "category": "jewelry",
+      "nameKo": "골드 톤 슬림 뱅글",
+      "nameEn": "Gold-Tone Slim Bangle",
+      "nameDe": "Schmaler goldfarbener Armreif",
+      "name": {
+        "ko": "골드 톤 슬림 뱅글",
+        "en": "Gold-Tone Slim Bangle",
+        "de": "Schmaler goldfarbener Armreif"
+      },
+      "descriptionKo": "소매 끝에서 가는 뱅글이 조금 보이게 해요. 과한 장식 없이 손목에 작은 포인트를 남겨요.",
+      "descriptionEn": "Reveal a little of the slim bangle at the cuff for a small wrist accent.",
+      "descriptionDe": "Lasse am Ärmel etwas vom schmalen Armreif sichtbar, als kleinen Akzent am Handgelenk.",
+      "image": "products/06-bracelet.jpg",
+      "altKo": "골드 톤 슬림 뱅글 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE thin plain gold-tone round bangle bracelet as visible at wrist near sandwich; no hands, conservative hidden side",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-bag",
+      "category": "bag",
+      "nameKo": "내추럴 캔버스 토트",
+      "nameEn": "Natural Canvas Tote",
+      "nameDe": "Naturfarbene Canvas-Tasche",
+      "name": {
+        "ko": "내추럴 캔버스 토트",
+        "en": "Natural Canvas Tote",
+        "de": "Naturfarbene Canvas-Tasche"
+      },
+      "descriptionKo": "내추럴 캔버스의 부드러운 형태를 그대로 살려요. 브라운 팬츠 옆에 밝은 면을 더하는 소품이에요.",
+      "descriptionEn": "Keep the natural canvas soft, adding a pale panel beside the brown trousers.",
+      "descriptionDe": "Lasse das naturfarbene Canvas weich fallen; es setzt eine helle Fläche neben der braunen Hose.",
+      "image": "products/07-bag.jpg",
+      "altKo": "내추럴 캔버스 토트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE natural offwhite canvas tote bag based on partly visible cream fabric bag beside hip, soft plain rectangular fabric body, simple two canvas straps inferred; no printing or extra objects",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Hidden backs, waistbands, linings, shirt/sweater bodies and opposite shoes are conservatively reconstructed.",
+    "Small jewelry forms and hidden clasps/posts are interpreted from visible details; actual metal is unknown.",
+    "Material names describe visual appearance, not verified composition. Exact temperature and feels-like values are unknown.",
+    "Lower trouser legs are outside the frame and are reconstructed. Canvas tote body is partly visible; full bag shape and handles are inferred."
+  ],
+  "excludedItems": [
+    "Food, drinks, crockery, shopping paper bags and keys are scene props, not outfit products.",
+    "Footwear and socks are outside the frame; not generated."
+  ]
+}
