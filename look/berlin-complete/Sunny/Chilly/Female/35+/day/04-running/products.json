@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-04-run-f",
+  "appOutfitId": "bd15-04-run-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../04-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested breakdown and GitHub upload of remaining female day running editorials.",
+    "authorizedOn": "2026-10-22"
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "captionKo": "코랄과 버건디, 올리브로 마무리하는 한 걸음.",
+    "captionEn": "Coral over burgundy, finished in olive.",
+    "captionDe": "Koralle über Burgunder, abgerundet mit Oliv.",
+    "introKo": "코랄 셸과 버건디 이너를 겹쳐 따뜻한 색의 깊이를 만들어요. 긴 커프를 소매 밖으로 드러내고, 슬레이트 타이츠와 아이보리 삭스 사이에 올리브 러너를 더해요.",
+    "introEn": "Layer coral over burgundy for depth within a warm palette. Let the long cuffs extend past the shell sleeves, then add slate tights, ivory socks and olive runners.",
+    "introDe": "Schichte Koralle über Burgunder für Tiefe in einer warmen Farbpalette. Lasse die langen Bündchen unter der Jacke hervorschauen und ergänze schiefergraue Tights, elfenbeinfarbene Socken und olivgrüne Laufschuhe.",
+    "pullQuoteEn": "WARM COLOUR. EASY MOVEMENT.",
+    "headlineEn": "CORAL STRIDE",
+    "headlineKo": "코랄 스트라이드",
+    "headlineDe": "SCHRITTE IN KORALLE"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코랄 러닝 셸",
+      "nameEn": "Coral Running Shell",
+      "nameDe": "Korallfarbene Laufjacke",
+      "name": {
+        "ko": "코랄 러닝 셸",
+        "en": "Coral Running Shell",
+        "de": "Korallfarbene Laufjacke"
+      },
+      "descriptionKo": "코랄 셸을 주인공으로 두고 앞을 살짝 열어요. 안쪽 버건디가 밝은 색에 깊이를 더해요.",
+      "descriptionEn": "Make coral the focal point and open the shell slightly to show the deeper burgundy beneath.",
+      "descriptionDe": "Setze Koralle in den Mittelpunkt und öffne die Jacke leicht, um das tiefere Burgunder darunter zu zeigen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "코랄 러닝 셸 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "coral red-orange hooded lightweight running windbreaker, full front zip, elastic cuffs, silver reflective narrow strips at upper front and lower side pockets",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "버건디 커프 롱슬리브",
+      "nameEn": "Burgundy Cuff Long Sleeve",
+      "nameDe": "Burgunderfarbenes Shirt mit langen Bündchen",
+      "name": {
+        "ko": "버건디 커프 롱슬리브",
+        "en": "Burgundy Cuff Long Sleeve",
+        "de": "Burgunderfarbenes Shirt mit langen Bündchen"
+      },
+      "descriptionKo": "버건디 롱슬리브의 긴 커프를 손등까지 이어줘요. 별도 장갑 대신 소매 디테일을 보여주는 조합이에요.",
+      "descriptionEn": "Extend the burgundy thumbhole cuffs over the backs of the hands; these are shirt cuffs, not separate gloves.",
+      "descriptionDe": "Ziehe die langen burgunderfarbenen Daumenlochbündchen über die Handrücken; sie gehören zum Shirt und sind keine separaten Handschuhe.",
+      "image": "products/02-top.jpg",
+      "altKo": "버건디 커프 롱슬리브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "burgundy plum crewneck long-sleeve running base layer with elongated thumbhole cuffs covering backs of hands, thin silver accents on cuff backs; these cuffs belong to shirt, not separate gloves; hidden torso reconstructed simply",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "슬레이트 러닝 타이츠",
+      "nameEn": "Slate Running Tights",
+      "nameDe": "Schiefergraue Lauftights",
+      "name": {
+        "ko": "슬레이트 러닝 타이츠",
+        "en": "Slate Running Tights",
+        "de": "Schiefergraue Lauftights"
+      },
+      "descriptionKo": "슬레이트 타이츠로 코랄과 버건디의 채도를 받쳐요. 밝은 양말이 보이도록 밑단을 정리해요.",
+      "descriptionEn": "Let slate tights balance coral and burgundy, keeping the hems neat above the pale socks.",
+      "descriptionDe": "Schiefergraue Tights gleichen Koralle und Burgunder aus; ordne die Säume oberhalb der hellen Socken.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "슬레이트 러닝 타이츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "full-length slate charcoal-grey fitted running tights, visible seam panels at thighs, narrow silver reflective shin strips; waistband concealed, reconstruct conservatively",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "아이보리 리브 삭스",
+      "nameEn": "Ivory Rib Socks",
+      "nameDe": "Elfenbeinfarbene Rippensocken",
+      "name": {
+        "ko": "아이보리 리브 삭스",
+        "en": "Ivory Rib Socks",
+        "de": "Elfenbeinfarbene Rippensocken"
+      },
+      "descriptionKo": "아이보리 리브 삭스를 발목 위로 드러내요. 올리브 슈즈와 타이츠 사이에 밝은 간격을 만들어요.",
+      "descriptionEn": "Show ivory rib socks above the ankle for a pale break between slate tights and olive shoes.",
+      "descriptionDe": "Lasse elfenbeinfarbene Rippensocken über dem Knöchel sichtbar, als helle Unterbrechung zwischen Tights und olivgrünen Schuhen.",
+      "image": "products/04-socks.jpg",
+      "altKo": "아이보리 리브 삭스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair ivory/off-white chunky ribbed short crew socks, match reference ribbing and cuff height",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "올리브 메쉬 러너",
+      "nameEn": "Olive Mesh Runners",
+      "nameDe": "Olivgrüne Mesh-Laufschuhe",
+      "name": {
+        "ko": "올리브 메쉬 러너",
+        "en": "Olive Mesh Runners",
+        "de": "Olivgrüne Mesh-Laufschuhe"
+      },
+      "descriptionKo": "올리브 러너로 따뜻한 상의 색을 차분하게 마무리해요. 크림 솔을 양말과 연결해요.",
+      "descriptionEn": "Olive runners settle the warm upper layers, with cream soles echoing the socks.",
+      "descriptionDe": "Olivgrüne Laufschuhe beruhigen die warmen Oberteile; die cremefarbene Sohle greift die Socken auf.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "올리브 메쉬 러너 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair muted olive green mesh lace-up running sneakers, tonal darker side support overlays, olive laces, thick off-white foam soles with black outsole toe edges",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 5,
+  "reconstructionNotes": [
+    "Hidden backs, waistbands, inside construction and opposite shoes are conservative reconstructions, not verified product specifications.",
+    "Exact temperature and feels-like temperature are unknown; Chilly is grounded in the source folder.",
+    "Burgundy hand coverings interpreted as extended thumbhole shirt cuffs, not separate gloves; this construction is inferred from the reference."
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-02-run-f",
+  "appOutfitId": "bd15-02-run-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../02-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested breakdown and GitHub upload of remaining female day running editorials.",
+    "authorizedOn": "2026-10-22"
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "captionKo": "샌드와 네이비, 출발을 가볍게.",
+    "captionEn": "Sand and navy. An easy start.",
+    "captionDe": "Sand und Marineblau. Ein entspannter Start.",
+    "introKo": "샌드 셸 아래 짙은 네이비를 길게 이어줘요. 여유 있는 러닝 팬츠의 밑단을 정돈하고, 그레이 삭스와 밝은 메쉬 러너로 발끝을 가볍게 마무리해요.",
+    "introEn": "Run dark navy beneath a sand shell. Keep the tapered trousers neat at the ankle, then finish with grey socks and pale mesh runners.",
+    "introDe": "Kombiniere eine sandfarbene Jacke mit dunklem Marineblau. Halte die schmal zulaufende Hose am Knöchel ordentlich und ergänze graue Socken sowie helle Mesh-Laufschuhe.",
+    "pullQuoteEn": "QUIET TONES. A CLEAR START.",
+    "headlineEn": "SOFT START",
+    "headlineKo": "소프트 스타트",
+    "headlineDe": "SANFTER START"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "샌드 러닝 셸",
+      "nameEn": "Sand Running Shell",
+      "nameDe": "Sandfarbene Laufjacke",
+      "name": {
+        "ko": "샌드 러닝 셸",
+        "en": "Sand Running Shell",
+        "de": "Sandfarbene Laufjacke"
+      },
+      "descriptionKo": "밝은 샌드 셸을 네이비 위에 열어 입어요. 어두운 이너가 앞면을 세로로 정리해요.",
+      "descriptionEn": "Wear the sand shell open over navy, letting the dark inner layer create a clean vertical line.",
+      "descriptionDe": "Trage die sandfarbene Jacke offen über Marineblau; die dunkle Lage bildet eine klare vertikale Linie.",
+      "image": "products/01-outer.jpg",
+      "altKo": "샌드 러닝 셸 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "sand-beige lightweight hooded full-zip running windbreaker, elastic cuffs, subtle silver reflective strips on shoulders and forearms, match reference drape",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "네이비 러닝 롱슬리브",
+      "nameEn": "Navy Running Long Sleeve",
+      "nameDe": "Marineblaues Laufshirt",
+      "name": {
+        "ko": "네이비 러닝 롱슬리브",
+        "en": "Navy Running Long Sleeve",
+        "de": "Marineblaues Laufshirt"
+      },
+      "descriptionKo": "네이비 크루넥을 팬츠와 이어 한 톤처럼 보여줘요. 소매 끝만 셸 밖으로 짧게 드러내요.",
+      "descriptionEn": "Link the navy crew neck to the trousers and let just a little cuff show beyond the shell.",
+      "descriptionDe": "Verbinde das marineblaue Rundhalsshirt farblich mit der Hose und lasse nur etwas Bündchen unter der Jacke hervorschauen.",
+      "image": "products/02-top.jpg",
+      "altKo": "네이비 러닝 롱슬리브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "dark navy crewneck long-sleeve base-layer shirt; neckline/chest and cuffs visible, hidden torso conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "잉크 러닝 팬츠",
+      "nameEn": "Ink Running Pants",
+      "nameDe": "Dunkelblaue Laufhose",
+      "name": {
+        "ko": "잉크 러닝 팬츠",
+        "en": "Ink Running Pants",
+        "de": "Dunkelblaue Laufhose"
+      },
+      "descriptionKo": "타이츠 대신 여유 있는 테이퍼드 핏으로 가요. 밑단을 발목 위에 정리해 신발의 형태를 드러내요.",
+      "descriptionEn": "Choose a relaxed taper instead of tights and keep the hems neat above the shoes.",
+      "descriptionDe": "Wähle statt Tights eine lockere, schmal zulaufende Hose und ordne den Saum oberhalb der Schuhe.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "잉크 러닝 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "dark ink navy slim tapered woven running trousers, elastic ankle cuffs and narrow silver reflective lower-leg accents, not skin-tight leggings",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 러닝 글러브",
+      "nameEn": "Black Running Gloves",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "name": {
+        "ko": "블랙 러닝 글러브",
+        "en": "Black Running Gloves",
+        "de": "Schwarze Laufhandschuhe"
+      },
+      "descriptionKo": "블랙 글러브는 네이비와 자연스럽게 연결해요. 벗었을 때는 셸 포켓에 정리해요.",
+      "descriptionEn": "Black gloves blend into the navy palette; tuck them into a shell pocket when removed.",
+      "descriptionDe": "Schwarze Handschuhe fügen sich in die dunkle Palette ein; verstaue sie nach dem Ausziehen in einer Jackentasche.",
+      "image": "products/04-hands.jpg",
+      "altKo": "블랙 러닝 글러브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair of black full-finger running gloves, based on the glove tucked beside the hip; hidden fingers and palms conservatively reconstructed, no invented logos",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-socks",
+      "category": "socks",
+      "nameKo": "그레이 앵클 삭스",
+      "nameEn": "Grey Ankle Socks",
+      "nameDe": "Graue Knöchelsocken",
+      "name": {
+        "ko": "그레이 앵클 삭스",
+        "en": "Grey Ankle Socks",
+        "de": "Graue Knöchelsocken"
+      },
+      "descriptionKo": "그레이 삭스를 팬츠와 밝은 러너 사이에 조금 보여줘요. 발목에 원단이 뭉치지 않게 정리해요.",
+      "descriptionEn": "Let grey socks bridge the dark trousers and pale runners without bunching at the ankle.",
+      "descriptionDe": "Graue Socken verbinden die dunkle Hose mit den hellen Laufschuhen, ohne sich am Knöchel zu stauen.",
+      "image": "products/05-socks.jpg",
+      "altKo": "그레이 앵클 삭스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair of medium grey heather ankle running socks, match visible sock cuffs; hidden foot sections conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "category": "shoes",
+      "nameKo": "오프화이트 메쉬 러너",
+      "nameEn": "Off-White Mesh Runners",
+      "nameDe": "Offwhite-Mesh-Laufschuhe",
+      "name": {
+        "ko": "오프화이트 메쉬 러너",
+        "en": "Off-White Mesh Runners",
+        "de": "Offwhite-Mesh-Laufschuhe"
+      },
+      "descriptionKo": "오프화이트 메쉬 러너로 전체 톤을 가볍게 끝내요. 끈은 갑피 위에 가지런히 정리해요.",
+      "descriptionEn": "Finish the muted palette with off-white mesh runners and keep the laces tidy.",
+      "descriptionDe": "Runde die gedeckte Palette mit Offwhite-Mesh-Laufschuhen ab und binde die Schnürsenkel ordentlich.",
+      "image": "products/06-shoes.jpg",
+      "altKo": "오프화이트 메쉬 러너 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair of off-white light grey mesh running sneakers, off-white laces, chunky cream sculpted soles, small grey toe/outsole accents",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "Hidden backs, waistbands, inside construction and opposite shoes are conservative reconstructions, not verified product specifications.",
+    "Exact temperature and feels-like temperature are unknown; Chilly is grounded in the source folder.",
+    "Gloves reconstructed from the partially visible black glove tucked at the hip; base-layer sleeves are partly inferred."
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-03-run-f",
+  "appOutfitId": "bd15-03-run-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../03-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested breakdown and GitHub upload of remaining female day running editorials.",
+    "authorizedOn": "2026-10-22"
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "captionKo": "포레스트 그린 위로, 차콜과 블랙의 리듬.",
+    "captionEn": "Forest green, grounded in charcoal and black.",
+    "captionDe": "Waldgrün, geerdet durch Anthrazit und Schwarz.",
+    "introKo": "딥 그린 셸을 열어 차콜 하프집의 짧은 지퍼 라인을 보여줘요. 블랙 타이츠와 글러브로 실루엣을 정리하고 그레이 러너로 밝기를 조금 더해요.",
+    "introEn": "Open the deep green shell to reveal the charcoal half-zip. Black tights and gloves keep the silhouette controlled, while grey runners add a lighter finish.",
+    "introDe": "Öffne die tiefgrüne Jacke, damit der kurze Reißverschluss des anthrazitfarbenen Shirts sichtbar wird. Schwarze Tights und Handschuhe halten den Look klar; graue Laufschuhe hellen ihn auf.",
+    "pullQuoteEn": "DEEP GREEN. STEADY RHYTHM.",
+    "headlineEn": "FOREST PACE",
+    "headlineKo": "포레스트 페이스",
+    "headlineDe": "TEMPO IN WALDGRÜN"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "포레스트 러닝 셸",
+      "nameEn": "Forest Running Shell",
+      "nameDe": "Waldgrüne Laufjacke",
+      "name": {
+        "ko": "포레스트 러닝 셸",
+        "en": "Forest Running Shell",
+        "de": "Waldgrüne Laufjacke"
+      },
+      "descriptionKo": "포레스트 그린 셸을 열어 차콜 이너를 보여줘요. 반사 라인은 색을 더하지 않는 작은 디테일이에요.",
+      "descriptionEn": "Open the forest shell to show charcoal beneath; silver lines add detail without another colour.",
+      "descriptionDe": "Öffne die waldgrüne Jacke über Anthrazit; silberne Linien ergänzen Details ohne eine weitere Farbe.",
+      "image": "products/01-outer.jpg",
+      "altKo": "포레스트 러닝 셸 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "forest green hooded lightweight zip running windbreaker, elastic cuffs, thin silver reflective accents at shoulders, upper sleeves and lower front pockets",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 하프집 롱슬리브",
+      "nameEn": "Charcoal Half-Zip Long Sleeve",
+      "nameDe": "Anthrazitfarbenes Half-Zip-Shirt",
+      "name": {
+        "ko": "차콜 하프집 롱슬리브",
+        "en": "Charcoal Half-Zip Long Sleeve",
+        "de": "Anthrazitfarbenes Half-Zip-Shirt"
+      },
+      "descriptionKo": "하프집의 스탠드 칼라를 셸 안쪽에 정리해요. 짧은 검은 지퍼가 중심선을 만들어요.",
+      "descriptionEn": "Set the half-zip collar neatly inside the shell and use its short black zip as a central line.",
+      "descriptionDe": "Ordne den Stehkragen innerhalb der Jacke; der kurze schwarze Reißverschluss bildet die Mittellinie.",
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 하프집 롱슬리브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "heather charcoal close-fitting long sleeve technical running top, stand collar and black quarter/half zipper at front; hidden sleeves conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 타이츠",
+      "nameEn": "Black Running Tights",
+      "nameDe": "Schwarze Lauftights",
+      "name": {
+        "ko": "블랙 러닝 타이츠",
+        "en": "Black Running Tights",
+        "de": "Schwarze Lauftights"
+      },
+      "descriptionKo": "블랙 타이츠로 딥 그린과 차콜을 간결하게 받쳐요. 무릎과 밑단의 원단을 매끈하게 정리해요.",
+      "descriptionEn": "Ground green and charcoal with black tights, smoothing the fabric at knees and hems.",
+      "descriptionDe": "Erde Grün und Anthrazit mit schwarzen Tights und streiche den Stoff an Knien und Säumen glatt.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "블랙 러닝 타이츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "full-length fitted black running tights with small silver lower-leg reflective strips, waistband and lower section partly concealed, conservative reconstruction",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "차콜 러닝 글러브",
+      "nameEn": "Charcoal Running Gloves",
+      "nameDe": "Anthrazitfarbene Laufhandschuhe",
+      "name": {
+        "ko": "차콜 러닝 글러브",
+        "en": "Charcoal Running Gloves",
+        "de": "Anthrazitfarbene Laufhandschuhe"
+      },
+      "descriptionKo": "차콜 글러브를 이너와 맞춰요. 커프를 셸 소매 안쪽에 넣어 손목선을 정돈해요.",
+      "descriptionEn": "Match charcoal gloves to the inner layer and tuck their cuffs inside the shell sleeves.",
+      "descriptionDe": "Stimme anthrazitfarbene Handschuhe auf die innere Lage ab und stecke ihre Bündchen unter die Jackenärmel.",
+      "image": "products/04-hands.jpg",
+      "altKo": "차콜 러닝 글러브 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair charcoal black full-finger running gloves, long simple cuff and thin silver reflective hand-back stripe, match reference",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 메쉬 러너",
+      "nameEn": "Grey Mesh Runners",
+      "nameDe": "Graue Mesh-Laufschuhe",
+      "name": {
+        "ko": "그레이 메쉬 러너",
+        "en": "Grey Mesh Runners",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "descriptionKo": "밝은 그레이 러너로 어두운 착장 아래에 가벼운 면을 만들어요. 실버 패널과 셸의 작은 라인을 연결해요.",
+      "descriptionEn": "Light grey runners lift the dark outfit and echo the small silver lines on the shell.",
+      "descriptionDe": "Hellgraue Laufschuhe lockern den dunklen Look auf und greifen die silbernen Linien der Jacke auf.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "그레이 메쉬 러너 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair grey mesh lace-up running shoes with silver grey overlays and thick off-white soles; reference shows mainly one shoe, conservatively mirror its design",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 5,
+  "reconstructionNotes": [
+    "Hidden backs, waistbands, inside construction and opposite shoes are conservative reconstructions, not verified product specifications.",
+    "Exact temperature and feels-like temperature are unknown; Chilly is grounded in the source folder.",
+    "Socks are not clearly visible and were not added. Hidden shirt sleeves and lower tights are conservatively reconstructed."
+  ]
+}
