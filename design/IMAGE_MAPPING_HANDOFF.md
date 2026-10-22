@@ -134,3 +134,9 @@ Existing editorials 11–15 preserved. 6 products per look, 30 in total. Existin
 ### b128 · Sunny/Chilly/Male/35+/day Running (2026-10-22)
 
 사용자가 기존 에디토리얼 5장에 대해 제품 분해·3개 언어 문구·앱 매핑·GitHub 반영을 명시 요청함. 기존 사진은 그대로 보존, 제품 폴더 01–05-running에 7/6/6/6/7개(32 JPG)를 추가. 기존 룩 ID와 단일 품목 ID 보존. 03 양말과 가려진 부분은 reconstruction에 불확실성 기록. 검수 완료 제품만 ready/mapped로 연결. 정확한 기온·브랜드·혼용률·성능은 추측하지 않음.
+
+## b129 · Sunny 여성 Night Minimal 완료
+
+Sunny / Chilly / Female / 35+ / Night / Minimal 11–15: 제품 8/7/6/9/9종, 총 39개 독립 JPG(500×500, ≤50,000 bytes), ko/en/de 제품명·스타일링 설명·기사. 기존 원본 에디토리얼과 룩 ID·기존 24개 아이템 ID 유지, 새 아이템 ID 15개 추가. 최종 135룩·834아이템, 활성 참조 829, 기사 110룩. `look/sunny-female-night-minimal.js`가 기존 라이브러리 스크립트 뒤, 앱 초기화 전에 동기 적용된다. 큰 `look/outfits.js` 전체 교체가 자동 승인 검토 입력 한도를 초과하여, 기존 Street와 동일한 독립 보충 매핑 방식을 사용했다. 기본 라이브러리와 다른 세트는 변경하지 않는다.
+
+기존 원본을 승인 시각을 새로 만들지 않고 사용하며, 사용자의 이번 제품 제작·GitHub 반영 요청을 approval.upload authorized로 기록했다. productionStatus ready / mappingStatus mapped. 각 룩 폴더에 products.json, README.md, PROMPTS.md, VERIFICATION.md 및 개별 products JPG를 둔다. 13번 부츠의 앞코·굽·밑창·정확한 높이, 14번 가방 전체 형태·여밈·하드웨어, 15번 셔츠 몸판·칼라는 가려져 보수적으로 복원했다. 실제 소재 혼용률·브랜드·가격·구매 링크·정확한 기온은 확인되지 않아 null.

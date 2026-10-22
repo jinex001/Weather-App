@@ -91,7 +91,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | 맑음 | 남 | 낮 | `Sunny/Chilly/Male/35+/day/` | `bd4-0N-run-m`(01–04), `bd15-NN-<스타일>-m`(05–15) | 러닝 01–05 제품 카드 기사(b128, 32제품), 스트리트 06–10 제품 카드 기사(b126), 미니멀 11–15 제품 카드 기사(b127) |
 | 맑음 | 여 | 낮 | `Sunny/Chilly/Female/35+/day/` (사진 `NN-<스타일>.jpg`, 제품 `NN-<스타일>/products/`) | `bd15-NN-<스타일>-f` | 제품 카드 기사 (b124, 문구 3개 언어 제작 측 그대로) |
 | 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 아이템 리스트 |
-| 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 아이템 리스트 |
+| 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 미니멀 11–15 제품 카드 기사 (b129), 러닝·스트리트 아이템 리스트 |
 | 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 |
 | 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
 | 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/` | `ofn-NN-<스타일>-f` | 제품 카드 기사 |
@@ -132,3 +132,9 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 ### b128 · Sunny 남성 낮 Running
 
 기존 `01-running.jpg`–`05-running.jpg`는 원위치에서 보존하고, 같은 이름의 디렉터리 안에 `products/`, `products.json`, `README.md`, `PROMPTS.md`를 추가함. `editorialImage`는 `../NN-running.jpg`를 참조하며 에디토리얼을 복제하지 않음. 기존 룩 ID 및 outer/top/bottom/shoes ID 20개 보존, 독립 품목 12개 추가. 복합 accessory 기록 5개는 저장 정보 호환을 위해 보존하되 카드에는 노출하지 않음. products.json의 3개 언어 문구를 앱에 그대로 연결. 반사 디테일과 숨은 부분의 복원 한계는 각 README와 JSON에 기록. 32장 모두 500×500 JPG ≤50,000 bytes 검증. 캘린더는 기존 dayPick 규칙으로 맑은 남성 러닝 제품을 사용함.
+
+### b129 · Sunny 여성 Night Minimal 매핑
+
+Sunny / Chilly / Female / 35+ / Night / Minimal 11–15: 제품 8/7/6/9/9종, 총 39개 독립 JPG(500×500, ≤50,000 bytes), ko/en/de 제품명·스타일링 설명·기사. 기존 원본 에디토리얼과 룩 ID·기존 24개 아이템 ID 유지, 새 아이템 ID 15개 추가. 최종 135룩·834아이템, 활성 참조 829, 기사 110룩. `look/sunny-female-night-minimal.js`가 기존 라이브러리 스크립트 뒤, 앱 초기화 전에 동기 적용된다. 큰 `look/outfits.js` 전체 교체가 자동 승인 검토 입력 한도를 초과하여, 기존 Street와 동일한 독립 보충 매핑 방식을 사용했다. 기본 라이브러리와 다른 세트는 변경하지 않는다.
+
+appOutfitId는 `bn15-11-minimal-f`부터 `bn15-15-minimal-f`, sky clear / bands chilly / gender f / age 35 / time evening / style minimal. sourceEditorial은 기존 `../NN-minimal.jpg`, editorial.jpg는 바이트 동일 보관 사본이다. 13번 부츠의 앞코·굽·밑창·정확한 높이, 14번 가방 전체 형태·여밈·하드웨어, 15번 셔츠 몸판·칼라는 가려져 보수적으로 복원했다. 실제 소재 혼용률·브랜드·가격·구매 링크·정확한 기온은 확인되지 않아 null.
