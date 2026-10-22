@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-22 (앱 빌드 b118) · 135룩 · 743아이템. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
+마지막 정리: 2026-10-22 (앱 빌드 b118) · 135룩 · 743아이템. 칸별 현황·빈 칸 목록은 `look-coverage.md`. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
 
 ## Outfit
 

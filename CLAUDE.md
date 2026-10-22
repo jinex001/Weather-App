@@ -10,7 +10,7 @@
 - `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면, 40% 흐리게)을 가운데에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
 - 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
 - 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도. b21부터 앱이 새로고침할 때 배포된 페이지의 `BUILD`를 확인해서 다르면 스스로 다시 불러옴(그래서 `var BUILD = "bNN"` 형식을 바꾸지 말 것).
-- 디자인 값의 기준은 `design/tokens.json`(v4)과 `design/design-system.md`(2026-10-20 전체 정리, b105). 바꾸면 이 두 파일도 같이 고칠 것. 룩 데이터는 `design/look-library.md`, 사진 스타일은 `design/IMAGE_STYLE.md`. `design/look-chilly.md`·`look-cool.md`·`look-clear.md`는 b71 이전 기록(앱에서 안 씀).
+- 디자인 값의 기준은 `design/tokens.json`(v5)과 `design/design-system.md`(2026-10-22 b122까지 정리). 바꾸면 이 두 파일도 같이 고칠 것. 룩 데이터는 `design/look-library.md`, 세트 현황·빈 칸 목록은 `design/look-coverage.md`(세트 매핑할 때마다 고칠 것), 사진 스타일은 `design/IMAGE_STYLE.md`. `design/look-chilly.md`·`look-cool.md`·`look-clear.md`는 b71 이전 기록(앱에서 안 씀).
 - 다음 작업은 사용자 요청에 따라 진행.
 - 커밋 이메일은 `jinex001@users.noreply.github.com` 사용 (공개 저장소라 개인 이메일 노출 금지).
 
@@ -133,6 +133,7 @@
 - b120: Today's Look 위쪽 배치(사용자가 아이폰 스크린샷에 그려서 요청): "체감 N° · 단계"를 배지 오른쪽으로 옮겨 한 줄(`.lk-top`, 가운데 맞춤, 간격 14px), 스위처를 그 18px 아래로 올림, 맞춤 표시(TODAY'S PICK 등)는 왼쪽·점은 화면 오른쪽 끝으로 한 줄(`.lk-meta` 안에 `#lk-dots`), 룩 타이틀(Anton 44px)을 사진 아래 → 맞춤 표시와 사진 사이로. 넘기면 타이틀·맞춤 표시 페이드·점은 그대로. 질문 화면 머리도 같은 배지 줄.
 - b121: Today's Look 사람 아이콘 뒤 **둥근 단계 색 배지 없앰**(사용자 요청: 깔끔하게 어두운색으로) → 사람은 글자색 #141414(머리 구분선 없음, 글라스에서 흰 테두리처럼 보여서). 단계 색은 체감 줄 안 막대로: "FEELS 7° ▌CHILLY"(`feelsLine`, `.lk-bar` 7px × 1.15em, 색 = 예전 배지 색 규칙 `readableOn(BAND_COLOR, #FFF, 1.5)`). 질문 화면 머리도 같음.
 - b122: (사용자 요청) Today's Look 사람 아이콘 43 → 34px(칸 36×38), 체감 줄 단계 색 막대 7 → 5px.
+- 문서 정리(2026-10-22, 앱 빌드 변화 없음, 사용자 요청): `design-system.md` Today's Look 순서를 b117–b122대로 다시 번호 매김(체감 줄 = 사람 34px + "FEELS N° ▌단계" 5px 막대, 배지 없음, 맞춤 표시·점 한 줄, 타이틀 사진 위), 배지·단계 헤드라인 설명 정리. `tokens.json` v5(`look-head` 안 씀 표시, `icon-person-look` 34px·배지 없음, `look-band-bar` 추가, `look-title` 위치). 새 `design/look-coverage.md`: 쌀쌀함 칸별 룩 수, 빈 칸(흐림 남성 저녁 러닝·스트리트, 비 여성 러닝, 비 저녁 전부, 보통 비·쏟아지는 비 전부, 다른 체감 단계·눈), 덜 된 것(맑은 날 60룩 제품 컷·기사 없음, oc15-15 링 pending).
 - b29: Today's Look 글라스를 단계 색 대신 **흰색**(rgba(255,255,255,.6)) + 뒤 화면 블러로, 글자는 항상 #141414(사용자: "하얀색 기본 글라스 UI"). 상태 표시줄 색은 메인 화면 색 유지.
 
 사용자: 베를린 거주, 아이폰 사용. 기기 언어는 독일어·한국어·영어 중 하나.
