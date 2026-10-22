@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-12-minimal-f",
+  "appOutfitId": "bd15-12-minimal-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../12-minimal.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User continued the female day editorial product breakdown and GitHub upload workflow with minimal looks."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "COBALT, QUIETLY",
+    "headlineKo": "코발트 콰이어틀리",
+    "headlineDe": "KOBALTBLAU, GANZ RUHIG",
+    "captionKo": "토프와 초콜릿 사이에 코발트 한 면.",
+    "captionEn": "One panel of cobalt between taupe and chocolate.",
+    "captionDe": "Eine Fläche Kobaltblau zwischen Taupe und Schokoladenbraun.",
+    "introKo": "토프 코트를 열어 코발트 니트를 선명하게 보여줘요. 초콜릿 팬츠와 브라운 삭스, 다크 브라운 레이스업을 비슷한 농도로 맞추고 작은 코인 펜던트로 마무리해요.",
+    "introEn": "Open the taupe coat to show a clear panel of cobalt knit. Keep chocolate trousers, brown socks and dark lace-ups close in tone, finishing with a small coin pendant.",
+    "introDe": "Öffne den taupefarbenen Mantel über kräftigem Kobaltblau. Halte schokoladenbraune Hose, braune Socken und dunkle Schnürschuhe tonal nah beieinander und ergänze einen kleinen Münzanhänger."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "토프 테일러드 코트",
+      "nameEn": "Taupe Tailored Coat",
+      "nameDe": "Taupefarbener Mantel",
+      "name": {
+        "ko": "토프 테일러드 코트",
+        "en": "Taupe Tailored Coat",
+        "de": "Taupefarbener Mantel"
+      },
+      "descriptionKo": "앞을 열어 안쪽 레이어가 보이게 입어요. 소매와 밑단의 볼륨을 자연스럽게 남겨주세요.",
+      "descriptionEn": "Wear it open to reveal the inner layers, keeping the natural volume of sleeves and hem.",
+      "descriptionDe": "Trage die Jacke offen, damit die inneren Lagen sichtbar bleiben, und lasse Ärmeln und Saum ihr natürliches Volumen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "토프 테일러드 코트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "warm taupe greige mid-length wool-look tailored overcoat, broad notched lapels, straight relaxed fit, tonal buttons, low welt pockets, dark taupe lining visible, hidden back conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "코발트 리브 니트",
+      "nameEn": "Cobalt Rib Knit",
+      "nameDe": "Kobaltblauer Rippstrickpullover",
+      "name": {
+        "ko": "코발트 리브 니트",
+        "en": "Cobalt Rib Knit",
+        "de": "Kobaltblauer Rippstrickpullover"
+      },
+      "descriptionKo": "코발트 니트를 단독 컬러 포인트로 둬요. 코트를 열어 앞면의 선명한 블루가 드러나게 해요.",
+      "descriptionEn": "Use cobalt knit as the single bold colour and open the coat to reveal its blue front.",
+      "descriptionDe": "Setze mit Kobaltblau den einzigen kräftigen Farbakzent und öffne den Mantel darüber.",
+      "image": "products/02-top.jpg",
+      "altKo": "코발트 리브 니트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "vivid cobalt royal blue crewneck knit sweater, fine vertical rib-knit body, pronounced ribbed neck cuffs hem, plain no logos, hidden sleeves conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "초콜릿 스트레이트 팬츠",
+      "nameEn": "Chocolate Straight-Leg Trousers",
+      "nameDe": "Schokoladenbraune gerade Hose",
+      "name": {
+        "ko": "초콜릿 스트레이트 팬츠",
+        "en": "Chocolate Straight-Leg Trousers",
+        "de": "Schokoladenbraune gerade Hose"
+      },
+      "descriptionKo": "넉넉한 통을 접거나 조이지 않고 자연스럽게 떨어뜨려요. 상의 밑단을 정돈해 하의의 실루엣을 드러내요.",
+      "descriptionEn": "Let the generous legs fall naturally and keep the top hem neat so the trouser shape stays visible.",
+      "descriptionDe": "Lasse die weiten Beine natürlich fallen und ordne das Oberteil, damit die Form der Hose sichtbar bleibt.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "초콜릿 스트레이트 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "dark chocolate brown straight tailored trousers, center crease, ankle-length appearance in crouch but reconstruct normal full length without inventing details, concealed waistband conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "브라운 리브 삭스",
+      "nameEn": "Brown Rib Socks",
+      "nameDe": "Braune Rippensocken",
+      "name": {
+        "ko": "브라운 리브 삭스",
+        "en": "Brown Rib Socks",
+        "de": "Braune Rippensocken"
+      },
+      "descriptionKo": "팬츠와 신발 사이에 리브 조직을 짧게 드러내요. 발목에 과하게 뭉치지 않게 정리해요.",
+      "descriptionEn": "Show a short section of ribbing between trousers and shoes without excessive bunching.",
+      "descriptionDe": "Zeige zwischen Hose und Schuhen etwas Rippstruktur, ohne die Socken stark zu stauchen.",
+      "image": "products/04-socks.jpg",
+      "altKo": "브라운 리브 삭스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair medium chocolate brown heather ribbed crew socks, match visible ankle sock above lace-up shoes",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "다크 브라운 레이스업",
+      "nameEn": "Dark Brown Lace-Ups",
+      "nameDe": "Dunkelbraune Schnürschuhe",
+      "name": {
+        "ko": "다크 브라운 레이스업",
+        "en": "Dark Brown Lace-Ups",
+        "de": "Dunkelbraune Schnürschuhe"
+      },
+      "descriptionKo": "팬츠와 양말의 브라운을 레이스업까지 이어줘요. 끈은 단정하게 묶어 앞코의 매끈함을 살려요.",
+      "descriptionEn": "Continue the brown of trousers and socks into lace-ups, tying them neatly to keep the toe clean.",
+      "descriptionDe": "Führe die Brauntöne von Hose und Socken in Schnürschuhen fort und binde die Senkel ordentlich.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "다크 브라운 레이스업 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair dark brown polished leather-look low lace-up Oxford-style dress shoes, rounded almond toes with subtle toe-cap seam, brown laces, low stacked dark heels and dark soles",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 톤 코인 네크리스",
+      "nameEn": "Gold-Tone Coin Necklace",
+      "nameDe": "Goldfarbene Münzkette",
+      "name": {
+        "ko": "골드 톤 코인 네크리스",
+        "en": "Gold-Tone Coin Necklace",
+        "de": "Goldfarbene Münzkette"
+      },
+      "descriptionKo": "니트 위로 작은 펜던트만 드러내요. 가는 체인으로 목선의 레이어를 가볍게 이어줘요.",
+      "descriptionEn": "Let the small pendant sit over the knit, keeping the neckline light with a fine chain.",
+      "descriptionDe": "Lasse den kleinen Anhänger über dem Strick liegen und halte den Ausschnitt mit einer feinen Kette leicht.",
+      "image": "products/06-jewelry.jpg",
+      "altKo": "골드 톤 코인 네크리스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE delicate fine gold-tone necklace with very small round coin pendant, visible on cobalt knit, full chain conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-earrings",
+      "category": "jewelry",
+      "nameKo": "미니 골드 이어링",
+      "nameEn": "Mini Gold Earrings",
+      "nameDe": "Kleine goldfarbene Ohrringe",
+      "name": {
+        "ko": "미니 골드 이어링",
+        "en": "Mini Gold Earrings",
+        "de": "Kleine goldfarbene Ohrringe"
+      },
+      "descriptionKo": "작은 후프로 얼굴 가까이에 은은한 포인트를 더해요. 목걸이와 비슷한 금속 톤으로 정리해요.",
+      "descriptionEn": "Add a subtle accent near the face with small earrings, keeping the metal tone coordinated.",
+      "descriptionDe": "Setze mit kleinen Ohrringen einen dezenten Akzent am Gesicht und stimme den Metallton ab.",
+      "image": "products/07-earrings.jpg",
+      "altKo": "미니 골드 이어링 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair tiny understated gold-tone small huggie earrings based on the partially visible small earlobe detail, no extra decoration, hidden clasp conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Hidden backs, linings, waistbands, shirt/sweater bodies and opposite footwear are conservative reconstructions.",
+    "Jewelry backs, posts and clasps are inferred; actual metal composition is unknown.",
+    "Material names describe visual appearance, not verified composition or performance.",
+    "Exact actual and feels-like temperature values are unknown; Chilly is grounded in the source folder."
+  ],
+  "excludedItems": [
+    "Food, drinks, crockery, paper grocery bags and groceries are scene props, excluded from outfit products."
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-15-minimal-f",
+  "appOutfitId": "bd15-15-minimal-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../15-minimal.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User continued the female day editorial product breakdown and GitHub upload workflow with minimal looks."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "CREAM, WITH COFFEE",
+    "headlineKo": "크림 위드 커피",
+    "headlineDe": "CREME MIT KAFFEEBRAUN",
+    "captionKo": "크림 레이어에 코코아와 에스프레소 한 톤.",
+    "captionEn": "Cream layers, finished in cocoa and espresso.",
+    "captionDe": "Cremefarbene Lagen, abgerundet mit Kakao und Espresso.",
+    "introKo": "차콜 코트 아래 아이보리 니트와 오프화이트 팬츠를 이어 밝은 면을 만들어요. 코코아 삭스와 에스프레소 로퍼로 발끝을 짙게 정리하고 작은 후프와 얇은 링만 더해요.",
+    "introEn": "Create a pale panel with ivory knit and off-white trousers beneath a charcoal coat. Cocoa socks and espresso loafers deepen the finish, with small hoops and one slim ring.",
+    "introDe": "Bilde mit elfenbeinfarbenem Strick und einer offwhitefarbenen Hose eine helle Fläche unter dem anthrazitfarbenen Mantel. Kakaobraune Socken und espressobraune Loafer setzen einen dunklen Abschluss, ergänzt durch kleine Creolen und einen schmalen Ring."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "차콜 테일러드 코트",
+      "nameEn": "Charcoal Tailored Coat",
+      "nameDe": "Anthrazitfarbener Mantel",
+      "name": {
+        "ko": "차콜 테일러드 코트",
+        "en": "Charcoal Tailored Coat",
+        "de": "Anthrazitfarbener Mantel"
+      },
+      "descriptionKo": "앞을 열어 안쪽 레이어가 보이게 입어요. 소매와 밑단의 볼륨을 자연스럽게 남겨주세요.",
+      "descriptionEn": "Wear it open to reveal the inner layers, keeping the natural volume of sleeves and hem.",
+      "descriptionDe": "Trage die Jacke offen, damit die inneren Lagen sichtbar bleiben, und lasse Ärmeln und Saum ihr natürliches Volumen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "차콜 테일러드 코트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "charcoal dark grey soft wool-look tailored coat, broad notched lapels, straight long relaxed fit, dark buttons and low pockets partly concealed, reconstruct hidden lower section conservatively",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "아이보리 텍스처 니트",
+      "nameEn": "Ivory Textured Knit",
+      "nameDe": "Elfenbeinfarbener Strukturpullover",
+      "name": {
+        "ko": "아이보리 텍스처 니트",
+        "en": "Ivory Textured Knit",
+        "de": "Elfenbeinfarbener Strukturpullover"
+      },
+      "descriptionKo": "아우터 안에서 니트의 표면을 보여줘요. 밑단을 정돈해 와이드 하의의 여유를 살려요.",
+      "descriptionEn": "Show the knit texture beneath the jacket and keep the hem neat above the wide trousers.",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und ordne den Saum über der weiten Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "아이보리 텍스처 니트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ivory cream chunky rib-textured crewneck sweater, textured vertical knit body, thick ribbed crew neck cuffs hem, loose long sleeves matching visible large cuffs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "오프화이트 와이드 팬츠",
+      "nameEn": "Off-White Wide-Leg Trousers",
+      "nameDe": "Offwhitefarbene weite Hose",
+      "name": {
+        "ko": "오프화이트 와이드 팬츠",
+        "en": "Off-White Wide-Leg Trousers",
+        "de": "Offwhitefarbene weite Hose"
+      },
+      "descriptionKo": "니트와 비슷한 크림 톤으로 밝은 면을 이어줘요. 넉넉한 밑단 아래 브라운 삭스를 조금 드러내요.",
+      "descriptionEn": "Continue the cream of the knit through the trousers, revealing a little brown sock below the wide hem.",
+      "descriptionDe": "Führe den Cremeton des Pullovers in der Hose fort und zeige unter dem weiten Saum etwas braune Socke.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "오프화이트 와이드 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "offwhite warm cream wide straight-leg woven trousers with clean minimal seams, gently structured cotton-look fabric, waistband partly concealed and conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "코코아 리브 삭스",
+      "nameEn": "Cocoa Rib Socks",
+      "nameDe": "Kakaobraune Rippensocken",
+      "name": {
+        "ko": "코코아 리브 삭스",
+        "en": "Cocoa Rib Socks",
+        "de": "Kakaobraune Rippensocken"
+      },
+      "descriptionKo": "팬츠와 신발 사이에 리브 조직을 짧게 드러내요. 발목에 과하게 뭉치지 않게 정리해요.",
+      "descriptionEn": "Show a short section of ribbing between trousers and shoes without excessive bunching.",
+      "descriptionDe": "Zeige zwischen Hose und Schuhen etwas Rippstruktur, ohne die Socken stark zu stauchen.",
+      "image": "products/04-socks.jpg",
+      "altKo": "코코아 리브 삭스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair cocoa dark brown ribbed crew socks matching prominently visible ankle",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "에스프레소 페니 로퍼",
+      "nameEn": "Espresso Penny Loafers",
+      "nameDe": "Espressobraune Pennyloafer",
+      "name": {
+        "ko": "에스프레소 페니 로퍼",
+        "en": "Espresso Penny Loafers",
+        "de": "Espressobraune Pennyloafer"
+      },
+      "descriptionKo": "코코아 삭스와 에스프레소 로퍼를 짙은 한 톤으로 이어줘요. 밝은 팬츠와 대비되는 발끝이에요.",
+      "descriptionEn": "Link cocoa socks to espresso loafers for a dark finish against the pale trousers.",
+      "descriptionDe": "Verbinde kakaobraune Socken und espressobraune Loafer als dunklen Abschluss zur hellen Hose.",
+      "image": "products/05-shoes.jpg",
+      "altKo": "에스프레소 페니 로퍼 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "matching pair polished deep espresso brown leather-look penny loafers, rounded almond moc toe apron stitching, classic penny strap, black chunky low soles and heels",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-earrings",
+      "category": "jewelry",
+      "nameKo": "미니 골드 허기 후프",
+      "nameEn": "Mini Gold Huggie Hoops",
+      "nameDe": "Kleine goldfarbene Huggie-Creolen",
+      "name": {
+        "ko": "미니 골드 허기 후프",
+        "en": "Mini Gold Huggie Hoops",
+        "de": "Kleine goldfarbene Huggie-Creolen"
+      },
+      "descriptionKo": "작은 후프로 얼굴 가까이에 은은한 포인트를 더해요. 목걸이와 비슷한 금속 톤으로 정리해요.",
+      "descriptionEn": "Add a subtle accent near the face with small earrings, keeping the metal tone coordinated.",
+      "descriptionDe": "Setze mit kleinen Ohrringen einen dezenten Akzent am Gesicht und stimme den Metallton ab.",
+      "image": "products/06-earrings.jpg",
+      "altKo": "미니 골드 허기 후프 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair small simple rounded gold-tone huggie hoop earrings matching visible ear",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-ring",
+      "category": "jewelry",
+      "nameKo": "골드 톤 슬림 링",
+      "nameEn": "Gold-Tone Slim Ring",
+      "nameDe": "Schmaler goldfarbener Ring",
+      "name": {
+        "ko": "골드 톤 슬림 링",
+        "en": "Gold-Tone Slim Ring",
+        "de": "Schmaler goldfarbener Ring"
+      },
+      "descriptionKo": "얇은 링 하나로 손의 디테일을 더해요. 다른 액세서리와 골드 톤을 맞춰요.",
+      "descriptionEn": "Add a single slim ring and coordinate its gold tone with the other accessories.",
+      "descriptionDe": "Ergänze einen einzelnen schmalen Ring und stimme seinen Goldton auf die übrigen Accessoires ab.",
+      "image": "products/07-ring.jpg",
+      "altKo": "골드 톤 슬림 링 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE thin plain gold-tone finger band ring as visible on hand holding pastry, exact metal not established, no hands or extra jewelry",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Hidden backs, linings, waistbands, shirt/sweater bodies and opposite footwear are conservative reconstructions.",
+    "Jewelry backs, posts and clasps are inferred; actual metal composition is unknown.",
+    "Material names describe visual appearance, not verified composition or performance.",
+    "Exact actual and feels-like temperature values are unknown; Chilly is grounded in the source folder."
+  ],
+  "excludedItems": [
+    "Food, drinks, crockery, paper grocery bags and groceries are scene props, excluded from outfit products."
+  ]
+}

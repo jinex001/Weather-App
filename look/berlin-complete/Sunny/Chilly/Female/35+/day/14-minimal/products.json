@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bd15-14-minimal-f",
+  "appOutfitId": "bd15-14-minimal-f",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "editorial.jpg",
+  "sourceEditorial": "../14-minimal.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-22",
+    "basis": "User continued the female day editorial product breakdown and GitHub upload workflow with minimal looks."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "A LINE OF RED",
+    "headlineKo": "어 라인 오브 레드",
+    "headlineDe": "EINE LINIE IN ROT",
+    "captionKo": "카멜과 브라운 위로, 길게 이어지는 레드.",
+    "captionEn": "A long line of red over camel and brown.",
+    "captionDe": "Eine lange rote Linie über Camel und Braun.",
+    "introKo": "카멜 크롭 재킷과 브라운 턴업 팬츠를 차콜 니트로 연결해요. 얇은 레드 스카프를 길게 두르고 다크 브라운 숄더백과 앵클부츠로 톤을 정리해요.",
+    "introEn": "Link a cropped camel jacket and brown turn-up trousers with charcoal knit. Let a lightweight red scarf fall long, then ground the palette with a dark brown bag and ankle boots.",
+    "introDe": "Verbinde eine kurze camelfarbene Jacke und braune Umschlaghosen durch anthrazitfarbenen Strick. Lasse einen leichten roten Schal lang fallen und ergänze eine dunkelbraune Tasche sowie Ankle-Boots."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "카멜 크롭 재킷",
+      "nameEn": "Camel Cropped Jacket",
+      "nameDe": "Kurze camelfarbene Jacke",
+      "name": {
+        "ko": "카멜 크롭 재킷",
+        "en": "Camel Cropped Jacket",
+        "de": "Kurze camelfarbene Jacke"
+      },
+      "descriptionKo": "앞을 열어 안쪽 레이어가 보이게 입어요. 소매와 밑단의 볼륨을 자연스럽게 남겨주세요.",
+      "descriptionEn": "Wear it open to reveal the inner layers, keeping the natural volume of sleeves and hem.",
+      "descriptionDe": "Trage die Jacke offen, damit die inneren Lagen sichtbar bleiben, und lasse Ärmeln und Saum ihr natürliches Volumen.",
+      "image": "products/01-outer.jpg",
+      "altKo": "카멜 크롭 재킷 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "visible-item-reconstructed",
+      "designDescriptionEn": "camel tan wool-look cropped tailored jacket, spread notched collar, two dark brown front buttons, boxy straight body, plain straight sleeves",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 멜란지 니트",
+      "nameEn": "Charcoal Mélange Knit",
+      "nameDe": "Anthrazitfarbener melierter Pullover",
+      "name": {
+        "ko": "차콜 멜란지 니트",
+        "en": "Charcoal Mélange Knit",
+        "de": "Anthrazitfarbener melierter Pullover"
+      },
+      "descriptionKo": "아우터 안에서 니트의 표면을 보여줘요. 밑단을 정돈해 와이드 하의의 여유를 살려요.",
+      "descriptionEn": "Show the knit texture beneath the jacket and keep the hem neat above the wide trousers.",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und ordne den Saum über der weiten Hose.",
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 멜란지 니트 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "dark charcoal heather crewneck long-sleeve sweater, fuzzy fine knit, ribbed cuffs projecting beneath camel jacket, hidden torso conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "브라운 턴업 팬츠",
+      "nameEn": "Brown Turn-Up Trousers",
+      "nameDe": "Braune Hose mit Umschlag",
+      "name": {
+        "ko": "브라운 턴업 팬츠",
+        "en": "Brown Turn-Up Trousers",
+        "de": "Braune Hose mit Umschlag"
+      },
+      "descriptionKo": "넉넉한 통을 접거나 조이지 않고 자연스럽게 떨어뜨려요. 상의 밑단을 정돈해 하의의 실루엣을 드러내요.",
+      "descriptionEn": "Let the generous legs fall naturally and keep the top hem neat so the trouser shape stays visible.",
+      "descriptionDe": "Lasse die weiten Beine natürlich fallen und ordne das Oberteil, damit die Form der Hose sichtbar bleibt.",
+      "image": "products/03-bottom.jpg",
+      "altKo": "브라운 턴업 팬츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "chocolate brown tailored straight trousers with front pleats, thin belt loops, dark waist button and broad turned-up ankle hems as visible over ankle boot, hidden back conservative",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "레드 라이트 스카프",
+      "nameEn": "Red Lightweight Scarf",
+      "nameDe": "Leichter roter Schal",
+      "name": {
+        "ko": "레드 라이트 스카프",
+        "en": "Red Lightweight Scarf",
+        "de": "Leichter roter Schal"
+      },
+      "descriptionKo": "얇은 레드 스카프를 목에 한 번 두르고 끝을 길게 남겨요. 두껍게 말기보다 가벼운 선으로 보여줘요.",
+      "descriptionEn": "Wrap the lightweight red scarf once, leaving long ends rather than building a bulky knot.",
+      "descriptionDe": "Lege den leichten roten Schal einmal um den Hals und lasse lange Enden statt eines dicken Knotens stehen.",
+      "image": "products/04-scarf.jpg",
+      "altKo": "레드 라이트 스카프 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE vivid true red thin soft lightweight long scarf with fine short fringed/tasselled ends, flowing light fabric rather than bulky chunky wool, full scarf laid neatly",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "다크 브라운 숄더백",
+      "nameEn": "Dark Brown Shoulder Bag",
+      "nameDe": "Dunkelbraune Schultertasche",
+      "name": {
+        "ko": "다크 브라운 숄더백",
+        "en": "Dark Brown Shoulder Bag",
+        "de": "Dunkelbraune Schultertasche"
+      },
+      "descriptionKo": "몸 가까이 걸쳐 실루엣을 간결하게 정리해요. 스트랩은 겉옷 위에서 자연스럽게 이어줘요.",
+      "descriptionEn": "Carry close to the body for a clean silhouette, letting the strap sit naturally over the outer layer.",
+      "descriptionDe": "Trage die Tasche nah am Körper und lasse den Riemen natürlich über der äußeren Lage liegen.",
+      "image": "products/05-bag.jpg",
+      "altKo": "다크 브라운 숄더백 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE dark brown smooth leather-look medium shoulder bag with long slim strap, softly structured narrow trapezoid/rounded rectangular body visible at side, conservative hidden rear",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "06-shoes",
+      "category": "shoes",
+      "nameKo": "브라운 앵클부츠",
+      "nameEn": "Brown Ankle Boots",
+      "nameDe": "Braune Ankle-Boots",
+      "name": {
+        "ko": "브라운 앵클부츠",
+        "en": "Brown Ankle Boots",
+        "de": "Braune Ankle-Boots"
+      },
+      "descriptionKo": "턴업 밑단을 부츠 샤프트 위에 자연스럽게 두어요. 팬츠와 부츠의 짙은 브라운을 연결해요.",
+      "descriptionEn": "Let the turn-up hem sit naturally above the boot shaft, linking the dark browns.",
+      "descriptionDe": "Lasse den Umschlag natürlich über dem Stiefelschaft sitzen und verbinde die dunklen Brauntöne.",
+      "image": "products/06-shoes.jpg",
+      "altKo": "브라운 앵클부츠 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair dark chocolate brown smooth leather-look ankle boots, almond toes, low block heels, ankle-height shafts, minimal seams and conservative concealed closure. BOOT COMPOSITION: stand BOTH boots upright on their soles, aligned and turned together slightly for clean THREE-QUARTER view showing toes sides shafts and full silhouette, modest stagger only, NOT overhead and NOT lying down.",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 톤 코인 네크리스",
+      "nameEn": "Gold-Tone Coin Necklace",
+      "nameDe": "Goldfarbene Münzkette",
+      "name": {
+        "ko": "골드 톤 코인 네크리스",
+        "en": "Gold-Tone Coin Necklace",
+        "de": "Goldfarbene Münzkette"
+      },
+      "descriptionKo": "니트 위로 작은 펜던트만 드러내요. 가는 체인으로 목선의 레이어를 가볍게 이어줘요.",
+      "descriptionEn": "Let the small pendant sit over the knit, keeping the neckline light with a fine chain.",
+      "descriptionDe": "Lasse den kleinen Anhänger über dem Strick liegen und halte den Ausschnitt mit einer feinen Kette leicht.",
+      "image": "products/07-jewelry.jpg",
+      "altKo": "골드 톤 코인 네크리스 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE delicate fine gold-tone necklace with small plain round coin pendant visible on charcoal sweater, full chain neat oval",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    },
+    {
+      "id": "08-earrings",
+      "category": "jewelry",
+      "nameKo": "미니 골드 후프",
+      "nameEn": "Mini Gold Hoops",
+      "nameDe": "Kleine goldfarbene Creolen",
+      "name": {
+        "ko": "미니 골드 후프",
+        "en": "Mini Gold Hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "descriptionKo": "작은 후프로 얼굴 가까이에 은은한 포인트를 더해요. 목걸이와 비슷한 금속 톤으로 정리해요.",
+      "descriptionEn": "Add a subtle accent near the face with small earrings, keeping the metal tone coordinated.",
+      "descriptionDe": "Setze mit kleinen Ohrringen einen dezenten Akzent am Gesicht und stimme den Metallton ab.",
+      "image": "products/08-earrings.jpg",
+      "altKo": "미니 골드 후프 - 아이보리 배경의 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "designDescriptionEn": "ONE matching pair small thin gold-tone hoop earrings based on visible ear, no extra jewelry",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null
+    }
+  ],
+  "productCount": 8,
+  "reconstructionNotes": [
+    "Hidden backs, linings, waistbands, shirt/sweater bodies and opposite footwear are conservative reconstructions.",
+    "Jewelry backs, posts and clasps are inferred; actual metal composition is unknown.",
+    "Material names describe visual appearance, not verified composition or performance.",
+    "Exact actual and feels-like temperature values are unknown; Chilly is grounded in the source folder."
+  ],
+  "excludedItems": [
+    "Food, drinks, crockery, paper grocery bags and groceries are scene props, excluded from outfit products.",
+    "Socks are hidden by boots and were not generated."
+  ]
+}
