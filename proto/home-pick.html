@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home Pick</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+/* Mockup: home "Today's Look" + summary follow the look drawn as today's pick (real look/outfits.js data) */
+:root { --ink: #141414; --page: #EDEAE4; --display: "Anton", "Noto Sans KR", sans-serif; --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--sans); letter-spacing: -.02em; }
+.top { max-width: 1320px; margin: 0 auto; padding: 24px 16px 8px; }
+h1 { font: 400 44px/.95 var(--display); letter-spacing: 0; text-transform: uppercase; margin: 0; }
+.lead { font-size: 14px; font-weight: 500; line-height: 1.6; max-width: 640px; margin: 10px 0 0; word-break: keep-all; }
+.ctl { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.seg { display: inline-flex; background: rgba(20,20,20,.08); border-radius: 999px; padding: 3px; }
+.seg button { border: 0; background: none; font: 700 11.5px var(--sans); letter-spacing: .05em; text-transform: uppercase; padding: 8px 12px; border-radius: 999px; color: var(--ink); cursor: pointer; }
+.seg button.on { background: var(--ink); color: #fff; }
+.go { border: 0; background: var(--ink); color: #fff; font: 700 12px var(--sans); letter-spacing: .05em; text-transform: uppercase; padding: 10px 16px; border-radius: 999px; cursor: pointer; }
+.row { max-width: 1320px; margin: 0 auto; padding: 16px; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 20px; }
+.opt h2 { font: 700 13px var(--sans); letter-spacing: .04em; text-transform: uppercase; margin: 0 0 4px; }
+.opt p.why { font-size: 12.5px; font-weight: 500; line-height: 1.5; margin: 0 0 10px; min-height: 38px; word-break: keep-all; }
+.phone { background: var(--bg); color: var(--fg); padding: 22px 22px 26px; min-height: 470px; }
+.city { font-size: 15px; font-weight: 700; } .city small { font-size: 10px; font-weight: 500; margin-left: 6px; }
+.temp { font: 400 120px/.86 var(--display); letter-spacing: -2px; text-align: center; margin-top: 18px; }
+.temp span { font-size: .8em; position: relative; top: -.29em; }
+.cond { text-align: center; font-size: 22px; font-weight: 700; text-transform: uppercase; margin-top: -10px; }
+.feels { display: flex; justify-content: space-between; align-items: end; margin-top: 18px; font-size: 10px; font-weight: 500; letter-spacing: .02em; }
+.feels b { font: 400 40px/1 var(--display); letter-spacing: 0; }
+.peek-k { display: block; font-size: 11px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; margin-top: 24px; }
+.peek-d { display: block; margin-top: 6px; font: 400 52px/.9 var(--display); letter-spacing: 0; text-transform: uppercase; }
+.peek-d.sm { font-size: 40px; }
+.peek-s { display: block; margin-top: 8px; font-size: 13px; font-weight: 600; line-height: 1.45; word-break: keep-all; }
+.peek-s em { font-style: normal; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; font-size: 10.5px; opacity: .75; margin-right: 6px; }
+.summary { display: flex; gap: 7px; margin-top: 20px; font-size: 14px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; word-break: keep-all; }
+.summary i { flex: none; width: 7px; background: #58C4DC; }
+.summary .ed { font-weight: 700; }
+.ref { display: flex; gap: 10px; align-items: center; margin-top: 10px; font-size: 11.5px; font-weight: 500; line-height: 1.4; }
+.ref img { width: 52px; height: 78px; object-fit: cover; flex: none; background: #ddd; }
+.fade { transition: opacity .18s; } .fade.out { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .fade { transition: none; } }
+</style>
+</head>
+<body>
+<div class="top">
+  <h1>Today's Look · 홈 문구 시안</h1>
+  <p class="lead" id="lead"></p>
+  <div class="ctl">
+    <div class="seg" id="sc"></div>
+    <div class="seg" id="g"></div>
+    <div class="seg" id="st"></div>
+    <button class="go" id="go" type="button">다른 룩 뽑기</button>
+  </div>
+</div>
+<div class="row" id="row"></div>
+<script src="../look/outfits.js?v=b116"></script>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), LANG = ["ko", "en", "de"].indexOf(q.get("lang")) >= 0 ? q.get("lang") : "ko";
+  var LIB = window.WX_LOOKS || { outfits: [], items: {} };
+  var BAND = { head: "Layer Up", deck: { ko: "니트 위에 얇은 패딩이나 트렌치.", en: "A knit under a light puffer or trench.", de: "Strick unter leichter Daunenjacke oder Trench." } };
+  // four sample days (sample numbers; the summary sentences are the app's own templates)
+  var SC = [
+    { k: "cloudy", label: "흐린 낮", bg: "#959B9E", fg: "#141414", t: 9, f: 6, sky: "cloudy", eve: false,
+      cond: { ko: "흐림", en: "Overcast", de: "Bedeckt" },
+      sum: { ko: "오늘은 쌀쌀함. 흐림, 최고 11° 최저 5°. 12시간 동안 비 소식은 없어요.", en: "Today: chilly. Overcast, high 11°, low 5°. No rain in the next 12 hours.", de: "Heute: frisch. Bedeckt, max 11°, min 5°. Kein Regen in den nächsten 12 Std." } },
+    { k: "rain", label: "약한 비", bg: "#4F5D6B", fg: "#E6ECF2", t: 10, f: 7, sky: "rain", eve: false,
+      cond: { ko: "약한 비", en: "Light rain", de: "Leichter Regen" },
+      sum: { ko: "오늘은 쌀쌀함. 약한 비, 최고 10° 최저 6°. 지금 비 오는 중, 오후 3시쯤 그쳐요. 우산 꼭 챙겨요.", en: "Today: chilly. Light rain, high 10°, low 6°. Rain now, easing around 3 pm. Don't forget an umbrella.", de: "Heute: frisch. Leichter Regen, max 10°, min 6°. Gerade Regen, lässt gegen 15 Uhr nach. Schirm nicht vergessen." } },
+    { k: "eve", label: "흐린 저녁", bg: "#1B2140", fg: "#F4F1E8", t: 9, f: 6, sky: "cloudy", eve: true,
+      cond: { ko: "흐림", en: "Overcast", de: "Bedeckt" },
+      sum: { ko: "오늘은 쌀쌀함. 흐림, 최고 12° 최저 6°. 12시간 동안 비 소식은 없어요.", en: "Today: chilly. Overcast, high 12°, low 6°. No rain in the next 12 hours.", de: "Heute: frisch. Bedeckt, max 12°, min 6°. Kein Regen in den nächsten 12 Std." } },
+    { k: "clear", label: "맑은 낮", bg: "#F2C14E", fg: "#141414", t: 10, f: 7, sky: "clear", eve: false,
+      cond: { ko: "맑음", en: "Clear", de: "Klar" },
+      sum: { ko: "오늘은 쌀쌀함. 맑음, 최고 12° 최저 3°. 12시간 동안 비 소식은 없어요.", en: "Today: chilly. Clear, high 12°, low 3°. No rain in the next 12 hours.", de: "Heute: frisch. Klar, max 12°, min 3°. Kein Regen in den nächsten 12 Std." } }
+  ];
+  var G = [["m", "남성"], ["f", "여성"]], ST = [["run", "러닝"], ["street", "스트리트"], ["minimal", "미니멀"]];
+  var state = { sc: 0, g: "m", st: "minimal" }, pick = null;
+  var OPTS = [
+    { id: "now", h: "지금 (b116)", why: "단계 헤드라인 LAYER UP과 단계 기본 한 줄 요약. 어떤 룩이 뽑혀도 같은 글자." },
+    { id: "A", h: "A · 헤드라인 = 룩 타이틀", why: "큰 글자를 오늘 뽑힌 룩의 타이틀로. 요약 끝 옷차림 한 줄도 그 룩의 캡션으로." },
+    { id: "B", h: "B · 단계 + 오늘의 픽 한 줄", why: "LAYER UP은 그대로 두고 그 아래에 TODAY'S PICK · 룩 타이틀과 캡션 한 줄. 요약은 날씨만." },
+    { id: "C", h: "C · 요약을 에디토리얼로", why: "헤드라인은 룩 타이틀, 요약은 날씨 문장 대신 그 룩의 캡션 + 인트로(b111처럼 잡지 문단)." }
+  ];
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  function pool() {
+    var s = SC[state.sc];
+    var mine = LIB.outfits.filter(function (o) { return o.style === state.st && o.gender === state.g && o.bands.indexOf("chilly") >= 0; });
+    var timed = mine.filter(function (o) { return (o.time === "evening") === s.eve; });
+    var list = (timed.length ? timed : mine).filter(function (o) { return s.sky === "rain" ? o.sky === "rain" && o.rain === "light" : o.sky === s.sky || o.sky === "any"; });
+    return list;
+  }
+  function draw() { var p = pool(); pick = p.length ? p[Math.floor(Math.random() * p.length)] : null; }
+  function title(o) { return o && o.article ? o.article.title : BAND.head; }
+  function deck(o) { return o ? o.deck[LANG] : BAND.deck[LANG]; }
+  function intro(o) { return o && o.article ? o.article.intro[LANG] : ""; }
+  function phone(opt) {
+    var s = SC[state.sc], o = pick, peek, sum;
+    var weather = s.sum[LANG];
+    if (opt === "now") {
+      peek = '<span class="peek-d">' + esc(BAND.head) + "</span>";
+      sum = weather + " " + BAND.deck[LANG];
+    } else if (opt === "A") {
+      peek = '<span class="peek-d' + (title(o).length > 16 ? " sm" : "") + ' fade">' + esc(title(o)) + "</span>";
+      sum = weather + " " + esc(deck(o));
+    } else if (opt === "B") {
+      peek = '<span class="peek-d">' + esc(BAND.head) + '</span><span class="peek-s fade"><em>Today\'s pick</em>' + esc(o && o.article ? title(o) + " — " : "") + esc(deck(o)) + "</span>";
+      sum = weather;
+    } else {
+      peek = '<span class="peek-d' + (title(o).length > 16 ? " sm" : "") + ' fade">' + esc(title(o)) + "</span>";
+      sum = '<span class="ed fade">' + esc(deck(o) + (intro(o) ? " " + intro(o) : "")) + "</span>";
+    }
+    return '<div class="phone" style="--bg:' + s.bg + ";--fg:" + s.fg + '">' +
+      '<div class="city">' + (LANG === "ko" ? "베를린" : "Berlin") + "<small>" + { ko: "10월 22일 (목)", en: "Thu, 22 Oct", de: "Do., 22. Okt." }[LANG] + " · " + (s.eve ? "19:40" : "12:10") + "</small></div>" +
+      '<div class="temp">' + s.t + "<span>°</span></div><div class=\"cond\">" + esc(s.cond[LANG]) + "</div>" +
+      '<div class="feels"><span>' + (LANG === "ko" ? "체감온도<br>쌀쌀함" : LANG === "de" ? "GEFÜHLT<br>FRISCH" : "FEELS LIKE<br>CHILLY") + "</span><b>" + s.f + "°</b></div>" +
+      '<span class="peek-k">Today\'s Look</span>' + peek +
+      '<div class="summary"><i></i><span>' + sum + "</span></div></div>";
+  }
+  function paint(fadeOnly) {
+    var row = document.getElementById("row");
+    var ref = pick ? '<div class="ref"><img src="../' + pick.image + '" alt=""><span>시트 첫 장(오늘의 추천)<br><b>' + esc(title(pick)) + "</b><br>" + esc(pick.id) + "</span></div>"
+                   : '<div class="ref"><span>이 조합은 세트가 없어 시트는 COMING SOON 플레이스홀더.<br>홈은 단계 문구 그대로.</span></div>';
+    row.innerHTML = OPTS.map(function (x) {
+      return '<div class="opt"><h2>' + x.h + '</h2><p class="why">' + x.why + "</p>" + phone(x.id) + (x.id === "now" ? "" : ref) + "</div>";
+    }).join("");
+  }
+  function segs() {
+    function seg(id, items, key) {
+      document.getElementById(id).innerHTML = items.map(function (it, i) {
+        var v = key === "sc" ? i : it[0];
+        return '<button type="button" data-v="' + v + '" class="' + (state[key] === v ? "on" : "") + '">' + (key === "sc" ? it.label : it[1]) + "</button>";
+      }).join("");
+      document.getElementById(id).onclick = function (e) {
+        var b = e.target.closest("button"); if (!b) return;
+        state[key] = key === "sc" ? +b.dataset.v : b.dataset.v; segs(); draw(); paint();
+      };
+    }
+    seg("sc", SC, "sc"); seg("g", G, "g"); seg("st", ST, "st");
+  }
+  document.getElementById("lead").textContent = "홈의 TODAY'S LOOK 글자와 날씨 요약을, 앱을 열 때 랜덤으로 뽑힌 오늘의 추천 룩(시트 첫 장)에 맞춰 바꾸는 시안. 실제 룩 데이터, '다른 룩 뽑기'를 누르면 앱을 다시 연 것처럼 새로 뽑아요. ?lang=en / de 로 영어·독일어.";
+  document.getElementById("go").onclick = function () {
+    [].forEach.call(document.querySelectorAll(".fade"), function (el) { el.classList.add("out"); });
+    setTimeout(function () { draw(); paint(); }, 180);
+  };
+  segs(); draw(); paint();
+})();
+</script>
+</body>
+</html>
