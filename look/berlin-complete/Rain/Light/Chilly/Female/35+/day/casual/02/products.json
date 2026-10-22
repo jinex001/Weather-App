@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.1",
+  "id": "bl-light-chilly-f-35-day-casual-02",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "casual",
+  "appStyle": null,
+  "appOutfitId": null,
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "wind": "cold gusts",
+    "windSpeedKmh": null,
+    "source": "User styling brief and approved editorial concept; not live weather data.",
+    "assumptions": [
+      "Light rain and daytime continue the approved editorial setting.",
+      "Actual air temperature and measured wind speed were not provided."
+    ]
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved all five casual rain editorials and requested individual product images plus English, German and Korean HOW TO WEAR copy.",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "mappingNote": "casual is an asset collection label; the current app supports run/street/minimal. Decide app style before integration; do not silently map to street.",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "MOSS UNDER THE CANOPY",
+    "deck": {
+      "en": "A chocolate aviator jacket and moss knit brighten a rainy café stop.",
+      "de": "Schokobraune Fliegerjacke und moosgrüner Strick beim Café-Stopp im Regen.",
+      "ko": "초콜릿 재킷과 모스 그린 니트로 빗속 카페 앞을 경쾌하게."
+    },
+    "article": {
+      "title": "MOSS UNDER THE CANOPY",
+      "intro": {
+        "en": "Pair the substantial chocolate aviator jacket with a fluffy moss knit and wide sand corduroy trousers. Keep the soft collar close around the neck and balance the generous trousers with compact brown boots. An olive shoulder bag repeats the knit’s earthy tone; the umbrella adds cover for the short café stop.",
+        "de": "Kombiniere die warme schokobraune Fliegerjacke mit flauschigem moosgrünem Strick und einer weiten sandfarbenen Cordhose. Der weiche Kragen liegt nah am Hals, kompakte braune Boots gleichen die weite Hose aus. Die olivgrüne Schultertasche greift den Erdton des Pullovers auf; am Café schützt zusätzlich ein Schirm.",
+        "ko": "도톰한 초콜릿 에비에이터 재킷에 보송한 모스 그린 니트와 샌드 와이드 코듀로이 팬츠를 맞춰 주세요. 부드러운 칼라는 목 가까이 세우고, 넓은 바짓단 아래는 단정한 브라운 부츠로 잡아 주세요. 올리브 숄더백으로 니트의 자연스러운 색을 이어 주고, 카페 앞에서는 우산을 더합니다."
+      },
+      "tip": {
+        "en": "Let the wide hems clear the pavement and keep the fluffy knit protected beneath the jacket.",
+        "de": "Die weiten Säume sollten nicht aufliegen; schütze den flauschigen Strick unter der Jacke.",
+        "ko": "넓은 바짓단은 바닥에 끌리지 않게, 보송한 니트는 재킷 안으로 보호해 주세요."
+      }
+    },
+    "captionKo": "초콜릿 재킷과 모스 그린 니트로 빗속 카페 앞을 경쾌하게.",
+    "introKo": "도톰한 초콜릿 에비에이터 재킷에 보송한 모스 그린 니트와 샌드 와이드 코듀로이 팬츠를 맞춰 주세요. 부드러운 칼라는 목 가까이 세우고, 넓은 바짓단 아래는 단정한 브라운 부츠로 잡아 주세요. 올리브 숄더백으로 니트의 자연스러운 색을 이어 주고, 카페 앞에서는 우산을 더합니다.",
+    "tipKo": "넓은 바짓단은 바닥에 끌리지 않게, 보송한 니트는 재킷 안으로 보호해 주세요.",
+    "piecesLabel": "THE PIECES"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "en": "Chocolate shearling-look aviator jacket",
+        "de": "Schokobraune Fliegerjacke in Lammfelloptik",
+        "ko": "초콜릿 시어링 룩 에비에이터 재킷"
+      },
+      "note": {
+        "en": "Layer over a thick knit with room to move; choose verified rain protection for actual use.",
+        "de": "Über dickem Strick mit Bewegungsfreiheit tragen; für den Alltag ausgewiesenen Regenschutz wählen.",
+        "ko": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요."
+      },
+      "nameKo": "초콜릿 시어링 룩 에비에이터 재킷",
+      "descriptionKo": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요.",
+      "designDescriptionEn": "Chocolate brown matte leather-effect shearling-lined aviator jacket with substantial cream shearling collar",
+      "image": "products/01-outer.jpg",
+      "backgroundColor": "#F3EEE7",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "en": "Moss fluffy knit",
+        "de": "Moosgrüner Flauschpullover",
+        "ko": "모스 그린 플러피 니트"
+      },
+      "note": {
+        "en": "Wear beneath the outer layer; keep the fluffy texture sheltered from the rain.",
+        "de": "Unter der Jacke tragen und die flauschige Struktur vor Regen schützen.",
+        "ko": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요."
+      },
+      "nameKo": "모스 그린 플러피 니트",
+      "descriptionKo": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요.",
+      "designDescriptionEn": "Moss green fluffy brushed mohair-effect crewneck sweater",
+      "image": "products/02-top.jpg",
+      "backgroundColor": "#F4EEE8",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "en": "Sand wide-leg corduroy trousers",
+        "de": "Sandfarbene weite Cordhose",
+        "ko": "샌드 와이드 코듀로이 팬츠"
+      },
+      "note": {
+        "en": "Keep the full-length hem clear of wet pavement and overlap it with socks or boots.",
+        "de": "Den langen Saum über dem nassen Pflaster halten und mit Socken oder Boots überlappen lassen.",
+        "ko": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요."
+      },
+      "nameKo": "샌드 와이드 코듀로이 팬츠",
+      "descriptionKo": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요.",
+      "designDescriptionEn": "Sand wide-leg corduroy full-length trousers",
+      "image": "products/03-bottom.jpg",
+      "backgroundColor": "#F6F1EB",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "name": {
+        "en": "Brown ribbed socks",
+        "de": "Braune Rippstrümpfe",
+        "ko": "브라운 골지 양말"
+      },
+      "note": {
+        "en": "Let the socks cover the ankle inside the boots.",
+        "de": "Die Socken bedecken die Knöchel in den Boots.",
+        "ko": "부츠 안에서 발목을 충분히 덮어 주세요."
+      },
+      "nameKo": "브라운 골지 양말",
+      "descriptionKo": "부츠 안에서 발목을 충분히 덮어 주세요.",
+      "designDescriptionEn": "Brown ribbed warm socks",
+      "image": "products/04-socks.jpg",
+      "backgroundColor": "#F3EEE8",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "컷 밖 품목, 초기 스타일링 기획을 바탕으로 추정; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "name": {
+        "en": "Brown lace-up ankle boots",
+        "de": "Braune Schnürboots",
+        "ko": "브라운 레이스업 앵클 부츠"
+      },
+      "note": {
+        "en": "Wear with warm socks; look for verified water resistance and a grippy sole in real products.",
+        "de": "Mit warmen Socken tragen; bei echten Produkten auf ausgewiesenen Nässeschutz und eine griffige Sohle achten.",
+        "ko": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요."
+      },
+      "nameKo": "브라운 레이스업 앵클 부츠",
+      "descriptionKo": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요.",
+      "designDescriptionEn": "Dark brown flat waterproof-look lace-up ankle boots with grip rubber soles",
+      "image": "products/05-shoes.jpg",
+      "backgroundColor": "#F5EFE6",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "컷 밖 품목, 초기 스타일링 기획을 바탕으로 추정; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "name": {
+        "en": "Olive canvas shoulder bag",
+        "de": "Olivgrüne Canvas-Schultertasche",
+        "ko": "올리브 캔버스 숄더백"
+      },
+      "note": {
+        "en": "Keep the bag close to the body and protect its contents from rain.",
+        "de": "Die Tasche nah am Körper tragen und den Inhalt vor Regen schützen.",
+        "ko": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요."
+      },
+      "nameKo": "올리브 캔버스 숄더백",
+      "descriptionKo": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요.",
+      "designDescriptionEn": "Olive canvas rounded crescent shoulder sling bag",
+      "image": "products/06-bag.jpg",
+      "backgroundColor": "#F6F1EB",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "07-umbrella",
+      "category": "accessory",
+      "name": {
+        "en": "Black straight-handle umbrella",
+        "de": "Schwarzer Schirm mit geradem Griff",
+        "ko": "블랙 스트레이트 핸들 우산"
+      },
+      "note": {
+        "en": "Use for rain cover; favor a hood when gusts make holding it awkward.",
+        "de": "Als Regenschutz nutzen; bei unhandlichen Böen die Kapuze bevorzugen.",
+        "ko": "비를 가릴 때 쓰고 돌풍으로 들기 불편해지면 후드를 활용해 주세요."
+      },
+      "nameKo": "블랙 스트레이트 핸들 우산",
+      "descriptionKo": "비를 가릴 때 쓰고 돌풍으로 들기 불편해지면 후드를 활용해 주세요.",
+      "designDescriptionEn": "Plain black umbrella with straight black handle",
+      "image": "products/07-umbrella.jpg",
+      "backgroundColor": "#F5F0E9",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    }
+  ],
+  "productCount": 7,
+  "contentType": "ai-styled-concept",
+  "sceneProps": [],
+  "productionReferences": {
+    "finalEditorial": "editorial.jpg",
+    "reconstructionSource": "The approved editorial is the only image reference. Outside-crop products are inferred from the original styling brief; there is no separate full-body reference."
+  }
+}

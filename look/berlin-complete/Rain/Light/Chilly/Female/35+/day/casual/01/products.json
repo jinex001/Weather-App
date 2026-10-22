@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.1",
+  "id": "bl-light-chilly-f-35-day-casual-01",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "casual",
+  "appStyle": null,
+  "appOutfitId": null,
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "wind": "cold gusts",
+    "windSpeedKmh": null,
+    "source": "User styling brief and approved editorial concept; not live weather data.",
+    "assumptions": [
+      "Light rain and daytime continue the approved editorial setting.",
+      "Actual air temperature and measured wind speed were not provided."
+    ]
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved all five casual rain editorials and requested individual product images plus English, German and Korean HOW TO WEAR copy.",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "mappingNote": "casual is an asset collection label; the current app supports run/street/minimal. Decide app style before integration; do not silently map to street.",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "HOLD ON TO YOUR BEANIE",
+    "deck": {
+      "en": "Navy quilting, ecru knit and a beanie held against the breeze.",
+      "de": "Marineblaue Steppung, ecrufarbener Strick und eine Mütze gegen den Wind.",
+      "ko": "네이비 퀼팅에 에크루 니트, 바람에 날아갈 비니를 잡는 순간."
+    },
+    "article": {
+      "title": "HOLD ON TO YOUR BEANIE",
+      "intro": {
+        "en": "Layer the ecru half-zip knit under the navy quilted jacket and zip the neckline high when the breeze picks up. Straight indigo jeans keep the shape easy, while warm socks bridge the gap to brown Chelsea boots. The beanie covers the ears and the small crossbody keeps both hands free.",
+        "de": "Trage den ecrufarbenen Troyer unter der marineblauen Steppjacke und ziehe den Kragen bei Wind hoch. Gerade Indigojeans halten die Silhouette entspannt; warme Socken schließen die Lücke zu den braunen Chelsea-Boots. Die Mütze bedeckt die Ohren, die kleine Crossbody lässt die Hände frei.",
+        "ko": "네이비 퀼팅 재킷 안에 에크루 하프집 니트를 입고, 바람이 불면 지퍼를 올려 목을 감싸 주세요. 인디고 스트레이트 진으로 편안한 선을 만들고, 따뜻한 양말을 브라운 첼시 부츠까지 이어 주세요. 비니는 귀를 덮고 작은 크로스보디 백은 두 손을 가볍게 해줍니다."
+      },
+      "tip": {
+        "en": "Keep the half-zip high outdoors and lower it indoors to adjust the warmth.",
+        "de": "Draußen den Troyer hoch schließen, drinnen den Reißverschluss für weniger Wärme öffnen.",
+        "ko": "밖에서는 하프집을 올리고 실내에서는 내려서 따뜻함을 조절해 주세요."
+      }
+    },
+    "captionKo": "네이비 퀼팅에 에크루 니트, 바람에 날아갈 비니를 잡는 순간.",
+    "introKo": "네이비 퀼팅 재킷 안에 에크루 하프집 니트를 입고, 바람이 불면 지퍼를 올려 목을 감싸 주세요. 인디고 스트레이트 진으로 편안한 선을 만들고, 따뜻한 양말을 브라운 첼시 부츠까지 이어 주세요. 비니는 귀를 덮고 작은 크로스보디 백은 두 손을 가볍게 해줍니다.",
+    "tipKo": "밖에서는 하프집을 올리고 실내에서는 내려서 따뜻함을 조절해 주세요.",
+    "piecesLabel": "THE PIECES"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "en": "Navy quilted barn jacket",
+        "de": "Marineblaue Steppjacke",
+        "ko": "네이비 퀼팅 워크 재킷"
+      },
+      "note": {
+        "en": "Layer over a thick knit with room to move; choose verified rain protection for actual use.",
+        "de": "Über dickem Strick mit Bewegungsfreiheit tragen; für den Alltag ausgewiesenen Regenschutz wählen.",
+        "ko": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요."
+      },
+      "nameKo": "네이비 퀼팅 워크 재킷",
+      "descriptionKo": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요.",
+      "designDescriptionEn": "Navy diamond quilted insulated barn jacket, black corduroy collar, gold buttons",
+      "image": "products/01-outer.jpg",
+      "backgroundColor": "#F6F2EA",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "en": "Ecru half-zip knit",
+        "de": "Ecrufarbener Troyer",
+        "ko": "에크루 하프집 니트"
+      },
+      "note": {
+        "en": "Wear beneath the outer layer; keep the fluffy texture sheltered from the rain.",
+        "de": "Unter der Jacke tragen und die flauschige Struktur vor Regen schützen.",
+        "ko": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요."
+      },
+      "nameKo": "에크루 하프집 니트",
+      "descriptionKo": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요.",
+      "designDescriptionEn": "Ecru chunky half-zip high-neck sweater with silver zip",
+      "image": "products/02-top.jpg",
+      "backgroundColor": "#F3EEE8",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "en": "Washed indigo straight jeans",
+        "de": "Indigoblaue Straight-Jeans",
+        "ko": "워시드 인디고 스트레이트 진"
+      },
+      "note": {
+        "en": "Keep the full-length hem clear of wet pavement and overlap it with socks or boots.",
+        "de": "Den langen Saum über dem nassen Pflaster halten und mit Socken oder Boots überlappen lassen.",
+        "ko": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요."
+      },
+      "nameKo": "워시드 인디고 스트레이트 진",
+      "descriptionKo": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요.",
+      "designDescriptionEn": "Washed indigo relaxed straight full-length jeans",
+      "image": "products/03-bottom.jpg",
+      "backgroundColor": "#F4EFE9",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "name": {
+        "en": "Navy ribbed socks",
+        "de": "Marineblaue Rippstrümpfe",
+        "ko": "네이비 골지 양말"
+      },
+      "note": {
+        "en": "Let the socks cover the ankle inside the boots.",
+        "de": "Die Socken bedecken die Knöchel in den Boots.",
+        "ko": "부츠 안에서 발목을 충분히 덮어 주세요."
+      },
+      "nameKo": "네이비 골지 양말",
+      "descriptionKo": "부츠 안에서 발목을 충분히 덮어 주세요.",
+      "designDescriptionEn": "Navy ribbed warm socks",
+      "image": "products/04-socks.jpg",
+      "backgroundColor": "#F6F2EB",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "일부만 보이는 품목, 전체 형태는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "name": {
+        "en": "Dark brown Chelsea boots",
+        "de": "Dunkelbraune Chelsea-Boots",
+        "ko": "다크 브라운 첼시 부츠"
+      },
+      "note": {
+        "en": "Wear with warm socks; look for verified water resistance and a grippy sole in real products.",
+        "de": "Mit warmen Socken tragen; bei echten Produkten auf ausgewiesenen Nässeschutz und eine griffige Sohle achten.",
+        "ko": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요."
+      },
+      "nameKo": "다크 브라운 첼시 부츠",
+      "descriptionKo": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요.",
+      "designDescriptionEn": "Dark brown smooth leather flat Chelsea ankle boots with rubber soles",
+      "image": "products/05-shoes.jpg",
+      "backgroundColor": "#F3F0E9",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "name": {
+        "en": "Brown crossbody bag",
+        "de": "Braune Crossbody-Tasche",
+        "ko": "브라운 크로스보디 백"
+      },
+      "note": {
+        "en": "Keep the bag close to the body and protect its contents from rain.",
+        "de": "Die Tasche nah am Körper tragen und den Inhalt vor Regen schützen.",
+        "ko": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요."
+      },
+      "nameKo": "브라운 크로스보디 백",
+      "descriptionKo": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요.",
+      "designDescriptionEn": "Small dark brown rectangular leather crossbody bag with buckle and long strap",
+      "image": "products/06-bag.jpg",
+      "backgroundColor": "#F5F0EA",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "07-headwear",
+      "category": "headwear",
+      "name": {
+        "en": "Ecru ribbed beanie",
+        "de": "Ecrufarbene Rippmütze",
+        "ko": "에크루 골지 비니"
+      },
+      "note": {
+        "en": "Pull the beanie down over the ears.",
+        "de": "Die Mütze über die Ohren ziehen.",
+        "ko": "귀를 덮도록 내려 써 주세요."
+      },
+      "nameKo": "에크루 골지 비니",
+      "descriptionKo": "귀를 덮도록 내려 써 주세요.",
+      "designDescriptionEn": "Ecru ribbed knit beanie",
+      "image": "products/07-headwear.jpg",
+      "backgroundColor": "#F2EDE7",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    }
+  ],
+  "productCount": 7,
+  "contentType": "ai-styled-concept",
+  "sceneProps": [],
+  "productionReferences": {
+    "finalEditorial": "editorial.jpg",
+    "reconstructionSource": "The approved editorial is the only image reference. Outside-crop products are inferred from the original styling brief; there is no separate full-body reference."
+  }
+}

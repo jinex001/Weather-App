@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.1",
+  "id": "bl-light-chilly-f-35-day-casual-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "casual",
+  "appStyle": null,
+  "appOutfitId": null,
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "wind": "cold gusts",
+    "windSpeedKmh": null,
+    "source": "User styling brief and approved editorial concept; not live weather data.",
+    "assumptions": [
+      "Light rain and daytime continue the approved editorial setting.",
+      "Actual air temperature and measured wind speed were not provided."
+    ]
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved all five casual rain editorials and requested individual product images plus English, German and Korean HOW TO WEAR copy.",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "mappingNote": "casual is an asset collection label; the current app supports run/street/minimal. Decide app style before integration; do not silently map to street.",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "ONE MORE BAKERY STOP",
+    "deck": {
+      "en": "A black barn jacket, camel scarf and oxblood boots for the walk home.",
+      "de": "Schwarze Barn-Jacke, Camelschal und bordeauxrote Boots für den Heimweg.",
+      "ko": "블랙 워크 재킷과 카멜 머플러, 돌아가는 길에는 옥스블러드 부츠."
+    },
+    "article": {
+      "title": "ONE MORE BAKERY STOP",
+      "intro": {
+        "en": "Layer the oatmeal chunky knit under the short black barn jacket and wrap the camel scarf inside the collar. Washed gray jeans keep the outfit relaxed; oxblood Chelsea boots add depth without a loud contrast. Keep the hem off wet paving and carry the tote close beneath the umbrella.",
+        "de": "Trage den haferfarbenen Grobstrick unter der kurzen schwarzen Barn-Jacke und lege den Camelschal in den Kragen. Verwaschene graue Jeans wirken entspannt, bordeauxrote Chelsea-Boots geben dem Look Tiefe. Die Säume bleiben über dem nassen Pflaster, der Shopper nah am Körper unter dem Schirm.",
+        "ko": "짧은 블랙 워크 재킷 안에 오트밀 청키 니트를 겹치고 카멜 머플러를 칼라 안쪽으로 둘러 주세요. 워시드 그레이 진으로 힘을 빼고 옥스블러드 첼시 부츠로 깊이를 더합니다. 바짓단은 젖은 바닥에서 살짝 띄우고 토트백은 우산 아래 몸 가까이 들어 주세요."
+      },
+      "tip": {
+        "en": "Tuck the scarf ends into the jacket before stepping back into the wind.",
+        "de": "Stecke die Schalenden in die Jacke, bevor du wieder in den Wind trittst.",
+        "ko": "다시 바람 속으로 나가기 전에 머플러 끝을 재킷 안에 넣어 주세요."
+      }
+    },
+    "captionKo": "블랙 워크 재킷과 카멜 머플러, 돌아가는 길에는 옥스블러드 부츠.",
+    "introKo": "짧은 블랙 워크 재킷 안에 오트밀 청키 니트를 겹치고 카멜 머플러를 칼라 안쪽으로 둘러 주세요. 워시드 그레이 진으로 힘을 빼고 옥스블러드 첼시 부츠로 깊이를 더합니다. 바짓단은 젖은 바닥에서 살짝 띄우고 토트백은 우산 아래 몸 가까이 들어 주세요.",
+    "tipKo": "다시 바람 속으로 나가기 전에 머플러 끝을 재킷 안에 넣어 주세요.",
+    "piecesLabel": "THE PIECES"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "en": "Black insulated barn jacket",
+        "de": "Schwarze gefütterte Barn-Jacke",
+        "ko": "블랙 보온 워크 재킷"
+      },
+      "note": {
+        "en": "Layer over a thick knit with room to move; choose verified rain protection for actual use.",
+        "de": "Über dickem Strick mit Bewegungsfreiheit tragen; für den Alltag ausgewiesenen Regenschutz wählen.",
+        "ko": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요."
+      },
+      "nameKo": "블랙 보온 워크 재킷",
+      "descriptionKo": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요.",
+      "designDescriptionEn": "Black insulated short barn jacket with black corduroy collar",
+      "image": "products/01-outer.jpg",
+      "backgroundColor": "#F4F0E8",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "en": "Oatmeal chunky knit",
+        "de": "Haferfarbener Grobstrickpullover",
+        "ko": "오트밀 청키 니트"
+      },
+      "note": {
+        "en": "Wear beneath the outer layer; keep the fluffy texture sheltered from the rain.",
+        "de": "Unter der Jacke tragen und die flauschige Struktur vor Regen schützen.",
+        "ko": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요."
+      },
+      "nameKo": "오트밀 청키 니트",
+      "descriptionKo": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요.",
+      "designDescriptionEn": "Oatmeal chunky plush crewneck sweater",
+      "image": "products/02-top.jpg",
+      "backgroundColor": "#F3EEE8",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "일부만 보이는 품목, 전체 형태는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "en": "Washed gray straight jeans",
+        "de": "Verwaschene graue Straight-Jeans",
+        "ko": "워시드 그레이 스트레이트 진"
+      },
+      "note": {
+        "en": "Keep the full-length hem clear of wet pavement and overlap it with socks or boots.",
+        "de": "Den langen Saum über dem nassen Pflaster halten und mit Socken oder Boots überlappen lassen.",
+        "ko": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요."
+      },
+      "nameKo": "워시드 그레이 스트레이트 진",
+      "descriptionKo": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요.",
+      "designDescriptionEn": "Washed gray straight full-length jeans",
+      "image": "products/03-bottom.jpg",
+      "backgroundColor": "#F5F1EA",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "name": {
+        "en": "Charcoal ribbed socks",
+        "de": "Anthrazitfarbene Rippstrümpfe",
+        "ko": "차콜 골지 양말"
+      },
+      "note": {
+        "en": "Let the socks cover the ankle inside the boots.",
+        "de": "Die Socken bedecken die Knöchel in den Boots.",
+        "ko": "부츠 안에서 발목을 충분히 덮어 주세요."
+      },
+      "nameKo": "차콜 골지 양말",
+      "descriptionKo": "부츠 안에서 발목을 충분히 덮어 주세요.",
+      "designDescriptionEn": "Charcoal ribbed warm socks",
+      "image": "products/04-socks.jpg",
+      "backgroundColor": "#F5F1EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "일부만 보이는 품목, 전체 형태는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "name": {
+        "en": "Oxblood Chelsea boots",
+        "de": "Bordeauxrote Chelsea-Boots",
+        "ko": "옥스블러드 첼시 부츠"
+      },
+      "note": {
+        "en": "Wear with warm socks; look for verified water resistance and a grippy sole in real products.",
+        "de": "Mit warmen Socken tragen; bei echten Produkten auf ausgewiesenen Nässeschutz und eine griffige Sohle achten.",
+        "ko": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요."
+      },
+      "nameKo": "옥스블러드 첼시 부츠",
+      "descriptionKo": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요.",
+      "designDescriptionEn": "Oxblood burgundy flat leather Chelsea ankle boots with rubber soles",
+      "image": "products/05-shoes.jpg",
+      "backgroundColor": "#F4EFE9",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "name": {
+        "en": "Black canvas tote",
+        "de": "Schwarzer Canvas-Shopper",
+        "ko": "블랙 캔버스 토트백"
+      },
+      "note": {
+        "en": "Keep the bag close to the body and protect its contents from rain.",
+        "de": "Die Tasche nah am Körper tragen und den Inhalt vor Regen schützen.",
+        "ko": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요."
+      },
+      "nameKo": "블랙 캔버스 토트백",
+      "descriptionKo": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요.",
+      "designDescriptionEn": "Black canvas shoulder tote",
+      "image": "products/06-bag.jpg",
+      "backgroundColor": "#F4F0EA",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "07-scarf",
+      "category": "scarf",
+      "name": {
+        "en": "Camel fringed scarf",
+        "de": "Camelfarbener Fransenschal",
+        "ko": "카멜 프린지 머플러"
+      },
+      "note": {
+        "en": "Wrap close to the neck and tuck loose ends inside the jacket.",
+        "de": "Nah am Hals wickeln und lose Enden in die Jacke stecken.",
+        "ko": "목 가까이 두르고 느슨한 끝은 재킷 안으로 넣어 주세요."
+      },
+      "nameKo": "카멜 프린지 머플러",
+      "descriptionKo": "목 가까이 두르고 느슨한 끝은 재킷 안으로 넣어 주세요.",
+      "designDescriptionEn": "Camel warm wool-texture fringed scarf",
+      "image": "products/07-scarf.jpg",
+      "backgroundColor": "#F3EEE8",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "08-umbrella",
+      "category": "accessory",
+      "name": {
+        "en": "Black straight-handle umbrella",
+        "de": "Schwarzer Schirm mit geradem Griff",
+        "ko": "블랙 스트레이트 핸들 우산"
+      },
+      "note": {
+        "en": "Use for rain cover; favor a hood when gusts make holding it awkward.",
+        "de": "Als Regenschutz nutzen; bei unhandlichen Böen die Kapuze bevorzugen.",
+        "ko": "비를 가릴 때 쓰고 돌풍으로 들기 불편해지면 후드를 활용해 주세요."
+      },
+      "nameKo": "블랙 스트레이트 핸들 우산",
+      "descriptionKo": "비를 가릴 때 쓰고 돌풍으로 들기 불편해지면 후드를 활용해 주세요.",
+      "designDescriptionEn": "Plain black umbrella with straight black handle",
+      "image": "products/08-umbrella.jpg",
+      "backgroundColor": "#F4EFE9",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    }
+  ],
+  "productCount": 8,
+  "contentType": "ai-styled-concept",
+  "sceneProps": [],
+  "productionReferences": {
+    "finalEditorial": "editorial.jpg",
+    "reconstructionSource": "The approved editorial is the only image reference. Outside-crop products are inferred from the original styling brief; there is no separate full-body reference."
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.1",
+  "id": "bl-light-chilly-f-35-day-casual-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "casual",
+  "appStyle": null,
+  "appOutfitId": null,
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "wind": "cold gusts",
+    "windSpeedKmh": null,
+    "source": "User styling brief and approved editorial concept; not live weather data.",
+    "assumptions": [
+      "Light rain and daytime continue the approved editorial setting.",
+      "Actual air temperature and measured wind speed were not provided."
+    ]
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved all five casual rain editorials and requested individual product images plus English, German and Korean HOW TO WEAR copy.",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "pending",
+  "mappingNote": "casual is an asset collection label; the current app supports run/street/minimal. Decide app style before integration; do not silently map to street.",
+  "editorialImage": "editorial.jpg",
+  "copy": {
+    "eyebrow": "HOW TO WEAR",
+    "headlineEn": "COZY IN THE GUST",
+    "deck": {
+      "en": "An olive hood, crimson knit and a scarf pulled close.",
+      "de": "Olivgrüne Kapuze, tiefroter Strick und ein eng gewickelter Schal.",
+      "ko": "올리브 후드 속 크림슨 니트, 목에는 포근한 차콜 머플러."
+    },
+    "article": {
+      "title": "COZY IN THE GUST",
+      "intro": {
+        "en": "Let the olive puffer provide the volume and keep the crimson knit as a small warm flash of color. Wrap the charcoal scarf close, lift the hood, and keep the crossbody bag compact. Dark indigo jeans, warm black socks and flat lace-up boots complete the lower half proposed in the styling brief.",
+        "de": "Die olivgrüne Steppjacke bringt Volumen, der tiefrote Pullover setzt einen kleinen warmen Farbakzent. Wickle den anthrazitfarbenen Schal eng, setze die Kapuze auf und halte die Crossbody kompakt. Dunkle Indigojeans, warme schwarze Socken und flache Schnürboots ergänzen den im Styling vorgesehenen unteren Teil.",
+        "ko": "올리브 푸퍼로 볼륨을 만들고 크림슨 니트는 작지만 따뜻한 컬러 포인트로 보여 주세요. 차콜 머플러를 목 가까이 두르고 후드를 올린 뒤, 작은 크로스보디 백으로 정리합니다. 하의는 스타일링 기획에 맞춰 다크 인디고 진과 블랙 보온 양말, 플랫 레이스업 부츠를 연결해 주세요."
+      },
+      "tip": {
+        "en": "Keep the hood and scarf close without covering the crimson color at the neckline completely.",
+        "de": "Kapuze und Schal liegen nah an, ein wenig Rot darf am Ausschnitt sichtbar bleiben.",
+        "ko": "후드와 머플러를 가까이 여미되 목 아래 붉은 니트는 조금 남겨 주세요."
+      }
+    },
+    "captionKo": "올리브 후드 속 크림슨 니트, 목에는 포근한 차콜 머플러.",
+    "introKo": "올리브 푸퍼로 볼륨을 만들고 크림슨 니트는 작지만 따뜻한 컬러 포인트로 보여 주세요. 차콜 머플러를 목 가까이 두르고 후드를 올린 뒤, 작은 크로스보디 백으로 정리합니다. 하의는 스타일링 기획에 맞춰 다크 인디고 진과 블랙 보온 양말, 플랫 레이스업 부츠를 연결해 주세요.",
+    "tipKo": "후드와 머플러를 가까이 여미되 목 아래 붉은 니트는 조금 남겨 주세요.",
+    "piecesLabel": "THE PIECES"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "en": "Olive hooded puffer",
+        "de": "Olivgrüne Kapuzen-Steppjacke",
+        "ko": "올리브 후드 푸퍼"
+      },
+      "note": {
+        "en": "Layer over a thick knit with room to move; choose verified rain protection for actual use.",
+        "de": "Über dickem Strick mit Bewegungsfreiheit tragen; für den Alltag ausgewiesenen Regenschutz wählen.",
+        "ko": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요."
+      },
+      "nameKo": "올리브 후드 푸퍼",
+      "descriptionKo": "두꺼운 니트 위에 여유 있게 겹치고, 실제 착용 제품의 방수·발수 사양을 확인해 주세요.",
+      "designDescriptionEn": "Olive substantial hooded short puffer jacket with medium loft",
+      "image": "products/01-outer.jpg",
+      "backgroundColor": "#F5F0EA",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "en": "Crimson fluffy knit",
+        "de": "Tiefroter Flauschpullover",
+        "ko": "크림슨 플러피 니트"
+      },
+      "note": {
+        "en": "Wear beneath the outer layer; keep the fluffy texture sheltered from the rain.",
+        "de": "Unter der Jacke tragen und die flauschige Struktur vor Regen schützen.",
+        "ko": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요."
+      },
+      "nameKo": "크림슨 플러피 니트",
+      "descriptionKo": "아우터 안에 겹쳐 입고 보송한 표면이 비에 직접 젖지 않게 감싸 주세요.",
+      "designDescriptionEn": "Deep crimson fluffy mohair-effect crewneck sweater",
+      "image": "products/02-top.jpg",
+      "backgroundColor": "#F3EFE6",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "en": "Dark indigo relaxed jeans",
+        "de": "Dunkle indigoblaue Relaxed-Jeans",
+        "ko": "다크 인디고 릴랙스드 진"
+      },
+      "note": {
+        "en": "Keep the full-length hem clear of wet pavement and overlap it with socks or boots.",
+        "de": "Den langen Saum über dem nassen Pflaster halten und mit Socken oder Boots überlappen lassen.",
+        "ko": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요."
+      },
+      "nameKo": "다크 인디고 릴랙스드 진",
+      "descriptionKo": "긴 바짓단이 젖은 바닥에 끌리지 않게 하고 양말이나 부츠까지 이어 주세요.",
+      "designDescriptionEn": "Dark indigo relaxed full-length jeans",
+      "image": "products/03-bottom.jpg",
+      "backgroundColor": "#F4F0EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "productionNoteKo": "일부만 보이는 품목, 전체 형태는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "name": {
+        "en": "Black ribbed socks",
+        "de": "Schwarze Rippstrümpfe",
+        "ko": "블랙 골지 양말"
+      },
+      "note": {
+        "en": "Let the socks cover the ankle inside the boots.",
+        "de": "Die Socken bedecken die Knöchel in den Boots.",
+        "ko": "부츠 안에서 발목을 충분히 덮어 주세요."
+      },
+      "nameKo": "블랙 골지 양말",
+      "descriptionKo": "부츠 안에서 발목을 충분히 덮어 주세요.",
+      "designDescriptionEn": "Black ribbed warm socks",
+      "image": "products/04-socks.jpg",
+      "backgroundColor": "#F6F1EB",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "컷 밖 품목, 초기 스타일링 기획을 바탕으로 추정; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "name": {
+        "en": "Black lace-up ankle boots",
+        "de": "Schwarze Schnürboots",
+        "ko": "블랙 레이스업 앵클 부츠"
+      },
+      "note": {
+        "en": "Wear with warm socks; look for verified water resistance and a grippy sole in real products.",
+        "de": "Mit warmen Socken tragen; bei echten Produkten auf ausgewiesenen Nässeschutz und eine griffige Sohle achten.",
+        "ko": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요."
+      },
+      "nameKo": "블랙 레이스업 앵클 부츠",
+      "descriptionKo": "따뜻한 양말과 신고 실제 제품의 방수 사양과 접지력 있는 밑창을 확인해 주세요.",
+      "designDescriptionEn": "Black flat waterproof-look lace-up ankle boots with grip rubber soles",
+      "image": "products/05-shoes.jpg",
+      "backgroundColor": "#F6F1EB",
+      "reconstruction": "not-visible-inferred",
+      "productionNoteKo": "컷 밖 품목, 초기 스타일링 기획을 바탕으로 추정; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "name": {
+        "en": "Black compact crossbody bag",
+        "de": "Kompakte schwarze Crossbody-Tasche",
+        "ko": "블랙 컴팩트 크로스보디 백"
+      },
+      "note": {
+        "en": "Keep the bag close to the body and protect its contents from rain.",
+        "de": "Die Tasche nah am Körper tragen und den Inhalt vor Regen schützen.",
+        "ko": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요."
+      },
+      "nameKo": "블랙 컴팩트 크로스보디 백",
+      "descriptionKo": "몸 가까이 메고 내용물이 비에 젖지 않게 챙겨 주세요.",
+      "designDescriptionEn": "Black compact structured rectangular leather crossbody bag with zip and long strap",
+      "image": "products/06-bag.jpg",
+      "backgroundColor": "#F6F1EB",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    },
+    {
+      "id": "07-scarf",
+      "category": "scarf",
+      "name": {
+        "en": "Charcoal fringed scarf",
+        "de": "Anthrazitfarbener Fransenschal",
+        "ko": "차콜 프린지 머플러"
+      },
+      "note": {
+        "en": "Wrap close to the neck and tuck loose ends inside the jacket.",
+        "de": "Nah am Hals wickeln und lose Enden in die Jacke stecken.",
+        "ko": "목 가까이 두르고 느슨한 끝은 재킷 안으로 넣어 주세요."
+      },
+      "nameKo": "차콜 프린지 머플러",
+      "descriptionKo": "목 가까이 두르고 느슨한 끝은 재킷 안으로 넣어 주세요.",
+      "designDescriptionEn": "Charcoal gray wool-texture fringed scarf",
+      "image": "products/07-scarf.jpg",
+      "backgroundColor": "#F4EFE9",
+      "reconstruction": "visible-item-reconstructed",
+      "productionNoteKo": "사진에서 확인한 품목, 가려진 전체 구조는 재구성; AI 스타일링 콘셉트로 소재 혼용률·방수·방풍 성능은 검증되지 않음.",
+      "materialComposition": null,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "status": "ready",
+      "productImageQa": {
+        "singleCategory": true,
+        "visualReview": "passed"
+      }
+    }
+  ],
+  "productCount": 7,
+  "contentType": "ai-styled-concept",
+  "sceneProps": [],
+  "productionReferences": {
+    "finalEditorial": "editorial.jpg",
+    "reconstructionSource": "The approved editorial is the only image reference. Outside-crop products are inferred from the original styling brief; there is no separate full-body reference."
+  }
+}
