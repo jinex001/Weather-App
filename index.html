@@ -474,7 +474,7 @@
   <div id="lk-body"></div>
 </section>
 
-<script src="look/outfits.js?v=b116"></script>
+<script src="look/outfits.js?v=b118"></script>
 <script>
 (function () {
   "use strict";
@@ -785,7 +785,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b117";
+  var BUILD = "b118";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1515,7 +1515,8 @@
         if (word(hit) === T.wRain) out.push(T.sumUmbrella);
       }
     }
-    return out;
+    // each line is its own sentence now (en "{w} now, …" came out lowercase after the look text)
+    return out.map(function (x) { return x.charAt(0).toUpperCase() + x.slice(1); });
   }
 
 

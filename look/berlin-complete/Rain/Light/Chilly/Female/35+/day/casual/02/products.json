@@ -4,8 +4,8 @@
   "gender": "women",
   "ageGroup": "35+",
   "style": "casual",
-  "appStyle": null,
-  "appOutfitId": null,
+  "appStyle": "street",
+  "appOutfitId": "bl-light-chilly-f-35-day-casual-02",
   "weather": {
     "city": "Berlin",
     "condition": "rain",
@@ -36,8 +36,8 @@
     "approvedAt": null
   },
   "productionStatus": "ready",
-  "mappingStatus": "pending",
-  "mappingNote": "casual is an asset collection label; the current app supports run/street/minimal. Decide app style before integration; do not silently map to street.",
+  "mappingStatus": "mapped",
+  "mappingNote": "Mapped in app b118 under the street tab (user decision 2026-10-22); asset style stays casual.",
   "editorialImage": "editorial.jpg",
   "copy": {
     "eyebrow": "HOW TO WEAR",
