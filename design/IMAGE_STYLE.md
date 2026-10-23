@@ -496,3 +496,8 @@ photographic language and casting rules.
 - 이번 문서 변경은 기존 승인 에디토리얼·제품 이미지의 자동 교체나 앱 코드 변경을 의미하지 않는다.
 - 기존 JPG 제품을 전환할 때 원본을 기준으로 정리한 투명 WebP를 만들고 관련 데이터 경로·확장자를 함께 수정한다. 화면에서 다시 흰 배경 제거를 시도하거나 혼합 모드로 투명을 흉내 내지 않는다.
 - 변환 뒤 제품 연결·경로·실제 화면 합성·용량을 검증한 후 사용하지 않는 중복 배포본을 정리한다.
+
+
+## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
+
+User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.

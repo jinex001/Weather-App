@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ocn-07-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "ocn-07-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "브라운 시어링 재킷",
+        "en": "Brown Shearling Jacket",
+        "de": "Braune Shearlingjacke"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/01-outer.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-07-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "러스트 브라운 니트",
+        "en": "Rust Brown Knit",
+        "de": "Rostbrauner Pullover"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/02-top.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-07-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "인디고 와이드 데님",
+        "en": "Indigo Wide Jeans",
+        "de": "Weite indigoblaue Jeans"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/03-bottom.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-07-street-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "브라운 레이스업 부츠",
+        "en": "Brown Lace-Up Boots",
+        "de": "Braune Schnürboots"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/04-shoes.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-07-street-m.bag",
+      "category": "bag",
+      "name": {
+        "ko": "아이보리 토트백",
+        "en": "Ivory Tote",
+        "de": "Elfenbeinfarbene Tragetasche"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/05-bag.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-07-street-m.jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "실버 톤 싱글 후프",
+        "en": "Silver-Tone Single Hoop",
+        "de": "Einzelne silberfarbene Creole"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/06-jewelry.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    }
+  ],
+  "productCount": 6,
+  "copy": {
+    "title": "BROWN SHEARLING AT THE SHOP",
+    "intro": {
+      "ko": "브라운 시어링 재킷, 러스트 브라운 니트, 인디고 와이드 데님, 브라운 레이스업 부츠, 아이보리 토트백, 실버 톤 싱글 후프 조합으로 볼륨과 질감을 살려요.",
+      "en": "Combine Brown Shearling Jacket, Rust Brown Knit, Indigo Wide Jeans, Brown Lace-Up Boots, Ivory Tote, Silver-Tone Single Hoop for layered texture and volume.",
+      "de": "Kombiniere Braune Shearlingjacke, Rostbrauner Pullover, Weite indigoblaue Jeans, Braune Schnürboots, Elfenbeinfarbene Tragetasche, Einzelne silberfarbene Creole für Struktur und Volumen."
+    }
+  },
+  "contentType": "ai-styled-concept"
+}

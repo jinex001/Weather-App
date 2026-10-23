@@ -305,3 +305,8 @@ Sunny / Chilly / Female / 35+ / Night / Street 06–10: 5룩·42제품(7/7/8/10/
 ## b142 · 비·소나기 그림 (2026-10-23)
 
 사용자: 보통 비도 이슬비처럼 전체 화면 + 구름 움직이게, 소나기 시안도 → 둘 다 적용. 비(코드 61–67 등, 이슬비·소나기 제외): 비 구름 그대로 + 화면 전체 폭 빗줄기 45개(굵기 2.6, 길이 14, 0.9초, `rainDrops`, 고정 씨앗) + 작은 비구름 3개 흐름(밤은 달 + 같은 구조). 소나기(80–82, `isShower`): 뒤로 해 조금(밤 초승달) + 빠른 작은 구름 + 빗줄기 두 무리(30개씩, 굵기 3, 길이 16, 0.7초)가 3.2초 주기로 번갈아(`.art-on1`/`.art-on2`, 사이 잠깐 멈춤) + 앞 구름 흔들림. `ART.shower`·`ART.showerNight`. 24시간 예보 작은 아이콘·캘린더 카드 아이콘도 소나기는 해(밤 달)가 조금. 동작 줄이기면 정지(빗줄기 다 보임). 위젯 그림(PNG)은 아직 예전 비 그림.
+
+
+## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
+
+User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.

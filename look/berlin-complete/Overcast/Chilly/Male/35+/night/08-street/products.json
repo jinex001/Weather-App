@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ocn-08-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "ocn-08-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "차콜 퀼팅 재킷",
+        "en": "Charcoal Quilted Jacket",
+        "de": "Anthrazitfarbene Steppjacke"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/01-outer.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-08-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "오트밀 후디",
+        "en": "Oatmeal Hoodie",
+        "de": "Haferfarbener Hoodie"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/02-top.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-08-street-m.scarf",
+      "category": "scarf",
+      "name": {
+        "ko": "그레이 머플러",
+        "en": "Grey Scarf",
+        "de": "Grauer Schal"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/03-scarf.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    }
+  ],
+  "productCount": 3,
+  "copy": {
+    "title": "CHARCOAL QUILTING AT THE DOOR",
+    "intro": {
+      "ko": "차콜 퀼팅 재킷, 오트밀 후디, 그레이 머플러 조합으로 볼륨과 질감을 살려요.",
+      "en": "Combine Charcoal Quilted Jacket, Oatmeal Hoodie, Grey Scarf for layered texture and volume.",
+      "de": "Kombiniere Anthrazitfarbene Steppjacke, Haferfarbener Hoodie, Grauer Schal für Struktur und Volumen."
+    }
+  },
+  "contentType": "ai-styled-concept"
+}

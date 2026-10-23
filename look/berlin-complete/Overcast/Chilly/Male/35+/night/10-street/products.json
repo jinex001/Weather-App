@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ocn-10-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "ocn-10-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "올리브 바시티 재킷",
+        "en": "Olive Varsity Jacket",
+        "de": "Olivfarbene Collegejacke"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/01-outer.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-10-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "브라운 코듀로이 팬츠",
+        "en": "Brown Corduroy Trousers",
+        "de": "Braune Cordhose"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/02-bottom.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-10-street-m.gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "차콜 핑거리스 장갑",
+        "en": "Charcoal Fingerless Gloves",
+        "de": "Anthrazitfarbene fingerlose Handschuhe"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/03-gloves.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    }
+  ],
+  "productCount": 3,
+  "copy": {
+    "title": "OLIVE ON THE WAY HOME",
+    "intro": {
+      "ko": "올리브 바시티 재킷, 브라운 코듀로이 팬츠, 차콜 핑거리스 장갑 조합으로 볼륨과 질감을 살려요.",
+      "en": "Combine Olive Varsity Jacket, Brown Corduroy Trousers, Charcoal Fingerless Gloves for layered texture and volume.",
+      "de": "Kombiniere Olivfarbene Collegejacke, Braune Cordhose, Anthrazitfarbene fingerlose Handschuhe für Struktur und Volumen."
+    }
+  },
+  "contentType": "ai-styled-concept"
+}

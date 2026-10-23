@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ocn-06-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "ocn-06-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "코발트 패딩 봄버",
+        "en": "Cobalt Padded Bomber",
+        "de": "Kobaltblaue wattierte Bomberjacke"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/01-outer.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-06-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "아이보리 니트",
+        "en": "Ivory Knit",
+        "de": "Elfenbeinfarbener Pullover"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/02-top.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-06-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 와이드 데님",
+        "en": "Charcoal Wide Jeans",
+        "de": "Weite anthrazitfarbene Jeans"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/03-bottom.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-06-street-m.headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "차콜 비니",
+        "en": "Charcoal Beanie",
+        "de": "Anthrazitfarbene Strickmütze"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/04-headwear.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    }
+  ],
+  "productCount": 4,
+  "copy": {
+    "title": "COBALT AFTER HOURS",
+    "intro": {
+      "ko": "코발트 패딩 봄버, 아이보리 니트, 차콜 와이드 데님, 차콜 비니 조합으로 볼륨과 질감을 살려요.",
+      "en": "Combine Cobalt Padded Bomber, Ivory Knit, Charcoal Wide Jeans, Charcoal Beanie for layered texture and volume.",
+      "de": "Kombiniere Kobaltblaue wattierte Bomberjacke, Elfenbeinfarbener Pullover, Weite anthrazitfarbene Jeans, Anthrazitfarbene Strickmütze für Struktur und Volumen."
+    }
+  },
+  "contentType": "ai-styled-concept"
+}

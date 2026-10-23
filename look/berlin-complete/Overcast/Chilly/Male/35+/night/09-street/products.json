@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ocn-09-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "ocn-09-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "레드 패딩 재킷",
+        "en": "Red Puffer Jacket",
+        "de": "Rote Steppjacke"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/01-outer.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-09-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "블랙 니트",
+        "en": "Black Knit",
+        "de": "Schwarzer Pullover"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/02-top.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-09-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "블랙 워시드 데님",
+        "en": "Black Washed Jeans",
+        "de": "Schwarz verwaschene Jeans"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/03-bottom.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-09-street-m.scarf",
+      "category": "scarf",
+      "name": {
+        "ko": "차콜 머플러",
+        "en": "Charcoal Scarf",
+        "de": "Anthrazitfarbener Schal"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/04-scarf.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    },
+    {
+      "id": "ocn-09-street-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "오프화이트 스니커즈",
+        "en": "Off-White Sneakers",
+        "de": "Gebrochen weiße Sneaker"
+      },
+      "description": {
+        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
+        "en": "Combine with relaxed layers as shown in the editorial.",
+        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+      },
+      "image": "products/05-shoes.webp",
+      "status": "ready",
+      "reconstruction": "AI concept; hidden construction, exact fibre composition and partially visible areas are inferred; no brand or performance claims.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "title": "RED AFTER DARK",
+    "intro": {
+      "ko": "레드 패딩 재킷, 블랙 니트, 블랙 워시드 데님, 차콜 머플러, 오프화이트 스니커즈 조합으로 볼륨과 질감을 살려요.",
+      "en": "Combine Red Puffer Jacket, Black Knit, Black Washed Jeans, Charcoal Scarf, Off-White Sneakers for layered texture and volume.",
+      "de": "Kombiniere Rote Steppjacke, Schwarzer Pullover, Schwarz verwaschene Jeans, Anthrazitfarbener Schal, Gebrochen weiße Sneaker für Struktur und Volumen."
+    }
+  },
+  "contentType": "ai-styled-concept"
+}
