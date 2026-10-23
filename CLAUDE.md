@@ -6,7 +6,7 @@
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
-- `look/outfits.js`: 룩 라이브러리(135룩 · 905아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`, JPG만. 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. **사용자가 GPT에서 만들어 GitHub에 올린 이미지를 보내면 Claude가 배경 정리를 한다**: 매핑할 때마다 배경 없는 대표 컷도 자동으로 만들 것, `design/CUTOUTS.md`(`tools/make-cutouts.py`). 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`.
+- `look/outfits.js`: 룩 라이브러리(135룩 · 905아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`, JPG만. 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. **사용자가 GPT에서 만들어 GitHub에 올린 이미지를 보내면 Claude가 배경 정리를 한다**: 매핑할 때마다 배경 없는 대표 컷도 자동으로 만들 것, `design/CUTOUTS.md`(`tools/make-cutouts.py`). 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`. **배포 전 `design/IMAGE_MAPPING_HANDOFF.md` 5-1장 점검**(제품마다 다른 입는 법, 제품 이름 나열 아닌 요약·인트로, en/de 문법, 투명 제품 `bg`는 `#` 색만)을 꼭 통과할 것(b143 재발 방지).
 - `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면, 40% 흐리게)을 가운데에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
 - 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
 - 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도. b21부터 앱이 새로고침할 때 배포된 페이지의 `BUILD`를 확인해서 다르면 스스로 다시 불러옴(그래서 `var BUILD = "bNN"` 형식을 바꾸지 말 것).
@@ -314,3 +314,7 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## b144 · 흐린 날 남성 저녁 스트리트 문구 + 투명 컷 캘린더 색 (2026-10-23)
 
 사용자 요청. b143 세트(`ocn-06`–`ocn-10-street-m`)의 제품 21개 입는 법이 모두 같은 한 문장("원본처럼 여유 있는 레이어와 함께 조합해요.")이었고, 한 줄 요약·인트로는 제품 이름을 나열한 문장(en 제품명 대문자, de 형용사 어미 틀림)이었음 → 에디토리얼 5장을 보고 한 줄 요약·인트로·인용구(pull)·팁과 제품별 입는 법을 ko/en/de로 새로 씀(`look/overcast-male-night-street.js`, 각 products.json `copy`·`description`도 같은 문구). 제목·제품 이름·ID·사진은 그대로. 캘린더 카드: 아이템 `bg`가 `#` 색일 때만 카드 바탕으로 씀(투명 제품은 `bg: "transparent"`라 카드가 투명해질 수 있었음, 지금은 캘린더가 낮 룩만 써서 이 저녁 세트는 안 나왔음). 09 하의는 이름이 블랙 워시드 데님인데 사진은 진한 인디고에 가까움(이름은 그대로 둠).
+
+## 문서 · 매핑 점검 규칙 추가 (2026-10-23, 앱 빌드 변화 없음)
+
+사용자 요청: b143 같은 문제가 다시 생기지 않게. `design/IMAGE_MAPPING_HANDOFF.md`에 5-1장(배포 전 문구·투명 이미지 점검)과 작업 순서 11-1단계 추가: 세트 안 입는 법 중복 금지, 틀 문장("원본처럼…") 금지, 요약·인트로 제품 이름 나열 금지, en/de 제품명 대문자·독일어 어미 점검, pull·tip, 투명 WebP 알파·가장자리·용량, `bg`는 `#` 색만, 대표 컷 `missing cutouts: 0`, 실제 카드 렌더링. 제품 이름과 사진 색이 다르면 이름은 바꾸지 않고 보고만(b143 09 하의 "블랙 워시드 데님"은 사용자 결정으로 그대로 둠).
