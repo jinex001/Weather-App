@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-06-street-m",
+  "appOutfitId": "bn15-06-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../06-street.jpg",
+  "sourceEditorial": "../06-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested existing editorials product breakdown, app mapping and GitHub upload; no new editorial approval or approval time claimed."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "BURGUNDY AFTER DARK",
+    "captionKo": "브라운 시어링과 크림 케이블, 버건디 머플러의 풍부한 질감.",
+    "captionEn": "Brown shearling, cream cables and a burgundy scarf bring rich texture.",
+    "captionDe": "Braunes Shearling, cremefarbene Zöpfe und ein burgunderroter Schal bringen Struktur.",
+    "introKo": "브라운 시어링과 크림 케이블, 버건디 머플러의 풍부한 질감.",
+    "introEn": "Brown shearling, cream cables and a burgundy scarf bring rich texture.",
+    "introDe": "Braunes Shearling, cremefarbene Zöpfe und ein burgunderroter Schal bringen Struktur."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-06-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "브라운 시어링 에비에이터 재킷",
+        "en": "Brown Shearling Aviator Jacket",
+        "de": "Braune Shearling-Fliegerjacke"
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "브라운 시어링 에비에이터 재킷 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "distressed dark chocolate brown leather-look aviator jacket, broad cream shearling collar cuffs and hem, zip front, relaxed boxy shape",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "distressed dark chocolate brown leather-look aviator jacket, broad cream shearling collar cuffs and hem, zip front, relaxed boxy shape",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F8F1EA",
+      "nameKo": "브라운 시어링 에비에이터 재킷",
+      "descriptionKo": "앞을 열어 니트와 머플러의 질감을 드러내고 여유 있는 실루엣을 살려요.",
+      "nameEn": "Brown Shearling Aviator Jacket",
+      "descriptionEn": "Wear it open to reveal the knit and scarf textures, keeping the silhouette relaxed.",
+      "nameDe": "Braune Shearling-Fliegerjacke",
+      "descriptionDe": "Trage die Jacke offen, damit Strick und Schal sichtbar bleiben und die Silhouette locker fällt.",
+      "observedEvidence": "distressed dark chocolate brown leather-look aviator jacket, broad cream shearling collar cuffs and hem, zip front, relaxed boxy shape",
+      "inferredElements": [
+        "hidden back and interior",
+        "covered fastening and pocket details"
+      ]
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-06-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "크림 케이블 니트",
+        "en": "Cream Cable Knit",
+        "de": "Cremefarbener Zopfpullover"
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "크림 케이블 니트 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "cream cable knit sweater, thick tactile vertical cables; neckline and body partly obscured, conservatively reconstructed plain crew neck",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "cream cable knit sweater, thick tactile vertical cables; neckline and body partly obscured, conservatively reconstructed plain crew neck",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F2EDE7",
+      "nameKo": "크림 케이블 니트",
+      "descriptionKo": "아우터 안에서 니트 조직을 보여주고 소매 끝을 살짝 드러내요.",
+      "nameEn": "Cream Cable Knit",
+      "descriptionEn": "Show the knit texture inside the jacket and let a little cuff peek out.",
+      "nameDe": "Cremefarbener Zopfpullover",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und lasse die Bündchen leicht hervorblitzen.",
+      "observedEvidence": "cream cable knit sweater, thick tactile vertical cables",
+      "inferredElements": [
+        "covered neckline where not visible",
+        "hidden body length and back"
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-06-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "워시드 차콜 와이드 진",
+        "en": "Washed Charcoal Wide Jeans",
+        "de": "Weite verwaschene anthrazitfarbene Jeans"
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "워시드 차콜 와이드 진 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "washed charcoal denim jeans with wide straight legs, faded seams and stitched hems",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "washed charcoal denim jeans with wide straight legs, faded seams and stitched hems",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F3EEE8",
+      "nameKo": "워시드 차콜 와이드 진",
+      "descriptionKo": "여유 있는 바지 폭으로 상체의 볼륨을 이어주고 밑단은 자연스럽게 내려요.",
+      "nameEn": "Washed Charcoal Wide Jeans",
+      "descriptionEn": "Balance the upper layers with relaxed trouser volume and let the hems fall naturally.",
+      "nameDe": "Weite verwaschene anthrazitfarbene Jeans",
+      "descriptionDe": "Gleiche die oberen Lagen mit einer lockeren Hosenweite aus und lasse die Säume natürlich fallen.",
+      "observedEvidence": "washed charcoal denim jeans with wide straight legs, faded seams and stitched hems",
+      "inferredElements": [
+        "covered waistband and pockets",
+        "hidden leg sections and hems where outside frame"
+      ]
+    },
+    {
+      "id": "04-shoes",
+      "appItemId": "bn15-06-street-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "블랙 레이스업 부츠",
+        "en": "Black Lace-Up Boots",
+        "de": "Schwarze Schnürboots"
+      },
+      "image": "products/04-shoes.jpg",
+      "altKo": "블랙 레이스업 부츠 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "pair of black leather-look ankle lace-up boots, rounded toes and thick black lug soles; shafts hidden by jeans, conservative ankle height",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "pair of black leather-look ankle lace-up boots, rounded toes and thick black lug soles; shafts hidden by jeans, conservative ankle height",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F4EFE9",
+      "nameKo": "블랙 레이스업 부츠",
+      "descriptionKo": "묵직한 부츠 실루엣으로 와이드 데님 밑단을 받쳐줘요.",
+      "nameEn": "Black Lace-Up Boots",
+      "descriptionEn": "Anchor the wide denim hems with the substantial boot silhouette.",
+      "nameDe": "Schwarze Schnürboots",
+      "descriptionDe": "Gib den weiten Jeanssäumen mit der kräftigen Bootsilhouette Halt.",
+      "observedEvidence": "pair of black leather-look ankle lace-up boots, rounded toes and thick black lug soles",
+      "inferredElements": [
+        "covered boot shaft height and closure details",
+        "unseen sole tread"
+      ]
+    },
+    {
+      "id": "05-scarf",
+      "appItemId": "bn15-06-street-m.accessory",
+      "category": "scarf",
+      "name": {
+        "ko": "버건디 프린지 머플러",
+        "en": "Burgundy Fringed Scarf",
+        "de": "Burgunderroter Fransenschal"
+      },
+      "image": "products/05-scarf.jpg",
+      "altKo": "버건디 프린지 머플러 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "deep burgundy chunky fuzzy knit long scarf with long straight fringe",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "deep burgundy chunky fuzzy knit long scarf with long straight fringe",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F8F4EC",
+      "nameKo": "버건디 프린지 머플러",
+      "descriptionKo": "머플러를 느슨하게 감고 프린지를 길게 내려 니트와 아우터 사이에 질감을 더해요.",
+      "nameEn": "Burgundy Fringed Scarf",
+      "descriptionEn": "Wrap the scarf loosely and leave the fringe long for texture between knit and outerwear.",
+      "nameDe": "Burgunderroter Fransenschal",
+      "descriptionDe": "Lege den Schal locker um und lasse die Fransen lang hängen, um zwischen Strick und Jacke Struktur zu zeigen.",
+      "observedEvidence": "deep burgundy chunky fuzzy knit long scarf with long straight fringe",
+      "inferredElements": [
+        "unseen reverse and full length"
+      ]
+    },
+    {
+      "id": "06-gloves",
+      "appItemId": "bn15-06-street-m.06-gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "다크 브라운 가죽 장갑",
+        "en": "Dark Brown Leather Gloves",
+        "de": "Dunkelbraune Lederhandschuhe"
+      },
+      "image": "products/06-gloves.jpg",
+      "altKo": "다크 브라운 가죽 장갑 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "pair of dark chocolate brown smooth leather-look full finger gloves, stitched fingers and wrist seam",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "pair of dark chocolate brown smooth leather-look full finger gloves, stitched fingers and wrist seam",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F6F1EB",
+      "nameKo": "다크 브라운 가죽 장갑",
+      "descriptionKo": "장갑의 차분한 색과 질감으로 아우터와 머플러를 자연스럽게 연결해요.",
+      "nameEn": "Dark Brown Leather Gloves",
+      "descriptionEn": "Link the jacket and scarf with the gloves’ quiet colour and texture.",
+      "nameDe": "Dunkelbraune Lederhandschuhe",
+      "descriptionDe": "Verbinde Jacke und Schal durch die ruhige Farbe und Struktur der Handschuhe.",
+      "observedEvidence": "pair of dark chocolate brown smooth leather-look full finger gloves, stitched fingers and wrist seam",
+      "inferredElements": [
+        "hidden palm, second glove sections and wrist details"
+      ]
+    },
+    {
+      "id": "07-jewelry",
+      "appItemId": "bn15-06-street-m.07-jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "실버 톤 싱글 후프",
+        "en": "Silver-Tone Single Hoop",
+        "de": "Silberfarbene einzelne Creole"
+      },
+      "image": "products/07-jewelry.jpg",
+      "altKo": "실버 톤 싱글 후프 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "one single small thin silver-tone hoop earring visible on left ear; no invented second earring",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "one single small thin silver-tone hoop earring visible on left ear; no invented second earring",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F5F2EB",
+      "nameKo": "실버 톤 싱글 후프",
+      "descriptionKo": "작은 실버 톤 후프 하나로 묵직한 레이어 사이에 가벼운 포인트를 더해요.",
+      "nameEn": "Silver-Tone Single Hoop",
+      "descriptionEn": "Add a light accent to the substantial layers with one small silver-tone hoop.",
+      "nameDe": "Silberfarbene einzelne Creole",
+      "descriptionDe": "Setze mit einer kleinen silberfarbenen Creole einen leichten Akzent zu den kräftigen Lagen.",
+      "observedEvidence": "one single small thin silver-tone hoop earring visible on left ear",
+      "inferredElements": [
+        "unseen clasp and exact dimensions"
+      ]
+    }
+  ],
+  "productCount": 7,
+  "excludedItems": [
+    "Food, drinks, grocery packaging, keys and scene props are outside wardrobe scope.",
+    "No socks generated: not observed."
+  ]
+}

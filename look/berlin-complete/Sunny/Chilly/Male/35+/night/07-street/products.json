@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-07-street-m",
+  "appOutfitId": "bn15-07-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../07-street.jpg",
+  "sourceEditorial": "../07-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested existing editorials product breakdown, app mapping and GitHub upload; no new editorial approval or approval time claimed."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "NAVY AT THE DOOR",
+    "captionKo": "네이비 봄버와 아이보리 니트에 차콜 머플러와 블랙 비니를 더해요.",
+    "captionEn": "Pair a navy bomber and ivory knit with a charcoal scarf and black beanie.",
+    "captionDe": "Kombiniere eine marineblaue Bomberjacke und elfenbeinfarbenen Strick mit Anthrazitschal und schwarzer Mütze.",
+    "introKo": "네이비 봄버와 아이보리 니트에 차콜 머플러와 블랙 비니를 더해요.",
+    "introEn": "Pair a navy bomber and ivory knit with a charcoal scarf and black beanie.",
+    "introDe": "Kombiniere eine marineblaue Bomberjacke und elfenbeinfarbenen Strick mit Anthrazitschal und schwarzer Mütze."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-07-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "네이비 패딩 봄버",
+        "en": "Navy Padded Bomber",
+        "de": "Marineblaue wattierte Bomberjacke"
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "네이비 패딩 봄버 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "navy blue lightly shiny padded bomber jacket, ribbed navy collar cuffs and hem, metallic front zip, rounded voluminous sleeves",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "navy blue lightly shiny padded bomber jacket, ribbed navy collar cuffs and hem, metallic front zip, rounded voluminous sleeves",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F9F4ED",
+      "nameKo": "네이비 패딩 봄버",
+      "descriptionKo": "앞을 열어 니트와 머플러의 질감을 드러내고 여유 있는 실루엣을 살려요.",
+      "nameEn": "Navy Padded Bomber",
+      "descriptionEn": "Wear it open to reveal the knit and scarf textures, keeping the silhouette relaxed.",
+      "nameDe": "Marineblaue wattierte Bomberjacke",
+      "descriptionDe": "Trage die Jacke offen, damit Strick und Schal sichtbar bleiben und die Silhouette locker fällt.",
+      "observedEvidence": "navy blue lightly shiny padded bomber jacket, ribbed navy collar cuffs and hem, metallic front zip, rounded voluminous sleeves",
+      "inferredElements": [
+        "hidden back and interior",
+        "covered fastening and pocket details"
+      ]
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-07-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "아이보리 리브 니트",
+        "en": "Ivory Rib Knit",
+        "de": "Elfenbeinfarbener Rippstrickpullover"
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "아이보리 리브 니트 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "ivory knit sweater with fine textured body and rib cuffs and hem; neckline hidden by scarf reconstructed conservative crew neck",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "ivory knit sweater with fine textured body and rib cuffs and hem; neckline hidden by scarf reconstructed conservative crew neck",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F7F4EF",
+      "nameKo": "아이보리 리브 니트",
+      "descriptionKo": "아우터 안에서 니트 조직을 보여주고 소매 끝을 살짝 드러내요.",
+      "nameEn": "Ivory Rib Knit",
+      "descriptionEn": "Show the knit texture inside the jacket and let a little cuff peek out.",
+      "nameDe": "Elfenbeinfarbener Rippstrickpullover",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und lasse die Bündchen leicht hervorblitzen.",
+      "observedEvidence": "ivory knit sweater with fine textured body and rib cuffs and hem",
+      "inferredElements": [
+        "covered neckline where not visible",
+        "hidden body length and back"
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-07-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 멜란지 팬츠",
+        "en": "Charcoal Melange Trousers",
+        "de": "Anthrazitfarbene Melangehose"
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 멜란지 팬츠 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "charcoal gray mottled wool-look tailored relaxed trousers; only upper legs visible, full legs hems and waistband conservatively reconstructed",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "charcoal gray mottled wool-look tailored relaxed trousers; only upper legs visible, full legs hems and waistband conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F2EFE9",
+      "nameKo": "차콜 멜란지 팬츠",
+      "descriptionKo": "여유 있는 바지 폭으로 상체의 볼륨을 이어주고 밑단은 자연스럽게 내려요.",
+      "nameEn": "Charcoal Melange Trousers",
+      "descriptionEn": "Balance the upper layers with relaxed trouser volume and let the hems fall naturally.",
+      "nameDe": "Anthrazitfarbene Melangehose",
+      "descriptionDe": "Gleiche die oberen Lagen mit einer lockeren Hosenweite aus und lasse die Säume natürlich fallen.",
+      "observedEvidence": "charcoal gray mottled wool-look tailored relaxed trousers",
+      "inferredElements": [
+        "covered waistband and pockets",
+        "hidden leg sections and hems where outside frame"
+      ]
+    },
+    {
+      "id": "04-headwear",
+      "appItemId": "bn15-07-street-m.04-headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "블랙 니트 비니",
+        "en": "Black Knit Beanie",
+        "de": "Schwarze Strickmütze"
+      },
+      "image": "products/04-headwear.jpg",
+      "altKo": "블랙 니트 비니 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "black chunky ribbed knit beanie, rounded crown and folded cuff",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "black chunky ribbed knit beanie, rounded crown and folded cuff",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F7F4EE",
+      "nameKo": "블랙 니트 비니",
+      "descriptionKo": "비니를 귀 가까이 내려 쓰고 턴업의 볼륨으로 얼굴 주변을 정리해요.",
+      "nameEn": "Black Knit Beanie",
+      "descriptionEn": "Wear the beanie close to the ears and frame the face with its folded cuff.",
+      "nameDe": "Schwarze Strickmütze",
+      "descriptionDe": "Ziehe die Mütze bis an die Ohren und rahme das Gesicht mit dem Umschlag ein.",
+      "observedEvidence": "black chunky ribbed knit beanie, rounded crown and folded cuff",
+      "inferredElements": [
+        "unseen crown and rear construction"
+      ]
+    },
+    {
+      "id": "05-scarf",
+      "appItemId": "bn15-07-street-m.accessory",
+      "category": "scarf",
+      "name": {
+        "ko": "차콜 프린지 머플러",
+        "en": "Charcoal Fringed Scarf",
+        "de": "Anthrazitfarbener Fransenschal"
+      },
+      "image": "products/05-scarf.jpg",
+      "altKo": "차콜 프린지 머플러 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "charcoal gray thick mottled fuzzy knit long scarf with twisted fringe",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "charcoal gray thick mottled fuzzy knit long scarf with twisted fringe",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F4EFE9",
+      "nameKo": "차콜 프린지 머플러",
+      "descriptionKo": "머플러를 느슨하게 감고 프린지를 길게 내려 니트와 아우터 사이에 질감을 더해요.",
+      "nameEn": "Charcoal Fringed Scarf",
+      "descriptionEn": "Wrap the scarf loosely and leave the fringe long for texture between knit and outerwear.",
+      "nameDe": "Anthrazitfarbener Fransenschal",
+      "descriptionDe": "Lege den Schal locker um und lasse die Fransen lang hängen, um zwischen Strick und Jacke Struktur zu zeigen.",
+      "observedEvidence": "charcoal gray thick mottled fuzzy knit long scarf with twisted fringe",
+      "inferredElements": [
+        "unseen reverse and full length"
+      ]
+    },
+    {
+      "id": "06-gloves",
+      "appItemId": "bn15-07-street-m.06-gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "블랙 니트 장갑",
+        "en": "Black Knit Gloves",
+        "de": "Schwarze Strickhandschuhe"
+      },
+      "image": "products/06-gloves.jpg",
+      "altKo": "블랙 니트 장갑 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "pair of black knit full finger gloves, ribbed wrist cuffs; observed tucked at right hip, hidden glove portions conservatively reconstructed",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "pair of black knit full finger gloves, ribbed wrist cuffs; observed tucked at right hip, hidden glove portions conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F7F3EA",
+      "nameKo": "블랙 니트 장갑",
+      "descriptionKo": "장갑의 차분한 색과 질감으로 아우터와 머플러를 자연스럽게 연결해요.",
+      "nameEn": "Black Knit Gloves",
+      "descriptionEn": "Link the jacket and scarf with the gloves’ quiet colour and texture.",
+      "nameDe": "Schwarze Strickhandschuhe",
+      "descriptionDe": "Verbinde Jacke und Schal durch die ruhige Farbe und Struktur der Handschuhe.",
+      "observedEvidence": "pair of black knit full finger gloves, ribbed wrist cuffs",
+      "inferredElements": [
+        "hidden palm, second glove sections and wrist details"
+      ]
+    }
+  ],
+  "productCount": 6,
+  "excludedItems": [
+    "Food, drinks, grocery packaging, keys and scene props are outside wardrobe scope.",
+    "No socks generated: not observed.",
+    "Footwear outside editorial frame: not generated."
+  ]
+}

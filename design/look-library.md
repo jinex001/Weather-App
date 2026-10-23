@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-22 (앱 빌드 b130) · 135룩 · 841아이템(활성 참조 836) · 기사 룩 115. 칸별 현황·빈 칸 목록은 `look-coverage.md`. 화면 규칙은 `design-system.md` 8장, 사진 스타일은 `IMAGE_STYLE.md`.
+마지막 정리: 2026-10-23 (앱 빌드 b131) · 135룩 · 848아이템(활성 참조 843) · 기사 룩 120. 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -90,7 +90,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | --- | --- | --- | --- | --- | --- |
 | 맑음 | 남 | 낮 | `Sunny/Chilly/Male/35+/day/` | `bd4-0N-run-m`(01–04), `bd15-NN-<스타일>-m`(05–15) | 러닝 01–05 제품 카드 기사(b128, 32제품), 스트리트 06–10 제품 카드 기사(b126), 미니멀 11–15 제품 카드 기사(b127) |
 | 맑음 | 여 | 낮 | `Sunny/Chilly/Female/35+/day/` (사진 `NN-<스타일>.jpg`, 제품 `NN-<스타일>/products/`) | `bd15-NN-<스타일>-f` | 제품 카드 기사 (b124, 문구 3개 언어 제작 측 그대로) |
-| 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 미니멀 11–15 제품 카드 기사, 러닝·스트리트 아이템 리스트 |
+| 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 스트리트 06–10 (b131)·미니멀 11–15 (b130) 제품 카드 기사, 러닝 아이템 리스트 |
 | 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 미니멀 11–15 제품 카드 기사 (b129), 러닝·스트리트 아이템 리스트 |
 | 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 |
 | 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
@@ -145,3 +145,13 @@ appOutfitId는 `bn15-11-minimal-f`부터 `bn15-15-minimal-f`, sky clear / bands 
 5룩 제품컷 5/6/5/5/6개, 총 27개. 파일당 한 품목만 포함(신발·장갑은 한 켤레). 초기 다품목 생성물 12개는 제외하고 단일 품목으로 재생성·육안 검수함. 500×500 JPG ≤50,000 bytes, 아이보리 배경. ko/en/de 제품명·스타일링 설명·기사, products.json과 look/outfits.js 직접 매핑. 기존 룩 ID 5개와 기존 아이템 ID 20개 유지(복합 accessory ID는 머플러로 유지), 새 개별 품목 ID 7개 추가. 다른 룩과 Street·여성 밤 보충 매핑 유지. 원본 5개는 origin/main 바이트와 동일.
 
 11·14 하의/신발, 13 이너와 보이지 않는 양말은 추가하지 않음. 컵·음식·식료품·신문은 장면 소품으로 제외. 정확한 소재 조성, 가죽/스웨이드 진위, 가려진 뒷면·여밈·의류 길이, 부츠의 가려진 구조는 추정 복원. 실제 기온·브랜드·가격·구매 링크는 null. [검증](sunny-male-night-minimal-validation.md).
+
+## b131 · Sunny 남성 Night Street 제품 분해
+
+Sunny / Chilly / Male / 35+ / Night / Street 06–10: 제품 7/6/6/5/6종, 총 30개 독립 JPG. 검수 중 09번 팬츠의 밑단이 잘린 시안은 제외하고 전체 길이로 재생성했다. 기존 원본 에디토리얼 5개와 룩 ID·기존 아이템 ID 23개 보존, 신규 단독 품목 ID 7개 추가. 복합 accessory ID는 머플러에 유지하고 장갑을 분리했다. `look/outfits.js` 뒤에서 동기 실행되는 `look/sunny-male-night-street.js`로 해당 5룩과 제품만 갱신했으며 ko/en/de 제품명·스타일링 설명·기사를 연결했다.
+
+모든 제품은 500×500 JPG ≤50,000 bytes, 아이보리 배경, 품목당 이미지 정확히 1개. 부츠·장갑 한 쌍은 한 품목. `look/berlin-complete/Sunny/Chilly/Male/35+/night/NN-street/products/` 및 `products.json`, `README.md`, `PROMPTS.md`에 저장한다. editorialImage는 기존 `../NN-street.jpg` 참조, 사본을 만들지 않았다.
+
+07·09 신발 및 전 룩의 양말은 보이지 않아 추가하지 않았다. 06 귀걸이는 보이는 싱글 후프 1개만 복원. 07·08·10 장갑은 따로 보이는 품목으로 포함. 가려진 니트 목선·몸판, 팬츠 허리·밑단, 부츠 샤프트 등은 observedEvidence / inferredElements / reconstructionNotes로 구분했다. 브랜드·가격·실제 소재 혼용률·정확한 기온은 미확인으로 null. 장보기 포장·음식·음료·열쇠는 착장 제품에서 제외했다. [파일별 검증](sunny-male-night-street-validation.md).
+
+- b131 업로드 방식: 기본 outfits.js 전체 업로드가 자동 승인 검토 입력 한도를 초과하여 기존 저장소의 보충 매핑 패턴을 사용했다. `look/sunny-male-night-street.js`는 다른 라이브러리 스크립트 뒤, 앱 초기화 전에 동기 적용된다. 기본 `look/outfits.js`와 다른 보충 파일은 최신 main 그대로 보존한다.

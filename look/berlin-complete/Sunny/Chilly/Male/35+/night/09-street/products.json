@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-09-street-m",
+  "appOutfitId": "bn15-09-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../09-street.jpg",
+  "sourceEditorial": "../09-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested existing editorials product breakdown, app mapping and GitHub upload; no new editorial approval or approval time claimed."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "OLIVE IN THE EVENING",
+    "captionKo": "올리브 파카와 버건디 니트 위에 차콜 머플러를 넓게 둘러요.",
+    "captionEn": "Wrap a broad charcoal scarf over olive outerwear and burgundy knit.",
+    "captionDe": "Lege einen breiten Anthrazitschal über olivfarbenen Parka und burgunderroten Strick.",
+    "introKo": "올리브 파카와 버건디 니트 위에 차콜 머플러를 넓게 둘러요.",
+    "introEn": "Wrap a broad charcoal scarf over olive outerwear and burgundy knit.",
+    "introDe": "Lege einen breiten Anthrazitschal über olivfarbenen Parka und burgunderroten Strick."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-09-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "올리브 후드 파카",
+        "en": "Olive Hooded Parka",
+        "de": "Olivgrüner Kapuzenparka"
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "올리브 후드 파카 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "olive green matte canvas-look hooded parka, black hood drawcords, metal zip and snap placket, roomy sleeves and large pocket seams, mid thigh length partly hidden",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "olive green matte canvas-look hooded parka, black hood drawcords, metal zip and snap placket, roomy sleeves and large pocket seams, mid thigh length partly hidden",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F5F0EA",
+      "nameKo": "올리브 후드 파카",
+      "descriptionKo": "앞을 열어 니트와 머플러의 질감을 드러내고 여유 있는 실루엣을 살려요.",
+      "nameEn": "Olive Hooded Parka",
+      "descriptionEn": "Wear it open to reveal the knit and scarf textures, keeping the silhouette relaxed.",
+      "nameDe": "Olivgrüner Kapuzenparka",
+      "descriptionDe": "Trage die Jacke offen, damit Strick und Schal sichtbar bleiben und die Silhouette locker fällt.",
+      "observedEvidence": "olive green matte canvas-look hooded parka, black hood drawcords, metal zip and snap placket, roomy sleeves and large pocket seams, mid thigh length partly hidden",
+      "inferredElements": [
+        "hidden back and interior",
+        "covered fastening and pocket details"
+      ]
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-09-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "버건디 리브 니트",
+        "en": "Burgundy Rib Knit",
+        "de": "Burgunderroter Rippstrickpullover"
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "버건디 리브 니트 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "burgundy red chunky ribbed knit sweater, visible cuffs and torso; neckline hidden reconstructed simple crew neck",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "burgundy red chunky ribbed knit sweater, visible cuffs and torso; neckline hidden reconstructed simple crew neck",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F8F1E9",
+      "nameKo": "버건디 리브 니트",
+      "descriptionKo": "아우터 안에서 니트 조직을 보여주고 소매 끝을 살짝 드러내요.",
+      "nameEn": "Burgundy Rib Knit",
+      "descriptionEn": "Show the knit texture inside the jacket and let a little cuff peek out.",
+      "nameDe": "Burgunderroter Rippstrickpullover",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und lasse die Bündchen leicht hervorblitzen.",
+      "observedEvidence": "burgundy red chunky ribbed knit sweater, visible cuffs and torso",
+      "inferredElements": [
+        "covered neckline where not visible",
+        "hidden body length and back"
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-09-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 멜란지 팬츠",
+        "en": "Charcoal Melange Trousers",
+        "de": "Anthrazitfarbene Melangehose"
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 멜란지 팬츠 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "charcoal gray mottled wool-look relaxed trousers, upper legs visible; hidden lower legs hems and waistband conservatively reconstructed",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "charcoal gray mottled wool-look relaxed trousers, upper legs visible; hidden lower legs hems and waistband conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F2EFE9",
+      "nameKo": "차콜 멜란지 팬츠",
+      "descriptionKo": "여유 있는 바지 폭으로 상체의 볼륨을 이어주고 밑단은 자연스럽게 내려요.",
+      "nameEn": "Charcoal Melange Trousers",
+      "descriptionEn": "Balance the upper layers with relaxed trouser volume and let the hems fall naturally.",
+      "nameDe": "Anthrazitfarbene Melangehose",
+      "descriptionDe": "Gleiche die oberen Lagen mit einer lockeren Hosenweite aus und lasse die Säume natürlich fallen.",
+      "observedEvidence": "charcoal gray mottled wool-look relaxed trousers, upper legs visible",
+      "inferredElements": [
+        "covered waistband and pockets",
+        "hidden leg sections and hems where outside frame"
+      ]
+    },
+    {
+      "id": "04-scarf",
+      "appItemId": "bn15-09-street-m.accessory",
+      "category": "scarf",
+      "name": {
+        "ko": "차콜 와이드 머플러",
+        "en": "Charcoal Wide Scarf",
+        "de": "Breiter anthrazitfarbener Schal"
+      },
+      "image": "products/04-scarf.jpg",
+      "altKo": "차콜 와이드 머플러 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "charcoal gray long wide mottled fuzzy scarf with fine pale fibers and long fringes",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "charcoal gray long wide mottled fuzzy scarf with fine pale fibers and long fringes",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F6EFE9",
+      "nameKo": "차콜 와이드 머플러",
+      "descriptionKo": "머플러를 느슨하게 감고 프린지를 길게 내려 니트와 아우터 사이에 질감을 더해요.",
+      "nameEn": "Charcoal Wide Scarf",
+      "descriptionEn": "Wrap the scarf loosely and leave the fringe long for texture between knit and outerwear.",
+      "nameDe": "Breiter anthrazitfarbener Schal",
+      "descriptionDe": "Lege den Schal locker um und lasse die Fransen lang hängen, um zwischen Strick und Jacke Struktur zu zeigen.",
+      "observedEvidence": "charcoal gray long wide mottled fuzzy scarf with fine pale fibers and long fringes",
+      "inferredElements": [
+        "unseen reverse and full length"
+      ]
+    },
+    {
+      "id": "05-gloves",
+      "appItemId": "bn15-09-street-m.05-gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "블랙 리브 장갑",
+        "en": "Black Ribbed Gloves",
+        "de": "Schwarze Ripphandschuhe"
+      },
+      "image": "products/05-gloves.jpg",
+      "altKo": "블랙 리브 장갑 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "pair of black full finger knit gloves with long ribbed cuffs",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "pair of black full finger knit gloves with long ribbed cuffs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F4EFE9",
+      "nameKo": "블랙 리브 장갑",
+      "descriptionKo": "장갑의 차분한 색과 질감으로 아우터와 머플러를 자연스럽게 연결해요.",
+      "nameEn": "Black Ribbed Gloves",
+      "descriptionEn": "Link the jacket and scarf with the gloves’ quiet colour and texture.",
+      "nameDe": "Schwarze Ripphandschuhe",
+      "descriptionDe": "Verbinde Jacke und Schal durch die ruhige Farbe und Struktur der Handschuhe.",
+      "observedEvidence": "pair of black full finger knit gloves with long ribbed cuffs",
+      "inferredElements": [
+        "hidden palm, second glove sections and wrist details"
+      ]
+    }
+  ],
+  "productCount": 5,
+  "excludedItems": [
+    "Food, drinks, grocery packaging, keys and scene props are outside wardrobe scope.",
+    "No socks generated: not observed.",
+    "Footwear outside editorial frame: not generated."
+  ]
+}

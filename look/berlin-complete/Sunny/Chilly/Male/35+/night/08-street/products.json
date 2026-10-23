@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-08-street-m",
+  "appOutfitId": "bn15-08-street-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../08-street.jpg",
+  "sourceEditorial": "../08-street.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "basis": "User explicitly requested existing editorials product breakdown, app mapping and GitHub upload; no new editorial approval or approval time claimed."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "BROWN AND CREAM",
+    "captionKo": "브라운 퀼팅과 부츠 사이를 인디고 데님으로 잇고 크림 머플러를 길게 내려요.",
+    "captionEn": "Link brown quilting and boots with indigo denim, leaving the cream scarf long.",
+    "captionDe": "Verbinde braune Steppstruktur und Boots mit Indigodenim und lasse den cremefarbenen Schal lang fallen.",
+    "introKo": "브라운 퀼팅과 부츠 사이를 인디고 데님으로 잇고 크림 머플러를 길게 내려요.",
+    "introEn": "Link brown quilting and boots with indigo denim, leaving the cream scarf long.",
+    "introDe": "Verbinde braune Steppstruktur und Boots mit Indigodenim und lasse den cremefarbenen Schal lang fallen."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-08-street-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "브라운 퀼팅 재킷",
+        "en": "Brown Quilted Jacket",
+        "de": "Braune Steppjacke"
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "브라운 퀼팅 재킷 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "brown matte diamond quilted hip length jacket, front zip, relaxed sleeves, no invented shearling or hood; front collar partly obscured",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "brown matte diamond quilted hip length jacket, front zip, relaxed sleeves, no invented shearling or hood; front collar partly obscured",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#FAF5EE",
+      "nameKo": "브라운 퀼팅 재킷",
+      "descriptionKo": "앞을 열어 니트와 머플러의 질감을 드러내고 여유 있는 실루엣을 살려요.",
+      "nameEn": "Brown Quilted Jacket",
+      "descriptionEn": "Wear it open to reveal the knit and scarf textures, keeping the silhouette relaxed.",
+      "nameDe": "Braune Steppjacke",
+      "descriptionDe": "Trage die Jacke offen, damit Strick und Schal sichtbar bleiben und die Silhouette locker fällt.",
+      "observedEvidence": "brown matte diamond quilted hip length jacket, front zip, relaxed sleeves, no invented shearling or hood",
+      "inferredElements": [
+        "hidden back and interior",
+        "covered fastening and pocket details"
+      ]
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-08-street-m.top",
+      "category": "top",
+      "name": {
+        "ko": "차콜 리브 터틀넥",
+        "en": "Charcoal Rib Turtleneck",
+        "de": "Anthrazitfarbener Ripp-Rollkragenpullover"
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 리브 터틀넥 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "charcoal gray ribbed knit turtleneck sweater, high folded neck and rib cuffs, obscured body conservatively reconstructed",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "charcoal gray ribbed knit turtleneck sweater, high folded neck and rib cuffs, obscured body conservatively reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F8F5EE",
+      "nameKo": "차콜 리브 터틀넥",
+      "descriptionKo": "아우터 안에서 니트 조직을 보여주고 소매 끝을 살짝 드러내요.",
+      "nameEn": "Charcoal Rib Turtleneck",
+      "descriptionEn": "Show the knit texture inside the jacket and let a little cuff peek out.",
+      "nameDe": "Anthrazitfarbener Ripp-Rollkragenpullover",
+      "descriptionDe": "Zeige die Strickstruktur unter der Jacke und lasse die Bündchen leicht hervorblitzen.",
+      "observedEvidence": "charcoal gray ribbed knit turtleneck sweater, high folded neck and rib cuffs, obscured body conservatively reconstructed",
+      "inferredElements": [
+        "covered neckline where not visible",
+        "hidden body length and back"
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-08-street-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "다크 인디고 와이드 진",
+        "en": "Dark Indigo Wide Jeans",
+        "de": "Weite dunkelindigoblaue Jeans"
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "다크 인디고 와이드 진 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "dark indigo raw-look denim wide straight jeans with contrast tan stitching and deep turned cuffs",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "dark indigo raw-look denim wide straight jeans with contrast tan stitching and deep turned cuffs",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F6F1EB",
+      "nameKo": "다크 인디고 와이드 진",
+      "descriptionKo": "여유 있는 바지 폭으로 상체의 볼륨을 이어주고 밑단은 자연스럽게 내려요.",
+      "nameEn": "Dark Indigo Wide Jeans",
+      "descriptionEn": "Balance the upper layers with relaxed trouser volume and let the hems fall naturally.",
+      "nameDe": "Weite dunkelindigoblaue Jeans",
+      "descriptionDe": "Gleiche die oberen Lagen mit einer lockeren Hosenweite aus und lasse die Säume natürlich fallen.",
+      "observedEvidence": "dark indigo raw-look denim wide straight jeans with contrast tan stitching and deep turned cuffs",
+      "inferredElements": [
+        "covered waistband and pockets",
+        "hidden leg sections and hems where outside frame"
+      ]
+    },
+    {
+      "id": "04-shoes",
+      "appItemId": "bn15-08-street-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "브라운 레이스업 부츠",
+        "en": "Brown Lace-Up Boots",
+        "de": "Braune Schnürboots"
+      },
+      "image": "products/04-shoes.jpg",
+      "altKo": "브라운 레이스업 부츠 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "pair of medium dark brown leather-look ankle lace-up work boots, rounded toes, tan brown laces, dark rugged soles, visible contrast welt seam",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "pair of medium dark brown leather-look ankle lace-up work boots, rounded toes, tan brown laces, dark rugged soles, visible contrast welt seam",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F7F2E9",
+      "nameKo": "브라운 레이스업 부츠",
+      "descriptionKo": "묵직한 부츠 실루엣으로 와이드 데님 밑단을 받쳐줘요.",
+      "nameEn": "Brown Lace-Up Boots",
+      "descriptionEn": "Anchor the wide denim hems with the substantial boot silhouette.",
+      "nameDe": "Braune Schnürboots",
+      "descriptionDe": "Gib den weiten Jeanssäumen mit der kräftigen Bootsilhouette Halt.",
+      "observedEvidence": "pair of medium dark brown leather-look ankle lace-up work boots, rounded toes, tan brown laces, dark rugged soles, visible contrast welt seam",
+      "inferredElements": [
+        "covered boot shaft height and closure details",
+        "unseen sole tread"
+      ]
+    },
+    {
+      "id": "05-scarf",
+      "appItemId": "bn15-08-street-m.accessory",
+      "category": "scarf",
+      "name": {
+        "ko": "크림 니트 머플러",
+        "en": "Cream Knit Scarf",
+        "de": "Cremefarbener Strickschal"
+      },
+      "image": "products/05-scarf.jpg",
+      "altKo": "크림 니트 머플러 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "cream ivory chunky knitted long scarf with thick knit texture and long fringe",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "cream ivory chunky knitted long scarf with thick knit texture and long fringe",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F4EFE9",
+      "nameKo": "크림 니트 머플러",
+      "descriptionKo": "머플러를 느슨하게 감고 프린지를 길게 내려 니트와 아우터 사이에 질감을 더해요.",
+      "nameEn": "Cream Knit Scarf",
+      "descriptionEn": "Wrap the scarf loosely and leave the fringe long for texture between knit and outerwear.",
+      "nameDe": "Cremefarbener Strickschal",
+      "descriptionDe": "Lege den Schal locker um und lasse die Fransen lang hängen, um zwischen Strick und Jacke Struktur zu zeigen.",
+      "observedEvidence": "cream ivory chunky knitted long scarf with thick knit texture and long fringe",
+      "inferredElements": [
+        "unseen reverse and full length"
+      ]
+    },
+    {
+      "id": "06-gloves",
+      "appItemId": "bn15-08-street-m.06-gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "차콜 니트 장갑",
+        "en": "Charcoal Knit Gloves",
+        "de": "Anthrazitfarbene Strickhandschuhe"
+      },
+      "image": "products/06-gloves.jpg",
+      "altKo": "차콜 니트 장갑 — 아이보리 배경의 단독 제품 사진",
+      "reconstruction": "partially-visible-reconstructed",
+      "observed": "pair of dark charcoal textured knit full finger gloves, rib cuffs; reference gloves on counter, do not include counter",
+      "reconstructionNotes": "Visible colour, texture and silhouette are reference evidence. Hidden back, interior, fastening, neckline, waistband, leg hems or boot shafts as applicable are conservative reconstruction; composition, construction and exact dimensions are unverified.",
+      "designDescriptionEn": "pair of dark charcoal textured knit full finger gloves, rib cuffs; reference gloves on counter, do not include counter",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "bg": "#F9F4EE",
+      "nameKo": "차콜 니트 장갑",
+      "descriptionKo": "장갑의 차분한 색과 질감으로 아우터와 머플러를 자연스럽게 연결해요.",
+      "nameEn": "Charcoal Knit Gloves",
+      "descriptionEn": "Link the jacket and scarf with the gloves’ quiet colour and texture.",
+      "nameDe": "Anthrazitfarbene Strickhandschuhe",
+      "descriptionDe": "Verbinde Jacke und Schal durch die ruhige Farbe und Struktur der Handschuhe.",
+      "observedEvidence": "pair of dark charcoal textured knit full finger gloves, rib cuffs",
+      "inferredElements": [
+        "hidden palm, second glove sections and wrist details"
+      ]
+    }
+  ],
+  "productCount": 6,
+  "excludedItems": [
+    "Food, drinks, grocery packaging, keys and scene props are outside wardrobe scope.",
+    "No socks generated: not observed."
+  ]
+}
