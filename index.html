@@ -134,7 +134,9 @@
     font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
   .peek-d[hidden] { display: none; }
-  .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
+  .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 56px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
+  /* b135: always two lines (split where the lines come out most even), 56px, smaller only if a line would not fit */
+  .peek-d span { display: block; white-space: nowrap; }
   /* b133: the pick's hero product (b134: the one its title names, else the outer), background removed, behind the
      headline on the right (never down into the summary); the headline letters that cross it switch to white or ink by
      the garment's lightness (a masked copy of the headline) */
@@ -832,7 +834,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b134";
+  var BUILD = "b135";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1300,9 +1302,9 @@
     var e = lookPool(v, lookPhotos(v, load("wx-profile") || {}))[0], o = e && !e.soon ? e.o : null, A = o && o.article;
     $("peek-k").textContent = "Today's Look";
     // b119: no band headline (LAYER UP …) any more: a look without an article title shows only the kicker and summary
-    $("peek-d").textContent = A ? A.title : "";
+    peekTitle = A ? A.title : "";
+    fitHead();
     $("peek-d").hidden = !A;
-    $("peek-x").textContent = A ? A.title : "";
     // b134: the product the title is about (look/cutouts.js HERO, e.g. CITRON ON THE TERRACE -> the citron knit)
     var hero = A && o.hero && LIB.items[o.hero] && LIB.items[o.hero].cut ? LIB.items[o.hero] : null;
     paintCut(hero);
@@ -1311,6 +1313,28 @@
     $("summary").hidden = false;
     peek.hidden = false;
     placeCut();
+  }
+
+  // b135: the headline in two lines of about the same width (one-word titles stay one line), 56px or smaller to fit
+  var peekTitle = "", measure = document.createElement("canvas").getContext("2d");
+  function fitHead() {
+    var d = $("peek-d"), x = $("peek-x"), w = peekTitle.toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")];
+    var cs = getComputedStyle(d), avail = $("peek").offsetWidth || d.offsetWidth || 342;
+    measure.font = "56px " + cs.fontFamily;
+    function width(t) { return measure.measureText(t).width; }
+    if (w.length > 1) {
+      var best = Infinity;
+      for (var i = 1; i < w.length; i++) {
+        var a = w.slice(0, i).join(" "), b = w.slice(i).join(" "), m = Math.max(width(a), width(b));
+        if (m < best) { best = m; lines = [a, b]; }
+      }
+    }
+    var widest = Math.max.apply(null, lines.map(width)), size = widest > avail ? Math.max(36, Math.floor(56 * avail / widest)) : 56;
+    [d, x].forEach(function (el) {
+      el.textContent = "";
+      lines.forEach(function (t, i) { var s = document.createElement("span"); s.textContent = t + (i < lines.length - 1 ? " " : ""); el.appendChild(s); });
+      el.style.fontSize = size + "px";
+    });
   }
 
   // b133: lay the cutout out against the headline's height and fit the masked copy of the headline over it
@@ -1330,7 +1354,7 @@
   function placeCut() {
     var img = $("peek-p"), x = $("peek-x"), d = $("peek-d"), peek = $("peek");
     if (!peekCut || !img.naturalWidth || peek.hidden || d.hidden || !peek.offsetWidth) return;
-    var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 16, boxW = pw * 0.6,
+    var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 36, boxW = pw * 0.66, // b135: a little bigger
         s = Math.min(boxH / img.naturalHeight, boxW / img.naturalWidth),
         w = img.naturalWidth * s, h = img.naturalHeight * s, left = pw + 16 - w, top = (ph - h) / 2;
     img.style.cssText = "left:" + left + "px;top:" + top + "px;width:" + w + "px;height:" + h + "px";
@@ -1339,8 +1363,8 @@
     x.style.webkitMaskSize = x.style.maskSize = w + "px " + h + "px";
     img.hidden = x.hidden = false;
   }
-  addEventListener("resize", placeCut);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(placeCut);
+  addEventListener("resize", function () { fitHead(); placeCut(); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitHead(); placeCut(); });
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
