@@ -24,7 +24,7 @@
 - 약간의 필름 입자, 풍부하지만 현실적인 색. 주변 공간을 알아볼 수 있는 심도.
 - 프레임과 높낮이를 다양하게: 전신·무릎 위·상반신, 하이앵글·로우앵글·눈높이.
 - 세로 2:3. 기본 원본 1024 × 1536. 한 파일에 사진 한 장.
-- 앱에 올릴 때는 JPG(품질 80, 300KB 이하)로. 제품 컷은 500 × 500 1:1, 따뜻한 아이보리 배경(#F3EFE8 근처), 기본 수직 탑뷰(부츠는 아래 신발별 구도 규칙 적용), JPG 50KB 이하. PNG 원본은 저장소에 두지 않는다(2026-10-20).
+- 에디토리얼 앱 배포본은 JPG(품질 80, 300KB 이하). 제품 컷은 500 × 500 1:1 투명 배경 WebP로 배포한다. 투명 PNG 마스터는 저장소 외부에 보관하며 GitHub에는 중복 업로드하지 않는다. 제품 포맷·배경·용량은 11장의 2026-10-23 승인 기준을 따른다. 기본 수직 탑뷰 및 부츠 구도는 유지한다.
 - 사진 안에는 텍스트, 로고, 워터마크, 앱 UI, 콜라주를 넣지 않는다.
 
 ### 타깃 연령과 모델 외관 연령 분리 (2026-10-22 사용자 승인)
@@ -89,7 +89,7 @@ Do not force cropped footwear or accessories back into frame.
 - 최종 승인 컷을 보이는 부분의 우선 근거로 삼는다. 같은 착장의 이전 전신 컷이 있으면 크롭으로 사라진 하의·신발·가방의 보조 근거로 사용한다. 이전 전신 컷은 승인된 최종 에디토리얼 대신 앱에 등록하지 않는다.
 - 최종 컷에서 보이는 제품, 보조 컷에서만 확인되는 제품, 양쪽 모두에서 안 보이는 추정 제품을 구분한다. 예: `visible-item-reconstructed`, `partially-visible-reconstructed`, `supporting-view-reconstructed`, `not-visible-inferred`.
 - Markdown·products.json에 근거 구분을 기록한다. 보조 컷의 신발이나 가려진 양말을 최종 크롭에서 직접 확인한 것처럼 설명하지 않는다.
-- 제품 사진은 여전히 품목별 별도 파일, 전체 형태가 보이는 정돈된 구도와 아이보리 배경을 사용한다.
+- 제품 사진은 품목별 별도 파일, 전체 형태가 보이는 정돈된 구도와 실제 알파 투명 배경을 사용한다(11장).
 - 제품 생성 프롬프트는 이번 파일의 품목 하나만 묘사한다. 코트 파일에 신발·양말·안경·우산의 배치 규칙까지 나열하면 다품목 보드가 생성될 수 있으므로, 신발별 구도 규칙 등은 해당 품목을 만들 때만 넣는다. 다품목 보드가 나오면 업로드하지 않고 품목 단독 프롬프트로 다시 만든다.
 
 ## 2. 시선과 순간 포착
@@ -267,12 +267,12 @@ No added text, logos, watermark or collage.
 - 모든 유형에서 한 켤레의 크기와 간격을 균형 있게 맞추고, 위아래·좌우 여백을 확보해 발목부터 밑창까지 전체 제품을 담는다.
 - 부츠를 옆으로 눕히거나 발목 부분을 접어 형태를 숨기지 않는다. 플랫류는 불필요하게 비틀거나 서로 다른 방향으로 흩어놓지 않는다.
 - 정돈된 배치가 우선이다. 과도한 원근 왜곡, 어지러운 교차·겹침, 잘린 제품, 인물·소품을 사용하지 않는다.
-- 배경은 기존 따뜻한 아이보리로 통일하고 부드러운 접지 그림자를 유지한다. 제공된 레퍼런스의 화면 UI·로고·텍스트는 복제하지 않는다.
+- 제품 배경은 실제 알파 투명으로 통일한다. 바닥·접지 그림자는 굽지 않고 화면에서 필요한 경우 별도로 표현한다. 제공된 레퍼런스의 화면 UI·로고·텍스트는 복제하지 않는다.
 - 한 켤레는 한 아이템이며 독립된 제품 이미지 파일 1장에 담는다.
 
 - 각 이미지는 에디토리얼을 참조해 해당 아이템의 색상·소재·실루엣·지퍼·포켓·봉제선 등 보이는 디테일을 일치시킨다. 가려진 부분을 임의로 확정된 디테일처럼 설명하지 않는다.
-- 제품마다 500 × 500, 1:1 정사각형, 따뜻한 아이보리 배경(#F3EFE8 근처), 기본 수직 탑뷰(부츠는 위 신발별 3/4 앵글 적용), 부드러운 접지 그림자, 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다.
-- 인물·손·마네킹·행거·다른 제품·텍스트·로고·워터마크를 넣지 않는다. 앱용 JPG 50KB 이하로 저장한다.
+- 제품 배포본은 500 × 500, 1:1 정사각형, 실제 알파 투명 배경, 기본 수직 탑뷰(부츠는 위 신발별 3/4 앵글 적용), 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다. 배경과 외부 그림자는 화면에서 별도로 만든다.
+- 인물·손·마네킹·행거·다른 제품·텍스트·로고·워터마크를 넣지 않는다. 앱용 투명 WebP로 저장하며 용량·품질 기준은 11장을 따른다.
 
 ### 개별 제품 컷 기본 프롬프트
 
@@ -284,9 +284,10 @@ Preserve the visible color, material, silhouette and construction details
 of that item in the editorial. Do not redesign the item.
 One item category per image and per file. A matching pair of shoes, socks
 or gloves counts as one item and may appear together in its own image.
-Warm ivory floor/background near #F3EFE8, soft studio light,
-subtle contact shadow, entire item visible, centered composition
-and consistent generous margins.
+True transparent background with a real alpha channel; no floor, ivory matte,
+checkerboard artwork, baked external shadow or colored edge halo.
+Soft studio lighting on the product itself; retain self-shading and texture.
+Entire item visible, centered composition and consistent generous margins.
 Default to vertical overhead flat-lay for clothing and low footwear.
 Sneakers and flat shoes: both shoes resting on soles, parallel and neatly
 aligned side by side, camera directly overhead. Toes may face toward the
@@ -299,7 +300,9 @@ Clean, orderly presentation and full product visibility take priority.
 No other products, person, hands, mannequin, hanger, text, logo,
 watermark, grid, collage or multi-item board.
 Deliver each item separately; six items require six separate images.
-App export: 500 × 500 JPG, 50KB maximum.
+Master: transparent PNG stored outside the app Git repository.
+App export: 500 × 500 transparent WebP; target 50KB, normally at most 100KB.
+Preserve alpha edges and fine material texture; document any size exception.
 ~~~
 
 ## 9. 제작 전후 확인
@@ -455,3 +458,41 @@ photographic language and casting rules.
 - 지역 단서가 배경에 은은하게 드러나며 랜드마크와 읽을 수 있는 간판 문구는 없는가?
 - 구름·맑음·비·낮·밤이 입력 조건과 일치하는가?
 - 기후별 의상·소재·레이어링을 고정 사진 스타일과 분리해 결정했는가?
+
+
+## 11. 투명 제품 컷과 배경 분리 (2026-10-23 사용자 승인)
+
+이 절은 제품 컷의 기존 아이보리 배경·JPG 50KB 기준을 대체한다. 에디토리얼의 촬영 스타일과 JPG 배포 기준은 유지한다.
+
+### 제작·재사용 원칙
+
+- 제품당 독립 이미지 정확히 1장. 기존의 색·소재·실루엣·보이는 디테일 일치, 한 켤레 구성, 신발별 구도 규칙을 유지한다.
+- 새 제품 컷은 처음부터 실제 알파 투명 배경으로 제작한다. 체크무늬를 그린 이미지나 흰색·아이보리 배경은 투명이 아니다. 이미지 생성 도구가 지원하면 transparent_background=true를 명시한다.
+- 제품의 입체감을 만드는 자체 명암은 유지하고, 바닥·배경·외부 접지 그림자는 이미지에 굽지 않는다.
+- Today’s Look에서는 투명 제품을 화면 배경에 직접 합성한다. 제품 목록의 아이보리(#F3EFE8 등), 홈페이지의 색·그라데이션, 필요한 그림자는 CSS 등 화면 코드로 표현한다. 같은 제품 파일을 재사용한다.
+
+### 저장과 용량 운영
+
+| 용도 | 포맷·규격 | 저장 원칙 |
+| --- | --- | --- |
+| 재사용 마스터 | 실제 알파 투명 PNG, 생성 원본 해상도 유지 | Library 등 저장소 외부의 지속 보관소. 앱 Git 저장소에 중복 커밋하지 않는다 |
+| 앱·웹 배포 | 실제 알파 투명 WebP, 기본 500 × 500 | GitHub에는 사용 중인 최적화 배포본만 커밋 |
+| 기존 에디토리얼 | JPG, 품질 80, 300KB 이하 | 기존 정책 유지 |
+
+- WebP 용량 목표는 장당 50KB, 일반 상한은 100KB로 운영한다. 이는 실측 압축률 보장이 아닌 프로젝트 예산이다. 복잡한 메시·모헤어·반투명 소재는 가장자리와 질감 보존을 우선하고, 초과 시 실제 크기와 사유를 기록한다.
+- 압축 전후 알파와 소재를 비교한다. 무조건적인 임계값 처리로 섬유·메시 구멍·반투명 부분을 없애거나 흰 제품을 배경으로 오인하지 않는다.
+- 마스터 위치와 배포 파일 경로를 인수인계에 기록한다. 외부 마스터 보관을 완료하기 전 원본을 삭제하지 않는다.
+- 기존 파일 삭제만으로 Git 이력의 바이너리 용량이 사라지지는 않는다. 과거 이력 재작성·일괄 자산 이전은 별도 작업 범위로 취급한다.
+
+### 배경 잔여색과 가장자리 검수
+
+- 흰색·검정·중간 회색·현재 앱 배경 위에 각각 합성하여 실제 표시 크기와 확대 상태를 검수한다.
+- 흰색/아이보리 테두리, 고립된 잔여 픽셀, 불투명 사각 배경, 잘린 제품, 과도한 가장자리 침식을 검사한다.
+- 기존 배경색이 섞인 가장자리는 색 오염 제거와 알파 보정을 함께 적용하되 원래 제품의 색과 섬유를 보존한다.
+- 새 투명 생성도 검수를 생략하지 않는다. 확장자가 PNG/WebP인 것만으로 투명을 확인하지 않고 알파 채널과 합성 결과를 확인한다.
+
+### 기존 앱과의 전환
+
+- 이번 문서 변경은 기존 승인 에디토리얼·제품 이미지의 자동 교체나 앱 코드 변경을 의미하지 않는다.
+- 기존 JPG 제품을 전환할 때 원본을 기준으로 정리한 투명 WebP를 만들고 관련 데이터 경로·확장자를 함께 수정한다. 화면에서 다시 흰 배경 제거를 시도하거나 혼합 모드로 투명을 흉내 내지 않는다.
+- 변환 뒤 제품 연결·경로·실제 화면 합성·용량을 검증한 후 사용하지 않는 중복 배포본을 정리한다.
