@@ -5,6 +5,11 @@
 (function () {
   var L = window.WX_LOOKS; if (!L) return;
   var CUTS = {
+    "bn15-01-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/01-running/products/01-outer.cut.webp", 0.104],
+    "bn15-02-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/02-running/products/01-outer.cut.webp", 0.418],
+    "bn15-03-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/03-running/products/01-outer.cut.webp", 0.054],
+    "bn15-04-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/04-running/products/01-outer.cut.webp", 0.207],
+    "bn15-05-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/05-running/products/01-outer.cut.webp", 0.042],
     "bn15-11-minimal-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/11-minimal/products/01-outer.cut.webp", 0.032],
     "bn15-12-minimal-f.top": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/12-minimal/products/02-top.cut.webp", 0.024],
     "bn15-13-minimal-f.top": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/13-minimal/products/02-top.cut.webp", 0.65],
@@ -130,11 +135,11 @@
     "bl-light-chilly-f-35-day-casual-03.02-top": ["look/berlin-complete/Rain/Light/Chilly/Female/35+/day/casual/03/products/02-top.cut.webp", 0.035],
     "bl-light-chilly-f-35-day-casual-04.01-outer": ["look/berlin-complete/Rain/Light/Chilly/Female/35+/day/casual/04/products/01-outer.cut.webp", 0.093],
     "bl-light-chilly-f-35-day-casual-05.01-outer": ["look/berlin-complete/Rain/Light/Chilly/Female/35+/day/casual/05/products/01-outer.cut.webp", 0.022],
-    "bn15-01-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/01-running/products/01-outer.cut.webp", 0.104],
-    "bn15-02-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/02-running/products/01-outer.cut.webp", 0.418],
-    "bn15-03-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/03-running/products/01-outer.cut.webp", 0.054],
-    "bn15-04-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/04-running/products/01-outer.cut.webp", 0.207],
-    "bn15-05-run-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/05-running/products/01-outer.cut.webp", 0.042]
+    "bn15-06-street-f.top": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/06-street/products/02-top.cut.webp", 0.285],
+    "bn15-07-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/07-street/products/01-outer.cut.webp", 0.184],
+    "bn15-08-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/08-street/products/01-outer.cut.webp", 0.147],
+    "bn15-09-street-f.accessory": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/09-street/products/05-scarf.cut.webp", 0.031],
+    "bn15-10-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/10-street/products/01-outer.cut.webp", 0.493]
   };
   var HERO = {
     "bn15-01-run-f": "bn15-01-run-f.outer",
@@ -142,6 +147,11 @@
     "bn15-03-run-f": "bn15-03-run-f.outer",
     "bn15-04-run-f": "bn15-04-run-f.outer",
     "bn15-05-run-f": "bn15-05-run-f.outer",
+    "bn15-06-street-f": "bn15-06-street-f.top",
+    "bn15-07-street-f": "bn15-07-street-f.outer",
+    "bn15-08-street-f": "bn15-08-street-f.outer",
+    "bn15-09-street-f": "bn15-09-street-f.accessory",
+    "bn15-10-street-f": "bn15-10-street-f.outer",
     "bn15-11-minimal-f": "bn15-11-minimal-f.outer",
     "bn15-12-minimal-f": "bn15-12-minimal-f.top",
     "bn15-13-minimal-f": "bn15-13-minimal-f.top",
