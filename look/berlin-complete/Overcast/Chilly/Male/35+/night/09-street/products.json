@@ -28,9 +28,9 @@
         "de": "Rote Steppjacke"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "후드 달린 빨간 패딩은 앞을 열어 블랙 니트와 대비를 만들어요. 엉덩이를 살짝 덮는 길이가 밤바람에 든든해요.",
+        "en": "Wear the hooded red puffer open for contrast with the black knit. A length that just covers the hips keeps the night wind out.",
+        "de": "Die rote Kapuzendaunenjacke offen tragen, als Kontrast zum schwarzen Strick. Eine Länge knapp über die Hüfte hält den Nachtwind ab."
       },
       "image": "products/01-outer.webp",
       "status": "ready",
@@ -48,9 +48,9 @@
         "de": "Schwarzer Pullover"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "결이 살아 있는 블랙 니트가 빨간색 사이에서 깊이를 만들어요.",
+        "en": "A textured black knit adds depth inside all that red.",
+        "de": "Ein strukturierter schwarzer Strickpullover gibt dem vielen Rot Tiefe."
       },
       "image": "products/02-top.webp",
       "status": "ready",
@@ -68,9 +68,9 @@
         "de": "Schwarz verwaschene Jeans"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "어두운 워시드 데님을 일자로 떨어지게. 상의의 빨간색이 더 선명해 보여요.",
+        "en": "Dark washed denim with a straight fall makes the red above look even brighter.",
+        "de": "Dunkel gewaschener Denim mit geradem Fall lässt das Rot darüber noch kräftiger wirken."
       },
       "image": "products/03-bottom.webp",
       "status": "ready",
@@ -88,9 +88,9 @@
         "de": "Anthrazitfarbener Schal"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "술이 달린 차콜 머플러를 한 번 둘러 한쪽 끝만 길게 늘어뜨려요.",
+        "en": "Loop the fringed charcoal scarf once and let one end hang long.",
+        "de": "Den anthrazitfarbenen Fransenschal einmal umlegen und ein Ende lang hängen lassen."
       },
       "image": "products/04-scarf.webp",
       "status": "ready",
@@ -108,9 +108,9 @@
         "de": "Gebrochen weiße Sneaker"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "오프화이트 스니커즈로 어두운 하의 끝을 가볍게 끊어 줘요.",
+        "en": "Off-white sneakers give the dark trousers a light finish.",
+        "de": "Cremeweiße Sneaker geben der dunklen Hose einen leichten Abschluss."
       },
       "image": "products/05-shoes.webp",
       "status": "ready",
@@ -124,9 +124,20 @@
   "copy": {
     "title": "RED AFTER DARK",
     "intro": {
-      "ko": "레드 패딩 재킷, 블랙 니트, 블랙 워시드 데님, 차콜 머플러, 오프화이트 스니커즈 조합으로 볼륨과 질감을 살려요.",
-      "en": "Combine Red Puffer Jacket, Black Knit, Black Washed Jeans, Charcoal Scarf, Off-White Sneakers for layered texture and volume.",
-      "de": "Kombiniere Rote Steppjacke, Schwarzer Pullover, Schwarz verwaschene Jeans, Anthrazitfarbener Schal, Gebrochen weiße Sneaker für Struktur und Volumen."
+      "ko": "빨간 패딩이 주인공이면 나머지는 검정과 차콜로 조용히. 진한 데님과 블랙 니트가 빨간색을 단단하게 받치고, 흰 스니커즈가 발끝을 가볍게 마무리해요.",
+      "en": "When the red puffer leads, keep the rest quiet in black and charcoal. Dark denim and a black knit hold the red steady; white sneakers keep the feet light.",
+      "de": "Wenn die rote Daunenjacke die Hauptrolle spielt, bleibt der Rest ruhig in Schwarz und Anthrazit. Dunkler Denim und schwarzer Strick halten das Rot im Zaum, weiße Sneaker machen den Abschluss leicht."
+    },
+    "deck": {
+      "ko": "새빨간 패딩에 블랙 니트, 차콜 머플러. 흐린 밤을 웃으며 지나가는 빨간색.",
+      "en": "A bright red puffer, a black knit and a charcoal scarf. A red that walks through a grey night smiling.",
+      "de": "Eine knallrote Daunenjacke, schwarzer Strick und ein anthrazitfarbener Schal. Ein Rot, das lächelnd durch die graue Nacht geht."
+    },
+    "pullQuoteEn": "RED IS THE PLAN.",
+    "tip": {
+      "ko": "머플러 한쪽 끝을 어깨 뒤로 넘기면 걸을 때도 흘러내리지 않아요.",
+      "en": "Throw one end of the scarf over your shoulder and it stays put while you walk.",
+      "de": "Ein Schalende über die Schulter werfen, dann bleibt er beim Gehen an Ort und Stelle."
     }
   },
   "contentType": "ai-styled-concept"

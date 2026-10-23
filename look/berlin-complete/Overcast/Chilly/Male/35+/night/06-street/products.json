@@ -28,9 +28,9 @@
         "de": "Kobaltblaue wattierte Bomberjacke"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "앞 지퍼는 반쯤 열어 크림 니트가 보이게. 볼륨 있는 봄버는 허리선에서 끝나야 다리가 길어 보여요.",
+        "en": "Zip it halfway so the cream knit shows. A puffy bomber should stop at the waist to keep the legs long.",
+        "de": "Den Reißverschluss halb offen lassen, damit der Cremestrick zu sehen ist. Eine voluminöse Bomberjacke sollte an der Taille enden, damit die Beine lang wirken."
       },
       "image": "products/01-outer.webp",
       "status": "ready",
@@ -48,9 +48,9 @@
         "de": "Elfenbeinfarbener Pullover"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "목이 살짝 올라오는 두툼한 니트로 봄버 칼라 안쪽을 채워요. 밑단은 바지 위로 내려 둬요.",
+        "en": "A chunky knit with a slightly raised neck fills the bomber's collar. Leave the hem out over the trousers.",
+        "de": "Ein dicker Strickpullover mit leicht erhöhtem Kragen füllt den Ausschnitt der Bomberjacke. Den Saum über der Hose lassen."
       },
       "image": "products/02-top.webp",
       "status": "ready",
@@ -68,9 +68,9 @@
         "de": "Weite anthrazitfarbene Jeans"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "넉넉한 와이드 데님을 신발 위로 살짝 쌓이게 입어 봄버의 볼륨과 균형을 맞춰요.",
+        "en": "Wide jeans that stack slightly over the shoes balance the bomber's volume.",
+        "de": "Weite Jeans, die leicht auf den Schuhen aufliegen, gleichen das Volumen der Bomberjacke aus."
       },
       "image": "products/03-bottom.webp",
       "status": "ready",
@@ -88,9 +88,9 @@
         "de": "Anthrazitfarbene Strickmütze"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "이마를 덮지 않게 뒤로 살짝 걸쳐 써요. 차콜이라 코발트를 방해하지 않아요.",
+        "en": "Wear it pushed slightly back, clear of the forehead. In charcoal it never competes with the cobalt.",
+        "de": "Etwas nach hinten geschoben tragen, die Stirn frei. In Anthrazit konkurriert sie nie mit dem Kobaltblau."
       },
       "image": "products/04-headwear.webp",
       "status": "ready",
@@ -104,9 +104,20 @@
   "copy": {
     "title": "COBALT AFTER HOURS",
     "intro": {
-      "ko": "코발트 패딩 봄버, 아이보리 니트, 차콜 와이드 데님, 차콜 비니 조합으로 볼륨과 질감을 살려요.",
-      "en": "Combine Cobalt Padded Bomber, Ivory Knit, Charcoal Wide Jeans, Charcoal Beanie for layered texture and volume.",
-      "de": "Kombiniere Kobaltblaue wattierte Bomberjacke, Elfenbeinfarbener Pullover, Weite anthrazitfarbene Jeans, Anthrazitfarbene Strickmütze für Struktur und Volumen."
+      "ko": "어두운 밤엔 아우터 하나로 색을 정해요. 코발트 봄버는 크게, 안쪽 니트와 데님은 조용한 크림과 차콜로. 비니까지 차콜로 맞추면 파란색이 더 또렷해져요.",
+      "en": "On a dark night, let one jacket set the colour. The cobalt bomber goes big; the knit and denim stay quiet in cream and charcoal. A charcoal beanie makes the blue look even sharper.",
+      "de": "In einer dunklen Nacht bestimmt eine Jacke die Farbe. Die kobaltblaue Bomberjacke darf groß wirken, Strick und Denim bleiben ruhig in Creme und Anthrazit. Eine anthrazitfarbene Mütze lässt das Blau noch klarer wirken."
+    },
+    "deck": {
+      "ko": "쨍한 코발트 봄버에 크림 니트. 흐린 밤거리에서 가장 먼저 눈에 띄는 색.",
+      "en": "A bright cobalt bomber over a cream knit. The first colour you notice on a grey night street.",
+      "de": "Eine leuchtend kobaltblaue Bomberjacke über cremefarbenem Strick. Die erste Farbe, die auf einer grauen Nachtstraße auffällt."
+    },
+    "pullQuoteEn": "ONE LOUD COLOUR IS ENOUGH.",
+    "tip": {
+      "ko": "봄버 소매는 손목에서 한 번 접히게 두고, 니트 소매가 살짝 보이게요.",
+      "en": "Let the bomber sleeves bunch once at the wrist so a little knit cuff shows.",
+      "de": "Die Ärmel der Bomberjacke am Handgelenk einmal stauchen lassen, damit ein Stück Strickbündchen zu sehen ist."
     }
   },
   "contentType": "ai-styled-concept"

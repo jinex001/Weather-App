@@ -526,7 +526,7 @@
 <script src="look/sunny-male-day-street.js?v=b126"></script>
 <script src="look/sunny-female-night-minimal.js?v=b129"></script>
 <script src="look/sunny-male-night-street.js?v=b131"></script>
-<script src="look/overcast-male-night-street.js?v=b143"></script>
+<script src="look/overcast-male-night-street.js?v=b144"></script>
 <script src="look/cutouts.js?v=b143"></script>
 <script>
 (function () {
@@ -880,7 +880,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b143";
+  var BUILD = "b144";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1914,8 +1914,9 @@
       var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pk = dayPick(D, i, g), pc = pk && pk.it;
       picks[i] = pk && pk.o ? pk : null;
       // b109: the card color is the cut's own ivory, measured ahead in outfits.js (bg), not read from the picture at run time
-      // (iOS sometimes gave black when the picture was read before it was drawn)
-      rows += '<button type="button" class="dc" data-day="' + i + '"' + (pc && pc.bg ? ' style="background:' + pc.bg + '"' : "") + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
+      // (iOS sometimes gave black when the picture was read before it was drawn). b144: a transparent cut (bg "transparent")
+      // has no ivory of its own, so the card keeps its CSS ivory
+      rows += '<button type="button" class="dc" data-day="' + i + '"' + (pc && /^#/.test(pc.bg || "") ? ' style="background:' + pc.bg + '"' : "") + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
         (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : pk && pk.soon ? soonHtml(pk.soon) : "") +
         '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(cardDay(D.time[i], i, dn.n)) + "</div></div>" +
         '<div class="dc-wx">' + dayIcon(c) + '<div class="dc-t">' + r(D.temperature_2m_max[i]) + '<span class="deg">°</span><small>' + r(D.temperature_2m_min[i]) + "°</small></div>" +

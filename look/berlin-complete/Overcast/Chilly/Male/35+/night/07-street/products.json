@@ -28,9 +28,9 @@
         "de": "Braune Shearlingjacke"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "앞을 열어 러스트 니트를 넓게 보여 줘요. 크림 칼라와 소매 끝이 얼굴과 손 주변을 밝혀요.",
+        "en": "Wear it open to show plenty of the rust knit. The cream collar and cuffs brighten the face and hands.",
+        "de": "Offen tragen, damit viel vom rostfarbenen Strick zu sehen ist. Kragen und Bündchen in Creme hellen Gesicht und Hände auf."
       },
       "image": "products/01-outer.webp",
       "status": "ready",
@@ -48,9 +48,9 @@
         "de": "Rostbrauner Pullover"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "결이 보이는 크루넥 니트가 매끈한 가죽과 대비돼요. 시어링 소매 끝으로 니트 커프가 살짝 나오게요.",
+        "en": "A textured crewneck plays against the smooth leather. Let the knit cuff peek past the shearling sleeve.",
+        "de": "Ein strukturierter Rundhalspullover bildet einen Kontrast zum glatten Leder. Das Strickbündchen darf unter dem Shearlingärmel hervorschauen."
       },
       "image": "products/02-top.webp",
       "status": "ready",
@@ -68,9 +68,9 @@
         "de": "Weite indigoblaue Jeans"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "진한 인디고 와이드 데님으로 갈색 상의를 차분하게 받쳐요. 밑단은 부츠 위에 자연스럽게 떨어지게요.",
+        "en": "Deep indigo wide jeans ground the brown top. Let the hems fall naturally over the boots.",
+        "de": "Eine tiefblaue weite Jeans gibt dem braunen Oberteil Halt. Der Saum fällt locker über die Stiefel."
       },
       "image": "products/03-bottom.webp",
       "status": "ready",
@@ -88,9 +88,9 @@
         "de": "Braune Schnürboots"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "젖은 돌길에도 든든한 레이스업 부츠. 재킷과 같은 갈색이라 룩이 끝까지 이어져요.",
+        "en": "Lace-up boots that handle wet cobbles. The same brown as the jacket carries the look all the way down.",
+        "de": "Schnürstiefel, die nasses Kopfsteinpflaster aushalten. Das gleiche Braun wie die Jacke zieht den Look bis nach unten."
       },
       "image": "products/04-shoes.webp",
       "status": "ready",
@@ -108,9 +108,9 @@
         "de": "Elfenbeinfarbene Tragetasche"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "가볍게 든 캔버스 토트가 어두운 룩에 밝은 면을 하나 더해요. 장보기에도 충분한 크기예요.",
+        "en": "A canvas tote adds one light surface to a dark look, and it's big enough for the shopping.",
+        "de": "Eine Canvas-Tasche bringt eine helle Fläche in den dunklen Look und ist groß genug für den Einkauf."
       },
       "image": "products/05-bag.webp",
       "status": "ready",
@@ -128,9 +128,9 @@
         "de": "Einzelne silberfarbene Creole"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "한쪽 귀에만 작은 실버 후프. 갈색 톤 사이에서 아주 작게 빛나요.",
+        "en": "A small silver hoop in one ear, a tiny flash among all the browns.",
+        "de": "Ein kleiner silberner Creole in einem Ohr, ein winziger Glanz zwischen all den Brauntönen."
       },
       "image": "products/06-jewelry.webp",
       "status": "ready",
@@ -144,9 +144,20 @@
   "copy": {
     "title": "BROWN SHEARLING AT THE SHOP",
     "intro": {
-      "ko": "브라운 시어링 재킷, 러스트 브라운 니트, 인디고 와이드 데님, 브라운 레이스업 부츠, 아이보리 토트백, 실버 톤 싱글 후프 조합으로 볼륨과 질감을 살려요.",
-      "en": "Combine Brown Shearling Jacket, Rust Brown Knit, Indigo Wide Jeans, Brown Lace-Up Boots, Ivory Tote, Silver-Tone Single Hoop for layered texture and volume.",
-      "de": "Kombiniere Braune Shearlingjacke, Rostbrauner Pullover, Weite indigoblaue Jeans, Braune Schnürboots, Elfenbeinfarbene Tragetasche, Einzelne silberfarbene Creole für Struktur und Volumen."
+      "ko": "갈색은 겹칠수록 깊어져요. 가죽의 다크 브라운, 니트의 러스트, 부츠의 브라운을 한 톤 안에서 쌓고, 크림 시어링과 캔버스 토트로 숨 쉴 틈을 줘요.",
+      "en": "Browns get richer the more you layer them. Stack the leather's dark brown, the knit's rust and the boots in one family, then let the cream shearling and canvas tote add air.",
+      "de": "Brauntöne werden satter, je mehr man sie schichtet. Dunkelbraunes Leder, rostfarbener Strick und braune Stiefel bleiben in einer Familie, cremefarbenes Shearling und die Canvas-Tasche lassen Luft."
+    },
+    "deck": {
+      "ko": "다크 브라운 시어링 재킷에 러스트 니트, 손에는 장바구니. 퇴근길 가게 앞의 따뜻한 갈색.",
+      "en": "A dark brown shearling jacket, a rust knit and a shopping tote. Warm browns outside the corner shop after work.",
+      "de": "Eine dunkelbraune Shearlingjacke, ein rostfarbener Strick und eine Einkaufstasche. Warme Brauntöne vor dem Laden nach Feierabend."
+    },
+    "pullQuoteEn": "ALL THE BROWNS, ONE ERRAND.",
+    "tip": {
+      "ko": "시어링 칼라는 세워 두면 목도리 없이도 목이 따뜻해요.",
+      "en": "Stand the shearling collar up and you won't need a scarf.",
+      "de": "Den Shearlingkragen aufstellen, dann braucht es keinen Schal."
     }
   },
   "contentType": "ai-styled-concept"

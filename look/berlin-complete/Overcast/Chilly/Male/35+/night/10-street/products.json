@@ -28,9 +28,9 @@
         "de": "Olivfarbene Collegejacke"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "올리브 울과 크림 가죽 소매의 대비가 핵심이에요. 스냅을 몇 개만 채워 실루엣을 짧고 단정하게요.",
+        "en": "The contrast of olive wool and cream leather sleeves is the point. Close a few snaps to keep the shape short and neat.",
+        "de": "Es geht um den Kontrast von olivfarbener Wolle und cremefarbenen Lederärmeln. Ein paar Druckknöpfe schließen, damit die Form kurz und ordentlich bleibt."
       },
       "image": "products/01-outer.webp",
       "status": "ready",
@@ -48,9 +48,9 @@
         "de": "Braune Cordhose"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "골이 굵은 브라운 코듀로이로 재킷의 울 결과 질감을 맞춰요. 일자로 넉넉하게요.",
+        "en": "Wide-wale brown corduroy matches the wool's texture. Cut straight and roomy.",
+        "de": "Breitcord in Braun passt zur Struktur der Wolle. Gerade und weit geschnitten."
       },
       "image": "products/02-bottom.webp",
       "status": "ready",
@@ -68,9 +68,9 @@
         "de": "Anthrazitfarbene fingerlose Handschuhe"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "손가락이 나오는 차콜 장갑이라 열쇠나 휴대폰을 쓸 때도 벗을 필요가 없어요.",
+        "en": "Fingerless charcoal gloves, so you never take them off for keys or your phone.",
+        "de": "Fingerlose Handschuhe in Anthrazit, so muss man sie für Schlüssel oder Handy nie ausziehen."
       },
       "image": "products/03-gloves.webp",
       "status": "ready",
@@ -84,9 +84,20 @@
   "copy": {
     "title": "OLIVE ON THE WAY HOME",
     "intro": {
-      "ko": "올리브 바시티 재킷, 브라운 코듀로이 팬츠, 차콜 핑거리스 장갑 조합으로 볼륨과 질감을 살려요.",
-      "en": "Combine Olive Varsity Jacket, Brown Corduroy Trousers, Charcoal Fingerless Gloves for layered texture and volume.",
-      "de": "Kombiniere Olivfarbene Collegejacke, Braune Cordhose, Anthrazitfarbene fingerlose Handschuhe für Struktur und Volumen."
+      "ko": "바시티 재킷은 색 두 개로 이미 완성이에요. 올리브와 크림 아래로 브라운 코듀로이를 받치면 스포티함이 어른스럽게 가라앉아요. 손끝은 핑거리스 장갑으로.",
+      "en": "A varsity jacket is already done in two colours. Put brown corduroy under the olive and cream and the sporty edge settles into something grown-up. Fingerless gloves for the hands.",
+      "de": "Eine College-Jacke ist mit zwei Farben schon fertig. Braune Cordhose unter Oliv und Creme lässt das Sportliche erwachsen wirken. Für die Hände fingerlose Handschuhe."
+    },
+    "deck": {
+      "ko": "올리브 울 바디에 크림 가죽 소매, 브라운 코듀로이. 집에 들어서는 길의 스포티한 갈색.",
+      "en": "An olive wool body with cream leather sleeves over brown corduroy. Sporty browns on the way in the door.",
+      "de": "Ein olivfarbener Wollkörper mit cremefarbenen Lederärmeln über brauner Cordhose. Sportliche Brauntöne auf dem Weg nach Hause."
+    },
+    "pullQuoteEn": "VARSITY, GROWN UP.",
+    "tip": {
+      "ko": "재킷 밑단 리브가 허리에 딱 걸리게 입고, 안쪽 니트는 밖으로 빼지 않아요.",
+      "en": "Let the ribbed hem sit right at the waist and keep the knit tucked inside the jacket line.",
+      "de": "Den Rippbund genau auf der Taille sitzen lassen und den Strick innerhalb der Jackenlinie halten."
     }
   },
   "contentType": "ai-styled-concept"

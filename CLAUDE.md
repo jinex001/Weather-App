@@ -2,7 +2,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-23, 빌드 b142)
+## 현재 상태 (2026-10-23, 빌드 b144)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -310,3 +310,7 @@ Sunny / Chilly / Female / 35+ / Night / Street 06–10: 5룩·42제품(7/7/8/10/
 ## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
 
 User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.
+
+## b144 · 흐린 날 남성 저녁 스트리트 문구 + 투명 컷 캘린더 색 (2026-10-23)
+
+사용자 요청. b143 세트(`ocn-06`–`ocn-10-street-m`)의 제품 21개 입는 법이 모두 같은 한 문장("원본처럼 여유 있는 레이어와 함께 조합해요.")이었고, 한 줄 요약·인트로는 제품 이름을 나열한 문장(en 제품명 대문자, de 형용사 어미 틀림)이었음 → 에디토리얼 5장을 보고 한 줄 요약·인트로·인용구(pull)·팁과 제품별 입는 법을 ko/en/de로 새로 씀(`look/overcast-male-night-street.js`, 각 products.json `copy`·`description`도 같은 문구). 제목·제품 이름·ID·사진은 그대로. 캘린더 카드: 아이템 `bg`가 `#` 색일 때만 카드 바탕으로 씀(투명 제품은 `bg: "transparent"`라 카드가 투명해질 수 있었음, 지금은 캘린더가 낮 룩만 써서 이 저녁 세트는 안 나왔음). 09 하의는 이름이 블랙 워시드 데님인데 사진은 진한 인디고에 가까움(이름은 그대로 둠).

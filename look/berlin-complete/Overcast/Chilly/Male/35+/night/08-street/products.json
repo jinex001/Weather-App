@@ -28,9 +28,9 @@
         "de": "Anthrazitfarbene Steppjacke"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "다이아몬드 퀼팅이 은은한 결을 만들어요. 앞을 열고 주머니에 손을 넣어 편하게 입어요.",
+        "en": "The diamond quilting gives a quiet texture. Wear it open, hands in the pockets.",
+        "de": "Die Rautensteppung sorgt für eine ruhige Struktur. Offen tragen, die Hände in den Taschen."
       },
       "image": "products/01-outer.webp",
       "status": "ready",
@@ -48,9 +48,9 @@
         "de": "Haferfarbener Hoodie"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "후드를 재킷 칼라 밖으로 꺼내 얼굴 주변을 밝혀요. 소매 끝도 살짝 보이게요.",
+        "en": "Pull the hood out over the jacket collar to brighten the face. Let the cuffs show a little too.",
+        "de": "Die Kapuze über den Jackenkragen ziehen, das hellt das Gesicht auf. Auch die Bündchen dürfen etwas hervorschauen."
       },
       "image": "products/02-top.webp",
       "status": "ready",
@@ -68,9 +68,9 @@
         "de": "Grauer Schal"
       },
       "description": {
-        "ko": "원본처럼 여유 있는 레이어와 함께 조합해요.",
-        "en": "Combine with relaxed layers as shown in the editorial.",
-        "de": "Kombiniere es wie im Editorial mit lockeren Lagen."
+        "ko": "두툼한 회색 머플러를 감지 않고 길게. 술 끝이 재킷 밑단 근처까지 내려오게요.",
+        "en": "A chunky grey scarf worn long, not wrapped. Let the fringe reach almost to the jacket hem.",
+        "de": "Ein dicker grauer Schal, lang getragen statt gewickelt. Die Fransen reichen fast bis zum Jackensaum."
       },
       "image": "products/03-scarf.webp",
       "status": "ready",
@@ -84,9 +84,20 @@
   "copy": {
     "title": "CHARCOAL QUILTING AT THE DOOR",
     "intro": {
-      "ko": "차콜 퀼팅 재킷, 오트밀 후디, 그레이 머플러 조합으로 볼륨과 질감을 살려요.",
-      "en": "Combine Charcoal Quilted Jacket, Oatmeal Hoodie, Grey Scarf for layered texture and volume.",
-      "de": "Kombiniere Anthrazitfarbene Steppjacke, Haferfarbener Hoodie, Grauer Schal für Struktur und Volumen."
+      "ko": "어두운 퀼팅 재킷엔 밝은 안감이 필요해요. 오트밀 후디의 후드를 밖으로 꺼내고, 회색 머플러를 그 위로 길게 늘어뜨리면 차콜이 무겁지 않아요.",
+      "en": "A dark quilted jacket needs something light underneath. Pull the oatmeal hood out over the collar and let the grey scarf hang long on top, and the charcoal stops feeling heavy.",
+      "de": "Eine dunkle Steppjacke braucht etwas Helles darunter. Die Kapuze des Hoodies über den Kragen ziehen und den grauen Schal lang darüber hängen lassen, dann wirkt das Anthrazit nicht schwer."
+    },
+    "deck": {
+      "ko": "차콜 퀼팅 재킷 안에 오트밀 후디, 회색 머플러를 길게. 문 앞에서 열쇠를 찾는 밤.",
+      "en": "An oatmeal hoodie under a charcoal quilted jacket, a long grey scarf. Hunting for keys at the front door.",
+      "de": "Ein Hoodie in Hafer unter einer anthrazitfarbenen Steppjacke, ein langer grauer Schal. Schlüsselsuche vor der Haustür."
+    },
+    "pullQuoteEn": "THREE GREYS AND A HOOD.",
+    "tip": {
+      "ko": "머플러는 감지 말고 목에 한 번 걸친 채 양끝을 길이 다르게 늘어뜨려요.",
+      "en": "Don't wrap the scarf: drape it once and let the ends fall at different lengths.",
+      "de": "Den Schal nicht wickeln: einmal umlegen und die Enden unterschiedlich lang hängen lassen."
     }
   },
   "contentType": "ai-styled-concept"
