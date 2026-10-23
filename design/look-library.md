@@ -62,7 +62,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 
 - 하늘 `Sunny` → `sky: "clear"`, `Overcast` → `"cloudy"`. 단계는 체감 9단계 영어 이름(`Chilly` → `chilly`). 성별 `Male`/`Female` → `m`/`f`. 연령대 `35+` → `age: "35"`. `night/` → `time: "evening"`.
 - 번호와 스타일: 보통 01–05 러닝, 06–10 스트리트, 11–15 미니멀. 폴더 이름 `running` → `run`.
-- **배경 없는 컷 (b133)**: 기사 룩마다 대표 아우터 한 장을 `products/01-outer.cut.webp`(투명 배경 WebP, 옷 크기로 잘림, 9–30KB)로 둠. 홈 헤드라인 뒤 그림용. 제품 JPG에서 rembg(isnet-general-use)로 자동 생성, 경로와 밝기는 `look/cutouts.js`(아이템에 `cut`·`lum`). 새 기사 세트를 매핑하면 같이 만들 것. 제품 JPG(아이보리 바닥)는 그대로 원본.
+- **배경 없는 컷 (b133)**: 기사 룩마다 대표 아우터 한 장을 `products/01-outer.cut.webp`(투명 배경 WebP, 옷 크기로 잘림, 9–30KB)로 둠. 홈 헤드라인 뒤 그림용. 제품 JPG에서 rembg(isnet-general-use)로 자동 생성, 경로와 밝기는 `look/cutouts.js`(아이템에 `cut`·`lum`). 새 기사 세트를 매핑하면 같이 만들 것: `tools/make-cutouts.py`, 절차는 `design/CUTOUTS.md`. 제품 JPG(아이보리 바닥)는 그대로 원본.
 - **JPG만 저장소에 둠** (예외: 위 `.cut.webp`): 에디토리얼 1024×1536 ≤300KB(품질 80), 제품 컷 500×500 ≤50KB(품질 85). PNG로 올라오면 JPG로 바꾸고 PNG는 지우고, products.json 경로도 `.jpg`로. 2026-10-20 git 기록에서도 PNG를 지움.
 - 착장 폴더의 `products.json`: `copy`(headlineEn, captionKo, introKo, pullQuoteEn, tipKo) → `article`·`deck`, `products[]`(id, category, nameKo, descriptionKo, image, altKo, status) → 아이템. 한국어는 그대로, 영어·독일어는 새로 번역. `status`가 ready인 것만. 브랜드·가격·구매 링크·소재 혼용률은 비어 있고 채우지 않음. `PROMPTS.md`·`designDescriptionEn`은 화면에 안 씀.
 - 올라온 파일이 폴더 이름과 맞는지(성별·시간대·하늘) products.json의 `gender`·`weather`와 사진으로 먼저 확인할 것(2026-10-20 여성 저녁 폴더에 남성 낮 세트가 섞여 들어온 일이 있음).
