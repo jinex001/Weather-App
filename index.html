@@ -135,8 +135,9 @@
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
   .peek-d[hidden] { display: none; }
   .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
-  /* b133: the pick's outer, background removed, behind the headline on the right (never down into the summary); the
-     headline letters that cross it switch to white or ink by the garment's lightness (a masked copy of the headline) */
+  /* b133: the pick's hero product (b134: the one its title names, else the outer), background removed, behind the
+     headline on the right (never down into the summary); the headline letters that cross it switch to white or ink by
+     the garment's lightness (a masked copy of the headline) */
   .peek { position: relative; }
   .peek-k, .peek-d { position: relative; }
   .peek-p, .peek-x { position: absolute; pointer-events: none; }
@@ -517,7 +518,7 @@
 <script src="look/sunny-male-day-street.js?v=b126"></script>
 <script src="look/sunny-female-night-minimal.js?v=b129"></script>
 <script src="look/sunny-male-night-street.js?v=b131"></script>
-<script src="look/cutouts.js?v=b133"></script>
+<script src="look/cutouts.js?v=b134"></script>
 <script>
 (function () {
   "use strict";
@@ -831,7 +832,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b133";
+  var BUILD = "b134";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1302,8 +1303,8 @@
     $("peek-d").textContent = A ? A.title : "";
     $("peek-d").hidden = !A;
     $("peek-x").textContent = A ? A.title : "";
-    var hero = null;
-    if (A) o.items.some(function (id) { var it = LIB.items[id]; if (it && it.cut && it.cat === "outer") { hero = it; return true; } });
+    // b134: the product the title is about (look/cutouts.js HERO, e.g. CITRON ON THE TERRACE -> the citron knit)
+    var hero = A && o.hero && LIB.items[o.hero] && LIB.items[o.hero].cut ? LIB.items[o.hero] : null;
     paintCut(hero);
     var text = o ? o.deck[LANG] + (A && A.intro ? " " + A.intro[LANG] : "") : LOOK[v.band[1]].deck[LANG];
     $("summary-t").textContent = [text].concat(homeRain).join(" ");
