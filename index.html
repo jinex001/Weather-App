@@ -834,7 +834,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b135";
+  var BUILD = "b136";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1303,10 +1303,11 @@
     $("peek-k").textContent = "Today's Look";
     // b119: no band headline (LAYER UP …) any more: a look without an article title shows only the kicker and summary
     peekTitle = A ? A.title : "";
-    fitHead();
-    $("peek-d").hidden = !A;
     // b134: the product the title is about (look/cutouts.js HERO, e.g. CITRON ON THE TERRACE -> the citron knit)
     var hero = A && o.hero && LIB.items[o.hero] && LIB.items[o.hero].cut ? LIB.items[o.hero] : null;
+    peekCut = hero;
+    fitHead();
+    $("peek-d").hidden = !A;
     paintCut(hero);
     var text = o ? o.deck[LANG] + (A && A.intro ? " " + A.intro[LANG] : "") : LOOK[v.band[1]].deck[LANG];
     $("summary-t").textContent = [text].concat(homeRain).join(" ");
@@ -1319,7 +1320,8 @@
   var peekTitle = "", measure = document.createElement("canvas").getContext("2d");
   function fitHead() {
     var d = $("peek-d"), x = $("peek-x"), w = peekTitle.toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")];
-    var cs = getComputedStyle(d), avail = $("peek").offsetWidth || d.offsetWidth || 342;
+    // b136: the headline keeps to the left 60%, the cut to the right 45% (5% overlap); full width when there is no cut
+    var cs = getComputedStyle(d), avail = ($("peek").offsetWidth || d.offsetWidth || 342) * (peekCut ? 0.6 : 1);
     measure.font = "56px " + cs.fontFamily;
     function width(t) { return measure.measureText(t).width; }
     if (w.length > 1) {
@@ -1354,9 +1356,9 @@
   function placeCut() {
     var img = $("peek-p"), x = $("peek-x"), d = $("peek-d"), peek = $("peek");
     if (!peekCut || !img.naturalWidth || peek.hidden || d.hidden || !peek.offsetWidth) return;
-    var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 36, boxW = pw * 0.66, // b135: a little bigger
+    var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 36, boxW = pw * 0.45,
         s = Math.min(boxH / img.naturalHeight, boxW / img.naturalWidth),
-        w = img.naturalWidth * s, h = img.naturalHeight * s, left = pw + 16 - w, top = (ph - h) / 2;
+        w = img.naturalWidth * s, h = img.naturalHeight * s, left = pw * 0.55 + (boxW - w) / 2, top = (ph - h) / 2;
     img.style.cssText = "left:" + left + "px;top:" + top + "px;width:" + w + "px;height:" + h + "px";
     x.style.left = d.offsetLeft + "px"; x.style.top = d.offsetTop + "px"; x.style.width = d.offsetWidth + "px";
     x.style.webkitMaskPosition = x.style.maskPosition = (left - d.offsetLeft) + "px " + (top - d.offsetTop) + "px";
