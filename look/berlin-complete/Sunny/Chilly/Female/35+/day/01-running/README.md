@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![BLUE IN MOTION](editorial.jpg)
+![BLUE IN MOTION](../01-running.jpg)
 
 기존 `../01-running.jpg`에서 앱용 JPG로 압축한 사본. 원본 경로는 유지.
 

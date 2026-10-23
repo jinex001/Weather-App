@@ -13,7 +13,7 @@
     "feelsLikeC": null,
     "feelsLikeBand": "chilly"
   },
-  "editorialImage": "editorial.jpg",
+  "editorialImage": "../14-minimal.jpg",
   "sourceEditorial": "../14-minimal.jpg",
   "productionStatus": "ready",
   "mappingStatus": "mapped",

@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![NAVY IN SOFT FOCUS](editorial.jpg)
+![NAVY IN SOFT FOCUS](../13-minimal.jpg)
 
 기존 `../13-minimal.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

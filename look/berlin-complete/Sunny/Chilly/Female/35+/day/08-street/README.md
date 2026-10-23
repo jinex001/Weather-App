@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![RED ON THE BLOCK](editorial.jpg)
+![RED ON THE BLOCK](../08-street.jpg)
 
 기존 `../08-street.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![SOFT TEXTURE, CITY BREAK](editorial.jpg)
+![SOFT TEXTURE, CITY BREAK](../10-street.jpg)
 
 기존 `../10-street.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

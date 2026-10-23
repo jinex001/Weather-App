@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![CORAL STRIDE](editorial.jpg)
+![CORAL STRIDE](../04-running.jpg)
 
 기존 `../04-running.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

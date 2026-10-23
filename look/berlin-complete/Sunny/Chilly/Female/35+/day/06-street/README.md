@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![CAFÉ IN CITRON](editorial.jpg)
+![CAFÉ IN CITRON](../06-street.jpg)
 
 기존 `../06-street.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

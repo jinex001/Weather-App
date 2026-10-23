@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![FOREST PACE](editorial.jpg)
+![FOREST PACE](../03-running.jpg)
 
 기존 `../03-running.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

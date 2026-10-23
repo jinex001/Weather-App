@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![A LINE OF RED](editorial.jpg)
+![A LINE OF RED](../14-minimal.jpg)
 
 기존 `../14-minimal.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

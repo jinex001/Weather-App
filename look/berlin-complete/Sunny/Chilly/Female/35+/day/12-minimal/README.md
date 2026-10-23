@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![COBALT, QUIETLY](editorial.jpg)
+![COBALT, QUIETLY](../12-minimal.jpg)
 
 기존 `../12-minimal.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

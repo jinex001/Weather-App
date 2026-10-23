@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![BURGUNDY AT THE DOOR](editorial.jpg)
+![BURGUNDY AT THE DOOR](../09-street.jpg)
 
 기존 `../09-street.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

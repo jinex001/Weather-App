@@ -79,6 +79,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 - 오늘 작업은 `Rain/Light/Chilly/Male/35+/day/`: 남성, 낮, 기온 12°C / 체감 7°C.
 - 예: `running/01/`, `street/01/`, `minimal/01/`. 각 스타일의 두 번째 룩은 `02/`로 증가한다. 새 비 세트에는 기존의 01–05/06–10/11–15 스타일 혼합 번호를 적용하지 않는다.
 - 각 번호 폴더에는 `editorial.jpg`, `products/01-outer.jpg` 등 아이템별 개별 파일, `products.json`, `README.md`, `PROMPTS.md`를 둔다.
+- 맑은 날(Sunny) 세트는 에디토리얼이 폴더 밖 `NN-<스타일>.jpg`에 있고 앱도 그 경로를 쓴다. 폴더 안 `editorial.jpg` 사본은 두지 않고 products.json `editorialImage`는 `../NN-<스타일>.jpg`(2026-10-23, 중복 사본 30장 지움).
 - 작업 순서: 에디토리얼 1장 생성 → 사용자 확인 → 명시적 승인 → 개별 제품 컷 제작 → GitHub 업로드 → 완료 링크 제공. 수정 요청이면 승인 전 제품 제작·업로드를 진행하지 않는다.
 - Light/Chilly/Male/35+/day/running/01 세트는 사용자 승인 후 에디토리얼 1장·제품 5장과 메타데이터를 업로드했다. 앱 등록은 pending이며 기존 clear/cloudy 선택 로직은 변경하지 않았다. 폴더의 강도 구분만으로 앱에 비 전용 노출이 생기지는 않는다.
 - 기존 Sunny/Overcast 경로와 고정 ID는 그대로 유지한다.

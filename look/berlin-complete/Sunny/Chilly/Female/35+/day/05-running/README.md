@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![NAVY, WITH A TWIST](editorial.jpg)
+![NAVY, WITH A TWIST](../05-running.jpg)
 
 기존 `../05-running.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

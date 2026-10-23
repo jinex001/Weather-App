@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![CREAM, WITH COFFEE](editorial.jpg)
+![CREAM, WITH COFFEE](../15-minimal.jpg)
 
 기존 `../15-minimal.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

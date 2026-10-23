@@ -286,3 +286,7 @@ Sunny / Chilly / Male / 35+ / Night / Street 06–10: 제품 7/6/6/5/6종, 총 3
 ## b139 · Sunny 여성 밤 Running 홈 대표 컷 (2026-10-23)
 
 b138 매핑에 빠져 있던 배경 없는 대표 컷 5장을 `design/CUTOUTS.md`대로 만들었다(`tools/make-cutouts.py`, rembg isnet-general-use). 제목 색 단어대로 모두 아우터: COBALT AFTER HOURS → 코발트 셸, SILVER, SOFTLY → 실버그레이 셸, FOREST IN THE CITY → 포레스트 그린 재킷, CORAL IN MOTION → 코랄 레드 셸, NAVY, ONE BRIGHT NOTE → 네이비 셸. 각 `night/0N-running/products/01-outer.cut.webp`(17–21KB). 확인용 시트(노랑·남색 바탕)에서 옷 전체가 남고 아이보리 테두리가 없는 것을 눈으로 확인. `look/cutouts.js` 130 HERO · 130 CUTS(기존 125행은 그대로, 5행 추가), `cutouts.js?v=b139`. 이제 기사 룩 130개 모두 홈 대표 컷이 있음.
+
+## 저장소 정리 · 맑은 날 에디토리얼 중복 사본 (2026-10-23, 앱 빌드 변화 없음)
+
+사용자 요청. 맑은 날 세트 폴더 안 `editorial.jpg` 30장(남성 낮 06–15, 여성 낮 01–15, 여성 저녁 11–15, 약 9MB)을 지움. 앱은 원래 폴더 밖 `NN-<스타일>.jpg`만 써서 화면 변화 없음(남성 낮 10장·여성 저녁 5장은 바이트까지 같은 사본, 여성 낮 15장은 같은 사진을 다시 저장한 것). 그 30개 products.json `editorialImage`와 여성 낮 README 사진 링크를 `../NN-<스타일>.jpg`로 바꿈. 앞으로 맑은 날 세트는 폴더 안에 사본을 만들지 않음(`design/IMAGE_MAPPING_HANDOFF.md` 3장, `design/look-library.md`). 흐린 날·비 세트는 `editorial.jpg`가 유일한 원본이라 그대로.

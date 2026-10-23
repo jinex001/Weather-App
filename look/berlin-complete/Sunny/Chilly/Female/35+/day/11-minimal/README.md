@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![CREAM BETWEEN CHARCOAL](editorial.jpg)
+![CREAM BETWEEN CHARCOAL](../11-minimal.jpg)
 
 기존 `../11-minimal.jpg`의 앱용 압축 사본. 원본 경로 유지.
 

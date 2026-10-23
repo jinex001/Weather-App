@@ -16,7 +16,7 @@
 
 ## Editorial
 
-![BROWN, WITH A PATTERN](editorial.jpg)
+![BROWN, WITH A PATTERN](../07-street.jpg)
 
 기존 `../07-street.jpg`의 앱용 압축 사본. 원본 경로 유지.
 
