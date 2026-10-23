@@ -138,13 +138,11 @@
   /* b135: always two lines (split where the lines come out most even), 56px, smaller only if a line would not fit */
   .peek-d span { display: block; white-space: nowrap; }
   /* b133: the pick's hero product (b134: the one its title names, else the outer), background removed, behind the
-     headline on the right (never down into the summary); the headline letters that cross it switch to white or ink by
-     the garment's lightness (a masked copy of the headline) */
+     headline on the right (never down into the summary). b137: the letters that cross it keep the headline color */
   .peek { position: relative; }
   .peek-k, .peek-d { position: relative; }
-  .peek-p, .peek-x { position: absolute; pointer-events: none; }
-  .peek-p[hidden], .peek-x[hidden] { display: none; }
-  .peek-x { margin: 0; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; }
+  .peek-p { position: absolute; pointer-events: none; }
+  .peek-p[hidden] { display: none; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -476,7 +474,7 @@
     <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
-  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><img class="peek-p" id="peek-p" alt="" hidden><span class="peek-d" id="peek-d"></span><span class="peek-d peek-x" id="peek-x" aria-hidden="true" hidden></span></button>
+  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><img class="peek-p" id="peek-p" alt="" hidden><span class="peek-d" id="peek-d"></span></button>
   <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
 
   <div class="grow"></div>
@@ -834,7 +832,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b136";
+  var BUILD = "b137";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1319,7 +1317,7 @@
   // b135: the headline in two lines of about the same width (one-word titles stay one line), 56px or smaller to fit
   var peekTitle = "", measure = document.createElement("canvas").getContext("2d");
   function fitHead() {
-    var d = $("peek-d"), x = $("peek-x"), w = peekTitle.toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")];
+    var d = $("peek-d"), w = peekTitle.toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")];
     // b136: the headline keeps to the left 60%, the cut to the right 45% (5% overlap); full width when there is no cut
     var cs = getComputedStyle(d), avail = ($("peek").offsetWidth || d.offsetWidth || 342) * (peekCut ? 0.6 : 1);
     measure.font = "56px " + cs.fontFamily;
@@ -1332,38 +1330,28 @@
       }
     }
     var widest = Math.max.apply(null, lines.map(width)), size = widest > avail ? Math.max(36, Math.floor(56 * avail / widest)) : 56;
-    [d, x].forEach(function (el) {
-      el.textContent = "";
-      lines.forEach(function (t, i) { var s = document.createElement("span"); s.textContent = t + (i < lines.length - 1 ? " " : ""); el.appendChild(s); });
-      el.style.fontSize = size + "px";
-    });
+    d.textContent = "";
+    lines.forEach(function (t, i) { var s = document.createElement("span"); s.textContent = t + (i < lines.length - 1 ? " " : ""); d.appendChild(s); });
+    d.style.fontSize = size + "px";
   }
 
-  // b133: lay the cutout out against the headline's height and fit the masked copy of the headline over it
+  // b133: lay the cutout out against the headline's height
   var peekCut = null;
   function paintCut(it) {
-    var img = $("peek-p"), x = $("peek-x");
+    var img = $("peek-p");
     peekCut = it;
-    if (!it) { img.hidden = x.hidden = true; img.removeAttribute("src"); return; }
-    if (img.getAttribute("src") !== it.cut) { img.hidden = x.hidden = true; img.onload = placeCut; img.src = it.cut; }
-    var m = "url(\"" + it.cut + "\")";
-    x.style.webkitMaskImage = x.style.maskImage = m;
-    // the crossing letters: white or ink, whichever reads better on the garment
-    var L = it.lum, onWhite = 1.05 / (L + 0.05), onInk = (L + 0.05) / (luminance("#141414") + 0.05);
-    x.style.color = onWhite >= onInk ? "#FFFFFF" : "#141414";
+    if (!it) { img.hidden = true; img.removeAttribute("src"); return; }
+    if (img.getAttribute("src") !== it.cut) { img.hidden = true; img.onload = placeCut; img.src = it.cut; }
     placeCut();
   }
   function placeCut() {
-    var img = $("peek-p"), x = $("peek-x"), d = $("peek-d"), peek = $("peek");
+    var img = $("peek-p"), d = $("peek-d"), peek = $("peek");
     if (!peekCut || !img.naturalWidth || peek.hidden || d.hidden || !peek.offsetWidth) return;
     var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 36, boxW = pw * 0.45,
         s = Math.min(boxH / img.naturalHeight, boxW / img.naturalWidth),
         w = img.naturalWidth * s, h = img.naturalHeight * s, left = pw * 0.55 + (boxW - w) / 2, top = (ph - h) / 2;
     img.style.cssText = "left:" + left + "px;top:" + top + "px;width:" + w + "px;height:" + h + "px";
-    x.style.left = d.offsetLeft + "px"; x.style.top = d.offsetTop + "px"; x.style.width = d.offsetWidth + "px";
-    x.style.webkitMaskPosition = x.style.maskPosition = (left - d.offsetLeft) + "px " + (top - d.offsetTop) + "px";
-    x.style.webkitMaskSize = x.style.maskSize = w + "px " + h + "px";
-    img.hidden = x.hidden = false;
+    img.hidden = false;
   }
   addEventListener("resize", function () { fitHead(); placeCut(); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitHead(); placeCut(); });
