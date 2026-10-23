@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-03-run-m",
+  "appOutfitId": "bn15-03-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../03-running.jpg",
+  "sourceEditorial": "../03-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-23",
+    "basis": "User explicitly authorized breakdown, generation, mapping and GitHub upload for these existing five editorials. No new editorial approval time asserted."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "FOREST AND SILVER",
+    "captionKo": "앞지퍼를 올려 스탠드 칼라를 세우고 블랙 액세서리로 색을 정돈해요.",
+    "introKo": "앞지퍼를 올려 스탠드 칼라를 세우고 블랙 액세서리로 색을 정돈해요. 그린 재킷 아래 블랙의 슬림한 선을 이어가요. 커프를 재킷 소매와 겹치고 손등의 실버 디테일을 드러내요.",
+    "tipKo": "접힌 커프를 균일하게 정리하고 장갑과 톤을 맞춰요.",
+    "captionEn": "Zip up the stand collar and ground the green with black accessories.",
+    "introEn": "Zip up the stand collar and ground the green with black accessories. Continue a slim black line beneath the green jacket. Overlap the cuffs with the jacket and leave the silver backs visible.",
+    "tipEn": "Keep the folded cuff even and match it to the gloves.",
+    "captionDe": "Schließe den Stehkragen und ergänze schwarze Accessoires zum Grün.",
+    "introDe": "Schließe den Stehkragen und ergänze schwarze Accessoires zum Grün. Führe unter der grünen Jacke eine schmale schwarze Linie fort. Lasse die Bündchen mit den Ärmeln überlappen und die silbernen Details sichtbar.",
+    "tipDe": "Richte den Umschlag gleichmäßig aus und stimme ihn auf die Handschuhe ab."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-03-run-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "포레스트 리플렉티브 재킷",
+        "en": "Forest Reflective Jacket",
+        "de": "Waldgrüne Laufjacke mit Reflektoren"
+      },
+      "description": {
+        "ko": "포레스트 그린 구김 표면과 어깨·가슴·소매의 실버 라인.",
+        "en": "Crinkled forest green with silver shoulder, chest and sleeve details.",
+        "de": "Geknittertes Waldgrün mit silbernen Details an Schultern, Brust und Ärmeln."
+      },
+      "wearing": {
+        "ko": "앞지퍼를 올려 스탠드 칼라를 세우고 블랙 액세서리로 색을 정돈해요.",
+        "en": "Zip up the stand collar and ground the green with black accessories.",
+        "de": "Schließe den Stehkragen und ergänze schwarze Accessoires zum Grün."
+      },
+      "howToWear": {
+        "ko": "앞지퍼를 올려 스탠드 칼라를 세우고 블랙 액세서리로 색을 정돈해요.",
+        "en": "Zip up the stand collar and ground the green with black accessories.",
+        "de": "Schließe den Stehkragen und ergänze schwarze Accessoires zum Grün."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "포레스트 리플렉티브 재킷 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F5F1E9",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "포레스트 리플렉티브 재킷",
+      "descriptionKo": "포레스트 그린 구김 표면과 어깨·가슴·소매의 실버 라인.",
+      "nameEn": "Forest Reflective Jacket",
+      "descriptionEn": "Crinkled forest green with silver shoulder, chest and sleeve details.",
+      "nameDe": "Waldgrüne Laufjacke mit Reflektoren",
+      "descriptionDe": "Geknittertes Waldgrün mit silbernen Details an Schultern, Brust und Ärmeln.",
+      "evidence": {
+        "source": "../03-running.jpg",
+        "visibleDetailsEn": "forest green crinkled hoodless stand collar zip running jacket, silver shoulder piping, narrow reflective marks on upper chest and outside sleeves, elastic cuffs and hem",
+        "uncertaintyEn": "No separate base layer, socks or shoes are visible: none generated. Only the upper trousers are visible, so full lower-leg length, hem and hidden waistband are inferred. Jacket back and glove palms are reconstructed."
+      }
+    },
+    {
+      "id": "02-bottom",
+      "appItemId": "bn15-03-run-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "블랙 사이드라인 러닝 팬츠",
+        "en": "Black Side-line Running Trousers",
+        "de": "Schwarze Laufhose mit Seitenlinie"
+      },
+      "description": {
+        "ko": "상부에 보이는 블랙 슬림 팬츠와 실버 옆선. 아래쪽 길이와 밑단은 추정 복원.",
+        "en": "Black slim trousers and silver side lines; lower legs and hems are inferred.",
+        "de": "Schmale schwarze Hose mit silberner Seitenlinie; untere Beine und Säume sind rekonstruiert."
+      },
+      "wearing": {
+        "ko": "그린 재킷 아래 블랙의 슬림한 선을 이어가요.",
+        "en": "Continue a slim black line beneath the green jacket.",
+        "de": "Führe unter der grünen Jacke eine schmale schwarze Linie fort."
+      },
+      "howToWear": {
+        "ko": "그린 재킷 아래 블랙의 슬림한 선을 이어가요.",
+        "en": "Continue a slim black line beneath the green jacket.",
+        "de": "Führe unter der grünen Jacke eine schmale schwarze Linie fort."
+      },
+      "image": "products/02-bottom.jpg",
+      "altKo": "블랙 사이드라인 러닝 팬츠 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F6F1EB",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 사이드라인 러닝 팬츠",
+      "descriptionKo": "상부에 보이는 블랙 슬림 팬츠와 실버 옆선. 아래쪽 길이와 밑단은 추정 복원.",
+      "nameEn": "Black Side-line Running Trousers",
+      "descriptionEn": "Black slim trousers and silver side lines; lower legs and hems are inferred.",
+      "nameDe": "Schwarze Laufhose mit Seitenlinie",
+      "descriptionDe": "Schmale schwarze Hose mit silberner Seitenlinie; untere Beine und Säume sind rekonstruiert.",
+      "evidence": {
+        "source": "../03-running.jpg",
+        "visibleDetailsEn": "black fitted running trousers/tights with narrow silver outer thigh side line; lower legs cropped in reference and conservatively reconstructed, no extra calf motifs",
+        "uncertaintyEn": "No separate base layer, socks or shoes are visible: none generated. Only the upper trousers are visible, so full lower-leg length, hem and hidden waistband are inferred. Jacket back and glove palms are reconstructed."
+      }
+    },
+    {
+      "id": "03-gloves",
+      "appItemId": "bn15-03-run-m.gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "차콜 리플렉티브 글러브",
+        "en": "Charcoal Reflective Gloves",
+        "de": "Anthrazitfarbene Handschuhe mit Reflektoren"
+      },
+      "description": {
+        "ko": "표면감 있는 차콜 장갑과 손가락·손등의 실버 분절.",
+        "en": "Textured charcoal gloves with silver finger and hand-back segments.",
+        "de": "Strukturierte anthrazitfarbene Handschuhe mit silbernen Segmenten."
+      },
+      "wearing": {
+        "ko": "커프를 재킷 소매와 겹치고 손등의 실버 디테일을 드러내요.",
+        "en": "Overlap the cuffs with the jacket and leave the silver backs visible.",
+        "de": "Lasse die Bündchen mit den Ärmeln überlappen und die silbernen Details sichtbar."
+      },
+      "howToWear": {
+        "ko": "커프를 재킷 소매와 겹치고 손등의 실버 디테일을 드러내요.",
+        "en": "Overlap the cuffs with the jacket and leave the silver backs visible.",
+        "de": "Lasse die Bündchen mit den Ärmeln überlappen und die silbernen Details sichtbar."
+      },
+      "image": "products/03-gloves.jpg",
+      "altKo": "차콜 리플렉티브 글러브 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F9F4EE",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "차콜 리플렉티브 글러브",
+      "descriptionKo": "표면감 있는 차콜 장갑과 손가락·손등의 실버 분절.",
+      "nameEn": "Charcoal Reflective Gloves",
+      "descriptionEn": "Textured charcoal gloves with silver finger and hand-back segments.",
+      "nameDe": "Anthrazitfarbene Handschuhe mit Reflektoren",
+      "descriptionDe": "Strukturierte anthrazitfarbene Handschuhe mit silbernen Segmenten.",
+      "evidence": {
+        "source": "../03-running.jpg",
+        "visibleDetailsEn": "matching pair dark charcoal textured full finger running gloves, short silver reflective bars across finger backs and curved narrow silver mark at outer hand, rib cuffs",
+        "uncertaintyEn": "No separate base layer, socks or shoes are visible: none generated. Only the upper trousers are visible, so full lower-leg length, hem and hidden waistband are inferred. Jacket back and glove palms are reconstructed."
+      }
+    },
+    {
+      "id": "04-headwear",
+      "appItemId": "bn15-03-run-m.headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "블랙 커프 비니",
+        "en": "Black Cuffed Beanie",
+        "de": "Schwarze Umschlagmütze"
+      },
+      "description": {
+        "ko": "굵은 리브 조직과 작은 실버 탭의 블랙 비니.",
+        "en": "Black rib knit beanie with a small silver tab.",
+        "de": "Schwarze Rippenstrickmütze mit kleinem silbernem Tab."
+      },
+      "wearing": {
+        "ko": "접힌 커프를 균일하게 정리하고 장갑과 톤을 맞춰요.",
+        "en": "Keep the folded cuff even and match it to the gloves.",
+        "de": "Richte den Umschlag gleichmäßig aus und stimme ihn auf die Handschuhe ab."
+      },
+      "howToWear": {
+        "ko": "접힌 커프를 균일하게 정리하고 장갑과 톤을 맞춰요.",
+        "en": "Keep the folded cuff even and match it to the gloves.",
+        "de": "Richte den Umschlag gleichmäßig aus und stimme ihn auf die Handschuhe ab."
+      },
+      "image": "products/04-headwear.jpg",
+      "altKo": "블랙 커프 비니 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F9F4EE",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 커프 비니",
+      "descriptionKo": "굵은 리브 조직과 작은 실버 탭의 블랙 비니.",
+      "nameEn": "Black Cuffed Beanie",
+      "descriptionEn": "Black rib knit beanie with a small silver tab.",
+      "nameDe": "Schwarze Umschlagmütze",
+      "descriptionDe": "Schwarze Rippenstrickmütze mit kleinem silbernem Tab.",
+      "evidence": {
+        "source": "../03-running.jpg",
+        "visibleDetailsEn": "black rib knit cuffed beanie with small vertical silver reflective tab on folded cuff",
+        "uncertaintyEn": "No separate base layer, socks or shoes are visible: none generated. Only the upper trousers are visible, so full lower-leg length, hem and hidden waistband are inferred. Jacket back and glove palms are reconstructed."
+      }
+    }
+  ],
+  "productCount": 4,
+  "reconstructionNotes": [
+    "No separate base layer, socks or shoes are visible: none generated. Only the upper trousers are visible, so full lower-leg length, hem and hidden waistband are inferred. Jacket back and glove palms are reconstructed.",
+    "All images are AI concept reconstructions. Exact fibre composition, brands, prices, performance/certification and temperatures are unknown. Reflective return is a visual feature, not a verified safety claim. Hidden closures, backs and mirrored pair details are inferred."
+  ]
+}

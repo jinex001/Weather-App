@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-05-run-m",
+  "appOutfitId": "bn15-05-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../05-running.jpg",
+  "sourceEditorial": "../05-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-23",
+    "basis": "User explicitly authorized breakdown, generation, mapping and GitHub upload for these existing five editorials. No new editorial approval time asserted."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "NAVY WITH A TWIST",
+    "captionKo": "네이비 쿼터집 위로 열어 입고 지퍼와 실버 라인의 방향을 정돈해요.",
+    "introKo": "네이비 쿼터집 위로 열어 입고 지퍼와 실버 라인의 방향을 정돈해요. 칼라를 세우고 셸 지퍼보다 안쪽에서 밝은 지퍼를 얇게 보여줘요. 네이비 이너와 톤을 연결하고 옆선이 꼬이지 않게 정돈해요.",
+    "tipKo": "짙은 네이비 착장에 오렌지 하나를 포인트로 더해요.",
+    "captionEn": "Open over a navy quarter-zip and keep the zip and silver lines aligned.",
+    "introEn": "Open over a navy quarter-zip and keep the zip and silver lines aligned. Raise the collar and show a slim bright zip inside the shell opening. Link the navy layers and keep the side seams from twisting.",
+    "tipEn": "Use orange as a single accent against the dark navy outfit.",
+    "captionDe": "Trage sie offen über dem dunkelblauen Zip-Shirt und ordne Reißverschluss und silberne Linien.",
+    "introDe": "Trage sie offen über dem dunkelblauen Zip-Shirt und ordne Reißverschluss und silberne Linien. Stelle den Kragen auf und zeige den hellen Reißverschluss schmal innerhalb der Jackenöffnung. Verbinde die dunkelblauen Lagen und richte die Seitennähte gerade aus.",
+    "tipDe": "Setze Orange als einzelnen Akzent zum dunkelblauen Outfit ein."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-05-run-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "차콜 네이비 리플렉티브 셸",
+        "en": "Charcoal Navy Reflective Shell",
+        "de": "Anthrazitblaue Jacke mit Reflektoren"
+      },
+      "description": {
+        "ko": "차콜 네이비 구김 원단과 어깨·가슴·소매의 실버 라인.",
+        "en": "Crinkled charcoal navy with silver shoulder, chest and sleeve lines.",
+        "de": "Geknittertes Anthrazitblau mit silbernen Linien an Schultern, Brust und Ärmeln."
+      },
+      "wearing": {
+        "ko": "네이비 쿼터집 위로 열어 입고 지퍼와 실버 라인의 방향을 정돈해요.",
+        "en": "Open over a navy quarter-zip and keep the zip and silver lines aligned.",
+        "de": "Trage sie offen über dem dunkelblauen Zip-Shirt und ordne Reißverschluss und silberne Linien."
+      },
+      "howToWear": {
+        "ko": "네이비 쿼터집 위로 열어 입고 지퍼와 실버 라인의 방향을 정돈해요.",
+        "en": "Open over a navy quarter-zip and keep the zip and silver lines aligned.",
+        "de": "Trage sie offen über dem dunkelblauen Zip-Shirt und ordne Reißverschluss und silberne Linien."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "차콜 네이비 리플렉티브 셸 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F5F0EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "차콜 네이비 리플렉티브 셸",
+      "descriptionKo": "차콜 네이비 구김 원단과 어깨·가슴·소매의 실버 라인.",
+      "nameEn": "Charcoal Navy Reflective Shell",
+      "descriptionEn": "Crinkled charcoal navy with silver shoulder, chest and sleeve lines.",
+      "nameDe": "Anthrazitblaue Jacke mit Reflektoren",
+      "descriptionDe": "Geknittertes Anthrazitblau mit silbernen Linien an Schultern, Brust und Ärmeln.",
+      "evidence": {
+        "source": "../05-running.jpg",
+        "visibleDetailsEn": "charcoal navy grey crinkled hooded zip running jacket, silver shoulder piping and segmented short chest marks, long silver outer sleeve piping, elastic cuffs",
+        "uncertaintyEn": "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred."
+      }
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-05-run-m.top",
+      "category": "top",
+      "name": {
+        "ko": "네이비 쿼터집 이너",
+        "en": "Navy Quarter-zip Base Layer",
+        "de": "Dunkelblaues Zip-Shirt"
+      },
+      "description": {
+        "ko": "네이비 하이넥과 밝은 짧은 지퍼. 가려진 몸판과 소매는 추정 복원.",
+        "en": "Navy high neck and bright short zip; hidden torso and sleeves are inferred.",
+        "de": "Dunkelblauer Stehkragen mit hellem kurzem Reißverschluss; verdeckte Partien sind rekonstruiert."
+      },
+      "wearing": {
+        "ko": "칼라를 세우고 셸 지퍼보다 안쪽에서 밝은 지퍼를 얇게 보여줘요.",
+        "en": "Raise the collar and show a slim bright zip inside the shell opening.",
+        "de": "Stelle den Kragen auf und zeige den hellen Reißverschluss schmal innerhalb der Jackenöffnung."
+      },
+      "howToWear": {
+        "ko": "칼라를 세우고 셸 지퍼보다 안쪽에서 밝은 지퍼를 얇게 보여줘요.",
+        "en": "Raise the collar and show a slim bright zip inside the shell opening.",
+        "de": "Stelle den Kragen auf und zeige den hellen Reißverschluss schmal innerhalb der Jackenöffnung."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "네이비 쿼터집 이너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F6F1EB",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "네이비 쿼터집 이너",
+      "descriptionKo": "네이비 하이넥과 밝은 짧은 지퍼. 가려진 몸판과 소매는 추정 복원.",
+      "nameEn": "Navy Quarter-zip Base Layer",
+      "descriptionEn": "Navy high neck and bright short zip; hidden torso and sleeves are inferred.",
+      "nameDe": "Dunkelblaues Zip-Shirt",
+      "descriptionDe": "Dunkelblauer Stehkragen mit hellem kurzem Reißverschluss; verdeckte Partien sind rekonstruiert.",
+      "evidence": {
+        "source": "../05-running.jpg",
+        "visibleDetailsEn": "navy high neck quarter zip long sleeve running base layer with bright silver zipper tape, collar visible, concealed torso conservatively reconstructed",
+        "uncertaintyEn": "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred."
+      }
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-05-run-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "네이비 리플렉티브 팬츠",
+        "en": "Navy Reflective Running Trousers",
+        "de": "Dunkelblaue Laufhose mit Reflektoren"
+      },
+      "description": {
+        "ko": "네이비 슬림 실루엣과 옆 허벅지의 분절 실버 라인. 무릎 아래는 추정 복원.",
+        "en": "Slim navy with segmented silver thigh lines; below-knee construction is inferred.",
+        "de": "Schmales Dunkelblau mit segmentierten silbernen Oberschenkellinien; untere Beine sind rekonstruiert."
+      },
+      "wearing": {
+        "ko": "네이비 이너와 톤을 연결하고 옆선이 꼬이지 않게 정돈해요.",
+        "en": "Link the navy layers and keep the side seams from twisting.",
+        "de": "Verbinde die dunkelblauen Lagen und richte die Seitennähte gerade aus."
+      },
+      "howToWear": {
+        "ko": "네이비 이너와 톤을 연결하고 옆선이 꼬이지 않게 정돈해요.",
+        "en": "Link the navy layers and keep the side seams from twisting.",
+        "de": "Verbinde die dunkelblauen Lagen und richte die Seitennähte gerade aus."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "네이비 리플렉티브 팬츠 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F6F2EC",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "네이비 리플렉티브 팬츠",
+      "descriptionKo": "네이비 슬림 실루엣과 옆 허벅지의 분절 실버 라인. 무릎 아래는 추정 복원.",
+      "nameEn": "Navy Reflective Running Trousers",
+      "descriptionEn": "Slim navy with segmented silver thigh lines; below-knee construction is inferred.",
+      "nameDe": "Dunkelblaue Laufhose mit Reflektoren",
+      "descriptionDe": "Schmales Dunkelblau mit segmentierten silbernen Oberschenkellinien; untere Beine sind rekonstruiert.",
+      "evidence": {
+        "source": "../05-running.jpg",
+        "visibleDetailsEn": "navy close fitting running trousers with long segmented silver reflective outer thigh seam; lower legs cropped and conservatively reconstructed",
+        "uncertaintyEn": "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred."
+      }
+    },
+    {
+      "id": "04-gloves",
+      "appItemId": "bn15-05-run-m.gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "네이비 세그먼트 글러브",
+        "en": "Navy Segmented Reflective Gloves",
+        "de": "Dunkelblaue Handschuhe mit segmentierten Reflektoren"
+      },
+      "description": {
+        "ko": "짙은 장갑 위로 손등·커프의 작은 실버 분절이 보이는 디자인.",
+        "en": "Dark gloves with small silver segments across backs and cuffs.",
+        "de": "Dunkle Handschuhe mit kleinen silbernen Segmenten an Handrücken und Bündchen."
+      },
+      "wearing": {
+        "ko": "셸 커프와 겹쳐 입고 헤드밴드와 짙은 톤을 맞춰요.",
+        "en": "Overlap with shell cuffs and echo the dark headband.",
+        "de": "Lasse sie mit den Jackenbündchen überlappen und greife das dunkle Stirnband auf."
+      },
+      "howToWear": {
+        "ko": "셸 커프와 겹쳐 입고 헤드밴드와 짙은 톤을 맞춰요.",
+        "en": "Overlap with shell cuffs and echo the dark headband.",
+        "de": "Lasse sie mit den Jackenbündchen überlappen und greife das dunkle Stirnband auf."
+      },
+      "image": "products/04-gloves.jpg",
+      "altKo": "네이비 세그먼트 글러브 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F8F4EE",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "네이비 세그먼트 글러브",
+      "descriptionKo": "짙은 장갑 위로 손등·커프의 작은 실버 분절이 보이는 디자인.",
+      "nameEn": "Navy Segmented Reflective Gloves",
+      "descriptionEn": "Dark gloves with small silver segments across backs and cuffs.",
+      "nameDe": "Dunkelblaue Handschuhe mit segmentierten Reflektoren",
+      "descriptionDe": "Dunkle Handschuhe mit kleinen silbernen Segmenten an Handrücken und Bündchen.",
+      "evidence": {
+        "source": "../05-running.jpg",
+        "visibleDetailsEn": "matching pair dark navy charcoal running gloves with small silver diagonal rectangular reflective segments across backs and short silver cuff marks",
+        "uncertaintyEn": "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred."
+      }
+    },
+    {
+      "id": "05-headwear",
+      "appItemId": "bn15-05-run-m.headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "네이비 리플렉티브 헤드밴드",
+        "en": "Navy Reflective Headband",
+        "de": "Dunkelblaues Stirnband mit Reflektortab"
+      },
+      "description": {
+        "ko": "네이비 니트와 옆면의 가는 실버 탭을 조합한 헤드밴드.",
+        "en": "Navy knit headband with a narrow silver side tab.",
+        "de": "Dunkelblaues Strickstirnband mit schmalem silbernem Tab seitlich."
+      },
+      "wearing": {
+        "ko": "귀 위로 넓게 걸쳐 네이비 레이어와 자연스럽게 연결해요.",
+        "en": "Wear over the ears to continue the navy layers.",
+        "de": "Trage es über den Ohren und führe die dunkelblauen Lagen fort."
+      },
+      "howToWear": {
+        "ko": "귀 위로 넓게 걸쳐 네이비 레이어와 자연스럽게 연결해요.",
+        "en": "Wear over the ears to continue the navy layers.",
+        "de": "Trage es über den Ohren und führe die dunkelblauen Lagen fort."
+      },
+      "image": "products/05-headwear.jpg",
+      "altKo": "네이비 리플렉티브 헤드밴드 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#FAF6EF",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "네이비 리플렉티브 헤드밴드",
+      "descriptionKo": "네이비 니트와 옆면의 가는 실버 탭을 조합한 헤드밴드.",
+      "nameEn": "Navy Reflective Headband",
+      "descriptionEn": "Navy knit headband with a narrow silver side tab.",
+      "nameDe": "Dunkelblaues Stirnband mit Reflektortab",
+      "descriptionDe": "Dunkelblaues Strickstirnband mit schmalem silbernem Tab seitlich.",
+      "evidence": {
+        "source": "../05-running.jpg",
+        "visibleDetailsEn": "wide navy blue knit running headband with a narrow silver reflective tab at side, single loop laid flat",
+        "uncertaintyEn": "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred."
+      }
+    },
+    {
+      "id": "06-gear",
+      "appItemId": "bn15-05-run-m.gear",
+      "category": "gear",
+      "name": {
+        "ko": "오렌지 러닝 보틀",
+        "en": "Orange Running Bottle",
+        "de": "Orangefarbene Sportflasche"
+      },
+      "description": {
+        "ko": "선명한 오렌지 몸통과 블랙 스파우트의 스포츠 물병.",
+        "en": "Vivid orange sports bottle with a black spout.",
+        "de": "Kräftig orangefarbene Sportflasche mit schwarzem Trinkverschluss."
+      },
+      "wearing": {
+        "ko": "짙은 네이비 착장에 오렌지 하나를 포인트로 더해요.",
+        "en": "Use orange as a single accent against the dark navy outfit.",
+        "de": "Setze Orange als einzelnen Akzent zum dunkelblauen Outfit ein."
+      },
+      "howToWear": {
+        "ko": "짙은 네이비 착장에 오렌지 하나를 포인트로 더해요.",
+        "en": "Use orange as a single accent against the dark navy outfit.",
+        "de": "Setze Orange als einzelnen Akzent zum dunkelblauen Outfit ein."
+      },
+      "image": "products/06-gear.jpg",
+      "altKo": "오렌지 러닝 보틀 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F8F5F0",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "오렌지 러닝 보틀",
+      "descriptionKo": "선명한 오렌지 몸통과 블랙 스파우트의 스포츠 물병.",
+      "nameEn": "Orange Running Bottle",
+      "descriptionEn": "Vivid orange sports bottle with a black spout.",
+      "nameDe": "Orangefarbene Sportflasche",
+      "descriptionDe": "Kräftig orangefarbene Sportflasche mit schwarzem Trinkverschluss.",
+      "evidence": {
+        "source": "../05-running.jpg",
+        "visibleDetailsEn": "single bright orange cylindrical sports water bottle with rounded base, orange screw cap and black pull spout; no markings",
+        "uncertaintyEn": "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred."
+      }
+    }
+  ],
+  "productCount": 6,
+  "reconstructionNotes": [
+    "No socks or shoes visible: none generated. Jacket reads charcoal navy under flash. Below-knee trousers, hidden base-layer torso/sleeves, bottle rear and glove palms are inferred.",
+    "All images are AI concept reconstructions. Exact fibre composition, brands, prices, performance/certification and temperatures are unknown. Reflective return is a visual feature, not a verified safety claim. Hidden closures, backs and mirrored pair details are inferred."
+  ]
+}

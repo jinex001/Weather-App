@@ -1,0 +1,360 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-02-run-m",
+  "appOutfitId": "bn15-02-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../02-running.jpg",
+  "sourceEditorial": "../02-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-23",
+    "basis": "User explicitly authorized breakdown, generation, mapping and GitHub upload for these existing five editorials. No new editorial approval time asserted."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "COBALT AFTER DARK",
+    "captionKo": "차콜 이너 위에 살짝 열어 입어 블루와 실버를 중심에 둬요.",
+    "introKo": "차콜 이너 위에 살짝 열어 입어 블루와 실버를 중심에 둬요. 넥라인과 커프만 얇게 드러내 코발트 재킷을 받쳐요. 밑단을 양말 위에 가볍게 올리고 무릎과 발목에 움직일 여유를 둬요.",
+    "tipKo": "커프를 귀 위까지 내려 짙은 하의와 컬러를 맞춰요.",
+    "captionEn": "Open slightly over charcoal to foreground the blue and silver.",
+    "introEn": "Open slightly over charcoal to foreground the blue and silver. Show a narrow neckline and cuff beneath the cobalt jacket. Rest the cuffs above the socks, leaving room at knees and ankles.",
+    "tipEn": "Pull the cuff over the ears and echo the dark trousers.",
+    "captionDe": "Trage sie über Anthrazit leicht geöffnet, damit Blau und Silber wirken.",
+    "introDe": "Trage sie über Anthrazit leicht geöffnet, damit Blau und Silber wirken. Lasse unter der kobaltblauen Jacke nur schmale Kragen- und Bündchenränder sichtbar. Lasse die Abschlüsse über den Socken sitzen und Platz an Knien und Knöcheln.",
+    "tipDe": "Ziehe den Umschlag über die Ohren und greife den dunklen Hosenton auf."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-02-run-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "코발트 리플렉티브 셸",
+        "en": "Cobalt Reflective Shell",
+        "de": "Kobaltblaue Jacke mit Reflektoren"
+      },
+      "description": {
+        "ko": "코발트 구김 원단 위에 어깨·가슴·소매 실버 라인을 배치한 셸.",
+        "en": "Crinkled cobalt with silver lines across shoulders, chest and sleeves.",
+        "de": "Geknittertes Kobaltblau mit silbernen Linien an Schultern, Brust und Ärmeln."
+      },
+      "wearing": {
+        "ko": "차콜 이너 위에 살짝 열어 입어 블루와 실버를 중심에 둬요.",
+        "en": "Open slightly over charcoal to foreground the blue and silver.",
+        "de": "Trage sie über Anthrazit leicht geöffnet, damit Blau und Silber wirken."
+      },
+      "howToWear": {
+        "ko": "차콜 이너 위에 살짝 열어 입어 블루와 실버를 중심에 둬요.",
+        "en": "Open slightly over charcoal to foreground the blue and silver.",
+        "de": "Trage sie über Anthrazit leicht geöffnet, damit Blau und Silber wirken."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "코발트 리플렉티브 셸 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F0E8",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "코발트 리플렉티브 셸",
+      "descriptionKo": "코발트 구김 원단 위에 어깨·가슴·소매 실버 라인을 배치한 셸.",
+      "nameEn": "Cobalt Reflective Shell",
+      "descriptionEn": "Crinkled cobalt with silver lines across shoulders, chest and sleeves.",
+      "nameDe": "Kobaltblaue Jacke mit Reflektoren",
+      "descriptionDe": "Geknittertes Kobaltblau mit silbernen Linien an Schultern, Brust und Ärmeln.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "cobalt blue crinkled hooded full zip running jacket, silver piping across shoulders and chest and down sleeves, black hood drawcords, elastic cuffs",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-02-run-m.top",
+      "category": "top",
+      "name": {
+        "ko": "차콜 하이넥 이너",
+        "en": "Charcoal High-neck Base Layer",
+        "de": "Anthrazitfarbenes Stehkragenshirt"
+      },
+      "description": {
+        "ko": "목과 손목에서 보이는 멜란지 차콜 이너. 가려진 몸판은 추정 복원.",
+        "en": "Charcoal marl visible at neck and wrists; hidden torso is inferred.",
+        "de": "Anthrazit-Melange an Hals und Handgelenken; verdeckter Rumpf ist rekonstruiert."
+      },
+      "wearing": {
+        "ko": "넥라인과 커프만 얇게 드러내 코발트 재킷을 받쳐요.",
+        "en": "Show a narrow neckline and cuff beneath the cobalt jacket.",
+        "de": "Lasse unter der kobaltblauen Jacke nur schmale Kragen- und Bündchenränder sichtbar."
+      },
+      "howToWear": {
+        "ko": "넥라인과 커프만 얇게 드러내 코발트 재킷을 받쳐요.",
+        "en": "Show a narrow neckline and cuff beneath the cobalt jacket.",
+        "de": "Lasse unter der kobaltblauen Jacke nur schmale Kragen- und Bündchenränder sichtbar."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "차콜 하이넥 이너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F5F1EB",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "차콜 하이넥 이너",
+      "descriptionKo": "목과 손목에서 보이는 멜란지 차콜 이너. 가려진 몸판은 추정 복원.",
+      "nameEn": "Charcoal High-neck Base Layer",
+      "descriptionEn": "Charcoal marl visible at neck and wrists; hidden torso is inferred.",
+      "nameDe": "Anthrazitfarbenes Stehkragenshirt",
+      "descriptionDe": "Anthrazit-Melange an Hals und Handgelenken; verdeckter Rumpf ist rekonstruiert.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "charcoal dark heather high neck long sleeve running base layer, visible neckline and cuffs; concealed torso conservatively reconstructed",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-02-run-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "네이비 리플렉티브 조거",
+        "en": "Navy Reflective Joggers",
+        "de": "Dunkelblaue Laufjogger mit Reflektoren"
+      },
+      "description": {
+        "ko": "여유 있는 네이비 팬츠와 조여진 발목, 가는 실버 옆선.",
+        "en": "Relaxed navy trousers with gathered ankles and slim silver side lines.",
+        "de": "Lockere dunkelblaue Hose mit gerafften Knöcheln und feinen silbernen Seitenlinien."
+      },
+      "wearing": {
+        "ko": "밑단을 양말 위에 가볍게 올리고 무릎과 발목에 움직일 여유를 둬요.",
+        "en": "Rest the cuffs above the socks, leaving room at knees and ankles.",
+        "de": "Lasse die Abschlüsse über den Socken sitzen und Platz an Knien und Knöcheln."
+      },
+      "howToWear": {
+        "ko": "밑단을 양말 위에 가볍게 올리고 무릎과 발목에 움직일 여유를 둬요.",
+        "en": "Rest the cuffs above the socks, leaving room at knees and ankles.",
+        "de": "Lasse die Abschlüsse über den Socken sitzen und Platz an Knien und Knöcheln."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "네이비 리플렉티브 조거 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F2EC",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "네이비 리플렉티브 조거",
+      "descriptionKo": "여유 있는 네이비 팬츠와 조여진 발목, 가는 실버 옆선.",
+      "nameEn": "Navy Reflective Joggers",
+      "descriptionEn": "Relaxed navy trousers with gathered ankles and slim silver side lines.",
+      "nameDe": "Dunkelblaue Laufjogger mit Reflektoren",
+      "descriptionDe": "Lockere dunkelblaue Hose mit gerafften Knöcheln und feinen silbernen Seitenlinien.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "dark navy tapered running jogger trousers with elastic ankle cuffs and silver reflective side seams and short lower-leg marks; concealed waist conservatively reconstructed",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    },
+    {
+      "id": "04-shoes",
+      "appItemId": "bn15-02-run-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "크림 실버 메쉬 러너",
+        "en": "Cream Silver Mesh Runners",
+        "de": "Cremefarbene Mesh-Laufschuhe mit Silber"
+      },
+      "description": {
+        "ko": "크림·라이트그레이 메쉬와 실버 오버레이의 러닝화.",
+        "en": "Cream and light grey mesh runners with silver overlays.",
+        "de": "Cremefarbenes und hellgraues Mesh mit silbernen Besätzen."
+      },
+      "wearing": {
+        "ko": "그레이 멜란지 양말로 밝은 러너와 네이비 팬츠를 연결해요.",
+        "en": "Use grey marl socks to bridge pale runners and navy trousers.",
+        "de": "Verbinde helle Schuhe und dunkelblaue Hose mit grauen Melange-Socken."
+      },
+      "howToWear": {
+        "ko": "그레이 멜란지 양말로 밝은 러너와 네이비 팬츠를 연결해요.",
+        "en": "Use grey marl socks to bridge pale runners and navy trousers.",
+        "de": "Verbinde helle Schuhe und dunkelblaue Hose mit grauen Melange-Socken."
+      },
+      "image": "products/04-shoes.jpg",
+      "altKo": "크림 실버 메쉬 러너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F4F0EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "크림 실버 메쉬 러너",
+      "descriptionKo": "크림·라이트그레이 메쉬와 실버 오버레이의 러닝화.",
+      "nameEn": "Cream Silver Mesh Runners",
+      "descriptionEn": "Cream and light grey mesh runners with silver overlays.",
+      "nameDe": "Cremefarbene Mesh-Laufschuhe mit Silber",
+      "descriptionDe": "Cremefarbenes und hellgraues Mesh mit silbernen Besätzen.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "matching pair cream white and light grey mesh running shoes with silver reflective overlays, off-white laces, thick cream soles and dark rubber toe outsole. Both shoes on soles parallel side by side, vertically overhead",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bn15-02-run-m.socks",
+      "category": "socks",
+      "name": {
+        "ko": "그레이 멜란지 크루 삭스",
+        "en": "Grey Marl Crew Socks",
+        "de": "Graue Melange-Laufsocken"
+      },
+      "description": {
+        "ko": "팬츠와 신발 사이에 드러나는 리브 조직의 그레이 양말.",
+        "en": "Ribbed grey marl socks visible between trousers and shoes.",
+        "de": "Graue gerippte Melange-Socken zwischen Hose und Schuhen."
+      },
+      "wearing": {
+        "ko": "커프를 고르게 펴 팬츠 밑단 아래에서 일정한 폭으로 보여줘요.",
+        "en": "Smooth the cuffs into an even band below the trouser hems.",
+        "de": "Streiche die Bündchen glatt und zeige einen gleichmäßigen Rand unter der Hose."
+      },
+      "howToWear": {
+        "ko": "커프를 고르게 펴 팬츠 밑단 아래에서 일정한 폭으로 보여줘요.",
+        "en": "Smooth the cuffs into an even band below the trouser hems.",
+        "de": "Streiche die Bündchen glatt und zeige einen gleichmäßigen Rand unter der Hose."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "그레이 멜란지 크루 삭스 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F2EC",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "그레이 멜란지 크루 삭스",
+      "descriptionKo": "팬츠와 신발 사이에 드러나는 리브 조직의 그레이 양말.",
+      "nameEn": "Grey Marl Crew Socks",
+      "descriptionEn": "Ribbed grey marl socks visible between trousers and shoes.",
+      "nameDe": "Graue Melange-Laufsocken",
+      "descriptionDe": "Graue gerippte Melange-Socken zwischen Hose und Schuhen.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "matching pair charcoal grey marl ribbed crew running socks, cuffs visible; concealed feet conservatively reconstructed",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    },
+    {
+      "id": "06-gloves",
+      "appItemId": "bn15-02-run-m.gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "블랙 세그먼트 글러브",
+        "en": "Black Segmented Reflective Gloves",
+        "de": "Schwarze Handschuhe mit segmentierten Reflektoren"
+      },
+      "description": {
+        "ko": "손가락과 손등의 작은 실버 분절이 보이는 블랙 장갑.",
+        "en": "Black gloves with small silver segments on fingers and backs.",
+        "de": "Schwarze Handschuhe mit kleinen silbernen Segmenten an Fingern und Handrücken."
+      },
+      "wearing": {
+        "ko": "재킷 소매와 겹쳐 입고 사용하지 않을 때는 한 쌍을 함께 챙겨요.",
+        "en": "Overlap with jacket sleeves and keep the pair together when removed.",
+        "de": "Trage sie überlappend mit den Ärmeln und halte das Paar beim Ausziehen zusammen."
+      },
+      "howToWear": {
+        "ko": "재킷 소매와 겹쳐 입고 사용하지 않을 때는 한 쌍을 함께 챙겨요.",
+        "en": "Overlap with jacket sleeves and keep the pair together when removed.",
+        "de": "Trage sie überlappend mit den Ärmeln und halte das Paar beim Ausziehen zusammen."
+      },
+      "image": "products/06-gloves.jpg",
+      "altKo": "블랙 세그먼트 글러브 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F1EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 세그먼트 글러브",
+      "descriptionKo": "손가락과 손등의 작은 실버 분절이 보이는 블랙 장갑.",
+      "nameEn": "Black Segmented Reflective Gloves",
+      "descriptionEn": "Black gloves with small silver segments on fingers and backs.",
+      "nameDe": "Schwarze Handschuhe mit segmentierten Reflektoren",
+      "descriptionDe": "Schwarze Handschuhe mit kleinen silbernen Segmenten an Fingern und Handrücken.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "matching pair black running gloves with small segmented silver reflective marks on fingers and backs, as tucked at hip in reference",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    },
+    {
+      "id": "07-headwear",
+      "appItemId": "bn15-02-run-m.headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "블랙 리플렉티브 비니",
+        "en": "Black Reflective Beanie",
+        "de": "Schwarze Mütze mit Reflektortab"
+      },
+      "description": {
+        "ko": "접힌 리브 커프에 세로 실버 탭을 단 블랙 비니.",
+        "en": "Black rib knit beanie with a vertical silver cuff tab.",
+        "de": "Schwarze Rippenstrickmütze mit senkrechtem silbernem Tab am Umschlag."
+      },
+      "wearing": {
+        "ko": "커프를 귀 위까지 내려 짙은 하의와 컬러를 맞춰요.",
+        "en": "Pull the cuff over the ears and echo the dark trousers.",
+        "de": "Ziehe den Umschlag über die Ohren und greife den dunklen Hosenton auf."
+      },
+      "howToWear": {
+        "ko": "커프를 귀 위까지 내려 짙은 하의와 컬러를 맞춰요.",
+        "en": "Pull the cuff over the ears and echo the dark trousers.",
+        "de": "Ziehe den Umschlag über die Ohren und greife den dunklen Hosenton auf."
+      },
+      "image": "products/07-headwear.jpg",
+      "altKo": "블랙 리플렉티브 비니 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F2EC",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 리플렉티브 비니",
+      "descriptionKo": "접힌 리브 커프에 세로 실버 탭을 단 블랙 비니.",
+      "nameEn": "Black Reflective Beanie",
+      "descriptionEn": "Black rib knit beanie with a vertical silver cuff tab.",
+      "nameDe": "Schwarze Mütze mit Reflektortab",
+      "descriptionDe": "Schwarze Rippenstrickmütze mit senkrechtem silbernem Tab am Umschlag.",
+      "evidence": {
+        "source": "../02-running.jpg",
+        "visibleDetailsEn": "black rib knit cuffed beanie with one small vertical silver reflective rectangle on folded cuff",
+        "uncertaintyEn": "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred."
+      }
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Base layer is charcoal in the visible neckline/cuffs, despite the old text calling it navy. Hidden torso, waistband, glove palms, sock feet and shoe opposite sides are inferred.",
+    "All images are AI concept reconstructions. Exact fibre composition, brands, prices, performance/certification and temperatures are unknown. Reflective return is a visual feature, not a verified safety claim. Hidden closures, backs and mirrored pair details are inferred."
+  ]
+}

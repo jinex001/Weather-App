@@ -1,0 +1,360 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-04-run-m",
+  "appOutfitId": "bn15-04-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../04-running.jpg",
+  "sourceEditorial": "../04-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-23",
+    "basis": "User explicitly authorized breakdown, generation, mapping and GitHub upload for these existing five editorials. No new editorial approval time asserted."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "CREAM MEETS BURGUNDY",
+    "captionKo": "버건디 하프집의 칼라를 드러내고 장갑과 헤드밴드로 같은 색을 반복해요.",
+    "introKo": "버건디 하프집의 칼라를 드러내고 장갑과 헤드밴드로 같은 색을 반복해요. 하이넥을 세우고 크림 셸 사이로 좁은 버건디 면을 보여줘요. 발목 커프를 양말 위로 정돈하고 실버 옆선을 드러내요.",
+    "tipKo": "귀 위로 넓게 걸치고 버건디 장갑과 한 쌍의 컬러 포인트로 써요.",
+    "captionEn": "Show the burgundy collar and repeat its colour in gloves and headband.",
+    "introEn": "Show the burgundy collar and repeat its colour in gloves and headband. Raise the collar and show a narrow burgundy panel through the cream shell. Set the cuffs above the socks and keep the silver side lines visible.",
+    "tipEn": "Wear over the ears and pair its colour with the burgundy gloves.",
+    "captionDe": "Zeige den bordeauxroten Kragen und wiederhole die Farbe in Handschuhen und Stirnband.",
+    "introDe": "Zeige den bordeauxroten Kragen und wiederhole die Farbe in Handschuhen und Stirnband. Stelle den Kragen auf und zeige unter der cremefarbenen Jacke einen schmalen Bordeaux-Akzent. Ordne die Bündchen über den Socken und lasse die silbernen Seitenlinien frei.",
+    "tipDe": "Trage es über den Ohren und stimme es auf die bordeauxroten Handschuhe ab."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-04-run-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "크림 리플렉티브 후드 셸",
+        "en": "Cream Reflective Hooded Shell",
+        "de": "Cremefarbene Kapuzenjacke mit Reflektoren"
+      },
+      "description": {
+        "ko": "크림 구김 표면에 어깨·소매 실버 파이핑을 더한 셸.",
+        "en": "Crinkled cream shell with silver shoulder and sleeve piping.",
+        "de": "Geknitterte cremefarbene Jacke mit silbernen Paspeln an Schultern und Ärmeln."
+      },
+      "wearing": {
+        "ko": "버건디 하프집의 칼라를 드러내고 장갑과 헤드밴드로 같은 색을 반복해요.",
+        "en": "Show the burgundy collar and repeat its colour in gloves and headband.",
+        "de": "Zeige den bordeauxroten Kragen und wiederhole die Farbe in Handschuhen und Stirnband."
+      },
+      "howToWear": {
+        "ko": "버건디 하프집의 칼라를 드러내고 장갑과 헤드밴드로 같은 색을 반복해요.",
+        "en": "Show the burgundy collar and repeat its colour in gloves and headband.",
+        "de": "Zeige den bordeauxroten Kragen und wiederhole die Farbe in Handschuhen und Stirnband."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "크림 리플렉티브 후드 셸 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F4EF",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "크림 리플렉티브 후드 셸",
+      "descriptionKo": "크림 구김 표면에 어깨·소매 실버 파이핑을 더한 셸.",
+      "nameEn": "Cream Reflective Hooded Shell",
+      "descriptionEn": "Crinkled cream shell with silver shoulder and sleeve piping.",
+      "nameDe": "Cremefarbene Kapuzenjacke mit Reflektoren",
+      "descriptionDe": "Geknitterte cremefarbene Jacke mit silbernen Paspeln an Schultern und Ärmeln.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "cream ivory crinkled hooded zip running jacket with silver reflective shoulder line and sleeve side piping, small vertical zipped chest pockets, black zip pulls and elastic cuffs",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-04-run-m.top",
+      "category": "top",
+      "name": {
+        "ko": "버건디 하프집 이너",
+        "en": "Burgundy Half-zip Base Layer",
+        "de": "Bordeauxrotes Half-Zip-Shirt"
+      },
+      "description": {
+        "ko": "목둘레와 짧은 지퍼가 보이는 버건디 이너. 몸판은 추정 복원.",
+        "en": "Burgundy neckline and short zip are visible; torso is inferred.",
+        "de": "Bordeauxroter Kragen mit kurzem Reißverschluss; der Rumpf ist rekonstruiert."
+      },
+      "wearing": {
+        "ko": "하이넥을 세우고 크림 셸 사이로 좁은 버건디 면을 보여줘요.",
+        "en": "Raise the collar and show a narrow burgundy panel through the cream shell.",
+        "de": "Stelle den Kragen auf und zeige unter der cremefarbenen Jacke einen schmalen Bordeaux-Akzent."
+      },
+      "howToWear": {
+        "ko": "하이넥을 세우고 크림 셸 사이로 좁은 버건디 면을 보여줘요.",
+        "en": "Raise the collar and show a narrow burgundy panel through the cream shell.",
+        "de": "Stelle den Kragen auf und zeige unter der cremefarbenen Jacke einen schmalen Bordeaux-Akzent."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "버건디 하프집 이너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F8F4ED",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "버건디 하프집 이너",
+      "descriptionKo": "목둘레와 짧은 지퍼가 보이는 버건디 이너. 몸판은 추정 복원.",
+      "nameEn": "Burgundy Half-zip Base Layer",
+      "descriptionEn": "Burgundy neckline and short zip are visible; torso is inferred.",
+      "nameDe": "Bordeauxrotes Half-Zip-Shirt",
+      "descriptionDe": "Bordeauxroter Kragen mit kurzem Reißverschluss; der Rumpf ist rekonstruiert.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "burgundy high neck half zip long sleeve running base layer; neckline and zipper visible, concealed torso conservatively reconstructed",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-04-run-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 리플렉티브 조거",
+        "en": "Charcoal Reflective Joggers",
+        "de": "Anthrazitfarbene Jogger mit Reflektoren"
+      },
+      "description": {
+        "ko": "차콜 테이퍼드 실루엣과 발목 커프, 실버 옆선·종아리 포인트.",
+        "en": "Charcoal tapered silhouette, ankle cuffs and silver side and calf details.",
+        "de": "Anthrazitfarbene schmale Jogger mit Knöchelbündchen und silbernen Details."
+      },
+      "wearing": {
+        "ko": "발목 커프를 양말 위로 정돈하고 실버 옆선을 드러내요.",
+        "en": "Set the cuffs above the socks and keep the silver side lines visible.",
+        "de": "Ordne die Bündchen über den Socken und lasse die silbernen Seitenlinien frei."
+      },
+      "howToWear": {
+        "ko": "발목 커프를 양말 위로 정돈하고 실버 옆선을 드러내요.",
+        "en": "Set the cuffs above the socks and keep the silver side lines visible.",
+        "de": "Ordne die Bündchen über den Socken und lasse die silbernen Seitenlinien frei."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "차콜 리플렉티브 조거 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F6F1EB",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "차콜 리플렉티브 조거",
+      "descriptionKo": "차콜 테이퍼드 실루엣과 발목 커프, 실버 옆선·종아리 포인트.",
+      "nameEn": "Charcoal Reflective Joggers",
+      "descriptionEn": "Charcoal tapered silhouette, ankle cuffs and silver side and calf details.",
+      "nameDe": "Anthrazitfarbene Jogger mit Reflektoren",
+      "descriptionDe": "Anthrazitfarbene schmale Jogger mit Knöchelbündchen und silbernen Details.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "charcoal tapered woven running joggers with elastic ankle cuffs, silver side seams and short reflective bars near lower calves, not skin tight leggings",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    },
+    {
+      "id": "04-shoes",
+      "appItemId": "bn15-04-run-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "올리브 실버 러너",
+        "en": "Olive Silver Runners",
+        "de": "Olivfarbene Laufschuhe mit Silber"
+      },
+      "description": {
+        "ko": "올리브 갑피에 실버 오버레이, 크림 솔과 블랙 아웃솔을 조합한 러너.",
+        "en": "Olive uppers, silver overlays, cream midsoles and black outsoles.",
+        "de": "Olivfarbenes Obermaterial, silberne Besätze, cremefarbene Sohlen und schwarze Laufsohlen."
+      },
+      "wearing": {
+        "ko": "블랙 양말과 연결해 올리브 컬러가 발끝에서만 은은하게 드러나게 해요.",
+        "en": "Pair with black socks so olive stays a restrained accent at the feet.",
+        "de": "Kombiniere schwarze Socken, damit Oliv an den Füßen ein dezenter Akzent bleibt."
+      },
+      "howToWear": {
+        "ko": "블랙 양말과 연결해 올리브 컬러가 발끝에서만 은은하게 드러나게 해요.",
+        "en": "Pair with black socks so olive stays a restrained accent at the feet.",
+        "de": "Kombiniere schwarze Socken, damit Oliv an den Füßen ein dezenter Akzent bleibt."
+      },
+      "image": "products/04-shoes.jpg",
+      "altKo": "올리브 실버 러너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F5F0EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "올리브 실버 러너",
+      "descriptionKo": "올리브 갑피에 실버 오버레이, 크림 솔과 블랙 아웃솔을 조합한 러너.",
+      "nameEn": "Olive Silver Runners",
+      "descriptionEn": "Olive uppers, silver overlays, cream midsoles and black outsoles.",
+      "nameDe": "Olivfarbene Laufschuhe mit Silber",
+      "descriptionDe": "Olivfarbenes Obermaterial, silberne Besätze, cremefarbene Sohlen und schwarze Laufsohlen.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "matching pair olive khaki mesh running shoes, khaki laces, silver reflective side overlays, thick cream midsole and black patterned rubber outsole. Both shoes on soles parallel side by side, vertically overhead",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bn15-04-run-m.socks",
+      "category": "socks",
+      "name": {
+        "ko": "블랙 리브 크루 삭스",
+        "en": "Black Ribbed Crew Socks",
+        "de": "Schwarze gerippte Laufsocken"
+      },
+      "description": {
+        "ko": "팬츠 아래 발목을 덮는 블랙 리브 양말.",
+        "en": "Black ribbed socks covering the ankle below the trousers.",
+        "de": "Schwarze gerippte Socken über den Knöcheln unter der Hose."
+      },
+      "wearing": {
+        "ko": "조거 밑단과 겹쳐 피부가 드러나는 틈을 정돈해요.",
+        "en": "Overlap with jogger hems to keep the ankle line continuous.",
+        "de": "Lasse sie mit den Joggerabschlüssen überlappen für eine durchgehende Knöchellinie."
+      },
+      "howToWear": {
+        "ko": "조거 밑단과 겹쳐 피부가 드러나는 틈을 정돈해요.",
+        "en": "Overlap with jogger hems to keep the ankle line continuous.",
+        "de": "Lasse sie mit den Joggerabschlüssen überlappen für eine durchgehende Knöchellinie."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "블랙 리브 크루 삭스 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#FCF7F1",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 리브 크루 삭스",
+      "descriptionKo": "팬츠 아래 발목을 덮는 블랙 리브 양말.",
+      "nameEn": "Black Ribbed Crew Socks",
+      "descriptionEn": "Black ribbed socks covering the ankle below the trousers.",
+      "nameDe": "Schwarze gerippte Laufsocken",
+      "descriptionDe": "Schwarze gerippte Socken über den Knöcheln unter der Hose.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "matching pair black ribbed crew running socks, visible between pants and shoes, concealed feet conservatively reconstructed",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    },
+    {
+      "id": "06-gloves",
+      "appItemId": "bn15-04-run-m.gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "버건디 리플렉티브 글러브",
+        "en": "Burgundy Reflective Gloves",
+        "de": "Bordeauxrote Handschuhe mit Reflektoren"
+      },
+      "description": {
+        "ko": "버건디 니트 표면과 손등의 작은 실버 사각 분절.",
+        "en": "Burgundy knit surface with small silver rectangles on the backs.",
+        "de": "Bordeauxrote Strickoberfläche mit kleinen silbernen Rechtecken auf dem Handrücken."
+      },
+      "wearing": {
+        "ko": "이너와 헤드밴드의 버건디를 손끝까지 반복하고 커프는 셸 안에 넣어요.",
+        "en": "Repeat the burgundy top and headband at the hands; tuck cuffs inside the shell.",
+        "de": "Wiederhole Bordeaux an den Händen und schiebe die Bündchen unter die Jacke."
+      },
+      "howToWear": {
+        "ko": "이너와 헤드밴드의 버건디를 손끝까지 반복하고 커프는 셸 안에 넣어요.",
+        "en": "Repeat the burgundy top and headband at the hands; tuck cuffs inside the shell.",
+        "de": "Wiederhole Bordeaux an den Händen und schiebe die Bündchen unter die Jacke."
+      },
+      "image": "products/06-gloves.jpg",
+      "altKo": "버건디 리플렉티브 글러브 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F5F0E9",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "버건디 리플렉티브 글러브",
+      "descriptionKo": "버건디 니트 표면과 손등의 작은 실버 사각 분절.",
+      "nameEn": "Burgundy Reflective Gloves",
+      "descriptionEn": "Burgundy knit surface with small silver rectangles on the backs.",
+      "nameDe": "Bordeauxrote Handschuhe mit Reflektoren",
+      "descriptionDe": "Bordeauxrote Strickoberfläche mit kleinen silbernen Rechtecken auf dem Handrücken.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "matching pair burgundy knit full finger running gloves, small rectangular silver reflective segments in two rows across backs and fingers",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    },
+    {
+      "id": "07-headwear",
+      "appItemId": "bn15-04-run-m.headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "버건디 리플렉티브 헤드밴드",
+        "en": "Burgundy Reflective Headband",
+        "de": "Bordeauxrotes Stirnband mit Reflektoren"
+      },
+      "description": {
+        "ko": "버건디 니트와 옆면의 작은 실버 분절이 있는 넓은 헤드밴드.",
+        "en": "Wide burgundy knit band with small silver side segments.",
+        "de": "Breites bordeauxrotes Strickstirnband mit kleinen silbernen Segmenten seitlich."
+      },
+      "wearing": {
+        "ko": "귀 위로 넓게 걸치고 버건디 장갑과 한 쌍의 컬러 포인트로 써요.",
+        "en": "Wear over the ears and pair its colour with the burgundy gloves.",
+        "de": "Trage es über den Ohren und stimme es auf die bordeauxroten Handschuhe ab."
+      },
+      "howToWear": {
+        "ko": "귀 위로 넓게 걸치고 버건디 장갑과 한 쌍의 컬러 포인트로 써요.",
+        "en": "Wear over the ears and pair its colour with the burgundy gloves.",
+        "de": "Trage es über den Ohren und stimme es auf die bordeauxroten Handschuhe ab."
+      },
+      "image": "products/07-headwear.jpg",
+      "altKo": "버건디 리플렉티브 헤드밴드 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F7F4ED",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "버건디 리플렉티브 헤드밴드",
+      "descriptionKo": "버건디 니트와 옆면의 작은 실버 분절이 있는 넓은 헤드밴드.",
+      "nameEn": "Burgundy Reflective Headband",
+      "descriptionEn": "Wide burgundy knit band with small silver side segments.",
+      "nameDe": "Bordeauxrotes Stirnband mit Reflektoren",
+      "descriptionDe": "Breites bordeauxrotes Strickstirnband mit kleinen silbernen Segmenten seitlich.",
+      "evidence": {
+        "source": "../04-running.jpg",
+        "visibleDetailsEn": "wide burgundy knit running headband, small row of three silver reflective bars at side, single loop laid flat",
+        "uncertaintyEn": "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred."
+      }
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Trousers have a tapered woven appearance and gathered ankle cuffs, despite the old text calling them tights. Hidden shirt torso/sleeves, waistband, sock feet, glove palms and opposite shoe sides are inferred.",
+    "All images are AI concept reconstructions. Exact fibre composition, brands, prices, performance/certification and temperatures are unknown. Reflective return is a visual feature, not a verified safety claim. Hidden closures, backs and mirrored pair details are inferred."
+  ]
+}

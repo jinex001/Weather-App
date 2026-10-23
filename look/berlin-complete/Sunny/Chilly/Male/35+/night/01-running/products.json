@@ -1,0 +1,360 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bn15-01-run-m",
+  "appOutfitId": "bn15-01-run-m",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "sunny",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "editorialImage": "../01-running.jpg",
+  "sourceEditorial": "../01-running.jpg",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "approval": {
+    "upload": "authorized",
+    "authorizedOn": "2026-10-23",
+    "basis": "User explicitly authorized breakdown, generation, mapping and GitHub upload for these existing five editorials. No new editorial approval time asserted."
+  },
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "headlineEn": "RUST IN MOTION",
+    "captionKo": "블랙 이너 위에 지퍼를 조금 열어 입고, 타이츠로 하체를 슬림하게 정돈해요.",
+    "introKo": "블랙 이너 위에 지퍼를 조금 열어 입고, 타이츠로 하체를 슬림하게 정돈해요. 목선을 매끈하게 세우고 러스트 셸 안에 얇게 겹쳐요. 밑단을 발목에 정돈하고 은색 라인이 접히지 않게 입어요.",
+    "tipKo": "귀 위로 넓게 걸쳐 장갑과 타이츠의 짙은 톤을 반복해요.",
+    "captionEn": "Wear slightly open over black and balance the shell with slim tights.",
+    "introEn": "Wear slightly open over black and balance the shell with slim tights. Keep the neckline smooth beneath the rust shell. Keep the ankle hems smooth and the silver lines unfolded.",
+    "tipEn": "Wear over the ears, repeating the dark gloves and tights.",
+    "captionDe": "Trage sie über Schwarz leicht geöffnet und kombiniere schmale Tights.",
+    "introDe": "Trage sie über Schwarz leicht geöffnet und kombiniere schmale Tights. Trage den Kragen glatt unter der rostroten Jacke. Halte die Abschlüsse am Knöchel glatt und die silbernen Linien frei.",
+    "tipDe": "Trage es über den Ohren und greife den dunklen Ton von Handschuhen und Tights auf."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "appItemId": "bn15-01-run-m.outer",
+      "category": "outer",
+      "name": {
+        "ko": "러스트 후드 러닝 셸",
+        "en": "Rust Hooded Running Shell",
+        "de": "Rostrote Laufjacke mit Kapuze"
+      },
+      "description": {
+        "ko": "러스트 컬러와 얇고 구김 있는 표면이 돋보이는 후드 셸.",
+        "en": "A hooded rust shell with a thin, crinkled surface.",
+        "de": "Rostrote Kapuzenjacke mit dünner, geknitterter Oberfläche."
+      },
+      "wearing": {
+        "ko": "블랙 이너 위에 지퍼를 조금 열어 입고, 타이츠로 하체를 슬림하게 정돈해요.",
+        "en": "Wear slightly open over black and balance the shell with slim tights.",
+        "de": "Trage sie über Schwarz leicht geöffnet und kombiniere schmale Tights."
+      },
+      "howToWear": {
+        "ko": "블랙 이너 위에 지퍼를 조금 열어 입고, 타이츠로 하체를 슬림하게 정돈해요.",
+        "en": "Wear slightly open over black and balance the shell with slim tights.",
+        "de": "Trage sie über Schwarz leicht geöffnet und kombiniere schmale Tights."
+      },
+      "image": "products/01-outer.jpg",
+      "altKo": "러스트 후드 러닝 셸 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F5F0EA",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "러스트 후드 러닝 셸",
+      "descriptionKo": "러스트 컬러와 얇고 구김 있는 표면이 돋보이는 후드 셸.",
+      "nameEn": "Rust Hooded Running Shell",
+      "descriptionEn": "A hooded rust shell with a thin, crinkled surface.",
+      "nameDe": "Rostrote Laufjacke mit Kapuze",
+      "descriptionDe": "Rostrote Kapuzenjacke mit dünner, geknitterter Oberfläche.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "Rust orange hooded crinkled running jacket, black zipper.",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    },
+    {
+      "id": "02-top",
+      "appItemId": "bn15-01-run-m.top",
+      "category": "top",
+      "name": {
+        "ko": "블랙 하이넥 이너",
+        "en": "Black High-neck Base Layer",
+        "de": "Schwarzes Stehkragenshirt"
+      },
+      "description": {
+        "ko": "재킷 안쪽 목둘레에 보이는 블랙 이너. 몸판과 소매 형태는 추정 복원.",
+        "en": "Black layer visible at the neckline; torso and sleeves are inferred.",
+        "de": "Am Hals sichtbare schwarze Lage; Rumpf und Ärmel sind rekonstruiert."
+      },
+      "wearing": {
+        "ko": "목선을 매끈하게 세우고 러스트 셸 안에 얇게 겹쳐요.",
+        "en": "Keep the neckline smooth beneath the rust shell.",
+        "de": "Trage den Kragen glatt unter der rostroten Jacke."
+      },
+      "howToWear": {
+        "ko": "목선을 매끈하게 세우고 러스트 셸 안에 얇게 겹쳐요.",
+        "en": "Keep the neckline smooth beneath the rust shell.",
+        "de": "Trage den Kragen glatt unter der rostroten Jacke."
+      },
+      "image": "products/02-top.jpg",
+      "altKo": "블랙 하이넥 이너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#FBF8F3",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 하이넥 이너",
+      "descriptionKo": "재킷 안쪽 목둘레에 보이는 블랙 이너. 몸판과 소매 형태는 추정 복원.",
+      "nameEn": "Black High-neck Base Layer",
+      "descriptionEn": "Black layer visible at the neckline; torso and sleeves are inferred.",
+      "nameDe": "Schwarzes Stehkragenshirt",
+      "descriptionDe": "Am Hals sichtbare schwarze Lage; Rumpf und Ärmel sind rekonstruiert.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "black close neck long sleeve base-layer shirt; only neck is visible, all concealed torso/sleeves conservatively reconstructed",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    },
+    {
+      "id": "03-bottom",
+      "appItemId": "bn15-01-run-m.bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "블랙 리플렉티브 타이츠",
+        "en": "Black Reflective Tights",
+        "de": "Schwarze Tights mit Reflektoren"
+      },
+      "description": {
+        "ko": "블랙의 밀착 실루엣과 가는 실버 라인이 만드는 간결한 하체.",
+        "en": "A close black silhouette punctuated by narrow silver lines.",
+        "de": "Schmale schwarze Silhouette mit feinen silbernen Linien."
+      },
+      "wearing": {
+        "ko": "밑단을 발목에 정돈하고 은색 라인이 접히지 않게 입어요.",
+        "en": "Keep the ankle hems smooth and the silver lines unfolded.",
+        "de": "Halte die Abschlüsse am Knöchel glatt und die silbernen Linien frei."
+      },
+      "howToWear": {
+        "ko": "밑단을 발목에 정돈하고 은색 라인이 접히지 않게 입어요.",
+        "en": "Keep the ankle hems smooth and the silver lines unfolded.",
+        "de": "Halte die Abschlüsse am Knöchel glatt und die silbernen Linien frei."
+      },
+      "image": "products/03-bottom.jpg",
+      "altKo": "블랙 리플렉티브 타이츠 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F8F3ED",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 리플렉티브 타이츠",
+      "descriptionKo": "블랙의 밀착 실루엣과 가는 실버 라인이 만드는 간결한 하체.",
+      "nameEn": "Black Reflective Tights",
+      "descriptionEn": "A close black silhouette punctuated by narrow silver lines.",
+      "nameDe": "Schwarze Tights mit Reflektoren",
+      "descriptionDe": "Schmale schwarze Silhouette mit feinen silbernen Linien.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "black fitted full length running tights, narrow silver reflective lines at outer lower legs; waist and back conservatively reconstructed",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    },
+    {
+      "id": "04-shoes",
+      "appItemId": "bn15-01-run-m.shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "그레이 메쉬 러너",
+        "en": "Grey Mesh Runners",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "description": {
+        "ko": "그레이 메쉬에 실버 오버레이와 밝은 솔을 조합한 러너.",
+        "en": "Grey mesh runners with silver overlays and pale soles.",
+        "de": "Graue Mesh-Laufschuhe mit silbernen Besätzen und hellen Sohlen."
+      },
+      "wearing": {
+        "ko": "차콜 양말과 톤을 연결하고 끈 끝은 짧게 정리해요.",
+        "en": "Link them to charcoal socks and tuck away loose lace ends.",
+        "de": "Kombiniere anthrazitfarbene Socken und verstaue lose Schnürsenkel."
+      },
+      "howToWear": {
+        "ko": "차콜 양말과 톤을 연결하고 끈 끝은 짧게 정리해요.",
+        "en": "Link them to charcoal socks and tuck away loose lace ends.",
+        "de": "Kombiniere anthrazitfarbene Socken und verstaue lose Schnürsenkel."
+      },
+      "image": "products/04-shoes.jpg",
+      "altKo": "그레이 메쉬 러너 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F6F1EB",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "그레이 메쉬 러너",
+      "descriptionKo": "그레이 메쉬에 실버 오버레이와 밝은 솔을 조합한 러너.",
+      "nameEn": "Grey Mesh Runners",
+      "descriptionEn": "Grey mesh runners with silver overlays and pale soles.",
+      "nameDe": "Graue Mesh-Laufschuhe",
+      "descriptionDe": "Graue Mesh-Laufschuhe mit silbernen Besätzen und hellen Sohlen.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "matching pair grey mesh running sneakers, silver overlays, grey laces, white curved midsoles dark rubber toe and outsole, tiny muted yellow accent. Both shoes on soles, parallel side by side, camera vertically overhead",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    },
+    {
+      "id": "05-socks",
+      "appItemId": "bn15-01-run-m.socks",
+      "category": "socks",
+      "name": {
+        "ko": "차콜 앵클 삭스",
+        "en": "Charcoal Ankle Socks",
+        "de": "Anthrazitfarbene Knöchelsocken"
+      },
+      "description": {
+        "ko": "신발 위로 짧게 드러나는 짙은 양말. 발 부분은 추정 복원.",
+        "en": "A short dark sock band above the shoes; feet are inferred.",
+        "de": "Kurzer dunkler Sockenrand über den Schuhen; Fußteile sind rekonstruiert."
+      },
+      "wearing": {
+        "ko": "타이츠와 러너 사이에 어두운 톤을 이어 발목을 단정히 마무리해요.",
+        "en": "Continue the dark line between tights and runners without bunching.",
+        "de": "Führe die dunkle Linie zwischen Tights und Schuhen ohne Falten fort."
+      },
+      "howToWear": {
+        "ko": "타이츠와 러너 사이에 어두운 톤을 이어 발목을 단정히 마무리해요.",
+        "en": "Continue the dark line between tights and runners without bunching.",
+        "de": "Führe die dunkle Linie zwischen Tights und Schuhen ohne Falten fort."
+      },
+      "image": "products/05-socks.jpg",
+      "altKo": "차콜 앵클 삭스 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F9F6EF",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "차콜 앵클 삭스",
+      "descriptionKo": "신발 위로 짧게 드러나는 짙은 양말. 발 부분은 추정 복원.",
+      "nameEn": "Charcoal Ankle Socks",
+      "descriptionEn": "A short dark sock band above the shoes; feet are inferred.",
+      "nameDe": "Anthrazitfarbene Knöchelsocken",
+      "descriptionDe": "Kurzer dunkler Sockenrand über den Schuhen; Fußteile sind rekonstruiert.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "matching pair dark charcoal ankle running socks, visible short dark band at ankles, concealed feet conservatively reconstructed",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    },
+    {
+      "id": "06-gloves",
+      "appItemId": "bn15-01-run-m.gloves",
+      "category": "gloves",
+      "name": {
+        "ko": "블랙 러닝 글러브",
+        "en": "Black Running Gloves",
+        "de": "Schwarze Laufhandschuhe"
+      },
+      "description": {
+        "ko": "블랙 손등과 짙은 그레이 커프의 간결한 장갑.",
+        "en": "Simple black gloves with dark grey cuffs.",
+        "de": "Schlichte schwarze Handschuhe mit dunkelgrauen Bündchen."
+      },
+      "wearing": {
+        "ko": "커프를 셸 소매 아래로 겹쳐 손목의 경계를 정돈해요.",
+        "en": "Overlap the cuffs beneath the shell sleeves for a clean wrist line.",
+        "de": "Schiebe die Bündchen unter die Jackenärmel für einen glatten Übergang."
+      },
+      "howToWear": {
+        "ko": "커프를 셸 소매 아래로 겹쳐 손목의 경계를 정돈해요.",
+        "en": "Overlap the cuffs beneath the shell sleeves for a clean wrist line.",
+        "de": "Schiebe die Bündchen unter die Jackenärmel für einen glatten Übergang."
+      },
+      "image": "products/06-gloves.jpg",
+      "altKo": "블랙 러닝 글러브 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F9F4EE",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "블랙 러닝 글러브",
+      "descriptionKo": "블랙 손등과 짙은 그레이 커프의 간결한 장갑.",
+      "nameEn": "Black Running Gloves",
+      "descriptionEn": "Simple black gloves with dark grey cuffs.",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "descriptionDe": "Schlichte schwarze Handschuhe mit dunkelgrauen Bündchen.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "matching pair plain black full finger close-fitting running gloves with dark grey knit cuffs. Do not invent prominent reflective marks absent from reference",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    },
+    {
+      "id": "07-headwear",
+      "appItemId": "bn15-01-run-m.headwear",
+      "category": "headwear",
+      "name": {
+        "ko": "차콜 와이드 헤드밴드",
+        "en": "Charcoal Wide Headband",
+        "de": "Breites anthrazitfarbenes Stirnband"
+      },
+      "description": {
+        "ko": "폭이 넓고 표면감이 있는 차콜 헤드밴드.",
+        "en": "A wide charcoal band with a textured surface.",
+        "de": "Breites anthrazitfarbenes Stirnband mit strukturierter Oberfläche."
+      },
+      "wearing": {
+        "ko": "귀 위로 넓게 걸쳐 장갑과 타이츠의 짙은 톤을 반복해요.",
+        "en": "Wear over the ears, repeating the dark gloves and tights.",
+        "de": "Trage es über den Ohren und greife den dunklen Ton von Handschuhen und Tights auf."
+      },
+      "howToWear": {
+        "ko": "귀 위로 넓게 걸쳐 장갑과 타이츠의 짙은 톤을 반복해요.",
+        "en": "Wear over the ears, repeating the dark gloves and tights.",
+        "de": "Trage es über den Ohren und greife den dunklen Ton von Handschuhen und Tights auf."
+      },
+      "image": "products/07-headwear.jpg",
+      "altKo": "차콜 와이드 헤드밴드 — 아이보리 배경의 단독 제품 이미지",
+      "bg": "#F9F4EE",
+      "reconstruction": "visible-item-reconstructed",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "nameKo": "차콜 와이드 헤드밴드",
+      "descriptionKo": "폭이 넓고 표면감이 있는 차콜 헤드밴드.",
+      "nameEn": "Charcoal Wide Headband",
+      "descriptionEn": "A wide charcoal band with a textured surface.",
+      "nameDe": "Breites anthrazitfarbenes Stirnband",
+      "descriptionDe": "Breites anthrazitfarbenes Stirnband mit strukturierter Oberfläche.",
+      "evidence": {
+        "source": "../01-running.jpg",
+        "visibleDetailsEn": "wide charcoal grey textured running headband, single loop laid flat",
+        "uncertaintyEn": "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed."
+      }
+    }
+  ],
+  "productCount": 7,
+  "reconstructionNotes": [
+    "Hidden shirt body/sleeves, jacket back/pockets and glove palms are inferred. Sock cuff colour is visible but exact length and foot construction are uncertain. Shoe opposite sides and sole geometry are reconstructed.",
+    "All images are AI concept reconstructions. Exact fibre composition, brands, prices, performance/certification and temperatures are unknown. Reflective return is a visual feature, not a verified safety claim. Hidden closures, backs and mirrored pair details are inferred."
+  ]
+}
