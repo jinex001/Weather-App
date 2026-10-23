@@ -135,6 +135,13 @@
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
   .peek-d[hidden] { display: none; }
   .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
+  /* b133: the pick's outer, background removed, behind the headline on the right (never down into the summary); the
+     headline letters that cross it switch to white or ink by the garment's lightness (a masked copy of the headline) */
+  .peek { position: relative; }
+  .peek-k, .peek-d { position: relative; }
+  .peek-p, .peek-x { position: absolute; pointer-events: none; }
+  .peek-p[hidden], .peek-x[hidden] { display: none; }
+  .peek-x { margin: 0; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; }
   .person-ic .fg { fill: currentColor; }
   .person-ic .st { stroke: currentColor; fill: none; stroke-linecap: round; }
   .person-ic .rain { stroke: var(--graph); }
@@ -466,7 +473,7 @@
     <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
-  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><span class="peek-d" id="peek-d"></span></button>
+  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><img class="peek-p" id="peek-p" alt="" hidden><span class="peek-d" id="peek-d"></span><span class="peek-d peek-x" id="peek-x" aria-hidden="true" hidden></span></button>
   <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
 
   <div class="grow"></div>
@@ -510,6 +517,7 @@
 <script src="look/sunny-male-day-street.js?v=b126"></script>
 <script src="look/sunny-female-night-minimal.js?v=b129"></script>
 <script src="look/sunny-male-night-street.js?v=b131"></script>
+<script src="look/cutouts.js?v=b133"></script>
 <script>
 (function () {
   "use strict";
@@ -823,7 +831,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b132";
+  var BUILD = "b133";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1293,11 +1301,45 @@
     // b119: no band headline (LAYER UP …) any more: a look without an article title shows only the kicker and summary
     $("peek-d").textContent = A ? A.title : "";
     $("peek-d").hidden = !A;
+    $("peek-x").textContent = A ? A.title : "";
+    var hero = null;
+    if (A) o.items.some(function (id) { var it = LIB.items[id]; if (it && it.cut && it.cat === "outer") { hero = it; return true; } });
+    paintCut(hero);
     var text = o ? o.deck[LANG] + (A && A.intro ? " " + A.intro[LANG] : "") : LOOK[v.band[1]].deck[LANG];
     $("summary-t").textContent = [text].concat(homeRain).join(" ");
     $("summary").hidden = false;
     peek.hidden = false;
+    placeCut();
   }
+
+  // b133: lay the cutout out against the headline's height and fit the masked copy of the headline over it
+  var peekCut = null;
+  function paintCut(it) {
+    var img = $("peek-p"), x = $("peek-x");
+    peekCut = it;
+    if (!it) { img.hidden = x.hidden = true; img.removeAttribute("src"); return; }
+    if (img.getAttribute("src") !== it.cut) { img.hidden = x.hidden = true; img.onload = placeCut; img.src = it.cut; }
+    var m = "url(\"" + it.cut + "\")";
+    x.style.webkitMaskImage = x.style.maskImage = m;
+    // the crossing letters: white or ink, whichever reads better on the garment
+    var L = it.lum, onWhite = 1.05 / (L + 0.05), onInk = (L + 0.05) / (luminance("#141414") + 0.05);
+    x.style.color = onWhite >= onInk ? "#FFFFFF" : "#141414";
+    placeCut();
+  }
+  function placeCut() {
+    var img = $("peek-p"), x = $("peek-x"), d = $("peek-d"), peek = $("peek");
+    if (!peekCut || !img.naturalWidth || peek.hidden || d.hidden || !peek.offsetWidth) return;
+    var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 16, boxW = pw * 0.6,
+        s = Math.min(boxH / img.naturalHeight, boxW / img.naturalWidth),
+        w = img.naturalWidth * s, h = img.naturalHeight * s, left = pw + 16 - w, top = (ph - h) / 2;
+    img.style.cssText = "left:" + left + "px;top:" + top + "px;width:" + w + "px;height:" + h + "px";
+    x.style.left = d.offsetLeft + "px"; x.style.top = d.offsetTop + "px"; x.style.width = d.offsetWidth + "px";
+    x.style.webkitMaskPosition = x.style.maskPosition = (left - d.offsetLeft) + "px " + (top - d.offsetTop) + "px";
+    x.style.webkitMaskSize = x.style.maskSize = w + "px " + h + "px";
+    img.hidden = x.hidden = false;
+  }
+  addEventListener("resize", placeCut);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(placeCut);
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
