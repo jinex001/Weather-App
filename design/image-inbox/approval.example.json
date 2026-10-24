@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "batchId": "sunny-hot-male-day-street-01-r1",
+  "lookPath": "look/berlin-complete/Sunny/Hot/Male/35+/day/06-street",
+  "approval": {
+    "status": "draft",
+    "approvedBy": "REPLACE_WITH_ACTUAL_APPROVER",
+    "approvedAt": "REPLACE_WITH_ACTUAL_APPROVAL_DATE_OR_TIMESTAMP",
+    "evidence": "REPLACE_WITH_EXPLICIT_EDITORIAL_AND_PRODUCT_SET_APPROVAL_REFERENCE"
+  },
+  "metadata": {"source": "products.json", "sha256": "REPLACE_WITH_SHA256_OF_EXACT_FILE"},
+  "masterCopy": {"source": "master-copy.ko.json", "sha256": "REPLACE_WITH_SHA256_OF_EXACT_FILE"},
+  "files": [
+    {"source": "assets/editorial.jpg", "path": "look/berlin-complete/Sunny/Hot/Male/35+/day/06-street/editorial.jpg", "role": "editorial", "sha256": "REPLACE_WITH_SHA256_OF_EXACT_FILE"},
+    {"source": "assets/01-top.webp", "path": "look/berlin-complete/Sunny/Hot/Male/35+/day/06-street/products/01-top.webp", "role": "product", "sha256": "REPLACE_WITH_SHA256_OF_EXACT_FILE"}
+  ]
+}

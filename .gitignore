@@ -1,0 +1,4 @@
+# Local image handoff; approvals, originals and staging must not be published.
+.image-inbox/
+.venv-image-inbox/
+__pycache__/

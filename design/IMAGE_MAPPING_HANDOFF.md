@@ -209,3 +209,7 @@ Sunny / Chilly / Female / 35+ / Night / Street 06–10: 5룩·42제품(7/7/8/10/
 ## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
 
 User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.
+
+## 승인 이미지의 로컬 전달 인박스 (2026-10-24)
+
+GPT 제작물을 로컬 Claude Code가 받는 절차는 [IMAGE_INBOX_HANDOFF.md](IMAGE_INBOX_HANDOFF.md)를 따른다. 이 전달 경로에서는 GPT의 GitHub 직접 업로드 대신 승인 파일 저장 → 해시가 고정된 승인 매니페스트 → 로컬 검증/ready 패키지 → Claude의 별도 브랜치 매핑/PR을 사용한다. 기존 매핑 및 5-1장 검수 규칙은 계속 적용한다. ready는 앱 매핑 완료가 아니다. How to Wear의 한국어 마스터·스타일링 의도는 GPT가 작성하고, Claude는 원문을 보존하며 영어·독일어 현지화와 기존 스키마 연결을 맡는다.
