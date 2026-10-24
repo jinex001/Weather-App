@@ -19,7 +19,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-24, 빌드 b146)
+## 현재 상태 (2026-10-24, 빌드 b151)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -357,3 +357,7 @@ Five user-approved editorials (red-bomber plant scene and burgundy headscarf fin
 ## b150 · Rain / Light / Chilly / Female / 35+ / Night / Street — 2026-10-24 set
 
 Second dated set for this category: five user-approved editorials plus 34 independent transparent WebP products (6/7/7/6/8) in `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street-20261024/01–05/`, mapped through `look/rain-female-night-street-20261024.js` before `look/cutouts.js`. New IDs `bl-light-chilly-f-35-night-street-20261024-01`–`05` (`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`); the b149 set and all other looks are unchanged, so this cell now draws 3 of 10. Supplied ko/en/de copy used verbatim. 7°C / 3°C are creative assumptions, not measurements. Hidden garment details, look 05 boots and opposite earrings are reconstructions. PNG masters stay in iCloud. Validation: `design/rain-female-night-street-20261024-validation.md`.
+
+## b151 · 비 · 가벼운 비 · 여성 · 35+ · 저녁 · 미니멀 (2026-10-24)
+
+사용자 요청("매핑까지 해서 메인으로"). 9c3321b로 올라온 `Rain/Light/Chilly/Female/35+/night/minimal/01–05`(에디토리얼 5장 + 투명 WebP 제품 29장, 매핑 pending·review였음) → `look/rain-female-night-minimal.js`(cutouts.js 앞), 룩 `bl-light-chilly-f-35-night-minimal-01`–`05`(rain · light · chilly · f · 35 · evening · minimal), 제품 28개(04 안경 닦이는 소품 `appEligible: false`라 제외). 머플러는 `cat: scarf`, 우산은 `accessory`(비 카드 규칙). 제목 CHARCOAL, MID-STEP · COBALT UNDER THE CANOPY · CHOCOLATE AT THE DOORSTEP · RED UNDER THE HOOD · FRINGE AT THE FRONT DOOR, 한 줄 요약·인트로·인용구·팁·제품별 입는 법을 에디토리얼 보고 ko/en/de로 씀(제작 측엔 영어 입는 법만 있었음). 03 코트 앱 이름 "초콜릿 브라운 코트"(단추 수정본 표기 뺌). 대표 컷 = 투명 제품 자체(`cutouts.js` HERO·CUTS 5행). 각 products.json ready·mapped·`appOutfitId`·`appItemId`. 5-1장 점검 통과(입는 법 중복 없음, 이름 나열 없음, `missing cutouts: 0`), 카드 렌더링 확인. 160룩 · 1043아이템 · 기사 160. `cutouts.js?v=b151`.

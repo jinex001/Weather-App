@@ -21,7 +21,7 @@
 | 가벼운 비 | 남 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Rain/Light/Chilly/Male/35+/day/<스타일>/` |
 | 가벼운 비 | 남 | 저녁 | **✕** | **✕** | **✕** | (없음) |
 | 가벼운 비 | 여 | 낮 | **✕** | 5 기사 (casual) | 5 기사 | `Rain/Light/Chilly/Female/35+/day/<casual·minimal>/` |
-| 가벼운 비 | 여 | 저녁 | **✕** | **✕** | **✕** | (없음) |
+| 가벼운 비 | 여 | 저녁 | **✕** | 10 기사 (b149·b150) | 5 기사 (b151) | `Rain/Light/Chilly/Female/35+/night/<street·street-20261024·minimal>/` |
 | 보통 비 | 남·여 | 낮·저녁 | **✕** | **✕** | **✕** | `Rain/Normal/` README만 |
 | 쏟아지는 비 | 남·여 | 낮·저녁 | **✕** | **✕** | **✕** | `Rain/Pouring/` README만 |
 
@@ -31,7 +31,7 @@
 
 1. 흐림 · 남성 · 저녁: 러닝 (1세트; 스트리트는 b143에 들어옴 — 이 목록이 b143 때 안 고쳐져 있던 것을 b145에서 바로잡음)
 2. 가벼운 비 · 여성 · 낮: 러닝 (1세트)
-3. 가벼운 비 · 저녁: 남성 3스타일, 여성 3스타일 (6세트)
+3. 가벼운 비 · 저녁: 남성 3스타일, 여성 러닝 (4세트)
 4. 보통 비: 남녀 × 낮·저녁 × 3스타일 (12세트), 폴더는 README만
 5. 쏟아지는 비: 남녀 × 낮·저녁 × 3스타일 (12세트), 폴더는 README만
 6. 다른 체감 단계 전부: 극한 추위 · 매우 추움 · 추움 · 선선함 · 쾌적함 · 따뜻함 · 더움 · 극심한 더위 (지금은 쌀쌀함만 있음, 쌀쌀함과 바로 옆 단계(추움 -9~0°, 선선함 10~17°)엔 쌀쌀함 룩이 대신 나옴, 그보다 먼 단계는 플레이스홀더)
@@ -125,3 +125,7 @@ Five user-approved editorials (red-bomber plant scene and burgundy headscarf fin
 ## b150 · Rain / Light / Chilly / Female / 35+ / Night / Street — 2026-10-24 set
 
 Second dated set for this category: five user-approved editorials plus 34 independent transparent WebP products (6/7/7/6/8) in `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street-20261024/01–05/`, mapped through `look/rain-female-night-street-20261024.js` before `look/cutouts.js`. New IDs `bl-light-chilly-f-35-night-street-20261024-01`–`05` (`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`); the b149 set and all other looks are unchanged, so this cell now draws 3 of 10. Supplied ko/en/de copy used verbatim. 7°C / 3°C are creative assumptions, not measurements. Hidden garment details, look 05 boots and opposite earrings are reconstructions. PNG masters stay in iCloud. Validation: `design/rain-female-night-street-20261024-validation.md`.
+
+## b151 · Rain / Light / Chilly / Female / 35+ / Night / Minimal
+
+5룩 · 제품 28개(6/5/6/4/7) 투명 WebP, `look/rain-female-night-minimal.js`(cutouts.js 앞). ID `bl-light-chilly-f-35-night-minimal-01`–`05`. 04번 안경 닦이는 소품(`appEligible: false`)이라 제외. 한국어·독일어 입는 법과 룩 문구(제목·요약·인트로·인용구·팁)는 에디토리얼 보고 새로 씀. 이제 가벼운 비 여성 저녁은 러닝만 빈 칸.

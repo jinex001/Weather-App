@@ -9,12 +9,15 @@
       "nameKo": "스톤 베이지 트렌치코트",
       "nameEn": "Stone beige trench coat",
       "nameDe": "Trenchcoat in Steinbeige",
-      "descriptionEn": "Leave the neckline open to frame the bright blue knit; keep the sleeves loose at the wrists.",
+      "descriptionEn": "Leave the neckline open to frame the bright blue knit, with the sleeves loose at the wrists.",
       "image": "products/01-outer.webp",
       "altKo": "스톤 베이지 트렌치코트",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "목선을 열어 파란 니트를 액자처럼 감싸고, 소매는 손목에서 느슨하게 두어요.",
+      "descriptionDe": "Den Ausschnitt offen lassen, damit er den blauen Strick einrahmt; die Ärmel locker an den Handgelenken.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-02.01-outer"
     },
     {
       "id": "02-02-top",
@@ -22,12 +25,15 @@
       "nameKo": "코발트 파인 니트 터틀넥",
       "nameEn": "Cobalt fine-knit turtleneck",
       "nameDe": "Feiner Rollkragenpullover in Kobaltblau",
-      "descriptionEn": "Keep the blue neckline high and clean, with the smooth knit visible down the open trench.",
+      "descriptionEn": "Keep the blue neckline high and clean, with the smooth knit showing all the way down the open trench.",
       "image": "products/02-top.webp",
       "altKo": "코발트 파인 니트 터틀넥",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "높은 목을 반듯하게 세우고, 열린 트렌치 사이로 매끈한 니트가 길게 보이게 해요.",
+      "descriptionDe": "Den blauen Kragen hoch und glatt tragen; der feine Strick ist im offenen Trench bis unten zu sehen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-02.02-top"
     },
     {
       "id": "02-03-bottom",
@@ -35,12 +41,15 @@
       "nameKo": "다크 초콜릿 테일러드 팬츠",
       "nameEn": "Dark chocolate tailored trousers",
       "nameDe": "Dunkelbraune Stoffhose",
-      "descriptionEn": "Pair the dark brown waistband with the tucked blue knit to anchor the pale outer layer.",
+      "descriptionEn": "Tuck the blue knit in to show the dark brown waistband; the deep colour anchors the pale outer layer.",
       "image": "products/03-bottom.webp",
       "altKo": "다크 초콜릿 테일러드 팬츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "니트를 허리에 넣어 짙은 브라운 허리선을 드러내요. 밝은 트렌치 아래를 진한 색으로 단단히 받쳐 줘요.",
+      "descriptionDe": "Den blauen Strick in den Bund stecken, damit der dunkelbraune Bund zu sehen ist; die tiefe Farbe hält den hellen Mantel.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-02.03-bottom"
     },
     {
       "id": "02-04-accessory",
@@ -48,12 +57,15 @@
       "nameKo": "블랙 곡선 손잡이 우산",
       "nameEn": "Black curved-handle umbrella",
       "nameDe": "Schwarzer Schirm mit gebogenem Griff",
-      "descriptionEn": "Bring the handle forward while leaning under the canopy; do not let it obscure the blue neckline.",
+      "descriptionEn": "Bring the handle forward as you lean under the canopy, without covering the blue neckline.",
       "image": "products/04-accessory.webp",
       "altKo": "블랙 곡선 손잡이 우산",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "몸을 숙일 때 손잡이를 앞으로 당겨 잡되, 파란 목선은 가리지 않게 해요.",
+      "descriptionDe": "Den Griff nach vorn nehmen, wenn man sich unter den Schirm beugt, ohne den blauen Kragen zu verdecken.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-02.04-accessory"
     },
     {
       "id": "02-05-jewelry",
@@ -61,19 +73,43 @@
       "nameKo": "골드톤 미니 후프 귀걸이",
       "nameEn": "Small gold-tone hoop earrings",
       "nameDe": "Kleine goldfarbene Creolen",
-      "descriptionEn": "Keep the small hoops exposed beside the short curls for a restrained metallic accent.",
+      "descriptionEn": "Keep the small gold hoops visible beside the short curls. One metallic accent is plenty.",
       "image": "products/05-jewelry.webp",
       "altKo": "골드톤 미니 후프 귀걸이",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "짧은 곱슬머리 옆으로 작은 골드 후프가 드러나게. 금속은 이것 하나로 충분해요.",
+      "descriptionDe": "Die kleinen Goldcreolen neben den kurzen Locken sichtbar lassen. Ein Metallakzent reicht.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-02.05-jewelry"
     }
   ],
-  "productionStatus": "review",
-  "mappingStatus": "pending",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
   "reviewNotes": [
-    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
     "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
-    "The glasses cloth is a scene prop and is excluded from clothing selection."
-  ]
+    "The glasses cloth is a scene prop and is excluded from clothing selection.",
+    "2026-10-24 b151: user approved mapping to main. Korean master and German how-to-wear written from the editorial; look copy (title, deck, intro, pull, tip) written in ko/en/de.",
+    "Look 03 coat shown in the app as Chocolate brown coat (button-correction suffix kept only in nameKo/En/De here)."
+  ],
+  "appOutfitId": "bl-light-chilly-f-35-night-minimal-02",
+  "copy": {
+    "title": "COBALT UNDER THE CANOPY",
+    "deck": {
+      "ko": "우산 아래로 몸을 숙이며 크게 웃는 순간. 베이지 트렌치 사이로 코발트가 번져요.",
+      "en": "Leaning in under the umbrella with a big laugh. Cobalt glowing between the beige trench.",
+      "de": "Unter dem Schirm vorgebeugt, mit einem breiten Lachen. Kobaltblau leuchtet zwischen dem beigen Trench."
+    },
+    "intro": {
+      "ko": "밤비에 베이지 트렌치만 입으면 흐려지기 쉬워요. 그 안에 코발트 터틀넥을 넣으면 얼굴 아래가 단번에 살아나요. 다크 초콜릿 팬츠가 밝은 겉옷과 강한 파랑을 아래에서 붙잡아 줘요.",
+      "en": "A beige trench alone can fade in the night rain. Put a cobalt turtleneck underneath and everything below the face comes alive at once. Dark chocolate trousers anchor the pale coat and the strong blue from below.",
+      "de": "Ein beiger Trench allein verblasst leicht im Nachtregen. Ein kobaltblauer Rollkragen darunter lässt alles unter dem Gesicht sofort aufleben. Eine dunkle schokobraune Hose hält den hellen Mantel und das kräftige Blau von unten zusammen."
+    },
+    "pullQuoteEn": "BLUE IS THE BRIGHT IDEA.",
+    "tip": {
+      "ko": "트렌치 벨트는 묶지 말고 뒤로 넘겨 두면 앞판이 열린 채로 파란 목선이 보여요.",
+      "en": "Leave the trench belt untied and tuck it behind so the front stays open on the blue neckline.",
+      "de": "Den Trenchgürtel nicht binden, sondern nach hinten legen, damit die Front offen bleibt und der blaue Kragen zu sehen ist."
+    }
+  }
 }

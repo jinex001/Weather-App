@@ -9,12 +9,15 @@
       "nameKo": "블랙 코쿤 코트",
       "nameEn": "Black cocoon coat",
       "nameDe": "Schwarzer Cocoon-Mantel",
-      "descriptionEn": "Keep the shoulder line generous and the coat relaxed as the body turns toward the doorway.",
+      "descriptionEn": "Keep the generous shoulder line and wear the cocoon coat relaxed; it stays easy as you turn toward the door.",
       "image": "products/01-outer.webp",
       "altKo": "블랙 코쿤 코트",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "어깨선이 넉넉한 코쿤 코트를 여유 있게 입어요. 몸을 돌려 문을 열어도 품이 편안해요.",
+      "descriptionDe": "Die weite Schulterlinie behalten und den Kokonmantel locker tragen; er bleibt bequem, wenn man sich zur Tür dreht.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.01-outer"
     },
     {
       "id": "05-02-accessory",
@@ -22,12 +25,15 @@
       "nameKo": "라이트 그레이 프린지 머플러",
       "nameEn": "Light grey fringed scarf",
       "nameDe": "Hellgrauer Fransenschal",
-      "descriptionEn": "Wrap the scarf loosely once and allow a fringed end to move away from the shoulder.",
+      "descriptionEn": "Wrap it loosely once and let a fringed end fly away from the shoulder.",
       "image": "products/02-accessory.webp",
       "altKo": "라이트 그레이 프린지 머플러",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "느슨하게 한 번 둘러 프린지 끝이 어깨에서 멀어지며 날리게 해요.",
+      "descriptionDe": "Einmal locker umlegen und ein Fransenende von der Schulter wegfliegen lassen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.02-accessory"
     },
     {
       "id": "05-03-bottom",
@@ -35,12 +41,15 @@
       "nameKo": "블랙 풀렝스 팬츠",
       "nameEn": "Black full-length trousers",
       "nameDe": "Schwarze lange Stoffhose",
-      "descriptionEn": "Maintain the black column beneath the coat, leaving only a small section of boot visible.",
+      "descriptionEn": "Continue the black column beneath the coat, leaving only a small section of boot visible.",
       "image": "products/03-bottom.webp",
       "altKo": "블랙 풀렝스 팬츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "코트 아래로 블랙 기둥을 이어 가고, 부츠는 아주 조금만 보이게 해요.",
+      "descriptionDe": "Die schwarze Säule unter dem Mantel fortsetzen, vom Stiefel ist nur ein kleines Stück zu sehen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.03-bottom"
     },
     {
       "id": "05-04-bag",
@@ -48,12 +57,15 @@
       "nameKo": "다크 브라운 숄더백",
       "nameEn": "Dark brown shoulder bag",
       "nameDe": "Dunkelbraune Schultertasche",
-      "descriptionEn": "Wear the strap on the near shoulder so the small brown bag rests against the black coat.",
+      "descriptionEn": "Wear the strap on the near shoulder so the small brown bag sits against the black coat, one warm colour in a dark look.",
       "image": "products/04-bag.webp",
       "altKo": "다크 브라운 숄더백",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "가까운 어깨에 메어 작은 브라운 가방이 블랙 코트 위에 놓이게 해요. 어두운 룩에 따뜻한 색 하나.",
+      "descriptionDe": "Den Riemen auf der vorderen Schulter, die kleine braune Tasche liegt am schwarzen Mantel: eine warme Farbe im dunklen Look.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.04-bag"
     },
     {
       "id": "05-05-accessory",
@@ -61,12 +73,15 @@
       "nameKo": "블랙 접이식 우산",
       "nameEn": "Black folding umbrella",
       "nameDe": "Schwarzer Taschenschirm",
-      "descriptionEn": "Keep the umbrella closed beside the door while the other hand catches the scarf.",
+      "descriptionEn": "Keep the folded umbrella beside the door while the other hand catches the scarf.",
       "image": "products/05-accessory.webp",
       "altKo": "블랙 접이식 우산",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "문을 여는 동안 접은 우산은 문 옆에 붙여 들고, 다른 손은 머플러를 잡아요.",
+      "descriptionDe": "Den gefalteten Schirm neben der Tür halten, während die andere Hand den Schal fängt.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.05-accessory"
     },
     {
       "id": "05-06-shoes",
@@ -74,12 +89,15 @@
       "nameKo": "블랙 앵클부츠",
       "nameEn": "Black ankle boots",
       "nameDe": "Schwarze Stiefeletten",
-      "descriptionEn": "Let the full-length trouser hem cover most of the ankle shaft for a clean lower line.",
+      "descriptionEn": "Let the full-length hem cover most of the ankle shaft for a clean lower line.",
       "image": "products/06-shoes.webp",
       "altKo": "블랙 앵클부츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "긴 바짓단이 부츠 목을 대부분 덮게 해서 아래 선을 깔끔하게 정리해요.",
+      "descriptionDe": "Der lange Saum bedeckt den Schaft größtenteils, das ergibt eine klare Linie unten.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.06-shoes"
     },
     {
       "id": "05-07-jewelry",
@@ -87,19 +105,43 @@
       "nameKo": "골드톤 스몰 후프 귀걸이",
       "nameEn": "Small gold-tone hoops",
       "nameDe": "Kleine goldfarbene Creolen",
-      "descriptionEn": "Tuck the hair behind the visible ear so the small hoop catches the flash.",
+      "descriptionEn": "Tuck the hair behind the visible ear so the small gold hoop catches the light.",
       "image": "products/07-jewelry.webp",
       "altKo": "골드톤 스몰 후프 귀걸이",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "보이는 쪽 머리를 귀 뒤로 넘겨 작은 골드 후프가 불빛을 받게 해요.",
+      "descriptionDe": "Das Haar hinter das sichtbare Ohr streichen, damit die kleine Goldcreole das Licht einfängt.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-05.07-jewelry"
     }
   ],
-  "productionStatus": "review",
-  "mappingStatus": "pending",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
   "reviewNotes": [
-    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
     "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
-    "The glasses cloth is a scene prop and is excluded from clothing selection."
-  ]
+    "The glasses cloth is a scene prop and is excluded from clothing selection.",
+    "2026-10-24 b151: user approved mapping to main. Korean master and German how-to-wear written from the editorial; look copy (title, deck, intro, pull, tip) written in ko/en/de.",
+    "Look 03 coat shown in the app as Chocolate brown coat (button-correction suffix kept only in nameKo/En/De here)."
+  ],
+  "appOutfitId": "bl-light-chilly-f-35-night-minimal-05",
+  "copy": {
+    "title": "FRINGE AT THE FRONT DOOR",
+    "deck": {
+      "ko": "문을 열며 바람에 날리는 머플러를 붙잡는 순간. 블랙 코트에 연회색 프린지.",
+      "en": "Catching the scarf in the wind while she unlocks the door. Light grey fringe over a black coat.",
+      "de": "Beim Aufschließen den Schal im Wind festhalten. Hellgraue Fransen über einem schwarzen Mantel."
+    },
+    "intro": {
+      "ko": "블랙 코트와 블랙 팬츠로 긴 기둥을 세우고, 연회색 머플러 하나로 움직임을 더해요. 바람에 날리는 프린지가 젖은 밤거리의 어둠 속에서 가장 먼저 보여요. 작은 브라운 가방과 골드 후프가 따뜻함을 조금 보태요.",
+      "en": "Black coat and black trousers build one long column; a light grey scarf adds the movement. The fringe caught by the wind is the first thing you see against the wet night street. A small brown bag and gold hoops add a touch of warmth.",
+      "de": "Schwarzer Mantel und schwarze Hose bilden eine lange Säule, ein hellgrauer Schal bringt Bewegung hinein. Die Fransen im Wind sieht man vor der nassen Nachtstraße zuerst. Eine kleine braune Tasche und Goldcreolen geben etwas Wärme dazu."
+    },
+    "pullQuoteEn": "LET THE SCARF MOVE.",
+    "tip": {
+      "ko": "머플러는 한 번만 느슨하게 감아 두면 바람이 불어도 목이 답답하지 않고 끝이 자연스럽게 날려요.",
+      "en": "Wrap the scarf just once, loosely, so the wind can lift the ends without it tightening at the neck.",
+      "de": "Den Schal nur einmal locker wickeln, dann kann der Wind die Enden heben, ohne dass es am Hals eng wird."
+    }
+  }
 }

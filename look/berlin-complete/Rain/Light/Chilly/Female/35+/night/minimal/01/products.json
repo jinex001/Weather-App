@@ -9,12 +9,15 @@
       "nameKo": "차콜 오버사이즈 코트",
       "nameEn": "Charcoal oversized coat",
       "nameDe": "Oversize-Mantel in Anthrazit",
-      "descriptionEn": "Wear the front open so the ivory knit remains visible between the lapels.",
+      "descriptionEn": "Wear it open so the ivory knit shows between the lapels. The roomy cut lets you raise the umbrella arm without pulling at the shoulders.",
       "image": "products/01-outer.webp",
       "altKo": "차콜 오버사이즈 코트",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "앞을 열어 라펠 사이로 아이보리 니트가 보이게 입어요. 넉넉한 품이라 우산을 든 팔을 들어도 어깨가 당기지 않아요.",
+      "descriptionDe": "Offen tragen, damit der Elfenbeinstrick zwischen den Revers zu sehen ist. Der weite Schnitt lässt den Schirmarm heben, ohne an den Schultern zu ziehen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-01.01-outer"
     },
     {
       "id": "01-02-top",
@@ -27,7 +30,10 @@
       "altKo": "아이보리 골지 터틀넥",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "높은 목을 부드럽게 접어 올리고, 골지 소맷단을 코트 소매 밖으로 살짝 내밀어요.",
+      "descriptionDe": "Den hohen Kragen weich umschlagen und die Rippbündchen etwas unter den Mantelärmeln hervorschauen lassen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-01.02-top"
     },
     {
       "id": "01-03-bottom",
@@ -35,12 +41,15 @@
       "nameKo": "차콜 와이드 팬츠",
       "nameEn": "Charcoal wide-leg trousers",
       "nameDe": "Weite Hose in Anthrazit",
-      "descriptionEn": "Keep the full leg relaxed beneath the long coat, with the hem meeting the boots.",
+      "descriptionEn": "Let the full leg fall relaxed beneath the long coat, with the hem meeting the boots. The same charcoal as the coat keeps the line long.",
       "image": "products/03-bottom.webp",
       "altKo": "차콜 와이드 팬츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "긴 코트 아래로 통을 그대로 흘려 두고, 밑단은 부츠 위에서 끝나게 해요. 코트와 같은 차콜이라 다리 선이 길어 보여요.",
+      "descriptionDe": "Das weite Bein locker unter dem langen Mantel fallen lassen, der Saum endet auf den Stiefeletten. Das gleiche Anthrazit wie der Mantel streckt die Linie.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-01.03-bottom"
     },
     {
       "id": "01-04-shoes",
@@ -48,12 +57,15 @@
       "nameKo": "블랙 스퀘어토 앵클부츠",
       "nameEn": "Black square-toe ankle boots",
       "nameDe": "Schwarze Stiefeletten mit eckiger Kappe",
-      "descriptionEn": "Let the trouser hem overlap the shaft while the squared toe stays visible.",
+      "descriptionEn": "Let the trouser hem cover the shaft so only the square toe shows. Smooth leather wipes clean after a puddle.",
       "image": "products/04-shoes.webp",
       "altKo": "블랙 스퀘어토 앵클부츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "바짓단이 부츠 목을 덮고 각진 앞코만 보이게 해요. 매끈한 가죽이라 물웅덩이를 밟아도 닦아 내기 쉬워요.",
+      "descriptionDe": "Der Hosensaum bedeckt den Schaft, nur die eckige Spitze bleibt sichtbar. Glattes Leder lässt sich nach einer Pfütze leicht abwischen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-01.04-shoes"
     },
     {
       "id": "01-05-bag",
@@ -61,12 +73,15 @@
       "nameKo": "블랙 숄더 토트백",
       "nameEn": "Black shoulder tote",
       "nameDe": "Schwarze Schultertasche",
-      "descriptionEn": "Carry the narrow straps over one shoulder so the bag sits close beside the coat.",
+      "descriptionEn": "Carry the narrow straps on one shoulder so the bag sits close against the coat, on the side away from the umbrella.",
       "image": "products/05-bag.webp",
       "altKo": "블랙 숄더 토트백",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "가는 끈을 한쪽 어깨에 메고 가방을 코트 옆구리에 붙여요. 우산을 든 반대쪽이라 걸음이 가벼워요.",
+      "descriptionDe": "Die schmalen Riemen über eine Schulter, die Tasche dicht am Mantel, auf der Seite ohne Schirm.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-01.05-bag"
     },
     {
       "id": "01-06-accessory",
@@ -74,19 +89,43 @@
       "nameKo": "블랙 장우산",
       "nameEn": "Black umbrella",
       "nameDe": "Schwarzer Regenschirm",
-      "descriptionEn": "Hold the curved handle close to the body while keeping the canopy above the head.",
+      "descriptionEn": "Hold the curved handle close to the body with the canopy high overhead. The black umbrella closes the charcoal look from above.",
       "image": "products/06-accessory.webp",
       "altKo": "블랙 장우산",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "구부러진 손잡이를 몸 가까이 잡고 캐노피는 머리 위로 높이. 검은 장우산이 차콜 룩을 위에서 마무리해요.",
+      "descriptionDe": "Den gebogenen Griff nah am Körper halten, den Schirm hoch über dem Kopf. Der schwarze Stockschirm schließt den Anthrazit-Look nach oben ab.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-01.06-accessory"
     }
   ],
-  "productionStatus": "review",
-  "mappingStatus": "pending",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
   "reviewNotes": [
-    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
     "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
-    "The glasses cloth is a scene prop and is excluded from clothing selection."
-  ]
+    "The glasses cloth is a scene prop and is excluded from clothing selection.",
+    "2026-10-24 b151: user approved mapping to main. Korean master and German how-to-wear written from the editorial; look copy (title, deck, intro, pull, tip) written in ko/en/de.",
+    "Look 03 coat shown in the app as Chocolate brown coat (button-correction suffix kept only in nameKo/En/De here)."
+  ],
+  "appOutfitId": "bl-light-chilly-f-35-night-minimal-01",
+  "copy": {
+    "title": "CHARCOAL, MID-STEP",
+    "deck": {
+      "ko": "우산을 높이 들고 물웅덩이를 건너는 한 걸음. 차콜 코트 사이로 아이보리 터틀넥.",
+      "en": "One step over a puddle with the umbrella held high. Ivory turtleneck between charcoal coat panels.",
+      "de": "Ein Schritt über die Pfütze, den Schirm hoch erhoben. Elfenbeinfarbener Rollkragen zwischen anthrazitfarbenen Mantelkanten."
+    },
+    "intro": {
+      "ko": "젖은 돌길 위에선 색을 줄일수록 움직임이 보여요. 코트와 팬츠를 같은 차콜로 맞추고, 아이보리 터틀넥 하나로 얼굴 주변만 밝혀요. 블랙 부츠와 우산은 비를 받아 내는 실용의 몫이에요.",
+      "en": "On wet cobbles, fewer colours let the movement show. Match coat and trousers in the same charcoal and let one ivory turtleneck light the face. Black boots and umbrella do the practical work of the rain.",
+      "de": "Auf nassem Kopfsteinpflaster zeigt sich Bewegung besser mit wenigen Farben. Mantel und Hose im gleichen Anthrazit, dazu ein elfenbeinfarbener Rollkragen, der das Gesicht aufhellt. Schwarze Stiefeletten und Schirm übernehmen den praktischen Teil."
+    },
+    "pullQuoteEn": "ONE COLOUR, ONE GOOD STEP.",
+    "tip": {
+      "ko": "코트 소매를 조금 걷어 터틀넥 소맷단을 내밀면 우산 손잡이를 쥘 때 손목이 따뜻해요.",
+      "en": "Push the coat sleeves back a little so the turtleneck cuffs keep your wrist warm on the umbrella handle.",
+      "de": "Die Mantelärmel etwas zurückschieben, damit die Rollkragenbündchen das Handgelenk am Schirmgriff wärmen."
+    }
+  }
 }

@@ -584,6 +584,26 @@
     "bl-light-chilly-f-35-night-street-20261024-05.04-scarf": [
         "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street-20261024/05/products/04-scarf.webp",
         0.26
+    ],
+    "bl-light-chilly-f-35-night-minimal-01.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/minimal/01/products/01-outer.webp",
+        0.037
+    ],
+    "bl-light-chilly-f-35-night-minimal-02.02-top": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/minimal/02/products/02-top.webp",
+        0.052
+    ],
+    "bl-light-chilly-f-35-night-minimal-03.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/minimal/03/products/01-outer.webp",
+        0.04
+    ],
+    "bl-light-chilly-f-35-night-minimal-04.02-top": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/minimal/04/products/02-top.webp",
+        0.087
+    ],
+    "bl-light-chilly-f-35-night-minimal-05.02-accessory": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/minimal/05/products/02-accessory.webp",
+        0.341
     ]
 };
   var HERO = {
@@ -731,7 +751,12 @@
     "bl-light-chilly-f-35-night-street-20261024-02": "bl-light-chilly-f-35-night-street-20261024-02.01-outer",
     "bl-light-chilly-f-35-night-street-20261024-03": "bl-light-chilly-f-35-night-street-20261024-03.01-outer",
     "bl-light-chilly-f-35-night-street-20261024-04": "bl-light-chilly-f-35-night-street-20261024-04.01-outer",
-    "bl-light-chilly-f-35-night-street-20261024-05": "bl-light-chilly-f-35-night-street-20261024-05.04-scarf"
+    "bl-light-chilly-f-35-night-street-20261024-05": "bl-light-chilly-f-35-night-street-20261024-05.04-scarf",
+    "bl-light-chilly-f-35-night-minimal-01": "bl-light-chilly-f-35-night-minimal-01.01-outer",
+    "bl-light-chilly-f-35-night-minimal-02": "bl-light-chilly-f-35-night-minimal-02.02-top",
+    "bl-light-chilly-f-35-night-minimal-03": "bl-light-chilly-f-35-night-minimal-03.01-outer",
+    "bl-light-chilly-f-35-night-minimal-04": "bl-light-chilly-f-35-night-minimal-04.02-top",
+    "bl-light-chilly-f-35-night-minimal-05": "bl-light-chilly-f-35-night-minimal-05.02-accessory"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

@@ -9,12 +9,20 @@
       "nameKo": "초콜릿 브라운 코트 — 단추 수정본",
       "nameEn": "Chocolate brown coat — button correction",
       "nameDe": "Schokoladenbrauner Mantel — Knopfkorrektur",
-      "descriptionEn": "User-requested product revision: remove the extra far-right chest button while preserving the supplied coat.",
+      "descriptionEn": "Wear it open with the oatmeal knit down the centre. The below-the-knee length wraps you well on a rainy evening.",
       "image": "products/01-outer.webp",
       "altKo": "초콜릿 브라운 코트 — 단추 수정본",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "User supplied a belted double-breasted product revision differing from the original editorial coat. Extra far-right chest button removed as requested. Keep for review before app mapping.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "앞을 열어 오트밀 니트를 가운데로 보여 줘요. 무릎 아래까지 오는 길이라 비 오는 저녁에도 몸을 넉넉히 감싸요.",
+      "descriptionDe": "Offen tragen, der Haferstrick in der Mitte sichtbar. Die Länge bis unters Knie hüllt an einem Regenabend gut ein.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-03.01-outer",
+      "displayName": {
+        "ko": "초콜릿 브라운 코트",
+        "en": "Chocolate brown coat",
+        "de": "Schokobrauner Mantel"
+      }
     },
     {
       "id": "03-02-top",
@@ -27,7 +35,10 @@
       "altKo": "오트밀 골지 크루넥 니트",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "오트밀 목선과 소맷단이 진한 브라운 코트 사이로 보이게 입어요.",
+      "descriptionDe": "Haferfarbener Ausschnitt und Bündchen zeigen sich gegen den offenen dunkelbraunen Mantel.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-03.02-top"
     },
     {
       "id": "03-03-bottom",
@@ -40,7 +51,10 @@
       "altKo": "블랙 스트레이트 팬츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "결 있는 니트와 코트 아래로 블랙 일자 다리를 끊김 없이 이어요.",
+      "descriptionDe": "Das dunkle gerade Bein unter Strick und Mantel ohne Unterbrechung fortführen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-03.03-bottom"
     },
     {
       "id": "03-04-shoes",
@@ -48,12 +62,15 @@
       "nameKo": "블랙 라운드토 앵클부츠",
       "nameEn": "Black round-toe ankle boots",
       "nameDe": "Schwarze Stiefeletten mit runder Kappe",
-      "descriptionEn": "Wear the rounded toe under the trouser hem, with the shaft mostly covered.",
+      "descriptionEn": "Wear the rounded toe under the trouser hem with the shaft mostly covered.",
       "image": "products/04-shoes.webp",
       "altKo": "블랙 라운드토 앵클부츠",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "둥근 앞코만 바짓단 아래로 보이고 부츠 목은 대부분 가려지게 신어요.",
+      "descriptionDe": "Die runde Spitze unter dem Hosensaum, der Schaft bleibt größtenteils verdeckt.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-03.04-shoes"
     },
     {
       "id": "03-05-bag",
@@ -61,12 +78,15 @@
       "nameKo": "블랙 직사각 숄더백",
       "nameEn": "Black rectangular shoulder bag",
       "nameDe": "Schwarze rechteckige Schultertasche",
-      "descriptionEn": "Let the long slim strap sit on the shoulder and keep the rectangular body beside the hip.",
+      "descriptionEn": "Let the long slim strap sit on the shoulder with the rectangular body beside the hip.",
       "image": "products/05-bag.webp",
       "altKo": "블랙 직사각 숄더백",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "가늘고 긴 끈을 어깨에 걸고 직사각 가방은 엉덩이 옆에 오게 해요.",
+      "descriptionDe": "Den langen schmalen Riemen auf die Schulter, die rechteckige Tasche seitlich an der Hüfte.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-03.05-bag"
     },
     {
       "id": "03-06-accessory",
@@ -74,19 +94,43 @@
       "nameKo": "토프 접이식 우산",
       "nameEn": "Taupe folding umbrella",
       "nameDe": "Taupefarbener Taschenschirm",
-      "descriptionEn": "Hold the closed umbrella away from the coat so droplets fall clear of the knit.",
+      "descriptionEn": "Hold the closed taupe umbrella away from the coat so the drops fall clear of the knit.",
       "image": "products/06-accessory.webp",
       "altKo": "토프 접이식 우산",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "토프 우산은 접어서 코트에서 떨어뜨려 들어요. 물방울이 니트 대신 바닥으로 떨어져요.",
+      "descriptionDe": "Den geschlossenen taupefarbenen Schirm vom Mantel weghalten, damit die Tropfen nicht auf den Strick fallen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-03.06-accessory"
     }
   ],
-  "productionStatus": "review",
-  "mappingStatus": "pending",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
   "reviewNotes": [
-    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
     "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
-    "The glasses cloth is a scene prop and is excluded from clothing selection."
-  ]
+    "The glasses cloth is a scene prop and is excluded from clothing selection.",
+    "2026-10-24 b151: user approved mapping to main. Korean master and German how-to-wear written from the editorial; look copy (title, deck, intro, pull, tip) written in ko/en/de.",
+    "Look 03 coat shown in the app as Chocolate brown coat (button-correction suffix kept only in nameKo/En/De here)."
+  ],
+  "appOutfitId": "bl-light-chilly-f-35-night-minimal-03",
+  "copy": {
+    "title": "CHOCOLATE AT THE DOORSTEP",
+    "deck": {
+      "ko": "현관 매트 위에서 접은 우산의 물기를 털어요. 초콜릿 코트에 오트밀 니트.",
+      "en": "Shaking the folded umbrella dry on the doormat. A chocolate coat over an oatmeal knit.",
+      "de": "Auf der Fußmatte den zusammengeklappten Schirm ausschütteln. Ein schokobrauner Mantel über Haferstrick."
+    },
+    "intro": {
+      "ko": "집 앞에 다 와서 우산을 터는 짧은 순간. 진한 초콜릿 코트 안에 오트밀 니트를 두면 갈색이 무겁지 않고 따뜻해 보여요. 블랙 팬츠와 부츠로 아래를 곧게 정리하면 코트의 질감이 더 살아나요.",
+      "en": "The short moment of shaking off the umbrella at the door. An oatmeal knit inside a deep chocolate coat makes the brown feel warm rather than heavy. Black trousers and boots keep the line below straight so the coat's texture stands out.",
+      "de": "Der kurze Moment, in dem man vor der Tür den Schirm ausschüttelt. Ein Haferstrick im tiefen Schokomantel lässt das Braun warm statt schwer wirken. Schwarze Hose und Stiefeletten halten die Linie darunter gerade, so tritt die Struktur des Mantels hervor."
+    },
+    "pullQuoteEn": "SHAKE IT OFF, THEN GO IN.",
+    "tip": {
+      "ko": "접은 우산은 코트에서 멀리 들고 털어야 니트에 물이 튀지 않아요.",
+      "en": "Hold the folded umbrella away from the coat when you shake it, so no drops reach the knit.",
+      "de": "Den gefalteten Schirm beim Ausschütteln vom Mantel weghalten, damit kein Tropfen den Strick trifft."
+    }
+  }
 }

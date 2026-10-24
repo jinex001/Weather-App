@@ -14,7 +14,10 @@
       "altKo": "슬레이트 네이비 후드 레인코트",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "후드를 쓰고 위쪽 여밈은 머플러와 빨간 목선이 보일 만큼 느슨하게 열어 둬요.",
+      "descriptionDe": "Die Kapuze aufsetzen und den oberen Verschluss locker um Schal und roten Kragen offen lassen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-04.01-outer"
     },
     {
       "id": "04-02-top",
@@ -22,12 +25,15 @@
       "nameKo": "레드 크루넥 니트",
       "nameEn": "Red crewneck sweater",
       "nameDe": "Roter Rundhalspullover",
-      "descriptionEn": "Show just the red neckline and extended cuffs beneath the dark rain shell.",
+      "descriptionEn": "Show just the red neckline and the longer cuffs beneath the dark rain shell.",
       "image": "products/02-top.webp",
       "altKo": "레드 크루넥 니트",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "어두운 레인 셸 아래로 빨간 목선과 길게 내민 소맷단만 보이게 입어요.",
+      "descriptionDe": "Unter der dunklen Regenjacke sind nur der rote Kragen und die längeren Bündchen zu sehen.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-04.02-top"
     },
     {
       "id": "04-03-accessory",
@@ -40,7 +46,10 @@
       "altKo": "차콜 브러시드 머플러",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "머플러를 레인코트 안으로 넣어 차콜 질감이 빨간 니트를 테두리처럼 감싸게 해요.",
+      "descriptionDe": "Den Schal in den Regenmantel stecken, damit seine anthrazitfarbene Struktur den roten Strick einrahmt.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-04.03-accessory"
     },
     {
       "id": "04-04-eyewear",
@@ -48,12 +57,15 @@
       "nameKo": "토터스셸 판토 안경",
       "nameEn": "Tortoiseshell panto glasses",
       "nameDe": "Panto-Brille in Schildpattoptik",
-      "descriptionEn": "Remove the glasses briefly and hold the frame by the temples while checking the lenses.",
+      "descriptionEn": "Hold the frame by the temples while you check the lenses. The warm tortoiseshell brown sits well with the red knit.",
       "image": "products/04-eyewear.webp",
       "altKo": "토터스셸 판토 안경",
       "reconstruction": "partially-visible-reconstructed",
       "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
-      "appEligible": true
+      "appEligible": true,
+      "descriptionKo": "닦을 땐 안경다리를 잡고 렌즈를 확인해요. 토터스셸의 따뜻한 갈색이 빨간 니트와 어울려요.",
+      "descriptionDe": "Beim Putzen die Brille an den Bügeln halten und die Gläser prüfen. Das warme Schildpattbraun passt zum roten Strick.",
+      "appItemId": "bl-light-chilly-f-35-night-minimal-04.04-eyewear"
     },
     {
       "id": "04-05-scene-prop",
@@ -69,11 +81,32 @@
       "appEligible": false
     }
   ],
-  "productionStatus": "review",
-  "mappingStatus": "pending",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
   "reviewNotes": [
-    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
     "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
-    "The glasses cloth is a scene prop and is excluded from clothing selection."
-  ]
+    "The glasses cloth is a scene prop and is excluded from clothing selection.",
+    "2026-10-24 b151: user approved mapping to main. Korean master and German how-to-wear written from the editorial; look copy (title, deck, intro, pull, tip) written in ko/en/de.",
+    "Look 03 coat shown in the app as Chocolate brown coat (button-correction suffix kept only in nameKo/En/De here)."
+  ],
+  "appOutfitId": "bl-light-chilly-f-35-night-minimal-04",
+  "copy": {
+    "title": "RED UNDER THE HOOD",
+    "deck": {
+      "ko": "후드를 쓴 채 빗방울 묻은 안경을 닦는 순간. 네이비 레인코트 안에 빨간 니트.",
+      "en": "Wiping rain off her glasses with the hood still up. A red knit inside a navy raincoat.",
+      "de": "Mit aufgesetzter Kapuze die Regentropfen von der Brille wischen. Roter Strick unter einem navyblauen Regenmantel."
+    },
+    "intro": {
+      "ko": "어두운 레인코트는 비를 막고, 안쪽의 빨간 니트는 기분을 지켜요. 후드와 차콜 머플러가 얼굴 주변을 감싸서 빨간 목선과 소맷단만 살짝 드러나요. 토터스셸 안경이 따뜻한 색을 한 번 더 이어 줘요.",
+      "en": "The dark raincoat keeps the rain out; the red knit inside keeps the mood up. Hood and charcoal scarf wrap the face so only the red neckline and cuffs show. Tortoiseshell glasses carry the warmth one step further.",
+      "de": "Der dunkle Regenmantel hält den Regen ab, der rote Strick darunter die Laune hoch. Kapuze und anthrazitfarbener Schal rahmen das Gesicht, nur roter Kragen und Bündchen sind zu sehen. Die Schildpattbrille führt die Wärme weiter."
+    },
+    "pullQuoteEn": "KEEP THE WARM COLOUR CLOSE.",
+    "tip": {
+      "ko": "머플러 끝을 레인코트 안으로 넣어 두면 젖지 않고 목도 더 따뜻해요.",
+      "en": "Tuck the scarf ends inside the raincoat so they stay dry and the neck stays warmer.",
+      "de": "Die Schalenden in den Regenmantel stecken, so bleiben sie trocken und der Hals wärmer."
+    }
+  }
 }
