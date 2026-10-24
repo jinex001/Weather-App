@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-20261024-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": 7,
+    "feelsLikeC": 3,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "Creative styling assumptions only, not measured or live weather. Chilly is the user-selected category; retain it during integration."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": "2026-10-24",
+    "evidence": "User approved all five editorials in this chat; then authorized product/text production and handoff.",
+    "products": "generated under authorized breakdown workflow; no separate visual approval claimed"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "night",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "masters/editorial.png",
+  "copy": {
+    "title": {
+      "ko": "잠깐, 머플러부터",
+      "en": "Wait, My Scarf",
+      "de": "Moment, mein Schal"
+    },
+    "deck": {
+      "ko": "블랙 패딩에 밝은 후드와 긴 그레이 머플러를 겹친 자전거 옆의 순간.",
+      "en": "A light hood and long grey scarf soften black padding beside the bicycle.",
+      "de": "Helle Kapuze und langer grauer Schal lockern die schwarze Steppjacke am Fahrrad auf."
+    },
+    "intro": {
+      "ko": "안장에 살짝 걸린 머플러를 풀며 어깨 너머로 돌아봐요. 밝은 후디와 회색 니트가 블랙 패딩 사이로 드러나고, 브라운 부츠와 작은 가방이 색을 이어줍니다. 자전거를 타기 전 머플러 끝은 옷 안으로 넣어주세요.",
+      "en": "Turning over a shoulder, she frees a scarf caught lightly on the saddle. A light hoodie and grey knit contrast with the black puffer, while brown boots and a compact bag connect the warmer tones. Tuck the scarf ends into your clothing before riding.",
+      "de": "Über die Schulter blickend löst sie den leicht am Sattel verfangenen Schal. Heller Hoodie und grauer Strick heben sich von der schwarzen Steppjacke ab; braune Boots und die kleine Tasche verbinden die warmen Töne. Stecke die Schalenden vor dem Radfahren in die Kleidung."
+    },
+    "tip": {
+      "ko": "크로스백은 몸 가까이 조절하고 머플러 끝은 자전거 바퀴와 체인에서 멀리 정리해요.",
+      "en": "Keep the crossbody bag close and the scarf ends clear of bicycle wheels and chain.",
+      "de": "Trage die Umhängetasche körpernah und halte die Schalenden von Rädern und Kette fern."
+    },
+    "headlineEn": "Wait, My Scarf",
+    "captionKo": "블랙 패딩에 밝은 후드와 긴 그레이 머플러를 겹친 자전거 옆의 순간.",
+    "introKo": "안장에 살짝 걸린 머플러를 풀며 어깨 너머로 돌아봐요. 밝은 후디와 회색 니트가 블랙 패딩 사이로 드러나고, 브라운 부츠와 작은 가방이 색을 이어줍니다. 자전거를 타기 전 머플러 끝은 옷 안으로 넣어주세요.",
+    "tipKo": "크로스백은 몸 가까이 조절하고 머플러 끝은 자전거 바퀴와 체인에서 멀리 정리해요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "ko": "블랙 롱라인 패딩",
+        "en": "Black longline puffer",
+        "de": "Lange schwarze Steppjacke"
+      },
+      "description": {
+        "ko": "밝은 후디 위에 입어 블랙 패딩의 볼륨에 대비를 줘요.",
+        "en": "Layer over a light hoodie to contrast with the black puffer's volume.",
+        "de": "Trage die Jacke über einem hellen Hoodie als Kontrast zum schwarzen Volumen."
+      },
+      "image": "products/01-outer.webp",
+      "masterImage": "masters/products/01-outer.png",
+      "observedEvidence": "black longline padded puffer jacket, oversized relaxed shoulders and sleeves, horizontal stitched baffles, high collar, front zipper and discreet pockets, upper-thigh length inferred from crop; no attached grey hood which belongs to inner hoodie",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 롱라인 패딩",
+      "descriptionKo": "밝은 후디 위에 입어 블랙 패딩의 볼륨에 대비를 줘요.",
+      "nameEn": "Black longline puffer",
+      "descriptionEn": "Layer over a light hoodie to contrast with the black puffer's volume.",
+      "nameDe": "Lange schwarze Steppjacke",
+      "descriptionDe": "Trage die Jacke über einem hellen Hoodie als Kontrast zum schwarzen Volumen."
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "ko": "오트밀 후디",
+        "en": "Oatmeal hoodie",
+        "de": "Beigegrauer Hoodie"
+      },
+      "description": {
+        "ko": "후드를 패딩 위로 꺼내 목과 어깨에 밝은 색을 남겨요.",
+        "en": "Let the hood sit outside the jacket to brighten the neck and shoulders.",
+        "de": "Lege die Kapuze über die Jacke, damit Hals und Schultern heller wirken."
+      },
+      "image": "products/02-top.webp",
+      "masterImage": "masters/products/02-top.png",
+      "observedEvidence": "oatmeal light beige heather pullover hoodie, thick textured fabric, hood with drawstrings, kangaroo pocket, long sleeves and ribbed cuffs and hem; no scarf or jacket",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "오트밀 후디",
+      "descriptionKo": "후드를 패딩 위로 꺼내 목과 어깨에 밝은 색을 남겨요.",
+      "nameEn": "Oatmeal hoodie",
+      "descriptionEn": "Let the hood sit outside the jacket to brighten the neck and shoulders.",
+      "nameDe": "Beigegrauer Hoodie",
+      "descriptionDe": "Lege die Kapuze über die Jacke, damit Hals und Schultern heller wirken."
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 루즈 데님",
+        "en": "Loose charcoal jeans",
+        "de": "Lockere anthrazitfarbene Jeans"
+      },
+      "description": {
+        "ko": "넉넉한 데님으로 긴 패딩 아래의 움직임을 편하게 해요.",
+        "en": "Roomy denim keeps movement easy beneath the longer puffer.",
+        "de": "Die weite Jeans lässt unter der längeren Jacke Bewegungsfreiheit."
+      },
+      "image": "products/03-bottom.webp",
+      "masterImage": "masters/products/03-bottom.png",
+      "observedEvidence": "washed charcoal full-length wide-leg jeans, classic pockets, loose straight legs, no added decorations",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "차콜 루즈 데님",
+      "descriptionKo": "넉넉한 데님으로 긴 패딩 아래의 움직임을 편하게 해요.",
+      "nameEn": "Loose charcoal jeans",
+      "descriptionEn": "Roomy denim keeps movement easy beneath the longer puffer.",
+      "nameDe": "Lockere anthrazitfarbene Jeans",
+      "descriptionDe": "Die weite Jeans lässt unter der längeren Jacke Bewegungsfreiheit."
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "name": {
+        "ko": "그레이 프린지 머플러",
+        "en": "Grey fringed scarf",
+        "de": "Grauer Fransenschal"
+      },
+      "description": {
+        "ko": "목에 느슨하게 두르되 자전거에 탈 때는 끝을 안으로 넣어요.",
+        "en": "Wrap loosely, then tuck in the ends before riding a bicycle.",
+        "de": "Lege den Schal locker um und stecke die Enden vor dem Radfahren ein."
+      },
+      "image": "products/04-scarf.webp",
+      "masterImage": "masters/products/04-scarf.png",
+      "observedEvidence": "heather light grey thick wool-look knitted scarf, long rectangular shape, fringe ends, softly arranged flat with complete length visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "그레이 프린지 머플러",
+      "descriptionKo": "목에 느슨하게 두르되 자전거에 탈 때는 끝을 안으로 넣어요.",
+      "nameEn": "Grey fringed scarf",
+      "descriptionEn": "Wrap loosely, then tuck in the ends before riding a bicycle.",
+      "nameDe": "Grauer Fransenschal",
+      "descriptionDe": "Lege den Schal locker um und stecke die Enden vor dem Radfahren ein."
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "브라운 레이스업 부츠",
+        "en": "Brown lace-up boots",
+        "de": "Braune Schnürboots"
+      },
+      "description": {
+        "ko": "양말 위로 부츠를 신고 끈을 정리해 발목 주변을 감싸요.",
+        "en": "Wear over the socks and secure the laces around the ankle.",
+        "de": "Trage die Boots über den Socken und binde die Schnürung am Knöchel sorgfältig."
+      },
+      "image": "products/05-shoes.webp",
+      "masterImage": "masters/products/05-shoes.png",
+      "observedEvidence": "matching pair dark brown leather-look lace-up ankle boots with stitched side panels, heel pull tabs, substantial dark lug soles and rounded toes; upright aligned same-direction three-quarter view, conservative reconstruction from partially cropped boot visible bottom left",
+      "reconstruction": "small-cropped-detail-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "브라운 레이스업 부츠",
+      "descriptionKo": "양말 위로 부츠를 신고 끈을 정리해 발목 주변을 감싸요.",
+      "nameEn": "Brown lace-up boots",
+      "descriptionEn": "Wear over the socks and secure the laces around the ankle.",
+      "nameDe": "Braune Schnürboots",
+      "descriptionDe": "Trage die Boots über den Socken und binde die Schnürung am Knöchel sorgfältig."
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "name": {
+        "ko": "다크 브라운 크로스백",
+        "en": "Dark brown crossbody bag",
+        "de": "Dunkelbraune Umhängetasche"
+      },
+      "description": {
+        "ko": "짧게 조절한 크로스 끈으로 가방을 몸 가까이에 고정해요.",
+        "en": "Shorten the crossbody strap to keep the bag close to the body.",
+        "de": "Verkürze den Schultergurt, damit die Tasche nah am Körper bleibt."
+      },
+      "image": "products/06-bag.webp",
+      "masterImage": "masters/products/06-bag.png",
+      "observedEvidence": "very dark brown leather-look rounded compact crossbody bag with rounded flap front, narrow long adjustable strap, brass-colored small rectangular strap buckle; entire strap visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "다크 브라운 크로스백",
+      "descriptionKo": "짧게 조절한 크로스 끈으로 가방을 몸 가까이에 고정해요.",
+      "nameEn": "Dark brown crossbody bag",
+      "descriptionEn": "Shorten the crossbody strap to keep the bag close to the body.",
+      "nameDe": "Dunkelbraune Umhängetasche",
+      "descriptionDe": "Verkürze den Schultergurt, damit die Tasche nah am Körper bleibt."
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "골드 톤 후프",
+        "en": "Gold-tone hoops",
+        "de": "Goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "작은 골드 톤 후프로 회색과 블랙 사이에 따뜻한 포인트를 더해요.",
+        "en": "Gold-tone hoops bring a warm accent to grey and black.",
+        "de": "Goldfarbene Creolen setzen einen warmen Akzent zu Grau und Schwarz."
+      },
+      "image": "products/07-jewelry.webp",
+      "masterImage": "masters/products/07-jewelry.png",
+      "observedEvidence": "matching pair small plain gold-tone hoop earrings, one pair only",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "골드 톤 후프",
+      "descriptionKo": "작은 골드 톤 후프로 회색과 블랙 사이에 따뜻한 포인트를 더해요.",
+      "nameEn": "Gold-tone hoops",
+      "descriptionEn": "Gold-tone hoops bring a warm accent to grey and black.",
+      "nameDe": "Goldfarbene Creolen",
+      "descriptionDe": "Goldfarbene Creolen setzen einen warmen Akzent zu Grau und Schwarz."
+    },
+    {
+      "id": "08-socks",
+      "category": "socks",
+      "name": {
+        "ko": "라이트 그레이 니트 양말",
+        "en": "Light grey knit socks",
+        "de": "Hellgraue Stricksocken"
+      },
+      "description": {
+        "ko": "부츠 위로 커프가 살짝 보이게 신어 발목을 덮어요.",
+        "en": "Let a little cuff show above the boot while keeping the ankle covered.",
+        "de": "Lass etwas Bündchen über dem Boot sichtbar, während der Knöchel bedeckt bleibt."
+      },
+      "image": "products/08-socks.webp",
+      "masterImage": "masters/products/08-socks.png",
+      "observedEvidence": "matching pair light heather grey thick ribbed knitted crew socks, soft folded cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "라이트 그레이 니트 양말",
+      "descriptionKo": "부츠 위로 커프가 살짝 보이게 신어 발목을 덮어요.",
+      "nameEn": "Light grey knit socks",
+      "descriptionEn": "Let a little cuff show above the boot while keeping the ankle covered.",
+      "nameDe": "Hellgraue Stricksocken",
+      "descriptionDe": "Lass etwas Bündchen über dem Boot sichtbar, während der Knöchel bedeckt bleibt."
+    }
+  ],
+  "excludedProps": [
+    "keys",
+    "groceries",
+    "bicycle"
+  ],
+  "productionNote": "AI-generated outfit concept images, not purchasable verified merchandise. Actual fibers, leather, metals and weather protection are unverified.",
+  "appOutfitId": "bl-light-chilly-f-35-night-street-20261024-05",
+  "appBuild": "b150"
+}
