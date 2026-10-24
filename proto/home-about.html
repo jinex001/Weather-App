@@ -21,6 +21,8 @@
   .h { font: 56px/.9 var(--display); text-transform: uppercase; letter-spacing: 0; margin-top: 6px; }
   .h span { display: block; white-space: nowrap; }
   /* 고르기 상태: 세 칸 한 줄, 배경 없는 컷 + Anton 이름 */
+  /* 고르기 전 안내 글: 요약과 같은 글꼴, 체감 단계 막대 없음 (막대는 고른 뒤 요약에만) */
+  .ask { margin: 18px 0 0; font: 700 16px/1.5 var(--sans); letter-spacing: .2px; word-break: keep-all; }
   .pick { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 22px; }
   .opt { background: none; border: 0; padding: 0; color: inherit; font: inherit; cursor: pointer; text-align: left; transition: opacity .2s, transform .2s; }
   .opt .img { height: 118px; display: flex; align-items: flex-end; justify-content: center; }
@@ -72,9 +74,9 @@
     var b = document.getElementById("blk");
     if (!picked) {
       b.innerHTML = '<div class="fade"><div class="k">' + T.k + '</div><div class="h"><span>' + T.h[0] + "</span><span>" + T.h[1] + "</span></div>" +
-        '<div class="pick">' + STY.map(function (s) {
+        '<p class="ask">' + esc(T.deck) + '</p><div class="pick">' + STY.map(function (s) {
           return '<button type="button" class="opt" data-s="' + s + '"><div class="img"><img alt="" src="' + cutOf(sample[s]) + '"></div><span class="n">' + T.n[s] + "</span></button>";
-        }).join("") + '</div><div class="sum"><i></i><p>' + esc(T.deck) + "</p></div></div>";
+        }).join("") + "</div></div>";
       return;
     }
     var o = rnd(looksOf(picked)), w = o.article.title.split(" "), half = Math.ceil(w.length / 2);
