@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-m-35-day-street-01",
+  "appOutfitId": "oc-chilly-m-35-day-street-01",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "source": "READY.json approved=true, products_complete=true"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialSourceSha256": "fc75ac210e74ed965b51010bbd2bf64b513262c1ffa70d095d02a9810cbfc120",
+  "sourceMaster": {
+    "location": "iCloud Drive/Weather-App-originals/Overcast/Chilly/Male/35+/day/street-01/",
+    "note": "Transparent PNG masters and the PNG editorial stay in iCloud; this folder holds app derivatives only.",
+    "readyManifest": {
+      "approved": true,
+      "products_complete": true,
+      "scope": "Only editorial 01; other four editorials are excluded",
+      "category": {
+        "weather": "Overcast",
+        "temperatureBand": "Chilly",
+        "gender": "Male",
+        "ageGroup": "35+",
+        "time": "day",
+        "style": "street"
+      },
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "ed4c6987845017d026a028e1c97a066236327b3cae14f79a24d24f8fd645c7c3"
+        },
+        {
+          "path": "editorial.png",
+          "sha256": "fc75ac210e74ed965b51010bbd2bf64b513262c1ffa70d095d02a9810cbfc120"
+        },
+        {
+          "path": "products/01-jacket.png",
+          "sha256": "efc6012116d4ad122ac244ef5c35e27a4b85b3e5242b94acceb5aa9edb80564b"
+        },
+        {
+          "path": "products/02-hoodie.png",
+          "sha256": "b721d365681948ba0a61e81ab0064f2a16276c5f9b0a049a397a1d74a5b5ddf0"
+        },
+        {
+          "path": "products/03-jeans.png",
+          "sha256": "c4af369e981a4012e9ac1838fad41faefd3e959d5665a9748d8735ea0389900a"
+        },
+        {
+          "path": "products/04-beanie.png",
+          "sha256": "3726ad02139c79034142a31f01461092675332f8dacd92ffb675ff014f2b80b7"
+        },
+        {
+          "path": "products/05-boots.png",
+          "sha256": "2e08ce8c19f0a53f7b23236888218508048dca67967b0a2496372f9abb7ee9db"
+        },
+        {
+          "path": "products.json",
+          "sha256": "dcbd9a6e875f38168b386f4d94fac39568433ec86c8c91f6ab363f7dbe096b26"
+        }
+      ]
+    }
+  },
+  "copy": {
+    "headlineEn": "BROWN LEATHER, HOT COFFEE",
+    "caption": {
+      "ko": "커피 트럭 앞에서 두 손으로 컵을 감싸는 아침. 브라운 가죽과 오트밀 후드.",
+      "en": "Both hands around a cup at the coffee truck. Brown leather and an oatmeal hood.",
+      "de": "Beide Hände um den Becher am Kaffeewagen. Braunes Leder und eine Kapuze in Haferbeige."
+    },
+    "intro": {
+      "ko": "넉넉한 가죽 블루종 안에 오트밀 후디를 겹치고, 차콜 와이드 데님으로 실루엣을 이어주세요. 네이비 비니와 버건디 신발이 차분한 대비를 만듭니다.",
+      "en": "Layer an oatmeal hoodie under a roomy leather blouson and balance it with charcoal wide-leg denim. A navy beanie and burgundy footwear add restrained contrast.",
+      "de": "Trage einen Hoodie in Haferbeige unter einem weiten Lederblouson und kombiniere dazu weite anthrazitfarbene Jeans. Eine marineblaue Mütze und burgunderrote Schuhe setzen ruhige Kontraste."
+    },
+    "pullQuoteEn": "WARM HANDS FIRST.",
+    "tip": {
+      "ko": "가죽은 흐린 날의 습기쯤은 괜찮지만, 비가 오기 시작하면 부드러운 천으로 한 번 닦아 주세요.",
+      "en": "Leather copes with a damp grey day; if it starts to rain, just wipe it down once with a soft cloth.",
+      "de": "Leder verträgt einen feuchten grauen Tag; fängt es an zu regnen, einfach einmal mit einem weichen Tuch abwischen."
+    },
+    "introSource": "GPT look-level howToWear (ko master, en/de as supplied), unchanged",
+    "sourceHowToWear": {
+      "ko": "넉넉한 가죽 블루종 안에 오트밀 후디를 겹치고, 차콜 와이드 데님으로 실루엣을 이어주세요. 네이비 비니와 버건디 신발이 차분한 대비를 만듭니다.",
+      "en": "Layer an oatmeal hoodie under a roomy leather blouson and balance it with charcoal wide-leg denim. A navy beanie and burgundy footwear add restrained contrast.",
+      "de": "Trage einen Hoodie in Haferbeige unter einem weiten Lederblouson und kombiniere dazu weite anthrazitfarbene Jeans. Eine marineblaue Mütze und burgunderrote Schuhe setzen ruhige Kontraste."
+    }
+  },
+  "lookNumber": 1,
+  "casting": null,
+  "productCount": 5,
+  "products": [
+    {
+      "id": "01-jacket",
+      "image": "products/01-jacket.webp",
+      "name": {
+        "ko": "시어링 칼라 브라운 가죽 재킷",
+        "en": "Brown leather blouson with shearling collar",
+        "de": "Braune Lederblousonjacke mit Shearlingkragen"
+      },
+      "evidence": "visible-item-reconstructed",
+      "inference": {
+        "ko": "가려진 부분은 제품컷을 위해 복원했으며 정확한 소재 혼용률은 확인되지 않음.",
+        "en": "Hidden construction reconstructed; exact fiber composition unverified.",
+        "de": "Verdeckte Details rekonstruiert; genaue Materialzusammensetzung nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-01.01-jacket",
+      "category": "outer",
+      "description": {
+        "ko": "지퍼를 끝까지 열고 입어 후디 앞판이 길게 보이게 해요. 소매는 손목에서 주름지게 두면 넉넉한 블루종 실루엣이 살아요.",
+        "en": "Wear it fully unzipped so the hoodie shows all the way down the front. Let the sleeves bunch at the wrist to keep the blouson shape roomy.",
+        "de": "Ganz offen tragen, damit der Hoodie vorne durchgehend zu sehen ist. Die Ärmel am Handgelenk Falten werfen lassen, so bleibt die Blousonform weit."
+      },
+      "sourceImage": "products/01-jacket.png",
+      "sourceSha256": "efc6012116d4ad122ac244ef5c35e27a4b85b3e5242b94acceb5aa9edb80564b",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 49548
+      },
+      "sourceQuality": null
+    },
+    {
+      "id": "02-hoodie",
+      "image": "products/02-hoodie.webp",
+      "name": {
+        "ko": "오트밀 멜란지 후디",
+        "en": "Oatmeal heather hoodie",
+        "de": "Hoodie in meliertem Haferbeige"
+      },
+      "evidence": "partially-visible-reconstructed",
+      "inference": {
+        "ko": "가려진 부분은 제품컷을 위해 복원했으며 정확한 소재 혼용률은 확인되지 않음.",
+        "en": "Hidden construction reconstructed; exact fiber composition unverified.",
+        "de": "Verdeckte Details rekonstruiert; genaue Materialzusammensetzung nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-01.02-hoodie",
+      "category": "top",
+      "description": {
+        "ko": "후드는 시어링 칼라 위로 꺼내 얼굴 주변을 부드럽게 감싸요. 소맷단을 재킷 밖으로 조금 내밀면 컵을 쥘 때 손등까지 따뜻해요.",
+        "en": "Pull the hood out over the shearling collar so it frames your face. Let the cuffs slip past the jacket sleeves to keep the backs of your hands warm around a cup.",
+        "de": "Die Kapuze über den Shearlingkragen legen, damit sie das Gesicht umrahmt. Die Bündchen etwas unter den Jackenärmeln hervorschauen lassen, das wärmt die Handrücken am Becher."
+      },
+      "sourceImage": "products/02-hoodie.png",
+      "sourceSha256": "b721d365681948ba0a61e81ab0064f2a16276c5f9b0a049a397a1d74a5b5ddf0",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 41876
+      },
+      "sourceQuality": null
+    },
+    {
+      "id": "03-jeans",
+      "image": "products/03-jeans.webp",
+      "name": {
+        "ko": "워시드 차콜 와이드 진",
+        "en": "Washed charcoal wide-leg jeans",
+        "de": "Weite Jeans in verwaschenem Anthrazit"
+      },
+      "evidence": "partially-visible-reconstructed",
+      "inference": {
+        "ko": "가려진 부분은 제품컷을 위해 복원했으며 정확한 소재 혼용률은 확인되지 않음.",
+        "en": "Hidden construction reconstructed; exact fiber composition unverified.",
+        "de": "Verdeckte Details rekonstruiert; genaue Materialzusammensetzung nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-01.03-jeans",
+      "category": "bottom",
+      "description": {
+        "ko": "밑단을 접지 않고 부츠 위에 자연스럽게 쌓이게 두세요. 재킷이 허리에서 끝나니 다리 폭이 넓어도 비율이 무겁지 않아요.",
+        "en": "Leave the hems unrolled and let them stack over the boots. The jacket stops at the waist, so the wide leg doesn't weigh the look down.",
+        "de": "Den Saum nicht umschlagen, sondern locker über den Boots aufliegen lassen. Die Jacke endet an der Taille, deshalb wirkt das weite Bein nicht schwer."
+      },
+      "sourceImage": "products/03-jeans.png",
+      "sourceSha256": "c4af369e981a4012e9ac1838fad41faefd3e959d5665a9748d8735ea0389900a",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 39010
+      },
+      "sourceQuality": null
+    },
+    {
+      "id": "04-beanie",
+      "image": "products/04-beanie.webp",
+      "name": {
+        "ko": "네이비 리브 니트 비니",
+        "en": "Navy rib-knit beanie",
+        "de": "Marineblaue Rippstrickmütze"
+      },
+      "evidence": "visible-item-reconstructed",
+      "inference": {
+        "ko": "가려진 부분은 제품컷을 위해 복원했으며 정확한 소재 혼용률은 확인되지 않음.",
+        "en": "Hidden construction reconstructed; exact fiber composition unverified.",
+        "de": "Verdeckte Details rekonstruiert; genaue Materialzusammensetzung nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-01.04-beanie",
+      "category": "headwear",
+      "description": {
+        "ko": "이마를 덮을 만큼 깊게 눌러 쓰고 앞머리를 조금 내려요. 브라운 가죽 옆에서 네이비가 차분한 대비를 만들어요.",
+        "en": "Pull it low enough to cover the forehead and let a little fringe show. Next to the brown leather, the navy gives a quiet contrast.",
+        "de": "Tief in die Stirn ziehen und ein paar Haarsträhnen herausschauen lassen. Neben dem braunen Leder setzt das Marineblau einen ruhigen Kontrast."
+      },
+      "sourceImage": "products/04-beanie.png",
+      "sourceSha256": "3726ad02139c79034142a31f01461092675332f8dacd92ffb675ff014f2b80b7",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 46586
+      },
+      "sourceQuality": null
+    },
+    {
+      "id": "05-boots",
+      "image": "products/05-boots.webp",
+      "name": {
+        "ko": "버건디 가죽 부츠",
+        "en": "Burgundy leather boots",
+        "de": "Burgunderrote Lederboots"
+      },
+      "evidence": "partially-visible-reconstructed",
+      "inference": {
+        "ko": "부츠는 앞코만 확인됨. 발목 높이·끈·밑창은 추정입니다.",
+        "en": "Only the toe is visible. Shaft height, laces and sole are inferred.",
+        "de": "Nur die Schuhspitze ist sichtbar. Schafthöhe, Schnürung und Sohle sind rekonstruiert."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-01.05-boots",
+      "category": "shoes",
+      "description": {
+        "ko": "넓은 밑단 아래로 앞코만 보여도 충분해요. 버건디 광택이 재킷의 브라운과 같은 계열이라 발끝까지 색이 이어져요.",
+        "en": "Only the toes need to show beneath the wide hems. The burgundy shine sits in the same family as the brown jacket and carries the colour down to your feet.",
+        "de": "Unter dem weiten Saum reicht es, wenn nur die Spitzen hervorschauen. Das glänzende Burgunderrot passt zur braunen Jacke und führt die Farbe bis zu den Füßen."
+      },
+      "sourceImage": "products/05-boots.png",
+      "sourceSha256": "2e08ce8c19f0a53f7b23236888218508048dca67967b0a2496372f9abb7ee9db",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 34174
+      },
+      "sourceQuality": null
+    }
+  ],
+  "sourcePolicy": "Transparent PNG original cutouts requested by user; preserve these masters. App derivatives follow current repository guide.",
+  "exclusions": "Coffee cup excluded as a scene prop; socks are not visible and were not invented. Boot toes alone are visible; shafts, laces and soles are inferred.",
+  "brand": null,
+  "price": null,
+  "purchaseUrl": null,
+  "fiberComposition": null,
+  "contentType": "ai-styled-concept"
+}

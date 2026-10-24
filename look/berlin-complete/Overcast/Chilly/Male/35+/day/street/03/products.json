@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-m-35-day-street-03",
+  "appOutfitId": "oc-chilly-m-35-day-street-03",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "source": "READY.json approved=true, products_complete=true"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialSourceSha256": "f2a8265640b45d755bfdcda5065e373a16b3018c1e492c043e91f721bc276f8a",
+  "sourceMaster": {
+    "location": "iCloud Drive/Weather-App-originals/Overcast/Chilly/Male/35+/day/street-03/",
+    "note": "Transparent PNG masters and the PNG editorial stay in iCloud; this folder holds app derivatives only.",
+    "readyManifest": {
+      "approved": true,
+      "products_complete": true,
+      "category": {
+        "weather": "Overcast",
+        "temperatureBand": "Chilly",
+        "gender": "Male",
+        "ageGroup": "35+",
+        "time": "day",
+        "style": "street"
+      },
+      "scope": "Only editorial street-03",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "64ef4cecabfc4841213044a9cedf8af79cbc3c05df8e6533b8ac444ede1e56d7"
+        },
+        {
+          "path": "editorial.png",
+          "sha256": "f2a8265640b45d755bfdcda5065e373a16b3018c1e492c043e91f721bc276f8a"
+        },
+        {
+          "path": "products/01-quilt.png",
+          "sha256": "15a81255bbc9d5ed1ad93a28515f11edf043756e70a0817e02adbe9d6bedbac9"
+        },
+        {
+          "path": "products/02-cardigan.png",
+          "sha256": "b480eb7334bb8512dca2400bbf1d578e005ea6e12d3b7a80190f365885b87b34"
+        },
+        {
+          "path": "products/03-henley.png",
+          "sha256": "57579debc3dafe35ba88470ae15fa38e250520d21198a86c8f43bef438ed63c8"
+        },
+        {
+          "path": "products/04-jeans.png",
+          "sha256": "ae62965e14413f0cc1a6a2c4d587aeedbee59f9d2d8bd38de64483b13df7ec92"
+        },
+        {
+          "path": "products/05-shoes.png",
+          "sha256": "a0000bcf88612392fde605f191355ba37c2266b80027f9b615243fe1b2e1628d"
+        },
+        {
+          "path": "products/06-tote.png",
+          "sha256": "4a57b4ab209942c98ecb102e68703941bf53fa4c86d90ae17978a471370ab510"
+        },
+        {
+          "path": "products.json",
+          "sha256": "3bc3c6071ad8f48dde4c855526403d1db530419c8901ae81837648cb1c385783"
+        }
+      ]
+    }
+  },
+  "copy": {
+    "headlineEn": "RUST FROM THE MARKET",
+    "caption": {
+      "ko": "대파와 빵이 삐져나온 캔버스 토트. 장 보고 오는 길의 올리브와 러스트.",
+      "en": "Leeks and bread poking out of a canvas tote. Olive and rust on the way back from the market.",
+      "de": "Lauch und Brot ragen aus dem Canvasbeutel. Oliv und Rost auf dem Rückweg vom Markt."
+    },
+    "intro": {
+      "ko": "올리브 퀼팅 아래 러스트 카디건과 아이보리 헨리넥을 겹치세요. 와이드 데님과 탄 스웨이드 슈즈로 질감과 색을 연결합니다.",
+      "en": "Layer rust fuzzy knitwear and an ivory henley under olive quilting. Wide denim and tan suede shoes connect the textures and earthy palette.",
+      "de": "Kombiniere rostfarbenen flauschigen Strick und einen elfenbeinfarbenen Henley unter olivgrünem Steppstoff. Weite Jeans und hellbraune Wildlederschuhe verbinden die Texturen."
+    },
+    "pullQuoteEn": "QUILTED, FUZZY, SOFT.",
+    "tip": {
+      "ko": "여러 겹을 입는 날엔 안쪽일수록 밝고 얇게, 바깥일수록 매끈하게 두면 부피가 정리돼요.",
+      "en": "When you layer deep, go lighter and thinner on the inside and smoother on the outside; the bulk sorts itself out.",
+      "de": "Bei vielen Schichten innen heller und dünner, außen glatter wählen, dann ordnet sich das Volumen von selbst."
+    },
+    "introSource": "GPT look-level howToWear (ko master, en/de as supplied), unchanged",
+    "sourceHowToWear": {
+      "ko": "올리브 퀼팅 아래 러스트 카디건과 아이보리 헨리넥을 겹치세요. 와이드 데님과 탄 스웨이드 슈즈로 질감과 색을 연결합니다.",
+      "en": "Layer rust fuzzy knitwear and an ivory henley under olive quilting. Wide denim and tan suede shoes connect the textures and earthy palette.",
+      "de": "Kombiniere rostfarbenen flauschigen Strick und einen elfenbeinfarbenen Henley unter olivgrünem Steppstoff. Weite Jeans und hellbraune Wildlederschuhe verbinden die Texturen."
+    }
+  },
+  "lookNumber": 3,
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32"
+  },
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-quilt",
+      "image": "products/01-quilt.webp",
+      "name": {
+        "ko": "올리브 퀼팅 재킷",
+        "en": "Olive quilted jacket",
+        "de": "Olivgrüne Steppjacke"
+      },
+      "description": {
+        "ko": "앞을 열어 두고 카디건의 러스트가 양옆으로 보이게 해요. 얇은 퀼팅이라 니트 두 겹 위에 걸쳐도 어깨가 부해 보이지 않아요.",
+        "en": "Leave it open so the rust cardigan shows on either side. The quilting is thin, so it sits over two knit layers without bulking up the shoulders.",
+        "de": "Offen lassen, damit die rostfarbene Strickjacke an beiden Seiten hervorschaut. Die Steppung ist dünn und trägt über zwei Strickschichten nicht an den Schultern auf."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-03.01-quilt",
+      "category": "outer",
+      "sourceImage": "products/01-quilt.png",
+      "sourceSha256": "15a81255bbc9d5ed1ad93a28515f11edf043756e70a0817e02adbe9d6bedbac9",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 49354
+      },
+      "sourceDescription": {
+        "ko": "올리브 퀼팅 재킷 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Olive quilted jacket — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Olivgrüne Steppjacke — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2170888
+      }
+    },
+    {
+      "id": "02-cardigan",
+      "image": "products/02-cardigan.webp",
+      "name": {
+        "ko": "러스트 모헤어 카디건",
+        "en": "Rust mohair-look cardigan",
+        "de": "Rostfarbene flauschige Strickjacke"
+      },
+      "description": {
+        "ko": "단추를 모두 풀어 헨리넥을 가운데 드러내요. 보송한 질감이 매끈한 퀼팅과 대비돼 흐린 날에도 따뜻해 보여요.",
+        "en": "Wear it fully unbuttoned to show the henley down the centre. Its fuzzy texture plays against the smooth quilting and looks warm even on a grey day.",
+        "de": "Ganz offen tragen, damit der Henley in der Mitte zu sehen ist. Die flauschige Oberfläche kontrastiert mit dem glatten Steppstoff und wirkt auch an grauen Tagen warm."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-03.02-cardigan",
+      "category": "top",
+      "sourceImage": "products/02-cardigan.png",
+      "sourceSha256": "b480eb7334bb8512dca2400bbf1d578e005ea6e12d3b7a80190f365885b87b34",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 49330
+      },
+      "sourceDescription": {
+        "ko": "러스트 모헤어 카디건 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Rust mohair-look cardigan — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Rostfarbene flauschige Strickjacke — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2799162
+      }
+    },
+    {
+      "id": "03-henley",
+      "image": "products/03-henley.webp",
+      "name": {
+        "ko": "아이보리 헨리넥 니트",
+        "en": "Ivory knit henley",
+        "de": "Elfenbeinfarbener Henley-Pullover"
+      },
+      "description": {
+        "ko": "위 단추 한두 개를 풀어 목을 편하게 열어요. 아이보리가 얼굴 아래를 밝혀 주고 진한 색 겹침 사이에 숨 쉴 틈을 줘요.",
+        "en": "Undo the top button or two for an easy open neck. The ivory lifts the face and gives the deeper layers some breathing room.",
+        "de": "Ein, zwei obere Knöpfe öffnen, damit der Kragen locker bleibt. Das Elfenbein hellt das Gesicht auf und lässt den dunkleren Schichten Luft."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-03.03-henley",
+      "category": "under",
+      "sourceImage": "products/03-henley.png",
+      "sourceSha256": "57579debc3dafe35ba88470ae15fa38e250520d21198a86c8f43bef438ed63c8",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 41260
+      },
+      "sourceDescription": {
+        "ko": "아이보리 헨리넥 니트 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Ivory knit henley — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Elfenbeinfarbener Henley-Pullover — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2584922
+      }
+    },
+    {
+      "id": "04-jeans",
+      "image": "products/04-jeans.webp",
+      "name": {
+        "ko": "인디고 와이드 진",
+        "en": "Indigo wide-leg jeans",
+        "de": "Indigoblaue weite Jeans"
+      },
+      "description": {
+        "ko": "주머니에 손을 넣을 만큼 여유 있는 와이드 핏으로, 밑단은 신발 위에 살짝 주름지게요. 미디엄 인디고가 올리브와 러스트 사이에서 색을 식혀 줘요.",
+        "en": "A relaxed wide fit with room for a hand in the pocket, the hems creasing lightly over the shoes. The mid indigo cools things down between olive and rust.",
+        "de": "Weit geschnitten, mit Platz für eine Hand in der Tasche, der Saum fällt leicht gestaucht auf die Schuhe. Das mittlere Indigo kühlt zwischen Oliv und Rost etwas ab."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-03.04-jeans",
+      "category": "bottom",
+      "sourceImage": "products/04-jeans.png",
+      "sourceSha256": "ae62965e14413f0cc1a6a2c4d587aeedbee59f9d2d8bd38de64483b13df7ec92",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 46302
+      },
+      "sourceDescription": {
+        "ko": "인디고 와이드 진 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Indigo wide-leg jeans — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Indigoblaue weite Jeans — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1955385
+      }
+    },
+    {
+      "id": "05-shoes",
+      "image": "products/05-shoes.webp",
+      "name": {
+        "ko": "탄 스웨이드 슈즈",
+        "en": "Tan suede shoes",
+        "de": "Hellbraune Wildlederschuhe"
+      },
+      "description": {
+        "ko": "탄 스웨이드가 러스트 카디건과 같은 따뜻한 계열이라 위아래 색을 이어 줘요. 바짓단 아래로 앞코가 보일 정도면 충분해요.",
+        "en": "The tan suede is in the same warm family as the rust cardigan and links top to bottom. Just the toes peeking out from the hems is enough.",
+        "de": "Das hellbraune Wildleder gehört zur selben warmen Familie wie die rostfarbene Strickjacke und verbindet oben und unten. Es reicht, wenn die Spitzen unter dem Saum hervorschauen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-03.05-shoes",
+      "category": "shoes",
+      "sourceImage": "products/05-shoes.png",
+      "sourceSha256": "a0000bcf88612392fde605f191355ba37c2266b80027f9b615243fe1b2e1628d",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 49336
+      },
+      "sourceDescription": {
+        "ko": "탄 스웨이드 슈즈 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Tan suede shoes — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Hellbraune Wildlederschuhe — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2224765
+      }
+    },
+    {
+      "id": "06-tote",
+      "image": "products/06-tote.webp",
+      "name": {
+        "ko": "내추럴 캔버스 토트",
+        "en": "Natural canvas tote",
+        "de": "Naturfarbener Canvasbeutel"
+      },
+      "description": {
+        "ko": "어깨에 메고 팔로 감싸 안듯 들어요. 내추럴 캔버스가 아이보리 헨리넥과 같은 톤이라 장바구니도 착장의 일부처럼 보여요.",
+        "en": "Sling it on the shoulder and hug it with your arm. The natural canvas matches the ivory henley, so the grocery bag reads as part of the outfit.",
+        "de": "Über die Schulter hängen und mit dem Arm an den Körper nehmen. Das naturfarbene Canvas passt zum elfenbeinfarbenen Henley, so wird die Einkaufstasche Teil des Outfits."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-03.06-tote",
+      "category": "bag",
+      "sourceImage": "products/06-tote.png",
+      "sourceSha256": "4a57b4ab209942c98ecb102e68703941bf53fa4c86d90ae17978a471370ab510",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 26876
+      },
+      "sourceDescription": {
+        "ko": "내추럴 캔버스 토트 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Natural canvas tote — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Naturfarbener Canvasbeutel — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1810065
+      }
+    }
+  ],
+  "sourcePolicy": "Transparent PNG masters retained for reuse; do not composite these source files onto a background. App derivatives follow latest repository instructions.",
+  "exclusions": "No invisible socks. Street-04 footwear is out of frame and omitted. Grocery/bakery items are scene props and omitted.",
+  "brand": null,
+  "price": null,
+  "purchaseUrl": null,
+  "fiberComposition": null,
+  "contentType": "ai-styled-concept"
+}

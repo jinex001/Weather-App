@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-23 (앱 빌드 b138) · 135룩 · 884아이템(활성 참조 867) · 기사 룩 130. 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-24 (앱 빌드 b145) · 145룩 · 954아이템(활성 참조 937) · 기사 룩 145. 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -95,6 +95,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 러닝 01–05 (b132)·스트리트 06–10 (b131)·미니멀 11–15 (b130) 제품 카드 기사 |
 | 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 러닝 01–05 제품 카드 기사 (b138, 40제품), 미니멀 11–15 제품 카드 기사 (b129), 스트리트 06–10 제품 카드 기사 (b140, 42제품) |
 | 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 |
+| 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/street/01–05/` | `oc-chilly-m-35-day-street-NN` (스트리트 두 번째 세트 5, b145, 보충 파일 `look/overcast-male-day-street.js`) | 제품 카드 기사 + 인용구 + 팁, 제품 투명 WebP |
 | 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
 | 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/` | `ofn-NN-<스타일>-f` | 제품 카드 기사 |
 | 비(가벼운) | 남 | 낮 | `Rain/Light/Chilly/Male/35+/day/running/01–05/` | `bl-light-chilly-m-35-day-run-NN` (러닝 5) | 제품 카드 기사 |
@@ -184,3 +185,8 @@ Sunny / Chilly / Female / 35+ / Night / Street 06–10: 5룩·42제품(7/7/8/10/
 ## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
 
 User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.
+
+## b145 · Overcast 남성 낮 Street 두 번째 세트
+
+`oc-chilly-m-35-day-street-01`–`05`(sky cloudy · chilly · m · 35 · 낮 · street). 아이템 ID = `<outfitId>.<products.json id>`(예 `…-street-02.01-bomber`), cat은 id 접미사로(jacket·bomber·quilt·varsity → outer, hoodie·knit·cardigan → top, henley·base → under, beanie → headwear, tote·messenger → bag). 같은 칸에 기존 `oc15-06…10-street-m`이 있어 ID·경로를 새로 만들었고 덮어쓰지 않음. 투명 제품이라 아이템 `cut` = 제품 WebP 자체(rembg 안 씀, b143과 같음), `bg`는 카드가 깔아 주는 아이보리 `#F3EFE8`, `hero`는 제목이 말하는 제품(CUTOUTS.md 규칙과 같은 결과). 기사 `intro` = 제작 측 룩 단위 howToWear(한국어 마스터 그대로; 04만 en/de를 5-1 이름 반복 때문에 살짝 고침), 제품별 `note`·`deck`·`pull`·`tip`은 에디토리얼을 보고 씀.
+

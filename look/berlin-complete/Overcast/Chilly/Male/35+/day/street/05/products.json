@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-m-35-day-street-05",
+  "appOutfitId": "oc-chilly-m-35-day-street-05",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "source": "READY.json approved=true, products_complete=true"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialSourceSha256": "95469e523fb409b43f373477c6afd2b150751b82768dcb49ed2d17f9cfa8b677",
+  "sourceMaster": {
+    "location": "iCloud Drive/Weather-App-originals/Overcast/Chilly/Male/35+/day/street-05/",
+    "note": "Transparent PNG masters and the PNG editorial stay in iCloud; this folder holds app derivatives only.",
+    "readyManifest": {
+      "approved": true,
+      "products_complete": true,
+      "category": {
+        "weather": "Overcast",
+        "temperatureBand": "Chilly",
+        "gender": "Male",
+        "ageGroup": "35+",
+        "time": "day",
+        "style": "street"
+      },
+      "scope": "Only editorial street-05",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "1658fb04bf6a82869c0af6fbf28e89f757eaed0a752f03cf5f13e37142c1511d"
+        },
+        {
+          "path": "editorial.png",
+          "sha256": "95469e523fb409b43f373477c6afd2b150751b82768dcb49ed2d17f9cfa8b677"
+        },
+        {
+          "path": "products/01-jacket.png",
+          "sha256": "0a1f244c6ed26a250a1c06fb2cb82f2dd0a9caaba0894841c01120438c86abdd"
+        },
+        {
+          "path": "products/02-knit.png",
+          "sha256": "d8efef8d1d73b75eeb63e5ee099d597fa951fd35689c793eb2fc386503a00ab4"
+        },
+        {
+          "path": "products/03-base.png",
+          "sha256": "d25c1811a56b1ed7e54e70b73e6b930f95b2abd1c9bd39caf1b0b448e47821d2"
+        },
+        {
+          "path": "products/04-jeans.png",
+          "sha256": "ae2dd3b8a5f04b183a44b58cbc6f19616ccb0c35031c4e36252405de1c262fde"
+        },
+        {
+          "path": "products/05-shoes.png",
+          "sha256": "8657d3933de9efa78c49b29d6b55e4f814ca24fa6cea165a7dee81f841050b7b"
+        },
+        {
+          "path": "products/06-bag.png",
+          "sha256": "59a961f9aede3449c209762bb367a6f74f3c444945c241b986ed8bef7e98d700"
+        },
+        {
+          "path": "products.json",
+          "sha256": "e6e4cd0c668a1fb3cc23582539234cb4a8fc98094bdb98e7f776f45a70d40eb5"
+        }
+      ]
+    }
+  },
+  "copy": {
+    "headlineEn": "CREAM FUZZ, FRESH BREAD",
+    "caption": {
+      "ko": "갓 산 크루아상을 안고 현관문을 미는 순간. 차콜 울 사이로 보송한 크림 니트.",
+      "en": "Pushing the front door with a fresh croissant under one arm. Cream fuzz between charcoal wool.",
+      "de": "Mit einem frischen Croissant unterm Arm die Haustür aufdrücken. Cremefarbener Flausch zwischen anthrazitfarbener Wolle."
+    },
+    "intro": {
+      "ko": "블랙 이너 위에 크림 브이넥 니트를 겹치고 차콜 재킷을 걸치세요. 페이디드 블랙 데님과 더비를 맞추고 올리브 백으로 색을 더합니다.",
+      "en": "Layer a cream V-neck over a black base and top it with a charcoal jacket. Pair faded black denim with chunky derbies and add an olive bag.",
+      "de": "Trage einen cremefarbenen V-Ausschnitt-Pullover über einem schwarzen Shirt und darüber eine anthrazitfarbene Jacke. Verwaschene schwarze Jeans, Derbys und eine olivgrüne Tasche ergänzen den Look."
+    },
+    "pullQuoteEn": "SOFT INSIDE, SHARP OUTSIDE.",
+    "tip": {
+      "ko": "성긴 니트 안에는 몸에 붙는 얇은 이너를 받쳐 입으면 더 따뜻하고 니트 모양도 덜 늘어나요.",
+      "en": "Under an open knit, a thin, close-fitting base keeps you warmer and helps the knit hold its shape.",
+      "de": "Unter lockerem Strick hält ein dünnes, eng anliegendes Shirt wärmer und hilft dem Strick, in Form zu bleiben."
+    },
+    "introSource": "GPT look-level howToWear (ko master, en/de as supplied), unchanged",
+    "sourceHowToWear": {
+      "ko": "블랙 이너 위에 크림 브이넥 니트를 겹치고 차콜 재킷을 걸치세요. 페이디드 블랙 데님과 더비를 맞추고 올리브 백으로 색을 더합니다.",
+      "en": "Layer a cream V-neck over a black base and top it with a charcoal jacket. Pair faded black denim with chunky derbies and add an olive bag.",
+      "de": "Trage einen cremefarbenen V-Ausschnitt-Pullover über einem schwarzen Shirt und darüber eine anthrazitfarbene Jacke. Verwaschene schwarze Jeans, Derbys und eine olivgrüne Tasche ergänzen den Look."
+    }
+  },
+  "lookNumber": 5,
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32"
+  },
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-jacket",
+      "image": "products/01-jacket.webp",
+      "name": {
+        "ko": "차콜 울 재킷",
+        "en": "Charcoal wool jacket",
+        "de": "Anthrazitfarbene Wolljacke"
+      },
+      "description": {
+        "ko": "단추를 풀고 입어 크림 니트가 가운데 넓게 보이게 해요. 큼직한 패치 포켓은 열쇠를 찾는 손이 바로 들어가는 자리예요.",
+        "en": "Wear it unbuttoned so a wide panel of cream knit shows down the middle. The big patch pockets are right where your hand goes for the keys.",
+        "de": "Offen tragen, damit in der Mitte viel cremefarbener Strick zu sehen ist. Die großen aufgesetzten Taschen sitzen genau dort, wo die Hand nach dem Schlüssel greift."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-05.01-jacket",
+      "category": "outer",
+      "sourceImage": "products/01-jacket.png",
+      "sourceSha256": "0a1f244c6ed26a250a1c06fb2cb82f2dd0a9caaba0894841c01120438c86abdd",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 47474
+      },
+      "sourceDescription": {
+        "ko": "차콜 울 재킷 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Charcoal wool jacket — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Anthrazitfarbene Wolljacke — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 3045475
+      }
+    },
+    {
+      "id": "02-knit",
+      "image": "products/02-knit.webp",
+      "name": {
+        "ko": "크림 모헤어 브이넥 니트",
+        "en": "Cream fuzzy V-neck knit",
+        "de": "Cremefarbener flauschiger V-Ausschnitt-Pullover"
+      },
+      "description": {
+        "ko": "브이넥 사이로 블랙 이너가 보이게 겹쳐요. 소맷단을 재킷 밖으로 살짝 꺼내면 보송한 크림이 손목에서 한 번 더 보여요.",
+        "en": "Layer it so the black base shows in the V. Let the cuffs slip out past the jacket sleeves and the fuzzy cream shows again at the wrist.",
+        "de": "So kombinieren, dass das schwarze Shirt im V-Ausschnitt zu sehen ist. Die Bündchen etwas unter den Jackenärmeln hervorziehen, dann zeigt sich das flauschige Creme auch am Handgelenk."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-05.02-knit",
+      "category": "top",
+      "sourceImage": "products/02-knit.png",
+      "sourceSha256": "d8efef8d1d73b75eeb63e5ee099d597fa951fd35689c793eb2fc386503a00ab4",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 48756
+      },
+      "sourceDescription": {
+        "ko": "크림 모헤어 브이넥 니트 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Cream fuzzy V-neck knit — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Cremefarbener flauschiger V-Ausschnitt-Pullover — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2615697
+      }
+    },
+    {
+      "id": "03-base",
+      "image": "products/03-base.webp",
+      "name": {
+        "ko": "블랙 크루넥 이너",
+        "en": "Black crewneck base layer",
+        "de": "Schwarzes Rundhals-Langarmshirt"
+      },
+      "description": {
+        "ko": "목이 꼭 맞는 크루넥이라 브이넥 안에서 검은 선 하나로 보여요. 블랙이 바지·신발과 이어져 위아래 색을 묶어 줘요.",
+        "en": "A close crew neck that reads as one clean black line in the V. The black picks up the jeans and shoes and ties top and bottom together.",
+        "de": "Ein eng anliegender Rundhals, der im V-Ausschnitt als klare schwarze Linie erscheint. Das Schwarz greift Jeans und Schuhe auf und verbindet oben und unten."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-05.03-base",
+      "category": "under",
+      "sourceImage": "products/03-base.png",
+      "sourceSha256": "d25c1811a56b1ed7e54e70b73e6b930f95b2abd1c9bd39caf1b0b448e47821d2",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 27322
+      },
+      "sourceDescription": {
+        "ko": "블랙 크루넥 이너 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Black crewneck base layer — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Schwarzes Rundhals-Langarmshirt — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2439546
+      }
+    },
+    {
+      "id": "04-jeans",
+      "image": "products/04-jeans.webp",
+      "name": {
+        "ko": "페이디드 블랙 와이드 진",
+        "en": "Faded black wide-leg jeans",
+        "de": "Verwaschene schwarze weite Jeans"
+      },
+      "description": {
+        "ko": "밑단을 한 번 넓게 접어 더비 위에서 끝나게 해요. 바랜 블랙이 재킷의 차콜과 이어져 아래까지 한 톤으로 길어 보여요.",
+        "en": "Turn the hems up once, wide, so they finish just above the derbies. The faded black runs on from the charcoal jacket and keeps the line long.",
+        "de": "Den Saum einmal breit umschlagen, sodass er knapp über den Derbys endet. Das verwaschene Schwarz knüpft an die anthrazitfarbene Jacke an und streckt die Linie."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-05.04-jeans",
+      "category": "bottom",
+      "sourceImage": "products/04-jeans.png",
+      "sourceSha256": "ae2dd3b8a5f04b183a44b58cbc6f19616ccb0c35031c4e36252405de1c262fde",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 37836
+      },
+      "sourceDescription": {
+        "ko": "페이디드 블랙 와이드 진 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Faded black wide-leg jeans — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Verwaschene schwarze weite Jeans — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1941172
+      }
+    },
+    {
+      "id": "05-shoes",
+      "image": "products/05-shoes.webp",
+      "name": {
+        "ko": "블랙 레더 더비",
+        "en": "Black leather derby shoes",
+        "de": "Schwarze Leder-Derbys"
+      },
+      "description": {
+        "ko": "광택 있는 블랙 더비에 두꺼운 밑창이라 접은 밑단 아래서도 존재감이 있어요. 끈을 단정하게 묶어 보송한 니트와 대비를 줘요.",
+        "en": "Polished black derbies on a thick sole hold their own under the turned-up hems. Neat laces give a sharp contrast to the fuzzy knit.",
+        "de": "Glänzende schwarze Derbys mit dicker Sohle behaupten sich unter dem Umschlag. Sauber gebundene Schnürsenkel bilden einen klaren Kontrast zum flauschigen Strick."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-05.05-shoes",
+      "category": "shoes",
+      "sourceImage": "products/05-shoes.png",
+      "sourceSha256": "8657d3933de9efa78c49b29d6b55e4f814ca24fa6cea165a7dee81f841050b7b",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 41508
+      },
+      "sourceDescription": {
+        "ko": "블랙 레더 더비 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Black leather derby shoes — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Schwarze Leder-Derbys — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2143065
+      }
+    },
+    {
+      "id": "06-bag",
+      "image": "products/06-bag.webp",
+      "name": {
+        "ko": "올리브 나일론 숄더 백",
+        "en": "Olive nylon shoulder bag",
+        "de": "Olivgrüne Nylon-Schultertasche"
+      },
+      "description": {
+        "ko": "한쪽 어깨에 메고 가방이 등 옆으로 가게 돌려요. 올리브 나일론 하나로 차콜과 크림 사이에 색이 하나 더해져요.",
+        "en": "Sling it over one shoulder and let it sit round at your back. The olive nylon adds the one extra colour between charcoal and cream.",
+        "de": "Über eine Schulter hängen und nach hinten an den Rücken rutschen lassen. Das olivgrüne Nylon bringt die eine zusätzliche Farbe zwischen Anthrazit und Creme."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-05.06-bag",
+      "category": "bag",
+      "sourceImage": "products/06-bag.png",
+      "sourceSha256": "59a961f9aede3449c209762bb367a6f74f3c444945c241b986ed8bef7e98d700",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 38436
+      },
+      "sourceDescription": {
+        "ko": "올리브 나일론 숄더 백 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Olive nylon shoulder bag — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Olivgrüne Nylon-Schultertasche — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2126032
+      }
+    }
+  ],
+  "sourcePolicy": "Transparent PNG masters retained for reuse; do not composite these source files onto a background. App derivatives follow latest repository instructions.",
+  "exclusions": "No invisible socks. Street-04 footwear is out of frame and omitted. Grocery/bakery items are scene props and omitted.",
+  "brand": null,
+  "price": null,
+  "purchaseUrl": null,
+  "fiberComposition": null,
+  "contentType": "ai-styled-concept"
+}

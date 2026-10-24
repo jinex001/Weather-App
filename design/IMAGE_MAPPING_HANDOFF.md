@@ -213,3 +213,10 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## 승인 이미지의 로컬 전달 인박스 (2026-10-24)
 
 GPT 제작물을 로컬 Claude Code가 받는 절차는 [IMAGE_INBOX_HANDOFF.md](IMAGE_INBOX_HANDOFF.md)를 따른다. 이 전달 경로에서는 GPT의 GitHub 직접 업로드 대신 승인 파일 저장 → 해시가 고정된 승인 매니페스트 → 로컬 검증/ready 패키지 → Claude의 별도 브랜치 매핑/PR을 사용한다. 기존 매핑 및 5-1장 검수 규칙은 계속 적용한다. ready는 앱 매핑 완료가 아니다. How to Wear의 한국어 마스터·스타일링 의도는 GPT가 작성하고, Claude는 원문을 보존하며 영어·독일어 현지화와 기존 스키마 연결을 맡는다.
+
+## b145 · Overcast / Chilly / Male / 35+ / Day / Street 두 번째 세트 (2026-10-24)
+
+- iCloud `Weather-App-originals/Overcast/Chilly/Male/35+/day/street-01–05`(READY.json 승인·해시 확인)를 `look/berlin-complete/Overcast/Chilly/Male/35+/day/street/<01–05>/`에 앱 파생본으로 넣음: editorial.jpg + 투명 WebP 제품 28개(5/6/6/5/6) + products.json + README.md. 룩 `oc-chilly-m-35-day-street-NN`, 보충 파일 `look/overcast-male-day-street.js`.
+- **같은 칸에 이미 세트가 있을 때**: 기존 `day/06–10-street/`·`oc15-*` ID를 덮어쓰지 않고 새 경로(`<시간>/<스타일>/<번호>/`, 비 세트와 같은 번호 방식)와 새 ID로 더함. 칸 안 후보가 늘고 3개 랜덤은 그대로.
+- 원본이 READY.json 형식(approval.json/master-copy.ko.json 아님)이라 `tools/image-inbox.py`를 쓰지 않고 READY.json 해시를 직접 검증함. 제작 측에 제품별 한국어 입는 법이 없어(틀 문장 description뿐) 사용자 지시에 따라 Claude가 ko/en/de를 씀 — IMAGE_INBOX_HANDOFF의 "한국어 마스터 = GPT" 원칙의 이번 세트 예외. 룩 단위 howToWear(ko 마스터)는 기사 intro로 그대로.
+- [검증 기록](overcast-male-day-street-2-validation.md).

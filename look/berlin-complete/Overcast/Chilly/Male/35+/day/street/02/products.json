@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-m-35-day-street-02",
+  "appOutfitId": "oc-chilly-m-35-day-street-02",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "source": "READY.json approved=true, products_complete=true"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialSourceSha256": "3027c7784cf1f8a1aad1f7d28d19c822f041b36a1b62e310c7711ed922f94281",
+  "sourceMaster": {
+    "location": "iCloud Drive/Weather-App-originals/Overcast/Chilly/Male/35+/day/street-02/",
+    "note": "Transparent PNG masters and the PNG editorial stay in iCloud; this folder holds app derivatives only.",
+    "readyManifest": {
+      "approved": true,
+      "products_complete": true,
+      "category": {
+        "weather": "Overcast",
+        "temperatureBand": "Chilly",
+        "gender": "Male",
+        "ageGroup": "35+",
+        "time": "day",
+        "style": "street"
+      },
+      "scope": "Only editorial street-02",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "b9f3bf9b5f70f49b0fc5fe6d0823e9238da6b99d46accd47b47cdcdc2ba830f4"
+        },
+        {
+          "path": "editorial.png",
+          "sha256": "3027c7784cf1f8a1aad1f7d28d19c822f041b36a1b62e310c7711ed922f94281"
+        },
+        {
+          "path": "products/01-bomber.png",
+          "sha256": "a28c02f1cc1a7ed4e54c70f9aa4f6abd24310dabc3121ee1834af1c6844275ea"
+        },
+        {
+          "path": "products/02-knit.png",
+          "sha256": "c91f1904c42faa1ec172ca632d8a1ce45b328f9b01b9c69d1eaf6aab1a9436fb"
+        },
+        {
+          "path": "products/03-cargo.png",
+          "sha256": "e7fddcb33d582fc2a5480e8c9133b28e99326f9d3dea2d1deb2235831cddaa1a"
+        },
+        {
+          "path": "products/04-sneakers.png",
+          "sha256": "0a15fdb5bd9df7b9439708961f1cda437b572caa85fb597fc7e2477dae955850"
+        },
+        {
+          "path": "products/05-beanie.png",
+          "sha256": "5e73027ff809446a6a233e489c5c49127b0407feb01ce4c7671536123be5f7a0"
+        },
+        {
+          "path": "products/06-bag.png",
+          "sha256": "f86f385b19b90902f26f80e146d54711db9603bd5c19b512598d2416b5ab92c1"
+        },
+        {
+          "path": "products.json",
+          "sha256": "ee10e8bab33182c9dab5d6e18f1ab059febf48ccf56e82883229b4b695939dcb"
+        }
+      ]
+    }
+  },
+  "copy": {
+    "headlineEn": "COBALT ON THE KERB",
+    "caption": {
+      "ko": "연석 위를 걸으며 비니를 고쳐 쓰는 순간. 흐린 거리에서 코발트가 먼저 웃어요.",
+      "en": "Fixing the beanie while walking the kerb. On a grey street, the cobalt smiles first.",
+      "de": "Die Mütze zurechtrücken, während er auf der Bordsteinkante balanciert. In der grauen Straße lächelt das Kobaltblau zuerst."
+    },
+    "intro": {
+      "ko": "코발트 봄버를 주인공으로 차콜 니트와 블랙 카고를 겹치세요. 그레이 스니커즈와 작은 크로스바디 백으로 무게를 정리합니다.",
+      "en": "Make the cobalt bomber the focal point over charcoal knitwear and black cargo trousers. Grey sneakers and a compact crossbody bag balance the volume.",
+      "de": "Setze den kobaltblauen Bomber über anthrazitfarbenem Strick und schwarzer Cargohose in Szene. Graue Sneaker und eine kleine Umhängetasche gleichen das Volumen aus."
+    },
+    "pullQuoteEn": "ONE BRIGHT JACKET, THE REST IN GREY.",
+    "tip": {
+      "ko": "색이 강한 아우터 하나를 입는 날엔 나머지는 블랙·차콜·그레이 안에서만 골라요.",
+      "en": "On a day with one strong jacket, pick everything else from black, charcoal and grey.",
+      "de": "Trägt man eine kräftige Jacke, kommt alles andere aus Schwarz, Anthrazit und Grau."
+    },
+    "introSource": "GPT look-level howToWear (ko master, en/de as supplied), unchanged",
+    "sourceHowToWear": {
+      "ko": "코발트 봄버를 주인공으로 차콜 니트와 블랙 카고를 겹치세요. 그레이 스니커즈와 작은 크로스바디 백으로 무게를 정리합니다.",
+      "en": "Make the cobalt bomber the focal point over charcoal knitwear and black cargo trousers. Grey sneakers and a compact crossbody bag balance the volume.",
+      "de": "Setze den kobaltblauen Bomber über anthrazitfarbenem Strick und schwarzer Cargohose in Szene. Graue Sneaker und eine kleine Umhängetasche gleichen das Volumen aus."
+    }
+  },
+  "lookNumber": 2,
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32"
+  },
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-bomber",
+      "image": "products/01-bomber.webp",
+      "name": {
+        "ko": "코발트 패딩 봄버",
+        "en": "Cobalt padded bomber",
+        "de": "Kobaltblauer wattierter Bomber"
+      },
+      "description": {
+        "ko": "앞을 열고 입어 차콜 니트가 가운데 세로로 보이게 해요. 허리 리브가 짧게 끝나서 와이드 카고와 위아래 비율이 맞아요.",
+        "en": "Wear it open so a strip of charcoal knit runs down the middle. The ribbed hem stops short, which balances the wide cargo trousers below.",
+        "de": "Offen tragen, damit in der Mitte ein Streifen anthrazitfarbener Strick zu sehen ist. Der Rippbund endet kurz und gleicht die weite Cargohose darunter aus."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-02.01-bomber",
+      "category": "outer",
+      "sourceImage": "products/01-bomber.png",
+      "sourceSha256": "a28c02f1cc1a7ed4e54c70f9aa4f6abd24310dabc3121ee1834af1c6844275ea",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 33292
+      },
+      "sourceDescription": {
+        "ko": "코발트 패딩 봄버 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Cobalt padded bomber — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Kobaltblauer wattierter Bomber — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1584715
+      }
+    },
+    {
+      "id": "02-knit",
+      "image": "products/02-knit.webp",
+      "name": {
+        "ko": "차콜 브러시드 니트",
+        "en": "Charcoal brushed knit",
+        "de": "Anthrazitfarbener aufgerauter Pullover"
+      },
+      "description": {
+        "ko": "목이 둥근 크루넥이라 셔츠 없이 한 장으로 입어요. 차분한 차콜이 코발트를 받쳐 주고 얼굴 아래를 정리해 줘요.",
+        "en": "A plain crew neck, worn on its own without a shirt underneath. The muted charcoal holds up the cobalt and keeps the area under your face calm.",
+        "de": "Ein schlichter Rundhals, ohne Hemd darunter getragen. Das gedämpfte Anthrazit trägt das Kobaltblau und hält den Bereich unter dem Gesicht ruhig."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-02.02-knit",
+      "category": "top",
+      "sourceImage": "products/02-knit.png",
+      "sourceSha256": "c91f1904c42faa1ec172ca632d8a1ce45b328f9b01b9c69d1eaf6aab1a9436fb",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 49512
+      },
+      "sourceDescription": {
+        "ko": "차콜 브러시드 니트 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Charcoal brushed knit — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Anthrazitfarbener aufgerauter Pullover — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2776690
+      }
+    },
+    {
+      "id": "03-cargo",
+      "image": "products/03-cargo.webp",
+      "name": {
+        "ko": "블랙 와이드 카고 팬츠",
+        "en": "Black wide-leg cargo trousers",
+        "de": "Schwarze weite Cargohose"
+      },
+      "description": {
+        "ko": "밑단은 스니커즈 위에 살짝 걸치는 길이로요. 옆 포켓에 손을 넣어도 폭이 넉넉해 실루엣이 흐트러지지 않아요.",
+        "en": "The hems should just brush the top of the sneakers. The legs are roomy enough that a hand in the pocket doesn't pull the shape.",
+        "de": "Der Saum sollte gerade auf den Sneakern aufliegen. Die Beine sind weit genug, dass eine Hand in der Tasche die Form nicht verzieht."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-02.03-cargo",
+      "category": "bottom",
+      "sourceImage": "products/03-cargo.png",
+      "sourceSha256": "e7fddcb33d582fc2a5480e8c9133b28e99326f9d3dea2d1deb2235831cddaa1a",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 24438
+      },
+      "sourceDescription": {
+        "ko": "블랙 와이드 카고 팬츠 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Black wide-leg cargo trousers — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Schwarze weite Cargohose — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1400297
+      }
+    },
+    {
+      "id": "04-sneakers",
+      "image": "products/04-sneakers.webp",
+      "name": {
+        "ko": "그레이 청키 스니커즈",
+        "en": "Grey chunky sneakers",
+        "de": "Graue Chunky-Sneaker"
+      },
+      "description": {
+        "ko": "볼륨 있는 그레이 밑창이 넓은 바짓단을 받쳐 줘요. 끈을 단단히 묶으면 연석 위를 걸어도 발이 안정적이에요.",
+        "en": "The chunky grey sole gives the wide hems something to rest on. Lace them firmly and you can walk the kerb edge with confidence.",
+        "de": "Die wuchtige graue Sohle gibt dem weiten Saum Halt. Fest schnüren, dann läuft es sich auch auf der Bordsteinkante sicher."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-02.04-sneakers",
+      "category": "shoes",
+      "sourceImage": "products/04-sneakers.png",
+      "sourceSha256": "0a15fdb5bd9df7b9439708961f1cda437b572caa85fb597fc7e2477dae955850",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 48554
+      },
+      "sourceDescription": {
+        "ko": "그레이 청키 스니커즈 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Grey chunky sneakers — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Graue Chunky-Sneaker — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2337575
+      }
+    },
+    {
+      "id": "05-beanie",
+      "image": "products/05-beanie.webp",
+      "name": {
+        "ko": "블랙 리브 비니",
+        "en": "Black rib-knit beanie",
+        "de": "Schwarze Rippstrickmütze"
+      },
+      "description": {
+        "ko": "귀 위로 접어 올려 짧게 쓰면 얼굴이 시원하게 드러나요. 블랙이라 카고·가방과 같은 색으로 묶여요.",
+        "en": "Fold it up so it sits short above the ears and keeps your face open. In black, it ties in with the cargo trousers and the bag.",
+        "de": "Hochgekrempelt kurz über den Ohren tragen, so bleibt das Gesicht frei. In Schwarz passt sie zu Cargohose und Tasche."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-02.05-beanie",
+      "category": "headwear",
+      "sourceImage": "products/05-beanie.png",
+      "sourceSha256": "5e73027ff809446a6a233e489c5c49127b0407feb01ce4c7671536123be5f7a0",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 39798
+      },
+      "sourceDescription": {
+        "ko": "블랙 리브 비니 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Black rib-knit beanie — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Schwarze Rippstrickmütze — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2083140
+      }
+    },
+    {
+      "id": "06-bag",
+      "image": "products/06-bag.webp",
+      "name": {
+        "ko": "블랙 크로스바디 백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "description": {
+        "ko": "스트랩을 짧게 줄여 봄버 위로 가슴 가까이 메요. 걸어도 흔들리지 않고, 코발트 위에 검은 사선이 하나 생겨요.",
+        "en": "Shorten the strap and wear it high across the chest, over the bomber. It stays put as you walk and draws one black diagonal across the cobalt.",
+        "de": "Den Gurt kürzen und hoch über der Brust, über dem Bomber tragen. So bleibt sie beim Gehen ruhig und zieht eine schwarze Diagonale über das Kobaltblau."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-02.06-bag",
+      "category": "bag",
+      "sourceImage": "products/06-bag.png",
+      "sourceSha256": "f86f385b19b90902f26f80e146d54711db9603bd5c19b512598d2416b5ab92c1",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 33710
+      },
+      "sourceDescription": {
+        "ko": "블랙 크로스바디 백 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Black crossbody bag — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Schwarze Umhängetasche — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1468498
+      }
+    }
+  ],
+  "sourcePolicy": "Transparent PNG masters retained for reuse; do not composite these source files onto a background. App derivatives follow latest repository instructions.",
+  "exclusions": "No invisible socks. Street-04 footwear is out of frame and omitted. Grocery/bakery items are scene props and omitted.",
+  "brand": null,
+  "price": null,
+  "purchaseUrl": null,
+  "fiberComposition": null,
+  "contentType": "ai-styled-concept"
+}

@@ -335,3 +335,7 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## 문서 · 매핑 점검 규칙 추가 (2026-10-23, 앱 빌드 변화 없음)
 
 사용자 요청: b143 같은 문제가 다시 생기지 않게. `design/IMAGE_MAPPING_HANDOFF.md`에 5-1장(배포 전 문구·투명 이미지 점검)과 작업 순서 11-1단계 추가: 세트 안 입는 법 중복 금지, 틀 문장("원본처럼…") 금지, 요약·인트로 제품 이름 나열 금지, en/de 제품명 대문자·독일어 어미 점검, pull·tip, 투명 WebP 알파·가장자리·용량, `bg`는 `#` 색만, 대표 컷 `missing cutouts: 0`, 실제 카드 렌더링. 제품 이름과 사진 색이 다르면 이름은 바꾸지 않고 보고만(b143 09 하의 "블랙 워시드 데님"은 사용자 결정으로 그대로 둠).
+
+## b145 · 흐림 남성 낮 스트리트 두 번째 세트 (2026-10-24)
+
+사용자 요청(가져오기·푸시 승인). iCloud `Weather-App-originals/Overcast/Chilly/Male/35+/day/street-01–05`(READY.json 승인, 43개 해시 확인, 작업 후에도 그대로) → `look/berlin-complete/Overcast/Chilly/Male/35+/day/street/<01–05>/`: 에디토리얼 JPG 5장(1024×1536 ≤300KB, 02만 q76) + 투명 WebP 제품 28개(5/6/6/5/6, 500×500, 24–50KB, 원본 알파 그대로, 새 이미지·배경 제거 없음) + products.json·README. 투명 PNG 마스터는 iCloud에만. 룩 `oc-chilly-m-35-day-street-01`–`05`(cloudy · chilly · m · 35 · 낮 · street), 같은 칸 기존 `oc15-06…10-street-m`은 그대로 → 이 칸은 10룩에서 3개 랜덤. 보충 파일 `look/overcast-male-day-street.js`(cutouts.js 앞). 제목 BROWN LEATHER, HOT COFFEE · COBALT ON THE KERB · RUST FROM THE MARKET · VARSITY ON A GREY DAY · CREAM FUZZ, FRESH BREAD, hero = 제목이 말하는 제품, `cut` = 투명 제품 자체, `bg` #F3EFE8. intro = 제작 측 룩 howToWear(ko 그대로, 04 en/de만 5-1 이름 반복 때문에 고침), 제품별 입는 법·deck·pull·tip은 에디토리얼 보고 ko/en/de 새로 씀(사용자 지시). 145룩 · 954아이템 · 기사 145. 헤드리스 Chrome 가짜 데이터로 홈·시트·카드, ko/en/de 확인. [검증](design/overcast-male-day-street-2-validation.md).

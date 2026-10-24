@@ -1,0 +1,338 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-m-35-day-street-04",
+  "appOutfitId": "oc-chilly-m-35-day-street-04",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "source": "READY.json approved=true, products_complete=true"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialSourceSha256": "8a740ea71d4ed8543d6aa5065a7f729650ebc4bff0f079575ad0193002869a81",
+  "sourceMaster": {
+    "location": "iCloud Drive/Weather-App-originals/Overcast/Chilly/Male/35+/day/street-04/",
+    "note": "Transparent PNG masters and the PNG editorial stay in iCloud; this folder holds app derivatives only.",
+    "readyManifest": {
+      "approved": true,
+      "products_complete": true,
+      "category": {
+        "weather": "Overcast",
+        "temperatureBand": "Chilly",
+        "gender": "Male",
+        "ageGroup": "35+",
+        "time": "day",
+        "style": "street"
+      },
+      "scope": "Only editorial street-04",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "2b1eff9a722512bf43ba304cb4687e9bf7c3d60d2cc09a0e407a34cb5f57c62e"
+        },
+        {
+          "path": "editorial.png",
+          "sha256": "8a740ea71d4ed8543d6aa5065a7f729650ebc4bff0f079575ad0193002869a81"
+        },
+        {
+          "path": "products/01-varsity.png",
+          "sha256": "ee8da0af4b264d696644e318f9b7c80e0513e79f6f9434273ef48f32f021dccd"
+        },
+        {
+          "path": "products/02-hoodie.png",
+          "sha256": "99091564e3e87330446c1dd1b7e8bde87e0ad3154773937341bb9a26f62be737"
+        },
+        {
+          "path": "products/03-scarf.png",
+          "sha256": "f530e74374f37bf79270d78961c28ded580b6627f9a02d203fbadf989d73c309"
+        },
+        {
+          "path": "products/04-trousers.png",
+          "sha256": "9f1cc0f1bf839ec51a44db4e8f92a64ebb13b0807d15a28f3bb372e80747261d"
+        },
+        {
+          "path": "products/05-messenger.png",
+          "sha256": "9263bec3a2fe5b8e84742d3e5030f7a907fefeb9c1047443e79cd680617458f8"
+        },
+        {
+          "path": "products.json",
+          "sha256": "41ec3014e50c180fa97164a0ae237a60b18fc89af0c211e5ee2d4be24f2b86a8"
+        }
+      ]
+    }
+  },
+  "copy": {
+    "headlineEn": "VARSITY ON A GREY DAY",
+    "caption": {
+      "ko": "가방끈을 고쳐 잡고 카메라를 보며 웃는 오후. 버건디와 크림, 그 사이 그레이.",
+      "en": "Adjusting the bag strap with a grin for the camera. Burgundy and cream, with grey in between.",
+      "de": "Den Taschengurt zurechtrücken und in die Kamera grinsen. Burgunderrot und Creme, dazwischen Grau."
+    },
+    "intro": {
+      "ko": "버건디 바시티 안에 그레이 집업 후디를 겹치고 차콜 머플러를 더하세요. 브라운 코듀로이와 캔버스 백으로 빈티지한 질감을 이어갑니다.",
+      "en": "Layer a zip hoodie in grey under the burgundy varsity and add a charcoal scarf. Brown corduroy and a canvas messenger carry the vintage texture through.",
+      "de": "Unter der Collegejacke in Burgunderrot sitzt eine graue Zip-Kapuzenjacke, dazu kommt ein anthrazitfarbener Schal. Brauner Cord und eine Canvas-Tasche führen die Vintage-Textur fort."
+    },
+    "pullQuoteEn": "OLD SCHOOL, NEW WEATHER.",
+    "tip": {
+      "ko": "후드와 머플러를 같이 할 땐 머플러를 후드 앞쪽에 둘러야 목 뒤가 뭉치지 않아요.",
+      "en": "When you wear a hood and a scarf together, wrap the scarf in front of the hood so nothing bunches at the back of the neck.",
+      "de": "Kapuze und Schal zusammen? Den Schal vor der Kapuze legen, dann staut sich im Nacken nichts."
+    },
+    "introSource": "ko = GPT master unchanged; en/de lightly rephrased from the supplied text so product names are not repeated verbatim (IMAGE_MAPPING_HANDOFF 5-1). Supplied text kept in sourceHowToWear.",
+    "sourceHowToWear": {
+      "ko": "버건디 바시티 안에 그레이 집업 후디를 겹치고 차콜 머플러를 더하세요. 브라운 코듀로이와 캔버스 백으로 빈티지한 질감을 이어갑니다.",
+      "en": "Layer a grey zip hoodie under the burgundy varsity jacket and add a charcoal scarf. Brown corduroy and a canvas messenger carry the vintage texture through.",
+      "de": "Trage eine graue Kapuzenjacke unter der burgunderroten Collegejacke und ergänze einen anthrazitfarbenen Schal. Brauner Cord und eine Canvas-Tasche führen die Vintage-Textur fort."
+    }
+  },
+  "lookNumber": 4,
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32"
+  },
+  "productCount": 5,
+  "products": [
+    {
+      "id": "01-varsity",
+      "image": "products/01-varsity.webp",
+      "name": {
+        "ko": "버건디 바시티 재킷",
+        "en": "Burgundy varsity jacket",
+        "de": "Burgunderrote Collegejacke"
+      },
+      "description": {
+        "ko": "스냅을 모두 풀어 그레이 후디가 앞에 길게 보이게 입어요. 크림 소매와 줄무늬 리브가 흐린 거리의 적은 빛을 얼굴 쪽으로 모아 줘요.",
+        "en": "Wear every snap undone so the grey hoodie runs down the front. The cream sleeves and striped ribbing catch what little light a grey street has.",
+        "de": "Alle Druckknöpfe offen lassen, damit die graue Kapuzenjacke vorne durchgehend zu sehen ist. Cremefarbene Ärmel und gestreifte Bündchen fangen das wenige Licht einer grauen Straße ein."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-04.01-varsity",
+      "category": "outer",
+      "sourceImage": "products/01-varsity.png",
+      "sourceSha256": "ee8da0af4b264d696644e318f9b7c80e0513e79f6f9434273ef48f32f021dccd",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 40798
+      },
+      "sourceDescription": {
+        "ko": "버건디 바시티 재킷 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Burgundy varsity jacket — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Burgunderrote Collegejacke — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2279078
+      }
+    },
+    {
+      "id": "02-hoodie",
+      "image": "products/02-hoodie.webp",
+      "name": {
+        "ko": "그레이 집업 후디",
+        "en": "Grey zip hoodie",
+        "de": "Graue Kapuzenjacke"
+      },
+      "description": {
+        "ko": "지퍼는 가슴 높이까지만 올리고 후드는 바시티 칼라 뒤로 꺼내요. 그레이가 버건디와 크림 사이를 부드럽게 이어 줘요.",
+        "en": "Zip it to about chest height and bring the hood out behind the varsity collar. The grey eases the step between burgundy and cream.",
+        "de": "Bis etwa Brusthöhe schließen und die Kapuze hinter dem Kragen der Collegejacke herausholen. Das Grau vermittelt sanft zwischen Burgunderrot und Creme."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-04.02-hoodie",
+      "category": "top",
+      "sourceImage": "products/02-hoodie.png",
+      "sourceSha256": "99091564e3e87330446c1dd1b7e8bde87e0ad3154773937341bb9a26f62be737",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 43258
+      },
+      "sourceDescription": {
+        "ko": "그레이 집업 후디 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Grey zip hoodie — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Graue Kapuzenjacke — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2599747
+      }
+    },
+    {
+      "id": "03-scarf",
+      "image": "products/03-scarf.webp",
+      "name": {
+        "ko": "차콜 프린지 머플러",
+        "en": "Charcoal fringed scarf",
+        "de": "Anthrazitfarbener Fransenschal"
+      },
+      "description": {
+        "ko": "목에 한 번만 두르고 한쪽 끝을 앞으로 길게 늘어뜨려요. 프린지가 가슴 아래까지 내려와 재킷의 직선에 움직임을 더해요.",
+        "en": "Loop it once around the neck and let one end hang long in front. The fringe falls past the chest and adds movement to the jacket's straight lines.",
+        "de": "Einmal um den Hals legen und ein Ende vorne lang herabhängen lassen. Die Fransen reichen bis unter die Brust und bringen Bewegung in die geraden Linien der Jacke."
+      },
+      "evidence": "visible-item-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-04.03-scarf",
+      "category": "scarf",
+      "sourceImage": "products/03-scarf.png",
+      "sourceSha256": "f530e74374f37bf79270d78961c28ded580b6627f9a02d203fbadf989d73c309",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 49240
+      },
+      "sourceDescription": {
+        "ko": "차콜 프린지 머플러 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Charcoal fringed scarf — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Anthrazitfarbener Fransenschal — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2184908
+      }
+    },
+    {
+      "id": "04-trousers",
+      "image": "products/04-trousers.webp",
+      "name": {
+        "ko": "브라운 와이드 코듀로이 팬츠",
+        "en": "Brown wide-leg corduroy trousers",
+        "de": "Braune weite Cordhose"
+      },
+      "description": {
+        "ko": "와이드 핏 코듀로이를 허리에 여유 있게 입어요. 결 있는 표면이 바시티의 울과 질감을 맞추고, 브라운이 버건디를 차분하게 받쳐 줘요.",
+        "en": "Wear the wide corduroy with an easy waist. Its ridged surface matches the varsity's wool, and the brown sits quietly beneath the burgundy.",
+        "de": "Die weite Cordhose locker in der Taille tragen. Die gerippte Oberfläche passt zur Wolle der Collegejacke, und das Braun trägt das Burgunderrot ruhig."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-04.04-trousers",
+      "category": "bottom",
+      "sourceImage": "products/04-trousers.png",
+      "sourceSha256": "9f1cc0f1bf839ec51a44db4e8f92a64ebb13b0807d15a28f3bb372e80747261d",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 31946
+      },
+      "sourceDescription": {
+        "ko": "브라운 와이드 코듀로이 팬츠 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Brown wide-leg corduroy trousers — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Braune weite Cordhose — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 1677550
+      }
+    },
+    {
+      "id": "05-messenger",
+      "image": "products/05-messenger.webp",
+      "name": {
+        "ko": "브라운 캔버스 메신저 백",
+        "en": "Brown canvas messenger bag",
+        "de": "Braune Canvas-Umhängetasche"
+      },
+      "description": {
+        "ko": "스트랩을 몸에 사선으로 메고 가방은 엉덩이 옆에 오게 해요. 걸을 때 스트랩을 한 손으로 잡으면 머플러가 흐트러지지 않아요.",
+        "en": "Wear the strap across the body with the bag resting at the hip. Holding the strap as you walk keeps the scarf in place.",
+        "de": "Den Gurt quer über den Körper tragen, die Tasche liegt an der Hüfte. Hält man beim Gehen den Gurt fest, bleibt der Schal an seinem Platz."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "uncertainty": {
+        "ko": "가려진 부분과 뒷면은 추정 복원이며, 정확한 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Covered construction and rear views are inferred; exact fiber composition is unverified.",
+        "de": "Verdeckte Details und Rückseiten sind rekonstruiert; die genaue Materialzusammensetzung ist nicht bestätigt."
+      },
+      "appItemId": "oc-chilly-m-35-day-street-04.05-messenger",
+      "category": "bag",
+      "sourceImage": "products/05-messenger.png",
+      "sourceSha256": "9263bec3a2fe5b8e84742d3e5030f7a907fefeb9c1047443e79cd680617458f8",
+      "status": "ready",
+      "app": {
+        "format": "webp",
+        "width": 500,
+        "height": 500,
+        "alpha": true,
+        "bytes": 45496
+      },
+      "sourceDescription": {
+        "ko": "브라운 캔버스 메신저 백 — 에디토리얼에서 보이는 색상과 질감을 기준으로 복원한 단독 제품컷입니다.",
+        "en": "Brown canvas messenger bag — standalone reconstruction matching visible editorial color and texture.",
+        "de": "Braune Canvas-Umhängetasche — eigenständige Rekonstruktion nach sichtbarer Farbe und Textur des Editorials."
+      },
+      "sourceQuality": {
+        "width": 1254,
+        "height": 1254,
+        "alphaChannel": true,
+        "bytes": 2451167
+      }
+    }
+  ],
+  "sourcePolicy": "Transparent PNG masters retained for reuse; do not composite these source files onto a background. App derivatives follow latest repository instructions.",
+  "exclusions": "No invisible socks. Street-04 footwear is out of frame and omitted. Grocery/bakery items are scene props and omitted.",
+  "brand": null,
+  "price": null,
+  "purchaseUrl": null,
+  "fiberComposition": null,
+  "contentType": "ai-styled-concept"
+}

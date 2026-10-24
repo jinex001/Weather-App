@@ -1,12 +1,12 @@
 # 룩 세트 현황 · 빈 칸 목록
 
-2026-10-23 점검 (앱 빌드 b140, 135룩 · 905아이템, 활성 참조 888 · 기사 135룩). 새 세트를 매핑할 때마다 이 표도 고칠 것.
+2026-10-24 점검 (앱 빌드 b145, 145룩 · 954아이템, 활성 참조 937 · 기사 145룩; jsc로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
 
 지금 들어 있는 룩은 전부 **쌀쌀함(체감 1~9°) · 35+**입니다. 빈 칸에서는 앱이 다른 날씨의 룩으로 채우지 않고 COMING SOON 플레이스홀더를 보여 줍니다(b114).
 
 ## 쌀쌀함 · 칸별 룩 수
 
-숫자 = 룩 수(모두 5). ✕ = 비어 있음 → 플레이스홀더. "기사" = 제품 컷 + 입는 법 기사가 있는 세트, "사진만" = 에디토리얼 사진과 아이템 글만(제품 컷 없음).
+숫자 = 룩 수(흐림 남 낮 스트리트만 10 = 두 세트, 나머지 5). ✕ = 비어 있음 → 플레이스홀더. "기사" = 제품 컷 + 입는 법 기사가 있는 세트, "사진만" = 에디토리얼 사진과 아이템 글만(제품 컷 없음).
 
 | 하늘 | 성별 | 시간 | 러닝 | 스트리트 | 미니멀 | 폴더 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -14,8 +14,8 @@
 | 맑음 | 남 | 저녁 | 5 기사 (b132) | 5 기사 (b131, 30제품) | 5 기사 (b130) | `Sunny/Chilly/Male/35+/night/` |
 | 맑음 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Sunny/Chilly/Female/35+/day/` (b124) |
 | 맑음 | 여 | 저녁 | 5 기사 (b138, 40제품, 홈 컷 b139) | 5 기사 (b140, 42제품) | 5 기사 (b129) | `Sunny/Chilly/Female/35+/night/` |
-| 흐림 | 남 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Male/35+/day/` |
-| 흐림 | 남 | 저녁 | **✕** | **✕** | 5 기사 | `Overcast/Chilly/Male/35+/night/minimal/` |
+| 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` + b145 두 번째 세트 28제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
+| 흐림 | 남 | 저녁 | **✕** | 5 기사 (b143, 21제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/night/<06–10-street · minimal>/` |
 | 흐림 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/day/` |
 | 흐림 | 여 | 저녁 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/night/` |
 | 가벼운 비 | 남 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Rain/Light/Chilly/Male/35+/day/<스타일>/` |
@@ -29,7 +29,7 @@
 
 ## 비어 있는 칸 (만들 것)
 
-1. 흐림 · 남성 · 저녁: 러닝, 스트리트 (2세트)
+1. 흐림 · 남성 · 저녁: 러닝 (1세트; 스트리트는 b143에 들어옴 — 이 목록이 b143 때 안 고쳐져 있던 것을 b145에서 바로잡음)
 2. 가벼운 비 · 여성 · 낮: 러닝 (1세트)
 3. 가벼운 비 · 저녁: 남성 3스타일, 여성 3스타일 (6세트)
 4. 보통 비: 남녀 × 낮·저녁 × 3스타일 (12세트), 폴더는 README만
@@ -109,3 +109,9 @@ Sunny / Chilly / Female / 35+ / Night / Street 06–10: 5룩·42제품(7/7/8/10/
 ## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
 
 User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.
+
+## b145 · 흐림 남성 낮 스트리트 두 번째 세트 (2026-10-24)
+
+- 5룩 `oc-chilly-m-35-day-street-01`–`05`, 제품 28개(5/6/6/5/6), `look/berlin-complete/Overcast/Chilly/Male/35+/day/street/<01–05>/`. 기존 `oc15-06…10-street-m`(같은 칸, `day/06–10-street/`)은 그대로라 이 칸은 10룩에서 3개를 랜덤으로 고름.
+- 제품은 투명 WebP(500×500, 24–50KB), 에디토리얼 JPG 1024×1536 ≤300KB. 투명 마스터 PNG와 PNG 에디토리얼은 iCloud에만. [검증 기록](overcast-male-day-street-2-validation.md).
+
