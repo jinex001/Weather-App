@@ -1,0 +1,292 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-20261024-02",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": 7,
+    "feelsLikeC": 3,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "Creative styling assumptions only, not measured or live weather. Chilly is the user-selected category; retain it during integration."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": "2026-10-24",
+    "evidence": "User approved all five editorials in this chat; then authorized product/text production and handoff.",
+    "products": "generated under authorized breakdown workflow; no separate visual approval claimed"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "night",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "masters/editorial.png",
+  "copy": {
+    "title": {
+      "ko": "끈을 고쳐 묶는 밤",
+      "en": "One More Knot",
+      "de": "Noch ein Knoten"
+    },
+    "deck": {
+      "ko": "올리브 파카, 크림 니트, 단단한 부츠가 만드는 편안한 스트리트 레이어.",
+      "en": "Olive, cream and sturdy boots build an easy streetwear layer.",
+      "de": "Olivgrün, Creme und derbe Boots ergeben einen entspannten Streetwear-Look."
+    },
+    "intro": {
+      "ko": "현관 앞에서 잠시 멈춰 부츠 끈을 묶어요. 파카 안쪽의 두꺼운 케이블 니트와 비니, 양말이 쌀쌀한 밤의 착장을 완성합니다. 젖은 길에서는 신발의 실제 접지력과 상태를 확인해주세요.",
+      "en": "A pause at the doorway to retie a boot brings the layers into focus. A cable-knit sweater, beanie and thick socks complete the parka look for a chilly night. Check the actual grip and condition of footwear on wet streets.",
+      "de": "Beim kurzen Halt an der Haustür wird der Boot neu geschnürt. Zopfstrick, Mütze und dicke Socken ergänzen den Parka für die kühle Nacht. Prüfe auf nassen Wegen die tatsächliche Haftung und den Zustand der Schuhe."
+    },
+    "tip": {
+      "ko": "데님 밑단과 양말, 부츠가 겹치도록 입어 발목을 덮어요.",
+      "en": "Overlap the denim hems, socks and boots to cover the ankles.",
+      "de": "Lass Jeanssaum, Socken und Boots überlappen, damit die Knöchel bedeckt bleiben."
+    },
+    "headlineEn": "One More Knot",
+    "captionKo": "올리브 파카, 크림 니트, 단단한 부츠가 만드는 편안한 스트리트 레이어.",
+    "introKo": "현관 앞에서 잠시 멈춰 부츠 끈을 묶어요. 파카 안쪽의 두꺼운 케이블 니트와 비니, 양말이 쌀쌀한 밤의 착장을 완성합니다. 젖은 길에서는 신발의 실제 접지력과 상태를 확인해주세요.",
+    "tipKo": "데님 밑단과 양말, 부츠가 겹치도록 입어 발목을 덮어요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "ko": "올리브 후드 파카",
+        "en": "Olive hooded parka",
+        "de": "Olivgrüner Parka mit Kapuze"
+      },
+      "description": {
+        "ko": "두꺼운 니트를 안에 입을 수 있도록 몸통과 소매에 여유를 둬요.",
+        "en": "Leave room through the body and sleeves for the chunky knit underneath.",
+        "de": "Wähle genug Weite an Rumpf und Ärmeln für den dicken Strick darunter."
+      },
+      "image": "products/01-outer.webp",
+      "masterImage": "masters/products/01-outer.png",
+      "observedEvidence": "olive green padded mid-thigh hooded parka, matte fabric, front zipper and snap storm flap, generous sleeves, simple slanted pockets, hood attached",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "올리브 후드 파카",
+      "descriptionKo": "두꺼운 니트를 안에 입을 수 있도록 몸통과 소매에 여유를 둬요.",
+      "nameEn": "Olive hooded parka",
+      "descriptionEn": "Leave room through the body and sleeves for the chunky knit underneath.",
+      "nameDe": "Olivgrüner Parka mit Kapuze",
+      "descriptionDe": "Wähle genug Weite an Rumpf und Ärmeln für den dicken Strick darunter."
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "ko": "크림 케이블 터틀넥",
+        "en": "Cream cable-knit turtleneck",
+        "de": "Cremefarbener Zopfstrick-Rollkragenpullover"
+      },
+      "description": {
+        "ko": "크림색 케이블 조직을 파카의 짙은 색 사이로 드러내요.",
+        "en": "Let the cream cable texture show against the darker parka.",
+        "de": "Lass den cremefarbenen Zopfstrick als Kontrast zum dunkleren Parka sichtbar."
+      },
+      "image": "products/02-top.webp",
+      "masterImage": "masters/products/02-top.png",
+      "observedEvidence": "ivory cream cable-knit turtleneck sweater, thick raised cable pattern, folded ribbed neck, ribbed cuffs and hem, long sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "크림 케이블 터틀넥",
+      "descriptionKo": "크림색 케이블 조직을 파카의 짙은 색 사이로 드러내요.",
+      "nameEn": "Cream cable-knit turtleneck",
+      "descriptionEn": "Let the cream cable texture show against the darker parka.",
+      "nameDe": "Cremefarbener Zopfstrick-Rollkragenpullover",
+      "descriptionDe": "Lass den cremefarbenen Zopfstrick als Kontrast zum dunkleren Parka sichtbar."
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "차콜 와이드 데님",
+        "en": "Charcoal wide-leg jeans",
+        "de": "Anthrazitfarbene weite Jeans"
+      },
+      "description": {
+        "ko": "바짓단은 부츠 위에 내려 발목 노출을 줄여요.",
+        "en": "Let the hems fall over the boots to keep the ankles covered.",
+        "de": "Lass die Säume über die Boots fallen, damit die Knöchel bedeckt bleiben."
+      },
+      "image": "products/03-bottom.webp",
+      "masterImage": "masters/products/03-bottom.png",
+      "observedEvidence": "washed charcoal full-length wide-leg jeans as actually visible, five-pocket construction, straight wide hem, no invented cargo pockets",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "차콜 와이드 데님",
+      "descriptionKo": "바짓단은 부츠 위에 내려 발목 노출을 줄여요.",
+      "nameEn": "Charcoal wide-leg jeans",
+      "descriptionEn": "Let the hems fall over the boots to keep the ankles covered.",
+      "nameDe": "Anthrazitfarbene weite Jeans",
+      "descriptionDe": "Lass die Säume über die Boots fallen, damit die Knöchel bedeckt bleiben."
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "name": {
+        "ko": "그레이 골지 양말",
+        "en": "Grey ribbed socks",
+        "de": "Graue Rippstricksocken"
+      },
+      "description": {
+        "ko": "부츠 안에 신어 바지와 신발 사이를 부드럽게 연결해요.",
+        "en": "Wear inside the boots to bridge the gap between denim and footwear.",
+        "de": "Trage die Socken in den Boots als weichen Übergang zwischen Jeans und Schuhen."
+      },
+      "image": "products/04-socks.webp",
+      "masterImage": "masters/products/04-socks.png",
+      "observedEvidence": "one matching pair heather grey ribbed thick knitted crew socks",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "그레이 골지 양말",
+      "descriptionKo": "부츠 안에 신어 바지와 신발 사이를 부드럽게 연결해요.",
+      "nameEn": "Grey ribbed socks",
+      "descriptionEn": "Wear inside the boots to bridge the gap between denim and footwear.",
+      "nameDe": "Graue Rippstricksocken",
+      "descriptionDe": "Trage die Socken in den Boots als weichen Übergang zwischen Jeans und Schuhen."
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "name": {
+        "ko": "블랙 레이스업 부츠",
+        "en": "Black lace-up boots",
+        "de": "Schwarze Schnürboots"
+      },
+      "description": {
+        "ko": "끈을 발에 맞게 조절하고 양쪽 매듭을 단단히 정리해요.",
+        "en": "Adjust the laces to your feet and secure both knots.",
+        "de": "Passe die Schnürung an deine Füße an und binde beide Knoten fest."
+      },
+      "image": "products/05-shoes.webp",
+      "masterImage": "masters/products/05-shoes.png",
+      "observedEvidence": "one matching pair black smooth leather-look lace-up ankle boots with rounded toes, black laces and eyelets, substantial black lug soles; upright aligned three-quarter view",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 레이스업 부츠",
+      "descriptionKo": "끈을 발에 맞게 조절하고 양쪽 매듭을 단단히 정리해요.",
+      "nameEn": "Black lace-up boots",
+      "descriptionEn": "Adjust the laces to your feet and secure both knots.",
+      "nameDe": "Schwarze Schnürboots",
+      "descriptionDe": "Passe die Schnürung an deine Füße an und binde beide Knoten fest."
+    },
+    {
+      "id": "06-hat",
+      "category": "hat",
+      "name": {
+        "ko": "블랙 골지 비니",
+        "en": "Black ribbed beanie",
+        "de": "Schwarze Rippstrickmütze"
+      },
+      "description": {
+        "ko": "접은 커프를 귀 쪽으로 내려 파카와 함께 보온감을 더해요.",
+        "en": "Pull the folded cuff toward the ears to complement the parka's warm layers.",
+        "de": "Ziehe den Umschlag zu den Ohren, passend zu den warmen Lagen des Parkas."
+      },
+      "image": "products/06-hat.webp",
+      "masterImage": "masters/products/06-hat.png",
+      "observedEvidence": "black ribbed knitted beanie with wide folded cuff, no pompom or label",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 골지 비니",
+      "descriptionKo": "접은 커프를 귀 쪽으로 내려 파카와 함께 보온감을 더해요.",
+      "nameEn": "Black ribbed beanie",
+      "descriptionEn": "Pull the folded cuff toward the ears to complement the parka's warm layers.",
+      "nameDe": "Schwarze Rippstrickmütze",
+      "descriptionDe": "Ziehe den Umschlag zu den Ohren, passend zu den warmen Lagen des Parkas."
+    },
+    {
+      "id": "07-bag",
+      "category": "bag",
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "description": {
+        "ko": "작은 가방을 어깨 가까이에 두어 넉넉한 아우터와 균형을 맞춰요.",
+        "en": "Keep the compact bag high on the shoulder to balance the roomy outer layer.",
+        "de": "Trage die kleine Tasche nah an der Schulter als Ausgleich zum weiten Parka."
+      },
+      "image": "products/07-bag.webp",
+      "masterImage": "masters/products/07-bag.png",
+      "observedEvidence": "black smooth leather-look small shoulder bag with softly rounded rectangular body, zip top, narrow adjustable shoulder strap and silver-tone buckle; whole strap visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 숄더백",
+      "descriptionKo": "작은 가방을 어깨 가까이에 두어 넉넉한 아우터와 균형을 맞춰요.",
+      "nameEn": "Black shoulder bag",
+      "descriptionEn": "Keep the compact bag high on the shoulder to balance the roomy outer layer.",
+      "nameDe": "Schwarze Schultertasche",
+      "descriptionDe": "Trage die kleine Tasche nah an der Schulter als Ausgleich zum weiten Parka."
+    }
+  ],
+  "excludedProps": [
+    "keys",
+    "groceries",
+    "bicycle"
+  ],
+  "productionNote": "AI-generated outfit concept images, not purchasable verified merchandise. Actual fibers, leather, metals and weather protection are unverified.",
+  "appOutfitId": "bl-light-chilly-f-35-night-street-20261024-02",
+  "appBuild": "b150"
+}

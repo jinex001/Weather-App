@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-20261024-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": 7,
+    "feelsLikeC": 3,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "Creative styling assumptions only, not measured or live weather. Chilly is the user-selected category; retain it during integration."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": "2026-10-24",
+    "evidence": "User approved all five editorials in this chat; then authorized product/text production and handoff.",
+    "products": "generated under authorized breakdown workflow; no separate visual approval claimed"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "night",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "masters/editorial.png",
+  "copy": {
+    "title": {
+      "ko": "우산 아래 버건디",
+      "en": "Burgundy Under Cover",
+      "de": "Burgunderrot unterm Schirm"
+    },
+    "deck": {
+      "ko": "버건디 패딩과 네이비 니트가 가벼운 비 속에서 만나요.",
+      "en": "Burgundy padding meets navy knitwear in the drizzle.",
+      "de": "Burgunderrote Steppung trifft im Nieselregen auf marineblauen Strick."
+    },
+    "intro": {
+      "ko": "우산을 다시 잡으며 잠깐 웃는 밤. 높은 칼라의 패딩과 브라운 코듀로이가 볼륨과 결을 나누고, 네이비 니트와 비니가 색을 이어줍니다. 토트백을 어깨에 걸쳐 한 손을 남겨둡니다.",
+      "en": "A quick smile comes with adjusting the umbrella. A high padded collar and brown corduroy balance volume and texture; the navy sweater and beanie tie the colours together. A shoulder tote keeps one hand free.",
+      "de": "Beim Nachgreifen am Schirm entsteht ein kurzes Lächeln. Hoher Steppkragen und brauner Cord verbinden Volumen mit Struktur; Pullover und Mütze in Marineblau halten die Farben zusammen. Die Schultertasche lässt eine Hand frei."
+    },
+    "tip": {
+      "ko": "버건디를 중심색으로 두고 비니와 니트는 같은 짙은 톤으로 맞춰요.",
+      "en": "Let burgundy lead and keep the beanie and knit in the same dark tone.",
+      "de": "Lass Burgunderrot im Mittelpunkt stehen und stimme Mütze und Pullover im gleichen dunklen Ton ab."
+    },
+    "headlineEn": "Burgundy Under Cover",
+    "captionKo": "버건디 패딩과 네이비 니트가 가벼운 비 속에서 만나요.",
+    "introKo": "우산을 다시 잡으며 잠깐 웃는 밤. 높은 칼라의 패딩과 브라운 코듀로이가 볼륨과 결을 나누고, 네이비 니트와 비니가 색을 이어줍니다. 토트백을 어깨에 걸쳐 한 손을 남겨둡니다.",
+    "tipKo": "버건디를 중심색으로 두고 비니와 니트는 같은 짙은 톤으로 맞춰요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "ko": "버건디 하이칼라 패딩",
+        "en": "Burgundy high-collar puffer",
+        "de": "Burgunderrote Steppjacke mit hohem Kragen"
+      },
+      "description": {
+        "ko": "칼라를 살리고 앞을 살짝 열어 안쪽 네이비를 보여줘요.",
+        "en": "Keep the collar raised and open the front slightly to reveal navy beneath.",
+        "de": "Lass den Kragen aufgestellt und öffne die Jacke leicht, damit Marineblau sichtbar wird."
+      },
+      "image": "products/01-outer.webp",
+      "masterImage": "masters/products/01-outer.png",
+      "observedEvidence": "deep burgundy padded jacket, oversized boxy shape, broad high padded collar, central zipper and dark snap storm flap, generous sleeves, large stitched puffer panels, hip-length hem conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "버건디 하이칼라 패딩",
+      "descriptionKo": "칼라를 살리고 앞을 살짝 열어 안쪽 네이비를 보여줘요.",
+      "nameEn": "Burgundy high-collar puffer",
+      "descriptionEn": "Keep the collar raised and open the front slightly to reveal navy beneath.",
+      "nameDe": "Burgunderrote Steppjacke mit hohem Kragen",
+      "descriptionDe": "Lass den Kragen aufgestellt und öffne die Jacke leicht, damit Marineblau sichtbar wird."
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "ko": "네이비 크루넥 니트",
+        "en": "Navy crewneck sweater",
+        "de": "Marineblauer Rundhalspullover"
+      },
+      "description": {
+        "ko": "버건디 패딩 아래 짙은 니트를 입어 색의 대비를 차분하게 해요.",
+        "en": "A dark knit beneath burgundy keeps the colour contrast restrained.",
+        "de": "Dunkler Strick unter Burgunderrot hält den Farbkontrast ruhig."
+      },
+      "image": "products/02-top.webp",
+      "masterImage": "masters/products/02-top.png",
+      "observedEvidence": "dark navy ribbed wool-look crewneck sweater, long sleeves, ribbed neck cuffs and hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "네이비 크루넥 니트",
+      "descriptionKo": "버건디 패딩 아래 짙은 니트를 입어 색의 대비를 차분하게 해요.",
+      "nameEn": "Navy crewneck sweater",
+      "descriptionEn": "A dark knit beneath burgundy keeps the colour contrast restrained.",
+      "nameDe": "Marineblauer Rundhalspullover",
+      "descriptionDe": "Dunkler Strick unter Burgunderrot hält den Farbkontrast ruhig."
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "브라운 코듀로이 팬츠",
+        "en": "Brown corduroy trousers",
+        "de": "Braune Cordhose"
+      },
+      "description": {
+        "ko": "브라운 코듀로이의 세로 결로 패딩과 다른 질감을 더해요.",
+        "en": "Vertical corduroy ribs bring a different texture to the padded layers.",
+        "de": "Die vertikalen Cordrippen ergänzen die wattierten Lagen um eine andere Textur."
+      },
+      "image": "products/03-bottom.webp",
+      "masterImage": "masters/products/03-bottom.png",
+      "observedEvidence": "dark chocolate brown wide-leg corduroy trousers, fine vertical ribs, full length, simple side pockets; shape below cropped hip conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "브라운 코듀로이 팬츠",
+      "descriptionKo": "브라운 코듀로이의 세로 결로 패딩과 다른 질감을 더해요.",
+      "nameEn": "Brown corduroy trousers",
+      "descriptionEn": "Vertical corduroy ribs bring a different texture to the padded layers.",
+      "nameDe": "Braune Cordhose",
+      "descriptionDe": "Die vertikalen Cordrippen ergänzen die wattierten Lagen um eine andere Textur."
+    },
+    {
+      "id": "04-hat",
+      "category": "hat",
+      "name": {
+        "ko": "네이비 골지 비니",
+        "en": "Navy ribbed beanie",
+        "de": "Marineblaue Rippstrickmütze"
+      },
+      "description": {
+        "ko": "니트와 같은 네이비로 머리와 몸통의 색을 이어줘요.",
+        "en": "Match the navy knit to connect the colours from head to torso.",
+        "de": "Greife das Marineblau des Pullovers mit der Mütze wieder auf."
+      },
+      "image": "products/04-hat.webp",
+      "masterImage": "masters/products/04-hat.png",
+      "observedEvidence": "dark navy chunky ribbed knit beanie with wide folded cuff, no pompom or label",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "네이비 골지 비니",
+      "descriptionKo": "니트와 같은 네이비로 머리와 몸통의 색을 이어줘요.",
+      "nameEn": "Navy ribbed beanie",
+      "descriptionEn": "Match the navy knit to connect the colours from head to torso.",
+      "nameDe": "Marineblaue Rippstrickmütze",
+      "descriptionDe": "Greife das Marineblau des Pullovers mit der Mütze wieder auf."
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "name": {
+        "ko": "블랙 나일론 토트",
+        "en": "Black nylon-look tote",
+        "de": "Schwarze Tote in Nylonoptik"
+      },
+      "description": {
+        "ko": "긴 손잡이를 어깨에 걸쳐 우산을 잡을 손을 남겨둬요.",
+        "en": "Carry by the long shoulder handles to leave a hand free for the umbrella.",
+        "de": "Trage die langen Henkel über der Schulter, damit eine Hand für den Schirm frei bleibt."
+      },
+      "image": "products/05-bag.webp",
+      "masterImage": "masters/products/05-bag.png",
+      "observedEvidence": "black soft nylon large tote bag with two long fabric shoulder handles, simple rectangular body, no branding, entire handles visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 나일론 토트",
+      "descriptionKo": "긴 손잡이를 어깨에 걸쳐 우산을 잡을 손을 남겨둬요.",
+      "nameEn": "Black nylon-look tote",
+      "descriptionEn": "Carry by the long shoulder handles to leave a hand free for the umbrella.",
+      "nameDe": "Schwarze Tote in Nylonoptik",
+      "descriptionDe": "Trage die langen Henkel über der Schulter, damit eine Hand für den Schirm frei bleibt."
+    },
+    {
+      "id": "06-umbrella",
+      "category": "umbrella",
+      "name": {
+        "ko": "블랙 우산",
+        "en": "Black umbrella",
+        "de": "Schwarzer Regenschirm"
+      },
+      "description": {
+        "ko": "우산을 몸 가까이 안정적으로 잡고 강한 바람에는 접어주세요.",
+        "en": "Hold the umbrella steadily near your body and close it in strong wind.",
+        "de": "Halte den Schirm ruhig nah am Körper und schließe ihn bei starkem Wind."
+      },
+      "image": "products/06-umbrella.webp",
+      "masterImage": "masters/products/06-umbrella.png",
+      "observedEvidence": "one plain open black umbrella, black fabric canopy and slender dark metal ribs and shaft, curved black handle; entire canopy shaft and handle visible, front three-quarter product view",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 우산",
+      "descriptionKo": "우산을 몸 가까이 안정적으로 잡고 강한 바람에는 접어주세요.",
+      "nameEn": "Black umbrella",
+      "descriptionEn": "Hold the umbrella steadily near your body and close it in strong wind.",
+      "nameDe": "Schwarzer Regenschirm",
+      "descriptionDe": "Halte den Schirm ruhig nah am Körper und schließe ihn bei starkem Wind."
+    }
+  ],
+  "excludedProps": [
+    "keys",
+    "groceries",
+    "bicycle"
+  ],
+  "productionNote": "AI-generated outfit concept images, not purchasable verified merchandise. Actual fibers, leather, metals and weather protection are unverified.",
+  "appOutfitId": "bl-light-chilly-f-35-night-street-20261024-04",
+  "appBuild": "b150"
+}

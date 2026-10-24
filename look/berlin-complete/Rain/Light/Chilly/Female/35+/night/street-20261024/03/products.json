@@ -1,0 +1,292 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-20261024-03",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": 7,
+    "feelsLikeC": 3,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "Creative styling assumptions only, not measured or live weather. Chilly is the user-selected category; retain it during integration."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": "2026-10-24",
+    "evidence": "User approved all five editorials in this chat; then authorized product/text production and handoff.",
+    "products": "generated under authorized breakdown workflow; no separate visual approval claimed"
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "night",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "masters/editorial.png",
+  "copy": {
+    "title": {
+      "ko": "마지막 장보기, 노란 한 겹",
+      "en": "The Last Grocery Stop",
+      "de": "Der letzte Einkauf"
+    },
+    "deck": {
+      "ko": "회색 레이어 사이로 머스터드 머플러가 따뜻한 색을 더해요.",
+      "en": "A mustard scarf brings warmth of colour to layered greys.",
+      "de": "Ein senfgelber Schal bringt warme Farbe in die grauen Lagen."
+    },
+    "intro": {
+      "ko": "장바구니 속 바게트를 붙잡는 짧은 순간. 퀼팅 재킷, 집업 후디, 골지 니트의 서로 다른 질감이 겹치고 긴 머플러가 차분한 색에 생기를 줍니다.",
+      "en": "A quick catch stops the baguette slipping from the grocery bag. Quilted fabric, a zip hoodie and ribbed knit bring distinct textures together, while a long mustard scarf lifts the quiet palette.",
+      "de": "Ein schneller Griff hält das Baguette in der Einkaufstüte. Steppstoff, Sweatjacke und Rippstrick treffen mit unterschiedlichen Texturen aufeinander; der lange senfgelbe Schal belebt die ruhigen Farben."
+    },
+    "tip": {
+      "ko": "후디 지퍼를 열어 골지 니트를 보여주고 머플러는 한 번만 둘러요.",
+      "en": "Open the hoodie to reveal the rib-knit layer and loop the scarf once.",
+      "de": "Öffne die Sweatjacke, damit der Rippstrick sichtbar wird, und lege den Schal einmal um."
+    },
+    "headlineEn": "The Last Grocery Stop",
+    "captionKo": "회색 레이어 사이로 머스터드 머플러가 따뜻한 색을 더해요.",
+    "introKo": "장바구니 속 바게트를 붙잡는 짧은 순간. 퀼팅 재킷, 집업 후디, 골지 니트의 서로 다른 질감이 겹치고 긴 머플러가 차분한 색에 생기를 줍니다.",
+    "tipKo": "후디 지퍼를 열어 골지 니트를 보여주고 머플러는 한 번만 둘러요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "name": {
+        "ko": "차콜 퀼팅 패딩",
+        "en": "Charcoal quilted jacket",
+        "de": "Anthrazitfarbene Steppjacke"
+      },
+      "description": {
+        "ko": "후디 위로 여유 있게 걸쳐 여러 겹의 질감이 보이게 해요.",
+        "en": "Wear loosely over the hoodie so the layered textures remain visible.",
+        "de": "Trage die Jacke locker über der Sweatjacke, damit die verschiedenen Texturen sichtbar bleiben."
+      },
+      "image": "products/01-outer.webp",
+      "masterImage": "masters/products/01-outer.png",
+      "observedEvidence": "charcoal black oversized quilted padded jacket, boxy mid-hip cut, stand collar, full front black zipper, broad stitched padded panels and relaxed sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "차콜 퀼팅 패딩",
+      "descriptionKo": "후디 위로 여유 있게 걸쳐 여러 겹의 질감이 보이게 해요.",
+      "nameEn": "Charcoal quilted jacket",
+      "descriptionEn": "Wear loosely over the hoodie so the layered textures remain visible.",
+      "nameDe": "Anthrazitfarbene Steppjacke",
+      "descriptionDe": "Trage die Jacke locker über der Sweatjacke, damit die verschiedenen Texturen sichtbar bleiben."
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "name": {
+        "ko": "라이트 그레이 집업 후디",
+        "en": "Light grey zip hoodie",
+        "de": "Hellgraue Sweatjacke mit Kapuze"
+      },
+      "description": {
+        "ko": "앞 지퍼를 열고 후드를 패딩 바깥으로 꺼내요.",
+        "en": "Open the zip and let the hood sit outside the padded jacket.",
+        "de": "Öffne den Reißverschluss und lege die Kapuze über die Steppjacke."
+      },
+      "image": "products/02-top.webp",
+      "masterImage": "masters/products/02-top.png",
+      "observedEvidence": "heather grey zip-front fleece hoodie, light grey hood with drawstrings, rib cuffs and hem, split front kangaroo pockets, relaxed fit; do not include the rib-knit layer underneath",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "라이트 그레이 집업 후디",
+      "descriptionKo": "앞 지퍼를 열고 후드를 패딩 바깥으로 꺼내요.",
+      "nameEn": "Light grey zip hoodie",
+      "descriptionEn": "Open the zip and let the hood sit outside the padded jacket.",
+      "nameDe": "Hellgraue Sweatjacke mit Kapuze",
+      "descriptionDe": "Öffne den Reißverschluss und lege die Kapuze über die Steppjacke."
+    },
+    {
+      "id": "03-inner",
+      "category": "inner",
+      "name": {
+        "ko": "그레이 골지 니트",
+        "en": "Grey rib-knit sweater",
+        "de": "Grauer Rippstrickpullover"
+      },
+      "description": {
+        "ko": "집업 후디 안에 입어 중앙에 세로 골지 조직을 보여줘요.",
+        "en": "Wear beneath the zip hoodie to show a strip of vertical rib texture.",
+        "de": "Trage den Pullover unter der offenen Sweatjacke, sodass der Rippstrick sichtbar wird."
+      },
+      "image": "products/03-inner.webp",
+      "masterImage": "masters/products/03-inner.png",
+      "observedEvidence": "medium grey vertically ribbed fine-knit crewneck long-sleeve sweater visible beneath open grey hoodie, simple ribbed cuffs and hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "그레이 골지 니트",
+      "descriptionKo": "집업 후디 안에 입어 중앙에 세로 골지 조직을 보여줘요.",
+      "nameEn": "Grey rib-knit sweater",
+      "descriptionEn": "Wear beneath the zip hoodie to show a strip of vertical rib texture.",
+      "nameDe": "Grauer Rippstrickpullover",
+      "descriptionDe": "Trage den Pullover unter der offenen Sweatjacke, sodass der Rippstrick sichtbar wird."
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "name": {
+        "ko": "워시드 블랙 데님",
+        "en": "Washed black jeans",
+        "de": "Verwaschene schwarze Jeans"
+      },
+      "description": {
+        "ko": "짙은 데님으로 회색 레이어와 머스터드 포인트를 받쳐줘요.",
+        "en": "Dark denim grounds the grey layers and mustard accent.",
+        "de": "Dunkler Denim erdet die grauen Lagen und den senfgelben Akzent."
+      },
+      "image": "products/04-bottom.webp",
+      "masterImage": "masters/products/04-bottom.png",
+      "observedEvidence": "washed charcoal black loose full-length jeans, classic five pockets, relaxed straight legs, hem conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "워시드 블랙 데님",
+      "descriptionKo": "짙은 데님으로 회색 레이어와 머스터드 포인트를 받쳐줘요.",
+      "nameEn": "Washed black jeans",
+      "descriptionEn": "Dark denim grounds the grey layers and mustard accent.",
+      "nameDe": "Verwaschene schwarze Jeans",
+      "descriptionDe": "Dunkler Denim erdet die grauen Lagen und den senfgelben Akzent."
+    },
+    {
+      "id": "05-scarf",
+      "category": "scarf",
+      "name": {
+        "ko": "머스터드 니트 머플러",
+        "en": "Mustard knit scarf",
+        "de": "Senfgelber Strickschal"
+      },
+      "description": {
+        "ko": "목에 한 번 둘러 색을 모으고 양 끝은 길게 내려요.",
+        "en": "Loop once around the neck and let the ends hang long.",
+        "de": "Lege den Schal einmal um den Hals und lass die Enden lang herabhängen."
+      },
+      "image": "products/05-scarf.webp",
+      "masterImage": "masters/products/05-scarf.png",
+      "observedEvidence": "mustard ochre chunky knitted long scarf with textured thick knit and short fringe, entire scarf loosely arranged flat",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "머스터드 니트 머플러",
+      "descriptionKo": "목에 한 번 둘러 색을 모으고 양 끝은 길게 내려요.",
+      "nameEn": "Mustard knit scarf",
+      "descriptionEn": "Loop once around the neck and let the ends hang long.",
+      "nameDe": "Senfgelber Strickschal",
+      "descriptionDe": "Lege den Schal einmal um den Hals und lass die Enden lang herabhängen."
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "name": {
+        "ko": "블랙 미니 크로스백",
+        "en": "Black mini crossbody bag",
+        "de": "Kleine schwarze Umhängetasche"
+      },
+      "description": {
+        "ko": "크로스 끈을 몸 가까이 조절해 손을 자유롭게 써요.",
+        "en": "Adjust the crossbody strap close to the torso to leave your hands free.",
+        "de": "Stelle den Schultergurt körpernah ein, damit die Hände frei bleiben."
+      },
+      "image": "products/06-bag.webp",
+      "masterImage": "masters/products/06-bag.png",
+      "observedEvidence": "black leather-look rectangular rounded zip-top crossbody bag, long narrow black adjustable strap, brass-colored zip and strap fittings; full bag and strap",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "블랙 미니 크로스백",
+      "descriptionKo": "크로스 끈을 몸 가까이 조절해 손을 자유롭게 써요.",
+      "nameEn": "Black mini crossbody bag",
+      "descriptionEn": "Adjust the crossbody strap close to the torso to leave your hands free.",
+      "nameDe": "Kleine schwarze Umhängetasche",
+      "descriptionDe": "Stelle den Schultergurt körpernah ein, damit die Hände frei bleiben."
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "name": {
+        "ko": "골드 톤 미니 후프",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "머플러의 따뜻한 색과 작은 골드 톤 후프를 연결해요.",
+        "en": "Echo the scarf's warm tone with small gold-tone hoops.",
+        "de": "Greife den warmen Ton des Schals mit kleinen goldfarbenen Creolen auf."
+      },
+      "image": "products/07-jewelry.webp",
+      "masterImage": "masters/products/07-jewelry.png",
+      "observedEvidence": "one matching pair small plain gold-tone hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "inferredElements": "Hidden backs, closures, full lengths and opposite members of pairs are conservative concept reconstructions. Not verified retail specifications.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "nameKo": "골드 톤 미니 후프",
+      "descriptionKo": "머플러의 따뜻한 색과 작은 골드 톤 후프를 연결해요.",
+      "nameEn": "Small gold-tone hoops",
+      "descriptionEn": "Echo the scarf's warm tone with small gold-tone hoops.",
+      "nameDe": "Kleine goldfarbene Creolen",
+      "descriptionDe": "Greife den warmen Ton des Schals mit kleinen goldfarbenen Creolen auf."
+    }
+  ],
+  "excludedProps": [
+    "keys",
+    "groceries",
+    "bicycle"
+  ],
+  "productionNote": "AI-generated outfit concept images, not purchasable verified merchandise. Actual fibers, leather, metals and weather protection are unverified.",
+  "appOutfitId": "bl-light-chilly-f-35-night-street-20261024-03",
+  "appBuild": "b150"
+}
