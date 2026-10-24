@@ -1,0 +1,387 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-01",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "7 C is an approximate creative styling input in the generation prompt, not measured or live weather. Actual temperature not specified."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User approved all five editorials and requested full product breakdown after correcting look 01 to the red-bomber plant scene and look 05 to the burgundy headscarf scene."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "exec-7d06a104-5c33-43d1-93f3-ab0a3d9c4ce5.png",
+  "editorialMasterSha256": "1c3ff31a0599eb6eacfc54a21b68ed7dca6208f1688d248d0aabfe17dba06407",
+  "copy": {
+    "title": {
+      "ko": "작은 초록을 위한 레드",
+      "en": "A LITTLE GREEN, A LOT OF RED",
+      "de": "Ein wenig Grün, viel Rot"
+    },
+    "deck": {
+      "ko": "젖은 밤의 어둠 속에서 둥근 레드 볼륨이 작은 화분을 감싸요.",
+      "en": "Rounded red volume frames a little plant against the dark, wet street.",
+      "de": "Rundes rotes Volumen umrahmt eine kleine Pflanze vor der dunklen, nassen Straße."
+    },
+    "intro": {
+      "ko": "문밖으로 작은 화분을 내미는 순간, 레드 나일론의 광택과 초록 잎이 함께 살아나요. 차콜 후드와 짙은 데님은 강한 색을 차분하게 받쳐 줍니다.",
+      "en": "A little plant goes outside to catch the drizzle, bringing glossy red fabric and fresh green leaves together. A charcoal hood and deep denim keep the bold colour grounded.",
+      "de": "Eine kleine Pflanze darf draußen den Nieselregen auffangen; glänzendes Rot trifft auf frische grüne Blätter. Eine anthrazitfarbene Kapuze und dunkler Denim geben der kräftigen Farbe Ruhe."
+    },
+    "pull": "LET THE COLOUR DO THE TALKING",
+    "tip": {
+      "ko": "보머의 지퍼를 열어 안쪽 후드의 짙은 세로선을 보여줘요.",
+      "en": "Open the bomber to reveal the dark vertical line of the hoodie.",
+      "de": "Öffne die Bomberjacke, damit die dunkle vertikale Linie des Hoodies sichtbar wird."
+    },
+    "headlineEn": "A LITTLE GREEN, A LOT OF RED",
+    "captionKo": "젖은 밤의 어둠 속에서 둥근 레드 볼륨이 작은 화분을 감싸요.",
+    "introKo": "문밖으로 작은 화분을 내미는 순간, 레드 나일론의 광택과 초록 잎이 함께 살아나요. 차콜 후드와 짙은 데님은 강한 색을 차분하게 받쳐 줍니다.",
+    "pullQuoteEn": "LET THE COLOUR DO THE TALKING",
+    "tipKo": "보머의 지퍼를 열어 안쪽 후드의 짙은 세로선을 보여줘요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "레드 패디드 보머",
+      "nameEn": "Red padded bomber",
+      "nameDe": "Rote wattierte Bomberjacke",
+      "name": {
+        "ko": "레드 패디드 보머",
+        "en": "Red padded bomber",
+        "de": "Rote wattierte Bomberjacke"
+      },
+      "descriptionKo": "앞을 열어 차콜 후디를 드러내고 넉넉한 소매 볼륨을 살려요.",
+      "descriptionEn": "Leave the front open to reveal the charcoal hoodie and retain the generous sleeve volume.",
+      "descriptionDe": "Trage die Jacke offen, damit der anthrazitfarbene Hoodie sichtbar bleibt und die weiten Ärmel zur Geltung kommen.",
+      "description": {
+        "ko": "앞을 열어 차콜 후디를 드러내고 넉넉한 소매 볼륨을 살려요.",
+        "en": "Leave the front open to reveal the charcoal hoodie and retain the generous sleeve volume.",
+        "de": "Trage die Jacke offen, damit der anthrazitfarbene Hoodie sichtbar bleibt und die weiten Ärmel zur Geltung kommen."
+      },
+      "note": {
+        "ko": "앞을 열어 차콜 후디를 드러내고 넉넉한 소매 볼륨을 살려요.",
+        "en": "Leave the front open to reveal the charcoal hoodie and retain the generous sleeve volume.",
+        "de": "Trage die Jacke offen, damit der anthrazitfarbene Hoodie sichtbar bleibt und die weiten Ärmel zur Geltung kommen."
+      },
+      "image": "products/01-outer.webp",
+      "altKo": "레드 패디드 보머 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "red oversized padded nylon bomber jacket, rib cuffs collar and hem, front zipper, sleeve zip pocket",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-da052f6c-944c-40e2-9c4c-17cc83cfa6be.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "01/products/01-outer.webp",
+        "bytes": 43714,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-01.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 후디",
+      "nameEn": "Charcoal hoodie",
+      "nameDe": "Anthrazitfarbener Hoodie",
+      "name": {
+        "ko": "차콜 후디",
+        "en": "Charcoal hoodie",
+        "de": "Anthrazitfarbener Hoodie"
+      },
+      "descriptionKo": "후드를 보머 칼라 밖으로 꺼내 얼굴 주변에 차콜 레이어를 만들어요.",
+      "descriptionEn": "Pull the hood outside the bomber collar to frame the face in charcoal.",
+      "descriptionDe": "Lege die Kapuze über den Jackenkragen, sodass sie das Gesicht in Anthrazit einrahmt.",
+      "description": {
+        "ko": "후드를 보머 칼라 밖으로 꺼내 얼굴 주변에 차콜 레이어를 만들어요.",
+        "en": "Pull the hood outside the bomber collar to frame the face in charcoal.",
+        "de": "Lege die Kapuze über den Jackenkragen, sodass sie das Gesicht in Anthrazit einrahmt."
+      },
+      "note": {
+        "ko": "후드를 보머 칼라 밖으로 꺼내 얼굴 주변에 차콜 레이어를 만들어요.",
+        "en": "Pull the hood outside the bomber collar to frame the face in charcoal.",
+        "de": "Lege die Kapuze über den Jackenkragen, sodass sie das Gesicht in Anthrazit einrahmt."
+      },
+      "image": "products/02-top.webp",
+      "altKo": "차콜 후디 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "charcoal pullover hoodie with drawstrings and kangaroo pocket",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-93ef41ba-30d1-453c-b8f3-1835ea4502d6.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "01/products/02-top.webp",
+        "bytes": 40108,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-01.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "인디고 배럴 데님",
+      "nameEn": "Indigo barrel jeans",
+      "nameDe": "Indigoblaue Barrel-Jeans",
+      "name": {
+        "ko": "인디고 배럴 데님",
+        "en": "Indigo barrel jeans",
+        "de": "Indigoblaue Barrel-Jeans"
+      },
+      "descriptionKo": "넉넉한 데님 실루엣으로 보머의 둥근 볼륨을 아래까지 이어가요.",
+      "descriptionEn": "Continue the bomber’s rounded volume with a relaxed denim silhouette.",
+      "descriptionDe": "Greife das runde Volumen der Bomberjacke mit einer weiten Denim-Silhouette auf.",
+      "description": {
+        "ko": "넉넉한 데님 실루엣으로 보머의 둥근 볼륨을 아래까지 이어가요.",
+        "en": "Continue the bomber’s rounded volume with a relaxed denim silhouette.",
+        "de": "Greife das runde Volumen der Bomberjacke mit einer weiten Denim-Silhouette auf."
+      },
+      "note": {
+        "ko": "넉넉한 데님 실루엣으로 보머의 둥근 볼륨을 아래까지 이어가요.",
+        "en": "Continue the bomber’s rounded volume with a relaxed denim silhouette.",
+        "de": "Greife das runde Volumen der Bomberjacke mit einer weiten Denim-Silhouette auf."
+      },
+      "image": "products/03-bottom.webp",
+      "altKo": "인디고 배럴 데님 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "dark indigo loose barrel-leg jeans with ochre topstitching",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-5d3e7a54-eb8c-4d83-bafe-e7be48ed0537.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "01/products/03-bottom.webp",
+        "bytes": 38266,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-01.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "nameKo": "블랙 미니 크로스백",
+      "nameEn": "Black mini crossbody bag",
+      "nameDe": "Schwarze Mini-Umhängetasche",
+      "name": {
+        "ko": "블랙 미니 크로스백",
+        "en": "Black mini crossbody bag",
+        "de": "Schwarze Mini-Umhängetasche"
+      },
+      "descriptionKo": "스트랩을 가슴 위로 대각선으로 걸고 작은 몸판은 재킷 옆에 두어요.",
+      "descriptionEn": "Wear the strap diagonally across the chest with the compact bag resting beside the jacket.",
+      "descriptionDe": "Trage den Riemen diagonal über der Brust und die kleine Tasche seitlich an der Jacke.",
+      "description": {
+        "ko": "스트랩을 가슴 위로 대각선으로 걸고 작은 몸판은 재킷 옆에 두어요.",
+        "en": "Wear the strap diagonally across the chest with the compact bag resting beside the jacket.",
+        "de": "Trage den Riemen diagonal über der Brust und die kleine Tasche seitlich an der Jacke."
+      },
+      "note": {
+        "ko": "스트랩을 가슴 위로 대각선으로 걸고 작은 몸판은 재킷 옆에 두어요.",
+        "en": "Wear the strap diagonally across the chest with the compact bag resting beside the jacket.",
+        "de": "Trage den Riemen diagonal über der Brust und die kleine Tasche seitlich an der Jacke."
+      },
+      "image": "products/04-bag.webp",
+      "altKo": "블랙 미니 크로스백 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "small black leather rectangular crossbody bag with rounded flap and slim strap, gold-tone attachments",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-d99f2db0-79ea-4d64-9b80-aec3d63655a2.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "01/products/04-bag.webp",
+        "bytes": 47034,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-01.04-bag",
+      "appCategory": "bag"
+    },
+    {
+      "id": "05-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드톤 미니 후프",
+      "nameEn": "Small gold-tone hoops",
+      "nameDe": "Kleine goldfarbene Creolen",
+      "name": {
+        "ko": "골드톤 미니 후프",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "descriptionKo": "후드와 짧은 머리 사이에 작은 후프가 보이도록 귀 주변을 정리해요.",
+      "descriptionEn": "Keep the ear area clear so the small hoops show between the hood and short hair.",
+      "descriptionDe": "Halte die Ohren frei, damit die kleinen Creolen zwischen Kapuze und kurzen Haaren sichtbar bleiben.",
+      "description": {
+        "ko": "후드와 짧은 머리 사이에 작은 후프가 보이도록 귀 주변을 정리해요.",
+        "en": "Keep the ear area clear so the small hoops show between the hood and short hair.",
+        "de": "Halte die Ohren frei, damit die kleinen Creolen zwischen Kapuze und kurzen Haaren sichtbar bleiben."
+      },
+      "note": {
+        "ko": "후드와 짧은 머리 사이에 작은 후프가 보이도록 귀 주변을 정리해요.",
+        "en": "Keep the ear area clear so the small hoops show between the hood and short hair.",
+        "de": "Halte die Ohren frei, damit die kleinen Creolen zwischen Kapuze und kurzen Haaren sichtbar bleiben."
+      },
+      "image": "products/05-jewelry.webp",
+      "altKo": "골드톤 미니 후프 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "pair of small gold-tone hoop earrings",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-dd9e5f53-311d-4e0a-9e0d-de45d274ddf6.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "01/products/05-jewelry.webp",
+        "bytes": 37260,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-01.05-jewelry",
+      "appCategory": "jewelry"
+    }
+  ],
+  "productCount": 5,
+  "sceneProps": [
+    "small potted plant"
+  ],
+  "contentType": "ai-styled-concept",
+  "verification": {
+    "productImages": "passed",
+    "alphaAndDimensions": "passed",
+    "fiveBackgroundComposites": "passed",
+    "editorialMasterUnchanged": true,
+    "copyLanguages": [
+      "ko",
+      "en",
+      "de"
+    ],
+    "appMapping": "validated in app runtime",
+    "githubUpload": "pending atomic commit"
+  },
+  "appOutfitId": "bl-light-chilly-f-35-night-street-01",
+  "appStyle": "street",
+  "mappingBuild": "b149",
+  "heroProductId": "01-outer"
+}

@@ -190,3 +190,8 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 
 `oc-chilly-m-35-day-street-01`–`05`(sky cloudy · chilly · m · 35 · 낮 · street). 아이템 ID = `<outfitId>.<products.json id>`(예 `…-street-02.01-bomber`), cat은 id 접미사로(jacket·bomber·quilt·varsity → outer, hoodie·knit·cardigan → top, henley·base → under, beanie → headwear, tote·messenger → bag). 같은 칸에 기존 `oc15-06…10-street-m`이 있어 ID·경로를 새로 만들었고 덮어쓰지 않음. 투명 제품이라 아이템 `cut` = 제품 WebP 자체(rembg 안 씀, b143과 같음), `bg`는 카드가 깔아 주는 아이보리 `#F3EFE8`, `hero`는 제목이 말하는 제품(CUTOUTS.md 규칙과 같은 결과). 기사 `intro` = 제작 측 룩 단위 howToWear(한국어 마스터 그대로; 04만 en/de를 5-1 이름 반복 때문에 살짝 고침), 제품별 `note`·`deck`·`pull`·`tip`은 에디토리얼을 보고 씀.
 
+
+
+## b149 · Rain / Light / Chilly / Female / 35+ / Night / Street
+
+Five user-approved editorials (red-bomber plant scene and burgundy headscarf final revisions) plus 27 independent transparent WebP products (5/6/6/4/6) mapped through `look/rain-female-night-street.js`, before `look/cutouts.js`. Fixed new IDs `bl-light-chilly-f-35-night-street-01`–`05`, with per-product ko/en/de how-to-wear and article/title/deck/pull/tip. `sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`; existing selection rules and other looks preserved. Hero cutouts reuse the existing alpha WebP files and have HERO/CUTS rows. No source PNG, contact sheet or superseded editorial is committed. Actual temperature is unknown; 7°C is a creative styling input, not live weather. Hidden garment details are marked as inferred. User instructions: `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street/USAGE.md`. Validation: `design/rain-female-night-street-validation.md`.

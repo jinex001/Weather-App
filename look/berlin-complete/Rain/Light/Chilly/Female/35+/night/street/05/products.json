@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "7 C is an approximate creative styling input in the generation prompt, not measured or live weather. Actual temperature not specified."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User approved all five editorials and requested full product breakdown after correcting look 01 to the red-bomber plant scene and look 05 to the burgundy headscarf scene."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "exec-77754097-f24d-49e6-836f-02ede1b46fbf.png",
+  "editorialMasterSha256": "ae733f510fbf8b70811d147af4b51d732b8ee99693641ee8d0f6832ce4e9902b",
+  "copy": {
+    "title": {
+      "ko": "머리 위로 두른 버건디",
+      "en": "BURGUNDY OVERHEAD",
+      "de": "Burgunderrot über dem Kopf"
+    },
+    "deck": {
+      "ko": "머플러 하나를 머리 위로 옮기면 네이비 실루엣의 중심이 바뀌어요.",
+      "en": "Moving one scarf over the head changes the focus of the navy silhouette.",
+      "de": "Ein über den Kopf gelegter Schal verschiebt den Schwerpunkt der dunkelblauen Silhouette."
+    },
+    "intro": {
+      "ko": "현관 앞에서 돌아보는 얼굴을 굵은 버건디 니트가 감쌉니다. 크림 후드는 네이비와 머플러 사이에 밝은 여백을 만들고, 긴 끝은 어깨와 가방 쪽으로 느슨하게 흘러요.",
+      "en": "Chunky burgundy knit frames a face turning back at the doorway. The cream hood creates a pale break above navy, while the long scarf ends fall loosely toward the shoulder and bag.",
+      "de": "Grober burgunderroter Strick rahmt das über die Schulter zurückblickende Gesicht. Die cremefarbene Kapuze setzt einen hellen Akzent über Navy; die langen Schalenden fallen locker über Schulter und Tasche."
+    },
+    "pull": "ONE SCARF, A NEW SILHOUETTE",
+    "tip": {
+      "ko": "얼굴 쪽 머플러 가장자리를 느슨하게 잡아 후드의 밝은 면도 남겨요.",
+      "en": "Keep the scarf edge loose around the face and leave some of the pale hood visible.",
+      "de": "Lasse den Schal am Gesicht locker liegen und einen Teil der hellen Kapuze sichtbar."
+    },
+    "headlineEn": "BURGUNDY OVERHEAD",
+    "captionKo": "머플러 하나를 머리 위로 옮기면 네이비 실루엣의 중심이 바뀌어요.",
+    "introKo": "현관 앞에서 돌아보는 얼굴을 굵은 버건디 니트가 감쌉니다. 크림 후드는 네이비와 머플러 사이에 밝은 여백을 만들고, 긴 끝은 어깨와 가방 쪽으로 느슨하게 흘러요.",
+    "pullQuoteEn": "ONE SCARF, A NEW SILHOUETTE",
+    "tipKo": "얼굴 쪽 머플러 가장자리를 느슨하게 잡아 후드의 밝은 면도 남겨요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "잉크 네이비 보머",
+      "nameEn": "Ink navy bomber",
+      "nameDe": "Tintenblaue Bomberjacke",
+      "name": {
+        "ko": "잉크 네이비 보머",
+        "en": "Ink navy bomber",
+        "de": "Tintenblaue Bomberjacke"
+      },
+      "descriptionKo": "둥근 뒷면 볼륨을 살리고 크림 후드가 칼라 위로 나오게 겹쳐요.",
+      "descriptionEn": "Keep the rounded back volume and let the cream hood sit above the bomber collar.",
+      "descriptionDe": "Erhalte das runde Rückenvolumen und lege die cremefarbene Kapuze über den Bomberkragen.",
+      "description": {
+        "ko": "둥근 뒷면 볼륨을 살리고 크림 후드가 칼라 위로 나오게 겹쳐요.",
+        "en": "Keep the rounded back volume and let the cream hood sit above the bomber collar.",
+        "de": "Erhalte das runde Rückenvolumen und lege die cremefarbene Kapuze über den Bomberkragen."
+      },
+      "note": {
+        "ko": "둥근 뒷면 볼륨을 살리고 크림 후드가 칼라 위로 나오게 겹쳐요.",
+        "en": "Keep the rounded back volume and let the cream hood sit above the bomber collar.",
+        "de": "Erhalte das runde Rückenvolumen und lege die cremefarbene Kapuze über den Bomberkragen."
+      },
+      "image": "products/01-outer.webp",
+      "altKo": "잉크 네이비 보머 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "ink navy oversized nylon bomber jacket with rib collar cuffs and hem, sleeve zip pocket",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-4670429d-8eda-45ae-838c-ce8f8dcfc902.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "05/products/01-outer.webp",
+        "bytes": 32738,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-05.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "크림 헤비웨이트 후디",
+      "nameEn": "Cream heavyweight hoodie",
+      "nameDe": "Cremefarbener schwerer Hoodie",
+      "name": {
+        "ko": "크림 헤비웨이트 후디",
+        "en": "Cream heavyweight hoodie",
+        "de": "Cremefarbener schwerer Hoodie"
+      },
+      "descriptionKo": "크림 후드를 보머 밖으로 꺼내 네이비와 버건디 사이에 밝은 면을 만들어요.",
+      "descriptionEn": "Pull the cream hood outside the bomber to add a pale area between navy and burgundy.",
+      "descriptionDe": "Lege die cremefarbene Kapuze über die Bomberjacke als helle Fläche zwischen Navy und Burgunderrot.",
+      "description": {
+        "ko": "크림 후드를 보머 밖으로 꺼내 네이비와 버건디 사이에 밝은 면을 만들어요.",
+        "en": "Pull the cream hood outside the bomber to add a pale area between navy and burgundy.",
+        "de": "Lege die cremefarbene Kapuze über die Bomberjacke als helle Fläche zwischen Navy und Burgunderrot."
+      },
+      "note": {
+        "ko": "크림 후드를 보머 밖으로 꺼내 네이비와 버건디 사이에 밝은 면을 만들어요.",
+        "en": "Pull the cream hood outside the bomber to add a pale area between navy and burgundy.",
+        "de": "Lege die cremefarbene Kapuze über die Bomberjacke als helle Fläche zwischen Navy und Burgunderrot."
+      },
+      "image": "products/02-top.webp",
+      "altKo": "크림 헤비웨이트 후디 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "cream pullover hoodie with large hood and long sleeves",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-81aa26a3-8d13-4a00-9527-dbbeacaa1645.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "05/products/02-top.webp",
+        "bytes": 30454,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-05.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "그레이 와이드 데님",
+      "nameEn": "Grey wide-leg jeans",
+      "nameDe": "Graue Wide-Leg-Jeans",
+      "name": {
+        "ko": "그레이 와이드 데님",
+        "en": "Grey wide-leg jeans",
+        "de": "Graue Wide-Leg-Jeans"
+      },
+      "descriptionKo": "워싱된 회색 데님을 느슨하게 입어 상체의 짙은 레이어와 대비시켜요.",
+      "descriptionEn": "Wear the washed grey denim loosely to contrast with the darker upper layers.",
+      "descriptionDe": "Trage den verwaschenen grauen Denim locker als Kontrast zu den dunklen oberen Lagen.",
+      "description": {
+        "ko": "워싱된 회색 데님을 느슨하게 입어 상체의 짙은 레이어와 대비시켜요.",
+        "en": "Wear the washed grey denim loosely to contrast with the darker upper layers.",
+        "de": "Trage den verwaschenen grauen Denim locker als Kontrast zu den dunklen oberen Lagen."
+      },
+      "note": {
+        "ko": "워싱된 회색 데님을 느슨하게 입어 상체의 짙은 레이어와 대비시켜요.",
+        "en": "Wear the washed grey denim loosely to contrast with the darker upper layers.",
+        "de": "Trage den verwaschenen grauen Denim locker als Kontrast zu den dunklen oberen Lagen."
+      },
+      "image": "products/03-bottom.webp",
+      "altKo": "그레이 와이드 데님 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "washed medium grey loose wide-leg jeans",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-f1d2b18b-15c3-41f2-b6e0-d60820d8ca81.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "05/products/03-bottom.webp",
+        "bytes": 49784,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-05.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "버건디 청키 니트 머플러",
+      "nameEn": "Burgundy chunky knit scarf",
+      "nameDe": "Burgunderroter Grobstrickschal",
+      "name": {
+        "ko": "버건디 청키 니트 머플러",
+        "en": "Burgundy chunky knit scarf",
+        "de": "Burgunderroter Grobstrickschal"
+      },
+      "descriptionKo": "머플러를 정수리 위로 둘러 머리 양옆을 감싸고 긴 끝은 어깨 뒤로 내려요.",
+      "descriptionEn": "Wrap the scarf over the crown and around the sides of the head, letting the long ends fall behind the shoulders.",
+      "descriptionDe": "Lege den Schal über den Scheitel und seitlich um den Kopf; die langen Enden fallen hinter die Schultern.",
+      "description": {
+        "ko": "머플러를 정수리 위로 둘러 머리 양옆을 감싸고 긴 끝은 어깨 뒤로 내려요.",
+        "en": "Wrap the scarf over the crown and around the sides of the head, letting the long ends fall behind the shoulders.",
+        "de": "Lege den Schal über den Scheitel und seitlich um den Kopf; die langen Enden fallen hinter die Schultern."
+      },
+      "note": {
+        "ko": "머플러를 정수리 위로 둘러 머리 양옆을 감싸고 긴 끝은 어깨 뒤로 내려요.",
+        "en": "Wrap the scarf over the crown and around the sides of the head, letting the long ends fall behind the shoulders.",
+        "de": "Lege den Schal über den Scheitel und seitlich um den Kopf; die langen Enden fallen hinter die Schultern."
+      },
+      "image": "products/04-scarf.webp",
+      "altKo": "버건디 청키 니트 머플러 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "long chunky burgundy knitted scarf with fringed ends, laid out completely as a single scarf",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-c73252cc-14be-4c27-913d-6f8f426e0d01.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "05/products/04-scarf.webp",
+        "bytes": 46972,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-05.04-scarf",
+      "appCategory": "scarf"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "블랙 나일론 메신저백",
+      "nameEn": "Black nylon messenger bag",
+      "nameDe": "Schwarze Nylon-Messengertasche",
+      "name": {
+        "ko": "블랙 나일론 메신저백",
+        "en": "Black nylon messenger bag",
+        "de": "Schwarze Nylon-Messengertasche"
+      },
+      "descriptionKo": "넓은 스트랩을 어깨에 걸어 가방이 옆구리에 오게 하고 머플러 끝을 그 위로 내려요.",
+      "descriptionEn": "Let the wide shoulder strap position the bag at the hip, with the scarf ends falling over it.",
+      "descriptionDe": "Trage den breiten Riemen so, dass die Tasche an der Hüfte sitzt und die Schalenden darüber fallen.",
+      "description": {
+        "ko": "넓은 스트랩을 어깨에 걸어 가방이 옆구리에 오게 하고 머플러 끝을 그 위로 내려요.",
+        "en": "Let the wide shoulder strap position the bag at the hip, with the scarf ends falling over it.",
+        "de": "Trage den breiten Riemen so, dass die Tasche an der Hüfte sitzt und die Schalenden darüber fallen."
+      },
+      "note": {
+        "ko": "넓은 스트랩을 어깨에 걸어 가방이 옆구리에 오게 하고 머플러 끝을 그 위로 내려요.",
+        "en": "Let the wide shoulder strap position the bag at the hip, with the scarf ends falling over it.",
+        "de": "Trage den breiten Riemen so, dass die Tasche an der Hüfte sitzt und die Schalenden darüber fallen."
+      },
+      "image": "products/05-bag.webp",
+      "altKo": "블랙 나일론 메신저백 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "black nylon rectangular messenger bag with flap, two strap buckles and wide webbing shoulder strap",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-7c6a2f72-18b9-47a9-bbb6-7ca95199059a.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "05/products/05-bag.webp",
+        "bytes": 30878,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-05.05-bag",
+      "appCategory": "bag"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드톤 미니 링 귀걸이",
+      "nameEn": "Mini gold-tone hoop earrings",
+      "nameDe": "Goldfarbene Mini-Creolen",
+      "name": {
+        "ko": "골드톤 미니 링 귀걸이",
+        "en": "Mini gold-tone hoop earrings",
+        "de": "Goldfarbene Mini-Creolen"
+      },
+      "descriptionKo": "머플러 가장자리를 귀 뒤로 살짝 넘겨 작은 귀걸이가 보이게 해요.",
+      "descriptionEn": "Ease the scarf edge behind the ear so the tiny hoop remains visible.",
+      "descriptionDe": "Schiebe den Schalrand leicht hinter das Ohr, damit die kleine Creole sichtbar bleibt.",
+      "description": {
+        "ko": "머플러 가장자리를 귀 뒤로 살짝 넘겨 작은 귀걸이가 보이게 해요.",
+        "en": "Ease the scarf edge behind the ear so the tiny hoop remains visible.",
+        "de": "Schiebe den Schalrand leicht hinter das Ohr, damit die kleine Creole sichtbar bleibt."
+      },
+      "note": {
+        "ko": "머플러 가장자리를 귀 뒤로 살짝 넘겨 작은 귀걸이가 보이게 해요.",
+        "en": "Ease the scarf edge behind the ear so the tiny hoop remains visible.",
+        "de": "Schiebe den Schalrand leicht hinter das Ohr, damit die kleine Creole sichtbar bleibt."
+      },
+      "image": "products/06-jewelry.webp",
+      "altKo": "골드톤 미니 링 귀걸이 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "pair of small gold-tone hoop earrings",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-0785dd3d-9f67-4a04-979b-340fa5edfff2.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "05/products/06-jewelry.webp",
+        "bytes": 35582,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-05.06-jewelry",
+      "appCategory": "jewelry"
+    }
+  ],
+  "productCount": 6,
+  "sceneProps": [],
+  "contentType": "ai-styled-concept",
+  "verification": {
+    "productImages": "passed",
+    "alphaAndDimensions": "passed",
+    "fiveBackgroundComposites": "passed",
+    "editorialMasterUnchanged": true,
+    "copyLanguages": [
+      "ko",
+      "en",
+      "de"
+    ],
+    "appMapping": "validated in app runtime",
+    "githubUpload": "pending atomic commit"
+  },
+  "appOutfitId": "bl-light-chilly-f-35-night-street-05",
+  "appStyle": "street",
+  "mappingBuild": "b149",
+  "heroProductId": "04-scarf"
+}

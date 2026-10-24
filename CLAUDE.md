@@ -347,3 +347,8 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## b147 · 흐림 남성 낮 스트리트 06–10 제품 투명 교체 (2026-10-24)
 
 사용자 요청(가져오기·푸시·PR 승인). 기존 `oc15-06…10-street-m` 5룩의 아이보리 바닥 제품 JPG 28장(5/7/5/6/5)을 로컬 `output/background-removal/ready/<06–10>-street/products/*.png`(배경 제거본) 기준 투명 WebP(500×500, 원본 알파 그대로, 새 이미지 생성·배경 제거 없음)로 **교체**: `products/NN-<분류>.webp`, JPG 28장과 rembg 대표 컷 `01-outer.cut.webp` 5장 지움. 룩·아이템 ID, 에디토리얼, ko/en/de 이름·입는 법은 그대로; 아이템 `image`·`alt`("투명 배경의 제품 컷")·`bg` `#F3EFE8`만, `look/cutouts.js` 5행은 아우터 WebP 자체(b145 방식). 3장(07 머플러·08 체크 오버셔츠·10 러너)은 질감 때문에 50KB 초과(63–73KB, 상한 100KB 안). `outfits.js`·`cutouts.js?v=b147`. [검증](design/overcast-male-day-street-06-10-transparent-validation.md).
+
+
+## b149 · Rain / Light / Chilly / Female / 35+ / Night / Street
+
+Five user-approved editorials (red-bomber plant scene and burgundy headscarf final revisions) plus 27 independent transparent WebP products (5/6/6/4/6) mapped through `look/rain-female-night-street.js`, before `look/cutouts.js`. Fixed new IDs `bl-light-chilly-f-35-night-street-01`–`05`, with per-product ko/en/de how-to-wear and article/title/deck/pull/tip. `sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`; existing selection rules and other looks preserved. Hero cutouts reuse the existing alpha WebP files and have HERO/CUTS rows. No source PNG, contact sheet or superseded editorial is committed. Actual temperature is unknown; 7°C is a creative styling input, not live weather. Hidden garment details are marked as inferred. User instructions: `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street/USAGE.md`. Validation: `design/rain-female-night-street-validation.md`.

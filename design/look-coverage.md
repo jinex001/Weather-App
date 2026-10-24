@@ -115,3 +115,8 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 - 5룩 `oc-chilly-m-35-day-street-01`–`05`, 제품 28개(5/6/6/5/6), `look/berlin-complete/Overcast/Chilly/Male/35+/day/street/<01–05>/`. 기존 `oc15-06…10-street-m`(같은 칸, `day/06–10-street/`)은 그대로라 이 칸은 10룩에서 3개를 랜덤으로 고름.
 - 제품은 투명 WebP(500×500, 24–50KB), 에디토리얼 JPG 1024×1536 ≤300KB. 투명 마스터 PNG와 PNG 에디토리얼은 iCloud에만. [검증 기록](overcast-male-day-street-2-validation.md).
 
+
+
+## b149 · Rain / Light / Chilly / Female / 35+ / Night / Street
+
+Five user-approved editorials (red-bomber plant scene and burgundy headscarf final revisions) plus 27 independent transparent WebP products (5/6/6/4/6) mapped through `look/rain-female-night-street.js`, before `look/cutouts.js`. Fixed new IDs `bl-light-chilly-f-35-night-street-01`–`05`, with per-product ko/en/de how-to-wear and article/title/deck/pull/tip. `sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`; existing selection rules and other looks preserved. Hero cutouts reuse the existing alpha WebP files and have HERO/CUTS rows. No source PNG, contact sheet or superseded editorial is committed. Actual temperature is unknown; 7°C is a creative styling input, not live weather. Hidden garment details are marked as inferred. User instructions: `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street/USAGE.md`. Validation: `design/rain-female-night-street-validation.md`.

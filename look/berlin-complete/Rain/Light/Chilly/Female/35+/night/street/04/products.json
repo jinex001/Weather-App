@@ -1,0 +1,327 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "7 C is an approximate creative styling input in the generation prompt, not measured or live weather. Actual temperature not specified."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User approved all five editorials and requested full product breakdown after correcting look 01 to the red-bomber plant scene and look 05 to the burgundy headscarf scene."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "exec-078a19ad-9891-4a28-9a2a-e1503d1a00ac.png",
+  "editorialMasterSha256": "3b6915028847deb1531416580eb6e8a5e5e0670a768e7f73c93e9df0a37d30f0",
+  "copy": {
+    "title": {
+      "ko": "올리브와 흐릿한 유리",
+      "en": "A CLEARER LITTLE MOMENT",
+      "de": "Ein kleiner klarer Moment"
+    },
+    "deck": {
+      "ko": "거친 회색 니트와 매끈한 올리브가 얼굴 가까이에서 만나요.",
+      "en": "Brushed grey knit meets smooth olive close to the face.",
+      "de": "Aufgerauter grauer Strick trifft dicht am Gesicht auf glattes Oliv."
+    },
+    "intro": {
+      "ko": "안경의 빗방울을 닦는 동안 소매 밖으로 나온 니트가 손을 감쌉니다. 후드와 가는 둥근 프레임이 얼굴 주변의 질감을 서로 다르게 잡아 줘요.",
+      "en": "While a raindrop is wiped from the glasses, knit cuffs emerging from the sleeves frame the hands. The hood and fine round frame give the face two contrasting textures.",
+      "de": "Beim Abwischen der Regentropfen rahmen die hervorschauenden Strickbündchen die Hände ein. Kapuze und feine runde Fassung setzen unterschiedliche Strukturen um das Gesicht."
+    },
+    "pull": "KEEP THE TEXTURE CLOSE",
+    "tip": {
+      "ko": "니트 커프스는 손 움직임을 가리지 않을 정도만 밖으로 꺼내요.",
+      "en": "Show just enough knit cuff to reveal the texture without covering the hands.",
+      "de": "Lasse nur so viel Strickbündchen hervorschauen, dass die Struktur sichtbar bleibt und die Hände frei sind."
+    },
+    "headlineEn": "A CLEARER LITTLE MOMENT",
+    "captionKo": "거친 회색 니트와 매끈한 올리브가 얼굴 가까이에서 만나요.",
+    "introKo": "안경의 빗방울을 닦는 동안 소매 밖으로 나온 니트가 손을 감쌉니다. 후드와 가는 둥근 프레임이 얼굴 주변의 질감을 서로 다르게 잡아 줘요.",
+    "pullQuoteEn": "KEEP THE TEXTURE CLOSE",
+    "tipKo": "니트 커프스는 손 움직임을 가리지 않을 정도만 밖으로 꺼내요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "다크 올리브 후디드 재킷",
+      "nameEn": "Dark olive hooded jacket",
+      "nameDe": "Dunkelolivgrüne Kapuzenjacke",
+      "name": {
+        "ko": "다크 올리브 후디드 재킷",
+        "en": "Dark olive hooded jacket",
+        "de": "Dunkelolivgrüne Kapuzenjacke"
+      },
+      "descriptionKo": "후드를 올리고 앞 지퍼를 열어 회색 니트가 얼굴 아래로 이어지게 해요.",
+      "descriptionEn": "Raise the hood and open the front zip so the grey knit frames the area below the face.",
+      "descriptionDe": "Setze die Kapuze auf und öffne den Reißverschluss, damit der graue Strick unter dem Gesicht sichtbar bleibt.",
+      "description": {
+        "ko": "후드를 올리고 앞 지퍼를 열어 회색 니트가 얼굴 아래로 이어지게 해요.",
+        "en": "Raise the hood and open the front zip so the grey knit frames the area below the face.",
+        "de": "Setze die Kapuze auf und öffne den Reißverschluss, damit der graue Strick unter dem Gesicht sichtbar bleibt."
+      },
+      "note": {
+        "ko": "후드를 올리고 앞 지퍼를 열어 회색 니트가 얼굴 아래로 이어지게 해요.",
+        "en": "Raise the hood and open the front zip so the grey knit frames the area below the face.",
+        "de": "Setze die Kapuze auf und öffne den Reißverschluss, damit der graue Strick unter dem Gesicht sichtbar bleibt."
+      },
+      "image": "products/01-outer.webp",
+      "altKo": "다크 올리브 후디드 재킷 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "dark olive hooded padded jacket with snap placket and zipper",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-d96a8b03-3641-4e2e-8a9c-0ed6490a3fe3.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "04/products/01-outer.webp",
+        "bytes": 45008,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-04.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "멜란지 그레이 브러시드 니트",
+      "nameEn": "Mottled grey brushed knit",
+      "nameDe": "Melierter grauer Strickpullover mit aufgerauter Oberfläche",
+      "name": {
+        "ko": "멜란지 그레이 브러시드 니트",
+        "en": "Mottled grey brushed knit",
+        "de": "Melierter grauer Strickpullover mit aufgerauter Oberfläche"
+      },
+      "descriptionKo": "니트 소매를 재킷 커프스 밖으로 조금 꺼내 부드러운 질감을 강조해요.",
+      "descriptionEn": "Let a little knit sleeve extend beyond the jacket cuffs to emphasize the soft texture.",
+      "descriptionDe": "Lasse die Strickärmel etwas über die Jackenbündchen reichen, um die weiche Oberfläche zu betonen.",
+      "description": {
+        "ko": "니트 소매를 재킷 커프스 밖으로 조금 꺼내 부드러운 질감을 강조해요.",
+        "en": "Let a little knit sleeve extend beyond the jacket cuffs to emphasize the soft texture.",
+        "de": "Lasse die Strickärmel etwas über die Jackenbündchen reichen, um die weiche Oberfläche zu betonen."
+      },
+      "note": {
+        "ko": "니트 소매를 재킷 커프스 밖으로 조금 꺼내 부드러운 질감을 강조해요.",
+        "en": "Let a little knit sleeve extend beyond the jacket cuffs to emphasize the soft texture.",
+        "de": "Lasse die Strickärmel etwas über die Jackenbündchen reichen, um die weiche Oberfläche zu betonen."
+      },
+      "image": "products/02-top.webp",
+      "altKo": "멜란지 그레이 브러시드 니트 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "mottled grey brushed chunky knit crewneck sweater with long sleeves",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-3e91ebb0-a5b6-4eec-9e5e-c0b642eec67f.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "04/products/02-top.webp",
+        "bytes": 54610,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-04.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-eyewear",
+      "category": "eyewear",
+      "nameKo": "건메탈 라운드 안경",
+      "nameEn": "Gunmetal round glasses",
+      "nameDe": "Runde Brille in Gunmetal",
+      "name": {
+        "ko": "건메탈 라운드 안경",
+        "en": "Gunmetal round glasses",
+        "de": "Runde Brille in Gunmetal"
+      },
+      "descriptionKo": "가느다란 둥근 프레임을 후드 안쪽에 두어 얼굴 윤곽이 답답해지지 않게 해요.",
+      "descriptionEn": "Keep the fine round frame within the hood opening so the face remains clearly defined.",
+      "descriptionDe": "Die feine runde Fassung bleibt innerhalb der Kapuzenöffnung, damit das Gesicht klar erkennbar ist.",
+      "description": {
+        "ko": "가느다란 둥근 프레임을 후드 안쪽에 두어 얼굴 윤곽이 답답해지지 않게 해요.",
+        "en": "Keep the fine round frame within the hood opening so the face remains clearly defined.",
+        "de": "Die feine runde Fassung bleibt innerhalb der Kapuzenöffnung, damit das Gesicht klar erkennbar ist."
+      },
+      "note": {
+        "ko": "가느다란 둥근 프레임을 후드 안쪽에 두어 얼굴 윤곽이 답답해지지 않게 해요.",
+        "en": "Keep the fine round frame within the hood opening so the face remains clearly defined.",
+        "de": "Die feine runde Fassung bleibt innerhalb der Kapuzenöffnung, damit das Gesicht klar erkennbar ist."
+      },
+      "image": "products/03-eyewear.webp",
+      "altKo": "건메탈 라운드 안경 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "round thin gunmetal eyeglasses with clear lenses, both temples and complete frame visible",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-ffbd8da4-2863-40ab-bd63-aac805b7d395.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "04/products/03-eyewear.webp",
+        "bytes": 32416,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-04.03-eyewear",
+      "appCategory": "eyewear"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "nameKo": "블랙 텍스처 숄더백",
+      "nameEn": "Black textured shoulder bag",
+      "nameDe": "Schwarze strukturierte Schultertasche",
+      "name": {
+        "ko": "블랙 텍스처 숄더백",
+        "en": "Black textured shoulder bag",
+        "de": "Schwarze strukturierte Schultertasche"
+      },
+      "descriptionKo": "넓은 스트랩을 어깨에 걸고 작은 몸판을 재킷 옆에 붙여 두어요.",
+      "descriptionEn": "Wear the wide strap on the shoulder with the compact body tucked beside the jacket.",
+      "descriptionDe": "Trage den breiten Riemen auf der Schulter und die kleine Tasche nah an der Jackenseite.",
+      "description": {
+        "ko": "넓은 스트랩을 어깨에 걸고 작은 몸판을 재킷 옆에 붙여 두어요.",
+        "en": "Wear the wide strap on the shoulder with the compact body tucked beside the jacket.",
+        "de": "Trage den breiten Riemen auf der Schulter und die kleine Tasche nah an der Jackenseite."
+      },
+      "note": {
+        "ko": "넓은 스트랩을 어깨에 걸고 작은 몸판을 재킷 옆에 붙여 두어요.",
+        "en": "Wear the wide strap on the shoulder with the compact body tucked beside the jacket.",
+        "de": "Trage den breiten Riemen auf der Schulter und die kleine Tasche nah an der Jackenseite."
+      },
+      "image": "products/04-bag.webp",
+      "altKo": "블랙 텍스처 숄더백 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "black pebbled leather shoulder bag with black webbing strap and dark rectangular adjuster",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-337c3cab-c919-4ca0-9b9a-78f1f1c0814c.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "04/products/04-bag.webp",
+        "bytes": 40478,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-04.04-bag",
+      "appCategory": "bag"
+    }
+  ],
+  "productCount": 4,
+  "sceneProps": [
+    "lens cleaning cloth"
+  ],
+  "contentType": "ai-styled-concept",
+  "verification": {
+    "productImages": "passed",
+    "alphaAndDimensions": "passed",
+    "fiveBackgroundComposites": "passed",
+    "editorialMasterUnchanged": true,
+    "copyLanguages": [
+      "ko",
+      "en",
+      "de"
+    ],
+    "appMapping": "validated in app runtime",
+    "githubUpload": "pending atomic commit"
+  },
+  "appOutfitId": "bl-light-chilly-f-35-night-street-04",
+  "appStyle": "street",
+  "mappingBuild": "b149",
+  "heroProductId": "01-outer"
+}

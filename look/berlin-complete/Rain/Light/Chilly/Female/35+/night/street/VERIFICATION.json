@@ -1,0 +1,542 @@
+[
+  {
+    "file": "01/products/01-outer.webp",
+    "bytes": 43714,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-da052f6c-944c-40e2-9c4c-17cc83cfa6be.png"
+  },
+  {
+    "file": "01/products/02-top.webp",
+    "bytes": 40108,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-93ef41ba-30d1-453c-b8f3-1835ea4502d6.png"
+  },
+  {
+    "file": "01/products/03-bottom.webp",
+    "bytes": 38266,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-5d3e7a54-eb8c-4d83-bafe-e7be48ed0537.png"
+  },
+  {
+    "file": "01/products/04-bag.webp",
+    "bytes": 47034,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-d99f2db0-79ea-4d64-9b80-aec3d63655a2.png"
+  },
+  {
+    "file": "01/products/05-jewelry.webp",
+    "bytes": 37260,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-dd9e5f53-311d-4e0a-9e0d-de45d274ddf6.png"
+  },
+  {
+    "file": "02/products/01-outer.webp",
+    "bytes": 35316,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-ff7a5759-9d6c-4476-b886-4e97d8a5df3d.png"
+  },
+  {
+    "file": "02/products/02-top.webp",
+    "bytes": 49720,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-536b3109-67a6-43ee-835b-b871e0e81ab9.png"
+  },
+  {
+    "file": "02/products/03-bottom.webp",
+    "bytes": 37292,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-1b3a366d-f500-45bf-8dbe-ad051e6e8c24.png"
+  },
+  {
+    "file": "02/products/04-hat.webp",
+    "bytes": 44650,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-c9d7adb7-a27b-4aea-8a53-87570a9a3fe7.png"
+  },
+  {
+    "file": "02/products/05-bag.webp",
+    "bytes": 42182,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-b38141bf-aeb9-479b-8f95-e34c61b67be9.png"
+  },
+  {
+    "file": "02/products/06-jewelry.webp",
+    "bytes": 35870,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-66d2f49d-64d3-42ac-a713-1215547ed386.png"
+  },
+  {
+    "file": "03/products/01-outer.webp",
+    "bytes": 37720,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-409a5294-01ce-460c-a7af-b9291fdd32fe.png"
+  },
+  {
+    "file": "03/products/02-top.webp",
+    "bytes": 28386,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-b6edc086-c6b0-4a60-a8d6-64f3d732786a.png"
+  },
+  {
+    "file": "03/products/03-bottom.webp",
+    "bytes": 24536,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/rain-street-look03-cargo-master.png"
+  },
+  {
+    "file": "03/products/04-bag.webp",
+    "bytes": 42898,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-e49f68c2-1691-4f09-a325-284f2c05d94c.png"
+  },
+  {
+    "file": "03/products/05-umbrella.webp",
+    "bytes": 21632,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-c067dc86-cc3c-4150-a247-42680d5368ed.png"
+  },
+  {
+    "file": "03/products/06-jewelry.webp",
+    "bytes": 36840,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-3a77ded1-df27-4acc-a323-05571a9f7df3.png"
+  },
+  {
+    "file": "04/products/01-outer.webp",
+    "bytes": 45008,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-d96a8b03-3641-4e2e-8a9c-0ed6490a3fe3.png"
+  },
+  {
+    "file": "04/products/02-top.webp",
+    "bytes": 54610,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-3e91ebb0-a5b6-4eec-9e5e-c0b642eec67f.png"
+  },
+  {
+    "file": "04/products/03-eyewear.webp",
+    "bytes": 32416,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-ffbd8da4-2863-40ab-bd63-aac805b7d395.png"
+  },
+  {
+    "file": "04/products/04-bag.webp",
+    "bytes": 40478,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-337c3cab-c919-4ca0-9b9a-78f1f1c0814c.png"
+  },
+  {
+    "file": "05/products/01-outer.webp",
+    "bytes": 32738,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-4670429d-8eda-45ae-838c-ce8f8dcfc902.png"
+  },
+  {
+    "file": "05/products/02-top.webp",
+    "bytes": 30454,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-81aa26a3-8d13-4a00-9527-dbbeacaa1645.png"
+  },
+  {
+    "file": "05/products/03-bottom.webp",
+    "bytes": 49784,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-f1d2b18b-15c3-41f2-b6e0-d60820d8ca81.png"
+  },
+  {
+    "file": "05/products/04-scarf.webp",
+    "bytes": 46972,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-c73252cc-14be-4c27-913d-6f8f426e0d01.png"
+  },
+  {
+    "file": "05/products/05-bag.webp",
+    "bytes": 30878,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-7c6a2f72-18b9-47a9-bbb6-7ca95199059a.png"
+  },
+  {
+    "file": "05/products/06-jewelry.webp",
+    "bytes": 35582,
+    "size": [
+      500,
+      500
+    ],
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "singleCategoryVisualReview": "passed",
+    "source": "generated_images/exec-0785dd3d-9f67-4a04-979b-340fa5edfff2.png"
+  }
+]

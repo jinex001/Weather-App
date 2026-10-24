@@ -1,0 +1,15 @@
+{
+  "build": "b149",
+  "outfits": 5,
+  "products": 27,
+  "selectionChecks": 864,
+  "changedConditions": 6,
+  "maxProductBytes": 54610,
+  "existingOutfitsPreserved": 145,
+  "existingItemsPreserved": 954,
+  "cardRender": "Unverified: local browser launch restricted; browser policy disallows file URLs. Alpha compositing visually reviewed.",
+  "alphaCorners": "passed",
+  "copy": "ko/en/de unique and matches metadata",
+  "totalOutfits": 150,
+  "totalItems": 981
+}

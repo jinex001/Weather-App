@@ -220,3 +220,8 @@ GPT 제작물을 로컬 Claude Code가 받는 절차는 [IMAGE_INBOX_HANDOFF.md]
 - **같은 칸에 이미 세트가 있을 때**: 기존 `day/06–10-street/`·`oc15-*` ID를 덮어쓰지 않고 새 경로(`<시간>/<스타일>/<번호>/`, 비 세트와 같은 번호 방식)와 새 ID로 더함. 칸 안 후보가 늘고 3개 랜덤은 그대로.
 - 원본이 READY.json 형식(approval.json/master-copy.ko.json 아님)이라 `tools/image-inbox.py`를 쓰지 않고 READY.json 해시를 직접 검증함. 제작 측에 제품별 한국어 입는 법이 없어(틀 문장 description뿐) 사용자 지시에 따라 Claude가 ko/en/de를 씀 — IMAGE_INBOX_HANDOFF의 "한국어 마스터 = GPT" 원칙의 이번 세트 예외. 룩 단위 howToWear(ko 마스터)는 기사 intro로 그대로.
 - [검증 기록](overcast-male-day-street-2-validation.md).
+
+
+## b149 · Rain / Light / Chilly / Female / 35+ / Night / Street
+
+Five user-approved editorials (red-bomber plant scene and burgundy headscarf final revisions) plus 27 independent transparent WebP products (5/6/6/4/6) mapped through `look/rain-female-night-street.js`, before `look/cutouts.js`. Fixed new IDs `bl-light-chilly-f-35-night-street-01`–`05`, with per-product ko/en/de how-to-wear and article/title/deck/pull/tip. `sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`; existing selection rules and other looks preserved. Hero cutouts reuse the existing alpha WebP files and have HERO/CUTS rows. No source PNG, contact sheet or superseded editorial is committed. Actual temperature is unknown; 7°C is a creative styling input, not live weather. Hidden garment details are marked as inferred. User instructions: `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street/USAGE.md`. Validation: `design/rain-female-night-street-validation.md`.

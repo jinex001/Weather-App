@@ -1,0 +1,447 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-02",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "7 C is an approximate creative styling input in the generation prompt, not measured or live weather. Actual temperature not specified."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User approved all five editorials and requested full product breakdown after correcting look 01 to the red-bomber plant scene and look 05 to the burgundy headscarf scene."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "exec-a0618b4c-2dc5-4483-a7a4-a4777e4a7757.png",
+  "editorialMasterSha256": "bc462b37b69b1bd2cad0ac58f0c174e67d22a924fe49349c8ae3945343406160",
+  "copy": {
+    "title": {
+      "ko": "열쇠를 찾는 브라운의 밤",
+      "en": "KEYS AFTER DARK",
+      "de": "Schlüsselsuche nach Einbruch der Dunkelheit"
+    },
+    "deck": {
+      "ko": "어두운 브라운과 오트밀의 대비가 현관 앞 짧은 순간을 포근하게 만들어요.",
+      "en": "Dark brown against oatmeal gives a brief doorstep pause a softer feel.",
+      "de": "Dunkles Braun und Haferfarben geben der kurzen Pause vor der Haustür eine weiche Note."
+    },
+    "intro": {
+      "ko": "가방에서 열쇠를 꺼내는 손 위로 퀼팅과 굵은 골지가 겹칩니다. 가벼운 광택의 아우터 안에 밝은 니트를 놓아 전체가 무겁게 보이지 않도록 했어요.",
+      "en": "Quilting and chunky ribs meet above the hand reaching for the keys. A pale knit inside the slightly lustrous jacket keeps the layered silhouette from feeling heavy.",
+      "de": "Über der Hand, die nach den Schlüsseln greift, treffen Steppung und grober Rippstrick zusammen. Heller Strick unter der leicht glänzenden Jacke lässt die Lagen leichter wirken."
+    },
+    "pull": "TEXTURE TAKES THE LEAD",
+    "tip": {
+      "ko": "니트의 짧은 지퍼를 조금 열어 겹친 칼라 사이에 여백을 만들어요.",
+      "en": "Open the short knit zipper a little to create space between the layered collars.",
+      "de": "Öffne den kurzen Strickreißverschluss etwas, damit zwischen den Kragenlagen Raum bleibt."
+    },
+    "headlineEn": "KEYS AFTER DARK",
+    "captionKo": "어두운 브라운과 오트밀의 대비가 현관 앞 짧은 순간을 포근하게 만들어요.",
+    "introKo": "가방에서 열쇠를 꺼내는 손 위로 퀼팅과 굵은 골지가 겹칩니다. 가벼운 광택의 아우터 안에 밝은 니트를 놓아 전체가 무겁게 보이지 않도록 했어요.",
+    "pullQuoteEn": "TEXTURE TAKES THE LEAD",
+    "tipKo": "니트의 짧은 지퍼를 조금 열어 겹친 칼라 사이에 여백을 만들어요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "에스프레소 퀼팅 재킷",
+      "nameEn": "Espresso quilted jacket",
+      "nameDe": "Espressobraune Steppjacke",
+      "name": {
+        "ko": "에스프레소 퀼팅 재킷",
+        "en": "Espresso quilted jacket",
+        "de": "Espressobraune Steppjacke"
+      },
+      "descriptionKo": "넓은 칼라를 펼치고 앞을 열어 밝은 니트와의 명도 차이를 살려요.",
+      "descriptionEn": "Spread the broad collar and leave the front open to contrast with the pale knit.",
+      "descriptionDe": "Lege den breiten Kragen nach außen und trage die Jacke offen als Kontrast zum hellen Strick.",
+      "description": {
+        "ko": "넓은 칼라를 펼치고 앞을 열어 밝은 니트와의 명도 차이를 살려요.",
+        "en": "Spread the broad collar and leave the front open to contrast with the pale knit.",
+        "de": "Lege den breiten Kragen nach außen und trage die Jacke offen als Kontrast zum hellen Strick."
+      },
+      "note": {
+        "ko": "넓은 칼라를 펼치고 앞을 열어 밝은 니트와의 명도 차이를 살려요.",
+        "en": "Spread the broad collar and leave the front open to contrast with the pale knit.",
+        "de": "Lege den breiten Kragen nach außen und trage die Jacke offen als Kontrast zum hellen Strick."
+      },
+      "image": "products/01-outer.webp",
+      "altKo": "에스프레소 퀼팅 재킷 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "espresso brown oversized quilted padded jacket with broad collar and front zipper",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-ff7a5759-9d6c-4476-b886-4e97d8a5df3d.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "02/products/01-outer.webp",
+        "bytes": 35316,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-02.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "오트밀 하프집 니트",
+      "nameEn": "Oatmeal half-zip knit",
+      "nameDe": "Haferfarbener Troyer",
+      "name": {
+        "ko": "오트밀 하프집 니트",
+        "en": "Oatmeal half-zip knit",
+        "de": "Haferfarbener Troyer"
+      },
+      "descriptionKo": "하프집을 살짝 열어 목선을 만들고 굵은 골지 질감을 드러내요.",
+      "descriptionEn": "Open the half zip slightly to define the neckline and expose the chunky rib texture.",
+      "descriptionDe": "Öffne den kurzen Reißverschluss etwas, um den Halsausschnitt und die grobe Rippstruktur zu betonen.",
+      "description": {
+        "ko": "하프집을 살짝 열어 목선을 만들고 굵은 골지 질감을 드러내요.",
+        "en": "Open the half zip slightly to define the neckline and expose the chunky rib texture.",
+        "de": "Öffne den kurzen Reißverschluss etwas, um den Halsausschnitt und die grobe Rippstruktur zu betonen."
+      },
+      "note": {
+        "ko": "하프집을 살짝 열어 목선을 만들고 굵은 골지 질감을 드러내요.",
+        "en": "Open the half zip slightly to define the neckline and expose the chunky rib texture.",
+        "de": "Öffne den kurzen Reißverschluss etwas, um den Halsausschnitt und die grobe Rippstruktur zu betonen."
+      },
+      "image": "products/02-top.webp",
+      "altKo": "오트밀 하프집 니트 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "oatmeal chunky rib-knit half zip sweater with standing collar",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-536b3109-67a6-43ee-835b-b871e0e81ab9.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "02/products/02-top.webp",
+        "bytes": 49720,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-02.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "워시드 차콜 와이드 데님",
+      "nameEn": "Washed charcoal wide-leg jeans",
+      "nameDe": "Verwaschene anthrazitfarbene Wide-Leg-Jeans",
+      "name": {
+        "ko": "워시드 차콜 와이드 데님",
+        "en": "Washed charcoal wide-leg jeans",
+        "de": "Verwaschene anthrazitfarbene Wide-Leg-Jeans"
+      },
+      "descriptionKo": "워싱된 차콜 톤으로 브라운 아우터와 밝은 니트 사이를 차분하게 연결해요.",
+      "descriptionEn": "Use the washed charcoal tone to ground the contrast between brown outerwear and pale knitwear.",
+      "descriptionDe": "Der verwaschene Anthrazitton erdet den Kontrast zwischen brauner Jacke und hellem Strick.",
+      "description": {
+        "ko": "워싱된 차콜 톤으로 브라운 아우터와 밝은 니트 사이를 차분하게 연결해요.",
+        "en": "Use the washed charcoal tone to ground the contrast between brown outerwear and pale knitwear.",
+        "de": "Der verwaschene Anthrazitton erdet den Kontrast zwischen brauner Jacke und hellem Strick."
+      },
+      "note": {
+        "ko": "워싱된 차콜 톤으로 브라운 아우터와 밝은 니트 사이를 차분하게 연결해요.",
+        "en": "Use the washed charcoal tone to ground the contrast between brown outerwear and pale knitwear.",
+        "de": "Der verwaschene Anthrazitton erdet den Kontrast zwischen brauner Jacke und hellem Strick."
+      },
+      "image": "products/03-bottom.webp",
+      "altKo": "워시드 차콜 와이드 데님 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "washed charcoal relaxed wide-leg jeans",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-1b3a366d-f500-45bf-8dbe-ad051e6e8c24.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "02/products/03-bottom.webp",
+        "bytes": 37292,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-02.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-hat",
+      "category": "hat",
+      "nameKo": "그레이 골지 비니",
+      "nameEn": "Grey ribbed beanie",
+      "nameDe": "Graue Rippstrickmütze",
+      "name": {
+        "ko": "그레이 골지 비니",
+        "en": "Grey ribbed beanie",
+        "de": "Graue Rippstrickmütze"
+      },
+      "descriptionKo": "접힌 끝을 이마 가까이 내려 짧은 컬이 가장자리에서 살짝 나오게 써요.",
+      "descriptionEn": "Wear the folded cuff low on the forehead with short curls peeking around the edge.",
+      "descriptionDe": "Ziehe den Umschlag bis zur Stirn und lasse kurze Locken am Rand hervorschauen.",
+      "description": {
+        "ko": "접힌 끝을 이마 가까이 내려 짧은 컬이 가장자리에서 살짝 나오게 써요.",
+        "en": "Wear the folded cuff low on the forehead with short curls peeking around the edge.",
+        "de": "Ziehe den Umschlag bis zur Stirn und lasse kurze Locken am Rand hervorschauen."
+      },
+      "note": {
+        "ko": "접힌 끝을 이마 가까이 내려 짧은 컬이 가장자리에서 살짝 나오게 써요.",
+        "en": "Wear the folded cuff low on the forehead with short curls peeking around the edge.",
+        "de": "Ziehe den Umschlag bis zur Stirn und lasse kurze Locken am Rand hervorschauen."
+      },
+      "image": "products/04-hat.webp",
+      "altKo": "그레이 골지 비니 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "grey rib-knit cuffed beanie",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-c9d7adb7-a27b-4aea-8a53-87570a9a3fe7.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "02/products/04-hat.webp",
+        "bytes": 44650,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-02.04-hat",
+      "appCategory": "headwear"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "블랙 크레센트 숄더백",
+      "nameEn": "Black crescent shoulder bag",
+      "nameDe": "Schwarze halbmondförmige Schultertasche",
+      "name": {
+        "ko": "블랙 크레센트 숄더백",
+        "en": "Black crescent shoulder bag",
+        "de": "Schwarze halbmondförmige Schultertasche"
+      },
+      "descriptionKo": "곡선형 몸판을 몸 앞쪽으로 당겨 지퍼를 열기 편하게 메어요.",
+      "descriptionEn": "Bring the curved body to the front so the top zipper stays within easy reach.",
+      "descriptionDe": "Ziehe den gebogenen Taschenkörper nach vorn, damit der obere Reißverschluss leicht erreichbar bleibt.",
+      "description": {
+        "ko": "곡선형 몸판을 몸 앞쪽으로 당겨 지퍼를 열기 편하게 메어요.",
+        "en": "Bring the curved body to the front so the top zipper stays within easy reach.",
+        "de": "Ziehe den gebogenen Taschenkörper nach vorn, damit der obere Reißverschluss leicht erreichbar bleibt."
+      },
+      "note": {
+        "ko": "곡선형 몸판을 몸 앞쪽으로 당겨 지퍼를 열기 편하게 메어요.",
+        "en": "Bring the curved body to the front so the top zipper stays within easy reach.",
+        "de": "Ziehe den gebogenen Taschenkörper nach vorn, damit der obere Reißverschluss leicht erreichbar bleibt."
+      },
+      "image": "products/05-bag.webp",
+      "altKo": "블랙 크레센트 숄더백 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "black pebbled leather crescent shoulder bag with zip top and wide strap",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-b38141bf-aeb9-479b-8f95-e34c61b67be9.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "02/products/05-bag.webp",
+        "bytes": 42182,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-02.05-bag",
+      "appCategory": "bag"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드톤 스몰 후프",
+      "nameEn": "Small gold-tone hoop earrings",
+      "nameDe": "Kleine goldfarbene Creolen",
+      "name": {
+        "ko": "골드톤 스몰 후프",
+        "en": "Small gold-tone hoop earrings",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "descriptionKo": "비니 아래 드러나는 귀에 작은 후프만 더해 니트 질감과 균형을 잡아요.",
+      "descriptionEn": "Keep the hoops small below the beanie to balance the textured knitwear.",
+      "descriptionDe": "Wähle unter der Mütze kleine Creolen als ruhigen Akzent zum strukturierten Strick.",
+      "description": {
+        "ko": "비니 아래 드러나는 귀에 작은 후프만 더해 니트 질감과 균형을 잡아요.",
+        "en": "Keep the hoops small below the beanie to balance the textured knitwear.",
+        "de": "Wähle unter der Mütze kleine Creolen als ruhigen Akzent zum strukturierten Strick."
+      },
+      "note": {
+        "ko": "비니 아래 드러나는 귀에 작은 후프만 더해 니트 질감과 균형을 잡아요.",
+        "en": "Keep the hoops small below the beanie to balance the textured knitwear.",
+        "de": "Wähle unter der Mütze kleine Creolen als ruhigen Akzent zum strukturierten Strick."
+      },
+      "image": "products/06-jewelry.webp",
+      "altKo": "골드톤 스몰 후프 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "pair of small gold-tone hoop earrings",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-66d2f49d-64d3-42ac-a713-1215547ed386.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "02/products/06-jewelry.webp",
+        "bytes": 35870,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-02.06-jewelry",
+      "appCategory": "jewelry"
+    }
+  ],
+  "productCount": 6,
+  "sceneProps": [
+    "keyring"
+  ],
+  "contentType": "ai-styled-concept",
+  "verification": {
+    "productImages": "passed",
+    "alphaAndDimensions": "passed",
+    "fiveBackgroundComposites": "passed",
+    "editorialMasterUnchanged": true,
+    "copyLanguages": [
+      "ko",
+      "en",
+      "de"
+    ],
+    "appMapping": "validated in app runtime",
+    "githubUpload": "pending atomic commit"
+  },
+  "appOutfitId": "bl-light-chilly-f-35-night-street-02",
+  "appStyle": "street",
+  "mappingBuild": "b149",
+  "heroProductId": "01-outer"
+}

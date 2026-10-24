@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "1.0",
+  "id": "bl-light-chilly-f-35-night-street-03",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 7,
+    "feelsLikeBand": "chilly",
+    "temperatureEvidence": "7 C is an approximate creative styling input in the generation prompt, not measured or live weather. Actual temperature not specified."
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": 30,
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User approved all five editorials and requested full product breakdown after correcting look 01 to the red-bomber plant scene and look 05 to the burgundy headscarf scene."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "editorialImage": "editorial.jpg",
+  "editorialMaster": "exec-9df16eb0-c2a8-4a93-8cd1-395f1eabbab7.png",
+  "editorialMasterSha256": "d45537f8119c2020d9afd93d32e7d93561d6fb2cd2910260cb7506aa85a11b82",
+  "copy": {
+    "title": {
+      "ko": "우산 아래 코발트",
+      "en": "ROOM UNDER THE UMBRELLA",
+      "de": "Platz unter dem Regenschirm"
+    },
+    "deck": {
+      "ko": "선명한 파랑에 깊은 버건디를 교차시켜 밤의 레이어에 리듬을 줘요.",
+      "en": "Vivid blue crossed with deep burgundy brings rhythm to the nighttime layers.",
+      "de": "Leuchtendes Blau und tiefes Burgunderrot bringen Rhythmus in die nächtlichen Lagen."
+    },
+    "intro": {
+      "ko": "동행에게 우산을 기울이는 순간, 코발트 앞단 사이로 차콜이 드러나요. 몸을 가로지르는 버건디 스트랩이 넉넉한 실루엣을 가볍게 나눕니다.",
+      "en": "As the umbrella tilts toward a companion, charcoal appears between the cobalt front panels. The burgundy strap crosses the body and breaks up the generous silhouette.",
+      "de": "Als sich der Schirm zur Begleitperson neigt, erscheint Anthrazit zwischen den kobaltblauen Vorderteilen. Der burgunderrote Riemen teilt die großzügige Silhouette diagonal."
+    },
+    "pull": "BOLD OUTSIDE, QUIET INSIDE",
+    "tip": {
+      "ko": "파카를 열었을 때 보이는 이너는 어두운 단색으로 정리해요.",
+      "en": "Keep the layer visible inside the open parka in one dark colour.",
+      "de": "Halte die sichtbare innere Lage des offenen Parkas in einem dunklen Farbton."
+    },
+    "headlineEn": "ROOM UNDER THE UMBRELLA",
+    "captionKo": "선명한 파랑에 깊은 버건디를 교차시켜 밤의 레이어에 리듬을 줘요.",
+    "introKo": "동행에게 우산을 기울이는 순간, 코발트 앞단 사이로 차콜이 드러나요. 몸을 가로지르는 버건디 스트랩이 넉넉한 실루엣을 가볍게 나눕니다.",
+    "pullQuoteEn": "BOLD OUTSIDE, QUIET INSIDE",
+    "tipKo": "파카를 열었을 때 보이는 이너는 어두운 단색으로 정리해요."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코발트 후디드 파카",
+      "nameEn": "Cobalt hooded parka",
+      "nameDe": "Kobaltblaue Kapuzenparka",
+      "name": {
+        "ko": "코발트 후디드 파카",
+        "en": "Cobalt hooded parka",
+        "de": "Kobaltblaue Kapuzenparka"
+      },
+      "descriptionKo": "스냅 앞단을 열어 어두운 후디를 드러내고 코발트 면적을 양옆으로 나눠요.",
+      "descriptionEn": "Leave the snap front open so the dark hoodie breaks up the cobalt panels.",
+      "descriptionDe": "Lasse die Druckknopfleiste offen, damit der dunkle Hoodie die kobaltblauen Flächen auflockert.",
+      "description": {
+        "ko": "스냅 앞단을 열어 어두운 후디를 드러내고 코발트 면적을 양옆으로 나눠요.",
+        "en": "Leave the snap front open so the dark hoodie breaks up the cobalt panels.",
+        "de": "Lasse die Druckknopfleiste offen, damit der dunkle Hoodie die kobaltblauen Flächen auflockert."
+      },
+      "note": {
+        "ko": "스냅 앞단을 열어 어두운 후디를 드러내고 코발트 면적을 양옆으로 나눠요.",
+        "en": "Leave the snap front open so the dark hoodie breaks up the cobalt panels.",
+        "de": "Lasse die Druckknopfleiste offen, damit der dunkle Hoodie die kobaltblauen Flächen auflockert."
+      },
+      "image": "products/01-outer.webp",
+      "altKo": "코발트 후디드 파카 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "cobalt blue matte hooded rain parka with black snap front and patch pockets",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-409a5294-01ce-460c-a7af-b9291fdd32fe.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "03/products/01-outer.webp",
+        "bytes": 37720,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-03.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "다크 차콜 풀오버 후디",
+      "nameEn": "Dark charcoal pullover hoodie",
+      "nameDe": "Dunkler anthrazitfarbener Kapuzenpullover",
+      "name": {
+        "ko": "다크 차콜 풀오버 후디",
+        "en": "Dark charcoal pullover hoodie",
+        "de": "Dunkler anthrazitfarbener Kapuzenpullover"
+      },
+      "descriptionKo": "후드를 파카 목선 밖에 겹쳐 부드러운 스웨트 질감을 보여줘요.",
+      "descriptionEn": "Layer the hood outside the parka neckline to reveal its soft sweatshirt texture.",
+      "descriptionDe": "Lege die Kapuze über den Parkaausschnitt, damit die weiche Sweatstruktur sichtbar wird.",
+      "description": {
+        "ko": "후드를 파카 목선 밖에 겹쳐 부드러운 스웨트 질감을 보여줘요.",
+        "en": "Layer the hood outside the parka neckline to reveal its soft sweatshirt texture.",
+        "de": "Lege die Kapuze über den Parkaausschnitt, damit die weiche Sweatstruktur sichtbar wird."
+      },
+      "note": {
+        "ko": "후드를 파카 목선 밖에 겹쳐 부드러운 스웨트 질감을 보여줘요.",
+        "en": "Layer the hood outside the parka neckline to reveal its soft sweatshirt texture.",
+        "de": "Lege die Kapuze über den Parkaausschnitt, damit die weiche Sweatstruktur sichtbar wird."
+      },
+      "image": "products/02-top.webp",
+      "altKo": "다크 차콜 풀오버 후디 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "charcoal pullover hoodie with drawstrings and kangaroo pocket",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-b6edc086-c6b0-4a60-a8d6-64f3d732786a.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "03/products/02-top.webp",
+        "bytes": 28386,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-03.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 카고 팬츠",
+      "nameEn": "Charcoal cargo trousers",
+      "nameDe": "Anthrazitfarbene Cargohose",
+      "name": {
+        "ko": "차콜 카고 팬츠",
+        "en": "Charcoal cargo trousers",
+        "de": "Anthrazitfarbene Cargohose"
+      },
+      "descriptionKo": "허벅지 포켓이 보이도록 파카 앞을 열고 여유 있는 하의 볼륨을 유지해요.",
+      "descriptionEn": "Keep the parka open to reveal the thigh pockets and preserve the relaxed trouser volume.",
+      "descriptionDe": "Trage den Parka offen, sodass die Oberschenkeltaschen und die lockere Hosenweite sichtbar bleiben.",
+      "description": {
+        "ko": "허벅지 포켓이 보이도록 파카 앞을 열고 여유 있는 하의 볼륨을 유지해요.",
+        "en": "Keep the parka open to reveal the thigh pockets and preserve the relaxed trouser volume.",
+        "de": "Trage den Parka offen, sodass die Oberschenkeltaschen und die lockere Hosenweite sichtbar bleiben."
+      },
+      "note": {
+        "ko": "허벅지 포켓이 보이도록 파카 앞을 열고 여유 있는 하의 볼륨을 유지해요.",
+        "en": "Keep the parka open to reveal the thigh pockets and preserve the relaxed trouser volume.",
+        "de": "Trage den Parka offen, sodass die Oberschenkeltaschen und die lockere Hosenweite sichtbar bleiben."
+      },
+      "image": "products/03-bottom.webp",
+      "altKo": "차콜 카고 팬츠 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "charcoal loose cargo trousers with thigh flap pockets",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "rain-street-look03-cargo-master.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "03/products/03-bottom.webp",
+        "bytes": 24536,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-03.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "nameKo": "버건디 플랩 크로스백",
+      "nameEn": "Burgundy flap crossbody bag",
+      "nameDe": "Burgunderrote Umhängetasche mit Klappe",
+      "name": {
+        "ko": "버건디 플랩 크로스백",
+        "en": "Burgundy flap crossbody bag",
+        "de": "Burgunderrote Umhängetasche mit Klappe"
+      },
+      "descriptionKo": "코발트 아우터 위로 스트랩을 대각선으로 걸어 버건디 몸판을 허리 옆에 놓아요.",
+      "descriptionEn": "Cross the strap over the cobalt outer layer and let the burgundy body sit beside the waist.",
+      "descriptionDe": "Führe den Riemen diagonal über den kobaltblauen Parka und platziere die burgunderrote Tasche seitlich an der Taille.",
+      "description": {
+        "ko": "코발트 아우터 위로 스트랩을 대각선으로 걸어 버건디 몸판을 허리 옆에 놓아요.",
+        "en": "Cross the strap over the cobalt outer layer and let the burgundy body sit beside the waist.",
+        "de": "Führe den Riemen diagonal über den kobaltblauen Parka und platziere die burgunderrote Tasche seitlich an der Taille."
+      },
+      "note": {
+        "ko": "코발트 아우터 위로 스트랩을 대각선으로 걸어 버건디 몸판을 허리 옆에 놓아요.",
+        "en": "Cross the strap over the cobalt outer layer and let the burgundy body sit beside the waist.",
+        "de": "Führe den Riemen diagonal über den kobaltblauen Parka und platziere die burgunderrote Tasche seitlich an der Taille."
+      },
+      "image": "products/04-bag.webp",
+      "altKo": "버건디 플랩 크로스백 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "burgundy leather rectangular crossbody satchel with flap and slim strap, gold-tone attachments",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-e49f68c2-1691-4f09-a325-284f2c05d94c.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "03/products/04-bag.webp",
+        "bytes": 42898,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-03.04-bag",
+      "appCategory": "bag"
+    },
+    {
+      "id": "05-umbrella",
+      "category": "umbrella",
+      "nameKo": "블랙 커브 핸들 우산",
+      "nameEn": "Black curved-handle umbrella",
+      "nameDe": "Schwarzer Regenschirm mit gebogenem Griff",
+      "name": {
+        "ko": "블랙 커브 핸들 우산",
+        "en": "Black curved-handle umbrella",
+        "de": "Schwarzer Regenschirm mit gebogenem Griff"
+      },
+      "descriptionKo": "우산을 몸 옆으로 기울여 얼굴을 가리지 않고 동행 쪽 공간을 넓혀요.",
+      "descriptionEn": "Angle the umbrella to the side, keeping the face clear while making room for a companion.",
+      "descriptionDe": "Neige den Schirm zur Seite, damit das Gesicht frei bleibt und eine Begleitperson Platz findet.",
+      "description": {
+        "ko": "우산을 몸 옆으로 기울여 얼굴을 가리지 않고 동행 쪽 공간을 넓혀요.",
+        "en": "Angle the umbrella to the side, keeping the face clear while making room for a companion.",
+        "de": "Neige den Schirm zur Seite, damit das Gesicht frei bleibt und eine Begleitperson Platz findet."
+      },
+      "note": {
+        "ko": "우산을 몸 옆으로 기울여 얼굴을 가리지 않고 동행 쪽 공간을 넓혀요.",
+        "en": "Angle the umbrella to the side, keeping the face clear while making room for a companion.",
+        "de": "Neige den Schirm zur Seite, damit das Gesicht frei bleibt und eine Begleitperson Platz findet."
+      },
+      "image": "products/05-umbrella.webp",
+      "altKo": "블랙 커브 핸들 우산 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "black full size umbrella with curved black handle, show complete open umbrella in a three-quarter product angle",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-c067dc86-cc3c-4150-a247-42680d5368ed.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "03/products/05-umbrella.webp",
+        "bytes": 21632,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-03.05-umbrella",
+      "appCategory": "accessory"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드톤 라운드 후프",
+      "nameEn": "Gold-tone round hoops",
+      "nameDe": "Goldfarbene runde Creolen",
+      "name": {
+        "ko": "골드톤 라운드 후프",
+        "en": "Gold-tone round hoops",
+        "de": "Goldfarbene runde Creolen"
+      },
+      "descriptionKo": "단발 옆으로 후프가 드러나게 해 강한 아우터 컬러에 작은 광택을 더해요.",
+      "descriptionEn": "Let the hoops show beside the bob for a small metallic accent against the bold outerwear.",
+      "descriptionDe": "Lasse die Creolen neben dem Bob sichtbar, um der kräftigen Jackenfarbe einen kleinen Glanzpunkt zu geben.",
+      "description": {
+        "ko": "단발 옆으로 후프가 드러나게 해 강한 아우터 컬러에 작은 광택을 더해요.",
+        "en": "Let the hoops show beside the bob for a small metallic accent against the bold outerwear.",
+        "de": "Lasse die Creolen neben dem Bob sichtbar, um der kräftigen Jackenfarbe einen kleinen Glanzpunkt zu geben."
+      },
+      "note": {
+        "ko": "단발 옆으로 후프가 드러나게 해 강한 아우터 컬러에 작은 광택을 더해요.",
+        "en": "Let the hoops show beside the bob for a small metallic accent against the bold outerwear.",
+        "de": "Lasse die Creolen neben dem Bob sichtbar, um der kräftigen Jackenfarbe einen kleinen Glanzpunkt zu geben."
+      },
+      "image": "products/06-jewelry.webp",
+      "altKo": "골드톤 라운드 후프 — 투명 배경 개별 제품 컷",
+      "reconstruction": "partially-visible-reconstructed",
+      "observedEvidence": "pair of small gold-tone hoop earrings",
+      "inferredElements": "Occluded back, closures, garment length, opposite earring and hidden construction are conservative concept reconstructions; not verified merchandise specifications.",
+      "productionNoteKo": "실제 혼용률·가죽 진위·금속·방수 성능은 확인되지 않음. 보이지 않는 구조와 전체 길이는 추정 복원.",
+      "masterImage": "exec-3a77ded1-df27-4acc-a323-05571a9f7df3.png",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "productImageQa": {
+        "file": "03/products/06-jewelry.webp",
+        "bytes": 36840,
+        "size": [
+          500,
+          500
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "singleCategoryVisualReview": "passed",
+        "edgeCompositeReview": "passed: white, ivory, grey, navy and black",
+        "singleCategory": true
+      },
+      "appItemId": "bl-light-chilly-f-35-night-street-03.06-jewelry",
+      "appCategory": "jewelry"
+    }
+  ],
+  "productCount": 6,
+  "sceneProps": [],
+  "contentType": "ai-styled-concept",
+  "verification": {
+    "productImages": "passed",
+    "alphaAndDimensions": "passed",
+    "fiveBackgroundComposites": "passed",
+    "editorialMasterUnchanged": true,
+    "copyLanguages": [
+      "ko",
+      "en",
+      "de"
+    ],
+    "appMapping": "validated in app runtime",
+    "githubUpload": "pending atomic commit"
+  },
+  "appOutfitId": "bl-light-chilly-f-35-night-street-03",
+  "appStyle": "street",
+  "mappingBuild": "b149",
+  "heroProductId": "05-umbrella"
+}
