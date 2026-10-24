@@ -343,3 +343,7 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## b146 · 장신구 입는 법 따로따로 (2026-10-24)
 
 사용자 요청. 5-1장 점검으로 기존 세트를 훑다가 찾은 것: 같은 룩 안 장신구가 한 문장을 같이 쓰고 있었음 — 맑은 날 여성 저녁 스트리트 10(반지 3개 "단순한 밴드 링 하나로…"), 맑은 날 남성 낮 스트리트 06(목걸이·팔찌·반지)·08(목걸이·팔찌) "작은 금속 톤 포인트로…". 에디토리얼을 보고 장신구 9개(10번 귀걸이 포함)의 입는 법을 ko/en/de로 각각 새로 씀(`look/outfits.js`, `look/sunny-male-day-street.js`, 각 products.json `description*`·`howToWear*`). 이름·ID·사진은 그대로. 이제 기사 룩 145개 모두 룩 안에 같은 입는 법 없음. 같은 날 올라온 b145(흐린 날 남성 낮 스트리트 2세트)도 5-1장 점검 통과(투명 WebP 28장 500×500·알파·≤50KB, 문구 중복 없음, 대표 컷 있음). `outfits.js?v=b146`, `sunny-male-day-street.js?v=b146`.
+
+## b147 · 흐림 남성 낮 스트리트 06–10 제품 투명 교체 (2026-10-24)
+
+사용자 요청(가져오기·푸시·PR 승인). 기존 `oc15-06…10-street-m` 5룩의 아이보리 바닥 제품 JPG 28장(5/7/5/6/5)을 로컬 `output/background-removal/ready/<06–10>-street/products/*.png`(배경 제거본) 기준 투명 WebP(500×500, 원본 알파 그대로, 새 이미지 생성·배경 제거 없음)로 **교체**: `products/NN-<분류>.webp`, JPG 28장과 rembg 대표 컷 `01-outer.cut.webp` 5장 지움. 룩·아이템 ID, 에디토리얼, ko/en/de 이름·입는 법은 그대로; 아이템 `image`·`alt`("투명 배경의 제품 컷")·`bg` `#F3EFE8`만, `look/cutouts.js` 5행은 아우터 WebP 자체(b145 방식). 3장(07 머플러·08 체크 오버셔츠·10 러너)은 질감 때문에 50KB 초과(63–73KB, 상한 100KB 안). `outfits.js`·`cutouts.js?v=b147`. [검증](design/overcast-male-day-street-06-10-transparent-validation.md).

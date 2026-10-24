@@ -14,7 +14,7 @@
 | 맑음 | 남 | 저녁 | 5 기사 (b132) | 5 기사 (b131, 30제품) | 5 기사 (b130) | `Sunny/Chilly/Male/35+/night/` |
 | 맑음 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Sunny/Chilly/Female/35+/day/` (b124) |
 | 맑음 | 여 | 저녁 | 5 기사 (b138, 40제품, 홈 컷 b139) | 5 기사 (b140, 42제품) | 5 기사 (b129) | `Sunny/Chilly/Female/35+/night/` |
-| 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` + b145 두 번째 세트 28제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
+| 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` 28제품 b147에 투명 WebP로 교체 + b145 두 번째 세트 28제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
 | 흐림 | 남 | 저녁 | **✕** | 5 기사 (b143, 21제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/night/<06–10-street · minimal>/` |
 | 흐림 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/day/` |
 | 흐림 | 여 | 저녁 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/night/` |

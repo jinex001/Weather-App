@@ -94,7 +94,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | 맑음 | 여 | 낮 | `Sunny/Chilly/Female/35+/day/` (사진 `NN-<스타일>.jpg`, 제품 `NN-<스타일>/products/`) | `bd15-NN-<스타일>-f` | 제품 카드 기사 (b124, 문구 3개 언어 제작 측 그대로) |
 | 맑음 | 남 | 저녁 | `Sunny/Chilly/Male/35+/night/` | `bn15-NN-<스타일>-m` | 러닝 01–05 (b132)·스트리트 06–10 (b131)·미니멀 11–15 (b130) 제품 카드 기사 |
 | 맑음 | 여 | 저녁 | `Sunny/Chilly/Female/35+/night/` | `bn15-NN-<스타일>-f` | 러닝 01–05 제품 카드 기사 (b138, 40제품), 미니멀 11–15 제품 카드 기사 (b129), 스트리트 06–10 제품 카드 기사 (b140, 42제품) |
-| 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 |
+| 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/` | `oc15-NN-<스타일>-m` | 제품 카드 기사 (스트리트 06–10 제품 28개는 b147부터 투명 WebP `products/NN-<분류>.webp`, 대표 컷 = 아우터 WebP 자체) |
 | 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/street/01–05/` | `oc-chilly-m-35-day-street-NN` (스트리트 두 번째 세트 5, b145, 보충 파일 `look/overcast-male-day-street.js`) | 제품 카드 기사 + 인용구 + 팁, 제품 투명 WebP |
 | 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
 | 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/` | `ofn-NN-<스타일>-f` | 제품 카드 기사 |
