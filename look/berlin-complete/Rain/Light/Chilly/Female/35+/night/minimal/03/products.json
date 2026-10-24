@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "editorialImage": "editorial.jpg",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "03-01-outer",
+      "category": "outer",
+      "nameKo": "초콜릿 브라운 코트 — 단추 수정본",
+      "nameEn": "Chocolate brown coat — button correction",
+      "nameDe": "Schokoladenbrauner Mantel — Knopfkorrektur",
+      "descriptionEn": "User-requested product revision: remove the extra far-right chest button while preserving the supplied coat.",
+      "image": "products/01-outer.webp",
+      "altKo": "초콜릿 브라운 코트 — 단추 수정본",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "User supplied a belted double-breasted product revision differing from the original editorial coat. Extra far-right chest button removed as requested. Keep for review before app mapping.",
+      "appEligible": true
+    },
+    {
+      "id": "03-02-top",
+      "category": "top",
+      "nameKo": "오트밀 골지 크루넥 니트",
+      "nameEn": "Oatmeal ribbed crewneck",
+      "nameDe": "Gerippter Rundhalspullover in Haferbeige",
+      "descriptionEn": "Let the oatmeal neckline and cuffs show against the open dark brown coat.",
+      "image": "products/02-top.webp",
+      "altKo": "오트밀 골지 크루넥 니트",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "03-03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 스트레이트 팬츠",
+      "nameEn": "Black straight-leg trousers",
+      "nameDe": "Schwarze gerade Stoffhose",
+      "descriptionEn": "Keep the dark straight leg uninterrupted below the textured knit and coat.",
+      "image": "products/03-bottom.webp",
+      "altKo": "블랙 스트레이트 팬츠",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "03-04-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 라운드토 앵클부츠",
+      "nameEn": "Black round-toe ankle boots",
+      "nameDe": "Schwarze Stiefeletten mit runder Kappe",
+      "descriptionEn": "Wear the rounded toe under the trouser hem, with the shaft mostly covered.",
+      "image": "products/04-shoes.webp",
+      "altKo": "블랙 라운드토 앵클부츠",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "03-05-bag",
+      "category": "bag",
+      "nameKo": "블랙 직사각 숄더백",
+      "nameEn": "Black rectangular shoulder bag",
+      "nameDe": "Schwarze rechteckige Schultertasche",
+      "descriptionEn": "Let the long slim strap sit on the shoulder and keep the rectangular body beside the hip.",
+      "image": "products/05-bag.webp",
+      "altKo": "블랙 직사각 숄더백",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "03-06-accessory",
+      "category": "accessory",
+      "nameKo": "토프 접이식 우산",
+      "nameEn": "Taupe folding umbrella",
+      "nameDe": "Taupefarbener Taschenschirm",
+      "descriptionEn": "Hold the closed umbrella away from the coat so droplets fall clear of the knit.",
+      "image": "products/06-accessory.webp",
+      "altKo": "토프 접이식 우산",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    }
+  ],
+  "productionStatus": "review",
+  "mappingStatus": "pending",
+  "reviewNotes": [
+    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
+    "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
+    "The glasses cloth is a scene prop and is excluded from clothing selection."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "editorialImage": "editorial.jpg",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-01-outer",
+      "category": "outer",
+      "nameKo": "차콜 오버사이즈 코트",
+      "nameEn": "Charcoal oversized coat",
+      "nameDe": "Oversize-Mantel in Anthrazit",
+      "descriptionEn": "Wear the front open so the ivory knit remains visible between the lapels.",
+      "image": "products/01-outer.webp",
+      "altKo": "차콜 오버사이즈 코트",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "01-02-top",
+      "category": "top",
+      "nameKo": "아이보리 골지 터틀넥",
+      "nameEn": "Ivory ribbed turtleneck",
+      "nameDe": "Gerippter Rollkragenpullover in Elfenbein",
+      "descriptionEn": "Fold the high collar softly and let the ribbed cuffs extend beyond the coat sleeves.",
+      "image": "products/02-top.webp",
+      "altKo": "아이보리 골지 터틀넥",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "01-03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 와이드 팬츠",
+      "nameEn": "Charcoal wide-leg trousers",
+      "nameDe": "Weite Hose in Anthrazit",
+      "descriptionEn": "Keep the full leg relaxed beneath the long coat, with the hem meeting the boots.",
+      "image": "products/03-bottom.webp",
+      "altKo": "차콜 와이드 팬츠",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "01-04-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 스퀘어토 앵클부츠",
+      "nameEn": "Black square-toe ankle boots",
+      "nameDe": "Schwarze Stiefeletten mit eckiger Kappe",
+      "descriptionEn": "Let the trouser hem overlap the shaft while the squared toe stays visible.",
+      "image": "products/04-shoes.webp",
+      "altKo": "블랙 스퀘어토 앵클부츠",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "01-05-bag",
+      "category": "bag",
+      "nameKo": "블랙 숄더 토트백",
+      "nameEn": "Black shoulder tote",
+      "nameDe": "Schwarze Schultertasche",
+      "descriptionEn": "Carry the narrow straps over one shoulder so the bag sits close beside the coat.",
+      "image": "products/05-bag.webp",
+      "altKo": "블랙 숄더 토트백",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "01-06-accessory",
+      "category": "accessory",
+      "nameKo": "블랙 장우산",
+      "nameEn": "Black umbrella",
+      "nameDe": "Schwarzer Regenschirm",
+      "descriptionEn": "Hold the curved handle close to the body while keeping the canopy above the head.",
+      "image": "products/06-accessory.webp",
+      "altKo": "블랙 장우산",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    }
+  ],
+  "productionStatus": "review",
+  "mappingStatus": "pending",
+  "reviewNotes": [
+    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
+    "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
+    "The glasses cloth is a scene prop and is excluded from clothing selection."
+  ]
+}

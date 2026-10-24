@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "04-01-outer",
+      "category": "outer",
+      "nameKo": "슬레이트 네이비 후드 레인코트",
+      "nameEn": "Slate navy hooded raincoat",
+      "nameDe": "Kapuzenregenmantel in Schieferblau",
+      "descriptionEn": "Wear the hood up and leave the upper opening loose around the scarf and red neckline.",
+      "image": "products/01-outer.webp",
+      "altKo": "슬레이트 네이비 후드 레인코트",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "04-02-top",
+      "category": "top",
+      "nameKo": "레드 크루넥 니트",
+      "nameEn": "Red crewneck sweater",
+      "nameDe": "Roter Rundhalspullover",
+      "descriptionEn": "Show just the red neckline and extended cuffs beneath the dark rain shell.",
+      "image": "products/02-top.webp",
+      "altKo": "레드 크루넥 니트",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "04-03-accessory",
+      "category": "accessory",
+      "nameKo": "차콜 브러시드 머플러",
+      "nameEn": "Charcoal brushed scarf",
+      "nameDe": "Gebürsteter Schal in Anthrazit",
+      "descriptionEn": "Tuck the scarf inside the raincoat so its charcoal texture frames the red knit.",
+      "image": "products/03-accessory.webp",
+      "altKo": "차콜 브러시드 머플러",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "04-04-eyewear",
+      "category": "eyewear",
+      "nameKo": "토터스셸 판토 안경",
+      "nameEn": "Tortoiseshell panto glasses",
+      "nameDe": "Panto-Brille in Schildpattoptik",
+      "descriptionEn": "Remove the glasses briefly and hold the frame by the temples while checking the lenses.",
+      "image": "products/04-eyewear.webp",
+      "altKo": "토터스셸 판토 안경",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "04-05-scene-prop",
+      "category": "scene-prop",
+      "nameKo": "라이트 그레이 안경 닦이",
+      "nameEn": "Light grey glasses cloth",
+      "nameDe": "Hellgraues Brillenputztuch",
+      "descriptionEn": "Use the cloth against one lens while supporting the frame; this is a scene prop, not clothing.",
+      "image": "products/05-scene-prop.webp",
+      "altKo": "라이트 그레이 안경 닦이",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": false
+    }
+  ],
+  "productionStatus": "review",
+  "mappingStatus": "pending",
+  "reviewNotes": [
+    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
+    "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
+    "The glasses cloth is a scene prop and is excluded from clothing selection."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "02-01-outer",
+      "category": "outer",
+      "nameKo": "스톤 베이지 트렌치코트",
+      "nameEn": "Stone beige trench coat",
+      "nameDe": "Trenchcoat in Steinbeige",
+      "descriptionEn": "Leave the neckline open to frame the bright blue knit; keep the sleeves loose at the wrists.",
+      "image": "products/01-outer.webp",
+      "altKo": "스톤 베이지 트렌치코트",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "02-02-top",
+      "category": "top",
+      "nameKo": "코발트 파인 니트 터틀넥",
+      "nameEn": "Cobalt fine-knit turtleneck",
+      "nameDe": "Feiner Rollkragenpullover in Kobaltblau",
+      "descriptionEn": "Keep the blue neckline high and clean, with the smooth knit visible down the open trench.",
+      "image": "products/02-top.webp",
+      "altKo": "코발트 파인 니트 터틀넥",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "02-03-bottom",
+      "category": "bottom",
+      "nameKo": "다크 초콜릿 테일러드 팬츠",
+      "nameEn": "Dark chocolate tailored trousers",
+      "nameDe": "Dunkelbraune Stoffhose",
+      "descriptionEn": "Pair the dark brown waistband with the tucked blue knit to anchor the pale outer layer.",
+      "image": "products/03-bottom.webp",
+      "altKo": "다크 초콜릿 테일러드 팬츠",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "02-04-accessory",
+      "category": "accessory",
+      "nameKo": "블랙 곡선 손잡이 우산",
+      "nameEn": "Black curved-handle umbrella",
+      "nameDe": "Schwarzer Schirm mit gebogenem Griff",
+      "descriptionEn": "Bring the handle forward while leaning under the canopy; do not let it obscure the blue neckline.",
+      "image": "products/04-accessory.webp",
+      "altKo": "블랙 곡선 손잡이 우산",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    },
+    {
+      "id": "02-05-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드톤 미니 후프 귀걸이",
+      "nameEn": "Small gold-tone hoop earrings",
+      "nameDe": "Kleine goldfarbene Creolen",
+      "descriptionEn": "Keep the small hoops exposed beside the short curls for a restrained metallic accent.",
+      "image": "products/05-jewelry.webp",
+      "altKo": "골드톤 미니 후프 귀걸이",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNotes": "Visible colour and overall silhouette are the basis. Hidden shape, length, back, closures and material composition are not verified.",
+      "appEligible": true
+    }
+  ],
+  "productionStatus": "review",
+  "mappingStatus": "pending",
+  "reviewNotes": [
+    "English and German product names and English styling notes are supplied. Korean master styling copy and German styling notes are pending.",
+    "The corrected brown coat is the user-selected product revision; its construction differs from the original editorial.",
+    "The glasses cloth is a scene prop and is excluded from clothing selection."
+  ]
+}
