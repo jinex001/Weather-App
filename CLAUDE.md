@@ -19,7 +19,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-24, 빌드 b151)
+## 현재 상태 (2026-10-24, 빌드 b152)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -373,3 +373,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## 시안 · 홈 TODAY'S LOOK 자리에서 ABOUT YOU (2026-10-24, 앱 빌드 변화 없음)
 
 사용자(BLUE HOUR 홈 스크린샷): "여기를 이용하겠어. About you, 세 개 중에 하나 고를 수 있게." → `proto/home-about.html`(https://jinex001.github.io/Weather-App/proto/home-about.html, `?lang=en|de`, `?g=f`, 위 버튼으로 밤/맑은 낮·남/여·처음 상태). 처음 한 번만 홈의 TODAY'S LOOK 자리에 ABOUT YOU + Anton "WHAT DO YOU / WEAR?" + 세 칸 한 줄(Sport·Street·Minimal, 그 성별 기사 룩의 배경 없는 대표 컷 + Anton 이름) . 같은 날 사용자 수정: 순서 = 제목 → 안내 글(체감 단계 막대 없이) → 세 칸, 막대는 고른 뒤 요약에만. 누르면 고른 칸 이름에 화면 글자색 알약·나머지 흐림 → 바로 그 스타일의 오늘의 룩(제목 + 대표 컷 60 : 45 + 캡션·인트로)으로 바뀜. 실제 라이브러리를 index.html 스크립트 순서대로 불러 씀. 앞 시안 `proto/style-pick.html`(따로 첫 화면 4칸 + 설정)의 대안. 사용자 의견 받기 전.
+
+## b152 · 처음 한 번 ABOUT YOU로 옷 스타일 고르기 (2026-10-24)
+
+사용자가 `proto/home-about.html` 시안 확정("이대로 앱에 넣어", 옷 스타일은 시작 화면 + 설정). 프로필에 `style`이 없으면 홈의 TODAY'S LOOK·요약 자리에 ABOUT YOU(`#about`, `paintAbout`): 제목 → 안내 글(막대 없음, `NV.ask`) → Sport · Street · Minimal 세 칸(`styleTiles`, 컷 = 그 스타일로 오늘 뽑힐 룩의 대표 컷 `styleCut`, 없으면 그 스타일·성별 아무 컷). 누르면 `wx-profile.style` 저장(`pickStyle`) → 바로 오늘의 룩. 설정 맨 위 "옷 스타일"(`NV.style`, `styleRow`): 썸네일 + 이름 + 바꾸기, 누르면 같은 세 칸이 그 자리에 펼쳐지고 누르면 저장 + 홈도 바뀜. 이미 스위처로 스타일을 고른 적 있는 사용자는 ABOUT YOU 안 나옴. 캐주얼은 넣지 않음(세 칸). 가짜 데이터로 고르기 → 룩 → 설정에서 바꾸기 확인. 밤 화면에선 네이비·차콜 컷이 배경에 묻혀 잘 안 보임(컷 자체 색 문제, 그대로).
