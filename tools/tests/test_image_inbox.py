@@ -63,6 +63,28 @@ class InboxTests(unittest.TestCase):
         self.assertEqual(self.run_ingest()['status'], 'already-ready')
         self.assertFalse((self.repo / 'look').exists())
 
+    def test_weather_aliases_preserve_metadata_and_reject_conflicts(self):
+        for folder, accepted in [('Sunny', ('clear', 'sunny')), ('Overcast', ('cloudy', 'overcast')), ('Rain/Light', ('rain',))]:
+            for condition in accepted:
+                with self.subTest(folder=folder, condition=condition):
+                    self.look = 'look/berlin-complete/' + folder + '/Hot/Male/35+/day/06-street'
+                    self.meta['weather']['condition'] = condition
+                    self.meta['weather']['rainIntensity'] = 'light'
+                    self.save()
+                    self.manifest['lookPath'] = self.look
+                    for entry in self.manifest['files']:
+                        entry['path'] = self.look + '/' + ('editorial.jpg' if entry['role'] == 'editorial' else 'products/01-top.webp')
+                    self.save()
+                    before = (self.batch / 'products.json').read_bytes()
+                    _, _, _, outputs = app.validate(self.batch, self.repo)
+                    self.assertEqual(outputs[self.look + '/products.json'], before)
+                    for invalid in ('snow', 'RAIN', 'clear' if folder != 'Sunny' else 'overcast'):
+                        self.meta['weather']['condition'] = invalid
+                        self.save()
+                        with self.assertRaisesRegex(ValueError, 'weather/folder conflict'):
+                            app.validate(self.batch, self.repo)
+                    self.meta['weather']['condition'] = condition
+
     def test_duplicate_across_ready_batches(self):
         self.run_ingest()
         self.manifest['batchId'] = 'second-batch'
