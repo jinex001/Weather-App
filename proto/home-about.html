@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About You Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* 시안 (앱 빌드 변화 없음): 홈의 TODAY'S LOOK 자리에서 처음 한 번 스타일 고르기. ?lang=en|de, ?g=f */
+  :root { --bg: #1B2140; --fg: #F4F1E8; --band: #58C4DC; --sans: Poppins, "Noto Sans KR", sans-serif; --display: Anton, "Noto Sans KR", sans-serif; }
+  body[data-sky="sunny"] { --bg: #F2C14E; --fg: #141414; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #E4E1DA; color: var(--fg); font-family: var(--sans); letter-spacing: -.02em; }
+  .bar-top { max-width: 420px; margin: 0 auto; padding: 16px 16px 0; display: flex; gap: 8px; flex-wrap: wrap; color: #141414; }
+  .bar-top button { font: 600 12px var(--sans); border: 0; border-radius: 16px; padding: 7px 12px; background: rgba(20,20,20,.08); color: #141414; cursor: pointer; }
+  .bar-top button.on { background: #141414; color: #fff; }
+  .phone { max-width: 420px; margin: 12px auto 40px; background: var(--bg); padding: 36px 24px 44px; min-height: 640px; transition: background .3s; }
+  .faux { opacity: .35; font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; margin-bottom: 26px; }
+  .k { font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+  .h { font: 56px/.9 var(--display); text-transform: uppercase; letter-spacing: 0; margin-top: 6px; }
+  .h span { display: block; white-space: nowrap; }
+  /* 고르기 상태: 세 칸 한 줄, 배경 없는 컷 + Anton 이름 */
+  .pick { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 22px; }
+  .opt { background: none; border: 0; padding: 0; color: inherit; font: inherit; cursor: pointer; text-align: left; transition: opacity .2s, transform .2s; }
+  .opt .img { height: 118px; display: flex; align-items: flex-end; justify-content: center; }
+  .opt img { max-width: 100%; max-height: 100%; }
+  .opt .n { display: inline-block; font: 26px/1 var(--display); text-transform: uppercase; letter-spacing: 0; margin-top: 10px; padding: 5px 10px 6px; margin-left: -10px; border-radius: 20px; }
+  .pick.done .opt { opacity: .3; }
+  .pick.done .opt.on { opacity: 1; }
+  .opt.on .n { background: var(--fg); color: var(--bg); margin-left: 0; }
+  .opt:active { transform: scale(.97); }
+  /* 고른 뒤: 지금 앱과 같은 TODAY'S LOOK 블록 (60 : 45) */
+  .look { position: relative; }
+  .look .h { width: 60%; }
+  .look img.cut { position: absolute; right: 0; width: 45%; top: 50%; transform: translateY(-50%); max-height: calc(100% + 36px); object-fit: contain; }
+  .sum { display: flex; gap: 7px; margin-top: 23px; }
+  .sum i { flex: none; width: 7px; background: var(--band); }
+  .sum p { margin: 0 0 0 9px; font: 700 16px/1.5 var(--sans); letter-spacing: .2px; word-break: keep-all; }
+  .fade { animation: fade .35s ease both; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .note { max-width: 420px; margin: 0 auto 40px; padding: 0 16px; font: 500 13px/1.6 var(--sans); color: #141414; }
+  .note b { font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="bar-top" id="ctl"></div>
+<div class="phone"><div class="faux">… 체감온도 블록 위쪽은 지금 앱 그대로 …</div><div id="blk"></div></div>
+<div class="note" id="note"></div>
+<script>
+  var Q = new URLSearchParams(location.search), LANG = (Q.get("lang") || (navigator.language || "en").slice(0, 2)).toLowerCase();
+  if (!/^(ko|en|de)$/.test(LANG)) LANG = "en";
+  var G = Q.get("g") === "f" ? "f" : "m";
+  var T = {
+    ko: { k: "About you", h: ["What do you", "wear?"], deck: "주로 입는 스타일을 하나 골라 주세요. 오늘부터 이 스타일로 룩을 골라 드려요. 설정에서 언제든 바꿀 수 있어요.",
+      n: { run: "Sport", street: "Street", minimal: "Minimal" }, reset: "처음 상태로", sky: ["밤", "맑은 낮"], g: ["남성", "여성"],
+      note: "<b>시안 메모</b> · 처음 한 번만 홈의 TODAY'S LOOK 자리에 ABOUT YOU가 나와요. 세 칸 중 하나를 누르면 바로 그 스타일의 오늘의 룩(제목 + 대표 제품 + 요약)으로 바뀌고, 그 뒤로는 지금 앱과 같아요. 고른 값 = Today's Look 스위처 기본값. 설정에서 바꾸기는 다음 단계. 룩은 실제 라이브러리에서 그 스타일·성별 기사 룩 중 랜덤." },
+    en: { k: "About you", h: ["What do you", "wear?"], deck: "Pick the style you wear most. From today we'll choose your looks in it. Change it anytime in Settings.",
+      n: { run: "Sport", street: "Street", minimal: "Minimal" }, reset: "Reset", sky: ["Night", "Sunny day"], g: ["Male", "Female"],
+      note: "<b>Mockup note</b> · Only the first time, ABOUT YOU takes the TODAY'S LOOK spot on home. Tap one of three and it turns straight into today's look in that style; after that it's the app as now." },
+    de: { k: "About you", h: ["What do you", "wear?"], deck: "Wähle den Stil, den du am meisten trägst. Ab heute suchen wir deine Looks darin aus. Jederzeit in den Einstellungen änderbar.",
+      n: { run: "Sport", street: "Street", minimal: "Minimal" }, reset: "Zurücksetzen", sky: ["Nacht", "Sonniger Tag"], g: ["Männlich", "Weiblich"],
+      note: "<b>Entwurf</b> · Nur beim ersten Mal steht ABOUT YOU an der Stelle von TODAY'S LOOK. Ein Tipp, und es wird direkt zum heutigen Look in diesem Stil." }
+  }[LANG];
+  var STY = ["run", "street", "minimal"], L = null, picked = null, sky = "night";
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function cutOf(o) { var it = o.hero && L.items[o.hero]; return it && it.cut ? "../" + it.cut : null; }
+  function looksOf(st) { return L.outfits.filter(function (o) { return o.style === st && o.gender === G && o.article && cutOf(o); }); }
+  function rnd(a) { return a[Math.floor(Math.random() * a.length)]; }
+  var sample = {};
+  function paint() {
+    var b = document.getElementById("blk");
+    if (!picked) {
+      b.innerHTML = '<div class="fade"><div class="k">' + T.k + '</div><div class="h"><span>' + T.h[0] + "</span><span>" + T.h[1] + "</span></div>" +
+        '<div class="pick">' + STY.map(function (s) {
+          return '<button type="button" class="opt" data-s="' + s + '"><div class="img"><img alt="" src="' + cutOf(sample[s]) + '"></div><span class="n">' + T.n[s] + "</span></button>";
+        }).join("") + '</div><div class="sum"><i></i><p>' + esc(T.deck) + "</p></div></div>";
+      return;
+    }
+    var o = rnd(looksOf(picked)), w = o.article.title.split(" "), half = Math.ceil(w.length / 2);
+    b.innerHTML = '<div class="fade"><div class="look"><div class="k">Today\'s Look</div><div class="h"><span>' + esc(w.slice(0, half).join(" ")) + "</span><span>" +
+      esc(w.slice(half).join(" ")) + '</span></div><img class="cut" alt="" src="' + cutOf(o) + '"></div><div class="sum"><i></i><p>' +
+      esc(o.deck[LANG] + (o.article.intro ? " " + o.article.intro[LANG] : "")) + "</p></div></div>";
+    fitLook();
+  }
+  // same idea as the app's fitHead: the two lines shrink only if they do not fit the 60% column
+  function fitLook() {
+    var h = document.querySelector(".look .h"); if (!h) return;
+    var size = 56; h.style.fontSize = size + "px";
+    while (size > 36 && [].some.call(h.children, function (s) { return s.scrollWidth > h.clientWidth; })) { size -= 1; h.style.fontSize = size + "px"; }
+  }
+  document.getElementById("blk").addEventListener("click", function (e) {
+    var b = e.target.closest(".opt"); if (!b || picked) return;
+    var grid = b.parentNode; grid.classList.add("done"); b.classList.add("on");
+    setTimeout(function () { picked = b.dataset.s; paint(); }, 450);
+  });
+  function ctl() {
+    var c = document.getElementById("ctl");
+    c.innerHTML = '<button data-a="reset">' + T.reset + "</button>" +
+      '<button data-a="night" class="' + (sky === "night" ? "on" : "") + '">' + T.sky[0] + '</button><button data-a="sunny" class="' + (sky === "sunny" ? "on" : "") + '">' + T.sky[1] + "</button>" +
+      '<button data-a="m" class="' + (G === "m" ? "on" : "") + '">' + T.g[0] + '</button><button data-a="f" class="' + (G === "f" ? "on" : "") + '">' + T.g[1] + "</button>";
+  }
+  document.getElementById("ctl").addEventListener("click", function (e) {
+    var a = e.target.dataset.a; if (!a) return;
+    if (a === "reset") picked = null;
+    if (a === "night" || a === "sunny") { sky = a; document.body.dataset.sky = a; }
+    if (a === "m" || a === "f") { G = a; picked = null; pickSamples(); }
+    ctl(); paint();
+  });
+  function pickSamples() { STY.forEach(function (s) { sample[s] = rnd(looksOf(s)); }); }
+  document.getElementById("note").innerHTML = T.note;
+  // load the app's own look library, in the same order as index.html
+  fetch("../index.html").then(function (r) { return r.text(); }).then(function (html) {
+    var srcs = [], re = /<script src="(look\/[^"]+)"/g, m;
+    while ((m = re.exec(html))) srcs.push("../" + m[1]);
+    (function next() {
+      if (!srcs.length) { L = window.WX_LOOKS; pickSamples(); ctl(); paint(); if (document.fonts) document.fonts.ready.then(fitLook); return; }
+      var s = document.createElement("script"); s.src = srcs.shift(); s.onload = next; s.onerror = next; document.head.appendChild(s);
+    })();
+  });
+</script>
+</body>
+</html>

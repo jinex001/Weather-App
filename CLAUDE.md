@@ -369,3 +369,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## 시안 · 첫 실행 옷 스타일 고르기 (2026-10-24, 앱 빌드 변화 없음)
 
 사용자: "처음 시작하면 어떤 옷 정보(캐주얼·스트리트·스포츠·미니멀)를 받고 싶은지 고르게, 설정에서도 바꿀 수 있게." → `proto/style-pick.html`(https://jinex001.github.io/Weather-App/proto/style-pick.html, `?lang=en|de`). ① 첫 실행: WHAT DO YOU WEAR? + 2×2 칸(배경 없는 제품 컷 + Anton 이름 + 한 줄 설명, 상자·테두리 없음, 고르면 나머지 35% 흐림 + 이름 ink 알약) + 시작하기 / 나중에 고를게요. ② 설정 맨 위 "옷 스타일"(썸네일 + 이름 + 바꾸기) → 공통 글라스 시트에 같은 2×2 + 저장. 하나만 고름. 캐주얼은 앱에 아직 탭이 없음(비 캐주얼 세트는 스트리트 탭). 성별·연령대·아기(ABOUT YOU)는 지금처럼 Today's Look 처음 열 때. 사용자 의견 받기 전.
+
+## 시안 · 홈 TODAY'S LOOK 자리에서 ABOUT YOU (2026-10-24, 앱 빌드 변화 없음)
+
+사용자(BLUE HOUR 홈 스크린샷): "여기를 이용하겠어. About you, 세 개 중에 하나 고를 수 있게." → `proto/home-about.html`(https://jinex001.github.io/Weather-App/proto/home-about.html, `?lang=en|de`, `?g=f`, 위 버튼으로 밤/맑은 낮·남/여·처음 상태). 처음 한 번만 홈의 TODAY'S LOOK 자리에 ABOUT YOU + Anton "WHAT DO YOU / WEAR?" + 세 칸 한 줄(Sport·Street·Minimal, 그 성별 기사 룩의 배경 없는 대표 컷 + Anton 이름) + 요약 막대 자리에 안내 한 줄. 누르면 고른 칸 이름에 화면 글자색 알약·나머지 흐림 → 바로 그 스타일의 오늘의 룩(제목 + 대표 컷 60 : 45 + 캡션·인트로)으로 바뀜. 실제 라이브러리를 index.html 스크립트 순서대로 불러 씀. 앞 시안 `proto/style-pick.html`(따로 첫 화면 4칸 + 설정)의 대안. 사용자 의견 받기 전.
