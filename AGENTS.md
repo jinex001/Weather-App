@@ -26,3 +26,10 @@ This file is the repository entry point for Codex and other coding agents. Claud
 - Work in a separate branch and PR. Do not push directly to `main`, merge, publish content, or deploy without explicit approval.
 - Keep content delivery independent from app binary updates. The proposed API/CDN, CMS and iOS app are **not yet implemented**.
 - When documents disagree, prefer the latest explicit user-approved rule and verified live code, flag ambiguity, and do not silently override prior assets.
+
+## Documentation maintenance — required in the same PR
+- When a task changes an approved rule, workflow, data contract, image specification, asset path, validation procedure, deployment behavior, or architectural decision, update the **corresponding authoritative Markdown document in the same PR** as the implementation.
+- If a new recurring workflow has no suitable reference, add a focused MD file and register it in this document and `CLAUDE.md`. Avoid duplicate or contradictory sources of truth.
+- For ordinary content additions or routine mapping under existing rules, update inventories/coverage only where the current process requires it; do not rewrite architecture documents needlessly.
+- Before marking work complete, compare the actual implementation and tests against the affected MD instructions. Record what changed, what was verified, and what remains proposed/unverified. Never describe a proposed workflow as implemented.
+- If instructions conflict, do not silently pick one: report the conflict, request approval for consequential changes, then update the canonical documentation once resolved.
