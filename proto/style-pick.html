@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Style Pick</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* 시안 (앱 빌드 변화 없음): 첫 실행 때 옷 스타일 고르기 + 설정에서 바꾸기. ?lang=en|de */
+  :root { --bg: #F2C14E; --ink: #141414; --sans: Poppins, "Noto Sans KR", sans-serif; --display: Anton, "Noto Sans KR", sans-serif;
+    --glass-fill: rgba(255,255,255,.5); --glass-blur: blur(24px);
+    --glass-light: inset 1px 1px 0 rgba(255,255,255,.8), inset -1px -1px 0 rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.15); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #E4E1DA; color: var(--ink); font-family: var(--sans); letter-spacing: -.02em; }
+  .wrap { display: flex; flex-wrap: wrap; gap: 28px; justify-content: center; padding: 24px 16px 48px; }
+  .col { width: 390px; max-width: 100%; }
+  .cap { font: 600 12px var(--sans); letter-spacing: .04em; text-transform: uppercase; margin: 0 4px 10px; opacity: .6; }
+  .phone { position: relative; height: 844px; max-height: 92vh; overflow: hidden; border-radius: 36px; background: var(--bg); }
+  .scr { height: 100%; overflow-y: auto; padding: 56px 24px 40px; scrollbar-width: none; }
+  .k { font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+  .h { font: 64px/.9 var(--display); text-transform: uppercase; margin-top: 8px; letter-spacing: 0; }
+  .deck { font: 700 16px/1.5 var(--sans); letter-spacing: .2px; margin-top: 18px; word-break: keep-all; }
+  /* 2×2 스타일 칸: 배경 없는 제품 컷 + 이름, 상자·테두리 없음. 고르면 다른 칸이 흐려지고 고른 이름이 ink 알약 */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 14px; margin-top: 26px; }
+  .opt { background: none; border: 0; padding: 0; color: inherit; font: inherit; text-align: left; cursor: pointer; transition: opacity .2s; }
+  .opt .img { height: 132px; display: flex; align-items: flex-end; justify-content: center; }
+  .opt img { max-width: 100%; max-height: 100%; }
+  .opt .n { display: inline-block; margin-top: 10px; font: 30px/1 var(--display); text-transform: uppercase; letter-spacing: 0; padding: 6px 12px 7px; margin-left: -12px; border-radius: 22px; }
+  .opt .d { display: block; font: 600 13px/1.35 var(--sans); margin-top: 2px; word-break: keep-all; }
+  .grid.picked .opt { opacity: .35; }
+  .grid.picked .opt.on { opacity: 1; }
+  .opt.on .n { background: var(--ink); color: var(--bg); margin-left: 0; }
+  .go { display: block; margin-top: 30px; width: 100%; font: 700 17px var(--sans); color: var(--bg); background: var(--ink); border: 0; border-radius: 28px; padding: 17px; cursor: pointer; transition: opacity .2s; }
+  .go:disabled { opacity: .35; cursor: default; }
+  .later { display: block; margin: 14px auto 0; background: none; border: 0; font: 600 13px var(--sans); color: inherit; opacity: .6; cursor: pointer; }
+  .fine { font: 500 11px/1.5 var(--sans); opacity: .6; margin-top: 18px; text-align: center; }
+  /* 설정 화면 (앱 pg-set과 같은 모양) */
+  .list { margin-top: 26px; }
+  .set { display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%; padding: 16px 0; background: none; border: 0; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+  .set-v { display: block; font-size: 18px; font-weight: 700; margin-top: 2px; }
+  .set-a { flex: none; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+  .set .thumb { flex: none; width: 46px; height: 46px; display: flex; align-items: center; justify-content: center; margin-right: 4px; }
+  .set .thumb img { max-width: 100%; max-height: 100%; }
+  .set .row { display: flex; align-items: center; gap: 12px; }
+  .new { font: 700 9px var(--sans); letter-spacing: .06em; background: var(--ink); color: var(--bg); border-radius: 8px; padding: 2px 6px; margin-left: 6px; vertical-align: 2px; }
+  /* 설정에서 바꾸기: 공통 글라스 시트 */
+  .sheet { position: absolute; left: 0; right: 0; bottom: 0; height: 88%; border-radius: 28px 28px 0 0; background: var(--glass-fill);
+    -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light);
+    transform: translateY(102%); transition: transform .35s cubic-bezier(.2,.8,.2,1); padding: 14px 24px 30px; overflow-y: auto; --bg: #FFFFFF; }
+  .sheet.open { transform: none; }
+  .bar { width: 40px; height: 5px; border-radius: 3px; background: var(--ink); opacity: .25; margin: 0 auto 22px; }
+  .phone.dim .scr { filter: blur(10px); }
+  .sheet .h { font-size: 44px; }
+  .sheet .grid { margin-top: 18px; }
+  .sheet .opt .img { height: 112px; }
+  .sheet .opt.on .n { color: #FFFFFF; }
+  .sheet .go { color: #FFFFFF; }
+  .toast { position: absolute; left: 50%; bottom: 26px; transform: translate(-50%, 20px); opacity: 0; transition: .25s; background: var(--ink); color: #fff; font: 600 13px var(--sans); padding: 10px 16px; border-radius: 20px; white-space: nowrap; }
+  .toast.on { opacity: 1; transform: translate(-50%, 0); }
+  .note { max-width: 820px; margin: 0 auto; padding: 0 16px 40px; font: 500 13px/1.6 var(--sans); }
+  .note b { font-weight: 700; }
+  @media (max-width: 440px) { .phone { border-radius: 0; max-height: none; } .wrap { padding: 12px 0 40px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="col">
+    <div class="cap" id="cap1"></div>
+    <div class="phone" id="p1"><div class="scr" id="s1"></div><div class="toast" id="t1"></div></div>
+  </div>
+  <div class="col">
+    <div class="cap" id="cap2"></div>
+    <div class="phone" id="p2"><div class="scr" id="s2"></div><div class="sheet" id="sheet"></div><div class="toast" id="t2"></div></div>
+  </div>
+</div>
+<div class="note" id="note"></div>
+<script>
+  var LANG = (new URLSearchParams(location.search).get("lang") || (navigator.language || "en").slice(0, 2)).toLowerCase();
+  if (!/^(ko|en|de)$/.test(LANG)) LANG = "en";
+  document.documentElement.lang = LANG;
+  var B = "../";
+  var STYLES = [
+    { id: "casual", img: "look/berlin-complete/Rain/Light/Chilly/Female/35+/day/casual/02/products/02-top.cut.webp",
+      n: { ko: "Casual", en: "Casual", de: "Casual" }, d: { ko: "편한 니트 · 데님 · 코듀로이", en: "Easy knits, denim, cord", de: "Lockerer Strick, Denim, Cord" } },
+    { id: "street", img: "look/berlin-complete/Sunny/Chilly/Male/35+/day/08-street/products/01-outer.cut.webp",
+      n: { ko: "Street", en: "Street", de: "Street" }, d: { ko: "봄버 · 와이드 팬츠 · 스니커즈", en: "Bombers, wide trousers, sneakers", de: "Bomber, weite Hosen, Sneaker" } },
+    { id: "sport", img: "look/berlin-complete/Sunny/Chilly/Male/35+/day/01-running/products/01-outer.cut.webp",
+      n: { ko: "Sport", en: "Sport", de: "Sport" }, d: { ko: "러닝 · 운동할 때", en: "Running and training", de: "Laufen und Training" } },
+    { id: "minimal", img: "look/berlin-complete/Sunny/Chilly/Male/35+/night/15-minimal/products/01-outer.cut.webp",
+      n: { ko: "Minimal", en: "Minimal", de: "Minimal" }, d: { ko: "코트 · 톤온톤 · 깔끔하게", en: "Coats, tonal, clean lines", de: "Mäntel, Ton in Ton, klar" } }
+  ];
+  var T = {
+    ko: { cap1: "① 처음 열었을 때 (홈 대신 이 화면)", cap2: "② 설정 > 옷 스타일 → 바꾸기", k: "시작하기", h: "What do you wear?",
+      deck: "주로 어떤 옷을 입나요? 고른 스타일로 매일 날씨에 맞는 룩을 골라 드려요.", go: "시작하기", later: "나중에 고를게요",
+      fine: "설정에서 언제든 바꿀 수 있어요. 답은 이 기기에만 저장돼요.", set: "설정", style: "옷 스타일", loc: "위치", prof: "프로필",
+      lang: "언어", change: "바꾸기", edit: "수정", langV: "한국어", berlin: "베를린", profV: "남성 · 35+", sh: "Your style", save: "저장",
+      saved: "옷 스타일을 바꿨어요: ", started: "홈으로 → 오늘의 룩: ", none: "선택 안 함",
+      note: "<b>시안 메모</b> · 첫 실행에서 고른 스타일이 Today's Look 스위처의 기본값이 되고, 설정 맨 위 '옷 스타일'에서 같은 2×2 칸으로 바꿔요. 하나만 고르는 방식(지금 앱 스위처와 같음). <b>캐주얼</b>은 지금 앱에 따로 없어서(비 캐주얼 세트는 스트리트 탭에 들어가 있음) 넣으려면 스위처에 캐주얼 탭을 새로 만들어야 해요. 성별·연령대·아기 질문(ABOUT YOU)은 지금처럼 Today's Look을 처음 열 때 물어봐요." },
+    en: { cap1: "① First launch (instead of home)", cap2: "② Settings > Clothing style → change", k: "Get started", h: "What do you wear?",
+      deck: "What do you usually wear? We'll pick a look for each day's weather in your style.", go: "Get started", later: "Choose later",
+      fine: "You can change this anytime in Settings. Saved on this device only.", set: "Settings", style: "Clothing style", loc: "Location", prof: "Profile",
+      lang: "Language", change: "Change", edit: "Edit", langV: "English", berlin: "Berlin", profV: "Male · 35+", sh: "Your style", save: "Save",
+      saved: "Clothing style changed: ", started: "Home → Today's look: ", none: "Not set",
+      note: "<b>Mockup note</b> · The style picked at first launch becomes the Today's Look switcher default; change it with the same 2×2 grid under Settings > Clothing style. One choice only (like the app switcher today). <b>Casual</b> doesn't exist in the app yet (the rain casual set sits under Street), so it needs a new switcher tab. Gender, age and baby (ABOUT YOU) are still asked the first time Today's Look opens." },
+    de: { cap1: "① Erster Start (statt Startseite)", cap2: "② Einstellungen > Kleidungsstil → ändern", k: "Los geht's", h: "What do you wear?",
+      deck: "Was trägst du meistens? Wir wählen jeden Tag einen Look zum Wetter in deinem Stil.", go: "Los geht's", later: "Später wählen",
+      fine: "Jederzeit in den Einstellungen änderbar. Nur auf diesem Gerät gespeichert.", set: "Einstellungen", style: "Kleidungsstil", loc: "Ort", prof: "Profil",
+      lang: "Sprache", change: "Ändern", edit: "Bearbeiten", langV: "Deutsch", berlin: "Berlin", profV: "Männlich · 35+", sh: "Your style", save: "Speichern",
+      saved: "Kleidungsstil geändert: ", started: "Startseite → Look: ", none: "Nicht gewählt",
+      note: "<b>Entwurf</b> · Der beim ersten Start gewählte Stil wird Standard im Today's-Look-Umschalter; ändern unter Einstellungen > Kleidungsstil mit demselben 2×2-Raster. Nur eine Wahl. <b>Casual</b> gibt es in der App noch nicht (das Regen-Casual-Set liegt unter Street), dafür braucht es einen neuen Tab." }
+  }[LANG];
+  function $(id) { return document.getElementById(id); }
+  function grid(sel) {
+    return '<div class="grid' + (sel ? " picked" : "") + '">' + STYLES.map(function (s) {
+      return '<button type="button" class="opt' + (s.id === sel ? " on" : "") + '" data-s="' + s.id + '"><div class="img"><img alt="" src="' + B + s.img + '"></div>' +
+        '<span class="n">' + s.n[LANG] + '</span><span class="d">' + s.d[LANG] + "</span></button>";
+    }).join("") + "</div>";
+  }
+  function toast(id, msg) { var t = $(id); t.textContent = msg; t.classList.add("on"); setTimeout(function () { t.classList.remove("on"); }, 1800); }
+  function byId(id) { return STYLES.filter(function (s) { return s.id === id; })[0]; }
+
+  // ① 첫 실행
+  var first = null;
+  function paint1() {
+    $("s1").innerHTML = '<div class="k">' + T.k + '</div><div class="h">' + T.h + '</div><div class="deck">' + T.deck + "</div>" + grid(first) +
+      '<button type="button" class="go" id="go1"' + (first ? "" : " disabled") + ">" + T.go + '</button><button type="button" class="later" id="later1">' + T.later +
+      '</button><div class="fine">' + T.fine + "</div>";
+    $("go1").onclick = function () { mine = first; paint2(); toast("t1", T.started + byId(first).n[LANG]); };
+    $("later1").onclick = function () { toast("t1", T.started + byId("minimal").n[LANG]); };
+  }
+  $("s1").addEventListener("click", function (e) { var b = e.target.closest(".opt"); if (!b) return; var y = $("s1").scrollTop; first = b.dataset.s; paint1(); $("s1").scrollTop = y; });
+
+  // ② 설정
+  var mine = "minimal", pend = null;
+  function paint2() {
+    var s = byId(mine);
+    $("s2").innerHTML = '<div class="k">' + T.set + '</div><div class="h">Settings</div><div class="list">' +
+      '<button type="button" class="set" id="set-style"><span class="row"><span class="thumb"><img alt="" src="' + B + s.img + '"></span><span><span class="k">' + T.style +
+      '<span class="new">NEW</span></span><span class="set-v">' + s.n[LANG] + '</span></span></span><span class="set-a">' + T.change + "</span></button>" +
+      '<div class="set"><span><span class="k">' + T.loc + '</span><span class="set-v">' + T.berlin + '</span></span><span class="set-a">' + T.change + "</span></div>" +
+      '<div class="set"><span><span class="k">' + T.prof + '</span><span class="set-v">' + T.profV + '</span></span><span class="set-a">' + T.edit + "</span></div>" +
+      '<div class="set"><span><span class="k">' + T.lang + '</span><span class="set-v">' + T.langV + "</span></span></div>" +
+      '<div class="set"><span><span class="k">Version</span><span class="set-v">b137</span></span></div></div>';
+    $("set-style").onclick = openSheet;
+  }
+  function paintSheet() {
+    $("sheet").innerHTML = '<div class="bar"></div><div class="k">' + T.style + '</div><div class="h">' + T.sh + "</div>" + grid(pend) +
+      '<button type="button" class="go" id="go2"' + (pend === mine ? " disabled" : "") + ">" + T.save + "</button>";
+    $("go2").onclick = function () { mine = pend; closeSheet(); paint2(); toast("t2", T.saved + byId(mine).n[LANG]); };
+  }
+  function openSheet() { pend = mine; paintSheet(); $("sheet").classList.add("open"); $("p2").classList.add("dim"); }
+  function closeSheet() { $("sheet").classList.remove("open"); $("p2").classList.remove("dim"); }
+  $("sheet").addEventListener("click", function (e) {
+    if (e.target.closest(".bar")) return closeSheet();
+    var b = e.target.closest(".opt"); if (!b) return; pend = b.dataset.s; paintSheet();
+  });
+  $("s2").addEventListener("click", function (e) { if ($("sheet").classList.contains("open") && !e.target.closest("#set-style")) closeSheet(); });
+
+  $("cap1").textContent = T.cap1; $("cap2").textContent = T.cap2; $("note").innerHTML = T.note;
+  paint1(); paint2();
+</script>
+</body>
+</html>

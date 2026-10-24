@@ -365,3 +365,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## 흐린 날 여성 저녁 스트리트 10 에디토리얼 교체 (2026-10-24, 앱 빌드 변화 없음)
 
 사용자 요청. GREEN UNDER NAVY(`ofn-10-street-f`)의 `Overcast/Chilly/Female/35+/night/10-street/editorial.jpg`를 사용자가 준 새 사진(카페 창가에서 커피 컵 뚜껑을 닫는 장면, 같은 착장)으로 교체. 1024×1536 JPG q82 235KB, 경로 그대로라 데이터·문구·제품 변화 없음. GitHub Pages 캐시(약 10분) 뒤 새 사진이 보임.
+
+## 시안 · 첫 실행 옷 스타일 고르기 (2026-10-24, 앱 빌드 변화 없음)
+
+사용자: "처음 시작하면 어떤 옷 정보(캐주얼·스트리트·스포츠·미니멀)를 받고 싶은지 고르게, 설정에서도 바꿀 수 있게." → `proto/style-pick.html`(https://jinex001.github.io/Weather-App/proto/style-pick.html, `?lang=en|de`). ① 첫 실행: WHAT DO YOU WEAR? + 2×2 칸(배경 없는 제품 컷 + Anton 이름 + 한 줄 설명, 상자·테두리 없음, 고르면 나머지 35% 흐림 + 이름 ink 알약) + 시작하기 / 나중에 고를게요. ② 설정 맨 위 "옷 스타일"(썸네일 + 이름 + 바꾸기) → 공통 글라스 시트에 같은 2×2 + 저장. 하나만 고름. 캐주얼은 앱에 아직 탭이 없음(비 캐주얼 세트는 스트리트 탭). 성별·연령대·아기(ABOUT YOU)는 지금처럼 Today's Look 처음 열 때. 사용자 의견 받기 전.
