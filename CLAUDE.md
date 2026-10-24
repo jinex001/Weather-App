@@ -1,3 +1,19 @@
+<!-- START: AGENT DOCUMENT ROUTER -->
+## 작업 시작 시 필수 — 문서 라우터 (2026-10-24)
+
+이 섹션은 과거 변경 기록보다 우선하는 **현재 작업 절차**다. `CLAUDE.md` 전체는 프로젝트 이력도 포함하므로 오래된 설명과 최신 문서가 충돌하면 실제 코드·최신 승인된 규칙을 확인하고 사용자에게 충돌을 보고한다.
+
+1. 모든 작업 시작 시 이 섹션과 [콘텐츠·iOS 아키텍처 원칙](design/CONTENT_DELIVERY_IOS_STRATEGY.md)을 먼저 확인한다. 현재 브랜치·열린 PR·미커밋 변경·기존 ID/경로를 검사한다. 참조 문서가 현재 브랜치에 없으면 추측하지 말고 다른 작업 브랜치/PR에 있는지 확인한다.
+2. **에디토리얼/제품 이미지 제작** → [IMAGE_STYLE.md](design/IMAGE_STYLE.md). 이미지 생성 및 시각적 승인에는 사용자 확인이 필수.
+3. **승인 원본 전달·iCloud·로컬 인박스** → [IMAGE_INBOX_HANDOFF.md](design/IMAGE_INBOX_HANDOFF.md) (PR #1에서 도입, main 반영 여부 확인). iCloud에는 원본만, 로컬 인박스에 검증용 복사본. 자동 도착/워처는 실제 구현·테스트 전까지 있다고 가정하지 않는다.
+4. **제품별 분해·메타데이터·How to Wear 번역·앱 매핑** → [IMAGE_MAPPING_HANDOFF.md](design/IMAGE_MAPPING_HANDOFF.md) 5-1장, [look-library.md](design/look-library.md), [look-coverage.md](design/look-coverage.md), 필요시 [CUTOUTS.md](design/CUTOUTS.md). 제품 1개당 이미지 1장; GPT 한국어 마스터와 스타일링 의도는 보존하고 Claude가 en/de 현지화·앱 스키마 통합.
+5. **웹앱/iOS/콘텐츠 발행·API/CDN·배포** → [CONTENT_DELIVERY_IOS_STRATEGY.md](design/CONTENT_DELIVERY_IOS_STRATEGY.md). 앱 코드와 에디토리얼 콘텐츠를 분리하여 장래 iOS 앱 재배포 없이 콘텐츠를 갱신할 수 있도록 설계한다. API/CDN/CMS/iOS 앱이 이미 구현되었다고 주장하지 않는다.
+6. **UI·디자인 시스템 변경** → [design-system.md](design/design-system.md), [tokens.json](design/tokens.json).
+7. 작업 관련 문서만 **필요한 범위에서** 추가로 읽는다. 관련 없는 긴 변경 기록과 전체 MD를 매번 재독하지 않는다. 문서가 없거나 상충하면 확인 후 진행한다.
+8. 기존 이미지·미커밋 변경을 보존한다. 검증 가능한 작업은 스크립트/테스트로 처리한다. 승인 없는 `main` 직접 푸시·PR 병합·콘텐츠 발행·배포는 하지 않는다. 변경은 브랜치/PR로 검토받는다.
+
+<!-- END: AGENT DOCUMENT ROUTER -->
+
 # 미니멀 날씨앱 — 프로젝트 브리프
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
