@@ -43,12 +43,12 @@
 | --- | --- |
 | editorial.jpg | 승인된 에디토리얼 1장 |
 | (예외) 폴더 밖 `../NN-<스타일>.jpg` | 에디토리얼이 이미 폴더 밖에 있는 세트(맑은 날 `Sunny/…/<day|night>/`)는 폴더 안에 `editorial.jpg` 사본을 만들지 않고 `editorialImage: "../NN-<스타일>.jpg"`로 가리킨다(2026-10-23 중복 30장 정리) |
-| products/01-outer.jpg 등 | 아이템 1종당 개별 이미지 1장 |
+| products/01-outer.webp 등 | 아이템 1종당 개별 이미지 1장(새 세트는 투명 WebP, 2026-10-24부터. 예전 세트의 `.jpg`는 아이보리 바닥 그대로) |
 | products.json | 날씨, 실제 기온, 체감온도, 제품 목록, 이미지 상대경로와 설명 |
 | README.md | 제작 조건, 사용자 승인·검수 상태, 특이사항 |
 | PROMPTS.md | 에디토리얼·개별 제품 생성에 사용한 프롬프트 |
 
-에디토리얼은 1024×1536 JPG ≤300KB. 제품은 각각 500×500 JPG ≤50KB. PNG 원본, 다중 아이템 보드, 승인 전 시안은 앱용 자산으로 등록하지 않는다. 신발·양말·장갑 한 쌍은 한 아이템이다.
+에디토리얼은 1024×1536 JPG ≤300KB. 제품은 각각 500×500 **실제 알파 투명 WebP**(목표 50KB, 상한 100KB; 투명 PNG도 허용) — 아이보리 바닥 JPG로 받거나 JPG로 바꾸지 않는다(IMAGE_STYLE.md 1·8·11장, 2026-10-24 사용자 수정. 그 전에 매핑된 아이보리 JPG 세트는 그대로 두며 소급 변환하지 않는다). 투명 PNG 마스터·PNG 에디토리얼 원본, 다중 아이템 보드, 승인 전 시안은 앱용 자산으로 등록하지 않는다. 신발·양말·장갑 한 쌍은 한 아이템이다.
 
 ## 4. products.json 메타데이터
 
@@ -85,7 +85,7 @@
 - 강도 메타데이터: Light → light, Normal → normal, Pouring → pouring.
 - 새 세트의 style은 앱 값 run/street/minimal을 사용한다. 기존 products.json의 다른 표현은 실제 값을 확인해 정규화한다.
 - products에는 기존 스키마의 id, category, nameKo, descriptionKo, image, altKo, reconstruction, status 등을 유지한다. 기존 copy 기사 필드도 유지한다.
-- 각 제품 image는 예: products/01-outer.jpg처럼 해당 룩 폴더 기준 상대경로다.
+- 각 제품 image는 예: products/01-outer.webp처럼 해당 룩 폴더 기준 상대경로다(예전 세트는 `.jpg`).
 - 위 예시의 빈 products와 productCount 0은 형식 설명용이다. 이 상태로 앱에 등록하지 않는다.
 - productionStatus: ready는 실제로 에디토리얼과 전체 제품 이미지가 존재하고 검수가 끝난 뒤에만 설정한다.
 - approval.editorial: approved는 사용자의 명시적 승인이 있을 때만 기록한다. 승인 시각을 모르면 null로 두고 임의 시각을 만들지 않는다.
@@ -104,7 +104,7 @@
 7. 검증한 메타데이터를 look/outfits.js의 룩·아이템에 연결한다. 기존 schema에 rainIntensity가 없으면 필드와 선택 로직을 함께 확장한다. 기존 copy의 영어·독일어 번역도 기존 등록 규칙에 따른다.
 8. 이미지 경로를 앱 기준 경로로 연결한다. 신규 비 룩을 sky: any 또는 cloudy만으로 등록해 맑거나 단순히 흐린 날에도 무작위 노출되게 하지 않는다.
 9. 기존 일몰·일출 기반 낮/저녁, 스타일·성별, 체감단계와 랜덤 선택 방식을 보존하면서 강수 유형·강도 조건을 추가한다.
-9-1. **배경 없는 대표 컷**(사용자가 GPT에서 만들어 GitHub에 올린 이미지를 보내면 Claude가 배경 정리까지 함): `python3 tools/make-cutouts.py`로 새 기사 룩의 대표 제품 컷(`.cut.webp`, 제목이 말하는 제품)을 만들고 확인용 시트를 눈으로 확인한다. 규칙은 `design/CUTOUTS.md`(사용자가 따로 말하지 않아도 매번).
+9-1. **배경 없는 대표 컷**: 새 기사 룩마다 제목이 말하는 제품을 홈 대표 컷으로 연결한다. 투명 제품(지금의 기본)은 그 제품 WebP 자체를 `look/cutouts.js`의 `CUTS`·`HERO`에 넣고 배경 제거를 다시 하지 않는다. 아이보리 바닥 JPG 제품(예전 세트)만 `python3 tools/make-cutouts.py`로 `.cut.webp`를 만들고 확인용 시트를 눈으로 확인한다. 규칙은 `design/CUTOUTS.md`(사용자가 따로 말하지 않아도 매번).
 10. index.html의 BUILD와 outfits.js·cutouts.js 캐시 버전을 올리고, look-library.md와 CLAUDE.md 변경 기록을 실제 등록 결과에 맞게 갱신한다.
 11. 비 강도별·낮/밤·성별·스타일·체감단계의 대표 입력으로 선택 결과를 검증한다. 맑음/흐림의 기존 룩 선택도 확인한다.
 11-1. **5-1장 점검**(문구 중복·이름 나열·번역 문법·인용구/팁·제품 이름과 사진 색·투명 이미지·`bg` 값)을 모두 통과해야 배포한다.
@@ -220,3 +220,11 @@ GPT 제작물을 로컬 Claude Code가 받는 절차는 [IMAGE_INBOX_HANDOFF.md]
 - **같은 칸에 이미 세트가 있을 때**: 기존 `day/06–10-street/`·`oc15-*` ID를 덮어쓰지 않고 새 경로(`<시간>/<스타일>/<번호>/`, 비 세트와 같은 번호 방식)와 새 ID로 더함. 칸 안 후보가 늘고 3개 랜덤은 그대로.
 - 원본이 READY.json 형식(approval.json/master-copy.ko.json 아님)이라 `tools/image-inbox.py`를 쓰지 않고 READY.json 해시를 직접 검증함. 제작 측에 제품별 한국어 입는 법이 없어(틀 문장 description뿐) 사용자 지시에 따라 Claude가 ko/en/de를 씀 — IMAGE_INBOX_HANDOFF의 "한국어 마스터 = GPT" 원칙의 이번 세트 예외. 룩 단위 howToWear(ko 마스터)는 기사 intro로 그대로.
 - [검증 기록](overcast-male-day-street-2-validation.md).
+
+## b148 · Overcast / Chilly / Male / 35+ / Night / Minimal 두 번째 세트 (2026-10-24)
+
+- 사용자가 직접 넘긴 세트(READY.json 없음, 워처 아님): iCloud `Weather-App-originals/Overcast/Chilly/Male/35+/night/01–05` = 로컬 `output/overcast-chilly-male-night-minimal-v2/minimal-v2-20261024`(바이트 동일). CHECKSUMS.json 133개 해시를 작업 전후로 확인, 원본은 읽기만 함.
+- 같은 칸에 `night/minimal/01–05`(`oc-unclassified-m-35-evening-minimal-*`, b116)가 있어 **덮어쓰지 않고** 새 폴더 `night/minimal-v2/<01–05>/`와 새 ID `oc-chilly-m-35-night-minimal-v2-NN`으로 더함. 보충 파일 `look/overcast-male-night-minimal-v2.js`(cutouts.js 앞). 칸 후보 5 → 10, 3개 랜덤 그대로.
+- 제품 35개(7/7/7/6/8)는 제공된 투명 WebP를 바이트 그대로 씀(새 배경 제거·생성·재압축 없음). 대표 컷 = 그 제품 WebP 자체(`look/cutouts.js` 행), `bg` `#F3EFE8`.
+- 제작 측 제품 정보가 영어 description·evidence뿐이고 한국어 마스터가 없어, 사용자 지시에 따라 Claude가 에디토리얼을 보고 한국어 문구(deck·intro·tip·제품 이름·제품별 입는 법)를 먼저 쓰고 en/de로 옮김. 제목·인용구는 다른 세트처럼 영문. 원래 description·evidence(`not-visible-inferred` 포함)는 products.json에 그대로, 아이템에도 `evidence`로 남김. 보이지 않는 제품의 입는 법은 "사진엔 보이지 않는 원래 스타일링"이라고 밝힘.
+- [검증 기록](overcast-male-night-minimal-v2-validation.md).

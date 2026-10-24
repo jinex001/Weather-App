@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-24 (앱 빌드 b145) · 145룩 · 954아이템(활성 참조 937) · 기사 룩 145. 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-24 (앱 빌드 b148) · 150룩 · 989아이템(활성 참조 972) · 기사 룩 150. 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -30,8 +30,9 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 | `cat` | `outer` `top` `under` `bottom` `shorts` `hosiery` `shoes` `socks` `gloves` `hands` `headwear` `eyewear` `scarf` `bag` `watch` `jewelry` `gear` `accessory`. 화면 라벨은 영어 대문자(`accessory` = BRING, 라벨 표에 없는 것은 키 그대로) |
 | `name` | 이름 `{ko,en,de}` — 기사 룩에선 카드 큰 타이틀 |
 | `note` | (선택) 입는 법 `{ko,en,de}` — 기사 룩 카드 본문, 예전 룩은 펼치면 보임 |
-| `image` | (선택) 사진. 기사 룩은 500×500 제품 컷 JPG |
-| `bg` | (b109, 제품 컷만) 컷 모서리 평균색 `#RRGGBB`. 캘린더 카드 바탕색. 새 제품 컷을 넣으면 같이 계산 |
+| `image` | (선택) 사진. 기사 룩은 500×500 제품 컷: 새 세트는 투명 WebP, 예전 세트는 아이보리 바닥 JPG |
+| `bg` | (b109, 제품 컷만) 캘린더 카드 바탕색 `#RRGGBB`만. 아이보리 JPG는 컷 모서리 평균색, 투명 제품은 카드가 깔아 주는 `#F3EFE8`. `transparent` 같은 값 금지 |
+| `evidence` | (선택, b148~) 제작 측 근거 구분 그대로(`visible-item-reconstructed` · `partially-visible-reconstructed` · `not-visible-inferred`). 데이터만, 화면에 안 씀 |
 | `alt` | (선택) 제품 컷 대체 텍스트(한국어, products.json `altKo`) |
 | `sub` | (선택) 카드 보조문구. 데이터에만 있고 b99부터 화면에 안 씀 |
 
@@ -57,13 +58,13 @@ localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, wa
 look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
   Sunny/Chilly/Male/35+/day/05-running.jpg           ← 맑은 날 세트: 사진 한 장씩
   Overcast/Chilly/Female/35+/night/06-street/        ← 흐린 날 세트: 착장 폴더
-      editorial.jpg  products/01-outer.jpg …  products.json  README.md  PROMPTS.md
+      editorial.jpg  products/01-outer.webp(새 세트, 투명) 또는 .jpg(예전) …  products.json  README.md  PROMPTS.md
 ```
 
 - 하늘 `Sunny` → `sky: "clear"`, `Overcast` → `"cloudy"`. 단계는 체감 9단계 영어 이름(`Chilly` → `chilly`). 성별 `Male`/`Female` → `m`/`f`. 연령대 `35+` → `age: "35"`. `night/` → `time: "evening"`.
 - 번호와 스타일: 보통 01–05 러닝, 06–10 스트리트, 11–15 미니멀. 폴더 이름 `running` → `run`.
 - **배경 없는 컷 (b133)**: 기사 룩마다 대표 제품(제목이 말하는 제품, 없으면 아우터) 한 장을 `products/<원래 이름>.cut.webp`(투명 배경 WebP, 옷 크기로 잘림, 9–30KB)로 둠. 홈 헤드라인 뒤 그림용. 제품 JPG에서 rembg(isnet-general-use)로 자동 생성, 경로와 밝기는 `look/cutouts.js`(아이템에 `cut`·`lum`, `lum`은 지금 안 씀). 새 기사 세트를 매핑하면 같이 만들 것: `tools/make-cutouts.py`, 절차는 `design/CUTOUTS.md`. 제품 JPG(아이보리 바닥)는 그대로 원본.
-- **JPG만 저장소에 둠** (예외: 위 `.cut.webp`): 에디토리얼 1024×1536 ≤300KB(품질 80), 제품 컷 500×500 ≤50KB(품질 85). PNG로 올라오면 JPG로 바꾸고 PNG는 지우고, products.json 경로도 `.jpg`로. 2026-10-20 git 기록에서도 PNG를 지움.
+- **저장소에 두는 사진 형식** (2026-10-24 사용자 수정): 에디토리얼은 JPG 1024×1536 ≤300KB(품질 80), PNG 에디토리얼은 두지 않음. 제품 컷은 500×500 **실제 알파 투명 WebP**(목표 50KB, 상한 100KB; 투명 PNG도 허용) — JPG로 바꿔 투명도를 없애지 않음. 투명 PNG 마스터는 저장소 밖(iCloud 등). 예전 "JPG만 · PNG는 JPG로 바꾸고 지움"(2026-10-20) 규칙은 제품 컷에 대해 폐지했고, 그때 들어온 아이보리 JPG 제품은 그대로 둠(소급 변환 없음).
 - 착장 폴더의 `products.json`: `copy`(headlineEn, captionKo, introKo, pullQuoteEn, tipKo) → `article`·`deck`, `products[]`(id, category, nameKo, descriptionKo, image, altKo, status) → 아이템. 한국어는 그대로, 영어·독일어는 새로 번역. `status`가 ready인 것만. 브랜드·가격·구매 링크·소재 혼용률은 비어 있고 채우지 않음. `PROMPTS.md`·`designDescriptionEn`은 화면에 안 씀.
 - 올라온 파일이 폴더 이름과 맞는지(성별·시간대·하늘) products.json의 `gender`·`weather`와 사진으로 먼저 확인할 것(2026-10-20 여성 저녁 폴더에 남성 낮 세트가 섞여 들어온 일이 있음).
 
@@ -190,3 +191,6 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 
 `oc-chilly-m-35-day-street-01`–`05`(sky cloudy · chilly · m · 35 · 낮 · street). 아이템 ID = `<outfitId>.<products.json id>`(예 `…-street-02.01-bomber`), cat은 id 접미사로(jacket·bomber·quilt·varsity → outer, hoodie·knit·cardigan → top, henley·base → under, beanie → headwear, tote·messenger → bag). 같은 칸에 기존 `oc15-06…10-street-m`이 있어 ID·경로를 새로 만들었고 덮어쓰지 않음. 투명 제품이라 아이템 `cut` = 제품 WebP 자체(rembg 안 씀, b143과 같음), `bg`는 카드가 깔아 주는 아이보리 `#F3EFE8`, `hero`는 제목이 말하는 제품(CUTOUTS.md 규칙과 같은 결과). 기사 `intro` = 제작 측 룩 단위 howToWear(한국어 마스터 그대로; 04만 en/de를 5-1 이름 반복 때문에 살짝 고침), 제품별 `note`·`deck`·`pull`·`tip`은 에디토리얼을 보고 씀.
 
+## b148 · Overcast 남성 저녁 Minimal 두 번째 세트
+
+`oc-chilly-m-35-night-minimal-v2-01`–`05`(sky cloudy · chilly · m · 35 · `time: "evening"` · minimal), 폴더 `Overcast/Chilly/Male/35+/night/minimal-v2/<01–05>/`, 보충 파일 `look/overcast-male-night-minimal-v2.js`. 같은 칸의 `oc-unclassified-m-35-evening-minimal-01`–`05`(`night/minimal/`)는 그대로 → 칸 후보 10. 아이템 ID = `<outfitId>.<products.json id>`(예 `…-v2-05.07-scarf`), cat = id 접미사(outer · top · bottom · socks · shoes · bag · scarf · gloves). 제품 35개는 제공된 투명 WebP 그대로, `cut` = 그 WebP(`look/cutouts.js`), `bg` `#F3EFE8`, `evidence`는 제작 측 값. hero = 제목이 말하는 제품: CHARCOAL, KEYS IN HAND → 차콜 코트 · OATMEAL ON THE HANDLEBARS → 오트밀 머플러 · COBALT, FIRST SIP → 코발트 터틀넥 · TAUPE, ONE KNEE DOWN → 토프 재킷 · ORANGE, MID-SWING → 오렌지 머플러. 문구는 에디토리얼을 보고 한국어로 쓰고 en/de로 옮김(제작 측 한국어 마스터 없음).

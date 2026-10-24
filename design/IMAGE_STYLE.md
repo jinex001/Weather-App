@@ -24,7 +24,8 @@
 - 약간의 필름 입자, 풍부하지만 현실적인 색. 주변 공간을 알아볼 수 있는 심도.
 - 프레임과 높낮이를 다양하게: 전신·무릎 위·상반신, 하이앵글·로우앵글·눈높이.
 - 세로 2:3. 기본 원본 1024 × 1536. 한 파일에 사진 한 장.
-- 에디토리얼 앱 배포본은 JPG(품질 80, 300KB 이하). 제품 컷은 500 × 500 1:1 투명 배경 WebP로 배포한다. 투명 PNG 마스터는 저장소 외부에 보관하며 GitHub에는 중복 업로드하지 않는다. 제품 포맷·배경·용량은 11장의 2026-10-23 승인 기준을 따른다. 기본 수직 탑뷰 및 부츠 구도는 유지한다.
+- 에디토리얼 앱 배포본은 JPG(품질 80, 300KB 이하). 에디토리얼 PNG 원본은 앱 저장소에 두지 않는다.
+- 제품 컷은 500 × 500 1:1, **실제 알파 채널이 있는 투명 배경**, 기본 수직 탑뷰(부츠는 아래 신발별 구도 규칙 적용). 원본은 투명 PNG로 저장소 밖에 보존하고, 앱용은 투명 WebP(목표 50KB 이하, 상한은 11장) 또는 투명 PNG로 배포한다. 아이보리·흰색 바탕이나 체크무늬를 그려 넣지 않고, 바닥·접지 그림자를 넣지 않으며, JPG로 바꿔 투명도를 없애지 않는다(2026-10-24 사용자 수정, 11장).
 - 사진 안에는 텍스트, 로고, 워터마크, 앱 UI, 콜라주를 넣지 않는다.
 
 ### 타깃 연령과 모델 외관 연령 분리 (2026-10-22 사용자 승인)
@@ -89,7 +90,7 @@ Do not force cropped footwear or accessories back into frame.
 - 최종 승인 컷을 보이는 부분의 우선 근거로 삼는다. 같은 착장의 이전 전신 컷이 있으면 크롭으로 사라진 하의·신발·가방의 보조 근거로 사용한다. 이전 전신 컷은 승인된 최종 에디토리얼 대신 앱에 등록하지 않는다.
 - 최종 컷에서 보이는 제품, 보조 컷에서만 확인되는 제품, 양쪽 모두에서 안 보이는 추정 제품을 구분한다. 예: `visible-item-reconstructed`, `partially-visible-reconstructed`, `supporting-view-reconstructed`, `not-visible-inferred`.
 - Markdown·products.json에 근거 구분을 기록한다. 보조 컷의 신발이나 가려진 양말을 최종 크롭에서 직접 확인한 것처럼 설명하지 않는다.
-- 제품 사진은 품목별 별도 파일, 전체 형태가 보이는 정돈된 구도와 실제 알파 투명 배경을 사용한다(11장).
+- 제품 사진은 품목별 별도 파일, 전체 형태가 보이는 정돈된 구도와 실제 알파 채널이 있는 투명 배경을 사용한다(11장).
 - 제품 생성 프롬프트는 이번 파일의 품목 하나만 묘사한다. 코트 파일에 신발·양말·안경·우산의 배치 규칙까지 나열하면 다품목 보드가 생성될 수 있으므로, 신발별 구도 규칙 등은 해당 품목을 만들 때만 넣는다. 다품목 보드가 나오면 업로드하지 않고 품목 단독 프롬프트로 다시 만든다.
 
 ## 2. 시선과 순간 포착
@@ -267,12 +268,12 @@ No added text, logos, watermark or collage.
 - 모든 유형에서 한 켤레의 크기와 간격을 균형 있게 맞추고, 위아래·좌우 여백을 확보해 발목부터 밑창까지 전체 제품을 담는다.
 - 부츠를 옆으로 눕히거나 발목 부분을 접어 형태를 숨기지 않는다. 플랫류는 불필요하게 비틀거나 서로 다른 방향으로 흩어놓지 않는다.
 - 정돈된 배치가 우선이다. 과도한 원근 왜곡, 어지러운 교차·겹침, 잘린 제품, 인물·소품을 사용하지 않는다.
-- 제품 배경은 실제 알파 투명으로 통일한다. 바닥·접지 그림자는 굽지 않고 화면에서 필요한 경우 별도로 표현한다. 제공된 레퍼런스의 화면 UI·로고·텍스트는 복제하지 않는다.
+- 배경은 실제 알파 채널이 있는 완전 투명으로 통일한다. 아이보리·흰색 바탕이나 체크무늬를 이미지에 그려 넣지 않는다. 바닥과 접지 그림자도 넣지 않고(필요하면 화면에서 별도로 표현) 제품의 자연스러운 경계와 재질을 보존한다. 제공된 레퍼런스의 화면 UI·로고·텍스트는 복제하지 않는다.
 - 한 켤레는 한 아이템이며 독립된 제품 이미지 파일 1장에 담는다.
 
 - 각 이미지는 에디토리얼을 참조해 해당 아이템의 색상·소재·실루엣·지퍼·포켓·봉제선 등 보이는 디테일을 일치시킨다. 가려진 부분을 임의로 확정된 디테일처럼 설명하지 않는다.
-- 제품 배포본은 500 × 500, 1:1 정사각형, 실제 알파 투명 배경, 기본 수직 탑뷰(부츠는 위 신발별 3/4 앵글 적용), 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다. 배경과 외부 그림자는 화면에서 별도로 만든다.
-- 인물·손·마네킹·행거·다른 제품·텍스트·로고·워터마크를 넣지 않는다. 앱용 투명 WebP로 저장하며 용량·품질 기준은 11장을 따른다.
+- 제품마다 500 × 500, 1:1 정사각형, 실제 알파 채널이 있는 투명 배경, 기본 수직 탑뷰(부츠는 위 신발별 3/4 앵글 적용), 바닥·접지 그림자 없이 일정한 여백을 사용한다. 제품 전체를 프레임 안에 담는다. 배경과 외부 그림자가 필요하면 화면에서 별도로 만든다.
+- 인물·손·마네킹·행거·다른 제품·텍스트·로고·워터마크를 넣지 않는다. 원본은 투명 PNG, 앱용은 투명 WebP(목표 50KB 이하) 또는 투명 PNG로 저장한다. 알파 채널을 유지하고 제품을 JPG로 저장하지 않는다. 용량·품질 기준은 11장을 따른다.
 
 ### 개별 제품 컷 기본 프롬프트
 
@@ -284,8 +285,9 @@ Preserve the visible color, material, silhouette and construction details
 of that item in the editorial. Do not redesign the item.
 One item category per image and per file. A matching pair of shoes, socks
 or gloves counts as one item and may appear together in its own image.
-True transparent background with a real alpha channel; no floor, ivory matte,
-checkerboard artwork, baked external shadow or colored edge halo.
+Genuinely transparent background with a real alpha channel; no floor or
+contact shadow, no ivory/white matte, no checkerboard artwork, no baked
+external shadow or colored edge halo.
 Soft studio lighting on the product itself; retain self-shading and texture.
 Entire item visible, centered composition and consistent generous margins.
 Default to vertical overhead flat-lay for clothing and low footwear.
@@ -301,8 +303,10 @@ No other products, person, hands, mannequin, hanger, text, logo,
 watermark, grid, collage or multi-item board.
 Deliver each item separately; six items require six separate images.
 Master: transparent PNG stored outside the app Git repository.
-App export: 500 × 500 transparent WebP; target 50KB, normally at most 100KB.
+App export: 500 × 500 transparent WebP (or PNG); target 50KB, normally at most 100KB.
 Preserve alpha edges and fine material texture; document any size exception.
+Never flatten onto ivory/white or export products as JPG.
+Do not render a checkerboard pattern; transparency must be real.
 ~~~
 
 ## 9. 제작 전후 확인
@@ -314,6 +318,7 @@ Preserve alpha edges and fine material texture; document any size exception.
 - 가까운 오브젝트의 살짝 과장된 원근감, 카메라 높낮이, 재미있는 제스처를 함께 설계했는가?
 - 낮·밤 모두 강한 직광 플래시가 확실히 드러나는가?
 - 제품 이미지가 아이템 1종당 독립된 파일 1장이고, 6종이면 각각 6장으로 제작됐는가?
+- 모든 제품 원본·앱용 파일에 실제 알파 채널과 투명 픽셀이 있는가(네 모서리 알파 0)? 아이보리·흰색 배경, 체크무늬, 바닥·접지 그림자가 남거나 JPG 변환으로 투명도가 사라지지 않았는가? 흰색·아이보리·회색·남색·검정 바탕에 합성해 가장자리를 확인했는가(11장)?
 - 러닝 반사 소재가 플래시에 반응하면서 실제 소재처럼 보이는가?
 - 일부 착장에 볼드한 컬러가 있고, 전부 비슷한 무채색 또는 과도한 다채색이 되지 않았는가?
 - 인체와 손·발·소품의 형태가 자연스러운가?
@@ -476,7 +481,7 @@ photographic language and casting rules.
 | 용도 | 포맷·규격 | 저장 원칙 |
 | --- | --- | --- |
 | 재사용 마스터 | 실제 알파 투명 PNG, 생성 원본 해상도 유지 | Library 등 저장소 외부의 지속 보관소. 앱 Git 저장소에 중복 커밋하지 않는다 |
-| 앱·웹 배포 | 실제 알파 투명 WebP, 기본 500 × 500 | GitHub에는 사용 중인 최적화 배포본만 커밋 |
+| 앱·웹 배포 | 실제 알파 투명 WebP(또는 투명 PNG), 기본 500 × 500. 제품 JPG 금지 | GitHub에는 사용 중인 최적화 배포본만 커밋 |
 | 기존 에디토리얼 | JPG, 품질 80, 300KB 이하 | 기존 정책 유지 |
 
 - WebP 용량 목표는 장당 50KB, 일반 상한은 100KB로 운영한다. 이는 실측 압축률 보장이 아닌 프로젝트 예산이다. 복잡한 메시·모헤어·반투명 소재는 가장자리와 질감 보존을 우선하고, 초과 시 실제 크기와 사유를 기록한다.
@@ -490,6 +495,14 @@ photographic language and casting rules.
 - 흰색/아이보리 테두리, 고립된 잔여 픽셀, 불투명 사각 배경, 잘린 제품, 과도한 가장자리 침식을 검사한다.
 - 기존 배경색이 섞인 가장자리는 색 오염 제거와 알파 보정을 함께 적용하되 원래 제품의 색과 섬유를 보존한다.
 - 새 투명 생성도 검수를 생략하지 않는다. 확장자가 PNG/WebP인 것만으로 투명을 확인하지 않고 알파 채널과 합성 결과를 확인한다.
+
+### 2026-10-24 보강 — 투명이 전역 기본 (사용자 수정)
+
+- 사용자 최신 지시: **모든 새 제품 이미지는 실제 투명 배경**. 위 1·8·9장도 같은 기준으로 고쳤다. 예전 "아이보리 바닥 제품 JPG(500 × 500, ≤50KB)" 규칙은 **새 제작물에 대해 폐지**한다.
+- 앱용 파생본은 투명 WebP(기본) 또는 투명 PNG. 제품을 JPG로 내보내거나 아이보리·흰색 위에 합성(flatten)하지 않는다. 체크무늬는 투명이 아니다.
+- 에디토리얼 JPG 배포 기준(1024 × 1536, 품질 80, ≤300KB)은 그대로다.
+- 검수: 알파 채널 존재·네 모서리 알파 0·투명 픽셀 비율, 여러 바탕 합성 육안 확인(위 "배경 잔여색과 가장자리 검수"), 바닥·접지 그림자 없음. 결과를 세트별 검증 기록에 남긴다.
+- 이미 앱에 들어가 있는 아이보리 바닥 JPG 제품(맑은 날 세트 등)은 당시 규칙으로 만든 것이며 자동 변환되지 않았다. 변환은 아래 "기존 앱과의 전환"대로 별도 작업으로 한다(b147처럼). 과거 변경 기록의 "아이보리 배경" 서술은 당시 사실이므로 고치지 않는다.
 
 ### 기존 앱과의 전환
 

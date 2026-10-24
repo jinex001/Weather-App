@@ -19,11 +19,11 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-24, 빌드 b146)
+## 현재 상태 (2026-10-24, 빌드 b148)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
-- `look/outfits.js`: 룩 라이브러리(135룩 · 905아이템, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`, JPG만. 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. **사용자가 GPT에서 만들어 GitHub에 올린 이미지를 보내면 Claude가 배경 정리를 한다**: 매핑할 때마다 배경 없는 대표 컷도 자동으로 만들 것, `design/CUTOUTS.md`(`tools/make-cutouts.py`). 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`. **배포 전 `design/IMAGE_MAPPING_HANDOFF.md` 5-1장 점검**(제품마다 다른 입는 법, 제품 이름 나열 아닌 요약·인트로, en/de 문법, 투명 제품 `bg`는 `#` 색만)을 꼭 통과할 것(b143 재발 방지).
+- `look/outfits.js` + 보충 파일(`look/<세트>.js`, index.html에서 cutouts.js 앞): 룩 라이브러리(b148 기준 로드 후 150룩 · 989아이템 · 기사 150, 모두 쌀쌀함 · 35+). 사진은 `look/berlin-complete/<Sunny|Overcast>/Chilly/<Male|Female>/35+/<day|night>/`와 비 세트 `look/berlin-complete/Rain/<Light|Normal|Pouring>/Chilly/…/<스타일>/<번호>/`. 에디토리얼은 JPG, 제품 컷은 2026-10-24부터 실제 투명 WebP(예전 세트는 아이보리 JPG 그대로). 새 세트 매핑은 `design/IMAGE_MAPPING_HANDOFF.md` 규칙. **사용자가 GPT에서 만들어 GitHub에 올린 이미지를 보내면 Claude가 배경 정리를 한다**: 매핑할 때마다 배경 없는 대표 컷도 자동으로 만들 것, `design/CUTOUTS.md`(`tools/make-cutouts.py`). 형식·고르는 규칙·지금 들어 있는 것은 `design/look-library.md`. **배포 전 `design/IMAGE_MAPPING_HANDOFF.md` 5-1장 점검**(제품마다 다른 입는 법, 제품 이름 나열 아닌 요약·인트로, en/de 문법, 투명 제품 `bg`는 `#` 색만)을 꼭 통과할 것(b143 재발 방지).
 - `widget/weather-widget.js`: Scriptable 위젯(small/medium/large + 잠금화면 3종). 색 규칙은 앱과 같음(흐린 낮 햇빛 3단계 포함). 홈 화면 위젯은 앱 날씨 그림(`widget/art/*.png`, 멈춘 장면, 40% 흐리게)을 가운데에 크게 깔고 기온·상태·오늘 요약(앱과 같은 문장 + 체감 단계 색 막대)을 위에 올림. 체감 사람 아이콘·Today's Look은 없음.
 - 아이폰 확인: 헤드 탭으로 Today's Look 열림을 사용자가 확인(b15). 나머지는 가짜 데이터 렌더링으로 확인.
 - 상태 줄 끝 빌드 표시(`BUILD`, index.html)는 앱 코드를 바꿔 배포할 때마다 올릴 것. 폰이 예전 페이지를 붙잡고 있는지 확인하는 용도. b21부터 앱이 새로고침할 때 배포된 페이지의 `BUILD`를 확인해서 다르면 스스로 다시 불러옴(그래서 `var BUILD = "bNN"` 형식을 바꾸지 말 것).
@@ -220,7 +220,7 @@
 - **날씨 그림 (움직임, 무한 반복)**: 낮 코드 0 해만(햇살 회전·반짝, 해 숨쉬기) · 1 해 + 아주 작은 구름이 흘러감 · 2 해 앞 큰 구름(좌우로 흔들) · 3 흐림(큰 구름 2개 고정 + 뒤로 해가 아주 조금 + 작은 구름 3개가 왼→오 흐름) · 45/48 안개(구름 + 뒤로 해가 아주 조금 + 안개 띠 5줄이 좌우로 흔들림). 밤 0–1 달+별 반짝 · 45/48 달+구름+안개 띠 · 2 달+구름 · 3 흐린 밤(구름 2개 + 뒤로 초승달 조금 + 작은 구름 흐름, b101). 비(b142)는 구름 고정 + 화면 전체 폭 빗줄기 계속 낙하 + 작은 비구름 흐름. 소나기(80–82, b142)는 뒤로 해(밤 달) 조금 + 빗줄기가 몰아쳤다 멈췄다. 이슬비(51–57)는 화면 전체 폭에 가는 짧은 선이 천천히 내리고 작은 비구름이 흐름(b141). 눈은 눈송이 살랑이며 낙하(밤엔 밝은 색). "동작 줄이기"면 정지.
 - **아이콘**: 날씨는 굵은 단색 실루엣 SVG(해=원, 구름, 빗줄기, 달, 눈 점, 파일에 있는 path 재사용). UI 아이콘은 Phosphor Icons Regular(선)만(b91). 옷 일러스트는 쓰지 않음(사용자 결정), 옷은 사진으로만.
 - **글라스**: 글라스 면은 공통 `.glass` 하나(`--glass-fill`·`--glass-blur`·`--glass-light`, b105 Figma 값). 화면마다 값을 따로 만들지 말 것.
-- **사진**: 앱용 JPG만(에디토리얼 1024×1536 ≤300KB, 제품 컷 500×500 ≤50KB). 제품 문구에 브랜드·가격·구매 링크·소재 혼용률 넣지 않음.
+- **사진**: 에디토리얼은 앱용 JPG 1024×1536 ≤300KB. 제품 컷은 500×500 **실제 알파 투명 WebP**(목표 50KB, 상한 100KB; 투명 PNG 허용), 아이보리·흰 바탕·체크무늬·바닥 그림자 없음, JPG로 바꾸지 않음(2026-10-24 사용자 수정, `design/IMAGE_STYLE.md` 11장; 예전 아이보리 JPG 세트는 그대로). 투명 PNG 마스터는 저장소 밖. 제품 문구에 브랜드·가격·구매 링크·소재 혼용률 넣지 않음.
 - 글꼴: Anton(큰 숫자·영문 헤드라인), 그 외 모든 글자 Poppins(자간 -.02em, 문구 600–700, 날짜·데이터 줄 500; 한글은 Noto Sans KR로 대체). Google Fonts. 상태 문구는 대문자(text-transform: uppercase).
 - 날씨 상태가 바뀌면 `theme-color`(상태 표시줄 색)도 배경색으로.
 
@@ -347,3 +347,7 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## b147 · 흐림 남성 낮 스트리트 06–10 제품 투명 교체 (2026-10-24)
 
 사용자 요청(가져오기·푸시·PR 승인). 기존 `oc15-06…10-street-m` 5룩의 아이보리 바닥 제품 JPG 28장(5/7/5/6/5)을 로컬 `output/background-removal/ready/<06–10>-street/products/*.png`(배경 제거본) 기준 투명 WebP(500×500, 원본 알파 그대로, 새 이미지 생성·배경 제거 없음)로 **교체**: `products/NN-<분류>.webp`, JPG 28장과 rembg 대표 컷 `01-outer.cut.webp` 5장 지움. 룩·아이템 ID, 에디토리얼, ko/en/de 이름·입는 법은 그대로; 아이템 `image`·`alt`("투명 배경의 제품 컷")·`bg` `#F3EFE8`만, `look/cutouts.js` 5행은 아우터 WebP 자체(b145 방식). 3장(07 머플러·08 체크 오버셔츠·10 러너)은 질감 때문에 50KB 초과(63–73KB, 상한 100KB 안). `outfits.js`·`cutouts.js?v=b147`. [검증](design/overcast-male-day-street-06-10-transparent-validation.md).
+
+## b148 · 흐림 남성 저녁 미니멀 두 번째 세트 + 제품 투명 규칙 전역화 (2026-10-24)
+
+사용자 요청(업로드·브랜치·PR 승인, 병합·배포는 안 함). 직접 넘긴 세트(READY.json 없음): iCloud `Weather-App-originals/Overcast/Chilly/Male/35+/night/01–05` = 로컬 `output/overcast-chilly-male-night-minimal-v2/minimal-v2-20261024`, CHECKSUMS.json 133개 해시 작업 전후 일치(원본은 읽기만). 같은 칸에 b116 `night/minimal/01–05`가 있어 덮어쓰지 않고 `look/berlin-complete/Overcast/Chilly/Male/35+/night/minimal-v2/<01–05>/`에 더함: 에디토리얼 JPG 5장(1024×1536, 280–294KB, 제공본 그대로) + 투명 WebP 제품 35개(7/7/7/6/8, 500×500 RGBA, 13–49KB, 제공본 바이트 그대로, 새 배경 제거·생성 없음) + products.json·README·PROMPTS. 룩 `oc-chilly-m-35-night-minimal-v2-01`–`05`(cloudy · chilly · m · 35 · evening · minimal), 보충 파일 `look/overcast-male-night-minimal-v2.js`(cutouts.js 앞). 제목 CHARCOAL, KEYS IN HAND · OATMEAL ON THE HANDLEBARS · COBALT, FIRST SIP · TAUPE, ONE KNEE DOWN · ORANGE, MID-SWING, hero = 제목이 말하는 제품(투명 WebP 자체, `look/cutouts.js` 5행). 제작 측은 영어 description·evidence뿐이라 에디토리얼을 보고 한국어 deck·intro·tip·이름·입는 법을 쓰고 en/de로 옮김. 보이지 않는 제품 10개(`not-visible-inferred`)는 입는 법에서 "사진엔 보이지 않는 원래 스타일링"이라고 밝힘. 흐림 남성 저녁 미니멀 칸 5 → 10룩(3개 랜덤). 150룩 · 989아이템 · 기사 150. 같은 PR에서 **제품 투명 규칙을 전역 기본으로**(사용자 승인): `design/IMAGE_STYLE.md`(1·8·9·11장), `IMAGE_MAPPING_HANDOFF.md` 3·4·5장, `CUTOUTS.md`, `look-library.md`, `design-system.md` 13장, 이 파일의 디자인 규칙. 예전 아이보리 JPG 세트와 과거 기록은 그대로. [검증](design/overcast-male-night-minimal-v2-validation.md).

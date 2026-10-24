@@ -139,7 +139,12 @@
     "bn15-07-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/07-street/products/01-outer.cut.webp", 0.184],
     "bn15-08-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/08-street/products/01-outer.cut.webp", 0.147],
     "bn15-09-street-f.accessory": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/09-street/products/05-scarf.cut.webp", 0.031],
-    "bn15-10-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/10-street/products/01-outer.cut.webp", 0.493]
+    "bn15-10-street-f.outer": ["look/berlin-complete/Sunny/Chilly/Female/35+/night/10-street/products/01-outer.cut.webp", 0.493],
+    "oc-chilly-m-35-night-minimal-v2-01.01-outer": ["look/berlin-complete/Overcast/Chilly/Male/35+/night/minimal-v2/01/products/01-outer.webp", 0.042],
+    "oc-chilly-m-35-night-minimal-v2-02.07-scarf": ["look/berlin-complete/Overcast/Chilly/Male/35+/night/minimal-v2/02/products/07-scarf.webp", 0.468],
+    "oc-chilly-m-35-night-minimal-v2-03.02-top": ["look/berlin-complete/Overcast/Chilly/Male/35+/night/minimal-v2/03/products/02-top.webp", 0.029],
+    "oc-chilly-m-35-night-minimal-v2-04.01-outer": ["look/berlin-complete/Overcast/Chilly/Male/35+/night/minimal-v2/04/products/01-outer.webp", 0.103],
+    "oc-chilly-m-35-night-minimal-v2-05.07-scarf": ["look/berlin-complete/Overcast/Chilly/Male/35+/night/minimal-v2/05/products/07-scarf.webp", 0.123]
   };
   var HERO = {
     "bn15-01-run-f": "bn15-01-run-f.outer",
@@ -276,7 +281,12 @@
     "bl-light-chilly-f-35-day-casual-02": "bl-light-chilly-f-35-day-casual-02.02-top",
     "bl-light-chilly-f-35-day-casual-03": "bl-light-chilly-f-35-day-casual-03.02-top",
     "bl-light-chilly-f-35-day-casual-04": "bl-light-chilly-f-35-day-casual-04.01-outer",
-    "bl-light-chilly-f-35-day-casual-05": "bl-light-chilly-f-35-day-casual-05.01-outer"
+    "bl-light-chilly-f-35-day-casual-05": "bl-light-chilly-f-35-day-casual-05.01-outer",
+    "oc-chilly-m-35-night-minimal-v2-01": "oc-chilly-m-35-night-minimal-v2-01.01-outer",
+    "oc-chilly-m-35-night-minimal-v2-02": "oc-chilly-m-35-night-minimal-v2-02.07-scarf",
+    "oc-chilly-m-35-night-minimal-v2-03": "oc-chilly-m-35-night-minimal-v2-03.02-top",
+    "oc-chilly-m-35-night-minimal-v2-04": "oc-chilly-m-35-night-minimal-v2-04.01-outer",
+    "oc-chilly-m-35-night-minimal-v2-05": "oc-chilly-m-35-night-minimal-v2-05.07-scarf"
   };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });
