@@ -19,7 +19,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-23, 빌드 b144)
+## 현재 상태 (2026-10-24, 빌드 b146)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -339,3 +339,7 @@ User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped 
 ## b145 · 흐림 남성 낮 스트리트 두 번째 세트 (2026-10-24)
 
 사용자 요청(가져오기·푸시 승인). iCloud `Weather-App-originals/Overcast/Chilly/Male/35+/day/street-01–05`(READY.json 승인, 43개 해시 확인, 작업 후에도 그대로) → `look/berlin-complete/Overcast/Chilly/Male/35+/day/street/<01–05>/`: 에디토리얼 JPG 5장(1024×1536 ≤300KB, 02만 q76) + 투명 WebP 제품 28개(5/6/6/5/6, 500×500, 24–50KB, 원본 알파 그대로, 새 이미지·배경 제거 없음) + products.json·README. 투명 PNG 마스터는 iCloud에만. 룩 `oc-chilly-m-35-day-street-01`–`05`(cloudy · chilly · m · 35 · 낮 · street), 같은 칸 기존 `oc15-06…10-street-m`은 그대로 → 이 칸은 10룩에서 3개 랜덤. 보충 파일 `look/overcast-male-day-street.js`(cutouts.js 앞). 제목 BROWN LEATHER, HOT COFFEE · COBALT ON THE KERB · RUST FROM THE MARKET · VARSITY ON A GREY DAY · CREAM FUZZ, FRESH BREAD, hero = 제목이 말하는 제품, `cut` = 투명 제품 자체, `bg` #F3EFE8. intro = 제작 측 룩 howToWear(ko 그대로, 04 en/de만 5-1 이름 반복 때문에 고침), 제품별 입는 법·deck·pull·tip은 에디토리얼 보고 ko/en/de 새로 씀(사용자 지시). 145룩 · 954아이템 · 기사 145. 헤드리스 Chrome 가짜 데이터로 홈·시트·카드, ko/en/de 확인. [검증](design/overcast-male-day-street-2-validation.md).
+
+## b146 · 장신구 입는 법 따로따로 (2026-10-24)
+
+사용자 요청. 5-1장 점검으로 기존 세트를 훑다가 찾은 것: 같은 룩 안 장신구가 한 문장을 같이 쓰고 있었음 — 맑은 날 여성 저녁 스트리트 10(반지 3개 "단순한 밴드 링 하나로…"), 맑은 날 남성 낮 스트리트 06(목걸이·팔찌·반지)·08(목걸이·팔찌) "작은 금속 톤 포인트로…". 에디토리얼을 보고 장신구 9개(10번 귀걸이 포함)의 입는 법을 ko/en/de로 각각 새로 씀(`look/outfits.js`, `look/sunny-male-day-street.js`, 각 products.json `description*`·`howToWear*`). 이름·ID·사진은 그대로. 이제 기사 룩 145개 모두 룩 안에 같은 입는 법 없음. 같은 날 올라온 b145(흐린 날 남성 낮 스트리트 2세트)도 5-1장 점검 통과(투명 WebP 28장 500×500·알파·≤50KB, 문구 중복 없음, 대표 컷 있음). `outfits.js?v=b146`, `sunny-male-day-street.js?v=b146`.
