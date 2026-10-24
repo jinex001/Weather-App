@@ -361,3 +361,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b151 · 비 · 가벼운 비 · 여성 · 35+ · 저녁 · 미니멀 (2026-10-24)
 
 사용자 요청("매핑까지 해서 메인으로"). 9c3321b로 올라온 `Rain/Light/Chilly/Female/35+/night/minimal/01–05`(에디토리얼 5장 + 투명 WebP 제품 29장, 매핑 pending·review였음) → `look/rain-female-night-minimal.js`(cutouts.js 앞), 룩 `bl-light-chilly-f-35-night-minimal-01`–`05`(rain · light · chilly · f · 35 · evening · minimal), 제품 28개(04 안경 닦이는 소품 `appEligible: false`라 제외). 머플러는 `cat: scarf`, 우산은 `accessory`(비 카드 규칙). 제목 CHARCOAL, MID-STEP · COBALT UNDER THE CANOPY · CHOCOLATE AT THE DOORSTEP · RED UNDER THE HOOD · FRINGE AT THE FRONT DOOR, 한 줄 요약·인트로·인용구·팁·제품별 입는 법을 에디토리얼 보고 ko/en/de로 씀(제작 측엔 영어 입는 법만 있었음). 03 코트 앱 이름 "초콜릿 브라운 코트"(단추 수정본 표기 뺌). 대표 컷 = 투명 제품 자체(`cutouts.js` HERO·CUTS 5행). 각 products.json ready·mapped·`appOutfitId`·`appItemId`. 5-1장 점검 통과(입는 법 중복 없음, 이름 나열 없음, `missing cutouts: 0`), 카드 렌더링 확인. 160룩 · 1043아이템 · 기사 160. `cutouts.js?v=b151`.
+
+## 흐린 날 여성 저녁 스트리트 10 에디토리얼 교체 (2026-10-24, 앱 빌드 변화 없음)
+
+사용자 요청. GREEN UNDER NAVY(`ofn-10-street-f`)의 `Overcast/Chilly/Female/35+/night/10-street/editorial.jpg`를 사용자가 준 새 사진(카페 창가에서 커피 컵 뚜껑을 닫는 장면, 같은 착장)으로 교체. 1024×1536 JPG q82 235KB, 경로 그대로라 데이터·문구·제품 변화 없음. GitHub Pages 캐시(약 10분) 뒤 새 사진이 보임.
