@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-day-run-20261025-03",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "isLiveMeasurement": false,
+    "note": "creative styling assumption for the concept, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 3,
+  "products": [
+    {
+      "look": "03",
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코발트 리플렉티브 셸",
+      "nameEn": "Cobalt hooded reflective running shell",
+      "detail": "Cobalt blue hooded shell, full reflective silver-edged front zipper, two diagonal reflective zipped pockets, elastic sleeve cuffs.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Cobalt blue hooded shell, full reflective silver-edged front zipper, two diagonal reflective zipped pockets, elastic sleeve cuffs.",
+      "descriptionEn": "With the hood up, zip right to the top so the silver edging runs in one line up to the chin; the silver-white trim on the diagonal zip pockets stands out sharply on the cobalt.",
+      "descriptionKo": "후드를 쓸 때는 앞 지퍼를 끝까지 올려 은색 테두리가 얼굴 아래까지 한 줄로 이어지게 해요. 사선 지퍼 주머니의 은백색 라인이 코발트 위에서 또렷이 빛나요.",
+      "descriptionDe": "Mit aufgesetzter Kapuze ganz hochziehen, damit die Silberkante in einer Linie bis unters Kinn läuft; die silberweiße Blende an den schrägen Reißverschlusstaschen leuchtet klar auf dem Kobaltblau.",
+      "image": "products/01-outer.webp",
+      "sha256": "750e17fdfa9097a0f91360b93b82898458862a81b9d2405175408f7d475e33df",
+      "bytes": 43278,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        4,
+        16,
+        496,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "코발트 리플렉티브 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "코발트 리플렉티브 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Cobalt blue hooded shell, full reflective silver-edged front zipper, two diagonal reflective zipped pockets, elastic sleeve cuffs.",
+        "de": "Cobalt reflective running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Kobaltblaue reflektierende Lauf-Shell mit Kapuze",
+      "howToWear": {
+        "ko": "후드를 쓸 때는 앞 지퍼를 끝까지 올려 은색 테두리가 얼굴 아래까지 한 줄로 이어지게 해요. 사선 지퍼 주머니의 은백색 라인이 코발트 위에서 또렷이 빛나요.",
+        "en": "With the hood up, zip right to the top so the silver edging runs in one line up to the chin; the silver-white trim on the diagonal zip pockets stands out sharply on the cobalt.",
+        "de": "Mit aufgesetzter Kapuze ganz hochziehen, damit die Silberkante in einer Linie bis unters Kinn läuft; die silberweiße Blende an den schrägen Reißverschlusstaschen leuchtet klar auf dem Kobaltblau."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-03.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": "03",
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 하이넥 이너",
+      "nameEn": "Black high-neck running layer with thumbholes",
+      "detail": "Black charcoal high-neck technical long sleeve layer with thumbholes visible at wrist. Hidden body inferred simple and fitted.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Black charcoal high-neck technical long sleeve layer with thumbholes visible at wrist. Hidden body inferred simple and fitted.",
+      "descriptionEn": "Hook your thumbs through the thumbholes so the sleeves cover the back of the hand and a clean black line shows beyond the shell cuffs; the high neck fills the cobalt collar with a dark base.",
+      "descriptionKo": "엄지 구멍에 손가락을 끼워 소매가 손등까지 덮이게 하면 셸 소매단 밖으로 블랙 라인이 깔끔하게 나와요. 하이넥이 코발트 칼라 안을 어둡게 채워 줘요.",
+      "descriptionDe": "Die Daumen durch die Daumenlöcher stecken, so bedecken die Ärmel den Handrücken und zeigen unter den Shell-Bündchen eine klare schwarze Linie; der hohe Kragen füllt das kobaltblaue Revers mit dunklem Grund.",
+      "image": "products/02-top.webp",
+      "sha256": "d4c8cfda769253d0a2164db41442c91bd00026a93eb7ab32a11db7b0b580da9b",
+      "bytes": 24748,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        19,
+        16,
+        481,
+        484
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 하이넥 이너 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 하이넥 이너 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Black charcoal high-neck technical long sleeve layer with thumbholes visible at wrist. Hidden body inferred simple and fitted.",
+        "de": "Black high-neck running base layer; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarzes Laufshirt mit hohem Kragen und Daumenlöchern",
+      "howToWear": {
+        "ko": "엄지 구멍에 손가락을 끼워 소매가 손등까지 덮이게 하면 셸 소매단 밖으로 블랙 라인이 깔끔하게 나와요. 하이넥이 코발트 칼라 안을 어둡게 채워 줘요.",
+        "en": "Hook your thumbs through the thumbholes so the sleeves cover the back of the hand and a clean black line shows beyond the shell cuffs; the high neck fills the cobalt collar with a dark base.",
+        "de": "Die Daumen durch die Daumenlöcher stecken, so bedecken die Ärmel den Handrücken und zeigen unter den Shell-Bündchen eine klare schwarze Linie; der hohe Kragen füllt das kobaltblaue Revers mit dunklem Grund."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-03.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": "03",
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 타이츠",
+      "nameEn": "Black running tights",
+      "detail": "Upper thighs visible only: black matte fitted tights with curved seams. Full-length legs and waistband conservatively inferred, do not invent reflective marks.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Upper thighs visible only: black matte fitted tights with curved seams. Full-length legs and waistband conservatively inferred, do not invent reflective marks.",
+      "descriptionEn": "Matte black with curved seams along the thigh, they let the bright cobalt do the talking; wear the waist high so the shell hem sits just above the hips.",
+      "descriptionKo": "허벅지를 따라 곡선 솔기가 지나가는 매트 블랙이라 선명한 코발트를 차분하게 받쳐 줘요. 셸 밑단이 엉덩이 위에 오도록 허리를 높게 올려 입어요.",
+      "descriptionDe": "Mattes Schwarz mit geschwungenen Nähten am Oberschenkel überlässt dem leuchtenden Kobalt die Bühne; den Bund hoch tragen, damit der Jackensaum knapp über der Hüfte sitzt.",
+      "image": "products/03-bottom.webp",
+      "sha256": "3c2de81cacbbf3822b6c165b4c1ea6d377357551e99a881d44beb6ac20c99887",
+      "bytes": 13702,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        143,
+        19,
+        358,
+        484
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Upper thighs visible only: black matte fitted tights with curved seams. Full-length legs and waistband conservatively inferred, do not invent reflective marks.",
+        "de": "Black running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarze Lauftights",
+      "howToWear": {
+        "ko": "허벅지를 따라 곡선 솔기가 지나가는 매트 블랙이라 선명한 코발트를 차분하게 받쳐 줘요. 셸 밑단이 엉덩이 위에 오도록 허리를 높게 올려 입어요.",
+        "en": "Matte black with curved seams along the thigh, they let the bright cobalt do the talking; wear the waist high so the shell hem sits just above the hips.",
+        "de": "Mattes Schwarz mit geschwungenen Nähten am Oberschenkel überlässt dem leuchtenden Kobalt die Bühne; den Bund hoch tragen, damit der Jackensaum knapp über der Hüfte sitzt."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-03.03-bottom",
+      "appCategory": "bottom"
+    }
+  ],
+  "copy": {
+    "titleKo": "후드를 잡는 순간",
+    "captionKo": "코발트 셸과 은백색 반사 지퍼로 흐린 날에도 또렷한 러닝 룩.",
+    "introKo": "선명한 코발트 셸 안에 블랙 하이넥 이너를 겹쳤다. 손목을 감싸는 소매와 타이츠로 활동적인 실루엣을 이어간다.",
+    "tipKo": "바람에 후드가 흔들리면 시야를 가리지 않도록 정리하세요.",
+    "title": {
+      "ko": "후드를 잡는 순간",
+      "en": "COBALT, HOOD UP"
+    },
+    "deck": {
+      "ko": "코발트 셸과 은백색 반사 지퍼로 흐린 날에도 또렷한 러닝 룩.",
+      "en": "A cobalt shell and a silver-white reflective zip keep the run crisp on a grey day.",
+      "de": "Eine kobaltblaue Shell mit silberweißem Reflex-Reißverschluss hält den Lauf an einem grauen Tag klar."
+    },
+    "intro": {
+      "ko": "선명한 코발트 셸 안에 블랙 하이넥 이너를 겹쳤다. 손목을 감싸는 소매와 타이츠로 활동적인 실루엣을 이어간다.",
+      "en": "A black high-neck layer sits inside a vivid cobalt shell. Sleeves that wrap the wrist and fitted tights carry the active silhouette all the way down.",
+      "de": "In einer leuchtend kobaltblauen Shell steckt eine schwarze Lage mit hohem Kragen. Ärmel, die das Handgelenk umschließen, und eng anliegende Tights führen die sportliche Silhouette bis nach unten weiter."
+    },
+    "tip": {
+      "ko": "바람에 후드가 흔들리면 시야를 가리지 않도록 정리하세요.",
+      "en": "If the wind catches your hood, tuck it back so it doesn't cover your view.",
+      "de": "Wenn der Wind die Kapuze erfasst, sie zurechtrücken, damit sie die Sicht nicht verdeckt."
+    },
+    "pull": "ONE HAND ON THE HOOD, EYES ON THE ROAD."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-day-run-20261025-03",
+  "appBuild": "b159",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "hero": "rl-chilly-f35-day-run-20261025-03.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

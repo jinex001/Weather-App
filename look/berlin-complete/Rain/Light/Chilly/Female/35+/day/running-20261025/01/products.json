@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-day-run-20261025-01",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "isLiveMeasurement": false,
+    "note": "creative styling assumption for the concept, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "look": "01",
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "슬레이트 블루 러닝 셸",
+      "nameEn": "Slate-blue hooded running shell",
+      "detail": "Preserve hood, full front zipper, two diagonal zipped pockets, elastic cuffs, silver reflective upper sleeve strips and pocket-edge piping.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Preserve hood, full front zipper, two diagonal zipped pockets, elastic cuffs, silver reflective upper sleeve strips and pocket-edge piping.",
+      "descriptionEn": "Zip it only to mid-chest so the charcoal collar underneath shows; the silver strip on the upper arm and the piping along the pockets draw a clean line across the muted slate blue.",
+      "descriptionKo": "지퍼를 가슴 중간까지만 올려 차콜 이너의 칼라가 보이게 입어요. 위팔의 은색 반사 줄과 주머니 가장자리 파이핑이 차분한 슬레이트 블루에 선을 그어 줘요.",
+      "descriptionDe": "Nur bis zur Brustmitte schließen, damit der anthrazitfarbene Kragen darunter sichtbar bleibt; der Silberstreifen am Oberarm und die Paspel an den Taschen ziehen eine klare Linie über das gedeckte Schieferblau.",
+      "image": "products/01-outer.webp",
+      "sha256": "c33048f611ab71961e15211532ae61094301a4556f8257edef7efcc89e87d454",
+      "bytes": 37784,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        12,
+        8,
+        488,
+        480
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "슬레이트 블루 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "슬레이트 블루 러닝 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Preserve hood, full front zipper, two diagonal zipped pockets, elastic cuffs, silver reflective upper sleeve strips and pocket-edge piping.",
+        "de": "Slate-blue lightweight hooded running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schieferblaue Lauf-Shell mit Kapuze",
+      "howToWear": {
+        "ko": "지퍼를 가슴 중간까지만 올려 차콜 이너의 칼라가 보이게 입어요. 위팔의 은색 반사 줄과 주머니 가장자리 파이핑이 차분한 슬레이트 블루에 선을 그어 줘요.",
+        "en": "Zip it only to mid-chest so the charcoal collar underneath shows; the silver strip on the upper arm and the piping along the pockets draw a clean line across the muted slate blue.",
+        "de": "Nur bis zur Brustmitte schließen, damit der anthrazitfarbene Kragen darunter sichtbar bleibt; der Silberstreifen am Oberarm und die Paspel an den Taschen ziehen eine klare Linie über das gedeckte Schieferblau."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-01.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": "01",
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 집넥 이너",
+      "nameEn": "Charcoal zip-neck running layer",
+      "detail": "Preserve close-fit charcoal fabric, short front zipper and stand collar. Hidden body and sleeves inferred simply.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Preserve close-fit charcoal fabric, short front zipper and stand collar. Hidden body and sleeves inferred simply.",
+      "descriptionEn": "The close fit lies flat under the shell. Zip the stand collar all the way up to cover the neck at the start, then lower the short zip once you have warmed up.",
+      "descriptionKo": "몸에 붙는 핏이라 셸 안에서 들뜨지 않아요. 스탠드 칼라를 끝까지 올려 목을 덮고, 몸이 데워지면 짧은 지퍼를 내려 열을 빼요.",
+      "descriptionDe": "Der enge Schnitt liegt unter der Shell flach an. Zu Beginn den Stehkragen ganz hochziehen und den kurzen Reißverschluss öffnen, sobald dir warm ist.",
+      "image": "products/02-top.webp",
+      "sha256": "586fced459935d2c01f17f7f94d0e23d10858351691f080813d5339d0d1c4e29",
+      "bytes": 31174,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        3,
+        28,
+        497,
+        472
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 집넥 이너 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 집넥 이너 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Preserve close-fit charcoal fabric, short front zipper and stand collar. Hidden body and sleeves inferred simply.",
+        "de": "Charcoal zip-neck running base layer; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Anthrazitfarbenes Laufshirt mit Reißverschlusskragen",
+      "howToWear": {
+        "ko": "몸에 붙는 핏이라 셸 안에서 들뜨지 않아요. 스탠드 칼라를 끝까지 올려 목을 덮고, 몸이 데워지면 짧은 지퍼를 내려 열을 빼요.",
+        "en": "The close fit lies flat under the shell. Zip the stand collar all the way up to cover the neck at the start, then lower the short zip once you have warmed up.",
+        "de": "Der enge Schnitt liegt unter der Shell flach an. Zu Beginn den Stehkragen ganz hochziehen und den kurzen Reißverschluss öffnen, sobald dir warm ist."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-01.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": "01",
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 러닝 타이츠",
+      "nameEn": "Charcoal full-length running tights",
+      "detail": "Full length matte charcoal tights, narrow silver reflective lower shin marks, simple waistband inferred.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Full length matte charcoal tights, narrow silver reflective lower shin marks, simple waistband inferred.",
+      "descriptionEn": "Tuck the waistband neatly under the shell hem to carry the charcoal from top to bottom, and leave the hems down at the ankle so the thin silver mark on the lower shin shows with every stride.",
+      "descriptionKo": "허리를 셸 밑단 아래로 깔끔하게 넣어 상하의 차콜 톤을 이어요. 정강이 아래 가는 은색 표시가 발걸음마다 살짝 보이도록 밑단은 접지 말고 발목까지 내려 입어요.",
+      "descriptionDe": "Den Bund ordentlich unter den Jackensaum führen, damit sich das Anthrazit von oben nach unten fortsetzt; die Säume bis zum Knöchel lassen, so blitzt die feine Silbermarke am Schienbein bei jedem Schritt auf.",
+      "image": "products/03-bottom.webp",
+      "sha256": "dea0bc30953f591ee9d6e118deeae3230564f34cdd6c53cf640567030e97355b",
+      "bytes": 14932,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        143,
+        16,
+        357,
+        484
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 러닝 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Full length matte charcoal tights, narrow silver reflective lower shin marks, simple waistband inferred.",
+        "de": "Charcoal running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Anthrazitfarbene lange Lauftights",
+      "howToWear": {
+        "ko": "허리를 셸 밑단 아래로 깔끔하게 넣어 상하의 차콜 톤을 이어요. 정강이 아래 가는 은색 표시가 발걸음마다 살짝 보이도록 밑단은 접지 말고 발목까지 내려 입어요.",
+        "en": "Tuck the waistband neatly under the shell hem to carry the charcoal from top to bottom, and leave the hems down at the ankle so the thin silver mark on the lower shin shows with every stride.",
+        "de": "Den Bund ordentlich unter den Jackensaum führen, damit sich das Anthrazit von oben nach unten fortsetzt; die Säume bis zum Knöchel lassen, so blitzt die feine Silbermarke am Schienbein bei jedem Schritt auf."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-01.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": "01",
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "라이트 그레이 러닝 양말",
+      "nameEn": "Light grey ribbed crew running socks",
+      "detail": "One matching pair of light grey ribbed crew socks, no logos.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair of light grey ribbed crew socks, no logos.",
+      "descriptionEn": "Pull the crew length up over the tights hem so no gap opens at the ankle; the light grey runs straight into the silver shoes.",
+      "descriptionKo": "크루 길이를 타이츠 밑단 위로 끌어올려 발목에 틈이 생기지 않게 해요. 라이트 그레이가 실버 러닝화와 자연스럽게 이어져요.",
+      "descriptionDe": "Die Crew-Länge über den Tightssaum ziehen, damit am Knöchel keine Lücke entsteht; das Hellgrau geht nahtlos in die silbernen Schuhe über.",
+      "image": "products/04-socks.webp",
+      "sha256": "bb487b19bd6e9ed5d98074f505da2225732ca051d8369fdd69aa967363be9a22",
+      "bytes": 37708,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        83,
+        41,
+        410,
+        471
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "라이트 그레이 러닝 양말 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "라이트 그레이 러닝 양말 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair of light grey ribbed crew socks, no logos.",
+        "de": "Light grey ribbed running socks; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Hellgraue gerippte Laufsocken in Crew-Länge",
+      "howToWear": {
+        "ko": "크루 길이를 타이츠 밑단 위로 끌어올려 발목에 틈이 생기지 않게 해요. 라이트 그레이가 실버 러닝화와 자연스럽게 이어져요.",
+        "en": "Pull the crew length up over the tights hem so no gap opens at the ankle; the light grey runs straight into the silver shoes.",
+        "de": "Die Crew-Länge über den Tightssaum ziehen, damit am Knöchel keine Lücke entsteht; das Hellgrau geht nahtlos in die silbernen Schuhe über."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-01.04-socks",
+      "appCategory": "socks"
+    },
+    {
+      "look": "01",
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "실버 그레이 러닝화",
+      "nameEn": "Silver-grey mesh running shoes",
+      "detail": "One pair, silver-grey mesh uppers and overlays, grey laces, pale midsole, dark outsole. Match visible reference construction.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One pair, silver-grey mesh uppers and overlays, grey laces, pale midsole, dark outsole. Match visible reference construction.",
+      "descriptionEn": "Tighten the grey laces evenly over the instep and keep the bow short; the silver mesh and pale midsole become the brightest part of the look on a wet pavement.",
+      "descriptionKo": "그레이 끈을 발등에 맞게 고르게 조이고 매듭은 짧게 정리해요. 실버 메시와 밝은 미드솔이 젖은 보도 위에서 룩의 가장 밝은 부분이 돼요.",
+      "descriptionDe": "Die grauen Schnürsenkel gleichmäßig über dem Spann anziehen und die Schleife kurz halten; silbernes Mesh und helle Mittelsohle sind auf nassem Pflaster der hellste Teil des Looks.",
+      "image": "products/05-shoes.webp",
+      "sha256": "23fd6a7e0f32f937a6429875e32c19e5a6ea20e4098ff6cea6b17e064cb149c8",
+      "bytes": 45668,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        56,
+        28,
+        444,
+        482
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "실버 그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "실버 그레이 러닝화 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One pair, silver-grey mesh uppers and overlays, grey laces, pale midsole, dark outsole. Match visible reference construction.",
+        "de": "Silver grey mesh running shoes; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Silbergraue Laufschuhe aus Mesh",
+      "howToWear": {
+        "ko": "그레이 끈을 발등에 맞게 고르게 조이고 매듭은 짧게 정리해요. 실버 메시와 밝은 미드솔이 젖은 보도 위에서 룩의 가장 밝은 부분이 돼요.",
+        "en": "Tighten the grey laces evenly over the instep and keep the bow short; the silver mesh and pale midsole become the brightest part of the look on a wet pavement.",
+        "de": "Die grauen Schnürsenkel gleichmäßig über dem Spann anziehen und die Schleife kurz halten; silbernes Mesh und helle Mittelsohle sind auf nassem Pflaster der hellste Teil des Looks."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-01.05-shoes",
+      "appCategory": "shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "비를 피해 한 걸음",
+    "captionKo": "슬레이트 블루 셸에 차콜 레이어를 겹쳐 가벼운 비 속 러닝을 준비한다.",
+    "introKo": "가벼운 셸과 집넥 이너, 긴 타이츠로 쌀쌀한 날의 러닝 레이어를 구성했다. 소매와 종아리의 반사 디테일이 차분한 색조에 선명한 포인트를 더한다.",
+    "tipKo": "달리며 더워지면 셸 지퍼를 조금 열어 환기하세요.",
+    "title": {
+      "ko": "비를 피해 한 걸음",
+      "en": "SLATE BLUE SIDESTEP"
+    },
+    "deck": {
+      "ko": "슬레이트 블루 셸에 차콜 레이어를 겹쳐 가벼운 비 속 러닝을 준비한다.",
+      "en": "Charcoal layers under a slate-blue shell, ready for a light-rain run.",
+      "de": "Anthrazitfarbene Lagen unter einer schieferblauen Shell, bereit für einen Lauf im Nieselregen."
+    },
+    "intro": {
+      "ko": "가벼운 셸과 집넥 이너, 긴 타이츠로 쌀쌀한 날의 러닝 레이어를 구성했다. 소매와 종아리의 반사 디테일이 차분한 색조에 선명한 포인트를 더한다.",
+      "en": "A light hooded shell over a zip-neck layer and full-length tights makes a running kit for a chilly, drizzly day. Small reflective marks on the sleeve and lower leg add a bright line to the muted colours.",
+      "de": "Eine leichte Kapuzen-Shell über einem Shirt mit Reißverschlusskragen und lange Tights ergeben ein Laufoutfit für einen kühlen, nieseligen Tag. Kleine Reflexmarken an Ärmel und Unterschenkel setzen eine helle Linie in die gedeckten Farben."
+    },
+    "tip": {
+      "ko": "달리며 더워지면 셸 지퍼를 조금 열어 환기하세요.",
+      "en": "Once you warm up, open the shell zip a little to let air in.",
+      "de": "Sobald dir warm wird, den Reißverschluss der Shell etwas öffnen und Luft hereinlassen."
+    },
+    "pull": "ONE QUICK STEP AROUND THE PUDDLE."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-day-run-20261025-01",
+  "appBuild": "b159",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "hero": "rl-chilly-f35-day-run-20261025-01.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}
