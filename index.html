@@ -66,6 +66,9 @@
   .hero-art svg { width: 100%; height: 170px; }
   /* Hero art motion (loops) */
   .art-drop { opacity: 0; animation: art-fall .9s linear infinite; }
+  /* rain (b154): teardrops falling straight down from under the clouds, speeding up */
+  .art-tear { opacity: 0; animation: art-tear 1.1s cubic-bezier(.5,0,1,1) infinite; }
+  @keyframes art-tear { 0% { opacity: 0; transform: translateY(-4px); } 15%,80% { opacity: 1; } 100% { opacity: 0; transform: translateY(26px); } }
   /* drizzle (b141): many fine short lines drifting down slowly across the whole screen width */
   .art-dz { opacity: 0; animation: art-dz 2s linear infinite; }
   @keyframes art-dz { 0% { opacity: 0; transform: translate(1px,-8px); } 25%,75% { opacity: .85; } 100% { opacity: 0; transform: translate(-2px,12px); } }
@@ -93,7 +96,7 @@
   @keyframes art-fog { from { transform: translateX(-10px); } to { transform: translateX(10px); } }
   .art-flake { opacity: 0; animation: art-snow 3s linear infinite; }
   @keyframes art-snow { 0% { opacity: 0; transform: translate(0,-16px); } 15%,85% { opacity: 1; } 50% { transform: translate(5px,6px); } 100% { opacity: 0; transform: translate(-3px,30px); } }
-  @media (prefers-reduced-motion: reduce) { .hero-art svg * { animation: none !important; } .art-drop, .art-dz, .art-flake { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .hero-art svg * { animation: none !important; } .art-drop, .art-dz, .art-tear, .art-flake { opacity: 1; } }
   .temp {
     font-family: var(--display); font-size: 240px; line-height: .86;
     text-align: center; letter-spacing: -4px; margin-top: 50px; white-space: nowrap;
@@ -553,7 +556,7 @@
 <script src="look/rain-female-night-street-20261024.js?v=b150"></script>
 <script src="look/rain-female-night-minimal.js?v=b151"></script>
 <script src="look/overcast-female-night-20261025.js?v=b153"></script>
-<script src="look/cutouts.js?v=b153"></script>
+<script src="look/cutouts.js?v=b154"></script>
 <script>
 (function () {
   "use strict";
@@ -770,6 +773,14 @@
     }
     return '<g stroke="#8FB8DE" stroke-width="' + w + '" stroke-linecap="round">' + out + "</g>";
   }
+  // Teardrops under the clouds (b154): tip up at (x, y), radius r
+  var TEARS = [[58, 126, 0], [78, 132, .45], [98, 126, .2], [118, 132, .65], [138, 126, .35], [160, 130, .8], [200, 100, .1], [218, 104, .55]];
+  function tears(r) {
+    return '<g fill="#8FB8DE">' + TEARS.map(function (d) {
+      return '<path class="art-tear" style="animation-delay:' + d[2] + 's" d="M' + d[0] + " " + d[1] + "c" + (r * .55).toFixed(1) + " " + (r * .8).toFixed(1) + " " + r + " " + (r * 1.45).toFixed(1) + " " + r + " " + 2 * r +
+        "a" + r + " " + r + " 0 0 1-" + 2 * r + " 0c0-" + (r * .55).toFixed(1) + " " + (r * .45).toFixed(1) + "-" + (r * 1.2).toFixed(1) + " " + r + "-" + 2 * r + 'z"/>';
+    }).join("") + "</g>";
+  }
   function drift(y, scale, fill, dur, delay) {
     return '<g class="art-drift" style="animation-duration:' + dur + "s;animation-delay:" + delay + 's"><path transform="translate(0 ' + y + ") scale(" + scale + ')" d="' + CLOUD + '" style="fill:' + fill + '"/></g>';
   }
@@ -786,9 +797,9 @@
       '<circle class="art-star" style="animation-delay:1.2s" cx="72" cy="12" r="1.8"/></g></svg>',
     nightCloudy: '<svg viewBox="0 0 240 170">' + MOON_SMALL + '<circle class="art-star" cx="40" cy="30" r="2.5" fill="#F4E9C8"/>' +
       '<path class="art-bob" d="M36 142h120a30 30 0 0 0 0-60 44 44 0 0 0-84 10 26 26 0 0 0-36 50z" fill="#4A5666"/></svg>',
-    // Rain (b142): streaks over the whole width, small rain clouds drifting across
+    // Rain (b142 clouds, b154 drops): teardrops falling from under the clouds, small rain clouds drifting across
     rain: '<svg viewBox="0 0 240 170">' + drift(2, .3, "#7A8896", 22, -6) + drift(30, .24, "#6B7886", 28, -18) +
-      '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/>' + rainDrops(45, 3, 2.6, 14, .9) +
+      '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/>' + tears(4.2) +
       '<path d="' + CLOUD + '" fill="#2F3842"/>' + drift(120, .28, "#6B7886", 18, -10) + "</svg>",
     // Showers (codes 80–82, b142): bursts of heavier rain with breaks, faster clouds, a sliver of sun behind
     shower: '<svg viewBox="0 0 240 170"><circle class="art-sun" style="transform-origin:198px 44px" cx="198" cy="44" r="20" fill="#E8621C"/>' +
@@ -802,7 +813,7 @@
     drizzleNight: '<svg viewBox="0 0 240 170">' + MOON_SMALL + drift(2, .3, "#3A4454", 30, -8) + drift(30, .22, "#5D6979", 38, -24) +
       fineDrops(60, 11) + '<path d="' + CLOUD + '" fill="#4A5666"/>' + drift(120, .26, "#5D6979", 26, -15) + "</svg>",
     rainNight: '<svg viewBox="0 0 240 170">' + MOON_SMALL + drift(2, .3, "#3A4454", 22, -6) + drift(30, .24, "#5D6979", 28, -18) +
-      rainDrops(45, 3, 2.6, 14, .9) + '<path d="' + CLOUD + '" fill="#4A5666"/>' + drift(120, .28, "#5D6979", 18, -10) + "</svg>",
+      tears(4.2) + '<path d="' + CLOUD + '" fill="#4A5666"/>' + drift(120, .28, "#5D6979", 18, -10) + "</svg>",
     showerNight: '<svg viewBox="0 0 240 170"><circle cx="196" cy="40" r="20" fill="#D9D2B8"/><circle cx="208" cy="31" r="17" fill="#1B2140"/>' +
       drift(4, .3, "#3A4454", 14, -4) + '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#343E4C"/>' +
       '<g class="art-on1">' + rainDrops(30, 5, 3, 16, .7) + '</g><g class="art-on2">' + rainDrops(30, 9, 3, 16, .7) + "</g>" +
@@ -909,7 +920,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b153";
+  var BUILD = "b154";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
