@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-day-run-20261025-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "isLiveMeasurement": false,
+    "note": "creative styling assumption for the concept, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "look": "04",
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "웜 그레이 러닝 셸",
+      "nameEn": "Warm grey hooded running shell",
+      "detail": "Warm grey hooded shell, black full zipper, diagonal zip pockets, silver rectangular reflective upper arm patches and slim chest reflective accent.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Warm grey hooded shell, black full zipper, diagonal zip pockets, silver rectangular reflective upper arm patches and slim chest reflective accent.",
+      "descriptionEn": "Unzip the black zip to below the chest so the burgundy crew neck shows in a V; the square reflective patches on the upper arms and the slim chest accent keep the warm grey from looking flat.",
+      "descriptionKo": "검은 지퍼를 가슴 아래까지 내려 버건디 크루넥이 V자로 보이게 입어요. 위팔의 사각 반사 패치와 가슴의 가는 반사 포인트가 웜 그레이를 단조롭지 않게 해 줘요.",
+      "descriptionDe": "Den schwarzen Reißverschluss bis unter die Brust öffnen, damit der bordeauxfarbene Rundhals als V sichtbar wird; die eckigen Reflexpatches an den Oberarmen und der schmale Akzent auf der Brust beleben das Warmgrau.",
+      "image": "products/01-outer.webp",
+      "sha256": "b6d0d855911a2b74583489498d86cb2e75ac27746bb7c7c92f701385a44e0dfc",
+      "bytes": 44950,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        10,
+        8,
+        491,
+        494
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "웜 그레이 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "웜 그레이 러닝 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Warm grey hooded shell, black full zipper, diagonal zip pockets, silver rectangular reflective upper arm patches and slim chest reflective accent.",
+        "de": "Warm grey running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Warmgraue Lauf-Shell mit Kapuze",
+      "howToWear": {
+        "ko": "검은 지퍼를 가슴 아래까지 내려 버건디 크루넥이 V자로 보이게 입어요. 위팔의 사각 반사 패치와 가슴의 가는 반사 포인트가 웜 그레이를 단조롭지 않게 해 줘요.",
+        "en": "Unzip the black zip to below the chest so the burgundy crew neck shows in a V; the square reflective patches on the upper arms and the slim chest accent keep the warm grey from looking flat.",
+        "de": "Den schwarzen Reißverschluss bis unter die Brust öffnen, damit der bordeauxfarbene Rundhals als V sichtbar wird; die eckigen Reflexpatches an den Oberarmen und der schmale Akzent auf der Brust beleben das Warmgrau."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-04.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": "04",
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "버건디 롱슬리브",
+      "nameEn": "Burgundy crew-neck running long sleeve",
+      "detail": "Burgundy crewneck technical long sleeve, visible neck and gathered extended sleeves, simple hidden body inferred.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Burgundy crewneck technical long sleeve, visible neck and gathered extended sleeves, simple hidden body inferred.",
+      "descriptionEn": "Draw the long sleeves a little past the shell cuffs so the burgundy shows again beside the watch; the crew neck keeps the neckline tidy even with the shell open.",
+      "descriptionKo": "긴 소매를 셸 소매단 밖으로 손목까지 조금 끌어내리면 버건디가 시계 옆에서 한 번 더 보여요. 크루넥이라 셸 지퍼를 열어도 목선이 단정해요.",
+      "descriptionDe": "Die langen Ärmel etwas über die Shell-Bündchen ziehen, damit das Bordeaux neben der Uhr noch einmal auftaucht; der Rundhals hält den Ausschnitt auch bei offener Shell ordentlich.",
+      "image": "products/02-top.webp",
+      "sha256": "8710a0d59db6a099fd538b3fcd3f9768967f69ef9a01c9c90d2097248be3c67c",
+      "bytes": 31354,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        21,
+        47,
+        480,
+        455
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "버건디 롱슬리브 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "버건디 롱슬리브 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Burgundy crewneck technical long sleeve, visible neck and gathered extended sleeves, simple hidden body inferred.",
+        "de": "Burgundy running long sleeve; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Bordeauxfarbenes Laufshirt mit Rundhals und langen Ärmeln",
+      "howToWear": {
+        "ko": "긴 소매를 셸 소매단 밖으로 손목까지 조금 끌어내리면 버건디가 시계 옆에서 한 번 더 보여요. 크루넥이라 셸 지퍼를 열어도 목선이 단정해요.",
+        "en": "Draw the long sleeves a little past the shell cuffs so the burgundy shows again beside the watch; the crew neck keeps the neckline tidy even with the shell open.",
+        "de": "Die langen Ärmel etwas über die Shell-Bündchen ziehen, damit das Bordeaux neben der Uhr noch einmal auftaucht; der Rundhals hält den Ausschnitt auch bei offener Shell ordentlich."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-04.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": "04",
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "에스프레소 타이츠",
+      "nameEn": "Espresso full-length running tights",
+      "detail": "Dark brown espresso fitted full length tights, curved seam around upper hips/thighs, no invented logos or striping.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Dark brown espresso fitted full length tights, curved seam around upper hips/thighs, no invented logos or striping.",
+      "descriptionEn": "Deep espresso brown instead of black keeps the whole look in warm tones with the grey and burgundy; let the shell end at the waist so the curved seams over the hips and upper thighs show.",
+      "descriptionKo": "블랙 대신 짙은 에스프레소 브라운이라 웜 그레이·버건디와 같은 따뜻한 톤으로 이어져요. 허리와 허벅지 위쪽의 곡선 솔기가 보이도록 셸 밑단은 허리 위에서 끝나게 입어요.",
+      "descriptionDe": "Tiefes Espressobraun statt Schwarz hält den Look mit Grau und Bordeaux in warmen Tönen; die Shell an der Taille enden lassen, damit die geschwungenen Nähte an Hüfte und Oberschenkel zu sehen sind.",
+      "image": "products/03-bottom.webp",
+      "sha256": "1ad58b42335001921ab137e1bac175ff353e6b561000f0e53388eb10ff269ee6",
+      "bytes": 17212,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        145,
+        10,
+        355,
+        490
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "에스프레소 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "에스프레소 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Dark brown espresso fitted full length tights, curved seam around upper hips/thighs, no invented logos or striping.",
+        "de": "Espresso running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Espressobraune lange Lauftights",
+      "howToWear": {
+        "ko": "블랙 대신 짙은 에스프레소 브라운이라 웜 그레이·버건디와 같은 따뜻한 톤으로 이어져요. 허리와 허벅지 위쪽의 곡선 솔기가 보이도록 셸 밑단은 허리 위에서 끝나게 입어요.",
+        "en": "Deep espresso brown instead of black keeps the whole look in warm tones with the grey and burgundy; let the shell end at the waist so the curved seams over the hips and upper thighs show.",
+        "de": "Tiefes Espressobraun statt Schwarz hält den Look mit Grau und Bordeaux in warmen Tönen; die Shell an der Taille enden lassen, damit die geschwungenen Nähte an Hüfte und Oberschenkel zu sehen sind."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-04.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": "04",
+      "id": "04-watch",
+      "category": "watch",
+      "nameKo": "블랙 스포츠 워치",
+      "nameEn": "Black sports watch",
+      "detail": "Only plain black oval-round sports watch with dark blank display, black silicone band, no readable digits. Overhead neatly extended strap, entire watch.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Only plain black oval-round sports watch with dark blank display, black silicone band, no readable digits. Overhead neatly extended strap, entire watch.",
+      "descriptionEn": "Wear it just below the burgundy cuff on the wrist bone so the face is visible without pushing back the shell sleeve; fasten the matte black silicone strap snugly before you set off.",
+      "descriptionKo": "버건디 소매단 바로 아래 손목뼈 위에 차서 셸 소매를 걷지 않고도 화면이 보이게 해요. 무광 블랙 실리콘 밴드는 출발 전에 손목에 꼭 맞게 조여요.",
+      "descriptionDe": "Direkt unter dem bordeauxfarbenen Bündchen auf dem Handgelenkknochen tragen, so ist das Display sichtbar, ohne den Shell-Ärmel hochzuschieben; das matte schwarze Silikonarmband vor dem Start eng schließen.",
+      "image": "products/04-watch.webp",
+      "sha256": "5cebd9708d5c75ba15a6584b53b8a60569845f0a16250f9487b535d0cf7adc52",
+      "bytes": 11080,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        192,
+        3,
+        308,
+        496
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 스포츠 워치 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 스포츠 워치 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Only plain black oval-round sports watch with dark blank display, black silicone band, no readable digits. Overhead neatly extended strap, entire watch.",
+        "de": "Black sports watch; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarze Sportuhr",
+      "howToWear": {
+        "ko": "버건디 소매단 바로 아래 손목뼈 위에 차서 셸 소매를 걷지 않고도 화면이 보이게 해요. 무광 블랙 실리콘 밴드는 출발 전에 손목에 꼭 맞게 조여요.",
+        "en": "Wear it just below the burgundy cuff on the wrist bone so the face is visible without pushing back the shell sleeve; fasten the matte black silicone strap snugly before you set off.",
+        "de": "Direkt unter dem bordeauxfarbenen Bündchen auf dem Handgelenkknochen tragen, so ist das Display sichtbar, ohne den Shell-Ärmel hochzuschieben; das matte schwarze Silikonarmband vor dem Start eng schließen."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-04.04-watch",
+      "appCategory": "watch"
+    },
+    {
+      "look": "04",
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 러닝화",
+      "nameEn": "Grey mesh running shoes",
+      "detail": "One pair grey mesh running shoes matching partial distant reference shoe; grey laces and overlays, pale sole, hidden details conservatively inferred.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One pair grey mesh running shoes matching partial distant reference shoe; grey laces and overlays, pale sole, hidden details conservatively inferred.",
+      "descriptionEn": "The grey mesh and overlays sit in the same family as the warm grey shell, tying top and bottom together; the pale sole finishes the dark tights lightly.",
+      "descriptionKo": "그레이 메시와 오버레이가 셸의 웜 그레이와 같은 계열이라 위아래가 하나로 묶여요. 밝은 밑창이 어두운 타이츠 끝을 가볍게 마무리해요.",
+      "descriptionDe": "Graues Mesh und Overlays gehören zur selben Farbfamilie wie die warmgraue Shell und verbinden oben und unten; die helle Sohle schließt die dunklen Tights leicht ab.",
+      "image": "products/05-shoes.webp",
+      "sha256": "d8fd857dc59ba0edb08338492d1a465ede49cb794f04716a98382c74b7618f58",
+      "bytes": 49800,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        52,
+        17,
+        448,
+        481
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝화 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One pair grey mesh running shoes matching partial distant reference shoe; grey laces and overlays, pale sole, hidden details conservatively inferred.",
+        "de": "Grey running shoes; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graue Laufschuhe aus Mesh",
+      "howToWear": {
+        "ko": "그레이 메시와 오버레이가 셸의 웜 그레이와 같은 계열이라 위아래가 하나로 묶여요. 밝은 밑창이 어두운 타이츠 끝을 가볍게 마무리해요.",
+        "en": "The grey mesh and overlays sit in the same family as the warm grey shell, tying top and bottom together; the pale sole finishes the dark tights lightly.",
+        "de": "Graues Mesh und Overlays gehören zur selben Farbfamilie wie die warmgraue Shell und verbinden oben und unten; die helle Sohle schließt die dunklen Tights leicht ab."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-04.05-shoes",
+      "appCategory": "shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "잠깐의 페이스 체크",
+    "captionKo": "웜 그레이 셸 아래 버건디를 더해 러닝 레이어에 깊이를 준다.",
+    "introKo": "웜 그레이와 버건디, 에스프레소 타이츠를 조합한 차분한 러닝 룩. 심플한 스포츠 워치와 그레이 러닝화로 실용성을 더했다.",
+    "tipKo": "워치를 확인할 때는 안전한 곳에 잠시 멈추세요.",
+    "title": {
+      "ko": "잠깐의 페이스 체크",
+      "en": "A BURGUNDY PACE CHECK"
+    },
+    "deck": {
+      "ko": "웜 그레이 셸 아래 버건디를 더해 러닝 레이어에 깊이를 준다.",
+      "en": "Burgundy under a warm grey shell gives the running layers depth.",
+      "de": "Bordeaux unter einer warmgrauen Shell gibt den Laufschichten Tiefe."
+    },
+    "intro": {
+      "ko": "웜 그레이와 버건디, 에스프레소 타이츠를 조합한 차분한 러닝 룩. 심플한 스포츠 워치와 그레이 러닝화로 실용성을 더했다.",
+      "en": "Warm grey, burgundy and espresso tights make a calm running look. A simple sports watch and grey running shoes add the practical part.",
+      "de": "Warmgrau, Bordeaux und espressobraune Tights ergeben einen ruhigen Lauflook. Eine schlichte Sportuhr und graue Laufschuhe ergänzen das Praktische."
+    },
+    "tip": {
+      "ko": "워치를 확인할 때는 안전한 곳에 잠시 멈추세요.",
+      "en": "Step somewhere safe and pause briefly before checking your watch.",
+      "de": "Zum Blick auf die Uhr kurz an einer sicheren Stelle anhalten."
+    },
+    "pull": "A GLANCE AT THE WRIST, THEN BACK TO THE RUN."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-day-run-20261025-04",
+  "appBuild": "b159",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "hero": "rl-chilly-f35-day-run-20261025-04.02-top"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

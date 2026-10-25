@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-day-run-20261025-02",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "isLiveMeasurement": false,
+    "note": "creative styling assumption for the concept, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "look": "02",
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "세이지 러닝 셸",
+      "nameEn": "Sage green hooded running shell",
+      "detail": "Hood, full front zip, elastic cuffs, silver-white reflective shoulder strips; visible pocket construction only.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Hood, full front zip, elastic cuffs, silver-white reflective shoulder strips; visible pocket construction only.",
+      "descriptionEn": "Wear it half unzipped so the ivory collar shows against the sage; the silver-white strips at the shoulders add a crisp line to the soft green, and the elastic cuffs stay put at the wrist.",
+      "descriptionKo": "지퍼를 반쯤 열어 아이보리 칼라가 세이지 사이로 드러나게 입어요. 어깨의 은백색 반사 줄이 부드러운 녹색에 또렷한 선을 더하고, 고무 소매단이 손목에서 고정돼요.",
+      "descriptionDe": "Halb geöffnet tragen, damit der elfenbeinfarbene Kragen am Salbeigrün hervorschaut; die silberweißen Streifen an den Schultern setzen eine klare Linie, und die elastischen Bündchen sitzen fest am Handgelenk.",
+      "image": "products/01-outer.webp",
+      "sha256": "180eef19ef74094dced4271714eb49344c79fa465602bf8a1a5840885ba5018b",
+      "bytes": 32442,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        11,
+        18,
+        490,
+        474
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "세이지 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "세이지 러닝 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Hood, full front zip, elastic cuffs, silver-white reflective shoulder strips; visible pocket construction only.",
+        "de": "Sage green running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Salbeigrüne Lauf-Shell mit Kapuze",
+      "howToWear": {
+        "ko": "지퍼를 반쯤 열어 아이보리 칼라가 세이지 사이로 드러나게 입어요. 어깨의 은백색 반사 줄이 부드러운 녹색에 또렷한 선을 더하고, 고무 소매단이 손목에서 고정돼요.",
+        "en": "Wear it half unzipped so the ivory collar shows against the sage; the silver-white strips at the shoulders add a crisp line to the soft green, and the elastic cuffs stay put at the wrist.",
+        "de": "Halb geöffnet tragen, damit der elfenbeinfarbene Kragen am Salbeigrün hervorschaut; die silberweißen Streifen an den Schultern setzen eine klare Linie, und die elastischen Bündchen sitzen fest am Handgelenk."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-02.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": "02",
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "아이보리 집넥 이너",
+      "nameEn": "Ivory zip-neck running layer",
+      "detail": "High collar short zip ivory technical fabric. Hidden full sleeves and body conservatively inferred.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "High collar short zip ivory technical fabric. Hidden full sleeves and body conservatively inferred.",
+      "descriptionEn": "Stand the high collar up inside the shell to frame the neckline in a light tone; one ivory layer takes the weight out of the sage and charcoal.",
+      "descriptionKo": "하이 칼라를 세워 셸 안에서 목선을 밝게 잡아 줘요. 아이보리 한 겹이 세이지와 차콜 사이의 무게를 덜어 줘요.",
+      "descriptionDe": "Den hohen Kragen in der Shell aufstellen, so rahmt ein heller Ton den Halsausschnitt; eine elfenbeinfarbene Lage nimmt Salbei und Anthrazit die Schwere.",
+      "image": "products/02-top.webp",
+      "sha256": "4e967ea19b2825891c184ea9d551cb333b5fec9de8fdbd7242a24a792facae16",
+      "bytes": 31392,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        11,
+        27,
+        489,
+        472
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "아이보리 집넥 이너 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "아이보리 집넥 이너 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "High collar short zip ivory technical fabric. Hidden full sleeves and body conservatively inferred.",
+        "de": "Ivory zip-neck running base layer; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Elfenbeinfarbenes Laufshirt mit Reißverschlusskragen",
+      "howToWear": {
+        "ko": "하이 칼라를 세워 셸 안에서 목선을 밝게 잡아 줘요. 아이보리 한 겹이 세이지와 차콜 사이의 무게를 덜어 줘요.",
+        "en": "Stand the high collar up inside the shell to frame the neckline in a light tone; one ivory layer takes the weight out of the sage and charcoal.",
+        "de": "Den hohen Kragen in der Shell aufstellen, so rahmt ein heller Ton den Halsausschnitt; eine elfenbeinfarbene Lage nimmt Salbei und Anthrazit die Schwere."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-02.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": "02",
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 패널 타이츠",
+      "nameEn": "Charcoal panelled running tights",
+      "detail": "Full-length charcoal tights with curved knee/panel seams as visible, simple hidden waistband.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Full-length charcoal tights with curved knee/panel seams as visible, simple hidden waistband.",
+      "descriptionEn": "The curved panels around the knee tidy the line of the leg; let the hems fall straight to the ankle and sit over the socks.",
+      "descriptionKo": "무릎을 따라 곡선으로 나뉜 패널이 다리 라인을 정리해 줘요. 밑단은 발목까지 곧게 내려 양말 위에 겹쳐 입어요.",
+      "descriptionDe": "Die geschwungenen Teilungsnähte am Knie ordnen die Beinlinie; die Säume gerade bis zum Knöchel fallen lassen und über den Socken tragen.",
+      "image": "products/03-bottom.webp",
+      "sha256": "4f54d5a047cf6a5c2ee4446d33dfd4a3e954fb6d3599fc5739e7718261dd8ded",
+      "bytes": 15218,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        145,
+        14,
+        356,
+        487
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 패널 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 패널 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Full-length charcoal tights with curved knee/panel seams as visible, simple hidden waistband.",
+        "de": "Charcoal panelled running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Anthrazitfarbene Lauftights mit Teilungsnähten",
+      "howToWear": {
+        "ko": "무릎을 따라 곡선으로 나뉜 패널이 다리 라인을 정리해 줘요. 밑단은 발목까지 곧게 내려 양말 위에 겹쳐 입어요.",
+        "en": "The curved panels around the knee tidy the line of the leg; let the hems fall straight to the ankle and sit over the socks.",
+        "de": "Die geschwungenen Teilungsnähte am Knie ordnen die Beinlinie; die Säume gerade bis zum Knöchel fallen lassen und über den Socken tragen."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-02.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": "02",
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "그레이 러닝 양말",
+      "nameEn": "Heather grey ribbed crew running socks",
+      "detail": "One pair heather grey ribbed crew socks.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One pair heather grey ribbed crew socks.",
+      "descriptionEn": "Let a hand's width of the rib show below the tights; the heather grey bridges the charcoal and the off-white shoes.",
+      "descriptionKo": "타이츠 밑단 아래로 리브가 한 뼘쯤 보이게 신어요. 헤더 그레이가 차콜과 오프화이트 신발 사이를 부드럽게 이어 줘요.",
+      "descriptionDe": "Unter den Tights etwa eine Handbreit Rippe zeigen; das melierte Grau verbindet Anthrazit und die gebrochen weißen Schuhe.",
+      "image": "products/04-socks.webp",
+      "sha256": "de6b7d8c0d747d10f56958bf9d73d5b73622c3ac377174f7e6368ebb912e4bc8",
+      "bytes": 49848,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        52,
+        22,
+        460,
+        487
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝 양말 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝 양말 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One pair heather grey ribbed crew socks.",
+        "de": "Grey running socks; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Grau melierte gerippte Laufsocken in Crew-Länge",
+      "howToWear": {
+        "ko": "타이츠 밑단 아래로 리브가 한 뼘쯤 보이게 신어요. 헤더 그레이가 차콜과 오프화이트 신발 사이를 부드럽게 이어 줘요.",
+        "en": "Let a hand's width of the rib show below the tights; the heather grey bridges the charcoal and the off-white shoes.",
+        "de": "Unter den Tights etwa eine Handbreit Rippe zeigen; das melierte Grau verbindet Anthrazit und die gebrochen weißen Schuhe."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-02.04-socks",
+      "appCategory": "socks"
+    },
+    {
+      "look": "02",
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "오프화이트 러닝화",
+      "nameEn": "Off-white mesh running shoes",
+      "detail": "One pair pale grey/off-white mesh running shoes, white laces, light midsole and black toe/outsole accents, match near visible shoe.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One pair pale grey/off-white mesh running shoes, white laces, light midsole and black toe/outsole accents, match near visible shoe.",
+      "descriptionEn": "Before you set off, pull the white laces snug from the instep upward and double-knot them; the black toe and outsole outline the pale shoe.",
+      "descriptionKo": "출발 전에 흰 끈을 발등부터 차례로 당겨 고르게 조이고, 매듭을 두 번 묶어 풀리지 않게 해요. 검은 앞코와 밑창이 밝은 신발의 윤곽을 잡아 줘요.",
+      "descriptionDe": "Vor dem Start die weißen Schnürsenkel vom Spann aufwärts gleichmäßig anziehen und doppelt knoten; schwarze Spitze und Laufsohle zeichnen die Kontur des hellen Schuhs.",
+      "image": "products/05-shoes.webp",
+      "sha256": "282b10f6f6fae61147d1d60fffd3a412111a1eadd7b5237cd69a266821afcbf3",
+      "bytes": 49794,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        53,
+        21,
+        447,
+        478
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "오프화이트 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "오프화이트 러닝화 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One pair pale grey/off-white mesh running shoes, white laces, light midsole and black toe/outsole accents, match near visible shoe.",
+        "de": "Off-white mesh running shoes; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Gebrochen weiße Laufschuhe aus Mesh",
+      "howToWear": {
+        "ko": "출발 전에 흰 끈을 발등부터 차례로 당겨 고르게 조이고, 매듭을 두 번 묶어 풀리지 않게 해요. 검은 앞코와 밑창이 밝은 신발의 윤곽을 잡아 줘요.",
+        "en": "Before you set off, pull the white laces snug from the instep upward and double-knot them; the black toe and outsole outline the pale shoe.",
+        "de": "Vor dem Start die weißen Schnürsenkel vom Spann aufwärts gleichmäßig anziehen und doppelt knoten; schwarze Spitze und Laufsohle zeichnen die Kontur des hellen Schuhs."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-02.05-shoes",
+      "appCategory": "shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "잠깐, 끈부터",
+    "captionKo": "세이지 셸과 아이보리 이너가 젖은 거리 위에서 부드럽게 어우러진다.",
+    "introKo": "기능성 레이어를 세이지와 아이보리로 가볍게 풀어낸 러닝 룩. 차콜 타이츠와 밝은 러닝화가 단정한 균형을 만든다.",
+    "tipKo": "다시 출발하기 전 신발 끈과 젖은 노면을 확인하세요.",
+    "title": {
+      "ko": "잠깐, 끈부터",
+      "en": "LACES FIRST"
+    },
+    "deck": {
+      "ko": "세이지 셸과 아이보리 이너가 젖은 거리 위에서 부드럽게 어우러진다.",
+      "en": "A sage shell and an ivory layer sit softly together on the wet street.",
+      "de": "Eine salbeigrüne Shell und eine elfenbeinfarbene Lage verbinden sich sanft auf der nassen Straße."
+    },
+    "intro": {
+      "ko": "기능성 레이어를 세이지와 아이보리로 가볍게 풀어낸 러닝 룩. 차콜 타이츠와 밝은 러닝화가 단정한 균형을 만든다.",
+      "en": "Technical running layers in sage and ivory, kept light and easy. Charcoal tights and pale running shoes give the look a neat balance.",
+      "de": "Funktionelle Laufschichten in Salbei und Elfenbein, leicht und unkompliziert. Anthrazitfarbene Tights und helle Laufschuhe bringen den Look in eine ruhige Balance."
+    },
+    "tip": {
+      "ko": "다시 출발하기 전 신발 끈과 젖은 노면을 확인하세요.",
+      "en": "Before you set off again, check your laces and the wet ground ahead.",
+      "de": "Bevor es weitergeht, Schnürsenkel und den nassen Boden vor dir prüfen."
+    },
+    "pull": "TIE IT TIGHT, THEN GO AGAIN."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-day-run-20261025-02",
+  "appBuild": "b159",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "hero": "rl-chilly-f35-day-run-20261025-02.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

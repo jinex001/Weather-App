@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-25 (앱 빌드 b158) · 185룩 · 1196아이템 · 기사 룩 185 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-25 (앱 빌드 b159) · 190룩 · 1219아이템 · 기사 룩 190 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -213,3 +213,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b158 · Rain / Light / Chilly / Male / 35+ / Night / Running — 2026-10-25 set (5 looks, local)
 
 에디토리얼 5장(01–03 700×1050, 04–05 800×1200, 모두 2:3) + 독립 투명 WebP 제품 30개(7/6/7/5/5), `look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/<01–05>/`, 보충 파일 `look/rain-light-male-night-running-20261025.js`. 룩 `rl-chilly-m35-night-run-20261025-NN`(`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: run`, `time: evening`). 01 차콜 셸 · 02 코발트 셸 · 03 올리브 셸 · 04 웜 그레이 셸 + 플럼 이너 · 05 번트 오렌지 셸 + 네이비 팬츠. 양말은 01·03만, 04 신발·05 이너는 안 보여 없음, 04 물병은 장면 소품이라 제품 아님. 분류 매핑 headband → headwear(products.json `appCategory`, 제작 측 `category` 보존). 대표 컷은 b134 제목 단어 규칙: 04 → 플럼 이너 `02-top`, 나머지 → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 숫자 기온 없음(`temperatureC: null` 의도). [검증](rain-light-male-night-running-20261025-validation.md).
+
+## b159 · Rain / Light / Chilly / Female / 35+ / Day / Running — 2026-10-25 set (5 looks)
+
+에디토리얼 5장(01 900×1350, 02–05 1024×1536, 모두 2:3) + 독립 투명 WebP 제품 23개(5/5/3/5/5), `look/berlin-complete/Rain/Light/Chilly/Female/35+/day/running-20261025/<01–05>/`, 보충 파일 `look/rain-light-female-day-running-20261025.js`. 룩 `rl-chilly-f35-day-run-20261025-NN`(`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: run`, 낮 = `time` 없음). 01 슬레이트 블루 셸 · 02 세이지 셸 + 아이보리 이너 · 03 코발트 셸(발이 잘려 아우터·이너·하의 3개) · 04 웜 그레이 셸 + 버건디 롱슬리브 + 블랙 스포츠 워치(`watch`, 양말 없음) · 05 코럴 셸 + 쿼터 양말. 신발·양말 한 켤레 = 제품 1개. 대표 컷은 b134 제목 단어 규칙: 04 → 버건디 `02-top`, 나머지 → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 모델 외관 25–28세, 12°C / 체감 7°C는 제작 가정(`stylingAssumption`), 앱 화면에 숫자 기온 없음. [검증](rain-light-female-day-running-20261025-validation.md).

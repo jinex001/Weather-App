@@ -1,0 +1,9 @@
+# Rain / Light / Chilly / Female / 35+ / day / Running — 2026-10-25 set (01–05)
+
+- Looks: `rl-chilly-f35-day-run-20261025-01`, `rl-chilly-f35-day-run-20261025-02`, `rl-chilly-f35-day-run-20261025-03`, `rl-chilly-f35-day-run-20261025-04`, `rl-chilly-f35-day-run-20261025-05`; 23 products (5/5/3/5/5).
+- App: `sky: rain`, `rain: light` (WMO 51–57 · 61 · 80), `bands: [chilly]`, `gender: f`, `age: "35"`, `style: run`; day set, so no `time` key.
+- Target audience 35+; model appearance approximately 25–28 (age-corrected editorials, `casting.modelAppearanceAgeRange`).
+- Creative Berlin daytime setting. 12 °C / feels like 7 °C in `stylingAssumption` is a creative styling assumption, not a measurement; `weather.temperatureC` stays null and nothing here is live weather.
+- Editorials user-approved and copied byte-for-byte (2:3 JPG, not upscaled or re-encoded). Products generated under the user's product-breakdown authorization and checked by the image producer; no separate user visual approval of each product is claimed.
+- Products are 500×500 transparent WebP, copied byte-for-byte. A pair of socks or shoes is one product. 03 has only outer/top/bottom because the feet are cropped out of the photo; 04 has a sports watch (app category `watch`) and shoes but no socks; 05 socks are quarter length. Hidden bodies, legs and garment backs are conservative reconstructions (`reconstruction`, `reconstructionNote`, `designDescriptionEn`). No brand, price, purchase link, fibre composition or protection claim.
+- Mapping: `look/rain-light-female-day-running-20261025.js` (b159). Home hero follows the b134 title-word rule (design/CUTOUTS.md) and reuses that product's own transparent WebP as its cut (no new cutout, no copy): 04 A BURGUNDY PACE CHECK → burgundy long sleeve; 01 SLATE, 03 COBALT, 05 CORAL → their outerwear; 02 LACES FIRST has no colour word → outerwear. Validation: design/rain-light-female-day-running-20261025-validation.md.

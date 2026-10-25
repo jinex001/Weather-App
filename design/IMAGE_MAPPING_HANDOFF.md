@@ -261,3 +261,15 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 숫자 기온 없음(`temperatureC`/`feelsLikeC` null 의도, `isLiveMeasurement: false`). 브랜드·가격·링크·소재 혼용률·보호 성능 주장 없음.
 - 승인 범위: 에디토리얼 사용자 승인, 제품 30개는 제품 분해 승인 아래 제작·제작 측 검수. 외부 발행(GitHub 업로드·main 병합·배포)은 자동 검토에서 한 번 막혀 로컬 브랜치에서 멈췄다가 사용자 명시 승인("승인완료") 뒤 진행; 발행 직전 origin/main을 다시 받아 최신임을 확인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
 - [검증 기록](rain-light-male-night-running-20261025-validation.md).
+
+## b159 · Rain / Light / Chilly / Female / 35+ / Day / Running — 2026-10-25 set (5 looks · 23 products)
+
+- 원본: 로컬 전달 폴더(READY.json `approved`·`editorialsApproved`·`products_complete`, 파일 35개 = JPG 5 · WebP 23 · products.json 5 · LOOKS · KOREAN_MASTER, SHA-256과 목록 일치; READY.json 자신은 목록 밖). b157·b158과 같은 방식으로 직접 검증.
+- `sky: "rain"`, `rain: "light"`, 낮 세트라 `time` 없음. 폴더 `Rain/Light/Chilly/Female/35+/day/running-20261025/<NN>/`(같은 칸의 기존 `casual`·`minimal` 폴더는 그대로), ID는 제작 측 `rl-chilly-f35-day-run-20261025-NN` 그대로(충돌 없음 확인), 아이템 `<룩 ID>.<제품 id>`(순서 유지). 분류는 제작 측 그대로(outer/top/bottom/socks/shoes/watch, 시계는 앱의 기존 `watch` = "Watch").
+- 고르기 영향(앱 `lookFits`·`rainLevel` 실제 코드로 확인): 가벼운 비 낮 여성 러닝만 플레이스홀더 → 이 5룩. 저녁은 `time` 필터로 낮 룩이 안 나오고, 가벼운 비 낮 여성 스트리트·미니멀과 보통 비 낮 여성 러닝(b157)은 그대로.
+- 대표 컷: b134 제목 단어 규칙(`design/CUTOUTS.md`). 04 A BURGUNDY PACE CHECK → 버건디 롱슬리브 `02-top`(b158 04 플럼 이너처럼 제목이 말하는 색), 01 SLATE·03 COBALT·05 CORAL → 아우터, 02 LACES FIRST → 맞는 단어 없음 → 아우터. 컷은 그 투명 제품 WebP 자체를 다시 씀(새 컷·복제 없음).
+- 문구: b157·b158과 같음(한국어 마스터 그대로, 한국어 제목은 products.json `copy.title.ko`, 제작 측 복원 틀 문장은 `sourceDescription`, 화면 문구는 제품별 입는 법). 생성 프롬프트·로컬 경로(`prompt`·`masterSource`·`generationSource`·`reference`)는 빼고, `detail`·`designDescriptionEn`·`reconstruction`·`reconstructionNote`·`sha256`·`bounds`는 복원 근거로 보존.
+- 캐스팅: 외관 25–28세 수정본(`casting.modelAppearanceAgeRange: [25, 28]`, 타깃 35+는 별도). 12°C / 체감 7°C는 `stylingAssumption`에 제작 가정으로만 남기고(`isLiveMeasurement: false`, 설명 문장 추가) `weather.temperatureC`는 null. 브랜드·가격·링크·소재 혼용률·보호 성능 주장 없음.
+- 구성: 03은 발이 사진에서 잘려 아우터·이너·하의만, 04는 시계·신발(양말 없음), 05 양말은 쿼터 길이. 가려진 몸판·다리·뒤판은 보수적 복원.
+- 승인 범위: 에디토리얼 사용자 승인, 제품 23개는 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 없음). GitHub 업로드·PR·main 반영·배포는 이 배치에 대해 사용자 명시 승인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
+- [검증 기록](rain-light-female-day-running-20261025-validation.md).

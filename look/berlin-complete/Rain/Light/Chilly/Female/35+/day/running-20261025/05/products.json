@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-day-run-20261025-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": 12,
+    "feelsLikeC": 7,
+    "isLiveMeasurement": false,
+    "note": "creative styling assumption for the concept, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "look": "05",
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코럴 러닝 셸",
+      "nameEn": "Coral hooded running shell",
+      "detail": "Bright coral orange hooded lightweight shell, match back vertical silver strip and elbow/forearm reflective strips. Product front overhead flat lay, front construction conservatively inferred simple full zip, additionally match silhouette and hood from rear view, no invented pockets or branding.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Bright coral orange hooded lightweight shell, match back vertical silver strip and elbow/forearm reflective strips. Product front overhead flat lay, front construction conservatively inferred simple full zip, additionally match silhouette and hood from rear view, no invented pockets or branding.",
+      "descriptionEn": "Let the gathered hem stop just above the hips so the vertical silver strip on the back and the reflective strips at the elbows stay visible as you run; keep coral the only bright colour and everything else dark.",
+      "descriptionKo": "허리의 조임 밑단이 엉덩이 위에서 멈추게 입어 등의 은색 세로 줄과 팔꿈치 반사 줄이 달리는 동안 잘 보이게 해요. 코럴 한 가지만 밝게 두고 나머지는 어둡게 맞춰요.",
+      "descriptionDe": "Den gerafften Saum knapp über der Hüfte enden lassen, damit der senkrechte Silberstreifen am Rücken und die Reflexstreifen an den Ellbogen beim Laufen sichtbar bleiben; Koralle als einzige helle Farbe, alles andere dunkel.",
+      "image": "products/01-outer.webp",
+      "sha256": "1ab0074f22b36926eff5318d43fe6b36a5e8c6460264e6ec8d015cd174d47447",
+      "bytes": 39180,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        13,
+        9,
+        487,
+        484
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "코럴 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "코럴 러닝 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Bright coral orange hooded lightweight shell, match back vertical silver strip and elbow/forearm reflective strips. Product front overhead flat lay, front construction conservatively inferred simple full zip, additionally match silhouette and hood from rear view, no invented pockets or branding.",
+        "de": "Coral running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Korallenrote Lauf-Shell mit Kapuze",
+      "howToWear": {
+        "ko": "허리의 조임 밑단이 엉덩이 위에서 멈추게 입어 등의 은색 세로 줄과 팔꿈치 반사 줄이 달리는 동안 잘 보이게 해요. 코럴 한 가지만 밝게 두고 나머지는 어둡게 맞춰요.",
+        "en": "Let the gathered hem stop just above the hips so the vertical silver strip on the back and the reflective strips at the elbows stay visible as you run; keep coral the only bright colour and everything else dark.",
+        "de": "Den gerafften Saum knapp über der Hüfte enden lassen, damit der senkrechte Silberstreifen am Rücken und die Reflexstreifen an den Ellbogen beim Laufen sichtbar bleiben; Koralle als einzige helle Farbe, alles andere dunkel."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-05.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": "05",
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "그래파이트 롱슬리브",
+      "nameEn": "Graphite crew-neck running long sleeve",
+      "detail": "Graphite grey technical long sleeve visible at neck and wrists only; reconstruct simple full-length close-fit crewneck, no invented zip or print.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Graphite grey technical long sleeve visible at neck and wrists only; reconstruct simple full-length close-fit crewneck, no invented zip or print.",
+      "descriptionEn": "Let the graphite sleeves show a little past the shell cuffs to frame the coral with a dark edge; the plain crew neck, with no zip or print, sits neatly inside the shell.",
+      "descriptionKo": "셸 소매단 밖으로 그래파이트 소매가 손목에 살짝 나오게 입으면 코럴 끝에 어두운 테두리가 생겨요. 지퍼나 프린트 없는 크루넥이라 셸 안에서 깔끔하게 정리돼요.",
+      "descriptionDe": "Die graphitgrauen Ärmel etwas unter den Shell-Bündchen hervorschauen lassen, so bekommt die Koralle einen dunklen Rand; der schlichte Rundhals ohne Reißverschluss oder Print sitzt ordentlich in der Shell.",
+      "image": "products/02-top.webp",
+      "sha256": "f6ace28be66afa1eac5169b44aaa32989d0c04744e6087e0f8e32320a32ce316",
+      "bytes": 24830,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        13,
+        44,
+        487,
+        456
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그래파이트 롱슬리브 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그래파이트 롱슬리브 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Graphite grey technical long sleeve visible at neck and wrists only; reconstruct simple full-length close-fit crewneck, no invented zip or print.",
+        "de": "Graphite running long sleeve; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graphitgraues Laufshirt mit Rundhals und langen Ärmeln",
+      "howToWear": {
+        "ko": "셸 소매단 밖으로 그래파이트 소매가 손목에 살짝 나오게 입으면 코럴 끝에 어두운 테두리가 생겨요. 지퍼나 프린트 없는 크루넥이라 셸 안에서 깔끔하게 정리돼요.",
+        "en": "Let the graphite sleeves show a little past the shell cuffs to frame the coral with a dark edge; the plain crew neck, with no zip or print, sits neatly inside the shell.",
+        "de": "Die graphitgrauen Ärmel etwas unter den Shell-Bündchen hervorschauen lassen, so bekommt die Koralle einen dunklen Rand; der schlichte Rundhals ohne Reißverschluss oder Print sitzt ordentlich in der Shell."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-05.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": "05",
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 리플렉티브 타이츠",
+      "nameEn": "Black reflective running tights",
+      "detail": "Full length black fitted tights with fine silver reflective strips at outer lower calves, match rear/side visible seams.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Full length black fitted tights with fine silver reflective strips at outer lower calves, match rear/side visible seams.",
+      "descriptionEn": "Wear the hems straight at the ankle so the fine silver strips on the outer calves show from behind; the smooth black draws a long line under the coral shell.",
+      "descriptionKo": "종아리 바깥의 가는 은색 줄이 뒤에서 보이도록 밑단을 발목에 맞춰 곧게 입어요. 매끈한 블랙이 코럴 셸 아래 실루엣을 길게 이어 줘요.",
+      "descriptionDe": "Die Säume gerade am Knöchel tragen, damit die feinen Silberstreifen an den äußeren Waden von hinten zu sehen sind; das glatte Schwarz zieht unter der korallenroten Shell eine lange Linie.",
+      "image": "products/03-bottom.webp",
+      "sha256": "677bda0b74bb63d95e7ffa8d1877fa9838d470e2f3d5c1910fc2e25508e847c2",
+      "bytes": 14678,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        145,
+        8,
+        356,
+        492
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 리플렉티브 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 리플렉티브 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Full length black fitted tights with fine silver reflective strips at outer lower calves, match rear/side visible seams.",
+        "de": "Black reflective running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarze Lauftights mit Reflexstreifen",
+      "howToWear": {
+        "ko": "종아리 바깥의 가는 은색 줄이 뒤에서 보이도록 밑단을 발목에 맞춰 곧게 입어요. 매끈한 블랙이 코럴 셸 아래 실루엣을 길게 이어 줘요.",
+        "en": "Wear the hems straight at the ankle so the fine silver strips on the outer calves show from behind; the smooth black draws a long line under the coral shell.",
+        "de": "Die Säume gerade am Knöchel tragen, damit die feinen Silberstreifen an den äußeren Waden von hinten zu sehen sind; das glatte Schwarz zieht unter der korallenroten Shell eine lange Linie."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-05.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": "05",
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "그레이 러닝 양말",
+      "nameEn": "Grey quarter running socks",
+      "detail": "One pair grey ankle/quarter running socks, visible narrow sock above shoes. Do not make crew length.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One pair grey ankle/quarter running socks, visible narrow sock above shoes. Do not make crew length.",
+      "descriptionEn": "The quarter length just covers the ankle bone, so only a thin band of grey shows between the tights hem and the shoe; wear them as they are rather than pulling them high.",
+      "descriptionKo": "발목뼈를 살짝 덮는 쿼터 길이라 타이츠 밑단과 신발 사이에 그레이가 가늘게 한 줄만 보여요. 높이 끌어올리지 말고 그대로 신어요.",
+      "descriptionDe": "Die Quarter-Länge bedeckt knapp den Knöchel, sodass zwischen Tightssaum und Schuh nur ein schmales graues Band sichtbar ist; einfach so tragen, nicht hochziehen.",
+      "image": "products/04-socks.webp",
+      "sha256": "c81faaffd914741828b7ed423d6237732944871c7140fbd631fe1e76643fb5aa",
+      "bytes": 46556,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        26,
+        86,
+        489,
+        435
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝 양말 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝 양말 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One pair grey ankle/quarter running socks, visible narrow sock above shoes. Do not make crew length.",
+        "de": "Grey running socks; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graue Laufsocken in Quarter-Länge",
+      "howToWear": {
+        "ko": "발목뼈를 살짝 덮는 쿼터 길이라 타이츠 밑단과 신발 사이에 그레이가 가늘게 한 줄만 보여요. 높이 끌어올리지 말고 그대로 신어요.",
+        "en": "The quarter length just covers the ankle bone, so only a thin band of grey shows between the tights hem and the shoe; wear them as they are rather than pulling them high.",
+        "de": "Die Quarter-Länge bedeckt knapp den Knöchel, sodass zwischen Tightssaum und Schuh nur ein schmales graues Band sichtbar ist; einfach so tragen, nicht hochziehen."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-05.04-socks",
+      "appCategory": "socks"
+    },
+    {
+      "look": "05",
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "다크 그레이 러닝화",
+      "nameEn": "Dark grey mesh running shoes",
+      "detail": "One pair dark grey mesh running shoes, black heel overlays, light grey midsole and black outsole; unseen forefoot conservatively reconstructed.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One pair dark grey mesh running shoes, black heel overlays, light grey midsole and black outsole; unseen forefoot conservatively reconstructed.",
+      "descriptionEn": "Dark grey mesh and black heel overlays continue the black tights right down to the foot; the light grey midsole leaves a thin bright line with every step.",
+      "descriptionKo": "다크 그레이 메시와 검은 뒤꿈치 오버레이가 블랙 타이츠와 이어져 발끝까지 어둡게 정리돼요. 라이트 그레이 미드솔이 걸음마다 얇은 밝은 선을 남겨요.",
+      "descriptionDe": "Dunkelgraues Mesh und schwarze Fersenoverlays führen die schwarzen Tights bis zum Fuß weiter; die hellgraue Mittelsohle hinterlässt bei jedem Schritt eine schmale helle Linie.",
+      "image": "products/05-shoes.webp",
+      "sha256": "65253cceb68cd704cc9e1afc7d54972540e327397799b537ae725dcb5ba3aa32",
+      "bytes": 47140,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        60,
+        29,
+        441,
+        475
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "다크 그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "다크 그레이 러닝화 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One pair dark grey mesh running shoes, black heel overlays, light grey midsole and black outsole; unseen forefoot conservatively reconstructed.",
+        "de": "Dark grey running shoes; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Dunkelgraue Laufschuhe aus Mesh",
+      "howToWear": {
+        "ko": "다크 그레이 메시와 검은 뒤꿈치 오버레이가 블랙 타이츠와 이어져 발끝까지 어둡게 정리돼요. 라이트 그레이 미드솔이 걸음마다 얇은 밝은 선을 남겨요.",
+        "en": "Dark grey mesh and black heel overlays continue the black tights right down to the foot; the light grey midsole leaves a thin bright line with every step.",
+        "de": "Dunkelgraues Mesh und schwarze Fersenoverlays führen die schwarzen Tights bis zum Fuß weiter; die hellgraue Mittelsohle hinterlässt bei jedem Schritt eine schmale helle Linie."
+      },
+      "appItemId": "rl-chilly-f35-day-run-20261025-05.05-shoes",
+      "appCategory": "shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "코럴로 다시 출발",
+    "captionKo": "코럴 셸과 그래파이트 레이어로 빗속 러닝에 경쾌한 색을 더한다.",
+    "introKo": "코럴 셸의 등과 소매에 자리한 반사 디테일이 움직임을 강조한다. 블랙 타이츠와 다크 그레이 러닝화로 선명한 상의를 받쳐준다.",
+    "tipKo": "젖은 연석에서는 보폭을 줄이고 천천히 내려오세요.",
+    "title": {
+      "ko": "코럴로 다시 출발",
+      "en": "OFF AGAIN IN CORAL"
+    },
+    "deck": {
+      "ko": "코럴 셸과 그래파이트 레이어로 빗속 러닝에 경쾌한 색을 더한다.",
+      "en": "A coral shell and graphite layers bring a lively colour to a run in the rain.",
+      "de": "Eine korallenrote Shell und graphitgraue Lagen bringen eine lebhafte Farbe in den Lauf im Regen."
+    },
+    "intro": {
+      "ko": "코럴 셸의 등과 소매에 자리한 반사 디테일이 움직임을 강조한다. 블랙 타이츠와 다크 그레이 러닝화로 선명한 상의를 받쳐준다.",
+      "en": "Reflective details on the back and sleeves of the coral shell follow every movement. Black tights and dark grey running shoes hold up the bright top half.",
+      "de": "Reflexdetails an Rücken und Ärmeln der korallenroten Shell betonen jede Bewegung. Schwarze Tights und dunkelgraue Laufschuhe tragen die leuchtende obere Hälfte."
+    },
+    "tip": {
+      "ko": "젖은 연석에서는 보폭을 줄이고 천천히 내려오세요.",
+      "en": "On a wet kerb, shorten your stride and step down slowly.",
+      "de": "An einer nassen Bordsteinkante kürzere Schritte machen und langsam heruntersteigen."
+    },
+    "pull": "SHORTER STEPS ON THE WET KERB."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-day-run-20261025-05",
+  "appBuild": "b159",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "hero": "rl-chilly-f35-day-run-20261025-05.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}
