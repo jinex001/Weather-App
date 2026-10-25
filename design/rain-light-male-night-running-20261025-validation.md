@@ -1,6 +1,6 @@
-# Rain / Light / Chilly / Male / 35+ / Night / Running — 2026-10-25 set — b158 verification (local)
+# Rain / Light / Chilly / Male / 35+ / Night / Running — 2026-10-25 set — b158 verification
 
-- Status: **local branch only**. Not pushed, no PR, not merged, not deployed. Built on origin/main `fae23e7` (b157) as it existed locally on 2026-10-25 without fetching; origin/main freshness must be rechecked before any publication.
+- Status: prepared and checked on a local branch from origin/main `fae23e7` (b157); external publication was first held by an automatic review, then explicitly approved by the user ("승인완료"). origin/main was re-fetched right before publication and was still `fae23e7`, so no rebase or BUILD change was needed.
 - Source: local delivery batch `rain-light-chilly-male-night-running-20261025`, READY.json `approved: true`, `editorialsApproved: true`, `products_complete: true`; all 42 listed files SHA-256 verified (5 editorial JPG, 30 product WebP, 5 products.json, LOOKS.json, KOREAN_MASTER.json), file inventory identical to the list (READY.json itself excluded). LOOKS.json selects 5 products.json; KOREAN_MASTER.json matches each `copy` object. The 5 editorial hashes also equal the batch's approved-image hash list.
 - 5 user-approved editorials copied byte-for-byte, all 2:3 JPG ≤300 KB: 01 700×1050 265,601 B · 02 700×1050 272,026 B · 03 700×1050 290,860 B · 04 800×1200 274,746 B · 05 800×1200 281,681 B. Not upscaled or re-encoded; crops as delivered.
 - 30 products (per look 7/6/7/5/5) copied byte-for-byte (SHA-256 = READY and products.json `sha256`): 500×500 WebP with real alpha (min alpha 0, all four corners 0), 14,798–49,466 bytes.

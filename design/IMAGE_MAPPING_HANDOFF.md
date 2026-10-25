@@ -259,5 +259,5 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 대표 컷: b134 제목 단어 규칙(`design/CUTOUTS.md`) 그대로. 04 PLUM BEFORE THE SIP → 플럼 집넥 이너 `02-top`, 01·02·03·05 → 아우터. 컷은 그 투명 제품 WebP 자체를 다시 씀(새 컷·복제 없음). 제작 측의 "대표 컷은 아우터" 안내는 제작 가이드일 뿐 사용자 요구 사항이 아니어서 기존 규칙이 우선.
 - 문구: b157과 같음(한국어 마스터 그대로, 한국어 제목은 products.json `copy.title.ko`, 제작 측 복원 틀 문장은 `sourceDescription`, 화면 문구는 제품별 입는 법). 생성 프롬프트·로컬 경로는 빼고, `designDescriptionEn`·`reconstruction`·`reconstructionNote`·`sha256`·`bounds`는 보존.
 - 숫자 기온 없음(`temperatureC`/`feelsLikeC` null 의도, `isLiveMeasurement: false`). 브랜드·가격·링크·소재 혼용률·보호 성능 주장 없음.
-- 승인 범위: 에디토리얼 사용자 승인, 제품 30개는 제품 분해 승인 아래 제작·제작 측 검수. **외부 발행(GitHub 업로드·main 병합·배포)은 명시 승인이 확인되지 않아 로컬 브랜치에서 멈춤**; 발행 전에 origin/main 최신 여부를 다시 확인할 것. 원본은 옮기지 않음.
+- 승인 범위: 에디토리얼 사용자 승인, 제품 30개는 제품 분해 승인 아래 제작·제작 측 검수. 외부 발행(GitHub 업로드·main 병합·배포)은 자동 검토에서 한 번 막혀 로컬 브랜치에서 멈췄다가 사용자 명시 승인("승인완료") 뒤 진행; 발행 직전 origin/main을 다시 받아 최신임을 확인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
 - [검증 기록](rain-light-male-night-running-20261025-validation.md).

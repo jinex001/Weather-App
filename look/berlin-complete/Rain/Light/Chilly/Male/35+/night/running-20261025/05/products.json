@@ -304,9 +304,9 @@
   "visualReviewComplete": true,
   "productApproval": "User authorized product breakdown; no separate per-product visual approval claimed",
   "visualReviewer": "Codex; 4-background comparison sheets reviewed",
-  "mappingStatus": "mapped-local",
+  "mappingStatus": "mapped",
   "appOutfitId": "rl-chilly-m35-night-run-20261025-05",
-  "appBuild": "b158 (local, unpublished)",
+  "appBuild": "b158",
   "app": {
     "sky": "rain",
     "rain": "light",
