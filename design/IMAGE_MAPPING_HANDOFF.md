@@ -230,3 +230,13 @@ Five user-approved editorials (red-bomber plant scene and burgundy headscarf fin
 ## b150 · Rain / Light / Chilly / Female / 35+ / Night / Street — 2026-10-24 set
 
 Second dated set for this category: five user-approved editorials plus 34 independent transparent WebP products (6/7/7/6/8) in `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street-20261024/01–05/`, mapped through `look/rain-female-night-street-20261024.js` before `look/cutouts.js`. New IDs `bl-light-chilly-f-35-night-street-20261024-01`–`05` (`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`); the b149 set and all other looks are unchanged, so this cell now draws 3 of 10. Supplied ko/en/de copy used verbatim. 7°C / 3°C are creative assumptions, not measurements. Hidden garment details, look 05 boots and opposite earrings are reconstructions. PNG masters stay in iCloud. Validation: `design/rain-female-night-street-20261024-validation.md`.
+
+## b153 · Overcast / Chilly / Female / 35+ / Night — 2026-10-25 set (15 looks · 95 products)
+
+- 원본: 로컬 전달 폴더(READY.json `approved`·`products_complete`, 파일 127개 SHA-256과 목록 일치 확인; READY.json 자신은 목록 밖). LOOKS.json이 15개 products.json을 고르고, KOREAN_MASTER.json이 룩별 한국어 제목·요약·인트로·팁 마스터. `tools/image-inbox.py` 형식이 아니라 READY.json 해시를 직접 검증함(b145와 같음).
+- **한 칸에 세 스타일을 한 번에 더하는 날짜 세트**: 기존 `night/01–15-<스타일>/`·`ofn-*`는 건드리지 않고 `night/<running|street|minimal>-20261025/<NN>/`와 제작 측 ID(`…-20261025-NN`)를 그대로 씀. 폴더 번호는 ID 끝 번호(01–05/06–10/11–15)와 같게 둠.
+- 문구: 한국어 마스터는 그대로 `deck.ko`·`article.intro.ko`·`article.tip.ko`·`name.ko`. 앱 제목은 영어 대문자 문자열이라 한국어 제목은 products.json `copy.title.ko`에 보존하고 영어 제목·인용구는 새로 씀. 제작 측 제품 `descriptionKo`는 모든 제품이 같은 틀 문장("…에디토리얼에서 재구성한 제품 콘셉트입니다")이라 5-1장 기준 미달 → 에디토리얼·`designDescriptionEn`을 보고 제품별 ko/en/de 입는 법을 새로 써서 `note`와 products.json `descriptionKo/En/De`·`howToWear`에 넣음. `designDescriptionEn`·`reconstruction`·`reconstructionNote`는 근거로 보존.
+- 대표 컷: 사용자 지시대로 15룩 모두 아우터 WebP 자체(새 컷·복제 없음), `cutouts.js` HERO·CUTS 15행. 제목도 아우터 색/장면을 말하도록 씀(b134 규칙과 맞춤).
+- 승인 범위: 에디토리얼은 사용자 승인(러닝 외관 25–28세 수정본, 15번 전기 스쿠터·아이보리 헬멧 수정본). 제품 95개는 사용자의 제품 분해 승인 아래 제작·제작 측 검수, 제품별 사용자 육안 승인은 없음 — 그렇게 기록함. GitHub 반영·main 병합은 사용자의 명시 지시("깃헙 업데이트부터 메인 푸쉬까지").
+- 원본 폴더의 PNG 마스터·비교 시트·실행 기록·READY 매니페스트·프롬프트는 커밋하지 않음. 원본은 병합 뒤에도 지우거나 옮기지 않음(2026-10-25 사용자 지시, 이전 b150의 로컬 마스터 정리 단계는 적용 안 함).
+- [검증 기록](overcast-female-night-20261025-validation.md).

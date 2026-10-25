@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-minimal-20261025-12",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "카멜 울 코트",
+      "designDescriptionEn": "camel brown tailored long wool look coat, notched lapels, clean straight silhouette, welt pockets",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 33784,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "6f8e3dd4156a675726d2affba4d8ed59d9212e219122aced87ec7ff5ab81ed69",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "카멜 울 코트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear it open and long so the chocolate knit and ivory scarf carry on between the notched lapels.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "단추를 풀고 길게 떨어뜨려, 노치 라펠 사이로 초콜릿 니트와 아이보리 머플러가 이어지게 해요.",
+      "nameEn": "Camel wool-look coat",
+      "nameDe": "Camelfarbener Mantel in Wolloptik",
+      "descriptionDe": "Offen und lang tragen, damit Schokostrick und elfenbeinfarbener Schal zwischen den Revers weiterlaufen.",
+      "howToWear": {
+        "ko": "단추를 풀고 길게 떨어뜨려, 노치 라펠 사이로 초콜릿 니트와 아이보리 머플러가 이어지게 해요.",
+        "en": "Wear it open and long so the chocolate knit and ivory scarf carry on between the notched lapels.",
+        "de": "Offen und lang tragen, damit Schokostrick und elfenbeinfarbener Schal zwischen den Revers weiterlaufen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "초콜릿 터틀넥",
+      "designDescriptionEn": "dark chocolate chunky rib turtleneck long sleeve sweater",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 43016,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "35c079bfa842cd0c3818d6428f5eaef223bb373ef9a9e376ff17c26af05dc307",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "초콜릿 터틀넥 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Stand the chunky ribbed neck up inside the scarf to give the face a deep brown base.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "두툼한 골지 목을 머플러 안쪽에 세워 두면 얼굴 아래에 짙은 갈색 받침이 생겨요.",
+      "nameEn": "Chocolate turtleneck",
+      "nameDe": "Schokobrauner Rollkragenpullover",
+      "descriptionDe": "Den kräftig gerippten Kragen im Schal aufstellen; das gibt dem Gesicht eine tiefbraune Grundlage.",
+      "howToWear": {
+        "ko": "두툼한 골지 목을 머플러 안쪽에 세워 두면 얼굴 아래에 짙은 갈색 받침이 생겨요.",
+        "en": "Stand the chunky ribbed neck up inside the scarf to give the face a deep brown base.",
+        "de": "Den kräftig gerippten Kragen im Schal aufstellen; das gibt dem Gesicht eine tiefbraune Grundlage."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "브라운 테일러드 팬츠",
+      "designDescriptionEn": "brown full length tailored straight wide leg trousers, front pleats, lower silhouette conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 24926,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "a18453ed9988ccf3e50ce6c30a8eb98777d50f3364fac6e5f0610e53ad763783",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "브라운 테일러드 팬츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Keep the front pleats crisp so they show long through the open coat, hems falling to the shoes.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "앞 주름을 곧게 살려 코트 사이로 길게 보이게 하고, 밑단은 신발 위까지 내려요.",
+      "nameEn": "Brown tailored trousers",
+      "nameDe": "Braune Bundfaltenhose",
+      "descriptionDe": "Die Bundfalten scharf halten, damit sie lang durch den offenen Mantel zu sehen sind; der Saum fällt bis auf die Schuhe.",
+      "howToWear": {
+        "ko": "앞 주름을 곧게 살려 코트 사이로 길게 보이게 하고, 밑단은 신발 위까지 내려요.",
+        "en": "Keep the front pleats crisp so they show long through the open coat, hems falling to the shoes.",
+        "de": "Die Bundfalten scharf halten, damit sie lang durch den offenen Mantel zu sehen sind; der Saum fällt bis auf die Schuhe."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.03-bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "아이보리 머플러",
+      "designDescriptionEn": "ivory long knitted wool look scarf with ribbed texture and fringe",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-scarf.webp",
+      "bytes": 42378,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "821f6f7482b18d103e7937c285986c53815b8524784abe4a14690915efabdbdc",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "아이보리 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Hang it around the neck with both ends near the knees, letting the fringe swing over the coat.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 걸어 양 끝을 무릎 가까이 늘어뜨리고, 술 장식이 코트 위에서 가볍게 흔들리게 해요.",
+      "nameEn": "Ivory scarf",
+      "nameDe": "Elfenbeinfarbener Schal",
+      "descriptionDe": "Um den Hals hängen, beide Enden fast bis zum Knie; die Fransen schwingen über dem Mantel.",
+      "howToWear": {
+        "ko": "목에 걸어 양 끝을 무릎 가까이 늘어뜨리고, 술 장식이 코트 위에서 가볍게 흔들리게 해요.",
+        "en": "Hang it around the neck with both ends near the knees, letting the fringe swing over the coat.",
+        "de": "Um den Hals hängen, beide Enden fast bis zum Knie; die Fransen schwingen über dem Mantel."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.04-scarf"
+    },
+    {
+      "id": "05-gloves",
+      "category": "gloves",
+      "nameKo": "아이보리 니트 장갑",
+      "designDescriptionEn": "matching pair ivory knitted full finger gloves with rib cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-gloves.webp",
+      "bytes": 45572,
+      "sha256": "142b96a8de22ae50e79edefb7f888138e2a163864a0b1eb986e4346ff4043b97",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "아이보리 니트 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Tuck the ribbed cuffs into the coat sleeves and the scarf's light colour carries on to your fingertips.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "골지 커프를 코트 소매 안으로 넣어 끼우면 머플러의 밝은 색이 손끝까지 이어져요.",
+      "nameEn": "Ivory knit gloves",
+      "nameDe": "Elfenbeinfarbene Strickhandschuhe",
+      "descriptionDe": "Die Rippbündchen in die Mantelärmel stecken; so setzt sich die helle Farbe des Schals bis in die Fingerspitzen fort.",
+      "howToWear": {
+        "ko": "골지 커프를 코트 소매 안으로 넣어 끼우면 머플러의 밝은 색이 손끝까지 이어져요.",
+        "en": "Tuck the ribbed cuffs into the coat sleeves and the scarf's light colour carries on to your fingertips.",
+        "de": "Die Rippbündchen in die Mantelärmel stecken; so setzt sich die helle Farbe des Schals bis in die Fingerspitzen fort."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.05-gloves"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "브라운 레더 토트",
+      "designDescriptionEn": "dark brown smooth leather look tall rectangular shoulder tote with two long handles",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-bag.webp",
+      "bytes": 27316,
+      "sha256": "1ae23e0153ee6f933a4e86000f7a187939564a97308011d45629c2042f83324c",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "브라운 레더 토트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear the long handles over the shoulder with the bag behind you: hands free, coat front clean.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "긴 손잡이를 어깨에 메어 가방을 몸 뒤쪽에 두면 두 손이 자유롭고 코트 앞 라인이 깔끔해요.",
+      "nameEn": "Brown leather-look tote",
+      "nameDe": "Braune Tote in Lederoptik",
+      "descriptionDe": "Die langen Henkel über die Schulter, die Tasche nach hinten: Hände frei, Mantelfront klar.",
+      "howToWear": {
+        "ko": "긴 손잡이를 어깨에 메어 가방을 몸 뒤쪽에 두면 두 손이 자유롭고 코트 앞 라인이 깔끔해요.",
+        "en": "Wear the long handles over the shoulder with the bag behind you: hands free, coat front clean.",
+        "de": "Die langen Henkel über die Schulter, die Tasche nach hinten: Hände frei, Mantelfront klar."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.06-bag"
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 후프 이어링",
+      "designDescriptionEn": "matching pair small chunky gold tone hoops",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/07-jewelry.webp",
+      "bytes": 27564,
+      "sha256": "49e9806fbb7432ef4cdc987239907cb39284b0568e02bcd58695c7942ca4f304",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 후프 이어링 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "On ears left bare by the short crop, they catch a small light when you smile.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "짧은 머리로 드러난 귀에 달아 웃을 때 얼굴 옆에서 작게 빛나게 해요.",
+      "nameEn": "Gold hoop earrings",
+      "nameDe": "Goldene Creolen",
+      "descriptionDe": "An den vom kurzen Haar freigelassenen Ohren fangen sie beim Lächeln ein kleines Licht.",
+      "howToWear": {
+        "ko": "짧은 머리로 드러난 귀에 달아 웃을 때 얼굴 옆에서 작게 빛나게 해요.",
+        "en": "On ears left bare by the short crop, they catch a small light when you smile.",
+        "de": "An den vom kurzen Haar freigelassenen Ohren fangen sie beim Lächeln ein kleines Licht."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-12.07-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 7,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "밤의 커피 한 잔",
+      "en": "CAMEL AND A LATE COFFEE"
+    },
+    "deck": {
+      "ko": "카멜과 초콜릿에 아이보리를 더한 레이어.",
+      "en": "Camel and chocolate layers, brightened with ivory.",
+      "de": "Lagen in Camel und Schokobraun, aufgehellt mit Elfenbein."
+    },
+    "intro": {
+      "ko": "카멜 코트와 초콜릿 터틀넥, 브라운 팬츠를 같은 계열로 이었어요. 아이보리 머플러와 니트 장갑이 얼굴과 손 주변을 밝게 만들어줘요.",
+      "en": "Coat, turtleneck and trousers stay within one family of camel and browns. Ivory at the scarf and on the knitted hands lightens the face and fingers.",
+      "de": "Mantel, Rollkragen und Hose bleiben in einer Familie aus Camel und Brauntönen. Elfenbein an Schal und Strickhandschuhen hellt Gesicht und Hände auf."
+    },
+    "tip": {
+      "ko": "컵을 받을 때는 장갑을 낀 손으로도 안정적으로 잡아주세요.",
+      "en": "Take the cup with a steady grip, even with gloves on.",
+      "de": "Den Becher auch mit Handschuhen sicher greifen."
+    },
+    "captionKo": "카멜과 초콜릿에 아이보리를 더한 레이어.",
+    "introKo": "카멜 코트와 초콜릿 터틀넥, 브라운 팬츠를 같은 계열로 이었어요. 아이보리 머플러와 니트 장갑이 얼굴과 손 주변을 밝게 만들어줘요.",
+    "tipKo": "컵을 받을 때는 장갑을 낀 손으로도 안정적으로 잡아주세요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "ONE COLOUR FAMILY, TOP TO TOE."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "minimal",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-minimal-20261025-12",
+  "appBuild": "b153"
+}

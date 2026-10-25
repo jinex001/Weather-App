@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-24 (앱 빌드 b145) · 145룩 · 954아이템(활성 참조 937) · 기사 룩 145. 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-25 (앱 빌드 b153) · 175룩 · 1138아이템 · 기사 룩 175 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -98,6 +98,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | 흐림 | 남 | 낮 | `Overcast/Chilly/Male/35+/day/street/01–05/` | `oc-chilly-m-35-day-street-NN` (스트리트 두 번째 세트 5, b145, 보충 파일 `look/overcast-male-day-street.js`) | 제품 카드 기사 + 인용구 + 팁, 제품 투명 WebP |
 | 흐림 | 여 | 낮 | `Overcast/Chilly/Female/35+/day/` | `of15-NN-<스타일>-f` | 제품 카드 기사 |
 | 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/` | `ofn-NN-<스타일>-f` | 제품 카드 기사 |
+| 흐림 | 여 | 저녁 | `Overcast/Chilly/Female/35+/night/<running·street·minimal>-20261025/<01–15>/` | `oc-chilly-f35-night-<running\|street\|minimal>-20261025-NN` (두 번째 세트 15룩, b153, 보충 파일 `look/overcast-female-night-20261025.js`) | 제품 카드 기사 + 인용구 + 팁, 제품 95개 투명 WebP, 대표 컷 = 아우터 WebP 자체 |
 | 비(가벼운) | 남 | 낮 | `Rain/Light/Chilly/Male/35+/day/running/01–05/` | `bl-light-chilly-m-35-day-run-NN` (러닝 5) | 제품 카드 기사 |
 | 비(가벼운) | 남 | 낮 | `Rain/Light/Chilly/Male/35+/day/street/01–05/` | `bl-light-chilly-m-35-day-street-NN` (스트리트 5, b115) | 제품 카드 기사 |
 | 비(가벼운) | 남 | 낮 | `Rain/Light/Chilly/Male/35+/day/minimal/01–05/` | `bl-light-chilly-m-35-day-minimal-NN` (미니멀 5, b116) | 제품 카드 기사 + 팁 |
@@ -200,3 +201,7 @@ Five user-approved editorials (red-bomber plant scene and burgundy headscarf fin
 ## b150 · Rain / Light / Chilly / Female / 35+ / Night / Street — 2026-10-24 set
 
 Second dated set for this category: five user-approved editorials plus 34 independent transparent WebP products (6/7/7/6/8) in `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/street-20261024/01–05/`, mapped through `look/rain-female-night-street-20261024.js` before `look/cutouts.js`. New IDs `bl-light-chilly-f-35-night-street-20261024-01`–`05` (`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `time: evening`, `style: street`); the b149 set and all other looks are unchanged, so this cell now draws 3 of 10. Supplied ko/en/de copy used verbatim. 7°C / 3°C are creative assumptions, not measurements. Hidden garment details, look 05 boots and opposite earrings are reconstructions. PNG masters stay in iCloud. Validation: `design/rain-female-night-street-20261024-validation.md`.
+
+## b153 · Overcast / Chilly / Female / 35+ / Night — 2026-10-25 set (15 looks)
+
+두 번째 날짜 세트. 러닝 01–05·스트리트 06–10·미니멀 11–15 에디토리얼 15장 + 독립 투명 WebP 제품 95개(29/32/34; 룩별 7,7,4,5,6 / 6,6,7,6,7 / 7,7,6,7,7), `look/berlin-complete/Overcast/Chilly/Female/35+/night/<running|street|minimal>-20261025/<NN>/`(폴더 번호 = ID 끝 번호). 룩 ID는 제작 측 ID 그대로 `oc-chilly-f35-night-<style>-20261025-NN`(`sky: cloudy`, `bands: [chilly]`, `gender: f`, `age: "35"`, `time: evening`, `style: run|street|minimal`), 아이템 `<룩 ID>.<제품 id>`(제품 순서 유지). 기존 `ofn-*` 15룩은 그대로 → 이 칸은 스타일마다 10룩 중 3개 랜덤. 분류 매핑: gloves → hands, hat·headband → headwear. 한국어 마스터(요약·인트로·팁·제품 이름)는 그대로; 영어 대문자 제목·인용구, en/de 문구, 제품별 ko/en/de 입는 법은 Claude가 에디토리얼과 `designDescriptionEn`을 보고 씀(제작 측 descriptionKo는 틀 문장이라 화면에 안 씀). 한국어 제목은 products.json `copy.title.ko`에 보존(앱 제목은 영어 대문자 문자열). 대표 컷은 각 룩의 아우터 WebP(`cutouts.js` HERO·CUTS 15행). products.json은 정리본(원본 경로·검수 영수증 없음, `casting.modelAppearanceAgeRange: [25, 28]`, 복원 근거 필드 유지). [검증](overcast-female-night-20261025-validation.md).

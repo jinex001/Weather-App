@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-street-20261025-09",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "네이비 울 봄버",
+      "designDescriptionEn": "dark navy wool look zip front bomber jacket, ribbed dark cuffs and collar, relaxed rounded sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 27930,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "94cdce3266e0fc802936abc45e101d3fb345b21cb5271d2438053044e1b9d851",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "네이비 울 봄버 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Sit with it unzipped so the cobalt knit shows down the middle, ribbed cuffs resting at the wrists.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "지퍼를 연 채 앉아 코발트 니트를 가운데로 드러내고, 리브 커프는 손목에 맞게 내려 둬요.",
+      "nameEn": "Navy wool-look bomber",
+      "nameDe": "Blouson in Navy, Wolloptik",
+      "descriptionDe": "Im Sitzen offen tragen, damit der kobaltblaue Strick in der Mitte zu sehen ist; die Rippbündchen ruhen am Handgelenk.",
+      "howToWear": {
+        "ko": "지퍼를 연 채 앉아 코발트 니트를 가운데로 드러내고, 리브 커프는 손목에 맞게 내려 둬요.",
+        "en": "Sit with it unzipped so the cobalt knit shows down the middle, ribbed cuffs resting at the wrists.",
+        "de": "Im Sitzen offen tragen, damit der kobaltblaue Strick in der Mitte zu sehen ist; die Rippbündchen ruhen am Handgelenk."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-09.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "코발트 청키 니트",
+      "designDescriptionEn": "vivid cobalt blue chunky cable/rib textured crewneck sweater, ribbed cuffs and hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 45350,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "a3286660efce0a91654e9b13dfe22ba76961f1e4d243bc3a7379dc75623cf8b3",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "코발트 청키 니트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the ribbed cuffs extend past the bomber sleeves so the blue shows at the wrist holding the glass.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "골지 소맷단을 봄버 소매 밖으로 내밀어 잔을 든 손목에도 파랑이 보이게 해요.",
+      "nameEn": "Cobalt chunky knit",
+      "nameDe": "Kobaltblauer Grobstrickpullover",
+      "descriptionDe": "Die Rippbündchen unter den Blousonärmeln hervorschauen lassen; so zeigt sich das Blau auch am Handgelenk mit dem Glas.",
+      "howToWear": {
+        "ko": "골지 소맷단을 봄버 소매 밖으로 내밀어 잔을 든 손목에도 파랑이 보이게 해요.",
+        "en": "Let the ribbed cuffs extend past the bomber sleeves so the blue shows at the wrist holding the glass.",
+        "de": "Die Rippbündchen unter den Blousonärmeln hervorschauen lassen; so zeigt sich das Blau auch am Handgelenk mit dem Glas."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-09.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 와이드 팬츠",
+      "designDescriptionEn": "charcoal gray textured wool look wide leg full length trousers, knee and upper legs visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 31528,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "c9daf4982c9e931e9172a9d2c3a46443e4b48ce4db36218c7dfa7cc4eddf47d7",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 와이드 팬츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "The wide legs fold softly over the knee when seated; keep the length down to the instep.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "넓은 통이 앉았을 때 무릎 위에서 부드럽게 접히게 입고, 길이는 발등까지 둬요.",
+      "nameEn": "Charcoal wide-leg trousers",
+      "nameDe": "Weite Hose in Anthrazit",
+      "descriptionDe": "Die weiten Beine legen sich im Sitzen weich übers Knie; die Länge reicht bis auf den Spann.",
+      "howToWear": {
+        "ko": "넓은 통이 앉았을 때 무릎 위에서 부드럽게 접히게 입고, 길이는 발등까지 둬요.",
+        "en": "The wide legs fold softly over the knee when seated; keep the length down to the instep.",
+        "de": "Die weiten Beine legen sich im Sitzen weich übers Knie; die Länge reicht bis auf den Spann."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-09.03-bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "그레이 머플러",
+      "designDescriptionEn": "medium gray wool look long scarf with soft texture and short fringe",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-scarf.webp",
+      "bytes": 49156,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "3ee6d01f8a7519afe6052a716c12b6cbda738e8e17a06df6417616239ef6568e",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "그레이 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wrap it once and let both ends run down either side of the bomber front, framing the cobalt.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 한 번 감고 양 끝을 봄버 앞판 양쪽으로 길게 내려 코발트를 액자처럼 감싸요.",
+      "nameEn": "Grey scarf",
+      "nameDe": "Grauer Schal",
+      "descriptionDe": "Einmal umlegen und die Enden zu beiden Seiten der Blousonfront herabhängen lassen; sie rahmen das Kobaltblau.",
+      "howToWear": {
+        "ko": "목에 한 번 감고 양 끝을 봄버 앞판 양쪽으로 길게 내려 코발트를 액자처럼 감싸요.",
+        "en": "Wrap it once and let both ends run down either side of the bomber front, framing the cobalt.",
+        "de": "Einmal umlegen und die Enden zu beiden Seiten der Blousonfront herabhängen lassen; sie rahmen das Kobaltblau."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-09.04-scarf"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "탄 레더 토트",
+      "designDescriptionEn": "tan warm brown textured leather look tote bag, rectangular soft body, two medium long shoulder handles",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-bag.webp",
+      "bytes": 46890,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "18d1c7b0aea10bd1aa038eae293ada8e0371165616bfd4f088d589a82c60e4c8",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "탄 레더 토트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Hang it from the shoulder on the chair-back side, where the tan reads warm next to the navy.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "의자 등받이 쪽 어깨에 걸어 두면 탄 컬러가 네이비 옆에서 따뜻하게 보여요.",
+      "nameEn": "Tan leather-look tote",
+      "nameDe": "Hellbraune Tote in Lederoptik",
+      "descriptionDe": "An der Schulter zur Stuhllehne hin tragen; dort wirkt das Hellbraun warm neben dem Navy.",
+      "howToWear": {
+        "ko": "의자 등받이 쪽 어깨에 걸어 두면 탄 컬러가 네이비 옆에서 따뜻하게 보여요.",
+        "en": "Hang it from the shoulder on the chair-back side, where the tan reads warm next to the navy.",
+        "de": "An der Schulter zur Stuhllehne hin tragen; dort wirkt das Hellbraun warm neben dem Navy."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-09.05-bag"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 후프 이어링",
+      "designDescriptionEn": "matching pair simple medium small gold tone hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-jewelry.webp",
+      "bytes": 32046,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "ee6b9455703d6eba65a1766746f4ab3dcc9c710a0e751f16242c83ab4c48422e",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 후프 이어링 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let them peek through the curls for a little gold in the candlelight.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "곱슬머리 사이로 살짝 보이게 달아 촛불 아래 작은 금빛을 더해요.",
+      "nameEn": "Gold hoop earrings",
+      "nameDe": "Goldene Creolen",
+      "descriptionDe": "Zwischen den Locken hervorblitzen lassen, ein wenig Gold im Kerzenlicht.",
+      "howToWear": {
+        "ko": "곱슬머리 사이로 살짝 보이게 달아 촛불 아래 작은 금빛을 더해요.",
+        "en": "Let them peek through the curls for a little gold in the candlelight.",
+        "de": "Zwischen den Locken hervorblitzen lassen, ein wenig Gold im Kerzenlicht."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-09.06-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 6,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "테라스의 코발트",
+      "en": "NAVY ON THE TERRACE"
+    },
+    "deck": {
+      "ko": "차분한 네이비에 선명한 니트 한 겹.",
+      "en": "Calm navy with one vivid layer of knit.",
+      "de": "Ruhiges Navy mit einer leuchtenden Lage Strick."
+    },
+    "intro": {
+      "ko": "네이비 봄버와 차콜 팬츠 사이로 코발트 니트를 드러냈어요. 그레이 머플러와 탄 컬러 토트로 선명함을 부드럽게 연결해요.",
+      "en": "A cobalt knit shows between the navy bomber and charcoal trousers. A grey scarf and a tan tote soften the brightness and tie it in.",
+      "de": "Zwischen Navy-Blouson und anthrazitfarbener Hose zeigt sich ein kobaltblauer Strickpullover. Grauer Schal und hellbraune Tote binden das Leuchten sanft ein."
+    },
+    "tip": {
+      "ko": "야외 테이블에서는 머플러를 목에 둘러 쌀쌀한 공기를 막아요.",
+      "en": "At an outdoor table, keep the scarf wrapped around your neck against the chilly air.",
+      "de": "Am Tisch draußen den Schal um den Hals gelegt lassen; er hält die kühle Luft ab."
+    },
+    "captionKo": "차분한 네이비에 선명한 니트 한 겹.",
+    "introKo": "네이비 봄버와 차콜 팬츠 사이로 코발트 니트를 드러냈어요. 그레이 머플러와 탄 컬러 토트로 선명함을 부드럽게 연결해요.",
+    "tipKo": "야외 테이블에서는 머플러를 목에 둘러 쌀쌀한 공기를 막아요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "ONE BRIGHT KNIT IS ENOUGH."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "street",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-street-20261025-09",
+  "appBuild": "b153"
+}

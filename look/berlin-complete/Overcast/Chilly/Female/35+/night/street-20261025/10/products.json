@@ -1,0 +1,328 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-street-20261025-10",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "카멜 시어링 재킷",
+      "designDescriptionEn": "camel tan suede look shearling jacket, thick ivory fluffy collar and cuffs, broad notched lapels, hip length",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 46110,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "45718124d36783feb29d8e88a589061249cf00e4356677aed744e49bf61604a8",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "카멜 시어링 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear it open with the broad notched lapels and ivory fleece collar spread; the fluffy cuffs sit above the wrist, out of the way when lifting a shopping bag.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "앞을 열어 넓은 노치 라펠과 아이보리 퍼 칼라를 펼치고, 퍼 커프는 손목 위에 두어 장바구니를 들기 편하게 해요.",
+      "nameEn": "Camel shearling-look jacket",
+      "nameDe": "Jacke in Shearling-Optik, Camel",
+      "descriptionDe": "Offen tragen, breite Revers und den elfenbeinfarbenen Plüschkragen ausgebreitet; die flauschigen Bündchen sitzen über dem Handgelenk und stören beim Heben der Einkaufstasche nicht.",
+      "howToWear": {
+        "ko": "앞을 열어 넓은 노치 라펠과 아이보리 퍼 칼라를 펼치고, 퍼 커프는 손목 위에 두어 장바구니를 들기 편하게 해요.",
+        "en": "Wear it open with the broad notched lapels and ivory fleece collar spread; the fluffy cuffs sit above the wrist, out of the way when lifting a shopping bag.",
+        "de": "Offen tragen, breite Revers und den elfenbeinfarbenen Plüschkragen ausgebreitet; die flauschigen Bündchen sitzen über dem Handgelenk und stören beim Heben der Einkaufstasche nicht."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 터틀넥",
+      "designDescriptionEn": "black fine rib knitted turtleneck long sleeve sweater",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 26296,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "78787fb19f70285db88575b9b2a4895eb986d9e509cf0cc9aaf40df479ab8b66",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 터틀넥 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Keep the neck up and unfolded as a black base beneath the burgundy scarf.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목을 접지 않고 세워 버건디 머플러 아래 검은 바탕을 깔아줘요.",
+      "nameEn": "Black turtleneck",
+      "nameDe": "Schwarzer Rollkragenpullover",
+      "descriptionDe": "Den Kragen ungefaltet hochstehend tragen, als schwarze Grundlage unter dem burgunderroten Schal.",
+      "howToWear": {
+        "ko": "목을 접지 않고 세워 버건디 머플러 아래 검은 바탕을 깔아줘요.",
+        "en": "Keep the neck up and unfolded as a black base beneath the burgundy scarf.",
+        "de": "Den Kragen ungefaltet hochstehend tragen, als schwarze Grundlage unter dem burgunderroten Schal."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "다크 인디고 데님",
+      "designDescriptionEn": "dark indigo full length wide straight jeans, golden stitching, neat hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 28468,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "04472ebccad2f07467547d75fd057937e11cdfdc951e0fbc0b8ed84b9d025ab0",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "다크 인디고 데님 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear them straight so the leg line runs long below the camel jacket; the gold stitching draws fine lines on the deep denim.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "카멜 재킷 아래로 다리 선이 길게 이어지도록 곧게 입어요. 골드 스티치가 짙은 데님에 가는 선을 그려요.",
+      "nameEn": "Dark indigo jeans",
+      "nameDe": "Dunkle Jeans in Indigo",
+      "descriptionDe": "Gerade getragen verlängern sie die Beinlinie unter der Camel-Jacke; goldene Nähte ziehen feine Linien über das tiefe Denim.",
+      "howToWear": {
+        "ko": "카멜 재킷 아래로 다리 선이 길게 이어지도록 곧게 입어요. 골드 스티치가 짙은 데님에 가는 선을 그려요.",
+        "en": "Wear them straight so the leg line runs long below the camel jacket; the gold stitching draws fine lines on the deep denim.",
+        "de": "Gerade getragen verlängern sie die Beinlinie unter der Camel-Jacke; goldene Nähte ziehen feine Linien über das tiefe Denim."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.03-bottom"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 앵클부츠",
+      "designDescriptionEn": "matching pair black smooth leather look ankle boots, rounded toe, low chunky heel and dark sole, conservatively complete partial visible footwear",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-shoes.webp",
+      "bytes": 27204,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "167c1f4ca53490cfecb66af0f08eb0a321e0526f8c5cf4a708c1b96b3d9895d5",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 앵클부츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "The low, chunky heel copes with wet streets and stepping out of the car; let the rounded toe peek from under the denim.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "낮고 두툼한 굽으로 젖은 길과 차에서 내리는 걸음을 편하게 딛고, 둥근 앞코가 데님 밑단 아래로 살짝 보이게 해요.",
+      "nameEn": "Black ankle boots",
+      "nameDe": "Schwarze Stiefeletten",
+      "descriptionDe": "Der niedrige, kräftige Absatz meistert nasse Straßen und den Ausstieg aus dem Auto; die runde Spitze schaut unter dem Jeanssaum hervor.",
+      "howToWear": {
+        "ko": "낮고 두툼한 굽으로 젖은 길과 차에서 내리는 걸음을 편하게 딛고, 둥근 앞코가 데님 밑단 아래로 살짝 보이게 해요.",
+        "en": "The low, chunky heel copes with wet streets and stepping out of the car; let the rounded toe peek from under the denim.",
+        "de": "Der niedrige, kräftige Absatz meistert nasse Straßen und den Ausstieg aus dem Auto; die runde Spitze schaut unter dem Jeanssaum hervor."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.04-shoes"
+    },
+    {
+      "id": "05-scarf",
+      "category": "scarf",
+      "nameKo": "버건디 프린지 머플러",
+      "designDescriptionEn": "deep burgundy brushed woven long scarf with short fringe",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-scarf.webp",
+      "bytes": 43628,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "0a6146515d0b3f17eaba7728dd2425240c1afa16371034018feb8342f8417094",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "버건디 프린지 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wrap it thickly once and let one end hang long at the front, laying deep red over the camel.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 두툼하게 한 번 감고 한쪽 끝을 길게 앞으로 내려 카멜 위에 깊은 붉은색을 얹어요.",
+      "nameEn": "Burgundy fringed scarf",
+      "nameDe": "Burgunderroter Fransenschal",
+      "descriptionDe": "Einmal dick umschlingen und ein Ende lang nach vorn hängen lassen; so liegt tiefes Rot auf dem Camel.",
+      "howToWear": {
+        "ko": "목에 두툼하게 한 번 감고 한쪽 끝을 길게 앞으로 내려 카멜 위에 깊은 붉은색을 얹어요.",
+        "en": "Wrap it thickly once and let one end hang long at the front, laying deep red over the camel.",
+        "de": "Einmal dick umschlingen und ein Ende lang nach vorn hängen lassen; so liegt tiefes Rot auf dem Camel."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.05-scarf"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "초콜릿 숄더백",
+      "designDescriptionEn": "dark chocolate brown glossy leather look compact shoulder bag, curved flap body, medium strap with brass rings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-bag.webp",
+      "bytes": 40278,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "18def5750523140f763f7920a7006720c31a9a63dedb795eb240590b7b6b4a77",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "초콜릿 숄더백 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear it towards the back of the shoulder so both hands are free for the groceries, brass rings glinting at the jacket's side.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "어깨 뒤쪽으로 메어 두 손을 장바구니에 쓰고, 놋쇠 링이 재킷 옆선에서 살짝 빛나게 해요.",
+      "nameEn": "Chocolate shoulder bag",
+      "nameDe": "Schokobraune Schultertasche",
+      "descriptionDe": "Weiter hinten an der Schulter tragen, damit beide Hände für den Einkauf frei sind; die Messingringe glänzen an der Jackenseite.",
+      "howToWear": {
+        "ko": "어깨 뒤쪽으로 메어 두 손을 장바구니에 쓰고, 놋쇠 링이 재킷 옆선에서 살짝 빛나게 해요.",
+        "en": "Wear it towards the back of the shoulder so both hands are free for the groceries, brass rings glinting at the jacket's side.",
+        "de": "Weiter hinten an der Schulter tragen, damit beide Hände für den Einkauf frei sind; die Messingringe glänzen an der Jackenseite."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.06-bag"
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 미니 후프",
+      "designDescriptionEn": "matching pair small plain gold tone hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/07-jewelry.webp",
+      "bytes": 30044,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "b8ee4e142412ca5c61afb894e209466d382036e1b87e8044437de1b5b4a8ee99",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 미니 후프 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Small on the lobes between short blonde strands, a quiet gold beside the fleece collar.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "짧은 금발 사이 귓불에 작게 달아 퍼 칼라 옆으로 은은한 금빛을 남겨요.",
+      "nameEn": "Gold mini hoops",
+      "nameDe": "Goldene Mini-Creolen",
+      "descriptionDe": "Klein an den Ohrläppchen zwischen kurzen blonden Strähnen, ein leises Gold neben dem Plüschkragen.",
+      "howToWear": {
+        "ko": "짧은 금발 사이 귓불에 작게 달아 퍼 칼라 옆으로 은은한 금빛을 남겨요.",
+        "en": "Small on the lobes between short blonde strands, a quiet gold beside the fleece collar.",
+        "de": "Klein an den Ohrläppchen zwischen kurzen blonden Strähnen, ein leises Gold neben dem Plüschkragen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-10.07-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 7,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "장바구니를 다시 잡고",
+      "en": "CAMEL, GROCERIES IN HAND"
+    },
+    "deck": {
+      "ko": "카멜 시어링과 버건디 머플러의 밤 장보기.",
+      "en": "A night-time grocery run in camel shearling and a burgundy scarf.",
+      "de": "Abendeinkauf in Camel-Shearling-Optik und burgunderrotem Schal."
+    },
+    "intro": {
+      "ko": "카멜 재킷 안에 블랙 터틀넥을 받치고 다크 데님을 이었어요. 버건디 머플러와 브라운 가방으로 따뜻한 색을 나눠요.",
+      "en": "A black turtleneck sits under the camel jacket and runs into dark denim. The burgundy scarf and brown bag share out the warm colours.",
+      "de": "Unter der camelfarbenen Jacke liegt ein schwarzer Rollkragenpullover, der in dunkle Jeans übergeht. Burgunderroter Schal und braune Tasche verteilen die warmen Farben."
+    },
+    "tip": {
+      "ko": "긴 데님 밑단은 부츠 위에서 바닥에 끌리지 않게 맞춰요.",
+      "en": "Set the long denim hems over the boots so they don't drag on the ground.",
+      "de": "Die langen Jeanssäume auf die Stiefeletten abstimmen, damit sie nicht über den Boden schleifen."
+    },
+    "captionKo": "카멜 시어링과 버건디 머플러의 밤 장보기.",
+    "introKo": "카멜 재킷 안에 블랙 터틀넥을 받치고 다크 데님을 이었어요. 버건디 머플러와 브라운 가방으로 따뜻한 색을 나눠요.",
+    "tipKo": "긴 데님 밑단은 부츠 위에서 바닥에 끌리지 않게 맞춰요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "CAMEL AND BURGUNDY SHARE THE WARMTH."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "street",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-street-20261025-10",
+  "appBuild": "b153"
+}

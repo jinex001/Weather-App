@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-street-20261025-06",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "에스프레소 시어링 재킷",
+      "designDescriptionEn": "espresso dark brown short shearling look jacket, fuzzy dark trim on cuffs and wide collar, brown zipper, relaxed boxy silhouette",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 36884,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "b1ca38f10e12c786f23569bb865c20d9171f3cf5ebe9add4cdd6fd2ec7ce8edf",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "에스프레소 시어링 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Leave it unzipped with the wide collar spread over the scarf, knit cuffs peeking out below the fuzzy trim.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "지퍼를 열어 둔 채 넓은 칼라를 머플러 위로 펼치고, 퍼 커프 아래로 니트 소매가 살짝 나오게 해요.",
+      "nameEn": "Espresso shearling-look jacket",
+      "nameDe": "Jacke in Shearling-Optik, Espresso",
+      "descriptionDe": "Offen tragen, den breiten Kragen über den Schal gelegt, die Strickbündchen unter dem flauschigen Ärmelbesatz sichtbar.",
+      "howToWear": {
+        "ko": "지퍼를 열어 둔 채 넓은 칼라를 머플러 위로 펼치고, 퍼 커프 아래로 니트 소매가 살짝 나오게 해요.",
+        "en": "Leave it unzipped with the wide collar spread over the scarf, knit cuffs peeking out below the fuzzy trim.",
+        "de": "Offen tragen, den breiten Kragen über den Schal gelegt, die Strickbündchen unter dem flauschigen Ärmelbesatz sichtbar."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-06.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "크림 청키 니트",
+      "designDescriptionEn": "cream chunky rib crew neck long sleeve sweater visible beneath jacket",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 41328,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "28b384eb26efba6f3fa5a8a4dc4ef0733d9a451241f82afb499c67bf541c77c5",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "크림 청키 니트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Show a wide stretch of cream rib between the jacket fronts and let the cuffs fall to the backs of the hands.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "재킷 앞판 사이로 크림 골지를 넓게 보이고, 소맷단은 접지 않고 손등까지 내려요.",
+      "nameEn": "Cream chunky knit",
+      "nameDe": "Cremefarbener Grobstrickpullover",
+      "descriptionDe": "Zwischen den Jackenkanten viel cremefarbene Rippe zeigen und die Bündchen bis auf den Handrücken fallen lassen.",
+      "howToWear": {
+        "ko": "재킷 앞판 사이로 크림 골지를 넓게 보이고, 소맷단은 접지 않고 손등까지 내려요.",
+        "en": "Show a wide stretch of cream rib between the jacket fronts and let the cuffs fall to the backs of the hands.",
+        "de": "Zwischen den Jackenkanten viel cremefarbene Rippe zeigen und die Bündchen bis auf den Handrücken fallen lassen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-06.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "인디고 와이드 데님",
+      "designDescriptionEn": "dark indigo washed wide leg jeans, full length inferred beyond crop",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 42636,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "f18929e77a5390cf73645a0b16f953a9f61933514dc24431b97da09a1ffce92a",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "인디고 와이드 데님 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Keep the waist under the knit hem and let the wide legs fall straight to just above the ground.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "허리선은 니트 밑단 아래에 두고, 넓은 통을 바닥 가까이 곧게 떨어뜨려요.",
+      "nameEn": "Indigo wide-leg jeans",
+      "nameDe": "Weite Jeans in Indigo",
+      "descriptionDe": "Den Bund unter dem Pulloversaum lassen und die weiten Beine gerade bis knapp über den Boden fallen lassen.",
+      "howToWear": {
+        "ko": "허리선은 니트 밑단 아래에 두고, 넓은 통을 바닥 가까이 곧게 떨어뜨려요.",
+        "en": "Keep the waist under the knit hem and let the wide legs fall straight to just above the ground.",
+        "de": "Den Bund unter dem Pulloversaum lassen und die weiten Beine gerade bis knapp über den Boden fallen lassen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-06.03-bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "오트밀 프린지 머플러",
+      "designDescriptionEn": "oatmeal beige soft brushed woven long scarf, short fringes",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-scarf.webp",
+      "bytes": 49880,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "ec78a0bca6e7a294986a62cf0dd2ea675b0f132ed1eb860e6fbba001b7aa68b8",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "오트밀 프린지 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Loop it loosely once around the neck and let both ends hang long down the front of the jacket.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 한 번 느슨하게 감고 양 끝을 재킷 앞으로 길게 늘어뜨려요.",
+      "nameEn": "Oatmeal fringed scarf",
+      "nameDe": "Haferfarbener Fransenschal",
+      "descriptionDe": "Einmal locker um den Hals legen und beide Enden lang vorn über die Jacke hängen lassen.",
+      "howToWear": {
+        "ko": "목에 한 번 느슨하게 감고 양 끝을 재킷 앞으로 길게 늘어뜨려요.",
+        "en": "Loop it loosely once around the neck and let both ends hang long down the front of the jacket.",
+        "de": "Einmal locker um den Hals legen und beide Enden lang vorn über die Jacke hängen lassen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-06.04-scarf"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "버건디 숄더백",
+      "designDescriptionEn": "burgundy glossy leather look soft shoulder bag, rounded rectangular body, medium narrow strap with brass fittings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-bag.webp",
+      "bytes": 38668,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "2e58889ad540d37dc5c659a4085028fdff37c3efe0138b72a2bab555f9d0b619",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "버건디 숄더백 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear it high on the shoulder with the body against the jacket's side, so the glossy burgundy sits deep against the brown.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "어깨에 짧게 메어 몸통을 재킷 옆선에 붙이면, 브라운 위에 버건디 광택이 깊게 얹혀요.",
+      "nameEn": "Burgundy shoulder bag",
+      "nameDe": "Burgunderrote Schultertasche",
+      "descriptionDe": "Kurz über der Schulter tragen, den Taschenkörper an der Jackenseite; so liegt das glänzende Burgunderrot tief auf dem Braun.",
+      "howToWear": {
+        "ko": "어깨에 짧게 메어 몸통을 재킷 옆선에 붙이면, 브라운 위에 버건디 광택이 깊게 얹혀요.",
+        "en": "Wear it high on the shoulder with the body against the jacket's side, so the glossy burgundy sits deep against the brown.",
+        "de": "Kurz über der Schulter tragen, den Taschenkörper an der Jackenseite; so liegt das glänzende Burgunderrot tief auf dem Braun."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-06.05-bag"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 스몰 후프",
+      "designDescriptionEn": "matching pair small plain gold tone hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-jewelry.webp",
+      "bytes": 28086,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "6ccbc9280ffdbc5b73315d0b022a2e23e3a914cabec8e6d53e69b0b3715b606a",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 스몰 후프 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let them show through hair tucked behind the ears for a warm glint of gold beside the face.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "귀 뒤로 넘긴 머리 사이로 작게 보이게 달아 얼굴 옆에 따뜻한 금빛을 더해요.",
+      "nameEn": "Small gold hoops",
+      "nameDe": "Kleine goldene Creolen",
+      "descriptionDe": "Zwischen hinter die Ohren gestrichenem Haar zeigen, ein warmer Goldschimmer neben dem Gesicht.",
+      "howToWear": {
+        "ko": "귀 뒤로 넘긴 머리 사이로 작게 보이게 달아 얼굴 옆에 따뜻한 금빛을 더해요.",
+        "en": "Let them show through hair tucked behind the ears for a warm glint of gold beside the face.",
+        "de": "Zwischen hinter die Ohren gestrichenem Haar zeigen, ein warmer Goldschimmer neben dem Gesicht."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-06.06-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 6,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "빵 봉투 속 작은 발견",
+      "en": "ESPRESSO AND A BREAD BAG"
+    },
+    "deck": {
+      "ko": "브라운 시어링과 크림 니트, 인디고 데님.",
+      "en": "Brown shearling, cream knit and indigo denim.",
+      "de": "Braune Shearling-Optik, cremefarbener Strick und Indigo-Denim."
+    },
+    "intro": {
+      "ko": "에스프레소 브라운 재킷에 크림 니트와 오트밀 머플러를 겹쳤어요. 와이드 데님과 버건디 가방이 부드러운 겨울빛을 이어줘요.",
+      "en": "A cream knit and an oatmeal scarf are layered under the espresso-brown jacket. Wide denim and a burgundy bag carry the soft winter colours on.",
+      "de": "Unter der espressobraunen Jacke liegen ein cremefarbener Strickpullover und ein haferfarbener Schal. Weite Jeans und eine burgunderrote Tasche führen die weichen Winterfarben weiter."
+    },
+    "tip": {
+      "ko": "머플러 끝은 봉투를 여는 손에 걸리지 않게 정리해요.",
+      "en": "Tuck the scarf ends away so they don't get in your hands as you open the paper bag.",
+      "de": "Die Schalenden wegstecken, damit sie beim Öffnen der Papiertüte nicht in die Hände geraten."
+    },
+    "captionKo": "브라운 시어링과 크림 니트, 인디고 데님.",
+    "introKo": "에스프레소 브라운 재킷에 크림 니트와 오트밀 머플러를 겹쳤어요. 와이드 데님과 버건디 가방이 부드러운 겨울빛을 이어줘요.",
+    "tipKo": "머플러 끝은 봉투를 여는 손에 걸리지 않게 정리해요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "SOFT LAYERS, WARM LIGHT."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "street",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-street-20261025-06",
+  "appBuild": "b153"
+}

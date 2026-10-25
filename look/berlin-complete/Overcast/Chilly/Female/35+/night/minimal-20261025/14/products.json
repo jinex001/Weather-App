@@ -1,0 +1,321 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-minimal-20261025-14",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "토프 울 코트",
+      "designDescriptionEn": "taupe beige brown wool look long coat, notched lapels, large dark buttons, relaxed straight cut",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 43026,
+      "sha256": "8a9eb8853d4ac0af8666107b1a72ea698d3c62e664c1f71690af4ad8d6f0d30c",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "토프 울 코트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Leave it unbuttoned so the relaxed straight cut falls freely, with the ivory neckline between the lapels.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "단추를 풀어 여유 있는 직선 실루엣을 그대로 떨어뜨리고, 라펠 사이로 아이보리 목선을 보여요.",
+      "nameEn": "Taupe wool-look coat",
+      "nameDe": "Taupefarbener Mantel in Wolloptik",
+      "descriptionDe": "Offen tragen, damit der lockere gerade Schnitt frei fällt; zwischen den Revers zeigt sich der elfenbeinfarbene Kragen.",
+      "howToWear": {
+        "ko": "단추를 풀어 여유 있는 직선 실루엣을 그대로 떨어뜨리고, 라펠 사이로 아이보리 목선을 보여요.",
+        "en": "Leave it unbuttoned so the relaxed straight cut falls freely, with the ivory neckline between the lapels.",
+        "de": "Offen tragen, damit der lockere gerade Schnitt frei fällt; zwischen den Revers zeigt sich der elfenbeinfarbene Kragen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "아이보리 터틀넥",
+      "designDescriptionEn": "ivory fine rib turtleneck sweater, long sleeves and neat ribbed cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 39138,
+      "sha256": "4d2fc49df20640078765b3b7b15e58cf6901ca510f8a60884cb6a09e45050925",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "아이보리 터틀넥 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Stand the fine-ribbed neck up neatly and show a little cuff above the gloves to lighten the taupe and brown.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "가는 골지 목을 반듯하게 세우고 소맷단을 장갑 위로 살짝 보이게 해 토프와 브라운 사이를 밝혀요.",
+      "nameEn": "Ivory turtleneck",
+      "nameDe": "Elfenbeinfarbener Rollkragenpullover",
+      "descriptionDe": "Den fein gerippten Kragen glatt aufstellen und über den Handschuhen etwas Bündchen zeigen; das hellt Taupe und Braun auf.",
+      "howToWear": {
+        "ko": "가는 골지 목을 반듯하게 세우고 소맷단을 장갑 위로 살짝 보이게 해 토프와 브라운 사이를 밝혀요.",
+        "en": "Stand the fine-ribbed neck up neatly and show a little cuff above the gloves to lighten the taupe and brown.",
+        "de": "Den fein gerippten Kragen glatt aufstellen und über den Handschuhen etwas Bündchen zeigen; das hellt Taupe und Braun auf."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "브라운 와이드 팬츠",
+      "designDescriptionEn": "dark brown textured wool look full length wide leg trousers, upper leg visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 29874,
+      "sha256": "03e01922344dd489a6d210afacfaee0433ef0a9e4c077fb571d4b7521322a479",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "브라운 와이드 팬츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the wide legs fall long below the coat hem so they swing with the coat as you walk.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "넓은 통을 코트 밑단 아래로 길게 떨어뜨려 걸을 때 코트와 함께 흔들리게 해요.",
+      "nameEn": "Brown wide-leg trousers",
+      "nameDe": "Braune weite Hose",
+      "descriptionDe": "Die weiten Beine lang unter dem Mantelsaum fallen lassen, damit sie beim Gehen mit dem Mantel schwingen.",
+      "howToWear": {
+        "ko": "넓은 통을 코트 밑단 아래로 길게 떨어뜨려 걸을 때 코트와 함께 흔들리게 해요.",
+        "en": "Let the wide legs fall long below the coat hem so they swing with the coat as you walk.",
+        "de": "Die weiten Beine lang unter dem Mantelsaum fallen lassen, damit sie beim Gehen mit dem Mantel schwingen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.03-bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "토프 프린지 머플러",
+      "designDescriptionEn": "taupe beige soft woven long scarf with short twisted fringe",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-scarf.webp",
+      "bytes": 48130,
+      "sha256": "296ba59f36ed39ec3173af279ef317b706454d775964834593a0edc81e01629f",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "토프 프린지 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wrap it generously once, one end over the shoulder behind you, the other hanging long at the front.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 크게 한 번 둘러 한쪽 끝은 어깨 뒤로 넘기고, 다른 끝은 코트 앞으로 길게 내려요.",
+      "nameEn": "Taupe fringed scarf",
+      "nameDe": "Taupefarbener Fransenschal",
+      "descriptionDe": "Großzügig einmal umlegen, ein Ende über die Schulter nach hinten, das andere lang vorn herab.",
+      "howToWear": {
+        "ko": "목에 크게 한 번 둘러 한쪽 끝은 어깨 뒤로 넘기고, 다른 끝은 코트 앞으로 길게 내려요.",
+        "en": "Wrap it generously once, one end over the shoulder behind you, the other hanging long at the front.",
+        "de": "Großzügig einmal umlegen, ein Ende über die Schulter nach hinten, das andere lang vorn herab."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.04-scarf"
+    },
+    {
+      "id": "05-gloves",
+      "category": "gloves",
+      "nameKo": "브라운 레더 장갑",
+      "designDescriptionEn": "matching pair dark brown smooth leather look full finger gloves",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-gloves.webp",
+      "bytes": 42822,
+      "sha256": "a478b29a1082a59f039ba8adb374934b6af51108b482d3da37ee6793de6daf6a",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "브라운 레더 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Tuck the cuffs into the sleeves so the dark brown links up with the trousers, and hold the bouquet lightly.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "커프를 소매 안에 넣어 짙은 브라운이 팬츠와 이어지게 하고, 꽃다발은 가볍게 감싸 쥐어요.",
+      "nameEn": "Brown leather-look gloves",
+      "nameDe": "Braune Handschuhe in Lederoptik",
+      "descriptionDe": "Die Bündchen in die Ärmel stecken, damit das dunkle Braun an die Hose anknüpft, und den Strauß locker halten.",
+      "howToWear": {
+        "ko": "커프를 소매 안에 넣어 짙은 브라운이 팬츠와 이어지게 하고, 꽃다발은 가볍게 감싸 쥐어요.",
+        "en": "Tuck the cuffs into the sleeves so the dark brown links up with the trousers, and hold the bouquet lightly.",
+        "de": "Die Bündchen in die Ärmel stecken, damit das dunkle Braun an die Hose anknüpft, und den Strauß locker halten."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.05-gloves"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "브라운 숄더 토트",
+      "designDescriptionEn": "brown smooth leather look large shoulder tote with broad curved opening and two long handles",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-bag.webp",
+      "bytes": 29600,
+      "sha256": "0eb23c39ab40b9494bf574b93213528fd3b85f2d81619265775a56a473c51766",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "브라운 숄더 토트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear the long handles on the shoulder with the wide opening facing your body, leaving the arm with the flowers free.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "긴 손잡이를 어깨에 메고 넓은 입구가 몸 쪽을 향하게 하면 꽃을 든 팔이 편해요.",
+      "nameEn": "Brown shoulder tote",
+      "nameDe": "Braune Schultertote",
+      "descriptionDe": "Die langen Henkel über die Schulter, die weite Öffnung zum Körper: so bleibt der Arm mit den Blumen frei.",
+      "howToWear": {
+        "ko": "긴 손잡이를 어깨에 메고 넓은 입구가 몸 쪽을 향하게 하면 꽃을 든 팔이 편해요.",
+        "en": "Wear the long handles on the shoulder with the wide opening facing your body, leaving the arm with the flowers free.",
+        "de": "Die langen Henkel über die Schulter, die weite Öffnung zum Körper: so bleibt der Arm mit den Blumen frei."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.06-bag"
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 미니 후프",
+      "designDescriptionEn": "matching pair tiny gold tone plain hoops",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/07-jewelry.webp",
+      "bytes": 26646,
+      "sha256": "184d1eb4e6fba9f45c33bcdbe318def11f081381b5cf7a66e1929c556fb8dbe4",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 미니 후프 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "On the lobes, bare under the pinned-up hair, a point of gold in the soft palette.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "올려 묶은 머리 아래 드러난 귓불에 작게 달아 부드러운 톤에 금빛 점을 찍어요.",
+      "nameEn": "Tiny gold hoops",
+      "nameDe": "Winzige goldene Creolen",
+      "descriptionDe": "An den Ohrläppchen, frei unter dem hochgesteckten Haar, ein Goldpunkt in der sanften Palette.",
+      "howToWear": {
+        "ko": "올려 묶은 머리 아래 드러난 귓불에 작게 달아 부드러운 톤에 금빛 점을 찍어요.",
+        "en": "On the lobes, bare under the pinned-up hair, a point of gold in the soft palette.",
+        "de": "An den Ohrläppchen, frei unter dem hochgesteckten Haar, ein Goldpunkt in der sanften Palette."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-14.07-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 7,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "꽃을 들고 나서는 밤",
+      "en": "TAUPE, FLOWERS IN HAND"
+    },
+    "deck": {
+      "ko": "토프 코트와 아이보리 니트의 부드러운 톤.",
+      "en": "The soft tones of a taupe coat and ivory knit.",
+      "de": "Sanfte Töne aus taupefarbenem Mantel und elfenbeinfarbenem Strick."
+    },
+    "intro": {
+      "ko": "토프 코트에 아이보리 터틀넥과 다크 브라운 팬츠를 겹쳤어요. 같은 계열 머플러와 장갑, 숄더 토트가 차분하게 이어져요.",
+      "en": "An ivory turtleneck and dark brown trousers are layered under the taupe coat. A scarf and gloves in the same family and a shoulder tote follow on calmly.",
+      "de": "Unter dem taupefarbenen Mantel liegen ein elfenbeinfarbener Rollkragen und eine dunkelbraune Hose. Schal und Handschuhe aus derselben Farbfamilie und eine Schultertote schließen ruhig an."
+    },
+    "tip": {
+      "ko": "꽃 포장지가 단추에 걸리지 않게 잡은 뒤 움직여요.",
+      "en": "Get a good hold on the flower wrapping before you move, so it doesn't catch on the buttons.",
+      "de": "Das Blumenpapier erst gut fassen, dann losgehen, damit es nicht an den Knöpfen hängen bleibt."
+    },
+    "captionKo": "토프 코트와 아이보리 니트의 부드러운 톤.",
+    "introKo": "토프 코트에 아이보리 터틀넥과 다크 브라운 팬츠를 겹쳤어요. 같은 계열 머플러와 장갑, 숄더 토트가 차분하게 이어져요.",
+    "tipKo": "꽃 포장지가 단추에 걸리지 않게 잡은 뒤 움직여요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "SOFT TONES, ONE BOUQUET."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "minimal",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-minimal-20261025-14",
+  "appBuild": "b153"
+}

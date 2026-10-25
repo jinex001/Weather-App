@@ -1,0 +1,328 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-street-20261025-08",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "올리브 퀼팅 재킷",
+      "designDescriptionEn": "olive diamond quilted jacket, brown corduroy collar and cuff trim, hip length, relaxed boxy silhouette",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 29988,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "cc47745d1fd09ebc9a3b6e9e3f0433ad617e4598dc685dcea0c3970f820f50a2",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "올리브 퀼팅 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear it boxy at hip length and let the brown corduroy collar and cuffs pick up the browns of the knit and bag.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "엉덩이를 덮는 길이로 박시하게 입고, 브라운 코듀로이 칼라와 커프가 니트·가방의 갈색과 이어지게 해요.",
+      "nameEn": "Olive quilted jacket",
+      "nameDe": "Olivgrüne Steppjacke",
+      "descriptionDe": "Locker auf Hüftlänge tragen; Kragen und Bündchen aus braunem Cord greifen das Braun von Pullover und Tasche auf.",
+      "howToWear": {
+        "ko": "엉덩이를 덮는 길이로 박시하게 입고, 브라운 코듀로이 칼라와 커프가 니트·가방의 갈색과 이어지게 해요.",
+        "en": "Wear it boxy at hip length and let the brown corduroy collar and cuffs pick up the browns of the knit and bag.",
+        "de": "Locker auf Hüftlänge tragen; Kragen und Bündchen aus braunem Cord greifen das Braun von Pullover und Tasche auf."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "초콜릿 니트",
+      "designDescriptionEn": "dark chocolate brown rib knit long sleeve sweater, cuffs visible beyond jacket, conservative hidden torso",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 39388,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "f3099faf5e8a216d29f336d9438b55cdbb4e58e97543640693f33f8530fea8d0",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "초콜릿 니트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the cuffs show a little past the jacket cuffs to stack another brown beside the corduroy trim.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "소맷단을 재킷 커프 밖으로 조금 내밀어 코듀로이 트림 옆에 갈색 층을 하나 더 쌓아요.",
+      "nameEn": "Chocolate knit",
+      "nameDe": "Schokobrauner Strickpullover",
+      "descriptionDe": "Die Bündchen etwas unter den Jackenärmeln hervorschauen lassen, eine weitere Braunschicht neben dem Cordbesatz.",
+      "howToWear": {
+        "ko": "소맷단을 재킷 커프 밖으로 조금 내밀어 코듀로이 트림 옆에 갈색 층을 하나 더 쌓아요.",
+        "en": "Let the cuffs show a little past the jacket cuffs to stack another brown beside the corduroy trim.",
+        "de": "Die Bündchen etwas unter den Jackenärmeln hervorschauen lassen, eine weitere Braunschicht neben dem Cordbesatz."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 테일러드 팬츠",
+      "designDescriptionEn": "black warm tailored full length wide straight trousers, upper part visible, lower legs conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 16412,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "ca3b7b939d7055bb1da9a4a46f8bae0c840e4ed77c14c808fbbca845937ed803",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 테일러드 팬츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the wide straight legs fall close to the ground to give the short quilted jacket a long, clean base.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "곧고 넓은 통을 바닥 가까이 떨어뜨려 짧은 퀼팅 재킷 아래를 길고 단정하게 받쳐요.",
+      "nameEn": "Black tailored trousers",
+      "nameDe": "Schwarze Stoffhose",
+      "descriptionDe": "Die weiten geraden Beine bis knapp über den Boden fallen lassen; das gibt der kurzen Steppjacke eine lange, klare Basis.",
+      "howToWear": {
+        "ko": "곧고 넓은 통을 바닥 가까이 떨어뜨려 짧은 퀼팅 재킷 아래를 길고 단정하게 받쳐요.",
+        "en": "Let the wide straight legs fall close to the ground to give the short quilted jacket a long, clean base.",
+        "de": "Die weiten geraden Beine bis knapp über den Boden fallen lassen; das gibt der kurzen Steppjacke eine lange, klare Basis."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.03-bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "크림 프린지 머플러",
+      "designDescriptionEn": "cream ivory soft long woven scarf with long twisted fringe",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-scarf.webp",
+      "bytes": 47774,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "bfdad977b65f5fe5fa7061747a2e23d1670ab367ebfcda44316f8a2d74ebc3ab",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "크림 프린지 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Loop it loosely once and let the long twisted fringe hang down the front, a bright vertical over the olive.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 느슨하게 한 번 두르고 꼬인 긴 술을 재킷 앞으로 늘어뜨려 올리브 위에 밝은 세로선을 만들어요.",
+      "nameEn": "Cream fringed scarf",
+      "nameDe": "Cremefarbener Fransenschal",
+      "descriptionDe": "Einmal locker umlegen und die langen gedrehten Fransen vorn herabhängen lassen, eine helle Senkrechte auf dem Oliv.",
+      "howToWear": {
+        "ko": "목에 느슨하게 한 번 두르고 꼬인 긴 술을 재킷 앞으로 늘어뜨려 올리브 위에 밝은 세로선을 만들어요.",
+        "en": "Loop it loosely once and let the long twisted fringe hang down the front, a bright vertical over the olive.",
+        "de": "Einmal locker umlegen und die langen gedrehten Fransen vorn herabhängen lassen, eine helle Senkrechte auf dem Oliv."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.04-scarf"
+    },
+    {
+      "id": "05-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 레더 장갑",
+      "designDescriptionEn": "matching pair black smooth leather look full finger gloves with simple cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-gloves.webp",
+      "bytes": 35980,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "aca5da91c4ab2773946e06890279eaca300a47ab0ec2e84490543ccfc79a70f7",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 레더 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Tuck the cuffs into the jacket sleeves; hands stay warm and neat as you open the scooter's storage box.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "커프를 재킷 소매 안으로 넣어 끼우면 스쿠터 수납함을 열 때도 손이 따뜻하고 깔끔해요.",
+      "nameEn": "Black leather-look gloves",
+      "nameDe": "Schwarze Handschuhe in Lederoptik",
+      "descriptionDe": "Die Bündchen in die Jackenärmel stecken; so bleiben die Hände auch beim Öffnen des Staufachs am Roller warm und ordentlich.",
+      "howToWear": {
+        "ko": "커프를 재킷 소매 안으로 넣어 끼우면 스쿠터 수납함을 열 때도 손이 따뜻하고 깔끔해요.",
+        "en": "Tuck the cuffs into the jacket sleeves; hands stay warm and neat as you open the scooter's storage box.",
+        "de": "Die Bündchen in die Jackenärmel stecken; so bleiben die Hände auch beim Öffnen des Staufachs am Roller warm und ordentlich."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.05-gloves"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "브라운 숄더백",
+      "designDescriptionEn": "warm brown smooth leather look rounded flap shoulder bag, brass buckle fittings and adjustable medium strap",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-bag.webp",
+      "bytes": 41344,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "978a1bca56cb17fa9d2365eded00724abc37cd8c86ed9e6ad209d2271044f833",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "브라운 숄더백 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Set the strap to medium length so the bag tucks under the arm, brass buckles facing out.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "스트랩을 중간 길이로 맞춰 겨드랑이 아래에 붙여 메고, 놋쇠 버클이 바깥을 향하게 해요.",
+      "nameEn": "Brown shoulder bag",
+      "nameDe": "Braune Schultertasche",
+      "descriptionDe": "Den Riemen auf mittlere Länge stellen, sodass die Tasche unter dem Arm sitzt, die Messingschnallen nach außen.",
+      "howToWear": {
+        "ko": "스트랩을 중간 길이로 맞춰 겨드랑이 아래에 붙여 메고, 놋쇠 버클이 바깥을 향하게 해요.",
+        "en": "Set the strap to medium length so the bag tucks under the arm, brass buckles facing out.",
+        "de": "Den Riemen auf mittlere Länge stellen, sodass die Tasche unter dem Arm sitzt, die Messingschnallen nach außen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.06-bag"
+    },
+    {
+      "id": "07-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 후프 이어링",
+      "designDescriptionEn": "matching pair small chunky gold tone hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/07-jewelry.webp",
+      "bytes": 26324,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "8140d710c10208f1bc1974edf2e9f3c0ff30e9a1147ca5494f239890c63b9029",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 후프 이어링 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "With the hair gathered up, they sit on bare ears and float a little gold above the cream scarf.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "높이 올려 묶은 머리 아래 드러난 귀에 달아 크림 머플러 위로 금빛을 띄워요.",
+      "nameEn": "Gold hoop earrings",
+      "nameDe": "Goldene Creolen",
+      "descriptionDe": "Bei hochgestecktem Haar sitzen sie frei an den Ohren und setzen ein wenig Gold über den cremefarbenen Schal.",
+      "howToWear": {
+        "ko": "높이 올려 묶은 머리 아래 드러난 귀에 달아 크림 머플러 위로 금빛을 띄워요.",
+        "en": "With the hair gathered up, they sit on bare ears and float a little gold above the cream scarf.",
+        "de": "Bei hochgestecktem Haar sitzen sie frei an den Ohren und setzen ein wenig Gold über den cremefarbenen Schal."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-08.07-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 7,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "스쿠터 곁의 올리브",
+      "en": "OLIVE BY THE SCOOTER"
+    },
+    "deck": {
+      "ko": "퀼팅 재킷과 크림 머플러의 따뜻한 대비.",
+      "en": "A warm contrast of quilted jacket and cream scarf.",
+      "de": "Ein warmer Kontrast aus Steppjacke und cremefarbenem Schal."
+    },
+    "intro": {
+      "ko": "올리브 퀼팅 재킷에 초콜릿 니트를 더했어요. 블랙 팬츠와 장갑을 바탕으로 크림 머플러와 브라운 숄더백을 얹었어요.",
+      "en": "A chocolate knit warms up the olive quilting. Black trousers and gloves lay the base, with a cream scarf and a brown bag on top.",
+      "de": "Ein schokobrauner Strick wärmt die olivgrüne Steppung. Schwarze Hose und Handschuhe legen die Basis, darauf ein cremefarbener Schal und eine braune Tasche."
+    },
+    "tip": {
+      "ko": "헬멧을 꺼낼 때 긴 머플러 끝을 먼저 정리해요.",
+      "en": "Gather up the long scarf ends before you take out the helmet.",
+      "de": "Vor dem Herausnehmen des Helms die langen Schalenden zusammennehmen."
+    },
+    "captionKo": "퀼팅 재킷과 크림 머플러의 따뜻한 대비.",
+    "introKo": "올리브 퀼팅 재킷에 초콜릿 니트를 더했어요. 블랙 팬츠와 장갑을 바탕으로 크림 머플러와 브라운 숄더백을 얹었어요.",
+    "tipKo": "헬멧을 꺼낼 때 긴 머플러 끝을 먼저 정리해요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "QUILTED OLIVE, CREAM AT THE NECK."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "street",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-street-20261025-08",
+  "appBuild": "b153"
+}

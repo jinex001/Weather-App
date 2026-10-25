@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-minimal-20261025-13",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "블랙 울 코트",
+      "designDescriptionEn": "black wool look long tailored coat, notched lapels, large dark buttons, clean silhouette, hem reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 20638,
+      "sha256": "b7b75a55323b0973405e40321d81d794e4ce1568456d9bb56b63d190d61d983e",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 울 코트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Fasten only the lower buttons so the cobalt knit shows in a V above, lapels laid wide over the scarf.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "큰 단추는 아래쪽만 채워 위로 코발트 니트가 V자로 보이게 하고, 라펠은 머플러 위로 넓게 눕혀요.",
+      "nameEn": "Black wool-look coat",
+      "nameDe": "Schwarzer Mantel in Wolloptik",
+      "descriptionDe": "Nur die unteren großen Knöpfe schließen, sodass oben der Kobaltstrick als V erscheint; die Revers liegen breit über dem Schal.",
+      "howToWear": {
+        "ko": "큰 단추는 아래쪽만 채워 위로 코발트 니트가 V자로 보이게 하고, 라펠은 머플러 위로 넓게 눕혀요.",
+        "en": "Fasten only the lower buttons so the cobalt knit shows in a V above, lapels laid wide over the scarf.",
+        "de": "Nur die unteren großen Knöpfe schließen, sodass oben der Kobaltstrick als V erscheint; die Revers liegen breit über dem Schal."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-13.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "코발트 리브 니트",
+      "designDescriptionEn": "cobalt blue rib knitted long sleeve crewneck sweater, cuffs clearly visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 46154,
+      "sha256": "871a0faf4a96d9c0f1355090867c3aa8b24acd64019834d228f34feb48409efa",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "코발트 리브 니트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Pull the cuffs out over the glove cuffs to leave a blue band between the black gloves and sleeves.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "소맷단을 장갑 커프 위로 끌어내 검은 장갑과 소매 사이에 파란 띠를 남겨요.",
+      "nameEn": "Cobalt rib knit",
+      "nameDe": "Kobaltblauer Rippstrickpullover",
+      "descriptionDe": "Die Bündchen über die Handschuhstulpen ziehen: ein blauer Streifen zwischen schwarzen Handschuhen und Ärmeln.",
+      "howToWear": {
+        "ko": "소맷단을 장갑 커프 위로 끌어내 검은 장갑과 소매 사이에 파란 띠를 남겨요.",
+        "en": "Pull the cuffs out over the glove cuffs to leave a blue band between the black gloves and sleeves.",
+        "de": "Die Bündchen über die Handschuhstulpen ziehen: ein blauer Streifen zwischen schwarzen Handschuhen und Ärmeln."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-13.02-top"
+    },
+    {
+      "id": "03-scarf",
+      "category": "scarf",
+      "nameKo": "블랙 프린지 머플러",
+      "designDescriptionEn": "black wool look long scarf with long fine fringes",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-scarf.webp",
+      "bytes": 48690,
+      "sha256": "2fd67a05b48a1dff6a4baa988e8e1ae6bfd7a201878e375d08d5b64b59079162",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 프린지 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wind it twice to wrap under the chin and throw the long fringe back over one shoulder.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 두 번 감아 턱 아래를 감싸고, 긴 술은 한쪽 어깨 뒤로 넘겨요.",
+      "nameEn": "Black fringed scarf",
+      "nameDe": "Schwarzer Fransenschal",
+      "descriptionDe": "Zweimal um den Hals schlingen, bis unters Kinn, und die langen Fransen über eine Schulter nach hinten werfen.",
+      "howToWear": {
+        "ko": "목에 두 번 감아 턱 아래를 감싸고, 긴 술은 한쪽 어깨 뒤로 넘겨요.",
+        "en": "Wind it twice to wrap under the chin and throw the long fringe back over one shoulder.",
+        "de": "Zweimal um den Hals schlingen, bis unters Kinn, und die langen Fransen über eine Schulter nach hinten werfen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-13.03-scarf"
+    },
+    {
+      "id": "04-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 레더 장갑",
+      "designDescriptionEn": "matching pair black smooth leather look full finger gloves with turned cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-gloves.webp",
+      "bytes": 37968,
+      "sha256": "3b047cd1a9278718cbc99acb9be7c1bb16feeaa89f445917767fc3222dd47447",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 레더 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Set the turned cuffs at the wrist and wear them snug, so the fingertips can still adjust the scarf.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "접힌 커프를 손목에 맞춰 두고, 머플러를 여밀 때 손끝으로 정리하기 좋게 꼭 맞게 껴요.",
+      "nameEn": "Black leather-look gloves",
+      "nameDe": "Schwarze Handschuhe in Lederoptik",
+      "descriptionDe": "Die Umschlagstulpen ans Handgelenk setzen und eng tragen, damit die Fingerspitzen den Schal noch richten können.",
+      "howToWear": {
+        "ko": "접힌 커프를 손목에 맞춰 두고, 머플러를 여밀 때 손끝으로 정리하기 좋게 꼭 맞게 껴요.",
+        "en": "Set the turned cuffs at the wrist and wear them snug, so the fingertips can still adjust the scarf.",
+        "de": "Die Umschlagstulpen ans Handgelenk setzen und eng tragen, damit die Fingerspitzen den Schal noch richten können."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-13.04-gloves"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "블랙 슬림 숄더백",
+      "designDescriptionEn": "black slim leather look shoulder bag with thin strap and brass ring hardware, mostly obscured body conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-bag.webp",
+      "bytes": 28358,
+      "sha256": "5fe4be9dc2cf429d48209d96f4aafed1d6ada1ea7bb5bb514308e65f1bd6d7bf",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 슬림 숄더백 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Hang the thin strap on the shoulder so the bag lies along the coat's side and only the brass ring shows.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "얇은 스트랩을 어깨에 걸어 가방을 코트 옆선에 붙이면 놋쇠 링만 작게 드러나요.",
+      "nameEn": "Black slim shoulder bag",
+      "nameDe": "Schmale schwarze Schultertasche",
+      "descriptionDe": "Den dünnen Riemen über die Schulter hängen; die Tasche liegt an der Mantelseite an, nur der Messingring blitzt.",
+      "howToWear": {
+        "ko": "얇은 스트랩을 어깨에 걸어 가방을 코트 옆선에 붙이면 놋쇠 링만 작게 드러나요.",
+        "en": "Hang the thin strap on the shoulder so the bag lies along the coat's side and only the brass ring shows.",
+        "de": "Den dünnen Riemen über die Schulter hängen; die Tasche liegt an der Mantelseite an, nur der Messingring blitzt."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-13.05-bag"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "골드 미니 후프",
+      "designDescriptionEn": "matching pair small plain gold tone hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-jewelry.webp",
+      "bytes": 32148,
+      "sha256": "3784993531a10c8878f05b50b8016bb1bd827b434c6cf024e3f2d812e8f0eb36",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "골드 미니 후프 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Below the red bob, they add gold between the black and the cobalt.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "붉은 단발 아래로 보이게 달아 블랙과 코발트 사이에 금빛을 더해요.",
+      "nameEn": "Gold mini hoops",
+      "nameDe": "Goldene Mini-Creolen",
+      "descriptionDe": "Unter dem roten Bob setzen sie Gold zwischen Schwarz und Kobalt.",
+      "howToWear": {
+        "ko": "붉은 단발 아래로 보이게 달아 블랙과 코발트 사이에 금빛을 더해요.",
+        "en": "Below the red bob, they add gold between the black and the cobalt.",
+        "de": "Unter dem roten Bob setzen sie Gold zwischen Schwarz und Kobalt."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-13.06-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 6,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "머플러를 여미는 순간",
+      "en": "BLACK COAT, SCARF DRAWN IN"
+    },
+    "deck": {
+      "ko": "블랙 코트에 코발트 니트 한 겹.",
+      "en": "One layer of cobalt knit under a black coat.",
+      "de": "Eine Lage Kobaltstrick unter einem schwarzen Mantel."
+    },
+    "intro": {
+      "ko": "블랙 코트와 머플러 사이에 코발트 니트를 남겼어요. 레더 룩 장갑과 작은 숄더백, 골드 후프로 단순한 조합에 표정을 더해요.",
+      "en": "Between the black coat and scarf, a strip of cobalt knit stays in view. Leather-look gloves, a small shoulder bag and gold hoops give a simple pairing some expression.",
+      "de": "Zwischen schwarzem Mantel und Schal bleibt ein Streifen Kobaltstrick sichtbar. Handschuhe in Lederoptik, eine kleine Schultertasche und goldene Creolen geben der schlichten Kombination Ausdruck."
+    },
+    "tip": {
+      "ko": "바람에 움직이는 머플러 끝은 코트 안쪽으로 가볍게 넣어요.",
+      "en": "Tuck wind-blown scarf ends lightly inside the coat.",
+      "de": "Vom Wind bewegte Schalenden locker in den Mantel stecken."
+    },
+    "captionKo": "블랙 코트에 코발트 니트 한 겹.",
+    "introKo": "블랙 코트와 머플러 사이에 코발트 니트를 남겼어요. 레더 룩 장갑과 작은 숄더백, 골드 후프로 단순한 조합에 표정을 더해요.",
+    "tipKo": "바람에 움직이는 머플러 끝은 코트 안쪽으로 가볍게 넣어요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "BLACK ALL OVER, ONE BLUE LINE."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "minimal",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-minimal-20261025-13",
+  "appBuild": "b153"
+}

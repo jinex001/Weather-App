@@ -1,0 +1,328 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-running-20261025-01",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "running",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코발트 리플렉티브 러닝 재킷",
+      "designDescriptionEn": "cobalt blue lightweight full zip running jacket, stand collar, silver reflective shoulder and sleeve piping, elastic cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 36928,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "b09f86f351c87bcfb6d61e44c5d44ae9c5f3f50c3e7ceae10c1c28abacdee72f",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "코발트 리플렉티브 러닝 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Zip it all the way up so the stand collar wraps the neck; the reflective piping on shoulders and sleeves catches the streetlights as you move.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "지퍼를 끝까지 올려 스탠드 칼라로 목을 감싸요. 어깨와 소매의 반사 파이핑이 가로등 아래에서 움직임을 보여줘요.",
+      "nameEn": "Cobalt reflective running jacket",
+      "nameDe": "Reflektierende Laufjacke in Kobaltblau",
+      "descriptionDe": "Bis oben schließen, damit der Stehkragen den Hals umschließt; die Reflexpaspeln an Schultern und Ärmeln fangen bei jeder Bewegung das Laternenlicht.",
+      "howToWear": {
+        "ko": "지퍼를 끝까지 올려 스탠드 칼라로 목을 감싸요. 어깨와 소매의 반사 파이핑이 가로등 아래에서 움직임을 보여줘요.",
+        "en": "Zip it all the way up so the stand collar wraps the neck; the reflective piping on shoulders and sleeves catches the streetlights as you move.",
+        "de": "Bis oben schließen, damit der Stehkragen den Hals umschließt; die Reflexpaspeln an Schultern und Ärmeln fangen bei jeder Bewegung das Laternenlicht."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 하이넥 베이스레이어",
+      "designDescriptionEn": "black close fitting thermal high neck long sleeved base layer visible at neck, simple full length conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 23666,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "f21a10915dd6316b48ff17dcae02009a359753feb91804f2801c3bf972ae12ff",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 하이넥 베이스레이어 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the high neck rise just above the jacket collar to keep the chin line warm.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "재킷 칼라 위로 하이넥이 살짝 올라오게 입어 턱 아래까지 따뜻하게 막아요.",
+      "nameEn": "Black high-neck base layer",
+      "nameDe": "Schwarzes Baselayer mit Stehkragen",
+      "descriptionDe": "Den hohen Kragen knapp über den Jackenkragen ragen lassen, so bleibt es bis unters Kinn warm.",
+      "howToWear": {
+        "ko": "재킷 칼라 위로 하이넥이 살짝 올라오게 입어 턱 아래까지 따뜻하게 막아요.",
+        "en": "Let the high neck rise just above the jacket collar to keep the chin line warm.",
+        "de": "Den hohen Kragen knapp über den Jackenkragen ragen lassen, so bleibt es bis unters Kinn warm."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 러닝 타이츠",
+      "designDescriptionEn": "charcoal fitted full length running tights, subtle silver reflective calf strips",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 17164,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "47827ec75b1aa3d05b32c261eca49711ebb0b164f755952d175c0e9118ec96b7",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 러닝 타이츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear them smooth to the ankle so the reflective calf strips show from behind.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "발목까지 매끈하게 붙는 길이로 입고, 종아리의 반사 스트립이 뒤에서 보이게 해요.",
+      "nameEn": "Charcoal running tights",
+      "nameDe": "Lauftight in Anthrazit",
+      "descriptionDe": "Glatt bis zum Knöchel tragen, damit die Reflexstreifen an den Waden von hinten sichtbar sind.",
+      "howToWear": {
+        "ko": "발목까지 매끈하게 붙는 길이로 입고, 종아리의 반사 스트립이 뒤에서 보이게 해요.",
+        "en": "Wear them smooth to the ankle so the reflective calf strips show from behind.",
+        "de": "Glatt bis zum Knöchel tragen, damit die Reflexstreifen an den Waden von hinten sichtbar sind."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.03-bottom"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 러닝화",
+      "designDescriptionEn": "matching pair black mesh running trainers, gray-white thick midsoles, silver reflective side overlays; overhead neatly aligned pair",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-shoes.webp",
+      "bytes": 47204,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "85a4d232c3b85c05990bbea80d3da19b00592473ffddcaa250bc61d12a35c984",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 러닝화 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Lace them firmly for wet pavements; the grey-white midsoles give the dark legs a light finish.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "끈을 단단히 묶어 젖은 보도에서도 발이 흔들리지 않게 하고, 회백색 미드솔로 어두운 하의 끝을 가볍게 마무리해요.",
+      "nameEn": "Black running trainers",
+      "nameDe": "Schwarze Laufschuhe",
+      "descriptionDe": "Fest schnüren für nasses Pflaster; die grauweißen Zwischensohlen setzen unter den dunklen Beinen einen hellen Abschluss.",
+      "howToWear": {
+        "ko": "끈을 단단히 묶어 젖은 보도에서도 발이 흔들리지 않게 하고, 회백색 미드솔로 어두운 하의 끝을 가볍게 마무리해요.",
+        "en": "Lace them firmly for wet pavements; the grey-white midsoles give the dark legs a light finish.",
+        "de": "Fest schnüren für nasses Pflaster; die grauweißen Zwischensohlen setzen unter den dunklen Beinen einen hellen Abschluss."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.04-shoes"
+    },
+    {
+      "id": "05-socks",
+      "category": "socks",
+      "nameKo": "차콜 크루 삭스",
+      "designDescriptionEn": "matching pair dark charcoal ribbed crew running socks",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-socks.webp",
+      "bytes": 29932,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "90fbbf091e3b75b20759482658c1f3bd2697323577520419ec4b86e6f62ce050",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 크루 삭스 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Smooth the ribbed cuffs flat so they don't bunch over the trainer collars.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "골지 발목을 반듯하게 펴 신어 러닝화 칼라 위에서 뭉치지 않게 해요.",
+      "nameEn": "Charcoal crew socks",
+      "nameDe": "Crew-Socken in Anthrazit",
+      "descriptionDe": "Die Rippbündchen glatt ziehen, damit sie sich am Schuhrand nicht stauen.",
+      "howToWear": {
+        "ko": "골지 발목을 반듯하게 펴 신어 러닝화 칼라 위에서 뭉치지 않게 해요.",
+        "en": "Smooth the ribbed cuffs flat so they don't bunch over the trainer collars.",
+        "de": "Die Rippbündchen glatt ziehen, damit sie sich am Schuhrand nicht stauen."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.05-socks"
+    },
+    {
+      "id": "06-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 리플렉티브 러닝 장갑",
+      "designDescriptionEn": "matching pair black full finger fabric running gloves, long cuffs, small silver reflective segments on backs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-gloves.webp",
+      "bytes": 27990,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "22cef3961c3aeb06a495b6835b8210669bbadfce308dbc0a1c31686ca9fbece7",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 리플렉티브 러닝 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Tuck the long cuffs inside the jacket sleeves to stop wrist draughts; the reflective marks on the backs flash with every gesture.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "긴 커프를 재킷 소매 안으로 넣어 손목 바람을 막아요. 손등의 반사 조각이 손짓마다 빛나요.",
+      "nameEn": "Black reflective running gloves",
+      "nameDe": "Schwarze reflektierende Laufhandschuhe",
+      "descriptionDe": "Die langen Bündchen in die Jackenärmel stecken, damit am Handgelenk kein Wind durchkommt; die Reflexelemente auf dem Handrücken blitzen bei jeder Geste.",
+      "howToWear": {
+        "ko": "긴 커프를 재킷 소매 안으로 넣어 손목 바람을 막아요. 손등의 반사 조각이 손짓마다 빛나요.",
+        "en": "Tuck the long cuffs inside the jacket sleeves to stop wrist draughts; the reflective marks on the backs flash with every gesture.",
+        "de": "Die langen Bündchen in die Jackenärmel stecken, damit am Handgelenk kein Wind durchkommt; die Reflexelemente auf dem Handrücken blitzen bei jeder Geste."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.06-gloves"
+    },
+    {
+      "id": "07-headband",
+      "category": "headband",
+      "nameKo": "블랙 이어 헤드밴드",
+      "designDescriptionEn": "wide black stretch fabric ear warmer running headband, no label",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/07-headband.webp",
+      "bytes": 14424,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "b642d2a0aaa407211cdd4c0ab311274b6b05c6b13860d98deb9b4835039984e0",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 이어 헤드밴드 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Set it low enough that the wide band covers both ears, with the curls pushed back behind it.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "넓은 면이 귀를 다 덮도록 낮게 쓰고, 곱슬머리는 밴드 뒤로 넘겨요.",
+      "nameEn": "Black ear-warmer headband",
+      "nameDe": "Schwarzes Ohrenwärmer-Stirnband",
+      "descriptionDe": "So tief aufsetzen, dass das breite Band beide Ohren bedeckt; die Locken dahinter zurückschieben.",
+      "howToWear": {
+        "ko": "넓은 면이 귀를 다 덮도록 낮게 쓰고, 곱슬머리는 밴드 뒤로 넘겨요.",
+        "en": "Set it low enough that the wide band covers both ears, with the curls pushed back behind it.",
+        "de": "So tief aufsetzen, dass das breite Band beide Ohren bedeckt; die Locken dahinter zurückschieben."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-01.07-headband"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 7,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "뚜껑 앞에서 잠깐 멈춤",
+      "en": "COBALT, A SHORT PAUSE"
+    },
+    "deck": {
+      "ko": "코발트 셸과 차콜 타이츠로 정리한 밤 러닝.",
+      "en": "A night run kept tidy in a cobalt shell and charcoal tights.",
+      "de": "Ein Nachtlauf, klar sortiert mit kobaltblauer Shell und anthrazitfarbener Tight."
+    },
+    "intro": {
+      "ko": "선명한 코발트 재킷 안에 블랙 하이넥을 겹쳤어요. 장갑과 귀를 감싸는 헤드밴드로 쌀쌀한 밤의 노출을 줄여요.",
+      "en": "A black high neck sits under the vivid cobalt jacket. Gloves and a headband over the ears leave the chilly night little skin to reach.",
+      "de": "Unter der leuchtend kobaltblauen Jacke liegt ein schwarzes Stehkragenshirt. Handschuhe und ein Stirnband über den Ohren lassen der kühlen Nacht wenig freie Haut."
+    },
+    "tip": {
+      "ko": "러닝화 위로 양말을 올려 발목을 이어주세요.",
+      "en": "Pull the socks up over the trainer collars so the ankles stay covered.",
+      "de": "Die Socken über den Schaftrand der Laufschuhe ziehen, damit die Knöchel bedeckt bleiben."
+    },
+    "captionKo": "코발트 셸과 차콜 타이츠로 정리한 밤 러닝.",
+    "introKo": "선명한 코발트 재킷 안에 블랙 하이넥을 겹쳤어요. 장갑과 귀를 감싸는 헤드밴드로 쌀쌀한 밤의 노출을 줄여요.",
+    "tipKo": "러닝화 위로 양말을 올려 발목을 이어주세요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "BRIGHT SHELL, WARM EARS."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "run",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-running-20261025-01",
+  "appBuild": "b153"
+}
