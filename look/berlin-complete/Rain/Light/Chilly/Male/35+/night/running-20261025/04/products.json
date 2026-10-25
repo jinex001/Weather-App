@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-run-20261025-04",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32, preserve approved editorial casting",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "liveWeather": false,
+    "description": "Chilly light rain at night; no numerical temperature supplied."
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "웜 그레이 리플렉티브 러닝 셸",
+      "nameEn": "Warm grey reflective running shell",
+      "nameDe": "Warmgraue reflektierende Lauf-Shelljacke",
+      "descriptionKo": "셸 지퍼를 가슴 아래까지 열어 플럼 이너가 보이게 하고, 멈춰 설 때는 끝까지 올려요. 어깨를 가로지르는 은색 곡선 파이핑이 빛을 받아요.",
+      "descriptionEn": "Open the shell to below the chest so the plum layer shows, and zip it right up when you stop; the curved silver piping across the shoulders catches the light.",
+      "descriptionDe": "Die Shell bis unter die Brust öffnen, damit die pflaumenfarbene Lage zu sehen ist, und beim Anhalten ganz schließen; die geschwungenen Silberpaspeln über den Schultern fangen das Licht.",
+      "designDescriptionEn": "warm grey taupe lightweight hooded full-zip running shell, black zipper, tall hood collar, fine curved silver reflective piping crossing shoulders and curving across upper torso, elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "8173b1122d5a4072d4fad1532f5d62be27bae30cf0359368b307502cc2b1d70a",
+      "bytes": 37848,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        18,
+        10,
+        482,
+        491
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "웜 그레이 리플렉티브 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "웜 그레이 리플렉티브 러닝 셸의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Warm grey reflective running shell. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Warmgraue reflektierende Lauf-Shelljacke. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "셸 지퍼를 가슴 아래까지 열어 플럼 이너가 보이게 하고, 멈춰 설 때는 끝까지 올려요. 어깨를 가로지르는 은색 곡선 파이핑이 빛을 받아요.",
+        "en": "Open the shell to below the chest so the plum layer shows, and zip it right up when you stop; the curved silver piping across the shoulders catches the light.",
+        "de": "Die Shell bis unter die Brust öffnen, damit die pflaumenfarbene Lage zu sehen ist, und beim Anhalten ganz schließen; die geschwungenen Silberpaspeln über den Schultern fangen das Licht."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-04.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "플럼 집넥 러닝 베이스 레이어",
+      "nameEn": "Plum zip-neck running base layer",
+      "nameDe": "Pflaumenfarbener Lauf-Baselayer mit Reißverschlusskragen",
+      "descriptionKo": "달리는 동안 짧은 앞 지퍼를 조금 내려 열을 빼고, 쉴 때는 올려 목을 덮어요. 딥 플럼이 웜 그레이와 블랙 사이에서 조용한 포인트가 돼요.",
+      "descriptionEn": "Lower the short front zip a little while running to let heat out, and raise it to cover the neck when you rest; deep plum is a quiet accent between warm grey and black.",
+      "descriptionDe": "Beim Laufen den kurzen Reißverschluss etwas öffnen, um Wärme abzulassen, und in der Pause hochziehen; dunkles Pflaume setzt zwischen Warmgrau und Schwarz einen leisen Akzent.",
+      "designDescriptionEn": "dark muted plum fitted technical long-sleeve running top with high neck and short front zipper, visible fine stretch knit, conservative hidden sleeves and lower hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "308ac3d706428ee6137aeacd92fcab9db9544924c262a7644b30cd852e81a3d9",
+      "bytes": 28112,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        18,
+        38,
+        483,
+        462
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "플럼 집넥 러닝 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "플럼 집넥 러닝 베이스 레이어의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Plum zip-neck running base layer. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Pflaumenfarbener Lauf-Baselayer mit Reißverschlusskragen. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "달리는 동안 짧은 앞 지퍼를 조금 내려 열을 빼고, 쉴 때는 올려 목을 덮어요. 딥 플럼이 웜 그레이와 블랙 사이에서 조용한 포인트가 돼요.",
+        "en": "Lower the short front zip a little while running to let heat out, and raise it to cover the neck when you rest; deep plum is a quiet accent between warm grey and black.",
+        "de": "Beim Laufen den kurzen Reißverschluss etwas öffnen, um Wärme abzulassen, und in der Pause hochziehen; dunkles Pflaume setzt zwischen Warmgrau und Schwarz einen leisen Akzent."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-04.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 풀렝스 러닝 타이츠",
+      "nameEn": "Black full-length running tights",
+      "nameDe": "Schwarze lange Lauftights",
+      "descriptionKo": "허리를 셸 밑단 아래로 단정히 맞춰 입고, 허벅지 바깥의 작은 은색 사선이 보이게 해요. 블랙이라 플럼과 그레이를 차분하게 받쳐 줘요.",
+      "descriptionEn": "Sit the waist neatly under the shell hem and let the small silver accent on the outer thigh show; the black grounds the plum and grey.",
+      "descriptionDe": "Den Bund ordentlich unter dem Jackensaum tragen und den kleinen Silberakzent am äußeren Oberschenkel zeigen; das Schwarz erdet Pflaume und Grau.",
+      "designDescriptionEn": "black close-fitting full-length running tights, small narrow silver angled reflective accent at outer thigh, plain elastic waist; lower legs concealed in editorial and conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "ed57023031be48bad70a47d0500fcdb67b4f0bd1c1b9cf4786d72313af1d4a77",
+      "bytes": 15522,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        135,
+        14,
+        366,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 풀렝스 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 풀렝스 러닝 타이츠의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black full-length running tights. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarze lange Lauftights. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "허리를 셸 밑단 아래로 단정히 맞춰 입고, 허벅지 바깥의 작은 은색 사선이 보이게 해요. 블랙이라 플럼과 그레이를 차분하게 받쳐 줘요.",
+        "en": "Sit the waist neatly under the shell hem and let the small silver accent on the outer thigh show; the black grounds the plum and grey.",
+        "de": "Den Bund ordentlich unter dem Jackensaum tragen und den kleinen Silberakzent am äußeren Oberschenkel zeigen; das Schwarz erdet Pflaume und Grau."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-04.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 파이핑 러닝 장갑",
+      "nameEn": "Black running gloves with reflective piping",
+      "nameDe": "Schwarze Laufhandschuhe mit Reflexpaspel",
+      "descriptionKo": "손목에 꼭 맞아 잠시 멈춰 지퍼를 조절할 때도 벗을 필요가 없어요. 손등의 은색 선이 셸의 파이핑과 짝을 이뤄요.",
+      "descriptionEn": "They fit close at the wrist, so you can work the zips during a pause without taking them off; the silver stripe on the back pairs with the shell's piping.",
+      "descriptionDe": "Am Handgelenk eng anliegend, sodass sich die Reißverschlüsse in der Pause bedienen lassen, ohne sie auszuziehen; der Silberstreifen auf dem Handrücken passt zu den Paspeln der Shell.",
+      "designDescriptionEn": "matching pair black full-finger technical running gloves with fitted wrists and thin silver reflective back stripe, tactile stretch material",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "b3abf6fae887bc58f41a0a00a4eda52d84e2da7f8d49999fb303e0a71ba775a2",
+      "bytes": 28830,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        22,
+        60,
+        478,
+        440
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 파이핑 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 파이핑 러닝 장갑의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black running gloves with reflective piping. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarze Laufhandschuhe mit Reflexpaspel. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "손목에 꼭 맞아 잠시 멈춰 지퍼를 조절할 때도 벗을 필요가 없어요. 손등의 은색 선이 셸의 파이핑과 짝을 이뤄요.",
+        "en": "They fit close at the wrist, so you can work the zips during a pause without taking them off; the silver stripe on the back pairs with the shell's piping.",
+        "de": "Am Handgelenk eng anliegend, sodass sich die Reißverschlüsse in der Pause bedienen lassen, ohne sie auszuziehen; der Silberstreifen auf dem Handrücken passt zu den Paspeln der Shell."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-04.04-hands",
+      "appCategory": "hands"
+    },
+    {
+      "id": "05-headband",
+      "category": "headband",
+      "nameKo": "블랙 이어워머 헤드밴드",
+      "nameEn": "Black ear-warmer running headband",
+      "nameDe": "Schwarzes Laufstirnband als Ohrenwärmer",
+      "descriptionKo": "귀를 넓게 덮는 이어워머 헤드밴드라 멈춰 선 순간에도 귀가 금방 차가워지지 않아요. 젖은 머리 위로 깊게 눌러 써요.",
+      "descriptionEn": "Cut as an ear warmer, it covers the ears broadly so they don't chill the moment you stand still; pull it down firmly over damp hair.",
+      "descriptionDe": "Als Ohrenwärmer geschnitten, bedeckt es die Ohren breit, damit sie beim Stehenbleiben nicht sofort auskühlen; fest über das feuchte Haar ziehen.",
+      "designDescriptionEn": "wide black soft technical ear-warmer running headband, subtle plain texture, no invented decorative marks",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-headband.webp",
+      "sha256": "4b8cba35dbda91f98c4bd23c5b3133bf3ff1094b6ec277c06dcf7a3e7fec6265",
+      "bytes": 19472,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        13,
+        119,
+        487,
+        383
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 이어워머 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 이어워머 헤드밴드의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black ear-warmer running headband. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarzes Laufstirnband für warme Ohren. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "귀를 넓게 덮는 이어워머 헤드밴드라 멈춰 선 순간에도 귀가 금방 차가워지지 않아요. 젖은 머리 위로 깊게 눌러 써요.",
+        "en": "Cut as an ear warmer, it covers the ears broadly so they don't chill the moment you stand still; pull it down firmly over damp hair.",
+        "de": "Als Ohrenwärmer geschnitten, bedeckt es die Ohren breit, damit sie beim Stehenbleiben nicht sofort auskühlen; fest über das feuchte Haar ziehen."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-04.05-headband",
+      "appCategory": "headwear"
+    }
+  ],
+  "copy": {
+    "titleKo": "한 모금 전의 플럼",
+    "captionKo": "웜 그레이 셸 안에 더한 플럼 포인트",
+    "introKo": "웜 그레이 셸 안으로 플럼 집넥이 살짝 드러나요. 블랙 타이츠와 장갑으로 색을 정돈하고, 지퍼로 목 주변의 열감을 조절하세요.",
+    "tipKo": "잠시 멈출 때는 바람과 몸의 열감에 맞춰 지퍼를 조절하세요.",
+    "title": {
+      "ko": "한 모금 전의 플럼",
+      "en": "PLUM BEFORE THE SIP"
+    },
+    "deck": {
+      "ko": "웜 그레이 셸 안에 더한 플럼 포인트",
+      "en": "A plum accent inside a warm grey shell.",
+      "de": "Ein Pflaumenakzent unter warmgrauer Shell."
+    },
+    "intro": {
+      "ko": "웜 그레이 셸 안으로 플럼 집넥이 살짝 드러나요. 블랙 타이츠와 장갑으로 색을 정돈하고, 지퍼로 목 주변의 열감을 조절하세요.",
+      "en": "A plum zip-neck shows just inside the warm grey shell. Black tights and gloves keep the colours in order, and the zips let you manage the warmth around your neck.",
+      "de": "Unter der warmgrauen Shell blitzt ein pflaumenfarbener Zip-Kragen hervor. Schwarze Tights und Handschuhe ordnen die Farben, und mit den Reißverschlüssen lässt sich die Wärme am Hals regulieren."
+    },
+    "tip": {
+      "ko": "잠시 멈출 때는 바람과 몸의 열감에 맞춰 지퍼를 조절하세요.",
+      "en": "When you stop for a moment, adjust the zips to the wind and to how warm you feel.",
+      "de": "Bei einer kurzen Pause die Reißverschlüsse an Wind und Körperwärme anpassen."
+    },
+    "pull": "A PAUSE, A SIP, A LITTLE PLUM."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no separate per-product visual approval claimed",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-m35-night-run-20261025-04",
+  "appBuild": "b158",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "run",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-run-20261025-04.02-top"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

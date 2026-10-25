@@ -684,6 +684,26 @@
     "rn-chilly-f35-day-run-20261025-05.01-outer": [
         "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/05/products/01-outer.webp",
         0.042
+    ],
+    "rl-chilly-m35-night-run-20261025-01.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/01/products/01-outer.webp",
+        0.045
+    ],
+    "rl-chilly-m35-night-run-20261025-02.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/02/products/01-outer.webp",
+        0.101
+    ],
+    "rl-chilly-m35-night-run-20261025-03.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/03/products/01-outer.webp",
+        0.068
+    ],
+    "rl-chilly-m35-night-run-20261025-04.02-top": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/04/products/02-top.webp",
+        0.036
+    ],
+    "rl-chilly-m35-night-run-20261025-05.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/05/products/01-outer.webp",
+        0.174
     ]
 };
   var HERO = {
@@ -856,7 +876,12 @@
     "rn-chilly-f35-day-run-20261025-02": "rn-chilly-f35-day-run-20261025-02.01-outer",
     "rn-chilly-f35-day-run-20261025-03": "rn-chilly-f35-day-run-20261025-03.01-outer",
     "rn-chilly-f35-day-run-20261025-04": "rn-chilly-f35-day-run-20261025-04.01-outer",
-    "rn-chilly-f35-day-run-20261025-05": "rn-chilly-f35-day-run-20261025-05.01-outer"
+    "rn-chilly-f35-day-run-20261025-05": "rn-chilly-f35-day-run-20261025-05.01-outer",
+    "rl-chilly-m35-night-run-20261025-01": "rl-chilly-m35-night-run-20261025-01.01-outer",
+    "rl-chilly-m35-night-run-20261025-02": "rl-chilly-m35-night-run-20261025-02.01-outer",
+    "rl-chilly-m35-night-run-20261025-03": "rl-chilly-m35-night-run-20261025-03.01-outer",
+    "rl-chilly-m35-night-run-20261025-04": "rl-chilly-m35-night-run-20261025-04.02-top",
+    "rl-chilly-m35-night-run-20261025-05": "rl-chilly-m35-night-run-20261025-05.01-outer"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

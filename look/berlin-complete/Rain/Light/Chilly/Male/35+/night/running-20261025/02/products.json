@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-run-20261025-02",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32, preserve approved editorial casting",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "liveWeather": false,
+    "description": "Chilly light rain at night; no numerical temperature supplied."
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코발트 후드 러닝 셸",
+      "nameEn": "Cobalt hooded running shell",
+      "nameDe": "Kobaltblaue Lauf-Shelljacke mit Kapuze",
+      "descriptionKo": "후드는 목 뒤에 모아 두었다가 빗방울이 굵어지면 한 손으로 당겨 써요. 가슴과 소매의 가는 은색 라인이 선명한 코발트를 더 돋보이게 해요.",
+      "descriptionEn": "Keep the hood gathered behind the neck and pull it up with one hand when the drops get heavier; fine silver lines on the chest and sleeves sharpen the cobalt.",
+      "descriptionDe": "Die Kapuze im Nacken gerafft lassen und mit einer Hand hochziehen, wenn die Tropfen dichter werden; feine Silberlinien an Brust und Ärmeln schärfen das Kobaltblau.",
+      "designDescriptionEn": "cobalt blue lightweight hooded running shell, black full center zipper, elastic cuffs, fine silver reflective line across upper chest and along sleeves, hood gathered behind neck",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "f8862182f6680c4e67607447e26cbda89d9b2b54ec6d865c40fa04bf9fc09cde",
+      "bytes": 46072,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        14,
+        13,
+        487,
+        478
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "코발트 후드 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "코발트 후드 러닝 셸의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Cobalt hooded running shell. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Kobaltblaue Lauf-Shelljacke mit Kapuze. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "후드는 목 뒤에 모아 두었다가 빗방울이 굵어지면 한 손으로 당겨 써요. 가슴과 소매의 가는 은색 라인이 선명한 코발트를 더 돋보이게 해요.",
+        "en": "Keep the hood gathered behind the neck and pull it up with one hand when the drops get heavier; fine silver lines on the chest and sleeves sharpen the cobalt.",
+        "de": "Die Kapuze im Nacken gerafft lassen und mit einer Hand hochziehen, wenn die Tropfen dichter werden; feine Silberlinien an Brust und Ärmeln schärfen das Kobaltblau."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-02.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 하이넥 베이스 레이어",
+      "nameEn": "Black high-neck base layer",
+      "nameDe": "Schwarzer Baselayer mit Stehkragen",
+      "descriptionKo": "하이넥을 끝까지 세워 열린 셸 지퍼 사이로 목을 감싸요. 블랙이라 코발트 아래에서 색이 깔끔하게 정리돼요.",
+      "descriptionEn": "Stand the high neck all the way up so it wraps the throat inside the open zip; in black it sits cleanly under the cobalt.",
+      "descriptionDe": "Den Stehkragen ganz aufstellen, damit er im offenen Reißverschluss den Hals umschließt; in Schwarz liegt er ruhig unter dem Kobaltblau.",
+      "designDescriptionEn": "black fitted technical long-sleeve high-neck base layer visible at neckline, plain body with no invented decorative details, concealed sleeve and hem reconstruction",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "f5363095bddcce3870ce48222598df1b04f2bc5f404cea268eb8ae5c24b4f1fe",
+      "bytes": 22048,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        19,
+        34,
+        482,
+        465
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 하이넥 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 하이넥 베이스 레이어의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black high-neck base layer. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarzer Baselayer mit Stehkragen. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "하이넥을 끝까지 세워 열린 셸 지퍼 사이로 목을 감싸요. 블랙이라 코발트 아래에서 색이 깔끔하게 정리돼요.",
+        "en": "Stand the high neck all the way up so it wraps the throat inside the open zip; in black it sits cleanly under the cobalt.",
+        "de": "Den Stehkragen ganz aufstellen, damit er im offenen Reißverschluss den Hals umschließt; in Schwarz liegt er ruhig unter dem Kobaltblau."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-02.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 타이츠",
+      "nameEn": "Black running tights",
+      "nameDe": "Schwarze Lauftights",
+      "descriptionKo": "발목까지 매끈하게 붙여 입어 젖어도 펄럭이지 않고 다리와 함께 움직여요. 옆선의 은색 사선이 보폭을 따라 보여요.",
+      "descriptionEn": "Worn smooth down to the ankle, they move with the legs instead of flapping in the wet; the silver angled accent at the side follows your stride.",
+      "descriptionDe": "Glatt bis zum Knöchel getragen, bewegen sie sich mit den Beinen, statt im Nassen zu flattern; der silberne Schrägakzent an der Seite folgt dem Schritt.",
+      "designDescriptionEn": "black full-length close-fitting running tights with thin silver angled reflective thigh/calf accent visible at front-side, plain elastic waist",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "a4b1d96b4bc6383b43f4d0d32c7b2639f7b71235d4088c4ae2840c12d15d43ef",
+      "bytes": 14798,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        136,
+        15,
+        364,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 타이츠의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black running tights. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarze Lauftights. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "발목까지 매끈하게 붙여 입어 젖어도 펄럭이지 않고 다리와 함께 움직여요. 옆선의 은색 사선이 보폭을 따라 보여요.",
+        "en": "Worn smooth down to the ankle, they move with the legs instead of flapping in the wet; the silver angled accent at the side follows your stride.",
+        "de": "Glatt bis zum Knöchel getragen, bewegen sie sich mit den Beinen, statt im Nassen zu flattern; der silberne Schrägakzent an der Seite folgt dem Schritt."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-02.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 실버 포인트 러닝 장갑",
+      "nameEn": "Black running gloves with silver accents",
+      "nameDe": "Schwarze Laufhandschuhe mit Silberdetails",
+      "descriptionKo": "가는 커프를 소매 고무단 안으로 넣어 후드를 잡을 때도 손목이 드러나지 않게 해요. 손등의 은색 선이 손짓을 따라 빛나요.",
+      "descriptionEn": "Slip the slim cuffs under the elastic sleeve ends so the wrist stays covered even when you reach for the hood; the silver lines on the backs flash with each gesture.",
+      "descriptionDe": "Die schmalen Bündchen unter die elastischen Ärmelenden schieben, damit das Handgelenk auch beim Griff zur Kapuze bedeckt bleibt; die Silberlinien auf dem Handrücken blitzen bei jeder Geste.",
+      "designDescriptionEn": "matching pair black full-finger technical stretch running gloves, slim long cuffs and thin silver linear reflective detailing across backs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "13ef247c07b52c1104a4d5142195e7142e0bce399ab0279df72b1156ebdf5799",
+      "bytes": 27006,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        28,
+        43,
+        472,
+        453
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 실버 포인트 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 실버 포인트 러닝 장갑의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black running gloves with silver accents. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarze Laufhandschuhe mit Silberdetails. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "가는 커프를 소매 고무단 안으로 넣어 후드를 잡을 때도 손목이 드러나지 않게 해요. 손등의 은색 선이 손짓을 따라 빛나요.",
+        "en": "Slip the slim cuffs under the elastic sleeve ends so the wrist stays covered even when you reach for the hood; the silver lines on the backs flash with each gesture.",
+        "de": "Die schmalen Bündchen unter die elastischen Ärmelenden schieben, damit das Handgelenk auch beim Griff zur Kapuze bedeckt bleibt; die Silberlinien auf dem Handrücken blitzen bei jeder Geste."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-02.04-hands",
+      "appCategory": "hands"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "차콜 러닝화",
+      "nameEn": "Charcoal running shoes",
+      "nameDe": "Anthrazitfarbene Laufschuhe",
+      "descriptionKo": "차콜 메시가 블랙 타이츠와 이어져 다리 라인이 길어 보여요. 끈은 발등에 맞게 단단히 묶어 젖은 보도에서도 발이 흔들리지 않게 해요.",
+      "descriptionEn": "The charcoal mesh runs on from the black tights and lengthens the leg line; lace them firmly over the instep so the foot stays steady on wet pavement.",
+      "descriptionDe": "Das anthrazitfarbene Mesh setzt die schwarzen Tights fort und streckt die Beinlinie; über dem Spann fest schnüren, damit der Fuß auf nassem Gehweg ruhig steht.",
+      "designDescriptionEn": "matching pair charcoal mesh lace-up running shoes, grey overlays, pale grey midsole and black tread, conservative reconstruction from small rear shoe fragment only, no branding",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-shoes.webp",
+      "sha256": "5ad5be039adb5949487d7f9461f211f6541a8698f875100ccefa4ebe4503140c",
+      "bytes": 48978,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        56,
+        17,
+        448,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 러닝화의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Charcoal running shoes. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Anthrazitfarbene Laufschuhe. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "차콜 메시가 블랙 타이츠와 이어져 다리 라인이 길어 보여요. 끈은 발등에 맞게 단단히 묶어 젖은 보도에서도 발이 흔들리지 않게 해요.",
+        "en": "The charcoal mesh runs on from the black tights and lengthens the leg line; lace them firmly over the instep so the foot stays steady on wet pavement.",
+        "de": "Das anthrazitfarbene Mesh setzt die schwarzen Tights fort und streckt die Beinlinie; über dem Spann fest schnüren, damit der Fuß auf nassem Gehweg ruhig steht."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-02.05-shoes",
+      "appCategory": "shoes"
+    },
+    {
+      "id": "06-headband",
+      "category": "headband",
+      "nameKo": "네이비 와이드 러닝 헤드밴드",
+      "nameEn": "Navy wide running headband",
+      "nameDe": "Marineblaues breites Laufstirnband",
+      "descriptionKo": "도톰한 네이비 헤드밴드를 귀 위까지 내려 쓰고 젖은 앞머리를 올려 고정해요. 코발트와 같은 블루 계열이라 색이 자연스럽게 이어져요.",
+      "descriptionEn": "Pull the thick navy band down over the ears and let it keep wet hair off the face; staying in the blue family, it links naturally to the cobalt.",
+      "descriptionDe": "Das dicke marineblaue Band über die Ohren ziehen und nasse Haare damit aus dem Gesicht halten; als Blauton schließt es natürlich an das Kobalt an.",
+      "designDescriptionEn": "wide dark navy technical fleece running ear headband, subtle heather texture, plain front, no logo",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/06-headband.webp",
+      "sha256": "adea9296a4773ab2e0af99e2b6b34be58228b8bd58a25cd05d7a0fce5e5e2978",
+      "bytes": 30152,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        28,
+        145,
+        473,
+        370
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "네이비 와이드 러닝 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "네이비 와이드 러닝 헤드밴드의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Navy wide running headband. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Marineblaues breites Laufstirnband. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "도톰한 네이비 헤드밴드를 귀 위까지 내려 쓰고 젖은 앞머리를 올려 고정해요. 코발트와 같은 블루 계열이라 색이 자연스럽게 이어져요.",
+        "en": "Pull the thick navy band down over the ears and let it keep wet hair off the face; staying in the blue family, it links naturally to the cobalt.",
+        "de": "Das dicke marineblaue Band über die Ohren ziehen und nasse Haare damit aus dem Gesicht halten; als Blauton schließt es natürlich an das Kobalt an."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-02.06-headband",
+      "appCategory": "headwear"
+    }
+  ],
+  "copy": {
+    "titleKo": "후드를 잡는 코발트",
+    "captionKo": "밤비 속 선명한 코발트 러닝 룩",
+    "introKo": "코발트 셸을 중심으로 블랙 타이츠와 네이비 헤드밴드를 연결했어요. 가벼운 겉옷과 이너의 두께는 달리는 동안의 열감에 맞춰 조절하세요.",
+    "tipKo": "후드와 소매는 움직임을 방해하지 않게 맞춰 주세요.",
+    "title": {
+      "ko": "후드를 잡는 코발트",
+      "en": "COBALT, HOOD IN HAND"
+    },
+    "deck": {
+      "ko": "밤비 속 선명한 코발트 러닝 룩",
+      "en": "A vivid cobalt running look in the night rain.",
+      "de": "Ein leuchtender kobaltblauer Lauflook im nächtlichen Regen."
+    },
+    "intro": {
+      "ko": "코발트 셸을 중심으로 블랙 타이츠와 네이비 헤드밴드를 연결했어요. 가벼운 겉옷과 이너의 두께는 달리는 동안의 열감에 맞춰 조절하세요.",
+      "en": "The cobalt shell sets the tone, with black tights and a navy headband linking up around it. Match the weight of the light jacket and the layer beneath to the warmth you build on the run.",
+      "de": "Die kobaltblaue Shell gibt den Ton an, schwarze Tights und ein marineblaues Stirnband knüpfen daran an. Wie dick leichte Jacke und Unterlage sein sollen, richtet sich nach der Wärme, die beim Laufen entsteht."
+    },
+    "tip": {
+      "ko": "후드와 소매는 움직임을 방해하지 않게 맞춰 주세요.",
+      "en": "Set the hood and sleeves so they never get in the way of your movement.",
+      "de": "Kapuze und Ärmel so einstellen, dass sie die Bewegung nicht behindern."
+    },
+    "pull": "CATCH THE HOOD, KEEP THE PACE."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no separate per-product visual approval claimed",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-m35-night-run-20261025-02",
+  "appBuild": "b158",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "run",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-run-20261025-02.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

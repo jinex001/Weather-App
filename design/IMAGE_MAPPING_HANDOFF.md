@@ -250,3 +250,14 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 캐스팅: 승인 에디토리얼의 약 28–32세 외관을 그대로 기록(`casting.modelAppearanceAgeRange: [28, 32]`, 타깃 35+는 별도). 2026-10-25 여성 기본 25–28세는 새 제작 기준이며 이 승인 자산을 다시 분류하지 않음.
 - 승인 범위: 에디토리얼 사용자 승인, 제품 28개는 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 없음). 원본·PNG 마스터·검수 시트·READY는 커밋하지 않고 원본은 옮기지 않음(원본 이동은 main 반영 확인 뒤 상위 작업이 처리).
 - [검증 기록](rain-normal-female-day-running-20261025-validation.md).
+
+## b158 · Rain / Light / Chilly / Male / 35+ / Night / Running — 2026-10-25 set (5 looks · 30 products, local)
+
+- 원본: 로컬 전달 폴더(READY.json `approved`·`products_complete`, 파일 42개 = JPG 5 · WebP 30 · products.json 5 · LOOKS · KOREAN_MASTER, SHA-256과 목록 일치; READY.json 자신은 목록 밖). b157과 같은 방식으로 직접 검증.
+- `sky: "rain"`, `rain: "light"`, `time: "evening"`(밤 세트). 폴더 `Rain/Light/Chilly/Male/35+/night/running-20261025/<NN>/`, ID는 제작 측 `rl-chilly-m35-night-run-20261025-NN` 그대로, 아이템 `<룩 ID>.<제품 id>`(순서 유지). 분류: 제작 측 `headband`는 앱의 기존 `headwear`로(products.json에 원본 `category` + `appCategory`), 나머지(outer/top/bottom/hands/shoes/socks)는 그대로.
+- 고르기 영향(앱 `lookFits`·`lookPool` 실제 코드로 확인): 가벼운 비 저녁 남성 러닝만 플레이스홀더 → 이 5룩. 보통 비·쏟아지는 비 저녁 남성 러닝은 이 룩이 sky 순위 1이라 여전히 플레이스홀더. 낮은 `time` 필터로 낮 룩만 봄. 비 안 오는 저녁엔 비 룩이 안 나옴.
+- 대표 컷: b134 제목 단어 규칙(`design/CUTOUTS.md`) 그대로. 04 PLUM BEFORE THE SIP → 플럼 집넥 이너 `02-top`, 01·02·03·05 → 아우터. 컷은 그 투명 제품 WebP 자체를 다시 씀(새 컷·복제 없음). 제작 측의 "대표 컷은 아우터" 안내는 제작 가이드일 뿐 사용자 요구 사항이 아니어서 기존 규칙이 우선.
+- 문구: b157과 같음(한국어 마스터 그대로, 한국어 제목은 products.json `copy.title.ko`, 제작 측 복원 틀 문장은 `sourceDescription`, 화면 문구는 제품별 입는 법). 생성 프롬프트·로컬 경로는 빼고, `designDescriptionEn`·`reconstruction`·`reconstructionNote`·`sha256`·`bounds`는 보존.
+- 숫자 기온 없음(`temperatureC`/`feelsLikeC` null 의도, `isLiveMeasurement: false`). 브랜드·가격·링크·소재 혼용률·보호 성능 주장 없음.
+- 승인 범위: 에디토리얼 사용자 승인, 제품 30개는 제품 분해 승인 아래 제작·제작 측 검수. 외부 발행(GitHub 업로드·main 병합·배포)은 자동 검토에서 한 번 막혀 로컬 브랜치에서 멈췄다가 사용자 명시 승인("승인완료") 뒤 진행; 발행 직전 origin/main을 다시 받아 최신임을 확인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
+- [검증 기록](rain-light-male-night-running-20261025-validation.md).
