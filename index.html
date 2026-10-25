@@ -72,6 +72,7 @@
   .app { position: relative; }
   .rfx { position: absolute; left: 0; top: 0; width: 100%; pointer-events: none; z-index: 1; }
   .rfx svg { position: absolute; left: 0; top: 0; overflow: visible; }
+  .rf-s { opacity: 0; animation-timing-function: linear; animation-iteration-count: infinite; }
   .rf-ring { animation-name: rf-ring; } .rf-l { animation-name: rf-l; } .rf-r { animation-name: rf-r; } .rf-c { animation-name: rf-c; }
   @keyframes rf-ring { 0%,62% { opacity: 0; transform: scale(.2); } 63% { opacity: 1; transform: scale(.3); } 85% { opacity: 0; transform: scale(1.5); } 100% { opacity: 0; } }
   @keyframes rf-l { 0%,62% { opacity: 0; transform: translate(0,0); } 63% { opacity: 1; } 72% { transform: translate(-7px,-9px); } 84% { opacity: .8; transform: translate(-11px,-2px); } 88%,100% { opacity: 0; transform: translate(-12px,1px); } }
@@ -565,7 +566,7 @@
 <script src="look/rain-female-night-street-20261024.js?v=b150"></script>
 <script src="look/rain-female-night-minimal.js?v=b151"></script>
 <script src="look/overcast-female-night-20261025.js?v=b153"></script>
-<script src="look/cutouts.js?v=b155"></script>
+<script src="look/cutouts.js?v=b156"></script>
 <script>
 (function () {
   "use strict";
@@ -873,13 +874,13 @@
     if (!boxes.length) return;
     svgArt.querySelectorAll(".art-tear").forEach(function (p) { p.style.display = "none"; });
     var cap = Math.min.apply(null, boxes.map(function (b) { return b.top; })), R = L.r, T = L.t, k = 0;
-    var css = ".rf-s{opacity:0;animation:" + T + "s linear infinite}", svg = "";
+    var css = ".rf-s{animation-duration:" + T + "s}", svg = "";
     SPLASH_AT.slice(0, L.n).forEach(function (d) {
       var x = ox + d[0], y0 = oy + d[1], dl = (d[2] * T).toFixed(2) + "s";
       var hit = boxes.filter(function (b) { return x >= b.l && x <= b.r; })[0], y1 = hit ? hit.top + 2 : cap - 6, fall = Math.round(y1 - y0 - 2 * R);
       css += "@keyframes rf" + k + "{0%{opacity:0;transform:translateY(-4px)}6%{opacity:1}62%{opacity:1;transform:translateY(" + fall + "px)}62.1%,100%{opacity:0;transform:translateY(" + fall + "px)}}";
       svg += '<path style="animation:rf' + k++ + " " + T + "s cubic-bezier(.45,0,1,1) " + dl + ' infinite" d="' + tearPath(x, y0, R) + '"/>';
-      if (hit) svg += '<g transform="translate(' + x + " " + y1 + ') scale(' + (R / 4.2).toFixed(2) + ')"><ellipse class="rf-s rf-ring" style="animation-delay:' + dl + '" rx="7" ry="1.6" fill="none" stroke="#8FB8DE" stroke-width="1.6"/>' +
+      if (hit) svg += '<g transform="translate(' + x + " " + y1 + ') scale(' + (R / 3).toFixed(2) + ')"><ellipse class="rf-s rf-ring" style="animation-delay:' + dl + '" rx="7" ry="1.6" fill="none" stroke="#8FB8DE" stroke-width="1.6"/>' +
         '<circle class="rf-s rf-l" style="animation-delay:' + dl + '" r="1.8"/><circle class="rf-s rf-r" style="animation-delay:' + dl + '" r="1.8"/><circle class="rf-s rf-c" style="animation-delay:' + dl + '" r="1.4"/></g>';
     });
     var fx = document.createElement("div"); fx.id = "rfx"; fx.className = "rfx";
@@ -979,7 +980,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b155";
+  var BUILD = "b156";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
