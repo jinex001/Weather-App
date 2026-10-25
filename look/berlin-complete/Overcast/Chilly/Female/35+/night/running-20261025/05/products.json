@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-running-20261025-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "running",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "세이지 러닝 재킷",
+      "designDescriptionEn": "muted sage lightweight zip front running jacket, stand collar, angular shoulder yoke, small silver reflective shoulder patches, elastic cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 35320,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "a2514b392dd79549b2f1dbbadb8b2f15f64821351de5002207548c8b325bfb94",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "세이지 러닝 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Open the zip to mid-chest to show the black high neck; the small reflective shoulder patches stay visible from the front.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "지퍼를 가슴 중간까지 열어 블랙 하이넥을 드러내고, 어깨의 작은 반사 패치가 앞에서 보이게 입어요.",
+      "nameEn": "Sage running jacket",
+      "nameDe": "Laufjacke in Salbeigrün",
+      "descriptionDe": "Den Reißverschluss bis zur Brustmitte öffnen, damit das schwarze Stehkragenshirt zu sehen ist; die kleinen Reflexpatches an den Schultern bleiben von vorn sichtbar.",
+      "howToWear": {
+        "ko": "지퍼를 가슴 중간까지 열어 블랙 하이넥을 드러내고, 어깨의 작은 반사 패치가 앞에서 보이게 입어요.",
+        "en": "Open the zip to mid-chest to show the black high neck; the small reflective shoulder patches stay visible from the front.",
+        "de": "Den Reißverschluss bis zur Brustmitte öffnen, damit das schwarze Stehkragenshirt zu sehen ist; die kleinen Reflexpatches an den Schultern bleiben von vorn sichtbar."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-05.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 하이넥 베이스레이어",
+      "designDescriptionEn": "black fitted thermal high neck long sleeve top",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 23004,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "82007e9a4de39648a276619e9540c8e4c3656e6480ff6c88872e0ec891c8642f",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 하이넥 베이스레이어 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear the high neck up and unfolded so it draws a black vertical line in the open jacket.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "하이넥을 접지 않고 세워 열린 재킷 사이로 검은 세로선을 만들어요.",
+      "nameEn": "Black high-neck top",
+      "nameDe": "Schwarzes Stehkragenshirt",
+      "descriptionDe": "Den Kragen ungefaltet hochstehend tragen, so entsteht in der offenen Jacke eine schwarze Senkrechte.",
+      "howToWear": {
+        "ko": "하이넥을 접지 않고 세워 열린 재킷 사이로 검은 세로선을 만들어요.",
+        "en": "Wear the high neck up and unfolded so it draws a black vertical line in the open jacket.",
+        "de": "Den Kragen ungefaltet hochstehend tragen, so entsteht in der offenen Jacke eine schwarze Senkrechte."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-05.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 팬츠",
+      "designDescriptionEn": "black long running pants slim fit, lower legs inferred beyond crop",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 13502,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "e33be1ad7fad26876f5a0cf827d8d1c79a0ee34b77dc477fcffdefc718fb2114",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 러닝 팬츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the slim legs fall straight to the ankle, with the waistband sitting neatly under the waist belt.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "슬림한 다리를 발목까지 곧게 내려 입고, 허리선은 웨이스트 벨트 아래로 깔끔하게 이어지게 해요.",
+      "nameEn": "Black running pants",
+      "nameDe": "Schwarze Laufhose",
+      "descriptionDe": "Die schmalen Beine gerade bis zum Knöchel fallen lassen, den Bund ordentlich unter dem Hüftgurt.",
+      "howToWear": {
+        "ko": "슬림한 다리를 발목까지 곧게 내려 입고, 허리선은 웨이스트 벨트 아래로 깔끔하게 이어지게 해요.",
+        "en": "Let the slim legs fall straight to the ankle, with the waistband sitting neatly under the waist belt.",
+        "de": "Die schmalen Beine gerade bis zum Knöchel fallen lassen, den Bund ordentlich unter dem Hüftgurt."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-05.03-bottom"
+    },
+    {
+      "id": "04-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 리플렉티브 장갑",
+      "designDescriptionEn": "matching pair black running gloves with small silver reflective markings and cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-gloves.webp",
+      "bytes": 25338,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "f742b36102f3bcc50e1a0e5b06950ab45822179323e71186beeea645e9e2b6a5",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 리플렉티브 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Push the cuffs inside the jacket sleeves so no wrist shows when you reach out to hand something over.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "커프를 재킷 소매 안쪽으로 밀어 넣어, 무언가를 건넬 때도 손목이 드러나지 않게 해요.",
+      "nameEn": "Black reflective gloves",
+      "nameDe": "Schwarze reflektierende Handschuhe",
+      "descriptionDe": "Die Bündchen in die Jackenärmel schieben, damit beim Hinüberreichen kein Handgelenk frei liegt.",
+      "howToWear": {
+        "ko": "커프를 재킷 소매 안쪽으로 밀어 넣어, 무언가를 건넬 때도 손목이 드러나지 않게 해요.",
+        "en": "Push the cuffs inside the jacket sleeves so no wrist shows when you reach out to hand something over.",
+        "de": "Die Bündchen in die Jackenärmel schieben, damit beim Hinüberreichen kein Handgelenk frei liegt."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-05.04-gloves"
+    },
+    {
+      "id": "05-headband",
+      "category": "headband",
+      "nameKo": "블랙 이어 헤드밴드",
+      "designDescriptionEn": "black wide stretch running headband covering ears",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-headband.webp",
+      "bytes": 18374,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "332abd66c9d613e523e31e28d7a0c17959dfdceee5f584e9e25292fa5879d201",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 이어 헤드밴드 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wrap it wide over the short hair so the ears are fully covered, front strands swept back behind it.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "짧은 머리 위로 넓게 둘러 귀를 완전히 감싸고, 앞머리는 밴드 뒤로 넘겨요.",
+      "nameEn": "Black ear headband",
+      "nameDe": "Schwarzes Ohren-Stirnband",
+      "descriptionDe": "Breit über das kurze Haar legen, sodass die Ohren ganz bedeckt sind; die vorderen Strähnen dahinter zurückstreichen.",
+      "howToWear": {
+        "ko": "짧은 머리 위로 넓게 둘러 귀를 완전히 감싸고, 앞머리는 밴드 뒤로 넘겨요.",
+        "en": "Wrap it wide over the short hair so the ears are fully covered, front strands swept back behind it.",
+        "de": "Breit über das kurze Haar legen, sodass die Ohren ganz bedeckt sind; die vorderen Strähnen dahinter zurückstreichen."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-05.05-headband"
+    },
+    {
+      "id": "06-bag",
+      "category": "bag",
+      "nameKo": "블랙 러닝 웨이스트 벨트",
+      "designDescriptionEn": "black small zipped running waist belt pouch with adjustable black elastic belt, entire belt visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-bag.webp",
+      "bytes": 18510,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "d57c3b3e82d6be83c96a8c79530b917f0906352667c386bda37a2d993df2473f",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 러닝 웨이스트 벨트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Adjust the elastic belt to sit on the hips below the jacket hem, where it won't bounce as you run.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "탄성 벨트를 골반 위에 맞게 조여 재킷 밑단 아래에 두면 뛰어도 흔들리지 않아요.",
+      "nameEn": "Black running waist belt",
+      "nameDe": "Schwarzer Lauf-Hüftgurt",
+      "descriptionDe": "Den elastischen Gurt auf Hüfthöhe unter dem Jackensaum einstellen, dort wippt er beim Laufen nicht.",
+      "howToWear": {
+        "ko": "탄성 벨트를 골반 위에 맞게 조여 재킷 밑단 아래에 두면 뛰어도 흔들리지 않아요.",
+        "en": "Adjust the elastic belt to sit on the hips below the jacket hem, where it won't bounce as you run.",
+        "de": "Den elastischen Gurt auf Hüfthöhe unter dem Jackensaum einstellen, dort wippt er beim Laufen nicht."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-05.06-bag"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 6,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "잠깐의 러닝 휴식",
+      "en": "SAGE ON A SHORT BREAK"
+    },
+    "deck": {
+      "ko": "세이지 셸에 블랙 소품으로 간결하게.",
+      "en": "A sage shell kept simple with black accessories.",
+      "de": "Eine salbeigrüne Shell, schlicht gehalten mit schwarzen Accessoires."
+    },
+    "intro": {
+      "ko": "세이지 재킷 안에 블랙 하이넥을 받쳐 색을 가볍게 정리했어요. 헤드밴드와 장갑, 웨이스트 벨트가 짧은 밤 러닝에 필요한 구성을 만들어요.",
+      "en": "A black high neck under the sage jacket keeps the colours light and tidy. Headband, gloves and waist belt make up everything a short night run needs.",
+      "de": "Ein schwarzes Stehkragenshirt unter der salbeigrünen Jacke hält die Farben leicht und aufgeräumt. Stirnband, Handschuhe und Hüftgurt bilden alles, was ein kurzer Nachtlauf braucht."
+    },
+    "tip": {
+      "ko": "작은 소지품은 웨이스트 벨트에 나눠 담아요.",
+      "en": "Divide up your small essentials and carry them in the waist belt.",
+      "de": "Kleinigkeiten aufteilen und im Hüftgurt verstauen."
+    },
+    "captionKo": "세이지 셸에 블랙 소품으로 간결하게.",
+    "introKo": "세이지 재킷 안에 블랙 하이넥을 받쳐 색을 가볍게 정리했어요. 헤드밴드와 장갑, 웨이스트 벨트가 짧은 밤 러닝에 필요한 구성을 만들어요.",
+    "tipKo": "작은 소지품은 웨이스트 벨트에 나눠 담아요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "LIGHT COLOUR, BLACK EXTRAS."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "run",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-running-20261025-05",
+  "appBuild": "b153"
+}

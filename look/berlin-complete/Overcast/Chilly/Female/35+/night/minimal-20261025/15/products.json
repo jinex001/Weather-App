@@ -1,0 +1,321 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-minimal-20261025-15",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "네이비 울 코트",
+      "designDescriptionEn": "navy long wool look tailored coat, notched lapels, dark buttons, relaxed straight cut, full hem conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 22418,
+      "sha256": "105ab222c50b354f35105248503b4239b1d7de5dfa957d79305ef265c2578efe",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "네이비 울 코트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Unbutton it so the fronts open easily when seated, and let the long hem rest neatly over the seat.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "단추를 풀어 앉아도 앞판이 편하게 벌어지게 하고, 긴 밑단은 좌석 위로 가지런히 내려요.",
+      "nameEn": "Navy wool-look coat",
+      "nameDe": "Mantel in Navy, Wolloptik",
+      "descriptionDe": "Offen tragen, damit sich die Vorderteile im Sitzen bequem öffnen, und den langen Saum ordentlich über den Sitz legen.",
+      "howToWear": {
+        "ko": "단추를 풀어 앉아도 앞판이 편하게 벌어지게 하고, 긴 밑단은 좌석 위로 가지런히 내려요.",
+        "en": "Unbutton it so the fronts open easily when seated, and let the long hem rest neatly over the seat.",
+        "de": "Offen tragen, damit sich die Vorderteile im Sitzen bequem öffnen, und den langen Saum ordentlich über den Sitz legen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "버건디 케이블 니트",
+      "designDescriptionEn": "burgundy cable knit long sleeve crewneck sweater, pronounced cables at chest, ribbed cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 44098,
+      "sha256": "146125cddf4c52fa5e1ff14033aed95fe9b265c9de34321331bf50587b0c77be",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "버건디 케이블 니트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the bold chest cables show between the scarf ends and pull the ribbed cuffs out over the gloves.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "가슴의 굵은 케이블이 머플러 사이로 보이게 하고, 골지 소맷단은 장갑 위로 끌어내요.",
+      "nameEn": "Burgundy cable knit",
+      "nameDe": "Burgunderroter Zopfstrickpullover",
+      "descriptionDe": "Die kräftigen Zöpfe auf der Brust zwischen den Schalenden zeigen und die Rippbündchen über die Handschuhe ziehen.",
+      "howToWear": {
+        "ko": "가슴의 굵은 케이블이 머플러 사이로 보이게 하고, 골지 소맷단은 장갑 위로 끌어내요.",
+        "en": "Let the bold chest cables show between the scarf ends and pull the ribbed cuffs out over the gloves.",
+        "de": "Die kräftigen Zöpfe auf der Brust zwischen den Schalenden zeigen und die Rippbündchen über die Handschuhe ziehen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 울 팬츠",
+      "designDescriptionEn": "charcoal gray fine textured full length wide straight wool look trousers",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 28918,
+      "sha256": "d7b511a4a690197fd5135c0038325abe5e7bc5b107824586d8100d729fe861cf",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 울 팬츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the wide straight legs break softly over the boot shafts.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "넓고 곧은 통이 부츠 발목 위로 자연스럽게 떨어지게 입어요.",
+      "nameEn": "Charcoal wool-look trousers",
+      "nameDe": "Hose in Anthrazit, Wolloptik",
+      "descriptionDe": "Die weiten geraden Beine weich auf den Stiefelschaft fallen lassen.",
+      "howToWear": {
+        "ko": "넓고 곧은 통이 부츠 발목 위로 자연스럽게 떨어지게 입어요.",
+        "en": "Let the wide straight legs break softly over the boot shafts.",
+        "de": "Die weiten geraden Beine weich auf den Stiefelschaft fallen lassen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.03-bottom"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "nameKo": "블랙 첼시 앵클부츠",
+      "designDescriptionEn": "matching pair black smooth leather look Chelsea ankle boots, rounded toes, low broad heels and black soles",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-shoes.webp",
+      "bytes": 26976,
+      "sha256": "b9db4e9a2bab6d62e3f2845cee6d340c6d1fe07cb279c173c5a3bf27dc3ff536",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 첼시 앵클부츠 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "The low, broad heels feel steady on the footboard and on wet streets, and the black finishes the trouser hems cleanly.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "낮고 넓은 굽이 스쿠터 발판과 젖은 길 모두에서 안정적이고, 블랙이 팬츠 밑단을 깔끔하게 마무리해요.",
+      "nameEn": "Black Chelsea ankle boots",
+      "nameDe": "Schwarze Chelsea-Stiefeletten",
+      "descriptionDe": "Die niedrigen, breiten Absätze stehen sicher auf Trittbrett und nassem Pflaster; das Schwarz schließt die Hosensäume sauber ab.",
+      "howToWear": {
+        "ko": "낮고 넓은 굽이 스쿠터 발판과 젖은 길 모두에서 안정적이고, 블랙이 팬츠 밑단을 깔끔하게 마무리해요.",
+        "en": "The low, broad heels feel steady on the footboard and on wet streets, and the black finishes the trouser hems cleanly.",
+        "de": "Die niedrigen, breiten Absätze stehen sicher auf Trittbrett und nassem Pflaster; das Schwarz schließt die Hosensäume sauber ab."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.04-shoes"
+    },
+    {
+      "id": "05-scarf",
+      "category": "scarf",
+      "nameKo": "그레이 리브 머플러",
+      "designDescriptionEn": "heather gray ribbed knitted long scarf with twisted fringe",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-scarf.webp",
+      "bytes": 63538,
+      "sha256": "afae84486075aa21b0bd7c4bf1602ce06d4caec340da783486512cca783757c4",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "그레이 리브 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Loop it loosely once and let the two ends fall at different lengths over the burgundy knit.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 느슨하게 한 번 감고 두 끝을 버건디 니트 위에서 길이가 다르게 늘어뜨려요.",
+      "nameEn": "Grey ribbed scarf",
+      "nameDe": "Grauer Rippstrickschal",
+      "descriptionDe": "Einmal locker umlegen und die Enden ungleich lang über den burgunderroten Strick fallen lassen.",
+      "howToWear": {
+        "ko": "목에 느슨하게 한 번 감고 두 끝을 버건디 니트 위에서 길이가 다르게 늘어뜨려요.",
+        "en": "Loop it loosely once and let the two ends fall at different lengths over the burgundy knit.",
+        "de": "Einmal locker umlegen und die Enden ungleich lang über den burgunderroten Strick fallen lassen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.05-scarf"
+    },
+    {
+      "id": "06-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 레더 장갑",
+      "designDescriptionEn": "matching pair black smooth leather look full finger gloves; one worn one removed in reference, create complete matching pair",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-gloves.webp",
+      "bytes": 41870,
+      "sha256": "f87b87a0b2f553a60756d3e918dcba4cb8dd6fabedd265898df0f7bc888ef4c9",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 레더 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Slip one off to turn the pages, then pull both on deep to the wrist before riding off.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "책장을 넘길 땐 한 짝을 벗어 쥐고, 출발할 때 두 짝 모두 손목까지 깊게 다시 껴요.",
+      "nameEn": "Black leather-look gloves",
+      "nameDe": "Schwarze Handschuhe in Lederoptik",
+      "descriptionDe": "Zum Umblättern einen ausziehen, vor der Abfahrt beide wieder tief bis zum Handgelenk anziehen.",
+      "howToWear": {
+        "ko": "책장을 넘길 땐 한 짝을 벗어 쥐고, 출발할 때 두 짝 모두 손목까지 깊게 다시 껴요.",
+        "en": "Slip one off to turn the pages, then pull both on deep to the wrist before riding off.",
+        "de": "Zum Umblättern einen ausziehen, vor der Abfahrt beide wieder tief bis zum Handgelenk anziehen."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.06-gloves"
+    },
+    {
+      "id": "07-bag",
+      "category": "bag",
+      "nameKo": "블랙 구조형 토트",
+      "designDescriptionEn": "black structured leather look rectangular shoulder tote, two clean narrow handles and simple panels",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/07-bag.webp",
+      "bytes": 33094,
+      "sha256": "2e96e9ba563f2924c4d9c2a1776cd3ae209989db6ba60d07cb1ce41c0de8a17d",
+      "size": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 구조형 토트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Over the shoulder and tucked behind you by the seat, its clean panels sit tidily beside the navy coat.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "어깨에 메어 몸 뒤쪽 좌석 옆에 두면 깔끔한 면이 네이비 코트 옆에서 단정하게 보여요.",
+      "nameEn": "Black structured tote",
+      "nameDe": "Schwarze strukturierte Tote",
+      "descriptionDe": "Über der Schulter und hinten am Sitz wirken die klaren Flächen ordentlich neben dem Navy-Mantel.",
+      "howToWear": {
+        "ko": "어깨에 메어 몸 뒤쪽 좌석 옆에 두면 깔끔한 면이 네이비 코트 옆에서 단정하게 보여요.",
+        "en": "Over the shoulder and tucked behind you by the seat, its clean panels sit tidily beside the navy coat.",
+        "de": "Über der Schulter und hinten am Sitz wirken die klaren Flächen ordentlich neben dem Navy-Mantel."
+      },
+      "appItemId": "oc-chilly-f35-night-minimal-20261025-15.07-bag"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 7,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "출발 전 한 페이지",
+      "en": "NAVY, ONE MORE PAGE"
+    },
+    "deck": {
+      "ko": "네이비 코트와 버건디 니트, 스쿠터 위의 짧은 휴식.",
+      "en": "Navy coat, burgundy knit and a short break on the scooter.",
+      "de": "Navy-Mantel, burgunderroter Strick und eine kurze Pause auf dem Roller."
+    },
+    "intro": {
+      "ko": "네이비 코트 안에 버건디 케이블 니트와 차콜 팬츠를 겹쳤어요. 그레이 머플러와 블랙 부츠·장갑·토트로 간결하게 마무리해요.",
+      "en": "A burgundy cable knit and charcoal trousers are layered under the navy coat. A grey scarf with black boots, gloves and tote makes for a concise finish.",
+      "de": "Unter dem Navy-Mantel liegen ein burgunderroter Zopfstrick und eine anthrazitfarbene Hose. Grauer Schal, dazu schwarze Stiefeletten, Handschuhe und Tote: ein knapper Abschluss."
+    },
+    "tip": {
+      "ko": "주차된 스쿠터에서 책을 정리한 뒤 출발 전 헬멧과 소지품을 챙겨요.",
+      "en": "Put the book away on the parked scooter, then gather your helmet and things before you set off.",
+      "de": "Das Buch auf dem geparkten Roller verstauen und vor der Abfahrt Helm und Sachen nehmen."
+    },
+    "captionKo": "네이비 코트와 버건디 니트, 스쿠터 위의 짧은 휴식.",
+    "introKo": "네이비 코트 안에 버건디 케이블 니트와 차콜 팬츠를 겹쳤어요. 그레이 머플러와 블랙 부츠·장갑·토트로 간결하게 마무리해요.",
+    "tipKo": "주차된 스쿠터에서 책을 정리한 뒤 출발 전 헬멧과 소지품을 챙겨요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "ONE PAGE, THEN THE HELMET."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "minimal",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-minimal-20261025-15",
+  "appBuild": "b153"
+}

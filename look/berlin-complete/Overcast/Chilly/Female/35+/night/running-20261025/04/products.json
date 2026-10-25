@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-running-20261025-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "running",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "네이비 리플렉티브 러닝 재킷",
+      "designDescriptionEn": "deep navy crinkled zip running jacket, high collar, silver reflective curved shoulder and sleeve piping and zipper pocket accents",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 36688,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "2bfea1d6e9b7c139fd6ca1c006d9194ef51592d6e0952e2f7464e1853ee57a56",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "네이비 리플렉티브 러닝 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Keep the high collar up and the zip just under the chin; small things go in the zip pocket with its reflective trim.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "높은 칼라를 세운 채 지퍼를 목 아래까지 올리고, 소지품은 반사 포인트가 있는 지퍼 주머니에 넣어요.",
+      "nameEn": "Navy reflective running jacket",
+      "nameDe": "Reflektierende Laufjacke in Navy",
+      "descriptionDe": "Den hohen Kragen aufgestellt, den Reißverschluss bis knapp unters Kinn; Kleinigkeiten kommen in die Reißverschlusstasche mit Reflexkante.",
+      "howToWear": {
+        "ko": "높은 칼라를 세운 채 지퍼를 목 아래까지 올리고, 소지품은 반사 포인트가 있는 지퍼 주머니에 넣어요.",
+        "en": "Keep the high collar up and the zip just under the chin; small things go in the zip pocket with its reflective trim.",
+        "de": "Den hohen Kragen aufgestellt, den Reißverschluss bis knapp unters Kinn; Kleinigkeiten kommen in die Reißverschlusstasche mit Reflexkante."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-04.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "그레이 하이넥 베이스레이어",
+      "designDescriptionEn": "light heather gray thermal high neck long sleeve fitted base layer visible at collar, torso conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 47422,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "8ee6ce009c42e152c0cfe11c4288c778b165ed10db6fd930720a57a146239980",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "그레이 하이넥 베이스레이어 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let a line of grey show inside the navy collar to soften the dark around the face.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "네이비 칼라 안쪽으로 그레이 목선이 한 줄 보이게 입어 얼굴 주변의 어두움을 부드럽게 풀어요.",
+      "nameEn": "Grey high-neck base layer",
+      "nameDe": "Graues Baselayer mit Stehkragen",
+      "descriptionDe": "Im Navy-Kragen einen Streifen Grau zeigen, das macht die dunkle Partie ums Gesicht weicher.",
+      "howToWear": {
+        "ko": "네이비 칼라 안쪽으로 그레이 목선이 한 줄 보이게 입어 얼굴 주변의 어두움을 부드럽게 풀어요.",
+        "en": "Let a line of grey show inside the navy collar to soften the dark around the face.",
+        "de": "Im Navy-Kragen einen Streifen Grau zeigen, das macht die dunkle Partie ums Gesicht weicher."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-04.02-top"
+    },
+    {
+      "id": "03-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 러닝 장갑",
+      "designDescriptionEn": "matching pair black fine knitted full finger running gloves with long ribbed cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-gloves.webp",
+      "bytes": 34678,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "3d7cddb35bad21200f50fb376ddc71df77f2c97bd9162a7f35c1104105ef4679",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 러닝 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Pull the long ribbed cuffs up over the sleeves to cover the wrists; the fine knit still lets you handle the earphone cable.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "긴 골지 커프를 소매 위로 끌어올려 손목을 덮어요. 얇은 니트라 이어폰 선을 만질 때도 편해요.",
+      "nameEn": "Black knit running gloves",
+      "nameDe": "Schwarze Strick-Laufhandschuhe",
+      "descriptionDe": "Die langen Rippbündchen über die Ärmel ziehen, damit die Handgelenke bedeckt sind; der feine Strick lässt trotzdem das Kopfhörerkabel greifen.",
+      "howToWear": {
+        "ko": "긴 골지 커프를 소매 위로 끌어올려 손목을 덮어요. 얇은 니트라 이어폰 선을 만질 때도 편해요.",
+        "en": "Pull the long ribbed cuffs up over the sleeves to cover the wrists; the fine knit still lets you handle the earphone cable.",
+        "de": "Die langen Rippbündchen über die Ärmel ziehen, damit die Handgelenke bedeckt sind; der feine Strick lässt trotzdem das Kopfhörerkabel greifen."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-04.03-gloves"
+    },
+    {
+      "id": "04-hat",
+      "category": "hat",
+      "nameKo": "네이비 니트 비니",
+      "designDescriptionEn": "navy dark ribbed knit beanie with broad cuff",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-hat.webp",
+      "bytes": 48550,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "640851379cca8a3ad9468a582c2d8f3a2f638db71acc0c08d54eae83b0366a2d",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "네이비 니트 비니 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Turn the broad cuff once and pull it over the ears, letting a few curls show at the forehead.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "넓은 커프를 한 번 접어 귀까지 덮고, 곱슬머리가 이마 아래로 살짝 나오게 써요.",
+      "nameEn": "Navy knit beanie",
+      "nameDe": "Strickmütze in Navy",
+      "descriptionDe": "Den breiten Umschlag einmal umlegen und über die Ohren ziehen; ein paar Locken dürfen an der Stirn hervorschauen.",
+      "howToWear": {
+        "ko": "넓은 커프를 한 번 접어 귀까지 덮고, 곱슬머리가 이마 아래로 살짝 나오게 써요.",
+        "en": "Turn the broad cuff once and pull it over the ears, letting a few curls show at the forehead.",
+        "de": "Den breiten Umschlag einmal umlegen und über die Ohren ziehen; ein paar Locken dürfen an der Stirn hervorschauen."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-04.04-hat"
+    },
+    {
+      "id": "05-jewelry",
+      "category": "jewelry",
+      "nameKo": "실버 미니 스터드",
+      "designDescriptionEn": "matching pair tiny plain silver tone round stud earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-jewelry.webp",
+      "bytes": 12364,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "2634a312a9f9a32fa18ddbbe6b81fa1745c2d1c871720905bfe018485ae44a57",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "실버 미니 스터드 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear them on the lobes just below the beanie for a single small glint in a running outfit.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "비니 아래로 보이는 귓불에 작게 달아 러닝 착장에 반짝임 하나만 더해요.",
+      "nameEn": "Silver mini studs",
+      "nameDe": "Silberne Mini-Ohrstecker",
+      "descriptionDe": "An den Ohrläppchen knapp unter der Mütze tragen, als einziges kleines Funkeln im Laufoutfit.",
+      "howToWear": {
+        "ko": "비니 아래로 보이는 귓불에 작게 달아 러닝 착장에 반짝임 하나만 더해요.",
+        "en": "Wear them on the lobes just below the beanie for a single small glint in a running outfit.",
+        "de": "An den Ohrläppchen knapp unter der Mütze tragen, als einziges kleines Funkeln im Laufoutfit."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-04.05-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 5,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "이어폰을 정리하는 시간",
+      "en": "DEEP NAVY, WIRES SORTED"
+    },
+    "deck": {
+      "ko": "네이비 셸과 그레이 이너의 차분한 조합.",
+      "en": "A calm pairing: navy shell, grey layer underneath.",
+      "de": "Eine ruhige Kombination: Navy-Shell, darunter Grau."
+    },
+    "intro": {
+      "ko": "짙은 네이비 재킷 안에 그레이 하이넥을 겹쳤어요. 니트 비니와 장갑으로 보온하고, 작은 실버 이어링으로 마무리했어요.",
+      "en": "A grey high neck is layered under the deep navy jacket. A knit beanie and gloves hold the warmth, and small silver studs finish it off.",
+      "de": "Unter der tiefblauen Jacke liegt ein graues Stehkragenshirt. Strickmütze und Handschuhe halten warm, kleine silberne Ohrstecker setzen den Schlusspunkt."
+    },
+    "tip": {
+      "ko": "이어폰 선은 지퍼에 끼이지 않게 출발 전에 정리해요.",
+      "en": "Sort out the earphone cable before you set off so it can't catch in the zip.",
+      "de": "Das Kopfhörerkabel vor dem Loslaufen ordnen, damit es sich nicht im Reißverschluss verfängt."
+    },
+    "captionKo": "네이비 셸과 그레이 이너의 차분한 조합.",
+    "introKo": "짙은 네이비 재킷 안에 그레이 하이넥을 겹쳤어요. 니트 비니와 장갑으로 보온하고, 작은 실버 이어링으로 마무리했어요.",
+    "tipKo": "이어폰 선은 지퍼에 끼이지 않게 출발 전에 정리해요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "SORT THE WIRES, THEN GO."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "run",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-running-20261025-04",
+  "appBuild": "b153"
+}

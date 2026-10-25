@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-street-20261025-07",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "스칼렛 퍼퍼 재킷",
+      "designDescriptionEn": "bright scarlet red quilted puffer jacket, broad baffles, stand collar, center zipper, elastic cuffs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 34758,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "f2b010f191df5b5d1a544fe19950c2f8bfd455b9b903a8e4403408133090b171",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "스칼렛 퍼퍼 재킷 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wear it open with the charcoal knit and scarf down the middle and the stand collar up; the broad baffles give the upper body generous volume.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "지퍼를 열어 차콜 니트와 머플러를 가운데 두고, 스탠드 칼라는 세운 채 둬요. 넓은 퀼팅이 상체를 넉넉하게 감싸요.",
+      "nameEn": "Scarlet puffer jacket",
+      "nameDe": "Pufferjacke in Scharlachrot",
+      "descriptionDe": "Offen tragen, Strick und Schal in der Mitte, den Stehkragen aufgestellt; die breiten Steppkammern geben dem Oberkörper großzügiges Volumen.",
+      "howToWear": {
+        "ko": "지퍼를 열어 차콜 니트와 머플러를 가운데 두고, 스탠드 칼라는 세운 채 둬요. 넓은 퀼팅이 상체를 넉넉하게 감싸요.",
+        "en": "Wear it open with the charcoal knit and scarf down the middle and the stand collar up; the broad baffles give the upper body generous volume.",
+        "de": "Offen tragen, Strick und Schal in der Mitte, den Stehkragen aufgestellt; die breiten Steppkammern geben dem Oberkörper großzügiges Volumen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-07.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "차콜 리브 니트",
+      "designDescriptionEn": "dark charcoal rib knitted long sleeve sweater visible at cuffs and torso",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 42764,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "dbff8b14bb4c2621bfecd453fa682622db4f3ad9bdf8dd8e25aeb001d40e060a",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 리브 니트 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Pull the ribbed cuffs out past the puffer's cuffs for a dark band between the red and your hands.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "골지 소맷단을 퍼퍼 커프 밖으로 끌어내 빨강과 손 사이에 어두운 띠를 만들어요.",
+      "nameEn": "Charcoal rib knit",
+      "nameDe": "Rippstrickpullover in Anthrazit",
+      "descriptionDe": "Die Rippbündchen über die Bündchen der Pufferjacke ziehen; das gibt einen dunklen Streifen zwischen Rot und Händen.",
+      "howToWear": {
+        "ko": "골지 소맷단을 퍼퍼 커프 밖으로 끌어내 빨강과 손 사이에 어두운 띠를 만들어요.",
+        "en": "Pull the ribbed cuffs out past the puffer's cuffs for a dark band between the red and your hands.",
+        "de": "Die Rippbündchen über die Bündchen der Pufferjacke ziehen; das gibt einen dunklen Streifen zwischen Rot und Händen."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-07.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "워시드 블랙 데님",
+      "designDescriptionEn": "washed black charcoal straight full length jeans, lower legs conservatively inferred",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-bottom.webp",
+      "bytes": 37888,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "6e161fe18d64c6dec61fc61110f2d51e7ea779602d76df647ecf692ce05cc08f",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "워시드 블랙 데님 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let the straight legs run down to the instep to lengthen the line below the short puffer.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "곧은 통을 발등까지 내려 짧은 퍼퍼 아래 다리 선을 길게 이어요.",
+      "nameEn": "Washed black jeans",
+      "nameDe": "Jeans in Washed Black",
+      "descriptionDe": "Die geraden Beine bis auf den Spann fallen lassen; das verlängert die Linie unter der kurzen Pufferjacke.",
+      "howToWear": {
+        "ko": "곧은 통을 발등까지 내려 짧은 퍼퍼 아래 다리 선을 길게 이어요.",
+        "en": "Let the straight legs run down to the instep to lengthen the line below the short puffer.",
+        "de": "Die geraden Beine bis auf den Spann fallen lassen; das verlängert die Linie unter der kurzen Pufferjacke."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-07.03-bottom"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "nameKo": "차콜 프린지 머플러",
+      "designDescriptionEn": "charcoal gray brushed woven scarf with short fringes",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-scarf.webp",
+      "bytes": 52716,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "dcedbe182d880818af38bcf6f518d986f919c28541f79add313088d50925fe96",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 프린지 머플러 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wrap it once and drop both ends inside the open front, splitting the red with a long grey line.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "목에 한 번 두르고 양 끝을 열린 앞판 안쪽으로 길게 내려 빨강을 세로로 나눠요.",
+      "nameEn": "Charcoal fringed scarf",
+      "nameDe": "Fransenschal in Anthrazit",
+      "descriptionDe": "Einmal umlegen und beide Enden in der offenen Front herabhängen lassen; so teilt eine lange graue Linie das Rot.",
+      "howToWear": {
+        "ko": "목에 한 번 두르고 양 끝을 열린 앞판 안쪽으로 길게 내려 빨강을 세로로 나눠요.",
+        "en": "Wrap it once and drop both ends inside the open front, splitting the red with a long grey line.",
+        "de": "Einmal umlegen und beide Enden in der offenen Front herabhängen lassen; so teilt eine lange graue Linie das Rot."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-07.04-scarf"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "nameKo": "블랙 크로스백",
+      "designDescriptionEn": "small black leather look rounded rectangular crossbody bag with black adjustable narrow strap and metal buckle",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/05-bag.webp",
+      "bytes": 45984,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "39ffe7e380d8435d01dbb492e8cd7d06ea9418ee4f56bfb5fc590b0e98b1c23c",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 크로스백 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Adjust the strap so the bag sits at the hip; the small black body never competes with the red.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "스트랩 길이를 조절해 가방이 허리 옆에 오게 메요. 작은 블랙 몸통이 레드를 방해하지 않아요.",
+      "nameEn": "Black crossbody bag",
+      "nameDe": "Schwarze Umhängetasche",
+      "descriptionDe": "Den Riemen so einstellen, dass die Tasche an der Hüfte sitzt; der kleine schwarze Korpus macht dem Rot keine Konkurrenz.",
+      "howToWear": {
+        "ko": "스트랩 길이를 조절해 가방이 허리 옆에 오게 메요. 작은 블랙 몸통이 레드를 방해하지 않아요.",
+        "en": "Adjust the strap so the bag sits at the hip; the small black body never competes with the red.",
+        "de": "Den Riemen so einstellen, dass die Tasche an der Hüfte sitzt; der kleine schwarze Korpus macht dem Rot keine Konkurrenz."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-07.05-bag"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "nameKo": "실버 후프 이어링",
+      "designDescriptionEn": "matching pair small silver tone chunky hoop earrings",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/06-jewelry.webp",
+      "bytes": 26018,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "e43782dcbf4a9416ec093bec4291811c61b96f8b835fde208145ade00c5720bf",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "실버 후프 이어링 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Let them show below the short bob, echoing the cool grey of the scarf beside the face.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "짧은 단발 아래로 보이게 달아, 회색 머플러와 같은 차가운 톤으로 얼굴 옆을 맞춰요.",
+      "nameEn": "Silver hoop earrings",
+      "nameDe": "Silberne Creolen",
+      "descriptionDe": "Unter dem kurzen Bob sichtbar tragen; sie greifen das kühle Grau des Schals neben dem Gesicht auf.",
+      "howToWear": {
+        "ko": "짧은 단발 아래로 보이게 달아, 회색 머플러와 같은 차가운 톤으로 얼굴 옆을 맞춰요.",
+        "en": "Let them show below the short bob, echoing the cool grey of the scarf beside the face.",
+        "de": "Unter dem kurzen Bob sichtbar tragen; sie greifen das kühle Grau des Schals neben dem Gesicht auf."
+      },
+      "appItemId": "oc-chilly-f35-night-street-20261025-07.06-jewelry"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 6,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "텀블러와 레드 퍼퍼",
+      "en": "A TUMBLER AND A RED PUFFER"
+    },
+    "deck": {
+      "ko": "선명한 레드 하나로 완성하는 밤 외출.",
+      "en": "One vivid red is all a night out needs.",
+      "de": "Ein kräftiges Rot reicht für den Abend draußen."
+    },
+    "intro": {
+      "ko": "레드 퍼퍼 아래 차콜 니트와 워시드 블랙 데님을 맞췄어요. 짙은 머플러와 작은 크로스백으로 컬러의 중심을 재킷에 남겨요.",
+      "en": "A charcoal knit and washed black denim sit under the red puffer. A dark scarf and a small crossbody keep the colour focus on the jacket.",
+      "de": "Unter der roten Pufferjacke sitzen ein anthrazitfarbener Strickpullover und Jeans in Washed Black. Ein dunkler Schal und eine kleine Umhängetasche überlassen die Farbe ganz der Jacke."
+    },
+    "tip": {
+      "ko": "텀블러를 다룰 때는 가방을 크로스로 고정해 손을 편하게 해요.",
+      "en": "Wear the bag crossbody while you handle the tumbler so both hands stay free.",
+      "de": "Beim Hantieren mit dem Thermobecher die Tasche quer tragen, dann sind beide Hände frei."
+    },
+    "captionKo": "선명한 레드 하나로 완성하는 밤 외출.",
+    "introKo": "레드 퍼퍼 아래 차콜 니트와 워시드 블랙 데님을 맞췄어요. 짙은 머플러와 작은 크로스백으로 컬러의 중심을 재킷에 남겨요.",
+    "tipKo": "텀블러를 다룰 때는 가방을 크로스로 고정해 손을 편하게 해요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "ONE RED, EVERYTHING ELSE QUIET."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "street",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-street-20261025-07",
+  "appBuild": "b153"
+}

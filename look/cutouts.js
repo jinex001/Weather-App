@@ -604,6 +604,66 @@
     "bl-light-chilly-f-35-night-minimal-05.02-accessory": [
         "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/minimal/05/products/02-accessory.webp",
         0.341
+    ],
+    "oc-chilly-f35-night-running-20261025-01.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/running-20261025/01/products/01-outer.webp",
+        0.121
+    ],
+    "oc-chilly-f35-night-running-20261025-02.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/running-20261025/02/products/01-outer.webp",
+        0.048
+    ],
+    "oc-chilly-f35-night-running-20261025-03.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/running-20261025/03/products/01-outer.webp",
+        0.159
+    ],
+    "oc-chilly-f35-night-running-20261025-04.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/running-20261025/04/products/01-outer.webp",
+        0.042
+    ],
+    "oc-chilly-f35-night-running-20261025-05.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/running-20261025/05/products/01-outer.webp",
+        0.274
+    ],
+    "oc-chilly-f35-night-street-20261025-06.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/street-20261025/06/products/01-outer.webp",
+        0.028
+    ],
+    "oc-chilly-f35-night-street-20261025-07.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/street-20261025/07/products/01-outer.webp",
+        0.147
+    ],
+    "oc-chilly-f35-night-street-20261025-08.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/street-20261025/08/products/01-outer.webp",
+        0.099
+    ],
+    "oc-chilly-f35-night-street-20261025-09.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/street-20261025/09/products/01-outer.webp",
+        0.017
+    ],
+    "oc-chilly-f35-night-street-20261025-10.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/street-20261025/10/products/01-outer.webp",
+        0.44
+    ],
+    "oc-chilly-f35-night-minimal-20261025-11.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/minimal-20261025/11/products/01-outer.webp",
+        0.038
+    ],
+    "oc-chilly-f35-night-minimal-20261025-12.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/minimal-20261025/12/products/01-outer.webp",
+        0.185
+    ],
+    "oc-chilly-f35-night-minimal-20261025-13.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/minimal-20261025/13/products/01-outer.webp",
+        0.012
+    ],
+    "oc-chilly-f35-night-minimal-20261025-14.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/minimal-20261025/14/products/01-outer.webp",
+        0.226
+    ],
+    "oc-chilly-f35-night-minimal-20261025-15.01-outer": [
+        "look/berlin-complete/Overcast/Chilly/Female/35+/night/minimal-20261025/15/products/01-outer.webp",
+        0.016
     ]
 };
   var HERO = {
@@ -756,7 +816,22 @@
     "bl-light-chilly-f-35-night-minimal-02": "bl-light-chilly-f-35-night-minimal-02.02-top",
     "bl-light-chilly-f-35-night-minimal-03": "bl-light-chilly-f-35-night-minimal-03.01-outer",
     "bl-light-chilly-f-35-night-minimal-04": "bl-light-chilly-f-35-night-minimal-04.02-top",
-    "bl-light-chilly-f-35-night-minimal-05": "bl-light-chilly-f-35-night-minimal-05.02-accessory"
+    "bl-light-chilly-f-35-night-minimal-05": "bl-light-chilly-f-35-night-minimal-05.02-accessory",
+    "oc-chilly-f35-night-running-20261025-01": "oc-chilly-f35-night-running-20261025-01.01-outer",
+    "oc-chilly-f35-night-running-20261025-02": "oc-chilly-f35-night-running-20261025-02.01-outer",
+    "oc-chilly-f35-night-running-20261025-03": "oc-chilly-f35-night-running-20261025-03.01-outer",
+    "oc-chilly-f35-night-running-20261025-04": "oc-chilly-f35-night-running-20261025-04.01-outer",
+    "oc-chilly-f35-night-running-20261025-05": "oc-chilly-f35-night-running-20261025-05.01-outer",
+    "oc-chilly-f35-night-street-20261025-06": "oc-chilly-f35-night-street-20261025-06.01-outer",
+    "oc-chilly-f35-night-street-20261025-07": "oc-chilly-f35-night-street-20261025-07.01-outer",
+    "oc-chilly-f35-night-street-20261025-08": "oc-chilly-f35-night-street-20261025-08.01-outer",
+    "oc-chilly-f35-night-street-20261025-09": "oc-chilly-f35-night-street-20261025-09.01-outer",
+    "oc-chilly-f35-night-street-20261025-10": "oc-chilly-f35-night-street-20261025-10.01-outer",
+    "oc-chilly-f35-night-minimal-20261025-11": "oc-chilly-f35-night-minimal-20261025-11.01-outer",
+    "oc-chilly-f35-night-minimal-20261025-12": "oc-chilly-f35-night-minimal-20261025-12.01-outer",
+    "oc-chilly-f35-night-minimal-20261025-13": "oc-chilly-f35-night-minimal-20261025-13.01-outer",
+    "oc-chilly-f35-night-minimal-20261025-14": "oc-chilly-f35-night-minimal-20261025-14.01-outer",
+    "oc-chilly-f35-night-minimal-20261025-15": "oc-chilly-f35-night-minimal-20261025-15.01-outer"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

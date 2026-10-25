@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "1.0",
+  "id": "oc-chilly-f35-night-running-20261025-03",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "running",
+  "weather": {
+    "city": "Berlin",
+    "condition": "overcast",
+    "timeOfDay": "night",
+    "temperatureC": 9,
+    "feelsLikeC": 5,
+    "temperatureEvidence": "Creative styling assumptions, not live weather"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "editorialApproval": "approved in chat",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "러스트 오렌지 러닝 셸",
+      "designDescriptionEn": "rust burnt orange zip running shell, high stand collar, silver reflective piping across shoulder seams and chest, lightweight crinkled fabric",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/01-outer.webp",
+      "bytes": 38672,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "74f1c4716574e2563cee3a9aff1073d598c2ea85b21d24776e694dc2902961b8",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "러스트 오렌지 러닝 셸 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Zip it halfway so the black high neck shows inside the tall collar; the light, crinkled fabric moves easily as you lean forward.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "지퍼를 반쯤 올려 높은 칼라 사이로 블랙 하이넥을 보여요. 가볍고 구김 있는 소재라 몸을 숙여도 뻣뻣하지 않아요.",
+      "nameEn": "Rust-orange running shell",
+      "nameDe": "Lauf-Shell in Rostorange",
+      "descriptionDe": "Halb geschlossen tragen, damit im hohen Kragen das schwarze Stehkragenshirt zu sehen ist; der leichte Crinkle-Stoff geht beim Vorbeugen mühelos mit.",
+      "howToWear": {
+        "ko": "지퍼를 반쯤 올려 높은 칼라 사이로 블랙 하이넥을 보여요. 가볍고 구김 있는 소재라 몸을 숙여도 뻣뻣하지 않아요.",
+        "en": "Zip it halfway so the black high neck shows inside the tall collar; the light, crinkled fabric moves easily as you lean forward.",
+        "de": "Halb geschlossen tragen, damit im hohen Kragen das schwarze Stehkragenshirt zu sehen ist; der leichte Crinkle-Stoff geht beim Vorbeugen mühelos mit."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-03.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 하이넥 베이스레이어",
+      "designDescriptionEn": "black fitted thermal high neck long sleeve base layer visible at collar, hidden torso conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/02-top.webp",
+      "bytes": 24728,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "8d50add9ccac2e395a621b11c49b70a71d103e03ee4126fcc84cd430f2772ddc",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 하이넥 베이스레이어 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Stand the collar up neatly inside the shell so a black line separates the orange from the face.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "셸 칼라 안쪽에 목까지 반듯하게 세워 오렌지와 얼굴 사이를 검정으로 정리해요.",
+      "nameEn": "Black high-neck base layer",
+      "nameDe": "Schwarzes Baselayer mit Stehkragen",
+      "descriptionDe": "Den Kragen in der Shell glatt aufstellen, damit eine schwarze Linie das Orange vom Gesicht trennt.",
+      "howToWear": {
+        "ko": "셸 칼라 안쪽에 목까지 반듯하게 세워 오렌지와 얼굴 사이를 검정으로 정리해요.",
+        "en": "Stand the collar up neatly inside the shell so a black line separates the orange from the face.",
+        "de": "Den Kragen in der Shell glatt aufstellen, damit eine schwarze Linie das Orange vom Gesicht trennt."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-03.02-top"
+    },
+    {
+      "id": "03-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 리플렉티브 러닝 장갑",
+      "designDescriptionEn": "matching pair black fabric full finger gloves, silver reflective slash on hand backs",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/03-gloves.webp",
+      "bytes": 26574,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "639ff9560bf1502deacb18c4e29f3d924529c948ab3e502286e99869e8b7735f",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "블랙 리플렉티브 러닝 장갑 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Pull them on deep so they meet the shell's cuffs; the reflective slash on the back of the hand catches the light when you reach for your ears.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "손목까지 깊게 끼워 셸 소맷단과 맞물리게 해요. 손등의 반사 사선이 귀로 손을 올릴 때 빛나요.",
+      "nameEn": "Black reflective running gloves",
+      "nameDe": "Schwarze reflektierende Laufhandschuhe",
+      "descriptionDe": "Tief anziehen, sodass sie an die Ärmelbündchen der Shell anschließen; der Reflexstreifen auf dem Handrücken blitzt auf, wenn die Hand zum Ohr geht.",
+      "howToWear": {
+        "ko": "손목까지 깊게 끼워 셸 소맷단과 맞물리게 해요. 손등의 반사 사선이 귀로 손을 올릴 때 빛나요.",
+        "en": "Pull them on deep so they meet the shell's cuffs; the reflective slash on the back of the hand catches the light when you reach for your ears.",
+        "de": "Tief anziehen, sodass sie an die Ärmelbündchen der Shell anschließen; der Reflexstreifen auf dem Handrücken blitzt auf, wenn die Hand zum Ohr geht."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-03.03-gloves"
+    },
+    {
+      "id": "04-headband",
+      "category": "headband",
+      "nameKo": "차콜 리플렉티브 헤드밴드",
+      "designDescriptionEn": "charcoal wide ear warmer running headband with one small silver reflective tab",
+      "reconstruction": "partially-visible-reconstructed",
+      "status": "ready",
+      "image": "products/04-headband.webp",
+      "bytes": 21614,
+      "alpha": true,
+      "sizeException": false,
+      "sha256": "4719968a548a680900d54ddc4dd0c4bbc8feac9efbf3102817157c6d472a7099",
+      "size": [
+        500,
+        500
+      ],
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "altKo": "차콜 리플렉티브 헤드밴드 — 독립 투명 배경 제품 컷",
+      "descriptionEn": "Wrap it wide over the braided hair to cover the ears, with the small reflective tab at the side.",
+      "reconstructionNote": "Visible color/shape reconstructed from approved editorial. Hidden backs, full lengths and opposite members of pairs are inferred.",
+      "descriptionKo": "땋은 머리 위로 넓게 둘러 귀를 감싸고, 작은 반사 탭은 옆쪽에 오게 해요.",
+      "nameEn": "Charcoal reflective headband",
+      "nameDe": "Reflex-Stirnband in Anthrazit",
+      "descriptionDe": "Breit über das geflochtene Haar legen, sodass die Ohren bedeckt sind, die kleine Reflexlasche seitlich.",
+      "howToWear": {
+        "ko": "땋은 머리 위로 넓게 둘러 귀를 감싸고, 작은 반사 탭은 옆쪽에 오게 해요.",
+        "en": "Wrap it wide over the braided hair to cover the ears, with the small reflective tab at the side.",
+        "de": "Breit über das geflochtene Haar legen, sodass die Ohren bedeckt sind, die kleine Reflexlasche seitlich."
+      },
+      "appItemId": "oc-chilly-f35-night-running-20261025-03.04-headband"
+    }
+  ],
+  "excludedSceneProps": [
+    "books",
+    "bookmark",
+    "cups",
+    "tumbler",
+    "water flask",
+    "food",
+    "groceries",
+    "flowers",
+    "keys",
+    "earphones",
+    "tissue",
+    "scooter",
+    "electric car",
+    "helmet"
+  ],
+  "productCount": 4,
+  "productionNote": "AI styled reconstructed concepts. Visible texture is not verified fiber composition. No retail brand, price, or purchase link claims.",
+  "editorialImage": "editorial.jpg",
+  "editorial": "editorial.jpg",
+  "visualReviewComplete": true,
+  "productImagesComplete": true,
+  "productionStatus": "ready",
+  "copy": {
+    "title": {
+      "ko": "귀까지 포근하게",
+      "en": "RUST, WARM TO THE EARS"
+    },
+    "deck": {
+      "ko": "러스트 오렌지 셸이 밝히는 러닝의 순간.",
+      "en": "A rust-orange shell lights up a moment mid-run.",
+      "de": "Eine rostorange Shell bringt Licht in einen Moment beim Laufen."
+    },
+    "intro": {
+      "ko": "러스트 오렌지 셸에 블랙 하이넥과 장갑을 맞췄어요. 헤드밴드와 재킷의 반사 디테일은 플래시에 은빛으로 드러나요.",
+      "en": "The rust-orange shell is matched with a black high neck and black gloves. Under the flash, the reflective details on headband and jacket turn silver.",
+      "de": "Zur rostorangen Shell gehören ein schwarzes Stehkragenshirt und schwarze Handschuhe. Im Blitzlicht leuchten die Reflexdetails an Stirnband und Jacke silbern auf."
+    },
+    "tip": {
+      "ko": "움직여 올라간 헤드밴드는 귀를 덮도록 다시 정리해요.",
+      "en": "If the headband rides up as you run, pull it back down over your ears.",
+      "de": "Rutscht das Stirnband beim Laufen hoch, wieder über die Ohren ziehen."
+    },
+    "captionKo": "러스트 오렌지 셸이 밝히는 러닝의 순간.",
+    "introKo": "러스트 오렌지 셸에 블랙 하이넥과 장갑을 맞췄어요. 헤드밴드와 재킷의 반사 디테일은 플래시에 은빛으로 드러나요.",
+    "tipKo": "움직여 올라간 헤드밴드는 귀를 덮도록 다시 정리해요.",
+    "eyebrow": "HOW TO WEAR",
+    "piecesLabel": "THE PIECES",
+    "pull": "LET THE FLASH FIND THE SILVER."
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "sourceBatch": "overcast-chilly-female-night-20261024",
+  "integrationSet": "20261025",
+  "appStyle": "run",
+  "mappingStatus": "mapped",
+  "appOutfitId": "oc-chilly-f35-night-running-20261025-03",
+  "appBuild": "b153"
+}

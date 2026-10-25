@@ -1,12 +1,12 @@
 # 룩 세트 현황 · 빈 칸 목록
 
-2026-10-24 점검 (앱 빌드 b145, 145룩 · 954아이템, 활성 참조 937 · 기사 145룩; jsc로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
+2026-10-25 점검 (앱 빌드 b153, 175룩 · 1138아이템 · 기사 175룩; jsc로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
 
 지금 들어 있는 룩은 전부 **쌀쌀함(체감 1~9°) · 35+**입니다. 빈 칸에서는 앱이 다른 날씨의 룩으로 채우지 않고 COMING SOON 플레이스홀더를 보여 줍니다(b114).
 
 ## 쌀쌀함 · 칸별 룩 수
 
-숫자 = 룩 수(흐림 남 낮 스트리트만 10 = 두 세트, 나머지 5). ✕ = 비어 있음 → 플레이스홀더. "기사" = 제품 컷 + 입는 법 기사가 있는 세트, "사진만" = 에디토리얼 사진과 아이템 글만(제품 컷 없음).
+숫자 = 룩 수(10 = 두 세트, 나머지 5). ✕ = 비어 있음 → 플레이스홀더. "기사" = 제품 컷 + 입는 법 기사가 있는 세트, "사진만" = 에디토리얼 사진과 아이템 글만(제품 컷 없음).
 
 | 하늘 | 성별 | 시간 | 러닝 | 스트리트 | 미니멀 | 폴더 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,7 @@
 | 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` 28제품 b147에 투명 WebP로 교체 + b145 두 번째 세트 28제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
 | 흐림 | 남 | 저녁 | **✕** | 5 기사 (b143, 21제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/night/<06–10-street · minimal>/` |
 | 흐림 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/day/` |
-| 흐림 | 여 | 저녁 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/night/` |
+| 흐림 | 여 | 저녁 | 10 기사 (기존 5 + b153 2026-10-25 세트 29제품) | 10 기사 (기존 5 + b153 32제품) | 10 기사 (기존 5 + b153 34제품) | `Overcast/Chilly/Female/35+/night/` (b153 세트는 `<running·street·minimal>-20261025/<01–15>/`, 투명 WebP) |
 | 가벼운 비 | 남 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Rain/Light/Chilly/Male/35+/day/<스타일>/` |
 | 가벼운 비 | 남 | 저녁 | **✕** | **✕** | **✕** | (없음) |
 | 가벼운 비 | 여 | 낮 | **✕** | 5 기사 (casual) | 5 기사 | `Rain/Light/Chilly/Female/35+/day/<casual·minimal>/` |
@@ -129,3 +129,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b151 · Rain / Light / Chilly / Female / 35+ / Night / Minimal
 
 5룩 · 제품 28개(6/5/6/4/7) 투명 WebP, `look/rain-female-night-minimal.js`(cutouts.js 앞). ID `bl-light-chilly-f-35-night-minimal-01`–`05`. 04번 안경 닦이는 소품(`appEligible: false`)이라 제외. 한국어·독일어 입는 법과 룩 문구(제목·요약·인트로·인용구·팁)는 에디토리얼 보고 새로 씀. 이제 가벼운 비 여성 저녁은 러닝만 빈 칸.
+
+## b153 · Overcast / Chilly / Female / 35+ / Night — 2026-10-25 set
+
+15룩(러닝 5·스트리트 5·미니멀 5) · 제품 95개(29/32/34) 투명 WebP, `look/overcast-female-night-20261025.js`(cutouts.js 앞). ID `oc-chilly-f35-night-<style>-20261025-NN`. 기존 `ofn-*` 15룩 그대로, 이 칸은 이제 스타일마다 10룩. 여성 모델 외관 25–28세(타깃 35+와 별개). 9°C / 체감 5°C는 제작 가정. [검증](overcast-female-night-20261025-validation.md).
