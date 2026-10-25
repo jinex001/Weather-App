@@ -1,0 +1,361 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-run-20261025-02",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32 as in approved editorials; no recasting during breakdown",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "liveWeather": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "웜 그레이 러닝 셸 재킷",
+      "nameEn": "Warm grey running shell jacket",
+      "nameDe": "Lauf-Shelljacke in warmem Grau",
+      "descriptionKo": "지퍼를 쇄골 아래까지만 올려 안쪽 모크넥이 보이게 입어요. 후드는 캡 뒤로 내려 두면 챙이 빗물을 먼저 막아요.",
+      "descriptionEn": "Zip it to just below the collarbone so the mock neck shows; leave the hood down behind the cap and let the brim take the rain first.",
+      "descriptionDe": "Nur bis knapp unters Schlüsselbein schließen, damit der Stehkragen zu sehen ist; die Kapuze hinter der Kappe hängen lassen, der Schirm fängt den Regen zuerst ab.",
+      "designDescriptionEn": "warm medium grey lightweight hooded running shell with black front zip and zip pockets, thin silver reflective shoulder and torso piping, elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "3cc2c9d1cbe314036601ec87bf45b800d72893686d058b98c8ae29eb6a47c1a9",
+      "bytes": 35506,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        7,
+        9,
+        493,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "웜 그레이 러닝 셸 재킷 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "웜 그레이 러닝 셸 재킷. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Warm grey running shell jacket. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauf-Shelljacke in Warmgrau. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 쇄골 아래까지만 올려 안쪽 모크넥이 보이게 입어요. 후드는 캡 뒤로 내려 두면 챙이 빗물을 먼저 막아요.",
+        "en": "Zip it to just below the collarbone so the mock neck shows; leave the hood down behind the cap and let the brim take the rain first.",
+        "de": "Nur bis knapp unters Schlüsselbein schließen, damit der Stehkragen zu sehen ist; die Kapuze hinter der Kappe hängen lassen, der Schirm fängt den Regen zuerst ab."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-02.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 롱슬리브 베이스 레이어",
+      "nameEn": "Black long-sleeve base layer",
+      "nameDe": "Schwarzes Langarm-Baselayer",
+      "descriptionKo": "모크넥을 셸 칼라 위로 올려 목을 덮어요. 몸에 붙는 핏이라 재킷 안에서 겉돌지 않아요.",
+      "descriptionEn": "Let the mock neck rise above the shell collar to cover the throat; the close fit keeps it from bunching inside the jacket.",
+      "descriptionDe": "Den Stehkragen über den Shellkragen ragen lassen, so ist der Hals bedeckt; die enge Passform verhindert Falten unter der Jacke.",
+      "designDescriptionEn": "black fitted mock-neck long-sleeve running base layer, neck visible at collar, hidden torso reconstructed plainly",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "f30e54ed58f18ae9996bd513b2b443cf2f5f7ea7397a5118f16f67b573176b95",
+      "bytes": 24438,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        16,
+        33,
+        485,
+        468
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 롱슬리브 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 롱슬리브 베이스 레이어. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black long-sleeve base layer. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Langarm-Baselayer in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "모크넥을 셸 칼라 위로 올려 목을 덮어요. 몸에 붙는 핏이라 재킷 안에서 겉돌지 않아요.",
+        "en": "Let the mock neck rise above the shell collar to cover the throat; the close fit keeps it from bunching inside the jacket.",
+        "de": "Den Stehkragen über den Shellkragen ragen lassen, so ist der Hals bedeckt; die enge Passform verhindert Falten unter der Jacke."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-02.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 타이츠",
+      "nameEn": "Black running tights",
+      "nameDe": "Schwarze Lauftight",
+      "descriptionKo": "허리는 재킷 밑단 안으로 넣고 발목까지 곧게 입어요. 무릎 아래 반사 곡선이 다리 라인을 따라 이어져요.",
+      "descriptionEn": "Wear the waistband under the jacket hem and the legs straight to the ankle; the reflective curve below the knee follows the line of the leg.",
+      "descriptionDe": "Den Bund unter dem Jackensaum tragen, die Beine gerade bis zum Knöchel; die Reflexkurve unter dem Knie folgt der Beinlinie.",
+      "designDescriptionEn": "black full-length running tights, simple waistband and narrow lower leg reflective silver accents; details not seen behind jacket inferred conservatively",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "93bee013eae693a94d3fe1d48267ad8cede5c94c4b1fe7fb55f18279aa7a4126",
+      "bytes": 14326,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        141,
+        16,
+        359,
+        484
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 타이츠. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running tights. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauftights in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "허리는 재킷 밑단 안으로 넣고 발목까지 곧게 입어요. 무릎 아래 반사 곡선이 다리 라인을 따라 이어져요.",
+        "en": "Wear the waistband under the jacket hem and the legs straight to the ankle; the reflective curve below the knee follows the line of the leg.",
+        "de": "Den Bund unter dem Jackensaum tragen, die Beine gerade bis zum Knöchel; die Reflexkurve unter dem Knie folgt der Beinlinie."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-02.03-bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 러닝 장갑",
+      "nameEn": "Black running gloves",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "descriptionKo": "손등의 사선 반사 스트립이 바깥을 향하게 끼고, 젖은 캡 챙을 잡아도 미끄러지지 않게 손가락 끝까지 맞춰 껴요.",
+      "descriptionEn": "Wear them with the diagonal reflective strip facing out, pulled fully onto the fingertips so a wet cap brim doesn't slip from your grip.",
+      "descriptionDe": "Mit dem schrägen Reflexstreifen nach außen tragen und ganz bis in die Fingerspitzen ziehen, damit der nasse Kappenschirm nicht aus der Hand rutscht.",
+      "designDescriptionEn": "matching pair black full-finger running gloves, narrow diagonal silver reflective strip on glove backs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "ca464940a832d285f8f665a543a82ad1aeeedb8edb8cc1a9bdaa295954eb5515",
+      "bytes": 28990,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        49,
+        38,
+        456,
+        460
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 장갑. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running gloves. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufhandschuhe in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "손등의 사선 반사 스트립이 바깥을 향하게 끼고, 젖은 캡 챙을 잡아도 미끄러지지 않게 손가락 끝까지 맞춰 껴요.",
+        "en": "Wear them with the diagonal reflective strip facing out, pulled fully onto the fingertips so a wet cap brim doesn't slip from your grip.",
+        "de": "Mit dem schrägen Reflexstreifen nach außen tragen und ganz bis in die Fingerspitzen ziehen, damit der nasse Kappenschirm nicht aus der Hand rutscht."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-02.04-hands"
+    },
+    {
+      "id": "05-cap",
+      "category": "headwear",
+      "nameKo": "블랙 러닝 캡",
+      "nameEn": "Black running cap",
+      "nameDe": "Schwarze Laufkappe",
+      "descriptionKo": "챙을 이마 위로 반듯하게 내려 빗방울이 눈에 들지 않게 하고, 젖은 곱슬머리는 캡 아래로 자연스럽게 내려요.",
+      "descriptionEn": "Set the brim straight over the forehead to keep raindrops out of your eyes, letting the damp curls fall loose below it.",
+      "descriptionDe": "Den Schirm gerade über die Stirn setzen, damit kein Regen in die Augen tropft, und die feuchten Locken locker darunter fallen lassen.",
+      "designDescriptionEn": "black lightweight six-panel running cap with curved brim and small plain covered top button, no logo",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-cap.webp",
+      "sha256": "efd5f1193029e33b565907d811e09dccb7f6ce3bffc1ba1e93bea9b043dbb344",
+      "bytes": 22502,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        72,
+        9,
+        429,
+        483
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 캡 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 캡. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running cap. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufcap in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "챙을 이마 위로 반듯하게 내려 빗방울이 눈에 들지 않게 하고, 젖은 곱슬머리는 캡 아래로 자연스럽게 내려요.",
+        "en": "Set the brim straight over the forehead to keep raindrops out of your eyes, letting the damp curls fall loose below it.",
+        "de": "Den Schirm gerade über die Stirn setzen, damit kein Regen in die Augen tropft, und die feuchten Locken locker darunter fallen lassen."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-02.05-cap"
+    },
+    {
+      "id": "06-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 러닝화",
+      "nameEn": "Grey running shoes",
+      "nameDe": "Graue Laufschuhe",
+      "descriptionKo": "끈을 끝까지 묶어 젖은 보도블록에서 뒤꿈치가 들뜨지 않게 해요. 짙은 그레이 오버레이가 블랙 타이츠와 이어져요.",
+      "descriptionEn": "Lace them all the way up so the heel stays seated on wet paving; the dark grey overlays continue the black of the tights.",
+      "descriptionDe": "Bis oben durchschnüren, damit die Ferse auf nassem Pflaster fest sitzt; die dunkelgrauen Overlays setzen das Schwarz der Tight fort.",
+      "designDescriptionEn": "matching pair grey mesh lace-up running shoes with dark grey overlays and off-white midsoles, black outsole, unbranded",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/06-shoes.webp",
+      "sha256": "d1558b8959ecca603825d3273fef86557891fbd59d509bf6ca3ee7a9a0a1d3ef",
+      "bytes": 46236,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        49,
+        12,
+        451,
+        487
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝화. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Grey running shoes. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufschuhe in Grau. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "끈을 끝까지 묶어 젖은 보도블록에서 뒤꿈치가 들뜨지 않게 해요. 짙은 그레이 오버레이가 블랙 타이츠와 이어져요.",
+        "en": "Lace them all the way up so the heel stays seated on wet paving; the dark grey overlays continue the black of the tights.",
+        "de": "Bis oben durchschnüren, damit die Ferse auf nassem Pflaster fest sitzt; die dunkelgrauen Overlays setzen das Schwarz der Tight fort."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-02.06-shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "빗속에서 모자를 붙잡는 순간",
+    "captionKo": "웜 그레이와 블랙의 러닝 조합",
+    "introKo": "그레이 셸 안에 블랙 베이스 레이어를 겹치고 러닝 캡으로 마무리했어요. 작은 반사 디테일이 플래시에 또렷하게 드러나요.",
+    "tipKo": "캡은 시야를 가리지 않도록 깊이를 조절하세요.",
+    "title": {
+      "ko": "빗속에서 모자를 붙잡는 순간",
+      "en": "HOLDING THE CAP IN THE RAIN"
+    },
+    "deck": {
+      "ko": "웜 그레이와 블랙의 러닝 조합",
+      "en": "A running mix of warm grey and black.",
+      "de": "Eine Laufkombination aus warmem Grau und Schwarz."
+    },
+    "intro": {
+      "ko": "그레이 셸 안에 블랙 베이스 레이어를 겹치고 러닝 캡으로 마무리했어요. 작은 반사 디테일이 플래시에 또렷하게 드러나요.",
+      "en": "A black base layer sits under the grey shell, finished with a running cap. Small reflective details stand out clearly in the flash.",
+      "de": "Unter der grauen Shell liegt ein schwarzes Baselayer, eine Laufkappe schließt den Look ab. Kleine Reflexdetails leuchten im Blitzlicht deutlich auf."
+    },
+    "tip": {
+      "ko": "캡은 시야를 가리지 않도록 깊이를 조절하세요.",
+      "en": "Set the cap at a depth that keeps your view clear.",
+      "de": "Die Kappe so tief aufsetzen, dass die Sicht frei bleibt."
+    },
+    "pull": "A BRIM BETWEEN YOU AND THE RAIN."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no claim of separate product-by-product visual approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-run-20261025-02",
+  "appBuild": "b157",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-run-20261025-02.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

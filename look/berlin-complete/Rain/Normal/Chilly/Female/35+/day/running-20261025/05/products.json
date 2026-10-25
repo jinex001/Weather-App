@@ -1,0 +1,361 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-run-20261025-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32 as in approved editorials; no recasting during breakdown",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "liveWeather": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "네이비 러닝 셸 재킷",
+      "nameEn": "Navy running shell jacket",
+      "nameDe": "Lauf-Shelljacke in Navy",
+      "descriptionKo": "지퍼를 가슴 위까지 올리고 후드는 등 뒤로 내려 이어워머와 겹치지 않게 해요. 웅크려 앉아도 밑단이 허리 뒤를 덮어 줘요.",
+      "descriptionEn": "Zip it to the upper chest and leave the hood down so it doesn't crowd the ear warmer; the hem still covers the lower back when you crouch.",
+      "descriptionDe": "Bis zur oberen Brust schließen und die Kapuze hinten lassen, damit sie dem Ohrenwärmer nicht in die Quere kommt; beim Hocken deckt der Saum weiterhin den unteren Rücken.",
+      "designDescriptionEn": "slate navy lightweight hooded full-zip running shell with dark zipper, thin silver reflective piping on shoulders and curved torso seams, elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "3c09fe1e7eec48b5ee004a53bfd4c0dab51890e458b1e9820eb5ca36c8bffac4",
+      "bytes": 38060,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        9,
+        9,
+        491,
+        489
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "네이비 러닝 셸 재킷 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "네이비 러닝 셸 재킷. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Navy running shell jacket. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauf-Shelljacke in Marineblau. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 가슴 위까지 올리고 후드는 등 뒤로 내려 이어워머와 겹치지 않게 해요. 웅크려 앉아도 밑단이 허리 뒤를 덮어 줘요.",
+        "en": "Zip it to the upper chest and leave the hood down so it doesn't crowd the ear warmer; the hem still covers the lower back when you crouch.",
+        "de": "Bis zur oberen Brust schließen und die Kapuze hinten lassen, damit sie dem Ohrenwärmer nicht in die Quere kommt; beim Hocken deckt der Saum weiterhin den unteren Rücken."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-05.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 롱슬리브 베이스 레이어",
+      "nameEn": "Black long-sleeve base layer",
+      "nameDe": "Schwarzes Langarm-Baselayer",
+      "descriptionKo": "닫힌 네이비 셸 안에 매끈하게 받쳐 입는 첫 겹이에요. 소매를 장갑 안까지 내려 웅크릴 때 손목이 드러나지 않게 해요.",
+      "descriptionEn": "A smooth first layer under the closed navy shell; pull the sleeves into the gloves so no wrist shows when you crouch.",
+      "descriptionDe": "Eine glatte erste Schicht unter der geschlossenen navyblauen Shell; die Ärmel in die Handschuhe ziehen, damit beim Hocken kein Handgelenk frei liegt.",
+      "designDescriptionEn": "plain black fitted long-sleeve crewneck running base layer, almost entirely hidden under closed navy shell, conservative inferred reconstruction",
+      "reconstruction": "not-visible-inferred",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "b0a9227e00ab9c7c200b72306d771e1f67fb0b0375fad726799a9b90e7286734",
+      "bytes": 22046,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        19,
+        46,
+        481,
+        453
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 롱슬리브 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 롱슬리브 베이스 레이어. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black long-sleeve base layer. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Langarm-Baselayer in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "닫힌 네이비 셸 안에 매끈하게 받쳐 입는 첫 겹이에요. 소매를 장갑 안까지 내려 웅크릴 때 손목이 드러나지 않게 해요.",
+        "en": "A smooth first layer under the closed navy shell; pull the sleeves into the gloves so no wrist shows when you crouch.",
+        "de": "Eine glatte erste Schicht unter der geschlossenen navyblauen Shell; die Ärmel in die Handschuhe ziehen, damit beim Hocken kein Handgelenk frei liegt."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-05.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "다크 플럼 러닝 타이츠",
+      "nameEn": "Dark plum running tights",
+      "nameDe": "Lauftight in dunkler Pflaume",
+      "descriptionKo": "무릎을 굽혀도 당기지 않게 허리를 제자리에 맞춰 입어요. 무릎과 종아리의 은색 반사 곡선이 네이비 셸 아래에 밝은 선을 더해요.",
+      "descriptionEn": "Settle the waistband where it sits naturally so the tights don't pull when you bend; the silver reflective curves at knee and calf add a light line below the navy shell.",
+      "descriptionDe": "Den Bund an seinem natürlichen Platz tragen, damit beim Beugen nichts zieht; die silbernen Reflexbögen an Knie und Wade setzen unter der navyblauen Shell eine helle Linie.",
+      "designDescriptionEn": "dark plum heather full-length close-fitting running tights, fine curved silver reflective knee/calf accents, simple waist",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "540af7c5fde508f467de7c475aa3fc8d311a996d1c0cab7570e25c3bfdbcab72",
+      "bytes": 16914,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        149,
+        15,
+        354,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "다크 플럼 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "다크 플럼 러닝 타이츠. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Dark plum running tights. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauftights in Dunkelpflaume. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "무릎을 굽혀도 당기지 않게 허리를 제자리에 맞춰 입어요. 무릎과 종아리의 은색 반사 곡선이 네이비 셸 아래에 밝은 선을 더해요.",
+        "en": "Settle the waistband where it sits naturally so the tights don't pull when you bend; the silver reflective curves at knee and calf add a light line below the navy shell.",
+        "de": "Den Bund an seinem natürlichen Platz tragen, damit beim Beugen nichts zieht; die silbernen Reflexbögen an Knie und Wade setzen unter der navyblauen Shell eine helle Linie."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-05.03-bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 러닝 장갑",
+      "nameEn": "Black running gloves",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "descriptionKo": "손등의 평행 반사 사선이 바깥으로 오게 끼고, 골지 커프는 셸 소매 안에 넣어 끈을 묶을 때도 손목을 덮어요.",
+      "descriptionEn": "Keep the parallel reflective slashes on the backs facing out and the ribbed cuffs inside the shell sleeves, so the wrists stay covered while you tie a lace.",
+      "descriptionDe": "Die parallelen Reflexstriche auf dem Handrücken nach außen tragen und die Rippbündchen unter die Shellärmel stecken, damit die Handgelenke beim Schnüren bedeckt bleiben.",
+      "designDescriptionEn": "matching pair black full-finger fabric running gloves with two small parallel reflective silver diagonal slashes on backs, ribbed cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "e5c18ac549881d1e3eaf0af6e0fa419cc1dfca9cf395122258f86fd3cbf22906",
+      "bytes": 27742,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        30,
+        39,
+        471,
+        460
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 장갑. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running gloves. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufhandschuhe in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "손등의 평행 반사 사선이 바깥으로 오게 끼고, 골지 커프는 셸 소매 안에 넣어 끈을 묶을 때도 손목을 덮어요.",
+        "en": "Keep the parallel reflective slashes on the backs facing out and the ribbed cuffs inside the shell sleeves, so the wrists stay covered while you tie a lace.",
+        "de": "Die parallelen Reflexstriche auf dem Handrücken nach außen tragen und die Rippbündchen unter die Shellärmel stecken, damit die Handgelenke beim Schnüren bedeckt bleiben."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-05.04-hands"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 러닝화",
+      "nameEn": "Grey running shoes",
+      "nameDe": "Graue Laufschuhe",
+      "descriptionKo": "끈은 이중 매듭으로 묶고 남은 끝은 교차한 끈 아래로 넣어 젖은 길에서 밟히지 않게 해요.",
+      "descriptionEn": "Tie the laces in a double knot and tuck the loose ends under the crossed laces so they can't be stepped on in the wet.",
+      "descriptionDe": "Die Schnürsenkel doppelt knoten und die losen Enden unter die Schnürung stecken, damit man auf nassem Weg nicht darauf tritt.",
+      "designDescriptionEn": "matching pair medium grey mesh lace-up running shoes with silver grey reflective angular side overlays, off-white midsole and dark rubber outsole, unbranded",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-shoes.webp",
+      "sha256": "215393cb1d40c871fd70985aba358ec92b5b6a8f9a7e0a96c6611370952e1ba3",
+      "bytes": 49706,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        50,
+        13,
+        450,
+        490
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝화. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Grey running shoes. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufschuhe in Grau. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "끈은 이중 매듭으로 묶고 남은 끝은 교차한 끈 아래로 넣어 젖은 길에서 밟히지 않게 해요.",
+        "en": "Tie the laces in a double knot and tuck the loose ends under the crossed laces so they can't be stepped on in the wet.",
+        "de": "Die Schnürsenkel doppelt knoten und die losen Enden unter die Schnürung stecken, damit man auf nassem Weg nicht darauf tritt."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-05.05-shoes"
+    },
+    {
+      "id": "06-headband",
+      "category": "headwear",
+      "nameKo": "차콜 이어워머 헤드밴드",
+      "nameEn": "Charcoal ear-warmer headband",
+      "nameDe": "Ohrenwärmer-Stirnband in Anthrazit",
+      "descriptionKo": "이마 위에서 귀를 완전히 덮도록 넓게 펴서 쓰고, 뒤쪽은 짧은 머리 위에 평평하게 얹어요.",
+      "descriptionEn": "Wear it spread wide across the forehead so it fully covers the ears, lying flat over short hair at the back.",
+      "descriptionDe": "Breit über die Stirn ziehen, sodass die Ohren ganz bedeckt sind, und hinten flach über dem kurzen Haar tragen.",
+      "designDescriptionEn": "charcoal heather wide soft stretch fleece earwarmer running headband, single continuous plain loop, no invented logo",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/06-headband.webp",
+      "sha256": "26f5359cf85d161f980816389585ad28f1ae03fe55918903d708e9bca623e4bc",
+      "bytes": 43530,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        12,
+        129,
+        488,
+        374
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 이어워머 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 이어워머 헤드밴드. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Charcoal earwarmer headband. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Ohrwärmer-Stirnband in Anthrazit. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "이마 위에서 귀를 완전히 덮도록 넓게 펴서 쓰고, 뒤쪽은 짧은 머리 위에 평평하게 얹어요.",
+        "en": "Wear it spread wide across the forehead so it fully covers the ears, lying flat over short hair at the back.",
+        "de": "Breit über die Stirn ziehen, sodass die Ohren ganz bedeckt sind, und hinten flach über dem kurzen Haar tragen."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-05.06-headband"
+    }
+  ],
+  "copy": {
+    "titleKo": "신발 끈을 다시 묶는 짧은 정지",
+    "captionKo": "네이비와 플럼의 차분한 러닝 룩",
+    "introKo": "네이비 셸에 플럼 타이츠를 매치하고 차콜 이어워머와 장갑을 더했어요. 신발 끈을 고쳐 묶는 자연스러운 러닝 장면이에요.",
+    "tipKo": "달리는 중 끈이 풀리면 안전한 곳에 멈춰 묶으세요.",
+    "title": {
+      "ko": "신발 끈을 다시 묶는 짧은 정지",
+      "en": "A SHORT STOP TO RETIE"
+    },
+    "deck": {
+      "ko": "네이비와 플럼의 차분한 러닝 룩",
+      "en": "A calm running look in navy and plum.",
+      "de": "Ein ruhiges Laufoutfit in Navy und Pflaume."
+    },
+    "intro": {
+      "ko": "네이비 셸에 플럼 타이츠를 매치하고 차콜 이어워머와 장갑을 더했어요. 신발 끈을 고쳐 묶는 자연스러운 러닝 장면이에요.",
+      "en": "Plum tights meet a navy shell, with a charcoal ear warmer and gloves added. A natural running moment: stopping to retie a lace.",
+      "de": "Eine pflaumenfarbene Tight trifft auf eine navyblaue Shell, dazu ein anthrazitfarbener Ohrenwärmer und Handschuhe. Ein natürlicher Laufmoment: kurz anhalten und den Schnürsenkel neu binden."
+    },
+    "tip": {
+      "ko": "달리는 중 끈이 풀리면 안전한 곳에 멈춰 묶으세요.",
+      "en": "If a lace comes undone mid-run, stop somewhere safe to tie it.",
+      "de": "Geht unterwegs ein Schnürsenkel auf, an einer sicheren Stelle anhalten und ihn binden."
+    },
+    "pull": "NAVY AND PLUM, DOWN BY THE KERB."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no claim of separate product-by-product visual approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-run-20261025-05",
+  "appBuild": "b157",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-run-20261025-05.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-25 (앱 빌드 b153) · 175룩 · 1138아이템 · 기사 룩 175 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-25 (앱 빌드 b157) · 180룩 · 1166아이템 · 기사 룩 180 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -205,3 +205,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b153 · Overcast / Chilly / Female / 35+ / Night — 2026-10-25 set (15 looks)
 
 두 번째 날짜 세트. 러닝 01–05·스트리트 06–10·미니멀 11–15 에디토리얼 15장 + 독립 투명 WebP 제품 95개(29/32/34; 룩별 7,7,4,5,6 / 6,6,7,6,7 / 7,7,6,7,7), `look/berlin-complete/Overcast/Chilly/Female/35+/night/<running|street|minimal>-20261025/<NN>/`(폴더 번호 = ID 끝 번호). 룩 ID는 제작 측 ID 그대로 `oc-chilly-f35-night-<style>-20261025-NN`(`sky: cloudy`, `bands: [chilly]`, `gender: f`, `age: "35"`, `time: evening`, `style: run|street|minimal`), 아이템 `<룩 ID>.<제품 id>`(제품 순서 유지). 기존 `ofn-*` 15룩은 그대로 → 이 칸은 스타일마다 10룩 중 3개 랜덤. 분류 매핑: gloves → hands, hat·headband → headwear. 한국어 마스터(요약·인트로·팁·제품 이름)는 그대로; 영어 대문자 제목·인용구, en/de 문구, 제품별 ko/en/de 입는 법은 Claude가 에디토리얼과 `designDescriptionEn`을 보고 씀(제작 측 descriptionKo는 틀 문장이라 화면에 안 씀). 한국어 제목은 products.json `copy.title.ko`에 보존(앱 제목은 영어 대문자 문자열). 대표 컷은 각 룩의 아우터 WebP(`cutouts.js` HERO·CUTS 15행). products.json은 정리본(원본 경로·검수 영수증 없음, `casting.modelAppearanceAgeRange: [25, 28]`, 복원 근거 필드 유지). [검증](overcast-female-night-20261025-validation.md).
+
+## b157 · Rain / Normal / Chilly / Female / 35+ / Day / Running — 2026-10-25 set (5 looks)
+
+첫 보통 비 세트. 에디토리얼 5장 + 독립 투명 WebP 제품 28개(5/6/6/5/6), `look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/<01–05>/`, 보충 파일 `look/rain-normal-female-day-running-20261025.js`. 룩 `rn-chilly-f35-day-run-20261025-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: run`, 낮 = `time` 없음). 01 코발트 셸 · 02 그레이 셸 + 캡 · 03 올리브 셸 + 스포츠 워치 · 04 코럴 셸 · 05 네이비 셸 + 플럼 타이츠 + 차콜 헤드밴드. 장갑·신발 한 켤레 = 제품 1개, 양말 없음. 대표 컷 = 아우터 WebP(HERO·CUTS 5행). [검증](rain-normal-female-day-running-20261025-validation.md).

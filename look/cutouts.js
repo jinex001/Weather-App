@@ -664,6 +664,26 @@
     "oc-chilly-f35-night-minimal-20261025-15.01-outer": [
         "look/berlin-complete/Overcast/Chilly/Female/35+/night/minimal-20261025/15/products/01-outer.webp",
         0.016
+    ],
+    "rn-chilly-f35-day-run-20261025-01.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/01/products/01-outer.webp",
+        0.121
+    ],
+    "rn-chilly-f35-day-run-20261025-02.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/02/products/01-outer.webp",
+        0.164
+    ],
+    "rn-chilly-f35-day-run-20261025-03.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/03/products/01-outer.webp",
+        0.089
+    ],
+    "rn-chilly-f35-day-run-20261025-04.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/04/products/01-outer.webp",
+        0.184
+    ],
+    "rn-chilly-f35-day-run-20261025-05.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/05/products/01-outer.webp",
+        0.042
     ]
 };
   var HERO = {
@@ -831,7 +851,12 @@
     "oc-chilly-f35-night-minimal-20261025-12": "oc-chilly-f35-night-minimal-20261025-12.01-outer",
     "oc-chilly-f35-night-minimal-20261025-13": "oc-chilly-f35-night-minimal-20261025-13.01-outer",
     "oc-chilly-f35-night-minimal-20261025-14": "oc-chilly-f35-night-minimal-20261025-14.01-outer",
-    "oc-chilly-f35-night-minimal-20261025-15": "oc-chilly-f35-night-minimal-20261025-15.01-outer"
+    "oc-chilly-f35-night-minimal-20261025-15": "oc-chilly-f35-night-minimal-20261025-15.01-outer",
+    "rn-chilly-f35-day-run-20261025-01": "rn-chilly-f35-day-run-20261025-01.01-outer",
+    "rn-chilly-f35-day-run-20261025-02": "rn-chilly-f35-day-run-20261025-02.01-outer",
+    "rn-chilly-f35-day-run-20261025-03": "rn-chilly-f35-day-run-20261025-03.01-outer",
+    "rn-chilly-f35-day-run-20261025-04": "rn-chilly-f35-day-run-20261025-04.01-outer",
+    "rn-chilly-f35-day-run-20261025-05": "rn-chilly-f35-day-run-20261025-05.01-outer"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });
