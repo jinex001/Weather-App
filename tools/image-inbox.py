@@ -90,8 +90,9 @@ def check_folder(path, meta):
     w = meta['weather']
     require(parts[:2] == ('look', 'berlin-complete'), 'lookPath must be in library')
     require(len(parts) in (8, 9, 10), 'unexpected look folder structure')
-    condition = {'Sunny': 'clear', 'Overcast': 'cloudy', 'Rain': 'rain'}
-    require(parts[2] in condition and w['condition'] == condition[parts[2]], 'weather/folder conflict')
+    # Accept stored metadata aliases without rewriting the source metadata.
+    condition = {'Sunny': {'clear', 'sunny'}, 'Overcast': {'cloudy', 'overcast'}, 'Rain': {'rain'}}
+    require(parts[2] in condition and w['condition'] in condition[parts[2]], 'weather/folder conflict')
     offset = 3
     if parts[2] == 'Rain':
         require(w['rainIntensity'] == parts[3].lower(), 'rain intensity/folder conflict')
