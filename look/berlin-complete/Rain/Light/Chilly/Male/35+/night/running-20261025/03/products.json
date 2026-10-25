@@ -1,0 +1,413 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-run-20261025-03",
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32, preserve approved editorial casting",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "liveWeather": false,
+    "description": "Chilly light rain at night; no numerical temperature supplied."
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 7,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "올리브 러닝 셸",
+      "nameEn": "Olive running shell",
+      "nameDe": "Olivgrüne Lauf-Shelljacke",
+      "descriptionKo": "지퍼를 가슴까지 올리고 후드는 내려 등 뒤에 둬요. 차분한 올리브 위로 어깨의 은색 트림이 가로등 아래에서 살짝 빛나요.",
+      "descriptionEn": "Zip it to the chest and leave the hood down at the back; on the muted olive, the silver trim at the shoulders glints under the streetlights.",
+      "descriptionDe": "Bis zur Brust schließen und die Kapuze hinten liegen lassen; auf dem gedeckten Oliv glänzen die Silberblenden an den Schultern unter den Laternen.",
+      "designDescriptionEn": "muted dark olive hooded lightweight running shell, black full center zipper and black zip pockets, narrow silver reflective trim at shoulder/upper chest, adjustable hood and elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "3c11f0049902493b6c86f8542aad0c50f9d80f86ca25bf70836af450304e1619",
+      "bytes": 33930,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        8,
+        9,
+        492,
+        488
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "올리브 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "올리브 러닝 셸의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Olive running shell. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Olivgrüne Lauf-Shelljacke. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 가슴까지 올리고 후드는 내려 등 뒤에 둬요. 차분한 올리브 위로 어깨의 은색 트림이 가로등 아래에서 살짝 빛나요.",
+        "en": "Zip it to the chest and leave the hood down at the back; on the muted olive, the silver trim at the shoulders glints under the streetlights.",
+        "de": "Bis zur Brust schließen und die Kapuze hinten liegen lassen; auf dem gedeckten Oliv glänzen die Silberblenden an den Schultern unter den Laternen."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 집넥 베이스 레이어",
+      "nameEn": "Black zip-neck base layer",
+      "nameDe": "Schwarzer Baselayer mit Reißverschlusskragen",
+      "descriptionKo": "짧은 지퍼를 끝까지 올려 하이넥으로 목을 덮어요. 블랙이라 올리브 셸의 열린 앞판 사이로 깔끔하게 보여요.",
+      "descriptionEn": "Run the short zip all the way up so the high neck covers the throat; in black it reads cleanly through the open front of the olive shell.",
+      "descriptionDe": "Den kurzen Reißverschluss ganz hochziehen, damit der Stehkragen den Hals bedeckt; in Schwarz wirkt er klar im offenen Vorderteil der olivgrünen Shell.",
+      "designDescriptionEn": "black technical fitted long-sleeve high-neck base layer with short center zipper visible under olive shell, plain conservative concealed torso reconstruction",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "1a5f023a40f363da8b26c946fb331b5cabd0fd491e2097423ead33ef4e9dcca2",
+      "bytes": 20854,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        27,
+        33,
+        475,
+        469
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 집넥 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 집넥 베이스 레이어의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black zip-neck base layer. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarzer Baselayer mit Reißverschlusskragen. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "짧은 지퍼를 끝까지 올려 하이넥으로 목을 덮어요. 블랙이라 올리브 셸의 열린 앞판 사이로 깔끔하게 보여요.",
+        "en": "Run the short zip all the way up so the high neck covers the throat; in black it reads cleanly through the open front of the olive shell.",
+        "de": "Den kurzen Reißverschluss ganz hochziehen, damit der Stehkragen den Hals bedeckt; in Schwarz wirkt er klar im offenen Vorderteil der olivgrünen Shell."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.02-top",
+      "appCategory": "top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 슬림 러닝 팬츠",
+      "nameEn": "Charcoal slim running trousers",
+      "nameDe": "Anthrazitfarbene schmale Laufhose",
+      "descriptionKo": "테이퍼드 밑단이 발목에 붙어 끈을 묶으려 몸을 숙여도 걸리지 않아요. 허벅지와 종아리의 은색 사선이 차콜 위에 가볍게 떠요.",
+      "descriptionEn": "The tapered cuffs sit close at the ankle, so nothing gets in the way when you crouch to tie a lace; silver slashes at thigh and calf float lightly on the charcoal.",
+      "descriptionDe": "Die schmalen Beinabschlüsse liegen eng am Knöchel, sodass beim Hinknien zum Schnüren nichts im Weg ist; silberne Schrägstreifen an Oberschenkel und Wade liegen leicht auf dem Anthrazit.",
+      "designDescriptionEn": "charcoal full-length slim running trousers, tapered cuffs, thin short silver reflective slash on upper thigh and angled narrow calf accent, elastic waist",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "a186253fc9c4415d0e5d68be57c566fba971880710d907a2c8ac8ea94fdb3ffb",
+      "bytes": 20114,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        124,
+        10,
+        377,
+        490
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 슬림 러닝 팬츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 슬림 러닝 팬츠의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Charcoal slim running pants. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Anthrazitfarbene schmale Laufhose. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "테이퍼드 밑단이 발목에 붙어 끈을 묶으려 몸을 숙여도 걸리지 않아요. 허벅지와 종아리의 은색 사선이 차콜 위에 가볍게 떠요.",
+        "en": "The tapered cuffs sit close at the ankle, so nothing gets in the way when you crouch to tie a lace; silver slashes at thigh and calf float lightly on the charcoal.",
+        "de": "Die schmalen Beinabschlüsse liegen eng am Knöchel, sodass beim Hinknien zum Schnüren nichts im Weg ist; silberne Schrägstreifen an Oberschenkel und Wade liegen leicht auf dem Anthrazit."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 리플렉티브 스트라이프 장갑",
+      "nameEn": "Black running gloves with reflective stripes",
+      "nameDe": "Schwarze Laufhandschuhe mit Reflexstreifen",
+      "descriptionKo": "장갑을 낀 채로도 끈을 묶을 수 있게 손에 꼭 맞는 사이즈를 골라요. 긴 커프는 셸 소매 끝 위로 덮어 써요.",
+      "descriptionEn": "Choose a snug fit so you can tie your laces with the gloves still on, and wear the long cuffs over the ends of the shell sleeves.",
+      "descriptionDe": "Eng anliegend wählen, damit sich die Schnürsenkel mit Handschuhen binden lassen, und die langen Bündchen über die Ärmelenden der Shell ziehen.",
+      "designDescriptionEn": "matching pair black full-finger technical running gloves, long stretch cuffs, thin short silver reflective stripe on each back",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "0294a4cb8981357d5b2ae81e2e1035e5211be5bf57fa5b0fdebcccde0300d947",
+      "bytes": 30162,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        34,
+        32,
+        466,
+        463
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 리플렉티브 스트라이프 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 리플렉티브 스트라이프 장갑의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Black reflective stripe running gloves. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Schwarze Laufhandschuhe mit Reflexstreifen. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "장갑을 낀 채로도 끈을 묶을 수 있게 손에 꼭 맞는 사이즈를 골라요. 긴 커프는 셸 소매 끝 위로 덮어 써요.",
+        "en": "Choose a snug fit so you can tie your laces with the gloves still on, and wear the long cuffs over the ends of the shell sleeves.",
+        "de": "Eng anliegend wählen, damit sich die Schnürsenkel mit Handschuhen binden lassen, und die langen Bündchen über die Ärmelenden der Shell ziehen."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.04-hands",
+      "appCategory": "hands"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "오프화이트 그레이 러닝화",
+      "nameEn": "Off-white and grey running shoes",
+      "nameDe": "Offwhite-graue Laufschuhe",
+      "descriptionKo": "오프화이트 러닝화가 어두운 하의 아래에서 가장 밝은 포인트가 돼요. 출발 전 끈을 다시 조여 두툼한 쿠션 위에서 발이 밀리지 않게 해요.",
+      "descriptionEn": "The off-white shoes become the brightest point beneath the dark trousers; retighten the laces before you go so the foot stays put on the thick cushioning.",
+      "descriptionDe": "Die offwhite Schuhe werden unter der dunklen Hose zum hellsten Punkt; vor dem Start nachschnüren, damit der Fuß auf der dicken Dämpfung nicht rutscht.",
+      "designDescriptionEn": "matching pair off-white mesh running shoes, light grey and charcoal layered side overlays with generic curved geometry, grey laces, thick white cushioning midsole, small black outsole toe section, no brand motifs or text",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-shoes.webp",
+      "sha256": "28b4b0c1b4ed6ab95d59cc4349587b76d2a32670e0a636341385329fda40391c",
+      "bytes": 49466,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        44,
+        22,
+        456,
+        483
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "오프화이트 그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "오프화이트 그레이 러닝화의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Off-white and grey running shoes. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Offwhite-graue Laufschuhe. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "오프화이트 러닝화가 어두운 하의 아래에서 가장 밝은 포인트가 돼요. 출발 전 끈을 다시 조여 두툼한 쿠션 위에서 발이 밀리지 않게 해요.",
+        "en": "The off-white shoes become the brightest point beneath the dark trousers; retighten the laces before you go so the foot stays put on the thick cushioning.",
+        "de": "Die offwhite Schuhe werden unter der dunklen Hose zum hellsten Punkt; vor dem Start nachschnüren, damit der Fuß auf der dicken Dämpfung nicht rutscht."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.05-shoes",
+      "appCategory": "shoes"
+    },
+    {
+      "id": "06-socks",
+      "category": "socks",
+      "nameKo": "화이트 앵클 러닝 양말",
+      "nameEn": "White ankle running socks",
+      "nameDe": "Weiße knöchelhohe Laufsocken",
+      "descriptionKo": "발목 높이의 흰 양말이 신발 칼라 위로 살짝 보여 오프화이트 러닝화와 이어져요. 밑단과 신발 사이 작은 틈을 가볍게 메워요.",
+      "descriptionEn": "The white ankle socks peek just above the shoe collar and carry the off-white upward, filling the small gap between hem and shoe.",
+      "descriptionDe": "Die weißen Knöchelsocken blitzen knapp über dem Schuhrand hervor, führen das Offwhite nach oben und schließen die kleine Lücke zwischen Saum und Schuh.",
+      "designDescriptionEn": "matching pair white ribbed ankle running socks, pale grey heel and toe, visible white sock collar at shoe; reconstruct hidden foot simply",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/06-socks.webp",
+      "sha256": "23aeb88bc2de6c8a481a1c2363ed0f8a80b66bd7f969bc293f2e800c267a4c32",
+      "bytes": 36108,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        22,
+        69,
+        481,
+        450
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "화이트 앵클 러닝 양말 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "화이트 앵클 러닝 양말의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "White ankle running socks. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Weiße knöchelhohe Laufsocken. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "발목 높이의 흰 양말이 신발 칼라 위로 살짝 보여 오프화이트 러닝화와 이어져요. 밑단과 신발 사이 작은 틈을 가볍게 메워요.",
+        "en": "The white ankle socks peek just above the shoe collar and carry the off-white upward, filling the small gap between hem and shoe.",
+        "de": "Die weißen Knöchelsocken blitzen knapp über dem Schuhrand hervor, führen das Offwhite nach oben und schließen die kleine Lücke zwischen Saum und Schuh."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.06-socks",
+      "appCategory": "socks"
+    },
+    {
+      "id": "07-headband",
+      "category": "headband",
+      "nameKo": "차콜 멜란지 러닝 헤드밴드",
+      "nameEn": "Charcoal heather running headband",
+      "nameDe": "Anthrazitmeliertes Laufstirnband",
+      "descriptionKo": "멜란지 차콜 헤드밴드를 이마 위로 낮게 써서 귀를 덮어요. 부드러운 기모 질감이 매끈한 셸과 대비를 줘요.",
+      "descriptionEn": "Wear the heather charcoal band low on the forehead so it covers the ears; its soft brushed texture contrasts with the smooth shell.",
+      "descriptionDe": "Das melierte anthrazitfarbene Band tief in der Stirn tragen, damit es die Ohren bedeckt; die weich angeraute Oberfläche kontrastiert mit der glatten Shell.",
+      "designDescriptionEn": "wide charcoal-grey heather fleece technical ear headband, plain front, visible soft brushed fabric, open headband not a hat",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/07-headband.webp",
+      "sha256": "e6c0d976f6a16e1ad76ee844929b6ca012558cf8ba5296e79fc45e225cab166f",
+      "bytes": 48792,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        16,
+        119,
+        486,
+        384
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 멜란지 러닝 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 멜란지 러닝 헤드밴드의 색과 보이는 디테일을 승인 화보에 맞춰 복원했습니다.",
+        "en": "Charcoal heather running headband. Visible details reconstructed from the approved editorial; hidden parts conservatively inferred.",
+        "de": "Anthrazitmeliertes Laufstirnband. Sichtbare Details nach dem freigegebenen Editorial; verdeckte Teile behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "멜란지 차콜 헤드밴드를 이마 위로 낮게 써서 귀를 덮어요. 부드러운 기모 질감이 매끈한 셸과 대비를 줘요.",
+        "en": "Wear the heather charcoal band low on the forehead so it covers the ears; its soft brushed texture contrasts with the smooth shell.",
+        "de": "Das melierte anthrazitfarbene Band tief in der Stirn tragen, damit es die Ohren bedeckt; die weich angeraute Oberfläche kontrastiert mit der glatten Shell."
+      },
+      "appItemId": "rl-chilly-m35-night-run-20261025-03.07-headband",
+      "appCategory": "headwear"
+    }
+  ],
+  "copy": {
+    "titleKo": "다시 묶고, 다시 달리기",
+    "captionKo": "올리브와 차콜의 차분한 러닝 레이어",
+    "introKo": "올리브 셸과 차콜 팬츠를 겹쳐 입고, 밝은 러닝화로 마무리했어요. 장갑과 헤드밴드를 더해 비 오는 밤의 쌀쌀함에 맞췄어요.",
+    "tipKo": "출발 전 끈과 발목 주변을 정리하고 젖은 돌길에서는 속도를 낮춰 주세요.",
+    "title": {
+      "ko": "다시 묶고, 다시 달리기",
+      "en": "RETIE AND RUN AGAIN"
+    },
+    "deck": {
+      "ko": "올리브와 차콜의 차분한 러닝 레이어",
+      "en": "Calm running layers in olive and charcoal.",
+      "de": "Ruhige Laufschichten in Oliv und Anthrazit."
+    },
+    "intro": {
+      "ko": "올리브 셸과 차콜 팬츠를 겹쳐 입고, 밝은 러닝화로 마무리했어요. 장갑과 헤드밴드를 더해 비 오는 밤의 쌀쌀함에 맞췄어요.",
+      "en": "An olive shell layered over charcoal trousers, finished with bright running shoes. Gloves and a headband answer the chill of a rainy night.",
+      "de": "Eine olivgrüne Shell über anthrazitfarbener Hose, abgeschlossen mit hellen Laufschuhen. Handschuhe und Stirnband antworten auf die Kühle einer regnerischen Nacht."
+    },
+    "tip": {
+      "ko": "출발 전 끈과 발목 주변을 정리하고 젖은 돌길에서는 속도를 낮춰 주세요.",
+      "en": "Before setting off, sort out your laces and everything around the ankles, and slow down on wet cobbles.",
+      "de": "Vor dem Start Schnürsenkel und Knöchelbereich richten und auf nassem Kopfsteinpflaster langsamer laufen."
+    },
+    "pull": "ONE KNOT, THEN BACK INTO THE RAIN."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no separate per-product visual approval claimed",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped-local",
+  "appOutfitId": "rl-chilly-m35-night-run-20261025-03",
+  "appBuild": "b158 (local, unpublished)",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "run",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-run-20261025-03.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

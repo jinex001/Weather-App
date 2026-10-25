@@ -19,7 +19,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-25, 빌드 b157)
+## 현재 상태 (2026-10-25, 빌드 b158)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -397,3 +397,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b157 · 보통 비 · 쌀쌀함 · 여성 · 35+ · 낮 · 러닝 — 2026-10-25 세트 5룩 (2026-10-25)
 
 사용자 요청(제품 분해 → Claude Code main 반영). 로컬 전달 폴더(READY.json 40개 해시 확인)의 승인 에디토리얼 5장(01·04·05 864×1296, 02·03 1024×1536, 모두 2:3, 바이트 그대로·업스케일 없음) + 독립 투명 WebP 제품 28개(5/6/6/5/6, 500×500) → `look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/<01–05>/`, 보충 파일 `look/rain-normal-female-day-running-20261025.js`(cutouts.js 앞). **첫 보통 비 룩**: `rn-chilly-f35-day-run-20261025-NN`(`sky: rain`, `rain: normal`, chilly · f · 35 · run, 낮이라 `time` 없음). 보통 비(63·66·81) 낮 여성 러닝은 플레이스홀더 → 이 5룩 중 3개. 가벼운 비·쏟아지는 비·저녁·다른 스타일/성별 화면은 그대로(앱 `lookFits`를 jsc로 돌려 전후 비교). 한국어 마스터(제목·요약·인트로·팁·제품 이름) 그대로, 영어 대문자 제목·인용구·en/de 문구와 제품별 ko/en/de 입는 법은 에디토리얼·`designDescriptionEn` 보고 새로 씀. 대표 컷 = 각 룩 아우터 WebP(HERO·CUTS 5행). 모델 외관은 승인된 대로 약 28–32세(새 여성 기본 25–28세로 바꾸지 않음). 9°C / 체감 6°C는 제작 가정. 01·05 이너는 사진에 안 보여 추정 복원(`not-visible-inferred`), 양말은 안 보여 제외. 제품은 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 아님). 180룩 · 1166아이템 · 기사 180. `cutouts.js?v=b157`. [검증](design/rain-normal-female-day-running-20261025-validation.md).
+
+## b158 · 가벼운 비 · 쌀쌀함 · 남성 · 35+ · 저녁 · 러닝 — 2026-10-25 세트 5룩 (2026-10-25, 로컬 브랜치)
+
+사용자 요청(제품 분해 → **로컬 통합만**; GitHub 업로드·main 병합·배포는 별도 승인 대기). 로컬 전달 폴더(READY.json 42개 해시 확인)의 승인 에디토리얼 5장(01–03 700×1050, 04–05 800×1200, 모두 2:3, 바이트 그대로·업스케일 없음) + 독립 투명 WebP 제품 30개(7/6/7/5/5, 500×500, ≤49,466 B) → `look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/<01–05>/`, 보충 파일 `look/rain-light-male-night-running-20261025.js`(cutouts.js 앞). 룩 `rl-chilly-m35-night-run-20261025-NN`(`sky: rain`, `rain: light`, chilly · m · 35 · run, `time: evening`). 가벼운 비(51–57·61·80) 저녁 남성 러닝은 플레이스홀더 → 이 5룩 중 3개. 낮 가벼운 비 남성 러닝(`bl-light-chilly-m-35-day-run-*`)·보통 비·쏟아지는 비·마른 저녁·다른 스타일/성별 화면은 그대로(앱 `lookFits`를 jsc로 돌려 전후 비교). 한국어 마스터(제목·요약·인트로·팁·제품 이름) 그대로, 영어 대문자 제목·인용구·en/de 문구와 제품별 ko/en/de 입는 법은 에디토리얼·`designDescriptionEn` 보고 새로 씀. 분류 headband → 기존 headwear. 대표 컷 = 각 룩 아우터 WebP(HERO·CUTS 5행, 사용자 지시; 04 제목 PLUM은 이너 색이지만 아우터 사용). 모델 외관 약 28–32세(승인대로). 숫자 기온 없음(null 의도), 베를린 밤은 창작 배경이고 실시간 날씨 아님. 양말은 01·03만, 04 신발·05 이너는 안 보여 없음, 04 물병은 소품이라 제외. 제품은 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 아님). 185룩 · 1196아이템 · 기사 185. `cutouts.js?v=b158`. [검증](design/rain-light-male-night-running-20261025-validation.md).

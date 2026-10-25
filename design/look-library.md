@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-25 (앱 빌드 b157) · 180룩 · 1166아이템 · 기사 룩 180 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-25 (앱 빌드 b158, 로컬·미발행) · 185룩 · 1196아이템 · 기사 룩 185 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -209,3 +209,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b157 · Rain / Normal / Chilly / Female / 35+ / Day / Running — 2026-10-25 set (5 looks)
 
 첫 보통 비 세트. 에디토리얼 5장 + 독립 투명 WebP 제품 28개(5/6/6/5/6), `look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/running-20261025/<01–05>/`, 보충 파일 `look/rain-normal-female-day-running-20261025.js`. 룩 `rn-chilly-f35-day-run-20261025-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: run`, 낮 = `time` 없음). 01 코발트 셸 · 02 그레이 셸 + 캡 · 03 올리브 셸 + 스포츠 워치 · 04 코럴 셸 · 05 네이비 셸 + 플럼 타이츠 + 차콜 헤드밴드. 장갑·신발 한 켤레 = 제품 1개, 양말 없음. 대표 컷 = 아우터 WebP(HERO·CUTS 5행). [검증](rain-normal-female-day-running-20261025-validation.md).
+
+## b158 · Rain / Light / Chilly / Male / 35+ / Night / Running — 2026-10-25 set (5 looks, local)
+
+에디토리얼 5장(01–03 700×1050, 04–05 800×1200, 모두 2:3) + 독립 투명 WebP 제품 30개(7/6/7/5/5), `look/berlin-complete/Rain/Light/Chilly/Male/35+/night/running-20261025/<01–05>/`, 보충 파일 `look/rain-light-male-night-running-20261025.js`. 룩 `rl-chilly-m35-night-run-20261025-NN`(`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: run`, `time: evening`). 01 차콜 셸 · 02 코발트 셸 · 03 올리브 셸 · 04 웜 그레이 셸 + 플럼 이너 · 05 번트 오렌지 셸 + 네이비 팬츠. 양말은 01·03만, 04 신발·05 이너는 안 보여 없음, 04 물병은 장면 소품이라 제품 아님. 분류 매핑 headband → headwear(products.json `appCategory`, 제작 측 `category` 보존). 대표 컷 = 아우터 WebP(HERO·CUTS 5행). 숫자 기온 없음(`temperatureC: null` 의도). [검증](rain-light-male-night-running-20261025-validation.md).
