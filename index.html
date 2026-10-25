@@ -68,6 +68,15 @@
   .art-drop { opacity: 0; animation: art-fall .9s linear infinite; }
   /* rain (b154): teardrops falling straight down from under the clouds, speeding up */
   .art-tear { opacity: 0; animation: art-tear 1.1s cubic-bezier(.5,0,1,1) infinite; }
+  /* drops falling onto the big number and splashing (b155), built by rainFx */
+  .app { position: relative; }
+  .rfx { position: absolute; left: 0; top: 0; width: 100%; pointer-events: none; z-index: 1; }
+  .rfx svg { position: absolute; left: 0; top: 0; overflow: visible; }
+  .rf-ring { animation-name: rf-ring; } .rf-l { animation-name: rf-l; } .rf-r { animation-name: rf-r; } .rf-c { animation-name: rf-c; }
+  @keyframes rf-ring { 0%,62% { opacity: 0; transform: scale(.2); } 63% { opacity: 1; transform: scale(.3); } 85% { opacity: 0; transform: scale(1.5); } 100% { opacity: 0; } }
+  @keyframes rf-l { 0%,62% { opacity: 0; transform: translate(0,0); } 63% { opacity: 1; } 72% { transform: translate(-7px,-9px); } 84% { opacity: .8; transform: translate(-11px,-2px); } 88%,100% { opacity: 0; transform: translate(-12px,1px); } }
+  @keyframes rf-r { 0%,62% { opacity: 0; transform: translate(0,0); } 63% { opacity: 1; } 72% { transform: translate(7px,-10px); } 84% { opacity: .8; transform: translate(11px,-3px); } 88%,100% { opacity: 0; transform: translate(12px,1px); } }
+  @keyframes rf-c { 0%,63% { opacity: 0; transform: translate(0,0); } 64% { opacity: 1; } 73% { transform: translate(0,-12px); } 82%,100% { opacity: 0; transform: translate(0,-4px); } }
   @keyframes art-tear { 0% { opacity: 0; transform: translateY(-4px); } 15%,80% { opacity: 1; } 100% { opacity: 0; transform: translateY(26px); } }
   /* drizzle (b141): many fine short lines drifting down slowly across the whole screen width */
   .art-dz { opacity: 0; animation: art-dz 2s linear infinite; }
@@ -556,7 +565,7 @@
 <script src="look/rain-female-night-street-20261024.js?v=b150"></script>
 <script src="look/rain-female-night-minimal.js?v=b151"></script>
 <script src="look/overcast-female-night-20261025.js?v=b153"></script>
-<script src="look/cutouts.js?v=b154"></script>
+<script src="look/cutouts.js?v=b155"></script>
 <script>
 (function () {
   "use strict";
@@ -775,10 +784,13 @@
   }
   // Teardrops under the clouds (b154): tip up at (x, y), radius r
   var TEARS = [[58, 126, 0], [78, 132, .45], [98, 126, .2], [118, 132, .65], [138, 126, .35], [160, 130, .8], [200, 100, .1], [218, 104, .55]];
+  function tearPath(x, y, r) {
+    return "M" + x + " " + y + "c" + (r * .55).toFixed(1) + " " + (r * .8).toFixed(1) + " " + r + " " + (r * 1.45).toFixed(1) + " " + r + " " + 2 * r +
+      "a" + r + " " + r + " 0 0 1-" + 2 * r + " 0c0-" + (r * .55).toFixed(1) + " " + (r * .45).toFixed(1) + "-" + (r * 1.2).toFixed(1) + " " + r + "-" + 2 * r + "z";
+  }
   function tears(r) {
     return '<g fill="#8FB8DE">' + TEARS.map(function (d) {
-      return '<path class="art-tear" style="animation-delay:' + d[2] + 's" d="M' + d[0] + " " + d[1] + "c" + (r * .55).toFixed(1) + " " + (r * .8).toFixed(1) + " " + r + " " + (r * 1.45).toFixed(1) + " " + r + " " + 2 * r +
-        "a" + r + " " + r + " 0 0 1-" + 2 * r + " 0c0-" + (r * .55).toFixed(1) + " " + (r * .45).toFixed(1) + "-" + (r * 1.2).toFixed(1) + " " + r + "-" + 2 * r + 'z"/>';
+      return '<path class="art-tear" style="animation-delay:' + d[2] + 's" d="' + tearPath(d[0], d[1], r) + '"/>';
     }).join("") + "</g>";
   }
   function drift(y, scale, fill, dur, delay) {
@@ -828,6 +840,53 @@
       '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#343E4C"/><path class="art-bob" d="' + CLOUD + '" fill="#4A5666"/></g>' +
       drift(112, .38, "#5D6979", 23, 0) + drift(-4, .26, "#5D6979", 30, -18) + "</svg>"
   };
+  // Rain onto the big number (b155): the drops fall from under the cloud down to the top of each digit and splash
+  // (a ripple widening + three tiny droplets thrown up). How many drops, how big and how fast follow the rain amount
+  // (rainLevel of the current code). Drops over a gap between digits vanish at the cap line. Rebuilt after every paint
+  // and resize; not with reduced motion (the art keeps its still teardrops then).
+  var SPLASH = { light: { n: 5, t: 1.9, r: 3.6 }, normal: { n: 8, t: 1.5, r: 4.2 }, pouring: { n: 14, t: 1.05, r: 4.6 } };
+  var SPLASH_AT = [[58, 126, 0], [118, 132, .43], [200, 100, .07], [98, 126, .13], [160, 130, .53], [78, 132, .3], [138, 126, .23], [218, 104, .37],
+    [68, 128, .2], [88, 134, .5], [108, 128, .03], [128, 134, .33], [150, 128, .6], [208, 102, .57]];
+  var splashLevel = null;
+  function rainFx(level) {
+    if (level !== undefined) splashLevel = level;
+    var old = document.getElementById("rfx"); if (old) old.remove();
+    var art = $("art"), t = $("temp"), L = SPLASH[splashLevel];
+    if (!L || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var svgArt = art.querySelector("svg"); if (!svgArt) return;
+    var app = art.parentNode.closest(".app"), pr = app.getBoundingClientRect(), ar = art.getBoundingClientRect();
+    var ox = ar.left - pr.left + ar.width / 2 - 120, oy = ar.top - pr.top;
+    // ink box of every glyph in the big number (Anton): its top is where a drop lands
+    var cv = document.createElement("canvas").getContext("2d"), boxes = [];
+    (function walk(n) {
+      if (n.nodeType !== 3) { n.childNodes.forEach(walk); return; }
+      var fs = parseFloat(getComputedStyle(n.parentNode).fontSize);
+      cv.font = fs + "px Anton";
+      for (var i = 0; i < n.data.length; i++) {
+        if (!n.data[i].trim()) continue;
+        var rg = document.createRange(); rg.setStart(n, i); rg.setEnd(n, i + 1);
+        var rc = rg.getBoundingClientRect(), m = cv.measureText(n.data[i]);
+        var base = rc.top + m.fontBoundingBoxAscent * rc.height / (m.fontBoundingBoxAscent + m.fontBoundingBoxDescent);
+        boxes.push({ l: rc.left - pr.left + Math.max(0, -m.actualBoundingBoxLeft) + 4, r: rc.left - pr.left + m.actualBoundingBoxRight - 4, top: base - m.actualBoundingBoxAscent - pr.top });
+      }
+    })(t);
+    if (!boxes.length) return;
+    svgArt.querySelectorAll(".art-tear").forEach(function (p) { p.style.display = "none"; });
+    var cap = Math.min.apply(null, boxes.map(function (b) { return b.top; })), R = L.r, T = L.t, k = 0;
+    var css = ".rf-s{opacity:0;animation:" + T + "s linear infinite}", svg = "";
+    SPLASH_AT.slice(0, L.n).forEach(function (d) {
+      var x = ox + d[0], y0 = oy + d[1], dl = (d[2] * T).toFixed(2) + "s";
+      var hit = boxes.filter(function (b) { return x >= b.l && x <= b.r; })[0], y1 = hit ? hit.top + 2 : cap - 6, fall = Math.round(y1 - y0 - 2 * R);
+      css += "@keyframes rf" + k + "{0%{opacity:0;transform:translateY(-4px)}6%{opacity:1}62%{opacity:1;transform:translateY(" + fall + "px)}62.1%,100%{opacity:0;transform:translateY(" + fall + "px)}}";
+      svg += '<path style="animation:rf' + k++ + " " + T + "s cubic-bezier(.45,0,1,1) " + dl + ' infinite" d="' + tearPath(x, y0, R) + '"/>';
+      if (hit) svg += '<g transform="translate(' + x + " " + y1 + ') scale(' + (R / 4.2).toFixed(2) + ')"><ellipse class="rf-s rf-ring" style="animation-delay:' + dl + '" rx="7" ry="1.6" fill="none" stroke="#8FB8DE" stroke-width="1.6"/>' +
+        '<circle class="rf-s rf-l" style="animation-delay:' + dl + '" r="1.8"/><circle class="rf-s rf-r" style="animation-delay:' + dl + '" r="1.8"/><circle class="rf-s rf-c" style="animation-delay:' + dl + '" r="1.4"/></g>';
+    });
+    var fx = document.createElement("div"); fx.id = "rfx"; fx.className = "rfx";
+    fx.innerHTML = "<style>" + css + "</style><svg width=\"100%\" height=\"" + Math.ceil(cap + 30) + "\" fill=\"#8FB8DE\">" + svg + "</svg>";
+    app.appendChild(fx);
+  }
+
   // Fog: a cloud (day: with a sliver of sun behind it) dissolving into horizontal bands that slowly sway
   function fogArt(top, back, front, band) {
     var b = [[54, 196, 100, 0], [26, 150, 120, -2.5], [172, 214, 120, -2.5], [62, 222, 140, -5], [36, 128, 160, -1]];
@@ -920,7 +979,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b154";
+  var BUILD = "b155";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1478,8 +1537,8 @@
     img.style.cssText = "left:" + left + "px;top:" + top + "px;width:" + w + "px;height:" + h + "px";
     img.hidden = false;
   }
-  addEventListener("resize", function () { fitHead(); placeCut(); });
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitHead(); placeCut(); });
+  addEventListener("resize", function () { fitHead(); placeCut(); rainFx(); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitHead(); placeCut(); rainFx(); });
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
@@ -1641,11 +1700,13 @@
     $("city-n").textContent = placeName(place);
     $("date").textContent = dateLine(nowLocal);
     $("art").innerHTML = artFor(state, cur.weather_code, isDay);
+    var rc = cur.weather_code, rainArt = (state === "rain" || state === "rain-night") && !isDrizzle(rc) && !isShower(rc);
 
     var t = r(cur.temperature_2m);
     var tempEl = $("temp");
     tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
     tempEl.classList.toggle("long", String(t).length >= 3);
+    rainFx(rainArt ? rainLevel(rc) : null);
     $("cond").textContent = condLabel(cur.weather_code, isDay);
     $("sub").textContent = fmt(T.sub, { h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)), w: r(cur.wind_speed_10m || 0) });
 
