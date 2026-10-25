@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-run-20261025-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32 as in approved editorials; no recasting during breakdown",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "liveWeather": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "코럴 러닝 셸 재킷",
+      "nameEn": "Coral running shell jacket",
+      "nameDe": "Lauf-Shelljacke in Koralle",
+      "descriptionKo": "한 손으로 밑단을 잡고 지퍼를 턱 아래까지 올려 후드 칼라로 목을 감싸요. 사선 지퍼 포켓은 닫아 두면 빗물이 들지 않아요.",
+      "descriptionEn": "Hold the hem with one hand and run the zip up under the chin so the hooded collar wraps the neck; keep the angled zip pockets closed against the rain.",
+      "descriptionDe": "Mit einer Hand den Saum halten und den Reißverschluss bis unters Kinn ziehen, damit der Kapuzenkragen den Hals umschließt; die schrägen Reißverschlusstaschen gegen den Regen geschlossen halten.",
+      "designDescriptionEn": "burnt coral hooded lightweight running shell with dark grey full zip and two angled zip pockets, silver reflective shoulder/chest strips, elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "e294c906867a475fec611f3d5c9c44a0a0f6fa21e3834193fc52d64a0c492712",
+      "bytes": 40412,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        9,
+        8,
+        492,
+        473
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "코럴 러닝 셸 재킷 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "코럴 러닝 셸 재킷. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Coral running shell jacket. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauf-Shelljacke in Koralle. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "한 손으로 밑단을 잡고 지퍼를 턱 아래까지 올려 후드 칼라로 목을 감싸요. 사선 지퍼 포켓은 닫아 두면 빗물이 들지 않아요.",
+        "en": "Hold the hem with one hand and run the zip up under the chin so the hooded collar wraps the neck; keep the angled zip pockets closed against the rain.",
+        "de": "Mit einer Hand den Saum halten und den Reißverschluss bis unters Kinn ziehen, damit der Kapuzenkragen den Hals umschließt; die schrägen Reißverschlusstaschen gegen den Regen geschlossen halten."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-04.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 롱슬리브 베이스 레이어",
+      "nameEn": "Black long-sleeve base layer",
+      "nameDe": "Schwarzes Langarm-Baselayer",
+      "descriptionKo": "셸을 끝까지 잠가도 칼라 안쪽에 블랙 넥라인이 얇게 보이도록 받쳐 입어요. 코럴이 더 선명해 보여요.",
+      "descriptionEn": "Wear it so a thin black neckline still shows inside the fully closed collar; it makes the coral read brighter.",
+      "descriptionDe": "So tragen, dass im ganz geschlossenen Kragen noch ein schmaler schwarzer Ausschnitt zu sehen ist; die Koralle wirkt dadurch kräftiger.",
+      "designDescriptionEn": "black fitted long-sleeve crewneck technical running base layer, visible as slim dark neckline under shell, hidden torso plain reconstruction",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "55c3a6752c20a274131f59c529f7feb050b127024afa732b82cd8354ca1306fd",
+      "bytes": 25614,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        17,
+        33,
+        486,
+        473
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 롱슬리브 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 롱슬리브 베이스 레이어. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black long-sleeve base layer. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Langarm-Baselayer in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "셸을 끝까지 잠가도 칼라 안쪽에 블랙 넥라인이 얇게 보이도록 받쳐 입어요. 코럴이 더 선명해 보여요.",
+        "en": "Wear it so a thin black neckline still shows inside the fully closed collar; it makes the coral read brighter.",
+        "de": "So tragen, dass im ganz geschlossenen Kragen noch ein schmaler schwarzer Ausschnitt zu sehen ist; die Koralle wirkt dadurch kräftiger."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-04.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 러닝 타이츠",
+      "nameEn": "Black running tights",
+      "nameDe": "Schwarze Lauftight",
+      "descriptionKo": "종아리의 반사 곡선이 뒤에서 오는 차에도 보이도록 발목까지 당겨 입어요.",
+      "descriptionEn": "Pull them right down to the ankle so the curved reflective calf stripes are visible to traffic behind you.",
+      "descriptionDe": "Bis zum Knöchel herunterziehen, damit die geschwungenen Reflexstreifen an den Waden für den Verkehr hinter dir sichtbar sind.",
+      "designDescriptionEn": "black full-length running tights with curved fine silver reflective lower calf stripes, plain elastic waist",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "7ad2b73ab39f032cefd061ef3d75a924455df943beb011619bc3f72b3b681a97",
+      "bytes": 13858,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        134,
+        12,
+        366,
+        488
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 타이츠. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running tights. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauftights in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "종아리의 반사 곡선이 뒤에서 오는 차에도 보이도록 발목까지 당겨 입어요.",
+        "en": "Pull them right down to the ankle so the curved reflective calf stripes are visible to traffic behind you.",
+        "de": "Bis zum Knöchel herunterziehen, damit die geschwungenen Reflexstreifen an den Waden für den Verkehr hinter dir sichtbar sind."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-04.03-bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 러닝 장갑",
+      "nameEn": "Black running gloves",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "descriptionKo": "손가락 끝까지 바짝 껴서 젖은 지퍼 손잡이도 놓치지 않게 해요. 손가락 마디의 반사 점 무늬가 손짓을 따라 빛나요.",
+      "descriptionEn": "Pull them snug to the fingertips so you don't lose a wet zip pull; the reflective dots over the knuckles catch the light as your hands move.",
+      "descriptionDe": "Eng bis in die Fingerspitzen ziehen, damit der nasse Zipper nicht entgleitet; die Reflexpunkte über den Knöcheln blitzen bei jeder Handbewegung.",
+      "designDescriptionEn": "matching pair black full-finger technical running gloves with tiny silver reflective dotted accents across knuckle area",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "221ccf4a999ca3bd1abb609ac9e4c465dde6d813404d49ac29dff662326c9dd7",
+      "bytes": 29202,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        45,
+        36,
+        456,
+        459
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 장갑. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running gloves. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufhandschuhe in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "손가락 끝까지 바짝 껴서 젖은 지퍼 손잡이도 놓치지 않게 해요. 손가락 마디의 반사 점 무늬가 손짓을 따라 빛나요.",
+        "en": "Pull them snug to the fingertips so you don't lose a wet zip pull; the reflective dots over the knuckles catch the light as your hands move.",
+        "de": "Eng bis in die Fingerspitzen ziehen, damit der nasse Zipper nicht entgleitet; die Reflexpunkte über den Knöcheln blitzen bei jeder Handbewegung."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-04.04-hands"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 러닝화",
+      "nameEn": "Grey running shoes",
+      "nameDe": "Graue Laufschuhe",
+      "descriptionKo": "끈을 고르게 조여 젖은 점자 블록 위에서도 발이 흔들리지 않게 해요. 흰 미드솔이 블랙 타이츠 끝을 깔끔하게 끊어 줘요.",
+      "descriptionEn": "Tighten the laces evenly so your feet stay steady on wet tactile paving; the white midsoles give the black tights a clean end.",
+      "descriptionDe": "Die Schnürung gleichmäßig anziehen, damit die Füße auch auf nassen Leitstreifen ruhig stehen; die weißen Zwischensohlen setzen unter die schwarze Tight einen klaren Abschluss.",
+      "designDescriptionEn": "matching pair grey mesh lace-up running shoes, grey synthetic side overlays, thick white midsole and black rubber outsole, unbranded",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-shoes.webp",
+      "sha256": "0fb298fe00281b472406c934e18a8b96a01fa4bc3909d998495ce0a9e8c43187",
+      "bytes": 46630,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        41,
+        18,
+        459,
+        482
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝화. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Grey running shoes. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufschuhe in Grau. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "끈을 고르게 조여 젖은 점자 블록 위에서도 발이 흔들리지 않게 해요. 흰 미드솔이 블랙 타이츠 끝을 깔끔하게 끊어 줘요.",
+        "en": "Tighten the laces evenly so your feet stay steady on wet tactile paving; the white midsoles give the black tights a clean end.",
+        "de": "Die Schnürung gleichmäßig anziehen, damit die Füße auch auf nassen Leitstreifen ruhig stehen; die weißen Zwischensohlen setzen unter die schwarze Tight einen klaren Abschluss."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-04.05-shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "찬 빗방울에 지퍼를 올리며",
+    "captionKo": "코럴 셸이 중심이 되는 러닝 룩",
+    "introKo": "코럴 셸 한 벌을 포인트로 두고 베이스 레이어와 타이츠는 블랙으로 정리했어요. 목 주변 여밈은 움직임에 맞게 조절해 주세요.",
+    "tipKo": "열이 오르면 잠깐 멈춰 지퍼를 조절하세요.",
+    "title": {
+      "ko": "찬 빗방울에 지퍼를 올리며",
+      "en": "ZIPPING UP AGAINST COLD DROPS"
+    },
+    "deck": {
+      "ko": "코럴 셸이 중심이 되는 러닝 룩",
+      "en": "A running look built around a coral shell.",
+      "de": "Ein Laufoutfit rund um eine korallenrote Shell."
+    },
+    "intro": {
+      "ko": "코럴 셸 한 벌을 포인트로 두고 베이스 레이어와 타이츠는 블랙으로 정리했어요. 목 주변 여밈은 움직임에 맞게 조절해 주세요.",
+      "en": "One coral shell is the accent; the base layer and tights stay black. Adjust the closure at the neck as you move.",
+      "de": "Eine korallenrote Shell setzt den Akzent, Baselayer und Tight bleiben schwarz. Den Verschluss am Hals beim Laufen nach Bedarf anpassen."
+    },
+    "tip": {
+      "ko": "열이 오르면 잠깐 멈춰 지퍼를 조절하세요.",
+      "en": "When you warm up, pause briefly to adjust the zip.",
+      "de": "Wird es warm, kurz anhalten und den Reißverschluss nachstellen."
+    },
+    "pull": "ONE CORAL LAYER DOES THE TALKING."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no claim of separate product-by-product visual approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-run-20261025-04",
+  "appBuild": "b157",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-run-20261025-04.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

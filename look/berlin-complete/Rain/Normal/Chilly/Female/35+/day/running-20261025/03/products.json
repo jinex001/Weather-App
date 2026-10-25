@@ -1,0 +1,361 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-run-20261025-03",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "running"
+  },
+  "casting": {
+    "modelAppearanceAge": "approximately 28–32 as in approved editorials; no recasting during breakdown",
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "stylingAssumption": {
+    "temperatureC": 9,
+    "feelsLikeC": 6,
+    "liveWeather": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 6,
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "올리브 러닝 셸 재킷",
+      "nameEn": "Olive running shell jacket",
+      "nameDe": "Lauf-Shelljacke in Oliv",
+      "descriptionKo": "지퍼를 끝까지 올리고 후드는 등 뒤로 넘겨 두세요. 고무 소매 끝이 손목뼈 위에 오면 워치를 볼 때 소매를 밀어 올리기 쉬워요.",
+      "descriptionEn": "Zip it fully and leave the hood folded at the back; with the elastic cuffs resting just above the wrist bone, a sleeve slides back easily for the watch.",
+      "descriptionDe": "Ganz schließen, die Kapuze hinten liegen lassen; sitzen die elastischen Bündchen knapp über dem Handgelenk, lässt sich der Ärmel für den Blick auf die Uhr leicht zurückschieben.",
+      "designDescriptionEn": "muted dark olive lightweight hooded running shell, black full center zip and zip pockets, thin curved silver reflective shoulder and side piping, elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "sha256": "a082d623c6704fbc974515d6a901fbe92878f9a34837b75789485fa07960f526",
+      "bytes": 36416,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        10,
+        9,
+        490,
+        490
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "올리브 러닝 셸 재킷 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "올리브 러닝 셸 재킷. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Olive running shell jacket. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauf-Shelljacke in Oliv. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 끝까지 올리고 후드는 등 뒤로 넘겨 두세요. 고무 소매 끝이 손목뼈 위에 오면 워치를 볼 때 소매를 밀어 올리기 쉬워요.",
+        "en": "Zip it fully and leave the hood folded at the back; with the elastic cuffs resting just above the wrist bone, a sleeve slides back easily for the watch.",
+        "de": "Ganz schließen, die Kapuze hinten liegen lassen; sitzen die elastischen Bündchen knapp über dem Handgelenk, lässt sich der Ärmel für den Blick auf die Uhr leicht zurückschieben."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-03.01-outer"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "블랙 롱슬리브 베이스 레이어",
+      "nameEn": "Black long-sleeve base layer",
+      "nameDe": "Schwarzes Langarm-Baselayer",
+      "descriptionKo": "크루넥 라인만 셸 안쪽에 살짝 보이게 입어요. 소매는 장갑 커프 안까지 내려 손목 틈을 막아요.",
+      "descriptionEn": "Let only the crew neckline show inside the shell, and pull the sleeves down into the glove cuffs to close the gap at the wrist.",
+      "descriptionDe": "Nur den Rundhalsausschnitt innen an der Shell zeigen und die Ärmel bis in die Handschuhbündchen ziehen, damit am Handgelenk keine Lücke bleibt.",
+      "designDescriptionEn": "black fitted long-sleeve crewneck running base layer, tiny neckline partially visible inside shell; hidden parts plain conservative reconstruction",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "sha256": "cad0bf72f03ce8093454bf833ad9594ca8efe0f1500a0cdbe11873d584ae3a11",
+      "bytes": 24892,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        14,
+        30,
+        486,
+        471
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 롱슬리브 베이스 레이어 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 롱슬리브 베이스 레이어. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black long-sleeve base layer. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Langarm-Baselayer in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "크루넥 라인만 셸 안쪽에 살짝 보이게 입어요. 소매는 장갑 커프 안까지 내려 손목 틈을 막아요.",
+        "en": "Let only the crew neckline show inside the shell, and pull the sleeves down into the glove cuffs to close the gap at the wrist.",
+        "de": "Nur den Rundhalsausschnitt innen an der Shell zeigen und die Ärmel bis in die Handschuhbündchen ziehen, damit am Handgelenk keine Lücke bleibt."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-03.02-top"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "차콜 러닝 타이츠",
+      "nameEn": "Charcoal running tights",
+      "nameDe": "Lauftight in Anthrazit",
+      "descriptionKo": "셸 밑단이 허리를 덮을 만큼 높게 올려 입어요. 무릎 아래 작은 반사 포인트가 문가의 어두운 그늘에서도 보여요.",
+      "descriptionEn": "Wear them high enough for the shell hem to cover the waistband; the small reflective accents below the knee still show in a shaded doorway.",
+      "descriptionDe": "So hoch tragen, dass der Shellsaum den Bund bedeckt; die kleinen Reflexakzente unter dem Knie bleiben auch im schattigen Hauseingang sichtbar.",
+      "designDescriptionEn": "charcoal heather full-length running tights with small lower leg reflective accents, simple elastic waistband",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "sha256": "63dca74cf4331244006a618fef478c725fef12e592ccbd4b8d39d28484046238",
+      "bytes": 18412,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        142,
+        18,
+        358,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 러닝 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 러닝 타이츠. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Charcoal running tights. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Lauftights in Anthrazit. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "셸 밑단이 허리를 덮을 만큼 높게 올려 입어요. 무릎 아래 작은 반사 포인트가 문가의 어두운 그늘에서도 보여요.",
+        "en": "Wear them high enough for the shell hem to cover the waistband; the small reflective accents below the knee still show in a shaded doorway.",
+        "de": "So hoch tragen, dass der Shellsaum den Bund bedeckt; die kleinen Reflexakzente unter dem Knie bleiben auch im schattigen Hauseingang sichtbar."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-03.03-bottom"
+    },
+    {
+      "id": "04-hands",
+      "category": "hands",
+      "nameKo": "블랙 러닝 장갑",
+      "nameEn": "Black running gloves",
+      "nameDe": "Schwarze Laufhandschuhe",
+      "descriptionKo": "얇은 핏이라 낀 채로 워치 버튼을 누를 수 있어요. 손등의 은색 반사 사선이 바깥으로 오게 껴요.",
+      "descriptionEn": "They're thin enough to press the watch buttons without taking them off; keep the silver reflective slash on the back facing out.",
+      "descriptionDe": "Dünn genug, um die Uhrtasten mit Handschuh zu drücken; den silbernen Reflexstrich auf dem Handrücken nach außen tragen.",
+      "designDescriptionEn": "matching pair black fabric full-finger running gloves, one small silver reflective slash on back, simple elastic cuffs",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-hands.webp",
+      "sha256": "7790b9d65943f9d47d848ff43dc66528e541c870a8343e1b947bafaeadd30c9f",
+      "bytes": 30328,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        19,
+        40,
+        481,
+        458
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 러닝 장갑. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Black running gloves. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufhandschuhe in Schwarz. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "얇은 핏이라 낀 채로 워치 버튼을 누를 수 있어요. 손등의 은색 반사 사선이 바깥으로 오게 껴요.",
+        "en": "They're thin enough to press the watch buttons without taking them off; keep the silver reflective slash on the back facing out.",
+        "de": "Dünn genug, um die Uhrtasten mit Handschuh zu drücken; den silbernen Reflexstrich auf dem Handrücken nach außen tragen."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-03.04-hands"
+    },
+    {
+      "id": "05-watch",
+      "category": "accessory",
+      "nameKo": "다크 스포츠 워치",
+      "nameEn": "Dark sports watch",
+      "nameDe": "Dunkle Sportuhr",
+      "descriptionKo": "장갑 커프 바로 위 손목에 차서 소매를 살짝 밀면 화면이 바로 보이게 해요. 타공 스트랩은 젖어도 가볍게 붙어 있어요.",
+      "descriptionEn": "Wear it on the wrist just above the glove cuff, so a small push of the sleeve brings the face into view; the perforated strap stays light when wet.",
+      "descriptionDe": "Direkt über dem Handschuhbündchen am Handgelenk tragen, so genügt ein kurzer Ärmelschub für den Blick aufs Zifferblatt; das gelochte Armband bleibt auch nass leicht.",
+      "designDescriptionEn": "single round sports watch with dark round bezel, slightly warm bronze-grey rim, black perforated silicone strap, blank dark inactive glass face, strap arranged in one tidy continuous open loop; no hands or readable interface",
+      "reconstruction": "visible-item-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-watch.webp",
+      "sha256": "2177719bee6f7cd4d1e51a17991f03a5dabbdca21c41c2b418f4c3ea971b67bd",
+      "bytes": 29330,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        76,
+        19,
+        442,
+        480
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "다크 스포츠 워치 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "다크 스포츠 워치. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Dark sports watch. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Sportuhr in Dunkel. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "장갑 커프 바로 위 손목에 차서 소매를 살짝 밀면 화면이 바로 보이게 해요. 타공 스트랩은 젖어도 가볍게 붙어 있어요.",
+        "en": "Wear it on the wrist just above the glove cuff, so a small push of the sleeve brings the face into view; the perforated strap stays light when wet.",
+        "de": "Direkt über dem Handschuhbündchen am Handgelenk tragen, so genügt ein kurzer Ärmelschub für den Blick aufs Zifferblatt; das gelochte Armband bleibt auch nass leicht."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-03.05-watch"
+    },
+    {
+      "id": "06-shoes",
+      "category": "shoes",
+      "nameKo": "라이트 그레이 러닝화",
+      "nameEn": "Light grey running shoes",
+      "nameDe": "Hellgraue Laufschuhe",
+      "descriptionKo": "멈췄다 다시 달려도 발이 고정되도록 끈을 이중 매듭으로 묶어요. 밝은 갑피가 어두운 타이츠 아래에서 발끝을 드러내요.",
+      "descriptionEn": "Double-knot the laces so your feet stay locked in when you stop and start; the pale uppers mark your feet below the dark tights.",
+      "descriptionDe": "Die Schnürsenkel doppelt knoten, damit die Füße beim Anhalten und Losgehen fest sitzen; das helle Obermaterial setzt die Füße unter der dunklen Tight ab.",
+      "designDescriptionEn": "matching pair pale grey mesh running shoes with pale grey lace-up uppers, off-white midsoles and grey rubber outsole; only partial reference shoe visible, conservative matching pair reconstruction",
+      "reconstruction": "partially-visible-reconstructed",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/06-shoes.webp",
+      "sha256": "3c4a596d833c8db731193daa3da04b1b15bfca8e69269ded18fc9c4ecb6daefe",
+      "bytes": 48462,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        53,
+        17,
+        448,
+        484
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "라이트 그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "라이트 그레이 러닝화. 승인 에디토리얼의 색과 보이는 디테일을 기준으로 복원했으며 가려진 형태는 보완했습니다.",
+        "en": "Light grey running shoes. Reconstructed from the approved editorial; concealed parts are conservatively inferred.",
+        "de": "Laufschuhe in Hellgrau. Nach dem freigegebenen Editorial rekonstruiert; verdeckte Bereiche sind behutsam ergänzt."
+      },
+      "howToWear": {
+        "ko": "멈췄다 다시 달려도 발이 고정되도록 끈을 이중 매듭으로 묶어요. 밝은 갑피가 어두운 타이츠 아래에서 발끝을 드러내요.",
+        "en": "Double-knot the laces so your feet stay locked in when you stop and start; the pale uppers mark your feet below the dark tights.",
+        "de": "Die Schnürsenkel doppelt knoten, damit die Füße beim Anhalten und Losgehen fest sitzen; das helle Obermaterial setzt die Füße unter der dunklen Tight ab."
+      },
+      "appItemId": "rn-chilly-f35-day-run-20261025-03.06-shoes"
+    }
+  ],
+  "copy": {
+    "titleKo": "잠시 멈춰 러닝 워치 확인",
+    "captionKo": "올리브 셸과 차콜 타이츠",
+    "introKo": "올리브 셸과 차콜 타이츠에 블랙 장갑과 스포츠 워치를 더한 러닝 룩이에요. 문가에서 잠깐 시간을 확인하는 순간을 담았어요.",
+    "tipKo": "출발 전에 워치 조작과 스트랩 길이를 확인하세요.",
+    "title": {
+      "ko": "잠시 멈춰 러닝 워치 확인",
+      "en": "A PAUSE TO CHECK THE WATCH"
+    },
+    "deck": {
+      "ko": "올리브 셸과 차콜 타이츠",
+      "en": "Olive shell, charcoal tights.",
+      "de": "Olivgrüne Shell, anthrazitfarbene Tight."
+    },
+    "intro": {
+      "ko": "올리브 셸과 차콜 타이츠에 블랙 장갑과 스포츠 워치를 더한 러닝 룩이에요. 문가에서 잠깐 시간을 확인하는 순간을 담았어요.",
+      "en": "An olive shell and charcoal tights, with black gloves and a sports watch added. The photo catches a quick time check in a doorway.",
+      "de": "Olivgrüne Shell und anthrazitfarbene Tight, dazu schwarze Handschuhe und eine Sportuhr. Das Bild zeigt einen kurzen Blick auf die Zeit in einem Hauseingang."
+    },
+    "tip": {
+      "ko": "출발 전에 워치 조작과 스트랩 길이를 확인하세요.",
+      "en": "Check the watch controls and strap length before you start.",
+      "de": "Vor dem Start Bedienung und Armbandlänge der Uhr prüfen."
+    },
+    "pull": "OLIVE, WET, ON THE CLOCK."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized product breakdown; no claim of separate product-by-product visual approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-run-20261025-03",
+  "appBuild": "b157",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-run-20261025-03.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

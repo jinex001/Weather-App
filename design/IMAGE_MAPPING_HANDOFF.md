@@ -240,3 +240,13 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 승인 범위: 에디토리얼은 사용자 승인(러닝 외관 25–28세 수정본, 15번 전기 스쿠터·아이보리 헬멧 수정본). 제품 95개는 사용자의 제품 분해 승인 아래 제작·제작 측 검수, 제품별 사용자 육안 승인은 없음 — 그렇게 기록함. GitHub 반영·main 병합은 사용자의 명시 지시("깃헙 업데이트부터 메인 푸쉬까지").
 - 원본 폴더의 PNG 마스터·비교 시트·실행 기록·READY 매니페스트·프롬프트는 커밋하지 않음. 원본은 병합 뒤에도 지우거나 옮기지 않음(2026-10-25 사용자 지시, 이전 b150의 로컬 마스터 정리 단계는 적용 안 함).
 - [검증 기록](overcast-female-night-20261025-validation.md).
+
+## b157 · Rain / Normal / Chilly / Female / 35+ / Day / Running — 2026-10-25 set (5 looks · 28 products)
+
+- 원본: 로컬 전달 폴더(READY.json `approved`·`products_complete`, 파일 40개 SHA-256과 목록 일치; READY.json 자신은 목록 밖). LOOKS.json이 5개 products.json을 고르고 KOREAN_MASTER.json이 룩별 한국어 제목·요약·인트로·팁 마스터(각 products.json `copy`와 같음). b153과 같은 방식으로 직접 검증.
+- **첫 보통 비 세트**: `sky: "rain"`, `rain: "normal"`. 낮 룩은 `time` 키를 넣지 않음(`time`은 저녁 `"evening"`만 씀). 폴더 `Rain/Normal/Chilly/Female/35+/day/running-20261025/<NN>/`, ID는 제작 측 `rn-chilly-f35-day-run-20261025-NN` 그대로, 아이템 `<룩 ID>.<제품 id>`(순서 유지). 분류는 제작 측 그대로(outer/top/bottom/hands/headwear/accessory/shoes).
+- 고르기 영향(앱 `lookFits`·`lookPool` 실제 코드로 확인): 보통 비 낮 여성 러닝만 플레이스홀더 → 이 5룩. 가벼운 비·쏟아지는 비 여성 러닝은 이 룩이 sky 순위 1로 잡히지만 `best > 0`이라 여전히 플레이스홀더(화면 변화 없음). 저녁은 저녁 룩이 있어 이 룩이 안 나옴.
+- 문구: 한국어 마스터 그대로. 앱 제목은 영어 대문자라 한국어 제목은 products.json `copy.title.ko`·`copy.titleKo`에 보존. 제작 측 `descriptionKo/En/De`는 모든 제품이 같은 복원 틀 문장이라 화면에 안 쓰고 products.json `sourceDescription`에 근거로 남김; 제품별 입는 법을 새로 써서 `note`·`descriptionKo/En/De`·`howToWear`에 넣음. `designDescriptionEn`·`reconstruction`·`reconstructionNote`·`sha256`·`bounds` 보존, 생성 프롬프트·로컬 경로(`prompt`·`masterSource`·`generationSource`)는 빼고 커밋.
+- 캐스팅: 승인 에디토리얼의 약 28–32세 외관을 그대로 기록(`casting.modelAppearanceAgeRange: [28, 32]`, 타깃 35+는 별도). 2026-10-25 여성 기본 25–28세는 새 제작 기준이며 이 승인 자산을 다시 분류하지 않음.
+- 승인 범위: 에디토리얼 사용자 승인, 제품 28개는 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 없음). 원본·PNG 마스터·검수 시트·READY는 커밋하지 않고 원본은 옮기지 않음(원본 이동은 main 반영 확인 뒤 상위 작업이 처리).
+- [검증 기록](rain-normal-female-day-running-20261025-validation.md).
