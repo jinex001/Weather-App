@@ -1,6 +1,6 @@
 # 룩 세트 현황 · 빈 칸 목록
 
-2026-10-26 점검 (앱 빌드 b161, 200룩 · 1277아이템 · 기사 200룩; jsc로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
+2026-10-26 점검 (앱 빌드 b162, 200룩 · 1277아이템 · 기사 200룩; jsc로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
 
 지금 들어 있는 룩은 전부 **쌀쌀함(체감 1~9°) · 35+**입니다. 빈 칸에서는 앱이 다른 날씨의 룩으로 채우지 않고 COMING SOON 플레이스홀더를 보여 줍니다(b114).
 
@@ -138,3 +138,5 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b161 · Rain / Light / Chilly / Male / 35+ / Night / Street — 2026-10-26 set
 
 5룩 · 제품 25개(5/5/5/5/5) 투명 WebP, `look/rain-light-male-night-street-20261026.js`(cutouts.js 앞). ID `rl-chilly-m35-night-street-20261026-01`–`05`, 폴더 `Rain/Light/Chilly/Male/35+/night/street/<01–05>/`. 가벼운 비 남성 저녁 스트리트 플레이스홀더 → 이 5룩 중 3개. 이제 가벼운 비 저녁은 남성 미니멀만 빈 칸. [검증](rain-light-male-night-street-20261026-validation.md).
+
+- b162: 04 그레이 프린지 머플러 분류 `accessory` → `scarf`(다른 머플러와 같은 라벨·캘린더 규칙). 룩·아이템 수 변화 없음.

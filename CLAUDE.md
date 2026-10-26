@@ -19,7 +19,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-10-26, 빌드 b161)
+## 현재 상태 (2026-10-26, 빌드 b162)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -412,4 +412,8 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 
 ## b161 · 가벼운 비 · 쌀쌀함 · 남성 · 35+ · 저녁 · 스트리트 — 2026-10-26 세트 5룩 (2026-10-26)
 
-사용자 요청(승인 배치를 main까지 반영; 2026-10-26 워크플로 변경으로 이 감시 작업은 PR 대신 검증 후 `origin/main` 직접 푸시, 원본 iCloud 보관·로컬 원본 삭제는 푸시 검증 뒤 상위 작업이 함 — `design/IMAGE_INBOX_HANDOFF.md`). 로컬 outbox 완성 배치의 승인 에디토리얼 5장(1024×1536 JPG, 04는 머플러 수정본 v2에서 내보낸 것) + 독립 투명 WebP 제품 25개(5×5, 500×500) 바이트 그대로 → `look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/<01–05>/`, 보충 파일 `look/rain-light-male-night-street-20261026.js`(cutouts.js 앞). 룩 `rl-chilly-m35-night-street-20261026-NN`(rain · light · chilly · m · 35 · street · evening). 가벼운 비 저녁 남성 스트리트 플레이스홀더 → 이 5룩 중 3개. 한국어 마스터 인트로·제품별 입는 법 바이트 그대로, en/de·제목·요약·인용구·팁은 에디토리얼 보고 씀. `head` → `headwear`, `neck` → `accessory`(사용자 지시). 대표 컷 = 각 룩 아우터 WebP(제목이 아우터 색을 말함). 숫자 기온 없음. 200룩 · 1277아이템 · 기사 200. `cutouts.js?v=b161`. [검증](design/rain-light-male-night-street-20261026-validation.md).
+사용자 요청(승인 배치를 main까지 반영; 2026-10-26 워크플로 변경으로 이 감시 작업은 PR 대신 검증 후 `origin/main` 직접 푸시, 원본 iCloud 보관·로컬 원본 삭제는 푸시 검증 뒤 상위 작업이 함 — `design/IMAGE_INBOX_HANDOFF.md`). 로컬 outbox 완성 배치의 승인 에디토리얼 5장(1024×1536 JPG, 04는 머플러 수정본 v2에서 내보낸 것) + 독립 투명 WebP 제품 25개(5×5, 500×500) 바이트 그대로 → `look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/<01–05>/`, 보충 파일 `look/rain-light-male-night-street-20261026.js`(cutouts.js 앞). 룩 `rl-chilly-m35-night-street-20261026-NN`(rain · light · chilly · m · 35 · street · evening). 가벼운 비 저녁 남성 스트리트 플레이스홀더 → 이 5룩 중 3개. 한국어 마스터 인트로·제품별 입는 법 바이트 그대로, en/de·제목·요약·인용구·팁은 에디토리얼 보고 씀. `head` → `headwear`, `neck` → `accessory`(첫 반영; 상위 작업의 잘못된 지시였고 사용자 선호 아님 → b162에서 `scarf`로 고침). 대표 컷 = 각 룩 아우터 WebP(제목이 아우터 색을 말함). 숫자 기온 없음. 200룩 · 1277아이템 · 기사 200. `cutouts.js?v=b161`. [검증](design/rain-light-male-night-street-20261026-validation.md).
+
+## b162 · b161 머플러 분류 고침 (2026-10-26)
+
+b161 04 그레이 프린지 머플러(`rl-chilly-m35-night-street-20261026-04.05-neck`)의 앱 분류를 `accessory` → `scarf`로(보충 파일 `cat`, 04 products.json `appCategory`; 제작 측 `category: neck`은 근거로 그대로). b161의 `accessory`는 상위 작업의 잘못된 지시였고 사용자의 분류 선호가 아님. 이제 다른 머플러처럼 "Scarf" 라벨이고 캘린더 추위·바람 규칙에 뽑힐 수 있음. 이미지·ID·다른 룩/아이템·한국어 마스터 문구 그대로. 200룩 · 1277아이템. `rain-light-male-night-street-20261026.js`·`cutouts.js?v=b162`.
