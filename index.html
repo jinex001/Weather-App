@@ -312,15 +312,21 @@
   /* 7 Days as cards (b107, user picked proto/cal-cards.html): one card per day from tomorrow, swiped like the Today's Look
      photos — one card plus a third of the next, the next one 12% smaller. The card is that day's product cut (picked by the
      day's weather), its ivory ground is the card color; date, day, moving weather icon, temperature, rain and wind sit on top */
-  .dc-dots { display: flex; gap: 6px; margin-top: 22px; }
-  .dc-dots span { width: 5px; height: 5px; border-radius: 50%; background: currentColor; opacity: .25; transition: opacity .2s; }
+  /* b165: a fanned stack (user picked proto/cal-stack.html, soft tilt): the day in the middle big and on top, its
+     neighbours smaller, tilted a few degrees from their bottom edge and tucked behind it; endless (after the 7th day comes
+     tomorrow again). Dots under the stack. No shadows or outlines: cards behind are only a touch darker */
+  .dc-dots { display: flex; justify-content: center; gap: 8px; margin-top: 2px; }
+  .dc-dots span { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .25; transition: opacity .2s; }
   .dc-dots span.on { opacity: 1; }
-  .dc-rail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
-    margin: 12px -24px 0; padding: 0 24px; scroll-padding-left: 24px; }
+  .dc-rail { --cw: 76%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+    margin: 0 -24px; padding: 30px calc((100% - var(--cw)) / 2) 28px; }
   .dc-rail::-webkit-scrollbar { display: none; }
-  .dc { position: relative; flex: 0 0 calc((100% - 12px) * .75); scroll-snap-align: start; scroll-snap-stop: always;
-    height: min(62svh, 560px); min-height: 400px; padding: 0; border: 0; background: #F3EFE8; color: #141414; overflow: hidden;
-    font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; transform-origin: 0 50%; transform: scale(var(--s, 1)); }
+  .dc { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always;
+    height: min(66svh, 560px); min-height: 440px; padding: 0; border: 0; background: none; color: #141414;
+    font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
+  /* the moved/tilted layer is inside the button: scroll snapping measures transformed boxes, so the snap cell itself stays put */
+  .dc-in { position: absolute; inset: 0; border-radius: 26px; background: #F3EFE8; overflow: hidden; transform-origin: 50% 100%; will-change: transform; }
+  .dc-in::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
   /* b114: a set not made yet: ivory placeholder, the label at the bottom left (card and look slide alike) */
   .soon { display: flex; flex-direction: column; justify-content: flex-end; padding: 22px; background: #F3EFE8; color: #141414; text-align: left; }
   .soon .dc-ic { width: 120px; height: 95px; margin-bottom: auto; overflow: visible; }
@@ -987,7 +993,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b164";
+  var BUILD = "b165";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -2054,7 +2060,7 @@
     // b106: the 7 days start tomorrow (today is the home screen); forecast_days=8 gives indices 1–7
     // b107: each day is a card: that day's product cut as the picture, small date over the day name, moving icon,
     // high/low, rain chance and wind (same 1·2·3-line icon as the 24 hours). Tap = that day's Today's Look sheet.
-    var prof = load("wx-profile") || {}, rows = "", dots = "", picks = {};
+    var prof = load("wx-profile") || {}, rows = [], dots = "", picks = {};
     for (var i = 1; i < 8 && i < D.time.length; i++) {
       var dn = dayName(D.time[i], i), c = D.weather_code[i], w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : null;
       var g = prof.gender === "f" || prof.gender === "m" ? prof.gender : (i % 2 ? "f" : "m"), pk = dayPick(D, i, g), pc = pk && pk.it;
@@ -2062,11 +2068,11 @@
       // b109: the card color is the cut's own ivory, measured ahead in outfits.js (bg), not read from the picture at run time
       // (iOS sometimes gave black when the picture was read before it was drawn). b144: a transparent cut (bg "transparent")
       // has no ivory of its own, so the card keeps its CSS ivory
-      rows += '<button type="button" class="dc" data-day="' + i + '"' + (pc && /^#/.test(pc.bg || "") ? ' style="background:' + pc.bg + '"' : "") + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '">' +
+      rows.push('<button type="button" class="dc" data-day="' + i + '"' + ' aria-label="' + esc(dn.n + " · " + dn.d + " · " + condLabel(c, true)) + '"><span class="dc-in"' + (pc && /^#/.test(pc.bg || "") ? ' style="background:' + pc.bg + '"' : "") + ">" +
         (pc ? '<img src="' + pc.image + '" alt="' + esc(pc.alt || pc.name[LANG]) + '"' + (i > 2 ? ' loading="lazy"' : "") + ">" : pk && pk.soon ? soonHtml(pk.soon) : "") +
         '<div class="dc-top"><div><div class="dc-date">' + esc(dn.d) + '</div><div class="dc-day">' + esc(cardDay(D.time[i], i, dn.n)) + "</div></div>" +
         '<div class="dc-wx">' + dayIcon(c) + '<div class="dc-t">' + r(D.temperature_2m_max[i]) + '<span class="deg">°</span><small>' + r(D.temperature_2m_min[i]) + "°</small></div>" +
-        '<div class="dc-d"><span>' + DROP_IC + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : "<span>" + wind3(w) + w + "</span>") + "</div></div></div></button>";
+        '<div class="dc-d"><span>' + DROP_IC + (D.precipitation_probability_max[i] || 0) + "%</span>" + (w === null ? "" : "<span>" + wind3(w) + w + "</span>") + "</div></div></div></span></button>");
       dots += '<span class="' + (i === 1 ? "on" : "") + '"></span>';
     }
     // This month: Monday-first grid of the current month; days with a forecast show icon and high
@@ -2083,9 +2089,14 @@
     $("pg-cal").innerHTML = '<div class="pg-k">' + esc(calView === "month" ? monthName : NV.week) + " · " + esc(city) + "</div>" +
       '<div class="cal-tabs" role="tablist"><button type="button" data-v="week" class="' + (calView === "week" ? "on" : "") + '">7 Days</button>' +
       '<button type="button" data-v="month" class="' + (calView === "month" ? "on" : "") + '">This month</button></div>' +
-      (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="dc-dots" id="dc-dots" aria-hidden="true">' + dots + '</div><div class="dc-rail" id="dc-rail">' + rows + "</div>");
+      (calView === "month" ? '<div class="mo">' + cells + "</div>" : '<div class="dc-rail" id="dc-rail">' + loopCards(rows) + '</div><div class="dc-dots" id="dc-dots" aria-hidden="true">' + dots + "</div>");
     $("pg-cal").querySelectorAll(".dc").forEach(function (bt) {
-      bt.addEventListener("click", function () { var k = +bt.getAttribute("data-day"); openLook(dayView(k, picks[k])); });
+      // b165: a tap on a card behind brings it to the middle; only the middle card opens that day's look
+      bt.addEventListener("click", function () {
+        var rail = bt.parentNode, off = bt.offsetLeft + bt.offsetWidth / 2 - rail.scrollLeft - rail.clientWidth / 2;
+        if (Math.abs(off) > bt.offsetWidth / 2) { rail.scrollTo({ left: rail.scrollLeft + off, behavior: "smooth" }); return; }
+        var k = +bt.getAttribute("data-day"); openLook(dayView(k, picks[k]));
+      });
     });
     dayCards();
     var onTab = $("pg-cal").querySelector(".cal-tabs .on");
@@ -2113,16 +2124,45 @@
     $("tab-dot").hidden = !list.length;
     paintSettings();
   }
-  // Card row behaviour: the card at the snap point full size, the others 12% smaller with the swipe; the active dot follows
+  // b165: the 7 cards three times over (copies hidden from screen readers and tab order) so the row never ends: after
+  // the 7th day the next card is tomorrow again, before tomorrow the 7th day. The scroll starts on the middle set and
+  // jumps back by exactly 7 cards once a swipe settles outside it, which looks the same.
+  function loopCards(rows) {
+    var copy = rows.map(function (h) { return h.replace('<button type="button" class="dc"', '<button type="button" class="dc" tabindex="-1" aria-hidden="true"'); });
+    return copy.join("") + rows.join("") + copy.join("");
+  }
+  // Card row behaviour: each card moved toward the middle by how far it is from the center (t, in cards), tilted from its
+  // bottom edge (eased, so it starts gently), shrunk and darkened; the middle card on top. The active dot follows.
   function dayCards() {
     var rail = $("dc-rail"); if (!rail) return;
-    var dots = $("dc-dots").children;
-    function sizes() {
-      var cs = rail.children; if (!cs.length) return;
-      var w = cs[0].offsetWidth + 12, at = Math.round(rail.scrollLeft / w);
-      [].forEach.call(cs, function (el, k) { el.style.setProperty("--s", (1 - .12 * Math.min(1, Math.abs(k * w - rail.scrollLeft) / w)).toFixed(4)); });
-      [].forEach.call(dots, function (s, k) { s.className = k === at ? "on" : ""; });
+    var dots = $("dc-dots").children, n = dots.length, held = false, idle;
+    function stack() {
+      var cs = rail.children, w = cs.length && cs[0].offsetWidth; if (!w) return;
+      var mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
+      [].forEach.call(cs, function (el, k) {
+        var t = (el.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), m = Math.min(a, 2.6), sg = t < 0 ? -1 : 1;
+        if (a > 3.5) { el.style.visibility = "hidden"; return; }
+        el.style.visibility = ""; var inn = el.firstChild;
+        var pull = sg * (m <= 1 ? m * .34 : .34 + (m - 1) * .14) * w, e = Math.min(m, 1), ease = e * e * (3 - 2 * e), more = Math.max(0, Math.min(m - 1, 1));
+        inn.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * (3 * ease + 1.2 * more)).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(m, 2.2)).toFixed(4) + ")";
+        el.style.zIndex = 100 - Math.round(a * 10);
+        inn.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
+        inn.style.opacity = a > 2.4 ? Math.max(0, 1 - (a - 2.4) * 2).toFixed(2) : "";
+        if (a < best) { best = a; at = k; }
+      });
+      [].forEach.call(dots, function (s, k) { s.className = k === at % n ? "on" : ""; });
+      return at;
     }
+    // once the swipe has settled (and no finger is down), step back into the middle set by whole sets of 7
+    function recenter() {
+      var cs = rail.children, w = cs.length && cs[0].offsetWidth; if (!w || held) return;
+      var at = stack();
+      if (at < n) rail.scrollLeft += n * w; else if (at >= 2 * n) rail.scrollLeft -= n * w;
+    }
+    function center(k) { var c = rail.children[k]; rail.scrollLeft = c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2; }
+    rail.addEventListener("touchstart", function () { held = true; }, { passive: true });
+    rail.addEventListener("touchend", function () { held = false; clearTimeout(idle); idle = setTimeout(recenter, 160); }, { passive: true });
+    rail.addEventListener("scroll", function () { requestAnimationFrame(stack); clearTimeout(idle); idle = setTimeout(recenter, 160); }, { passive: true });
     // long day names (Donnerstag, Wednesday) shrink until they fit beside the icon and temperature (40px down to 24px)
     // b108: one size for every card, set by "Tomorrow" (the longest word, always written out): it shrinks from 40px until it
     // fits beside the icon and temperature, and the other days (short names) take the same size
@@ -2135,8 +2175,8 @@
     }
     fit();
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
-    sizes();
-    rail.addEventListener("scroll", sizes, { passive: true });
+    center(n);
+    stack();
   }
   // b152: Settings > Clothing style — the current style (its cut + name); tap to open the same three tiles inline
   var setStyleOpen = false;
