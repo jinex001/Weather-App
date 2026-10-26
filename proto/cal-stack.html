@@ -31,11 +31,11 @@
   .dots span.on { opacity: 1; }
   /* the stack: a normal scroll-snap row (cards centered), each card then moved toward the middle, tilted and shrunk by
      how far it is from the center (set on scroll) so they overlap like a fanned deck */
-  .rail { --cw: 64%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+  .rail { --cw: 76%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 4px -24px 0; padding: 28px calc((100% - var(--cw)) / 2) 30px; }
   .rail::-webkit-scrollbar { display: none; }
   .card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always;
-    height: min(58svh, 470px); min-height: 380px; background: var(--ground); color: #141414; overflow: hidden; border-radius: 26px;
+    height: min(54svh, 450px); min-height: 360px; background: var(--ground); color: #141414; overflow: hidden; border-radius: 26px;
     transform-origin: 50% 70%; will-change: transform; }
   /* cards behind are a touch darker so the overlap reads without a shadow or an outline (no borders, no shadows rule) */
   /* narrower than proto/cal-cards.html, so the weather goes under the day name instead of beside it */
@@ -50,7 +50,7 @@
   /* the weather sits on the picture, top and bottom; the cut's ivory ground keeps ink readable without any box */
   .over { position: absolute; inset: 0; padding: 18px 18px 16px; display: flex; flex-direction: column; justify-content: space-between; pointer-events: none; }
   /* b2: the day leads (bigger than the temperature): day name big, date under it, temperature after */
-  .day { white-space: nowrap; font-family: "Noto Sans KR", sans-serif; font-size: 34px; font-weight: 700; line-height: 1.02; letter-spacing: -.04em; }
+  .day { white-space: nowrap; font-family: "Noto Sans KR", sans-serif; font-size: 40px; font-weight: 700; line-height: 1.02; letter-spacing: -.04em; }
   /* b4: small date on top, the day name under it */
   .date { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
   /* b3: day and date on the left, the moving weather icon in the top right with the temperature under it */
@@ -184,7 +184,7 @@
       var cs = rail.children, w = cs[0].offsetWidth, mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
       [].forEach.call(cs, function (c, k) {
         var t = (c.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), n = Math.min(a, 2.6), sg = t < 0 ? -1 : 1;
-        var pull = sg * (n <= 1 ? n * .42 : .42 + (n - 1) * .14) * w;
+        var pull = sg * (n <= 1 ? n * .34 : .34 + (n - 1) * .14) * w;
         c.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * Math.min(n, 1.6) * 5).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(n, 2.2)).toFixed(4) + ")";
         c.style.zIndex = 100 - Math.round(a * 10);
         c.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
