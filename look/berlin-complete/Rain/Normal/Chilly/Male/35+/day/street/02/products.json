@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-street-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": "28–32"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User requested automated completion for these five existing editorials on 2026-10-26; product quality review by Codex, no separate user product approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d0b07a765170f458735398dc9453862452c052df57e9de84344bb87d88c505a8",
+  "copy": {
+    "ko": {
+      "title": "비 오는 날의 코발트",
+      "caption": "선명한 레인 재킷에 차콜 스카프와 블랙 크로스보디 백을 더했습니다.",
+      "intro": "스카프는 목에 가깝게 넣고 재킷 지퍼를 올려 보온하세요. 가방은 몸 가까이 메고 개구부를 닫아 빗물 유입을 줄입니다."
+    },
+    "en": {
+      "title": "COBALT IN THE RAIN",
+      "caption": "A vivid rain jacket finished with a charcoal scarf and a black crossbody.",
+      "intro": "Tuck the scarf in close to the neck and zip the jacket up for warmth. Carry the bag close to the body with its opening shut, so less rain gets in."
+    },
+    "de": {
+      "title": "KOBALT IM REGEN",
+      "caption": "Eine leuchtende Regenjacke, ergänzt um einen anthrazitfarbenen Schal und eine schwarze Umhängetasche.",
+      "intro": "Den Schal eng am Hals einstecken und die Jacke zum Wärmen hochziehen. Die Tasche körpernah tragen und die Öffnung schließen, damit weniger Regen hineinkommt."
+    },
+    "pull": "THE KEYS ARE IN HERE SOMEWHERE."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-street-20261026-02.01-outer",
+      "name": {
+        "ko": "코발트 후드 레인 재킷",
+        "en": "Cobalt hooded rain jacket",
+        "de": "Kobaltblaue Regenjacke"
+      },
+      "nameKo": "코발트 후드 레인 재킷",
+      "descriptor": "Cobalt hooded rain jacket",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "8d27fe4f8a8c1bc2eaaa4948412b96949dfce044e4bbff3e497588f4b5bbec9e",
+      "bytes": 48574,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "후드를 머리 위로 쓰고 지퍼를 턱 아래까지 올린 뒤, 크로스보디 스트랩은 재킷 위로 가로질러 메세요.",
+        "en": "Pull the hood over your head, zip up to just below the chin and run the crossbody strap over the jacket.",
+        "de": "Die Kapuze aufsetzen, bis knapp unters Kinn schließen und den Riemen der Umhängetasche über die Jacke führen."
+      },
+      "sourceHowToWear": {
+        "ko": "보온 이너 위에 입고 비가 이어지면 앞여밈과 후드를 정돈하세요.",
+        "en": "Wear over warm layers; fasten the front and adjust the hood in steady rain.",
+        "de": "Über warmen Schichten tragen; bei anhaltendem Regen schließen und die Kapuze anpassen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "shell hood, shoulders, chest and sleeves visible; front beneath bag inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "코발트 후드 레인 재킷 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-scarf",
+      "category": "scarf",
+      "appCategory": "scarf",
+      "appItemId": "rn-chilly-m35-day-street-20261026-02.02-scarf",
+      "name": {
+        "ko": "차콜 멜란지 스카프",
+        "en": "Charcoal melange scarf",
+        "de": "Anthrazitfarbener Schal"
+      },
+      "nameKo": "차콜 멜란지 스카프",
+      "descriptor": "Charcoal melange scarf",
+      "image": "products/02-scarf.webp",
+      "deliveredImage": "products/02-scarf.webp",
+      "sha256": "024bd6360ffcbe54ab434c057646eb68aedb2840ce336c30bff0b4707ae3a60b",
+      "bytes": 44966,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "목에 가깝게 두르고 끝은 재킷 안으로 넣어 젖는 부분을 줄이세요.",
+        "en": "Wrap it close to the neck and tuck the ends inside the jacket, so less of it gets wet.",
+        "de": "Eng um den Hals legen und die Enden in die Jacke stecken, damit weniger davon nass wird."
+      },
+      "sourceHowToWear": {
+        "ko": "목에 가깝게 두르고 끝은 재킷 안으로 넣어 젖는 부분을 줄이세요.",
+        "en": "Wrap close to the neck and tuck the ends into the jacket.",
+        "de": "Eng am Hals tragen und die Enden in die Jacke stecken."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "knitted wrap visible at neck; complete length inferred, fibre not verified",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 멜란지 스카프 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-street-20261026-02.03-bottom",
+      "name": {
+        "ko": "블랙 와이드 팬츠",
+        "en": "Black wide-leg trousers",
+        "de": "Schwarze weite Hose"
+      },
+      "nameKo": "블랙 와이드 팬츠",
+      "descriptor": "Black wide-leg trousers",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "56baed41e16a817e2b827fc73737b72b048db40d5506990b926b0a46e834fc35",
+      "bytes": 23566,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "허리 밴드는 재킷 밑단 안에 가리고, 넓은 통은 재킷 아래로 곧게 떨어지게 입으세요.",
+        "en": "Keep the waistband hidden under the jacket hem and let the wide legs fall straight below it.",
+        "de": "Den Bund unter dem Jackensaum verschwinden lassen und die weiten Beine gerade darunter fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "여유 있는 실루엣을 살리고 밑단이 젖은 바닥에 끌리지 않도록 정돈하세요.",
+        "en": "Keep the relaxed silhouette and the hems clear of wet ground.",
+        "de": "Die lockere Form bewahren und die Säume vom nassen Boden fernhalten."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "upper legs visible; lower legs cropped and reconstructed",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 와이드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-m35-day-street-20261026-02.04-bag",
+      "name": {
+        "ko": "블랙 크로스보디 백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스보디 백",
+      "descriptor": "Black crossbody bag",
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/04-bag.webp",
+      "sha256": "1fd530131bb55be0f0dfa963633cf66337d00b1dcce1dd8355cda8333c4b61f5",
+      "bytes": 31224,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "몸 가까이 메고 지퍼를 닫으세요. 방수 성능은 확인되지 않았습니다.",
+        "en": "Wear it close to the body and keep the zip closed. Its water resistance has not been verified.",
+        "de": "Körpernah tragen und den Reißverschluss geschlossen halten. Ob sie wasserdicht ist, ist nicht bestätigt."
+      },
+      "sourceHowToWear": {
+        "ko": "몸 가까이 메고 지퍼를 닫으세요. 방수 성능은 확인되지 않았습니다.",
+        "en": "Wear close to the body and close the zip; waterproof performance is unverified.",
+        "de": "Körpernah tragen und den Reißverschluss schließen; die Wasserdichtigkeit ist nicht bestätigt."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "bag clearly visible; concealed rear inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 크로스보디 백 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title/caption/intro, product names and the product-specific scarf and bag how-to-wear lines are the delivered master, verbatim. The jacket and trouser lines were cross-look template sentences (IMAGE_MAPPING_HANDOFF 5-1) and were rewritten from the editorial; delivered lines are kept in sourceHowToWear.",
+  "reconstructionSummary": "Crop ends at the upper legs: trousers are partially visible and completed conservatively; shoes and socks are not visible and were not added.",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-street-20261026-02",
+  "appBuild": "b164",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "hero": "rn-chilly-m35-day-street-20261026-02.01-outer"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-street-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": "28–32"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User requested automated completion for these five existing editorials on 2026-10-26; product quality review by Codex, no separate user product approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3f4f61ec65d1f41d87fa315446a6a6ce9bceba7c74c934661e1aa040ac49dbad",
+  "copy": {
+    "ko": {
+      "title": "올리브와 버건디의 거리",
+      "caption": "올리브 셸 아래 버건디 후디, 블랙 진과 두툼한 부츠를 더한 낮의 스트리트 룩입니다.",
+      "intro": "후디의 목 부분을 정리한 뒤 셸 후드를 올리세요. 바짓단은 부츠 위에서 정돈하고 젖은 노면은 조심해 걷습니다."
+    },
+    "en": {
+      "title": "OLIVE AND BURGUNDY ON THE STREET",
+      "caption": "A burgundy hoodie under an olive shell, with black jeans and chunky boots – a daytime street look.",
+      "intro": "Settle the hoodie at the neck first, then pull up the shell's hood. Tidy the hems over the boots and tread carefully on wet pavement."
+    },
+    "de": {
+      "title": "OLIV UND BORDEAUX AUF DER STRASSE",
+      "caption": "Ein bordeauxroter Hoodie unter einer olivgrünen Jacke, dazu schwarze Jeans und derbe Boots – ein Street-Look für den Tag.",
+      "intro": "Erst den Hoodie am Hals ordnen, dann die Kapuze der Jacke aufsetzen. Die Säume über den Boots richten und auf nassem Pflaster vorsichtig gehen."
+    },
+    "pull": "LOCKED UP, HOOD UP."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-street-20261026-04.01-outer",
+      "name": {
+        "ko": "올리브 후드 레인 셸",
+        "en": "Olive hooded rain shell",
+        "de": "Olivgrüne Regenjacke"
+      },
+      "nameKo": "올리브 후드 레인 셸",
+      "descriptor": "Olive hooded rain shell",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "4a59b8bbab2efa73f3df52fa32a2605c2151ffd62057e724790848579b1cfb1a",
+      "bytes": 34544,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "후드를 깊게 쓰고 앞여밈은 가슴까지 열어 두어 버건디 후디가 보이게 하세요.",
+        "en": "Wear the hood well forward and leave the front open to the chest, so the burgundy hoodie shows.",
+        "de": "Die Kapuze tief ins Gesicht ziehen und die Front bis zur Brust offen lassen, damit der bordeauxrote Hoodie sichtbar ist."
+      },
+      "sourceHowToWear": {
+        "ko": "보온 이너 위에 입고 비가 이어지면 앞여밈과 후드를 정돈하세요.",
+        "en": "Wear over warm layers; fasten the front and adjust the hood in steady rain.",
+        "de": "Über warmen Schichten tragen; bei anhaltendem Regen schließen und die Kapuze anpassen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "hood shoulders sleeve front and side zip pocket visible",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "올리브 후드 레인 셸 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-street-20261026-04.02-top",
+      "name": {
+        "ko": "버건디 후디",
+        "en": "Burgundy hoodie",
+        "de": "Bordeauxroter Hoodie"
+      },
+      "nameKo": "버건디 후디",
+      "descriptor": "Burgundy hoodie",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "6ae44f800e604532afa41c91d7dad43bf501d5eef9f46e201cf4e5965e1614d7",
+      "bytes": 30042,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "후디의 후드는 셸 후드 안에서 목 뒤로 내려 정리하고, 끈은 앞으로 늘어뜨려 두세요.",
+        "en": "Fold the hoodie's own hood down behind your neck inside the shell's hood, and let the drawcords hang at the front.",
+        "de": "Die Hoodie-Kapuze unter der Jackenkapuze in den Nacken legen und die Kordeln vorne herabhängen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "피부에 가까운 보온층으로 입고 아우터와 겹쳐 두께를 조절하세요.",
+        "en": "Use as an inner warmth layer and adjust with the outer layers.",
+        "de": "Als innere Wärmeschicht tragen und mit den äußeren Schichten abstimmen."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "hood chest drawcord visible; hidden pocket and hem reconstructed",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "버건디 후디 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-street-20261026-04.03-bottom",
+      "name": {
+        "ko": "블랙 스트레이트 진",
+        "en": "Black straight-leg jeans",
+        "de": "Schwarze gerade Jeans"
+      },
+      "nameKo": "블랙 스트레이트 진",
+      "descriptor": "Black straight-leg jeans",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "d33d6af02c11a2574e557c6288750f69f579bef7f0dc75f69b4956804efda7d7",
+      "bytes": 29996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "허리는 셸 밑단 아래에 두고, 밑단은 부츠 위에 살짝 쌓이게 해 곧은 선을 이어가세요.",
+        "en": "Keep the waist under the shell's hem and let the hems stack lightly on the boots to carry the straight line down.",
+        "de": "Den Bund unter dem Jackensaum lassen und die Säume leicht auf den Boots stauen, damit die gerade Linie weiterläuft."
+      },
+      "sourceHowToWear": {
+        "ko": "여유 있는 실루엣을 살리고 밑단이 젖은 바닥에 끌리지 않도록 정돈하세요.",
+        "en": "Keep the relaxed silhouette and the hems clear of wet ground.",
+        "de": "Die lockere Form bewahren und die Säume vom nassen Boden fernhalten."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "legs and denim texture visible; waistband hidden inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 스트레이트 진 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-street-20261026-04.04-shoes",
+      "name": {
+        "ko": "블랙 청키 부츠",
+        "en": "Black chunky ankle boots",
+        "de": "Schwarze Chunky-Boots"
+      },
+      "nameKo": "블랙 청키 부츠",
+      "descriptor": "Black chunky ankle boots",
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/04-shoes.webp",
+      "sha256": "2c62e5e0e397a349438f1dcf8479f63fc347ce79e3a36f9d51efab12ab2960b3",
+      "bytes": 38484,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "끈을 발목까지 단단히 묶고, 진 밑단이 부츠 목을 덮게 신으세요.",
+        "en": "Lace them up firmly to the ankle and let the jean hems cover the boot shafts.",
+        "de": "Bis zum Knöchel fest schnüren und die Jeanssäume über den Schaft fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "바짓단과 발목을 정돈하고 젖은 노면에서는 조심해 걸으세요.",
+        "en": "Settle the trouser hems at the ankles and walk carefully on wet surfaces.",
+        "de": "Die Hosensäume am Knöchel ordnen und auf nassen Flächen vorsichtig gehen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "one boot visible in side view; matching counterpart reconstructed",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 청키 부츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title/caption/intro and product names are the delivered master, verbatim. All four delivered product lines were cross-look template sentences (IMAGE_MAPPING_HANDOFF 5-1) and were rewritten from the editorial; delivered lines are kept in sourceHowToWear. The boot render is very close to look 01's boots (different file and hash); both editorials show black lace-up lug boots.",
+  "reconstructionSummary": "Full length but bent over a bicycle: one boot is seen from the side and the pair is completed; hoodie pocket/hem and jeans waistband are hidden and conservatively reconstructed. Socks are not visible and were not added. The bicycle and lock are scene props, not products.",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-street-20261026-04",
+  "appBuild": "b164",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "hero": "rn-chilly-m35-day-street-20261026-04.01-outer"
+  }
+}

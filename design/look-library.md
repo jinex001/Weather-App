@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-26 (앱 빌드 b163) · 205룩 · 1301아이템 · 기사 룩 205 (JavaScriptCore(JXA)로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-26 (앱 빌드 b164) · 210룩 · 1324아이템 · 기사 룩 210 (JavaScriptCore(JXA)로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -229,3 +229,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b163 · Rain / Normal / Chilly / Male / 35+ / Day / Minimal — 2026-10-26 set (5 looks)
 
 에디토리얼 5장(모두 1024×1536 JPG) + 독립 투명 WebP 제품 24개(6/4/5/4/5), `look/berlin-complete/Rain/Normal/Chilly/Male/35+/day/minimal/<01–05>/`, 보충 파일 `look/rain-normal-male-day-minimal-20261026.js`. 룩 `rn-chilly-m35-day-minimal-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: minimal`, 낮 = `time` 없음). 01 차콜 맥코트 + 라이트 그레이 니트 + 첼시 부츠 + 크로스백 + 장우산 · 02 스톤 베이지 발마칸 + 에스프레소 니트 + 장우산 · 03 잉크 네이비 후드 코트 + 코발트 니트 + 크로스백 + 곡선 손잡이 우산 · 04 딥 올리브 후드 코트 + 오트밀 모크넥 + 블랙 슈즈 · 05 블랙 벨티드 트렌치 + 러스트 머플러 + 크림 니트(소매만 보여 추정) + 캔버스 토트. 분류: 코트 → `outer`, 니트 → `top`, 팬츠 → `bottom`, 크로스백·토트 → `bag`, 머플러 → `scarf`, 우산 → `accessory`(앱에 우산 분류 없음; products.json에 제작 측 `category` + `appCategory`). 파일 이름은 `NN-<앱 분류>.webp`(바이트 그대로, 제작 측 이름은 `deliveredImage`). 장면 소품(02 텀블러 · 03 열쇠 · 05 자동차·장바구니 채소)은 제품 아님, 크롭으로 안 보이는 신발·양말은 넣지 않음. 대표 컷은 b134 제목 단어 규칙: 03 COBALT → 코발트 니트 `02-top`, 05 RUST → 러스트 머플러 `02-scarf`, 01 CHARCOAL · 02 BEIGE · 04 OLIVE → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행, `lum`은 이번엔 계산 못 해 null — b137부터 앱이 안 씀). 모델 외관 28–32세, 숫자 기온 없음. [검증](rain-normal-male-day-minimal-20261026-validation.md).
+
+## b164 · Rain / Normal / Chilly / Male / 35+ / Day / Street — 2026-10-26 set (5 looks)
+
+에디토리얼 5장(모두 1024×1536 JPG) + 독립 투명 WebP 제품 23개(5/4/5/4/5), `look/berlin-complete/Rain/Normal/Chilly/Male/35+/day/street/<01–05>/`, 보충 파일 `look/rain-normal-male-day-street-20261026.js`. 룩 `rn-chilly-m35-day-street-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, 낮 = `time` 없음). 01 차콜 파카 + 오트밀 플리스 + 네이비 스웨트셔츠 + 카고 + 레이스업 부츠 · 02 코발트 재킷 + 차콜 스카프 + 와이드 팬츠 + 크로스보디 · 03 러스트 재킷 + 차콜 오버셔츠 + 크림 니트 + 브라운 팬츠 + 우산 · 04 올리브 셸 + 버건디 후디 + 블랙 진 + 청키 부츠 · 05 네이비 셸 + 머스터드 플리스 + 그레이 스웨트셔츠 + 네이비 비니 + 그레이 팬츠. 분류: 제작 측 `midlayer`(플리스 집업·오버셔츠) → `top`, 그 안에 입은 제작 측 `top`(스웨트셔츠·니트) → `under`(카드 라벨 Top/Under로 겹침 순서가 보임; 04 후디는 미들레이어가 없어 `top`), `hat` → `headwear`, `umbrella` → `accessory`. 파일 이름은 `NN-<앱 분류>.webp`(바이트 그대로, 제작 측 이름은 `deliveredImage`). 입는 법은 상위 작업이 확정한 수정 한국어 마스터(`sourceHowToWear` = 제작 측 틀 문장 원문). 대표 컷은 b134 제목 단어 규칙: 05 MUSTARD → 머스터드 플리스 `02-top`, 나머지 → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(04 자전거·자물쇠, 05 종이 장바구니)은 제품 아님. 모델 외관 28–32세, 숫자 기온 없음. [검증](rain-normal-male-day-street-20261026-validation.md).

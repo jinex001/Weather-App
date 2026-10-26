@@ -1,0 +1,13 @@
+# Rain / Normal / Chilly / Male / 35+ / day / Street — 2026-10-26 set (01–05)
+
+- Looks: `rn-chilly-m35-day-street-20261026-01` … `-05`; 23 products (5/4/5/4/5).
+- App: `sky: rain`, `rain: normal` (WMO 63 · 66 · 81), `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, day set (no `time` key).
+- Target audience 35+; model appearance approximately 28–32 (`casting.modelAppearanceAge`).
+- Creative Berlin daytime rain setting. No numerical temperature was supplied (`temperatureC`/`feelsLikeC` null is intentional); nothing here is a live weather measurement.
+- Editorials (1024×1536 JPG) and products (500×500 transparent WebP) are copied byte for byte from the approved batch, renamed to `NN-<app category>.webp` (the delivered name stays in products.json `deliveredImage`). Editorials were approved by the user; products were made and reviewed under the user's end-to-end workflow authorization, with no separate per-product user visual approval claimed.
+- Categories: jacket/parka/shell → `outer`; fleece zip and overshirt midlayers → `top`; the sweatshirt/knit worn under a midlayer → `under` (04's hoodie, with no midlayer, is `top`); trousers/jeans → `bottom`; boots → `shoes` (a pair is one product); crossbody → `bag`; scarf → `scarf`; beanie → `headwear`; umbrella → `accessory` (the app has no umbrella category). The delivered `category` stays in products.json.
+- Not products: 04 bicycle and lock, 05 paper grocery bag (scene props). Shoes and socks hidden by the crops of 02, 03 and 05 were not added; socks are not visible in 01 or 04.
+- Hidden areas are conservative reconstructions (`reconstructionSummary`, `evidence`, `reconstruction`). 05 grey sweatshirt is inferred from the visible hem.
+- No brand, price, purchase link, fibre composition, waterproof or temperature claim.
+- Copy: Korean title/caption/intro and product names are the delivered master, verbatim. The delivered product how-to-wear lines were mostly cross-look template sentences (5 sentences used 19 times), so the app uses per-product how-to-wear written from the editorials; the 4 product-specific delivered Korean lines (02 scarf, 02 bag, 03 umbrella, 05 beanie) are kept verbatim, and every delivered line stays in products.json `sourceHowToWear`. The parent task (Korean creative owner) reviewed all 23 lines against the editorials and accepted them as the revised Korean master (one wording fix in 05's shell line); this is not a separate user approval.
+- Mapping: `look/rain-normal-male-day-street-20261026.js` (b164). Home hero follows the b134 title-word rule (design/CUTOUTS.md): 01 A STEP AROUND THE PUDDLE (no colour word) → outerwear; 02 COBALT, 03 RUST, 04 OLIVE → outerwear; 05 MUSTARD → mustard fleece. Each cut is that product's own WebP (no new cutout).

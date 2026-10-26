@@ -305,3 +305,12 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 문구: 한국어 마스터(제목·요약·인트로·팁)와 제품별 `howToWearKo` 바이트 그대로. 제작 측 en/de 입는 법은 룩을 가로질러 같은 틀 문장 4개뿐이라 5-1장 기준 미달 → 한국어 문장마다 en/de 번역을 새로 씀. en/de 이름 중 한국어에 없는 소재(leather·nylon)를 붙인 가방 2개는 보이는 특징으로 바꿈.
 - 장면 소품(텀블러·열쇠·자동차·장바구니 채소)은 제품 아님, 빈 캔버스 토트는 제품. 크롭으로 안 보이는 신발·양말은 넣지 않음.
 - [검증 기록](rain-normal-male-day-minimal-20261026-validation.md).
+
+## b164 · Rain / Normal / Chilly / Male / 35+ / Day / Street — 2026-10-26 set (5 looks · 23 products)
+
+- 원본: 로컬 outbox 완성 배치(READY.json `approved`·`products_complete`, 목록 99개 SHA-256 일치, 목록 밖 파일 없음). 배포 파일은 `complete/NN/editorial.jpg`·`complete/NN/products/*.webp`만 바이트 그대로(상위 작업이 복사, Claude가 해시 재확인), 이름 `NN-<앱 분류>.webp`(제작 측 이름은 `deliveredImage`).
+- `sky: "rain"`, `rain: "normal"`, 낮 세트라 `time` 없음. 폴더 `Rain/Normal/Chilly/Male/35+/day/street/<NN>/`, ID는 제작 측 `rn-chilly-m35-day-street-20261026-NN` 그대로.
+- 분류(새 코드 없음): 제작 측 `midlayer`(플리스 집업·버튼 오버셔츠) → `top`, 같은 룩에서 그 안에 입은 제작 측 `top` → `under`(기존 이너 규칙, 예: overcast-male-day-street), `hat` → `headwear`, `umbrella` → `accessory`(b151·b163과 같음).
+- 문구: 한국어 마스터(제목·요약·인트로·제품 이름) 그대로. 제작 측 `howToWear`는 대부분 룩을 가로지르는 틀 문장(5문장이 19번) → 5-1장 기준 미달이라 에디토리얼을 보고 제품별 ko/en/de를 새로 씀(제품 고유인 스카프·가방·우산·비니 4문장은 한국어 그대로). 상위 작업(한국어 크리에이티브 담당)이 23문장을 에디토리얼과 대조해 수정 한국어 마스터로 확정(`automation/state/…-COPY_REVIEW.json`, 05 셸 과장 표현 한 곳 수정; 사용자 개별 승인 주장 안 함). 제작 측 문장은 `sourceHowToWear`에 그대로. 한국어 마스터에 팁이 없어 `tip` 없음(만들지 않음), `pull`은 장면을 보고 영어 대문자로 새로 씀.
+- 01·04 부츠 제품 컷이 거의 같은 모양(다른 파일·해시). 두 에디토리얼 모두 블랙 레이스업 러그 부츠라 그대로 두고 보고만 함.
+- [검증 기록](rain-normal-male-day-street-20261026-validation.md).

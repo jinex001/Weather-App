@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-street-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": "28–32"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User requested automated completion for these five existing editorials on 2026-10-26; product quality review by Codex, no separate user product approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "203911a8d696ae70cb8b2dec39379fd9c6d98c7bfadddd94d3c8ede6a3b2b021",
+  "copy": {
+    "ko": {
+      "title": "물웅덩이를 피해 한 걸음",
+      "caption": "차콜 파카 안에 오트밀 플리스를 겹쳐 입고, 카고 팬츠와 청키 부츠로 비 오는 낮을 걷습니다.",
+      "intro": "후드는 얼굴 주변을 조이고 파카는 플리스 위로 여미세요. 넉넉한 카고 밑단은 젖은 바닥에 끌리지 않도록 정리합니다."
+    },
+    "en": {
+      "title": "A STEP AROUND THE PUDDLE",
+      "caption": "An oatmeal fleece layered inside a charcoal parka, with cargo trousers and chunky boots for a walk through a rainy day.",
+      "intro": "Cinch the hood around your face and close the parka over the fleece. Keep the roomy cargo hems from dragging on the wet ground."
+    },
+    "de": {
+      "title": "EIN SCHRITT UM DIE PFÜTZE",
+      "caption": "Haferfarbenes Fleece unter einem anthrazitfarbenen Parka, dazu Cargohose und derbe Boots – so geht es durch einen verregneten Tag.",
+      "intro": "Die Kapuze ums Gesicht zuziehen und den Parka über dem Fleece schließen. Die weiten Cargosäume so richten, dass sie nicht über den nassen Boden schleifen."
+    },
+    "pull": "LONG STRIDE, SMALL GRIN."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-street-20261026-01.01-outer",
+      "name": {
+        "ko": "차콜 후드 레인 파카",
+        "en": "Charcoal hooded rain parka",
+        "de": "Anthrazitfarbener Regenparka"
+      },
+      "nameKo": "차콜 후드 레인 파카",
+      "descriptor": "Charcoal hooded rain parka",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "cd325f0dbe34dcfeccda636398fdc5085464c3e1dfec7a9c585e6542126a981a",
+      "bytes": 29708,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "후드 조임끈으로 얼굴 둘레를 맞추고, 비가 길어지면 지퍼를 올려 플리스까지 덮으세요.",
+        "en": "Adjust the hood's drawcord around your face, and when the rain sets in, zip it up over the fleece.",
+        "de": "Die Kapuze mit dem Kordelzug ums Gesicht anpassen und bei anhaltendem Regen den Reißverschluss über das Fleece schließen."
+      },
+      "sourceHowToWear": {
+        "ko": "보온 이너 위에 입고 비가 이어지면 앞여밈과 후드를 정돈하세요.",
+        "en": "Wear over warm layers; fasten the front and adjust the hood in steady rain.",
+        "de": "Über warmen Schichten tragen; bei anhaltendem Regen schließen und die Kapuze anpassen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "full outer silhouette visible; rear construction conservatively inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 후드 레인 파카 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-midlayer",
+      "category": "midlayer",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-street-20261026-01.02-top",
+      "name": {
+        "ko": "오트밀 플리스 집업",
+        "en": "Oatmeal fleece zip jacket",
+        "de": "Haferfarbene Fleecejacke"
+      },
+      "nameKo": "오트밀 플리스 집업",
+      "descriptor": "Oatmeal fleece zip jacket",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-midlayer.webp",
+      "sha256": "1e29a5cd989214235b3a7d1b436832f1e6685fdbc2ea218b19850f6e720babff",
+      "bytes": 45056,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "파카 안에서는 지퍼를 내려 열어 입고, 스탠드 칼라를 세워 목둘레를 감싸세요.",
+        "en": "Wear it unzipped inside the parka and stand the collar up around your neck.",
+        "de": "Unter dem Parka offen tragen und den Stehkragen um den Hals aufstellen."
+      },
+      "sourceHowToWear": {
+        "ko": "레인 아우터 안의 보온 중간층으로 겹쳐 입으세요.",
+        "en": "Wear as a warm middle layer beneath the rain outerwear.",
+        "de": "Als wärmende mittlere Schicht unter der Regenjacke tragen."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "front fleece texture and collar visible; sleeves hidden by parka inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "오트밀 플리스 집업 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-m35-day-street-20261026-01.03-under",
+      "name": {
+        "ko": "네이비 크루넥 스웨트셔츠",
+        "en": "Navy crewneck sweatshirt",
+        "de": "Marineblaues Sweatshirt"
+      },
+      "nameKo": "네이비 크루넥 스웨트셔츠",
+      "descriptor": "Navy crewneck sweatshirt",
+      "image": "products/03-under.webp",
+      "deliveredImage": "products/03-top.webp",
+      "sha256": "3fa00781150db28eea0190621d977ede0ee000f6132bc2369c388984ab1b4b85",
+      "bytes": 23074,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "열린 플리스 사이로 네이비 앞판이 한 줄로 보이도록 밑단을 바지 위에 가지런히 내려 두세요.",
+        "en": "Let the hem fall neatly over the trousers, so the navy front shows as one strip between the open fleece.",
+        "de": "Den Saum glatt über die Hose fallen lassen, damit die marineblaue Front als Streifen zwischen dem offenen Fleece zu sehen ist."
+      },
+      "sourceHowToWear": {
+        "ko": "피부에 가까운 보온층으로 입고 아우터와 겹쳐 두께를 조절하세요.",
+        "en": "Use as an inner warmth layer and adjust with the outer layers.",
+        "de": "Als innere Wärmeschicht tragen und mit den äußeren Schichten abstimmen."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "front and collar visible; hidden cuffs inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 크루넥 스웨트셔츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-street-20261026-01.04-bottom",
+      "name": {
+        "ko": "차콜 카고 팬츠",
+        "en": "Charcoal cargo trousers",
+        "de": "Anthrazitfarbene Cargohose"
+      },
+      "nameKo": "차콜 카고 팬츠",
+      "descriptor": "Charcoal cargo trousers",
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/04-bottom.webp",
+      "sha256": "765d2eed57fa34c2665b355a275c220dfc02e419525848d6367f594aac28014f",
+      "bytes": 27874,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "넉넉한 통은 그대로 두고, 밑단이 부츠 발등 위에서 한 번 접혀 멈추게 해 물웅덩이에 닿지 않게 하세요.",
+        "en": "Keep the roomy legs as they are and let the hems break once on top of the boots, clear of the puddles.",
+        "de": "Die weiten Beine so lassen und die Säume einmal auf den Boots aufstoßen lassen, damit sie nicht in die Pfützen hängen."
+      },
+      "sourceHowToWear": {
+        "ko": "여유 있는 실루엣을 살리고 밑단이 젖은 바닥에 끌리지 않도록 정돈하세요.",
+        "en": "Keep the relaxed silhouette and the hems clear of wet ground.",
+        "de": "Die lockere Form bewahren und die Säume vom nassen Boden fernhalten."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "both trouser legs and thigh cargo pockets visible",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 카고 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-street-20261026-01.05-shoes",
+      "name": {
+        "ko": "블랙 레이스업 부츠",
+        "en": "Black lace-up lug boots",
+        "de": "Schwarze Schnürboots"
+      },
+      "nameKo": "블랙 레이스업 부츠",
+      "descriptor": "Black lace-up lug boots",
+      "image": "products/05-shoes.webp",
+      "deliveredImage": "products/05-shoes.webp",
+      "sha256": "50cabddfd98384247f3973bda2190c8369e3f199045d641817825a5aa1b30474",
+      "bytes": 35060,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "끈을 발목까지 단단히 묶고, 카고 밑단 아래로 두꺼운 밑창이 드러나게 신으세요.",
+        "en": "Lace them firmly up to the ankle and let the thick lug soles show beneath the cargo hems.",
+        "de": "Bis zum Knöchel fest schnüren und die dicke Profilsohle unter den Cargosäumen zeigen."
+      },
+      "sourceHowToWear": {
+        "ko": "바짓단과 발목을 정돈하고 젖은 노면에서는 조심해 걸으세요.",
+        "en": "Settle the trouser hems at the ankles and walk carefully on wet surfaces.",
+        "de": "Die Hosensäume am Knöchel ordnen und auf nassen Flächen vorsichtig gehen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "boots visible; show both matching boots, original brand unknown",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 레이스업 부츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title/caption/intro and product names are the delivered master, verbatim. The delivered product howToWear lines here are cross-look template sentences (IMAGE_MAPPING_HANDOFF 5-1), so the app uses per-product how-to-wear written from the editorial; the delivered lines are kept in sourceHowToWear. en/de caption/intro are translations of the Korean master.",
+  "reconstructionSummary": "Full-length shot: parka, fleece, sweatshirt front, cargo trousers and both boots are visible; hidden backs and cuffs are conservatively reconstructed. Socks are not visible and were not added.",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-street-20261026-01",
+  "appBuild": "b164",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "hero": "rn-chilly-m35-day-street-20261026-01.01-outer"
+  }
+}

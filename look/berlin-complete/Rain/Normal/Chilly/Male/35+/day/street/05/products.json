@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-street-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": "28–32"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User requested automated completion for these five existing editorials on 2026-10-26; product quality review by Codex, no separate user product approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a5b9155062204f9d00cbf4ed27468d8f18a542fb695a30b3cb17e6fd06e1d75d",
+  "copy": {
+    "ko": {
+      "title": "네이비 사이의 머스터드",
+      "caption": "네이비 셸과 비니 사이로 머스터드 플리스가 드러나는 따뜻한 색 조합입니다.",
+      "intro": "얇은 그레이 이너 위에 플리스와 셸을 겹치세요. 비니는 귀를 덮도록 내리고 셸 후드로 한 겹 더 감쌉니다."
+    },
+    "en": {
+      "title": "MUSTARD BETWEEN NAVY",
+      "caption": "Mustard fleece shows between a navy shell and beanie – a warm colour pairing.",
+      "intro": "Layer the fleece and the shell over a thin grey base. Pull the beanie down over your ears and bring the shell's hood over it as one more layer."
+    },
+    "de": {
+      "title": "SENFGELB ZWISCHEN MARINEBLAU",
+      "caption": "Zwischen marineblauer Jacke und Mütze blitzt senfgelbes Fleece hervor – eine warme Farbkombination.",
+      "intro": "Fleece und Jacke über eine dünne graue Unterschicht ziehen. Die Mütze über die Ohren ziehen und mit der Kapuze noch eine Lage darüberlegen."
+    },
+    "pull": "HOOD ON, GROCERIES IN."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-street-20261026-05.01-outer",
+      "name": {
+        "ko": "네이비 후드 레인 셸",
+        "en": "Navy hooded rain shell",
+        "de": "Marineblaue Regenjacke"
+      },
+      "nameKo": "네이비 후드 레인 셸",
+      "descriptor": "Navy hooded rain shell",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "6b436a92809cd9597c8c29dacf7af4c161e6c293b9804a45ff55bc0577ce00d0",
+      "bytes": 34674,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "비니 위로 후드를 덮어 쓰고, 밑단 아래로 머스터드 플리스가 조금 보이게 입으세요.",
+        "en": "Pull the hood over the beanie and let a little mustard fleece show below the hem.",
+        "de": "Die Kapuze über die Mütze ziehen und unter dem Saum etwas senfgelbes Fleece zeigen."
+      },
+      "sourceHowToWear": {
+        "ko": "보온 이너 위에 입고 비가 이어지면 앞여밈과 후드를 정돈하세요.",
+        "en": "Wear over warm layers; fasten the front and adjust the hood in steady rain.",
+        "de": "Über warmen Schichten tragen; bei anhaltendem Regen schließen und die Kapuze anpassen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "back hood sleeves and lower hem visible; front inferred from conservative shell design",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 후드 레인 셸 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-midlayer",
+      "category": "midlayer",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-street-20261026-05.02-top",
+      "name": {
+        "ko": "머스터드 플리스 집업",
+        "en": "Mustard fleece zip jacket",
+        "de": "Senfgelbe Fleecejacke"
+      },
+      "nameKo": "머스터드 플리스 집업",
+      "descriptor": "Mustard fleece zip jacket",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-midlayer.webp",
+      "sha256": "af29d2561ecf7d9b60d475cc6076d31a62f359cb18aa35aec4a88ab2729d61c8",
+      "bytes": 49504,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "지퍼를 끝까지 올려 칼라가 셸 목둘레 위로 올라오게 하고, 밑단은 셸보다 조금 길게 두세요.",
+        "en": "Zip it all the way, so the collar rises above the shell's neckline, and leave the hem a little longer than the shell.",
+        "de": "Ganz schließen, damit der Kragen über den Ausschnitt der Jacke ragt, und den Saum etwas länger als die Jacke lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "레인 아우터 안의 보온 중간층으로 겹쳐 입으세요.",
+        "en": "Wear as a warm middle layer beneath the rain outerwear.",
+        "de": "Als wärmende mittlere Schicht unter der Regenjacke tragen."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "mustard fleece collar and hem visible; front and sleeves hidden inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "머스터드 플리스 집업 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-m35-day-street-20261026-05.03-under",
+      "name": {
+        "ko": "그레이 크루넥 스웨트셔츠",
+        "en": "Grey crewneck sweatshirt",
+        "de": "Graues Sweatshirt"
+      },
+      "nameKo": "그레이 크루넥 스웨트셔츠",
+      "descriptor": "Grey crewneck sweatshirt",
+      "image": "products/03-under.webp",
+      "deliveredImage": "products/03-top.webp",
+      "sha256": "38969cd3b42c3e15329c94c91b5570972381d450feb1e921d6ff80396989aa3d",
+      "bytes": 33370,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "플리스 안에 얇게 받쳐 입고, 밑단만 플리스 아래로 살짝 보이게 하세요.",
+        "en": "Wear it as a thin layer under the fleece, with just the hem peeking out below.",
+        "de": "Als dünne Lage unter dem Fleece tragen, nur der Saum blitzt darunter hervor."
+      },
+      "sourceHowToWear": {
+        "ko": "피부에 가까운 보온층으로 입고 아우터와 겹쳐 두께를 조절하세요.",
+        "en": "Use as an inner warmth layer and adjust with the outer layers.",
+        "de": "Als innere Wärmeschicht tragen und mit den äußeren Schichten abstimmen."
+      },
+      "reconstruction": "not-visible-inferred",
+      "evidence": "only grey inner hem visible; garment type from approved original styling prompt, hidden details reconstructed",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 크루넥 스웨트셔츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-hat",
+      "category": "hat",
+      "appCategory": "headwear",
+      "appItemId": "rn-chilly-m35-day-street-20261026-05.04-headwear",
+      "name": {
+        "ko": "네이비 리브 비니",
+        "en": "Navy ribbed beanie",
+        "de": "Marineblaue Rippstrickmütze"
+      },
+      "nameKo": "네이비 리브 비니",
+      "descriptor": "Navy ribbed beanie",
+      "image": "products/04-headwear.webp",
+      "deliveredImage": "products/04-hat.webp",
+      "sha256": "9eb49c8508b0267a7fef3be0604be645daf2681853c7f16cea64d93d64b941e9",
+      "bytes": 41678,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "접힌 단을 귀 가까이 내려 쓰고 셸 후드와 겹쳐 보온하세요.",
+        "en": "Pull the folded cuff down close to the ears and bring the shell's hood over it for warmth.",
+        "de": "Den Umschlag tief über die Ohren ziehen und die Kapuze der Jacke darüber aufsetzen – das hält warm."
+      },
+      "sourceHowToWear": {
+        "ko": "접힌 단을 귀 가까이 내려 쓰고 셸 후드와 겹쳐 보온하세요.",
+        "en": "Pull the cuff over the ears and layer under the shell hood.",
+        "de": "Den Umschlag über die Ohren ziehen und unter der Jackenkapuze tragen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "knit and folded cuff visible",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 리브 비니 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-street-20261026-05.05-bottom",
+      "name": {
+        "ko": "그레이 릴랙스 팬츠",
+        "en": "Grey relaxed trousers",
+        "de": "Graue lockere Hose"
+      },
+      "nameKo": "그레이 릴랙스 팬츠",
+      "descriptor": "Grey relaxed trousers",
+      "image": "products/05-bottom.webp",
+      "deliveredImage": "products/05-bottom.webp",
+      "sha256": "21d7e9f92c09a2b5a1c90722b4e7f2355493c91a4ea51ef68d43e2591ec6e767",
+      "bytes": 35208,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "허리는 겹친 레이어 밑단 아래에 두고, 여유 있는 통이 곧게 떨어지도록 입으세요.",
+        "en": "Keep the waist under the layered hems and let the relaxed legs fall straight.",
+        "de": "Den Bund unter den übereinanderliegenden Säumen lassen und die lockeren Beine gerade fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "여유 있는 실루엣을 살리고 밑단이 젖은 바닥에 끌리지 않도록 정돈하세요.",
+        "en": "Keep the relaxed silhouette and the hems clear of wet ground.",
+        "de": "Die lockere Form bewahren und die Säume vom nassen Boden fernhalten."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "upper rear trousers visible; waistband and lower legs inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 릴랙스 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title/caption/intro, product names and the product-specific beanie line are the delivered master, verbatim. The shell, fleece, sweatshirt and trouser lines were cross-look template sentences (IMAGE_MAPPING_HANDOFF 5-1) and were rewritten from the editorial; delivered lines are kept in sourceHowToWear.",
+  "reconstructionSummary": "Back view: the shell front is a conservative reconstruction; the grey sweatshirt shows only at the hem and is inferred; trouser waistband and lower legs are inferred. Shoes and socks are not visible and were not added. The paper grocery bag is a scene prop, not a product.",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-street-20261026-05",
+  "appBuild": "b164",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "hero": "rn-chilly-m35-day-street-20261026-05.02-top"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-street-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAge": "28–32"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null,
+    "evidence": "User requested automated completion for these five existing editorials on 2026-10-26; product quality review by Codex, no separate user product approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "20f3b1bb9c39dd7913de04eabcecd1267329873cddeee9b974db9b94bf1bd421",
+  "copy": {
+    "ko": {
+      "title": "러스트 아래의 따뜻한 레이어",
+      "caption": "러스트 재킷 안에 차콜 오버셔츠와 크림 니트를 겹치고 블랙 우산으로 마무리했습니다.",
+      "intro": "니트 위에 오버셔츠를 겹치고 비가 계속되면 레인 재킷을 여미세요. 우산은 바람 방향에 맞춰 낮게 잡습니다."
+    },
+    "en": {
+      "title": "WARM LAYERS UNDER RUST",
+      "caption": "A charcoal overshirt and a cream knit layered inside a rust jacket, finished with a black umbrella.",
+      "intro": "Layer the overshirt over the knit, and close the rain jacket if the rain keeps up. Hold the umbrella low, angled to the wind."
+    },
+    "de": {
+      "title": "WARME SCHICHTEN UNTER ROSTROT",
+      "caption": "Anthrazitfarbenes Overshirt und cremefarbener Strick unter einer rostroten Jacke, dazu ein schwarzer Schirm.",
+      "intro": "Das Overshirt über den Pullover ziehen und die Regenjacke schließen, wenn der Regen anhält. Den Schirm tief halten und nach dem Wind ausrichten."
+    },
+    "pull": "IS IT EASING OFF?"
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-street-20261026-03.01-outer",
+      "name": {
+        "ko": "러스트 후드 레인 재킷",
+        "en": "Rust hooded rain jacket",
+        "de": "Rostrote Regenjacke"
+      },
+      "nameKo": "러스트 후드 레인 재킷",
+      "descriptor": "Rust hooded rain jacket",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "6646197e74cdb0c1c22dd0f6d21ee991679ca58fc11984827e2b502b7611e863",
+      "bytes": 45686,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "오버셔츠 위에 지퍼를 열어 입고, 비가 거세지면 한 손으로 앞섶을 당겨 여미세요.",
+        "en": "Wear it unzipped over the overshirt, and pull the front together with one hand when the rain picks up.",
+        "de": "Offen über dem Overshirt tragen und die Vorderseite mit einer Hand zusammenziehen, wenn der Regen stärker wird."
+      },
+      "sourceHowToWear": {
+        "ko": "보온 이너 위에 입고 비가 이어지면 앞여밈과 후드를 정돈하세요.",
+        "en": "Wear over warm layers; fasten the front and adjust the hood in steady rain.",
+        "de": "Über warmen Schichten tragen; bei anhaltendem Regen schließen und die Kapuze anpassen."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "outer jacket visible; rear inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "러스트 후드 레인 재킷 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-midlayer",
+      "category": "midlayer",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-street-20261026-03.02-top",
+      "name": {
+        "ko": "차콜 버튼 오버셔츠",
+        "en": "Charcoal button overshirt",
+        "de": "Anthrazitfarbenes Overshirt"
+      },
+      "nameKo": "차콜 버튼 오버셔츠",
+      "descriptor": "Charcoal button overshirt",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-midlayer.webp",
+      "sha256": "8a803ae5e2eee3727174bfa76d2401c5aa9616ad6bd2889a1ce527a042af0064",
+      "bytes": 41208,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "단추를 모두 채워 셔츠처럼 입고, 칼라는 재킷 깃 안쪽에 눕혀 크림 니트 목선이 살짝 보이게 하세요.",
+        "en": "Button it all the way like a shirt and lay the collar inside the jacket's, so the cream knit neckline just shows.",
+        "de": "Ganz zuknöpfen wie ein Hemd und den Kragen unter den Jackenkragen legen, sodass der cremefarbene Strickausschnitt gerade hervorschaut."
+      },
+      "sourceHowToWear": {
+        "ko": "레인 아우터 안의 보온 중간층으로 겹쳐 입으세요.",
+        "en": "Wear as a warm middle layer beneath the rain outerwear.",
+        "de": "Als wärmende mittlere Schicht unter der Regenjacke tragen."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "collar front buttons and lower pockets visible; sleeves hidden and inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 버튼 오버셔츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-m35-day-street-20261026-03.03-under",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream crewneck sweater",
+        "de": "Cremefarbener Pullover"
+      },
+      "nameKo": "크림 크루넥 니트",
+      "descriptor": "Cream crewneck sweater",
+      "image": "products/03-under.webp",
+      "deliveredImage": "products/03-top.webp",
+      "sha256": "da1f2ad35fa5c40e4d9a8efeef17237ec3c4a5b4dda7be166a7082bb3bb6bc49",
+      "bytes": 38168,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "오버셔츠 안에 받쳐 입고 목선과 밑단만 드러나게 해, 어두운 레이어 사이에 밝은 선을 만드세요.",
+        "en": "Layer it under the overshirt with only the neckline and hem showing, for a light line between the dark layers.",
+        "de": "Unter dem Overshirt tragen, sodass nur Ausschnitt und Saum zu sehen sind – eine helle Linie zwischen den dunklen Lagen."
+      },
+      "sourceHowToWear": {
+        "ko": "피부에 가까운 보온층으로 입고 아우터와 겹쳐 두께를 조절하세요.",
+        "en": "Use as an inner warmth layer and adjust with the outer layers.",
+        "de": "Als innere Wärmeschicht tragen und mit den äußeren Schichten abstimmen."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "cream neck and lower hem visible; body hidden, conservatively reconstructed",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "크림 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-street-20261026-03.04-bottom",
+      "name": {
+        "ko": "다크 브라운 팬츠",
+        "en": "Dark brown trousers",
+        "de": "Dunkelbraune Hose"
+      },
+      "nameKo": "다크 브라운 팬츠",
+      "descriptor": "Dark brown trousers",
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/04-bottom.webp",
+      "sha256": "bc09d58d80e8802c9261a5540fac216ebc05f27f9cb42f5ae82fd342ae2c82bc",
+      "bytes": 23632,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "오버셔츠 밑단이 허리를 덮게 두고, 곧은 통은 걸음에 맞춰 자연스럽게 떨어지게 입으세요.",
+        "en": "Let the overshirt hem cover the waist and the straight legs fall naturally as you walk.",
+        "de": "Den Saum des Overshirts über den Bund fallen lassen und die geraden Hosenbeine beim Gehen locker fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "여유 있는 실루엣을 살리고 밑단이 젖은 바닥에 끌리지 않도록 정돈하세요.",
+        "en": "Keep the relaxed silhouette and the hems clear of wet ground.",
+        "de": "Die lockere Form bewahren und die Säume vom nassen Boden fernhalten."
+      },
+      "reconstruction": "partially-visible-reconstructed",
+      "evidence": "upper trousers visible; lower legs cropped and reconstructed",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "다크 브라운 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-umbrella",
+      "category": "umbrella",
+      "appCategory": "accessory",
+      "appItemId": "rn-chilly-m35-day-street-20261026-03.05-accessory",
+      "name": {
+        "ko": "블랙 우산",
+        "en": "Black umbrella",
+        "de": "Schwarzer Regenschirm"
+      },
+      "nameKo": "블랙 우산",
+      "descriptor": "Black umbrella",
+      "image": "products/05-accessory.webp",
+      "deliveredImage": "products/05-umbrella.webp",
+      "sha256": "2f7037fe00365c2401bd5a7ca57e23bd0dded39654318bdc84055e142c0331f4",
+      "bytes": 20456,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "바람 방향을 살피며 안정적으로 잡으세요.",
+        "en": "Hold it steady and keep an eye on which way the wind is blowing.",
+        "de": "Ruhig halten und darauf achten, aus welcher Richtung der Wind kommt."
+      },
+      "sourceHowToWear": {
+        "ko": "바람 방향을 살피며 안정적으로 잡으세요.",
+        "en": "Hold securely and watch the wind direction.",
+        "de": "Sicher halten und auf die Windrichtung achten."
+      },
+      "reconstruction": "visible-item-reconstructed",
+      "evidence": "open black umbrella visible; unseen handle conservatively inferred",
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 우산 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title/caption/intro, product names and the product-specific umbrella line are the delivered master, verbatim. The jacket, overshirt, knit and trouser lines were cross-look template sentences (IMAGE_MAPPING_HANDOFF 5-1) and were rewritten from the editorial; delivered lines are kept in sourceHowToWear.",
+  "reconstructionSummary": "Crop ends at the thighs: trousers partially visible; the cream knit shows only at neck and hem and is conservatively completed. Shoes and socks are not visible and were not added. App category: umbrella → accessory (the app has no umbrella category).",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-street-20261026-03",
+  "appBuild": "b164",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "hero": "rn-chilly-m35-day-street-20261026-03.01-outer"
+  }
+}
