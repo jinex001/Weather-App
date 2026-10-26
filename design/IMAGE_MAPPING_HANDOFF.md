@@ -350,3 +350,12 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 문구: 이 배치의 룩 단위 문구는 `title`(ko/en/de)과 `howToWear`(ko/en/de)뿐 → `title` → `deck`, 영어 `title` 대문자 → `article.title`, `howToWear` → `article.intro`(한국어 마스터·en/de 그대로, 05 de 형용사 한 곳만 고침). 팁은 없어 넣지 않음(인트로 둘째 문장이 안전 팁 역할), `pull`은 장면을 보고 새로 씀. 제품 `description*`은 전부 "…— 에디토리얼 기준의 스타일링 복원 이미지" 틀 문장이라 5-1장 기준 미달 → 에디토리얼을 보고 제품별 ko/en/de 입는 법을 새로 씀(`sourceDescription`에 원문).
 - 이 환경엔 node·jsc·JXA·Pillow·sips 실행이 허용되지 않아 알파는 순수 파이썬 VP8L 디코더(ALPH 청크)로 확인(27장 모서리·테두리 알파 0), 런타임 수와 선택은 index.html 순서대로 각 스크립트의 룩·아이템 리터럴을 파이썬으로 디코드하고 `lookFits` 규칙을 파이썬으로 옮겨 확인. 화면 렌더링은 못 함.
 - [검증 기록](rain-normal-male-day-running-20261026-validation.md).
+
+## b170 · Rain / Normal / Chilly / Male / 35+ / Night / Running — 2026-10-26 set (5 looks · 36 products)
+
+- 원본: 로컬 outbox 배치(READY.json `approved`·`products_complete`, 목록 163개 SHA-256·크기 일치). 배포 파일은 `delivery/NN-running/editorial.jpg`·`products/*.webp`만 바이트 그대로, **제작 측 파일 이름 그대로**(`02-top.webp`, `06-gloves.webp`, `07-headband.webp`/`07-beanie.webp`, `08-watch.webp`). 루트 `NN-running/editorial*`, `delivery/masters` PNG, QA 시트, 프롬프트, 생성 기록, 스크립트는 커밋하지 않음. products.json에서 `prompt`·`masterSource`·`generationSource`·`reference`는 뺌.
+- `sky: "rain"`, `rain: "normal"`, `time: "evening"`. 폴더 `Rain/Normal/Chilly/Male/35+/night/running/<NN>/`(같은 칸의 `minimal/`은 그대로), ID는 제작 측 `rn-chilly-m35-night-run-20261026-NN`, 아이템 `<룩 ID>.<제품 id>`(상위 게이트가 이 형식을 확인).
+- 분류(새 코드 없음): `gloves` → `hands`, `headband`·`beanie` → `headwear`, 이너는 제작 측 `under` 그대로, `watch` 그대로(제작 측 `category`는 products.json에 보존, `appCategory` 추가).
+- 문구: 한국어 마스터 + 제작 측 en/de를 그대로(사용자 지시 "Preserve Korean verbatim", 상위 게이트가 `note.ko` = `howToWear.ko`를 확인). 독일어 2곳만 다듬음. 제품별 입는 법은 분류별 틀 문장(36개 중 9가지, 다섯 룩에 반복; 한 룩 안 중복은 없음) → **5-1장 기준 미달이지만 사용자 지시가 우선이라 그대로 두고 보고**. 앞으로 이 형식의 마스터가 오면 상위 작업(한국어 크리에이티브)이 룩별로 고친 마스터를 주는 것이 맞음(b164 방식).
+- 대표 컷: 제목 첫 색 단어 = 셸 색(01 CHARCOAL은 차콜 러닝화도 맞지만 규칙 3으로 셸), 컷 = 그 투명 WebP 자체.
+- [검증 기록](rain-normal-male-night-running-20261026-validation.md).
