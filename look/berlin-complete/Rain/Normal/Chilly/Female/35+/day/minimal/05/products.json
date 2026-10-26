@@ -1,0 +1,309 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-minimal-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication on 2026-10-26 (04 editorial = the user-requested stray-glasses-arm removal). Products: Codex producer review (FINAL_VISUAL_REVIEW.json passed), no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "884191e1b0f5c313c3b6957e47f666f39c612abff3030406d3ea0f7b2d93491e",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialEncoding": {
+    "quality": 80,
+    "bytes": 271919,
+    "note": null
+  },
+  "copy": {
+    "ko": {
+      "title": "네이비 속 따뜻한 오렌지",
+      "caption": "네이비 속 따뜻한 오렌지",
+      "intro": "차 문에 걸릴 뻔한 머플러 끝을 다시 챙기는 순간이에요. 네이비 사이로 보이는 따뜻한 오렌지가 비 오는 거리에서 작지만 분명한 생기를 더해요.",
+      "tip": "긴 머플러 끝은 이동할 때 코트 안에 넣어 문이나 가방 끈에 걸리지 않게 해요."
+    },
+    "en": {
+      "title": "WARM ORANGE UNDER NAVY",
+      "caption": "Warm orange under navy",
+      "intro": "She gathers a scarf end before it catches in the car door. Warm orange showing through navy adds a small, clear lift to the rainy street.",
+      "tip": "Tuck long scarf ends inside the coat while moving so they stay clear of doors and straps."
+    },
+    "de": {
+      "title": "WARM ORANGE UNDER NAVY",
+      "caption": "Warmes Orange unter Navy",
+      "intro": "Sie nimmt das Schalende auf, bevor es in der Autotür hängen bleibt. Warmes Orange unter Navy bringt einen kleinen, deutlichen Farbakzent auf die regennasse Straße.",
+      "tip": "Lange Schalenden unterwegs in den Mantel stecken, damit sie nicht in Türen oder Riemen hängen bleiben."
+    },
+    "pull": "A LITTLE WARM COLOR",
+    "suppliedTitle": {
+      "ko": "네이비 속 따뜻한 오렌지",
+      "en": "Warm orange under navy",
+      "de": "Warmes Orange unter Navy"
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-05.01-outer",
+      "name": {
+        "ko": "네이비 미니멀 레인코트",
+        "en": "Navy minimal raincoat",
+        "de": "Navyblauer Regenmantel"
+      },
+      "nameKo": "네이비 미니멀 레인코트",
+      "descriptor": "Deep navy waterproof hooded minimal coat, concealed zipper placket, tonal snaps, clean straight below-hip silhouette.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "bd7d02de256dd7ab503dc5fab8781a9b9e4588c46bebe54291b837c173d6e2e2",
+      "bytes": 23202,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        57,
+        25,
+        449,
+        467
+      ],
+      "howToWear": {
+        "ko": "네이비 앞섶을 열어 오렌지 니트가 한 면으로 보이게 하고 후드는 등 쪽에 정리해요.",
+        "en": "Open the navy front to show a panel of orange knit and let the hood rest at the back.",
+        "de": "Den navyblauen Mantel öffnen, um eine Fläche orangefarbenen Stricks zu zeigen, und die Kapuze hinten ruhen lassen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Deep navy waterproof hooded minimal coat, concealed zipper placket, tonal snaps, clean straight below-hip silhouette. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 미니멀 레인코트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-05.02-top",
+      "name": {
+        "ko": "번트 오렌지 니트",
+        "en": "Burnt orange knit",
+        "de": "Strickpullover in gebranntem Orange"
+      },
+      "nameKo": "번트 오렌지 니트",
+      "descriptor": "Burnt orange warm cashmere wool crewneck sweater, fine textured knit, long sleeves; neckline partly obscured.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "9508e2e652512b26bfc7a6fd719a67570dcb5a18c0684f89e3aa01e6c0b076a0",
+      "bytes": 49620,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        25,
+        47,
+        475,
+        452
+      ],
+      "howToWear": {
+        "ko": "오렌지는 목 주변의 토프와 겹쳐 보이게 하고 니트 몸판은 팬츠 위로 편하게 둬요.",
+        "en": "Let orange meet the taupe at the neck and wear the knit comfortably over the trousers.",
+        "de": "Orange am Hals auf Taupe treffen lassen und den Pullover bequem über der Hose tragen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Burnt orange warm cashmere wool crewneck sweater, fine textured knit, long sleeves; neckline partly obscured. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "번트 오렌지 니트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-05.03-bottom",
+      "name": {
+        "ko": "그래파이트 울 팬츠",
+        "en": "Graphite wool trousers",
+        "de": "Graphitgraue Wollhose"
+      },
+      "nameKo": "그래파이트 울 팬츠",
+      "descriptor": "Graphite grey wide straight-leg tailored wool trousers, front pleats and side pockets, full length reconstructed below cropped thighs.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "1256dacb668866fbee05f0290b108e69875424334daa92f9bbe038003e177e3f",
+      "bytes": 21268,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        80,
+        25,
+        411,
+        474
+      ],
+      "howToWear": {
+        "ko": "그래파이트 팬츠는 코트 아래에서 넓고 곧은 실루엣을 유지해요.",
+        "en": "Keep a wide, straight silhouette beneath the coat with the graphite trousers.",
+        "de": "Mit der graphitgrauen Hose unter dem Mantel eine weite, gerade Silhouette erhalten."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Graphite grey wide straight-leg tailored wool trousers, front pleats and side pockets, full length reconstructed below cropped thighs. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그래파이트 울 팬츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-scarf",
+      "category": "scarf",
+      "appCategory": "scarf",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-05.04-scarf",
+      "name": {
+        "ko": "토프 프린지 머플러",
+        "en": "Taupe fringed scarf",
+        "de": "Taupefarbener Fransenschal"
+      },
+      "nameKo": "토프 프린지 머플러",
+      "descriptor": "Long wide taupe grey wool scarf, soft brushed texture and dense short fringe on ends.",
+      "image": "products/04-scarf.webp",
+      "deliveredImage": "products/04-scarf.webp",
+      "sha256": "309ea8c3d41fcea444a6b35c27f4eee27f119ad4b9b2a6859071d9a067f3744b",
+      "bytes": 42382,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        33,
+        34,
+        470,
+        469
+      ],
+      "howToWear": {
+        "ko": "차에 타기 전 긴 프린지 끝을 모아 코트 안에 넣어 문틈을 피해요.",
+        "en": "Gather the long fringed ends inside the coat before getting into the car.",
+        "de": "Vor dem Einsteigen die langen Fransenenden im Mantel sammeln, damit sie nicht in die Tür geraten."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Long wide taupe grey wool scarf, soft brushed texture and dense short fringe on ends. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "토프 프린지 머플러 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-05.05-bag",
+      "name": {
+        "ko": "블랙 크로스바디 백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스바디 백",
+      "descriptor": "Small black pebbled leather crossbody bag, rounded flap body and long thin adjustable strap, subtle gold-tone ring at strap attachment.",
+      "image": "products/05-bag.webp",
+      "deliveredImage": "products/05-bag.webp",
+      "sha256": "e81cf20d6caaac36a0585a1e71eff02579c6c1acce92d88454eeedafe640119b",
+      "bytes": 41966,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        25,
+        28,
+        469,
+        465
+      ],
+      "howToWear": {
+        "ko": "스트랩을 몸을 가로질러 짧게 맞춰 작은 가방이 허리 옆에서 흔들리지 않게 해요.",
+        "en": "Shorten the crossbody strap so the small bag sits steadily beside the waist.",
+        "de": "Den Umhängeriemen kurz einstellen, damit die kleine Tasche ruhig seitlich an der Taille sitzt."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Small black pebbled leather crossbody bag, rounded flap body and long thin adjustable strap, subtle gold-tone ring at strap attachment. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 크로스바디 백 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "scenePropsNotProducts": [
+    "car"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except German fixes recorded in copy.sourceCopy / products[].sourceName / sourceHowToWear. App title = supplied English title in uppercase (also shown in de). Caption equals the title as supplied.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-minimal-20261026-05",
+  "appBuild": "b168",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "minimal",
+    "time": null,
+    "hero": "rn-chilly-f35-day-minimal-20261026-05.01-outer"
+  }
+}

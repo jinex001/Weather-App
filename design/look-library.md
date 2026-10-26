@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-26 (앱 빌드 b167) · 220룩 · 1370아이템 · 기사 룩 220 (JavaScriptCore(jsc)로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-26 (앱 빌드 b168) · 225룩 · 1393아이템 · 기사 룩 225 (JavaScriptCore(jsc)/JXA로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -241,3 +241,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b167 · Rain / Normal / Chilly / Male / 35+ / Night / Minimal — 2026-10-26 set (5 looks)
 
 에디토리얼 5장(모두 1024×1536 JPG) + 독립 투명 WebP 제품 21개(5/4/4/4/4), `look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/minimal/<01–05>/`, 보충 파일 `look/rain-normal-male-night-minimal-20261026.js`. 룩 `rn-chilly-m35-night-min-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: minimal`, `time: evening`). 01 차콜 맥코트 + 그레이 크루넥 + 블랙 팬츠 + 첼시 부츠 + 가죽 장갑 · 02 스톤 베이지 발마칸 + 에스프레소 니트 + 다크 브라운 머플러 + 토프 팬츠 · 03 잉크 네이비 후드 레인코트 + 코발트 니트 + 차콜 팬츠 + 크로스바디 · 04 딥 올리브 후드 코트 + 오트밀 목넥 + 다크 팬츠 + 앵클 부츠 · 05 블랙 레인 트렌치 + 러스트 머플러 + 크림 니트 + 블랙 팬츠. 분류: 제작 측 `gloves` → `hands`(나머지는 앱 분류 그대로). 파일 이름은 `NN-<앱 분류>.webp`(바이트 그대로, 제작 측 이름은 `deliveredImage`). 한국어 마스터(제목·캡션·인트로·팁·제품 이름·제품별 입는 법) 그대로, 제작 측 en/de도 그대로 쓰되 02 인트로(제품 나열)와 독일어 문법만 고침(원문 `copy.sourceCopy`·`sourceHowToWear`). 영어 대문자 제목은 제작 측 제안 그대로, `pull`은 장면 보고 새로 씀. 대표 컷은 b134 제목 단어 규칙: 03 COBALT → 코발트 니트 `02-top`, 05 RUST → 러스트 머플러 `02-scarf`, 나머지(CHARCOAL·BEIGE·OLIVE) → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(우산, 02 텀블러, 03 열쇠, 05 자동차·장바구니)은 제품 아님. 모델 외관 28–32세, 숫자 기온 없음. [검증](rain-normal-male-night-minimal-20261026-validation.md).
+
+## b168 · Rain / Normal / Chilly / Female / 35+ / Day / Minimal — 2026-10-26 set (5 looks)
+
+에디토리얼 5장(모두 1024×1536 JPG, 01만 q72) + 독립 투명 WebP 제품 23개(5/5/4/4/5), `look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/minimal/<01–05>/`, 보충 파일 `look/rain-normal-female-day-minimal-20261026.js`. 룩 `rn-chilly-f35-day-minimal-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: minimal`, 낮 = `time` 없음). 01 스톤 베이지 벨티드 레인코트 + 아이보리 터틀넥 + 차콜 울 팬츠 + 첼시 레인부츠 + 숄더백 · 02 차콜 후드 레인코트 + 오트밀 케이블 터틀넥 + 블랙 팬츠 + 옥스블러드 토트 + 아이보리 니트 장갑 · 03 코발트 레인코트 + 크림 터틀넥 + 블랙 울 팬츠 + 숄더백 · 04 딥 올리브 후드 레인코트 + 차콜 멜란지 니트 + 토프 머플러 + 토터스쉘 안경 · 05 네이비 레인코트 + 번트 오렌지 니트 + 그래파이트 팬츠 + 토프 프린지 머플러 + 크로스바디. 분류: 제작 측 `gloves` → `hands`, `glasses` → `eyewear`(파일 이름 `NN-<앱 분류>.webp`, 바이트 그대로). 한국어 마스터·en 그대로, de는 3줄만 고침(검증 기록). 대표 컷 = 다섯 룩 모두 아우터(제목이 코트 색), 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(우산, 빵, 열쇠, 안경 닦이 천, 자동차)은 제품 아님. 모델 외관 25–28세, 숫자 기온 없음. [검증](rain-normal-female-day-minimal-20261026-validation.md).

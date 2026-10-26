@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-minimal-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication on 2026-10-26 (04 editorial = the user-requested stray-glasses-arm removal). Products: Codex producer review (FINAL_VISUAL_REVIEW.json passed), no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "2ba5a3a296e519d25e0d2479e77013e8b5a48495ff5ab7ec0042d070b2755eae",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialEncoding": {
+    "quality": 80,
+    "bytes": 295692,
+    "note": null
+  },
+  "copy": {
+    "ko": {
+      "title": "차콜과 오트밀의 대비",
+      "caption": "차콜과 오트밀의 대비",
+      "intro": "문 앞에서 열쇠가 장갑에 걸려 잠깐 웃음이 나요. 어두운 겉옷 안의 밝고 도톰한 니트가 얼굴 주변을 부드럽게 하고, 붉은 갈색 가방이 조용한 포인트가 돼요.",
+      "tip": "토트 입구는 비를 피하고, 장갑은 젖었을 때 갈아 끼울 여분을 준비해요."
+    },
+    "en": {
+      "title": "CHARCOAL MEETS OATMEAL",
+      "caption": "Charcoal meets oatmeal",
+      "intro": "A key catches on a glove at the doorway, prompting a small smile. A light chunky knit softens the dark outer layer, with a red-brown bag adding a quiet accent.",
+      "tip": "Keep the tote opening out of the rain and carry dry spare gloves."
+    },
+    "de": {
+      "title": "CHARCOAL MEETS OATMEAL",
+      "caption": "Anthrazit trifft Haferbeige",
+      "intro": "Vor der Tür bleibt ein Schlüssel am Handschuh hängen und sorgt für ein kleines Lächeln. Heller, grober Strick mildert die dunkle Außenlage; die rotbraune Tasche setzt einen dezenten Akzent.",
+      "tip": "Die Taschenöffnung vor Regen schützen und trockene Ersatzhandschuhe mitnehmen."
+    },
+    "pull": "A QUIET CONTRAST",
+    "suppliedTitle": {
+      "ko": "차콜과 오트밀의 대비",
+      "en": "Charcoal meets oatmeal",
+      "de": "Anthrazit trifft Haferbeige"
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-02.01-outer",
+      "name": {
+        "ko": "차콜 후드 레인코트",
+        "en": "Charcoal hooded raincoat",
+        "de": "Anthrazitfarbener Regenmantel mit Kapuze"
+      },
+      "nameKo": "차콜 후드 레인코트",
+      "descriptor": "Charcoal matte waterproof hooded coat, generous hood, clean concealed front closure, subtle front pocket and sleeve seams.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "53e5c293ac55a479b36ce9c03e7434d0d552b0a93090d6b35c8e42321544e20c",
+      "bytes": 38932,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        36,
+        25,
+        463,
+        475
+      ],
+      "howToWear": {
+        "ko": "후드 앞쪽은 시야를 가리지 않게 정리하고 두꺼운 니트가 들어갈 여유를 둬요.",
+        "en": "Keep the hood clear of your vision and leave room for the chunky knit.",
+        "de": "Die Kapuze aus dem Sichtfeld halten und Platz für den dicken Strick lassen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Charcoal matte waterproof hooded coat, generous hood, clean concealed front closure, subtle front pocket and sleeve seams. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 후드 레인코트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-02.02-top",
+      "name": {
+        "ko": "오트밀 케이블 터틀넥",
+        "en": "Oatmeal cable turtleneck",
+        "de": "Zopfmuster-Rollkragenpullover in Haferbeige"
+      },
+      "nameKo": "오트밀 케이블 터틀넥",
+      "descriptor": "Oatmeal chunky wool turtleneck sweater with distinct vertical cable knit panel and ribbed collar and cuffs.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "05b2378befcaa112e912a1ef63307e74b5fff52dd27d87ba75ffa07bfb1dba7d",
+      "bytes": 47402,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        25,
+        25,
+        475,
+        474
+      ],
+      "howToWear": {
+        "ko": "케이블 조직이 코트 앞섶 사이로 보이게 하고 목은 조이지 않게 접어요.",
+        "en": "Let the cable knit show between the coat fronts and fold the collar without tightening it.",
+        "de": "Das Zopfmuster zwischen den Mantelkanten zeigen und den Kragen locker umlegen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Oatmeal chunky wool turtleneck sweater with distinct vertical cable knit panel and ribbed collar and cuffs. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "오트밀 케이블 터틀넥 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-02.03-bottom",
+      "name": {
+        "ko": "블랙 테일러드 팬츠",
+        "en": "Black tailored trousers",
+        "de": "Schwarze Anzughose"
+      },
+      "nameKo": "블랙 테일러드 팬츠",
+      "descriptor": "Black straight tailored long trousers, only upper legs visible; lower legs and waistband inferred conservatively.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "86c72f8fd833d6461dc901380422f5efddf5d85eca828e968d2d40e03cdfa2ec",
+      "bytes": 11566,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        121,
+        25,
+        431,
+        462
+      ],
+      "howToWear": {
+        "ko": "블랙 팬츠는 차콜 코트 아래에서 선을 이어주도록 단정하게 정리해요.",
+        "en": "Keep the black trousers neat beneath the charcoal coat for a continuous dark line.",
+        "de": "Die schwarze Hose unter dem anthrazitfarbenen Mantel glatt halten, damit eine ruhige dunkle Linie entsteht."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Black straight tailored long trousers, only upper legs visible; lower legs and waistband inferred conservatively. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 테일러드 팬츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-02.04-bag",
+      "name": {
+        "ko": "옥스블러드 레더 토트",
+        "en": "Oxblood leather tote",
+        "de": "Bordeauxroter Leder-Shopper"
+      },
+      "nameKo": "옥스블러드 레더 토트",
+      "descriptor": "Oxblood brown-red leather open tote, two long narrow handles, visible curved side gussets and gold-tone key attachment; preserve broad open top.",
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/04-bag.webp",
+      "sha256": "17b8c724934726264512b38f5d5de529c6ca3c322a8a8f6fad541ba6020d6ae9",
+      "bytes": 40448,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        49,
+        25,
+        472,
+        475
+      ],
+      "howToWear": {
+        "ko": "긴 손잡이를 소매 위에 걸되 토트 입구는 처마나 코트 가까이에서 비를 피해요.",
+        "en": "Carry the long handles over the sleeve and shelter the tote opening near the coat or under cover.",
+        "de": "Die langen Henkel über dem Ärmel tragen und die Öffnung nah am Mantel oder unter einem Dach schützen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Oxblood brown-red leather open tote, two long narrow handles, visible curved side gussets and gold-tone key attachment; preserve broad open top. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "옥스블러드 레더 토트 — 독립 투명 제품 컷",
+      "status": "ready",
+      "sourceName": {
+        "de": "Bordeauxbraune Leder-Tote"
+      }
+    },
+    {
+      "id": "05-gloves",
+      "category": "gloves",
+      "appCategory": "hands",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-02.05-hands",
+      "name": {
+        "ko": "아이보리 니트 장갑",
+        "en": "Ivory knitted gloves",
+        "de": "Elfenbeinfarbene Strickhandschuhe"
+      },
+      "nameKo": "아이보리 니트 장갑",
+      "descriptor": "Pair ivory chunky wool five-finger gloves, ribbed wrist cuffs. One glove visible, opposite glove reconstructed to match.",
+      "image": "products/05-hands.webp",
+      "deliveredImage": "products/05-gloves.webp",
+      "sha256": "fe2eccc408797d4b8c49dbd1fb3c995531c458a61698190a5554fb2006dc4515",
+      "bytes": 38536,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        40,
+        46,
+        466,
+        439
+      ],
+      "howToWear": {
+        "ko": "니트 장갑의 손목을 코트 소매에 겹치고 열쇠를 꺼낼 때는 고리에 걸리지 않게 해요.",
+        "en": "Overlap the knitted cuffs with the sleeves and keep the keyring clear when reaching for keys.",
+        "de": "Die Strickbündchen mit den Ärmeln überlappen lassen und die Handschuhe beim Schlüsselholen vom Schlüsselring fernhalten."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Pair ivory chunky wool five-finger gloves, ribbed wrist cuffs. One glove visible, opposite glove reconstructed to match. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "아이보리 니트 장갑 — 독립 투명 제품 컷",
+      "status": "ready",
+      "sourceHowToWear": {
+        "de": "Die Strickbündchen mit den Ärmeln überlappen lassen und beim Schlüsselholen vom Ring fernhalten."
+      }
+    }
+  ],
+  "productCount": 5,
+  "scenePropsNotProducts": [
+    "keys"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except German fixes recorded in copy.sourceCopy / products[].sourceName / sourceHowToWear. App title = supplied English title in uppercase (also shown in de). Caption equals the title as supplied.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-minimal-20261026-02",
+  "appBuild": "b168",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "minimal",
+    "time": null,
+    "hero": "rn-chilly-f35-day-minimal-20261026-02.01-outer"
+  }
+}

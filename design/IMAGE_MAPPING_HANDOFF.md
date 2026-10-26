@@ -333,3 +333,11 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 문구: 이 배치는 한국어 마스터(`KOREAN_MASTER.json`: titleKo·captionKo·introKo·tipKo·제품별 howToWear)와 제작 측 en/de가 제품마다 달라 5-1장 통과 → 그대로 씀. 고친 것: 02 인트로 en/de(제품 나열)를 한국어에서 다시 번역, 독일어 관사·어색한 표현 몇 줄. `pull`은 없어서 장면 보고 새로 씀. 영어 제목은 제작 측 `copy.title.en`(앱 관례 영어 대문자).
 - 알파 확인은 순수 파이썬 VP8L 디코더로(이 환경엔 Pillow 실행·node·브라우저 없음): 21장 모서리·테두리 알파 0, 디코드한 알파 범위 = 제작 측 `bounds`. 내부 알파 약 253은 PNG 마스터와 같은 원본 성질.
 - [검증 기록](rain-normal-male-night-minimal-20261026-validation.md).
+
+## b168 · Rain / Normal / Chilly / Female / 35+ / Day / Minimal — 2026-10-26 set (5 looks · 23 products)
+
+- 원본: 로컬 outbox 배치 루트 `01-minimal`–`05-minimal`의 `editorial.jpg`·`products/*.webp`만 바이트 그대로(28개 SHA-256 일치). `originals/`(PNG 마스터, 버린 잘린 팬츠·여분 아이보리 니트, 예전 에디토리얼, 스크립트, QA 시트)와 `complete/` 중간 파일은 커밋하지 않음. 제작 측 products.json의 로컬 `reference` 경로는 앱 저장소에 넣지 않음.
+- `sky: "rain"`, `rain: "normal"`, 낮 세트라 `time` 없음. 폴더 `Rain/Normal/Chilly/Female/35+/day/minimal/<NN>/`, ID는 제작 측 `rn-chilly-f35-day-minimal-20261026-NN` 그대로.
+- 분류(새 코드 없음): `gloves` → `hands`, `glasses` → `eyewear`.
+- 문구: 한국어 마스터·영어 그대로, 독일어는 문법·표현 3줄만 고침(검증 기록에 원문). 에디토리얼 01은 300KB 안에 맞추려 JPEG q72(02–05 q80), PNG 마스터는 그대로 — 예외로 기록.
+- [검증 기록](rain-normal-female-day-minimal-20261026-validation.md).

@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-minimal-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication on 2026-10-26 (04 editorial = the user-requested stray-glasses-arm removal). Products: Codex producer review (FINAL_VISUAL_REVIEW.json passed), no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "ca50fdf95a287f5f4853220ead6d7bbc8650d3746c0a18daab9b66d2dae7b1c7",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialEncoding": {
+    "quality": 80,
+    "bytes": 296996,
+    "note": null
+  },
+  "copy": {
+    "ko": {
+      "title": "올리브와 토프의 부드러운 조합",
+      "caption": "올리브와 토프의 부드러운 조합",
+      "intro": "처마 아래에서 안경을 닦는데 후드 끝의 물방울이 다시 떨어져요. 부드러운 토프와 올리브가 가까이 겹치고, 도톰한 목 주변 레이어가 쌀쌀한 낮을 편안하게 해줘요.",
+      "tip": "머플러는 후드 안쪽에 편하게 넣고, 안경은 부드러운 천으로 닦아요."
+    },
+    "en": {
+      "title": "SOFT OLIVE AND TAUPE",
+      "caption": "Soft olive and taupe",
+      "intro": "Under the awning, another drip falls just as the glasses are being wiped. Soft taupe and olive sit close together, with thick layers around the neck for a chilly day.",
+      "tip": "Tuck the scarf comfortably inside the hood and clean glasses with a soft cloth."
+    },
+    "de": {
+      "title": "SOFT OLIVE AND TAUPE",
+      "caption": "Sanftes Oliv und Taupe",
+      "intro": "Unter dem Vordach fällt beim Brillenputzen schon der nächste Tropfen. Sanftes Taupe und Oliv liegen nah beieinander; dicke Lagen am Hals machen den kühlen Tag angenehmer.",
+      "tip": "Den Schal bequem unter die Kapuze stecken und die Brille mit einem weichen Tuch reinigen."
+    },
+    "pull": "WARMTH UP CLOSE",
+    "suppliedTitle": {
+      "ko": "올리브와 토프의 부드러운 조합",
+      "en": "Soft olive and taupe",
+      "de": "Sanftes Oliv und Taupe"
+    },
+    "sourceCopy": {
+      "tip": {
+        "de": "Den Schal bequem in der Kapuze tragen und die Brille mit einem weichen Tuch reinigen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-04.01-outer",
+      "name": {
+        "ko": "딥 올리브 후드 레인코트",
+        "en": "Deep olive hooded raincoat",
+        "de": "Dunkelolivfarbener Regenmantel mit Kapuze"
+      },
+      "nameKo": "딥 올리브 후드 레인코트",
+      "descriptor": "Deep olive waterproof hooded coat, generous sculpted hood, dark snaps, black zipper track and tonal seams. Hidden full silhouette conservatively reconstructed.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "48c6eb52ed7fc6e81536a6272a0e16a6713cd61a5bd03821636846ca65a9c81e",
+      "bytes": 28866,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        35,
+        25,
+        472,
+        475
+      ],
+      "howToWear": {
+        "ko": "후드를 올리고 앞여밈은 목 주변의 머플러를 누르지 않을 만큼만 닫아요.",
+        "en": "Raise the hood and close the front without compressing the scarf at the neck.",
+        "de": "Die Kapuze aufsetzen und den Mantel schließen, ohne den Schal am Hals einzuengen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Deep olive waterproof hooded coat, generous sculpted hood, dark snaps, black zipper track and tonal seams. Hidden full silhouette conservatively reconstructed. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "딥 올리브 후드 레인코트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-04.02-top",
+      "name": {
+        "ko": "차콜 멜란지 니트",
+        "en": "Charcoal melange knit",
+        "de": "Anthrazitfarbener Melange-Pullover"
+      },
+      "nameKo": "차콜 멜란지 니트",
+      "descriptor": "Charcoal black-grey chunky melange wool crewneck sweater, heavily textured knit and long thick ribbed cuffs; body inferred from visible chest and cuffs.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "9d79b554e485a874cc91c905a8dd1cfd4384e9d39ef9a7ee5dd7e9e2aaa05993",
+      "bytes": 49344,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        41,
+        25,
+        471,
+        469
+      ],
+      "howToWear": {
+        "ko": "차콜 소매 끝은 코트 커프스 밖으로 조금 내어 손목을 포근하게 덮어요.",
+        "en": "Show a little charcoal cuff beyond the coat sleeves to cover the wrists softly.",
+        "de": "Etwas anthrazitfarbenes Bündchen aus den Mantelärmeln herausragen lassen, um die Handgelenke warm zu halten."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Charcoal black-grey chunky melange wool crewneck sweater, heavily textured knit and long thick ribbed cuffs; body inferred from visible chest and cuffs. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 멜란지 니트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-scarf",
+      "category": "scarf",
+      "appCategory": "scarf",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-04.03-scarf",
+      "name": {
+        "ko": "토프 울 머플러",
+        "en": "Taupe wool scarf",
+        "de": "Taupefarbener Wollschal"
+      },
+      "nameKo": "토프 울 머플러",
+      "descriptor": "Wide taupe-grey brushed wool scarf, long rectangular shape with modest fringe; preserve fuzzy tactile wool.",
+      "image": "products/03-scarf.webp",
+      "deliveredImage": "products/03-scarf.webp",
+      "sha256": "29d70afd415607e2c4247d09cf14dbbd52ddc8d76897f8add20587f7c18e77c6",
+      "bytes": 49582,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        25,
+        31,
+        474,
+        468
+      ],
+      "howToWear": {
+        "ko": "폭이 넓은 머플러를 목에 느슨하게 두르고 양쪽 끝을 세로로 내려줘요.",
+        "en": "Wrap the wide scarf loosely and let both ends fall vertically.",
+        "de": "Den breiten Schal locker umlegen und beide Enden senkrecht fallen lassen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Wide taupe-grey brushed wool scarf, long rectangular shape with modest fringe; preserve fuzzy tactile wool. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "토프 울 머플러 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-glasses",
+      "category": "glasses",
+      "appCategory": "eyewear",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-04.04-eyewear",
+      "name": {
+        "ko": "토터스쉘 안경",
+        "en": "Tortoiseshell eyeglasses",
+        "de": "Brille in Schildpattoptik"
+      },
+      "nameKo": "토터스쉘 안경",
+      "descriptor": "Single pair translucent brown tortoiseshell rounded rectangular optical glasses, clear lenses, thin dark bridge. Correct natural two temple arms attached at hinges; no extra dangling arm. Product arms may be folded neatly.",
+      "image": "products/04-eyewear.webp",
+      "deliveredImage": "products/04-glasses.webp",
+      "sha256": "928a8c800ea9156798f3a8f3667110bf0d1decee6c5b9977305db8dacf98616c",
+      "bytes": 30356,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        45,
+        55,
+        464,
+        446
+      ],
+      "howToWear": {
+        "ko": "젖은 렌즈는 안경 천으로 가볍게 닦고 안경다리는 무리하게 벌리지 않아요.",
+        "en": "Wipe wet lenses gently with a lens cloth without forcing the temples apart.",
+        "de": "Nasse Gläser sanft mit einem Brillentuch reinigen und die Bügel nicht auseinanderdrücken."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Single pair translucent brown tortoiseshell rounded rectangular optical glasses, clear lenses, thin dark bridge. Correct natural two temple arms attached at hinges; no extra dangling arm. Product arms may be folded neatly. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "토터스쉘 안경 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "scenePropsNotProducts": [
+    "lens cloth"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except German fixes recorded in copy.sourceCopy / products[].sourceName / sourceHowToWear. App title = supplied English title in uppercase (also shown in de). Caption equals the title as supplied.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-minimal-20261026-04",
+  "appBuild": "b168",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "minimal",
+    "time": null,
+    "hero": "rn-chilly-f35-day-minimal-20261026-04.01-outer"
+  }
+}

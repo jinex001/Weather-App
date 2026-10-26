@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-minimal-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication on 2026-10-26 (04 editorial = the user-requested stray-glasses-arm removal). Products: Codex producer review (FINAL_VISUAL_REVIEW.json passed), no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "64c576dcba7830711dbd2c0f895647c8e8fff4659cfc0e20eefed46e105377d4",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialEncoding": {
+    "quality": 80,
+    "bytes": 287311,
+    "note": null
+  },
+  "copy": {
+    "ko": {
+      "title": "코발트로 밝히는 비 오는 낮",
+      "caption": "코발트로 밝히는 비 오는 낮",
+      "intro": "빵봉투가 비에 젖지 않도록 몸을 살짝 틀어요. 흐린 낮에는 선명한 블루 하나만으로도 충분하고, 크림과 블랙은 나머지 색을 차분하게 이어줘요.",
+      "tip": "밝은 코트가 중심이 되도록 가방과 하의는 간결한 블랙으로 맞춰요."
+    },
+    "en": {
+      "title": "COBALT FOR A RAINY DAY",
+      "caption": "Cobalt for a rainy day",
+      "intro": "She turns slightly to shelter the bread from the rain. One clear blue is enough to brighten the grey day, while cream and black keep the rest composed.",
+      "tip": "Keep the bag and trousers simply black so the bright coat remains the focus."
+    },
+    "de": {
+      "title": "COBALT FOR A RAINY DAY",
+      "caption": "Kobaltblau für Regentage",
+      "intro": "Sie dreht sich leicht, um das Brot vor Regen zu schützen. Ein klares Blau hellt den grauen Tag auf, während Creme und Schwarz den übrigen Look ruhig halten.",
+      "tip": "Tasche und Hose schlicht in Schwarz halten, damit der leuchtende Mantel im Mittelpunkt steht."
+    },
+    "pull": "ONE BRIGHT NOTE",
+    "suppliedTitle": {
+      "ko": "코발트로 밝히는 비 오는 낮",
+      "en": "Cobalt for a rainy day",
+      "de": "Kobaltblau für Regentage"
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-03.01-outer",
+      "name": {
+        "ko": "코발트 미니멀 레인코트",
+        "en": "Cobalt minimal raincoat",
+        "de": "Kobaltblauer Regenmantel"
+      },
+      "nameKo": "코발트 미니멀 레인코트",
+      "descriptor": "Cobalt blue waterproof minimal mac coat, pointed collar, tonal large buttons down front, clean straight silhouette; hidden lower length inferred.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "05d6a7cdadf171200d85561b4f5870200d5fb94e6289ebf198a26e59e41bdb43",
+      "bytes": 31556,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        41,
+        25,
+        430,
+        469
+      ],
+      "howToWear": {
+        "ko": "코트 앞을 조금 열어 크림 니트가 길게 보이도록 색의 대비를 만들어요.",
+        "en": "Open the coat slightly so the cream knit forms a long contrasting panel.",
+        "de": "Den Mantel etwas öffnen, sodass der cremefarbene Strick als langer Kontrast sichtbar wird."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Cobalt blue waterproof minimal mac coat, pointed collar, tonal large buttons down front, clean straight silhouette; hidden lower length inferred. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "코발트 미니멀 레인코트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-03.02-top",
+      "name": {
+        "ko": "크림 터틀넥 니트",
+        "en": "Cream turtleneck knit",
+        "de": "Cremefarbener Rollkragenpullover"
+      },
+      "nameKo": "크림 터틀넥 니트",
+      "descriptor": "Cream thick wool turtleneck, broad rib collar, plain knit body with ribbed cuffs.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "4f8cb82435a310eeb06f326f472c6b9e2b6ad2309f9de322dfe7985775920326",
+      "bytes": 36792,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        42,
+        48,
+        465,
+        456
+      ],
+      "howToWear": {
+        "ko": "두툼한 크림 목선을 접어 블루 칼라 안쪽에 부드러운 밝기를 더해요.",
+        "en": "Fold the thick cream collar for soft brightness inside the blue coat collar.",
+        "de": "Den dicken cremefarbenen Kragen umlegen, um im blauen Mantelkragen weiche Helligkeit zu schaffen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Cream thick wool turtleneck, broad rib collar, plain knit body with ribbed cuffs. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "크림 터틀넥 니트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-03.03-bottom",
+      "name": {
+        "ko": "블랙 울 팬츠",
+        "en": "Black wool trousers",
+        "de": "Schwarze Wollhose"
+      },
+      "nameKo": "블랙 울 팬츠",
+      "descriptor": "Black tailored wool trousers, upper thighs visible; full straight length and waistband conservatively inferred.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "bec1817615de04cc4d8b7fe3083e6e4a57879f04e8872126b4182a596ee9c1aa",
+      "bytes": 12838,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        61,
+        33,
+        372,
+        467
+      ],
+      "howToWear": {
+        "ko": "블랙 팬츠는 상체의 선명한 블루를 받치도록 장식을 더하지 않고 입어요.",
+        "en": "Keep the black trousers simple so they quietly ground the bright blue above.",
+        "de": "Die schwarze Hose schlicht halten, damit sie das leuchtende Blau ruhig ausgleicht."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Black tailored wool trousers, upper thighs visible; full straight length and waistband conservatively inferred. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 울 팬츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-03.04-bag",
+      "name": {
+        "ko": "블랙 레더 숄더백",
+        "en": "Black leather shoulder bag",
+        "de": "Schwarze Leder-Schultertasche"
+      },
+      "nameKo": "블랙 레더 숄더백",
+      "descriptor": "Black leather shoulder bag with long narrow strap and subtle gold-tone hardware; mostly obscured bag body reconstructed simply, not exact unseen design.",
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/04-bag.webp",
+      "sha256": "f42d873426a75224708855ea57a362d652b4aef9f4f3caceddc50fdce8d1287f",
+      "bytes": 23472,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        85,
+        25,
+        426,
+        469
+      ],
+      "howToWear": {
+        "ko": "얇은 블랙 스트랩은 코트 위에서 꼬이지 않게 정리하고 가방을 옆구리에 둬요.",
+        "en": "Keep the thin black strap untwisted over the coat and the bag at your side.",
+        "de": "Den schmalen schwarzen Riemen über dem Mantel glatt richten und die Tasche seitlich tragen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Black leather shoulder bag with long narrow strap and subtle gold-tone hardware; mostly obscured bag body reconstructed simply, not exact unseen design. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 레더 숄더백 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "scenePropsNotProducts": [
+    "umbrella",
+    "bread in paper bag",
+    "gold hoop earrings (visible, not delivered)"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except German fixes recorded in copy.sourceCopy / products[].sourceName / sourceHowToWear. App title = supplied English title in uppercase (also shown in de). Caption equals the title as supplied.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-minimal-20261026-03",
+  "appBuild": "b168",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "minimal",
+    "time": null,
+    "hero": "rn-chilly-f35-day-minimal-20261026-03.01-outer"
+  }
+}

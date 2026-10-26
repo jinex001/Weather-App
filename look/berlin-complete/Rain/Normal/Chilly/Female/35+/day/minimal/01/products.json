@@ -1,0 +1,309 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-minimal-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication on 2026-10-26 (04 editorial = the user-requested stray-glasses-arm removal). Products: Codex producer review (FINAL_VISUAL_REVIEW.json passed), no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "c8983931fcbb7eab7f69d43de2a4b4734f28f7a20d575b10aeb937ae3be9e772",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialEncoding": {
+    "quality": 72,
+    "bytes": 299840,
+    "note": "Quality 72 (below the default 80) to stay within 300 KB at 1024x1536; original PNG unchanged."
+  },
+  "copy": {
+    "ko": {
+      "title": "비 오는 날의 베이지 레이어",
+      "caption": "비 오는 날의 베이지 레이어",
+      "intro": "우산 끝의 물방울에 잠깐 어깨를 움츠리는 낮이에요. 밝은 베이지와 아이보리가 차콜의 무게를 덜고, 넉넉한 레이어가 쌀쌀한 공기를 막아줘요.",
+      "tip": "벨트는 니트가 눌리지 않을 정도로 묶고, 팬츠 밑단은 젖은 바닥에 끌리지 않게 정리해요."
+    },
+    "en": {
+      "title": "BEIGE LAYERS IN THE RAIN",
+      "caption": "Beige layers in the rain",
+      "intro": "A drip from the umbrella brings a brief shrug. Light beige and ivory soften the charcoal, while roomy layers keep the chilly air at bay.",
+      "tip": "Leave room for the knit under the belt and keep trouser hems clear of wet paving."
+    },
+    "de": {
+      "title": "BEIGE LAYERS IN THE RAIN",
+      "caption": "Beige Lagen im Regen",
+      "intro": "Ein Tropfen vom Schirm lässt die Schultern kurz hochziehen. Helles Beige und Elfenbein mildern das Anthrazit, während lockere Lagen gegen kühle Luft helfen.",
+      "tip": "Den Gürtel locker über dem Strick binden und die Hosensäume vom nassen Boden fernhalten."
+    },
+    "pull": "SOFT LAYERS, STEADY RAIN",
+    "suppliedTitle": {
+      "ko": "비 오는 날의 베이지 레이어",
+      "en": "Beige layers in the rain",
+      "de": "Beige Lagen im Regen"
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-01.01-outer",
+      "name": {
+        "ko": "스톤 베이지 벨티드 레인코트",
+        "en": "Stone beige belted raincoat",
+        "de": "Gegürteter Regenmantel in Steinbeige"
+      },
+      "nameKo": "스톤 베이지 벨티드 레인코트",
+      "descriptor": "Stone beige waterproof knee-length mac with notched collar, broad self belt tied at waist, concealed front and visible cuff straps.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "fdb39e11d5d13b93a3fbf075bcc34a6023b2c92e37cea28056a994f15dfb62a6",
+      "bytes": 39276,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        43,
+        25,
+        452,
+        469
+      ],
+      "howToWear": {
+        "ko": "벨트는 니트를 누르지 않게 느슨하게 묶어 코트의 긴 선을 살려요.",
+        "en": "Tie the belt loosely over the knit to keep the coat's long line.",
+        "de": "Den Gürtel locker über dem Strick binden, damit die lange Mantellinie erhalten bleibt."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Stone beige waterproof knee-length mac with notched collar, broad self belt tied at waist, concealed front and visible cuff straps. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "스톤 베이지 벨티드 레인코트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-01.02-top",
+      "name": {
+        "ko": "아이보리 터틀넥 니트",
+        "en": "Ivory turtleneck knit",
+        "de": "Elfenbeinfarbener Rollkragenpullover"
+      },
+      "nameKo": "아이보리 터틀넥 니트",
+      "descriptor": "Ivory thick ribbed wool turtleneck sweater, long sleeves with ribbed cuffs.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "904fedd037fc437c66babc02490b059b42031a81d5d6c69bc089b027ded25112",
+      "bytes": 20932,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        93,
+        52,
+        407,
+        421
+      ],
+      "howToWear": {
+        "ko": "터틀넥은 부드럽게 접고 아이보리 소매 끝을 베이지 커프스 아래로 조금 보여줘요.",
+        "en": "Fold the turtleneck softly and show a little ivory cuff below the beige sleeves.",
+        "de": "Den Rollkragen weich umlegen und etwas elfenbeinfarbenes Bündchen unter den beigen Ärmeln zeigen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Ivory thick ribbed wool turtleneck sweater, long sleeves with ribbed cuffs. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "아이보리 터틀넥 니트 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-01.03-bottom",
+      "name": {
+        "ko": "차콜 울 팬츠",
+        "en": "Charcoal wool trousers",
+        "de": "Anthrazitfarbene Wollhose"
+      },
+      "nameKo": "차콜 울 팬츠",
+      "descriptor": "Charcoal straight wide-leg full-length wool trousers, clean tailored finish; waistband hidden and conservatively reconstructed.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "83bb03028f8c351681de719585268a08f95beed3814fdf34934070fa329f6450",
+      "bytes": 22974,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        39,
+        32,
+        473,
+        468
+      ],
+      "howToWear": {
+        "ko": "넓은 밑단은 부츠 윗부분에 가볍게 닿도록 맞춰 젖은 바닥과 간격을 둬요.",
+        "en": "Let the wide hems meet the boot tops lightly, clear of wet paving.",
+        "de": "Die weiten Säume leicht auf dem Stiefelschaft aufliegen lassen und vom nassen Boden fernhalten."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Charcoal straight wide-leg full-length wool trousers, clean tailored finish; waistband hidden and conservatively reconstructed. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 울 팬츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-01.04-shoes",
+      "name": {
+        "ko": "블랙 첼시 레인부츠",
+        "en": "Black Chelsea rain boots",
+        "de": "Schwarze Chelsea-Regenstiefel"
+      },
+      "nameKo": "블랙 첼시 레인부츠",
+      "descriptor": "Matching pair black rubber Chelsea ankle boots, black elastic side panels, rounded toes, thick black lug soles. Upright on soles in neat three-quarter view.",
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/04-shoes.webp",
+      "sha256": "3394b5a3bdbffdbe62fe616f41ad4ddfd38d5d0e2647539ea7cb448f6c4eb44a",
+      "bytes": 31240,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        25,
+        29,
+        475,
+        470
+      ],
+      "howToWear": {
+        "ko": "두꺼운 밑창 위로 팬츠를 자연스럽게 내려 부츠와 하의의 어두운 색을 이어줘요.",
+        "en": "Let the trousers fall over the shafts to link the dark boots and trousers.",
+        "de": "Die Hose über den Schaft fallen lassen, damit die dunklen Farben ineinander übergehen."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Matching pair black rubber Chelsea ankle boots, black elastic side panels, rounded toes, thick black lug soles. Upright on soles in neat three-quarter view. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 첼시 레인부츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-minimal-20261026-01.05-bag",
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "nameKo": "블랙 숄더백",
+      "descriptor": "Small black smooth leather shoulder bag, narrow single strap, rounded rectangular body; lower body partially obscured, conservatively reconstructed.",
+      "image": "products/05-bag.webp",
+      "deliveredImage": "products/05-bag.webp",
+      "sha256": "6f4189f537589a6aeb50a31ec7fd78f9d301596a8d2786ab9676e386e893d102",
+      "bytes": 24062,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        62,
+        25,
+        453,
+        462
+      ],
+      "howToWear": {
+        "ko": "짧은 스트랩을 한쪽 어깨에 걸어 작은 가방을 팔 아래 가까이 둬요.",
+        "en": "Wear the short strap on one shoulder and keep the small bag close under the arm.",
+        "de": "Den kurzen Riemen auf einer Schulter tragen und die kleine Tasche nah unter dem Arm halten."
+      },
+      "evidence": "visible-or-partially-visible",
+      "reconstruction": "AI styling concept reconstructed from the editorial: Small black smooth leather shoulder bag, narrow single strap, rounded rectangular body; lower body partially obscured, conservatively reconstructed. Hidden construction is inferred, not observed.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 숄더백 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "scenePropsNotProducts": [
+    "umbrella"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except German fixes recorded in copy.sourceCopy / products[].sourceName / sourceHowToWear. App title = supplied English title in uppercase (also shown in de). Caption equals the title as supplied.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-minimal-20261026-01",
+  "appBuild": "b168",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "minimal",
+    "time": null,
+    "hero": "rn-chilly-f35-day-minimal-20261026-01.01-outer"
+  }
+}
