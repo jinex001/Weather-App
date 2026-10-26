@@ -36,7 +36,7 @@
   .rail::-webkit-scrollbar { display: none; }
   .card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always;
     height: min(66svh, 560px); min-height: 440px; background: var(--ground); color: #141414; overflow: hidden; border-radius: 26px;
-    transform-origin: 50% 70%; will-change: transform; }
+    transform-origin: 50% 100%; will-change: transform; }
   /* cards behind are a touch darker so the overlap reads without a shadow or an outline (no borders, no shadows rule) */
   .card::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
   /* the product cut is the card's background: whole, centered a little low, on the same ivory as its own ground */
@@ -81,6 +81,9 @@
 <script src="../look/outfits.js"></script>
 <script>
   var q = new URLSearchParams(location.search), G = q.get("g") === "f" ? "f" : "m";
+  // rotation: soft = small tilt from the bottom edge, eased (default) · 3d = cards turn toward the middle · none = flat
+  var ROT = ({ "3d": "3d", none: "none" })[q.get("rot")] || "soft";
+  function url() { history.replaceState(null, "", "?g=" + G + "&rot=" + ROT); }
   var LIB = window.WX_LOOKS, POOL = [];
   function pool() {
     POOL = [];
@@ -167,6 +170,8 @@
     document.getElementById("page").innerHTML =
       '<div class="k">앞으로 7일 · 베를린</div><div class="h">7 Days</div>' +
       '<div class="ctl"><button data-g="m" class="' + (G === "m" ? "on" : "") + '">남성</button><button data-g="f" class="' + (G === "f" ? "on" : "") + '">여성</button><button data-r="1">다시 뽑기</button></div>' +
+      '<div class="ctl">' + [["soft", "살짝 기울기"], ["3d", "입체 회전"], ["none", "기울기 없음"]].map(function (r) {
+        return '<button data-rot="' + r[0] + '" class="' + (ROT === r[0] ? "on" : "") + '">' + r[1] + "</button>"; }).join("") + "</div>" +
       '<div class="rail" id="rail">' + cards + "</div>" +
       '<div class="dots" id="dots">' + DAYS.map(function (d, i) { return '<span class="' + (i ? "" : "on") + '"></span>'; }).join("") + "</div>" +
       '<div class="notes"><b>겹친 카드</b>가운데 카드(그날)가 크게 맨 앞, 양옆 날은 조금 작게 바깥쪽으로 기울어 뒤에 숨고, 그 뒤로 한 장씩 더 살짝. 옆으로 밀면 다음 날이 가운데로 올라오며 한 장씩 멈춰요. 옆 카드를 눌러도 가운데로. 점은 아래.' +
@@ -180,7 +185,11 @@
       [].forEach.call(cs, function (c, k) {
         var t = (c.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), n = Math.min(a, 2.6), sg = t < 0 ? -1 : 1;
         var pull = sg * (n <= 1 ? n * .34 : .34 + (n - 1) * .14) * w;
-        c.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * Math.min(n, 1.6) * 5).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(n, 2.2)).toFixed(4) + ")";
+        // eased so the tilt starts gently near the middle instead of jumping with the first pixel of a swipe
+        var e = Math.min(n, 1), ease = e * e * (3 - 2 * e), more = Math.max(0, Math.min(n - 1, 1));
+        var turn = ROT === "soft" ? " rotate(" + (sg * (3 * ease + 1.2 * more)).toFixed(2) + "deg)"
+          : ROT === "3d" ? " perspective(900px) rotateY(" + (-sg * (22 * ease + 6 * more)).toFixed(2) + "deg)" : "";
+        c.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px)" + turn + " scale(" + (1 - .12 * Math.min(n, 2.2)).toFixed(4) + ")";
         c.style.zIndex = 100 - Math.round(a * 10);
         c.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
         c.style.opacity = a > 2.4 ? Math.max(0, 1 - (a - 2.4) * 2).toFixed(2) : 1;
@@ -194,7 +203,7 @@
     // tapping a side card brings it to the middle
     [].forEach.call(rail.children, function (c) { c.addEventListener("click", function () { rail.scrollTo({ left: c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2, behavior: "smooth" }); }); });
     [].forEach.call(document.querySelectorAll(".ctl button"), function (b) {
-      b.onclick = function () { if (b.dataset.g) { G = b.dataset.g; history.replaceState(null, "", "?g=" + G); } render(); };
+      b.onclick = function () { if (b.dataset.g) G = b.dataset.g; if (b.dataset.rot) ROT = b.dataset.rot; url(); render(); };
     });
   }
   render();
