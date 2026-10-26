@@ -1,0 +1,359 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-street-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32; approved editorial casting"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rl-chilly-m35-night-street-20261026-04.01-outer",
+      "name": {
+        "ko": "올리브 후드 파카",
+        "en": "Olive hooded parka",
+        "de": "Olivgrüner Kapuzenparka"
+      },
+      "nameKo": "올리브 후드 파카",
+      "nameEn": "Olive hooded parka",
+      "nameDe": "Olivgrüner Kapuzenparka",
+      "description": {
+        "ko": "올리브 파카는 앞을 열어 크림 이너와 머플러가 겹치는 부분을 드러내세요.",
+        "en": "Wear the olive parka open to show where the cream layer and the scarf overlap.",
+        "de": "Den olivgrünen Parka offen tragen, damit man sieht, wo cremefarbene Lage und Schal sich überlagern."
+      },
+      "descriptionKo": "올리브 파카는 앞을 열어 크림 이너와 머플러가 겹치는 부분을 드러내세요.",
+      "descriptionEn": "Wear the olive parka open to show where the cream layer and the scarf overlap.",
+      "descriptionDe": "Den olivgrünen Parka offen tragen, damit man sieht, wo cremefarbene Lage und Schal sich überlagern.",
+      "howToWear": {
+        "ko": "올리브 파카는 앞을 열어 크림 이너와 머플러가 겹치는 부분을 드러내세요.",
+        "en": "Wear the olive parka open to show where the cream layer and the scarf overlap.",
+        "de": "Den olivgrünen Parka offen tragen, damit man sieht, wo cremefarbene Lage und Schal sich überlagern."
+      },
+      "howToWearKo": "올리브 파카는 앞을 열어 크림 이너와 머플러가 겹치는 부분을 드러내세요.",
+      "note": {
+        "ko": "올리브 파카는 앞을 열어 크림 이너와 머플러가 겹치는 부분을 드러내세요.",
+        "en": "Wear the olive parka open to show where the cream layer and the scarf overlap.",
+        "de": "Den olivgrünen Parka offen tragen, damit man sieht, wo cremefarbene Lage und Schal sich überlagern."
+      },
+      "designDescriptionEn": "olive green oversized hooded parka, full center zipper and black snap placket, roomy sleeves, large lower flap pockets, matte fabric",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "altKo": "올리브 후드 파카 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "f6b57b2d3d7815e7397e1f4ff264e0d61f3c32ec724db47c9a081ee25ebb045c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.425896,
+      "bounds": [
+        15,
+        10,
+        485,
+        484
+      ]
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rl-chilly-m35-night-street-20261026-04.02-top",
+      "name": {
+        "ko": "크림 스웨트셔츠",
+        "en": "Cream sweatshirt",
+        "de": "Cremefarbenes Sweatshirt"
+      },
+      "nameKo": "크림 스웨트셔츠",
+      "nameEn": "Cream sweatshirt",
+      "nameDe": "Cremefarbenes Sweatshirt",
+      "description": {
+        "ko": "크림 스웨트셔츠는 팬츠 밖으로 편안하게 내리고 소매 시보리를 재킷 끝에서 조금 보이게 하세요.",
+        "en": "Let the cream sweatshirt hang easily over the trousers, with a little ribbed cuff showing past the jacket sleeve.",
+        "de": "Das cremefarbene Sweatshirt locker über der Hose tragen und das Rippenbündchen ein Stück unter dem Jackenärmel zeigen."
+      },
+      "descriptionKo": "크림 스웨트셔츠는 팬츠 밖으로 편안하게 내리고 소매 시보리를 재킷 끝에서 조금 보이게 하세요.",
+      "descriptionEn": "Let the cream sweatshirt hang easily over the trousers, with a little ribbed cuff showing past the jacket sleeve.",
+      "descriptionDe": "Das cremefarbene Sweatshirt locker über der Hose tragen und das Rippenbündchen ein Stück unter dem Jackenärmel zeigen.",
+      "howToWear": {
+        "ko": "크림 스웨트셔츠는 팬츠 밖으로 편안하게 내리고 소매 시보리를 재킷 끝에서 조금 보이게 하세요.",
+        "en": "Let the cream sweatshirt hang easily over the trousers, with a little ribbed cuff showing past the jacket sleeve.",
+        "de": "Das cremefarbene Sweatshirt locker über der Hose tragen und das Rippenbündchen ein Stück unter dem Jackenärmel zeigen."
+      },
+      "howToWearKo": "크림 스웨트셔츠는 팬츠 밖으로 편안하게 내리고 소매 시보리를 재킷 끝에서 조금 보이게 하세요.",
+      "note": {
+        "ko": "크림 스웨트셔츠는 팬츠 밖으로 편안하게 내리고 소매 시보리를 재킷 끝에서 조금 보이게 하세요.",
+        "en": "Let the cream sweatshirt hang easily over the trousers, with a little ribbed cuff showing past the jacket sleeve.",
+        "de": "Das cremefarbene Sweatshirt locker über der Hose tragen und das Rippenbündchen ein Stück unter dem Jackenärmel zeigen."
+      },
+      "designDescriptionEn": "cream off-white heavyweight sweatshirt, crewneck, wide ribbed cuffs and hem, plain body, long sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "altKo": "크림 스웨트셔츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "33cc1a11a56b0c20d69f3387b2f00396cd6f709e7bb32e212f6cf95f5965ccc4",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.32278,
+      "bounds": [
+        10,
+        36,
+        489,
+        467
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rl-chilly-m35-night-street-20261026-04.03-bottom",
+      "name": {
+        "ko": "다크 브라운 코듀로이 팬츠",
+        "en": "Dark brown corduroy trousers",
+        "de": "Dunkelbraune Cordhose"
+      },
+      "nameKo": "다크 브라운 코듀로이 팬츠",
+      "nameEn": "Dark brown corduroy trousers",
+      "nameDe": "Dunkelbraune Cordhose",
+      "description": {
+        "ko": "브라운 코듀로이 팬츠로 올리브와 크림 사이의 색감을 이어가고 밑단은 부츠 위에 정리하세요.",
+        "en": "Brown corduroy bridges the olive and the cream; finish the hems on the boots.",
+        "de": "Die braune Cordhose verbindet Oliv und Creme; die Säume auf den Boots enden lassen."
+      },
+      "descriptionKo": "브라운 코듀로이 팬츠로 올리브와 크림 사이의 색감을 이어가고 밑단은 부츠 위에 정리하세요.",
+      "descriptionEn": "Brown corduroy bridges the olive and the cream; finish the hems on the boots.",
+      "descriptionDe": "Die braune Cordhose verbindet Oliv und Creme; die Säume auf den Boots enden lassen.",
+      "howToWear": {
+        "ko": "브라운 코듀로이 팬츠로 올리브와 크림 사이의 색감을 이어가고 밑단은 부츠 위에 정리하세요.",
+        "en": "Brown corduroy bridges the olive and the cream; finish the hems on the boots.",
+        "de": "Die braune Cordhose verbindet Oliv und Creme; die Säume auf den Boots enden lassen."
+      },
+      "howToWearKo": "브라운 코듀로이 팬츠로 올리브와 크림 사이의 색감을 이어가고 밑단은 부츠 위에 정리하세요.",
+      "note": {
+        "ko": "브라운 코듀로이 팬츠로 올리브와 크림 사이의 색감을 이어가고 밑단은 부츠 위에 정리하세요.",
+        "en": "Brown corduroy bridges the olive and the cream; finish the hems on the boots.",
+        "de": "Die braune Cordhose verbindet Oliv und Creme; die Säume auf den Boots enden lassen."
+      },
+      "designDescriptionEn": "dark chocolate brown fine wale corduroy trousers, relaxed straight legs, simple pockets and belt loops",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "altKo": "다크 브라운 코듀로이 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "d999e0957a9d4cb2e88593323f6b1225552b47e5b97e11ba5e4e44483822976f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.540972,
+      "bounds": [
+        102,
+        16,
+        398,
+        487
+      ]
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rl-chilly-m35-night-street-20261026-04.04-shoes",
+      "name": {
+        "ko": "다크 브라운 레더 부츠",
+        "en": "Dark brown leather boots",
+        "de": "Dunkelbraune Lederboots"
+      },
+      "nameKo": "다크 브라운 레더 부츠",
+      "nameEn": "Dark brown leather boots",
+      "nameDe": "Dunkelbraune Lederboots",
+      "description": {
+        "ko": "어두운 부츠 위로 팬츠 밑단이 가볍게 닿도록 맞춰 올리브와 브라운의 차분한 흐름을 이어가세요.",
+        "en": "Let the trouser hems rest lightly on the dark boots to keep the quiet olive-to-brown flow going.",
+        "de": "Die Hosensäume leicht auf den dunklen Boots aufliegen lassen, so fließt das ruhige Oliv-Braun weiter."
+      },
+      "descriptionKo": "어두운 부츠 위로 팬츠 밑단이 가볍게 닿도록 맞춰 올리브와 브라운의 차분한 흐름을 이어가세요.",
+      "descriptionEn": "Let the trouser hems rest lightly on the dark boots to keep the quiet olive-to-brown flow going.",
+      "descriptionDe": "Die Hosensäume leicht auf den dunklen Boots aufliegen lassen, so fließt das ruhige Oliv-Braun weiter.",
+      "howToWear": {
+        "ko": "어두운 부츠 위로 팬츠 밑단이 가볍게 닿도록 맞춰 올리브와 브라운의 차분한 흐름을 이어가세요.",
+        "en": "Let the trouser hems rest lightly on the dark boots to keep the quiet olive-to-brown flow going.",
+        "de": "Die Hosensäume leicht auf den dunklen Boots aufliegen lassen, so fließt das ruhige Oliv-Braun weiter."
+      },
+      "howToWearKo": "어두운 부츠 위로 팬츠 밑단이 가볍게 닿도록 맞춰 올리브와 브라운의 차분한 흐름을 이어가세요.",
+      "note": {
+        "ko": "어두운 부츠 위로 팬츠 밑단이 가볍게 닿도록 맞춰 올리브와 브라운의 차분한 흐름을 이어가세요.",
+        "en": "Let the trouser hems rest lightly on the dark boots to keep the quiet olive-to-brown flow going.",
+        "de": "Die Hosensäume leicht auf den dunklen Boots aufliegen lassen, so fließt das ruhige Oliv-Braun weiter."
+      },
+      "designDescriptionEn": "matching PAIR dark brown leather rounded toe ankle boots, dark sturdy soles; only toe and small shaft visible so conservative plain lace-up reconstruction",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-shoes.webp",
+      "altKo": "다크 브라운 레더 부츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "d07b3e4e9d974476b9ac1ae00e788983c85fda315465c9e2a735fdd1ae9ee389",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.577168,
+      "bounds": [
+        20,
+        77,
+        484,
+        421
+      ]
+    },
+    {
+      "id": "05-neck",
+      "category": "neck",
+      "appCategory": "accessory",
+      "appItemId": "rl-chilly-m35-night-street-20261026-04.05-neck",
+      "name": {
+        "ko": "그레이 프린지 머플러",
+        "en": "Grey fringed scarf",
+        "de": "Grauer Fransenschal"
+      },
+      "nameKo": "그레이 프린지 머플러",
+      "nameEn": "Grey fringed scarf",
+      "nameDe": "Grauer Fransenschal",
+      "description": {
+        "ko": "머플러를 목에 느슨하게 감고 양 끝을 몸 앞에 자연스럽게 내려 정리하세요.",
+        "en": "Wrap the scarf loosely around the neck and let both ends fall naturally down the front.",
+        "de": "Den Schal locker um den Hals legen und beide Enden vorne natürlich herabfallen lassen."
+      },
+      "descriptionKo": "머플러를 목에 느슨하게 감고 양 끝을 몸 앞에 자연스럽게 내려 정리하세요.",
+      "descriptionEn": "Wrap the scarf loosely around the neck and let both ends fall naturally down the front.",
+      "descriptionDe": "Den Schal locker um den Hals legen und beide Enden vorne natürlich herabfallen lassen.",
+      "howToWear": {
+        "ko": "머플러를 목에 느슨하게 감고 양 끝을 몸 앞에 자연스럽게 내려 정리하세요.",
+        "en": "Wrap the scarf loosely around the neck and let both ends fall naturally down the front.",
+        "de": "Den Schal locker um den Hals legen und beide Enden vorne natürlich herabfallen lassen."
+      },
+      "howToWearKo": "머플러를 목에 느슨하게 감고 양 끝을 몸 앞에 자연스럽게 내려 정리하세요.",
+      "note": {
+        "ko": "머플러를 목에 느슨하게 감고 양 끝을 몸 앞에 자연스럽게 내려 정리하세요.",
+        "en": "Wrap the scarf loosely around the neck and let both ends fall naturally down the front.",
+        "de": "Den Schal locker um den Hals legen und beide Enden vorne natürlich herabfallen lassen."
+      },
+      "designDescriptionEn": "heather charcoal grey thick knitted scarf, broad rectangular shape and short twisted fringes on both ends, long scarf laid completely flat in a gentle straight line, not flying or knotted",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-neck.webp",
+      "altKo": "그레이 프린지 머플러 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "8c6a5e3da684f885367259d1423f3e333b1b40f235b1b45eb3bacb03be80f384",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.6719,
+      "bounds": [
+        155,
+        13,
+        345,
+        486
+      ]
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "titleKo": "올리브에 부드러운 그레이",
+    "introKo": "올리브 파카와 크림 스웨트셔츠 사이에 그레이 머플러를 자연스럽게 늘어뜨립니다. 브라운 코듀로이 팬츠와 어두운 부츠로 색의 온도를 이어가되 머플러 끝은 몸 가까이 정리하세요.",
+    "stylingIntentKo": "올리브 파카와 크림 스웨트셔츠 사이에 그레이 머플러를 자연스럽게 늘어뜨립니다. 브라운 코듀로이 팬츠와 어두운 부츠로 색의 온도를 이어가되 머플러 끝은 몸 가까이 정리하세요.",
+    "title": {
+      "ko": "올리브에 부드러운 그레이",
+      "en": "OLIVE PARKA OUTSIDE THE WINE SHOP"
+    },
+    "deck": {
+      "ko": "와인 가게 앞에서 머플러를 고쳐 매는, 올리브와 그레이의 따뜻한 밤.",
+      "en": "Settling a scarf outside the wine shop, in warm olive and grey.",
+      "de": "Vor dem Weinladen den Schal zurechtrücken – in warmem Oliv und Grau."
+    },
+    "intro": {
+      "ko": "올리브 파카와 크림 스웨트셔츠 사이에 그레이 머플러를 자연스럽게 늘어뜨립니다. 브라운 코듀로이 팬츠와 어두운 부츠로 색의 온도를 이어가되 머플러 끝은 몸 가까이 정리하세요.",
+      "en": "A grey scarf hangs loosely between the olive parka and the cream sweatshirt. Brown corduroy and dark boots carry the warmth of the colours down, while the scarf ends stay close to the body.",
+      "de": "Zwischen olivgrünem Parka und cremefarbenem Sweatshirt hängt locker ein grauer Schal. Braune Cordhose und dunkle Boots tragen die Wärme der Farben nach unten, die Schalenden bleiben nah am Körper."
+    },
+    "pull": "A HAND AT THE SCARF, A GLANCE BACK AT THE DOOR.",
+    "tip": {
+      "ko": "비에 젖은 머플러 끝은 파카 안쪽으로 넣어 두면 덜 무거워져요.",
+      "en": "Tuck damp scarf ends inside the parka so they don't grow heavy in the rain.",
+      "de": "Feuchte Schalenden in den Parka stecken, damit sie im Regen nicht schwer werden."
+    }
+  },
+  "reconstructionSummary": "Approved editorial is the scarf revision (04-editorial-v2, ends hanging straight). Only the toe and a little shaft of the boots show, so a plain lace-up is reconstructed; the parka back, the lower sweatshirt and the full scarf length laid flat are conservative reconstructions.",
+  "productionStatus": "ready",
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "productApproval": "User authorized end-to-end product generation and publication; no separate per-product approval claimed",
+  "visualReviewComplete": true,
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-m35-night-street-20261026-04",
+  "appBuild": "b161",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-street-20261026-04.01-outer"
+  }
+}

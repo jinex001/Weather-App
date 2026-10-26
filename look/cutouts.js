@@ -744,6 +744,26 @@
     "rl-chilly-f35-night-run-20261026-05.01-outer": [
         "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/05/products/01-outer.webp",
         0.038
+    ],
+    "rl-chilly-m35-night-street-20261026-01.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/01/products/01-outer.webp",
+        0.036
+    ],
+    "rl-chilly-m35-night-street-20261026-02.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/02/products/01-outer.webp",
+        0.336
+    ],
+    "rl-chilly-m35-night-street-20261026-03.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/03/products/01-outer.webp",
+        0.068
+    ],
+    "rl-chilly-m35-night-street-20261026-04.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/04/products/01-outer.webp",
+        0.063
+    ],
+    "rl-chilly-m35-night-street-20261026-05.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/05/products/01-outer.webp",
+        0.124
     ]
 };
   var HERO = {
@@ -931,7 +951,12 @@
     "rl-chilly-f35-night-run-20261026-02": "rl-chilly-f35-night-run-20261026-02.02-top",
     "rl-chilly-f35-night-run-20261026-03": "rl-chilly-f35-night-run-20261026-03.01-outer",
     "rl-chilly-f35-night-run-20261026-04": "rl-chilly-f35-night-run-20261026-04.01-outer",
-    "rl-chilly-f35-night-run-20261026-05": "rl-chilly-f35-night-run-20261026-05.01-outer"
+    "rl-chilly-f35-night-run-20261026-05": "rl-chilly-f35-night-run-20261026-05.01-outer",
+    "rl-chilly-m35-night-street-20261026-01": "rl-chilly-m35-night-street-20261026-01.01-outer",
+    "rl-chilly-m35-night-street-20261026-02": "rl-chilly-m35-night-street-20261026-02.01-outer",
+    "rl-chilly-m35-night-street-20261026-03": "rl-chilly-m35-night-street-20261026-03.01-outer",
+    "rl-chilly-m35-night-street-20261026-04": "rl-chilly-m35-night-street-20261026-04.01-outer",
+    "rl-chilly-m35-night-street-20261026-05": "rl-chilly-m35-night-street-20261026-05.01-outer"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

@@ -1,0 +1,359 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-street-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32; approved editorial casting"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rl-chilly-m35-night-street-20261026-03.01-outer",
+      "name": {
+        "ko": "코발트 후드 재킷",
+        "en": "Cobalt hooded jacket",
+        "de": "Kobaltblaue Kapuzenjacke"
+      },
+      "nameKo": "코발트 후드 재킷",
+      "nameEn": "Cobalt hooded jacket",
+      "nameDe": "Kobaltblaue Kapuzenjacke",
+      "description": {
+        "ko": "코발트 재킷의 앞을 조금 열어 차콜 플리스를 드러내고 다른 제품은 어두운 톤으로 맞추세요.",
+        "en": "Open the cobalt jacket a little to show the charcoal fleece, and keep everything else in dark tones.",
+        "de": "Die Kobaltjacke etwas öffnen, damit das anthrazitfarbene Fleece zu sehen ist, und alles andere dunkel halten."
+      },
+      "descriptionKo": "코발트 재킷의 앞을 조금 열어 차콜 플리스를 드러내고 다른 제품은 어두운 톤으로 맞추세요.",
+      "descriptionEn": "Open the cobalt jacket a little to show the charcoal fleece, and keep everything else in dark tones.",
+      "descriptionDe": "Die Kobaltjacke etwas öffnen, damit das anthrazitfarbene Fleece zu sehen ist, und alles andere dunkel halten.",
+      "howToWear": {
+        "ko": "코발트 재킷의 앞을 조금 열어 차콜 플리스를 드러내고 다른 제품은 어두운 톤으로 맞추세요.",
+        "en": "Open the cobalt jacket a little to show the charcoal fleece, and keep everything else in dark tones.",
+        "de": "Die Kobaltjacke etwas öffnen, damit das anthrazitfarbene Fleece zu sehen ist, und alles andere dunkel halten."
+      },
+      "howToWearKo": "코발트 재킷의 앞을 조금 열어 차콜 플리스를 드러내고 다른 제품은 어두운 톤으로 맞추세요.",
+      "note": {
+        "ko": "코발트 재킷의 앞을 조금 열어 차콜 플리스를 드러내고 다른 제품은 어두운 톤으로 맞추세요.",
+        "en": "Open the cobalt jacket a little to show the charcoal fleece, and keep everything else in dark tones.",
+        "de": "Die Kobaltjacke etwas öffnen, damit das anthrazitfarbene Fleece zu sehen ist, und alles andere dunkel halten."
+      },
+      "designDescriptionEn": "bold cobalt blue hooded oversized jacket, full black center zip, tall neck and roomy hood, simple pockets, relaxed sleeves, matte woven fabric",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "altKo": "코발트 후드 재킷 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "83d1b35d4ca7afeb4588990102b04361dd437bda2df1a0d00558c817575f5707",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.38668,
+      "bounds": [
+        10,
+        19,
+        490,
+        480
+      ]
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rl-chilly-m35-night-street-20261026-03.02-top",
+      "name": {
+        "ko": "차콜 집업 플리스",
+        "en": "Charcoal zip fleece",
+        "de": "Anthrazitfarbene Fleecejacke"
+      },
+      "nameKo": "차콜 집업 플리스",
+      "nameEn": "Charcoal zip fleece",
+      "nameDe": "Anthrazitfarbene Fleecejacke",
+      "description": {
+        "ko": "플리스의 목선을 세워 재킷 안에 겹치되 가방 끈과 지퍼가 겹치지 않게 정리하세요.",
+        "en": "Stand the fleece collar up inside the jacket, but keep its zip clear of the bag strap.",
+        "de": "Den Fleecekragen in der Jacke aufstellen, den Reißverschluss aber vom Taschengurt freihalten."
+      },
+      "descriptionKo": "플리스의 목선을 세워 재킷 안에 겹치되 가방 끈과 지퍼가 겹치지 않게 정리하세요.",
+      "descriptionEn": "Stand the fleece collar up inside the jacket, but keep its zip clear of the bag strap.",
+      "descriptionDe": "Den Fleecekragen in der Jacke aufstellen, den Reißverschluss aber vom Taschengurt freihalten.",
+      "howToWear": {
+        "ko": "플리스의 목선을 세워 재킷 안에 겹치되 가방 끈과 지퍼가 겹치지 않게 정리하세요.",
+        "en": "Stand the fleece collar up inside the jacket, but keep its zip clear of the bag strap.",
+        "de": "Den Fleecekragen in der Jacke aufstellen, den Reißverschluss aber vom Taschengurt freihalten."
+      },
+      "howToWearKo": "플리스의 목선을 세워 재킷 안에 겹치되 가방 끈과 지퍼가 겹치지 않게 정리하세요.",
+      "note": {
+        "ko": "플리스의 목선을 세워 재킷 안에 겹치되 가방 끈과 지퍼가 겹치지 않게 정리하세요.",
+        "en": "Stand the fleece collar up inside the jacket, but keep its zip clear of the bag strap.",
+        "de": "Den Fleecekragen in der Jacke aufstellen, den Reißverschluss aber vom Taschengurt freihalten."
+      },
+      "designDescriptionEn": "charcoal grey textured fleece high neck midlayer with black center zip, simple long sleeves, concealed body conservatively reconstructed",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "altKo": "차콜 집업 플리스 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "0a4920c47c09037d8639f9cf354264940f908d2083cfe720e56878532b5e785a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.367972,
+      "bounds": [
+        16,
+        32,
+        485,
+        463
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rl-chilly-m35-night-street-20261026-03.03-bottom",
+      "name": {
+        "ko": "블랙 카고 팬츠",
+        "en": "Black cargo trousers",
+        "de": "Schwarze Cargohose"
+      },
+      "nameKo": "블랙 카고 팬츠",
+      "nameEn": "Black cargo trousers",
+      "nameDe": "Schwarze Cargohose",
+      "description": {
+        "ko": "카고 팬츠의 넉넉한 무릎과 허벅지 볼륨은 살리고 밑단은 부츠 위에서 정리하세요.",
+        "en": "Keep the roomy volume at the knees and thighs of the cargo trousers, and finish the hems on top of the boots.",
+        "de": "Das weite Volumen der Cargohose an Knien und Oberschenkeln lassen und die Säume auf den Boots enden lassen."
+      },
+      "descriptionKo": "카고 팬츠의 넉넉한 무릎과 허벅지 볼륨은 살리고 밑단은 부츠 위에서 정리하세요.",
+      "descriptionEn": "Keep the roomy volume at the knees and thighs of the cargo trousers, and finish the hems on top of the boots.",
+      "descriptionDe": "Das weite Volumen der Cargohose an Knien und Oberschenkeln lassen und die Säume auf den Boots enden lassen.",
+      "howToWear": {
+        "ko": "카고 팬츠의 넉넉한 무릎과 허벅지 볼륨은 살리고 밑단은 부츠 위에서 정리하세요.",
+        "en": "Keep the roomy volume at the knees and thighs of the cargo trousers, and finish the hems on top of the boots.",
+        "de": "Das weite Volumen der Cargohose an Knien und Oberschenkeln lassen und die Säume auf den Boots enden lassen."
+      },
+      "howToWearKo": "카고 팬츠의 넉넉한 무릎과 허벅지 볼륨은 살리고 밑단은 부츠 위에서 정리하세요.",
+      "note": {
+        "ko": "카고 팬츠의 넉넉한 무릎과 허벅지 볼륨은 살리고 밑단은 부츠 위에서 정리하세요.",
+        "en": "Keep the roomy volume at the knees and thighs of the cargo trousers, and finish the hems on top of the boots.",
+        "de": "Das weite Volumen der Cargohose an Knien und Oberschenkeln lassen und die Säume auf den Boots enden lassen."
+      },
+      "designDescriptionEn": "washed black roomy cargo trousers, large rectangular flap thigh pockets, articulated knees, full length wide tapered legs",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "altKo": "블랙 카고 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "fc735d9fbbae57b4070da954fa988d63cc722157dc7e66b6fcc6343f4d80b23b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.508748,
+      "bounds": [
+        93,
+        16,
+        407,
+        483
+      ]
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rl-chilly-m35-night-street-20261026-03.04-shoes",
+      "name": {
+        "ko": "블랙 레더 워크 부츠",
+        "en": "Black leather work boots",
+        "de": "Schwarze Lederboots"
+      },
+      "nameKo": "블랙 레더 워크 부츠",
+      "nameEn": "Black leather work boots",
+      "nameDe": "Schwarze Lederboots",
+      "description": {
+        "ko": "검정 부츠는 팬츠와 같은 어두운 색으로 연결하고 끈을 단정하게 조이세요.",
+        "en": "Carry the black of the trousers straight into the boots and lace them neatly.",
+        "de": "Das Schwarz der Hose direkt in die Boots übergehen lassen und sie sauber schnüren."
+      },
+      "descriptionKo": "검정 부츠는 팬츠와 같은 어두운 색으로 연결하고 끈을 단정하게 조이세요.",
+      "descriptionEn": "Carry the black of the trousers straight into the boots and lace them neatly.",
+      "descriptionDe": "Das Schwarz der Hose direkt in die Boots übergehen lassen und sie sauber schnüren.",
+      "howToWear": {
+        "ko": "검정 부츠는 팬츠와 같은 어두운 색으로 연결하고 끈을 단정하게 조이세요.",
+        "en": "Carry the black of the trousers straight into the boots and lace them neatly.",
+        "de": "Das Schwarz der Hose direkt in die Boots übergehen lassen und sie sauber schnüren."
+      },
+      "howToWearKo": "검정 부츠는 팬츠와 같은 어두운 색으로 연결하고 끈을 단정하게 조이세요.",
+      "note": {
+        "ko": "검정 부츠는 팬츠와 같은 어두운 색으로 연결하고 끈을 단정하게 조이세요.",
+        "en": "Carry the black of the trousers straight into the boots and lace them neatly.",
+        "de": "Das Schwarz der Hose direkt in die Boots übergehen lassen und sie sauber schnüren."
+      },
+      "designDescriptionEn": "matching PAIR black leather lace-up ankle work boots, rounded toe caps, sturdy black lug soles, short padded collars",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-shoes.webp",
+      "altKo": "블랙 레더 워크 부츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "df4d204125436879a95ed55ee750fa8dff3073f5108b469df33da3422390ff71",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.536012,
+      "bounds": [
+        11,
+        72,
+        494,
+        431
+      ]
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rl-chilly-m35-night-street-20261026-03.05-bag",
+      "name": {
+        "ko": "블랙 유틸리티 숄더백",
+        "en": "Black utility shoulder bag",
+        "de": "Schwarze Utility-Umhängetasche"
+      },
+      "nameKo": "블랙 유틸리티 숄더백",
+      "nameEn": "Black utility shoulder bag",
+      "nameDe": "Schwarze Utility-Umhängetasche",
+      "description": {
+        "ko": "작은 숄더백은 몸 앞쪽에 가깝게 메어 코발트 재킷의 넓은 실루엣을 정리하세요.",
+        "en": "Carry the small shoulder bag close at the front to rein in the cobalt jacket's wide silhouette.",
+        "de": "Die kleine Umhängetasche vorne nah am Körper tragen, das fasst die weite Silhouette der Kobaltjacke."
+      },
+      "descriptionKo": "작은 숄더백은 몸 앞쪽에 가깝게 메어 코발트 재킷의 넓은 실루엣을 정리하세요.",
+      "descriptionEn": "Carry the small shoulder bag close at the front to rein in the cobalt jacket's wide silhouette.",
+      "descriptionDe": "Die kleine Umhängetasche vorne nah am Körper tragen, das fasst die weite Silhouette der Kobaltjacke.",
+      "howToWear": {
+        "ko": "작은 숄더백은 몸 앞쪽에 가깝게 메어 코발트 재킷의 넓은 실루엣을 정리하세요.",
+        "en": "Carry the small shoulder bag close at the front to rein in the cobalt jacket's wide silhouette.",
+        "de": "Die kleine Umhängetasche vorne nah am Körper tragen, das fasst die weite Silhouette der Kobaltjacke."
+      },
+      "howToWearKo": "작은 숄더백은 몸 앞쪽에 가깝게 메어 코발트 재킷의 넓은 실루엣을 정리하세요.",
+      "note": {
+        "ko": "작은 숄더백은 몸 앞쪽에 가깝게 메어 코발트 재킷의 넓은 실루엣을 정리하세요.",
+        "en": "Carry the small shoulder bag close at the front to rein in the cobalt jacket's wide silhouette.",
+        "de": "Die kleine Umhängetasche vorne nah am Körper tragen, das fasst die weite Silhouette der Kobaltjacke."
+      },
+      "designDescriptionEn": "compact black soft utility crossbody shoulder bag with broad black webbing strap and dark adjustment buckle, rounded rectangular body and front zip pocket",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-bag.webp",
+      "altKo": "블랙 유틸리티 숄더백 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "50a18e3325a6b1d2297e838776daec882e176b4179dab5cb15505edd7904695d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.50626,
+      "bounds": [
+        28,
+        31,
+        475,
+        464
+      ]
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "titleKo": "코발트 한 가지로 선명하게",
+    "introKo": "코발트 재킷을 중심으로 플리스와 카고 팬츠, 부츠를 차콜과 블랙으로 연결했습니다. 작은 숄더백을 몸 가까이 메고, 목까지 올라오는 이너로 쌀쌀한 밤의 레이어를 완성하세요.",
+    "stylingIntentKo": "코발트 재킷을 중심으로 플리스와 카고 팬츠, 부츠를 차콜과 블랙으로 연결했습니다. 작은 숄더백을 몸 가까이 메고, 목까지 올라오는 이너로 쌀쌀한 밤의 레이어를 완성하세요.",
+    "title": {
+      "ko": "코발트 한 가지로 선명하게",
+      "en": "COBALT JACKET AT THE BIKE LOCK"
+    },
+    "deck": {
+      "ko": "자전거 자물쇠 앞에 쪼그려 앉아도 선명하게 남는 코발트 한 점.",
+      "en": "One clear note of cobalt, even crouched at the bike lock.",
+      "de": "Ein klarer Kobaltton, selbst in der Hocke am Fahrradschloss."
+    },
+    "intro": {
+      "ko": "코발트 재킷을 중심으로 플리스와 카고 팬츠, 부츠를 차콜과 블랙으로 연결했습니다. 작은 숄더백을 몸 가까이 메고, 목까지 올라오는 이너로 쌀쌀한 밤의 레이어를 완성하세요.",
+      "en": "The cobalt jacket sits at the centre, with fleece, cargo trousers and boots linked in charcoal and black. Wear the small shoulder bag close, and let a layer that comes up to the neck finish the layering for a chilly night.",
+      "de": "Die Kobaltjacke steht im Mittelpunkt, Fleece, Cargohose und Boots verbinden sich in Anthrazit und Schwarz. Die kleine Umhängetasche nah am Körper tragen; eine bis zum Hals reichende Lage vollendet die Schichten für den kühlen Abend."
+    },
+    "pull": "KEYS OUT, LOCK OPEN, BACK ON THE ROAD.",
+    "tip": {
+      "ko": "젖은 자전거 안장은 출발 전에 손으로 한 번 닦아 내세요.",
+      "en": "Wipe the wet saddle with your hand before you ride off.",
+      "de": "Den nassen Sattel vor dem Losfahren kurz mit der Hand abwischen."
+    }
+  },
+  "reconstructionSummary": "Crouching pose: only the collar of the fleece shows, so its body is reconstructed; the lower jacket front, the back of the bag and the folded trouser legs are conservative reconstructions.",
+  "productionStatus": "ready",
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "productApproval": "User authorized end-to-end product generation and publication; no separate per-product approval claimed",
+  "visualReviewComplete": true,
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-m35-night-street-20261026-03",
+  "appBuild": "b161",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-street-20261026-03.01-outer"
+  }
+}

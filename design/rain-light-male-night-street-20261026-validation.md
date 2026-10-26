@@ -1,0 +1,37 @@
+# Rain / Light / Chilly / Male / 35+ / Night / Street — 2026-10-26 set — b161 verification
+
+- Status: mapped in an isolated worktree on origin/main `295d0f0` (b160). Under the user's 2026-10-26 workflow override (`IMAGE_INBOX_HANDOFF.md`), this verified local batch goes straight to `origin/main` with no PR. Archiving the originals to iCloud and deleting the verified local originals is the parent task's job after the push is verified. **That has not happened in this step.**
+- Source: local outbox batch `rain-light-chilly-male-night-street-20261026`. READY.json has `approved: true`, `editorialsApproved: true`, `products_complete: true`, and every listed file's SHA-256 matches (checked by the gate's `validate_batch`; the file inventory matches the list). Only the delivery files `NN/editorial.jpg` (5) and `NN/products/*.webp` (25) were copied, byte for byte. The gate re-hashed all 30 against the source.
+- Not committed (archive-only): root `0N-editorial.png`, the rejected `04-editorial.png`, `04-editorial-v2.png`, `masters/`, `PROMPTS.md`, `04-EDIT.md`, `generation-journal.jsonl`, `previous-metadata/`, the scripts, `review-*.jpg` QA sheets, VALIDATION/VISUAL_REVIEW/BREAKDOWN/KOREAN_MASTER/READY. The committed products.json files are public rewrites: no local paths, prompts or master references. The batch's technical reconstruction boilerplate (`description*`) is replaced by the per-product wear instructions. Uncertainty stays only in the evidence fields `reconstruction`, `reconstructionNote` and the look-level `reconstructionSummary`.
+
+## Visual inspection (each file opened and viewed)
+
+| Look | Editorial (1024×1536 JPG) | Products (500×500 transparent WebP) | Matches metadata |
+| --- | --- | --- | --- |
+| 01 | Curly-haired man stepping off a wet kerb, night street, 288,723 B | charcoal hooded parka · oatmeal chunky rib crewneck · dark indigo wide jeans (cuffed) · black lace-up lug boots (pair) · charcoal crossbody bag | yes |
+| 02 | Man in a doorway shaking rain from a black beanie, 247,574 B | stone hooded field jacket · chocolate brown hoodie · charcoal wide pleated trousers (cuffed) · dark brown leather derbies (pair) · black chunky rib beanie | yes |
+| 03 | Man crouching at a bike lock with keys, 291,912 B | cobalt hooded jacket · charcoal zip fleece · black cargo trousers · black leather work boots (pair) · black utility shoulder bag | yes |
+| 04 | Man outside a wine shop adjusting a grey fringed scarf, ends hanging straight. This is the approved v2 export, not the rejected airborne-tails version. 290,550 B | olive hooded parka · cream crewneck sweatshirt · dark brown corduroy trousers · dark brown leather lace-up boots (pair) · grey fringed scarf (laid flat) | yes |
+| 05 | Man in a burnt orange jacket stepping onto a doorstep, looking back, 288,366 B | burnt orange hooded jacket · deep navy high-neck knit · graphite straight trousers · brown leather lace-up boots (pair) · black crossbody bag | yes |
+
+- QA sheets viewed: `review-app.jpg`, `review-white.jpg`, `review-gray.jpg`, `review-black.jpg`. On every background each product is whole: no matte rectangle, halo or clipped garment, and colours match the editorials. The scarf in 04 is the supplied product; the rejected scarf image was not used.
+- Known artifact (kept, because delivery bytes may not be re-encoded): `04/products/03-bottom.webp` has sparse low-alpha traces. The leftmost pixel column reaches alpha 32 at most, and two corners have alpha 18 and 6. On the white and app sheets it shows as a very faint vertical hairline at the left edge of the cell. The garment silhouette is complete. VISUAL_REVIEW.md already records this. The other 24 products have alpha 0 at all four corners.
+- Products: 25 files, 22,518–48,080 B (≤100 KB), real alpha with min alpha 0 and transparent pixels present.
+
+## Mapping
+
+- `look/rain-light-male-night-street-20261026.js` (before `look/cutouts.js`), looks `rl-chilly-m35-night-street-20261026-01`–`05`: `sky: rain`, `rain: light`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, `time: evening`. Items are `<look>.<product id>`, in delivery order, 5 per look. `bg` is `#F3EFE8`.
+- Categories: delivered `head` → `headwear`, and `neck` → `accessory` as the user instructed. The app also has a `scarf` category (label "Scarf", used by the calendar's cold/windy rule), so the scarf shows with the BRING label and is not picked by that calendar rule. The delivered `category` is kept and the app one is in `appCategory`.
+- Copy: `KOREAN_MASTER.json` `introKo` → `article.intro.ko`, and each `howToWearKo` → `note.ko`, byte for byte (the gate checks this). I wrote the following from the editorials and `designDescriptionEn`: en/de intros, en/de item notes (all 25 distinct per language, checked by the gate), ko/en/de decks (each different from its intro, ≤1 product named), ko/en/de tips, uppercase English pull lines, and English titles that name the hero product:
+  01 THE CHARCOAL PARKA TAKES THE KERB · 02 STONE JACKET, BEANIE SHAKEN DRY · 03 COBALT JACKET AT THE BIKE LOCK · 04 OLIVE PARKA OUTSIDE THE WINE SHOP · 05 BURNT ORANGE JACKET, ONE STEP UP. The Korean titles from the master are kept in products.json `copy.title.ko`. No brand, price, composition, temperature or protection claim appears in any UI text (checked by regex).
+- Hero (b134 title-word rule, `design/CUTOUTS.md`): each title's first colour word names the outerwear. In 01, CHARCOAL also matches the bag; rule 3 picks the outer. Each cut is that product's own WebP (no new cutout). lum: 0.036 / 0.336 / 0.068 / 0.063 / 0.124. HERO and CUTS have 5 rows each.
+- Casting: model appearance 28–32 (as approved), audience 35+. No numeric temperature (`temperatureC`/`feelsLikeC` null, `isLiveMeasurement: false`). Berlin at night is a creative setting.
+
+## Checks
+
+- Publication gate (`check_rain_light_male_night_street_20261026.py`, baseline `295d0f0`): passed. Output: `changed 44, new_looks 5, products 25, editorials 5, build b161, looks_total 200, items_total 1277, uniqueProductNotes, koreanMasterPreserved, all30ImageHashesMatch`. The gate also showed that the existing 195 looks and 1,252 items have unchanged runtime fingerprints, no existing image was modified or deleted, no PNG was added, and BUILD and `?v=b161` were bumped.
+- `tools/tests`: 13 tests OK.
+- Runtime (JavaScriptCore, index.html script order): 200 looks, 1,277 items, 200 article looks. 0 missing image paths across all looks. 0 article looks without a hero cut on disk. ko/en/de are complete for every new deck, intro, tip, item name and item note.
+- Selection: the app's `isRain`/`rainLevel`/`lookFits` ran in jsc on `295d0f0` and on this tree. Matrix: codes dry-clear/0/3/53/61/80/63/81/65/95 × day/evening × m/f × run/street/minimal × cold/chilly/cool, 360 conditions. Only male street evening rain cells changed (21). Light rain (53, 61, 80) evening male street now fits exactly these 5 looks at sky rank 0, replacing the placeholder. For normal/pouring rain they appear only at sky rank 1, like other light-rain sets. Every other cell is identical.
+- `tools/make-cutouts.py --check` needs node, which is not installed. I applied the same title-word rule in Python to the jsc-loaded runtime instead.
+- Rendering: not done. Headless Chrome needed a permission this run didn't have. The card page and app home/sheet under light-rain evening weather were not rendered; someone should check them on a device.

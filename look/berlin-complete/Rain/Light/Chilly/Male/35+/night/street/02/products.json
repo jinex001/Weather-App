@@ -1,0 +1,359 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-street-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32; approved editorial casting"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rl-chilly-m35-night-street-20261026-02.01-outer",
+      "name": {
+        "ko": "스톤 후드 필드 재킷",
+        "en": "Stone hooded field jacket",
+        "de": "Steinfarbene Kapuzenjacke"
+      },
+      "nameKo": "스톤 후드 필드 재킷",
+      "nameEn": "Stone hooded field jacket",
+      "nameDe": "Steinfarbene Kapuzenjacke",
+      "description": {
+        "ko": "스톤 재킷 안으로 브라운 후드를 꺼내고 앞섶을 열어 두 겹의 목선을 드러내세요.",
+        "en": "Pull the brown hood out over the stone jacket and leave the front open to show both necklines.",
+        "de": "Die braune Kapuze über die steinfarbene Jacke ziehen und die Front offen lassen, damit beide Ausschnitte zu sehen sind."
+      },
+      "descriptionKo": "스톤 재킷 안으로 브라운 후드를 꺼내고 앞섶을 열어 두 겹의 목선을 드러내세요.",
+      "descriptionEn": "Pull the brown hood out over the stone jacket and leave the front open to show both necklines.",
+      "descriptionDe": "Die braune Kapuze über die steinfarbene Jacke ziehen und die Front offen lassen, damit beide Ausschnitte zu sehen sind.",
+      "howToWear": {
+        "ko": "스톤 재킷 안으로 브라운 후드를 꺼내고 앞섶을 열어 두 겹의 목선을 드러내세요.",
+        "en": "Pull the brown hood out over the stone jacket and leave the front open to show both necklines.",
+        "de": "Die braune Kapuze über die steinfarbene Jacke ziehen und die Front offen lassen, damit beide Ausschnitte zu sehen sind."
+      },
+      "howToWearKo": "스톤 재킷 안으로 브라운 후드를 꺼내고 앞섶을 열어 두 겹의 목선을 드러내세요.",
+      "note": {
+        "ko": "스톤 재킷 안으로 브라운 후드를 꺼내고 앞섶을 열어 두 겹의 목선을 드러내세요.",
+        "en": "Pull the brown hood out over the stone jacket and leave the front open to show both necklines.",
+        "de": "Die braune Kapuze über die steinfarbene Jacke ziehen und die Front offen lassen, damit beide Ausschnitte zu sehen sind."
+      },
+      "designDescriptionEn": "stone grey beige mid-thigh oversized hooded field jacket, full center zipper and small black snap placket, slanted welt hand pockets, matte crinkled fabric",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "altKo": "스톤 후드 필드 재킷 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "72aa2342993455065e23a62d90edd611fcc2480311e627f4cdfcafdbd10f0ac4",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.39128,
+      "bounds": [
+        8,
+        18,
+        492,
+        482
+      ]
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rl-chilly-m35-night-street-20261026-02.02-top",
+      "name": {
+        "ko": "초콜릿 브라운 후디",
+        "en": "Chocolate brown hoodie",
+        "de": "Schokoladenbrauner Hoodie"
+      },
+      "nameKo": "초콜릿 브라운 후디",
+      "nameEn": "Chocolate brown hoodie",
+      "nameDe": "Schokoladenbrauner Hoodie",
+      "description": {
+        "ko": "후디는 팬츠 밖으로 내려 입고 재킷 안에 후드가 뭉치지 않게 펴 주세요.",
+        "en": "Wear the hoodie untucked over the trousers and smooth the hood so it doesn't bunch inside the jacket.",
+        "de": "Den Hoodie über der Hose tragen und die Kapuze glatt legen, damit sie sich in der Jacke nicht staut."
+      },
+      "descriptionKo": "후디는 팬츠 밖으로 내려 입고 재킷 안에 후드가 뭉치지 않게 펴 주세요.",
+      "descriptionEn": "Wear the hoodie untucked over the trousers and smooth the hood so it doesn't bunch inside the jacket.",
+      "descriptionDe": "Den Hoodie über der Hose tragen und die Kapuze glatt legen, damit sie sich in der Jacke nicht staut.",
+      "howToWear": {
+        "ko": "후디는 팬츠 밖으로 내려 입고 재킷 안에 후드가 뭉치지 않게 펴 주세요.",
+        "en": "Wear the hoodie untucked over the trousers and smooth the hood so it doesn't bunch inside the jacket.",
+        "de": "Den Hoodie über der Hose tragen und die Kapuze glatt legen, damit sie sich in der Jacke nicht staut."
+      },
+      "howToWearKo": "후디는 팬츠 밖으로 내려 입고 재킷 안에 후드가 뭉치지 않게 펴 주세요.",
+      "note": {
+        "ko": "후디는 팬츠 밖으로 내려 입고 재킷 안에 후드가 뭉치지 않게 펴 주세요.",
+        "en": "Wear the hoodie untucked over the trousers and smooth the hood so it doesn't bunch inside the jacket.",
+        "de": "Den Hoodie über der Hose tragen und die Kapuze glatt legen, damit sie sich in der Jacke nicht staut."
+      },
+      "designDescriptionEn": "dark chocolate brown pullover hoodie, plain front, rib cuffs hem, generous hood, conservative concealed kangaroo pocket",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "altKo": "초콜릿 브라운 후디 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "f668c4bea9a686c414badeb54a408f70f56fb9495ba4dea2b78ab7e468e81600",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.390776,
+      "bounds": [
+        19,
+        11,
+        482,
+        473
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rl-chilly-m35-night-street-20261026-02.03-bottom",
+      "name": {
+        "ko": "차콜 와이드 팬츠",
+        "en": "Charcoal wide trousers",
+        "de": "Weite anthrazitfarbene Hose"
+      },
+      "nameKo": "차콜 와이드 팬츠",
+      "nameEn": "Charcoal wide trousers",
+      "nameDe": "Weite anthrazitfarbene Hose",
+      "description": {
+        "ko": "와이드 팬츠의 밑단을 가볍게 접어 레더 슈즈 윗부분이 드러나도록 맞추세요.",
+        "en": "Give the wide trousers a light turn-up so the tops of the leather shoes show.",
+        "de": "Die weite Hose leicht umschlagen, damit die Lederschuhe oben sichtbar bleiben."
+      },
+      "descriptionKo": "와이드 팬츠의 밑단을 가볍게 접어 레더 슈즈 윗부분이 드러나도록 맞추세요.",
+      "descriptionEn": "Give the wide trousers a light turn-up so the tops of the leather shoes show.",
+      "descriptionDe": "Die weite Hose leicht umschlagen, damit die Lederschuhe oben sichtbar bleiben.",
+      "howToWear": {
+        "ko": "와이드 팬츠의 밑단을 가볍게 접어 레더 슈즈 윗부분이 드러나도록 맞추세요.",
+        "en": "Give the wide trousers a light turn-up so the tops of the leather shoes show.",
+        "de": "Die weite Hose leicht umschlagen, damit die Lederschuhe oben sichtbar bleiben."
+      },
+      "howToWearKo": "와이드 팬츠의 밑단을 가볍게 접어 레더 슈즈 윗부분이 드러나도록 맞추세요.",
+      "note": {
+        "ko": "와이드 팬츠의 밑단을 가볍게 접어 레더 슈즈 윗부분이 드러나도록 맞추세요.",
+        "en": "Give the wide trousers a light turn-up so the tops of the leather shoes show.",
+        "de": "Die weite Hose leicht umschlagen, damit die Lederschuhe oben sichtbar bleiben."
+      },
+      "designDescriptionEn": "charcoal grey wide straight trousers, softly textured fabric, subtle front creases, generous drape and cuffed hems",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "altKo": "차콜 와이드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "2e463e6a939f7b78790f1f829fb5ea43163cfcdb30e3fb4af95f201c6da326e5",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.535552,
+      "bounds": [
+        87,
+        14,
+        414,
+        486
+      ]
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rl-chilly-m35-night-street-20261026-02.04-shoes",
+      "name": {
+        "ko": "다크 브라운 레더 슈즈",
+        "en": "Dark brown leather shoes",
+        "de": "Dunkelbraune Lederschuhe"
+      },
+      "nameKo": "다크 브라운 레더 슈즈",
+      "nameEn": "Dark brown leather shoes",
+      "nameDe": "Dunkelbraune Lederschuhe",
+      "description": {
+        "ko": "어두운 레더 슈즈는 팬츠의 넓은 실루엣 아래 가지런하게 연결하세요.",
+        "en": "Let the dark leather shoes sit neatly beneath the trousers' wide line.",
+        "de": "Die dunklen Lederschuhe ordentlich unter die weite Hosenlinie setzen."
+      },
+      "descriptionKo": "어두운 레더 슈즈는 팬츠의 넓은 실루엣 아래 가지런하게 연결하세요.",
+      "descriptionEn": "Let the dark leather shoes sit neatly beneath the trousers' wide line.",
+      "descriptionDe": "Die dunklen Lederschuhe ordentlich unter die weite Hosenlinie setzen.",
+      "howToWear": {
+        "ko": "어두운 레더 슈즈는 팬츠의 넓은 실루엣 아래 가지런하게 연결하세요.",
+        "en": "Let the dark leather shoes sit neatly beneath the trousers' wide line.",
+        "de": "Die dunklen Lederschuhe ordentlich unter die weite Hosenlinie setzen."
+      },
+      "howToWearKo": "어두운 레더 슈즈는 팬츠의 넓은 실루엣 아래 가지런하게 연결하세요.",
+      "note": {
+        "ko": "어두운 레더 슈즈는 팬츠의 넓은 실루엣 아래 가지런하게 연결하세요.",
+        "en": "Let the dark leather shoes sit neatly beneath the trousers' wide line.",
+        "de": "Die dunklen Lederschuhe ordentlich unter die weite Hosenlinie setzen."
+      },
+      "designDescriptionEn": "matching PAIR dark chocolate brown leather derby shoes, rounded toes, lace fronts, dark low soles",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-shoes.webp",
+      "altKo": "다크 브라운 레더 슈즈 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "5d364009b397c60c585d76735a73e2d2b972a83be7210fb8ff0d09ad21568e53",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.48296,
+      "bounds": [
+        59,
+        18,
+        441,
+        475
+      ]
+    },
+    {
+      "id": "05-head",
+      "category": "head",
+      "appCategory": "headwear",
+      "appItemId": "rl-chilly-m35-night-street-20261026-02.05-head",
+      "name": {
+        "ko": "블랙 니트 비니",
+        "en": "Black knitted beanie",
+        "de": "Schwarze Strickmütze"
+      },
+      "nameKo": "블랙 니트 비니",
+      "nameEn": "Black knitted beanie",
+      "nameDe": "Schwarze Strickmütze",
+      "description": {
+        "ko": "비니의 접힌 단을 일정하게 정리해 후디와 재킷의 볼륨을 가볍게 마무리하세요.",
+        "en": "Keep the beanie's folded cuff even, a light finish above the volume of hoodie and jacket.",
+        "de": "Den umgeschlagenen Rand der Mütze gleichmäßig legen – ein leichter Abschluss über dem Volumen von Hoodie und Jacke."
+      },
+      "descriptionKo": "비니의 접힌 단을 일정하게 정리해 후디와 재킷의 볼륨을 가볍게 마무리하세요.",
+      "descriptionEn": "Keep the beanie's folded cuff even, a light finish above the volume of hoodie and jacket.",
+      "descriptionDe": "Den umgeschlagenen Rand der Mütze gleichmäßig legen – ein leichter Abschluss über dem Volumen von Hoodie und Jacke.",
+      "howToWear": {
+        "ko": "비니의 접힌 단을 일정하게 정리해 후디와 재킷의 볼륨을 가볍게 마무리하세요.",
+        "en": "Keep the beanie's folded cuff even, a light finish above the volume of hoodie and jacket.",
+        "de": "Den umgeschlagenen Rand der Mütze gleichmäßig legen – ein leichter Abschluss über dem Volumen von Hoodie und Jacke."
+      },
+      "howToWearKo": "비니의 접힌 단을 일정하게 정리해 후디와 재킷의 볼륨을 가볍게 마무리하세요.",
+      "note": {
+        "ko": "비니의 접힌 단을 일정하게 정리해 후디와 재킷의 볼륨을 가볍게 마무리하세요.",
+        "en": "Keep the beanie's folded cuff even, a light finish above the volume of hoodie and jacket.",
+        "de": "Den umgeschlagenen Rand der Mütze gleichmäßig legen – ein leichter Abschluss über dem Volumen von Hoodie und Jacke."
+      },
+      "designDescriptionEn": "black chunky rib knit beanie with folded brim, soft rounded crown, no labels",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-head.webp",
+      "altKo": "블랙 니트 비니 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "bc16bc57d30fe9b00751da8e932ef0167b267fe394fe703154f78a303c9e1810",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.417432,
+      "bounds": [
+        24,
+        54,
+        478,
+        454
+      ]
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "titleKo": "스톤과 브라운의 편안한 레이어",
+    "introKo": "스톤 재킷 아래 초콜릿 후디를 겹쳐 후드와 목선에 깊이를 줍니다. 넓은 차콜 팬츠의 밑단을 가볍게 정리하고, 어두운 레더 슈즈와 블랙 비니로 마무리하세요.",
+    "stylingIntentKo": "스톤 재킷 아래 초콜릿 후디를 겹쳐 후드와 목선에 깊이를 줍니다. 넓은 차콜 팬츠의 밑단을 가볍게 정리하고, 어두운 레더 슈즈와 블랙 비니로 마무리하세요.",
+    "title": {
+      "ko": "스톤과 브라운의 편안한 레이어",
+      "en": "STONE JACKET, BEANIE SHAKEN DRY"
+    },
+    "deck": {
+      "ko": "문 앞에서 비니의 빗물을 털어내는, 스톤과 브라운의 차분한 밤.",
+      "en": "Shaking the rain off a beanie at the door, in calm shades of stone and brown.",
+      "de": "An der Tür das Regenwasser aus der Mütze schütteln – in ruhigen Stein- und Brauntönen."
+    },
+    "intro": {
+      "ko": "스톤 재킷 아래 초콜릿 후디를 겹쳐 후드와 목선에 깊이를 줍니다. 넓은 차콜 팬츠의 밑단을 가볍게 정리하고, 어두운 레더 슈즈와 블랙 비니로 마무리하세요.",
+      "en": "A chocolate hoodie under the stone jacket gives the hood and neckline depth. Keep the hems of the wide charcoal trousers tidy and finish with dark leather shoes and a black beanie.",
+      "de": "Ein schokoladenbrauner Hoodie unter der steinfarbenen Jacke gibt Kapuze und Ausschnitt Tiefe. Die Säume der weiten anthrazitfarbenen Hose ordentlich halten und mit dunklen Lederschuhen und schwarzer Mütze abschließen."
+    },
+    "pull": "A SHAKE AT THE DOOR, AND THE NIGHT STAYS OUTSIDE.",
+    "tip": {
+      "ko": "젖은 비니는 문 밖에서 가볍게 털고, 실내에서는 펴서 말리세요.",
+      "en": "Shake a wet beanie out before you go in, then lay it flat to dry indoors.",
+      "de": "Eine nasse Mütze vor der Tür ausschütteln und drinnen flach zum Trocknen hinlegen."
+    }
+  },
+  "reconstructionSummary": "The beanie is held in the hand, not worn; its crown and cuff are reconstructed from the visible knit. The jacket back, the hoodie pocket and the shoe uppers under the trouser hems are conservative reconstructions.",
+  "productionStatus": "ready",
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "productApproval": "User authorized end-to-end product generation and publication; no separate per-product approval claimed",
+  "visualReviewComplete": true,
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-m35-night-street-20261026-02",
+  "appBuild": "b161",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-street-20261026-02.01-outer"
+  }
+}

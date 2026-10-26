@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-26 (앱 빌드 b160) · 195룩 · 1252아이템 · 기사 룩 195 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-26 (앱 빌드 b161) · 200룩 · 1277아이템 · 기사 룩 200 (jsc로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -221,3 +221,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b160 · Rain / Light / Chilly / Female / 35+ / Night / Running — 2026-10-26 set (5 looks)
 
 에디토리얼 5장(모두 1024×1536, 2:3) + 독립 투명 WebP 제품 33개(7/5/7/7/7), `look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/<01–05>/`, 보충 파일 `look/rain-light-female-night-running-20261026.js`. 룩 `rl-chilly-f35-night-run-20261026-NN`(`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: run`, `time: evening`). 01 딥 페트롤 셸 · 02 스톤 그레이 셸 + 플럼 하이넥 · 03 버밀리언 셸 · 04 모스 그린 셸 + 에스프레소 타이츠 · 05 오버진 셸 + 애시드 옐로 이너. 다섯 룩 모두 헤드밴드(→ `headwear`)와 장갑 한 켤레(→ `hands`), products.json에 제작 측 `category` + `appCategory`. 02는 상반신 크롭이라 양말·신발 없음(5개), 04 양말은 크루 길이(사진대로), 05 양말은 쿼터. 대표 컷은 b134 제목 단어 규칙: 02 PLUM, SET RIGHT → 플럼 하이넥 `02-top`(같은 색 헤드밴드보다 큰 옷), 나머지 → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 모델 외관 25–28세, 숫자 기온 없음. 가려진 부분은 룩별 `reconstructionSummary`와 제품별 `detail`·`reconstruction`에 기록. [검증](rain-light-female-night-running-20261026-validation.md).
+
+## b161 · Rain / Light / Chilly / Male / 35+ / Night / Street — 2026-10-26 set (5 looks)
+
+에디토리얼 5장(모두 1024×1536, 2:3, 04는 승인된 머플러 수정본) + 독립 투명 WebP 제품 25개(5/5/5/5/5), `look/berlin-complete/Rain/Light/Chilly/Male/35+/night/street/<01–05>/`, 보충 파일 `look/rain-light-male-night-street-20261026.js`. 룩 `rl-chilly-m35-night-street-20261026-NN`(`sky: rain`, `rain: light`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, `time: evening`). 01 차콜 파카 + 오트밀 니트 · 02 스톤 재킷 + 초콜릿 후디 + 블랙 비니 · 03 코발트 재킷 + 차콜 플리스 · 04 올리브 파카 + 그레이 프린지 머플러 · 05 번트 오렌지 재킷 + 딥 네이비 하이넥. 제작 측 `head` → `headwear`, `neck` → `accessory`(사용자 지시; products.json에 제작 측 `category` + `appCategory`). 대표 컷은 b134 제목 단어 규칙: 다섯 제목 모두 아우터 색(CHARCOAL · STONE · COBALT · OLIVE · BURNT ORANGE)을 말하므로 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 모델 외관 28–32세, 숫자 기온 없음. 가려진 부분은 룩별 `reconstructionSummary`와 제품별 `reconstruction`. [검증](rain-light-male-night-street-20261026-validation.md).

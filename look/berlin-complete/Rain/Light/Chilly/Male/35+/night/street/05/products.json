@@ -1,0 +1,359 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-m35-night-street-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "modelAppearanceAge": "28–32; approved editorial casting"
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rl-chilly-m35-night-street-20261026-05.01-outer",
+      "name": {
+        "ko": "번트 오렌지 후드 재킷",
+        "en": "Burnt orange hooded jacket",
+        "de": "Kapuzenjacke in Rostorange"
+      },
+      "nameKo": "번트 오렌지 후드 재킷",
+      "nameEn": "Burnt orange hooded jacket",
+      "nameDe": "Kapuzenjacke in Rostorange",
+      "description": {
+        "ko": "번트 오렌지 재킷의 후드를 편안하게 펴고 블랙 가방 끈이 어깨에서 꼬이지 않게 정리하세요.",
+        "en": "Let the burnt orange hood lie open and easy, and keep the black bag strap from twisting at the shoulder.",
+        "de": "Die rostorange Kapuze locker ausbreiten und den schwarzen Taschengurt an der Schulter nicht verdrehen lassen."
+      },
+      "descriptionKo": "번트 오렌지 재킷의 후드를 편안하게 펴고 블랙 가방 끈이 어깨에서 꼬이지 않게 정리하세요.",
+      "descriptionEn": "Let the burnt orange hood lie open and easy, and keep the black bag strap from twisting at the shoulder.",
+      "descriptionDe": "Die rostorange Kapuze locker ausbreiten und den schwarzen Taschengurt an der Schulter nicht verdrehen lassen.",
+      "howToWear": {
+        "ko": "번트 오렌지 재킷의 후드를 편안하게 펴고 블랙 가방 끈이 어깨에서 꼬이지 않게 정리하세요.",
+        "en": "Let the burnt orange hood lie open and easy, and keep the black bag strap from twisting at the shoulder.",
+        "de": "Die rostorange Kapuze locker ausbreiten und den schwarzen Taschengurt an der Schulter nicht verdrehen lassen."
+      },
+      "howToWearKo": "번트 오렌지 재킷의 후드를 편안하게 펴고 블랙 가방 끈이 어깨에서 꼬이지 않게 정리하세요.",
+      "note": {
+        "ko": "번트 오렌지 재킷의 후드를 편안하게 펴고 블랙 가방 끈이 어깨에서 꼬이지 않게 정리하세요.",
+        "en": "Let the burnt orange hood lie open and easy, and keep the black bag strap from twisting at the shoulder.",
+        "de": "Die rostorange Kapuze locker ausbreiten und den schwarzen Taschengurt an der Schulter nicht verdrehen lassen."
+      },
+      "designDescriptionEn": "burnt orange rust oversized hooded jacket, matte textured woven fabric, tall hood, dark center front closure; front pockets and hidden front conservatively plain",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "altKo": "번트 오렌지 후드 재킷 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "2b1c3d2c13123f90853ea11b253c5fe0e855a9f249da03a79bf5c8bf0b89a265",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.382996,
+      "bounds": [
+        20,
+        6,
+        480,
+        476
+      ]
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rl-chilly-m35-night-street-20261026-05.02-top",
+      "name": {
+        "ko": "딥 네이비 하이넥 니트",
+        "en": "Deep navy high-neck knit",
+        "de": "Dunkelblauer Strickpullover mit Stehkragen"
+      },
+      "nameKo": "딥 네이비 하이넥 니트",
+      "nameEn": "Deep navy high-neck knit",
+      "nameDe": "Dunkelblauer Strickpullover mit Stehkragen",
+      "description": {
+        "ko": "딥 네이비 하이넥을 재킷 안에 겹치고 목선이 후드 안쪽으로 단정하게 올라오도록 정리하세요.",
+        "en": "Layer the deep navy high-neck under the jacket so its collar rises neatly inside the hood.",
+        "de": "Den dunkelblauen Stehkragenpulli unter der Jacke tragen, sodass der Kragen ordentlich in der Kapuze aufsteigt."
+      },
+      "descriptionKo": "딥 네이비 하이넥을 재킷 안에 겹치고 목선이 후드 안쪽으로 단정하게 올라오도록 정리하세요.",
+      "descriptionEn": "Layer the deep navy high-neck under the jacket so its collar rises neatly inside the hood.",
+      "descriptionDe": "Den dunkelblauen Stehkragenpulli unter der Jacke tragen, sodass der Kragen ordentlich in der Kapuze aufsteigt.",
+      "howToWear": {
+        "ko": "딥 네이비 하이넥을 재킷 안에 겹치고 목선이 후드 안쪽으로 단정하게 올라오도록 정리하세요.",
+        "en": "Layer the deep navy high-neck under the jacket so its collar rises neatly inside the hood.",
+        "de": "Den dunkelblauen Stehkragenpulli unter der Jacke tragen, sodass der Kragen ordentlich in der Kapuze aufsteigt."
+      },
+      "howToWearKo": "딥 네이비 하이넥을 재킷 안에 겹치고 목선이 후드 안쪽으로 단정하게 올라오도록 정리하세요.",
+      "note": {
+        "ko": "딥 네이비 하이넥을 재킷 안에 겹치고 목선이 후드 안쪽으로 단정하게 올라오도록 정리하세요.",
+        "en": "Layer the deep navy high-neck under the jacket so its collar rises neatly inside the hood.",
+        "de": "Den dunkelblauen Stehkragenpulli unter der Jacke tragen, sodass der Kragen ordentlich in der Kapuze aufsteigt."
+      },
+      "designDescriptionEn": "deep navy near-black textured knit high-neck sweater, plain long sleeve body conservatively reconstructed from visible dark knit at neck",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "altKo": "딥 네이비 하이넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "3d9eb0e924249079ec1bf81f7336b668b0452dd76acd1911f53af04071b62f88",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.344956,
+      "bounds": [
+        14,
+        26,
+        487,
+        475
+      ]
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rl-chilly-m35-night-street-20261026-05.03-bottom",
+      "name": {
+        "ko": "그래파이트 루즈 팬츠",
+        "en": "Graphite loose trousers",
+        "de": "Lockere graphitgraue Hose"
+      },
+      "nameKo": "그래파이트 루즈 팬츠",
+      "nameEn": "Graphite loose trousers",
+      "nameDe": "Lockere graphitgraue Hose",
+      "description": {
+        "ko": "그래파이트 팬츠는 뒤 포켓과 넉넉한 다리선을 살리고 밑단은 부츠 위로 정리하세요.",
+        "en": "Show off the graphite trousers' back pocket and roomy leg, finishing the hems over the boots.",
+        "de": "Gesäßtasche und weites Bein der graphitgrauen Hose zur Geltung bringen, die Säume über den Boots enden lassen."
+      },
+      "descriptionKo": "그래파이트 팬츠는 뒤 포켓과 넉넉한 다리선을 살리고 밑단은 부츠 위로 정리하세요.",
+      "descriptionEn": "Show off the graphite trousers' back pocket and roomy leg, finishing the hems over the boots.",
+      "descriptionDe": "Gesäßtasche und weites Bein der graphitgrauen Hose zur Geltung bringen, die Säume über den Boots enden lassen.",
+      "howToWear": {
+        "ko": "그래파이트 팬츠는 뒤 포켓과 넉넉한 다리선을 살리고 밑단은 부츠 위로 정리하세요.",
+        "en": "Show off the graphite trousers' back pocket and roomy leg, finishing the hems over the boots.",
+        "de": "Gesäßtasche und weites Bein der graphitgrauen Hose zur Geltung bringen, die Säume über den Boots enden lassen."
+      },
+      "howToWearKo": "그래파이트 팬츠는 뒤 포켓과 넉넉한 다리선을 살리고 밑단은 부츠 위로 정리하세요.",
+      "note": {
+        "ko": "그래파이트 팬츠는 뒤 포켓과 넉넉한 다리선을 살리고 밑단은 부츠 위로 정리하세요.",
+        "en": "Show off the graphite trousers' back pocket and roomy leg, finishing the hems over the boots.",
+        "de": "Gesäßtasche und weites Bein der graphitgrauen Hose zur Geltung bringen, die Säume über den Boots enden lassen."
+      },
+      "designDescriptionEn": "graphite charcoal grey relaxed straight trousers, simple back patch pocket, matte fabric, full length straight hems",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "altKo": "그래파이트 루즈 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "b4308469cf8e2a2e8320aac0b8d8ab91486077b597832b5beba7b50876ea790c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.521156,
+      "bounds": [
+        101,
+        12,
+        400,
+        490
+      ]
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rl-chilly-m35-night-street-20261026-05.04-shoes",
+      "name": {
+        "ko": "브라운 레더 부츠",
+        "en": "Brown leather boots",
+        "de": "Braune Lederboots"
+      },
+      "nameKo": "브라운 레더 부츠",
+      "nameEn": "Brown leather boots",
+      "nameDe": "Braune Lederboots",
+      "description": {
+        "ko": "브라운 부츠에 그래파이트 팬츠 밑단을 자연스럽게 내려 오렌지 재킷의 따뜻한 색감을 이어 주세요.",
+        "en": "Let the graphite hems drop naturally onto the brown boots to carry the jacket's warm orange down.",
+        "de": "Die graphitgrauen Säume natürlich auf die braunen Boots fallen lassen, so setzt sich das warme Orange der Jacke nach unten fort."
+      },
+      "descriptionKo": "브라운 부츠에 그래파이트 팬츠 밑단을 자연스럽게 내려 오렌지 재킷의 따뜻한 색감을 이어 주세요.",
+      "descriptionEn": "Let the graphite hems drop naturally onto the brown boots to carry the jacket's warm orange down.",
+      "descriptionDe": "Die graphitgrauen Säume natürlich auf die braunen Boots fallen lassen, so setzt sich das warme Orange der Jacke nach unten fort.",
+      "howToWear": {
+        "ko": "브라운 부츠에 그래파이트 팬츠 밑단을 자연스럽게 내려 오렌지 재킷의 따뜻한 색감을 이어 주세요.",
+        "en": "Let the graphite hems drop naturally onto the brown boots to carry the jacket's warm orange down.",
+        "de": "Die graphitgrauen Säume natürlich auf die braunen Boots fallen lassen, so setzt sich das warme Orange der Jacke nach unten fort."
+      },
+      "howToWearKo": "브라운 부츠에 그래파이트 팬츠 밑단을 자연스럽게 내려 오렌지 재킷의 따뜻한 색감을 이어 주세요.",
+      "note": {
+        "ko": "브라운 부츠에 그래파이트 팬츠 밑단을 자연스럽게 내려 오렌지 재킷의 따뜻한 색감을 이어 주세요.",
+        "en": "Let the graphite hems drop naturally onto the brown boots to carry the jacket's warm orange down.",
+        "de": "Die graphitgrauen Säume natürlich auf die braunen Boots fallen lassen, so setzt sich das warme Orange der Jacke nach unten fort."
+      },
+      "designDescriptionEn": "matching PAIR dark brown leather ankle boots, rounded toes, thick dark soles, simple lace-up shafts conservatively reconstructed from partly visible shoes",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-shoes.webp",
+      "altKo": "브라운 레더 부츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "fae33f4455b1d77ac0ff595e507548f53614a58366a994c2804dfb9b1c89a1db",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.548472,
+      "bounds": [
+        9,
+        76,
+        494,
+        426
+      ]
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rl-chilly-m35-night-street-20261026-05.05-bag",
+      "name": {
+        "ko": "블랙 크로스보디 백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Crossbodytasche"
+      },
+      "nameKo": "블랙 크로스보디 백",
+      "nameEn": "Black crossbody bag",
+      "nameDe": "Schwarze Crossbodytasche",
+      "description": {
+        "ko": "블랙 가방은 등 옆쪽에 밀착되도록 끈 길이를 조절해 후드와 겹치지 않게 메세요.",
+        "en": "Adjust the strap so the black bag sits snug at your side and back, clear of the hood.",
+        "de": "Den Gurt so einstellen, dass die schwarze Tasche eng seitlich am Rücken anliegt und nicht an die Kapuze stößt."
+      },
+      "descriptionKo": "블랙 가방은 등 옆쪽에 밀착되도록 끈 길이를 조절해 후드와 겹치지 않게 메세요.",
+      "descriptionEn": "Adjust the strap so the black bag sits snug at your side and back, clear of the hood.",
+      "descriptionDe": "Den Gurt so einstellen, dass die schwarze Tasche eng seitlich am Rücken anliegt und nicht an die Kapuze stößt.",
+      "howToWear": {
+        "ko": "블랙 가방은 등 옆쪽에 밀착되도록 끈 길이를 조절해 후드와 겹치지 않게 메세요.",
+        "en": "Adjust the strap so the black bag sits snug at your side and back, clear of the hood.",
+        "de": "Den Gurt so einstellen, dass die schwarze Tasche eng seitlich am Rücken anliegt und nicht an die Kapuze stößt."
+      },
+      "howToWearKo": "블랙 가방은 등 옆쪽에 밀착되도록 끈 길이를 조절해 후드와 겹치지 않게 메세요.",
+      "note": {
+        "ko": "블랙 가방은 등 옆쪽에 밀착되도록 끈 길이를 조절해 후드와 겹치지 않게 메세요.",
+        "en": "Adjust the strap so the black bag sits snug at your side and back, clear of the hood.",
+        "de": "Den Gurt so einstellen, dass die schwarze Tasche eng seitlich am Rücken anliegt und nicht an die Kapuze stößt."
+      },
+      "designDescriptionEn": "black soft oval rectangular crossbody bag, long adjustable black webbing strap, understated black zipper, rounded base, plain textured fabric",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible colour and silhouette follow the approved editorial; concealed areas are conservative reconstructions.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-bag.webp",
+      "altKo": "블랙 크로스보디 백 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "24b4580578a170508466ce936dcbcc87ce4bd5145253b2d05e3c9083e7f75aa7",
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.622072,
+      "bounds": [
+        59,
+        17,
+        472,
+        481
+      ]
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "titleKo": "번트 오렌지로 밝힌 밤",
+    "introKo": "번트 오렌지 재킷에 딥 네이비 니트와 그래파이트 팬츠를 겹쳐 색을 절제했습니다. 블랙 크로스보디 백과 브라운 부츠로 연결하고, 가방 끈은 재킷의 어깨선에 맞춰 정리하세요.",
+    "stylingIntentKo": "번트 오렌지 재킷에 딥 네이비 니트와 그래파이트 팬츠를 겹쳐 색을 절제했습니다. 블랙 크로스보디 백과 브라운 부츠로 연결하고, 가방 끈은 재킷의 어깨선에 맞춰 정리하세요.",
+    "title": {
+      "ko": "번트 오렌지로 밝힌 밤",
+      "en": "BURNT ORANGE JACKET, ONE STEP UP"
+    },
+    "deck": {
+      "ko": "현관 계단에 한 발 올리며 돌아보는, 번트 오렌지 하나로 밝힌 밤.",
+      "en": "One foot on the doorstep and a look back, the night lit by a single burnt orange.",
+      "de": "Ein Fuß auf der Stufe, ein Blick zurück – der Abend leuchtet in einem einzigen Rostorange."
+    },
+    "intro": {
+      "ko": "번트 오렌지 재킷에 딥 네이비 니트와 그래파이트 팬츠를 겹쳐 색을 절제했습니다. 블랙 크로스보디 백과 브라운 부츠로 연결하고, 가방 끈은 재킷의 어깨선에 맞춰 정리하세요.",
+      "en": "A deep navy knit and graphite trousers under the burnt orange jacket keep the colour restrained. A black crossbody bag and brown boots tie it together; set the bag strap along the jacket's shoulder line.",
+      "de": "Dunkelblauer Strick und graphitgraue Hose unter der rostorangen Jacke halten die Farbe zurück. Schwarze Crossbodytasche und braune Boots verbinden alles; den Taschengurt entlang der Schulterlinie der Jacke legen."
+    },
+    "pull": "ONE STEP UP, ONE LOOK BACK.",
+    "tip": {
+      "ko": "젖은 돌계단에서는 굽 전체가 닿게 디디고 한 계단씩 오르세요.",
+      "en": "On wet stone steps, set your whole heel down and climb one step at a time.",
+      "de": "Auf nassen Steinstufen den ganzen Absatz aufsetzen und Stufe für Stufe hinaufgehen."
+    }
+  },
+  "reconstructionSummary": "Rear three-quarter view: the jacket front and pockets are plain conservative reconstructions, the navy knit is visible only at the neck, and the boots are only partly visible, so simple lace-up shafts are reconstructed.",
+  "productionStatus": "ready",
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "productApproval": "User authorized end-to-end product generation and publication; no separate per-product approval claimed",
+  "visualReviewComplete": true,
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-m35-night-street-20261026-05",
+  "appBuild": "b161",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "street",
+    "time": "evening",
+    "hero": "rl-chilly-m35-night-street-20261026-05.01-outer"
+  }
+}

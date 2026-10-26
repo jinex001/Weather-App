@@ -286,3 +286,13 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 캐스팅: 외관 25–28세(`casting.modelAppearanceAgeRange: [25, 28]`, 타깃 35+는 별도). 숫자 기온 없음(`temperatureC`/`feelsLikeC` null, `isLiveMeasurement: false`). 브랜드·가격·링크·소재 혼용률·보호 성능 주장 없음.
 - 승인 범위: 에디토리얼 사용자 승인, 제품 33개는 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 없음). GitHub 업로드·PR·main 반영·배포는 이 배치에 대해 사용자 명시 승인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
 - [검증 기록](rain-light-female-night-running-20261026-validation.md).
+
+## b161 · Rain / Light / Chilly / Male / 35+ / Night / Street — 2026-10-26 set (5 looks · 25 products)
+
+- 원본: 로컬 outbox 완성 배치(READY.json `approved`·`editorialsApproved`·`products_complete`, 목록 파일 SHA-256 일치). 배포 파일은 `NN/editorial.jpg`·`NN/products/*.webp`만, 바이트 그대로 복사. 루트 PNG·`masters/`·거절된 `04-editorial.png`·프롬프트·저널·QA 시트·스크립트는 보관 전용이라 Git에 넣지 않음(04는 승인된 `04-editorial-v2.png`에서 내보낸 `04/editorial.jpg`만).
+- `sky: "rain"`, `rain: "light"`, `time: "evening"`. 폴더 `Rain/Light/Chilly/Male/35+/night/street/<NN>/`(같은 칸의 `running-20261025`는 그대로), ID는 제작 측 `rl-chilly-m35-night-street-20261026-NN` 그대로, 아이템 `<룩 ID>.<제품 id>`(순서 유지).
+- 분류: 제작 측 `head` → 앱 `headwear`, `neck` → 앱 `accessory`(이 배치에 대한 사용자 지시; 앱에는 `scarf`도 있으나 지시대로 둠, products.json에 `category` + `appCategory`). 나머지(outer/top/bottom/shoes/bag)는 그대로.
+- 문구: 한국어 마스터 `introKo` → `article.intro.ko`, 제품별 `howToWearKo` → `note.ko` 바이트 그대로. en/de 입는 법·인트로, 영어 대문자 제목(대표 제품 이름 포함)·인용구, ko/en/de 요약(인트로와 다름)·팁은 에디토리얼 보고 새로 씀. 제작 측 복원 틀 문장(`description*`)은 공개 문구에서 빼고 입는 법으로 바꿈; 불확실성은 `reconstruction`·`reconstructionSummary`·`reconstructionNote`에만.
+- 대표 컷: 다섯 제목의 첫 색 단어(CHARCOAL · STONE · COBALT · OLIVE · BURNT ORANGE) → 아우터(01은 차콜 가방도 맞지만 규칙 3으로 아우터). 컷 = 그 투명 WebP 자체.
+- 승인 범위: 에디토리얼 사용자 승인, 제품 25개는 사용자의 처음부터 끝까지 제작·발행 승인 아래 제작·상위 QA(제품별 사용자 육안 승인은 주장하지 않음). 이 배치는 2026-10-26 사용자 워크플로 변경(`IMAGE_INBOX_HANDOFF.md`)에 따라 Claude가 main에 직접 반영; 원본 iCloud 보관·로컬 원본 삭제는 푸시 검증 뒤 상위 작업이 함(이 작업에서 하지 않음).
+- [검증 기록](rain-light-male-night-street-20261026-validation.md).
