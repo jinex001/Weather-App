@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>7 Days · 겹친 카드 시안</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;600;700&display=swap">
+<style>
+  /* Prototype 3 (2026-10-26): the same day cards as proto/cal-cards.html, but as a fanned stack like a coverflow:
+     the day in the middle is big and on top, its neighbours tilt outward, smaller and tucked behind it, and two more
+     peek behind those. Dots under the stack. Based on a user screenshot (wellness offer carousel).
+     Was: Prototype 2 (2026-10-20): the 7 days as cards you swipe sideways, like the Today's Look photo row. One card fills the
+     view, about a third of the next one peeks in. Each card is that day's product cut, big, with the weather on top of it.
+     Same rules and made-up days as proto/cal-pieces.html. ?g=m|f */
+  :root { --bg: #F2C14E; --fg: #141414; --ground: #F3EFE8; --display: "Anton", "Noto Sans KR", sans-serif; --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--fg); font-family: var(--sans); letter-spacing: -.02em; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  .page { max-width: 480px; margin: 0 auto; padding: calc(env(safe-area-inset-top) + 18px) 24px 40px; }
+  .k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  .h { font-family: var(--display); font-size: 64px; line-height: .9; text-transform: uppercase; margin-top: 10px; letter-spacing: 0; }
+  .ctl { display: flex; gap: 6px; margin-top: 16px; }
+  .ctl button { font: 700 11px var(--sans); letter-spacing: .05em; text-transform: uppercase; border: 0; border-radius: 16px; padding: 8px 12px;
+    background: rgba(20,20,20,.1); color: var(--fg); cursor: pointer; }
+  .ctl button.on { background: var(--fg); color: var(--bg); }
+  /* dots under the stack: they stay put, only the active one changes */
+  .dots { display: flex; justify-content: center; gap: 8px; margin-top: 6px; }
+  .dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--fg); opacity: .25; transition: opacity .2s; }
+  .dots span.on { opacity: 1; }
+  /* the stack: a normal scroll-snap row (cards centered), each card then moved toward the middle, tilted and shrunk by
+     how far it is from the center (set on scroll) so they overlap like a fanned deck */
+  .rail { --cw: 64%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+    margin: 4px -24px 0; padding: 28px calc((100% - var(--cw)) / 2) 30px; }
+  .rail::-webkit-scrollbar { display: none; }
+  .card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always;
+    height: min(58svh, 470px); min-height: 380px; background: var(--ground); color: #141414; overflow: hidden; border-radius: 26px;
+    transform-origin: 50% 70%; will-change: transform; }
+  /* cards behind are a touch darker so the overlap reads without a shadow or an outline (no borders, no shadows rule) */
+  /* narrower than proto/cal-cards.html, so the weather goes under the day name instead of beside it */
+  .card .top { flex-direction: column; }
+  .card .wx { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 2px 8px; margin-top: 12px; }
+  .card .wx > svg { width: 58px; height: 46px; margin: 0 0 0 -6px; }
+  .card .wx .data { flex-basis: 100%; margin-top: 4px; }
+  .card::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
+  /* the product cut is the card's background: whole, centered a little low, on the same ivory as its own ground */
+  .card img, .card .ph { position: absolute; left: 0; right: 0; bottom: 6%; width: 100%; aspect-ratio: 1; object-fit: contain; }
+  .ph { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; opacity: .45; }
+  /* the weather sits on the picture, top and bottom; the cut's ivory ground keeps ink readable without any box */
+  .over { position: absolute; inset: 0; padding: 18px 18px 16px; display: flex; flex-direction: column; justify-content: space-between; pointer-events: none; }
+  /* b2: the day leads (bigger than the temperature): day name big, date under it, temperature after */
+  .day { white-space: nowrap; font-family: "Noto Sans KR", sans-serif; font-size: 34px; font-weight: 700; line-height: 1.02; letter-spacing: -.04em; }
+  /* b4: small date on top, the day name under it */
+  .date { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+  /* b3: day and date on the left, the moving weather icon in the top right with the temperature under it */
+  .top { display: flex; justify-content: space-between; align-items: flex-start; gap: 6px; }
+  .wx { display: flex; flex-direction: column; align-items: flex-end; flex: none; }
+  .wx svg { width: 76px; height: 60px; display: block; overflow: visible; margin: -6px -6px 0 0; }
+  .temp { font-family: var(--display); font-size: 36px; line-height: .9; letter-spacing: 0; margin-top: 4px; white-space: nowrap; }
+  .temp small { font-size: 22px; opacity: .45; margin-left: 6px; }
+  .deg { font-size: .8em; position: relative; top: -.29em; }
+  .cond { display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 700; text-transform: uppercase; margin-top: 8px; }
+  .cond svg { width: 28px; height: 22px; }
+  /* b5: rain and wind as icons + numbers on one line under the temperature (the app's 24-hour wind icon: 1·2·3 lines) */
+  .data { display: flex; gap: 10px; margin-top: 7px; font-size: 12px; font-weight: 600; line-height: 1; }
+  .data span { display: flex; align-items: center; gap: 3px; }
+  .data svg { width: 13px; height: 13px; flex: none; }
+  .a-rays { animation: rays 18s linear infinite; }
+  .a-sun { animation: breathe 2.6s ease-in-out infinite; }
+  .a-drift { animation: drift 5s ease-in-out infinite alternate; }
+  .a-drop path { animation: drop .9s linear infinite; }
+  .a-flake circle { animation: flake 2.7s linear infinite; }
+  @keyframes rays { to { transform: rotate(360deg); } }
+  @keyframes breathe { 50% { transform: scale(1.06); } }
+  @keyframes drift { from { transform: translate(-10px, 8px) scale(.8); } to { transform: translate(0, 8px) scale(.8); } }
+  @keyframes drop { from { transform: translate(0, -6px); opacity: 0; } 20% { opacity: 1; } to { transform: translate(-3px, 8px); opacity: 0; } }
+  @keyframes flake { 0% { transform: translate(0, -8px); opacity: 0; } 20% { opacity: 1; } 50% { transform: translate(2px, 3px); } 100% { transform: translate(-2px, 14px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .a-rays, .a-sun, .a-drift, .a-drop path, .a-flake circle { animation: none; } }
+  .notes { margin-top: 28px; font-size: 13px; font-weight: 500; line-height: 1.6; }
+  .notes b { display: block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; margin: 16px 0 4px; }
+</style>
+</head>
+<body>
+<main class="page" id="page"></main>
+<script src="../look/outfits.js"></script>
+<script>
+  var q = new URLSearchParams(location.search), G = q.get("g") === "f" ? "f" : "m";
+  var LIB = window.WX_LOOKS, POOL = [];
+  function pool() {
+    POOL = [];
+    LIB.outfits.forEach(function (o) {
+      if (!o.article) return;
+      o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && (o.gender === G || it.cat === "gear") && POOL.indexOf(it) < 0) POOL.push(it); });
+    });
+  }
+  // made-up days from tomorrow, one per rule (same as proto/cal-pieces.html)
+  var DAYS = [
+    { n: "내일 · 10월 21일", c: "rain", cond: "비", lo: 8, hi: 12, p: 70, w: 18, f: 6 },
+    { n: "목요일 · 10월 22일", c: "sun", cond: "맑음", lo: 14, hi: 22, p: 0, w: 9, f: 21 },
+    { n: "금요일 · 10월 23일", c: "sun", cond: "맑음", lo: 22, hi: 31, p: 5, w: 7, f: 32 },
+    { n: "토요일 · 10월 24일", c: "snow", cond: "눈", lo: -3, hi: 1, p: 80, w: 14, f: -6 },
+    { n: "일요일 · 10월 25일", c: "sun", cond: "맑음", lo: -1, hi: 4, p: 0, w: 36, f: -4 },
+    { n: "월요일 · 10월 26일", c: "cloud", cond: "흐림", lo: 9, hi: 15, p: 20, w: 12, f: 13 },
+    { n: "화요일 · 10월 27일", c: "sun", cond: "맑음", lo: -12, hi: -6, p: 0, w: 10, f: -15 }
+  ];
+  var RULES = [
+    [function (d) { return d.c === "snow"; }, [["shoes", /부츠/], ["headwear", /비니/]]],
+    [function (d) { return d.p >= 50; }, [["outer", /셸|파카|트렌치|아노락|윈드/], ["MISSING", "우산"]]],
+    [function (d) { return d.f <= -10; }, [["headwear", /비니/], ["hands", /./], ["gloves", /./], ["scarf", /./]]],
+    [function (d) { return d.w >= 30; }, [["scarf", /./], ["outer", /윈드|셸/]]],
+    [function (d) { return d.f <= 0; }, [["outer", /코트|파카|퀼팅|시어링|봄버|피코트|레더/], ["scarf", /./]]],
+    [function (d) { return d.f >= 29; }, [["shorts", /./], ["headwear", /캡/], ["gear", /보틀/], ["MISSING", "반팔 티"], ["MISSING", "나시"], ["MISSING", "선글라스"]]],
+    [function (d) { return d.c === "sun" && d.f >= 18; }, [["MISSING", "선글라스"], ["headwear", /캡/]]],
+    [function (d) { return d.f <= 9; }, [["outer", /재킷|트렌치|코트|봄버/]]],
+    [function (d) { return d.f <= 17; }, [["top", /니트|스웨트|후디|터틀넥|카디건/], ["outer", /카디건|셔츠|오버셔츠/]]],
+    [function () { return true; }, [["shoes", /스니커즈|러너|로퍼/], ["top", /./]]]
+  ];
+  function pick(d) {
+    for (var i = 0; i < RULES.length; i++) {
+      if (!RULES[i][0](d)) continue;
+      var bag = [];
+      RULES[i][1].forEach(function (s) {
+        if (s[0] === "MISSING") bag.push({ missing: s[1] });
+        else POOL.forEach(function (it) { if (it.cat === s[0] && s[1].test(it.name.ko) && bag.indexOf(it) < 0) bag.push(it); });
+      });
+      // a real cut wins over a missing one; the empty square only shows when nothing we have fits
+      var real = bag.filter(function (x) { return !x.missing; }); if (real.length) bag = real;
+      if (bag.length) return bag[Math.floor(Math.random() * bag.length)];
+    }
+  }
+  // moving icons (b3), same language as the app's weather art: sun rays turn and the sun breathes, clouds drift,
+  // rain falls in slanted streaks, snow flakes sway down. Reduced motion stops them.
+  var CL = "M18 40h34a11 11 0 0 0 0-22 16 16 0 0 0-30-3 12 12 0 0 0-4 25z";
+  var ANIM = {
+    sun: '<svg viewBox="0 0 76 60"><g class="a-rays" style="transform-origin:46px 26px"><g stroke="#E8621C" stroke-width="3.4" stroke-linecap="round">' +
+      '<path d="M46 2v6M46 44v6M22 26h6M64 26h6M29 9l4 4M59 39l4 4M29 43l4-4M59 13l4-4"/></g></g>' +
+      '<circle class="a-sun" cx="46" cy="26" r="12" fill="#E8621C" style="transform-origin:46px 26px"/></svg>',
+    cloud: '<svg viewBox="0 0 76 60"><path d="' + CL + '" fill="#958E81" transform="translate(4 -4)"/>' +
+      '<path class="a-drift" d="' + CL + '" fill="#C9C2B6" transform="translate(-6 8) scale(.8)"/></svg>',
+    rain: '<svg viewBox="0 0 76 60"><g class="a-drop" stroke="#4F5D6B" stroke-width="3" stroke-linecap="round">' +
+      '<path d="M26 44l-3 8"/><path d="M40 44l-3 8" style="animation-delay:.3s"/><path d="M54 44l-3 8" style="animation-delay:.6s"/></g>' +
+      '<path d="' + CL + '" fill="#958E81" transform="translate(4 -6)"/></svg>',
+    snow: '<svg viewBox="0 0 76 60"><g class="a-flake" fill="#5C7A99"><circle cx="26" cy="44" r="2.8"/>' +
+      '<circle cx="40" cy="44" r="2.8" style="animation-delay:.9s"/><circle cx="54" cy="44" r="2.8" style="animation-delay:1.8s"/></g>' +
+      '<path d="' + CL + '" fill="#958E81" transform="translate(4 -6)"/></svg>'
+  };
+  // same wind icon as the app's 24-hour forecast: 1 line <20 · 2 lines 20–29 · 3 lines ≥30 km/h; a drop for rain chance
+  var WIND_LINES = ['<path d="M3 12h13a3 3 0 1 0-3-3"/>', '<path d="M3 9h11a3 3 0 1 0-3-3"/><path d="M3 15h15a3 3 0 1 1-3 3"/>',
+    '<path d="M3 9h11a3 3 0 1 0-3-3"/><path d="M3 14h15a3 3 0 1 1-3 3"/><path d="M3 19h7"/>'];
+  function wind3(v) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-label="바람">' + WIND_LINES[v >= 30 ? 2 : v >= 20 ? 1 : 0] + "</svg>"; }
+  var DROP = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" aria-label="강수"><path d="M12 3C9.2 7.4 6 10.6 6 14.5a6 6 0 0 0 12 0C18 10.6 14.8 7.4 12 3z"/></svg>';
+  var ICON = {
+    sun: '<svg viewBox="0 0 56 44"><circle cx="28" cy="22" r="11" fill="#E8621C"/><g stroke="#E8621C" stroke-width="3" stroke-linecap="round"><path d="M28 3v5M28 36v5M9 22h5M42 22h5M15 9l3.5 3.5M37.5 31.5L41 35M15 35l3.5-3.5M37.5 12.5L41 9"/></g></svg>',
+    cloud: '<svg viewBox="0 0 56 44"><path d="M16 36h26a9 9 0 0 0 0-18 13 13 0 0 0-25-2 10 10 0 0 0-1 20z" fill="#958E81"/></svg>',
+    rain: '<svg viewBox="0 0 56 44"><path d="M16 28h26a8 8 0 0 0 0-16 12 12 0 0 0-23-2 9 9 0 0 0-3 18z" fill="#958E81"/><g stroke="#4F5D6B" stroke-width="3" stroke-linecap="round"><path d="M20 33l-2 6M29 33l-2 6M38 33l-2 6"/></g></svg>',
+    snow: '<svg viewBox="0 0 56 44"><path d="M16 28h26a8 8 0 0 0 0-16 12 12 0 0 0-23-2 9 9 0 0 0-3 18z" fill="#958E81"/><g fill="#5C7A99"><circle cx="20" cy="36" r="2.4"/><circle cx="29" cy="39" r="2.4"/><circle cx="38" cy="36" r="2.4"/></g></svg>'
+  };
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); }
+  var deg = '<span class="deg">°</span>';
+  function render() {
+    pool();
+    var cards = DAYS.map(function (d, i) {
+      var it = pick(d);
+      var pic = it.missing ? '<div class="ph">' + esc(it.missing) + " 사진 없음</div>"
+        : '<img src="../' + it.image + '" alt="' + esc(it.alt || it.name.ko) + '"' + "" + ">";
+      return '<div class="card" style="background:' + (it.bg && it.bg[0] === "#" ? it.bg : "var(--ground)") + '">' + pic + '<div class="over"><div>' +
+        '<div class="top"><div><div class="date">' + d.n.split(" · ")[1] + '</div><div class="day">' + d.n.split(" · ")[0] + "</div></div>" +
+        '<div class="wx" aria-label="' + d.cond + '">' + ANIM[d.c] + '<div class="temp">' + d.hi + deg + "<small>" + d.lo + "°</small></div>" +
+        '<div class="data"><span>' + DROP + d.p + "%</span><span>" + wind3(d.w) + d.w + "</span></div></div></div></div></div></div>";
+    }).join("");
+    document.getElementById("page").innerHTML =
+      '<div class="k">앞으로 7일 · 베를린</div><div class="h">7 Days</div>' +
+      '<div class="ctl"><button data-g="m" class="' + (G === "m" ? "on" : "") + '">남성</button><button data-g="f" class="' + (G === "f" ? "on" : "") + '">여성</button><button data-r="1">다시 뽑기</button></div>' +
+      '<div class="rail" id="rail">' + cards + "</div>" +
+      '<div class="dots" id="dots">' + DAYS.map(function (d, i) { return '<span class="' + (i ? "" : "on") + '"></span>'; }).join("") + "</div>" +
+      '<div class="notes"><b>겹친 카드</b>가운데 카드(그날)가 크게 맨 앞, 양옆 날은 조금 작게 바깥쪽으로 기울어 뒤에 숨고, 그 뒤로 한 장씩 더 살짝. 옆으로 밀면 다음 날이 가운데로 올라오며 한 장씩 멈춰요. 옆 카드를 눌러도 가운데로. 점은 아래.' +
+      "<b>카드 안</b>지금 앱과 같음: 날짜 · 요일 · 움직이는 날씨 아이콘 · 최고·최저 · 강수·바람 + 그날 날씨 규칙으로 고른 제품 컷." +
+      "<b>규칙 지키기</b>그림자·테두리 없음. 뒤 카드는 살짝 어둡게 해서 겹친 게 보이게. 날씨 7일은 가짜 값, 한국어만.</div>";
+    var rail = document.getElementById("rail"), dots = document.getElementById("dots").children;
+    // t = how many cards this one is from the center (signed). Pull it toward the middle so it hides behind its
+    // neighbour, tilt it outward, shrink it, darken it a little; the center card sits on top.
+    function stack() {
+      var cs = rail.children, w = cs[0].offsetWidth, mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
+      [].forEach.call(cs, function (c, k) {
+        var t = (c.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), n = Math.min(a, 2.6), sg = t < 0 ? -1 : 1;
+        var pull = sg * (n <= 1 ? n * .42 : .42 + (n - 1) * .14) * w;
+        c.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * Math.min(n, 1.6) * 5).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(n, 2.2)).toFixed(4) + ")";
+        c.style.zIndex = 100 - Math.round(a * 10);
+        c.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
+        c.style.opacity = a > 2.4 ? Math.max(0, 1 - (a - 2.4) * 2).toFixed(2) : 1;
+        if (a < best) { best = a; at = k; }
+      });
+      [].forEach.call(dots, function (s, k) { s.className = k === at ? "on" : ""; });
+    }
+    stack();
+    rail.addEventListener("scroll", function () { requestAnimationFrame(stack); }, { passive: true });
+    window.onresize = stack;
+    // tapping a side card brings it to the middle
+    [].forEach.call(rail.children, function (c) { c.addEventListener("click", function () { rail.scrollTo({ left: c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2, behavior: "smooth" }); }); });
+    [].forEach.call(document.querySelectorAll(".ctl button"), function (b) {
+      b.onclick = function () { if (b.dataset.g) { G = b.dataset.g; history.replaceState(null, "", "?g=" + G); } render(); };
+    });
+  }
+  render();
+</script>
+</body>
+</html>
