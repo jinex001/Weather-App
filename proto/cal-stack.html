@@ -35,14 +35,9 @@
     margin: 4px -24px 0; padding: 28px calc((100% - var(--cw)) / 2) 30px; }
   .rail::-webkit-scrollbar { display: none; }
   .card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always;
-    height: min(54svh, 450px); min-height: 360px; background: var(--ground); color: #141414; overflow: hidden; border-radius: 26px;
+    height: min(66svh, 560px); min-height: 440px; background: var(--ground); color: #141414; overflow: hidden; border-radius: 26px;
     transform-origin: 50% 70%; will-change: transform; }
   /* cards behind are a touch darker so the overlap reads without a shadow or an outline (no borders, no shadows rule) */
-  /* narrower than proto/cal-cards.html, so the weather goes under the day name instead of beside it */
-  .card .top { flex-direction: column; }
-  .card .wx { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 2px 8px; margin-top: 12px; }
-  .card .wx > svg { width: 58px; height: 46px; margin: 0 0 0 -6px; }
-  .card .wx .data { flex-basis: 100%; margin-top: 4px; }
   .card::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
   /* the product cut is the card's background: whole, centered a little low, on the same ivory as its own ground */
   .card img, .card .ph { position: absolute; left: 0; right: 0; bottom: 6%; width: 100%; aspect-ratio: 1; object-fit: contain; }
