@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-min-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1b61672b72fcd188147a4e9cfd039d0ab2682b12558a8bab37cd1c67ceb883c8",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "네이비 속 코발트 한 겹",
+      "caption": "잉크 네이비에 코발트 니트 하나로 선명한 중심을.",
+      "intro": "네이비 후드 코트와 차콜 팬츠 사이로 코발트 니트를 드러냈습니다. 작은 크로스바디 백은 출입구에서 열쇠를 찾기 편하게 몸 앞에 둡니다.",
+      "tip": "가방 끈은 니트 위에 맞춰 조절하고, 코트 앞섶을 닫기 전 지퍼에 걸리지 않는지 확인하세요."
+    },
+    "en": {
+      "title": "COBALT, KEYS FOUND",
+      "caption": "Cobalt knit gives ink navy one clear point of colour.",
+      "intro": "A cobalt knit brightens a navy hooded coat and charcoal trousers, with a compact crossbody close at hand for finding keys.",
+      "tip": "Adjust the strap over the knit and keep it clear of the coat zipper."
+    },
+    "de": {
+      "title": "COBALT, KEYS FOUND",
+      "caption": "Kobaltblauer Strick setzt einen klaren Akzent zu Tintenblau.",
+      "intro": "Ein kobaltblauer Pullover zeigt sich zwischen tintenblauem Kapuzenmantel und anthrazitfarbener Hose. Die kleine Umhängetasche sitzt vor dem Körper, damit die Schlüssel an der Haustür griffbereit sind.",
+      "tip": "Den Riemen über dem Strick anpassen und vom Mantelreißverschluss fernhalten."
+    },
+    "pull": "WHICH ONE OPENS THIS DOOR?",
+    "sourceCopy": {
+      "intro": {
+        "de": "Kobaltblauer Strick belebt Kapuzenmantel und anthrazitfarbene Hose; die kleine Tasche hält Schlüssel griffbereit."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-min-20261026-03.01-outer",
+      "name": {
+        "ko": "잉크 네이비 후드 레인코트",
+        "en": "Ink navy hooded raincoat",
+        "de": "Tintenblauer Kapuzenregenmantel"
+      },
+      "nameKo": "잉크 네이비 후드 레인코트",
+      "descriptor": "Ink navy matte long hooded raincoat, substantial raised collar, simple zipper front under snap storm flap, straight generous silhouette, clean pockets.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "88ca0f333ea4744d9b517778e5c5da0899ea2323b83667b95b8c1c1d28cf4cf2",
+      "bytes": 25258,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        39,
+        33,
+        450,
+        461
+      ],
+      "howToWear": {
+        "ko": "네이비 코트 앞을 조금 열어 코발트 니트가 넓게 보이게 하세요.",
+        "en": "Leave the navy coat partly open to reveal the cobalt knit.",
+        "de": "Den dunkelblauen Mantel teilweise öffnen, um den kobaltblauen Strick zu zeigen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "잉크 네이비 후드 레인코트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-min-20261026-03.02-top",
+      "name": {
+        "ko": "코발트 블루 니트",
+        "en": "Cobalt blue knit",
+        "de": "Kobaltblauer Pullover"
+      },
+      "nameKo": "코발트 블루 니트",
+      "descriptor": "Vivid cobalt blue medium-gauge wool-like crewneck sweater, visible knitted texture and ribbed cuffs and hem, clean straight fit.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "2b45beb9c3abada2a6711fbac2ee060bc679a337d5e2fef4286ed4ff90eae87b",
+      "bytes": 48674,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        40,
+        64,
+        470,
+        441
+      ],
+      "howToWear": {
+        "ko": "코발트 니트를 유일한 선명한 색으로 두고 나머지는 어둡게 맞추세요.",
+        "en": "Keep cobalt as the single bright colour against dark layers.",
+        "de": "Kobalt als einzigen kräftigen Farbton zu dunklen Schichten einsetzen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "코발트 블루 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-min-20261026-03.03-bottom",
+      "name": {
+        "ko": "차콜 팬츠",
+        "en": "Charcoal trousers",
+        "de": "Anthrazitfarbene Hose"
+      },
+      "nameKo": "차콜 팬츠",
+      "descriptor": "Dark charcoal straight tailored trousers, minimal waistband, fine melange weave, full ankle length.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "5e90290c9e0827f698e61f881d554c41c4151f9c537379af8c751eace4068530",
+      "bytes": 19604,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        30,
+        31,
+        441,
+        469
+      ],
+      "howToWear": {
+        "ko": "차콜 팬츠로 코발트 니트의 색을 받쳐 단정하게 마무리하세요.",
+        "en": "Ground the cobalt knit with clean charcoal trousers.",
+        "de": "Den kobaltblauen Strick mit einer klaren anthrazitfarbenen Hose ausgleichen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-m35-night-min-20261026-03.04-bag",
+      "name": {
+        "ko": "블랙 크로스바디 백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스바디 백",
+      "descriptor": "Compact black rectangular woven nylon crossbody pouch, rounded corners, main top zipper, one horizontal front zipper pocket, broad black webbing shoulder strap, plain silver zipper pulls.",
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/04-bag.webp",
+      "sha256": "34e614c309452eedf469ec91076d9b4ab8fb1330718272b6db8c4c62aa344ea0",
+      "bytes": 40038,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        61,
+        33,
+        470,
+        451
+      ],
+      "howToWear": {
+        "ko": "작은 백을 몸 앞에 두고 손이 닿는 높이로 끈을 맞추세요.",
+        "en": "Set the compact bag at the front with the strap adjusted within easy reach.",
+        "de": "Die kleine Tasche vorne tragen und den Riemen auf Griffhöhe einstellen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 크로스바디 백 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "scenePropsNotProducts": [
+    "umbrella",
+    "keys"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except language fixes; replaced lines are in copy.sourceCopy / products[].sourceHowToWear. English title = supplied display title (app convention: English uppercase, also shown in de). pull written from the editorial.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-night-min-20261026-03",
+  "appBuild": "b167",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "time": "evening",
+    "hero": "rn-chilly-m35-night-min-20261026-03.02-top"
+  }
+}

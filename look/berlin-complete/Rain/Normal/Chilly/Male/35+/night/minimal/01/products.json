@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-min-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f89fd750af91b68c5ff2d91a91e191ff4a05fcbff4a1502d391ba90e09433415",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "차콜, 비를 접는 순간",
+      "caption": "차콜 코트와 그레이 니트로 정돈한 비 오는 밤.",
+      "intro": "우산을 접는 짧은 순간에도 단정한 실루엣. 회색 니트를 차콜 코트 안에 겹치고 블랙 팬츠와 부츠로 이어갑니다.",
+      "tip": "젖은 우산은 코트에서 떨어뜨려 접고, 장갑은 젖었다면 벗어 말려주세요."
+    },
+    "en": {
+      "title": "CHARCOAL AT THE DOOR",
+      "caption": "A charcoal coat and grey knit keep a rainy night composed.",
+      "intro": "A grey knit under a charcoal coat meets black trousers and boots as the umbrella folds at the door.",
+      "tip": "Fold the wet umbrella away from your coat, and dry damp gloves after use."
+    },
+    "de": {
+      "title": "CHARCOAL AT THE DOOR",
+      "caption": "Anthrazitmantel und grauer Strick für einen regnerischen Abend.",
+      "intro": "Grauer Strick unter dem anthrazitfarbenen Mantel, dazu schwarze Hose und Boots: ein ruhiger Look, während sich an der Tür der Schirm schließt.",
+      "tip": "Den nassen Schirm mit Abstand zum Mantel schließen und feuchte Handschuhe danach ausziehen und trocknen."
+    },
+    "pull": "ONE MORE SHAKE, THEN INSIDE.",
+    "sourceCopy": {
+      "intro": {
+        "de": "Grauer Strick unter Anthrazit, dazu schwarze Hose und Boots: ein ruhiger Look beim Schließen des Schirms."
+      },
+      "tip": {
+        "de": "Den nassen Schirm vom Mantel weg schließen und feuchte Handschuhe anschließend trocknen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-min-20261026-01.01-outer",
+      "name": {
+        "ko": "차콜 맥코트",
+        "en": "Charcoal rain mac",
+        "de": "Anthrazitfarbener Regenmantel"
+      },
+      "nameKo": "차콜 맥코트",
+      "descriptor": "Charcoal nearly black matte single-breasted straight mid-thigh rain mac, pointed shirt collar, dark buttons, simple welt pockets, no belt.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "74bad91724c41682cf853648757e9f6f60502785480d3fe76882f016c6744a51",
+      "bytes": 23702,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        39,
+        30,
+        460,
+        465
+      ],
+      "howToWear": {
+        "ko": "그레이 니트 위로 차콜 코트를 열어 입어 톤의 차이를 드러내세요.",
+        "en": "Wear the charcoal coat open over grey knit to show the tonal contrast.",
+        "de": "Den Anthrazitmantel offen über grauem Strick tragen, damit die Tonabstufung sichtbar bleibt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 맥코트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-min-20261026-01.02-top",
+      "name": {
+        "ko": "그레이 크루넥 니트",
+        "en": "Grey crewneck knit",
+        "de": "Grauer Rundhalspullover"
+      },
+      "nameKo": "그레이 크루넥 니트",
+      "descriptor": "Medium grey fine slightly fuzzy crewneck knit sweater, rib cuffs and hem, straight simple fit.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "f0c9dfc3923bad66795af239e14ff8f3be51088cdf1e4bcffecf3e592b8a6cdd",
+      "bytes": 48108,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        30,
+        45,
+        470,
+        458
+      ],
+      "howToWear": {
+        "ko": "차콜 코트 안에 그레이 크루넥을 겹쳐 얼굴 주변을 밝게 정돈하세요.",
+        "en": "Let the grey crewneck lighten the neckline inside the charcoal coat.",
+        "de": "Den grauen Rundhalspullover unter dem dunklen Mantel tragen, damit der Bereich am Gesicht heller wirkt."
+      },
+      "sourceHowToWear": {
+        "de": "Der graue Rundhals hellt den Bereich am Gesicht im dunklen Mantel auf."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-min-20261026-01.03-bottom",
+      "name": {
+        "ko": "블랙 테일러드 팬츠",
+        "en": "Black tailored trousers",
+        "de": "Schwarze Anzughose"
+      },
+      "nameKo": "블랙 테일러드 팬츠",
+      "descriptor": "Black straight tailored trousers, clean front, subtle crease, full ankle length.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "813738616cb478c6e3b3cc66f5613b7c0ca15ebe223fbcb7d7838d6162d1f242",
+      "bytes": 12418,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        43,
+        30,
+        424,
+        463
+      ],
+      "howToWear": {
+        "ko": "블랙 팬츠 밑단을 첼시 부츠 윗부분에 가볍게 닿게 맞추세요.",
+        "en": "Let the black trouser hem meet the top of the Chelsea boots.",
+        "de": "Den Saum der schwarzen Hose knapp auf die Chelsea-Boots treffen lassen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-night-min-20261026-01.04-shoes",
+      "name": {
+        "ko": "블랙 첼시 부츠",
+        "en": "Black Chelsea boots",
+        "de": "Schwarze Chelsea-Boots"
+      },
+      "nameKo": "블랙 첼시 부츠",
+      "descriptor": "One matching pair of black smooth leather Chelsea ankle boots, round slightly almond toe, black elastic side gussets, modest black sole and low heel.",
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/04-shoes.webp",
+      "sha256": "28f6d8d0105015fa6dae732fdebdf9ba8c6cb4b8f6079183afb92e00307d3e01",
+      "bytes": 22778,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        34,
+        70,
+        470,
+        463
+      ],
+      "howToWear": {
+        "ko": "블랙 팬츠와 같은 색 부츠로 발끝까지 선을 이어주세요.",
+        "en": "Continue the line of the black trousers with matching black boots.",
+        "de": "Schwarze Boots führen die Linie der schwarzen Hose bis zum Fuß fort."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 첼시 부츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-gloves",
+      "category": "gloves",
+      "appCategory": "hands",
+      "appItemId": "rn-chilly-m35-night-min-20261026-01.05-hands",
+      "name": {
+        "ko": "블랙 가죽 장갑",
+        "en": "Black leather gloves",
+        "de": "Schwarze Lederhandschuhe"
+      },
+      "nameKo": "블랙 가죽 장갑",
+      "descriptor": "One matching pair of black smooth leather full-finger gloves, short fitted cuffs, subtle stitched panel seams.",
+      "image": "products/05-hands.webp",
+      "deliveredImage": "products/05-gloves.webp",
+      "sha256": "ec8892678c613a62e2ab72244c320e214a7b8e7b4a88c7f7488ac6b83a61af21",
+      "bytes": 34466,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        51,
+        38,
+        469,
+        470
+      ],
+      "howToWear": {
+        "ko": "코트 소매 아래로 장갑 커프를 넣어 손목을 정돈하세요.",
+        "en": "Tuck the glove cuffs beneath the coat sleeves for a neat wrist line.",
+        "de": "Die Handschuhbündchen unter die Mantelärmel schieben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 가죽 장갑 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "scenePropsNotProducts": [
+    "umbrella"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except language fixes; replaced lines are in copy.sourceCopy / products[].sourceHowToWear. English title = supplied display title (app convention: English uppercase, also shown in de). pull written from the editorial.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-night-min-20261026-01",
+  "appBuild": "b167",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "time": "evening",
+    "hero": "rn-chilly-m35-night-min-20261026-01.01-outer"
+  }
+}

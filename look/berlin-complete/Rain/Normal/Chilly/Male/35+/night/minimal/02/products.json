@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-min-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "20e4044ffaab78ccb14a82832093794f0167c05a23158d1b013e5fe47a3f1fc6",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "베이지 아래의 에스프레소",
+      "caption": "밝은 레인코트 안에 짙은 브라운을 겹친 밤의 미니멀.",
+      "intro": "스톤 베이지 코트에 에스프레소 니트와 머플러, 토프 팬츠를 더했습니다. 텀블러 뚜껑을 닫는 작은 일상도 따뜻한 색의 층으로 담습니다.",
+      "tip": "머플러 끝은 코트 안으로 정돈하고, 비에 젖은 코트는 펼쳐 말려주세요."
+    },
+    "en": {
+      "title": "BEIGE, LID ON",
+      "caption": "A pale raincoat frames deep brown layers after dark.",
+      "intro": "Stone beige meets an espresso knit, a scarf and taupe trousers. Even the small act of closing a tumbler lid is told in warm layers of colour.",
+      "tip": "Tuck the scarf ends inside the coat, and spread the coat out to dry after the rain."
+    },
+    "de": {
+      "title": "BEIGE, LID ON",
+      "caption": "Ein heller Regenmantel rahmt dunkles Braun am Abend.",
+      "intro": "Zum steinbeigen Mantel kommen ein espressobrauner Pullover, ein Schal und eine taupefarbene Hose. Selbst das Zudrehen des Bechers wird zu einem Moment in warmen Farbschichten.",
+      "tip": "Die Schalenden in den Mantel stecken und den nassen Mantel ausgebreitet trocknen lassen."
+    },
+    "pull": "LID ON. NOW WE WALK.",
+    "sourceCopy": {
+      "intro": {
+        "en": "Stone beige, espresso knit, a dark scarf and taupe trousers bring quiet warmth to a small pause beneath an umbrella.",
+        "de": "Beige, Espressostrick, dunkler Schal und Taupe bringen Wärme in die kurze Pause unter dem Schirm."
+      },
+      "tip": {
+        "en": "Tuck the scarf ends inside the coat and air-dry the coat after rain.",
+        "de": "Schalenden im Mantel verstauen und den Mantel nach dem Regen luftig trocknen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-min-20261026-02.01-outer",
+      "name": {
+        "ko": "스톤 베이지 발마칸",
+        "en": "Stone beige balmacaan",
+        "de": "Beiger Balmacaan"
+      },
+      "nameKo": "스톤 베이지 발마칸",
+      "descriptor": "Stone beige matte straight single-breasted balmacaan raincoat, pointed collar, dark brown buttons, raglan-like shoulder line, no belt, simple slanted pockets.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "f947cb1c9f5767f7653c76416083072770d78e2b6fb357ebb7c245877e1252ba",
+      "bytes": 32280,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        50,
+        31,
+        463,
+        465
+      ],
+      "howToWear": {
+        "ko": "밝은 베이지 코트 안에 짙은 니트와 머플러를 모아 대비를 만드세요.",
+        "en": "Frame the dark knit and scarf with the pale beige coat.",
+        "de": "Dunklen Strick und Schal mit dem hellbeigen Mantel einrahmen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "스톤 베이지 발마칸 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-min-20261026-02.02-top",
+      "name": {
+        "ko": "에스프레소 니트",
+        "en": "Espresso knit",
+        "de": "Espressofarbener Pullover"
+      },
+      "nameKo": "에스프레소 니트",
+      "descriptor": "Very dark espresso brown fine ribbed crewneck knit sweater, rib cuffs and hem, simple straight silhouette.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "e3565adc7cf9f808bd4bc1fa20045a5cedeeaa1656f1677b162b048f13ce902c",
+      "bytes": 34728,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        34,
+        41,
+        470,
+        444
+      ],
+      "howToWear": {
+        "ko": "에스프레소 니트를 토프 팬츠에 맞춰 브라운 계열을 차분히 겹치세요.",
+        "en": "Pair the espresso knit with taupe trousers for quiet brown layers.",
+        "de": "Den espressobraunen Pullover mit der taupefarbenen Hose kombinieren und die Brauntöne ruhig schichten."
+      },
+      "sourceHowToWear": {
+        "de": "Espressostrick mit Taupe kombinieren und die Brauntöne ruhig schichten."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "에스프레소 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-scarf",
+      "category": "scarf",
+      "appCategory": "scarf",
+      "appItemId": "rn-chilly-m35-night-min-20261026-02.03-scarf",
+      "name": {
+        "ko": "다크 브라운 머플러",
+        "en": "Dark brown scarf",
+        "de": "Dunkelbrauner Schal"
+      },
+      "nameKo": "다크 브라운 머플러",
+      "descriptor": "Long narrow dark espresso brown soft brushed wool-like scarf with short fine tassels, simple unpatterned texture.",
+      "image": "products/03-scarf.webp",
+      "deliveredImage": "products/03-scarf.webp",
+      "sha256": "fd2cf9c23f5049ec1eba751befd3a1ef49a5e0e1fe89727f815c2ac7409d4660",
+      "bytes": 40396,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        79,
+        30,
+        434,
+        469
+      ],
+      "howToWear": {
+        "ko": "브라운 머플러를 길게 내려 니트와 자연스럽게 이어주세요.",
+        "en": "Let the brown scarf hang long and blend into the knit.",
+        "de": "Den braunen Schal lang fallen lassen, sodass er in den Strick übergeht."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "다크 브라운 머플러 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-min-20261026-02.04-bottom",
+      "name": {
+        "ko": "토프 테일러드 팬츠",
+        "en": "Taupe tailored trousers",
+        "de": "Taupefarbene Anzughose"
+      },
+      "nameKo": "토프 테일러드 팬츠",
+      "descriptor": "Taupe-grey tailored trousers, subtle fine melange weave, straight leg, front fly and belt loops, full ankle length.",
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/04-bottom.webp",
+      "sha256": "a848f345e45144c62c7286e023801986f12a4cd5641001cf03cfd9c6f49fd21a",
+      "bytes": 24674,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        30,
+        36,
+        456,
+        466
+      ],
+      "howToWear": {
+        "ko": "토프 팬츠로 베이지 코트와 짙은 상의 사이의 색을 연결하세요.",
+        "en": "Use taupe trousers to bridge the beige coat and dark upper layers.",
+        "de": "Die taupefarbene Hose verbindet den beigen Mantel mit den dunklen Oberteilen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "토프 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "scenePropsNotProducts": [
+    "umbrella",
+    "tumbler"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except language fixes; replaced lines are in copy.sourceCopy / products[].sourceHowToWear. English title = supplied display title (app convention: English uppercase, also shown in de). pull written from the editorial.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-night-min-20261026-02",
+  "appBuild": "b167",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "time": "evening",
+    "hero": "rn-chilly-m35-night-min-20261026-02.01-outer"
+  }
+}

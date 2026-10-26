@@ -1,0 +1,261 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-min-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3aa6f2632f6c7b4554dcf2a0e1b4a682e5e43a8f37cc0a12c7e6b65fcf994cdb",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "올리브 후드를 붙잡고",
+      "caption": "딥 올리브와 오트밀의 조용한 대비.",
+      "intro": "올리브 후드 코트 안에 오트밀 목넥을 겹쳤습니다. 어두운 팬츠와 부츠로 색을 이어가고, 갑작스러운 바람에는 후드를 가볍게 고쳐 씁니다.",
+      "tip": "후드는 시야를 가리지 않게 조절하고, 젖은 돌바닥에서는 보폭을 줄여주세요."
+    },
+    "en": {
+      "title": "OLIVE, HOOD HELD",
+      "caption": "Deep olive and oatmeal make a quiet contrast.",
+      "intro": "An oatmeal mockneck softens a dark olive hooded coat, with dark trousers and boots carrying the line as the hood catches a gust.",
+      "tip": "Adjust the hood without blocking your view and take shorter steps on wet paving."
+    },
+    "de": {
+      "title": "OLIVE, HOOD HELD",
+      "caption": "Dunkeloliv und Haferbeige bilden einen ruhigen Kontrast.",
+      "intro": "Ein haferfarbener Stehkragenpullover unter dem dunkelolivgrünen Kapuzenmantel; dunkle Hose und Boots führen die Linie fort, und bei einer Windböe wird die Kapuze kurz zurechtgerückt.",
+      "tip": "Die Kapuze ohne Sichtbehinderung einstellen und auf nassem Pflaster kleinere Schritte machen."
+    },
+    "pull": "NOT TODAY, WIND.",
+    "sourceCopy": {
+      "intro": {
+        "de": "Haferfarbener Stehkragenstrick ergänzt den olivgrünen Mantel; dunkle Hose und Boots führen die Linie fort."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-min-20261026-04.01-outer",
+      "name": {
+        "ko": "딥 올리브 후드 코트",
+        "en": "Deep olive hooded coat",
+        "de": "Dunkelolivgrüner Kapuzenmantel"
+      },
+      "nameKo": "딥 올리브 후드 코트",
+      "descriptor": "Deep dark olive matte hooded raincoat, raised collar, zipper front beneath snap-button storm placket, subtle drawcord at hood, straight thigh-length silhouette, slanted pockets.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "103208a7465ffb5ab7823c1cdd3dc2ff6932731b7baa47d85637afbbb25d38f9",
+      "bytes": 28758,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        51,
+        30,
+        467,
+        467
+      ],
+      "howToWear": {
+        "ko": "올리브 후드 코트의 목선을 열어 오트밀 니트를 드러내세요.",
+        "en": "Open the olive coat at the neck to show the oatmeal knit.",
+        "de": "Den olivgrünen Mantel am Hals öffnen, damit der haferfarbene Strick sichtbar wird."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "딥 올리브 후드 코트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-min-20261026-04.02-top",
+      "name": {
+        "ko": "오트밀 목넥 니트",
+        "en": "Oatmeal mockneck knit",
+        "de": "Haferfarbener Stehkragenpullover"
+      },
+      "nameKo": "오트밀 목넥 니트",
+      "descriptor": "Oatmeal beige softly textured fine wool-like mockneck sweater, short ribbed standing neck, rib cuffs and hem, clean fit.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "dd5bfbdfce931e816906744f3368d5c87a7058e0a4cb8dd3af273ccef1c7776a",
+      "bytes": 49496,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        35,
+        36,
+        465,
+        446
+      ],
+      "howToWear": {
+        "ko": "오트밀 목넥을 후드 안쪽에 단정하게 세워 얼굴 주변에 밝은 층을 만드세요.",
+        "en": "Keep the oatmeal mockneck neat inside the hood for a light frame around the face.",
+        "de": "Den haferfarbenen Stehkragen unter der Kapuze ordentlich aufstellen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "오트밀 목넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-min-20261026-04.03-bottom",
+      "name": {
+        "ko": "다크 테일러드 팬츠",
+        "en": "Dark tailored trousers",
+        "de": "Dunkle Anzughose"
+      },
+      "nameKo": "다크 테일러드 팬츠",
+      "descriptor": "Very dark charcoal straight tailored trousers with a subtle crease and simple waistband, full ankle length.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "7ae4754ea6c2ec79d1db581a8a50a5b43fb2ce4cf2aa386e46f302cbdb9ca37d",
+      "bytes": 22782,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        138,
+        32,
+        470,
+        457
+      ],
+      "howToWear": {
+        "ko": "어두운 일자 팬츠로 올리브 코트의 간결한 실루엣을 이어주세요.",
+        "en": "Carry the olive coat's clean shape into dark straight trousers.",
+        "de": "Die klare Mantelform mit einer dunklen geraden Hose fortsetzen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "다크 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-night-min-20261026-04.04-shoes",
+      "name": {
+        "ko": "블랙 앵클 부츠",
+        "en": "Black ankle boots",
+        "de": "Schwarze Stiefeletten"
+      },
+      "nameKo": "블랙 앵클 부츠",
+      "descriptor": "One matching pair of black plain smooth leather ankle boots, softly rounded toe, modest low heel and black practical sole, minimal construction.",
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/04-shoes.webp",
+      "sha256": "f338b5dd80115b4b42618c65f3458a69ad3cd048237b0d053ec99cdf6fbe9b6e",
+      "bytes": 23266,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        45,
+        102,
+        470,
+        449
+      ],
+      "howToWear": {
+        "ko": "팬츠 밑단을 부츠 위에 정돈하고 젖은 돌바닥에서는 짧게 디디세요.",
+        "en": "Set the trouser hem neatly over the boots and step carefully on wet paving.",
+        "de": "Den Hosensaum ordentlich über den Boots tragen und auf nassem Pflaster vorsichtig auftreten."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 앵클 부츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "scenePropsNotProducts": [],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except language fixes; replaced lines are in copy.sourceCopy / products[].sourceHowToWear. English title = supplied display title (app convention: English uppercase, also shown in de). pull written from the editorial.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-night-min-20261026-04",
+  "appBuild": "b167",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "time": "evening",
+    "hero": "rn-chilly-m35-night-min-20261026-04.01-outer"
+  }
+}

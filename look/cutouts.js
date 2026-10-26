@@ -824,6 +824,26 @@
     "rn-chilly-f35-day-street-20261026-05.02-top": [
         "look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/street/05/products/02-top.webp",
         null
+    ],
+    "rn-chilly-m35-night-min-20261026-01.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/minimal/01/products/01-outer.webp",
+        null
+    ],
+    "rn-chilly-m35-night-min-20261026-02.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/minimal/02/products/01-outer.webp",
+        null
+    ],
+    "rn-chilly-m35-night-min-20261026-03.02-top": [
+        "look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/minimal/03/products/02-top.webp",
+        null
+    ],
+    "rn-chilly-m35-night-min-20261026-04.01-outer": [
+        "look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/minimal/04/products/01-outer.webp",
+        null
+    ],
+    "rn-chilly-m35-night-min-20261026-05.02-scarf": [
+        "look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/minimal/05/products/02-scarf.webp",
+        null
     ]
 };
   var HERO = {
@@ -1031,7 +1051,12 @@
     "rn-chilly-f35-day-street-20261026-02": "rn-chilly-f35-day-street-20261026-02.01-outer",
     "rn-chilly-f35-day-street-20261026-03": "rn-chilly-f35-day-street-20261026-03.01-outer",
     "rn-chilly-f35-day-street-20261026-04": "rn-chilly-f35-day-street-20261026-04.01-outer",
-    "rn-chilly-f35-day-street-20261026-05": "rn-chilly-f35-day-street-20261026-05.02-top"
+    "rn-chilly-f35-day-street-20261026-05": "rn-chilly-f35-day-street-20261026-05.02-top",
+    "rn-chilly-m35-night-min-20261026-01": "rn-chilly-m35-night-min-20261026-01.01-outer",
+    "rn-chilly-m35-night-min-20261026-02": "rn-chilly-m35-night-min-20261026-02.01-outer",
+    "rn-chilly-m35-night-min-20261026-03": "rn-chilly-m35-night-min-20261026-03.02-top",
+    "rn-chilly-m35-night-min-20261026-04": "rn-chilly-m35-night-min-20261026-04.01-outer",
+    "rn-chilly-m35-night-min-20261026-05": "rn-chilly-m35-night-min-20261026-05.02-scarf"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

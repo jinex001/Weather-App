@@ -1,0 +1,12 @@
+# Rain / Normal / Chilly / Male / 35+ / night / Minimal — 2026-10-26 set (01–05)
+
+- Looks: `rn-chilly-m35-night-min-20261026-01` … `-05`; 21 products (5/4/4/4/4).
+- App: `sky: rain`, `rain: normal` (WMO 63 · 66 · 81), `bands: [chilly]`, `gender: m`, `age: "35"`, `style: minimal`, `time: evening` (night folder).
+- Audience 35+; model appearance 28–32 (`casting.modelAppearanceAgeRange`).
+- Creative Berlin rainy-evening setting. No numerical temperature was supplied (`temperatureC`/`feelsLikeC` null is intentional); nothing here is a live weather measurement.
+- Editorials (1024×1536 JPG) and products (500×500 transparent WebP, ≤50,000 B) are copied byte for byte from the approved batch (`delivery-v2`), renamed to `NN-<app category>.webp` (the delivered name stays in products.json `deliveredImage`). Editorials were approved by the user; products were made and reviewed by the producer (Codex) under the user's authorization, with no separate per-product user visual approval claimed.
+- Categories: coats → `outer`; knits → `top`; trousers → `bottom`; boots → `shoes` (a pair is one product); 01 leather gloves → `hands` (delivered `category: gloves` kept; a pair is one product); scarves → `scarf`; 03 crossbody → `bag`.
+- Not products: umbrellas (01–03), 02 tumbler, 03 keys, 05 car, canvas tote and groceries (scene props). Shoes and socks hidden by the crops of 02, 03 and 05 were not added; 01's white T-shirt edge under the knit was not delivered and was not added.
+- These are AI editorial reconstructions, not verified commercial products. Hidden areas (garment backs and full lengths, the unseen boot of each pair, 04 boot side zips, 05 coat front, cream knit body and trouser tops) are conservative reconstructions (`evidence`, `reconstruction`). No brand, price, purchase link, fibre composition, waterproof rating or temperature claim.
+- Copy: Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except language fixes (02 intro was a product list; German articles/wording in 01–05) — replaced lines are in `copy.sourceCopy` / `sourceHowToWear`. English uppercase title = supplied display title. `pull` written from each editorial.
+- Mapping: `look/rain-normal-male-night-minimal-20261026.js` (b167). Home hero follows the b134 title-word rule (design/CUTOUTS.md): 01 CHARCOAL, 02 BEIGE, 04 OLIVE → coat; 03 COBALT → cobalt knit; 05 RUST → rust scarf. Each cut is that product's own WebP (no new cutout).

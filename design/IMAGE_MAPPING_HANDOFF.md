@@ -324,3 +324,12 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 장면 소품(02 열쇠, 04 자전거·자물쇠·열쇠, 05 종이 장바구니)은 제품 아님. 블랙 우산·골드 후프는 전달된 제품. 크롭으로 안 보이는 신발·양말은 넣지 않음.
 - 이 환경엔 Pillow·node·브라우저가 없어 투명 확인은 WebP `ALPH` 청크를 순수 파이썬으로 디코드해서 함(25장 모서리·테두리 알파 0), 런타임은 `jsc`로 index.html 룩 스크립트 19개 로드. 화면 렌더링 확인은 못 함(실기기 확인 필요).
 - [검증 기록](rain-normal-female-day-street-20261026-validation.md).
+
+## b167 · Rain / Normal / Chilly / Male / 35+ / Night / Minimal — 2026-10-26 set (5 looks · 21 products)
+
+- 원본: 로컬 outbox 완성 배치(READY.json `approved`·`editorialsApproved`·`products_complete`, 목록 103개 SHA-256 일치). 배포 파일은 `delivery-v2/NN/editorial.jpg`·`products/*.webp`만 바이트 그대로(같은 배치의 `delivery/`는 미완성 내보내기라 안 씀), 이름 `NN-<앱 분류>.webp`(제작 측 이름은 `deliveredImage`). 제작 측 products.json의 로컬 경로(`masterSource`·`generationSource`)는 앱 저장소 products.json에 넣지 않음.
+- `sky: "rain"`, `rain: "normal"`, `time: "evening"`(night 폴더). 폴더 `Rain/Normal/Chilly/Male/35+/night/minimal/<NN>/`, ID는 제작 측 `rn-chilly-m35-night-min-20261026-NN` 그대로.
+- 분류(새 코드 없음): 제작 측 `gloves` → `hands`(b160과 같음, 제작 측 `category` 보존).
+- 문구: 이 배치는 한국어 마스터(`KOREAN_MASTER.json`: titleKo·captionKo·introKo·tipKo·제품별 howToWear)와 제작 측 en/de가 제품마다 달라 5-1장 통과 → 그대로 씀. 고친 것: 02 인트로 en/de(제품 나열)를 한국어에서 다시 번역, 독일어 관사·어색한 표현 몇 줄. `pull`은 없어서 장면 보고 새로 씀. 영어 제목은 제작 측 `copy.title.en`(앱 관례 영어 대문자).
+- 알파 확인은 순수 파이썬 VP8L 디코더로(이 환경엔 Pillow 실행·node·브라우저 없음): 21장 모서리·테두리 알파 0, 디코드한 알파 범위 = 제작 측 `bounds`. 내부 알파 약 253은 PNG 마스터와 같은 원본 성질.
+- [검증 기록](rain-normal-male-night-minimal-20261026-validation.md).

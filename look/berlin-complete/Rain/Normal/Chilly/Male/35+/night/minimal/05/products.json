@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-min-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "66240ecf51d4b664f0c5b70f68fe51ee1fc83e876388595de73717472aaa2d32",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "블랙 위 러스트 한 줄",
+      "caption": "블랙 코트에 러스트 머플러로 더한 온기.",
+      "intro": "블랙 레인코트와 팬츠를 바탕으로 러스트 머플러와 크림 니트 소매가 드러납니다. 차에서 장바구니를 꺼내는 순간에도 색은 두세 가지로 정돈합니다.",
+      "tip": "머플러 끝과 코트 자락이 차 문에 끼이지 않도록 확인하고 문을 닫아주세요."
+    },
+    "en": {
+      "title": "RUST ON THE WAY HOME",
+      "caption": "A rust scarf warms a clean black coat.",
+      "intro": "A black coat and trousers let the rust scarf and cream knit cuff stand out while groceries come out of the car.",
+      "tip": "Keep scarf ends and the coat hem clear before closing the car door."
+    },
+    "de": {
+      "title": "RUST ON THE WAY HOME",
+      "caption": "Ein rostroter Schal bringt Wärme in den schlichten schwarzen Mantel.",
+      "intro": "Schwarzer Mantel und schwarze Hose lassen den rostroten Schal und das cremefarbene Strickbündchen wirken – auch beim Ausladen der Einkäufe aus dem Auto.",
+      "tip": "Vor dem Schließen der Autotür Schalenden und Mantelsaum freihalten."
+    },
+    "pull": "LEEKS FIRST, THEN HOME.",
+    "sourceCopy": {
+      "deck": {
+        "de": "Ein rostroter Schal bringt Wärme zum schwarzen Mantel."
+      },
+      "intro": {
+        "de": "Schwarzer Mantel und Hose lassen den rostfarbenen Schal und die cremefarbene Strickmanschette wirken."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-min-20261026-05.01-outer",
+      "name": {
+        "ko": "블랙 레인 트렌치",
+        "en": "Black rain trench",
+        "de": "Schwarzer Regentrenchcoat"
+      },
+      "nameKo": "블랙 레인 트렌치",
+      "descriptor": "Black matte rain trench coat, clean broad pointed collar, plain dark buttons, long straight silhouette, visible horizontal back yoke, subtle cuff tabs, no decorative branding.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "b241a12bc2cbd9a4f380a2d27a8b50d1bc89834fb5c486bf2dc4b33bf4d0ee5d",
+      "bytes": 27574,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        70,
+        33,
+        446,
+        470
+      ],
+      "howToWear": {
+        "ko": "블랙 코트 위로 러스트 머플러를 길게 내려 색의 중심을 잡으세요.",
+        "en": "Let the rust scarf fall long against the black coat.",
+        "de": "Den rostfarbenen Schal lang über dem schwarzen Mantel fallen lassen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 레인 트렌치 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-scarf",
+      "category": "scarf",
+      "appCategory": "scarf",
+      "appItemId": "rn-chilly-m35-night-min-20261026-05.02-scarf",
+      "name": {
+        "ko": "러스트 오렌지 머플러",
+        "en": "Rust orange scarf",
+        "de": "Rostorangener Schal"
+      },
+      "nameKo": "러스트 오렌지 머플러",
+      "descriptor": "Rust orange soft brushed wool-like long scarf, slightly fuzzy dense texture, long fine tassels on both ends, no pattern.",
+      "image": "products/02-scarf.webp",
+      "deliveredImage": "products/02-scarf.webp",
+      "sha256": "4c0dfdfc06a8032c2bd238622f97b95ce2590ca1466c0a0d40647155fc8485a5",
+      "bytes": 49880,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        36,
+        30,
+        464,
+        462
+      ],
+      "howToWear": {
+        "ko": "러스트 머플러는 한 번 가볍게 둘러 프린지가 자연스럽게 보이게 하세요.",
+        "en": "Wrap the rust scarf loosely once and let the fringe show.",
+        "de": "Den rostroten Schal einmal locker umlegen und die Fransen sichtbar lassen."
+      },
+      "sourceHowToWear": {
+        "de": "Den rostfarbenen Schal einmal locker wickeln und die Fransen sichtbar lassen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "러스트 오렌지 머플러 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-min-20261026-05.03-top",
+      "name": {
+        "ko": "크림 니트",
+        "en": "Cream knit",
+        "de": "Cremefarbener Pullover"
+      },
+      "nameKo": "크림 니트",
+      "descriptor": "Cream fine ribbed knit sweater, ribbed cuffs matching the exposed cuff in reference, simple crew neck and straight full length shape; hidden body is inferred.",
+      "image": "products/03-top.webp",
+      "deliveredImage": "products/03-top.webp",
+      "sha256": "30318f1ed9e4fe4aa67b31c60ed8784eb80e54de28cb4c1b4cc0da09a5a173e5",
+      "bytes": 39346,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        30,
+        45,
+        467,
+        459
+      ],
+      "howToWear": {
+        "ko": "크림 니트 소매를 코트 끝에서 살짝 드러내 어두운 착장에 밝은 결을 더하세요.",
+        "en": "Show a little cream knit cuff beyond the coat to lighten the dark outfit.",
+        "de": "Das cremefarbene Strickbündchen etwas unter dem Mantelärmel hervorblitzen lassen, damit der dunkle Look heller wirkt."
+      },
+      "sourceHowToWear": {
+        "de": "Etwas cremefarbenes Strickbündchen am Mantelärmel hervorblitzen lassen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "크림 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-min-20261026-05.04-bottom",
+      "name": {
+        "ko": "블랙 팬츠",
+        "en": "Black trousers",
+        "de": "Schwarze Hose"
+      },
+      "nameKo": "블랙 팬츠",
+      "descriptor": "Black straight tailored trousers, fine smooth woven fabric, plain waistband, full length; only a small lower section is visible in reference, upper construction inferred.",
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/04-bottom.webp",
+      "sha256": "b33f4d357f3f7444127686da4bf82624d28083fc45bc8af5ba0a23fca527308f",
+      "bytes": 11824,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alphaBounds": [
+        67,
+        39,
+        460,
+        460
+      ],
+      "howToWear": {
+        "ko": "블랙 팬츠를 코트와 같은 톤으로 맞춰 머플러의 색을 돋보이게 하세요.",
+        "en": "Match the black trousers to the coat so the scarf colour stands out.",
+        "de": "Schwarze Hose und Mantel tonal abstimmen, damit der Schal hervortritt."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstruction": "Observed visible colour and construction reconstructed; hidden back, full length and opposite pair member are inferred. No certified protection or exact fibre claim.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "scenePropsNotProducts": [
+    "car",
+    "canvas tote with groceries"
+  ],
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean master (title, caption, intro, tip, product names, per-product how-to-wear) verbatim. Supplied en/de kept except language fixes; replaced lines are in copy.sourceCopy / products[].sourceHowToWear. English title = supplied display title (app convention: English uppercase, also shown in de). pull written from the editorial.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-night-min-20261026-05",
+  "appBuild": "b167",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "time": "evening",
+    "hero": "rn-chilly-m35-night-min-20261026-05.02-scarf"
+  }
+}
