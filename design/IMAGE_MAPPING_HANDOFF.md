@@ -273,3 +273,16 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 구성: 03은 발이 사진에서 잘려 아우터·이너·하의만, 04는 시계·신발(양말 없음), 05 양말은 쿼터 길이. 가려진 몸판·다리·뒤판은 보수적 복원.
 - 승인 범위: 에디토리얼 사용자 승인, 제품 23개는 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 없음). GitHub 업로드·PR·main 반영·배포는 이 배치에 대해 사용자 명시 승인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
 - [검증 기록](rain-light-female-day-running-20261025-validation.md).
+
+## b160 · Rain / Light / Chilly / Female / 35+ / Night / Running — 2026-10-26 set (5 looks · 33 products)
+
+- 원본: 로컬 전달 폴더(READY.json `approved`·`editorialsApproved`·`products_complete`, 파일 45개 = JPG 5 · WebP 33 · products.json 5 · LOOKS · KOREAN_MASTER, SHA-256과 목록 일치; READY.json 자신은 목록 밖). b157–b159와 같은 방식으로 직접 검증.
+- `sky: "rain"`, `rain: "light"`, `time: "evening"`(밤 세트). 폴더 `Rain/Light/Chilly/Female/35+/night/running-20261026/<NN>/`(같은 칸의 기존 `street`·`street-20261024`·`minimal` 폴더는 그대로), ID는 제작 측 `rl-chilly-f35-night-run-20261026-NN` 그대로(충돌 없음 확인), 아이템 `<룩 ID>.<제품 id>`(순서 유지).
+- 분류: 제작 측 `gloves` → 앱의 기존 `hands`, `headband` → `headwear`(b153·b158과 같은 규칙; products.json에 원본 `category` + `appCategory`). 나머지(outer/top/bottom/socks/shoes)는 그대로. 다섯 룩 모두 헤드밴드 1 + 장갑 한 켤레 1.
+- 고르기 영향(앱 `lookFits`·`rainLevel` 실제 코드로 확인): 가벼운 비 저녁 여성 러닝만 플레이스홀더 → 이 5룩. 낮 여성 러닝(b159), 가벼운 비 저녁 여성 스트리트·미니멀, 저녁 남성 러닝(b158), 보통 비·쏟아지는 비·마른 저녁은 그대로.
+- 대표 컷: b134 제목 단어 규칙(`design/CUTOUTS.md`). 02 PLUM, SET RIGHT → 플럼 이너와 플럼 헤드밴드가 같은 색이라 규칙 3(큰 옷 먼저)으로 플럼 하이넥 `02-top`(b158 04 플럼 이너와 같은 방식). 01 PETROL · 03 VERMILION · 04 MOSS · 05 AUBERGINE → 아우터 색. 컷은 그 투명 제품 WebP 자체(새 컷·복제 없음).
+- 문구: b157–b159와 같음(한국어 마스터 그대로, 한국어 제목은 products.json `copy.title.ko`, 제작 측 복원 틀 문장은 `sourceDescription`, 화면 문구는 제품별 입는 법). 생성 프롬프트·로컬 경로(`prompt`·`masterSource`·`generationSource`·`reference`)는 빼고, `detail`·`designDescriptionEn`·`reconstruction`·`reconstructionNote`·`sha256`·`bounds`는 복원 근거로 보존. 룩별로 무엇이 가려져 복원됐는지는 `reconstructionSummary`.
+- 복원 범위: 02는 상반신 크롭이라 양말·신발 제품 없음, 03 양말·신발은 일부만 보여 디테일을 단순하게, 04 양말은 처음 프롬프트의 쿼터가 아니라 사진에 보이는 크루 길이(육안 승인대로), 05는 뒷모습이라 오버진 셸 앞면(단순 풀지퍼, 주머니 없음)과 거의 가려진 애시드 옐로 이너 몸판은 보수적 복원.
+- 캐스팅: 외관 25–28세(`casting.modelAppearanceAgeRange: [25, 28]`, 타깃 35+는 별도). 숫자 기온 없음(`temperatureC`/`feelsLikeC` null, `isLiveMeasurement: false`). 브랜드·가격·링크·소재 혼용률·보호 성능 주장 없음.
+- 승인 범위: 에디토리얼 사용자 승인, 제품 33개는 제품 분해 승인 아래 제작·제작 측 검수(제품별 사용자 육안 승인 없음). GitHub 업로드·PR·main 반영·배포는 이 배치에 대해 사용자 명시 승인. 원본은 이 작업에서 옮기지 않음(반영 확인 뒤 상위 작업이 iCloud로 이동).
+- [검증 기록](rain-light-female-night-running-20261026-validation.md).

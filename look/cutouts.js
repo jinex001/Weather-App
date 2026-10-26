@@ -724,6 +724,26 @@
     "rl-chilly-f35-day-run-20261025-05.01-outer": [
         "look/berlin-complete/Rain/Light/Chilly/Female/35+/day/running-20261025/05/products/01-outer.webp",
         0.268
+    ],
+    "rl-chilly-f35-night-run-20261026-01.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/01/products/01-outer.webp",
+        0.06
+    ],
+    "rl-chilly-f35-night-run-20261026-02.02-top": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/02/products/02-top.webp",
+        0.028
+    ],
+    "rl-chilly-f35-night-run-20261026-03.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/03/products/01-outer.webp",
+        0.206
+    ],
+    "rl-chilly-f35-night-run-20261026-04.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/04/products/01-outer.webp",
+        0.125
+    ],
+    "rl-chilly-f35-night-run-20261026-05.01-outer": [
+        "look/berlin-complete/Rain/Light/Chilly/Female/35+/night/running-20261026/05/products/01-outer.webp",
+        0.038
     ]
 };
   var HERO = {
@@ -906,7 +926,12 @@
     "rl-chilly-f35-day-run-20261025-02": "rl-chilly-f35-day-run-20261025-02.01-outer",
     "rl-chilly-f35-day-run-20261025-03": "rl-chilly-f35-day-run-20261025-03.01-outer",
     "rl-chilly-f35-day-run-20261025-04": "rl-chilly-f35-day-run-20261025-04.02-top",
-    "rl-chilly-f35-day-run-20261025-05": "rl-chilly-f35-day-run-20261025-05.01-outer"
+    "rl-chilly-f35-day-run-20261025-05": "rl-chilly-f35-day-run-20261025-05.01-outer",
+    "rl-chilly-f35-night-run-20261026-01": "rl-chilly-f35-night-run-20261026-01.01-outer",
+    "rl-chilly-f35-night-run-20261026-02": "rl-chilly-f35-night-run-20261026-02.02-top",
+    "rl-chilly-f35-night-run-20261026-03": "rl-chilly-f35-night-run-20261026-03.01-outer",
+    "rl-chilly-f35-night-run-20261026-04": "rl-chilly-f35-night-run-20261026-04.01-outer",
+    "rl-chilly-f35-night-run-20261026-05": "rl-chilly-f35-night-run-20261026-05.01-outer"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });
