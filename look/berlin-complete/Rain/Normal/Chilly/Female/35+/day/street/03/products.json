@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-street-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "13de1d6e396163b4de81a219b8cff65f8c05ae83b4044691eb54a28ae5497a30",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "러스트 재킷과 따뜻한 레이어",
+      "caption": "러스트 재킷과 따뜻한 레이어",
+      "intro": "우산 아래 러스트 컬러와 크림 니트를 겹쳤습니다. 차콜 패딩 레이어가 쌀쌀한 날의 착장에 깊이를 더합니다.",
+      "tip": "바람이 불면 우산을 몸 가까이 잡고, 실내에서는 미드레이어를 벗어 온도를 조절하세요."
+    },
+    "en": {
+      "title": "RUST UNDER THE UMBRELLA",
+      "caption": "A rust jacket over warm layers.",
+      "intro": "Under the umbrella, rust meets a cream knit. A charcoal padded layer adds depth to an outfit for a chilly day.",
+      "tip": "When the wind picks up, hold the umbrella close to your body, and take off the midlayer indoors to adjust your temperature."
+    },
+    "de": {
+      "title": "ROSTROT UNTER DEM SCHIRM",
+      "caption": "Rostrote Jacke über warmen Lagen.",
+      "intro": "Unter dem Schirm treffen Rostrot und cremefarbener Strick aufeinander. Eine anthrazitfarbene Steppjacke gibt dem Outfit für einen kühlen Tag Tiefe.",
+      "tip": "Bei Wind den Schirm nah am Körper halten und drinnen die Zwischenlage ausziehen, um die Temperatur anzupassen."
+    },
+    "pull": "STILL COMING DOWN?",
+    "sourceCopy": {
+      "en": {
+        "title": "Rust jacket with warm layers",
+        "intro": "A rust jacket and cream knit sit over a charcoal padded layer for a richly textured rainy-day outfit.",
+        "tip": "Keep the umbrella close in gusts and remove the padded midlayer indoors if you feel too warm."
+      },
+      "de": {
+        "title": "Rostrote Jacke mit warmen Lagen",
+        "intro": "Rostrote Jacke, cremefarbener Strick und eine anthrazitfarbene Steppzwischenlage bringen Struktur in den Regenlook.",
+        "tip": "Den Schirm bei Böen nah am Körper halten und die Steppzwischenlage drinnen bei Bedarf ausziehen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-street-20261026-03.01-outer",
+      "name": {
+        "ko": "러스트 후드 레인 재킷",
+        "en": "Rust hooded rain jacket",
+        "de": "Rostrote Regenjacke"
+      },
+      "nameKo": "러스트 후드 레인 재킷",
+      "descriptor": "Rust orange waterproof hooded rain jacket, dark full zip plus snap storm placket, drawcord hood, long relaxed sleeves.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/03-01-outer.webp",
+      "sha256": "b5957f6ddc9c63eb4740f45684a7d8f5aa6b5479267934043403e0ee0024245c",
+      "bytes": 43452,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "지퍼를 열고 앞섶을 한 손으로 여며 쥐어, 안의 패딩과 크림 니트가 층층이 보이게 입으세요.",
+        "en": "Wear it unzipped and hold the front together with one hand, so the padded layer and the cream knit show in tiers.",
+        "de": "Offen tragen und die Vorderseite mit einer Hand zusammenhalten, sodass Steppjacke und cremefarbener Strick Lage für Lage sichtbar sind."
+      },
+      "sourceDescription": {
+        "ko": "러스트 후드 레인 재킷의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Rust hooded rain jacket. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Rostrote Regenjacke. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "러스트 후드 레인 재킷 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "midlayer",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-street-20261026-03.02-top",
+      "name": {
+        "ko": "차콜 패딩 미드레이어",
+        "en": "Charcoal quilted midlayer",
+        "de": "Anthrazitfarbene Steppjacke"
+      },
+      "nameKo": "차콜 패딩 미드레이어",
+      "sourceName": {
+        "en": "Charcoal quilted midlayer",
+        "de": "Anthrazitfarbene Steppzwischenlage"
+      },
+      "descriptor": "Charcoal padded quilted open-front midlayer with high stand collar; torso visible beneath rain jacket, sleeves conservatively inferred.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/03-02-midlayer.webp",
+      "sha256": "568f61a77eb168caa20132f77ee7e5e78abb0dd1edab62907428be0fc7f8f476",
+      "bytes": 36164,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "높은 스탠드 칼라를 세워 목둘레를 채우고, 지퍼는 열어 두어 레인 재킷 안에서 한 겹 더 감싸게 하세요.",
+        "en": "Stand the high collar up around your neck and leave the zip open, as an extra layer inside the rain jacket.",
+        "de": "Den hohen Stehkragen um den Hals aufstellen und den Reißverschluss offen lassen – eine zusätzliche Lage unter der Regenjacke."
+      },
+      "sourceDescription": {
+        "ko": "차콜 패딩 미드레이어의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Charcoal quilted midlayer. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Anthrazitfarbene Steppzwischenlage. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 패딩 미드레이어 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-under",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-f35-day-street-20261026-03.03-under",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream crewneck knit",
+        "de": "Cremefarbener Rundhalspullover"
+      },
+      "nameKo": "크림 크루넥 니트",
+      "descriptor": "Cream textured knit crewneck sweater, ribbed neck cuffs and hem.",
+      "image": "products/03-under.webp",
+      "deliveredImage": "products/03-03-top.webp",
+      "sha256": "8aee51e024fa2fd54887425168bf61403306ddab393893e646a7ec88deaf21b1",
+      "bytes": 41454,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "열린 패딩 사이로 앞판이 세로로 보이게 두고, 밑단은 팬츠 허리 위에 내려 두세요.",
+        "en": "Let the front show as a vertical strip between the open padded layer, with the hem resting over the trouser waist.",
+        "de": "Die Vorderseite als senkrechten Streifen zwischen der offenen Steppjacke zeigen und den Saum über den Hosenbund fallen lassen."
+      },
+      "sourceDescription": {
+        "ko": "크림 크루넥 니트의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Cream crewneck knit. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Cremefarbener Rundhalspullover. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "크림 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-street-20261026-03.04-bottom",
+      "name": {
+        "ko": "다크 브라운 와이드 팬츠",
+        "en": "Dark brown wide-leg trousers",
+        "de": "Dunkelbraune weite Hose"
+      },
+      "nameKo": "다크 브라운 와이드 팬츠",
+      "descriptor": "Dark brown tailored wool-texture loose trousers, upper front visible; lower leg conservatively inferred.",
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/03-04-bottom.webp",
+      "sha256": "3db1b12de692ad8411c4f004e2be04d63cde119efd6871fef06e8e5168146e9c",
+      "bytes": 21372,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "앞 주름이 니트 밑단 아래로 드러나게 입고, 넓은 통은 걸음에 따라 자연스럽게 흔들리게 두세요.",
+        "en": "Let the front pleats show below the knit hem and the wide legs swing naturally as you walk.",
+        "de": "Die Bundfalten unter dem Strickpullover zeigen und die weiten Beine beim Gehen frei schwingen lassen."
+      },
+      "sourceDescription": {
+        "ko": "다크 브라운 와이드 팬츠의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Dark brown wide-leg trousers. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Dunkelbraune weite Hose. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "다크 브라운 와이드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-accessory",
+      "category": "umbrella",
+      "appCategory": "accessory",
+      "appItemId": "rn-chilly-f35-day-street-20261026-03.05-accessory",
+      "name": {
+        "ko": "블랙 우산",
+        "en": "Black umbrella",
+        "de": "Schwarzer Regenschirm"
+      },
+      "nameKo": "블랙 우산",
+      "descriptor": "Plain black open umbrella, black shaft and straight black cylindrical handle, realistic canopy ribs.",
+      "image": "products/05-accessory.webp",
+      "deliveredImage": "products/03-05-umbrella.webp",
+      "sha256": "b4535189a683ec60f86cfa837c1da35688370f2722a7ed22e4269acbfbd8a8e6",
+      "bytes": 19394,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "손잡이를 어깨 높이에서 잡고 캐노피를 머리 위로 살짝 기울여 드세요.",
+        "en": "Grip the handle at shoulder height and tilt the canopy slightly over your head.",
+        "de": "Den Griff auf Schulterhöhe halten und den Schirm leicht über den Kopf neigen."
+      },
+      "sourceDescription": {
+        "ko": "블랙 우산의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black umbrella. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarzer Regenschirm. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 우산 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "06-jewelry",
+      "category": "jewelry",
+      "appCategory": "jewelry",
+      "appItemId": "rn-chilly-f35-day-street-20261026-03.06-jewelry",
+      "name": {
+        "ko": "골드 미니 후프 귀걸이",
+        "en": "Small gold hoop earrings",
+        "de": "Kleine goldene Creolen"
+      },
+      "nameKo": "골드 미니 후프 귀걸이",
+      "descriptor": "Matching pair of simple small gold hoop earrings; one visible hoop is basis for the matching pair.",
+      "image": "products/06-jewelry.webp",
+      "deliveredImage": "products/03-06-jewelry.webp",
+      "sha256": "59f7f51cc60a2ac22547c53581c5f476ca03f6961c171ea756f8f141948888cb",
+      "bytes": 27054,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "곱슬머리 사이로 보이도록 양쪽에 작은 후프 하나씩만 하고, 다른 장신구는 더하지 마세요.",
+        "en": "Wear one small hoop in each ear, glinting through the curls, and leave out other jewellery.",
+        "de": "In jedem Ohr eine kleine Creole tragen, die zwischen den Locken aufblitzt – weiteren Schmuck weglassen."
+      },
+      "sourceDescription": {
+        "ko": "골드 미니 후프 귀걸이의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Small gold hoop earrings. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Kleine goldene Creolen. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "골드 미니 후프 귀걸이 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 6,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title (used as caption), intro and wearing guide (used as tip) and Korean product names are the delivered master, verbatim. The delivered product descriptions were one reconstruction template sentence per product (IMAGE_MAPPING_HANDOFF 5-1), so per-product how-to-wear ko/en/de was written from the editorial; delivered lines are kept in sourceDescription. en/de intro/tip were re-translated from the Korean master; delivered en/de kept in copy.sourceCopy.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-street-20261026-03",
+  "appBuild": "b166",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "street",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-street-20261026-03.01-outer"
+  }
+}

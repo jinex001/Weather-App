@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-street-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "33ef62b89630253225cdd5c04951392b62cade4e013620af31944617652cd6ef",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "올리브 재킷과 버건디 후디",
+      "caption": "올리브 재킷과 버건디 후디",
+      "intro": "자전거 잠금을 푸는 일상 장면. 올리브와 버건디를 블랙 데님·부츠에 맞춘 편안한 거리 착장입니다.",
+      "tip": "자전거를 타기 전 후드가 시야를 막지 않는지, 바짓단이 체인에 닿지 않는지 확인하세요."
+    },
+    "en": {
+      "title": "OLIVE AT THE BIKE RACK",
+      "caption": "An olive jacket with a burgundy hoodie.",
+      "intro": "An everyday moment, unlocking a bike. Olive and burgundy, matched with black denim and boots, make an easy street outfit.",
+      "tip": "Before you ride, check that the hood doesn't block your view and your trouser hems stay clear of the chain."
+    },
+    "de": {
+      "title": "OLIV AM FAHRRADSTÄNDER",
+      "caption": "Olivgrüne Jacke mit burgunderrotem Hoodie.",
+      "intro": "Ein Alltagsmoment beim Aufschließen des Fahrrads. Oliv und Burgunderrot, kombiniert mit schwarzem Denim und Boots – ein entspannter Straßenlook.",
+      "tip": "Vor dem Losfahren prüfen, dass die Kapuze die Sicht nicht versperrt und die Hosenbeine nicht an die Kette kommen."
+    },
+    "pull": "ONE MORE TURN OF THE KEY.",
+    "sourceCopy": {
+      "en": {
+        "title": "Olive jacket and burgundy hoodie",
+        "intro": "Olive and burgundy meet black denim and boots in an easy street outfit, caught while unlocking a bike.",
+        "tip": "Before cycling, check that your hood leaves your view clear and your trouser hems stay away from the chain."
+      },
+      "de": {
+        "title": "Olivgrüne Jacke und burgunderroter Hoodie",
+        "intro": "Oliv und Burgunderrot treffen auf schwarzen Denim und Boots – ein entspannter Straßenlook beim Aufschließen des Fahrrads.",
+        "tip": "Vor dem Losfahren prüfen, ob die Kapuze die Sicht frei lässt und die Hosenbeine nicht an die Kette geraten."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-street-20261026-04.01-outer",
+      "name": {
+        "ko": "올리브 후드 필드 재킷",
+        "en": "Olive hooded field jacket",
+        "de": "Olivgrüne Kapuzenjacke"
+      },
+      "nameKo": "올리브 후드 필드 재킷",
+      "descriptor": "Dark olive waterproof hooded field jacket, dark snap front, flap pockets, structured relaxed body, cuff tabs.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/04-01-outer.webp",
+      "sha256": "b87fbd9a3085ea53fa2ce41d5a00e8202a1b8561bd09cd9c393bc8d5b2d1591b",
+      "bytes": 41408,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "스냅을 가슴 아래까지만 채워 버건디 후디가 V자로 보이게 하고, 백팩 끈은 재킷 위로 메세요.",
+        "en": "Snap it only up to below the chest so the burgundy hoodie shows in a V, and wear the backpack straps over the jacket.",
+        "de": "Nur bis unter die Brust zuknöpfen, damit der burgunderrote Hoodie V-förmig hervorschaut, und die Rucksackgurte über der Jacke tragen."
+      },
+      "sourceDescription": {
+        "ko": "올리브 후드 필드 재킷의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Olive hooded field jacket. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Olivgrüne Kapuzenjacke. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "올리브 후드 필드 재킷 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-street-20261026-04.02-top",
+      "name": {
+        "ko": "버건디 후디",
+        "en": "Burgundy hoodie",
+        "de": "Burgunderroter Hoodie"
+      },
+      "nameKo": "버건디 후디",
+      "descriptor": "Burgundy pullover cotton fleece hoodie, matching hood and ribbed cuffs, plain body and conservative kangaroo pocket reconstruction.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/04-02-top.webp",
+      "sha256": "ab4813cbc889748b01786d51f5e5955f8b4db959ca7c080322120e865e0e68b1",
+      "bytes": 28396,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "후디의 후드는 재킷 후드 안에서 목 둘레를 감싸게 두고, 리브 소매는 재킷 소매 밖으로 살짝 내세요.",
+        "en": "Let the hoodie's own hood bunch around your neck inside the jacket's hood, and pull the ribbed cuffs just past the jacket sleeves.",
+        "de": "Die Hoodie-Kapuze unter der Jackenkapuze locker um den Hals legen und die Rippbündchen etwas aus den Jackenärmeln ziehen."
+      },
+      "sourceDescription": {
+        "ko": "버건디 후디의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Burgundy hoodie. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Burgunderroter Hoodie. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "버건디 후디 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-street-20261026-04.03-bottom",
+      "name": {
+        "ko": "블랙 루즈 진",
+        "en": "Black loose jeans",
+        "de": "Schwarze lockere Jeans"
+      },
+      "nameKo": "블랙 루즈 진",
+      "descriptor": "Washed black relaxed straight jeans with visible black denim texture.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/04-03-bottom.webp",
+      "sha256": "3101651ef1bb6b5c7e7a730fcd6a2eacaca1a018d5ae034f26e02c90dbbee19e",
+      "bytes": 31642,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "여유 있는 통을 곧게 내려 입고, 밑단은 부츠 위에 머물게 해 자전거 체인에 닿지 않게 하세요.",
+        "en": "Let the relaxed legs fall straight, with the hems resting on the boots and clear of the bike chain.",
+        "de": "Die lockeren Beine gerade fallen lassen; die Säume liegen auf den Boots und bleiben weg von der Fahrradkette."
+      },
+      "sourceDescription": {
+        "ko": "블랙 루즈 진의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black loose jeans. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarze lockere Jeans. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 루즈 진 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-f35-day-street-20261026-04.04-shoes",
+      "name": {
+        "ko": "블랙 앵클부츠",
+        "en": "Black ankle boots",
+        "de": "Schwarze Ankle Boots"
+      },
+      "nameKo": "블랙 앵클부츠",
+      "descriptor": "Matching pair black leather ankle boots, rounded toes and thick black soles, full upright ankle silhouette.",
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/04-04-shoes.webp",
+      "sha256": "fe48bb086bc5890f7197859ddf4ac8517fab864f6125e350313807531d07a44c",
+      "bytes": 31526,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "진 밑단을 부츠 목 위에 가볍게 얹고, 두꺼운 밑창은 그대로 드러나게 신으세요.",
+        "en": "Let the jean hems rest lightly over the boot shafts and leave the thick soles on show.",
+        "de": "Die Jeanssäume locker auf den Schaft fallen lassen und die dicke Sohle sichtbar lassen."
+      },
+      "sourceDescription": {
+        "ko": "블랙 앵클부츠의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black ankle boots. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarze Ankle Boots. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 앵클부츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-street-20261026-04.05-bag",
+      "name": {
+        "ko": "블랙 백팩",
+        "en": "Black backpack",
+        "de": "Schwarzer Rucksack"
+      },
+      "nameKo": "블랙 백팩",
+      "descriptor": "Plain black nylon backpack, black padded shoulder straps and compact rounded rectangular body; rear body mostly hidden and conservatively reconstructed.",
+      "image": "products/05-bag.webp",
+      "deliveredImage": "products/04-05-bag.webp",
+      "sha256": "76a2ce022124be30eb37bd07641b65a770fba61852007f46edee2d51f8cb83b9",
+      "bytes": 30194,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "두 어깨에 메고 끈을 줄여 등에 붙이면 몸을 숙여도 흔들리지 않아요.",
+        "en": "Wear it on both shoulders with the straps shortened, so it sits close to your back and stays put when you bend down.",
+        "de": "Über beide Schultern tragen und die Gurte kürzen, damit er eng am Rücken sitzt und beim Bücken nicht verrutscht."
+      },
+      "sourceDescription": {
+        "ko": "블랙 백팩의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black backpack. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarzer Rucksack. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 백팩 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title (used as caption), intro and wearing guide (used as tip) and Korean product names are the delivered master, verbatim. The delivered product descriptions were one reconstruction template sentence per product (IMAGE_MAPPING_HANDOFF 5-1), so per-product how-to-wear ko/en/de was written from the editorial; delivered lines are kept in sourceDescription. en/de intro/tip were re-translated from the Korean master; delivered en/de kept in copy.sourceCopy.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-street-20261026-04",
+  "appBuild": "b166",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "street",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-street-20261026-04.01-outer"
+  }
+}

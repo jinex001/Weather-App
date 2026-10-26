@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-street-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d624923b1ee0dbb302118fcb33d48453da6c23cdaddb97e4343b1dd6ffc1379a",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "네이비 레인코트와 머스터드 플리스",
+      "caption": "네이비 레인코트와 머스터드 플리스",
+      "intro": "장을 보고 나오는 낮의 거리. 네이비 아우터와 비니 사이로 머스터드 플리스가 따뜻한 포인트를 만듭니다.",
+      "tip": "종이봉투는 젖지 않게 보호하고, 비니 위에 후드를 올릴 때 시야와 착용감을 확인하세요."
+    },
+    "en": {
+      "title": "MUSTARD ON THE WAY OUT",
+      "caption": "A navy raincoat with a mustard fleece.",
+      "intro": "Out of the shop and onto the street by day. Between the navy coat and the beanie, a mustard fleece adds a warm accent.",
+      "tip": "Keep the paper bag out of the wet, and check your view and fit when pulling the hood over the beanie."
+    },
+    "de": {
+      "title": "SENFGELB AUF DEM WEG NACH DRAUSSEN",
+      "caption": "Marineblauer Regenmantel mit senfgelbem Fleece.",
+      "intro": "Tagsüber aus dem Laden auf die Straße. Zwischen marineblauem Mantel und Mütze setzt ein senfgelbes Fleece einen warmen Akzent.",
+      "tip": "Die Papiertüte vor Nässe schützen und beim Aufsetzen der Kapuze über der Mütze auf freie Sicht und guten Sitz achten."
+    },
+    "pull": "BREAD FIRST, HOOD SECOND.",
+    "sourceCopy": {
+      "en": {
+        "title": "Navy raincoat and mustard fleece",
+        "intro": "A navy coat and beanie frame a mustard fleece accent on the walk home from the neighbourhood shop.",
+        "tip": "Protect paper bags from the rain and check your view and comfort when pulling the hood over your beanie."
+      },
+      "de": {
+        "title": "Marineblauer Regenmantel und senfgelbes Fleece",
+        "intro": "Marineblauer Mantel und Mütze rahmen einen senfgelben Fleeceakzent auf dem Heimweg vom Einkauf.",
+        "tip": "Papiertüten vor Regen schützen und beim Überziehen der Kapuze auf freie Sicht und bequemen Sitz achten."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-street-20261026-05.01-outer",
+      "name": {
+        "ko": "네이비 후드 레인코트",
+        "en": "Navy hooded raincoat",
+        "de": "Marineblauer Kapuzenregenmantel"
+      },
+      "nameKo": "네이비 후드 레인코트",
+      "descriptor": "Deep navy waterproof hooded coat, hip-to-thigh length, relaxed fit, plain cuffs, dark fastenings, front mostly hidden by pose.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/05-01-outer.webp",
+      "sha256": "502ddac23e6a7b067c87d871ddbf9fb605eeb7bd10e1f6660968b50d0ec5e7a3",
+      "bytes": 42102,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "비니 위로 후드를 덮어 쓰고, 엉덩이를 덮는 길이로 아래 레이어를 모두 감싸세요.",
+        "en": "Pull the hood over the beanie and let the hip-covering length wrap all the layers beneath.",
+        "de": "Die Kapuze über die Mütze ziehen und den Mantel, der über die Hüfte reicht, alle Lagen darunter bedecken lassen."
+      },
+      "sourceDescription": {
+        "ko": "네이비 후드 레인코트의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Navy hooded raincoat. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Marineblauer Kapuzenregenmantel. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 후드 레인코트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "midlayer",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-street-20261026-05.02-top",
+      "name": {
+        "ko": "머스터드 플리스",
+        "en": "Mustard fleece midlayer",
+        "de": "Senfgelbe Fleecejacke"
+      },
+      "nameKo": "머스터드 플리스",
+      "sourceName": {
+        "en": "Mustard fleece midlayer",
+        "de": "Senfgelbe Fleecezwischenlage"
+      },
+      "descriptor": "Mustard yellow fleece midlayer, fuzzy collar and cuffs visible, simple zip-front long sleeves conservatively reconstructed.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/05-02-midlayer.webp",
+      "sha256": "61bdcb7fa64cdbd6d94815bb738d119e087130530ab6b38152927030e2c67781",
+      "bytes": 47782,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "지퍼를 올려 복슬한 칼라가 코트 목둘레 위로 보이게 하고, 소매 끝도 코트 소매 밖으로 살짝 내세요.",
+        "en": "Zip it up so the fuzzy collar shows above the coat's neckline, and let the cuffs peek out from the coat sleeves too.",
+        "de": "Hochziehen, damit der flauschige Kragen über dem Mantelausschnitt zu sehen ist, und auch die Bündchen etwas aus den Mantelärmeln schauen lassen."
+      },
+      "sourceDescription": {
+        "ko": "머스터드 플리스의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Mustard fleece midlayer. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Senfgelbe Fleecezwischenlage. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "머스터드 플리스 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-under",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-f35-day-street-20261026-05.03-under",
+      "name": {
+        "ko": "슬레이트 그레이 니트",
+        "en": "Slate grey knit",
+        "de": "Schiefergrauer Pullover"
+      },
+      "nameKo": "슬레이트 그레이 니트",
+      "descriptor": "Slate grey knit crewneck base sweater, small neckline visible, simple long sleeve body reconstructed.",
+      "image": "products/03-under.webp",
+      "deliveredImage": "products/05-03-top.webp",
+      "sha256": "0dd61bfb32b81bccf6198e7c24d33efd181b53b5afeda63230e07a4d55338282",
+      "bytes": 42560,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "플리스 안에 얇게 받쳐 입어 목선만 살짝 보이게 하세요.",
+        "en": "Wear it as a thin layer under the fleece, with just the neckline showing.",
+        "de": "Als dünne Lage unter dem Fleece tragen, sodass nur der Ausschnitt zu sehen ist."
+      },
+      "sourceDescription": {
+        "ko": "슬레이트 그레이 니트의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Slate grey knit. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schiefergrauer Pullover. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "슬레이트 그레이 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-street-20261026-05.04-bottom",
+      "name": {
+        "ko": "그레이 루즈 팬츠",
+        "en": "Grey loose trousers",
+        "de": "Graue lockere Hose"
+      },
+      "nameKo": "그레이 루즈 팬츠",
+      "descriptor": "Medium grey loose straight woven trousers, upper side visible and lower leg conservatively inferred.",
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/05-04-bottom.webp",
+      "sha256": "000678234e1d2e580788dbe0e11c12ff201562392e04822455ffb7aad0e2b3d7",
+      "bytes": 23634,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "허리는 코트 밑단 안에 두고, 곧은 통이 젖은 바닥 위로 깔끔하게 떨어지게 입으세요.",
+        "en": "Keep the waist under the coat hem and let the straight legs fall cleanly above the wet ground.",
+        "de": "Den Bund unter dem Mantelsaum lassen und die geraden Beine sauber über dem nassen Boden fallen lassen."
+      },
+      "sourceDescription": {
+        "ko": "그레이 루즈 팬츠의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Grey loose trousers. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Graue lockere Hose. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 루즈 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-headwear",
+      "category": "hat",
+      "appCategory": "headwear",
+      "appItemId": "rn-chilly-f35-day-street-20261026-05.05-headwear",
+      "name": {
+        "ko": "네이비 리브 비니",
+        "en": "Navy ribbed beanie",
+        "de": "Marineblaue Rippstrickmütze"
+      },
+      "nameKo": "네이비 리브 비니",
+      "descriptor": "Dark navy rib knit beanie with thick folded cuff, round close-fitting crown.",
+      "image": "products/05-headwear.webp",
+      "deliveredImage": "products/05-05-hat.webp",
+      "sha256": "ceddcbccaf3d3831425dc123c25a6bb821e07a104735614ab48b90b5022f74e3",
+      "bytes": 46458,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "접힌 단을 이마 위까지 내려 쓰고, 그 위로 코트 후드를 올려 한 겹 더 막으세요.",
+        "en": "Wear the folded cuff down to your brow and pull the coat's hood over it as one more layer.",
+        "de": "Den Umschlag bis zur Stirn ziehen und die Kapuze des Mantels als weitere Lage darüber aufsetzen."
+      },
+      "sourceDescription": {
+        "ko": "네이비 리브 비니의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Navy ribbed beanie. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Marineblaue Rippstrickmütze. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 리브 비니 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title (used as caption), intro and wearing guide (used as tip) and Korean product names are the delivered master, verbatim. The delivered product descriptions were one reconstruction template sentence per product (IMAGE_MAPPING_HANDOFF 5-1), so per-product how-to-wear ko/en/de was written from the editorial; delivered lines are kept in sourceDescription. en/de intro/tip were re-translated from the Korean master; delivered en/de kept in copy.sourceCopy.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-street-20261026-05",
+  "appBuild": "b166",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "street",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-street-20261026-05.02-top"
+  }
+}

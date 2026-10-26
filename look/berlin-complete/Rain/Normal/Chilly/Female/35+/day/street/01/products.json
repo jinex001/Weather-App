@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-street-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d8da4a2052f1e27242db69d463117954f294f482b43842b47c227e801685de50",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "베이지 레인코트와 오트밀 니트",
+      "caption": "베이지 레인코트와 오트밀 니트",
+      "intro": "물웅덩이를 피해 걷는 낮 거리. 긴 레인코트에 터틀넥과 와이드 팬츠를 겹쳐 차분하게 입었습니다.",
+      "tip": "후드는 시야를 가리지 않게 조절하고, 젖은 돌바닥에서는 짧은 보폭으로 걸으세요."
+    },
+    "en": {
+      "title": "BEIGE OVER THE PUDDLE",
+      "caption": "A beige raincoat over an oatmeal knit.",
+      "intro": "A daytime street, stepping around the puddles. A long raincoat goes over a turtleneck and wide-leg trousers for a calm, layered look.",
+      "tip": "Adjust the hood so it doesn't block your view, and take short steps on wet cobblestones."
+    },
+    "de": {
+      "title": "BEIGE ÜBER DER PFÜTZE",
+      "caption": "Beiger Regenmantel über haferfarbenem Strick.",
+      "intro": "Eine Straße am Tag, ein Schritt an der Pfütze vorbei. Ein langer Regenmantel über Rollkragenpullover und weiter Hose – ruhig und in Lagen getragen.",
+      "tip": "Die Kapuze so einstellen, dass sie die Sicht nicht verdeckt, und auf nassem Kopfsteinpflaster mit kurzen Schritten gehen."
+    },
+    "pull": "NOT TODAY, PUDDLE.",
+    "sourceCopy": {
+      "en": {
+        "title": "Beige raincoat and oatmeal knit",
+        "intro": "A long raincoat, turtleneck and wide-leg trousers make a calm layered look for a rainy daytime walk.",
+        "tip": "Adjust the hood to keep your view clear and take short steps on wet paving."
+      },
+      "de": {
+        "title": "Beiger Regenmantel und haferfarbener Strick",
+        "intro": "Ein langer Regenmantel, Rollkragenpullover und weite Hose ergeben einen ruhigen Lagenlook für den verregneten Tag.",
+        "tip": "Die Kapuze so einstellen, dass die Sicht frei bleibt. Auf nassem Pflaster kleine Schritte machen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-street-20261026-01.01-outer",
+      "name": {
+        "ko": "스톤 베이지 후드 레인코트",
+        "en": "Stone beige hooded raincoat",
+        "de": "Steinbeiger Kapuzenregenmantel"
+      },
+      "nameKo": "스톤 베이지 후드 레인코트",
+      "descriptor": "Stone beige long waterproof hooded coat, black snaps, broad lapel/placket, welt pockets and cuff tabs, open front.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-01-outer.webp",
+      "sha256": "a030d04cda4ba5207bb97fae98a00bdf5830b2a8a22ce84917b0f088ba15eeb3",
+      "bytes": 27996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "앞여밈은 열어 두어 니트와 팬츠가 길게 이어 보이게 하고, 후드는 한 손으로 이마 위까지 당겨 쓰세요.",
+        "en": "Leave the front open so the knit and trousers read as one long line, and pull the hood forward to your brow with one hand.",
+        "de": "Die Front offen lassen, damit Strick und Hose eine lange Linie bilden, und die Kapuze mit einer Hand bis zur Stirn ziehen."
+      },
+      "sourceDescription": {
+        "ko": "스톤 베이지 후드 레인코트의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Stone beige hooded raincoat. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Steinbeiger Kapuzenregenmantel. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "스톤 베이지 후드 레인코트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-street-20261026-01.02-top",
+      "name": {
+        "ko": "오트밀 터틀넥 니트",
+        "en": "Oatmeal turtleneck knit",
+        "de": "Haferfarbener Rollkragenpullover"
+      },
+      "nameKo": "오트밀 터틀넥 니트",
+      "descriptor": "Oatmeal chunky textured knit turtleneck sweater, ribbed neck cuffs and hem.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/01-02-top.webp",
+      "sha256": "5cf5848418706ac0bd8302b3b4280d105f04d02dd82c5bbcc5c78351ecfd8f5d",
+      "bytes": 49566,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "목을 높게 세워 레인코트 깃 사이를 채우고, 밑단은 팬츠 허리 위에 짧게 걸치게 두세요.",
+        "en": "Wear the neck high to fill the space between the coat's lapels, and let the hem sit just over the trouser waist.",
+        "de": "Den Kragen hoch tragen, damit er den Raum zwischen den Mantelrevers füllt, und den Saum knapp über dem Hosenbund enden lassen."
+      },
+      "sourceDescription": {
+        "ko": "오트밀 터틀넥 니트의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Oatmeal turtleneck knit. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Haferfarbener Rollkragenpullover. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "오트밀 터틀넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-street-20261026-01.03-bottom",
+      "name": {
+        "ko": "차콜 와이드 팬츠",
+        "en": "Charcoal wide-leg trousers",
+        "de": "Anthrazitfarbene weite Hose"
+      },
+      "nameKo": "차콜 와이드 팬츠",
+      "descriptor": "Charcoal wool-texture wide straight full-length trousers.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/01-03-bottom.webp",
+      "sha256": "5eb4cbe0192cd0eeecd0032e755a2a916ad5bc6613a7b2e19f5005ae495106f2",
+      "bytes": 23138,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "밑단이 부츠 발등에 살짝 닿는 길이로 입어 젖은 바닥에 끌리지 않게 하세요.",
+        "en": "Wear them at a length where the hems just touch the tops of the boots, so they don't drag on the wet ground.",
+        "de": "In einer Länge tragen, bei der die Säume gerade auf den Boots aufliegen, damit sie nicht über den nassen Boden schleifen."
+      },
+      "sourceDescription": {
+        "ko": "차콜 와이드 팬츠의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Charcoal wide-leg trousers. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Anthrazitfarbene weite Hose. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 와이드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-f35-day-street-20261026-01.04-shoes",
+      "name": {
+        "ko": "블랙 러그솔 앵클부츠",
+        "en": "Black lug-sole ankle boots",
+        "de": "Schwarze Ankle Boots mit Profilsohle"
+      },
+      "nameKo": "블랙 러그솔 앵클부츠",
+      "descriptor": "Matching pair black leather ankle boots with rounded toes and chunky black lug soles.",
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/01-04-shoes.webp",
+      "sha256": "f828dba7ee055ec8b7a6b1071c87e4275656628f4588638da4a8f253258bb0a5",
+      "bytes": 27768,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "두꺼운 러그솔로 젖은 돌바닥을 디디고, 와이드 팬츠 밑단 아래로 앞코만 보이게 신으세요.",
+        "en": "Let the thick lug soles take the wet cobbles, with only the toes showing beneath the wide hems.",
+        "de": "Mit der dicken Profilsohle über das nasse Kopfsteinpflaster gehen; unter den weiten Säumen schauen nur die Spitzen hervor."
+      },
+      "sourceDescription": {
+        "ko": "블랙 러그솔 앵클부츠의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black lug-sole ankle boots. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarze Ankle Boots mit Profilsohle. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 러그솔 앵클부츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-street-20261026-01.05-bag",
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "nameKo": "블랙 숄더백",
+      "descriptor": "Plain black soft leather small shoulder bag, narrow shoulder strap, elongated compact body visible under arm.",
+      "image": "products/05-bag.webp",
+      "deliveredImage": "products/01-05-bag.webp",
+      "sha256": "ca1c32656d7129a82c6280784e57e0b0a11816e683306672754e242bb82179a9",
+      "bytes": 34378,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "짧은 끈으로 어깨에 메고 팔 아래에 바짝 붙여 레인코트 앞섶 안쪽에 두세요.",
+        "en": "Wear it on the shoulder on its short strap, tucked close under your arm inside the open front of the coat.",
+        "de": "Am kurzen Riemen über der Schulter tragen und eng unter dem Arm halten, innerhalb der offenen Mantelfront."
+      },
+      "sourceDescription": {
+        "ko": "블랙 숄더백의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black shoulder bag. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarze Schultertasche. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 숄더백 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title (used as caption), intro and wearing guide (used as tip) and Korean product names are the delivered master, verbatim. The delivered product descriptions were one reconstruction template sentence per product (IMAGE_MAPPING_HANDOFF 5-1), so per-product how-to-wear ko/en/de was written from the editorial; delivered lines are kept in sourceDescription. en/de intro/tip were re-translated from the Korean master; delivered en/de kept in copy.sourceCopy.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-street-20261026-01",
+  "appBuild": "b166",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "street",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-street-20261026-01.01-outer"
+  }
+}

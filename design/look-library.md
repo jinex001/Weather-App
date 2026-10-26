@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-26 (앱 빌드 b164) · 210룩 · 1324아이템 · 기사 룩 210 (JavaScriptCore(JXA)로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-26 (앱 빌드 b166) · 215룩 · 1349아이템 · 기사 룩 215 (JavaScriptCore(jsc)로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -233,3 +233,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b164 · Rain / Normal / Chilly / Male / 35+ / Day / Street — 2026-10-26 set (5 looks)
 
 에디토리얼 5장(모두 1024×1536 JPG) + 독립 투명 WebP 제품 23개(5/4/5/4/5), `look/berlin-complete/Rain/Normal/Chilly/Male/35+/day/street/<01–05>/`, 보충 파일 `look/rain-normal-male-day-street-20261026.js`. 룩 `rn-chilly-m35-day-street-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, 낮 = `time` 없음). 01 차콜 파카 + 오트밀 플리스 + 네이비 스웨트셔츠 + 카고 + 레이스업 부츠 · 02 코발트 재킷 + 차콜 스카프 + 와이드 팬츠 + 크로스보디 · 03 러스트 재킷 + 차콜 오버셔츠 + 크림 니트 + 브라운 팬츠 + 우산 · 04 올리브 셸 + 버건디 후디 + 블랙 진 + 청키 부츠 · 05 네이비 셸 + 머스터드 플리스 + 그레이 스웨트셔츠 + 네이비 비니 + 그레이 팬츠. 분류: 제작 측 `midlayer`(플리스 집업·오버셔츠) → `top`, 그 안에 입은 제작 측 `top`(스웨트셔츠·니트) → `under`(카드 라벨 Top/Under로 겹침 순서가 보임; 04 후디는 미들레이어가 없어 `top`), `hat` → `headwear`, `umbrella` → `accessory`. 파일 이름은 `NN-<앱 분류>.webp`(바이트 그대로, 제작 측 이름은 `deliveredImage`). 입는 법은 상위 작업이 확정한 수정 한국어 마스터(`sourceHowToWear` = 제작 측 틀 문장 원문). 대표 컷은 b134 제목 단어 규칙: 05 MUSTARD → 머스터드 플리스 `02-top`, 나머지 → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(04 자전거·자물쇠, 05 종이 장바구니)은 제품 아님. 모델 외관 28–32세, 숫자 기온 없음. [검증](rain-normal-male-day-street-20261026-validation.md).
+
+## b166 · Rain / Normal / Chilly / Female / 35+ / Day / Street — 2026-10-26 set (5 looks)
+
+에디토리얼 5장(모두 1024×1536 JPG) + 독립 투명 WebP 제품 25개(5/4/6/5/5), `look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/street/<01–05>/`, 보충 파일 `look/rain-normal-female-day-street-20261026.js`. 룩 `rn-chilly-f35-day-street-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: street`, 낮 = `time` 없음). 01 스톤 베이지 후드 레인코트 + 오트밀 터틀넥 + 차콜 와이드 팬츠 + 러그솔 앵클부츠 + 숄더백 · 02 코발트 레인 재킷 + 그레이 터틀넥 + 테크니컬 팬츠 + 크로스바디 · 03 러스트 레인 재킷 + 차콜 패딩 미드레이어 + 크림 니트 + 다크 브라운 와이드 팬츠 + 블랙 우산 + 골드 미니 후프 · 04 올리브 필드 재킷 + 버건디 후디 + 블랙 루즈 진 + 앵클부츠 + 백팩 · 05 네이비 레인코트 + 머스터드 플리스 + 슬레이트 니트 + 그레이 팬츠 + 네이비 비니. 분류: 제작 측 `midlayer` → `top`, 그 안 `top` → `under`(03·05), `umbrella` → `accessory`, `jewelry` → `jewelry`, `hat` → `headwear`. 파일 이름은 `NN-<앱 분류>.webp`(바이트 그대로, 제작 측 이름은 `deliveredImage`). 한국어 마스터: 제목 → `deck.ko`(앱 제목은 영어 대문자라 한국어 제목을 캡션으로), 인트로 → `intro.ko`, 착용 가이드 → `tip.ko`, 제품 이름 그대로. 제작 측 제품 설명은 제품마다 같은 복원 틀 문장이라 입는 법은 에디토리얼 보고 ko/en/de 새로 씀(`sourceDescription`에 원문). 대표 컷은 b134 제목 단어 규칙: 05 MUSTARD → 머스터드 플리스 `02-top`, 나머지(BEIGE·COBALT·RUST·OLIVE) → 아우터, 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(02 열쇠, 04 자전거·자물쇠, 05 종이 장바구니)은 제품 아님. 타깃 여성 30–44세, 모델 외관 25–28세, 숫자 기온 없음. [검증](rain-normal-female-day-street-20261026-validation.md).

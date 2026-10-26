@@ -314,3 +314,13 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 문구: 한국어 마스터(제목·요약·인트로·제품 이름) 그대로. 제작 측 `howToWear`는 대부분 룩을 가로지르는 틀 문장(5문장이 19번) → 5-1장 기준 미달이라 에디토리얼을 보고 제품별 ko/en/de를 새로 씀(제품 고유인 스카프·가방·우산·비니 4문장은 한국어 그대로). 상위 작업(한국어 크리에이티브 담당)이 23문장을 에디토리얼과 대조해 수정 한국어 마스터로 확정(`automation/state/…-COPY_REVIEW.json`, 05 셸 과장 표현 한 곳 수정; 사용자 개별 승인 주장 안 함). 제작 측 문장은 `sourceHowToWear`에 그대로. 한국어 마스터에 팁이 없어 `tip` 없음(만들지 않음), `pull`은 장면을 보고 영어 대문자로 새로 씀.
 - 01·04 부츠 제품 컷이 거의 같은 모양(다른 파일·해시). 두 에디토리얼 모두 블랙 레이스업 러그 부츠라 그대로 두고 보고만 함.
 - [검증 기록](rain-normal-male-day-street-20261026-validation.md).
+
+## b166 · Rain / Normal / Chilly / Female / 35+ / Day / Street — 2026-10-26 set (5 looks · 25 products)
+
+- 원본: 로컬 outbox 완성 배치(READY.json `approved`·`editorialsApproved`·`products_complete`, 목록 116개 SHA-256 일치). 배포 파일은 `originals/product-breakdown/complete/NN/editorial.jpg`·`products/*.webp`만 바이트 그대로, 이름 `NN-<앱 분류>.webp`(제작 측 이름은 `deliveredImage`). PNG 마스터·리뷰 시트·프롬프트는 커밋하지 않음.
+- `sky: "rain"`, `rain: "normal"`, 낮 세트라 `time` 없음. 폴더 `Rain/Normal/Chilly/Female/35+/day/street/<NN>/`, ID는 제작 측 `rn-chilly-f35-day-street-20261026-NN` 그대로.
+- 분류(새 코드 없음): 제작 측 `midlayer`(03 패딩·05 플리스) → `top`, 그 안 제작 측 `top` → `under`, `umbrella` → `accessory`, `jewelry`(골드 후프 한 쌍) → `jewelry`, `hat` → `headwear`.
+- 문구: 이 배치의 한국어 마스터는 룩마다 `titleKo`·`introKo`·`wearingGuideKo`. 앱 제목은 영어 대문자라 `titleKo` → `deck.ko`(캡션), `introKo` → `intro.ko`, `wearingGuideKo` → `tip.ko`, 바이트 그대로. en/de는 한국어 마스터에서 다시 번역(제작 측 en/de는 `copy.sourceCopy`). 제작 측 제품 `description*`은 모든 제품이 같은 복원 틀 문장이라 5-1장 기준 미달 → 에디토리얼을 보고 제품별 ko/en/de 입는 법을 새로 씀(`sourceDescription`에 원문). 독일어 이름 2개(…Zwischenlage)는 자연스러운 이름으로(`sourceName`에 원문).
+- 장면 소품(02 열쇠, 04 자전거·자물쇠·열쇠, 05 종이 장바구니)은 제품 아님. 블랙 우산·골드 후프는 전달된 제품. 크롭으로 안 보이는 신발·양말은 넣지 않음.
+- 이 환경엔 Pillow·node·브라우저가 없어 투명 확인은 WebP `ALPH` 청크를 순수 파이썬으로 디코드해서 함(25장 모서리·테두리 알파 0), 런타임은 `jsc`로 index.html 룩 스크립트 19개 로드. 화면 렌더링 확인은 못 함(실기기 확인 필요).
+- [검증 기록](rain-normal-female-day-street-20261026-validation.md).

@@ -1,6 +1,6 @@
 # 룩 세트 현황 · 빈 칸 목록
 
-2026-10-26 점검 (앱 빌드 b164, 210룩 · 1324아이템 · 기사 210룩; JavaScriptCore(JXA)로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
+2026-10-26 점검 (앱 빌드 b166, 215룩 · 1349아이템 · 기사 215룩; JavaScriptCore(jsc)로 index.html 스크립트 순서대로 로드해 셈). 새 세트를 매핑할 때마다 이 표도 고칠 것.
 
 지금 들어 있는 룩은 전부 **쌀쌀함(체감 1~9°) · 35+**입니다. 빈 칸에서는 앱이 다른 날씨의 룩으로 채우지 않고 COMING SOON 플레이스홀더를 보여 줍니다(b114).
 
@@ -22,7 +22,7 @@
 | 가벼운 비 | 남 | 저녁 | 5 기사 (b158, 30제품, 투명 WebP) | 5 기사 (b161, 25제품, 투명 WebP) | **✕** | `Rain/Light/Chilly/Male/35+/night/running-20261025/<01–05>/`, 스트리트는 `street/<01–05>/` |
 | 가벼운 비 | 여 | 낮 | 5 기사 (b159, 23제품, 투명 WebP) | 5 기사 (casual) | 5 기사 | `Rain/Light/Chilly/Female/35+/day/<casual·minimal>/`, 러닝은 `running-20261025/<01–05>/` |
 | 가벼운 비 | 여 | 저녁 | 5 기사 (b160, 33제품, 투명 WebP) | 10 기사 (b149·b150) | 5 기사 (b151) | `Rain/Light/Chilly/Female/35+/night/<street·street-20261024·minimal>/`, 러닝은 `running-20261026/<01–05>/` |
-| 보통 비 | 여 | 낮 | 5 기사 (b157, 28제품, 투명 WebP) | **✕** | **✕** | `Rain/Normal/Chilly/Female/35+/day/running-20261025/<01–05>/` |
+| 보통 비 | 여 | 낮 | 5 기사 (b157, 28제품, 투명 WebP) | 5 기사 (b166, 25제품, 투명 WebP) | **✕** | `Rain/Normal/Chilly/Female/35+/day/running-20261025/<01–05>/`, 스트리트는 `street/<01–05>/` |
 | 보통 비 | 여 | 저녁 | **✕** | **✕** | **✕** | (없음) |
 | 보통 비 | 남 | 낮 | **✕** | 5 기사 (b164, 23제품, 투명 WebP) | 5 기사 (b163, 24제품, 투명 WebP) | `Rain/Normal/Chilly/Male/35+/day/<street·minimal>/<01–05>/` |
 | 보통 비 | 남 | 저녁 | **✕** | **✕** | **✕** | (없음) |
@@ -34,7 +34,7 @@
 
 1. 흐림 · 남성 · 저녁: 러닝 (1세트; 스트리트는 b143에 들어옴 — 이 목록이 b143 때 안 고쳐져 있던 것을 b145에서 바로잡음)
 2. 가벼운 비 · 저녁: 남성 미니멀(남성 러닝은 b158, 남성 스트리트는 b161) (1세트) — 가벼운 비 · 여성 · 낮 러닝은 b159, 가벼운 비 · 여성 · 저녁 러닝은 b160에 들어옴
-3. 보통 비: 남녀 × 낮·저녁 × 3스타일 중 여성 낮 러닝(b157)·남성 낮 미니멀(b163)·남성 낮 스트리트(b164)를 뺀 9세트
+3. 보통 비: 남녀 × 낮·저녁 × 3스타일 중 여성 낮 러닝(b157)·남성 낮 미니멀(b163)·남성 낮 스트리트(b164)·여성 낮 스트리트(b166)를 뺀 8세트
 4. 쏟아지는 비: 남녀 × 낮·저녁 × 3스타일 (12세트), 폴더는 README만
 5. 다른 체감 단계 전부: 극한 추위 · 매우 추움 · 추움 · 선선함 · 쾌적함 · 따뜻함 · 더움 · 극심한 더위 (지금은 쌀쌀함만 있음, 쌀쌀함과 바로 옆 단계(추움 -9~0°, 선선함 10~17°)엔 쌀쌀함 룩이 대신 나옴, 그보다 먼 단계는 플레이스홀더)
 6. 눈: 세트도 앱 규칙도 아직 없음(눈 오는 날은 흐림 세트로 고름)
@@ -149,3 +149,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b164 · Rain / Normal / Chilly / Male / 35+ / Day / Street — 2026-10-26 set
 
 5룩 · 제품 23개(5/4/5/4/5) 투명 WebP, `look/rain-normal-male-day-street-20261026.js`(cutouts.js 앞). ID `rn-chilly-m35-day-street-20261026-01`–`05`, 폴더 `Rain/Normal/Chilly/Male/35+/day/street/<01–05>/`. 보통 비(63·66·81) 낮 남성 스트리트 플레이스홀더 → 이 5룩 중 3개(옆 단계 추움·선선함 낮도 같은 규칙으로). 이제 보통 비 남성 낮은 러닝만 빈 칸. 플리스·오버셔츠 `top`, 그 안 이너 `under`, 비니 `headwear`, 우산 `accessory`. [검증](rain-normal-male-day-street-20261026-validation.md).
+
+## b166 · Rain / Normal / Chilly / Female / 35+ / Day / Street — 2026-10-26 set
+
+5룩 · 제품 25개(5/4/6/5/5) 투명 WebP, `look/rain-normal-female-day-street-20261026.js`(cutouts.js 앞). ID `rn-chilly-f35-day-street-20261026-01`–`05`, 폴더 `Rain/Normal/Chilly/Female/35+/day/street/<01–05>/`. 보통 비(63·66·81) 낮 여성 스트리트 플레이스홀더 → 이 5룩 중 3개(옆 단계 추움·선선함 낮도 같은 규칙으로). 이제 보통 비 여성 낮은 미니멀만 빈 칸. 패딩·플리스 미드레이어 `top`, 그 안 니트 `under`, 우산 `accessory`, 골드 후프 `jewelry`, 비니 `headwear`. [검증](rain-normal-female-day-street-20261026-validation.md).

@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-f35-day-street-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "READY.json approved/editorialsApproved/products_complete; user authorized this single batch through publication on 2026-10-26. Products: Codex producer review, no separate per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0062c806af0f55fe92358798cd5fec1c220422fcb31aad006d2f4eede155d7a0",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "copy": {
+    "ko": {
+      "title": "코발트 재킷과 그레이 니트",
+      "caption": "코발트 재킷과 그레이 니트",
+      "intro": "열쇠를 찾는 짧은 순간에도 선명한 코발트가 눈에 들어옵니다. 두툼한 니트와 편한 팬츠를 함께 입었습니다.",
+      "tip": "가방 지퍼를 닫고, 실내에서는 겉옷을 열어 열기를 조절하세요."
+    },
+    "en": {
+      "title": "COBALT AT THE FRONT DOOR",
+      "caption": "A cobalt jacket with a grey knit.",
+      "intro": "Even in the brief moment of hunting for keys, the bright cobalt catches the eye. It's worn with a chunky knit and easy trousers.",
+      "tip": "Keep the bag zipped, and open your jacket indoors to let off some heat."
+    },
+    "de": {
+      "title": "KOBALT AN DER HAUSTÜR",
+      "caption": "Kobaltblaue Jacke mit grauem Strick.",
+      "intro": "Selbst im kurzen Moment der Schlüsselsuche fällt das leuchtende Kobaltblau ins Auge. Dazu ein dicker Strickpullover und eine bequeme Hose.",
+      "tip": "Die Tasche geschlossen halten und die Jacke drinnen öffnen, damit es nicht zu warm wird."
+    },
+    "pull": "THEY WERE HERE A SECOND AGO.",
+    "sourceCopy": {
+      "en": {
+        "title": "Cobalt jacket and grey knit",
+        "intro": "Bright cobalt brings colour to a brief search for keys, paired with a chunky knit and relaxed trousers.",
+        "tip": "Close the bag zip in the rain and open the jacket indoors to release excess warmth."
+      },
+      "de": {
+        "title": "Kobaltblaue Jacke und grauer Strick",
+        "intro": "Leuchtendes Kobaltblau setzt beim Suchen nach dem Schlüssel einen Akzent. Dazu kommen dicker Strick und eine lockere Hose.",
+        "tip": "Den Taschenreißverschluss im Regen schließen und die Jacke drinnen zum Temperaturausgleich öffnen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-f35-day-street-20261026-02.01-outer",
+      "name": {
+        "ko": "코발트 후드 레인 재킷",
+        "en": "Cobalt hooded rain jacket",
+        "de": "Kobaltblaue Regenjacke"
+      },
+      "nameKo": "코발트 후드 레인 재킷",
+      "descriptor": "Cobalt blue waterproof hooded jacket, dark central zip and placket, black rectangular cuff tabs, relaxed sleeves.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/02-01-outer.webp",
+      "sha256": "6a0c3c495a3eb5426e8bfb40a69906b165dc8439e15a6de7fdbdfc31232b3251",
+      "bytes": 43056,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "후드를 깊게 쓰고 지퍼는 가슴 아래까지만 올려 그레이 터틀넥이 보이게 입으세요.",
+        "en": "Wear the hood well forward and zip it only to below the chest, so the grey turtleneck shows.",
+        "de": "Die Kapuze tief aufsetzen und den Reißverschluss nur bis unter die Brust schließen, damit der graue Rollkragen sichtbar bleibt."
+      },
+      "sourceDescription": {
+        "ko": "코발트 후드 레인 재킷의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Cobalt hooded rain jacket. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Kobaltblaue Regenjacke. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "코발트 후드 레인 재킷 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-f35-day-street-20261026-02.02-top",
+      "name": {
+        "ko": "그레이 터틀넥 니트",
+        "en": "Grey turtleneck knit",
+        "de": "Grauer Rollkragenpullover"
+      },
+      "nameKo": "그레이 터틀넥 니트",
+      "descriptor": "Heather grey thick wool-textured turtleneck sweater, ribbed folded collar cuffs and hem.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-02-top.webp",
+      "sha256": "0940ff7aa57920fcc61dfd4f0bcff5db06d6113d0812d9e3069b075af995524b",
+      "bytes": 48776,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "목을 접어 턱 아래를 감싸고, 니트 소매 끝은 재킷 소매 밖으로 살짝 내어 입으세요.",
+        "en": "Fold the collar over so it wraps under your chin, and let the knit cuffs peek out from the jacket sleeves.",
+        "de": "Den Kragen umschlagen, sodass er unter dem Kinn anliegt, und die Strickbündchen etwas aus den Jackenärmeln schauen lassen."
+      },
+      "sourceDescription": {
+        "ko": "그레이 터틀넥 니트의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Grey turtleneck knit. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Grauer Rollkragenpullover. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 터틀넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-f35-day-street-20261026-02.03-bottom",
+      "name": {
+        "ko": "블랙 테크니컬 팬츠",
+        "en": "Black technical trousers",
+        "de": "Schwarze Funktionshose"
+      },
+      "nameKo": "블랙 테크니컬 팬츠",
+      "descriptor": "Black relaxed technical trousers, matte water-shedding woven material, straight loose leg; waistband and lower leg conservatively inferred.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/02-03-bottom.webp",
+      "sha256": "cec67d8198f5b861ca41131186d02048952ca27180b4ba273a667b9f6bde6d3b",
+      "bytes": 31100,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "허리 벨트는 재킷 밑단 아래에 가리고, 넉넉한 통은 그대로 두어 움직이기 편하게 입으세요.",
+        "en": "Keep the waist belt hidden under the jacket hem and leave the roomy legs loose for easy movement.",
+        "de": "Den Gürtel unter dem Jackensaum verschwinden lassen und die weiten Beine locker lassen, damit man sich frei bewegen kann."
+      },
+      "sourceDescription": {
+        "ko": "블랙 테크니컬 팬츠의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black technical trousers. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarze Funktionshose. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 테크니컬 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-f35-day-street-20261026-02.04-bag",
+      "name": {
+        "ko": "블랙 크로스바디백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스바디백",
+      "descriptor": "Black soft rectangular nylon crossbody bag, broad adjustable woven black strap and black zipper opening.",
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/02-04-bag.webp",
+      "sha256": "792a7bf8875e8de039098fbeed6e4afd711202932844bce25f9d38496a583c5d",
+      "bytes": 28718,
+      "dimensions": [
+        500,
+        500
+      ],
+      "howToWear": {
+        "ko": "넓은 스트랩을 재킷 위로 사선으로 메고, 가방은 몸 앞쪽에 두어 열고 닫기 쉽게 하세요.",
+        "en": "Run the wide strap diagonally over the jacket and keep the bag at the front, so it's easy to open and close.",
+        "de": "Den breiten Riemen schräg über die Jacke legen und die Tasche vorne tragen, damit sie sich leicht öffnen und schließen lässt."
+      },
+      "sourceDescription": {
+        "ko": "블랙 크로스바디백의 에디토리얼 기반 제품 복원 이미지. 가려진 부분은 보수적으로 추정했으며 실제 판매 제품 정보가 아닙니다.",
+        "en": "Black crossbody bag. Editorial-based product reconstruction; hidden details are inferred, not verified retail specifications.",
+        "de": "Schwarze Umhängetasche. Rekonstruktion anhand des Editorials; verdeckte Details sind ergänzt, keine bestätigten Handelsproduktspezifikationen."
+      },
+      "reconstruction": "Visible details matched; hidden construction conservatively inferred, not a verified retail product.",
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 크로스바디백 — 투명 배경 독립 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "notes": {
+    "ko": "사진을 바탕으로 복원한 AI 콘셉트 제품입니다. 가려진 부분은 추정을 포함하며 실제 브랜드·소재 구성·방수 성능은 확인되지 않았습니다.",
+    "en": "AI concept products reconstructed from the editorial. Hidden areas are inferred; brands, fibre composition and waterproof ratings are unverified.",
+    "de": "Aus dem Editorial rekonstruierte KI-Konzeptprodukte. Verdeckte Bereiche sind ergänzt; Marken, Faserzusammensetzung und Wasserdichtigkeit sind nicht bestätigt."
+  },
+  "copyReview": "Korean title (used as caption), intro and wearing guide (used as tip) and Korean product names are the delivered master, verbatim. The delivered product descriptions were one reconstruction template sentence per product (IMAGE_MAPPING_HANDOFF 5-1), so per-product how-to-wear ko/en/de was written from the editorial; delivered lines are kept in sourceDescription. en/de intro/tip were re-translated from the Korean master; delivered en/de kept in copy.sourceCopy.",
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-f35-day-street-20261026-02",
+  "appBuild": "b166",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "street",
+    "time": "day (no time key)",
+    "hero": "rn-chilly-f35-day-street-20261026-02.01-outer"
+  }
+}
