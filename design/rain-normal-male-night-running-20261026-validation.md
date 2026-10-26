@@ -37,7 +37,7 @@ Batch `rain-normal-chilly-male-night-running-20261026` (local outbox, `delivery/
 
 - Korean master used verbatim for title (→ products.json `copy.title.ko`), deck, intro, tip, product names and every product How to Wear; supplied en/de used verbatim except two German refinements: 05 deck `Orange Jacke …` → `Orangefarbene Jacke …`, 05 shell name `Orange Laufjacke mit Kapuze` → `Orangefarbene Laufjacke mit Kapuze` (originals in `copy.sourceDeck` / `sourceName`).
 - `article.title` = supplied English uppercase title; `pull` = supplied English pull in uppercase (`ADJUST EACH LAYER AS YOUR BODY WARMS UP.`, same for all five; the app shows one string); `tip` ko/en/de supplied (same for all five).
-- **Section 5-1 exception, reported:** product How to Wear is one sentence per category, so the set has 9 distinct notes for 36 products (each repeated across the five looks; 0 duplicates inside any one look). Under the user's explicit instruction ("Preserve Korean verbatim") and the parent gate (asserts `note.ko` = supplied `howToWear.ko`), the master was not rewritten. If per-look notes are wanted, the Korean creative owner should supply a revised master (b164 route).
+- **Historical b170 Section 5-1 exception (resolved below):** product How to Wear is one sentence per category, so the set has 9 distinct notes for 36 products (each repeated across the five looks; 0 duplicates inside any one look). Under the user's explicit instruction ("Preserve Korean verbatim") and the parent gate (asserts `note.ko` = supplied `howToWear.ko`), the master was not rewritten. If per-look notes are wanted, the Korean creative owner should supply a revised master (b164 route).
 - Deck/intro are scene sentences, not product-name lists; English/German do not capitalise product names.
 
 ## Checks run
@@ -49,3 +49,8 @@ Batch `rain-normal-chilly-male-night-running-20261026` (local outbox, `delivery/
 
 - Screen rendering (home, Today's Look sheet) not run in this session (no browser); check on device after deployment.
 - Per-product user visual approval is not claimed (Codex producer review + Claude visual read).
+
+
+## b172 · copy-v2 completion
+
+The image producer revised the Korean master after the initial repeated-note finding. COPY_V2 supplies 36 distinct product-specific How-to-Wear notes in each of ko/en/de, plus five distinct uppercase English pulls and five distinct localized tips. This newer creative copy supersedes the earlier verbatim preservation instruction only for these fields. Runtime notes and public products.json descriptions/howToWear match. Images, names, IDs, titles, deck and intro are unchanged. Initial publication was completed by Claude Code; its follow-up attempt returned a new provider session limit, so parent Codex applied this scoped correction under the existing explicit deployment authorization. Parent runtime/image/copy gate passed before this commit.

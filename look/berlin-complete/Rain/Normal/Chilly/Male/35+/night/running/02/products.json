@@ -59,16 +59,16 @@
       "de": "Kurz anhalten, wenn die Mütze zu den Augenbrauen rutscht. Die kobaltblaue Jacke gibt den Farbton vor, der Rest bleibt dunkel. Reflexdetails an Schultern und Handschuhen frei lassen."
     },
     "tip": {
-      "ko": "젖은 노면에서는 속도를 낮추고, 달린 뒤에는 마른 옷으로 갈아입으세요. 반사 디테일만으로 야간 시야가 확보되는 것은 아니므로 밝은 길을 선택하세요.",
-      "en": "Slow down on wet surfaces and change into dry clothes after the run. Reflective details alone do not ensure visibility; choose a well-lit route.",
-      "de": "Auf nassem Untergrund langsamer laufen und danach trockene Kleidung anziehen. Reflexdetails allein sichern keine Sichtbarkeit; eine gut beleuchtete Strecke wählen."
+      "ko": "비니가 자꾸 내려오면 잠시 멈춰 접은 폭을 조절하세요. 코발트 셸의 후드를 함께 쓰는 경우에도 옆 시야를 확인하세요.",
+      "en": "If the beanie keeps slipping, pause to adjust the fold. Check your side vision when wearing the cobalt hood over it.",
+      "de": "Rutscht die Mütze wiederholt, zum Anpassen des Umschlags kurz anhalten. Mit der kobaltblauen Kapuze darüber die seitliche Sicht prüfen."
     },
     "pull": {
-      "ko": "몸이 데워지는 속도에 맞춰, 한 겹씩 조절하세요.",
-      "en": "Adjust each layer as your body warms up.",
-      "de": "Die Schichten anpassen, während der Körper warm wird."
+      "ko": "잠깐 멈춰 비니를 바로잡으세요.",
+      "en": "Pause, then straighten the beanie.",
+      "de": "Kurz anhalten und die Mütze richten."
     },
-    "appPull": "ADJUST EACH LAYER AS YOUR BODY WARMS UP."
+    "appPull": "PAUSE, THEN STRAIGHTEN THE BEANIE."
   },
   "products": [
     {
@@ -96,9 +96,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "얇은 보온 이너 위에 입고 지퍼로 환기량을 조절하세요. 후드는 시야를 가리지 않게 맞추고, 달린 뒤 젖은 셸은 벗어 말려주세요.",
-        "en": "Wear over a thin warm base layer and adjust the zip for ventilation. Keep the hood clear of your sightline and remove the damp shell after the run.",
-        "de": "Über einer dünnen warmen Basisschicht tragen und die Belüftung mit dem Reißverschluss regeln. Die Kapuze darf die Sicht nicht verdecken. Die feuchte Jacke nach dem Lauf ausziehen."
+        "ko": "코발트 셸의 어깨선을 블랙 이너 위에 편하게 맞추세요. 비니를 고치는 팔이 잘 올라가도록 지퍼를 턱 끝에 바짝 조이지 마세요.",
+        "en": "Set the cobalt shell comfortably over the black base. Avoid fastening the zip tightly under the chin so your arm can lift to adjust the beanie.",
+        "de": "Die kobaltblaue Jacke bequem über der schwarzen Basisschicht tragen. Den Reißverschluss nicht eng unter dem Kinn schließen, damit sich der Arm zum Richten der Mütze heben lässt."
       },
       "retailProduct": false,
       "brand": null,
@@ -106,7 +106,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "코발트 후드 러닝 셸 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "코발트 셸의 어깨선을 블랙 이너 위에 편하게 맞추세요. 비니를 고치는 팔이 잘 올라가도록 지퍼를 턱 끝에 바짝 조이지 마세요.",
+      "descriptionEn": "Set the cobalt shell comfortably over the black base. Avoid fastening the zip tightly under the chin so your arm can lift to adjust the beanie.",
+      "descriptionDe": "Die kobaltblaue Jacke bequem über der schwarzen Basisschicht tragen. Den Reißverschluss nicht eng unter dem Kinn schließen, damit sich der Arm zum Richten der Mütze heben lässt."
     },
     {
       "id": "02-top",
@@ -133,9 +136,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "몸에 가볍게 붙도록 입어 셸 안쪽의 부피를 줄이세요. 추위보다 달릴 때의 열감을 보고 레이어를 조절하고, 운동 뒤에는 마른 옷으로 갈아입으세요.",
-        "en": "Choose a close fit to keep bulk down under the shell. Adjust layers to the heat you build while running and change into dry clothing afterwards.",
-        "de": "Körpernah tragen, damit unter der Jacke wenig Volumen entsteht. Die Schichten an die Wärme beim Laufen anpassen und danach trockene Kleidung anziehen."
+        "ko": "하이넥은 비니와 셸 사이에서 목을 부드럽게 덮도록 입으세요. 목둘레가 겉 지퍼에 끼지 않게 안쪽으로 정리하세요.",
+        "en": "Let the mock neck cover the neck softly between beanie and shell. Keep the collar clear of the outer zip.",
+        "de": "Den Stehkragen zwischen Mütze und Jacke weich am Hals anliegen lassen. Den Kragen vom äußeren Reißverschluss fernhalten."
       },
       "retailProduct": false,
       "brand": null,
@@ -143,7 +146,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 하이넥 베이스 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "하이넥은 비니와 셸 사이에서 목을 부드럽게 덮도록 입으세요. 목둘레가 겉 지퍼에 끼지 않게 안쪽으로 정리하세요.",
+      "descriptionEn": "Let the mock neck cover the neck softly between beanie and shell. Keep the collar clear of the outer zip.",
+      "descriptionDe": "Den Stehkragen zwischen Mütze und Jacke weich am Hals anliegen lassen. Den Kragen vom äußeren Reißverschluss fernhalten."
     },
     {
       "id": "03-bottom",
@@ -170,9 +176,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "허리와 무릎이 편하게 움직이는 핏으로 입으세요. 밑단은 양말과 이어 발목을 덮고, 반사 디테일이 겉옷에 가리지 않게 정리하세요.",
-        "en": "Keep the waist and knees free to move. Let the hems meet your socks to cover the ankles, and keep reflective details clear of other layers.",
-        "de": "Auf Bewegungsfreiheit an Taille und Knien achten. Die Säume mit den Socken überlappen lassen und Reflexdetails nicht durch andere Schichten verdecken."
+        "ko": "팬츠 허리는 흘러내리지 않을 만큼 맞추고 밑단은 발목에 정돈하세요. 허벅지의 반사 표시가 셸 아래에서 접히지 않게 펴두세요.",
+        "en": "Secure the trousers at the waist and settle the hems at the ankles. Smooth the thigh reflection so it does not fold beneath the shell.",
+        "de": "Die Hose an der Taille sichern und die Säume an den Knöcheln richten. Das Reflexdetail am Oberschenkel glattziehen, damit es unter der Jacke nicht umknickt."
       },
       "retailProduct": false,
       "brand": null,
@@ -180,7 +186,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 슬림 러닝 팬츠 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "팬츠 허리는 흘러내리지 않을 만큼 맞추고 밑단은 발목에 정돈하세요. 허벅지의 반사 표시가 셸 아래에서 접히지 않게 펴두세요.",
+      "descriptionEn": "Secure the trousers at the waist and settle the hems at the ankles. Smooth the thigh reflection so it does not fold beneath the shell.",
+      "descriptionDe": "Die Hose an der Taille sichern und die Säume an den Knöcheln richten. Das Reflexdetail am Oberschenkel glattziehen, damit es unter der Jacke nicht umknickt."
     },
     {
       "id": "04-socks",
@@ -207,9 +216,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "타이츠나 팬츠 밑단과 겹쳐 발목을 덮으세요. 신발 안에서 주름이 잡히지 않게 펴 신고, 젖으면 달린 뒤 마른 양말로 갈아 신으세요.",
-        "en": "Overlap the hems to cover your ankles. Smooth out folds inside the shoes and change into dry socks after a wet run.",
-        "de": "Mit dem Hosensaum überlappen lassen, damit die Knöchel bedeckt sind. Falten im Schuh glattziehen und nach einem nassen Lauf trockene Socken anziehen."
+        "ko": "짙은 양말은 팬츠 밑단 아래에서 발목 틈을 메우도록 신으세요. 비니를 고치며 멈춘 김에 양말이 신발 안으로 내려가지 않았는지 확인하세요.",
+        "en": "Use the dark socks to close the ankle gap below the trouser hems. While stopped to fix the beanie, check that the socks have not slipped into the shoes.",
+        "de": "Mit den dunklen Socken die Lücke unter dem Hosensaum schließen. Beim Halt zum Richten der Mütze prüfen, ob die Socken in die Schuhe gerutscht sind."
       },
       "retailProduct": false,
       "brand": null,
@@ -217,7 +226,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "다크 러닝 양말 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "짙은 양말은 팬츠 밑단 아래에서 발목 틈을 메우도록 신으세요. 비니를 고치며 멈춘 김에 양말이 신발 안으로 내려가지 않았는지 확인하세요.",
+      "descriptionEn": "Use the dark socks to close the ankle gap below the trouser hems. While stopped to fix the beanie, check that the socks have not slipped into the shoes.",
+      "descriptionDe": "Mit den dunklen Socken die Lücke unter dem Hosensaum schließen. Beim Halt zum Richten der Mütze prüfen, ob die Socken in die Schuhe gerutscht sind."
     },
     {
       "id": "05-shoes",
@@ -244,9 +256,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "끈을 발등에 고르게 맞추고 끝이 바닥에 닿지 않게 묶으세요. 젖은 돌바닥과 낙엽에서는 보폭을 줄이고 접지 상태에 맞춰 속도를 낮추세요.",
-        "en": "Adjust the laces evenly and keep the ends off the ground. Shorten your stride on wet paving and leaves, and slow down as grip changes.",
-        "de": "Die Schnürung gleichmäßig anpassen und die Enden vom Boden fernhalten. Auf nassem Pflaster und Laub kürzere Schritte machen und das Tempo der Haftung anpassen."
+        "ko": "밝은 밑창의 러닝화는 뒤꿈치가 들리지 않도록 발등부터 고르게 묶으세요. 끈 끝은 짧게 정리해 젖은 낙엽에 끌리지 않게 하세요.",
+        "en": "Lace the pale-soled trainers evenly over the instep so the heel stays seated. Tidy the ends to keep them clear of wet leaves.",
+        "de": "Die Laufschuhe mit heller Sohle am Spann gleichmäßig schnüren, damit die Ferse sitzt. Die Enden so ordnen, dass sie nicht über nasses Laub schleifen."
       },
       "retailProduct": false,
       "brand": null,
@@ -254,7 +266,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙·크림 러닝화 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "밝은 밑창의 러닝화는 뒤꿈치가 들리지 않도록 발등부터 고르게 묶으세요. 끈 끝은 짧게 정리해 젖은 낙엽에 끌리지 않게 하세요.",
+      "descriptionEn": "Lace the pale-soled trainers evenly over the instep so the heel stays seated. Tidy the ends to keep them clear of wet leaves.",
+      "descriptionDe": "Die Laufschuhe mit heller Sohle am Spann gleichmäßig schnüren, damit die Ferse sitzt. Die Enden so ordnen, dass sie nicht über nasses Laub schleifen."
     },
     {
       "id": "06-gloves",
@@ -281,9 +296,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "손목을 소매 안쪽에 겹쳐 찬바람이 드는 틈을 줄이세요. 손가락이 편하게 구부러지는 핏을 고르고 젖은 장갑은 운동 뒤 말려주세요.",
-        "en": "Overlap the cuffs with your sleeves to reduce gaps. Keep enough room to bend your fingers and dry wet gloves after the run.",
-        "de": "Die Bündchen mit den Ärmeln überlappen lassen. Genug Platz zum Beugen der Finger lassen und nasse Handschuhe nach dem Lauf trocknen."
+        "ko": "반사선이 있는 손등은 소매 밖으로 드러내고 손목만 겹치세요. 비니 끝을 집을 때 손가락이 편하게 굽혀지는지 확인하세요.",
+        "en": "Keep the reflective backs visible beyond the sleeves, overlapping only the wrists. Check that your fingers bend comfortably when pinching the beanie edge.",
+        "de": "Die reflektierenden Handrücken vor den Ärmeln sichtbar lassen und nur die Handgelenke überlappen. Beim Greifen des Mützenrands sollen sich die Finger bequem beugen."
       },
       "retailProduct": false,
       "brand": null,
@@ -291,7 +306,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "리플렉티브 러닝 장갑 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "반사선이 있는 손등은 소매 밖으로 드러내고 손목만 겹치세요. 비니 끝을 집을 때 손가락이 편하게 굽혀지는지 확인하세요.",
+      "descriptionEn": "Keep the reflective backs visible beyond the sleeves, overlapping only the wrists. Check that your fingers bend comfortably when pinching the beanie edge.",
+      "descriptionDe": "Die reflektierenden Handrücken vor den Ärmeln sichtbar lassen und nur die Handgelenke überlappen. Beim Greifen des Mützenrands sollen sich die Finger bequem beugen."
     },
     {
       "id": "07-beanie",
@@ -318,9 +336,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "비니 끝을 귀 위까지 내려 쓰되 눈썹을 가리지 않게 맞추세요. 달리며 흘러내리면 잠시 멈춰 다시 정리하고 운동 뒤 말려주세요.",
-        "en": "Pull the beanie over your ears without covering the eyebrows. Stop briefly to readjust if it slips during the run, then let it dry afterwards.",
-        "de": "Die Mütze über die Ohren ziehen, ohne die Augenbrauen zu verdecken. Bei Verrutschen kurz anhalten, neu richten und nach dem Lauf trocknen lassen."
+        "ko": "접은 비니 끝을 귀에 걸치되 눈썹 위는 비워두세요. 한쪽으로 내려오면 달리면서 당기지 말고 잠시 멈춰 양쪽 높이를 맞추세요.",
+        "en": "Rest the folded beanie edge over the ears while keeping the eyebrows clear. If it slips sideways, stop to level both sides rather than tugging while running.",
+        "de": "Den umgeschlagenen Mützenrand über die Ohren ziehen und die Augenbrauen frei lassen. Rutscht eine Seite ab, zum Ausrichten kurz anhalten."
       },
       "retailProduct": false,
       "brand": null,
@@ -328,7 +346,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "차콜 러닝 비니 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "접은 비니 끝을 귀에 걸치되 눈썹 위는 비워두세요. 한쪽으로 내려오면 달리면서 당기지 말고 잠시 멈춰 양쪽 높이를 맞추세요.",
+      "descriptionEn": "Rest the folded beanie edge over the ears while keeping the eyebrows clear. If it slips sideways, stop to level both sides rather than tugging while running.",
+      "descriptionDe": "Den umgeschlagenen Mützenrand über die Ohren ziehen und die Augenbrauen frei lassen. Rutscht eine Seite ab, zum Ausrichten kurz anhalten."
     }
   ],
   "productCount": 7,
@@ -340,5 +361,6 @@
   },
   "productionStatus": "ready",
   "mappingStatus": "mapped",
-  "batchId": "rain-normal-chilly-male-night-running-20261026"
+  "batchId": "rain-normal-chilly-male-night-running-20261026",
+  "copyRevision": "copy-v2"
 }

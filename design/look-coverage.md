@@ -173,3 +173,5 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b171 · Rain / Normal / Chilly / Male / 35+ / Night / Street — 2026-10-26 set
 
 5룩 · 제품 21개(5/4/4/3/5) 투명 WebP, `look/rain-normal-male-night-street-20261026.js`(cutouts.js 앞). ID `rn-chilly-m35-night-street-20261026-01`–`05`, 폴더 `Rain/Normal/Chilly/Male/35+/night/street/<01–05>/`, `time: evening`. 보통 비(63·66·81) 저녁 남성 스트리트 플레이스홀더 → 이 5룩 중 3개(옆 단계 추움·선선함 저녁도 같은 규칙). 가벼운 비 저녁 남성 스트리트(b161)는 같은 강도 룩이 있어 그대로, 쏟아지는 비 저녁 남성 스트리트는 여전히 플레이스홀더. 이제 보통 비 남성은 낮·저녁 3스타일 모두 있음. 플리스·오버셔츠 미드레이어 `top`, 그 안 스웨트셔츠·니트 `under`(02 터틀넥·04 후디는 미드레이어가 없어 `top`), 비니 `headwear`, 크로스바디 `bag`. [검증](rain-normal-male-night-street-20261026-validation.md).
+
+- b172: Rain/Normal/Chilly/Male/35+/night/running 2026-10-26 copy-v2: 36 distinct How-to-Wear notes per language, distinct pulls/tips, prior b170 duplication resolved. All 41 image bytes and look/item IDs preserved.

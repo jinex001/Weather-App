@@ -59,16 +59,16 @@
       "de": "Ein kurzer Richtungswechsel neben einer Pfütze. Anthrazitjacke und schwarze Tights folgen der Bewegung; feine Reflexlinien fangen das Blitzlicht ein. Eine dünne warme Basisschicht erleichtert die Anpassung an die Laufwärme."
     },
     "tip": {
-      "ko": "젖은 노면에서는 속도를 낮추고, 달린 뒤에는 마른 옷으로 갈아입으세요. 반사 디테일만으로 야간 시야가 확보되는 것은 아니므로 밝은 길을 선택하세요.",
-      "en": "Slow down on wet surfaces and change into dry clothes after the run. Reflective details alone do not ensure visibility; choose a well-lit route.",
-      "de": "Auf nassem Untergrund langsamer laufen und danach trockene Kleidung anziehen. Reflexdetails allein sichern keine Sichtbarkeit; eine gut beleuchtete Strecke wählen."
+      "ko": "웅덩이 옆에서는 보폭을 짧게 바꾸세요. 차콜 셸의 주머니 지퍼를 닫아 움직일 때 안의 물건이 흔들리지 않게 정리하세요.",
+      "en": "Shorten your stride beside puddles. Close the charcoal shell's pocket zips so small belongings stay settled as you move.",
+      "de": "Neben Pfützen die Schritte verkürzen. Die Taschenreißverschlüsse der Anthrazitjacke schließen, damit kleine Gegenstände beim Laufen ruhig liegen."
     },
     "pull": {
-      "ko": "몸이 데워지는 속도에 맞춰, 한 겹씩 조절하세요.",
-      "en": "Adjust each layer as your body warms up.",
-      "de": "Die Schichten anpassen, während der Körper warm wird."
+      "ko": "웅덩이 옆으로, 보폭은 짧게.",
+      "en": "A small step around the puddle.",
+      "de": "Mit kleinen Schritten um die Pfütze."
     },
-    "appPull": "ADJUST EACH LAYER AS YOUR BODY WARMS UP."
+    "appPull": "A SMALL STEP AROUND THE PUDDLE."
   },
   "products": [
     {
@@ -96,9 +96,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "얇은 보온 이너 위에 입고 지퍼로 환기량을 조절하세요. 후드는 시야를 가리지 않게 맞추고, 달린 뒤 젖은 셸은 벗어 말려주세요.",
-        "en": "Wear over a thin warm base layer and adjust the zip for ventilation. Keep the hood clear of your sightline and remove the damp shell after the run.",
-        "de": "Über einer dünnen warmen Basisschicht tragen und die Belüftung mit dem Reißverschluss regeln. Die Kapuze darf die Sicht nicht verdecken. Die feuchte Jacke nach dem Lauf ausziehen."
+        "ko": "검은 타이츠 위로 셸 밑단을 자연스럽게 내려 입으세요. 후드와 지퍼는 고개를 돌릴 때 당기지 않을 만큼 여유를 두세요.",
+        "en": "Let the shell hem fall naturally over the black tights. Leave enough room at the hood and zip to turn your head comfortably.",
+        "de": "Den Jackensaum locker über die schwarzen Tights fallen lassen. Kapuze und Reißverschluss sollen beim Kopfdrehen nicht spannen."
       },
       "retailProduct": false,
       "brand": null,
@@ -106,7 +106,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "차콜 후드 러닝 셸 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "검은 타이츠 위로 셸 밑단을 자연스럽게 내려 입으세요. 후드와 지퍼는 고개를 돌릴 때 당기지 않을 만큼 여유를 두세요.",
+      "descriptionEn": "Let the shell hem fall naturally over the black tights. Leave enough room at the hood and zip to turn your head comfortably.",
+      "descriptionDe": "Den Jackensaum locker über die schwarzen Tights fallen lassen. Kapuze und Reißverschluss sollen beim Kopfdrehen nicht spannen."
     },
     {
       "id": "02-top",
@@ -133,9 +136,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "몸에 가볍게 붙도록 입어 셸 안쪽의 부피를 줄이세요. 추위보다 달릴 때의 열감을 보고 레이어를 조절하고, 운동 뒤에는 마른 옷으로 갈아입으세요.",
-        "en": "Choose a close fit to keep bulk down under the shell. Adjust layers to the heat you build while running and change into dry clothing afterwards.",
-        "de": "Körpernah tragen, damit unter der Jacke wenig Volumen entsteht. Die Schichten an die Wärme beim Laufen anpassen und danach trockene Kleidung anziehen."
+        "ko": "셸 안에서는 보온 이너가 허리에서 뭉치지 않도록 펴 입으세요. 달리며 더워지면 겉 지퍼를 조금 열어 열기를 조절하세요.",
+        "en": "Smooth the warm base layer at the waist beneath the shell. Open the outer zip a little if you heat up while running.",
+        "de": "Die warme Basisschicht unter der Jacke an der Taille glattziehen. Wird es beim Laufen warm, den äußeren Reißverschluss etwas öffnen."
       },
       "retailProduct": false,
       "brand": null,
@@ -143,7 +146,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 보온 베이스 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "셸 안에서는 보온 이너가 허리에서 뭉치지 않도록 펴 입으세요. 달리며 더워지면 겉 지퍼를 조금 열어 열기를 조절하세요.",
+      "descriptionEn": "Smooth the warm base layer at the waist beneath the shell. Open the outer zip a little if you heat up while running.",
+      "descriptionDe": "Die warme Basisschicht unter der Jacke an der Taille glattziehen. Wird es beim Laufen warm, den äußeren Reißverschluss etwas öffnen."
     },
     {
       "id": "03-bottom",
@@ -170,9 +176,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "허리와 무릎이 편하게 움직이는 핏으로 입으세요. 밑단은 양말과 이어 발목을 덮고, 반사 디테일이 겉옷에 가리지 않게 정리하세요.",
-        "en": "Keep the waist and knees free to move. Let the hems meet your socks to cover the ankles, and keep reflective details clear of other layers.",
-        "de": "Auf Bewegungsfreiheit an Taille und Knien achten. Die Säume mit den Socken überlappen lassen und Reflexdetails nicht durch andere Schichten verdecken."
+        "ko": "타이츠의 무릎 부분을 위로 끌어올려 접히는 주름을 줄이세요. 종아리 바깥의 반사선은 양말 안으로 말려 들어가지 않게 두세요.",
+        "en": "Ease the tights into place at the knees to reduce bunching. Keep the outer-calf reflective line from folding into the socks.",
+        "de": "Die Tights an den Knien zurechtrücken, damit sie sich nicht stauen. Die Reflexlinie außen an der Wade nicht in die Socken einschlagen."
       },
       "retailProduct": false,
       "brand": null,
@@ -180,7 +186,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 롱 타이츠 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "타이츠의 무릎 부분을 위로 끌어올려 접히는 주름을 줄이세요. 종아리 바깥의 반사선은 양말 안으로 말려 들어가지 않게 두세요.",
+      "descriptionEn": "Ease the tights into place at the knees to reduce bunching. Keep the outer-calf reflective line from folding into the socks.",
+      "descriptionDe": "Die Tights an den Knien zurechtrücken, damit sie sich nicht stauen. Die Reflexlinie außen an der Wade nicht in die Socken einschlagen."
     },
     {
       "id": "04-socks",
@@ -207,9 +216,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "타이츠나 팬츠 밑단과 겹쳐 발목을 덮으세요. 신발 안에서 주름이 잡히지 않게 펴 신고, 젖으면 달린 뒤 마른 양말로 갈아 신으세요.",
-        "en": "Overlap the hems to cover your ankles. Smooth out folds inside the shoes and change into dry socks after a wet run.",
-        "de": "Mit dem Hosensaum überlappen lassen, damit die Knöchel bedeckt sind. Falten im Schuh glattziehen und nach einem nassen Lauf trockene Socken anziehen."
+        "ko": "검은 양말의 입구를 타이츠 밑단과 살짝 겹치세요. 발등의 원단을 펴 신어 웅덩이를 피할 때도 신발 안에서 밀리지 않게 맞추세요.",
+        "en": "Slightly overlap the black sock cuffs with the tights. Smooth the fabric over the instep so it sits evenly inside the shoes as you step around puddles.",
+        "de": "Die schwarzen Socken leicht mit dem Tightssaum überlappen lassen. Den Stoff am Spann glattziehen, damit er beim Ausweichen vor Pfützen gleichmäßig im Schuh liegt."
       },
       "retailProduct": false,
       "brand": null,
@@ -217,7 +226,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 러닝 양말 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "검은 양말의 입구를 타이츠 밑단과 살짝 겹치세요. 발등의 원단을 펴 신어 웅덩이를 피할 때도 신발 안에서 밀리지 않게 맞추세요.",
+      "descriptionEn": "Slightly overlap the black sock cuffs with the tights. Smooth the fabric over the instep so it sits evenly inside the shoes as you step around puddles.",
+      "descriptionDe": "Die schwarzen Socken leicht mit dem Tightssaum überlappen lassen. Den Stoff am Spann glattziehen, damit er beim Ausweichen vor Pfützen gleichmäßig im Schuh liegt."
     },
     {
       "id": "05-shoes",
@@ -244,9 +256,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "끈을 발등에 고르게 맞추고 끝이 바닥에 닿지 않게 묶으세요. 젖은 돌바닥과 낙엽에서는 보폭을 줄이고 접지 상태에 맞춰 속도를 낮추세요.",
-        "en": "Adjust the laces evenly and keep the ends off the ground. Shorten your stride on wet paving and leaves, and slow down as grip changes.",
-        "de": "Die Schnürung gleichmäßig anpassen und die Enden vom Boden fernhalten. Auf nassem Pflaster und Laub kürzere Schritte machen und das Tempo der Haftung anpassen."
+        "ko": "차콜 러닝화는 앞코에 발가락을 움직일 여유를 두고 끈을 맞추세요. 젖은 연석 옆에서는 넓게 뛰기보다 짧은 보폭으로 방향을 바꾸세요.",
+        "en": "Adjust the charcoal trainers with room to move your toes. Beside a wet curb, change direction with short steps rather than a wide leap.",
+        "de": "Die anthrazitfarbenen Laufschuhe mit Platz für die Zehen schnüren. Neben nassen Bordsteinen die Richtung mit kurzen Schritten statt mit einem weiten Sprung ändern."
       },
       "retailProduct": false,
       "brand": null,
@@ -254,7 +266,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "차콜 러닝화 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "차콜 러닝화는 앞코에 발가락을 움직일 여유를 두고 끈을 맞추세요. 젖은 연석 옆에서는 넓게 뛰기보다 짧은 보폭으로 방향을 바꾸세요.",
+      "descriptionEn": "Adjust the charcoal trainers with room to move your toes. Beside a wet curb, change direction with short steps rather than a wide leap.",
+      "descriptionDe": "Die anthrazitfarbenen Laufschuhe mit Platz für die Zehen schnüren. Neben nassen Bordsteinen die Richtung mit kurzen Schritten statt mit einem weiten Sprung ändern."
     },
     {
       "id": "06-gloves",
@@ -281,9 +296,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "손목을 소매 안쪽에 겹쳐 찬바람이 드는 틈을 줄이세요. 손가락이 편하게 구부러지는 핏을 고르고 젖은 장갑은 운동 뒤 말려주세요.",
-        "en": "Overlap the cuffs with your sleeves to reduce gaps. Keep enough room to bend your fingers and dry wet gloves after the run.",
-        "de": "Die Bündchen mit den Ärmeln überlappen lassen. Genug Platz zum Beugen der Finger lassen und nasse Handschuhe nach dem Lauf trocknen."
+        "ko": "장갑 손바닥을 펴서 손가락 끝이 남지 않게 끼세요. 균형을 잡으려 손을 뻗을 때 손목이 드러나지 않도록 소매와 겹치세요.",
+        "en": "Smooth the palms so the glove fingertips sit neatly. Overlap the wrists with the sleeves when reaching out for balance.",
+        "de": "Die Handflächen glattziehen, damit die Handschuhspitzen gut sitzen. Die Handgelenke mit den Ärmeln überlappen lassen, wenn die Arme zum Balancieren ausgestreckt werden."
       },
       "retailProduct": false,
       "brand": null,
@@ -291,7 +306,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 러닝 장갑 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "장갑 손바닥을 펴서 손가락 끝이 남지 않게 끼세요. 균형을 잡으려 손을 뻗을 때 손목이 드러나지 않도록 소매와 겹치세요.",
+      "descriptionEn": "Smooth the palms so the glove fingertips sit neatly. Overlap the wrists with the sleeves when reaching out for balance.",
+      "descriptionDe": "Die Handflächen glattziehen, damit die Handschuhspitzen gut sitzen. Die Handgelenke mit den Ärmeln überlappen lassen, wenn die Arme zum Balancieren ausgestreckt werden."
     },
     {
       "id": "07-headband",
@@ -318,9 +336,9 @@
       ],
       "alpha": true,
       "howToWear": {
-        "ko": "귀 위를 덮고 눈썹 위에서 안정적으로 맞추세요. 후드와 겹쳐도 시야를 가리지 않게 하고, 땀이나 비에 젖으면 말려주세요.",
-        "en": "Cover the ears and keep the band stable above the eyebrows. Check your sightline under the hood and let the band dry after rain or sweat.",
-        "de": "Über den Ohren und stabil oberhalb der Augenbrauen tragen. Unter der Kapuze auf freie Sicht achten und das Band nach Regen oder Schweiß trocknen lassen."
+        "ko": "넓은 밴드를 귀 위에 안정적으로 걸치고 머리카락은 뒤로 빼세요. 이마를 누르지 않는 위치에서 후드를 겹쳐 보세요.",
+        "en": "Set the wide band securely over your ears and free any trapped hair. Try the hood over it without pressing the band into your forehead.",
+        "de": "Das breite Band sicher über die Ohren setzen und eingeklemmte Haare lösen. Die Kapuze darüberziehen, ohne das Band gegen die Stirn zu drücken."
       },
       "retailProduct": false,
       "brand": null,
@@ -328,7 +346,10 @@
       "price": null,
       "purchaseUrl": null,
       "altKo": "블랙 이어 헤드밴드 — 독립 투명 배경 제품 컷",
-      "status": "ready"
+      "status": "ready",
+      "descriptionKo": "넓은 밴드를 귀 위에 안정적으로 걸치고 머리카락은 뒤로 빼세요. 이마를 누르지 않는 위치에서 후드를 겹쳐 보세요.",
+      "descriptionEn": "Set the wide band securely over your ears and free any trapped hair. Try the hood over it without pressing the band into your forehead.",
+      "descriptionDe": "Das breite Band sicher über die Ohren setzen und eingeklemmte Haare lösen. Die Kapuze darüberziehen, ohne das Band gegen die Stirn zu drücken."
     }
   ],
   "productCount": 7,
@@ -340,5 +361,6 @@
   },
   "productionStatus": "ready",
   "mappingStatus": "mapped",
-  "batchId": "rain-normal-chilly-male-night-running-20261026"
+  "batchId": "rain-normal-chilly-male-night-running-20261026",
+  "copyRevision": "copy-v2"
 }
