@@ -1,0 +1,329 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-run-20261026-05",
+  "appOutfitId": "rn-chilly-m35-day-run-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "products": "agent-visual-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main on 2026-10-26. Products: Codex agent visual review (VISUAL_REVIEW.json), no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "54611837fc82fc815c53c203bf9842e0d79b02eb96606ff90600af9c20536dcb",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "ko": {
+      "title": "오렌지 셸로 다시 출발",
+      "caption": "오렌지 셸로 다시 출발",
+      "intro": "오렌지 셸과 네이비 캡을 포인트로 두고 하의는 블랙으로 정리해요. 비 오는 교차로에서는 차와 자전거를 확인한 뒤 천천히 다시 출발하세요."
+    },
+    "en": {
+      "title": "BACK ON THE MOVE IN ORANGE",
+      "caption": "Back on the move in orange",
+      "intro": "Pair the orange shell and navy cap with black tights. At rainy crossings, check for cars and bicycles before setting off again."
+    },
+    "de": {
+      "title": "BACK ON THE MOVE IN ORANGE",
+      "caption": "In Orange wieder loslaufen",
+      "intro": "Kombiniere die orangefarbene Jacke und marineblaue Kappe mit schwarzen Tights. Achte an verregneten Kreuzungen auf Autos und Fahrräder, bevor du wieder losläufst."
+    },
+    "pull": "LOOK TWICE, THEN GO.",
+    "tip": null,
+    "tipNote": "The batch supplies no separate tip; the look-level howToWear (incl. its safety sentence) is the intro.",
+    "sourceCopy": {
+      "de": {
+        "intro": "Kombiniere die orange Jacke und marineblaue Kappe mit schwarzen Tights. Achte an verregneten Kreuzungen auf Autos und Fahrräder, bevor du wieder losläufst."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-run-20261026-05.01-outer",
+      "name": {
+        "ko": "번트 오렌지 반사 러닝 셸",
+        "en": "Burnt orange reflective running shell",
+        "de": "Rostorange Laufregenjacke mit Reflexdetails"
+      },
+      "nameKo": "번트 오렌지 반사 러닝 셸",
+      "descriptor": "burnt orange lightweight hooded running rain jacket, full front zipper reconstructed, narrow silver reflective forearm stripes and paired upper back vertical stripes, elastic cuffs",
+      "evidence": "partially_observed",
+      "restorationNote": "Back hood and sleeve stripes visible; front reconstructed from running shell design.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "605a1db6811c01b76071323915db7b047c0d0969b1fa462650b084c8254e6964",
+      "bytes": 45580,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "후드는 캡 위로 쓰지 않고 등 뒤로 내려 두어, 고개를 돌려 차와 자전거를 확인하기 편하게 해요.",
+        "en": "Leave the hood down behind the cap so turning your head to check for cars and bikes stays easy.",
+        "de": "Die Kapuze hinten unten lassen und nicht über die Kappe ziehen, damit der Schulterblick zu Autos und Rädern frei bleibt."
+      },
+      "sourceDescription": {
+        "ko": "번트 오렌지 반사 러닝 셸 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Burnt orange reflective running shell. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Rostorange Laufregenjacke mit Reflexdetails. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "번트 오렌지 반사 러닝 셸 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-run-20261026-05.02-top",
+      "name": {
+        "ko": "그래파이트 기능성 이너",
+        "en": "Graphite base layer",
+        "de": "Graphitfarbener Funktionslayer"
+      },
+      "nameKo": "그래파이트 기능성 이너",
+      "descriptor": "graphite charcoal technical crewneck long sleeve running base layer",
+      "evidence": "inferred",
+      "restorationNote": "Hidden under zipped shell; graphite long-sleeve specified in original editorial prompt.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "7b2e6bda515e77d727dbd711f50f73681e53ede896db7facb68e1742f8df4c61",
+      "bytes": 29726,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "그래파이트 이너는 셸 안에 몸에 맞게 받쳐 입고, 지퍼를 닫았을 때 목선이 칼라 아래에 머물게 해요.",
+        "en": "Wear the graphite base close to the body under the shell, with the neckline staying below the zipped collar.",
+        "de": "Den graphitfarbenen Layer körpernah unter der Jacke tragen; der Ausschnitt bleibt beim geschlossenen Kragen darunter."
+      },
+      "sourceDescription": {
+        "ko": "그래파이트 기능성 이너 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Graphite base layer. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Graphitfarbener Funktionslayer. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그래파이트 기능성 이너 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-run-20261026-05.03-bottom",
+      "name": {
+        "ko": "블랙 반사 러닝 타이츠",
+        "en": "Black reflective running tights",
+        "de": "Schwarze Lauftights mit Reflexdetails"
+      },
+      "nameKo": "블랙 반사 러닝 타이츠",
+      "descriptor": "black full-length fitted running tights with short silver reflective lower-calf stripe",
+      "evidence": "observed",
+      "restorationNote": "Back leg seams and calf reflector visible.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "2adbe3c9e5203f4f973d6e35d5a453c37cd6162c34b00df4ea8f6ccb7f6b3d68",
+      "bytes": 16546,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "종아리 반사 줄이 뒤쪽 바깥에 오도록 바로 맞춰 입어, 뒤에서 오는 차에도 보이게 해요.",
+        "en": "Line the tights up so the calf reflectors sit at the back and outside, visible to traffic behind you.",
+        "de": "Die Tights so ausrichten, dass die Reflexstreifen an der Wade hinten außen sitzen und für nachfolgenden Verkehr sichtbar sind."
+      },
+      "sourceDescription": {
+        "ko": "블랙 반사 러닝 타이츠 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Black reflective running tights. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Schwarze Lauftights mit Reflexdetails. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 반사 러닝 타이츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "appCategory": "socks",
+      "appItemId": "rn-chilly-m35-day-run-20261026-05.04-socks",
+      "name": {
+        "ko": "그레이 러닝 양말",
+        "en": "Grey running socks",
+        "de": "Graue Laufsocken"
+      },
+      "nameKo": "그레이 러닝 양말",
+      "descriptor": "one matching pair of mid grey ribbed running crew socks",
+      "evidence": "partially_observed",
+      "restorationNote": "Grey ankle cuff visible; full sock length reconstructed.",
+      "image": "products/04-socks.webp",
+      "deliveredImage": "products/04-socks.webp",
+      "sha256": "e975900e512610c7a40de34dce0503b268eac3e1b3854b3d8d80087668773462",
+      "bytes": 46334,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "중간 회색 양말을 타이츠 밑단까지 올려 신어 발목으로 젖은 바람이 들어오지 않게 해요.",
+        "en": "Pull the mid-grey socks up to meet the hem of the tights so no wet draught gets in at the ankle.",
+        "de": "Die mittelgrauen Socken bis an den Saum der Tights hochziehen, damit am Knöchel kein nasser Wind eindringt."
+      },
+      "sourceDescription": {
+        "ko": "그레이 러닝 양말 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Grey running socks. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Graue Laufsocken. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 러닝 양말 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-run-20261026-05.05-shoes",
+      "name": {
+        "ko": "다크 그레이 러닝화",
+        "en": "Dark grey running shoes",
+        "de": "Dunkelgraue Laufschuhe"
+      },
+      "nameKo": "다크 그레이 러닝화",
+      "descriptor": "one matching left and right pair of dark grey mesh running shoes, lighter grey overlays and light grey foam midsole",
+      "evidence": "partially_observed",
+      "restorationNote": "Rear shoe dark grey with pale sole; front shape reconstructed.",
+      "image": "products/05-shoes.webp",
+      "deliveredImage": "products/05-shoes.webp",
+      "sha256": "03fa8cf1fdf07e91c2659ee61da8814eb30d1cde494e652595adaf5171da5ed5",
+      "bytes": 43460,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "젖은 횡단보도 흰 줄은 미끄러우니 밑창 전체로 디디고, 끈은 맨 위 구멍까지 끼워 단단히 묶어요.",
+        "en": "Painted crossing stripes are slick when wet, so step with the whole sole, and lace through the top eyelets for a firm hold.",
+        "de": "Nasse Zebrastreifen sind rutschig – mit der ganzen Sohle auftreten und bis in die obersten Ösen fest schnüren."
+      },
+      "sourceDescription": {
+        "ko": "다크 그레이 러닝화 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Dark grey running shoes. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Dunkelgraue Laufschuhe. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "다크 그레이 러닝화 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "06-cap",
+      "category": "cap",
+      "appCategory": "headwear",
+      "appItemId": "rn-chilly-m35-day-run-20261026-05.06-headwear",
+      "name": {
+        "ko": "네이비 테크니컬 러닝 캡",
+        "en": "Navy technical running cap",
+        "de": "Marineblaue Laufkappe"
+      },
+      "nameKo": "네이비 테크니컬 러닝 캡",
+      "descriptor": "one plain dark navy lightweight technical running baseball cap, curved brim and low-profile soft crown, no logos",
+      "evidence": "observed",
+      "restorationNote": "Cap crown and curved brim clearly visible.",
+      "image": "products/06-headwear.webp",
+      "deliveredImage": "products/06-cap.webp",
+      "sha256": "48abfa6c8f4cad0505b291653852c08a308caa1cfb8fffedbb9663768609ce94",
+      "bytes": 25716,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "캡 챙을 이마 바로 위로 내려 써 빗방울이 눈에 들어가지 않게 하고, 후드보다 가볍게 머리를 덮어요.",
+        "en": "Set the brim just above your brow to keep raindrops out of your eyes, a lighter cover than the hood.",
+        "de": "Den Schirm knapp über die Stirn setzen, damit kein Regen in die Augen läuft – leichter als die Kapuze."
+      },
+      "sourceDescription": {
+        "ko": "네이비 테크니컬 러닝 캡 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Navy technical running cap. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Marineblaue Laufkappe. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 테크니컬 러닝 캡 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 6,
+  "notes": {
+    "ko": "AI로 제작한 착장과 제품 복원 이미지입니다. 실제 판매 상품이나 방수 성능을 보증하지 않습니다.",
+    "en": "AI-created styling and product reconstruction images; no verified retail product or waterproof performance claim.",
+    "de": "KI-generierte Styling- und Produktrekonstruktionen; kein verifiziertes Verkaufsprodukt und keine bestätigte Wasserdichtigkeit."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "batchId": "rain-normal-chilly-male-day-running-20261026"
+}

@@ -341,3 +341,12 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 분류(새 코드 없음): `gloves` → `hands`, `glasses` → `eyewear`.
 - 문구: 한국어 마스터·영어 그대로, 독일어는 문법·표현 3줄만 고침(검증 기록에 원문). 에디토리얼 01은 300KB 안에 맞추려 JPEG q72(02–05 q80), PNG 마스터는 그대로 — 예외로 기록.
 - [검증 기록](rain-normal-female-day-minimal-20261026-validation.md).
+
+## b169 · Rain / Normal / Chilly / Male / 35+ / Day / Running — 2026-10-26 set (5 looks · 27 products)
+
+- 원본: 로컬 outbox 배치(READY.json `approved`·`products_complete`, 목록 124개 SHA-256·크기 일치). 배포 파일은 `product-breakdown/delivery/NN-running/editorial.jpg`·`products/*.webp`만 바이트 그대로, 이름 `NN-<앱 분류>.webp`(제작 측 이름은 products.json `deliveredImage`). 루트 에디토리얼 JPG/PNG, `complete/masters` PNG, QA 시트, 프롬프트, 생성 기록, 스크립트는 커밋하지 않음. 제작 측 로컬 `generationSource`·`masterSource` 경로와 프롬프트는 앱 저장소 products.json에 넣지 않음.
+- `sky: "rain"`, `rain: "normal"`, 낮 세트라 `time` 없음. 폴더 `Rain/Normal/Chilly/Male/35+/day/running/<NN>/`, ID는 제작 측 `rn-chilly-m35-day-run-20261026-NN` 그대로, 아이템 `…-NN.MM-<앱 분류>`.
+- 분류(새 코드 없음): `cap` → `headwear`, `watch`·`socks`는 기존 분류 그대로.
+- 문구: 이 배치의 룩 단위 문구는 `title`(ko/en/de)과 `howToWear`(ko/en/de)뿐 → `title` → `deck`, 영어 `title` 대문자 → `article.title`, `howToWear` → `article.intro`(한국어 마스터·en/de 그대로, 05 de 형용사 한 곳만 고침). 팁은 없어 넣지 않음(인트로 둘째 문장이 안전 팁 역할), `pull`은 장면을 보고 새로 씀. 제품 `description*`은 전부 "…— 에디토리얼 기준의 스타일링 복원 이미지" 틀 문장이라 5-1장 기준 미달 → 에디토리얼을 보고 제품별 ko/en/de 입는 법을 새로 씀(`sourceDescription`에 원문).
+- 이 환경엔 node·jsc·JXA·Pillow·sips 실행이 허용되지 않아 알파는 순수 파이썬 VP8L 디코더(ALPH 청크)로 확인(27장 모서리·테두리 알파 0), 런타임 수와 선택은 index.html 순서대로 각 스크립트의 룩·아이템 리터럴을 파이썬으로 디코드하고 `lookFits` 규칙을 파이썬으로 옮겨 확인. 화면 렌더링은 못 함.
+- [검증 기록](rain-normal-male-day-running-20261026-validation.md).

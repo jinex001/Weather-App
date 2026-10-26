@@ -3,7 +3,7 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-26 (앱 빌드 b168) · 225룩 · 1393아이템 · 기사 룩 225 (JavaScriptCore(jsc)/JXA로 index.html 스크립트 순서대로 로드해 셈). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-26 (앱 빌드 b169) · 230룩 · 1420아이템 · 기사 룩 230 (b169는 JS 엔진 없이 index.html 스크립트 순서대로 룩·아이템 리터럴을 파이썬으로 디코드해 셈, b168 수치와 일치 확인). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
 
 ## Outfit
 
@@ -245,3 +245,7 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b168 · Rain / Normal / Chilly / Female / 35+ / Day / Minimal — 2026-10-26 set (5 looks)
 
 에디토리얼 5장(모두 1024×1536 JPG, 01만 q72) + 독립 투명 WebP 제품 23개(5/5/4/4/5), `look/berlin-complete/Rain/Normal/Chilly/Female/35+/day/minimal/<01–05>/`, 보충 파일 `look/rain-normal-female-day-minimal-20261026.js`. 룩 `rn-chilly-f35-day-minimal-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: f`, `age: "35"`, `style: minimal`, 낮 = `time` 없음). 01 스톤 베이지 벨티드 레인코트 + 아이보리 터틀넥 + 차콜 울 팬츠 + 첼시 레인부츠 + 숄더백 · 02 차콜 후드 레인코트 + 오트밀 케이블 터틀넥 + 블랙 팬츠 + 옥스블러드 토트 + 아이보리 니트 장갑 · 03 코발트 레인코트 + 크림 터틀넥 + 블랙 울 팬츠 + 숄더백 · 04 딥 올리브 후드 레인코트 + 차콜 멜란지 니트 + 토프 머플러 + 토터스쉘 안경 · 05 네이비 레인코트 + 번트 오렌지 니트 + 그래파이트 팬츠 + 토프 프린지 머플러 + 크로스바디. 분류: 제작 측 `gloves` → `hands`, `glasses` → `eyewear`(파일 이름 `NN-<앱 분류>.webp`, 바이트 그대로). 한국어 마스터·en 그대로, de는 3줄만 고침(검증 기록). 대표 컷 = 다섯 룩 모두 아우터(제목이 코트 색), 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(우산, 빵, 열쇠, 안경 닦이 천, 자동차)은 제품 아님. 모델 외관 25–28세, 숫자 기온 없음. [검증](rain-normal-female-day-minimal-20261026-validation.md).
+
+## b169 · Rain / Normal / Chilly / Male / 35+ / Day / Running — 2026-10-26 set (5 looks)
+
+에디토리얼 5장(모두 1024×1536 JPG ≤292,394 B) + 독립 투명 WebP 제품 27개(5/5/5/6/6, 500×500, ≤49,264 B), `look/berlin-complete/Rain/Normal/Chilly/Male/35+/day/running/<01–05>/`, 보충 파일 `look/rain-normal-male-day-running-20261026.js`. 룩 `rn-chilly-m35-day-run-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: run`, 낮 = `time` 없음). 01 슬레이트 블루 후드 셸 + 차콜 집넥 이너 + 블랙 반사 타이츠 + 라이트 그레이 양말 + 실버 메시 러닝화 · 02 세이지 셸 + 아이보리 크루넥 이너 + 차콜 타이츠 + 그레이 양말 + 오프화이트 러닝화 · 03 코발트 반사 셸 + 다크 차콜 이너 + 블랙 반사 타이츠 + 다크 그레이 양말 + 블랙 그레이 러닝화 · 04 웜 그레이 셸 + 버건디 이너 + 에스프레소 타이츠 + 차콜 양말 + 그레이 러닝화 + 블랙 러닝 워치 · 05 번트 오렌지 반사 셸 + 그래파이트 이너(완전히 가려져 추정) + 블랙 반사 타이츠 + 그레이 양말 + 다크 그레이 러닝화 + 네이비 캡. 분류: 제작 측 `cap` → `headwear`(파일 이름 `NN-<앱 분류>.webp`, 바이트 그대로, 제작 측 이름은 `deliveredImage`). 한국어 마스터(제목 → `deck.ko`, 룩 `howToWear` → `intro.ko`, 제품 이름) 그대로, en/de 제작 측 문구 그대로(05 인트로 독일어 `orange` → `orangefarbene` 한 곳만 고침, 원문 `copy.sourceCopy`). 영어 제목 = 제작 측 영어 제목 대문자. 제작 측 제품 설명은 모든 제품이 같은 복원 틀 문장이라 5-1장 기준 미달 → 에디토리얼을 보고 제품별 ko/en/de 입는 법을 새로 씀(`sourceDescription`에 원문). `pull`은 장면 보고 새로 씀, 팁은 배치에 없어 넣지 않음. 대표 컷 = 다섯 룩 모두 셸(05 ORANGE는 셸 색, 나머지는 맞는 색 단어 없음), 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(자동차·자전거·나뭇잎)은 제품 아님, 05 손목의 검은 밴드는 제품으로 만들지 않음. 모델 외관 28–32세, 숫자 기온 없음. [검증](rain-normal-male-day-running-20261026-validation.md).

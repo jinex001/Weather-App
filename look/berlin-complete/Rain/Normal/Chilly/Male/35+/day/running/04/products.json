@@ -1,0 +1,324 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-run-20261026-04",
+  "appOutfitId": "rn-chilly-m35-day-run-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "products": "agent-visual-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main on 2026-10-26. Products: Codex agent visual review (VISUAL_REVIEW.json), no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "15d2690f2a4f808a827c157345aa5ba73673dbe4d16d2b9c624ad94646d811a9",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "ko": {
+      "title": "잠깐의 페이스 체크",
+      "caption": "잠깐의 페이스 체크",
+      "intro": "웜 그레이 셸에 버건디 이너와 짙은 브라운 타이츠를 겹쳐요. 워치는 잠깐 멈춰 확인하고 달리는 동안에는 소매를 다시 정리하세요."
+    },
+    "en": {
+      "title": "A QUICK PACE CHECK",
+      "caption": "A quick pace check",
+      "intro": "Combine the warm grey shell with a burgundy base and dark brown tights. Pause to check your watch and settle your sleeves before running again."
+    },
+    "de": {
+      "title": "A QUICK PACE CHECK",
+      "caption": "Kurz das Tempo prüfen",
+      "intro": "Kombiniere die warmgraue Jacke mit burgunderrotem Funktionslayer und dunkelbraunen Tights. Halte zum Blick auf die Uhr kurz an und richte die Ärmel vor dem Weiterlaufen."
+    },
+    "pull": "TEN SECONDS FOR THE NUMBERS.",
+    "tip": null,
+    "tipNote": "The batch supplies no separate tip; the look-level howToWear (incl. its safety sentence) is the intro."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-run-20261026-04.01-outer",
+      "name": {
+        "ko": "웜 그레이 후드 러닝 셸",
+        "en": "Warm grey hooded running shell",
+        "de": "Warmgraue Laufregenjacke mit Kapuze"
+      },
+      "nameKo": "웜 그레이 후드 러닝 셸",
+      "descriptor": "warm light grey lightweight hooded running rain jacket, black full front zipper, black slanted side pockets, slim vertical silver reflective forearm strip",
+      "evidence": "observed",
+      "restorationNote": "Shell hood zipper pockets and sleeve detail visible.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "529d61e8ca2e65637bcdecf9f1d738b8ca6ba8243728e6c616a9486a2a8953e5",
+      "bytes": 41806,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "지퍼는 가슴까지만 올려 버건디 이너가 V자로 보이게 하고, 워치를 볼 때 밀어 올린 소매는 다시 내려 두세요.",
+        "en": "Zip to the chest so the burgundy base shows in a V, and let a sleeve fall back down after pushing it up to read the watch.",
+        "de": "Nur bis zur Brust schließen, damit der burgunderrote Layer im V sichtbar wird; den Ärmel nach dem Blick auf die Uhr wieder herunterlassen."
+      },
+      "sourceDescription": {
+        "ko": "웜 그레이 후드 러닝 셸 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Warm grey hooded running shell. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Warmgraue Laufregenjacke mit Kapuze. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "웜 그레이 후드 러닝 셸 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-run-20261026-04.02-top",
+      "name": {
+        "ko": "버건디 기능성 긴팔 이너",
+        "en": "Burgundy long sleeve base layer",
+        "de": "Burgunderroter Funktionslayer"
+      },
+      "nameKo": "버건디 기능성 긴팔 이너",
+      "descriptor": "deep burgundy technical crewneck long sleeve running base layer, plain fitted cuffs",
+      "evidence": "partially_observed",
+      "restorationNote": "Burgundy crew neckline and cuffs visible.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "09942715c283d2877b2100a8653b20e4f2f0f11a4c4edb43843cb101ea50b6e0",
+      "bytes": 49264,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "버건디 소매 끝을 셸 소매 밖으로 내어 워치 스트랩 아래에 깔리게 해요.",
+        "en": "Let the burgundy cuffs extend past the shell sleeves so they sit under the watch strap.",
+        "de": "Die burgunderroten Bündchen unter den Jackenärmeln hervorkommen lassen, sodass sie unter dem Uhrarmband liegen."
+      },
+      "sourceDescription": {
+        "ko": "버건디 기능성 긴팔 이너 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Burgundy long sleeve base layer. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Burgunderroter Funktionslayer. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "버건디 기능성 긴팔 이너 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-run-20261026-04.03-bottom",
+      "name": {
+        "ko": "에스프레소 러닝 타이츠",
+        "en": "Espresso running tights",
+        "de": "Espressobraune Lauftights"
+      },
+      "nameKo": "에스프레소 러닝 타이츠",
+      "descriptor": "espresso dark brown full-length fitted running tights, restrained tonal seam panels",
+      "evidence": "observed",
+      "restorationNote": "Brown tights clearly visible.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "8d5cec03f0030aac4181a9b0ad05887e5d08266dabf1dc26b4d54a00653f9b40",
+      "bytes": 21302,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "에스프레소 타이츠는 셸 밑단 아래로 길게 드러나게 입어 웜 그레이와 따뜻하게 이어요.",
+        "en": "Let the espresso tights run long below the shell's hem, a warm link to the warm grey.",
+        "de": "Die espressobraunen Tights lang unter dem Jackensaum zeigen – eine warme Verbindung zum Warmgrau."
+      },
+      "sourceDescription": {
+        "ko": "에스프레소 러닝 타이츠 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Espresso running tights. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Espressobraune Lauftights. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "에스프레소 러닝 타이츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "appCategory": "socks",
+      "appItemId": "rn-chilly-m35-day-run-20261026-04.04-socks",
+      "name": {
+        "ko": "차콜 러닝 양말",
+        "en": "Charcoal running socks",
+        "de": "Anthrazitfarbene Laufsocken"
+      },
+      "nameKo": "차콜 러닝 양말",
+      "descriptor": "one matching pair of dark charcoal running crew socks",
+      "evidence": "partially_observed",
+      "restorationNote": "Dark ankle cuff above shoe visible, full height inferred.",
+      "image": "products/04-socks.webp",
+      "deliveredImage": "products/04-socks.webp",
+      "sha256": "137b05275930fd334f7d75b7f5bd5079ca58c225c1a66ac4400931b6966cb401",
+      "bytes": 38402,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "차콜 양말은 발목 위로 짧게만 보이게 신어 브라운 타이츠와 회색 신발 사이를 정리해요.",
+        "en": "Show just a short band of charcoal sock above the ankle to settle the gap between brown tights and grey shoes.",
+        "de": "Nur einen schmalen Streifen der anthrazitfarbenen Socke über dem Knöchel zeigen, um braune Tights und graue Schuhe ruhig zu verbinden."
+      },
+      "sourceDescription": {
+        "ko": "차콜 러닝 양말 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Charcoal running socks. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Anthrazitfarbene Laufsocken. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 러닝 양말 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-run-20261026-04.05-shoes",
+      "name": {
+        "ko": "그레이 러닝화",
+        "en": "Grey running shoes",
+        "de": "Graue Laufschuhe"
+      },
+      "nameKo": "그레이 러닝화",
+      "descriptor": "one matching left and right pair of grey mesh running shoes, dark charcoal upper details, light grey thick foam midsole",
+      "evidence": "partially_observed",
+      "restorationNote": "One cropped shoe shows grey upper and light sole.",
+      "image": "products/05-shoes.webp",
+      "deliveredImage": "products/05-shoes.webp",
+      "sha256": "b19e8e6e25cd6c069e658af9598242ee46d8459938d9ebd67c5cb178fd86d5d4",
+      "bytes": 48202,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "쿠션 밑창 러닝화는 뒤꿈치에 꼭 맞게 끈을 조여, 잠깐 멈췄다 다시 달릴 때도 발이 흔들리지 않게 해요.",
+        "en": "Lace the cushioned trainers snug at the heel so your foot stays put when you stop and start again.",
+        "de": "Die gedämpften Laufschuhe an der Ferse fest schnüren, damit der Fuß beim Anhalten und Wiederloslaufen stabil bleibt."
+      },
+      "sourceDescription": {
+        "ko": "그레이 러닝화 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Grey running shoes. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Graue Laufschuhe. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 러닝화 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "06-watch",
+      "category": "watch",
+      "appCategory": "watch",
+      "appItemId": "rn-chilly-m35-day-run-20261026-04.06-watch",
+      "name": {
+        "ko": "블랙 라운드 러닝 워치",
+        "en": "Black round running watch",
+        "de": "Schwarze runde Laufuhr"
+      },
+      "nameKo": "블랙 라운드 러닝 워치",
+      "descriptor": "one black round sports watch with dark unlit blank circular face, black silicone strap, low-profile bezel, no branding or screen text",
+      "evidence": "observed",
+      "restorationNote": "Black round watch worn at near wrist.",
+      "image": "products/06-watch.webp",
+      "deliveredImage": "products/06-watch.webp",
+      "sha256": "9bccbed589bed4af3f86445037e488bc9de826ce8687a03b4070bd947bef7acd",
+      "bytes": 11908,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "워치는 손목뼈 바로 위에 차고 스트랩을 한 칸 조여, 젖은 소매 위에서도 돌아가지 않게 해요.",
+        "en": "Wear the watch just above the wrist bone and tighten the strap one notch so it doesn't spin on a wet cuff.",
+        "de": "Die Uhr knapp über dem Handgelenkknochen tragen und das Armband um ein Loch enger stellen, damit sie sich auf dem nassen Bündchen nicht dreht."
+      },
+      "sourceDescription": {
+        "ko": "블랙 라운드 러닝 워치 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Black round running watch. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Schwarze runde Laufuhr. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 라운드 러닝 워치 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 6,
+  "notes": {
+    "ko": "AI로 제작한 착장과 제품 복원 이미지입니다. 실제 판매 상품이나 방수 성능을 보증하지 않습니다.",
+    "en": "AI-created styling and product reconstruction images; no verified retail product or waterproof performance claim.",
+    "de": "KI-generierte Styling- und Produktrekonstruktionen; kein verifiziertes Verkaufsprodukt und keine bestätigte Wasserdichtigkeit."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "batchId": "rain-normal-chilly-male-day-running-20261026"
+}

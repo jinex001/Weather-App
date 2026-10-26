@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-run-20261026-01",
+  "appOutfitId": "rn-chilly-m35-day-run-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "products": "agent-visual-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main on 2026-10-26. Products: Codex agent visual review (VISUAL_REVIEW.json), no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "fdc64266cfd17d3bf08da1de91668bc927bfa75ea21030d2e2edac1d3c4c0f26",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "ko": {
+      "title": "빗길을 가볍게",
+      "caption": "빗길을 가볍게",
+      "intro": "가벼운 후드 셸 안에 집넥 이너를 겹치고 긴 타이츠와 양말로 발목을 덮어요. 비에 젖은 보도에서는 보폭을 줄이고 접지력을 확인하세요."
+    },
+    "en": {
+      "title": "LIGHT STEPS IN THE RAIN",
+      "caption": "Light steps in the rain",
+      "intro": "Layer a zip-neck base under the lightweight hooded shell. Full-length tights and socks cover the ankles. Shorten your stride and check your footing on wet paving."
+    },
+    "de": {
+      "title": "LIGHT STEPS IN THE RAIN",
+      "caption": "Leichte Schritte im Regen",
+      "intro": "Trage unter der leichten Kapuzenjacke einen Funktionslayer mit Stehkragen. Lange Tights und Socken bedecken die Knöchel. Verkürze auf nassem Pflaster den Schritt und achte auf sicheren Halt."
+    },
+    "pull": "STEP LIGHT, SPLASH ANYWAY.",
+    "tip": null,
+    "tipNote": "The batch supplies no separate tip; the look-level howToWear (incl. its safety sentence) is the intro."
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-run-20261026-01.01-outer",
+      "name": {
+        "ko": "슬레이트 블루 후드 러닝 셸",
+        "en": "Slate blue hooded running shell",
+        "de": "Schieferblaue Laufregenjacke mit Kapuze"
+      },
+      "nameKo": "슬레이트 블루 후드 러닝 셸",
+      "descriptor": "slate blue lightweight hooded running rain jacket, black full front zipper, elastic cuffs, subtle seam construction; no large reflective bands",
+      "evidence": "observed",
+      "restorationNote": "Jacket and hood clearly visible.",
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-outer.webp",
+      "sha256": "b28374ea4dc5a05755c7de8c45f1f9fe948eac4ec6703d3c8c697a59acb0235a",
+      "bytes": 42756,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "후드를 머리에 꼭 맞게 쓰고 지퍼는 가슴 위까지 올려, 안에 입은 집넥 칼라만 살짝 보이게 해요.",
+        "en": "Pull the hood snugly over your head and zip up past the chest so only the zip-neck collar peeks out.",
+        "de": "Die Kapuze eng über den Kopf ziehen und den Reißverschluss über die Brust schließen, sodass nur der Stehkragen hervorschaut."
+      },
+      "sourceDescription": {
+        "ko": "슬레이트 블루 후드 러닝 셸 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Slate blue hooded running shell. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Schieferblaue Laufregenjacke mit Kapuze. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "슬레이트 블루 후드 러닝 셸 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-run-20261026-01.02-top",
+      "name": {
+        "ko": "차콜 집넥 기능성 이너",
+        "en": "Charcoal zip-neck base layer",
+        "de": "Anthrazitfarbener Funktionslayer mit Stehkragen"
+      },
+      "nameKo": "차콜 집넥 기능성 이너",
+      "descriptor": "charcoal heather technical long sleeve quarter-zip high-neck running base layer",
+      "evidence": "partially_observed",
+      "restorationNote": "Charcoal zip-neck visible; sleeves and hidden torso reconstructed.",
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-top.webp",
+      "sha256": "7d27fc793da2855ad4b763f4dacfc87b73e6266b08b6013bec912bded0e151a3",
+      "bytes": 48686,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "집넥은 목 끝까지 올려 셸 칼라 안을 채우고, 밑단은 셸 아래로 한 줄만 보이게 입어요.",
+        "en": "Zip the neck all the way up to fill the shell's collar, and let only a narrow strip of hem show below the shell.",
+        "de": "Den Kragen ganz hochziehen, damit er den Jackenkragen ausfüllt; unten nur einen schmalen Streifen Saum unter der Jacke zeigen."
+      },
+      "sourceDescription": {
+        "ko": "차콜 집넥 기능성 이너 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Charcoal zip-neck base layer. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Anthrazitfarbener Funktionslayer mit Stehkragen. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 집넥 기능성 이너 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-run-20261026-01.03-bottom",
+      "name": {
+        "ko": "블랙 반사 러닝 타이츠",
+        "en": "Black reflective running tights",
+        "de": "Schwarze Lauftights mit Reflexdetails"
+      },
+      "nameKo": "블랙 반사 러닝 타이츠",
+      "descriptor": "black full-length fitted running tights, small silver reflective outer thigh and lower-calf bars",
+      "evidence": "observed",
+      "restorationNote": "Both legs and reflective accents visible.",
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/03-bottom.webp",
+      "sha256": "9b2d3ed40bff8e480b3201d3872cfe3d04f973e216f4c7b6fedc373dbea6af6b",
+      "bytes": 17030,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "발목까지 오는 타이츠를 양말과 겹쳐 맨살이 보이지 않게 하고, 허벅지·종아리 반사 바는 바깥쪽에 오게 입어요.",
+        "en": "Let the full-length tights overlap the socks so no skin shows, with the reflective bars on the outside of thigh and calf.",
+        "de": "Die langen Tights mit den Socken überlappen lassen, damit keine Haut zu sehen ist; die Reflexstreifen sitzen außen an Oberschenkel und Wade."
+      },
+      "sourceDescription": {
+        "ko": "블랙 반사 러닝 타이츠 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Black reflective running tights. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Schwarze Lauftights mit Reflexdetails. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 반사 러닝 타이츠 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-socks",
+      "category": "socks",
+      "appCategory": "socks",
+      "appItemId": "rn-chilly-m35-day-run-20261026-01.04-socks",
+      "name": {
+        "ko": "라이트 그레이 러닝 양말",
+        "en": "Light grey running socks",
+        "de": "Hellgraue Laufsocken"
+      },
+      "nameKo": "라이트 그레이 러닝 양말",
+      "descriptor": "one matching pair of light grey ribbed crew running socks",
+      "evidence": "observed",
+      "restorationNote": "Grey socks visible above shoes.",
+      "image": "products/04-socks.webp",
+      "deliveredImage": "products/04-socks.webp",
+      "sha256": "ac345f9b668cbcbbcc1cabd462d63a24f7e1d0fe6cc59d395395e39f3c2604fa",
+      "bytes": 42926,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "크루 길이 양말을 타이츠 밑단 위로 끌어올려 발목을 한 번 더 덮어요.",
+        "en": "Pull the crew socks up over the hems of the tights to cover the ankles twice over.",
+        "de": "Die Crew-Socken über die Säume der Tights ziehen, damit die Knöchel doppelt bedeckt sind."
+      },
+      "sourceDescription": {
+        "ko": "라이트 그레이 러닝 양말 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Light grey running socks. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Hellgraue Laufsocken. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "라이트 그레이 러닝 양말 — 독립 투명 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-run-20261026-01.05-shoes",
+      "name": {
+        "ko": "실버 그레이 메시 러닝화",
+        "en": "Silver grey mesh running shoes",
+        "de": "Silbergraue Mesh-Laufschuhe"
+      },
+      "nameKo": "실버 그레이 메시 러닝화",
+      "descriptor": "one matching left and right pair of silver grey mesh running shoes, pale grey laces, silver overlay panels, off-white chunky foam midsole, black outsole edges",
+      "evidence": "observed",
+      "restorationNote": "Near shoe fully visible; match its silver/grey mesh and sole.",
+      "image": "products/05-shoes.webp",
+      "deliveredImage": "products/05-shoes.webp",
+      "sha256": "bebf8b92dfb996f832e2a8559f01eb5bb68278429f4c773b87a7b695b13d6624",
+      "bytes": 45764,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "실버 메시 러닝화는 끈을 단단히 묶어 젖은 보도에서 발이 밀리지 않게 하고, 물웅덩이를 밟은 뒤에는 끈을 다시 확인해요.",
+        "en": "Lace the silver mesh trainers firmly so your feet don't slide on wet paving, and recheck the laces after a puddle.",
+        "de": "Die silbernen Mesh-Laufschuhe fest schnüren, damit der Fuß auf nassem Pflaster nicht rutscht, und nach einer Pfütze die Schnürung prüfen."
+      },
+      "sourceDescription": {
+        "ko": "실버 그레이 메시 러닝화 — 에디토리얼 기준의 스타일링 복원 이미지. 가려진 부분은 추정했습니다.",
+        "en": "Silver grey mesh running shoes. Styling reconstruction from the editorial; hidden details are inferred.",
+        "de": "Silbergraue Mesh-Laufschuhe. Styling-Rekonstruktion nach dem Editorial; verdeckte Details sind ergänzt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "실버 그레이 메시 러닝화 — 독립 투명 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "notes": {
+    "ko": "AI로 제작한 착장과 제품 복원 이미지입니다. 실제 판매 상품이나 방수 성능을 보증하지 않습니다.",
+    "en": "AI-created styling and product reconstruction images; no verified retail product or waterproof performance claim.",
+    "de": "KI-generierte Styling- und Produktrekonstruktionen; kein verifiziertes Verkaufsprodukt und keine bestätigte Wasserdichtigkeit."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "batchId": "rain-normal-chilly-male-day-running-20261026"
+}
