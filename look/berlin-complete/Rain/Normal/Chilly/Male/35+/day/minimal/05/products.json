@@ -1,0 +1,352 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-minimal-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "batch": "approved",
+    "basis": "User explicitly authorized autonomous production, Claude Code GitHub/main publication, actual delivery verification, iCloud archival and verified local cleanup in this chat on 2026-10-26. No separate visual approval of generated products asserted.",
+    "approvedAt": null,
+    "perProductUserVisualApproval": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "88f9fdd42a3d8ae7f7c5646086279130c1ff23e1a81c8d8adde58a30b0fb937d",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-05.01-outer",
+      "name": {
+        "ko": "블랙 벨티드 레인 트렌치",
+        "en": "Black belted rain trench",
+        "de": "Schwarzer Regentrench mit Gürtel"
+      },
+      "nameKo": "블랙 벨티드 레인 트렌치",
+      "nameEn": "Black belted rain trench",
+      "nameDe": "Schwarzer Regentrench mit Gürtel",
+      "description": {
+        "ko": "블랙 트렌치 벨트는 허리를 조이지 않을 정도로 묶어 옆모습의 긴 선을 살린다.",
+        "en": "Tie the black trench's belt without cinching the waist, so the long line shows in profile.",
+        "de": "Den Gürtel des schwarzen Trenchcoats binden, ohne die Taille einzuschnüren – so bleibt im Profil die lange Linie erhalten."
+      },
+      "descriptionKo": "블랙 트렌치 벨트는 허리를 조이지 않을 정도로 묶어 옆모습의 긴 선을 살린다.",
+      "descriptionEn": "Tie the black trench's belt without cinching the waist, so the long line shows in profile.",
+      "descriptionDe": "Den Gürtel des schwarzen Trenchcoats binden, ohne die Taille einzuschnüren – so bleibt im Profil die lange Linie erhalten.",
+      "howToWear": {
+        "ko": "블랙 트렌치 벨트는 허리를 조이지 않을 정도로 묶어 옆모습의 긴 선을 살린다.",
+        "en": "Tie the black trench's belt without cinching the waist, so the long line shows in profile.",
+        "de": "Den Gürtel des schwarzen Trenchcoats binden, ohne die Taille einzuschnüren – so bleibt im Profil die lange Linie erhalten."
+      },
+      "howToWearKo": "블랙 트렌치 벨트는 허리를 조이지 않을 정도로 묶어 옆모습의 긴 선을 살린다.",
+      "note": {
+        "ko": "블랙 트렌치 벨트는 허리를 조이지 않을 정도로 묶어 옆모습의 긴 선을 살린다.",
+        "en": "Tie the black trench's belt without cinching the waist, so the long line shows in profile.",
+        "de": "Den Gürtel des schwarzen Trenchcoats binden, ohne die Taille einzuschnüren – so bleibt im Profil die lange Linie erhalten."
+      },
+      "designDescriptionEn": "black minimalist rain trench coat with pointed collar, matching waist belt and clean long silhouette, back yoke",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/coat.webp",
+      "altKo": "블랙 벨티드 레인 트렌치 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "6ded4e5a2d82dec34606f9dd7e8610c4d233e04e63f1e66dfbcebcdde310cd8e",
+      "bytes": 40828,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.48814
+    },
+    {
+      "id": "02-scarf",
+      "category": "scarf",
+      "appCategory": "scarf",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-05.02-scarf",
+      "name": {
+        "ko": "러스트 오렌지 머플러",
+        "en": "Rust orange scarf",
+        "de": "Schal in Rostorange"
+      },
+      "nameKo": "러스트 오렌지 머플러",
+      "nameEn": "Rust orange scarf",
+      "nameDe": "Schal in Rostorange",
+      "description": {
+        "ko": "러스트 머플러 끝을 세로로 길게 내려 블랙 코트 위에 한 가지 색만 강조한다.",
+        "en": "Let the rust scarf's ends fall long and vertical, so a single colour stands out against the black coat.",
+        "de": "Die Enden des rostroten Schals lang und senkrecht fallen lassen, damit auf dem schwarzen Mantel nur eine Farbe hervorsticht."
+      },
+      "descriptionKo": "러스트 머플러 끝을 세로로 길게 내려 블랙 코트 위에 한 가지 색만 강조한다.",
+      "descriptionEn": "Let the rust scarf's ends fall long and vertical, so a single colour stands out against the black coat.",
+      "descriptionDe": "Die Enden des rostroten Schals lang und senkrecht fallen lassen, damit auf dem schwarzen Mantel nur eine Farbe hervorsticht.",
+      "howToWear": {
+        "ko": "러스트 머플러 끝을 세로로 길게 내려 블랙 코트 위에 한 가지 색만 강조한다.",
+        "en": "Let the rust scarf's ends fall long and vertical, so a single colour stands out against the black coat.",
+        "de": "Die Enden des rostroten Schals lang und senkrecht fallen lassen, damit auf dem schwarzen Mantel nur eine Farbe hervorsticht."
+      },
+      "howToWearKo": "러스트 머플러 끝을 세로로 길게 내려 블랙 코트 위에 한 가지 색만 강조한다.",
+      "note": {
+        "ko": "러스트 머플러 끝을 세로로 길게 내려 블랙 코트 위에 한 가지 색만 강조한다.",
+        "en": "Let the rust scarf's ends fall long and vertical, so a single colour stands out against the black coat.",
+        "de": "Die Enden des rostroten Schals lang und senkrecht fallen lassen, damit auf dem schwarzen Mantel nur eine Farbe hervorsticht."
+      },
+      "designDescriptionEn": "muted rust orange textured knitted scarf with short fringed ends",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-scarf.webp",
+      "deliveredImage": "products/scarf.webp",
+      "altKo": "러스트 오렌지 머플러 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "8cc6e35f0d16598c6ea9c7e1d1ca1c9bef3a13cec077e5e5ed7261b299ceb052",
+      "bytes": 49328,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.470736
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-05.03-top",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream crewneck knit",
+        "de": "Cremefarbener Rundhalspullover"
+      },
+      "nameKo": "크림 크루넥 니트",
+      "nameEn": "Cream crewneck knit",
+      "nameDe": "Cremefarbener Rundhalspullover",
+      "description": {
+        "ko": "크림 니트는 코트 소매 끝에서 조금만 보이게 두어 머플러와 색이 경쟁하지 않게 한다.",
+        "en": "Let only a little cream knit show at the coat cuffs so it doesn't compete with the scarf's colour.",
+        "de": "Den cremefarbenen Pullover nur ein wenig an den Mantelärmeln zeigen, damit er farblich nicht mit dem Schal konkurriert."
+      },
+      "descriptionKo": "크림 니트는 코트 소매 끝에서 조금만 보이게 두어 머플러와 색이 경쟁하지 않게 한다.",
+      "descriptionEn": "Let only a little cream knit show at the coat cuffs so it doesn't compete with the scarf's colour.",
+      "descriptionDe": "Den cremefarbenen Pullover nur ein wenig an den Mantelärmeln zeigen, damit er farblich nicht mit dem Schal konkurriert.",
+      "howToWear": {
+        "ko": "크림 니트는 코트 소매 끝에서 조금만 보이게 두어 머플러와 색이 경쟁하지 않게 한다.",
+        "en": "Let only a little cream knit show at the coat cuffs so it doesn't compete with the scarf's colour.",
+        "de": "Den cremefarbenen Pullover nur ein wenig an den Mantelärmeln zeigen, damit er farblich nicht mit dem Schal konkurriert."
+      },
+      "howToWearKo": "크림 니트는 코트 소매 끝에서 조금만 보이게 두어 머플러와 색이 경쟁하지 않게 한다.",
+      "note": {
+        "ko": "크림 니트는 코트 소매 끝에서 조금만 보이게 두어 머플러와 색이 경쟁하지 않게 한다.",
+        "en": "Let only a little cream knit show at the coat cuffs so it doesn't compete with the scarf's colour.",
+        "de": "Den cremefarbenen Pullover nur ein wenig an den Mantelärmeln zeigen, damit er farblich nicht mit dem Schal konkurriert."
+      },
+      "designDescriptionEn": "cream fine-knit crewneck sweater, narrow ribbed cuffs; mostly hidden garment conservatively reconstructed from visible cuff and prompt",
+      "evidence": "inferred",
+      "reconstruction": "not-visible-inferred",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-top.webp",
+      "deliveredImage": "products/knit.webp",
+      "altKo": "크림 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "7bd0d3b688e5da7f99d6b806ef578be97348bc9a1074c026518b736d10ced75e",
+      "bytes": 37620,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.320684
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-05.04-bottom",
+      "name": {
+        "ko": "다크 차콜 팬츠",
+        "en": "Dark charcoal trousers",
+        "de": "Dunkle anthrazitfarbene Hose"
+      },
+      "nameKo": "다크 차콜 팬츠",
+      "nameEn": "Dark charcoal trousers",
+      "nameDe": "Dunkle anthrazitfarbene Hose",
+      "description": {
+        "ko": "다크 차콜 팬츠는 트렌치 아래에서 과하게 퍼지지 않는 직선으로 정리한다.",
+        "en": "Keep the dark charcoal trousers to a straight line that doesn't flare out beneath the trench.",
+        "de": "Die dunkle anthrazitfarbene Hose unter dem Trench gerade fallen lassen, ohne dass sie ausstellt."
+      },
+      "descriptionKo": "다크 차콜 팬츠는 트렌치 아래에서 과하게 퍼지지 않는 직선으로 정리한다.",
+      "descriptionEn": "Keep the dark charcoal trousers to a straight line that doesn't flare out beneath the trench.",
+      "descriptionDe": "Die dunkle anthrazitfarbene Hose unter dem Trench gerade fallen lassen, ohne dass sie ausstellt.",
+      "howToWear": {
+        "ko": "다크 차콜 팬츠는 트렌치 아래에서 과하게 퍼지지 않는 직선으로 정리한다.",
+        "en": "Keep the dark charcoal trousers to a straight line that doesn't flare out beneath the trench.",
+        "de": "Die dunkle anthrazitfarbene Hose unter dem Trench gerade fallen lassen, ohne dass sie ausstellt."
+      },
+      "howToWearKo": "다크 차콜 팬츠는 트렌치 아래에서 과하게 퍼지지 않는 직선으로 정리한다.",
+      "note": {
+        "ko": "다크 차콜 팬츠는 트렌치 아래에서 과하게 퍼지지 않는 직선으로 정리한다.",
+        "en": "Keep the dark charcoal trousers to a straight line that doesn't flare out beneath the trench.",
+        "de": "Die dunkle anthrazitfarbene Hose unter dem Trench gerade fallen lassen, ohne dass sie ausstellt."
+      },
+      "designDescriptionEn": "dark charcoal tailored straight trousers, conservative reconstruction of partially visible lower garment",
+      "evidence": "partial",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/trousers.webp",
+      "altKo": "다크 차콜 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "84865b74002cf03cfa4d2f07e4b2f4404666b7d01f1d936b97f25e7b2b702fda",
+      "bytes": 23076,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.58764
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-05.05-bag",
+      "name": {
+        "ko": "내추럴 캔버스 토트",
+        "en": "Natural canvas tote",
+        "de": "Naturfarbener Canvas-Shopper"
+      },
+      "nameKo": "내추럴 캔버스 토트",
+      "nameEn": "Natural canvas tote",
+      "nameDe": "Naturfarbener Canvas-Shopper",
+      "description": {
+        "ko": "내추럴 토트의 손잡이를 가지런히 잡아 코트 벨트와 머플러 끝이 엉키지 않게 든다.",
+        "en": "Hold the natural tote's handles together neatly so they don't tangle with the coat belt or the scarf ends.",
+        "de": "Die Henkel des naturfarbenen Shoppers ordentlich zusammenhalten, damit sie sich nicht mit Mantelgürtel oder Schalenden verheddern."
+      },
+      "descriptionKo": "내추럴 토트의 손잡이를 가지런히 잡아 코트 벨트와 머플러 끝이 엉키지 않게 든다.",
+      "descriptionEn": "Hold the natural tote's handles together neatly so they don't tangle with the coat belt or the scarf ends.",
+      "descriptionDe": "Die Henkel des naturfarbenen Shoppers ordentlich zusammenhalten, damit sie sich nicht mit Mantelgürtel oder Schalenden verheddern.",
+      "howToWear": {
+        "ko": "내추럴 토트의 손잡이를 가지런히 잡아 코트 벨트와 머플러 끝이 엉키지 않게 든다.",
+        "en": "Hold the natural tote's handles together neatly so they don't tangle with the coat belt or the scarf ends.",
+        "de": "Die Henkel des naturfarbenen Shoppers ordentlich zusammenhalten, damit sie sich nicht mit Mantelgürtel oder Schalenden verheddern."
+      },
+      "howToWearKo": "내추럴 토트의 손잡이를 가지런히 잡아 코트 벨트와 머플러 끝이 엉키지 않게 든다.",
+      "note": {
+        "ko": "내추럴 토트의 손잡이를 가지런히 잡아 코트 벨트와 머플러 끝이 엉키지 않게 든다.",
+        "en": "Hold the natural tote's handles together neatly so they don't tangle with the coat belt or the scarf ends.",
+        "de": "Die Henkel des naturfarbenen Shoppers ordentlich zusammenhalten, damit sie sich nicht mit Mantelgürtel oder Schalenden verheddern."
+      },
+      "designDescriptionEn": "natural cream unprinted soft canvas tote bag with two short handles, empty, no groceries",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-bag.webp",
+      "deliveredImage": "products/tote.webp",
+      "altKo": "내추럴 캔버스 토트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "cc79eb69a0e3f972175d1e5315b9290b0162b0e3b3581d996b9bdf9f0e519c67",
+      "bytes": 32094,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.456604
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "titleKo": "블랙에 남긴 러스트",
+    "title": {
+      "ko": "블랙에 남긴 러스트",
+      "en": "RUST ON THE WAY HOME"
+    },
+    "caption": {
+      "ko": "블랙 트렌치에 러스트 머플러, 장보기의 작은 여유.",
+      "en": "A rust scarf on a black trench – a small, unhurried moment on the grocery run.",
+      "de": "Ein rostroter Schal auf schwarzem Trench – ein kleiner, entspannter Moment beim Einkauf."
+    },
+    "deck": {
+      "ko": "블랙 트렌치에 러스트 머플러, 장보기의 작은 여유.",
+      "en": "A rust scarf on a black trench – a small, unhurried moment on the grocery run.",
+      "de": "Ein rostroter Schal auf schwarzem Trench – ein kleiner, entspannter Moment beim Einkauf."
+    },
+    "intro": {
+      "ko": "블랙 벨티드 트렌치 위에 러스트 머플러를 느슨하게 내려 색을 더한다. 크림색 니트 소매와 내추럴 토트가 어두운 착장을 가볍게 풀어준다.",
+      "en": "A rust scarf hung loosely over the black belted trench adds the colour. Cream knit cuffs and a natural tote gently lighten the dark outfit.",
+      "de": "Ein locker herabhängender rostroter Schal auf dem schwarzen Trenchcoat mit Gürtel bringt Farbe. Cremefarbene Strickbündchen und ein naturfarbener Shopper lockern den dunklen Look leicht auf."
+    },
+    "pull": "LEEKS IN, SCARF STILL SWINGING.",
+    "tip": {
+      "ko": "머플러는 매듭을 조이지 않고 세로로 내려 트렌치의 긴 선을 따른다.",
+      "en": "Don't knot the scarf tight; let it hang vertically along the trench's long line.",
+      "de": "Den Schal nicht fest knoten, sondern senkrecht entlang der langen Linie des Trenchcoats fallen lassen."
+    }
+  },
+  "reconstructionSummary": "The cream knit is inferred from the visible cuff (body hidden by trench and scarf); the trousers are partially visible; shoes and socks are not visible and were not added. The car and the groceries are scene props; the empty canvas tote is a product.",
+  "productionStatus": "ready",
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized the autonomous end-to-end workflow; no separate per-product user visual approval claimed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-minimal-20261026-05",
+  "appBuild": "b163",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "hero": "rn-chilly-m35-day-minimal-20261026-05.02-scarf"
+  }
+}

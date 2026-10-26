@@ -1,0 +1,352 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-minimal-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "batch": "approved",
+    "basis": "User explicitly authorized autonomous production, Claude Code GitHub/main publication, actual delivery verification, iCloud archival and verified local cleanup in this chat on 2026-10-26. No separate visual approval of generated products asserted.",
+    "approvedAt": null,
+    "perProductUserVisualApproval": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "01b63799776d392c1d15b5afb6053de2f1216bb15a592d3ce0f1b0cc67d2c050",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-03.01-outer",
+      "name": {
+        "ko": "잉크 네이비 후드 레인코트",
+        "en": "Ink navy hooded raincoat",
+        "de": "Marineblauer Kapuzen-Regenmantel"
+      },
+      "nameKo": "잉크 네이비 후드 레인코트",
+      "nameEn": "Ink navy hooded raincoat",
+      "nameDe": "Marineblauer Kapuzen-Regenmantel",
+      "description": {
+        "ko": "네이비 코트는 앞을 조금 열어 코발트 니트가 한 면으로 드러나도록 한다.",
+        "en": "Wear the navy coat slightly open so the cobalt knit shows as one clean panel.",
+        "de": "Den marineblauen Mantel leicht offen tragen, damit der kobaltblaue Pullover als eine klare Fläche sichtbar wird."
+      },
+      "descriptionKo": "네이비 코트는 앞을 조금 열어 코발트 니트가 한 면으로 드러나도록 한다.",
+      "descriptionEn": "Wear the navy coat slightly open so the cobalt knit shows as one clean panel.",
+      "descriptionDe": "Den marineblauen Mantel leicht offen tragen, damit der kobaltblaue Pullover als eine klare Fläche sichtbar wird.",
+      "howToWear": {
+        "ko": "네이비 코트는 앞을 조금 열어 코발트 니트가 한 면으로 드러나도록 한다.",
+        "en": "Wear the navy coat slightly open so the cobalt knit shows as one clean panel.",
+        "de": "Den marineblauen Mantel leicht offen tragen, damit der kobaltblaue Pullover als eine klare Fläche sichtbar wird."
+      },
+      "howToWearKo": "네이비 코트는 앞을 조금 열어 코발트 니트가 한 면으로 드러나도록 한다.",
+      "note": {
+        "ko": "네이비 코트는 앞을 조금 열어 코발트 니트가 한 면으로 드러나도록 한다.",
+        "en": "Wear the navy coat slightly open so the cobalt knit shows as one clean panel.",
+        "de": "Den marineblauen Mantel leicht offen tragen, damit der kobaltblaue Pullover als eine klare Fläche sichtbar wird."
+      },
+      "designDescriptionEn": "ink navy hooded raincoat, snap front placket, clean minimalist straight cut",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/coat.webp",
+      "altKo": "잉크 네이비 후드 레인코트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "7ca8cae418af8c6887c6964893a12e8dc02234139df0dcf674eef21be8db74eb",
+      "bytes": 27476,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.462412
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-03.02-top",
+      "name": {
+        "ko": "코발트 크루넥 니트",
+        "en": "Cobalt crewneck knit",
+        "de": "Kobaltblauer Rundhalspullover"
+      },
+      "nameKo": "코발트 크루넥 니트",
+      "nameEn": "Cobalt crewneck knit",
+      "nameDe": "Kobaltblauer Rundhalspullover",
+      "description": {
+        "ko": "코발트 니트는 밑단을 허리선 가까이 정리해 강한 색이 길게 늘어지지 않게 한다.",
+        "en": "Settle the cobalt knit's hem close to the waistline so the strong colour doesn't run too long.",
+        "de": "Den Saum des kobaltblauen Pullovers nah an der Taille halten, damit die kräftige Farbe nicht zu lang wirkt."
+      },
+      "descriptionKo": "코발트 니트는 밑단을 허리선 가까이 정리해 강한 색이 길게 늘어지지 않게 한다.",
+      "descriptionEn": "Settle the cobalt knit's hem close to the waistline so the strong colour doesn't run too long.",
+      "descriptionDe": "Den Saum des kobaltblauen Pullovers nah an der Taille halten, damit die kräftige Farbe nicht zu lang wirkt.",
+      "howToWear": {
+        "ko": "코발트 니트는 밑단을 허리선 가까이 정리해 강한 색이 길게 늘어지지 않게 한다.",
+        "en": "Settle the cobalt knit's hem close to the waistline so the strong colour doesn't run too long.",
+        "de": "Den Saum des kobaltblauen Pullovers nah an der Taille halten, damit die kräftige Farbe nicht zu lang wirkt."
+      },
+      "howToWearKo": "코발트 니트는 밑단을 허리선 가까이 정리해 강한 색이 길게 늘어지지 않게 한다.",
+      "note": {
+        "ko": "코발트 니트는 밑단을 허리선 가까이 정리해 강한 색이 길게 늘어지지 않게 한다.",
+        "en": "Settle the cobalt knit's hem close to the waistline so the strong colour doesn't run too long.",
+        "de": "Den Saum des kobaltblauen Pullovers nah an der Taille halten, damit die kräftige Farbe nicht zu lang wirkt."
+      },
+      "designDescriptionEn": "saturated cobalt-blue textured knit crewneck sweater, ribbed cuffs and hem",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/knit.webp",
+      "altKo": "코발트 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "52e69ae8e92c031c6438b11528778d68e6d4aeb23168e3aae1a93aa3c2acca62",
+      "bytes": 45372,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.351584
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-03.03-bottom",
+      "name": {
+        "ko": "차콜 테일러드 팬츠",
+        "en": "Charcoal tailored trousers",
+        "de": "Anthrazitfarbene Stoffhose"
+      },
+      "nameKo": "차콜 테일러드 팬츠",
+      "nameEn": "Charcoal tailored trousers",
+      "nameDe": "Anthrazitfarbene Stoffhose",
+      "description": {
+        "ko": "차콜 팬츠는 상체의 블루보다 조용한 바탕으로 두고 허리선의 부피를 줄인다.",
+        "en": "Let the charcoal trousers be a quieter base than the blue above, and keep the waistline free of bulk.",
+        "de": "Die anthrazitfarbene Hose als ruhigere Basis unter dem Blau tragen und an der Taille nichts auftragen lassen."
+      },
+      "descriptionKo": "차콜 팬츠는 상체의 블루보다 조용한 바탕으로 두고 허리선의 부피를 줄인다.",
+      "descriptionEn": "Let the charcoal trousers be a quieter base than the blue above, and keep the waistline free of bulk.",
+      "descriptionDe": "Die anthrazitfarbene Hose als ruhigere Basis unter dem Blau tragen und an der Taille nichts auftragen lassen.",
+      "howToWear": {
+        "ko": "차콜 팬츠는 상체의 블루보다 조용한 바탕으로 두고 허리선의 부피를 줄인다.",
+        "en": "Let the charcoal trousers be a quieter base than the blue above, and keep the waistline free of bulk.",
+        "de": "Die anthrazitfarbene Hose als ruhigere Basis unter dem Blau tragen und an der Taille nichts auftragen lassen."
+      },
+      "howToWearKo": "차콜 팬츠는 상체의 블루보다 조용한 바탕으로 두고 허리선의 부피를 줄인다.",
+      "note": {
+        "ko": "차콜 팬츠는 상체의 블루보다 조용한 바탕으로 두고 허리선의 부피를 줄인다.",
+        "en": "Let the charcoal trousers be a quieter base than the blue above, and keep the waistline free of bulk.",
+        "de": "Die anthrazitfarbene Hose als ruhigere Basis unter dem Blau tragen und an der Taille nichts auftragen lassen."
+      },
+      "designDescriptionEn": "charcoal grey straight tailored trousers with front crease",
+      "evidence": "partial",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/trousers.webp",
+      "altKo": "차콜 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "39ff49cbf824ce2f20e4d5b34bd925cb41e930f636770228878928130e0e8dae",
+      "bytes": 29280,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.6022
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-03.04-bag",
+      "name": {
+        "ko": "블랙 크로스백",
+        "en": "Black zip-top crossbody bag",
+        "de": "Schwarze Umhängetasche mit Reißverschluss"
+      },
+      "nameKo": "블랙 크로스백",
+      "nameEn": "Black zip-top crossbody bag",
+      "nameDe": "Schwarze Umhängetasche mit Reißverschluss",
+      "description": {
+        "ko": "넓은 크로스백 스트랩은 꼬이지 않게 펴고 가방 입구가 손에 닿는 높이로 맞춘다.",
+        "en": "Lay the wide strap flat without twists and set the bag so its opening sits within easy reach of your hand.",
+        "de": "Den breiten Riemen ohne Verdrehung flach legen und die Tasche so einstellen, dass die Öffnung bequem in Griffhöhe liegt."
+      },
+      "descriptionKo": "넓은 크로스백 스트랩은 꼬이지 않게 펴고 가방 입구가 손에 닿는 높이로 맞춘다.",
+      "descriptionEn": "Lay the wide strap flat without twists and set the bag so its opening sits within easy reach of your hand.",
+      "descriptionDe": "Den breiten Riemen ohne Verdrehung flach legen und die Tasche so einstellen, dass die Öffnung bequem in Griffhöhe liegt.",
+      "howToWear": {
+        "ko": "넓은 크로스백 스트랩은 꼬이지 않게 펴고 가방 입구가 손에 닿는 높이로 맞춘다.",
+        "en": "Lay the wide strap flat without twists and set the bag so its opening sits within easy reach of your hand.",
+        "de": "Den breiten Riemen ohne Verdrehung flach legen und die Tasche so einstellen, dass die Öffnung bequem in Griffhöhe liegt."
+      },
+      "howToWearKo": "넓은 크로스백 스트랩은 꼬이지 않게 펴고 가방 입구가 손에 닿는 높이로 맞춘다.",
+      "note": {
+        "ko": "넓은 크로스백 스트랩은 꼬이지 않게 펴고 가방 입구가 손에 닿는 높이로 맞춘다.",
+        "en": "Lay the wide strap flat without twists and set the bag so its opening sits within easy reach of your hand.",
+        "de": "Den breiten Riemen ohne Verdrehung flach legen und die Tasche so einstellen, dass die Öffnung bequem in Griffhöhe liegt."
+      },
+      "designDescriptionEn": "black soft rectangular nylon crossbody bag, zip top, broad woven dark grey shoulder strap",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/bag.webp",
+      "altKo": "블랙 크로스백 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "527ddd07390fd8e13b44755698695a45841af720bb2c943d26445b2acce68fdd",
+      "bytes": 37182,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.521728
+    },
+    {
+      "id": "05-accessory",
+      "category": "umbrella",
+      "appCategory": "accessory",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-03.05-accessory",
+      "name": {
+        "ko": "블랙 곡선 손잡이 우산",
+        "en": "Black crook-handle umbrella",
+        "de": "Schwarzer Schirm mit Rundgriff"
+      },
+      "nameKo": "블랙 곡선 손잡이 우산",
+      "nameEn": "Black crook-handle umbrella",
+      "nameDe": "Schwarzer Schirm mit Rundgriff",
+      "description": {
+        "ko": "곡선 손잡이 우산은 접힌 천을 정돈한 뒤 코트와 가방에서 떨어뜨려 든다.",
+        "en": "Tidy the folded canopy of the crook-handle umbrella, then carry it away from the coat and bag.",
+        "de": "Den gefalteten Stoff des Schirms mit Rundgriff ordnen und ihn dann mit Abstand zu Mantel und Tasche tragen."
+      },
+      "descriptionKo": "곡선 손잡이 우산은 접힌 천을 정돈한 뒤 코트와 가방에서 떨어뜨려 든다.",
+      "descriptionEn": "Tidy the folded canopy of the crook-handle umbrella, then carry it away from the coat and bag.",
+      "descriptionDe": "Den gefalteten Stoff des Schirms mit Rundgriff ordnen und ihn dann mit Abstand zu Mantel und Tasche tragen.",
+      "howToWear": {
+        "ko": "곡선 손잡이 우산은 접힌 천을 정돈한 뒤 코트와 가방에서 떨어뜨려 든다.",
+        "en": "Tidy the folded canopy of the crook-handle umbrella, then carry it away from the coat and bag.",
+        "de": "Den gefalteten Stoff des Schirms mit Rundgriff ordnen und ihn dann mit Abstand zu Mantel und Tasche tragen."
+      },
+      "howToWearKo": "곡선 손잡이 우산은 접힌 천을 정돈한 뒤 코트와 가방에서 떨어뜨려 든다.",
+      "note": {
+        "ko": "곡선 손잡이 우산은 접힌 천을 정돈한 뒤 코트와 가방에서 떨어뜨려 든다.",
+        "en": "Tidy the folded canopy of the crook-handle umbrella, then carry it away from the coat and bag.",
+        "de": "Den gefalteten Stoff des Schirms mit Rundgriff ordnen und ihn dann mit Abstand zu Mantel und Tasche tragen."
+      },
+      "designDescriptionEn": "closed black long umbrella with curved black handle and slender black shaft",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-accessory.webp",
+      "deliveredImage": "products/umbrella.webp",
+      "altKo": "블랙 곡선 손잡이 우산 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "f522f76159efe520a51b60947e7c97e1aa46100785f65718c2fc94fb69d026ff",
+      "bytes": 11398,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.927564
+    }
+  ],
+  "productCount": 5,
+  "copy": {
+    "titleKo": "네이비 사이로 코발트",
+    "title": {
+      "ko": "네이비 사이로 코발트",
+      "en": "COBALT FOUND THE KEYS"
+    },
+    "caption": {
+      "ko": "단순한 네이비 실루엣에 코발트 한 겹.",
+      "en": "One layer of cobalt inside a simple navy silhouette.",
+      "de": "Eine Lage Kobaltblau in einer schlichten marineblauen Silhouette."
+    },
+    "deck": {
+      "ko": "단순한 네이비 실루엣에 코발트 한 겹.",
+      "en": "One layer of cobalt inside a simple navy silhouette.",
+      "de": "Eine Lage Kobaltblau in einer schlichten marineblauen Silhouette."
+    },
+    "intro": {
+      "ko": "네이비 후드 코트 안에 코발트 니트를 배치해 한 가지 색에 시선을 모은다. 차콜 팬츠와 블랙 크로스백은 조용하게 받쳐주며 넓은 스트랩은 몸을 따라 정리한다.",
+      "en": "A cobalt knit under the navy hooded coat draws the eye to a single colour. Charcoal trousers and a black crossbody back it up quietly, with the wide strap following the body.",
+      "de": "Ein kobaltblauer Pullover unter dem marineblauen Kapuzenmantel lenkt den Blick auf eine einzige Farbe. Anthrazitfarbene Hose und schwarze Umhängetasche halten sich ruhig im Hintergrund, der breite Riemen folgt dem Körper."
+    },
+    "pull": "KEYS FOUND, UMBRELLA TUCKED.",
+    "tip": {
+      "ko": "코트 앞섶을 조금 열어 니트의 컬러가 한 면으로 보이게 한다.",
+      "en": "Open the coat a little at the front so the knit's colour reads as one panel.",
+      "de": "Den Mantel vorne etwas öffnen, damit die Farbe des Pullovers als eine Fläche wirkt."
+    }
+  },
+  "reconstructionSummary": "The crop ends above the knees: the trousers are partially visible and conservatively completed; shoes and socks are not visible and were not added. The keys are a scene prop, not a product.",
+  "productionStatus": "ready",
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized the autonomous end-to-end workflow; no separate per-product user visual approval claimed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-minimal-20261026-03",
+  "appBuild": "b163",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "hero": "rn-chilly-m35-day-minimal-20261026-03.02-top"
+  }
+}

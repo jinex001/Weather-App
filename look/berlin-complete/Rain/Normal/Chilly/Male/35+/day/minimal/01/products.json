@@ -1,0 +1,404 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-minimal-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "batch": "approved",
+    "basis": "User explicitly authorized autonomous production, Claude Code GitHub/main publication, actual delivery verification, iCloud archival and verified local cleanup in this chat on 2026-10-26. No separate visual approval of generated products asserted.",
+    "approvedAt": null,
+    "perProductUserVisualApproval": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0abae2acbb1dce70316216f221816862fd13e543858885bce822afed92a79c5c",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-01.01-outer",
+      "name": {
+        "ko": "차콜 레인 맥코트",
+        "en": "Charcoal rain mac",
+        "de": "Anthrazitfarbener Regenmantel"
+      },
+      "nameKo": "차콜 레인 맥코트",
+      "nameEn": "Charcoal rain mac",
+      "nameDe": "Anthrazitfarbener Regenmantel",
+      "description": {
+        "ko": "차콜 코트 앞섶을 조금 열어 밝은 그레이 니트가 세로로 보이게 한다.",
+        "en": "Leave the charcoal coat slightly open at the front so the light grey knit shows as a vertical strip.",
+        "de": "Den anthrazitfarbenen Mantel vorne leicht offen lassen, damit der hellgraue Strick als senkrechter Streifen sichtbar wird."
+      },
+      "descriptionKo": "차콜 코트 앞섶을 조금 열어 밝은 그레이 니트가 세로로 보이게 한다.",
+      "descriptionEn": "Leave the charcoal coat slightly open at the front so the light grey knit shows as a vertical strip.",
+      "descriptionDe": "Den anthrazitfarbenen Mantel vorne leicht offen lassen, damit der hellgraue Strick als senkrechter Streifen sichtbar wird.",
+      "howToWear": {
+        "ko": "차콜 코트 앞섶을 조금 열어 밝은 그레이 니트가 세로로 보이게 한다.",
+        "en": "Leave the charcoal coat slightly open at the front so the light grey knit shows as a vertical strip.",
+        "de": "Den anthrazitfarbenen Mantel vorne leicht offen lassen, damit der hellgraue Strick als senkrechter Streifen sichtbar wird."
+      },
+      "howToWearKo": "차콜 코트 앞섶을 조금 열어 밝은 그레이 니트가 세로로 보이게 한다.",
+      "note": {
+        "ko": "차콜 코트 앞섶을 조금 열어 밝은 그레이 니트가 세로로 보이게 한다.",
+        "en": "Leave the charcoal coat slightly open at the front so the light grey knit shows as a vertical strip.",
+        "de": "Den anthrazitfarbenen Mantel vorne leicht offen lassen, damit der hellgraue Strick als senkrechter Streifen sichtbar wird."
+      },
+      "designDescriptionEn": "charcoal matte single-breasted rain mac with pointed collar and black buttons",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/coat.webp",
+      "altKo": "차콜 레인 맥코트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "834c3608b2bb5e32e9459de45e2330a057c64bd32b33a3b1e9127a23b248b479",
+      "bytes": 46984,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.377408
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-01.02-top",
+      "name": {
+        "ko": "라이트 그레이 크루넥 니트",
+        "en": "Light grey crewneck knit",
+        "de": "Hellgrauer Rundhalspullover"
+      },
+      "nameKo": "라이트 그레이 크루넥 니트",
+      "nameEn": "Light grey crewneck knit",
+      "nameDe": "Hellgrauer Rundhalspullover",
+      "description": {
+        "ko": "그레이 니트의 소매 끝만 코트 밖으로 살짝 드러내 블랙 착장에 밝은 층을 더한다.",
+        "en": "Let just the grey knit's cuffs peek out of the coat sleeves to add a light layer to the dark outfit.",
+        "de": "Nur die Bündchen des grauen Pullovers aus den Mantelärmeln schauen lassen – das bringt eine helle Lage in den dunklen Look."
+      },
+      "descriptionKo": "그레이 니트의 소매 끝만 코트 밖으로 살짝 드러내 블랙 착장에 밝은 층을 더한다.",
+      "descriptionEn": "Let just the grey knit's cuffs peek out of the coat sleeves to add a light layer to the dark outfit.",
+      "descriptionDe": "Nur die Bündchen des grauen Pullovers aus den Mantelärmeln schauen lassen – das bringt eine helle Lage in den dunklen Look.",
+      "howToWear": {
+        "ko": "그레이 니트의 소매 끝만 코트 밖으로 살짝 드러내 블랙 착장에 밝은 층을 더한다.",
+        "en": "Let just the grey knit's cuffs peek out of the coat sleeves to add a light layer to the dark outfit.",
+        "de": "Nur die Bündchen des grauen Pullovers aus den Mantelärmeln schauen lassen – das bringt eine helle Lage in den dunklen Look."
+      },
+      "howToWearKo": "그레이 니트의 소매 끝만 코트 밖으로 살짝 드러내 블랙 착장에 밝은 층을 더한다.",
+      "note": {
+        "ko": "그레이 니트의 소매 끝만 코트 밖으로 살짝 드러내 블랙 착장에 밝은 층을 더한다.",
+        "en": "Let just the grey knit's cuffs peek out of the coat sleeves to add a light layer to the dark outfit.",
+        "de": "Nur die Bündchen des grauen Pullovers aus den Mantelärmeln schauen lassen – das bringt eine helle Lage in den dunklen Look."
+      },
+      "designDescriptionEn": "light grey fine-knit crewneck sweater with ribbed cuffs and hem",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/knit.webp",
+      "altKo": "라이트 그레이 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "4a1cb39f769dee1899ef11f4ca13ec5b3f3854aaeb98561a599d7223bff2b69e",
+      "bytes": 43928,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.369592
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-01.03-bottom",
+      "name": {
+        "ko": "블랙 테일러드 팬츠",
+        "en": "Black tailored trousers",
+        "de": "Schwarze Stoffhose"
+      },
+      "nameKo": "블랙 테일러드 팬츠",
+      "nameEn": "Black tailored trousers",
+      "nameDe": "Schwarze Stoffhose",
+      "description": {
+        "ko": "블랙 팬츠 밑단을 첼시 부츠 윗부분에 간결하게 걸쳐 긴 선을 이어준다.",
+        "en": "Let the hem of the black trousers rest neatly on top of the Chelsea boots to carry the long line down.",
+        "de": "Den Saum der schwarzen Hose glatt auf den Schaft der Chelsea-Boots fallen lassen, damit die lange Linie weiterläuft."
+      },
+      "descriptionKo": "블랙 팬츠 밑단을 첼시 부츠 윗부분에 간결하게 걸쳐 긴 선을 이어준다.",
+      "descriptionEn": "Let the hem of the black trousers rest neatly on top of the Chelsea boots to carry the long line down.",
+      "descriptionDe": "Den Saum der schwarzen Hose glatt auf den Schaft der Chelsea-Boots fallen lassen, damit die lange Linie weiterläuft.",
+      "howToWear": {
+        "ko": "블랙 팬츠 밑단을 첼시 부츠 윗부분에 간결하게 걸쳐 긴 선을 이어준다.",
+        "en": "Let the hem of the black trousers rest neatly on top of the Chelsea boots to carry the long line down.",
+        "de": "Den Saum der schwarzen Hose glatt auf den Schaft der Chelsea-Boots fallen lassen, damit die lange Linie weiterläuft."
+      },
+      "howToWearKo": "블랙 팬츠 밑단을 첼시 부츠 윗부분에 간결하게 걸쳐 긴 선을 이어준다.",
+      "note": {
+        "ko": "블랙 팬츠 밑단을 첼시 부츠 윗부분에 간결하게 걸쳐 긴 선을 이어준다.",
+        "en": "Let the hem of the black trousers rest neatly on top of the Chelsea boots to carry the long line down.",
+        "de": "Den Saum der schwarzen Hose glatt auf den Schaft der Chelsea-Boots fallen lassen, damit die lange Linie weiterläuft."
+      },
+      "designDescriptionEn": "black straight tailored trousers",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/trousers.webp",
+      "altKo": "블랙 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "425fa6b3290dee36c0a47a7bc98f63696343fe4787f8134658e0d0e2c4d1cd5c",
+      "bytes": 18510,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.606624
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-01.04-shoes",
+      "name": {
+        "ko": "블랙 첼시 부츠",
+        "en": "Black Chelsea boots",
+        "de": "Schwarze Chelsea-Boots"
+      },
+      "nameKo": "블랙 첼시 부츠",
+      "nameEn": "Black Chelsea boots",
+      "nameDe": "Schwarze Chelsea-Boots",
+      "description": {
+        "ko": "첼시 부츠의 발목을 팬츠 아래로 정리하고 앞코가 충분히 드러나게 한다.",
+        "en": "Keep the boots' ankles tucked under the trousers and let the toes show clearly.",
+        "de": "Den Schaft der Boots unter der Hose verschwinden lassen und die Schuhspitzen gut sichtbar zeigen."
+      },
+      "descriptionKo": "첼시 부츠의 발목을 팬츠 아래로 정리하고 앞코가 충분히 드러나게 한다.",
+      "descriptionEn": "Keep the boots' ankles tucked under the trousers and let the toes show clearly.",
+      "descriptionDe": "Den Schaft der Boots unter der Hose verschwinden lassen und die Schuhspitzen gut sichtbar zeigen.",
+      "howToWear": {
+        "ko": "첼시 부츠의 발목을 팬츠 아래로 정리하고 앞코가 충분히 드러나게 한다.",
+        "en": "Keep the boots' ankles tucked under the trousers and let the toes show clearly.",
+        "de": "Den Schaft der Boots unter der Hose verschwinden lassen und die Schuhspitzen gut sichtbar zeigen."
+      },
+      "howToWearKo": "첼시 부츠의 발목을 팬츠 아래로 정리하고 앞코가 충분히 드러나게 한다.",
+      "note": {
+        "ko": "첼시 부츠의 발목을 팬츠 아래로 정리하고 앞코가 충분히 드러나게 한다.",
+        "en": "Keep the boots' ankles tucked under the trousers and let the toes show clearly.",
+        "de": "Den Schaft der Boots unter der Hose verschwinden lassen und die Schuhspitzen gut sichtbar zeigen."
+      },
+      "designDescriptionEn": "matching pair of black smooth leather Chelsea ankle boots, rounded toes, modest black soles; stand upright on soles together at clean three-quarter angle",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/boots.webp",
+      "altKo": "블랙 첼시 부츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "07510e203f9c75b98476fbba88a7d17362506c767ac266cc85b806c212ad2e34",
+      "bytes": 29968,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.567524
+    },
+    {
+      "id": "05-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-01.05-bag",
+      "name": {
+        "ko": "블랙 크로스백",
+        "en": "Black flap crossbody bag",
+        "de": "Schwarze Umhängetasche mit Überschlag"
+      },
+      "nameKo": "블랙 크로스백",
+      "nameEn": "Black flap crossbody bag",
+      "nameDe": "Schwarze Umhängetasche mit Überschlag",
+      "description": {
+        "ko": "작은 크로스백은 가슴 아래에 오도록 스트랩을 줄여 코트가 벌어지지 않게 둔다.",
+        "en": "Shorten the strap so the small crossbody sits just below the chest and doesn't pull the coat open.",
+        "de": "Den Riemen kürzen, sodass die kleine Umhängetasche knapp unter der Brust sitzt und den Mantel nicht aufzieht."
+      },
+      "descriptionKo": "작은 크로스백은 가슴 아래에 오도록 스트랩을 줄여 코트가 벌어지지 않게 둔다.",
+      "descriptionEn": "Shorten the strap so the small crossbody sits just below the chest and doesn't pull the coat open.",
+      "descriptionDe": "Den Riemen kürzen, sodass die kleine Umhängetasche knapp unter der Brust sitzt und den Mantel nicht aufzieht.",
+      "howToWear": {
+        "ko": "작은 크로스백은 가슴 아래에 오도록 스트랩을 줄여 코트가 벌어지지 않게 둔다.",
+        "en": "Shorten the strap so the small crossbody sits just below the chest and doesn't pull the coat open.",
+        "de": "Den Riemen kürzen, sodass die kleine Umhängetasche knapp unter der Brust sitzt und den Mantel nicht aufzieht."
+      },
+      "howToWearKo": "작은 크로스백은 가슴 아래에 오도록 스트랩을 줄여 코트가 벌어지지 않게 둔다.",
+      "note": {
+        "ko": "작은 크로스백은 가슴 아래에 오도록 스트랩을 줄여 코트가 벌어지지 않게 둔다.",
+        "en": "Shorten the strap so the small crossbody sits just below the chest and doesn't pull the coat open.",
+        "de": "Den Riemen kürzen, sodass die kleine Umhängetasche knapp unter der Brust sitzt und den Mantel nicht aufzieht."
+      },
+      "designDescriptionEn": "small black smooth leather rectangular crossbody bag with front flap and narrow adjustable shoulder strap",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/05-bag.webp",
+      "deliveredImage": "products/bag.webp",
+      "altKo": "블랙 크로스백 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "87b885b5d5c5194246bffc9304ebc2e90586053372c705ea0ba59c2a39a0c459",
+      "bytes": 49118,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.56086
+    },
+    {
+      "id": "06-accessory",
+      "category": "umbrella",
+      "appCategory": "accessory",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-01.06-accessory",
+      "name": {
+        "ko": "블랙 장우산",
+        "en": "Black long umbrella",
+        "de": "Schwarzer Stockschirm"
+      },
+      "nameKo": "블랙 장우산",
+      "nameEn": "Black long umbrella",
+      "nameDe": "Schwarzer Stockschirm",
+      "description": {
+        "ko": "우산을 접을 때 젖은 천을 코트 바깥쪽으로 향하게 하고 끝은 아래로 내린다.",
+        "en": "When you close the umbrella, turn the wet canopy away from the coat and point the tip down.",
+        "de": "Beim Schließen den nassen Schirmstoff vom Mantel wegdrehen und die Spitze nach unten halten."
+      },
+      "descriptionKo": "우산을 접을 때 젖은 천을 코트 바깥쪽으로 향하게 하고 끝은 아래로 내린다.",
+      "descriptionEn": "When you close the umbrella, turn the wet canopy away from the coat and point the tip down.",
+      "descriptionDe": "Beim Schließen den nassen Schirmstoff vom Mantel wegdrehen und die Spitze nach unten halten.",
+      "howToWear": {
+        "ko": "우산을 접을 때 젖은 천을 코트 바깥쪽으로 향하게 하고 끝은 아래로 내린다.",
+        "en": "When you close the umbrella, turn the wet canopy away from the coat and point the tip down.",
+        "de": "Beim Schließen den nassen Schirmstoff vom Mantel wegdrehen und die Spitze nach unten halten."
+      },
+      "howToWearKo": "우산을 접을 때 젖은 천을 코트 바깥쪽으로 향하게 하고 끝은 아래로 내린다.",
+      "note": {
+        "ko": "우산을 접을 때 젖은 천을 코트 바깥쪽으로 향하게 하고 끝은 아래로 내린다.",
+        "en": "When you close the umbrella, turn the wet canopy away from the coat and point the tip down.",
+        "de": "Beim Schließen den nassen Schirmstoff vom Mantel wegdrehen und die Spitze nach unten halten."
+      },
+      "designDescriptionEn": "black long umbrella with plain black straight handle, closed and neatly secured",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/06-accessory.webp",
+      "deliveredImage": "products/umbrella.webp",
+      "altKo": "블랙 장우산 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "f1ec64e58196114aab6137071369d361351a19313bd82887a1b350bcc1db9073",
+      "bytes": 10142,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.930584
+    }
+  ],
+  "productCount": 6,
+  "copy": {
+    "titleKo": "차콜, 비를 접는 순간",
+    "title": {
+      "ko": "차콜, 비를 접는 순간",
+      "en": "CHARCOAL BETWEEN SHOWERS"
+    },
+    "caption": {
+      "ko": "차콜과 그레이를 겹쳐 비 오는 날의 선을 정돈한다.",
+      "en": "Charcoal layered over grey keeps a rainy day's lines tidy.",
+      "de": "Anthrazit über Grau hält die Linien an einem Regentag aufgeräumt."
+    },
+    "deck": {
+      "ko": "차콜과 그레이를 겹쳐 비 오는 날의 선을 정돈한다.",
+      "en": "Charcoal layered over grey keeps a rainy day's lines tidy.",
+      "de": "Anthrazit über Grau hält die Linien an einem Regentag aufgeräumt."
+    },
+    "intro": {
+      "ko": "차콜 맥코트 안에 밝은 그레이 니트를 넣어 어두운 착장에 깊이를 만든다. 블랙 팬츠와 첼시 부츠가 이어지는 선을 유지하고 작은 크로스백은 몸 가까이 둔다.",
+      "en": "A light grey knit inside the charcoal mac gives the dark outfit depth. Black trousers and Chelsea boots keep one continuous line, and the small crossbody stays close to the body.",
+      "de": "Ein hellgrauer Pullover unter dem anthrazitfarbenen Regenmantel gibt dem dunklen Look Tiefe. Schwarze Hose und Chelsea-Boots halten eine durchgehende Linie, die kleine Umhängetasche bleibt nah am Körper."
+    },
+    "pull": "ONE LAST SHAKE AT THE DOORSTEP.",
+    "tip": {
+      "ko": "젖은 우산은 몸 바깥쪽에서 접고 가방 스트랩은 코트 위에서 짧게 조절한다.",
+      "en": "Close the wet umbrella away from your body, and shorten the bag strap over the coat.",
+      "de": "Den nassen Schirm vom Körper weg schließen und den Taschenriemen über dem Mantel kurz einstellen."
+    }
+  },
+  "reconstructionSummary": "All six products are visible in the editorial. Coat back, full lengths, hidden closures and the far boot are conservative reconstructions.",
+  "productionStatus": "ready",
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized the autonomous end-to-end workflow; no separate per-product user visual approval claimed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-minimal-20261026-01",
+  "appBuild": "b163",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "hero": "rn-chilly-m35-day-minimal-20261026-01.01-outer"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-minimal-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "batch": "approved",
+    "basis": "User explicitly authorized autonomous production, Claude Code GitHub/main publication, actual delivery verification, iCloud archival and verified local cleanup in this chat on 2026-10-26. No separate visual approval of generated products asserted.",
+    "approvedAt": null,
+    "perProductUserVisualApproval": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0f4e2afa6d32b96839d5cfb9306446ff957eba40e0c1293c6177ab3f42d3e73b",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-02.01-outer",
+      "name": {
+        "ko": "스톤 베이지 발마칸",
+        "en": "Stone beige balmacaan",
+        "de": "Steinbeiger Balmacaan"
+      },
+      "nameKo": "스톤 베이지 발마칸",
+      "nameEn": "Stone beige balmacaan",
+      "nameDe": "Steinbeiger Balmacaan",
+      "description": {
+        "ko": "베이지 코트의 칼라를 자연스럽게 눕혀 브라운 니트의 둥근 목선을 살린다.",
+        "en": "Let the beige coat's collar lie flat naturally so the brown knit's round neckline stays in view.",
+        "de": "Den Kragen des beigen Mantels natürlich flach liegen lassen, damit der runde Ausschnitt des braunen Pullovers zur Geltung kommt."
+      },
+      "descriptionKo": "베이지 코트의 칼라를 자연스럽게 눕혀 브라운 니트의 둥근 목선을 살린다.",
+      "descriptionEn": "Let the beige coat's collar lie flat naturally so the brown knit's round neckline stays in view.",
+      "descriptionDe": "Den Kragen des beigen Mantels natürlich flach liegen lassen, damit der runde Ausschnitt des braunen Pullovers zur Geltung kommt.",
+      "howToWear": {
+        "ko": "베이지 코트의 칼라를 자연스럽게 눕혀 브라운 니트의 둥근 목선을 살린다.",
+        "en": "Let the beige coat's collar lie flat naturally so the brown knit's round neckline stays in view.",
+        "de": "Den Kragen des beigen Mantels natürlich flach liegen lassen, damit der runde Ausschnitt des braunen Pullovers zur Geltung kommt."
+      },
+      "howToWearKo": "베이지 코트의 칼라를 자연스럽게 눕혀 브라운 니트의 둥근 목선을 살린다.",
+      "note": {
+        "ko": "베이지 코트의 칼라를 자연스럽게 눕혀 브라운 니트의 둥근 목선을 살린다.",
+        "en": "Let the beige coat's collar lie flat naturally so the brown knit's round neckline stays in view.",
+        "de": "Den Kragen des beigen Mantels natürlich flach liegen lassen, damit der runde Ausschnitt des braunen Pullovers zur Geltung kommt."
+      },
+      "designDescriptionEn": "stone beige single-breasted balmacaan raincoat, pointed collar, dark buttons, simple straight silhouette",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/coat.webp",
+      "altKo": "스톤 베이지 발마칸 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "d82d643799c2f3f294d041cc9cc5e11a4c027c6f3c645157fc6cfb51862351e0",
+      "bytes": 35978,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.390408
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-02.02-top",
+      "name": {
+        "ko": "에스프레소 크루넥 니트",
+        "en": "Espresso crewneck knit",
+        "de": "Espressofarbener Rundhalspullover"
+      },
+      "nameKo": "에스프레소 크루넥 니트",
+      "nameEn": "Espresso crewneck knit",
+      "nameDe": "Espressofarbener Rundhalspullover",
+      "description": {
+        "ko": "에스프레소 니트는 소매가 뭉치지 않게 펴고 베이지 소매 끝과 대비를 만든다.",
+        "en": "Smooth the espresso knit's sleeves so they don't bunch, and let them contrast with the beige coat cuffs.",
+        "de": "Die Ärmel des espressofarbenen Pullovers glatt ziehen, damit nichts aufträgt, und sie mit den beigen Mantelärmeln kontrastieren lassen."
+      },
+      "descriptionKo": "에스프레소 니트는 소매가 뭉치지 않게 펴고 베이지 소매 끝과 대비를 만든다.",
+      "descriptionEn": "Smooth the espresso knit's sleeves so they don't bunch, and let them contrast with the beige coat cuffs.",
+      "descriptionDe": "Die Ärmel des espressofarbenen Pullovers glatt ziehen, damit nichts aufträgt, und sie mit den beigen Mantelärmeln kontrastieren lassen.",
+      "howToWear": {
+        "ko": "에스프레소 니트는 소매가 뭉치지 않게 펴고 베이지 소매 끝과 대비를 만든다.",
+        "en": "Smooth the espresso knit's sleeves so they don't bunch, and let them contrast with the beige coat cuffs.",
+        "de": "Die Ärmel des espressofarbenen Pullovers glatt ziehen, damit nichts aufträgt, und sie mit den beigen Mantelärmeln kontrastieren lassen."
+      },
+      "howToWearKo": "에스프레소 니트는 소매가 뭉치지 않게 펴고 베이지 소매 끝과 대비를 만든다.",
+      "note": {
+        "ko": "에스프레소 니트는 소매가 뭉치지 않게 펴고 베이지 소매 끝과 대비를 만든다.",
+        "en": "Smooth the espresso knit's sleeves so they don't bunch, and let them contrast with the beige coat cuffs.",
+        "de": "Die Ärmel des espressofarbenen Pullovers glatt ziehen, damit nichts aufträgt, und sie mit den beigen Mantelärmeln kontrastieren lassen."
+      },
+      "designDescriptionEn": "dark espresso-brown fine ribbed crewneck sweater",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/knit.webp",
+      "altKo": "에스프레소 크루넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "cd63627b54c46f85680ffb59e466b0efe33bf8dc2b958bf56a8b9d113f502895",
+      "bytes": 41836,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.36704
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-02.03-bottom",
+      "name": {
+        "ko": "토프 테일러드 팬츠",
+        "en": "Taupe tailored trousers",
+        "de": "Taupefarbene Stoffhose"
+      },
+      "nameKo": "토프 테일러드 팬츠",
+      "nameEn": "Taupe tailored trousers",
+      "nameDe": "Taupefarbene Stoffhose",
+      "description": {
+        "ko": "토프 팬츠의 앞주름을 정리해 코트와 니트 사이의 중간색을 단정하게 이어준다.",
+        "en": "Keep the front pleats of the taupe trousers crisp so their in-between shade neatly links coat and knit.",
+        "de": "Die Bundfalten der taupefarbenen Hose ordentlich halten, damit ihr Zwischenton Mantel und Pullover sauber verbindet."
+      },
+      "descriptionKo": "토프 팬츠의 앞주름을 정리해 코트와 니트 사이의 중간색을 단정하게 이어준다.",
+      "descriptionEn": "Keep the front pleats of the taupe trousers crisp so their in-between shade neatly links coat and knit.",
+      "descriptionDe": "Die Bundfalten der taupefarbenen Hose ordentlich halten, damit ihr Zwischenton Mantel und Pullover sauber verbindet.",
+      "howToWear": {
+        "ko": "토프 팬츠의 앞주름을 정리해 코트와 니트 사이의 중간색을 단정하게 이어준다.",
+        "en": "Keep the front pleats of the taupe trousers crisp so their in-between shade neatly links coat and knit.",
+        "de": "Die Bundfalten der taupefarbenen Hose ordentlich halten, damit ihr Zwischenton Mantel und Pullover sauber verbindet."
+      },
+      "howToWearKo": "토프 팬츠의 앞주름을 정리해 코트와 니트 사이의 중간색을 단정하게 이어준다.",
+      "note": {
+        "ko": "토프 팬츠의 앞주름을 정리해 코트와 니트 사이의 중간색을 단정하게 이어준다.",
+        "en": "Keep the front pleats of the taupe trousers crisp so their in-between shade neatly links coat and knit.",
+        "de": "Die Bundfalten der taupefarbenen Hose ordentlich halten, damit ihr Zwischenton Mantel und Pullover sauber verbindet."
+      },
+      "designDescriptionEn": "taupe grey-brown straight tailored trousers with subtle crease",
+      "evidence": "partial",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/trousers.webp",
+      "altKo": "토프 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "199b1311867dffa1e9d947afe257b9b2ddaef871fccf4ae5801415101f958c6a",
+      "bytes": 30970,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.618984
+    },
+    {
+      "id": "04-accessory",
+      "category": "umbrella",
+      "appCategory": "accessory",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-02.04-accessory",
+      "name": {
+        "ko": "블랙 장우산",
+        "en": "Black long umbrella",
+        "de": "Schwarzer Stockschirm"
+      },
+      "nameKo": "블랙 장우산",
+      "nameEn": "Black long umbrella",
+      "nameDe": "Schwarzer Stockschirm",
+      "description": {
+        "ko": "우산 손잡이는 가슴 앞에서 잡되 베이지 코트의 칼라와 얼굴을 가리지 않게 둔다.",
+        "en": "Hold the umbrella handle in front of your chest, but keep it clear of the beige coat's collar and your face.",
+        "de": "Den Schirmgriff vor der Brust halten, dabei aber den Kragen des beigen Mantels und das Gesicht frei lassen."
+      },
+      "descriptionKo": "우산 손잡이는 가슴 앞에서 잡되 베이지 코트의 칼라와 얼굴을 가리지 않게 둔다.",
+      "descriptionEn": "Hold the umbrella handle in front of your chest, but keep it clear of the beige coat's collar and your face.",
+      "descriptionDe": "Den Schirmgriff vor der Brust halten, dabei aber den Kragen des beigen Mantels und das Gesicht frei lassen.",
+      "howToWear": {
+        "ko": "우산 손잡이는 가슴 앞에서 잡되 베이지 코트의 칼라와 얼굴을 가리지 않게 둔다.",
+        "en": "Hold the umbrella handle in front of your chest, but keep it clear of the beige coat's collar and your face.",
+        "de": "Den Schirmgriff vor der Brust halten, dabei aber den Kragen des beigen Mantels und das Gesicht frei lassen."
+      },
+      "howToWearKo": "우산 손잡이는 가슴 앞에서 잡되 베이지 코트의 칼라와 얼굴을 가리지 않게 둔다.",
+      "note": {
+        "ko": "우산 손잡이는 가슴 앞에서 잡되 베이지 코트의 칼라와 얼굴을 가리지 않게 둔다.",
+        "en": "Hold the umbrella handle in front of your chest, but keep it clear of the beige coat's collar and your face.",
+        "de": "Den Schirmgriff vor der Brust halten, dabei aber den Kragen des beigen Mantels und das Gesicht frei lassen."
+      },
+      "designDescriptionEn": "plain black long umbrella, round black canopy, straight slim black shaft; closed neatly for product presentation",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-accessory.webp",
+      "deliveredImage": "products/umbrella.webp",
+      "altKo": "블랙 장우산 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "55fe621761cb88cb259e6211e14a6cd857b7d947f9a24328f2ba9f4ab4559cee",
+      "bytes": 9176,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.934948
+    }
+  ],
+  "productCount": 4,
+  "copy": {
+    "titleKo": "베이지 아래의 짧은 멈춤",
+    "title": {
+      "ko": "베이지 아래의 짧은 멈춤",
+      "en": "BEIGE BEFORE THE SIP"
+    },
+    "caption": {
+      "ko": "스톤 베이지와 에스프레소의 차분한 대비.",
+      "en": "A calm contrast of stone beige and espresso.",
+      "de": "Ein ruhiger Kontrast aus Steinbeige und Espresso."
+    },
+    "deck": {
+      "ko": "스톤 베이지와 에스프레소의 차분한 대비.",
+      "en": "A calm contrast of stone beige and espresso.",
+      "de": "Ein ruhiger Kontrast aus Steinbeige und Espresso."
+    },
+    "intro": {
+      "ko": "스톤 베이지 코트와 짙은 브라운 니트 사이의 명도 차이를 살린다. 토프 팬츠는 두 색을 자연스럽게 이어주며, 블랙 우산이 전체를 단정하게 묶는다.",
+      "en": "Play up the difference in depth between the stone-beige coat and the dark brown knit. Taupe trousers link the two shades naturally, and a black umbrella ties the whole look together neatly.",
+      "de": "Den Helligkeitsunterschied zwischen steinbeigem Mantel und dunkelbraunem Pullover betonen. Eine taupefarbene Hose verbindet die beiden Töne ganz natürlich, der schwarze Schirm hält alles ordentlich zusammen."
+    },
+    "pull": "A TIGHT LID, A DRY SLEEVE.",
+    "tip": {
+      "ko": "니트 소매는 코트 끝에서 조금만 드러내 색의 층을 만든다.",
+      "en": "Let just a little knit sleeve show past the coat cuff to build a layer of colour.",
+      "de": "Den Strickärmel nur ein wenig unter dem Mantelärmel zeigen – so entsteht eine zweite Farbschicht."
+    }
+  },
+  "reconstructionSummary": "The crop ends at the thighs: the trousers are partially visible and conservatively completed; shoes and socks are not visible and were not added. The tumbler is a scene prop, not a product.",
+  "productionStatus": "ready",
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized the autonomous end-to-end workflow; no separate per-product user visual approval claimed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-minimal-20261026-02",
+  "appBuild": "b163",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "hero": "rn-chilly-m35-day-minimal-20261026-02.01-outer"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-day-minimal-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "time": "day",
+    "style": "minimal"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "minimal",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "day",
+    "feelsLikeBand": "chilly",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "batch": "approved",
+    "basis": "User explicitly authorized autonomous production, Claude Code GitHub/main publication, actual delivery verification, iCloud archival and verified local cleanup in this chat on 2026-10-26. No separate visual approval of generated products asserted.",
+    "approvedAt": null,
+    "perProductUserVisualApproval": false
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1e32b5d0ca8c760a1332d144fb2eaf18852b60794793a513bc375f3a850f9ae2",
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-04.01-outer",
+      "name": {
+        "ko": "딥 올리브 후드 레인코트",
+        "en": "Deep olive hooded raincoat",
+        "de": "Dunkelolivfarbener Kapuzen-Regenmantel"
+      },
+      "nameKo": "딥 올리브 후드 레인코트",
+      "nameEn": "Deep olive hooded raincoat",
+      "nameDe": "Dunkelolivfarbener Kapuzen-Regenmantel",
+      "description": {
+        "ko": "올리브 후드는 이마를 가리지 않게 뒤로 정리하고 앞섶은 니트 목선 아래에서 여유를 둔다.",
+        "en": "Set the olive hood back so it clears your forehead, and leave the front relaxed below the knit's neckline.",
+        "de": "Die olivfarbene Kapuze so zurückschieben, dass sie die Stirn frei lässt, und die Vorderseite unterhalb des Strickkragens locker lassen."
+      },
+      "descriptionKo": "올리브 후드는 이마를 가리지 않게 뒤로 정리하고 앞섶은 니트 목선 아래에서 여유를 둔다.",
+      "descriptionEn": "Set the olive hood back so it clears your forehead, and leave the front relaxed below the knit's neckline.",
+      "descriptionDe": "Die olivfarbene Kapuze so zurückschieben, dass sie die Stirn frei lässt, und die Vorderseite unterhalb des Strickkragens locker lassen.",
+      "howToWear": {
+        "ko": "올리브 후드는 이마를 가리지 않게 뒤로 정리하고 앞섶은 니트 목선 아래에서 여유를 둔다.",
+        "en": "Set the olive hood back so it clears your forehead, and leave the front relaxed below the knit's neckline.",
+        "de": "Die olivfarbene Kapuze so zurückschieben, dass sie die Stirn frei lässt, und die Vorderseite unterhalb des Strickkragens locker lassen."
+      },
+      "howToWearKo": "올리브 후드는 이마를 가리지 않게 뒤로 정리하고 앞섶은 니트 목선 아래에서 여유를 둔다.",
+      "note": {
+        "ko": "올리브 후드는 이마를 가리지 않게 뒤로 정리하고 앞섶은 니트 목선 아래에서 여유를 둔다.",
+        "en": "Set the olive hood back so it clears your forehead, and leave the front relaxed below the knit's neckline.",
+        "de": "Die olivfarbene Kapuze so zurückschieben, dass sie die Stirn frei lässt, und die Vorderseite unterhalb des Strickkragens locker lassen."
+      },
+      "designDescriptionEn": "deep olive green hooded raincoat, long simple straight cut, snap front placket",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/coat.webp",
+      "altKo": "딥 올리브 후드 레인코트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "18bdd38e63306244cacee94fa7b2f72128be5f063c08b55246660a7ef39cc46b",
+      "bytes": 42864,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.489696
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-04.02-top",
+      "name": {
+        "ko": "오트밀 모크넥 니트",
+        "en": "Oatmeal mockneck knit",
+        "de": "Haferbeiger Stehkragenpullover"
+      },
+      "nameKo": "오트밀 모크넥 니트",
+      "nameEn": "Oatmeal mockneck knit",
+      "nameDe": "Haferbeiger Stehkragenpullover",
+      "description": {
+        "ko": "오트밀 모크넥의 목을 접지 않고 세워 올리브 코트 안에 부드러운 밝기를 만든다.",
+        "en": "Wear the oatmeal mockneck's collar standing, not folded, for a soft patch of light inside the olive coat.",
+        "de": "Den Kragen des haferbeigen Pullovers aufrecht statt umgeschlagen tragen – so entsteht im olivfarbenen Mantel eine sanfte helle Fläche."
+      },
+      "descriptionKo": "오트밀 모크넥의 목을 접지 않고 세워 올리브 코트 안에 부드러운 밝기를 만든다.",
+      "descriptionEn": "Wear the oatmeal mockneck's collar standing, not folded, for a soft patch of light inside the olive coat.",
+      "descriptionDe": "Den Kragen des haferbeigen Pullovers aufrecht statt umgeschlagen tragen – so entsteht im olivfarbenen Mantel eine sanfte helle Fläche.",
+      "howToWear": {
+        "ko": "오트밀 모크넥의 목을 접지 않고 세워 올리브 코트 안에 부드러운 밝기를 만든다.",
+        "en": "Wear the oatmeal mockneck's collar standing, not folded, for a soft patch of light inside the olive coat.",
+        "de": "Den Kragen des haferbeigen Pullovers aufrecht statt umgeschlagen tragen – so entsteht im olivfarbenen Mantel eine sanfte helle Fläche."
+      },
+      "howToWearKo": "오트밀 모크넥의 목을 접지 않고 세워 올리브 코트 안에 부드러운 밝기를 만든다.",
+      "note": {
+        "ko": "오트밀 모크넥의 목을 접지 않고 세워 올리브 코트 안에 부드러운 밝기를 만든다.",
+        "en": "Wear the oatmeal mockneck's collar standing, not folded, for a soft patch of light inside the olive coat.",
+        "de": "Den Kragen des haferbeigen Pullovers aufrecht statt umgeschlagen tragen – so entsteht im olivfarbenen Mantel eine sanfte helle Fläche."
+      },
+      "designDescriptionEn": "oatmeal heather textured knit mockneck sweater with thick ribbed cuffs and hem",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/knit.webp",
+      "altKo": "오트밀 모크넥 니트 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "00c63f30452ab80ce99a28fa10bbbd644b9c3d9995c3c50809e21f7ae811fc82",
+      "bytes": 46580,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.295356
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-04.03-bottom",
+      "name": {
+        "ko": "차콜 슬림 테일러드 팬츠",
+        "en": "Charcoal slim tailored trousers",
+        "de": "Schmale anthrazitfarbene Stoffhose"
+      },
+      "nameKo": "차콜 슬림 테일러드 팬츠",
+      "nameEn": "Charcoal slim tailored trousers",
+      "nameDe": "Schmale anthrazitfarbene Stoffhose",
+      "description": {
+        "ko": "짙은 팬츠는 주름을 최소화해 움직이는 코트 자락 아래의 선을 간결하게 유지한다.",
+        "en": "Keep creasing on the dark trousers to a minimum so the line stays clean beneath the moving coat hem.",
+        "de": "Bei der dunklen Hose möglichst wenig Falten zulassen, damit die Linie unter dem schwingenden Mantelsaum klar bleibt."
+      },
+      "descriptionKo": "짙은 팬츠는 주름을 최소화해 움직이는 코트 자락 아래의 선을 간결하게 유지한다.",
+      "descriptionEn": "Keep creasing on the dark trousers to a minimum so the line stays clean beneath the moving coat hem.",
+      "descriptionDe": "Bei der dunklen Hose möglichst wenig Falten zulassen, damit die Linie unter dem schwingenden Mantelsaum klar bleibt.",
+      "howToWear": {
+        "ko": "짙은 팬츠는 주름을 최소화해 움직이는 코트 자락 아래의 선을 간결하게 유지한다.",
+        "en": "Keep creasing on the dark trousers to a minimum so the line stays clean beneath the moving coat hem.",
+        "de": "Bei der dunklen Hose möglichst wenig Falten zulassen, damit die Linie unter dem schwingenden Mantelsaum klar bleibt."
+      },
+      "howToWearKo": "짙은 팬츠는 주름을 최소화해 움직이는 코트 자락 아래의 선을 간결하게 유지한다.",
+      "note": {
+        "ko": "짙은 팬츠는 주름을 최소화해 움직이는 코트 자락 아래의 선을 간결하게 유지한다.",
+        "en": "Keep creasing on the dark trousers to a minimum so the line stays clean beneath the moving coat hem.",
+        "de": "Bei der dunklen Hose möglichst wenig Falten zulassen, damit die Linie unter dem schwingenden Mantelsaum klar bleibt."
+      },
+      "designDescriptionEn": "dark charcoal straight slim tailored trousers",
+      "evidence": "visible",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/trousers.webp",
+      "altKo": "차콜 슬림 테일러드 팬츠 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "4ce666b02eda000bb6982510aa750aa278a6205e1bae537668a4669f16ea1656",
+      "bytes": 31200,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.609124
+    },
+    {
+      "id": "04-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-day-minimal-20261026-04.04-shoes",
+      "name": {
+        "ko": "블랙 레더 슈즈",
+        "en": "Black leather shoes",
+        "de": "Schwarze Lederschuhe"
+      },
+      "nameKo": "블랙 레더 슈즈",
+      "nameEn": "Black leather shoes",
+      "nameDe": "Schwarze Lederschuhe",
+      "description": {
+        "ko": "블랙 슈즈 위에 팬츠 밑단이 뭉치지 않게 길이를 맞춰 발끝을 가볍게 드러낸다.",
+        "en": "Get the trouser length right so the hem doesn't pile up on the black shoes and the toes show lightly.",
+        "de": "Die Hosenlänge so wählen, dass sich der Saum auf den schwarzen Schuhen nicht staut und die Spitzen leicht hervorschauen."
+      },
+      "descriptionKo": "블랙 슈즈 위에 팬츠 밑단이 뭉치지 않게 길이를 맞춰 발끝을 가볍게 드러낸다.",
+      "descriptionEn": "Get the trouser length right so the hem doesn't pile up on the black shoes and the toes show lightly.",
+      "descriptionDe": "Die Hosenlänge so wählen, dass sich der Saum auf den schwarzen Schuhen nicht staut und die Spitzen leicht hervorschauen.",
+      "howToWear": {
+        "ko": "블랙 슈즈 위에 팬츠 밑단이 뭉치지 않게 길이를 맞춰 발끝을 가볍게 드러낸다.",
+        "en": "Get the trouser length right so the hem doesn't pile up on the black shoes and the toes show lightly.",
+        "de": "Die Hosenlänge so wählen, dass sich der Saum auf den schwarzen Schuhen nicht staut und die Spitzen leicht hervorschauen."
+      },
+      "howToWearKo": "블랙 슈즈 위에 팬츠 밑단이 뭉치지 않게 길이를 맞춰 발끝을 가볍게 드러낸다.",
+      "note": {
+        "ko": "블랙 슈즈 위에 팬츠 밑단이 뭉치지 않게 길이를 맞춰 발끝을 가볍게 드러낸다.",
+        "en": "Get the trouser length right so the hem doesn't pile up on the black shoes and the toes show lightly.",
+        "de": "Die Hosenlänge so wählen, dass sich der Saum auf den schwarzen Schuhen nicht staut und die Spitzen leicht hervorschauen."
+      },
+      "designDescriptionEn": "matching pair of black smooth leather low shoes with rounded toes and plain dark soles, neatly parallel overhead view; hidden details minimally reconstructed",
+      "evidence": "partial",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden backs, exact lengths, closures and pair members are conservatively reconstructed. No brand, fibre composition or performance guarantee inferred.",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "image": "products/04-shoes.webp",
+      "deliveredImage": "products/shoes.webp",
+      "altKo": "블랙 레더 슈즈 — 투명 배경 독립 제품 컷",
+      "status": "generated-and-format-validated",
+      "sha256": "8020e5ac5ab916219558edf403653bb061c0ee8fab77827bca37b0bb7a69990a",
+      "bytes": 41436,
+      "dimensions": [
+        500,
+        500
+      ],
+      "transparentFraction": 0.49584
+    }
+  ],
+  "productCount": 4,
+  "copy": {
+    "titleKo": "올리브 후드를 붙잡고",
+    "title": {
+      "ko": "올리브 후드를 붙잡고",
+      "en": "OLIVE CATCHES THE WIND"
+    },
+    "caption": {
+      "ko": "딥 올리브와 오트밀로 부드럽게 정리한 비 오는 낮.",
+      "en": "A rainy day softly pulled together in deep olive and oatmeal.",
+      "de": "Ein Regentag, sanft geordnet in tiefem Oliv und Haferbeige."
+    },
+    "deck": {
+      "ko": "딥 올리브와 오트밀로 부드럽게 정리한 비 오는 낮.",
+      "en": "A rainy day softly pulled together in deep olive and oatmeal.",
+      "de": "Ein Regentag, sanft geordnet in tiefem Oliv und Haferbeige."
+    },
+    "intro": {
+      "ko": "올리브 후드 코트와 오트밀 모크넥의 질감 차이를 살린다. 짙은 팬츠와 블랙 슈즈를 아래에 모아 색을 늘리지 않고 상체의 밝기를 유지한다.",
+      "en": "Play up the contrast in texture between the olive hooded coat and the oatmeal mockneck. Dark trousers and black shoes stay together below without adding colour, so the brightness stays up top.",
+      "de": "Den Kontrast der Oberflächen zwischen olivfarbenem Kapuzenmantel und haferbeigem Stehkragenpullover betonen. Dunkle Hose und schwarze Schuhe bleiben unten zusammen, bringen keine neue Farbe ins Spiel und lassen die Helligkeit oben."
+    },
+    "pull": "HOOD UP, GRIN ON.",
+    "tip": {
+      "ko": "후드는 시야를 가리지 않게 정리하고 니트 목선은 접힘 없이 둔다.",
+      "en": "Keep the hood out of your line of sight and leave the knit collar unfolded.",
+      "de": "Die Kapuze so richten, dass sie die Sicht nicht verdeckt, und den Strickkragen nicht umschlagen."
+    }
+  },
+  "reconstructionSummary": "Only part of one shoe is visible behind the trouser hem; the pair is a conservative reconstruction. Socks are not visible and were not added.",
+  "productionStatus": "ready",
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "User authorized the autonomous end-to-end workflow; no separate per-product user visual approval claimed",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rn-chilly-m35-day-minimal-20261026-04",
+  "appBuild": "b163",
+  "app": {
+    "sky": "rain",
+    "rain": "normal",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "m",
+    "age": "35",
+    "style": "minimal",
+    "hero": "rn-chilly-m35-day-minimal-20261026-04.01-outer"
+  }
+}

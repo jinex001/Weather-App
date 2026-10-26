@@ -296,3 +296,12 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 대표 컷: 다섯 제목의 첫 색 단어(CHARCOAL · STONE · COBALT · OLIVE · BURNT ORANGE) → 아우터(01은 차콜 가방도 맞지만 규칙 3으로 아우터). 컷 = 그 투명 WebP 자체.
 - 승인 범위: 에디토리얼 사용자 승인, 제품 25개는 사용자의 처음부터 끝까지 제작·발행 승인 아래 제작·상위 QA(제품별 사용자 육안 승인은 주장하지 않음). 이 배치는 2026-10-26 사용자 워크플로 변경(`IMAGE_INBOX_HANDOFF.md`)에 따라 Claude가 main에 직접 반영; 원본 iCloud 보관·로컬 원본 삭제는 푸시 검증 뒤 상위 작업이 함(이 작업에서 하지 않음).
 - [검증 기록](rain-light-male-night-street-20261026-validation.md).
+
+## b163 · Rain / Normal / Chilly / Male / 35+ / Day / Minimal — 2026-10-26 set (5 looks · 24 products)
+
+- 원본: 로컬 outbox 완성 배치(READY.json `approved`·`products_complete`, 목록 104개 SHA-256 일치). 배포 파일은 `NN/editorial.jpg`·`NN/products/*.webp`만 바이트 그대로 복사, 이름은 `NN-<앱 분류>.webp`(제작 측 이름은 products.json `deliveredImage`).
+- `sky: "rain"`, `rain: "normal"`, 낮 세트라 `time` 없음. 폴더 `Rain/Normal/Chilly/Male/35+/day/minimal/<NN>/`, ID는 제작 측 `rn-chilly-m35-day-minimal-20261026-NN` 그대로.
+- 분류: 우산은 앱에 우산 분류가 없어 `accessory`(캘린더 비 규칙 `["accessory", /우산/]`, b151과 같음), 머플러 `scarf`, 크로스백·토트 `bag`. 새 분류 코드는 만들지 않음.
+- 문구: 한국어 마스터(제목·요약·인트로·팁)와 제품별 `howToWearKo` 바이트 그대로. 제작 측 en/de 입는 법은 룩을 가로질러 같은 틀 문장 4개뿐이라 5-1장 기준 미달 → 한국어 문장마다 en/de 번역을 새로 씀. en/de 이름 중 한국어에 없는 소재(leather·nylon)를 붙인 가방 2개는 보이는 특징으로 바꿈.
+- 장면 소품(텀블러·열쇠·자동차·장바구니 채소)은 제품 아님, 빈 캔버스 토트는 제품. 크롭으로 안 보이는 신발·양말은 넣지 않음.
+- [검증 기록](rain-normal-male-day-minimal-20261026-validation.md).
