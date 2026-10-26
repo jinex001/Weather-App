@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-night-run-20261026-02",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false,
+    "note": "no numeric temperature supplied; creative Berlin night setting, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 5,
+  "products": [
+    {
+      "look": 2,
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "스톤 그레이 셸",
+      "nameEn": "Stone grey running shell",
+      "detail": "Stone-grey hooded technical lightweight shell, dark full front zipper, elastic cuffs, reflective silver short shoulder tabs and angled upper sleeve marks, match visible details.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Stone-grey hooded technical lightweight shell, dark full front zipper, elastic cuffs, reflective silver short shoulder tabs and angled upper sleeve marks, match visible details.",
+      "descriptionEn": "Zip it only to below the chest so the plum high-neck shows in a V; the short silver shoulder tabs and angled sleeve marks flash as you move.",
+      "descriptionKo": "앞 지퍼를 가슴 아래까지만 올려 플럼 하이넥이 V자로 보이게 입어요. 어깨의 짧은 은색 탭과 소매의 사선 표시가 움직일 때 반짝여요.",
+      "descriptionDe": "Nur bis unter die Brust schließen, damit der pflaumenfarbene Stehkragen als V sichtbar wird; die kurzen Silberlaschen an den Schultern und die schrägen Ärmelmarkierungen blitzen in der Bewegung auf.",
+      "image": "products/01-outer.webp",
+      "sha256": "0e5b065eb80722b76286438d1de1e02473bc4e258a2becc029b017eb4bd0c4e2",
+      "bytes": 36394,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        20,
+        15,
+        480,
+        485
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "스톤 그레이 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "스톤 그레이 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Stone-grey hooded technical lightweight shell, dark full front zipper, elastic cuffs, reflective silver short shoulder tabs and angled upper sleeve marks, match visible details.",
+        "de": "Stone grey running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Steingraue Lauf-Shell",
+      "howToWear": {
+        "ko": "앞 지퍼를 가슴 아래까지만 올려 플럼 하이넥이 V자로 보이게 입어요. 어깨의 짧은 은색 탭과 소매의 사선 표시가 움직일 때 반짝여요.",
+        "en": "Zip it only to below the chest so the plum high-neck shows in a V; the short silver shoulder tabs and angled sleeve marks flash as you move.",
+        "de": "Nur bis unter die Brust schließen, damit der pflaumenfarbene Stehkragen als V sichtbar wird; die kurzen Silberlaschen an den Schultern und die schrägen Ärmelmarkierungen blitzen in der Bewegung auf."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-02.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": 2,
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "플럼 하이넥 이너",
+      "nameEn": "Plum high-neck running layer",
+      "detail": "Dark plum close-fit high-neck long-sleeve technical layer, fine visible seam at collar; hidden body and sleeves conservatively reconstructed.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Dark plum close-fit high-neck long-sleeve technical layer, fine visible seam at collar; hidden body and sleeves conservatively reconstructed.",
+      "descriptionEn": "Stand the high neck straight up inside the shell collar; it shares the headband's plum, so everything around the face reads as one colour.",
+      "descriptionKo": "목을 감싸는 하이넥을 셸 칼라 안에서 곧게 세워 입어요. 헤드밴드와 같은 플럼이라 얼굴 주변이 한 가지 색으로 정리돼요.",
+      "descriptionDe": "Den hohen Kragen innerhalb des Shell-Kragens gerade aufstellen; er hat dasselbe Pflaume wie das Stirnband, sodass rund ums Gesicht eine Farbe bleibt.",
+      "image": "products/02-top.webp",
+      "sha256": "ba7f930a8fa2729d9e4301abdc83f1b6f2a19ed001c2af1a3c511cac1c858a8f",
+      "bytes": 27420,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        31,
+        30,
+        470,
+        472
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "플럼 하이넥 이너 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "플럼 하이넥 이너 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Dark plum close-fit high-neck long-sleeve technical layer, fine visible seam at collar; hidden body and sleeves conservatively reconstructed.",
+        "de": "Plum high-neck running layer; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Pflaumenfarbene Laufschicht mit Stehkragen",
+      "howToWear": {
+        "ko": "목을 감싸는 하이넥을 셸 칼라 안에서 곧게 세워 입어요. 헤드밴드와 같은 플럼이라 얼굴 주변이 한 가지 색으로 정리돼요.",
+        "en": "Stand the high neck straight up inside the shell collar; it shares the headband's plum, so everything around the face reads as one colour.",
+        "de": "Den hohen Kragen innerhalb des Shell-Kragens gerade aufstellen; er hat dasselbe Pflaume wie das Stirnband, sodass rund ums Gesicht eine Farbe bleibt."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-02.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": 2,
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "그래파이트 타이츠",
+      "nameEn": "Graphite running tights",
+      "detail": "Graphite black fitted running tights, visible curved upper thigh seams, legs and waistband conservatively reconstructed without added reflective patterns.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Graphite black fitted running tights, visible curved upper thigh seams, legs and waistband conservatively reconstructed without added reflective patterns.",
+      "descriptionEn": "The curved seams on the upper thigh lengthen the leg line; let the shell hem just cover the waistband.",
+      "descriptionKo": "허벅지 위쪽의 곡선 솔기가 다리 선을 길게 보이게 해요. 셸 밑단이 허리를 살짝 덮도록 맞춰 입어요.",
+      "descriptionDe": "Die geschwungenen Nähte am oberen Oberschenkel strecken die Beinlinie; der Shell-Saum sollte den Bund gerade bedecken.",
+      "image": "products/03-bottom.webp",
+      "sha256": "1fe239fc58a838d73a69f48c3a01cd3a37d106ed7f3e8ff9cac5a39d93cdfa84",
+      "bytes": 16422,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        147,
+        20,
+        353,
+        479
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그래파이트 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그래파이트 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Graphite black fitted running tights, visible curved upper thigh seams, legs and waistband conservatively reconstructed without added reflective patterns.",
+        "de": "Graphite running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graphitfarbene Lauftights",
+      "howToWear": {
+        "ko": "허벅지 위쪽의 곡선 솔기가 다리 선을 길게 보이게 해요. 셸 밑단이 허리를 살짝 덮도록 맞춰 입어요.",
+        "en": "The curved seams on the upper thigh lengthen the leg line; let the shell hem just cover the waistband.",
+        "de": "Die geschwungenen Nähte am oberen Oberschenkel strecken die Beinlinie; der Shell-Saum sollte den Bund gerade bedecken."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-02.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": 2,
+      "id": "04-gloves",
+      "category": "gloves",
+      "nameKo": "리플렉티브 블랙 장갑",
+      "nameEn": "Reflective black running gloves",
+      "detail": "One matching pair black thin full-finger technical gloves, narrow silver reflective dash on back of hand; match articulated fingers.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair black thin full-finger technical gloves, narrow silver reflective dash on back of hand; match articulated fingers.",
+      "descriptionEn": "Shaped, thin fingers mean you can fix the headband without taking them off; the narrow silver dash on the back of the hand pairs with the shoulder tabs.",
+      "descriptionKo": "손가락 마디가 잡힌 얇은 장갑이라 헤드밴드를 고쳐 쓸 때도 벗지 않아도 돼요. 손등의 가는 은색 선이 어깨 탭과 짝을 이뤄요.",
+      "descriptionDe": "Dünne, vorgeformte Finger: Das Stirnband lässt sich richten, ohne sie auszuziehen; der schmale Silberstrich auf dem Handrücken passt zu den Schulterlaschen.",
+      "image": "products/04-gloves.webp",
+      "sha256": "c3d28b91e86393fd6df44dffe474907f3e69ec50d0e3c3fc0d1d5df4e986a2d7",
+      "bytes": 26996,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        37,
+        42,
+        471,
+        455
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "리플렉티브 블랙 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "리플렉티브 블랙 장갑 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair black thin full-finger technical gloves, narrow silver reflective dash on back of hand; match articulated fingers.",
+        "de": "Reflective black running gloves; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarze Laufhandschuhe mit Reflexstrich",
+      "howToWear": {
+        "ko": "손가락 마디가 잡힌 얇은 장갑이라 헤드밴드를 고쳐 쓸 때도 벗지 않아도 돼요. 손등의 가는 은색 선이 어깨 탭과 짝을 이뤄요.",
+        "en": "Shaped, thin fingers mean you can fix the headband without taking them off; the narrow silver dash on the back of the hand pairs with the shoulder tabs.",
+        "de": "Dünne, vorgeformte Finger: Das Stirnband lässt sich richten, ohne sie auszuziehen; der schmale Silberstrich auf dem Handrücken passt zu den Schulterlaschen."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-02.04-gloves",
+      "appCategory": "hands"
+    },
+    {
+      "look": 2,
+      "id": "05-headband",
+      "category": "headband",
+      "nameKo": "플럼 헤드밴드",
+      "nameEn": "Plum running headband",
+      "detail": "One single wide dark plum marled technical stretch ear-covering running headband, closed loop.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One single wide dark plum marled technical stretch ear-covering running headband, closed loop.",
+      "descriptionEn": "Set it just above the hairline to keep hair off the face and pull it down over the tips of the ears; the dark plum marl adds a warm accent above the grey shell.",
+      "descriptionKo": "머리카락이 얼굴로 내려오지 않게 이마선 바로 위에 두르고, 귀 끝까지 덮이게 아래로 당겨요. 짙은 플럼 멜란지가 그레이 셸 위에서 따뜻한 포인트가 돼요.",
+      "descriptionDe": "Knapp über dem Haaransatz tragen, damit die Haare aus dem Gesicht bleiben, und über die Ohrspitzen ziehen; das dunkle Pflaume-Melange setzt über der grauen Shell einen warmen Akzent.",
+      "image": "products/05-headband.webp",
+      "sha256": "0b1aefc07ef1030a90dd2f8f86d347cfbb99e302be84c1d55314d9b5b170b681",
+      "bytes": 33354,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        16,
+        143,
+        485,
+        352
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "플럼 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "플럼 헤드밴드 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One single wide dark plum marled technical stretch ear-covering running headband, closed loop.",
+        "de": "Plum running headband; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Pflaumenfarbenes Laufstirnband",
+      "howToWear": {
+        "ko": "머리카락이 얼굴로 내려오지 않게 이마선 바로 위에 두르고, 귀 끝까지 덮이게 아래로 당겨요. 짙은 플럼 멜란지가 그레이 셸 위에서 따뜻한 포인트가 돼요.",
+        "en": "Set it just above the hairline to keep hair off the face and pull it down over the tips of the ears; the dark plum marl adds a warm accent above the grey shell.",
+        "de": "Knapp über dem Haaransatz tragen, damit die Haare aus dem Gesicht bleiben, und über die Ohrspitzen ziehen; das dunkle Pflaume-Melange setzt über der grauen Shell einen warmen Akzent."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-02.05-headband",
+      "appCategory": "headwear"
+    }
+  ],
+  "copy": {
+    "titleKo": "플럼을 고쳐 쓰고",
+    "captionKo": "스톤 그레이 셸 아래 플럼을 겹쳐 차분한 밤의 러닝 레이어를 만든다.",
+    "introKo": "플럼 하이넥 이너와 헤드밴드가 스톤 그레이 셸을 부드럽게 연결한다. 손등과 어깨의 작은 반사 디테일이 플래시 아래 또렷해진다.",
+    "tipKo": "헤드밴드는 귀를 덮되 시야를 가리지 않도록 정리하세요.",
+    "title": {
+      "ko": "플럼을 고쳐 쓰고",
+      "en": "PLUM, SET RIGHT"
+    },
+    "deck": {
+      "ko": "스톤 그레이 셸 아래 플럼을 겹쳐 차분한 밤의 러닝 레이어를 만든다.",
+      "en": "Plum layered under a stone-grey shell for a calm evening run.",
+      "de": "Pflaume unter einer steingrauen Shell für einen ruhigen Abendlauf."
+    },
+    "intro": {
+      "ko": "플럼 하이넥 이너와 헤드밴드가 스톤 그레이 셸을 부드럽게 연결한다. 손등과 어깨의 작은 반사 디테일이 플래시 아래 또렷해진다.",
+      "en": "A plum high-neck and a matching headband soften the stone-grey shell from collar to brow. Small silver details on the shoulders and the backs of the hands come up sharply under the flash.",
+      "de": "Ein pflaumenfarbener Stehkragen und ein passendes Stirnband machen die steingraue Shell vom Kragen bis zur Stirn weicher. Kleine Silberdetails an den Schultern und auf den Handrücken leuchten im Blitzlicht deutlich auf."
+    },
+    "tip": {
+      "ko": "헤드밴드는 귀를 덮되 시야를 가리지 않도록 정리하세요.",
+      "en": "Settle the headband so it covers your ears without blocking your view.",
+      "de": "Das Stirnband so zurechtrücken, dass es die Ohren bedeckt, ohne die Sicht zu verdecken."
+    },
+    "pull": "A QUICK FIX AT THE BROW, AND ON AGAIN."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "reconstructionSummary": "Close upper-body crop: only outer/top/bottom/gloves/headband are products. Legs below the thigh and the feet are out of frame, so no socks or shoes are listed; the plum top body/sleeves under the shell and the tights below the thigh are conservative reconstructions.",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-night-run-20261026-02",
+  "appBuild": "b160",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "evening",
+    "hero": "rl-chilly-f35-night-run-20261026-02.02-top"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

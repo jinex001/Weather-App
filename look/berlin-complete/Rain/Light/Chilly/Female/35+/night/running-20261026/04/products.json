@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-night-run-20261026-04",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false,
+    "note": "no numeric temperature supplied; creative Berlin night setting, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 7,
+  "products": [
+    {
+      "look": 4,
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "모스 그린 러닝 셸",
+      "nameEn": "Moss green running shell",
+      "detail": "Muted moss olive green hooded lightweight running shell, dark full zipper, elastic cuffs, short reflective silver lower sleeve strips as shown.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Muted moss olive green hooded lightweight running shell, dark full zipper, elastic cuffs, short reflective silver lower sleeve strips as shown.",
+      "descriptionEn": "Wear it half unzipped so the warm grey collar layers through; the length stays over the back when you bend, and the short silver strips low on the sleeves shine near the wrists.",
+      "descriptionKo": "지퍼를 반쯤 열어 웜 그레이 집넥 칼라가 겹쳐 보이게 입어요. 몸을 숙여도 등이 드러나지 않는 길이고, 소매 아래쪽의 짧은 은색 띠가 손목 가까이에서 빛나요.",
+      "descriptionDe": "Halb geöffnet tragen, damit der warmgraue Kragen durchscheint; die Länge bedeckt beim Bücken den Rücken, und die kurzen Silberstreifen unten an den Ärmeln glänzen nah am Handgelenk.",
+      "image": "products/01-outer.webp",
+      "sha256": "f75f6ecb9a27639ce7d59dd4f785611efa29343914f9554a9c4e9bb6f5afd030",
+      "bytes": 32152,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        21,
+        20,
+        479,
+        476
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "모스 그린 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "모스 그린 러닝 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Muted moss olive green hooded lightweight running shell, dark full zipper, elastic cuffs, short reflective silver lower sleeve strips as shown.",
+        "de": "Moss green running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Moosgrüne Lauf-Shell",
+      "howToWear": {
+        "ko": "지퍼를 반쯤 열어 웜 그레이 집넥 칼라가 겹쳐 보이게 입어요. 몸을 숙여도 등이 드러나지 않는 길이고, 소매 아래쪽의 짧은 은색 띠가 손목 가까이에서 빛나요.",
+        "en": "Wear it half unzipped so the warm grey collar layers through; the length stays over the back when you bend, and the short silver strips low on the sleeves shine near the wrists.",
+        "de": "Halb geöffnet tragen, damit der warmgraue Kragen durchscheint; die Länge bedeckt beim Bücken den Rücken, und die kurzen Silberstreifen unten an den Ärmeln glänzen nah am Handgelenk."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": 4,
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "웜 그레이 집넥",
+      "nameEn": "Warm grey zip-neck running layer",
+      "detail": "Warm grey heather close-fit technical long sleeve quarter zip with stand collar and dark short zipper. Hidden body simple.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Warm grey heather close-fit technical long sleeve quarter zip with stand collar and dark short zipper. Hidden body simple.",
+      "descriptionEn": "Zip the short front all the way so the stand collar wraps the neck; the warm grey heather links moss green and espresso softly.",
+      "descriptionKo": "짧은 지퍼를 끝까지 올려 스탠드 칼라로 목을 감싸요. 웜 그레이 헤더가 모스 그린과 에스프레소 사이를 부드럽게 이어 줘요.",
+      "descriptionDe": "Den kurzen Reißverschluss ganz schließen, sodass der Stehkragen den Hals umschließt; das warmgraue Melange verbindet Moosgrün und Espresso sanft.",
+      "image": "products/02-top.webp",
+      "sha256": "90c0a7471eb61445b51a6c3eee8efdbbf709d96c96548d16a00a5d0a4bd9842c",
+      "bytes": 41574,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        17,
+        36,
+        483,
+        468
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "웜 그레이 집넥 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "웜 그레이 집넥 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Warm grey heather close-fit technical long sleeve quarter zip with stand collar and dark short zipper. Hidden body simple.",
+        "de": "Warm grey zip-neck running layer; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Warmgraue Laufschicht mit Reißverschlusskragen",
+      "howToWear": {
+        "ko": "짧은 지퍼를 끝까지 올려 스탠드 칼라로 목을 감싸요. 웜 그레이 헤더가 모스 그린과 에스프레소 사이를 부드럽게 이어 줘요.",
+        "en": "Zip the short front all the way so the stand collar wraps the neck; the warm grey heather links moss green and espresso softly.",
+        "de": "Den kurzen Reißverschluss ganz schließen, sodass der Stehkragen den Hals umschließt; das warmgraue Melange verbindet Moosgrün und Espresso sanft."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": 4,
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "에스프레소 타이츠",
+      "nameEn": "Espresso reflective running tights",
+      "detail": "Espresso dark brown fitted full-length running tights, curved thigh/knee panel seams, narrow silver reflective marks at knees and outer legs as visible.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Espresso dark brown fitted full-length running tights, curved thigh/knee panel seams, narrow silver reflective marks at knees and outer legs as visible.",
+      "descriptionEn": "The panel seams curve around the knee and move with you as you bend and straighten; the narrow silver marks at the knees and outer legs stand out on the dark brown.",
+      "descriptionKo": "무릎을 따라 휘는 패널 솔기가 굽혔다 펼 때도 편하게 따라와요. 무릎과 다리 바깥의 좁은 은색 표시가 짙은 브라운 위에서 또렷해요.",
+      "descriptionDe": "Die Teilungsnähte folgen dem Knie und gehen beim Beugen und Strecken mit; die schmalen Silbermarkierungen an Knien und Außenbeinen heben sich vom dunklen Braun ab.",
+      "image": "products/03-bottom.webp",
+      "sha256": "c3267cbbd24ecfae076143a1bd9ed875ff7ccd8351e8b5673fd49a6ae3fb390c",
+      "bytes": 15632,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        141,
+        12,
+        359,
+        488
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "에스프레소 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "에스프레소 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Espresso dark brown fitted full-length running tights, curved thigh/knee panel seams, narrow silver reflective marks at knees and outer legs as visible.",
+        "de": "Espresso reflective running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Espressobraune Lauftights mit Reflexdetails",
+      "howToWear": {
+        "ko": "무릎을 따라 휘는 패널 솔기가 굽혔다 펼 때도 편하게 따라와요. 무릎과 다리 바깥의 좁은 은색 표시가 짙은 브라운 위에서 또렷해요.",
+        "en": "The panel seams curve around the knee and move with you as you bend and straighten; the narrow silver marks at the knees and outer legs stand out on the dark brown.",
+        "de": "Die Teilungsnähte folgen dem Knie und gehen beim Beugen und Strecken mit; die schmalen Silbermarkierungen an Knien und Außenbeinen heben sich vom dunklen Braun ab."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": 4,
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "그레이 리브 양말",
+      "nameEn": "Grey ribbed crew running socks",
+      "detail": "One matching pair mid-grey heather ribbed crew socks matching clearly visible raised ankle. Preserve actual crew height, do not use initial prompt quarter socks.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair mid-grey heather ribbed crew socks matching clearly visible raised ankle. Preserve actual crew height, do not use initial prompt quarter socks.",
+      "descriptionEn": "Crew length, pulled up above the ankle so the hem of the tights rests just over the rib; the grey rib answers the texture of the inner layer.",
+      "descriptionKo": "크루 길이로 발목 위까지 올라오게 신고, 타이츠 밑단이 리브 위에 살짝 걸치게 해요. 그레이 리브가 이너의 질감과 짝을 이뤄요.",
+      "descriptionDe": "In Crew-Länge über den Knöchel ziehen, sodass der Saum der Tights knapp auf dem Rippenbund liegt; das graue Rippenmuster greift die Struktur der inneren Lage auf.",
+      "image": "products/04-socks.webp",
+      "sha256": "da19aff4ae95978d0df91c875ebc85666567611a632fc814bca655cade96de9f",
+      "bytes": 48660,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        51,
+        34,
+        462,
+        478
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 리브 양말 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 리브 양말 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair mid-grey heather ribbed crew socks matching clearly visible raised ankle. Preserve actual crew height, do not use initial prompt quarter socks.",
+        "de": "Grey ribbed running socks; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graue gerippte Crew-Laufsocken",
+      "howToWear": {
+        "ko": "크루 길이로 발목 위까지 올라오게 신고, 타이츠 밑단이 리브 위에 살짝 걸치게 해요. 그레이 리브가 이너의 질감과 짝을 이뤄요.",
+        "en": "Crew length, pulled up above the ankle so the hem of the tights rests just over the rib; the grey rib answers the texture of the inner layer.",
+        "de": "In Crew-Länge über den Knöchel ziehen, sodass der Saum der Tights knapp auf dem Rippenbund liegt; das graue Rippenmuster greift die Struktur der inneren Lage auf."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.04-socks",
+      "appCategory": "socks"
+    },
+    {
+      "look": 4,
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "그레이 메시 러닝화",
+      "nameEn": "Grey mesh running shoes",
+      "detail": "One matching pair light grey mesh running shoes, grey laces and silver-grey overlays, pale sculpted midsole, black toe outsole accent. Match close raised shoe.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair light grey mesh running shoes, grey laces and silver-grey overlays, pale sculpted midsole, black toe outsole accent. Match close raised shoe.",
+      "descriptionEn": "Pull the laces evenly across the instep and keep the loose ends short; the light grey mesh and sculpted midsole look light beneath the dark legs.",
+      "descriptionKo": "끈을 발등에 고르게 당겨 묶고 남은 끈은 짧게 정리해요. 연한 그레이 메시와 조각된 미드솔이 어두운 다리 아래에서 가볍게 보여요.",
+      "descriptionDe": "Die Schnürsenkel gleichmäßig über den Rist ziehen und die Enden kurz halten; das hellgraue Mesh und die geformte Zwischensohle wirken unter den dunklen Beinen leicht.",
+      "image": "products/05-shoes.webp",
+      "sha256": "3f92332a89cd343e15fa7b3a1c1474169acc5681814633d3d8e93973e21d4939",
+      "bytes": 49130,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        59,
+        35,
+        442,
+        471
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 메시 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 메시 러닝화 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair light grey mesh running shoes, grey laces and silver-grey overlays, pale sculpted midsole, black toe outsole accent. Match close raised shoe.",
+        "de": "Grey mesh running shoes; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graue Mesh-Laufschuhe",
+      "howToWear": {
+        "ko": "끈을 발등에 고르게 당겨 묶고 남은 끈은 짧게 정리해요. 연한 그레이 메시와 조각된 미드솔이 어두운 다리 아래에서 가볍게 보여요.",
+        "en": "Pull the laces evenly across the instep and keep the loose ends short; the light grey mesh and sculpted midsole look light beneath the dark legs.",
+        "de": "Die Schnürsenkel gleichmäßig über den Rist ziehen und die Enden kurz halten; das hellgraue Mesh und die geformte Zwischensohle wirken unter den dunklen Beinen leicht."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.05-shoes",
+      "appCategory": "shoes"
+    },
+    {
+      "look": 4,
+      "id": "06-gloves",
+      "category": "gloves",
+      "nameKo": "차콜 러닝 장갑",
+      "nameEn": "Charcoal running gloves",
+      "detail": "One matching pair charcoal heather thin full-finger running gloves with ribbed stretch cuffs, no invented reflective branding.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair charcoal heather thin full-finger running gloves with ribbed stretch cuffs, no invented reflective branding.",
+      "descriptionEn": "Thin enough to tie your laces with them on; push the ribbed cuffs inside the shell sleeves.",
+      "descriptionKo": "얇아서 장갑을 낀 채로 신발 끈을 묶을 수 있어요. 리브 소맷부리를 셸 소매 안쪽으로 밀어 넣어요.",
+      "descriptionDe": "Dünn genug, um damit die Schnürsenkel zu binden; die gerippten Bündchen in die Shell-Ärmel schieben.",
+      "image": "products/06-gloves.webp",
+      "sha256": "ef9520c6dce500cb39c3ed3bfc3620ffdf9668e161e53c8ffba215e13df960a6",
+      "bytes": 47006,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        19,
+        50,
+        481,
+        451
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "차콜 러닝 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "차콜 러닝 장갑 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair charcoal heather thin full-finger running gloves with ribbed stretch cuffs, no invented reflective branding.",
+        "de": "Charcoal running gloves; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Anthrazitfarbene Laufhandschuhe",
+      "howToWear": {
+        "ko": "얇아서 장갑을 낀 채로 신발 끈을 묶을 수 있어요. 리브 소맷부리를 셸 소매 안쪽으로 밀어 넣어요.",
+        "en": "Thin enough to tie your laces with them on; push the ribbed cuffs inside the shell sleeves.",
+        "de": "Dünn genug, um damit die Schnürsenkel zu binden; die gerippten Bündchen in die Shell-Ärmel schieben."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.06-gloves",
+      "appCategory": "hands"
+    },
+    {
+      "look": 4,
+      "id": "07-headband",
+      "category": "headband",
+      "nameKo": "그레이 헤드밴드",
+      "nameEn": "Grey running headband",
+      "detail": "One single wide dark grey heather ear-covering stretch running headband, closed loop, visible knitted horizontal texture.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One single wide dark grey heather ear-covering stretch running headband, closed loop, visible knitted horizontal texture.",
+      "descriptionEn": "Wear it wide over the ears above the braid, with the front edge just above the brows; the dark grey horizontal knit belongs with the inner layer and socks.",
+      "descriptionKo": "땋은 머리 위로 귀를 덮게 넓게 쓰고, 이마 쪽은 눈썹 위에 맞춰요. 가로 니트 결의 다크 그레이가 이너·양말과 같은 계열이에요.",
+      "descriptionDe": "Breit über den Ohren oberhalb des Zopfes tragen, die Vorderkante knapp über den Brauen; das dunkelgraue Querstrickmuster gehört zur inneren Lage und den Socken.",
+      "image": "products/07-headband.webp",
+      "sha256": "4aba5b108865f5bcc5f372b55c0519d1faa21e53b7af012885bbf21e256a7592",
+      "bytes": 43982,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        23,
+        130,
+        477,
+        373
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 헤드밴드 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One single wide dark grey heather ear-covering stretch running headband, closed loop, visible knitted horizontal texture.",
+        "de": "Grey running headband; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graues Laufstirnband",
+      "howToWear": {
+        "ko": "땋은 머리 위로 귀를 덮게 넓게 쓰고, 이마 쪽은 눈썹 위에 맞춰요. 가로 니트 결의 다크 그레이가 이너·양말과 같은 계열이에요.",
+        "en": "Wear it wide over the ears above the braid, with the front edge just above the brows; the dark grey horizontal knit belongs with the inner layer and socks.",
+        "de": "Breit über den Ohren oberhalb des Zopfes tragen, die Vorderkante knapp über den Brauen; das dunkelgraue Querstrickmuster gehört zur inneren Lage und den Socken."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-04.07-headband",
+      "appCategory": "headwear"
+    }
+  ],
+  "copy": {
+    "titleKo": "모스 그린의 잠깐 멈춤",
+    "captionKo": "모스 그린 셸과 에스프레소 타이츠로 차분한 러닝 팔레트를 완성한다.",
+    "introKo": "웜 그레이 집넥 이너와 리브 양말이 모스 그린 셸에 부드러운 질감을 더한다. 긴 타이츠와 얇은 장갑으로 밤 러닝의 레이어를 맞췄다.",
+    "tipKo": "신발 끈을 묶을 때는 통행을 피한 안전한 곳에 멈추세요.",
+    "title": {
+      "ko": "모스 그린의 잠깐 멈춤",
+      "en": "A MOSS GREEN PAUSE"
+    },
+    "deck": {
+      "ko": "모스 그린 셸과 에스프레소 타이츠로 차분한 러닝 팔레트를 완성한다.",
+      "en": "A moss-green shell and espresso tights make a calm palette for an evening run.",
+      "de": "Eine moosgrüne Shell und espressobraune Tights ergeben eine ruhige Palette für den Abendlauf."
+    },
+    "intro": {
+      "ko": "웜 그레이 집넥 이너와 리브 양말이 모스 그린 셸에 부드러운 질감을 더한다. 긴 타이츠와 얇은 장갑으로 밤 러닝의 레이어를 맞췄다.",
+      "en": "A warm grey zip-neck and ribbed socks add a soft texture to the moss-green shell. Full-length tights and thin gloves finish the layers for an evening run in light rain.",
+      "de": "Eine warmgraue Lage mit Reißverschlusskragen und gerippte Socken bringen eine weiche Textur zur moosgrünen Shell. Lange Tights und dünne Handschuhe vervollständigen die Lagen für einen Abendlauf im leichten Regen."
+    },
+    "tip": {
+      "ko": "신발 끈을 묶을 때는 통행을 피한 안전한 곳에 멈추세요.",
+      "en": "When you stop to tie your laces, step somewhere out of the way first.",
+      "de": "Zum Schuhebinden zuerst an eine Stelle treten, an der du niemandem im Weg stehst."
+    },
+    "pull": "ONE KNOT, ONE BREATH, THEN THE ROAD."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "reconstructionSummary": "Socks are crew height as visible on the raised ankle and approved visually, even though the initial editorial prompt said quarter socks. The second shoe/sock and the hidden back of the shell are conservative reconstructions.",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-night-run-20261026-04",
+  "appBuild": "b160",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "evening",
+    "hero": "rl-chilly-f35-night-run-20261026-04.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}

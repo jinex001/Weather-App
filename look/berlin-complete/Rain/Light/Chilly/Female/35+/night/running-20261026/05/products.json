@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rl-chilly-f35-night-run-20261026-05",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "run",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "light",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "approval": {
+    "editorial": "approved",
+    "approvedAt": null
+  },
+  "productionStatus": "ready",
+  "contentType": "ai-styled-concept",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Light",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "stylingAssumption": {
+    "city": "Berlin",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "isLiveMeasurement": false,
+    "note": "no numeric temperature supplied; creative Berlin night setting, not a measurement or forecast"
+  },
+  "editorial": "editorial.jpg",
+  "editorialImage": "editorial.jpg",
+  "productCount": 7,
+  "products": [
+    {
+      "look": 5,
+      "id": "01-outer",
+      "category": "outer",
+      "nameKo": "오버진 러닝 셸",
+      "nameEn": "Aubergine running shell",
+      "detail": "Deep aubergine purple hooded lightweight shell, rear long narrow vertical silver reflective strip below hood, segmented reflective cuff strips, elastic hem/cuffs. Front invisible: conservative simple full zipper, no invented pockets. Product front-facing flat lay, reflect reference color and cut.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Deep aubergine purple hooded lightweight shell, rear long narrow vertical silver reflective strip below hood, segmented reflective cuff strips, elastic hem/cuffs. Front invisible: conservative simple full zipper, no invented pockets. Product front-facing flat lay, reflect reference color and cut.",
+      "descriptionEn": "With the hood down, the long narrow silver line below it runs down the back; elastic at the hem and cuffs makes it finish neatly above the hips.",
+      "descriptionKo": "후드를 등 뒤로 내리면 후드 아래의 길고 가는 은색 세로선이 드러나요. 밑단과 소매가 고무로 마감돼 엉덩이 위에서 깔끔하게 멈춰요.",
+      "descriptionDe": "Mit abgelegter Kapuze läuft darunter der lange, schmale Silberstreifen den Rücken hinab; elastische Abschlüsse an Saum und Ärmeln lassen sie sauber über der Hüfte enden.",
+      "image": "products/01-outer.webp",
+      "sha256": "b0fa29bcb9b8d03ad244fc903367a0e43d2335d0c21be7218cdedce5926cd5d4",
+      "bytes": 31580,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        16,
+        6,
+        485,
+        482
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "오버진 러닝 셸 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "오버진 러닝 셸 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Deep aubergine purple hooded lightweight shell, rear long narrow vertical silver reflective strip below hood, segmented reflective cuff strips, elastic hem/cuffs. Front invisible: conservative simple full zipper, no invented pockets. Product front-facing flat lay, reflect reference color and cut.",
+        "de": "Aubergine running shell; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Auberginefarbene Lauf-Shell",
+      "howToWear": {
+        "ko": "후드를 등 뒤로 내리면 후드 아래의 길고 가는 은색 세로선이 드러나요. 밑단과 소매가 고무로 마감돼 엉덩이 위에서 깔끔하게 멈춰요.",
+        "en": "With the hood down, the long narrow silver line below it runs down the back; elastic at the hem and cuffs makes it finish neatly above the hips.",
+        "de": "Mit abgelegter Kapuze läuft darunter der lange, schmale Silberstreifen den Rücken hinab; elastische Abschlüsse an Saum und Ärmeln lassen sie sauber über der Hüfte enden."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.01-outer",
+      "appCategory": "outer"
+    },
+    {
+      "look": 5,
+      "id": "02-top",
+      "category": "top",
+      "nameKo": "애시드 옐로 집넥",
+      "nameEn": "Acid yellow zip-neck running layer",
+      "detail": "Acid lemon yellow technical long sleeve zip-neck base layer, collar and extended cuffs visible. Hidden torso and short zipper inferred simply, plain fitted silhouette.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Acid lemon yellow technical long sleeve zip-neck base layer, collar and extended cuffs visible. Hidden torso and short zipper inferred simply, plain fitted silhouette.",
+      "descriptionEn": "Stand the collar up out of the shell and fold the long cuffs just over the gloves; acid yellow only at the neck and wrists makes the aubergine feel lively.",
+      "descriptionKo": "칼라를 셸 밖으로 세우고, 긴 소맷부리를 장갑 위로 살짝 접어 보이게 해요. 목과 손목에만 나오는 애시드 옐로가 오버진을 경쾌하게 만들어요.",
+      "descriptionDe": "Den Kragen aus der Shell aufstellen und die langen Bündchen knapp über die Handschuhe schlagen; Säuregelb nur an Hals und Handgelenken macht die Aubergine lebendig.",
+      "image": "products/02-top.webp",
+      "sha256": "5a516e3c2bf6e73ae1943fbda3598d24a393394d6a56d1c34a694fd25af4d634",
+      "bytes": 31054,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        37,
+        30,
+        464,
+        472
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "애시드 옐로 집넥 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "애시드 옐로 집넥 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Acid lemon yellow technical long sleeve zip-neck base layer, collar and extended cuffs visible. Hidden torso and short zipper inferred simply, plain fitted silhouette.",
+        "de": "Acid yellow zip-neck running layer; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Säuregelbe Laufschicht mit Reißverschlusskragen",
+      "howToWear": {
+        "ko": "칼라를 셸 밖으로 세우고, 긴 소맷부리를 장갑 위로 살짝 접어 보이게 해요. 목과 손목에만 나오는 애시드 옐로가 오버진을 경쾌하게 만들어요.",
+        "en": "Stand the collar up out of the shell and fold the long cuffs just over the gloves; acid yellow only at the neck and wrists makes the aubergine feel lively.",
+        "de": "Den Kragen aus der Shell aufstellen und die langen Bündchen knapp über die Handschuhe schlagen; Säuregelb nur an Hals und Handgelenken macht die Aubergine lebendig."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.02-top",
+      "appCategory": "top"
+    },
+    {
+      "look": 5,
+      "id": "03-bottom",
+      "category": "bottom",
+      "nameKo": "블랙 도트 리플렉티브 타이츠",
+      "nameEn": "Black dotted reflective running tights",
+      "detail": "Full length black fitted tights with vertical lines of tiny segmented silver reflective rectangles on outer lower legs, match rear visible details.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "Full length black fitted tights with vertical lines of tiny segmented silver reflective rectangles on outer lower legs, match rear visible details.",
+      "descriptionEn": "Tiny silver rectangles run down the outer calves and read as a dotted line in motion; keep the waistband tidily hidden under the shell hem.",
+      "descriptionKo": "종아리 바깥을 따라 작은 은색 사각 점이 세로로 이어져 걸을 때 점선처럼 보여요. 셸 밑단 아래로 허리를 단정히 감춰 입어요.",
+      "descriptionDe": "Kleine silberne Rechtecke laufen an den äußeren Waden hinab und wirken in Bewegung wie eine gepunktete Linie; den Bund ordentlich unter dem Shell-Saum verbergen.",
+      "image": "products/03-bottom.webp",
+      "sha256": "16f3c8fb9e1ae0d89e91fa37429e38981c85c51a39fb21dbd642249ec83712df",
+      "bytes": 12976,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        153,
+        11,
+        347,
+        488
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 도트 리플렉티브 타이츠 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 도트 리플렉티브 타이츠 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "Full length black fitted tights with vertical lines of tiny segmented silver reflective rectangles on outer lower legs, match rear visible details.",
+        "de": "Black dotted reflective running tights; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarze Lauftights mit Reflexpunkten",
+      "howToWear": {
+        "ko": "종아리 바깥을 따라 작은 은색 사각 점이 세로로 이어져 걸을 때 점선처럼 보여요. 셸 밑단 아래로 허리를 단정히 감춰 입어요.",
+        "en": "Tiny silver rectangles run down the outer calves and read as a dotted line in motion; keep the waistband tidily hidden under the shell hem.",
+        "de": "Kleine silberne Rechtecke laufen an den äußeren Waden hinab und wirken in Bewegung wie eine gepunktete Linie; den Bund ordentlich unter dem Shell-Saum verbergen."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.03-bottom",
+      "appCategory": "bottom"
+    },
+    {
+      "look": 5,
+      "id": "04-socks",
+      "category": "socks",
+      "nameKo": "그레이 러닝 양말",
+      "nameEn": "Grey quarter running socks",
+      "detail": "One matching pair grey quarter-height running socks, visible narrow band above rear shoe, no invented branding.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair grey quarter-height running socks, visible narrow band above rear shoe, no invented branding.",
+      "descriptionEn": "Quarter height, so only a narrow grey band shows above the heel of the shoe, bridging the tights and the shoes.",
+      "descriptionKo": "쿼터 길이라 러닝화 뒤축 위로 그레이 띠만 좁게 보여요. 타이츠 밑단과 신발 사이를 부드럽게 이어 줘요.",
+      "descriptionDe": "In Quarter-Höhe zeigt sich nur ein schmales graues Band über der Ferse und verbindet Tights und Schuhe.",
+      "image": "products/04-socks.webp",
+      "sha256": "c4e691979762ccf4a20b0bc973fda84e1421da4e078e95ca3ba6615ac7d21825",
+      "bytes": 44014,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        27,
+        54,
+        490,
+        461
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그레이 러닝 양말 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그레이 러닝 양말 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair grey quarter-height running socks, visible narrow band above rear shoe, no invented branding.",
+        "de": "Grey running socks; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graue Quarter-Laufsocken",
+      "howToWear": {
+        "ko": "쿼터 길이라 러닝화 뒤축 위로 그레이 띠만 좁게 보여요. 타이츠 밑단과 신발 사이를 부드럽게 이어 줘요.",
+        "en": "Quarter height, so only a narrow grey band shows above the heel of the shoe, bridging the tights and the shoes.",
+        "de": "In Quarter-Höhe zeigt sich nur ein schmales graues Band über der Ferse und verbindet Tights und Schuhe."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.04-socks",
+      "appCategory": "socks"
+    },
+    {
+      "look": 5,
+      "id": "05-shoes",
+      "category": "shoes",
+      "nameKo": "다크 그레이 러닝화",
+      "nameEn": "Dark grey running shoes",
+      "detail": "One matching pair dark charcoal running shoes, pale grey midsole and narrow rear silver reflective stripe, dark heel overlay, toe hidden in reference so conservatively reconstructed.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair dark charcoal running shoes, pale grey midsole and narrow rear silver reflective stripe, dark heel overlay, toe hidden in reference so conservatively reconstructed.",
+      "descriptionEn": "The thin silver stripe above the dark heel overlay is the detail seen from behind; the pale grey midsole finishes the feet beneath the black tights.",
+      "descriptionKo": "어두운 뒤꿈치 덧댐 위의 가는 은색 줄이 뒤에서 볼 때 포인트가 돼요. 연한 그레이 미드솔이 블랙 타이츠 아래 발끝을 정리해 줘요.",
+      "descriptionDe": "Der dünne Silberstreifen über der dunklen Fersenkappe ist das Detail von hinten; die hellgraue Zwischensohle schließt die Füße unter den schwarzen Tights ab.",
+      "image": "products/05-shoes.webp",
+      "sha256": "e9f1e242e40837df240938940b91b7e80a5c946076bd8721eda77c36a613a78a",
+      "bytes": 38814,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        63,
+        25,
+        437,
+        475
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "다크 그레이 러닝화 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "다크 그레이 러닝화 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair dark charcoal running shoes, pale grey midsole and narrow rear silver reflective stripe, dark heel overlay, toe hidden in reference so conservatively reconstructed.",
+        "de": "Dark grey running shoes; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Dunkelgraue Laufschuhe",
+      "howToWear": {
+        "ko": "어두운 뒤꿈치 덧댐 위의 가는 은색 줄이 뒤에서 볼 때 포인트가 돼요. 연한 그레이 미드솔이 블랙 타이츠 아래 발끝을 정리해 줘요.",
+        "en": "The thin silver stripe above the dark heel overlay is the detail seen from behind; the pale grey midsole finishes the feet beneath the black tights.",
+        "de": "Der dünne Silberstreifen über der dunklen Fersenkappe ist das Detail von hinten; die hellgraue Zwischensohle schließt die Füße unter den schwarzen Tights ab."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.05-shoes",
+      "appCategory": "shoes"
+    },
+    {
+      "look": 5,
+      "id": "06-gloves",
+      "category": "gloves",
+      "nameKo": "블랙 리플렉티브 장갑",
+      "nameEn": "Black reflective running gloves",
+      "detail": "One matching pair black full-finger thin running gloves, slim silver reflective strip over back of hand, stretch wrist cuffs.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One matching pair black full-finger thin running gloves, slim silver reflective strip over back of hand, stretch wrist cuffs.",
+      "descriptionEn": "Slip the stretch cuffs under the inner layer's sleeve ends so the yellow shows on top; the slim silver strip on the back of the hand lines up with the shell's cuff strips.",
+      "descriptionKo": "신축 손목을 이너 소맷부리 안에 넣어 옐로가 위로 보이게 껴요. 손등의 가는 은색 띠가 셸 소매의 반사 띠와 이어져요.",
+      "descriptionDe": "Die elastischen Bündchen unter die Ärmelenden der inneren Lage schieben, damit das Gelb obenauf liegt; der schmale Silberstreifen auf dem Handrücken setzt die Streifen an den Shell-Ärmeln fort.",
+      "image": "products/06-gloves.webp",
+      "sha256": "603a2ad920143c289593e9f67e2660562e66441c33ea58393d016c3906dafcec",
+      "bytes": 27442,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        25,
+        42,
+        474,
+        453
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "블랙 리플렉티브 장갑 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "블랙 리플렉티브 장갑 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One matching pair black full-finger thin running gloves, slim silver reflective strip over back of hand, stretch wrist cuffs.",
+        "de": "Black reflective running gloves; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Schwarze Laufhandschuhe mit Reflexstreifen",
+      "howToWear": {
+        "ko": "신축 손목을 이너 소맷부리 안에 넣어 옐로가 위로 보이게 껴요. 손등의 가는 은색 띠가 셸 소매의 반사 띠와 이어져요.",
+        "en": "Slip the stretch cuffs under the inner layer's sleeve ends so the yellow shows on top; the slim silver strip on the back of the hand lines up with the shell's cuff strips.",
+        "de": "Die elastischen Bündchen unter die Ärmelenden der inneren Lage schieben, damit das Gelb obenauf liegt; der schmale Silberstreifen auf dem Handrücken setzt die Streifen an den Shell-Ärmeln fort."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.06-gloves",
+      "appCategory": "hands"
+    },
+    {
+      "look": 5,
+      "id": "07-headband",
+      "category": "headband",
+      "nameKo": "그래파이트 헤드밴드",
+      "nameEn": "Graphite running headband",
+      "detail": "One single wide graphite charcoal marled ear-covering running headband, closed loop, no logos.",
+      "reconstruction": "visible-with-hidden-parts-inferred",
+      "designDescriptionEn": "One single wide graphite charcoal marled ear-covering running headband, closed loop, no logos.",
+      "descriptionEn": "Put it on after tying the ponytail, wide over the ears to catch loose strands; the graphite marl steadies the bright collar and the aubergine.",
+      "descriptionKo": "포니테일을 묶은 뒤 귀를 덮게 넓게 써서 잔머리를 정리해요. 그래파이트 멜란지가 밝은 칼라와 오버진 사이에서 차분하게 받쳐 줘요.",
+      "descriptionDe": "Nach dem Pferdeschwanz breit über die Ohren ziehen, um lose Strähnen zu bändigen; das Graphit-Melange beruhigt den hellen Kragen und die Aubergine.",
+      "image": "products/07-headband.webp",
+      "sha256": "e2aace8e2588671bb332319a0f3ae14d9be1406f4a83e1a8fda043b7ccbb6e07",
+      "bytes": 35996,
+      "status": "generated-and-format-validated",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bounds": [
+        20,
+        127,
+        483,
+        390
+      ],
+      "reconstructionNote": "Approved editorial is the visual reference. Hidden backs, lengths, closures and opposite pair members are conservatively reconstructed; inferred base layers are explicitly labelled.",
+      "altKo": "그래파이트 헤드밴드 — 투명 배경 독립 제품 컷",
+      "sourceDescription": {
+        "ko": "그래파이트 헤드밴드 — 보이는 디자인을 기준으로 가려진 부분을 보수적으로 복원.",
+        "en": "One single wide graphite charcoal marled ear-covering running headband, closed loop, no logos.",
+        "de": "Graphite running headband; verdeckte Bereiche vorsichtig rekonstruiert."
+      },
+      "nameDe": "Graphitfarbenes Laufstirnband",
+      "howToWear": {
+        "ko": "포니테일을 묶은 뒤 귀를 덮게 넓게 써서 잔머리를 정리해요. 그래파이트 멜란지가 밝은 칼라와 오버진 사이에서 차분하게 받쳐 줘요.",
+        "en": "Put it on after tying the ponytail, wide over the ears to catch loose strands; the graphite marl steadies the bright collar and the aubergine.",
+        "de": "Nach dem Pferdeschwanz breit über die Ohren ziehen, um lose Strähnen zu bändigen; das Graphit-Melange beruhigt den hellen Kragen und die Aubergine."
+      },
+      "appItemId": "rl-chilly-f35-night-run-20261026-05.07-headband",
+      "appCategory": "headwear"
+    }
+  ],
+  "copy": {
+    "titleKo": "오버진 뒤로 남는 빛",
+    "captionKo": "오버진 셸 사이로 애시드 옐로가 드러나는 경쾌한 밤 러닝 룩.",
+    "introKo": "짙은 오버진 셸 안에 밝은 집넥 이너를 겹쳐 목과 손목에 색을 더했다. 등과 종아리의 작은 반사 디테일이 움직임을 따라 이어진다.",
+    "tipKo": "젖은 연석에서는 보폭을 줄이고 천천히 내려오세요.",
+    "title": {
+      "ko": "오버진 뒤로 남는 빛",
+      "en": "AUBERGINE, LIGHT TRAILING BEHIND"
+    },
+    "deck": {
+      "ko": "오버진 셸 사이로 애시드 옐로가 드러나는 경쾌한 밤 러닝 룩.",
+      "en": "Acid yellow peeks out from an aubergine shell on a lively night run.",
+      "de": "Säuregelb blitzt unter einer auberginefarbenen Shell hervor, bei einem lebhaften Abendlauf."
+    },
+    "intro": {
+      "ko": "짙은 오버진 셸 안에 밝은 집넥 이너를 겹쳐 목과 손목에 색을 더했다. 등과 종아리의 작은 반사 디테일이 움직임을 따라 이어진다.",
+      "en": "A bright zip-neck under the deep aubergine shell brings colour to the collar and the wrists. Small silver details on the back and calves follow every movement down the street.",
+      "de": "Eine helle Lage mit Reißverschlusskragen unter der tiefen Aubergine-Shell bringt Farbe an Kragen und Handgelenke. Kleine Silberdetails an Rücken und Waden folgen jeder Bewegung die Straße hinunter."
+    },
+    "tip": {
+      "ko": "젖은 연석에서는 보폭을 줄이고 천천히 내려오세요.",
+      "en": "On a wet kerb, shorten your stride and step down slowly.",
+      "de": "An einer nassen Bordsteinkante den Schritt verkürzen und langsam hinuntergehen."
+    },
+    "pull": "A LOOK BACK, A FLASH OF YELLOW, AND AWAY."
+  },
+  "editorialApproved": true,
+  "productImagesComplete": true,
+  "visualReviewComplete": true,
+  "productApproval": "Generated under user authorization; producer review only, no separate per-product user approval",
+  "visualReviewer": "Codex; 4-background comparison sheets reviewed",
+  "reconstructionSummary": "Rear view: the aubergine shell front (simple full zip, no pockets) is a conservative reconstruction from the back; the acid yellow top is mostly hidden (only collar and cuffs visible), so its torso and short zip are inferred. Shoe toes are reconstructed.",
+  "mappingStatus": "mapped",
+  "appOutfitId": "rl-chilly-f35-night-run-20261026-05",
+  "appBuild": "b160",
+  "app": {
+    "sky": "rain",
+    "rain": "light",
+    "bands": [
+      "chilly"
+    ],
+    "gender": "f",
+    "age": "35",
+    "style": "run",
+    "time": "evening",
+    "hero": "rl-chilly-f35-night-run-20261026-05.01-outer"
+  },
+  "localizationStatus": "Korean master preserved verbatim (title/caption/intro/tip, product names); en/de, English display title/pull and per-item how-to-wear notes written by Claude Code at mapping"
+}
