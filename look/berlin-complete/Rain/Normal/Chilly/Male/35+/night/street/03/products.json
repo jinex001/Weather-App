@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-street-20261026-03",
+  "appOutfitId": "rn-chilly-m35-night-street-20261026-03",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "time": "evening",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved-under-user-workflow-authorization",
+    "products": "producer-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main and deployment on 2026-10-26. Products: Codex producer visual review (VISUAL_REVIEW.json passed) and a Claude visual read of every editorial and product; no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "hiddenItemPolicy": "No unseen footwear, socks or extra accessories fabricated. Only 01 footwear visible; other footwear outside crop. Hidden portions of visible garments reconstructed and explicitly labelled.",
+  "notProducts": [
+    "umbrella"
+  ],
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "625b7fb2632a15371b7ce743dc1d9323ae8a3b037c1121efd6874cbdbf9e6616",
+  "editorialBytes": 270040,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "title": {
+      "ko": "러스트 재킷과 기울어진 우산",
+      "en": "RUST UNDER THE UMBRELLA",
+      "de": "Rostbraun unter dem Schirm"
+    },
+    "deck": {
+      "ko": "바람에 기운 우산을 바로잡는 순간에도 따뜻한 색의 레이어가 자연스럽게 이어집니다.",
+      "en": "Warm layers stay in easy balance as he steadies an umbrella caught by the wind.",
+      "de": "Warme Farbschichten bleiben im Gleichgewicht, während er den vom Wind erfassten Schirm festhält."
+    },
+    "intro": {
+      "ko": "러스트와 크림의 대비 사이에 차콜 오버셔츠를 넣어 색을 자연스럽게 연결했습니다. 다크 브라운 팬츠는 따뜻한 색감을 이어줍니다.",
+      "en": "A charcoal overshirt bridges rust and cream, while dark brown trousers continue the warm palette.",
+      "de": "Das anthrazitfarbene Overshirt verbindet Rostbraun und Creme. Die dunkelbraune Hose führt die warme Farbpalette fort."
+    },
+    "tip": {
+      "ko": "겹쳐 입을 때는 팔과 어깨가 조이지 않는지 확인하세요. 바람이 강해지면 우산을 무리하게 펼치기보다 가까운 실내로 이동하세요.",
+      "en": "Leave room at the shoulders and arms when layering. If wind picks up, move into shelter rather than forcing an umbrella against it.",
+      "de": "Beim Schichten auf Bewegungsfreiheit an Schultern und Armen achten. Bei stärkerem Wind besser Schutz suchen, statt den Schirm gegen den Wind zu halten."
+    },
+    "pull": "HOLD THE UMBRELLA, KEEP THE COLOUR",
+    "koreanMaster": {
+      "look": 3,
+      "titleKo": "러스트 재킷과 기울어진 우산",
+      "captionKo": "바람에 기운 우산을 바로잡는 순간에도 따뜻한 색의 레이어가 자연스럽게 이어집니다.",
+      "introKo": "러스트와 크림의 대비 사이에 차콜 오버셔츠를 넣어 색을 자연스럽게 연결했습니다. 다크 브라운 팬츠는 따뜻한 색감을 이어줍니다. 우산은 장면 소품이며 제품 목록에 포함하지 않습니다.",
+      "tipKo": "겹쳐 입을 때는 팔과 어깨가 조이지 않는지 확인하세요. 바람이 강해지면 우산을 무리하게 펼치기보다 가까운 실내로 이동하세요."
+    },
+    "sourceIntro": {
+      "ko": "러스트와 크림의 대비 사이에 차콜 오버셔츠를 넣어 색을 자연스럽게 연결했습니다. 다크 브라운 팬츠는 따뜻한 색감을 이어줍니다. 우산은 장면 소품이며 제품 목록에 포함하지 않습니다.",
+      "en": "A charcoal overshirt bridges rust and cream, while dark brown trousers continue the warm palette. The umbrella is a scene prop, not a listed product.",
+      "de": "Das anthrazitfarbene Overshirt verbindet Rostbraun und Creme. Dunkelbraune Hosen führen die warme Farbpalette fort. Der Schirm ist eine Szenenrequisite und kein aufgeführtes Produkt."
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-street-20261026-03.01-outer",
+      "name": {
+        "ko": "러스트 레인 재킷",
+        "en": "Rust rain jacket",
+        "de": "Rostbraune Regenjacke"
+      },
+      "nameKo": "러스트 레인 재킷",
+      "designDescriptionEn": "rust orange matte waterproof hooded rain jacket, black snap storm placket and black center zipper, black hood lining, long sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "앞여밈·색·소매 확인, 아래 밑단 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/03-01-outer.webp",
+      "sha256": "189650765a7d0c9502b94d6f5fd6c8661abee8151037f0cd8ba61e07e18f7810",
+      "bytes": 48174,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "러스트 재킷은 차콜 오버셔츠 위로 여유 있게 입고 비가 이어지면 앞여밈을 닫으세요.",
+        "en": "Leave room for the charcoal overshirt beneath the rust jacket and close the front in persistent rain.",
+        "de": "Unter der rostbraunen Jacke Platz für das Overshirt lassen und den Verschluss bei anhaltendem Regen schließen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "러스트 레인 재킷 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-midlayer",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-street-20261026-03.02-midlayer",
+      "name": {
+        "ko": "차콜 버튼 오버셔츠",
+        "en": "Charcoal overshirt",
+        "de": "Anthrazitfarbenes Overshirt"
+      },
+      "nameKo": "차콜 버튼 오버셔츠",
+      "designDescriptionEn": "charcoal dark grey felted wool-look thick overshirt, pointed collar, black button-front closure and long sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "검정 버튼·칼라·앞판 확인, 팔과 등판 가려짐.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/02-midlayer.webp",
+      "deliveredImage": "products/03-02-midlayer.webp",
+      "sha256": "0408db81c8aef006b464bd4de75ecf0ced67bedc371378c8d5fd774930c983d5",
+      "bytes": 43262,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "차콜 오버셔츠는 크림 니트의 목선이 보이도록 윗단추를 편안하게 조절하세요.",
+        "en": "Adjust the top buttons of the charcoal overshirt to leave the cream neckline visible.",
+        "de": "Die oberen Knöpfe des anthrazitfarbenen Overshirts so tragen, dass der cremefarbene Ausschnitt sichtbar bleibt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 버튼 오버셔츠 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-m35-night-street-20261026-03.03-top",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream crewneck sweater",
+        "de": "Cremefarbener Rundhalspullover"
+      },
+      "nameKo": "크림 크루넥 니트",
+      "designDescriptionEn": "cream ivory fine knit crewneck sweater, ribbed round collar cuffs and hem, long sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "크림 몸판·넥과 골지 밑단 확인, 긴 소매 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/03-top.webp",
+      "deliveredImage": "products/03-03-top.webp",
+      "sha256": "439defb84879d376b785b136ba86c00ed0bfbe0db488d4db03452c40124d8072",
+      "bytes": 24994,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "크림 니트 소매와 밑단을 정돈해 세 겹의 레이어가 팔과 허리에 뭉치지 않게 하세요.",
+        "en": "Smooth the cream knit at the sleeves and hem so the three layers do not bunch.",
+        "de": "Ärmel und Saum des cremefarbenen Pullovers glatt richten, damit die drei Schichten nicht auftragen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "크림 크루넥 니트 — 독립 투명 배경 제품 컷",
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "크림 니트 소매와 밑단을 정돈해 세 겹의 레이어가 팔과 허리에 뭉치지 않게 하세요.",
+        "en": "Smooth the cream knit at the sleeves and hem so the three layers do not bunch.",
+        "de": "Ärmel und Saum des cremefarbenen Pullovers glatt richten, damit die drei Schichten nicht stauen."
+      }
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-street-20261026-03.04-bottom",
+      "name": {
+        "ko": "다크 브라운 팬츠",
+        "en": "Dark brown trousers",
+        "de": "Dunkelbraune Hose"
+      },
+      "nameKo": "다크 브라운 팬츠",
+      "designDescriptionEn": "dark chocolate brown roomy straight-leg trousers, clean waist, full-length legs, matte twill texture",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "허리와 허벅지만 확인, 다리 밑단 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/03-04-bottom.webp",
+      "sha256": "15972cbe49679e5473d898c3e2cdaf3b5f0b8c2c3a27543d78a9240aff3a8d95",
+      "bytes": 19182,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "다크 브라운 팬츠는 상의의 따뜻한 색을 이어주되 밑단을 바닥에서 띄워 입으세요.",
+        "en": "Let the dark brown trousers echo the warm upper layers, keeping the hems off the ground.",
+        "de": "Die dunkelbraune Hose greift die warmen Farben auf; die Säume sollten den Boden nicht berühren."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "다크 브라운 팬츠 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appMapping": {
+    "bands": [
+      "chilly"
+    ],
+    "sky": "rain",
+    "rain": "normal",
+    "time": "evening",
+    "style": "street",
+    "gender": "m",
+    "age": "35",
+    "hero": "rn-chilly-m35-night-street-20261026-03.01-outer"
+  }
+}

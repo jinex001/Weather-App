@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-street-20261026-04",
+  "appOutfitId": "rn-chilly-m35-night-street-20261026-04",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "time": "evening",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved-under-user-workflow-authorization",
+    "products": "producer-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main and deployment on 2026-10-26. Products: Codex producer visual review (VISUAL_REVIEW.json passed) and a Claude visual read of every editorial and product; no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "hiddenItemPolicy": "No unseen footwear, socks or extra accessories fabricated. Only 01 footwear visible; other footwear outside crop. Hidden portions of visible garments reconstructed and explicitly labelled.",
+  "notProducts": [
+    "bicycle",
+    "key"
+  ],
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "ba30298ffdc3f3c07f846de866f7d90c5593a68cb46dd9115b97ef9f652599e5",
+  "editorialBytes": 277372,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "title": {
+      "ko": "올리브 셸 아래 버건디 후드",
+      "en": "OLIVE AT THE BIKE LOCK",
+      "de": "Olivgrün am Fahrradschloss"
+    },
+    "deck": {
+      "ko": "자전거 잠금장치에 몸을 숙이면 짙은 후드가 차분한 아우터 사이로 드러납니다.",
+      "en": "A deep-coloured hood emerges from the muted jacket as he bends over the bike lock.",
+      "de": "Beim Beugen über das Fahrradschloss tritt die kräftige Kapuzenfarbe aus der gedeckten Jacke hervor."
+    },
+    "intro": {
+      "ko": "버건디 후드가 올리브 아우터 사이로 드러나며 얼굴 가까이에 색을 더합니다.",
+      "en": "A burgundy hood adds colour near the face beneath the olive jacket.",
+      "de": "Die burgunderrote Kapuze setzt unter der olivgrünen Jacke einen Akzent am Gesicht."
+    },
+    "tip": {
+      "ko": "자전거를 타기 전에는 후드와 밑단이 시야나 바퀴를 방해하지 않도록 정리하세요. 사진 속 레이어만으로 실제 방수 성능을 판단할 수는 없습니다.",
+      "en": "Before cycling, secure loose hems and adjust the hood so it does not obstruct your view. The photograph does not establish a garment's waterproof performance.",
+      "de": "Vor dem Radfahren lose Säume sichern und die Kapuze so einstellen, dass die Sicht frei bleibt. Das Foto belegt keine Wasserdichtigkeit."
+    },
+    "pull": "ONE MORE TURN OF THE KEY",
+    "koreanMaster": {
+      "look": 4,
+      "titleKo": "올리브 셸 아래 버건디 후드",
+      "captionKo": "자전거 잠금장치에 몸을 숙이면 짙은 후드가 차분한 아우터 사이로 드러납니다.",
+      "introKo": "버건디 후드가 올리브 아우터 사이로 드러나며 얼굴 가까이에 색을 더합니다. 검정 진은 여유롭게 떨어지는 형태로 복원했습니다. 자전거와 열쇠는 제품이 아닌 장면 소품입니다.",
+      "tipKo": "자전거를 타기 전에는 후드와 밑단이 시야나 바퀴를 방해하지 않도록 정리하세요. 사진 속 레이어만으로 실제 방수 성능을 판단할 수는 없습니다."
+    },
+    "sourceIntro": {
+      "ko": "버건디 후드가 올리브 아우터 사이로 드러나며 얼굴 가까이에 색을 더합니다. 검정 진은 여유롭게 떨어지는 형태로 복원했습니다. 자전거와 열쇠는 제품이 아닌 장면 소품입니다.",
+      "en": "A burgundy hood adds colour near the face beneath the olive jacket. The jeans are reconstructed with a relaxed cut; the bicycle and key remain scene props.",
+      "de": "Die burgunderrote Kapuze setzt unter der olivgrünen Jacke einen Akzent am Gesicht. Die Jeans wurde mit lockerer Passform rekonstruiert; Fahrrad und Schlüssel bleiben Szenenrequisiten."
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-street-20261026-04.01-outer",
+      "name": {
+        "ko": "올리브 필드 셸",
+        "en": "Olive field jacket",
+        "de": "Olivgrüne Fieldjacke"
+      },
+      "nameKo": "올리브 필드 셸",
+      "designDescriptionEn": "dark olive green waterproof field jacket, stand collar, black snap center storm placket, flap hip pockets and long sleeves, no separate hood visible",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "올리브 앞판·스냅·주머니 확인. 보이는 후드는 버건디 후디에 속함.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/04-01-outer.webp",
+      "sha256": "5a0734a1347d9ef78ed61b225f96925d33f7999c63fa1090dd4edc90955c92bf",
+      "bytes": 45164,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "올리브 필드 셸의 칼라를 버건디 후드 아래 정리하고 팔을 굽힐 때 당기지 않는지 확인하세요.",
+        "en": "Set the olive collar beneath the burgundy hood and check that the sleeves allow bent arms.",
+        "de": "Den olivgrünen Kragen unter der burgunderroten Kapuze richten und die Bewegungsfreiheit der Arme prüfen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "올리브 필드 셸 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-street-20261026-04.02-top",
+      "name": {
+        "ko": "버건디 후디",
+        "en": "Burgundy hoodie",
+        "de": "Burgunderroter Hoodie"
+      },
+      "nameKo": "버건디 후디",
+      "designDescriptionEn": "deep burgundy pullover hoodie, matching fabric hood, long sleeves, front kangaroo pocket and ribbed cuffs and hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "버건디 후드·몸판 확인, 소매와 주머니는 표준 형태로 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/04-02-top.webp",
+      "sha256": "5ca94da02880ca11649b00cfb5e673b8b2e860c1b51107f045b6311ea93c0f4f",
+      "bytes": 28080,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "버건디 후디는 아우터 밖으로 후드만 고르게 꺼내고 자전거를 타기 전 끈을 정리하세요.",
+        "en": "Arrange the burgundy hood outside the jacket and secure any loose cords before cycling.",
+        "de": "Die burgunderrote Kapuze über der Jacke ausrichten und lose Kordeln vor dem Radfahren sichern."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "버건디 후디 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-street-20261026-04.03-bottom",
+      "name": {
+        "ko": "블랙 릴랙스 진",
+        "en": "Black relaxed jeans",
+        "de": "Schwarze Jeans mit lockerer Passform"
+      },
+      "nameKo": "블랙 릴랙스 진",
+      "designDescriptionEn": "washed black relaxed straight-leg jeans with subtle faded seams, classic five pockets and full-length legs",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "검정 허벅지 부분 확인, 허리와 하단은 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/04-03-bottom.webp",
+      "sha256": "3241575c0b8c24c46ef434f5997ecd4b3cb771da8fb05cb4ffae5186023247b3",
+      "bytes": 23340,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "검정 진은 무릎이 편하게 굽혀지는 여유를 두고 자전거 체인에 밑단이 닿지 않게 정리하세요.",
+        "en": "Leave room to bend the knees in the black jeans and keep the hems clear of the bicycle chain.",
+        "de": "Bei der schwarzen Jeans auf Bewegungsfreiheit an den Knien achten und die Säume von der Fahrradkette fernhalten."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 릴랙스 진 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 3,
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appMapping": {
+    "bands": [
+      "chilly"
+    ],
+    "sky": "rain",
+    "rain": "normal",
+    "time": "evening",
+    "style": "street",
+    "gender": "m",
+    "age": "35",
+    "hero": "rn-chilly-m35-night-street-20261026-04.01-outer"
+  }
+}

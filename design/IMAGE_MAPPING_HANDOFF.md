@@ -359,3 +359,13 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 문구: 한국어 마스터 + 제작 측 en/de를 그대로(사용자 지시 "Preserve Korean verbatim", 상위 게이트가 `note.ko` = `howToWear.ko`를 확인). 독일어 2곳만 다듬음. 제품별 입는 법은 분류별 틀 문장(36개 중 9가지, 다섯 룩에 반복; 한 룩 안 중복은 없음) → **5-1장 기준 미달이지만 사용자 지시가 우선이라 그대로 두고 보고**. 앞으로 이 형식의 마스터가 오면 상위 작업(한국어 크리에이티브)이 룩별로 고친 마스터를 주는 것이 맞음(b164 방식).
 - 대표 컷: 제목 첫 색 단어 = 셸 색(01 CHARCOAL은 차콜 러닝화도 맞지만 규칙 3으로 셸), 컷 = 그 투명 WebP 자체.
 - [검증 기록](rain-normal-male-night-running-20261026-validation.md).
+
+## b171 · Rain / Normal / Chilly / Male / 35+ / Night / Street — 2026-10-26 set (5 looks · 21 products)
+
+- 원본: 로컬 outbox 배치(READY.json 110개 SHA-256·크기 일치, 목록 밖 파일 없음). 진입점은 `LOOKS_READY.json` → 룩별 `products-ready.json`, 문구는 `KOREAN_MASTER_FINAL.json`·`COPY_FINAL_v2.json`(세 파일 문구가 서로 같음 확인). 예전 `products.json`·`products-final.json`·`COPY_*`(초안 기록)은 쓰지 않음. 배포 파일은 `complete/NN/editorial.jpg`·`products/*.webp`만 바이트 그대로. PNG 마스터·QA 시트·프롬프트·생성 기록·스크립트·로컬 경로는 커밋하지 않음(products.json에서 `prompt`·`masterSource`·`generationSource` 뺌).
+- 제작 측 파일 이름에 룩 번호가 앞에 붙어 있어(`01-01-outer.webp`) 앱 파일은 `<제품 id>.webp`(`01-outer.webp`), 원래 이름은 `deliveredImage`. 아이템 `<룩 ID>.<제품 id>`(b170 형식).
+- 분류(새 코드 없음): 제작 측 `midlayer`(플리스·오버셔츠)는 `top` 그대로, 그 아래 스웨트셔츠·니트는 `under`(b164·b166 방식), `hat` → `headwear`.
+- **인트로 안 제작 메모**: 한국어 마스터 인트로 일부에 "우산은 장면 소품이며 제품 목록에 포함하지 않습니다", "검정 진은 … 복원했습니다" 같은 제작 메모 문장이 들어 있었음 → 지시("reconstruction notes separate from UI text")에 따라 그 문장만 화면 문구에서 빼고 나머지 마스터 문장은 바이트 그대로(원문 `copy.sourceIntro`). 앞으로 제작 측 인트로에 소품·복원 설명이 섞여 오면 같은 방식으로 빼고 보고.
+- 독일어 3곳만 다듬음(원문 보존). 제품별 입는 법 21개는 모두 다름(5-1장 통과).
+- 이 환경엔 node·jsc·JXA·Pillow 실행이 허용되지 않아 알파는 순수 파이썬 VP8L 디코더(ALPH 청크)로 확인 — 21장 모서리·테두리 0, 알파 범위·bounds가 FORMAT_REPORT와 정확히 같음. 옷 안쪽 알파는 253(약 99%)으로 제작 측 마스터 그대로. 선택 회귀는 룩 리터럴을 파이썬으로 읽어 `lookFits` 규칙으로 확인.
+- [검증 기록](rain-normal-male-night-street-20261026-validation.md).

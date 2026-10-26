@@ -1,0 +1,12 @@
+# Rain / Normal / Chilly / Male / 35+ / night / Street — 2026-10-26 set (01–05)
+
+- Looks: `rn-chilly-m35-night-street-20261026-01` … `-05`; 21 products (5/4/4/3/5).
+- App: `sky: rain`, `rain: normal` (WMO 63 · 66 · 81), `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, `time: evening` (night folder).
+- Audience 35+; model appearance 28–32 (`casting.modelAppearanceAgeRange`).
+- Creative Berlin rainy-evening setting. No numerical temperature was supplied (`temperatureC`/`feelsLikeC` null is intentional); nothing here is a live weather measurement.
+- Editorials (2:3 JPG: 01 900×1350, 02 960×1440, 03–05 1024×1536) and products (500×500 transparent WebP, ≤50,000 B) are copied byte for byte from the approved batch, renamed from `NN-<product id>.webp` to `<product id>.webp` (the delivered name stays in products.json `deliveredImage`). Editorials were approved by the user; products were made and reviewed by the producer (Codex) under the user's authorization, with no separate per-product user visual approval claimed.
+- Categories: outerwear → `outer`; fleece / overshirt midlayers → `top`; the sweatshirt or knit beneath a midlayer (01, 03, 05) → `under`; 02 turtleneck and 04 hoodie → `top`; trousers → `bottom`; 01 boots → `shoes` (a pair is one product); 02 crossbody → `bag`; 05 beanie → `headwear`.
+- Not products: 03 umbrella, 04 bicycle and key, 05 paper grocery bag and groceries (scene props). Only 01 shows footwear; shoes and socks outside the crops of 02–05 were not added. The hood in 04 belongs to the burgundy hoodie; the olive jacket has a stand collar and no hood.
+- These are AI editorial reconstructions, not verified commercial products. Hidden areas (garment backs, sleeves and full lengths, covered waistbands, hems) are conservative reconstructions (`reconstruction`, `reconstructionNote`). No brand, price, purchase link, fibre composition, waterproof rating or temperature claim.
+- Copy: Korean master (title, caption, intro, tip, product names, per-product how-to-wear) and reviewed en/de used as supplied, except: production/reconstruction notes removed from the 03–05 intros (the remaining sentences unchanged; original in `copy.sourceIntro`) and three German wording fixes (`copy.sourceIntro`, `sourceHowToWear`). English uppercase title and `pull` as supplied.
+- Mapping: `look/rain-normal-male-night-street-20261026.js` (b171). Home hero follows the b134 title-word rule (design/CUTOUTS.md): CHARCOAL, COBALT, RUST, OLIVE, NAVY → the outer in all five looks. Each cut is that product's own WebP (no new cutout).

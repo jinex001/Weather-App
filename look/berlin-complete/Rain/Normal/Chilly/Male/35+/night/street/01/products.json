@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-street-20261026-01",
+  "appOutfitId": "rn-chilly-m35-night-street-20261026-01",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "time": "evening",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved-under-user-workflow-authorization",
+    "products": "producer-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main and deployment on 2026-10-26. Products: Codex producer visual review (VISUAL_REVIEW.json passed) and a Claude visual read of every editorial and product; no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "hiddenItemPolicy": "No unseen footwear, socks or extra accessories fabricated. Only 01 footwear visible; other footwear outside crop. Hidden portions of visible garments reconstructed and explicitly labelled.",
+  "notProducts": [],
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0dbdd2fabe368daa3ad8b91ab2eac275eada6b14115016704173fa5ebf7d916a",
+  "editorialBytes": 279820,
+  "editorialDimensions": [
+    900,
+    1350
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "title": {
+      "ko": "차콜 파카로 피하는 물웅덩이",
+      "en": "CHARCOAL, ONE STEP AROUND",
+      "de": "Mit Anthrazit um die Pfütze"
+    },
+    "deck": {
+      "ko": "물웅덩이를 돌아서는 큰 보폭에 밝은 플리스가 어두운 밤 착장을 밝혀줍니다.",
+      "en": "A pale fleece breaks up the dark layers as he takes a careful step around a puddle.",
+      "de": "Ein heller Fleece lockert die dunklen Schichten auf, während er vorsichtig um eine Pfütze tritt."
+    },
+    "intro": {
+      "ko": "매트한 차콜 아우터에 밝은 플리스가 얼굴 주변을 부드럽게 밝혀줍니다. 카고 팬츠의 여유로운 실루엣과 검정 레이스업 부츠로 일상적인 스트리트 무드를 맞췄습니다.",
+      "en": "A pale fleece softens the dark parka, while relaxed cargo trousers and black lace-up boots keep the outfit grounded.",
+      "de": "Der helle Fleece setzt einen weichen Kontrast zum dunklen Parka. Eine lockere Cargohose und schwarze Schnürboots runden den Alltagslook ab."
+    },
+    "tip": {
+      "ko": "비가 이어지면 파카 앞여밈을 닫고 후드를 조절하세요. 젖은 돌길에서는 보폭을 줄이고 실제 신발의 접지 상태를 확인하세요.",
+      "en": "Close the parka and adjust the hood when the rain persists. Take shorter steps on wet paving and check the grip of your own footwear.",
+      "de": "Bei anhaltendem Regen den Parka schließen und die Kapuze anpassen. Auf nassem Pflaster kleinere Schritte machen und die Haftung der eigenen Schuhe prüfen."
+    },
+    "pull": "A SMALL DETOUR THROUGH THE RAIN",
+    "koreanMaster": {
+      "look": 1,
+      "titleKo": "차콜 파카로 피하는 물웅덩이",
+      "captionKo": "물웅덩이를 돌아서는 큰 보폭에 밝은 플리스가 어두운 밤 착장을 밝혀줍니다.",
+      "introKo": "매트한 차콜 아우터에 밝은 플리스가 얼굴 주변을 부드럽게 밝혀줍니다. 카고 팬츠의 여유로운 실루엣과 검정 레이스업 부츠로 일상적인 스트리트 무드를 맞췄습니다.",
+      "tipKo": "비가 이어지면 파카 앞여밈을 닫고 후드를 조절하세요. 젖은 돌길에서는 보폭을 줄이고 실제 신발의 접지 상태를 확인하세요."
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-street-20261026-01.01-outer",
+      "name": {
+        "ko": "차콜 후드 파카",
+        "en": "Charcoal hooded parka",
+        "de": "Anthrazitfarbener Kapuzenparka"
+      },
+      "nameKo": "차콜 후드 파카",
+      "designDescriptionEn": "charcoal black thigh-length matte waterproof hooded parka, black center zip and snap storm placket, simple slanted pockets, long sleeves",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": {
+        "ko": "후드·소매·앞여밈·밑단 확인. 방수는 스타일링 용도이며 성능 시험 결과가 아님.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/01-01-outer.webp",
+      "sha256": "c5c13ee6e70c9a7b27d2e4c9203677e5551ceb738ea010596d9a94a8f672f852",
+      "bytes": 21574,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "차콜 파카 앞여밈을 닫고 후드를 조절해 빗방울이 목으로 들어오는 틈을 줄이세요.",
+        "en": "Close the charcoal parka and adjust its hood to reduce gaps around the neck.",
+        "de": "Den anthrazitfarbenen Parka schließen und die Kapuze am Hals passend einstellen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 후드 파카 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-midlayer",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-street-20261026-01.02-midlayer",
+      "name": {
+        "ko": "오트밀 플리스 집업",
+        "en": "Oatmeal fleece jacket",
+        "de": "Fleecejacke in Haferbeige"
+      },
+      "nameKo": "오트밀 플리스 집업",
+      "designDescriptionEn": "oatmeal beige textured fleece zip-front jacket with stand collar, long sleeves, no hood",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "앞면·플리스 결·칼라 확인, 소매와 뒷면 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/02-midlayer.webp",
+      "deliveredImage": "products/01-02-midlayer.webp",
+      "sha256": "c7b66be54aaef2fd3f1e4fc4ceec0cc18d7a51e24c000375bacd792e19890b3e",
+      "bytes": 48696,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "오트밀 플리스는 네이비 크루넥 위에 겹쳐 밝은 칼라가 보이도록 정리하세요.",
+        "en": "Layer the oatmeal fleece over the navy crewneck, leaving its pale collar visible.",
+        "de": "Den haferbeigen Fleece über dem marineblauen Sweatshirt tragen und den hellen Kragen sichtbar lassen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "오트밀 플리스 집업 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-m35-night-street-20261026-01.03-top",
+      "name": {
+        "ko": "네이비 크루넥",
+        "en": "Navy crewneck sweatshirt",
+        "de": "Marineblaues Rundhals-Sweatshirt"
+      },
+      "nameKo": "네이비 크루넥",
+      "designDescriptionEn": "dark navy cotton-look long-sleeve crewneck sweatshirt, ribbed neck cuffs and hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "앞몸판과 크루넥 확인, 소매와 등판 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/03-top.webp",
+      "deliveredImage": "products/01-03-top.webp",
+      "sha256": "add6d613c9527b597d6c691d607691fe9a67533469dcf538c89ff6c0b2ed9e13",
+      "bytes": 23440,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "네이비 크루넥 밑단을 펴서 플리스 안에서 뭉치지 않게 입으세요.",
+        "en": "Smooth the navy crewneck hem so it sits comfortably beneath the fleece.",
+        "de": "Den Saum des marineblauen Sweatshirts unter dem Fleece glatt richten."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 크루넥 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-street-20261026-01.04-bottom",
+      "name": {
+        "ko": "차콜 카고 팬츠",
+        "en": "Charcoal cargo trousers",
+        "de": "Anthrazitfarbene Cargohose"
+      },
+      "nameKo": "차콜 카고 팬츠",
+      "designDescriptionEn": "relaxed charcoal grey cargo trousers with side thigh flap pockets, straight full-length legs",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": {
+        "ko": "양쪽 다리·허벅지 포켓 확인, 허리선은 가려짐.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/01-04-bottom.webp",
+      "sha256": "f3606b96d38415d0e9ceca3ad2a09d359b0b235938f42e629ea23a7a2092938d",
+      "bytes": 22412,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "카고 포켓에 무거운 물건을 몰아 넣지 말고 밑단이 젖은 바닥에 끌리지 않게 맞추세요.",
+        "en": "Avoid overloading the cargo pockets and keep the hems clear of wet paving.",
+        "de": "Die Cargotaschen nicht überladen und die Säume vom nassen Pflaster fernhalten."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "차콜 카고 팬츠 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-shoes",
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "rn-chilly-m35-night-street-20261026-01.05-shoes",
+      "name": {
+        "ko": "블랙 레이스업 부츠",
+        "en": "Black lace-up boots",
+        "de": "Schwarze Schnürboots"
+      },
+      "nameKo": "블랙 레이스업 부츠",
+      "designDescriptionEn": "a matching pair of black leather-look ankle-high lace-up boots, rounded toe, thick black lug soles, subtle metal eyelets",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": {
+        "ko": "검정 갑피·끈·두꺼운 밑창과 양쪽 신발 확인.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/05-shoes.webp",
+      "deliveredImage": "products/01-05-shoes.webp",
+      "sha256": "507161794aa6cb243814637b57c78527ce6b39071eb391a29ecaf7f5eee8e789",
+      "bytes": 27864,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "검정 부츠는 발등에 맞춰 끈을 조이고 젖은 돌길에서는 실제 밑창의 접지 상태를 확인하세요.",
+        "en": "Lace the black boots to fit the instep and check their actual grip on wet stone.",
+        "de": "Die schwarzen Boots am Spann passend schnüren und ihre Haftung auf nassem Stein prüfen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 레이스업 부츠 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appMapping": {
+    "bands": [
+      "chilly"
+    ],
+    "sky": "rain",
+    "rain": "normal",
+    "time": "evening",
+    "style": "street",
+    "gender": "m",
+    "age": "35",
+    "hero": "rn-chilly-m35-night-street-20261026-01.01-outer"
+  }
+}

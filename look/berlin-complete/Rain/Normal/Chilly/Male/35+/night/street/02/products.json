@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-street-20261026-02",
+  "appOutfitId": "rn-chilly-m35-night-street-20261026-02",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "time": "evening",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved-under-user-workflow-authorization",
+    "products": "producer-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main and deployment on 2026-10-26. Products: Codex producer visual review (VISUAL_REVIEW.json passed) and a Claude visual read of every editorial and product; no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "hiddenItemPolicy": "No unseen footwear, socks or extra accessories fabricated. Only 01 footwear visible; other footwear outside crop. Hidden portions of visible garments reconstructed and explicitly labelled.",
+  "notProducts": [],
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e2e8633ca97729643aea02586330629c17830be7949433412c5296ec80b2cafc",
+  "editorialBytes": 280841,
+  "editorialDimensions": [
+    960,
+    1440
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "title": {
+      "ko": "코발트 후드 아래 열쇠 찾기",
+      "en": "COBALT, KEYS SOMEWHERE",
+      "de": "Kobaltblau auf Schlüsselsuche"
+    },
+    "deck": {
+      "ko": "비를 피해 출입구에서 열쇠를 찾는 순간, 선명한 파란 후드가 얼굴을 감쌉니다.",
+      "en": "A vivid blue hood frames the search for keys at a rain-soaked doorway.",
+      "de": "Eine leuchtend blaue Kapuze rahmt die Schlüsselsuche am regennassen Hauseingang."
+    },
+    "intro": {
+      "ko": "하이넥 니트 위에 코발트 후드를 올리고 가방은 몸 앞에 가깝게 둡니다. 블랙 팬츠로 아래쪽 색을 정리해 아우터가 중심이 되게 했습니다.",
+      "en": "The high neck adds a warm-looking layer beneath the cobalt hood. Black trousers and a bag worn close to the body keep the focus on the anorak.",
+      "de": "Der hohe Kragen ergänzt die kobaltblaue Kapuze. Schwarze Hose und körpernah getragene Tasche lassen den Anorak im Mittelpunkt stehen."
+    },
+    "tip": {
+      "ko": "출입구에서 필요한 물건은 가방의 정해진 칸에 두세요. 비를 피할 곳에 들어간 뒤 지퍼를 열면 소지품이 젖는 일을 줄일 수 있습니다.",
+      "en": "Keep keys in a dedicated compartment. Step into shelter before opening the bag to help keep its contents dry.",
+      "de": "Schlüssel in einem festen Fach aufbewahren. Die Tasche möglichst erst im Trockenen öffnen, damit der Inhalt weniger Regen abbekommt."
+    },
+    "pull": "THE KEYS ARE IN HERE SOMEWHERE",
+    "koreanMaster": {
+      "look": 2,
+      "titleKo": "코발트 후드 아래 열쇠 찾기",
+      "captionKo": "비를 피해 출입구에서 열쇠를 찾는 순간, 선명한 파란 후드가 얼굴을 감쌉니다.",
+      "introKo": "하이넥 니트 위에 코발트 후드를 올리고 가방은 몸 앞에 가깝게 둡니다. 블랙 팬츠로 아래쪽 색을 정리해 아우터가 중심이 되게 했습니다.",
+      "tipKo": "출입구에서 필요한 물건은 가방의 정해진 칸에 두세요. 비를 피할 곳에 들어간 뒤 지퍼를 열면 소지품이 젖는 일을 줄일 수 있습니다."
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-street-20261026-02.01-outer",
+      "name": {
+        "ko": "코발트 후드 아노락",
+        "en": "Cobalt hooded anorak",
+        "de": "Kobaltblauer Kapuzenanorak"
+      },
+      "nameKo": "코발트 후드 아노락",
+      "designDescriptionEn": "cobalt blue waterproof hooded pullover anorak, black half-zip neckline, snap front storm placket, long sleeves, subtle drawcord hood",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "코발트 후드·하프 지퍼·스냅·소매 확인, 아래 앞면은 가방에 가림.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/02-01-outer.webp",
+      "sha256": "31c747da55d804729096bb9e74b31f7e4c5be24521bee9dd6860de94491600eb",
+      "bytes": 44364,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "코발트 아노락의 넥 지퍼를 터틀넥 위로 편안하게 닫고 후드가 시야를 가리지 않게 조절하세요.",
+        "en": "Close the cobalt anorak comfortably over the turtleneck and keep the hood clear of your view.",
+        "de": "Den kobaltblauen Anorak bequem über dem Rollkragen schließen und die Kapuze außerhalb des Sichtfelds einstellen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "코발트 후드 아노락 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-top",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-street-20261026-02.02-top",
+      "name": {
+        "ko": "그레이 터틀넥 니트",
+        "en": "Grey turtleneck sweater",
+        "de": "Grauer Rollkragenpullover"
+      },
+      "nameKo": "그레이 터틀넥 니트",
+      "designDescriptionEn": "medium grey ribbed wool-look turtleneck sweater with turned high neck and long sleeves",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "최종 사진에 높은 골지 목과 하단 니트가 보임. 원본 프롬프트보다 사진 우선.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/02-top.webp",
+      "deliveredImage": "products/02-02-top.webp",
+      "sha256": "2ed36376ae0b1de67167e2de1fc5ca3544424d07a3d36165ec43ec6bc457706c",
+      "bytes": 46640,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "그레이 터틀넥 목단을 고르게 접어 아노락 안에서 목을 누르지 않도록 입으세요.",
+        "en": "Fold the grey turtleneck evenly so it does not bunch beneath the anorak.",
+        "de": "Den grauen Rollkragen gleichmäßig umschlagen, damit er unter dem Anorak nicht aufträgt."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 터틀넥 니트 — 독립 투명 배경 제품 컷",
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "그레이 터틀넥 목단을 고르게 접어 아노락 안에서 목을 누르지 않도록 입으세요.",
+        "en": "Fold the grey turtleneck evenly so it does not bunch beneath the anorak.",
+        "de": "Den grauen Rollkragen gleichmäßig umschlagen, damit er unter dem Anorak nicht staut."
+      }
+    },
+    {
+      "id": "03-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-street-20261026-02.03-bottom",
+      "name": {
+        "ko": "블랙 와이드 팬츠",
+        "en": "Black wide-leg trousers",
+        "de": "Schwarze Hose mit weitem Bein"
+      },
+      "nameKo": "블랙 와이드 팬츠",
+      "designDescriptionEn": "black relaxed wide-leg technical trousers with clean unbranded front, full-length straight legs",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "허벅지 윗부분만 보임, 다리와 밑단 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/03-bottom.webp",
+      "deliveredImage": "products/02-03-bottom.webp",
+      "sha256": "8230f7e9e1d53825999fed980d5e3a326d0d0335e6578bad1095c4a2d8aa980e",
+      "bytes": 18248,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "블랙 와이드 팬츠는 통을 살리고 밑단이 빗물에 닿지 않는 길이로 정리하세요.",
+        "en": "Keep the black trousers wide through the leg, with hems above the wet ground.",
+        "de": "Die schwarze Hose locker fallen lassen und die Säume oberhalb des nassen Bodens halten."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 와이드 팬츠 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bag",
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "rn-chilly-m35-night-street-20261026-02.04-bag",
+      "name": {
+        "ko": "블랙 크로스보디 백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스보디 백",
+      "designDescriptionEn": "black rectangular nylon crossbody shoulder bag, rounded corners, wide black adjustable webbing strap with plastic slider, top zipper and horizontal front zipper compartment",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": {
+        "ko": "검정 지퍼 가방과 조절 스트랩 확인. 열린 부분은 제품형태로 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/04-bag.webp",
+      "deliveredImage": "products/02-04-bag.webp",
+      "sha256": "6ab7bb175a1fc349b71cd72abc90d232b61295377b28fda6d1e09d6f955b2edb",
+      "bytes": 30222,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "크로스보디 백은 몸 앞에 가깝게 조절하고 비를 피한 뒤 지퍼를 열어 열쇠를 꺼내세요.",
+        "en": "Wear the crossbody bag close to the front and retrieve keys under shelter.",
+        "de": "Die Umhängetasche vorn körpernah tragen und Schlüssel möglichst im Trockenen herausnehmen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "블랙 크로스보디 백 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 4,
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appMapping": {
+    "bands": [
+      "chilly"
+    ],
+    "sky": "rain",
+    "rain": "normal",
+    "time": "evening",
+    "style": "street",
+    "gender": "m",
+    "age": "35",
+    "hero": "rn-chilly-m35-night-street-20261026-02.01-outer"
+  }
+}

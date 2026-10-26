@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "1.0",
+  "id": "rn-chilly-m35-night-street-20261026-05",
+  "appOutfitId": "rn-chilly-m35-night-street-20261026-05",
+  "category": {
+    "weather": "Rain",
+    "rainIntensity": "Normal",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "gender": "men",
+  "ageGroup": "35+",
+  "style": "street",
+  "time": "evening",
+  "weather": {
+    "city": "Berlin",
+    "condition": "rain",
+    "rainIntensity": "normal",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "casting": {
+    "audienceAgeGroup": "35+",
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ]
+  },
+  "approval": {
+    "editorial": "approved-under-user-workflow-authorization",
+    "products": "producer-reviewed-under-user-workflow-authorization",
+    "evidence": "READY.json approved/products_complete; user authorized this single batch through publication to main and deployment on 2026-10-26. Products: Codex producer visual review (VISUAL_REVIEW.json passed) and a Claude visual read of every editorial and product; no per-product user visual approval asserted.",
+    "perProductUserVisualApproval": false
+  },
+  "hiddenItemPolicy": "No unseen footwear, socks or extra accessories fabricated. Only 01 footwear visible; other footwear outside crop. Hidden portions of visible garments reconstructed and explicitly labelled.",
+  "notProducts": [
+    "paper grocery bag",
+    "groceries"
+  ],
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "260b45d1ecc152d4725585fe027a5bc208107017fcf8f85d423d6b8736a5834b",
+  "editorialBytes": 275113,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "title": {
+      "ko": "네이비 셸과 머스터드 장보기",
+      "en": "NAVY, MUSTARD, HOMEWARD",
+      "de": "Marineblau und Senfgelb auf dem Heimweg"
+    },
+    "deck": {
+      "ko": "장보기를 마치고 후드를 올리는 순간, 노란 플리스가 어두운 밤에 온기를 더합니다.",
+      "en": "A flash of yellow fleece warms the dark outfit as he pulls up his hood for the walk home.",
+      "de": "Ein Streifen gelber Fleece bringt Wärme in den dunklen Look, als er für den Heimweg die Kapuze aufsetzt."
+    },
+    "intro": {
+      "ko": "짙은 네이비와 머스터드의 대비를 슬레이트 이너와 그레이 팬츠로 정돈했습니다. 비니는 후드 아래에 가볍게 겹칩니다.",
+      "en": "Slate and grey layers balance the contrast between navy and mustard. A beanie sits beneath the hood.",
+      "de": "Schiefergrau und Grau gleichen den Kontrast zwischen Marineblau und Senfgelb aus. Die Beanie sitzt unter der Kapuze."
+    },
+    "tip": {
+      "ko": "후드와 비니를 겹칠 때는 목과 귀 주변이 답답하지 않게 조절하세요. 젖기 쉬운 종이봉투는 비에 오래 노출하지 마세요.",
+      "en": "Adjust the hood and beanie so they sit comfortably around the ears and neck. Keep paper shopping bags out of prolonged rain.",
+      "de": "Kapuze und Beanie an Ohren und Hals bequem einstellen. Papiertüten möglichst nicht längerem Regen aussetzen."
+    },
+    "pull": "GROCERIES IN, HOOD UP",
+    "koreanMaster": {
+      "look": 5,
+      "titleKo": "네이비 셸과 머스터드 장보기",
+      "captionKo": "장보기를 마치고 후드를 올리는 순간, 노란 플리스가 어두운 밤에 온기를 더합니다.",
+      "introKo": "짙은 네이비와 머스터드의 대비를 슬레이트 이너와 그레이 팬츠로 정돈했습니다. 비니는 후드 아래에 가볍게 겹칩니다. 종이봉투와 식료품은 장면 소품으로만 남깁니다.",
+      "tipKo": "후드와 비니를 겹칠 때는 목과 귀 주변이 답답하지 않게 조절하세요. 젖기 쉬운 종이봉투는 비에 오래 노출하지 마세요."
+    },
+    "sourceIntro": {
+      "ko": "짙은 네이비와 머스터드의 대비를 슬레이트 이너와 그레이 팬츠로 정돈했습니다. 비니는 후드 아래에 가볍게 겹칩니다. 종이봉투와 식료품은 장면 소품으로만 남깁니다.",
+      "en": "Slate and grey layers balance the contrast between navy and mustard. A beanie sits beneath the hood; the grocery bag and its contents are scene props.",
+      "de": "Schiefergrau und Grau gleichen den Kontrast zwischen Marineblau und Senfgelb aus. Die Beanie sitzt unter der Kapuze; Einkaufstüte und Inhalt sind Szenenrequisiten."
+    }
+  },
+  "products": [
+    {
+      "id": "01-outer",
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "rn-chilly-m35-night-street-20261026-05.01-outer",
+      "name": {
+        "ko": "네이비 레인 셸",
+        "en": "Navy hooded shell",
+        "de": "Marineblaue Kapuzenjacke"
+      },
+      "nameKo": "네이비 레인 셸",
+      "designDescriptionEn": "deep navy matte waterproof hooded shell jacket, center zipper with snap storm placket, long sleeves, hip-length body",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "후드·소매·측면·하단 확인, 정면 일부 가려져 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/01-outer.webp",
+      "deliveredImage": "products/05-01-outer.webp",
+      "sha256": "b8cf3fc0889da4a3b682222b70d314fad54380a8463fee559863cc9609954eee",
+      "bytes": 41380,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "네이비 셸은 머스터드 플리스 위로 걸치고 비니를 쓴 상태에서 후드 크기를 맞추세요.",
+        "en": "Layer the navy shell over the mustard fleece and adjust the hood with the beanie on.",
+        "de": "Die marineblaue Jacke über dem senfgelben Fleece tragen und die Kapuze mit aufgesetzter Beanie anpassen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 레인 셸 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "02-midlayer",
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "rn-chilly-m35-night-street-20261026-05.02-midlayer",
+      "name": {
+        "ko": "머스터드 플리스",
+        "en": "Mustard fleece jacket",
+        "de": "Senfgelbe Fleecejacke"
+      },
+      "nameKo": "머스터드 플리스",
+      "designDescriptionEn": "mustard yellow textured fleece zip-front jacket, stand collar, long sleeves, straight hip hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "노란 플리스 결·지퍼·밑단 확인, 팔과 뒷면 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/02-midlayer.webp",
+      "deliveredImage": "products/05-02-midlayer.webp",
+      "sha256": "8783bad139d49c79aac6e3aea22d5161a1382377938aed08aaaf67d98997e94a",
+      "bytes": 47954,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "머스터드 플리스는 앞부분이 조금 보이게 겹치고 실내에서는 지퍼를 열어 답답함을 조절하세요.",
+        "en": "Let a little mustard fleece show at the front and adjust its zip indoors.",
+        "de": "Vorn etwas senfgelben Fleece sichtbar lassen und den Reißverschluss drinnen nach Bedarf öffnen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "머스터드 플리스 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "03-top",
+      "category": "top",
+      "appCategory": "under",
+      "appItemId": "rn-chilly-m35-night-street-20261026-05.03-top",
+      "name": {
+        "ko": "슬레이트 크루넥",
+        "en": "Slate crewneck sweatshirt",
+        "de": "Schiefergraues Rundhals-Sweatshirt"
+      },
+      "nameKo": "슬레이트 크루넥",
+      "designDescriptionEn": "slate grey long-sleeve crewneck sweatshirt, plain matte cotton-look surface, ribbed cuffs and hem",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "플리스 아래 회색 밑단만 보임, 목선과 소매는 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/03-top.webp",
+      "deliveredImage": "products/05-03-top.webp",
+      "sha256": "b963f4a8a78f00c80a6beb34490e9a1c6c779946ea37731a96c51e1fcff98372",
+      "bytes": 29486,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "슬레이트 이너는 플리스 아래에서 밑단이 접히지 않도록 펴고 회색 레이어를 얇게 드러내세요.",
+        "en": "Smooth the slate layer beneath the fleece, allowing a narrow band of grey at the hem.",
+        "de": "Die schiefergraue Schicht unter dem Fleece glatt richten und am Saum einen schmalen grauen Streifen zeigen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "슬레이트 크루넥 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "04-bottom",
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "rn-chilly-m35-night-street-20261026-05.04-bottom",
+      "name": {
+        "ko": "그레이 팬츠",
+        "en": "Grey relaxed trousers",
+        "de": "Graue Hose mit lockerer Passform"
+      },
+      "nameKo": "그레이 팬츠",
+      "designDescriptionEn": "medium charcoal grey relaxed straight-leg trousers, fine wool-look texture, full-length legs",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "허리와 허벅지 부분 확인, 아래 다리 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/04-bottom.webp",
+      "deliveredImage": "products/05-04-bottom.webp",
+      "sha256": "8467d44bd309e8ddeb921b1bf72d0e289136de6f9370b71114f5f1ea5468df6f",
+      "bytes": 26242,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "그레이 팬츠는 네이비와 머스터드를 차분하게 연결하고 젖은 길에서 밑단을 끌지 않게 입으세요.",
+        "en": "Use the grey trousers to balance navy and mustard, keeping the hems clear of wet paving.",
+        "de": "Die graue Hose verbindet Marineblau und Senfgelb ruhig; die Säume vom nassen Pflaster fernhalten."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "그레이 팬츠 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    },
+    {
+      "id": "05-hat",
+      "category": "headwear",
+      "appCategory": "headwear",
+      "appItemId": "rn-chilly-m35-night-street-20261026-05.05-hat",
+      "name": {
+        "ko": "네이비 비니",
+        "en": "Navy beanie",
+        "de": "Marineblaue Beanie"
+      },
+      "nameKo": "네이비 비니",
+      "designDescriptionEn": "dark navy ribbed knit beanie, plain folded cuff, close rounded crown",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": {
+        "ko": "이마와 옆면 비니 확인, 후드로 가려진 정수리 복원.",
+        "en": "Reconstructed from the visible colour, texture and shape; covered areas are inferred.",
+        "de": "Nach sichtbarer Farbe, Struktur und Form rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "image": "products/05-hat.webp",
+      "deliveredImage": "products/05-05-hat.webp",
+      "sha256": "e6ab962f949b8fc9682ff1729e2e8a22c05393da9a50bb123e16a7014058e567",
+      "bytes": 34020,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "네이비 비니의 접힌 단을 귀 주변에 편안하게 맞추고 후드 안에서 과하게 눌리지 않게 하세요.",
+        "en": "Set the navy beanie cuff comfortably around the ears without squeezing it under the hood.",
+        "de": "Den Umschlag der marineblauen Beanie an den Ohren bequem einstellen, ohne sie unter der Kapuze einzuengen."
+      },
+      "retailProduct": false,
+      "brand": null,
+      "materialComposition": null,
+      "performanceCertification": null,
+      "price": null,
+      "purchaseUrl": null,
+      "altKo": "네이비 비니 — 독립 투명 배경 제품 컷",
+      "status": "ready"
+    }
+  ],
+  "productCount": 5,
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appMapping": {
+    "bands": [
+      "chilly"
+    ],
+    "sky": "rain",
+    "rain": "normal",
+    "time": "evening",
+    "style": "street",
+    "gender": "m",
+    "age": "35",
+    "hero": "rn-chilly-m35-night-street-20261026-05.01-outer"
+  }
+}
