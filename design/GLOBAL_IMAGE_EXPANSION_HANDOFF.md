@@ -11,7 +11,7 @@
 | 선택적 룩 메타데이터 `visualRegion` · `climateContext.humidityContext` · `contextReview.status` | 구현됨(`look/global-coastal-20261027.js`) |
 | 어댑터 `look/global-context.js`(모든 룩 모듈 뒤 로드, 실패 시 b172 선택) | 구현됨 |
 | 기존 룩 sidecar(`SIDECAR`, 룩 ID → 검토된 값) | 형식만 구현, **비어 있음**(베를린 룩 검토 전) |
-| 장소 → 시각 지역: `?region=` 명시값, geocoder `country_code`(장소 `cc`로 저장), 카나리아 제도 좌표 프로필 | 구현됨. GPS·예전 저장 장소·목록 밖 나라 = unknown |
+| 장소 → 시각 지역: `?region=` 명시값, geocoder `country_code`(장소 `cc`로 저장), 카나리아 제도 좌표 프로필, 해안 칸(b175 `look/coast-grid.js`, GPS 포함) | 구현됨. 그 밖의 GPS·예전 저장 장소·목록 밖 나라 = unknown |
 | 습도 맥락 순위 | 명시값(`?humidity=`)만. **API 습도 요청·분류·임계값은 보류** |
 | 같은 적합도 안에서 기후 → 지역 순위, 씨앗에 장소·맥락 포함, `lastView`·`dayView`·`dayPick`·`lookPool` 공유, `v.pick` 재검증 | 구현됨 |
 | 베를린 사진 검토 후 지역 태깅, 도시 인식 가능 자산 예외 목록 | 보류 |
@@ -42,7 +42,7 @@
 3. 체감 단계 거리 ≤ 1. 습도로 체감온도를 다시 가감하지 않음.
 4. 하늘·비 강도 순위 0만 사진으로 보여 주고, 없으면 COMING SOON(b114). 마른 날 비 룩 금지, `rainLevel` WMO 매핑 유지.
 5. 같은 적합도 안에서 기후: 같은 humidityContext → unknown → 다른 값. 질의가 unknown이면 적용 안 함.
-6. 그다음 지역: 같은 visualRegion → 검토된 neutral-urban → 다른 지역·미검토. 지역은 제외 조건이 아님.
+6. 그다음 지역: 같은 visualRegion → 검토된 neutral-urban → 다른 지역·미검토. b175부터: 검토된 지역 룩(neutral-urban 제외)은 같은 지역에서만, 다르거나 unknown이면 제외 → 남는 룩이 없으면 COMING SOON.
 7. 같은 순위 안에서 seeded random 3개. 씨앗에 장소 좌표·지역·습도 키를 넣음. 도시명은 자산 매칭 키가 아님.
 8. 홈·상세·캘린더가 같은 맥락을 씀. 미래 날짜 습도는 unknown. `v.pick`은 현재 후보일 때만 맨 앞.
 9. 어댑터·메타데이터 없음 → b172 선택과 같음.

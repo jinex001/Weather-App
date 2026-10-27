@@ -587,7 +587,8 @@
 <script src="look/rain-normal-male-night-street-20261026.js?v=b172"></script>
 <script src="look/global-coastal-20261027.js?v=b173"></script>
 <script src="look/cutouts.js?v=b173"></script>
-<script src="look/global-context.js?v=b173"></script>
+<script src="look/coast-grid.js?v=b175"></script>
+<script src="look/global-context.js?v=b175"></script>
 <script>
 (function () {
   "use strict";
@@ -1001,7 +1002,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b174";
+  var BUILD = "b175";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1167,6 +1168,11 @@
     var G = window.WX_GLOBAL;
     try { return G ? G.ranks(o, v) : [0, 0]; } catch (e) { return [0, 0]; }
   }
+  // b175: a look made for another visual region (or for one while the place's region is unknown) is out
+  function regionOk(o, v) {
+    var G = window.WX_GLOBAL;
+    try { return !G || !G.allowed || G.allowed(o, v); } catch (e) { return true; }
+  }
   // Looks of one style and gender that fit the view, each with its sky rank (sr) and fit (lower is better)
   function lookFits(v, style, g) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
@@ -1184,7 +1190,7 @@
       // b174: a neighbour look made only for the warmer band (lighter clothes) ranks after colder-band neighbours (wn),
       // so a 20° short-sleeve look doesn't come up on an 11° day while warmer-dressed looks are there
       var wn = near === 1 && !o.bands.some(function (b) { return BAND_KEYS.indexOf(b) <= bi; }) ? 1 : 0;
-      if (near <= 1 && sr >= 0) { var sk = softRanks(o, v); list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0), wn: wn, cr: sk[0], rr: sk[1] }); }
+      if (near <= 1 && sr >= 0 && regionOk(o, v)) { var sk = softRanks(o, v); list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0), wn: wn, cr: sk[0], rr: sk[1] }); }
     });
     return list;
   }
