@@ -3,8 +3,8 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-27 (앱 빌드 b176) · 246룩 · 1514아이템 · 기사 룩 246 (b173 수치 241 · 1480 + b176 해안 세트 5룩 · 34아이템, ID 충돌 없음 확인; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
-모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
+마지막 정리: 2026-10-27 (앱 빌드 b177) · 251룩 · 1536아이템 · 기사 룩 251 (b176 수치 246 · 1514 + b177 해안 남성 세트 5룩 · 22아이템, ID 충돌 없음 확인; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `coastal-warm-male-day-street-20261027.js`(b177) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
 
 ## Outfit
 
@@ -291,3 +291,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 룩 `coastal-pleasant-f35-day-street-20261027-01`–`05`(clear · pleasant · f · 35 · street, 낮 = `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 에크루 오버셔츠 + 블랙 탱크 + 차콜 카고(계단에서 신발 끈) · 02 코발트 셔츠 + 화이트 탱크 + 샌드 버뮤다(종이봉투 받쳐 들기) · 03 블랙 봄버 + 아이보리 티 + 인디고 와이드 진 + 벨트(가방 고리에 걸린 티셔츠) · 04 레드 티 + 네이비 와이드 팬츠(벤치에서 토트 끈) · 05 세이지 반소매 셔츠 + 크림 팬츠(문 지나며 돌아봄). 선글라스 01·03 착용, 02·04 머리 위, 05 손.
 - 아이템 ID = 제작 측 `appItemId` `<룩 ID>.<제품 id>`. 분류: 선글라스 `eyewear`, 귀걸이·목걸이 `jewelry`, 양말 `socks`, 버뮤다 `shorts`, 벨트 `accessory`. 대표 컷 = 제목 첫 색의 옷 WebP 자체.
 - 도시·숫자 기온·습도%·바람 null. 습도 unknown이라 `?humidity=` 명시값이 있으면 같은 칸의 b173 dry 룩과 순위만 달라짐. [검증](coastal-sunny-pleasant-female-day-street-20261027-validation.md).
+
+## b177 · 해안 · Clear / Pleasant / Male / 35+ / Day / Street — 2026-10-27 세트 (5 looks)
+
+- 배치 `coastal-warm-male-day-street-20261027`(READY.json 78개 SHA-256 일치, 사용자가 에디토리얼 5장 승인). 에디토리얼 5장(1024×1536 JPG ≤294,452 B) + 독립 투명 WebP 제품 22개(4/5/5/5/3, 500×500, ≤49,074 B) 바이트 그대로 → `look/global/coastal-warm-male-day-street-20261027/<룩 ID>/editorial.jpg`·`products/<제품 id>.webp`, 보충 파일 `look/coastal-warm-male-day-street-20261027.js`.
+- 룩 `coastal-pleasant-m35-day-street-20261027-01`–`05`(clear · pleasant · m · 35 · street, 낮 = `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 에크루 텍스처 셔츠 + 차콜 쇼츠 + 피셔맨 샌들(카페에서 샴페인) · 02 코발트 티 + 스톤 쇼츠 + 블루 캡(항구 계단에서 맥주) · 03 테라코타 셔츠(앞 열고) + 화이트 탱크 + 네이비 팬츠 + 밀짚 버킷햇(라임 칵테일 젓기) · 04 번트 오렌지 메쉬 폴로 + 크림 와이드 팬츠 + 올리브 캡(캡 챙 잡고 걷기) · 05 세이지 셔츠 + 워시드 블랙 쇼츠(벤치에서 스프리츠). 선글라스 01–04 착용, 05 머리 위. 음료·잔은 소품.
+- 아이템 ID `<룩 ID>.<제품 id>`(22개 모두 새 ID). 분류: 셔츠·티·폴로 `top`(03 셔츠는 탱크 위에 열어 입어 `outer`, 탱크 `top` — b176 02와 같은 방식), 쇼츠 `shorts`, 팬츠 `bottom`, 샌들·플립플롭 `shoes`, 캡·햇 `headwear`, 선글라스 `eyewear`. 대표 컷: 제목에 색 단어가 없어 아우터(03 셔츠) 또는 주 상의(01 셔츠 · 02 티 · 04 폴로 · 05 셔츠) WebP 자체.
+- 도시·습도%·바람 null, 24–25°C / 체감 23°C는 사용자가 준 장면 가정(측정·실시간 아님, products.json `weather.temperatureRangeC`). 모델 외관 28–32, 저장 35+. 03 신발·05 신발은 크롭 밖이라 없음, 03 팬츠 아래 길이·뒤판은 추정 복원. [검증](coastal-warm-male-day-street-20261027-validation.md).

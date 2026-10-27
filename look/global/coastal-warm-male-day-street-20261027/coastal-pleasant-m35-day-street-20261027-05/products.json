@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-street-20261027-05",
+  "batchId": "coastal-warm-male-day-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal stone paving, whitewashed walls and sea backdrop; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after five editorials. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "cde83ddfff34f809c6d43a37cb118d7dce70d619e5ccf4808b31dce87eb22ee7",
+  "editorialBytes": 282963,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "bench with an orange spritz",
+  "sunglasses": "resting on the head",
+  "notRegistered": "Footwear outside the crop.",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware"
+  ],
+  "productCount": 3,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-street-20261027-05",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-day-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-day-street-20261027-05.shirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T18:05:07.100824+00:00",
+    "scope": "All 22 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "A SPRITZ AND A MOMENT ON THE BENCH",
+    "title": {
+      "ko": "스프리츠와 벤치의 여유",
+      "en": "A spritz and a moment on the bench",
+      "de": "Ein Spritz und eine Pause auf der Bank"
+    },
+    "deck": {
+      "ko": "스프리츠와 벤치의 여유",
+      "en": "An orange spritz and the whole bench to himself.",
+      "de": "Ein Spritz und eine Pause auf der Bank"
+    },
+    "intro": {
+      "ko": "줄무늬 쿠션이 깔린 벤치에 팔을 걸치고 오렌지 스프리츠를 든 오후. 단추를 몇 개 연 세이지 셔츠를 워시드 블랙 쇼츠가 차분하게 받쳐 주고, 선글라스는 머리 위로 올렸어요.",
+      "en": "An arm along the back of a cushioned bench, an orange spritz in hand. A pale sage shirt with a few buttons undone sits over washed black shorts that ground the colour, and the sunglasses are pushed up into the hair.",
+      "de": "Den Arm auf der Banklehne, einen Spritz in der Hand. Ein hell salbeigrünes Hemd mit ein paar offenen Knöpfen trifft auf verwaschene schwarze Shorts, die die Farbe erden; die Sonnenbrille sitzt im Haar."
+    },
+    "pullQuoteEn": "ONE ARM ON THE BENCH, NO PLANS.",
+    "tip": {
+      "ko": "앉아서 쉬는 날엔 목 단추를 두세 개 풀어 셔츠가 몸에 붙지 않게 하고, 그늘에 들어오면 선글라스는 머리 위로 올려 두세요.",
+      "en": "For a seated afternoon, undo two or three buttons so the shirt doesn't cling, and push the sunglasses up into the hair once you're in the shade.",
+      "de": "Für einen Nachmittag im Sitzen zwei, drei Knöpfe öffnen, damit das Hemd nicht anliegt, und die Sonnenbrille im Schatten ins Haar schieben."
+    },
+    "refinements": "Producer delivered titles only (ko/en/de). deck ko/de = producer title, en deck rewritten so it does not repeat the English article title; intro, pull and tip written from the editorial scene. Product how-to-wear = producer text except where noted by sourceHowToWear (production remark or missing verb)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "05-shirt",
+      "nameKo": "페일 세이지 린넨 반팔 셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "페일 세이지 린넨 반팔 셔츠",
+        "en": "Pale sage short-sleeve shirt",
+        "de": "Hell salbeigrünes Kurzarmhemd"
+      },
+      "description": {
+        "ko": "페일 세이지 린넨 반팔 셔츠",
+        "en": "Pale sage short-sleeve shirt",
+        "de": "Hell salbeigrünes Kurzarmhemd"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-05.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 43906,
+      "sha256": "987e73d982c77b61fb48d69b1654229dc7b75af237333b09ae0c2b5a44186968",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "세이지 셔츠의 목을 편하게 열고 밑단을 빼 벤치에서도 여유 있게 입으세요.",
+        "en": "Leave the sage shirt open at the neck and untucked for an easy seated fit.",
+        "de": "Das salbeigrüne Hemd am Hals offen und über den Shorts tragen, auch im Sitzen locker."
+      },
+      "altKo": "페일 세이지 린넨 반팔 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "05-shorts",
+      "nameKo": "워시드 블랙 쇼츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "워시드 블랙 쇼츠",
+        "en": "Washed black denim-look shorts",
+        "de": "Verwaschene schwarze Shorts in Denimoptik"
+      },
+      "description": {
+        "ko": "워시드 블랙 쇼츠",
+        "en": "Washed black denim-look shorts",
+        "de": "Verwaschene schwarze Shorts in Denimoptik"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-05.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 48840,
+      "sha256": "93478a95a76115351c9d9690295ff7944fc5855faea49ca7ccc497d6c02b3277",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "블랙 쇼츠는 앉았을 때 허벅지와 허리가 편한 핏으로 세이지 셔츠와 맞추세요.",
+        "en": "Pair the black shorts with the sage shirt in a fit comfortable at waist and thighs when seated.",
+        "de": "Die schwarzen Shorts so wählen, dass Taille und Oberschenkel im Sitzen bequem bleiben."
+      },
+      "altKo": "워시드 블랙 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "05-sunglasses",
+      "nameKo": "토터스셸 선글라스",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses",
+        "de": "Sonnenbrille in Havannaoptik"
+      },
+      "description": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses",
+        "de": "Sonnenbrille in Havannaoptik"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-05.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 30392,
+      "sha256": "6a21c06eb57f33d70e2cc4a58dafe8388edc5cf88215466f52d1de52d6cf87af",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "토터스셸 선글라스는 곱슬머리 위로 밀어 올려 얹고, 얼굴과 열린 목선이 시원하게 드러나게 두세요.",
+        "en": "Push the tortoiseshell sunglasses up onto the curls so the face and open collar stay clear.",
+        "de": "Die Havanna-Sonnenbrille in die Locken hochschieben, damit Gesicht und offener Kragen frei bleiben."
+      },
+      "sourceHowToWear": {
+        "ko": "선글라스를 벗었을 때 머리 위에 가볍게 올려 얼굴과 목선을 드러내세요.",
+        "en": "Rest the sunglasses lightly on the head when removed to leave the face and neckline open.",
+        "de": "Die abgenommene Sonnenbrille leicht auf den Kopf setzen, damit Gesicht und Ausschnitt frei bleiben."
+      },
+      "altKo": "토터스셸 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

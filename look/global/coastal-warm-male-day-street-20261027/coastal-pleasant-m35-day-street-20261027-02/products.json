@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-street-20261027-02",
+  "batchId": "coastal-warm-male-day-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal stone paving, whitewashed walls and sea backdrop; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after five editorials. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "132308481149a25f3ca2a173e2d3bb16dafbc2c0a13d5647e269e782d81c3a60",
+  "editorialBytes": 284471,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "beer on sunlit harbour steps",
+  "sunglasses": "worn over the eyes",
+  "notRegistered": null,
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-street-20261027-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-day-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-day-street-20261027-02.tee",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T18:05:07.100824+00:00",
+    "scope": "All 22 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "A PAUSE ON THE HARBOR STEPS",
+    "title": {
+      "ko": "항구 계단에서 잠깐 쉬기",
+      "en": "A pause on the harbor steps",
+      "de": "Eine Pause auf den Hafentreppen"
+    },
+    "deck": {
+      "ko": "항구 계단에서 잠깐 쉬기",
+      "en": "A cold glass and a seat on warm stone.",
+      "de": "Eine Pause auf den Hafentreppen"
+    },
+    "intro": {
+      "ko": "햇볕에 데워진 돌계단에 걸터앉아 맥주 한 잔. 넉넉한 코발트 티셔츠와 밝은 스톤 쇼츠는 앉고 일어서기 편하고, 빛바랜 블루 캡이 티셔츠 색을 한 톤 부드럽게 받아 줘요.",
+      "en": "Perched on sun-warmed stone steps with a beer. A roomy cobalt tee and pale drawstring shorts make sitting down and getting up easy, while a faded blue cap repeats the shirt colour a shade softer.",
+      "de": "Auf sonnenwarmen Steinstufen, ein Bier in der Hand. Ein weites kobaltblaues Shirt und helle Shorts mit Kordelzug machen Hinsetzen und Aufstehen leicht; die verwaschene Cap wiederholt das Blau eine Spur sanfter."
+    },
+    "pullQuoteEn": "THE STEPS ARE THE TERRACE.",
+    "tip": {
+      "ko": "계단이나 낮은 벽에 앉을 날엔 무릎 위 길이 쇼츠가 앉았을 때 너무 짧아지지 않는지 한 번 확인하세요.",
+      "en": "If you will be sitting on steps or low walls, check that above-the-knee shorts do not ride up too far once you sit.",
+      "de": "Wer auf Stufen oder niedrigen Mauern sitzt, prüft kurz, ob Shorts über dem Knie im Sitzen nicht zu weit hochrutschen."
+    },
+    "refinements": "Producer delivered titles only (ko/en/de). deck ko/de = producer title, en deck rewritten so it does not repeat the English article title; intro, pull and tip written from the editorial scene. Product how-to-wear = producer text except where noted by sourceHowToWear (production remark or missing verb)."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "02-tee",
+      "nameKo": "코발트 블루 반팔 티셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "코발트 블루 반팔 티셔츠",
+        "en": "Cobalt oversized T-shirt",
+        "de": "Kobaltblaues Oversize-T-Shirt"
+      },
+      "description": {
+        "ko": "코발트 블루 반팔 티셔츠",
+        "en": "Cobalt oversized T-shirt",
+        "de": "Kobaltblaues Oversize-T-Shirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-02.tee",
+      "image": "products/tee.webp",
+      "bytes": 40842,
+      "sha256": "7dbc9a13cc6f64859134d4206f75fb12f68ce1642763e829c70078f0c46143e3",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "넉넉한 코발트 티셔츠는 쇼츠 밖으로 내려 편하게 앉아도 당기지 않게 입으세요.",
+        "en": "Let the loose cobalt tee hang over the shorts so it does not pull when seated.",
+        "de": "Das lockere kobaltblaue T-Shirt über den Shorts tragen, damit es im Sitzen nicht spannt."
+      },
+      "altKo": "코발트 블루 반팔 티셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "02-shorts",
+      "nameKo": "스톤 드로스트링 쇼츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "스톤 드로스트링 쇼츠",
+        "en": "Stone drawstring shorts",
+        "de": "Steinfarbene Shorts mit Kordelzug"
+      },
+      "description": {
+        "ko": "스톤 드로스트링 쇼츠",
+        "en": "Stone drawstring shorts",
+        "de": "Steinfarbene Shorts mit Kordelzug"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-02.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 42956,
+      "sha256": "c46fab35d6e0e6fb3299de4c40bbbc5d939a8f3fab2d26d3389e554824194422",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "허리 끈을 편하게 맞추고 스톤 컬러로 강한 블루 상의를 정리하세요.",
+        "en": "Adjust the drawstring comfortably and let the stone tone balance the vivid blue tee.",
+        "de": "Den Kordelzug bequem einstellen; der steinfarbene Ton gleicht das kräftige Blau aus."
+      },
+      "altKo": "스톤 드로스트링 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "flip-flops",
+      "producerId": "02-flip-flops",
+      "nameKo": "다크 브라운 플립플롭 한 켤레",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "다크 브라운 플립플롭 한 켤레",
+        "en": "Dark brown flip-flops",
+        "de": "Dunkelbraune Flipflops"
+      },
+      "description": {
+        "ko": "다크 브라운 플립플롭 한 켤레",
+        "en": "Dark brown flip-flops",
+        "de": "Dunkelbraune Flipflops"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-02.flip-flops",
+      "image": "products/flip-flops.webp",
+      "bytes": 45238,
+      "sha256": "71ee61890a6dd2b86994a6c6d360d26f83566d8589c3828cc2160adf48a7d391",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "플립플롭은 뒤꿈치가 밑창 밖으로 나오지 않는 크기로 골라 맨발에 신으세요.",
+        "en": "Choose flip-flops that keep the heel on the sole and wear them on bare feet.",
+        "de": "Flipflops so wählen, dass die Ferse auf der Sohle bleibt, und barfuß tragen."
+      },
+      "altKo": "다크 브라운 플립플롭 한 켤레 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "cap",
+      "producerId": "02-cap",
+      "nameKo": "워시드 블루 캡",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "워시드 블루 캡",
+        "en": "Washed blue cap",
+        "de": "Verwaschene blaue Cap"
+      },
+      "description": {
+        "ko": "워시드 블루 캡",
+        "en": "Washed blue cap",
+        "de": "Verwaschene blaue Cap"
+      },
+      "appCategory": "headwear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-02.cap",
+      "image": "products/cap.webp",
+      "bytes": 47850,
+      "sha256": "04c7bd13ddae759ece4c22b9dffb2baa18baa4a74055fdf33fbbaaa0f6e59c49",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "워시드 블루 캡을 가볍게 눌러 쓰고 티셔츠와 블루 톤을 연결하세요.",
+        "en": "Wear the washed blue cap loosely and echo the blue of the tee.",
+        "de": "Die verwaschene blaue Cap locker aufsetzen und den Blauton des Shirts aufgreifen."
+      },
+      "altKo": "워시드 블루 캡 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "02-sunglasses",
+      "nameKo": "다크 토터스셸 선글라스",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "다크 토터스셸 선글라스",
+        "en": "Dark tortoiseshell sunglasses",
+        "de": "Dunkle Sonnenbrille in Havannaoptik"
+      },
+      "description": {
+        "ko": "다크 토터스셸 선글라스",
+        "en": "Dark tortoiseshell sunglasses",
+        "de": "Dunkle Sonnenbrille in Havannaoptik"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-02.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 27234,
+      "sha256": "dab424a7c4d0a8a7944b604d527f2ad12e32e6f5b5cc122e7403c2dc9f6ee26d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "토터스셸 선글라스를 눈 위에 써 블루 캡에 따뜻한 갈색을 더하세요.",
+        "en": "Wear the tortoiseshell sunglasses over the eyes to add warm brown beside the blue cap.",
+        "de": "Die Havanna-Sonnenbrille aufsetzen; ihr warmes Braun ergänzt die blaue Cap."
+      },
+      "altKo": "다크 토터스셸 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

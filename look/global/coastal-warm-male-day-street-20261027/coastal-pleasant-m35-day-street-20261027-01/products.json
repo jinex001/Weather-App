@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-street-20261027-01",
+  "batchId": "coastal-warm-male-day-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal stone paving, whitewashed walls and sea backdrop; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after five editorials. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "27f7bafd0c41ef87fc6a05537d969eee91cf0a460f6e2f4a84f228851419148b",
+  "editorialBytes": 294452,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "champagne at a seaside café table",
+  "sunglasses": "worn over the eyes",
+  "notRegistered": null,
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware"
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-street-20261027-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-day-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-day-street-20261027-01.shirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T18:05:07.100824+00:00",
+    "scope": "All 22 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "A SLOW AFTERNOON, A SIP OF CHAMPAGNE",
+    "title": {
+      "ko": "샴페인 한 모금, 느긋한 오후",
+      "en": "A slow afternoon, a sip of champagne",
+      "de": "Ein ruhiger Nachmittag mit Champagner"
+    },
+    "deck": {
+      "ko": "샴페인 한 모금, 느긋한 오후",
+      "en": "One sip of champagne, an afternoon with no plans.",
+      "de": "Ein ruhiger Nachmittag mit Champagner"
+    },
+    "intro": {
+      "ko": "카페 테이블에 기대 샴페인을 한 모금. 결이 살아 있는 에크루 셔츠를 어두운 쇼츠 위로 늘어뜨리고, 검은 가죽 샌들로 밝은 룩의 무게를 잡았어요.",
+      "en": "Leaning back at a café table for a sip of champagne. A textured ecru shirt hangs loose over dark shorts, and woven black sandals keep the light look grounded.",
+      "de": "Zurückgelehnt am Cafétisch, ein Schluck Champagner. Ein strukturiertes Hemd in Ecru fällt locker über dunkle Shorts, schwarze geflochtene Sandalen geben dem hellen Look Halt."
+    },
+    "pullQuoteEn": "NOWHERE TO BE BUT HERE.",
+    "tip": {
+      "ko": "오래 앉아 있을 오후엔 허리와 허벅지가 편한 쇼츠를 고르고, 셔츠는 밑단을 빼 바람이 통하게 입으세요.",
+      "en": "For a long seated afternoon, pick shorts that stay easy at the waist and thighs, and wear the shirt untucked so the air can move.",
+      "de": "Für einen langen Nachmittag im Sitzen Shorts wählen, die an Taille und Oberschenkeln bequem bleiben, und das Hemd über dem Bund tragen, damit Luft zirkuliert."
+    },
+    "refinements": "Producer delivered titles only (ko/en/de). deck ko/de = producer title, en deck rewritten so it does not repeat the English article title; intro, pull and tip written from the editorial scene. Product how-to-wear = producer text except where noted by sourceHowToWear (production remark or missing verb)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "01-shirt",
+      "nameKo": "에크루 텍스처 반팔 셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "에크루 텍스처 반팔 셔츠",
+        "en": "Ecru textured short-sleeve shirt",
+        "de": "Ecrufarbenes Strukturhemd"
+      },
+      "description": {
+        "ko": "에크루 텍스처 반팔 셔츠",
+        "en": "Ecru textured short-sleeve shirt",
+        "de": "Ecrufarbenes Strukturhemd"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-01.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 49074,
+      "sha256": "09b458454b8fc0a16995ef36bdc4ded740ec728d9536a3e9cbad655e51b246ea",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "셔츠 밑단을 빼고 목을 여유 있게 열어 차콜 쇼츠 위로 자연스럽게 떨어뜨리세요.",
+        "en": "Leave the shirt untucked and the neckline open so it falls easily over the charcoal shorts.",
+        "de": "Das Hemd am Hals offen lassen und über den anthrazitfarbenen Shorts tragen, damit es locker fällt."
+      },
+      "sourceHowToWear": {
+        "ko": "셔츠 밑단을 빼고 목을 여유 있게 열어 차콜 쇼츠 위로 자연스럽게 떨어뜨리세요.",
+        "en": "Leave the shirt untucked and the neckline open so it falls easily over the charcoal shorts.",
+        "de": "Das Hemd offen am Hals und über den anthrazitfarbenen Shorts tragen."
+      },
+      "altKo": "에크루 텍스처 반팔 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "01-shorts",
+      "nameKo": "차콜 무릎 길이 쇼츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "차콜 무릎 길이 쇼츠",
+        "en": "Charcoal relaxed shorts",
+        "de": "Lockere Shorts in Anthrazit"
+      },
+      "description": {
+        "ko": "차콜 무릎 길이 쇼츠",
+        "en": "Charcoal relaxed shorts",
+        "de": "Lockere Shorts in Anthrazit"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-01.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 47296,
+      "sha256": "1943cb20f9eaa9b9ea8e273b30b522a1bf0c24649bb4c114b76601d2a26aaf19",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "앉았을 때 허벅지를 조이지 않는 통으로 고르고 무릎 가까이 오는 길이를 유지하세요.",
+        "en": "Choose a leg roomy enough to sit comfortably, keeping the hem near the knee.",
+        "de": "Eine bequeme Beinweite wählen; der Saum bleibt in Knienähe."
+      },
+      "altKo": "차콜 무릎 길이 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sandals",
+      "producerId": "01-sandals",
+      "nameKo": "블랙 가죽 피셔맨 샌들 한 켤레",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 가죽 피셔맨 샌들 한 켤레",
+        "en": "Black fisherman sandals",
+        "de": "Schwarze Fischersandalen"
+      },
+      "description": {
+        "ko": "블랙 가죽 피셔맨 샌들 한 켤레",
+        "en": "Black fisherman sandals",
+        "de": "Schwarze Fischersandalen"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-01.sandals",
+      "image": "products/sandals.webp",
+      "bytes": 44654,
+      "sha256": "436c51b01e35326794b7565ee1cb7175ca25beda4feedea75c4aa11a6047037b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "맨발에 피셔맨 샌들을 신고 스트랩이 발등을 누르지 않게 맞추세요.",
+        "en": "Wear the fisherman sandals on bare feet with the straps resting comfortably across the instep.",
+        "de": "Die Fischersandalen barfuß tragen und die Riemen bequem am Spann einstellen."
+      },
+      "altKo": "블랙 가죽 피셔맨 샌들 한 켤레 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "01-sunglasses",
+      "nameKo": "블랙 직사각 선글라스",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 직사각 선글라스",
+        "en": "Black rectangular sunglasses",
+        "de": "Schwarze rechteckige Sonnenbrille"
+      },
+      "description": {
+        "ko": "블랙 직사각 선글라스",
+        "en": "Black rectangular sunglasses",
+        "de": "Schwarze rechteckige Sonnenbrille"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-01.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 19470,
+      "sha256": "33268220ca7eb609c3ac2853ccc6af612f04df75ef5de3dc39324a42023a4397",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "각진 블랙 프레임을 눈 위에 써 에크루 셔츠에 또렷한 포인트를 주세요.",
+        "en": "Wear the black rectangular frames over the eyes to sharpen the ecru shirt.",
+        "de": "Die eckige schwarze Brille aufsetzen; sie setzt einen klaren Akzent zum Ecru-Hemd."
+      },
+      "altKo": "블랙 직사각 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

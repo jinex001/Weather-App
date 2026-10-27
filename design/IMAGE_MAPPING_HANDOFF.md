@@ -385,3 +385,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 제작 측 `appCategory: accessory`를 앱 분류로 나눔: 선글라스 → `eyewear`(캘린더 `PIECE_RULES` 맑은 18°↑가 `eyewear` + 이름 "선글라스"를 찾음), 귀걸이·목걸이 → `jewelry`, 양말 → `socks`, 버뮤다 → `shorts`. 원래 값은 `producerCategory`.
 - 5-1장: 제작 측 입는 법은 분류마다 같은 틀 문장(예: 장신구 전부 "사진의 위치를 참고해…", 셔츠·봄버 "앞을 열어…"), 팁은 다섯 룩 같은 문장, en 캡션 = 영어 제목 → 제품 입는 법 34개·팁 5개를 에디토리얼 보고 ko/en/de 새로 씀, en deck은 한국어 캡션에서 다시 옮김, 인용구 추가. 한국어 캡션·인트로·제품 이름은 마스터 그대로. 원문은 `sourceHowToWear`·`copy.sourceCopy`.
 - [검증 기록](coastal-sunny-pleasant-female-day-street-20261027-validation.md).
+
+## b177 · Global coastal / Clear / Pleasant / Male / 35+ / Day / Street — 2026-10-27 set (5 looks · 22 products)
+
+- b176과 같은 경로·파일 이름 방식(`look/global/<batchId>/<lookId>/products/<제품 id>.webp`). 진입점은 `originals/product-batch/complete/NN-street/`만.
+- 제작 측 문구는 제목(ko/en/de)과 제품별 이름·입는 법만 있었음 → deck ko/de = 제작 측 제목, en deck은 영어 기사 제목과 겹치지 않게 다시 씀, 인트로·인용구·팁은 에디토리얼 장면(샴페인·맥주·칵테일·캡 잡고 걷기·스프리츠)을 보고 새로 씀. 제품 입는 법은 제작 측 문장이 제품마다 이미 달라(5-1장 통과) 그대로 쓰고, 5개만 고침: 03 팬츠(제작 메모 "허리 부근만 사진에서 확인됩니다"), 04·05 선글라스(쓰는 법이 빠짐/관용구), 01 셔츠·03 선글라스 de(동사 빠짐). 원문은 `sourceHowToWear`.
+- 제목에 색 단어가 없어 대표 컷은 b134 4번(아우터, 없으면 크게 보이는 옷 순서 outer → top)대로 고름.
+- [검증 기록](coastal-warm-male-day-street-20261027-validation.md).

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-street-20261027-04",
+  "batchId": "coastal-warm-male-day-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal stone paving, whitewashed walls and sea backdrop; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after five editorials. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3c3ecff3464d47977140b1ac8d24827cf66bef18a8771bb492e3e23c467bcc96",
+  "editorialBytes": 287688,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "strolling a lane, holding the cap brim",
+  "sunglasses": "worn over the eyes",
+  "notRegistered": null,
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-street-20261027-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-day-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-day-street-20261027-04.polo",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T18:05:07.100824+00:00",
+    "scope": "All 22 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "A SLOW WALK WITH THE BREEZE",
+    "title": {
+      "ko": "바람 따라 천천히",
+      "en": "A slow walk with the breeze",
+      "de": "Langsam mit der Brise"
+    },
+    "deck": {
+      "ko": "바람 따라 천천히",
+      "en": "Down the lane slowly, one hand on the cap.",
+      "de": "Langsam mit der Brise"
+    },
+    "intro": {
+      "ko": "골목을 천천히 내려가다 바람에 캡 챙을 살짝 잡고 돌아보는 순간. 성글게 짠 번트 오렌지 폴로는 바람이 통하고, 넓은 크림 팬츠가 걸음마다 가볍게 흔들려요.",
+      "en": "Strolling down a lane, he turns back and holds his cap brim against the breeze. The open weave of a burnt-orange polo lets the air through, and wide cream trousers swing with every step.",
+      "de": "Langsam die Gasse hinunter, ein Blick zurück, eine Hand an der Cap gegen die Brise. Das offene Strickmuster des rostorangefarbenen Polos lässt Luft durch, die weite cremefarbene Hose schwingt bei jedem Schritt."
+    },
+    "pullQuoteEn": "LET THE BREEZE DO THE STYLING.",
+    "tip": {
+      "ko": "바람이 있는 날엔 캡 뒤 조절 끈을 한 칸 조여 두고, 통 넓은 팬츠는 밑단이 샌들 아래로 밟히지 않는 길이로 고르세요.",
+      "en": "On breezy days, tighten the cap's back strap a notch, and choose wide trousers in a length that won't catch under your sandals.",
+      "de": "An windigen Tagen den Verschluss der Cap eine Stufe enger stellen und die weite Hose so lang wählen, dass der Saum nicht unter die Sandalen gerät."
+    },
+    "refinements": "Producer delivered titles only (ko/en/de). deck ko/de = producer title, en deck rewritten so it does not repeat the English article title; intro, pull and tip written from the editorial scene. Product how-to-wear = producer text except where noted by sourceHowToWear (production remark or missing verb)."
+  },
+  "products": [
+    {
+      "id": "polo",
+      "producerId": "04-polo",
+      "nameKo": "번트 오렌지 메쉬 니트 반팔 폴로",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "번트 오렌지 메쉬 니트 반팔 폴로",
+        "en": "Burnt orange mesh-knit polo",
+        "de": "Rostorangefarbenes Mesh-Strickpolo"
+      },
+      "description": {
+        "ko": "번트 오렌지 메쉬 니트 반팔 폴로",
+        "en": "Burnt orange mesh-knit polo",
+        "de": "Rostorangefarbenes Mesh-Strickpolo"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-04.polo",
+      "image": "products/polo.webp",
+      "bytes": 47744,
+      "sha256": "4b64ce78a134f4824f1b558a28e2bd03e590a8d3ebf550422ac1ba4ed9bdf85c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "오렌지 메쉬 폴로의 밑단을 팬츠 밖으로 두어 조직과 실루엣을 살리세요.",
+        "en": "Leave the orange mesh polo untucked so its texture and easy shape remain visible.",
+        "de": "Das orangefarbene Mesh-Polo über der Hose tragen, damit Struktur und lockerer Schnitt wirken."
+      },
+      "altKo": "번트 오렌지 메쉬 니트 반팔 폴로 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-trousers",
+      "nameKo": "크림 와이드 코튼 팬츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "크림 와이드 코튼 팬츠",
+        "en": "Cream wide-leg trousers",
+        "de": "Weite cremefarbene Hose"
+      },
+      "description": {
+        "ko": "크림 와이드 코튼 팬츠",
+        "en": "Cream wide-leg trousers",
+        "de": "Weite cremefarbene Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-04.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 28792,
+      "sha256": "224189d03db6157f1e0bebbc0b062e9c7eb6eafa20fc5e5c3a2e8dcad3cc44a3",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "크림 팬츠의 넓은 통을 곧게 떨어뜨려 샌들 윗부분이 자연스럽게 드러나게 하세요.",
+        "en": "Let the wide cream legs fall freely with the sandals showing naturally below.",
+        "de": "Die weiten cremefarbenen Hosenbeine locker fallen lassen; die Sandalen bleiben sichtbar."
+      },
+      "altKo": "크림 와이드 코튼 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sandals",
+      "producerId": "04-sandals",
+      "nameKo": "다크 브라운 투스트랩 샌들 한 켤레",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "다크 브라운 투스트랩 샌들 한 켤레",
+        "en": "Dark brown two-strap sandals",
+        "de": "Dunkelbraune Sandalen mit zwei Riemen"
+      },
+      "description": {
+        "ko": "다크 브라운 투스트랩 샌들 한 켤레",
+        "en": "Dark brown two-strap sandals",
+        "de": "Dunkelbraune Sandalen mit zwei Riemen"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-04.sandals",
+      "image": "products/sandals.webp",
+      "bytes": 42084,
+      "sha256": "a3884282ac8cb3f80ac5f80e4ffd5e85d1fe76c4788c2d15a77eff50b57ed3cd",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "투스트랩 샌들은 맨발에 신고 발등의 두 스트랩을 편하게 맞추세요.",
+        "en": "Wear the two-strap sandals on bare feet and adjust both straps comfortably.",
+        "de": "Die Sandalen barfuß tragen und beide Riemen bequem einstellen."
+      },
+      "altKo": "다크 브라운 투스트랩 샌들 한 켤레 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "cap",
+      "producerId": "04-cap",
+      "nameKo": "올리브 캔버스 캡",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "올리브 캔버스 캡",
+        "en": "Olive canvas cap",
+        "de": "Olivgrüne Canvas-Cap"
+      },
+      "description": {
+        "ko": "올리브 캔버스 캡",
+        "en": "Olive canvas cap",
+        "de": "Olivgrüne Canvas-Cap"
+      },
+      "appCategory": "headwear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-04.cap",
+      "image": "products/cap.webp",
+      "bytes": 43542,
+      "sha256": "10fd051c644595be0b83badc912010d583c9ad5fbe301ab7495fedbcd21246c5",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "올리브 캡은 바람에 쉽게 들리지 않게 맞추고 챙을 가볍게 잡아 주세요.",
+        "en": "Adjust the olive cap comfortably and steady its brim when the breeze catches it.",
+        "de": "Die olivgrüne Cap bequem anpassen und den Schirm bei einer Brise kurz festhalten."
+      },
+      "altKo": "올리브 캔버스 캡 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "04-sunglasses",
+      "nameKo": "블랙 오벌 선글라스",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 오벌 선글라스",
+        "en": "Black oval sunglasses",
+        "de": "Schwarze ovale Sonnenbrille"
+      },
+      "description": {
+        "ko": "블랙 오벌 선글라스",
+        "en": "Black oval sunglasses",
+        "de": "Schwarze ovale Sonnenbrille"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-04.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 18716,
+      "sha256": "8e54e7ef2542d1c52442954d0250f0d5e2bf40829f7f64a1ed644f10f0655b12",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "작은 블랙 오벌 선글라스를 눈 위에 써 오렌지 폴로의 강한 색을 차분하게 정리하세요.",
+        "en": "Wear the compact black oval frames over the eyes to calm the vivid orange of the polo.",
+        "de": "Die kleine schwarze ovale Brille aufsetzen; sie beruhigt das kräftige Orange des Polos."
+      },
+      "sourceHowToWear": {
+        "ko": "작은 블랙 오벌 선글라스로 오렌지 폴로의 강한 색을 정리하세요.",
+        "en": "Use the compact black oval frames to balance the vivid orange polo.",
+        "de": "Die kleine schwarze ovale Brille gleicht das kräftige Orange des Polos aus."
+      },
+      "altKo": "블랙 오벌 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

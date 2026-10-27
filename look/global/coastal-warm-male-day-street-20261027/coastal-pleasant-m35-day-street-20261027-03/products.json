@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-street-20261027-03",
+  "batchId": "coastal-warm-male-day-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal stone paving, whitewashed walls and sea backdrop; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after five editorials. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7e260c9ce89d67f1621f536c77ce624adf98ccf4e30e3bb62afa95585a68c176",
+  "editorialBytes": 247010,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "stirring a lime cocktail at a stone ledge",
+  "sunglasses": "worn over the eyes",
+  "notRegistered": "Footwear outside the crop; trousers only partly visible (full length and back inferred).",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-street-20261027-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-day-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-day-street-20261027-03.shirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T18:05:07.100824+00:00",
+    "scope": "All 22 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "AN AFTERNOON OF CLINKING ICE",
+    "title": {
+      "ko": "얼음이 부딪히는 오후",
+      "en": "An afternoon of clinking ice",
+      "de": "Ein Nachmittag mit klirrendem Eis"
+    },
+    "deck": {
+      "ko": "얼음이 부딪히는 오후",
+      "en": "Ice against glass, and no hurry at all.",
+      "de": "Ein Nachmittag mit klirrendem Eis"
+    },
+    "intro": {
+      "ko": "바 난간에 기대 라임 칵테일을 천천히 젓는 오후. 앞을 연 테라코타 셔츠 사이로 흰 탱크톱이 보이고, 짠 밀짚 모자와 앰버 선글라스가 셔츠의 따뜻한 색을 얼굴까지 이어 줘요.",
+      "en": "Leaning on a stone ledge, slowly stirring a lime cocktail. A terracotta shirt worn open shows the white tank beneath, while a woven straw hat and amber frames carry the shirt's warmth up to the face.",
+      "de": "An eine Steinbrüstung gelehnt, langsam einen Limettendrink umrührend. Das offene terrakottafarbene Hemd zeigt das weiße Tanktop darunter; Strohhut und bernsteinfarbene Brille tragen die warme Farbe bis ins Gesicht."
+    },
+    "pullQuoteEn": "STIR SLOWLY. STAY LONGER.",
+    "tip": {
+      "ko": "햇볕이 강한 날엔 챙이 고르게 둘린 모자를 고르고, 셔츠는 앞을 열어 탱크톱 위로 가볍게 겹치세요.",
+      "en": "In strong sun, choose a hat with an all-round brim and wear the shirt open over the tank so the layers stay light.",
+      "de": "Bei kräftiger Sonne einen Hut mit rundum laufender Krempe wählen und das Hemd offen über dem Tanktop tragen, damit die Lagen leicht bleiben."
+    },
+    "refinements": "Producer delivered titles only (ko/en/de). deck ko/de = producer title, en deck rewritten so it does not repeat the English article title; intro, pull and tip written from the editorial scene. Product how-to-wear = producer text except where noted by sourceHowToWear (production remark or missing verb)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "03-shirt",
+      "nameKo": "테라코타 린넨 반팔 셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "테라코타 린넨 반팔 셔츠",
+        "en": "Terracotta short-sleeve shirt",
+        "de": "Terrakottafarbenes Kurzarmhemd"
+      },
+      "description": {
+        "ko": "테라코타 린넨 반팔 셔츠",
+        "en": "Terracotta short-sleeve shirt",
+        "de": "Terrakottafarbenes Kurzarmhemd"
+      },
+      "appCategory": "outer",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-03.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 47702,
+      "sha256": "eb6e39f69410e49fe4b106637ccada3e3e3a648a2cd94a2f52c9569a9b357c44",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "테라코타 셔츠는 앞을 열고 흰 탱크톱이 보이게 겹쳐 입으세요.",
+        "en": "Wear the terracotta shirt open over the white tank.",
+        "de": "Das terrakottafarbene Hemd offen über dem weißen Tanktop tragen."
+      },
+      "altKo": "테라코타 린넨 반팔 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tank",
+      "producerId": "03-tank",
+      "nameKo": "화이트 립 탱크톱",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "화이트 립 탱크톱",
+        "en": "White ribbed tank",
+        "de": "Weißes Ripp-Tanktop"
+      },
+      "description": {
+        "ko": "화이트 립 탱크톱",
+        "en": "White ribbed tank",
+        "de": "Weißes Ripp-Tanktop"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-03.tank",
+      "image": "products/tank.webp",
+      "bytes": 23992,
+      "sha256": "d100cb1307f8d9e3fa8840cd817b65dafa240bb31975e73026377a96faaeebf9",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "화이트 탱크톱은 몸을 지나치게 조이지 않는 핏으로 셔츠 안에 입으세요.",
+        "en": "Wear the white tank under the shirt in a fit that sits close without pulling.",
+        "de": "Das weiße Tanktop unter dem Hemd körpernah, aber ohne Spannung tragen."
+      },
+      "altKo": "화이트 립 탱크톱 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-trousers",
+      "nameKo": "네이비 경량 팬츠",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "네이비 경량 팬츠",
+        "en": "Navy lightweight trousers",
+        "de": "Leichte marineblaue Hose"
+      },
+      "description": {
+        "ko": "네이비 경량 팬츠",
+        "en": "Navy lightweight trousers",
+        "de": "Leichte marineblaue Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-03.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 25214,
+      "sha256": "b41323533c489c5072b67ce3780505c3b1eb23a3978d7a2abba59032b9f3c004",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "네이비 팬츠는 허리에 편하게 맞춰 입고, 열린 셔츠 자락이 허리 위로 자연스럽게 걸치게 두세요.",
+        "en": "Wear the navy trousers comfortably at the waist and let the open shirt fronts fall loosely over the waistband.",
+        "de": "Die marineblaue Hose bequem in der Taille tragen und die offenen Hemdteile locker über den Bund fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "네이비 팬츠는 허리 부근만 사진에서 확인됩니다. 편안한 허리 핏으로 셔츠와 맞추세요.",
+        "en": "Only the upper trousers are visible; choose a comfortable waist fit beneath the shirt.",
+        "de": "Nur der obere Hosenteil ist sichtbar; die Taille unter dem Hemd bequem wählen."
+      },
+      "altKo": "네이비 경량 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "hat",
+      "producerId": "03-hat",
+      "nameKo": "내추럴 스트로 버킷햇",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "내추럴 스트로 버킷햇",
+        "en": "Natural woven bucket hat",
+        "de": "Naturfarbener geflochtener Bucket-Hut"
+      },
+      "description": {
+        "ko": "내추럴 스트로 버킷햇",
+        "en": "Natural woven bucket hat",
+        "de": "Naturfarbener geflochtener Bucket-Hut"
+      },
+      "appCategory": "headwear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-03.hat",
+      "image": "products/hat.webp",
+      "bytes": 48442,
+      "sha256": "a5b1ac02374bee6fdda5a06841b9009092cad0621ce8285148420c89d9b393f3",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "내추럴 컬러 모자를 편하게 쓰고 테라코타 셔츠의 따뜻한 색과 맞추세요.",
+        "en": "Wear the natural woven hat comfortably to echo the warmth of the terracotta shirt.",
+        "de": "Den naturfarbenen Hut bequem tragen und den warmen Ton des Hemds aufgreifen."
+      },
+      "altKo": "내추럴 스트로 버킷햇 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "03-sunglasses",
+      "nameKo": "투명 앰버 선글라스",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible editorial details matched; hidden backs, full lengths and covered construction conservatively inferred. No verified retail product, fiber composition or UV rating.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "투명 앰버 선글라스",
+        "en": "Translucent amber sunglasses",
+        "de": "Transparente bernsteinfarbene Sonnenbrille"
+      },
+      "description": {
+        "ko": "투명 앰버 선글라스",
+        "en": "Translucent amber sunglasses",
+        "de": "Transparente bernsteinfarbene Sonnenbrille"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-day-street-20261027-03.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 33764,
+      "sha256": "1df69ae24d1aefde924536719603bf47287158f47ec9467d87a2a6105169797d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "투명 앰버 프레임을 눈 위에 써 모자와 셔츠 사이의 색을 부드럽게 이어 주세요.",
+        "en": "Wear the translucent amber frames over the eyes to connect the hat and shirt tones.",
+        "de": "Die transparente bernsteinfarbene Brille aufsetzen; sie verbindet die Töne von Hut und Hemd."
+      },
+      "sourceHowToWear": {
+        "ko": "투명 앰버 프레임을 눈 위에 써 모자와 셔츠 사이의 색을 부드럽게 이어 주세요.",
+        "en": "Wear the translucent amber frames over the eyes to connect the hat and shirt tones.",
+        "de": "Die transparente bernsteinfarbene Brille verbindet die Töne von Hut und Hemd."
+      },
+      "altKo": "투명 앰버 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}
