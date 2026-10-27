@@ -1,0 +1,348 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-street-20261027-04",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal urban facades and dry paving; no humidity measurement."
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved sunglasses-v2 and authorized workflow 1–10 in conversation on 2026-10-27. Product review is producer review, no per-product user approval claimed.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "87d0210323ec460ed4c361e7f2e5b568956f1374e55e97bccd30c49309bde69c",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-street-20261027-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-sunny-pleasant-female-day-street-20261027.js",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T15:48:08.475905+00:00",
+    "scope": "All 34 products on white/black/gray/#F3EFE8 composites vs the five approved editorials (VISUAL_REVIEW.json).",
+    "note": "The delivered metadata flag visualReviewComplete:false predates this review."
+  },
+  "copy": {
+    "titleEn": "RED AND NAVY, A TANGLED TOTE",
+    "titleKo": "레드와 네이비, 토트와 작은 실랑이",
+    "caption": {
+      "ko": "레드와 네이비, 토트와 작은 실랑이",
+      "en": "Red and navy, a small tussle with the tote.",
+      "de": "Rot und Marineblau, ein verhedderter Henkel"
+    },
+    "intro": {
+      "ko": "몸 아래 걸린 토트 끈을 빼내며 웃는 낮의 한 장면. 레드 티셔츠와 네이비 와이드 팬츠를 캔버스 스니커즈로 가볍게 연결했어요.",
+      "en": "A laugh as she frees a tote strap from beneath her. A red tee and navy wide-leg trousers are grounded by canvas sneakers.",
+      "de": "Sie lacht, während sie den eingeklemmten Taschenhenkel befreit. Rotes T-Shirt und weite marineblaue Hose treffen auf leichte Canvas-Sneaker."
+    },
+    "pullQuoteEn": "THE TOTE WON, BRIEFLY.",
+    "tip": {
+      "ko": "앉을 일이 있는 날엔 통 넓은 가벼운 팬츠를 고르고, 긴 토트 끈은 앉기 전에 앞으로 모아 두세요.",
+      "en": "If you'll be sitting, choose light wide trousers, and gather the long tote straps forward before you sit down.",
+      "de": "Wenn Sitzen ansteht, eine leichte weite Hose wählen und die langen Henkel der Tote vor dem Hinsetzen nach vorn nehmen."
+    },
+    "sourceCopy": {
+      "ko": {
+        "title": "레드와 네이비, 토트와 작은 실랑이",
+        "caption": "레드와 네이비, 토트와 작은 실랑이",
+        "intro": "몸 아래 걸린 토트 끈을 빼내며 웃는 낮의 한 장면. 레드 티셔츠와 네이비 와이드 팬츠를 캔버스 스니커즈로 가볍게 연결했어요.",
+        "tip": "가벼운 소재와 편안한 품을 유지하고, 선글라스와 가방은 동작을 방해하지 않게 정돈하세요."
+      },
+      "en": {
+        "title": "Red and navy, a tangled tote",
+        "caption": "Red and navy, a tangled tote",
+        "intro": "A laugh as she frees a tote strap from beneath her. A red tee and navy wide-leg trousers are grounded by canvas sneakers.",
+        "tip": "Keep fabrics light and the fit easy, and position sunglasses and bags so they do not get in the way."
+      },
+      "de": {
+        "title": "Rot und Marineblau, ein verhedderter Henkel",
+        "caption": "Rot und Marineblau, ein verhedderter Henkel",
+        "intro": "Sie lacht, während sie den eingeklemmten Taschenhenkel befreit. Rotes T-Shirt und weite marineblaue Hose treffen auf leichte Canvas-Sneaker.",
+        "tip": "Leichte Stoffe und eine bequeme Passform wählen; Sonnenbrille und Tasche so tragen, dass sie die Bewegung nicht stören."
+      }
+    },
+    "refinements": "title = producer English title in capitals; en caption reworded so it no longer repeats the title; tips rewritten per look (source tip was identical in all five looks); pull quote added; every product how-to-wear rewritten item-specific from the editorial in ko/en/de (source drafts repeated per category, kept as sourceHowToWear)."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "nameKo": "토마토 레드 티셔츠",
+      "designDescriptionEn": "Tomato red relaxed cotton crew-neck short sleeve tee",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "토마토 레드 티셔츠",
+        "en": "Tomato red T-shirt",
+        "de": "Tomatenrotes T-Shirt"
+      },
+      "description": {
+        "ko": "토마토 레드 티셔츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Tomato red relaxed cotton crew-neck short sleeve tee. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Tomatenrotes T-Shirt. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-04.tee",
+      "image": "products/tee.webp",
+      "bytes": 27474,
+      "sha256": "076e4f29ecf2496806059d5311669fbd7e503695d59ffc88958930e54082707c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "top",
+      "howToWear": {
+        "ko": "토마토 레드 티셔츠는 어깨선이 살짝 떨어지는 여유 있는 품으로 입고, 앞자락을 네이비 팬츠 허리에 가볍게 넣어 허리 위치를 보여 주세요.",
+        "en": "Wear the tomato-red tee in an easy fit with a slightly dropped shoulder, and tuck the front loosely into the navy trousers to mark the waist.",
+        "de": "Das tomatenrote T-Shirt locker mit leicht überschnittener Schulter tragen und vorn lose in die marineblaue Hose stecken, um die Taille zu zeigen."
+      },
+      "sourceHowToWear": {
+        "ko": "품에 여유를 두고 하의와 자연스럽게 연결하세요. 겹쳐 입을 때는 이너가 당기지 않게 정돈하세요.",
+        "en": "Keep the fit easy through the body and let it meet the waistband naturally. Smooth the inner layer so it does not pull.",
+        "de": "Am Oberkörper etwas Weite lassen und den Saum locker zum Hosenbund tragen. Die untere Lage glattziehen, damit nichts spannt."
+      },
+      "altKo": "토마토 레드 티셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "nameKo": "네이비 와이드 팬츠",
+      "designDescriptionEn": "Navy lightweight cotton wide leg trousers, clean waistband and loose cropped length",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "네이비 와이드 팬츠",
+        "en": "Navy wide-leg trousers",
+        "de": "Weite marineblaue Hose"
+      },
+      "description": {
+        "ko": "네이비 와이드 팬츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Navy lightweight cotton wide leg trousers, clean waistband and loose cropped length. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Weite marineblaue Hose. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-04.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 24070,
+      "sha256": "21297bdf4aa7e84c88748b110c9576dd137b9e5f91d73ee4e25d33eb11e886d1",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bottom",
+      "howToWear": {
+        "ko": "네이비 와이드 팬츠는 허리에 맞게 입고 발목이 살짝 보이는 길이로 고르세요. 넓은 통이 벤치에 앉아도 무릎을 편하게 감싸요.",
+        "en": "Wear the navy wide-legs at the waist in a length that shows a little ankle; the full leg sits easily over the knees on a bench.",
+        "de": "Die marineblaue weite Hose in der Taille tragen, in einer Länge, die etwas Knöchel zeigt; das weite Bein liegt auch im Sitzen bequem über den Knien."
+      },
+      "sourceHowToWear": {
+        "ko": "허리는 편안하게 맞추고 앉거나 걸을 때 허벅지와 무릎이 당기지 않는지 확인하세요.",
+        "en": "Choose a comfortable waist fit with enough room at the thighs and knees for sitting and walking.",
+        "de": "Den Bund bequem wählen und an Oberschenkeln und Knien genügend Platz zum Sitzen und Gehen lassen."
+      },
+      "altKo": "네이비 와이드 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "nameKo": "크림 캔버스 스니커즈",
+      "designDescriptionEn": "Pair of cream low-top canvas sneakers, cream rubber toe caps and white laces",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "크림 캔버스 스니커즈",
+        "en": "Cream canvas sneakers",
+        "de": "Cremefarbene Canvas-Sneaker"
+      },
+      "description": {
+        "ko": "크림 캔버스 스니커즈의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Pair of cream low-top canvas sneakers, cream rubber toe caps and white laces. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Cremefarbene Canvas-Sneaker. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-04.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 42214,
+      "sha256": "9adc723ad66145f94e292933b92be180a33e99fd01d944875e4a11fa38fad17a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "shoes",
+      "howToWear": {
+        "ko": "크림 캔버스 스니커즈는 끈을 리본으로 묶고 넓은 팬츠 밑단 아래로 앞코가 드러나게 하세요. 밝은 색이 진한 네이비를 가볍게 끊어 줘요.",
+        "en": "Tie the cream canvas sneakers in a bow and let the toes show under the wide hems; the pale colour lightens the deep navy.",
+        "de": "Die cremefarbenen Canvas-Sneaker mit Schleife binden und die Spitzen unter den weiten Säumen hervorschauen lassen; der helle Ton lockert das tiefe Marineblau auf."
+      },
+      "sourceHowToWear": {
+        "ko": "두 신발의 끈을 고르게 조이고, 걸을 때 밑단이 신발 아래로 끌리지 않게 정돈하세요.",
+        "en": "Lace both shoes evenly and keep the trouser hems from dragging beneath the soles.",
+        "de": "Beide Schuhe gleichmäßig schnüren und die Hosensäume so ordnen, dass sie nicht unter die Sohlen geraten."
+      },
+      "altKo": "크림 캔버스 스니커즈 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tote",
+      "nameKo": "차콜 캔버스 토트",
+      "designDescriptionEn": "Large charcoal washed canvas tote bag with two broad long canvas handles",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "차콜 캔버스 토트",
+        "en": "Charcoal canvas tote",
+        "de": "Anthrazitfarbene Canvas-Tote"
+      },
+      "description": {
+        "ko": "차콜 캔버스 토트의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Large charcoal washed canvas tote bag with two broad long canvas handles. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Anthrazitfarbene Canvas-Tote. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-04.tote",
+      "image": "products/tote.webp",
+      "bytes": 30736,
+      "sha256": "d5587c57adfedb14ca6af10f294168a0f06dd11363ca634613e054f0c486b6c5",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bag",
+      "howToWear": {
+        "ko": "차콜 캔버스 토트는 긴 손잡이 두 개를 함께 어깨에 메고, 앉을 때는 끈이 몸이나 벤치 아래에 깔리지 않게 앞으로 모아 주세요.",
+        "en": "Carry the charcoal canvas tote with both long handles over the shoulder, and when you sit, gather the straps forward so they don't end up trapped under you or the bench.",
+        "de": "Die anthrazitfarbene Canvas-Tote mit beiden langen Henkeln über der Schulter tragen und beim Hinsetzen die Henkel nach vorn nehmen, damit sie nicht unter dem Körper oder an der Bank eingeklemmt werden."
+      },
+      "sourceHowToWear": {
+        "ko": "스트랩이 꼬이지 않게 정돈하고, 움직일 때 가방이 과하게 흔들리지 않도록 길이를 맞추세요.",
+        "en": "Straighten the strap and adjust its length so the bag moves comfortably at your side.",
+        "de": "Den Riemen entwirren und die Länge so einstellen, dass sich die Tasche seitlich bequem mitbewegt."
+      },
+      "altKo": "차콜 캔버스 토트 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "nameKo": "브라운 오벌 선글라스",
+      "designDescriptionEn": "Brown tortoiseshell oval sunglasses with dark lenses",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "브라운 오벌 선글라스",
+        "en": "Brown oval sunglasses",
+        "de": "Braune ovale Sonnenbrille"
+      },
+      "description": {
+        "ko": "브라운 오벌 선글라스의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Brown tortoiseshell oval sunglasses with dark lenses. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Braune ovale Sonnenbrille. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-04.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 22464,
+      "sha256": "7b8ceadad429bea8eefd39bc3f028707303c55d89bfb7e465fbaf3e25d70cded",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "브라운 오벌 선글라스는 올림머리 위에 얹어 붉은 곱슬머리를 잡아 주듯 두세요. 고개를 숙일 때 앞으로 미끄러지지 않게 충분히 뒤로 올려 주세요.",
+        "en": "Rest the brown oval sunglasses on top of the pinned-up hair, as if holding the red curls in place; push them far enough back that they don't slide forward when you look down.",
+        "de": "Die braune ovale Sonnenbrille auf das hochgesteckte Haar setzen, als hielte sie die roten Locken; weit genug nach hinten schieben, damit sie beim Blick nach unten nicht nach vorn rutscht."
+      },
+      "sourceHowToWear": {
+        "ko": "머리 위에 가볍게 올리되, 움직일 때 떨어지거나 머리카락에 걸리지 않는지 확인하세요.",
+        "en": "Rest on the head gently and check that the frame will not slip or snag the hair.",
+        "de": "Locker auf den Kopf setzen und darauf achten, dass die Brille nicht rutscht oder sich im Haar verfängt."
+      },
+      "altKo": "브라운 오벌 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

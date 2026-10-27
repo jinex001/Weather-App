@@ -3,8 +3,8 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-27 (앱 빌드 b173) · 241룩 · 1480아이템 · 기사 룩 241 (b171 수치 240 · 1477 + b173 글로벌 테스트 1룩 · 3아이템, ID 충돌 없음 확인; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
-모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `cutouts.js` → **`global-context.js`(마지막, b173)**.
+마지막 정리: 2026-10-27 (앱 빌드 b176) · 246룩 · 1514아이템 · 기사 룩 246 (b173 수치 241 · 1480 + b176 해안 세트 5룩 · 34아이템, ID 충돌 없음 확인; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
 
 ## Outfit
 
@@ -284,3 +284,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 배치 `global-context-coastal-20261027`(READY.json 19개 SHA-256 일치). 에디토리얼 1장(1024×1536 JPG 264,708 B) + 독립 투명 WebP 제품 3개(500×500, 26,932–32,656 B) 바이트 그대로 → `look/global/global-context-coastal-20261027/gc-coastal-pleasant-f35-day-street-20261027-01/`, 보충 파일 `look/global-coastal-20261027.js`(cutouts.js 앞), 맥락 어댑터 `look/global-context.js`(마지막).
 - 룩 `gc-coastal-pleasant-f35-day-street-20261027-01`(clear · pleasant · f · 35 · street, 낮이라 `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: dry`, `contextReview: reviewed`), 아이템 `.01-top`·`.02-bottom`·`.03-bag`. 대표 컷 = 코발트 셔츠 WebP 자체.
 - 23°C / 체감 22°C · dry는 생성 가정(측정값 아님). 모델 외관 25–28, 타깃 30–44, 저장 35+. 사용자는 테스트 세트 제작·배포를 승인했고 이미지별 육안 승인은 하지 않음(상위 작업 QA). [검증](global-context-coastal-20261027-validation.md).
+
+## b176 · 해안 · Clear / Pleasant / Female / 35+ / Day / Street — 2026-10-27 세트 (5 looks)
+
+- 배치 `coastal-sunny-pleasant-female-day-street-20261027`(READY.json 115개 SHA-256 일치, 사용자가 sunglasses-v2 에디토리얼 5장 승인). 에디토리얼 5장(1024×1536 JPG) + 독립 투명 WebP 제품 34개(8/8/7/5/6, 500×500, ≤47,306 B) 바이트 그대로 → `look/global/coastal-sunny-pleasant-female-day-street-20261027/<룩 ID>/editorial.jpg`·`products/<제품 id>.webp`(한 룩에 같은 분류가 여러 개라 `NN-<분류>` 대신 제작 측 이름 그대로), 보충 파일 `look/coastal-sunny-pleasant-female-day-street-20261027.js`.
+- 룩 `coastal-pleasant-f35-day-street-20261027-01`–`05`(clear · pleasant · f · 35 · street, 낮 = `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 에크루 오버셔츠 + 블랙 탱크 + 차콜 카고(계단에서 신발 끈) · 02 코발트 셔츠 + 화이트 탱크 + 샌드 버뮤다(종이봉투 받쳐 들기) · 03 블랙 봄버 + 아이보리 티 + 인디고 와이드 진 + 벨트(가방 고리에 걸린 티셔츠) · 04 레드 티 + 네이비 와이드 팬츠(벤치에서 토트 끈) · 05 세이지 반소매 셔츠 + 크림 팬츠(문 지나며 돌아봄). 선글라스 01·03 착용, 02·04 머리 위, 05 손.
+- 아이템 ID = 제작 측 `appItemId` `<룩 ID>.<제품 id>`. 분류: 선글라스 `eyewear`, 귀걸이·목걸이 `jewelry`, 양말 `socks`, 버뮤다 `shorts`, 벨트 `accessory`. 대표 컷 = 제목 첫 색의 옷 WebP 자체.
+- 도시·숫자 기온·습도%·바람 null. 습도 unknown이라 `?humidity=` 명시값이 있으면 같은 칸의 b173 dry 룩과 순위만 달라짐. [검증](coastal-sunny-pleasant-female-day-street-20261027-validation.md).

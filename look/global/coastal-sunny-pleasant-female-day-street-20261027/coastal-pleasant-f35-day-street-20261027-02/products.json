@@ -1,0 +1,483 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-street-20261027-02",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal urban facades and dry paving; no humidity measurement."
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved sunglasses-v2 and authorized workflow 1–10 in conversation on 2026-10-27. Product review is producer review, no per-product user approval claimed.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1d463429687bfb9a2224f69b08c1ee8b79199a487d2b345fcd932ac944c1786f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 8,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-street-20261027-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-sunny-pleasant-female-day-street-20261027.js",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T15:48:08.475905+00:00",
+    "scope": "All 34 products on white/black/gray/#F3EFE8 composites vs the five approved editorials (VISUAL_REVIEW.json).",
+    "note": "The delivered metadata flag visualReviewComplete:false predates this review."
+  },
+  "copy": {
+    "titleEn": "COBALT AND SAND, HANDS FULL",
+    "titleKo": "코발트와 샌드, 두 손 가득",
+    "caption": {
+      "ko": "코발트와 샌드, 두 손 가득",
+      "en": "Cobalt and sand, with both hands busy.",
+      "de": "Kobaltblau und Sand, die Hände voll"
+    },
+    "intro": {
+      "ko": "미끄러지는 종이봉투를 받쳐 드는 순간. 코발트 셔츠에 화이트 탱크톱과 샌드 쇼츠를 맞추고 선글라스는 머리 위로 올렸어요.",
+      "en": "Catching a slipping paper bag, she pairs a cobalt shirt with a white tank and sand shorts. Sunglasses rest on her head.",
+      "de": "Sie fängt die rutschende Papiertüte auf. Zum kobaltblauen Hemd trägt sie weißes Tanktop und sandfarbene Shorts; die Sonnenbrille sitzt im Haar."
+    },
+    "pullQuoteEn": "NOTHING DROPPED. ALMOST.",
+    "tip": {
+      "ko": "두 손에 짐이 많은 날엔 가방은 등 뒤로 넘기고 선글라스는 머리 위에 올려 앞을 비워 두세요.",
+      "en": "On a hands-full day, slide the bag round to your back and park the sunglasses on your head to keep the front clear.",
+      "de": "Wenn die Hände voll sind, die Tasche nach hinten schieben und die Sonnenbrille ins Haar setzen – so bleibt vorn alles frei."
+    },
+    "sourceCopy": {
+      "ko": {
+        "title": "코발트와 샌드, 두 손 가득",
+        "caption": "코발트와 샌드, 두 손 가득",
+        "intro": "미끄러지는 종이봉투를 받쳐 드는 순간. 코발트 셔츠에 화이트 탱크톱과 샌드 쇼츠를 맞추고 선글라스는 머리 위로 올렸어요.",
+        "tip": "가벼운 소재와 편안한 품을 유지하고, 선글라스와 가방은 동작을 방해하지 않게 정돈하세요."
+      },
+      "en": {
+        "title": "Cobalt and sand, hands full",
+        "caption": "Cobalt and sand, hands full",
+        "intro": "Catching a slipping paper bag, she pairs a cobalt shirt with a white tank and sand shorts. Sunglasses rest on her head.",
+        "tip": "Keep fabrics light and the fit easy, and position sunglasses and bags so they do not get in the way."
+      },
+      "de": {
+        "title": "Kobaltblau und Sand, die Hände voll",
+        "caption": "Kobaltblau und Sand, die Hände voll",
+        "intro": "Sie fängt die rutschende Papiertüte auf. Zum kobaltblauen Hemd trägt sie weißes Tanktop und sandfarbene Shorts; die Sonnenbrille sitzt im Haar.",
+        "tip": "Leichte Stoffe und eine bequeme Passform wählen; Sonnenbrille und Tasche so tragen, dass sie die Bewegung nicht stören."
+      }
+    },
+    "refinements": "title = producer English title in capitals; en caption reworded so it no longer repeats the title; tips rewritten per look (source tip was identical in all five looks); pull quote added; every product how-to-wear rewritten item-specific from the editorial in ko/en/de (source drafts repeated per category, kept as sourceHowToWear)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "nameKo": "코발트 코튼 셔츠",
+      "designDescriptionEn": "Cobalt blue oversized cotton button-front shirt, pointed collar and long rollable sleeves",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "코발트 코튼 셔츠",
+        "en": "Cobalt cotton shirt",
+        "de": "Kobaltblaues Baumwollhemd"
+      },
+      "description": {
+        "ko": "코발트 코튼 셔츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Cobalt blue oversized cotton button-front shirt, pointed collar and long rollable sleeves. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Kobaltblaues Baumwollhemd. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 31936,
+      "sha256": "28e494b0676de88e363a5de203eddd60917c8f7134f4bc8b0e8945150dc947a8",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "outer",
+      "howToWear": {
+        "ko": "코발트 셔츠는 단추를 모두 풀어 화이트 탱크톱 위에 걸치고, 소매는 팔꿈치 근처까지 두툼하게 말아 올리세요. 골반 아래까지 오는 긴 앞자락은 걸음에 따라 움직이게 두세요.",
+        "en": "Throw the cobalt shirt open over the white tank and roll the sleeves in thick turns to around the elbow. Let the long front panels, which reach past the hips, move with your stride.",
+        "de": "Das kobaltblaue Hemd offen über dem weißen Tanktop tragen und die Ärmel in breiten Lagen bis etwa zum Ellbogen krempeln. Die langen Vorderteile, die über die Hüften reichen, dürfen beim Gehen mitschwingen."
+      },
+      "sourceHowToWear": {
+        "ko": "앞을 열어 이너가 보이게 입고, 팔을 움직일 여유를 남기세요.",
+        "en": "Wear it open to show the inner layer and leave room for your arms to move.",
+        "de": "Offen tragen, damit die untere Lage sichtbar bleibt, und auf Bewegungsfreiheit an den Armen achten."
+      },
+      "altKo": "코발트 코튼 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tank",
+      "nameKo": "화이트 리브 탱크톱",
+      "designDescriptionEn": "White fitted ribbed scoop-neck tank top",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "화이트 리브 탱크톱",
+        "en": "White ribbed tank",
+        "de": "Weißes Ripp-Tanktop"
+      },
+      "description": {
+        "ko": "화이트 리브 탱크톱의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "White fitted ribbed scoop-neck tank top. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Weißes Ripp-Tanktop. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.tank",
+      "image": "products/tank.webp",
+      "bytes": 18692,
+      "sha256": "1326b639b75513d5a782982b95fdf5506204b08acdcf9eac088224aa45b04cbd",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "top",
+      "howToWear": {
+        "ko": "화이트 리브 탱크톱은 몸에 맞는 핏으로 입고 밑단을 쇼츠 허리선에 맞춰 정리해, 열린 코발트 셔츠 사이로 깨끗한 흰 면이 보이게 하세요.",
+        "en": "Wear the white ribbed tank close to the body with the hem neatly meeting the shorts' waistband, so a clean white panel shows between the open cobalt fronts.",
+        "de": "Das weiße Ripp-Tanktop körpernah tragen und den Saum sauber am Bund der Shorts enden lassen, damit zwischen den offenen Hemdhälften eine klare weiße Fläche bleibt."
+      },
+      "sourceHowToWear": {
+        "ko": "품에 여유를 두고 하의와 자연스럽게 연결하세요. 겹쳐 입을 때는 이너가 당기지 않게 정돈하세요.",
+        "en": "Keep the fit easy through the body and let it meet the waistband naturally. Smooth the inner layer so it does not pull.",
+        "de": "Am Oberkörper etwas Weite lassen und den Saum locker zum Hosenbund tragen. Die untere Lage glattziehen, damit nichts spannt."
+      },
+      "altKo": "화이트 리브 탱크톱 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "nameKo": "샌드 버뮤다 쇼츠",
+      "designDescriptionEn": "Sand beige relaxed cotton Bermuda shorts with belt loops and side pockets",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "샌드 버뮤다 쇼츠",
+        "en": "Sand Bermuda shorts",
+        "de": "Sandfarbene Bermudashorts"
+      },
+      "description": {
+        "ko": "샌드 버뮤다 쇼츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Sand beige relaxed cotton Bermuda shorts with belt loops and side pockets. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Sandfarbene Bermudashorts. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bottom",
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 31446,
+      "sha256": "0601e21462adf5cfaa3acff7c651496371285dbc1cdc240c28cde4fb7d18b3ad",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bottom",
+      "howToWear": {
+        "ko": "샌드 버뮤다 쇼츠는 허리에 맞게 입고 무릎 바로 위에서 끝나는 길이를 고르세요. 넉넉한 통 덕분에 큰 걸음으로 걸어도 편해요.",
+        "en": "Wear the sand Bermudas at the waist in a length that ends just above the knee; the relaxed leg leaves room for a long stride.",
+        "de": "Die sandfarbenen Bermudashorts in der Taille tragen, in einer Länge knapp über dem Knie; das lockere Bein lässt Platz für große Schritte."
+      },
+      "sourceHowToWear": {
+        "ko": "허리는 편안하게 맞추고 앉거나 걸을 때 허벅지와 무릎이 당기지 않는지 확인하세요.",
+        "en": "Choose a comfortable waist fit with enough room at the thighs and knees for sitting and walking.",
+        "de": "Den Bund bequem wählen und an Oberschenkeln und Knien genügend Platz zum Sitzen und Gehen lassen."
+      },
+      "altKo": "샌드 버뮤다 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "nameKo": "화이트 크루 삭스",
+      "designDescriptionEn": "Matching pair of plain white ribbed crew socks",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "화이트 크루 삭스",
+        "en": "White crew socks",
+        "de": "Weiße gerippte Socken"
+      },
+      "description": {
+        "ko": "화이트 크루 삭스의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Matching pair of plain white ribbed crew socks. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Weiße gerippte Socken. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "socks",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.socks",
+      "image": "products/socks.webp",
+      "bytes": 27438,
+      "sha256": "e2325e960bd3268466ef01f69993360941ad4ca80447fc5a239985bd7cd1a102",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "화이트 크루 삭스는 발목 바로 위까지 올려 신어 스니커즈와 다리 사이를 이어 주세요. 흘러내리지 않게 곧게 펴 신으면 쇼츠와 잘 어울려요.",
+        "en": "Pull the white crew socks up just above the ankle so they bridge sneaker and leg; worn straight rather than slouched, they suit the shorts.",
+        "de": "Die weißen Socken knapp über den Knöchel ziehen, als Übergang zwischen Sneaker und Bein; glatt statt geschoppt getragen passen sie zu den Shorts."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "화이트 크루 삭스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "nameKo": "실버 그레이 스니커즈",
+      "designDescriptionEn": "Pair of silver-gray retro mesh running-inspired sneakers with pale gray overlays and white laces, no logo",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "실버 그레이 스니커즈",
+        "en": "Silver-gray sneakers",
+        "de": "Silbergraue Sneaker"
+      },
+      "description": {
+        "ko": "실버 그레이 스니커즈의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Pair of silver-gray retro mesh running-inspired sneakers with pale gray overlays and white laces, no logo. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Silbergraue Sneaker. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 45144,
+      "sha256": "d8bb60aabb237365ee5490a18f555a5df7872aafe7f5a5349a317fc8df0d7628",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "shoes",
+      "howToWear": {
+        "ko": "실버 그레이 스니커즈는 흰 끈을 단단히 묶어 걸음이 빨라져도 발이 흔들리지 않게 하세요. 메탈릭한 톤이 흰 양말과 이어져 쇼츠 아래를 가볍게 마무리해요.",
+        "en": "Lace the silver-grey sneakers firmly so your feet stay steady on a quick step; their metallic tone runs into the white socks and finishes the shorts lightly.",
+        "de": "Die silbergrauen Sneaker fest schnüren, damit der Fuß auch bei schnellen Schritten Halt hat; der metallische Ton geht in die weißen Socken über und schließt die Shorts leicht ab."
+      },
+      "sourceHowToWear": {
+        "ko": "두 신발의 끈을 고르게 조이고, 걸을 때 밑단이 신발 아래로 끌리지 않게 정돈하세요.",
+        "en": "Lace both shoes evenly and keep the trouser hems from dragging beneath the soles.",
+        "de": "Beide Schuhe gleichmäßig schnüren und die Hosensäume so ordnen, dass sie nicht unter die Sohlen geraten."
+      },
+      "altKo": "실버 그레이 스니커즈 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "nameKo": "다크 브라운 숄더백",
+      "designDescriptionEn": "Small dark brown smooth shoulder bag with slim adjustable strap and small gold-tone buckle",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "다크 브라운 숄더백",
+        "en": "Dark brown shoulder bag",
+        "de": "Dunkelbraune Schultertasche"
+      },
+      "description": {
+        "ko": "다크 브라운 숄더백의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Small dark brown smooth shoulder bag with slim adjustable strap and small gold-tone buckle. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Dunkelbraune Schultertasche. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 27698,
+      "sha256": "a203c1517c1f53f8e9de5d99fd35f0843e7de2806616693a251f1f9548fdee8a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bag",
+      "howToWear": {
+        "ko": "다크 브라운 숄더백은 셔츠 위 한쪽 어깨에 메고 가방을 옆구리 뒤쪽으로 넘겨 두세요. 두 팔이 짐으로 바쁠 때도 가방이 앞을 막지 않아요.",
+        "en": "Carry the dark brown bag on one shoulder over the shirt and let it sit back at your side, so it stays out of the way when both arms are full.",
+        "de": "Die dunkelbraune Tasche über dem Hemd auf einer Schulter tragen und seitlich nach hinten rutschen lassen – so ist sie nicht im Weg, wenn beide Arme beschäftigt sind."
+      },
+      "sourceHowToWear": {
+        "ko": "스트랩이 꼬이지 않게 정돈하고, 움직일 때 가방이 과하게 흔들리지 않도록 길이를 맞추세요.",
+        "en": "Straighten the strap and adjust its length so the bag moves comfortably at your side.",
+        "de": "Den Riemen entwirren und die Länge so einstellen, dass sich die Tasche seitlich bequem mitbewegt."
+      },
+      "altKo": "다크 브라운 숄더백 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "nameKo": "토터스 직사각 선글라스",
+      "designDescriptionEn": "Brown tortoiseshell rectangular sunglasses with dark lenses",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "토터스 직사각 선글라스",
+        "en": "Rectangular tortoiseshell sunglasses",
+        "de": "Rechteckige Sonnenbrille in Havannaoptik"
+      },
+      "description": {
+        "ko": "토터스 직사각 선글라스의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Brown tortoiseshell rectangular sunglasses with dark lenses. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Rechteckige Sonnenbrille in Havannaoptik. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 22718,
+      "sha256": "8a52ae43db5dbd80a337ad006c374229841ff3ece1e3556d757c0bbe3fb0d4bb",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "토터스 직사각 선글라스는 정수리 위에 머리띠처럼 올려 앞머리를 넘겨 두세요. 몸을 숙일 때 떨어지지 않게 다리를 머리카락 안쪽으로 살짝 걸어 주세요.",
+        "en": "Push the tortoiseshell rectangles up onto the crown like a headband to hold the hair back, tucking the temples slightly into the hair so they don't slip when you lean forward.",
+        "de": "Die rechteckige Havanna-Sonnenbrille wie einen Haarreif auf den Oberkopf schieben und die Bügel leicht ins Haar stecken, damit sie beim Vorbeugen nicht herunterfällt."
+      },
+      "sourceHowToWear": {
+        "ko": "머리 위에 가볍게 올리되, 움직일 때 떨어지거나 머리카락에 걸리지 않는지 확인하세요.",
+        "en": "Rest on the head gently and check that the frame will not slip or snag the hair.",
+        "de": "Locker auf den Kopf setzen und darauf achten, dass die Brille nicht rutscht oder sich im Haar verfängt."
+      },
+      "altKo": "토터스 직사각 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "earrings",
+      "nameKo": "골드 미니 후프 귀걸이",
+      "designDescriptionEn": "Matching pair of small thin gold-tone hoop earrings",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "골드 미니 후프 귀걸이",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 미니 후프 귀걸이의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Matching pair of small thin gold-tone hoop earrings. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Kleine goldfarbene Creolen. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "jewelry",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-02.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 25668,
+      "sha256": "3f31bf23d7c8a0b089e604b93a1eea28fcfbdd3f299f8633805222ab18833b14",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "골드 미니 후프는 귓불에 딱 붙는 작은 크기로 골라, 단발 사이로 빛만 살짝 보이게 하세요.",
+        "en": "Pick the small gold-tone hoops to sit close to the lobe, so they catch the light between strands of the bob.",
+        "de": "Die kleinen goldfarbenen Creolen eng am Ohrläppchen tragen, sodass sie zwischen den Strähnen des Bobs nur kurz aufblitzen."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "골드 미니 후프 귀걸이 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

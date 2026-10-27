@@ -377,3 +377,11 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 독일어 3곳만 다듬음(원문 보존). 제품별 입는 법 21개는 모두 다름(5-1장 통과).
 - 이 환경엔 node·jsc·JXA·Pillow 실행이 허용되지 않아 알파는 순수 파이썬 VP8L 디코더(ALPH 청크)로 확인 — 21장 모서리·테두리 0, 알파 범위·bounds가 FORMAT_REPORT와 정확히 같음. 옷 안쪽 알파는 253(약 99%)으로 제작 측 마스터 그대로. 선택 회귀는 룩 리터럴을 파이썬으로 읽어 `lookFits` 규칙으로 확인.
 - [검증 기록](rain-normal-male-night-street-20261026-validation.md).
+
+## b176 · Global coastal / Clear / Pleasant / Female / 35+ / Day / Street — 2026-10-27 set (5 looks · 34 products)
+
+- 5-2장 경로 그대로(`look/global/<batchId>/<lookId>/`), 단 제품 파일은 `NN-<분류>` 대신 제작 측 `<제품 id>.webp` 그대로: 한 룩에 `jewelry`·`accessory`가 여러 개라 분류 이름이 겹침(b171과 같은 방식). 진입점은 `originals/product-batch/complete/NN-street/`만, 그 밖의 원본·수정 전 에디토리얼·마스터·QA 시트는 커밋 안 함.
+- 제작 측 products.json의 `visualReviewComplete: false`는 내보낸 시점 값이고, 뒤에 서명된 `VISUAL_REVIEW.json`(제작 측 4배경 검수 통과)이 기준. 배포 products.json엔 `producerVisualReview`로 옮기고 그 플래그는 뺌. 제품별 사용자 육안 승인은 없음.
+- 제작 측 `appCategory: accessory`를 앱 분류로 나눔: 선글라스 → `eyewear`(캘린더 `PIECE_RULES` 맑은 18°↑가 `eyewear` + 이름 "선글라스"를 찾음), 귀걸이·목걸이 → `jewelry`, 양말 → `socks`, 버뮤다 → `shorts`. 원래 값은 `producerCategory`.
+- 5-1장: 제작 측 입는 법은 분류마다 같은 틀 문장(예: 장신구 전부 "사진의 위치를 참고해…", 셔츠·봄버 "앞을 열어…"), 팁은 다섯 룩 같은 문장, en 캡션 = 영어 제목 → 제품 입는 법 34개·팁 5개를 에디토리얼 보고 ko/en/de 새로 씀, en deck은 한국어 캡션에서 다시 옮김, 인용구 추가. 한국어 캡션·인트로·제품 이름은 마스터 그대로. 원문은 `sourceHowToWear`·`copy.sourceCopy`.
+- [검증 기록](coastal-sunny-pleasant-female-day-street-20261027-validation.md).

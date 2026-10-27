@@ -1,0 +1,438 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-street-20261027-03",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal urban facades and dry paving; no humidity measurement."
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved sunglasses-v2 and authorized workflow 1–10 in conversation on 2026-10-27. Product review is producer review, no per-product user approval claimed.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a2c0523093ff08fce08f1be6ff4ef2f2523541c4d9ec7a5dc324379aac1f1621",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 7,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-street-20261027-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-sunny-pleasant-female-day-street-20261027.js",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T15:48:08.475905+00:00",
+    "scope": "All 34 products on white/black/gray/#F3EFE8 composites vs the five approved editorials (VISUAL_REVIEW.json).",
+    "note": "The delivered metadata flag visualReviewComplete:false predates this review."
+  },
+  "copy": {
+    "titleEn": "BLACK AND DENIM, A SMALL SNAG",
+    "titleKo": "블랙과 데님, 지퍼에 걸린 순간",
+    "caption": {
+      "ko": "블랙과 데님, 지퍼에 걸린 순간",
+      "en": "Black and denim, caught on a zipper.",
+      "de": "Schwarz und Denim, kurz hängen geblieben"
+    },
+    "intro": {
+      "ko": "가방 지퍼에 걸린 티셔츠를 조심스럽게 빼내는 순간. 가벼운 블랙 봄버와 아이보리 티셔츠, 와이드 데님에 직사각 선글라스를 더했어요.",
+      "en": "She gently frees her tee from a bag zipper. A light black bomber, ivory tee and wide jeans are finished with rectangular sunglasses.",
+      "de": "Vorsichtig löst sie das T-Shirt aus dem Taschenreißverschluss. Leichte schwarze Bomberjacke, elfenbeinfarbenes Shirt und weite Jeans ergänzt sie mit rechteckiger Sonnenbrille."
+    },
+    "pullQuoteEn": "ONE SNAG, NO DRAMA.",
+    "tip": {
+      "ko": "가벼운 봄버는 열어 입어 바람이 통하게 하고, 숄더백 금속 고리 근처에서는 티셔츠 밑단을 한 번씩 정돈하세요.",
+      "en": "Wear the light bomber open so air moves through, and smooth the tee hem whenever it's near the bag's metal hardware.",
+      "de": "Die leichte Bomberjacke offen tragen, damit Luft zirkuliert, und den Shirtsaum in der Nähe der Metallbeschläge der Tasche immer wieder glattstreichen."
+    },
+    "sourceCopy": {
+      "ko": {
+        "title": "블랙과 데님, 지퍼에 걸린 순간",
+        "caption": "블랙과 데님, 지퍼에 걸린 순간",
+        "intro": "가방 지퍼에 걸린 티셔츠를 조심스럽게 빼내는 순간. 가벼운 블랙 봄버와 아이보리 티셔츠, 와이드 데님에 직사각 선글라스를 더했어요.",
+        "tip": "가벼운 소재와 편안한 품을 유지하고, 선글라스와 가방은 동작을 방해하지 않게 정돈하세요."
+      },
+      "en": {
+        "title": "Black and denim, a small snag",
+        "caption": "Black and denim, a small snag",
+        "intro": "She gently frees her tee from a bag zipper. A light black bomber, ivory tee and wide jeans are finished with rectangular sunglasses.",
+        "tip": "Keep fabrics light and the fit easy, and position sunglasses and bags so they do not get in the way."
+      },
+      "de": {
+        "title": "Schwarz und Denim, kurz hängen geblieben",
+        "caption": "Schwarz und Denim, kurz hängen geblieben",
+        "intro": "Vorsichtig löst sie das T-Shirt aus dem Taschenreißverschluss. Leichte schwarze Bomberjacke, elfenbeinfarbenes Shirt und weite Jeans ergänzt sie mit rechteckiger Sonnenbrille.",
+        "tip": "Leichte Stoffe und eine bequeme Passform wählen; Sonnenbrille und Tasche so tragen, dass sie die Bewegung nicht stören."
+      }
+    },
+    "refinements": "title = producer English title in capitals; en caption reworded so it no longer repeats the title; tips rewritten per look (source tip was identical in all five looks); pull quote added; every product how-to-wear rewritten item-specific from the editorial in ko/en/de (source drafts repeated per category, kept as sourceHowToWear)."
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "nameKo": "블랙 코튼 봄버",
+      "designDescriptionEn": "Black lightweight cotton bomber jacket, ribbed collar cuffs and hem, silver front zip",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 코튼 봄버",
+        "en": "Black cotton bomber",
+        "de": "Schwarze leichte Bomberjacke"
+      },
+      "description": {
+        "ko": "블랙 코튼 봄버의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Black lightweight cotton bomber jacket, ribbed collar cuffs and hem, silver front zip. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarze leichte Bomberjacke. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.bomber",
+      "image": "products/bomber.webp",
+      "bytes": 27190,
+      "sha256": "6fa02b95141ae5e7d1ee6161c7501bd7155097dd227c5740e11f0b34a921d959",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "outer",
+      "howToWear": {
+        "ko": "블랙 봄버는 지퍼를 끝까지 열어 아이보리 티셔츠가 앞으로 넓게 보이게 입고, 소매 립은 손목에 그대로 두어 소매가 살짝 부풀게 하세요.",
+        "en": "Wear the black bomber fully unzipped so the ivory tee shows wide down the front, and leave the ribbed cuffs at the wrist so the sleeves blouse a little.",
+        "de": "Die schwarze Bomberjacke ganz offen tragen, damit das elfenbeinfarbene Shirt vorn breit sichtbar ist, und die Rippbündchen am Handgelenk lassen, sodass die Ärmel leicht bauschen."
+      },
+      "sourceHowToWear": {
+        "ko": "앞을 열어 이너가 보이게 입고, 팔을 움직일 여유를 남기세요.",
+        "en": "Wear it open to show the inner layer and leave room for your arms to move.",
+        "de": "Offen tragen, damit die untere Lage sichtbar bleibt, und auf Bewegungsfreiheit an den Armen achten."
+      },
+      "altKo": "블랙 코튼 봄버 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "nameKo": "아이보리 티셔츠",
+      "designDescriptionEn": "Ivory cotton crew-neck short sleeve tee",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "아이보리 티셔츠",
+        "en": "Ivory T-shirt",
+        "de": "Elfenbeinfarbenes T-Shirt"
+      },
+      "description": {
+        "ko": "아이보리 티셔츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Ivory cotton crew-neck short sleeve tee. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Elfenbeinfarbenes T-Shirt. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.tee",
+      "image": "products/tee.webp",
+      "bytes": 20392,
+      "sha256": "fcd29c8336d8b2082f1aaea6b0b6ef530bab3a5b0a2b55b4ab9cd80466ad30d0",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "top",
+      "howToWear": {
+        "ko": "아이보리 티셔츠는 밑단이 벨트 바로 위에서 끝나게 두어 버클이 보이게 하세요. 가방 지퍼나 고리 근처에서는 밑단이 걸리지 않게 한 번 정돈해 주세요.",
+        "en": "Let the ivory tee end just above the belt so the buckle stays in view; near the bag's zip and clasps, smooth the hem so it doesn't catch.",
+        "de": "Das elfenbeinfarbene Shirt knapp über dem Gürtel enden lassen, damit die Schnalle sichtbar bleibt; in der Nähe von Reißverschluss und Karabinern der Tasche den Saum glattziehen, damit er nicht hängen bleibt."
+      },
+      "sourceHowToWear": {
+        "ko": "품에 여유를 두고 하의와 자연스럽게 연결하세요. 겹쳐 입을 때는 이너가 당기지 않게 정돈하세요.",
+        "en": "Keep the fit easy through the body and let it meet the waistband naturally. Smooth the inner layer so it does not pull.",
+        "de": "Am Oberkörper etwas Weite lassen und den Saum locker zum Hosenbund tragen. Die untere Lage glattziehen, damit nichts spannt."
+      },
+      "altKo": "아이보리 티셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "nameKo": "인디고 와이드 진",
+      "designDescriptionEn": "Medium indigo washed wide leg jeans, contrast stitching and five-pocket styling",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "인디고 와이드 진",
+        "en": "Indigo wide-leg jeans",
+        "de": "Weite indigoblaue Jeans"
+      },
+      "description": {
+        "ko": "인디고 와이드 진의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Medium indigo washed wide leg jeans, contrast stitching and five-pocket styling. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Weite indigoblaue Jeans. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 42888,
+      "sha256": "986708f060207b12e22808e84aa4b8539890ad01f52015c6856720734c467378",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bottom",
+      "howToWear": {
+        "ko": "인디고 와이드 진은 허리에 높게 맞춰 입고 넓은 통이 곧게 떨어지게 두세요. 벨트로 허리를 잡아 주면 아래로 퍼지는 통이 더 또렷해 보여요.",
+        "en": "Wear the indigo wide-legs high on the waist and let the legs fall straight; cinched with the belt, the volume below looks more deliberate.",
+        "de": "Die indigoblaue weite Jeans hoch in der Taille tragen und die Beine gerade fallen lassen; mit Gürtel gefasst wirkt das Volumen darunter bewusster."
+      },
+      "sourceHowToWear": {
+        "ko": "허리는 편안하게 맞추고 앉거나 걸을 때 허벅지와 무릎이 당기지 않는지 확인하세요.",
+        "en": "Choose a comfortable waist fit with enough room at the thighs and knees for sitting and walking.",
+        "de": "Den Bund bequem wählen und an Oberschenkeln und Knien genügend Platz zum Sitzen und Gehen lassen."
+      },
+      "altKo": "인디고 와이드 진 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "belt",
+      "nameKo": "블랙 벨트",
+      "designDescriptionEn": "Black leather-look belt with simple rectangular silver-tone buckle",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 벨트",
+        "en": "Black belt",
+        "de": "Schwarzer Gürtel"
+      },
+      "description": {
+        "ko": "블랙 벨트의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Black leather-look belt with simple rectangular silver-tone buckle. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarzer Gürtel. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "accessory",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.belt",
+      "image": "products/belt.webp",
+      "bytes": 18356,
+      "sha256": "a5567e87145aca2394b03b603243c52b38ea865bad518c8b2c47ed092cec0a39",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "블랙 벨트는 청바지 고리에 끼워 실버 버클을 가운데보다 살짝 옆에 오게 채우세요. 가방·선글라스의 검은색과 이어져 룩의 중심을 잡아 줘요.",
+        "en": "Thread the black belt through the jeans' loops and fasten the silver-tone buckle slightly off centre; it picks up the black of the bag and sunglasses and anchors the middle of the look.",
+        "de": "Den schwarzen Gürtel durch die Schlaufen der Jeans ziehen und die silberfarbene Schnalle leicht seitlich schließen; er nimmt das Schwarz von Tasche und Brille auf und gibt dem Look in der Mitte Halt."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "블랙 벨트 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "nameKo": "블랙 숄더백",
+      "designDescriptionEn": "Compact black smooth leather-look shoulder bag, top zipper and slim strap with silver-tone clasps",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "description": {
+        "ko": "블랙 숄더백의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Compact black smooth leather-look shoulder bag, top zipper and slim strap with silver-tone clasps. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarze Schultertasche. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 28460,
+      "sha256": "11f27ede8ed8caf718688ee35b51bef533036341ad3c91caf2df46abca8ad53d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bag",
+      "howToWear": {
+        "ko": "블랙 숄더백은 봄버 위 어깨에 짧게 메어 가방이 허리 옆에 오게 하세요. 체인 고리와 지퍼에 티셔츠 자락이 말려 들지 않았는지 가끔 확인하세요.",
+        "en": "Wear the black shoulder bag short over the bomber so it sits at the side of the waist, and check now and then that the tee hem hasn't caught in the chain links or zip.",
+        "de": "Die schwarze Schultertasche kurz über der Bomberjacke tragen, sodass sie seitlich an der Taille sitzt, und ab und zu prüfen, dass sich der Shirtsaum nicht in Kettengliedern oder Reißverschluss verfangen hat."
+      },
+      "sourceHowToWear": {
+        "ko": "스트랩이 꼬이지 않게 정돈하고, 움직일 때 가방이 과하게 흔들리지 않도록 길이를 맞추세요.",
+        "en": "Straighten the strap and adjust its length so the bag moves comfortably at your side.",
+        "de": "Den Riemen entwirren und die Länge so einstellen, dass sich die Tasche seitlich bequem mitbewegt."
+      },
+      "altKo": "블랙 숄더백 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "nameKo": "블랙 직사각 선글라스",
+      "designDescriptionEn": "Slim black rectangular sunglasses with dark lenses",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 직사각 선글라스",
+        "en": "Black rectangular sunglasses",
+        "de": "Schwarze rechteckige Sonnenbrille"
+      },
+      "description": {
+        "ko": "블랙 직사각 선글라스의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Slim black rectangular sunglasses with dark lenses. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarze rechteckige Sonnenbrille. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 16372,
+      "sha256": "f688cb3a6d3c13558461cd115495144f0dcf16edbcef096ec8038a5de6453e60",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "블랙 직사각 선글라스는 얼굴에 바로 써서 짧은 머리와 함께 날렵한 인상을 만드세요. 고개를 숙여 가방을 볼 때도 내려가지 않게 다리가 귀에 꼭 맞는지 확인하세요.",
+        "en": "Wear the slim black rectangles on your face for a sharp line with the cropped hair, and make sure the temples fit snugly over the ears so they stay put when you look down at your bag.",
+        "de": "Die schmale schwarze Rechteckbrille aufsetzen – eine klare Linie zum kurzen Haar – und darauf achten, dass die Bügel fest über den Ohren sitzen, damit sie beim Blick nach unten nicht rutscht."
+      },
+      "sourceHowToWear": {
+        "ko": "코받침과 다리가 편안하게 맞도록 눈에 착용하세요. 렌즈 색만으로 자외선 차단 성능을 판단하지 마세요.",
+        "en": "Wear comfortably at the nose and temples. Dark lenses alone do not establish UV protection.",
+        "de": "Bequem auf Nase und an den Schläfen tragen. Dunkle Gläser allein belegen keinen UV-Schutz."
+      },
+      "altKo": "블랙 직사각 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "earrings",
+      "nameKo": "골드 후프 귀걸이",
+      "designDescriptionEn": "Matching pair of small thick rounded gold-tone hoop earrings",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "골드 후프 귀걸이",
+        "en": "Rounded gold-tone hoops",
+        "de": "Runde goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 후프 귀걸이의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Matching pair of small thick rounded gold-tone hoop earrings. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Runde goldfarbene Creolen. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "jewelry",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-03.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 28994,
+      "sha256": "af3236e83eddad1fda5ce50057412cfcd75f03686588e071393d5cdabcfe764d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "두툼한 골드 후프는 귓불 가까이 작게 달아, 짧은 머리 옆에서 동그란 금빛이 또렷하게 보이게 하세요.",
+        "en": "Wear the chunky gold-tone hoops small and close to the lobe, so the rounded gold reads clearly beside the cropped hair.",
+        "de": "Die kräftigen goldfarbenen Creolen klein und nah am Ohrläppchen tragen, damit das runde Gold neben dem kurzen Haar klar zur Geltung kommt."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "골드 후프 귀걸이 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

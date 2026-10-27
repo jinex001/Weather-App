@@ -1,0 +1,483 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-street-20261027-01",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal urban facades and dry paving; no humidity measurement."
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved sunglasses-v2 and authorized workflow 1–10 in conversation on 2026-10-27. Product review is producer review, no per-product user approval claimed.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "433a784d378a6c175c3f472ad446a8842b14c108f570e549534bba02f6af8dc0",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 8,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-street-20261027-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-sunny-pleasant-female-day-street-20261027.js",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T15:48:08.475905+00:00",
+    "scope": "All 34 products on white/black/gray/#F3EFE8 composites vs the five approved editorials (VISUAL_REVIEW.json).",
+    "note": "The delivered metadata flag visualReviewComplete:false predates this review."
+  },
+  "copy": {
+    "titleEn": "ECRU AND CHARCOAL, A BRIEF PAUSE",
+    "titleKo": "에크루와 차콜, 잠깐 멈춘 발걸음",
+    "caption": {
+      "ko": "에크루와 차콜, 잠깐 멈춘 발걸음",
+      "en": "Ecru and charcoal, mid-step and paused.",
+      "de": "Ecru und Anthrazit, eine kurze Pause"
+    },
+    "intro": {
+      "ko": "신발 끈을 다시 묶는 짧은 틈. 에크루 셔츠와 블랙 탱크톱, 여유로운 차콜 카고에 오벌 선글라스로 맑은 낮의 스트리트 룩을 완성했어요.",
+      "en": "A quick pause to retie a shoelace. An ecru shirt, black tank and loose charcoal cargos meet oval sunglasses for a clear daytime street look.",
+      "de": "Eine kurze Pause zum Schnürsenkelbinden. Ecrufarbenes Hemd, schwarzes Tanktop und lockere Cargohose in Anthrazit ergeben mit ovaler Sonnenbrille einen Look für den klaren Tag."
+    },
+    "pullQuoteEn": "RETIE, THEN KEEP GOING.",
+    "tip": {
+      "ko": "웅크려 앉아도 셔츠와 카고가 당기지 않을 만큼 여유 있는 품을 고르고, 크로스백은 무릎에 닿지 않게 짧게 메세요.",
+      "en": "Pick a shirt and cargos roomy enough not to pull when you crouch, and wear the crossbody short enough to stay clear of your knees.",
+      "de": "Hemd und Cargohose so weit wählen, dass in der Hocke nichts spannt, und die Umhängetasche so kurz tragen, dass sie die Knie nicht berührt."
+    },
+    "sourceCopy": {
+      "ko": {
+        "title": "에크루와 차콜, 잠깐 멈춘 발걸음",
+        "caption": "에크루와 차콜, 잠깐 멈춘 발걸음",
+        "intro": "신발 끈을 다시 묶는 짧은 틈. 에크루 셔츠와 블랙 탱크톱, 여유로운 차콜 카고에 오벌 선글라스로 맑은 낮의 스트리트 룩을 완성했어요.",
+        "tip": "가벼운 소재와 편안한 품을 유지하고, 선글라스와 가방은 동작을 방해하지 않게 정돈하세요."
+      },
+      "en": {
+        "title": "Ecru and charcoal, a brief pause",
+        "caption": "Ecru and charcoal, a brief pause",
+        "intro": "A quick pause to retie a shoelace. An ecru shirt, black tank and loose charcoal cargos meet oval sunglasses for a clear daytime street look.",
+        "tip": "Keep fabrics light and the fit easy, and position sunglasses and bags so they do not get in the way."
+      },
+      "de": {
+        "title": "Ecru und Anthrazit, eine kurze Pause",
+        "caption": "Ecru und Anthrazit, eine kurze Pause",
+        "intro": "Eine kurze Pause zum Schnürsenkelbinden. Ecrufarbenes Hemd, schwarzes Tanktop und lockere Cargohose in Anthrazit ergeben mit ovaler Sonnenbrille einen Look für den klaren Tag.",
+        "tip": "Leichte Stoffe und eine bequeme Passform wählen; Sonnenbrille und Tasche so tragen, dass sie die Bewegung nicht stören."
+      }
+    },
+    "refinements": "title = producer English title in capitals; en caption reworded so it no longer repeats the title; tips rewritten per look (source tip was identical in all five looks); pull quote added; every product how-to-wear rewritten item-specific from the editorial in ko/en/de (source drafts repeated per category, kept as sourceHowToWear)."
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "nameKo": "에크루 코튼 오버셔츠",
+      "designDescriptionEn": "Ecru relaxed cotton overshirt, pointed collar, off-white buttons, long sleeves, softly rumpled fabric",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "에크루 코튼 오버셔츠",
+        "en": "Ecru cotton overshirt",
+        "de": "Ecrufarbenes Baumwoll-Overshirt"
+      },
+      "description": {
+        "ko": "에크루 코튼 오버셔츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Ecru relaxed cotton overshirt, pointed collar, off-white buttons, long sleeves, softly rumpled fabric. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Ecrufarbenes Baumwoll-Overshirt. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.overshirt",
+      "image": "products/overshirt.webp",
+      "bytes": 33574,
+      "sha256": "6cad07f0fb30b5277c4ad29c5511032b3d602ed803fd10cef48a7708ae58fe12",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "outer",
+      "howToWear": {
+        "ko": "에크루 오버셔츠는 단추를 모두 풀어 블랙 탱크톱 위로 열어 두고, 소매는 팔꿈치 아래까지 한두 번 걷어 올리세요. 웅크려 앉아도 등과 어깨가 당기지 않는 넉넉한 품이 핵심이에요.",
+        "en": "Leave the ecru overshirt fully unbuttoned over the black tank and push the sleeves up once or twice to just below the elbow. A roomy fit that doesn't pull across the back when you crouch is what makes it work.",
+        "de": "Das ecrufarbene Overshirt ganz offen über dem schwarzen Tanktop tragen und die Ärmel ein- bis zweimal bis knapp unter den Ellbogen schieben. Entscheidend ist eine weite Passform, die auch in der Hocke am Rücken nicht spannt."
+      },
+      "sourceHowToWear": {
+        "ko": "앞을 열어 이너가 보이게 입고, 팔을 움직일 여유를 남기세요.",
+        "en": "Wear it open to show the inner layer and leave room for your arms to move.",
+        "de": "Offen tragen, damit die untere Lage sichtbar bleibt, und auf Bewegungsfreiheit an den Armen achten."
+      },
+      "altKo": "에크루 코튼 오버셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tank",
+      "nameKo": "블랙 리브 탱크톱",
+      "designDescriptionEn": "Black fitted ribbed scoop-neck tank top",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 리브 탱크톱",
+        "en": "Black ribbed tank",
+        "de": "Schwarzes Ripp-Tanktop"
+      },
+      "description": {
+        "ko": "블랙 리브 탱크톱의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Black fitted ribbed scoop-neck tank top. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarzes Ripp-Tanktop. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "top",
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.tank",
+      "image": "products/tank.webp",
+      "bytes": 16734,
+      "sha256": "94626e240e04c6b03cab8de9eedc4059da5fbf8fc9a2575d845a3485c42d6402",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "top",
+      "howToWear": {
+        "ko": "블랙 리브 탱크톱은 몸에 붙는 핏으로 골라 열린 셔츠 사이에 어두운 세로 띠처럼 보이게 하고, 밑단은 카고 팬츠 허리에 살짝 걸치세요.",
+        "en": "Choose the black ribbed tank close-fitting so it reads as a dark vertical strip between the open shirt fronts, with the hem resting just over the cargo waistband.",
+        "de": "Das schwarze Ripp-Tanktop eng anliegend wählen, damit es zwischen den offenen Hemdhälften als dunkler Streifen wirkt; der Saum liegt knapp über dem Bund der Cargohose."
+      },
+      "sourceHowToWear": {
+        "ko": "품에 여유를 두고 하의와 자연스럽게 연결하세요. 겹쳐 입을 때는 이너가 당기지 않게 정돈하세요.",
+        "en": "Keep the fit easy through the body and let it meet the waistband naturally. Smooth the inner layer so it does not pull.",
+        "de": "Am Oberkörper etwas Weite lassen und den Saum locker zum Hosenbund tragen. Die untere Lage glattziehen, damit nichts spannt."
+      },
+      "altKo": "블랙 리브 탱크톱 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "cargo-pants",
+      "nameKo": "차콜 카고 팬츠",
+      "designDescriptionEn": "Washed charcoal loose cargo pants with large flap thigh pockets",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "차콜 카고 팬츠",
+        "en": "Charcoal cargo trousers",
+        "de": "Anthrazitfarbene Cargohose"
+      },
+      "description": {
+        "ko": "차콜 카고 팬츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Washed charcoal loose cargo pants with large flap thigh pockets. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Anthrazitfarbene Cargohose. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.cargo-pants",
+      "image": "products/cargo-pants.webp",
+      "bytes": 31596,
+      "sha256": "36d263a9fc4dfa353bd8a83a297ae643efcb8ca038d88d594c3c1e09b6ba789b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bottom",
+      "howToWear": {
+        "ko": "차콜 카고는 허벅지 플랩 주머니가 옆선에 오도록 여유 있게 입고, 밑단은 접지 않고 스니커즈 위로 자연스럽게 떨어지게 두세요.",
+        "en": "Wear the charcoal cargos loose with the flap pockets sitting on the side of the thigh, and let the unrolled hems fall softly over the sneakers.",
+        "de": "Die anthrazitfarbene Cargohose locker tragen, sodass die Pattentaschen seitlich am Oberschenkel sitzen, und die Säume ungekrempelt weich über die Sneaker fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "허리는 편안하게 맞추고 앉거나 걸을 때 허벅지와 무릎이 당기지 않는지 확인하세요.",
+        "en": "Choose a comfortable waist fit with enough room at the thighs and knees for sitting and walking.",
+        "de": "Den Bund bequem wählen und an Oberschenkeln und Knien genügend Platz zum Sitzen und Gehen lassen."
+      },
+      "altKo": "차콜 카고 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "nameKo": "오프화이트 캔버스 스니커즈",
+      "designDescriptionEn": "Pair of off-white low-top canvas sneakers, off-white laces and rubber toe caps, thin dark sole stripe",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "오프화이트 캔버스 스니커즈",
+        "en": "Off-white canvas sneakers",
+        "de": "Cremeweiße Canvas-Sneaker"
+      },
+      "description": {
+        "ko": "오프화이트 캔버스 스니커즈의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Pair of off-white low-top canvas sneakers, off-white laces and rubber toe caps, thin dark sole stripe. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Cremeweiße Canvas-Sneaker. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 36490,
+      "sha256": "1399f951ab6713e6f9bf4e967251057f3de287110121b2b7d4fc83263427c891",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "shoes",
+      "howToWear": {
+        "ko": "오프화이트 스니커즈는 끈을 위까지 고르게 끼워 리본을 짧게 묶으세요. 어두운 카고 밑단 아래로 흰 앞코가 드러나야 룩이 가벼워 보여요.",
+        "en": "Lace the off-white sneakers evenly to the top and tie a short bow; the pale toe caps peeking out under the dark cargo hems keep the look light.",
+        "de": "Die cremeweißen Sneaker bis oben gleichmäßig schnüren und eine kurze Schleife binden; die hellen Zehenkappen unter den dunklen Cargo-Säumen halten den Look leicht."
+      },
+      "sourceHowToWear": {
+        "ko": "두 신발의 끈을 고르게 조이고, 걸을 때 밑단이 신발 아래로 끌리지 않게 정돈하세요.",
+        "en": "Lace both shoes evenly and keep the trouser hems from dragging beneath the soles.",
+        "de": "Beide Schuhe gleichmäßig schnüren und die Hosensäume so ordnen, dass sie nicht unter die Sohlen geraten."
+      },
+      "altKo": "오프화이트 캔버스 스니커즈 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "nameKo": "블랙 나일론 크로스백",
+      "designDescriptionEn": "Compact black nylon zipped crossbody bag with broad black webbing strap",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 나일론 크로스백",
+        "en": "Black nylon crossbody bag",
+        "de": "Schwarze Nylon-Umhängetasche"
+      },
+      "description": {
+        "ko": "블랙 나일론 크로스백의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Compact black nylon zipped crossbody bag with broad black webbing strap. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarze Nylon-Umhängetasche. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.crossbody",
+      "image": "products/crossbody.webp",
+      "bytes": 36012,
+      "sha256": "ad0f1e80a50a64493b84e75f1e218d7dab9affe853863ab0f94a611d3ef7591e",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bag",
+      "howToWear": {
+        "ko": "블랙 나일론 크로스백은 넓은 스트랩을 어깨에서 사선으로 메고 가방을 골반 앞쪽에 두세요. 쪼그려 앉을 때도 무릎에 닿지 않게 길이를 짧게 맞추면 편해요.",
+        "en": "Sling the black nylon bag across the body on its wide strap with the pouch resting at the front of the hip. A shorter strap keeps it clear of your knees when you crouch.",
+        "de": "Die schwarze Nylontasche am breiten Riemen quer über den Körper tragen, die Tasche vorn an der Hüfte. Ein kürzer eingestellter Riemen hält sie auch in der Hocke von den Knien fern."
+      },
+      "sourceHowToWear": {
+        "ko": "스트랩이 꼬이지 않게 정돈하고, 움직일 때 가방이 과하게 흔들리지 않도록 길이를 맞추세요.",
+        "en": "Straighten the strap and adjust its length so the bag moves comfortably at your side.",
+        "de": "Den Riemen entwirren und die Länge so einstellen, dass sich die Tasche seitlich bequem mitbewegt."
+      },
+      "altKo": "블랙 나일론 크로스백 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "nameKo": "블랙 오벌 선글라스",
+      "designDescriptionEn": "Black narrow oval sunglasses with dark lenses",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 오벌 선글라스",
+        "en": "Black oval sunglasses",
+        "de": "Schwarze ovale Sonnenbrille"
+      },
+      "description": {
+        "ko": "블랙 오벌 선글라스의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Black narrow oval sunglasses with dark lenses. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Schwarze ovale Sonnenbrille. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 15960,
+      "sha256": "88915cb80e6489e06ff16381007e5ff3473430fb2f6eacfde0b7838ffeefff29",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "블랙 오벌 선글라스는 얼굴에 바로 써서 곱슬머리와 금빛 후프 사이를 날렵한 검은 선으로 정리하세요. 몸을 숙여도 흘러내리지 않게 콧등에 잘 맞는지 확인하세요.",
+        "en": "Wear the black oval sunglasses on your face, a narrow dark line between the curls and the gold hoops. Check they sit snugly on the bridge of the nose so they stay put when you bend down.",
+        "de": "Die schwarze ovale Sonnenbrille aufsetzen – eine schmale dunkle Linie zwischen Locken und goldenen Creolen. Darauf achten, dass sie fest auf dem Nasenrücken sitzt und beim Bücken nicht rutscht."
+      },
+      "sourceHowToWear": {
+        "ko": "코받침과 다리가 편안하게 맞도록 눈에 착용하세요. 렌즈 색만으로 자외선 차단 성능을 판단하지 마세요.",
+        "en": "Wear comfortably at the nose and temples. Dark lenses alone do not establish UV protection.",
+        "de": "Bequem auf Nase und an den Schläfen tragen. Dunkle Gläser allein belegen keinen UV-Schutz."
+      },
+      "altKo": "블랙 오벌 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "earrings",
+      "nameKo": "골드 후프 귀걸이",
+      "designDescriptionEn": "Matching pair of medium thin gold-tone hoop earrings",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "골드 후프 귀걸이",
+        "en": "Gold-tone hoop earrings",
+        "de": "Goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 후프 귀걸이의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Matching pair of medium thin gold-tone hoop earrings. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Goldfarbene Creolen. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "jewelry",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 31006,
+      "sha256": "9f7fd58339ab601fed486b567dadd7738f006bdb9114eeeb3ca622d20339fe70",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "골드 후프 귀걸이는 양쪽에 같은 크기로 달아 곱슬머리 사이로 살짝 보이게 하세요. 목걸이와 같은 금색 톤이면 액세서리가 하나로 묶여요.",
+        "en": "Wear the gold-tone hoops as a matching pair so they flash through the curls; keeping them in the same gold as the necklace ties the jewellery together.",
+        "de": "Die goldfarbenen Creolen paarweise tragen, sodass sie zwischen den Locken aufblitzen; im selben Goldton wie die Kette wirkt der Schmuck wie aus einem Guss."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "골드 후프 귀걸이 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "necklace",
+      "nameKo": "골드 펜던트 목걸이",
+      "designDescriptionEn": "Fine gold-tone chain necklace with small rounded coin pendant",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "골드 펜던트 목걸이",
+        "en": "Gold-tone pendant necklace",
+        "de": "Goldfarbene Kette mit Anhänger"
+      },
+      "description": {
+        "ko": "골드 펜던트 목걸이의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Fine gold-tone chain necklace with small rounded coin pendant. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Goldfarbene Kette mit Anhänger. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "jewelry",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-01.necklace",
+      "image": "products/necklace.webp",
+      "bytes": 32224,
+      "sha256": "317522aa52276fcd9aa4b84d4577c1bb9b37d8c6b31b596d6039100c8ca63e35",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "골드 펜던트 목걸이는 탱크톱의 둥근 목선 위, 쇄골 아래에 코인이 오도록 짧게 거세요. 열린 셔츠 칼라 사이에 작게 걸리는 포인트면 충분해요.",
+        "en": "Wear the gold-tone pendant short, with the coin landing just below the collarbone above the tank's scoop neck – a small point framed by the open collar.",
+        "de": "Die goldfarbene Kette kurz tragen, sodass der Münzanhänger knapp unter dem Schlüsselbein über dem runden Ausschnitt des Tanktops liegt – ein kleiner Akzent im offenen Kragen."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "골드 펜던트 목걸이 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

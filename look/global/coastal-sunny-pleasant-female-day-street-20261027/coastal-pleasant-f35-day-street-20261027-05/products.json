@@ -1,0 +1,393 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-street-20261027-05",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved bright coastal urban facades and dry paving; no humidity measurement."
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved sunglasses-v2 and authorized workflow 1–10 in conversation on 2026-10-27. Product review is producer review, no per-product user approval claimed.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7528048cd7d61725761be4ad9114f89138f12538b656043e7dd9b91a70b2fbaf",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-street-20261027-05",
+  "appStyle": "street",
+  "appModule": "look/coastal-sunny-pleasant-female-day-street-20261027.js",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-27T15:48:08.475905+00:00",
+    "scope": "All 34 products on white/black/gray/#F3EFE8 composites vs the five approved editorials (VISUAL_REVIEW.json).",
+    "note": "The delivered metadata flag visualReviewComplete:false predates this review."
+  },
+  "copy": {
+    "titleEn": "SAGE AND CREAM, THROUGH THE DOORWAY",
+    "titleKo": "세이지와 크림, 문을 지나며",
+    "caption": {
+      "ko": "세이지와 크림, 문을 지나며",
+      "en": "Sage and cream, on the way through the door.",
+      "de": "Salbeigrün und Creme, durch die Tür"
+    },
+    "intro": {
+      "ko": "문을 지나며 어깨 너머로 돌아본 순간. 세이지 반소매 셔츠와 크림 팬츠에 브라운 크로스백을 더하고 선글라스는 손에 가볍게 들었어요.",
+      "en": "She glances back as she passes through a doorway. A sage short-sleeve shirt and cream trousers meet a brown crossbody bag, sunglasses held loosely in one hand.",
+      "de": "Beim Gang durch die Tür blickt sie über die Schulter zurück. Salbeigrünes Kurzarmhemd und cremefarbene Hose ergänzt sie mit brauner Umhängetasche; die Sonnenbrille hält sie locker in der Hand."
+    },
+    "pullQuoteEn": "ONE LOOK BACK, THEN INSIDE.",
+    "tip": {
+      "ko": "실내외를 오갈 땐 선글라스를 손이나 가방에 바로 넣을 수 있게 두고, 크로스백은 등 뒤로 메어 두 손을 비워 두세요.",
+      "en": "Going in and out, keep the sunglasses where they can go straight into a hand or bag, and wear the crossbody to the back to keep both hands free.",
+      "de": "Beim Wechsel zwischen drinnen und draußen die Sonnenbrille griffbereit halten und die Umhängetasche nach hinten tragen, damit beide Hände frei bleiben."
+    },
+    "sourceCopy": {
+      "ko": {
+        "title": "세이지와 크림, 문을 지나며",
+        "caption": "세이지와 크림, 문을 지나며",
+        "intro": "문을 지나며 어깨 너머로 돌아본 순간. 세이지 반소매 셔츠와 크림 팬츠에 브라운 크로스백을 더하고 선글라스는 손에 가볍게 들었어요.",
+        "tip": "가벼운 소재와 편안한 품을 유지하고, 선글라스와 가방은 동작을 방해하지 않게 정돈하세요."
+      },
+      "en": {
+        "title": "Sage and cream, through the doorway",
+        "caption": "Sage and cream, through the doorway",
+        "intro": "She glances back as she passes through a doorway. A sage short-sleeve shirt and cream trousers meet a brown crossbody bag, sunglasses held loosely in one hand.",
+        "tip": "Keep fabrics light and the fit easy, and position sunglasses and bags so they do not get in the way."
+      },
+      "de": {
+        "title": "Salbeigrün und Creme, durch die Tür",
+        "caption": "Salbeigrün und Creme, durch die Tür",
+        "intro": "Beim Gang durch die Tür blickt sie über die Schulter zurück. Salbeigrünes Kurzarmhemd und cremefarbene Hose ergänzt sie mit brauner Umhängetasche; die Sonnenbrille hält sie locker in der Hand.",
+        "tip": "Leichte Stoffe und eine bequeme Passform wählen; Sonnenbrille und Tasche so tragen, dass sie die Bewegung nicht stören."
+      }
+    },
+    "refinements": "title = producer English title in capitals; en caption reworded so it no longer repeats the title; tips rewritten per look (source tip was identical in all five looks); pull quote added; every product how-to-wear rewritten item-specific from the editorial in ko/en/de (source drafts repeated per category, kept as sourceHowToWear)."
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "nameKo": "세이지 유틸리티 셔츠",
+      "designDescriptionEn": "Light sage short sleeve cotton utility overshirt, pointed collar, button front, relaxed boxy shape",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "세이지 유틸리티 셔츠",
+        "en": "Sage utility shirt",
+        "de": "Salbeigrünes Utility-Hemd"
+      },
+      "description": {
+        "ko": "세이지 유틸리티 셔츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Light sage short sleeve cotton utility overshirt, pointed collar, button front, relaxed boxy shape. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Salbeigrünes Utility-Hemd. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "outer",
+      "appCategory": "outer",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-05.overshirt",
+      "image": "products/overshirt.webp",
+      "bytes": 34672,
+      "sha256": "f3df451286bd517056a186fc6d232336dce33ae096a4805354fcebbd5d213176",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "outer",
+      "howToWear": {
+        "ko": "세이지 반소매 셔츠는 소매를 한 번 접어 올리고 밑단은 팬츠 밖으로 내어 입으세요. 각진 박시한 품이 뒤에서 봐도 가볍게 떨어져요.",
+        "en": "Turn the sleeves of the sage shirt up once and wear the hem out over the trousers; the boxy cut falls lightly even from behind.",
+        "de": "Die Ärmel des salbeigrünen Hemds einmal umschlagen und den Saum über der Hose tragen; der kastige Schnitt fällt auch von hinten leicht."
+      },
+      "sourceHowToWear": {
+        "ko": "앞을 열어 이너가 보이게 입고, 팔을 움직일 여유를 남기세요.",
+        "en": "Wear it open to show the inner layer and leave room for your arms to move.",
+        "de": "Offen tragen, damit die untere Lage sichtbar bleibt, und auf Bewegungsfreiheit an den Armen achten."
+      },
+      "altKo": "세이지 유틸리티 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "nameKo": "크림 코튼 팬츠",
+      "designDescriptionEn": "Cream loose cotton trousers with rear patch pockets and belt loops",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "크림 코튼 팬츠",
+        "en": "Cream cotton trousers",
+        "de": "Cremefarbene Baumwollhose"
+      },
+      "description": {
+        "ko": "크림 코튼 팬츠의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Cream loose cotton trousers with rear patch pockets and belt loops. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Cremefarbene Baumwollhose. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bottom",
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-05.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 24186,
+      "sha256": "3a239cb4ad4ba8b95ec6a49f662a6ae3a1bfce59cc09f25ece022b05acc217eb",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bottom",
+      "howToWear": {
+        "ko": "크림 코튼 팬츠는 허리에 맞게 입고 통이 곧게 떨어지게 두세요. 셔츠 밑단을 짧게 두어 뒷주머니가 드러나면 뒷모습이 깔끔해요.",
+        "en": "Wear the cream cotton trousers at the waist with a straight, easy leg; keeping the shirt hem short so the back pocket shows makes the rear view neat.",
+        "de": "Die cremefarbene Baumwollhose in der Taille tragen und gerade fallen lassen; ein kurzer Hemdsaum, der die Gesäßtasche freilässt, macht die Rückansicht klar."
+      },
+      "sourceHowToWear": {
+        "ko": "허리는 편안하게 맞추고 앉거나 걸을 때 허벅지와 무릎이 당기지 않는지 확인하세요.",
+        "en": "Choose a comfortable waist fit with enough room at the thighs and knees for sitting and walking.",
+        "de": "Den Bund bequem wählen und an Oberschenkeln und Knien genügend Platz zum Sitzen und Gehen lassen."
+      },
+      "altKo": "크림 코튼 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "nameKo": "탠 스웨이드 스니커즈",
+      "designDescriptionEn": "Pair of tan suede low-top sneakers with cream laces and gum rubber soles",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "탠 스웨이드 스니커즈",
+        "en": "Tan suede-look sneakers",
+        "de": "Hellbraune Sneaker in Veloursoptik"
+      },
+      "description": {
+        "ko": "탠 스웨이드 스니커즈의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Pair of tan suede low-top sneakers with cream laces and gum rubber soles. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Hellbraune Sneaker in Veloursoptik. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "shoes",
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-05.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 43412,
+      "sha256": "77e6311b81901c75b59b7cc105a9f946a4650ba42d0a95435eba3dae6c2e2758",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "shoes",
+      "howToWear": {
+        "ko": "탠 스웨이드 스니커즈는 크림 팬츠 밑단이 신발 등에 살짝 닿게 맞추고 끈은 단정하게 묶으세요. 따뜻한 갈색이 크로스백과 이어져요.",
+        "en": "Let the cream hems just touch the tops of the tan suede-look sneakers and tie the laces neatly; their warm brown echoes the crossbody.",
+        "de": "Die cremefarbenen Säume knapp auf den hellbraunen Sneakern aufliegen lassen und die Schnürsenkel ordentlich binden; das warme Braun greift die Umhängetasche auf."
+      },
+      "sourceHowToWear": {
+        "ko": "두 신발의 끈을 고르게 조이고, 걸을 때 밑단이 신발 아래로 끌리지 않게 정돈하세요.",
+        "en": "Lace both shoes evenly and keep the trouser hems from dragging beneath the soles.",
+        "de": "Beide Schuhe gleichmäßig schnüren und die Hosensäume so ordnen, dass sie nicht unter die Sohlen geraten."
+      },
+      "altKo": "탠 스웨이드 스니커즈 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "nameKo": "브라운 크로스백",
+      "designDescriptionEn": "Espresso brown compact rounded rectangular crossbody bag, rounded zip top and thin brown adjustable strap",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "브라운 크로스백",
+        "en": "Brown crossbody bag",
+        "de": "Braune Umhängetasche"
+      },
+      "description": {
+        "ko": "브라운 크로스백의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Espresso brown compact rounded rectangular crossbody bag, rounded zip top and thin brown adjustable strap. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Braune Umhängetasche. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "bag",
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-05.crossbody",
+      "image": "products/crossbody.webp",
+      "bytes": 47306,
+      "sha256": "8c1c9d05f8f7288e74098c2122a686ec5414babe3bfb47ffee96171c38de4ac0",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "bag",
+      "howToWear": {
+        "ko": "브라운 크로스백은 얇은 끈을 사선으로 메어 가방이 등 뒤 골반 높이에 오게 하세요. 문을 밀거나 열쇠를 꺼낼 때 두 손이 자유로워요.",
+        "en": "Wear the brown crossbody on its thin strap across the body with the bag sitting at the back of the hip, leaving both hands free for the door and keys.",
+        "de": "Die braune Umhängetasche am schmalen Riemen quer tragen, sodass sie hinten auf Hüfthöhe sitzt – so bleiben beide Hände für Tür und Schlüssel frei."
+      },
+      "sourceHowToWear": {
+        "ko": "스트랩이 꼬이지 않게 정돈하고, 움직일 때 가방이 과하게 흔들리지 않도록 길이를 맞추세요.",
+        "en": "Straighten the strap and adjust its length so the bag moves comfortably at your side.",
+        "de": "Den Riemen entwirren und die Länge so einstellen, dass sich die Tasche seitlich bequem mitbewegt."
+      },
+      "altKo": "브라운 크로스백 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "nameKo": "토터스 선글라스",
+      "designDescriptionEn": "Brown tortoiseshell rounded sunglasses with dark brown lenses",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "토터스 선글라스",
+        "en": "Rounded tortoiseshell sunglasses",
+        "de": "Runde Sonnenbrille in Havannaoptik"
+      },
+      "description": {
+        "ko": "토터스 선글라스의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Brown tortoiseshell rounded sunglasses with dark brown lenses. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Runde Sonnenbrille in Havannaoptik. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-05.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 21542,
+      "sha256": "d1493ecd305bf482b79b5885b6b66b9de37d93cc147b090fe5518a080c8e6a58",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "토터스 선글라스는 실내로 들어서며 벗어 한쪽 다리를 손가락에 가볍게 걸어 드세요. 렌즈를 쥐지 않으면 자국 없이 다시 쓸 수 있어요.",
+        "en": "Take the round tortoiseshell sunglasses off as you step inside and hook one temple loosely over your fingers; not gripping the lenses keeps them clean for later.",
+        "de": "Die runde Havanna-Sonnenbrille beim Hineingehen abnehmen und an einem Bügel locker zwischen den Fingern halten; ohne die Gläser anzufassen, lässt sie sich später ohne Abdrücke wieder aufsetzen."
+      },
+      "sourceHowToWear": {
+        "ko": "한쪽 다리를 가볍게 쥐고 렌즈를 누르지 않도록 드세요.",
+        "en": "Hold one temple gently without pressing the lenses.",
+        "de": "An einem Bügel locker halten, ohne auf die Gläser zu drücken."
+      },
+      "altKo": "토터스 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "earrings",
+      "nameKo": "골드 후프 귀걸이",
+      "designDescriptionEn": "Matching pair of small gold-tone hoop earrings",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Visible color, construction and texture from approved editorial; hidden backs, complete lengths, exact fiber composition and opposite paired item are reconstructed, not verified.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "골드 후프 귀걸이",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 후프 귀걸이의 에디토리얼 기반 복원 이미지. 가려진 디테일과 전체 길이는 추정이며 실제 판매 정보는 확인되지 않았습니다.",
+        "en": "Matching pair of small gold-tone hoop earrings. Reconstructed from the editorial; hidden details and full dimensions are inferred, with no verified retail identity.",
+        "de": "Kleine goldfarbene Creolen. Anhand des Editorials rekonstruiert; verdeckte Details und vollständige Maße sind ergänzt, das Handelsprodukt ist nicht bestätigt."
+      },
+      "category": "accessory",
+      "appCategory": "jewelry",
+      "appItemId": "coastal-pleasant-f35-day-street-20261027-05.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 33676,
+      "sha256": "1422b4d0dde47b05eaa9e56b82aa76a34d080f45e4aa8f68fa73b2b4382ef363",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "producerCategory": "accessory",
+      "howToWear": {
+        "ko": "골드 후프는 작은 크기로 골라 땋은 머리를 뒤로 묶어 귀가 드러나게 하세요. 브라운 가방의 금색 고리와 톤이 이어져요.",
+        "en": "Choose small gold-tone hoops and pull the braids back so the ears show; the gold picks up the gold-tone hardware on the brown bag.",
+        "de": "Kleine goldfarbene Creolen wählen und die Zöpfe zurücknehmen, damit die Ohren frei sind; das Gold greift die goldfarbenen Beschläge der braunen Tasche auf."
+      },
+      "sourceHowToWear": {
+        "ko": "사진의 위치를 참고해 가볍게 더하고, 피부나 의상을 누르거나 걸리지 않게 정돈하세요.",
+        "en": "Use the placement in the photograph as a guide and keep the accessory from pressing or catching on clothing.",
+        "de": "Die Position im Foto als Orientierung nehmen und darauf achten, dass das Accessoire weder drückt noch an der Kleidung hängen bleibt."
+      },
+      "altKo": "골드 후프 귀걸이 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}
