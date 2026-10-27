@@ -21,3 +21,12 @@ Serve repository root with a simple static server and visit `/pilot/pilot-test.h
 3. Implement preference-ranked climate/region matching with safe fallbacks.
 4. Run regressions on weather, rain, day/night, style, saved IDs and editorial-product references.
 5. Only then migrate the rest; leave historical paths intact. Do not merge to main before review.
+
+## Phase 2 - canonical metadata + gated runtime integration (2026-10-27)
+
+- `look/outfits.js`: three existing outfits now contain `climateContext` and `visualRegion` directly; IDs, image paths and product mappings preserved.
+- `index.html`: added `climatePilotEligible()` inside the real `lookFits()` pipeline. Only enabled using `?globalClimatePilot=1`; normal use remains unchanged.
+- Matching requires an explicit matching thermal band, sky and period for the tagged outfits. Unknown humidity/wind are not guessed. Untagged legacy outfits remain in the original pool.
+- `design/IMAGE_STYLE.md` and `design/look-library.md` document the new rules and compatibility constraints.
+
+**Verification status:** Changes committed on the pilot branch. Real-browser app regression, weather API tests, and full asset/product visual checks are *not verified yet*. The pilot fixture validates only synthetic weather contexts, not current city forecasts. Do not merge/deploy until these are completed.
