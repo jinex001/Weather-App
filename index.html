@@ -1160,6 +1160,18 @@
     return "pouring";
   }
   // Looks of one style and gender that fit the view, each with its sky rank (sr) and fit (lower is better)
+  // Global climate pilot: opt-in on the branch via ?globalClimatePilot=1.
+  // Off by default. Untagged legacy outfits retain the existing selection behavior.
+  function climatePilotEligible(o, v) {
+    if (!/(?:[?&])globalClimatePilot=1(?:&|$)/.test(location.search)) return true;
+    var c = o.climateContext;
+    if (!c) return true;
+    if (c.thermalBand && c.thermalBand !== v.band[1]) return false;
+    if (c.period && c.period !== (v.evening ? "night" : "day")) return false;
+    if (c.sky && c.sky !== (v.rain ? "rain" : (v.clear ? "clear" : "cloudy"))) return false;
+    // Do not infer humidity or wind tolerances from the stored Berlin location.
+    return true;
+  }
   function lookFits(v, style, g) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
     var mine = LIB.outfits.filter(function (o) { return o.style === style && o.gender === g; });
@@ -1173,7 +1185,7 @@
     }
     (timed.length ? timed : mine).forEach(function (o) {
       var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); })), sr = skyRank(o);
-      if (near <= 1 && sr >= 0) list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0) });
+      if (near <= 1 && sr >= 0 && climatePilotEligible(o, v)) list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0) });
     });
     return list;
   }
