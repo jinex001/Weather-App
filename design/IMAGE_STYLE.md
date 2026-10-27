@@ -2,7 +2,7 @@
 
 사용자가 승인한 기본 사진 스타일. 이후 날씨앱 에디토리얼 이미지 제작 시 이 문서를 기준으로 삼는다.
 
-기준: 베를린 가을밤 남성 30대, 기온 7°C / 체감 3°C 수정 세트의 촬영 언어. 도시·성별·연령·계절·시간·날씨·기온은 매 요청의 입력값으로 바꾼다. 밤이나 남성으로 고정하지 않는다.
+기준: 베를린 가을밤 남성 30대, 기온 7°C / 체감 3°C 수정 세트의 촬영 언어. 신규 생성은 climateContext와 visualRegion, 성별·연령·시간·날씨·기온을 매 요청의 입력값으로 사용한다. 도시명은 선택적 출처이며 필수 생성 기준이 아니다(12장, 2026-10-27). 밤이나 남성으로 고정하지 않는다.
 
 ## 1. 핵심 방향
 
@@ -124,7 +124,7 @@ Do not force cropped footwear or accessories back into frame.
 - 낮에는 실제 낮의 주변광을 유지하며 플래시로 인물을 강조한다.
 - 밤에는 어두운 하늘과 낮은 주변광, 가로등·상점 불빛 위에 강한 직광 플래시를 더한다.
 - 맑음이라고 바닥을 일부러 젖게 만들지 않는다. 비·눈·바람은 입력된 조건에 맞춘다.
-- 베를린은 생활 거리, 공원, 주택 출입구, 동네 가게 등으로 표현한다.
+- 배경은 visualRegion에 맞는 생활 거리·주택 출입구·동네 가게 일부로 표현한다. 기존 베를린 사례는 보존한다.
 
 승인된 추운 밤 예시(기온 7°C / 체감 3°C):
 
@@ -172,7 +172,9 @@ Do not force cropped footwear or accessories back into frame.
 Use case: photorealistic-natural.
 Create ONE independent fashion editorial photograph for a weather app.
 
-Scene: {CITY}, {SEASON}, {TIME_OF_DAY}, {WEATHER}.
+Scene: everyday urban life, {VISUAL_REGION}, {TIME_OF_DAY}, {WEATHER}.
+Climate context: {FEELS_LIKE_BAND}, {HUMID_DRY_OR_UNKNOWN}, {WIND_AND_PRECIPITATION}.
+Optional seasonal context: {SEASON_OR_UNSPECIFIED}; never infer wardrobe from month or city.
 Actual temperature {TEMPERATURE_C} C, feels like {FEELS_LIKE_C} C.
 Audience age group: {TARGET_AGE_GROUP}; keep this separate from model casting.
 Subject: {SUBJECT_GROUP}, model appearance age {MODEL_APPEARANCE_AGE}.
@@ -308,7 +310,7 @@ Preserve alpha edges and fine material texture; document any size exception.
 
 ## 9. 제작 전후 확인
 
-- 도시·날씨·시간·실제 기온·체감온도·대상 연령·스타일을 기록했는가?
+- climateContext·visualRegion·날씨·시간·실제 기온·체감온도·대상 연령·스타일을 기록했는가? (도시명은 선택적 출처)
 - 타깃 연령과 모델 외관 연령을 분리했는가? 35+ 타깃의 기본 모델 외관은 여성 약 25–28세, 남성 약 28–32세인가?
 - 착장이 체감온도와 활동에 맞고, 사진에 보이는 아이템과 설명이 일치하는가?
 - 시선과 행동, 프레이밍이 시리즈 안에서 다양하게 구성됐는가?
@@ -364,7 +366,7 @@ Preserve alpha edges and fine material texture; document any size exception.
 | 지역 | 배경에 은은하게 드러낼 단서 |
 | --- | --- |
 | 유럽 | 유럽식 생활 거리, 자갈·석재 포장길, 주택 출입구와 동네 가게의 일부 |
-| 동아시아 | 서울풍 도시 거리, 작은 상점과 컬러 간판의 일부, 간판 색과 배치가 만드는 거리의 분위기 |
+| 동아시아 | 특정 도시를 지목하지 않는 동아시아 생활 거리, 작은 상점과 컬러 간판의 일부, 간판 색과 배치가 만드는 거리의 분위기 |
 
 - 지역성은 화면의 10–20% 안에서 전달한다.
 - 유명 랜드마크, 관광 명소, 기념물은 배제한다.
@@ -398,7 +400,7 @@ Preserve alpha edges and fine material texture; document any size exception.
 
 다음 항목은 매 요청의 조건으로 분리한다.
 
-- 도시·지역 배경
+- climateContext와 visualRegion 기반 배경 (도시명은 선택적 출처)
 - 계절·날씨·낮과 밤
 - 실제 기온·체감온도·습도·바람·강수
 - 활동량과 러닝·스트리트·미니멀 분류
@@ -430,7 +432,7 @@ Do not give every subject the same smile or camera-facing gesture.
 Regional background:
 {SUBTLE_REGIONAL_URBAN_CUES}.
 Europe: everyday European streets and cobbled or stone paving.
-East Asia: Seoul-like colorful shop-sign shapes and urban street details.
+East Asian urban: colorful shop-sign shapes and everyday urban details, without naming a city.
 Keep regional cues secondary and within the limited background area.
 No landmarks, readable lettering or brand logos.
 
@@ -509,6 +511,62 @@ photographic language and casting rules.
 - 이번 문서 변경은 기존 승인 에디토리얼·제품 이미지의 자동 교체나 앱 코드 변경을 의미하지 않는다.
 - 기존 JPG 제품을 전환할 때 원본을 기준으로 정리한 투명 WebP를 만들고 관련 데이터 경로·확장자를 함께 수정한다. 화면에서 다시 흰 배경 제거를 시도하거나 혼합 모드로 투명을 흉내 내지 않는다.
 - 변환 뒤 제품 연결·경로·실제 화면 합성·용량을 검증한 후 사용하지 않는 중복 배포본을 정리한다.
+
+## 12. 글로벌 생성 기준 — Climate context × Visual region (2026-10-27)
+
+제작 기준 문서(`IMAGE_STYLE.production.md` §15)에서 이 절만 병합했다(같은 날 위 1·3·6·9·10장의 도시 → 기후 맥락 문구도 함께). 이 절은 신규 생성의 도시 의존 지시를 대체한다. 기존 베를린 승인 사례·에디토리얼·제품·경로·고정 ID·승인 이력은 보존한다. 문서에 남은 베를린 사례는 촬영 언어의 참고이며 신규 생성의 필수 로케이션이 아니다. 기존 사진 수정 프롬프트의 도시 보존은 그 사진의 연속성 지시다. 앱 쪽 구현·선택 규칙은 `design/look-library.md` "글로벌 맥락", 매핑 절차는 `design/IMAGE_MAPPING_HANDOFF.md` 5-2장.
+
+### 생성 입력 계약
+
+- `climateContext`: 현재 장면의 체감 단계, 습도 맥락(`humid` / `dry` / `unknown`), 바람, 강수 유형·강도. 장기 기후대와 오늘의 날씨를 혼동하지 않는다. 실제 기온과 체감온도는 별도 기록하고 모르면 null. 체감 단계 경계는 앱 BAND 정의를 그대로 사용한다.
+- `visualRegion`: 배경의 건축·포장·상점 형태를 위한 시각적 분류. 기후·국적·인종·모델 캐스팅을 결정하지 않는다.
+- 날씨·시간·활동·스타일·성별·타깃 연령·모델 외관 연령은 독립 입력이다. 습도는 체감온도 계산을 중복 보정하는 값이 아니라 소재·쾌적성 판단의 맥락이다.
+- `sourceCity`: 실제 제작 요청의 도시가 알려졌을 때만 출처로 기록한다. 도시명은 필수 생성 입력·폴더 분할·이미지 선택 제한으로 사용하지 않는다. 허구의 측정값이나 도시를 채우지 않는다.
+- 계절은 선택적 맥락이다. 월이나 도시명만으로 계절·두꺼운 옷을 고정하지 않으며, 남반구·열대에도 실제 조건을 우선한다.
+- 생성에 넣은 기온·습도 맥락(예: 23°C / 체감 22°C / dry)은 **제작 가정**이다. 측정값으로 기록하지 않는다(`isLiveMeasurement: false`).
+
+### 초기 Visual region 어휘
+
+| 키 | 좁은 도시 배경의 단서 |
+| --- | --- |
+| `neutral-urban` | 특정 지역을 단정하지 않는 보도·벽·출입구·동네 상점 일부 |
+| `european-urban` | 석재·벽돌 외벽, 생활 거리·주택 출입구·포장면 일부 |
+| `east-asian-urban` | 밀도 있는 상점 전면·차양·컬러 간판 형태·도시 보도 일부 |
+| `warm-coastal-urban` | 밝은 외벽·그늘진 출입구·차양·도시 포장면 일부; 해변·리조트 화보로 전환하지 않음 |
+
+이는 확장 가능한 초기 제작 분류이며 전 세계를 완전히 대표하는 목록이 아니다. 도시 예시는 분류 설명용일 뿐 도시별 라이브러리를 만들지 않는다. 근거가 없으면 `neutral-urban`을 사용한다. 한 도시도 여러 시각적 환경을 가질 수 있고, 동일한 visualRegion에서도 더위·추위·건조·습함이 모두 가능하다.
+
+### 기존 Berlin 자산의 점진적 재사용
+
+- `look/berlin-complete/`는 기존 저장 네임스페이스다. 폴더명만으로 Berlin 전용 노출을 제한하지 않는다. 사진·제품 파일을 다시 생성하거나 이동·복사·개명하지 않는다.
+- 기존 자산은 날씨·체감 단계·활동·시간대의 적합성을 먼저 유지한다. 검토 없이 모든 자산을 `cool-humid`나 전 세계 공통으로 일괄 선언하지 않는다. 지금(b173) 기존 룩에는 지역·습도 메타데이터가 없다(= 미상, neutral이 아님).
+- 사진을 검토한 뒤 지역 단서를 `european-urban` 또는 `neutral-urban` 등으로 별도 매핑한다. 습도 근거가 없으면 `unknown`. 도시를 알아볼 수 있는 자산은 예외 목록에 기록하고 자동 수정하지 않는다.
+- 글로벌 배경 선호는 날씨·착장 적합성보다 뒤에서 적용한다. 맞는 지역 이미지가 없다는 이유로 따뜻한 날 추운 착장, 마른 날 비 전용 사진을 고르지 않는다. 기존 적합 룩은 지역 메타데이터 누락만으로 제외하지 않는다.
+- 새 세트의 저장 경로는 도시별로 늘리지 않는다. b173부터 `look/global/<batchId>/<lookId>/`(editorial.jpg · products/ · products.json)를 쓴다. 기후와 지역은 메타데이터(룩 모듈 + `look/global-context.js`)에 둔다.
+
+### 신규 생성 프롬프트의 필수 맥락 블록
+
+~~~text
+Scene: everyday urban life; visual region {VISUAL_REGION}.
+Climate context: feels-like band {FEELS_LIKE_BAND}; humidity context {HUMID_DRY_OR_UNKNOWN}.
+Time: {TIME_OF_DAY}; weather: {WEATHER}; precipitation: {TYPE_AND_INTENSITY}; wind: {WIND_OR_UNKNOWN}.
+Actual temperature: {TEMPERATURE_C_OR_UNKNOWN}; feels like: {FEELS_LIKE_C_OR_UNKNOWN}.
+Background cues: {SUBTLE_REGIONAL_URBAN_CUES}; keep them secondary.
+Choose materials and layers for the supplied conditions and activity.
+Do not derive weather, season, wardrobe or casting from a city name.
+Keep the established direct flash, close wide-angle perspective, varied crops,
+casting rules, tactile skin and fabric, and spontaneous everyday action.
+The person fills 80–90%; background, street and sky together occupy 10–20%.
+No landmarks, readable lettering, logos or tourist scenery.
+~~~
+
+### 글로벌 검수 추가 항목
+
+- 도시명 없이 기후 맥락·visualRegion·날씨·시간·활동을 재현할 수 있는가?
+- 습도·기온의 미상 값을 임의로 채우지 않았는가?
+- 배경·기후·캐스팅을 서로 독립적으로 결정했는가?
+- 기존 사진·제품·경로·ID·사용자 저장 상태를 그대로 유지했는가?
+- 지역 배경 부재를 이유로 날씨·보온·강수 조건을 완화하지 않았는가?
 
 
 ## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear

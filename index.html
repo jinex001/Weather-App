@@ -585,7 +585,9 @@
 <script src="look/rain-normal-male-day-running-20261026.js?v=b169"></script>
 <script src="look/rain-normal-male-night-running-20261026.js?v=b172"></script>
 <script src="look/rain-normal-male-night-street-20261026.js?v=b172"></script>
-<script src="look/cutouts.js?v=b172"></script>
+<script src="look/global-coastal-20261027.js?v=b173"></script>
+<script src="look/cutouts.js?v=b173"></script>
+<script src="look/global-context.js?v=b173"></script>
 <script>
 (function () {
   "use strict";
@@ -999,7 +1001,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b172";
+  var BUILD = "b173";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1159,6 +1161,12 @@
     if (c === 63 || c === 66 || c === 81) return "normal";
     return "pouring";
   }
+  // b173: global context (look/global-context.js) as soft ranks after the weather fit: climate (cr) then visual region
+  // (rr). Without that file, or with an unknown place/humidity, every look gets 0 = the choice before b173.
+  function softRanks(o, v) {
+    var G = window.WX_GLOBAL;
+    try { return G ? G.ranks(o, v) : [0, 0]; } catch (e) { return [0, 0]; }
+  }
   // Looks of one style and gender that fit the view, each with its sky rank (sr) and fit (lower is better)
   function lookFits(v, style, g) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
@@ -1173,7 +1181,7 @@
     }
     (timed.length ? timed : mine).forEach(function (o) {
       var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); })), sr = skyRank(o);
-      if (near <= 1 && sr >= 0) list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0) });
+      if (near <= 1 && sr >= 0) { var sk = softRanks(o, v); list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0), cr: sk[0], rr: sk[1] }); }
     });
     return list;
   }
@@ -1188,12 +1196,16 @@
     if (!list.length || best > 0) return [{ o: bandOutfit(v, pics), fit: 0, soon: soonLabel(v, list.length) }];
     // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
     // put until lookSeed changes: on app start and on each return to the app (b117: the home text shows the same pick))
-    var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || ""));
+    // b173: the place and climate context are part of the seed, so another city never keeps the old draw; the same weather
+    // fit sorts first, then climate (cr), then visual region (rr), then the random draw
+    var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || "") + "|" + (v.ctxKey || ""));
     list.forEach(function (e) { e.r = rnd(); });
-    list.sort(function (a, b) { return a.fit - b.fit || a.r - b.r; });
+    list.sort(function (a, b) { return a.fit - b.fit || (a.cr || 0) - (b.cr || 0) || (a.rr || 0) - (b.rr || 0) || a.r - b.r; });
     // b113: a calendar day opened from its card leads with the look that card's piece came from (the editor's pick),
-    // whatever style the profile has; the other two are drawn as usual
+    // whatever style the profile has; the other two are drawn as usual. b173: only while that look is still one of
+    // today's candidates (same weather rank), never forced in from other weather
     var pk = v.pick && v.pick.o.style === pics.style && v.pick.o.gender === pics.g ? v.pick.o : null;
+    if (pk && !list.some(function (e) { return e.o === pk; })) pk = null;
     if (pk) list = [{ o: pk, fit: 0 }].concat(list.filter(function (e) { return e.o !== pk; }));
     list = list.slice(0, 3);
     // the band's own text (no photo) only when the library has nothing for this style and gender near today (b78: it used
@@ -1297,9 +1309,10 @@
   function dayView(i, pick) {
     var v = lastView; if (!v) return null;
     var D = v.data.daily, c = D.weather_code[i], f = r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]), band = bandOf(f);
-    var w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0;
+    var w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0, cx = placeCtx(true); // b173: a future day's humidity is unknown
     return {
       data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, rain: rainLevel(c), updated: v.updated,
+      region: cx.region, humidity: cx.humidity, ctxKey: cx.key,
       day: i, pick: pick || null, style: pick ? pick.o.style : null, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], w >= 30, isRain(c), isSnow(c)).replace('class="person-ic', 'class="play person-ic') + "</span>",
@@ -1805,8 +1818,10 @@
     var hNowL = nowLocal.slice(11, 13), evening = !isDay && !(hNowL >= "05" && hNowL < "12");
     if (D.sunset && D.sunset[0] && D.sunrise && D.sunrise[0])
       evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < Math.min(new Date(D.sunrise[0] + ":00Z").getTime(), morning);
+    var cx = placeCtx(false);
     lastView = {
       data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code), code: cur.weather_code,
+      region: cx.region, humidity: cx.humidity, ctxKey: cx.key,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
       dateLine: new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(cur.time)) + " · " + placeName(place),
@@ -1850,7 +1865,9 @@
 
   // ── Place & data ──
   // Berlin carries its geocoding id, so a search for Berlin shows it as saved (b123)
-  var BERLIN = { id: 2950159, lat: 52.52, lon: 13.405, gps: false };
+  // b173: places keep the geocoder's country code (cc) for the visual-region preference; GPS and places saved before b173
+  // have none and stay "unknown" (Berlin's own entry knows it is DE)
+  var BERLIN = { id: 2950159, lat: 52.52, lon: 13.405, gps: false, cc: "DE" };
   function store(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   function load(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
 
@@ -1858,6 +1875,19 @@
   if (!place.gps && !place.id) place = BERLIN; // before b123 the only fixed place was Berlin
   function placeName(p) { return p.gps ? T.here : p.id === BERLIN.id ? T.berlin : p.name; }
   function placeKey(p) { return (+p.lat).toFixed(3) + "," + (+p.lon).toFixed(3); }
+  // b173: the look-choice context of the place on screen: visual region from ?region= (tests) or the country code, and
+  // humidity only from an explicit ?humidity= (no measured humidity is categorized yet); a future day never gets today's.
+  // key = place + context, part of the look seed. Without look/global-context.js: unknown/unknown = the legacy choice.
+  var CTX_Q = (function () {
+    try { var u = new URLSearchParams(location.search); return { region: u.get("region") || "", humidity: u.get("humidity") || "" }; } catch (e) { return {}; }
+  })();
+  function placeCtx(future) {
+    var G = window.WX_GLOBAL, q = { region: CTX_Q.region, humidity: future ? "" : CTX_Q.humidity }, c = null;
+    try { c = G ? G.context({ cc: place.gps ? "" : place.id === BERLIN.id ? BERLIN.cc : place.cc, lat: place.lat, lon: place.lon }, q) : null; } catch (e) {}
+    c = c || { region: "unknown", humidity: "unknown" };
+    c.key = placeKey(place) + "|" + c.region + "|" + c.humidity;
+    return c;
+  }
 
   function updateLocButton() {
     $("city").setAttribute("aria-label", T.plOpen);
@@ -2016,20 +2046,19 @@
   function dayPick(D, i, g) {
     var c = D.weather_code[i], d = { c: c, p: D.precipitation_probability_max[i] || 0, w: D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0,
               f: r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]) };
-    var dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false }, all = [];
+    var cx = placeCtx(true), dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false, region: cx.region, humidity: cx.humidity }, all = [];
     STYLES.forEach(function (sty) { all = all.concat(lookFits(dv, sty, g)); });
     // b114: no style has a set for that day's weather yet (rain strength, sky, band): the card shows a placeholder
     if (!all.some(function (e) { return e.sr === 0; })) return { soon: soonLabel(dv, all.length) };
-    // product cuts only come with the article sets; a day whose own set has none (clear days) takes the closest that has
-    var fits = all.filter(function (e) { return e.o.article; });
-    var best = Math.min.apply(null, fits.map(function (e) { return e.sr; }).concat([9]));
-    fits = fits.filter(function (e) { return e.sr === best; });
-    var rnd = seeded(pieceSeed + "|piece|" + D.time[i] + g);
+    // b173: only looks made for that day's weather (sky rank 0, as the sheet it opens) with product cuts; among their
+    // pieces the best weather fit, then climate, then visual region (the same order as lookPool)
+    var fits = all.filter(function (e) { return e.sr === 0 && e.o.article; });
+    var rnd = seeded(pieceSeed + "|piece|" + D.time[i] + g + "|" + cx.key);
     function pairs(test) {
       var out = [];
-      fits.forEach(function (e) { e.o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && test(it)) out.push({ o: e.o, item: k, it: it, fit: e.fit }); }); });
-      var top = Math.min.apply(null, out.map(function (p) { return p.fit; }));
-      return out.filter(function (p) { return p.fit === top; });
+      fits.forEach(function (e) { e.o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && test(it)) out.push({ o: e.o, item: k, it: it, fit: e.fit, rk: e.fit * 100 + (e.cr || 0) * 10 + (e.rr || 0) }); }); });
+      var top = Math.min.apply(null, out.map(function (p) { return p.rk; }));
+      return out.filter(function (p) { return p.rk === top; });
     }
     for (var n = 0; n < PIECE_RULES.length; n++) {
       if (!PIECE_RULES[n][0](d)) continue;
@@ -2249,7 +2278,7 @@
   function myPlaces() { return load("wx-places") || [BERLIN]; }
   function savedAt(p) { var m = myPlaces(); for (var i = 0; i < m.length; i++) if (m[i].id === p.id) return i; return -1; }
   function setPlace(p) {
-    place = p.gps ? { lat: p.lat, lon: p.lon, gps: true } : { id: p.id, name: p.name, sub: p.sub, lat: p.lat, lon: p.lon, gps: false };
+    place = p.gps ? { lat: p.lat, lon: p.lon, gps: true } : { id: p.id, name: p.name, sub: p.sub, lat: p.lat, lon: p.lon, gps: false, cc: p.cc || (p.id === BERLIN.id ? BERLIN.cc : undefined) };
     store("wx-place", place);
     $("city-n").textContent = placeName(place);
     paintSettings();
@@ -2287,7 +2316,7 @@
         .then(function (d) {
           if (seq !== plSeq) return;
           plResults = (d.results || []).map(function (r) {
-            return { id: r.id, name: r.name, lat: +r.latitude.toFixed(4), lon: +r.longitude.toFixed(4),
+            return { id: r.id, name: r.name, lat: +r.latitude.toFixed(4), lon: +r.longitude.toFixed(4), cc: typeof r.country_code === "string" ? r.country_code : undefined,
               sub: [r.admin1, r.country].filter(function (x, i, a) { return x && x !== r.name && a.indexOf(x) === i; }).join(" · ") };
           });
           paintPlaces();

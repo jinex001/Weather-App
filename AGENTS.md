@@ -12,7 +12,8 @@ This file is the repository entry point for Codex and other coding agents. Claud
 | --- | --- |
 | Editorial creation, art direction, product image specifications | `design/IMAGE_STYLE.md` |
 | Approved GPT images, iCloud originals, local inbox, approval manifest | `design/IMAGE_INBOX_HANDOFF.md` (check whether PR #1 has been merged) |
-| Product Breakdown, How to Wear, localization, runtime mapping | `design/IMAGE_MAPPING_HANDOFF.md` (especially §5-1), `design/look-library.md`, `design/look-coverage.md` |
+| Product Breakdown, How to Wear, localization, runtime mapping | `design/IMAGE_MAPPING_HANDOFF.md` (especially §5-1; global sets §5-2), `design/look-library.md`, `design/look-coverage.md` |
+| Global generation, climate context, visual region, `look/global/` sets, `look/global-context.js` | `design/IMAGE_STYLE.md` §12, `design/GLOBAL_IMAGE_EXPANSION_HANDOFF.md` (implemented vs deferred), `design/look-library.md` "글로벌 맥락" |
 | Cutout generation and validation | `design/CUTOUTS.md` and `design/IMAGE_STYLE.md` |
 | Web/iOS architecture, content API/CDN, publication, App Store | `design/CONTENT_DELIVERY_IOS_STRATEGY.md` |
 | UI / design system | `design/design-system.md`, `design/tokens.json` |

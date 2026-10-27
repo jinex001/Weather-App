@@ -924,6 +924,10 @@
     "rn-chilly-m35-night-street-20261026-05.01-outer": [
         "look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/street/05/products/01-outer.webp",
         null
+    ],
+    "gc-coastal-pleasant-f35-day-street-20261027-01.01-top": [
+        "look/global/global-context-coastal-20261027/gc-coastal-pleasant-f35-day-street-20261027-01/products/01-top.webp",
+        null
     ]
 };
   var HERO = {
@@ -1156,7 +1160,8 @@
     "rn-chilly-m35-night-street-20261026-02": "rn-chilly-m35-night-street-20261026-02.01-outer",
     "rn-chilly-m35-night-street-20261026-03": "rn-chilly-m35-night-street-20261026-03.01-outer",
     "rn-chilly-m35-night-street-20261026-04": "rn-chilly-m35-night-street-20261026-04.01-outer",
-    "rn-chilly-m35-night-street-20261026-05": "rn-chilly-m35-night-street-20261026-05.01-outer"
+    "rn-chilly-m35-night-street-20261026-05": "rn-chilly-m35-night-street-20261026-05.01-outer",
+    "gc-coastal-pleasant-f35-day-street-20261027-01": "gc-coastal-pleasant-f35-day-street-20261027-01.01-top"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

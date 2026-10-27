@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0",
+  "id": "gc-coastal-pleasant-f35-day-street-20261027-01",
+  "gender": "women",
+  "ageGroup": "35+",
+  "style": "street",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": 23,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "dry",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "visualRegion": "warm-coastal-urban",
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Parent reviewed the generated warm-coastal urban scene; dry/23C/feels22 are supplied fictional styling inputs, not inferred measurements."
+  },
+  "casting": {
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ]
+  },
+  "approval": {
+    "editorial": "parent-qa-reviewed",
+    "userIndividualVisualApproval": false,
+    "publicationAuthorized": true,
+    "authorizationBasis": "2026-10-27 user requested deploy test app and create new images accordingly",
+    "approvedAt": null,
+    "note": "User authorized creating and publishing this test set (2026-10-27); parent QA reviewed; no individual user visual approval."
+  },
+  "productionStatus": "ready",
+  "editorialImage": "editorial.jpg",
+  "products": [
+    {
+      "id": "01-top",
+      "category": "top",
+      "nameKo": "코발트 캠프칼라 셔츠",
+      "descriptionKo": "코발트 블루 반소매 셔츠. 열린 캠프칼라와 가슴 포켓, 작은 단추가 보인다.",
+      "howToWearKo": "코발트 셔츠는 앞자락 한쪽만 가볍게 넣어 허리선을 드러내고, 나머지는 바람이 통하도록 여유 있게 두세요.",
+      "reconstruction": "visible-item-reconstructed",
+      "reconstructionNote": "보이는 칼라·소매·포켓·색을 기준으로 독립 제품 형태를 복원함. 뒷면과 정확한 섬유 혼용률은 확인되지 않음.",
+      "image": "products/01-top.webp",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "fibreComposition": null,
+      "altKo": "코발트 캠프칼라 셔츠 — 독립 투명 배경 제품 컷",
+      "appItemId": "gc-coastal-pleasant-f35-day-street-20261027-01.01-top",
+      "appCategory": "top",
+      "bg": "#F3EFE8",
+      "nameEn": "Cobalt camp-collar shirt",
+      "nameDe": "Kobaltblaues Hemd mit Reverskragen",
+      "howToWearEn": "Tuck just one side of the cobalt shirt's front in lightly to show the waistline, and leave the rest loose so the breeze can move through.",
+      "howToWearDe": "Das kobaltblaue Hemd vorn nur auf einer Seite locker einstecken, damit die Taille sichtbar wird, und den Rest luftig fallen lassen."
+    },
+    {
+      "id": "02-bottom",
+      "category": "bottom",
+      "nameKo": "아이보리 스트레이트 팬츠",
+      "descriptionKo": "아이보리색 하이웨이스트 팬츠. 밝은 단추와 벨트 고리, 비스듬한 옆주머니가 보인다.",
+      "howToWearKo": "아이보리 팬츠는 허리의 단추와 주머니가 드러나도록 셔츠 자락을 정돈하고, 골반과 허벅지에는 편하게 움직일 여유를 두세요.",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "허리·윗다리는 에디토리얼에서 확인. 프레임 밖의 종아리·밑단은 단순한 스트레이트 형태로 보수적으로 추정 복원함.",
+      "image": "products/02-bottom.webp",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "fibreComposition": null,
+      "altKo": "아이보리 스트레이트 팬츠 — 독립 투명 배경 제품 컷",
+      "appItemId": "gc-coastal-pleasant-f35-day-street-20261027-01.02-bottom",
+      "appCategory": "bottom",
+      "bg": "#F3EFE8",
+      "nameEn": "Ivory straight trousers",
+      "nameDe": "Elfenbeinfarbene gerade Hose",
+      "howToWearEn": "Arrange the shirt hem so the waist button and pockets of the ivory trousers stay visible, and keep easy room through the hips and thighs.",
+      "howToWearDe": "Den Hemdsaum so ordnen, dass Knopf und Taschen der elfenbeinfarbenen Hose sichtbar bleiben, und an Hüfte und Oberschenkeln Bewegungsfreiheit lassen."
+    },
+    {
+      "id": "03-bag",
+      "category": "bag",
+      "nameKo": "테라코타 캔버스 토트",
+      "descriptionKo": "테라코타색의 유연한 직물 토트. 같은 색 긴 손잡이와 단순한 봉제선이 보인다.",
+      "howToWearKo": "테라코타 토트는 긴 손잡이 두 개를 함께 쥐고 몸 옆으로 내려, 코발트 셔츠와 가방 사이에 밝은 팬츠가 보이게 들어보세요.",
+      "reconstruction": "partially-visible-reconstructed",
+      "reconstructionNote": "가방 몸판·손잡이는 확인되지만 잘린 아래쪽 모서리는 단순한 직사각형 구조로 보수적으로 복원함.",
+      "image": "products/03-bag.webp",
+      "status": "ready",
+      "brand": null,
+      "price": null,
+      "purchaseUrl": null,
+      "fibreComposition": null,
+      "altKo": "테라코타 캔버스 토트 — 독립 투명 배경 제품 컷",
+      "appItemId": "gc-coastal-pleasant-f35-day-street-20261027-01.03-bag",
+      "appCategory": "bag",
+      "bg": "#F3EFE8",
+      "nameEn": "Terracotta canvas tote",
+      "nameDe": "Terrakottafarbene Canvas-Tote",
+      "howToWearEn": "Hold both long handles of the terracotta tote together and let it hang at your side, so the light trousers show between the cobalt shirt and the bag.",
+      "howToWearDe": "Beide langen Henkel der terrakottafarbenen Tote zusammen greifen und die Tasche seitlich tragen, sodass die helle Hose zwischen kobaltblauem Hemd und Tasche sichtbar bleibt."
+    }
+  ],
+  "productCount": 3,
+  "contentType": "ai-styled-concept",
+  "copy": {
+    "titleKo": "바람이 고른 코발트",
+    "headlineEn": "COBALT, CAUGHT IN THE BREEZE",
+    "captionKo": "셔츠 끝이 들리는 순간, 토트 손잡이를 다시 쥔다.",
+    "introKo": "가게 앞에서 가방을 들어 올리자 가벼운 바람이 셔츠 자락을 뒤집어요. 선명한 코발트와 밝은 아이보리 사이로 테라코타 가방이 따뜻한 색을 더합니다. 얇은 겹과 여유 있는 품으로 맑고 쾌적한 낮의 움직임을 담았어요.",
+    "pullQuoteEn": "A LITTLE BREEZE, A LITTLE BLUE.",
+    "tipKo": "걸을 때 셔츠가 당기지 않도록 어깨와 소매의 여유를 확인하고, 토트 손잡이는 한쪽으로 꼬이지 않게 정돈하세요.",
+    "captionEn": "As the shirt hem lifts, she takes a fresh grip on the tote handles.",
+    "captionDe": "Als der Hemdsaum hochweht, greift sie die Henkel der Tote neu.",
+    "introEn": "As she lifts her bag outside the shop, a light breeze flips the hem of her shirt. Between vivid cobalt and bright ivory, the terracotta tote adds a warm note. Thin layers and an easy fit keep up with a clear, comfortable day.",
+    "introDe": "Als sie vor dem Laden die Tasche anhebt, schlägt eine leichte Brise den Hemdsaum um. Zwischen kräftigem Kobaltblau und hellem Elfenbein setzt die terrakottafarbene Tote einen warmen Akzent. Dünne Lagen und eine lockere Passform begleiten einen klaren, angenehmen Tag.",
+    "tipEn": "Check for room across the shoulders and sleeves so the shirt doesn't pull as you walk, and keep the tote handles from twisting to one side.",
+    "tipDe": "Auf etwas Weite an Schultern und Ärmeln achten, damit das Hemd beim Gehen nicht spannt, und die Henkel der Tote so ordnen, dass sie sich nicht zur Seite verdrehen."
+  },
+  "appOutfitId": "gc-coastal-pleasant-f35-day-street-20261027-01",
+  "appStyle": "street",
+  "mappingStatus": "mapped"
+}

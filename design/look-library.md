@@ -3,7 +3,8 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-26 (앱 빌드 b171) · 240룩 · 1477아이템 · 기사 룩 240 (b170 수치 + b171 세트 5룩 · 21아이템, ID 충돌 없음 확인). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+마지막 정리: 2026-10-27 (앱 빌드 b173) · 241룩 · 1480아이템 · 기사 룩 241 (b171 수치 240 · 1477 + b173 글로벌 테스트 1룩 · 3아이템, ID 충돌 없음 확인; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `cutouts.js` → **`global-context.js`(마지막, b173)**.
 
 ## Outfit
 
@@ -21,6 +22,9 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 | `deck` | 한 줄 요약(캡션) `{ko,en,de}` |
 | `article` | (선택) 기사: `title`(영문 헤드라인, 번역 안 함), `intro` {ko,en,de}, `pull`(영문 인용구), `tip` {ko,en,de}(선택). 있으면 아이템 리스트 대신 제품 카드 화면 |
 | `items` | Item ID 배열(보여줄 순서 = products.json 순서) |
+| `visualRegion` | (선택, b173) 배경의 시각적 지역 `neutral-urban` · `european-urban` · `east-asian-urban` · `warm-coastal-urban`. `contextReview.status: "reviewed"`일 때만 씀. 날씨 적합도를 바꾸지 않는 부드러운 선호 |
+| `climateContext` | (선택, b173) `{ feelsLikeBand, humidityContext: humid \| dry \| unknown }`. 습도 맥락은 제작 가정이며 측정값이 아님 |
+| `contextReview` | (선택, b173) `{ status: "reviewed" \| "pending" }`. 없으면 지역·습도 = unknown(neutral과 다름) |
 
 ## Item
 
@@ -37,13 +41,27 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 
 ## 고르는 순서 (`lookPool`)
 
+(b173 코드 기준으로 고침. 아래 4번의 "다른 하늘/다른 강도 룩으로 채움"은 b114부터 실제 사진 노출이 아님 — 순위 0이 없으면 COMING SOON.)
+
 1. 같은 스타일·성별 룩만.
 2. **시간대**: 오늘 일몰 10분 전 ~ min(다음 일출, 05:00)은 저녁 → `time: "evening"` 룩, 그 외는 낮 룩. 일출·일몰 값이 없으면 밤 = 저녁(단 밤 중 5~12시는 낮). 그 스타일·성별에 맞는 시간대 룩이 하나도 없으면 다른 시간대 룩.
 3. **단계**: 오늘 단계(0점) 또는 옆 단계(2점)만. 두 단계 이상은 제외.
-4. **하늘**: 오늘 하늘(`clear` = 코드 0–2, 시간대 상관없음; 그 외 `cloudy`)과 같거나 `any`인 룩이 하나라도 있으면 그것만. 없을 때만 다른 하늘 룩(+1점).
-   **비(b110)**: 오늘 코드가 비면 비 강도를 WMO 코드로 정함 — light = 이슬비 51–57 · 약한 비 61 · 약한 소나기 80 / normal = 63 · 66 · 81 / pouring = 65 · 67 · 82 · 뇌우 95–99(`rainLevel`, 강수확률은 안 씀). 순위: 같은 강도 비 룩 0 → 다른 강도 비 룩 1 → 흐린 날·any 룩 2 → 맑은 날 룩 3, 있는 것 중 가장 좋은 순위만. 비 룩은 비 안 오는 날엔 절대 안 나옴.
-5. 점수가 같은 것끼리 **랜덤**으로 섞고 앞에서 **3개**. 섞는 씨앗(`lookSeed`)은 앱을 열 때와 홈에서 Today's Look을 열 때마다 새로. 캘린더 날짜 시트는 그 줄에 보이던 순서 그대로.
-6. 하나도 없으면 단계 기본 문구(`LOOK[단계]`, 사진 없음).
+4. **하늘 순위(sr)**: 마른 날은 오늘 하늘(`clear` = 코드 0–2, 시간대 상관없음; 그 외 `cloudy`)과 같거나 `any` = 0, 다른 마른 하늘 = 1, 비 룩 = 제외.
+   **비(b110)**: 오늘 코드가 비면 비 강도를 WMO 코드로 정함 — light = 이슬비 51–57 · 약한 비 61 · 약한 소나기 80 / normal = 63 · 66 · 81 / pouring = 65 · 67 · 82 · 뇌우 95–99(`rainLevel`, 강수확률은 안 씀). 같은 강도 비 룩 0 · 다른 강도 비 룩 1 · 흐린 날·any 2 · 맑은 날 3. 비 룩은 비 안 오는 날엔 절대 안 나옴.
+   **가장 좋은 순위가 0이 아니면(또는 후보가 없으면) 사진 대신 COMING SOON 한 장**(b114). 즉 다른 하늘·다른 강도 룩은 실제로는 노출되지 않음.
+5. 순위 0 후보를 **적합도(fit = 단계 거리×2)** → **기후 맥락(cr)** → **시각 지역(rr)** → 랜덤 순으로 정렬해 앞에서 **3개**(b173, 아래 "글로벌 맥락"). 섞는 씨앗은 `lookSeed` + 스타일·성별·단계·저녁·날짜 + **장소·맥락 키**(b173). `lookSeed`는 앱을 열 때·앱으로 돌아올 때 새로. 캘린더 날짜 시트는 카드의 룩이 지금 후보에 있을 때만 맨 앞(b173 검사).
+6. 하나도 없으면 단계 기본 문구(`LOOK[단계]`, 사진 없음) + COMING SOON.
+7. 캘린더 카드(`dayPick`): 세 스타일에서 순위 0 기사 룩만, 같은 적합도·기후·지역 순서로 제품 컷을 고름. 3스타일 모두 순위 0이 없으면 COMING SOON.
+
+## 글로벌 맥락 (b173, 2026-10-27)
+
+- **지금 구현된 것**: `look/global-context.js`(모든 룩 모듈 뒤에 로드)가 룩마다 `gctx = { region, humidity }`를 만듦. 출처는 룩의 `visualRegion`·`climateContext.humidityContext`(`contextReview.status: "reviewed"`일 때만) 또는 같은 파일의 `SIDECAR`(룩 ID → 검토된 값, **지금은 비어 있음**). 그 외 = `unknown`. 기존 240룩은 메타데이터가 없어 모두 unknown — 베를린 룩을 humid·neutral·reviewed로 일괄 태그하지 않음.
+- **장소 → 시각 지역**: `?region=`(테스트용 명시값) > 좌표 프로필(같은 나라 코드일 때만: ES + 카나리아 제도 위경도 27.4–29.6 / -18.4~-13.2 → `warm-coastal-urban`) > 나라 코드(`COUNTRY`: 유럽 18개국 → `european-urban`, KR·JP·CN·TW·HK → `east-asian-urban`) > `unknown`. 나라 코드는 도시 검색(Open-Meteo geocoding `country_code`)에서 장소에 `cc`로 저장(검색 결과·`setPlace`·내 목록). GPS·b173 이전에 저장한 장소·목록에 없는 나라 = unknown(역지오코딩 안 함). 베를린 기본 장소는 `cc: DE`. 지역은 배경 선호일 뿐 기후 분류·모델 캐스팅·도시별 자산 제한이 아님.
+- **습도 맥락**: 오늘 화면만 `?humidity=humid|dry` 명시값을 받음(테스트용). 날씨 API 습도는 받지도 분류하지도 않음, 임계값 없음 → 평소엔 항상 unknown. 캘린더 미래 날짜는 항상 unknown. **자동 습도 분류는 보류**.
+- **순위**(같은 날씨 적합도 안에서만): 기후 cr — 질의 unknown이면 모두 0, 같은 습도 0 → unknown 1 → 다른 습도 2. 지역 rr — 질의 unknown이면 모두 0, 같은 지역 0 → 검토된 neutral-urban 1 → 다른 지역·unknown 2. 지역·습도는 제외 조건이 아니며 날씨·단계·시간대·비 강도 규칙을 우회하지 않음. 단계가 정확히 맞는 기존 룩이 옆 단계 지역 일치 룩보다 항상 앞.
+- **실패 시**: `global-context.js`가 안 불러지거나 오류면 모든 순위 0 = b172 선택과 같음.
+- 홈·Today's Look(`lastView`), 캘린더 시트(`dayView`), 카드(`dayPick`), `lookPool`이 같은 맥락(`region`, `humidity`, `ctxKey`)을 씀.
+- 보류: 자동 습도 분류, 기존 베를린 룩의 사진 검토·지역 태깅, 국가 어휘 확장, 글로벌 폴더용 가져오기 도구. 설계 메모: `design/GLOBAL_IMAGE_EXPANSION_HANDOFF.md`.
 
 맞춤 표시: 1번째 오늘의 추천 / 2번째 이것도 좋아요 / 3번째 이것도 나쁘지 않아요(캘린더 1번째는 이날의 추천).
 
@@ -52,6 +70,8 @@ Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], 
 localStorage `wx-look` = `{ saved: {outfitId: 시각}, own: {itemId: 시각}, want: {itemId: 시각} }`. 이 폰에만 있음. `saved`는 b70부터 화면에서 안 씀(예전 값만 남음). `own`/`want`는 기사 없는 룩의 아이템 줄에서만 고를 수 있음.
 
 ## 사진 폴더
+
+글로벌 세트(b173~): `look/global/<batchId>/<lookId>/editorial.jpg · products/NN-<분류>.webp · products.json`. 기후·지역·날씨는 폴더가 아니라 메타데이터에 둠. 베를린 세트는 아래 기존 구조 그대로.
 
 ```
 look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
@@ -75,18 +95,18 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 `look/berlin-complete/Rain/<강도>/<단계>/<성별>/<연령대>/<day|night>/<running|street|minimal>/<번호>/`
 
 - 강수 강도 폴더는 `Light`(Light Rain, 가벼운 비), `Normal`(Normal Rain, 보통 비), `Pouring`(Pouring Rain, 쏟아지는 비)로 구분한다. 사용자 확인: 2026-10-21.
-- 이 구분은 이미지 제작·보관 분류다. 강수량 수치나 날씨 API 코드와의 매핑은 아직 정하지 않았으며 임의로 적용하지 않는다.
+- 이 구분은 이미지 제작·보관 분류다. (2026-10-21 당시 기록. b110부터 WMO 코드 매핑 `rainLevel`이 구현됨 — 위 "고르는 순서".)
 - 오늘 작업은 `Rain/Light/Chilly/Male/35+/day/`: 남성, 낮, 기온 12°C / 체감 7°C.
 - 예: `running/01/`, `street/01/`, `minimal/01/`. 각 스타일의 두 번째 룩은 `02/`로 증가한다. 새 비 세트에는 기존의 01–05/06–10/11–15 스타일 혼합 번호를 적용하지 않는다.
 - 각 번호 폴더에는 `editorial.jpg`, `products/01-outer.jpg` 등 아이템별 개별 파일, `products.json`, `README.md`, `PROMPTS.md`를 둔다.
 - 맑은 날(Sunny) 세트는 에디토리얼이 폴더 밖 `NN-<스타일>.jpg`에 있고 앱도 그 경로를 쓴다. 폴더 안 `editorial.jpg` 사본은 두지 않고 products.json `editorialImage`는 `../NN-<스타일>.jpg`(2026-10-23, 중복 사본 30장 지움).
 - 작업 순서: 에디토리얼 1장 생성 → 사용자 확인 → 명시적 승인 → 개별 제품 컷 제작 → GitHub 업로드 → 완료 링크 제공. 수정 요청이면 승인 전 제품 제작·업로드를 진행하지 않는다.
-- Light/Chilly/Male/35+/day/running/01 세트는 사용자 승인 후 에디토리얼 1장·제품 5장과 메타데이터를 업로드했다. 앱 등록은 pending이며 기존 clear/cloudy 선택 로직은 변경하지 않았다. 폴더의 강도 구분만으로 앱에 비 전용 노출이 생기지는 않는다.
+- Light/Chilly/Male/35+/day/running/01 세트는 사용자 승인 후 에디토리얼 1장·제품 5장과 메타데이터를 업로드했다. (당시 기록: 앱 등록 pending. 이후 b110에서 매핑·비 선택 로직이 구현됨.)
 - 기존 Sunny/Overcast 경로와 고정 ID는 그대로 유지한다.
 
 ## 지금 들어 있는 것
 
-모두 쌀쌀함(체감 1~9°) · 35+ · 각 15룩(러닝 5 · 스트리트 5 · 미니멀 5).
+베를린 세트는 모두 쌀쌀함(체감 1~9°) · 35+. 글로벌 테스트 1룩(b173)만 쾌적함. 칸별 수는 `look-coverage.md`.
 
 | 하늘 | 성별 | 시간 | 폴더 | 룩 ID | 화면 |
 | --- | --- | --- | --- | --- | --- |
@@ -104,11 +124,12 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 | 비(가벼운) | 남 | 낮 | `Rain/Light/Chilly/Male/35+/day/minimal/01–05/` | `bl-light-chilly-m-35-day-minimal-NN` (미니멀 5, b116) | 제품 카드 기사 + 팁 |
 | 비(가벼운) | 여 | 낮 | `Rain/Light/Chilly/Female/35+/day/minimal/01–05/` | `bl-light-chilly-f-35-day-minimal-NN` (미니멀 5, b116) | 제품 카드 기사 + 팁 |
 | 비(가벼운) | 여 | 낮 | `Rain/Light/Chilly/Female/35+/day/casual/01–05/` | `bl-light-chilly-f-35-day-casual-NN` (캐주얼 5 → **스트리트 탭**, b118, 사용자 결정; 러닝 없음 → 플레이스홀더) | 제품 카드 기사 + 팁 (문구 3개 언어 제작 측 그대로) |
+| 맑음 · 쾌적함 | 여 | 낮 | `global/global-context-coastal-20261027/gc-coastal-pleasant-f35-day-street-20261027-01/` | `gc-coastal-pleasant-f35-day-street-20261027-01` (스트리트 1, b173, `warm-coastal-urban` · dry, 보충 파일 `look/global-coastal-20261027.js`) | 제품 카드 기사 + 인용구 + 팁, 제품 3개 투명 WebP, 대표 컷 = 셔츠 WebP 자체 |
 | 흐림 | 남 | 저녁 | `Overcast/Chilly/Male/35+/night/minimal/01–05/` | `oc-unclassified-m-35-evening-minimal-NN` (미니멀 5, b116; 단계는 사용자가 쌀쌀함으로 정함, 러닝·스트리트 저녁은 낮 흐린 날 룩) | 제품 카드 기사 |
 
 비 세트(b110)는 `design/IMAGE_MAPPING_HANDOFF.md` 규칙(새 폴더 `Rain/<강도>/<단계>/<성별>/<연령>/<시간>/<스타일>/<번호>/`, 승인·productionStatus 확인)대로 등록. 제작 측 descriptionKo가 제작 메모("AI 콘셉트 제품 컷… 추정 복원")라서 화면용 입는 법(note)·인트로는 사진 보고 새로 씀(ko/en/de), 제작 메모 문장("…스타일링 콘셉트예요")은 화면에 안 씀. products.json `mappingStatus`는 mapped로. pullQuoteEn이 headlineEn과 같은 말이면(스트리트 01–05) `pull`을 넣지 않음(제목 아래 같은 문구 두 번 안 나오게).
 
-없는 것: 비 오는 날 여성·스트리트·미니멀·저녁(→ 흐린 날 룩이 대신), 보통·쏟아지는 비 전용(→ 가벼운 비 룩이 대신), 흐린 날 남성 저녁(→ 맑은 날 저녁 룩이 대신), 쌀쌀함 밖의 모든 단계(→ 옆 단계 룩 또는 기본 문구), 35세 미만·60+ 전용, 아기.
+없는 것(b173 기준, 위 표는 오래된 줄도 섞여 있음 — 정확한 칸은 `look-coverage.md`): 빈 칸은 다른 날씨 룩으로 채우지 않고 COMING SOON(b114). 쌀쌀함·쾌적함(여성 맑은 낮 스트리트 1룩) 밖의 단계는 옆 단계 룩이 없으면 COMING SOON. 35세 미만·60+ 전용, 아기, 눈 전용 없음.
 
 예전 것(지움): b36–b67의 시트 자른 사진·아기 사진·`look/chilly`·`cool`·`clear`·`items`(b71), 낮 사진 `bm15-*`(b86). 그 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
 
@@ -257,3 +278,9 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b171 · Rain / Normal / Chilly / Male / 35+ / Night / Street — 2026-10-26 set (5 looks)
 
 에디토리얼 5장(01 900×1350, 02 960×1440, 03–05 1024×1536, 모두 2:3 JPG ≤280,841 B, 업스케일 없음) + 독립 투명 WebP 제품 21개(5/4/4/3/5, 500×500, ≤48,696 B), `look/berlin-complete/Rain/Normal/Chilly/Male/35+/night/street/<01–05>/`, 보충 파일 `look/rain-normal-male-night-street-20261026.js`. 룩 `rn-chilly-m35-night-street-20261026-NN`(`sky: rain`, `rain: normal`, `bands: [chilly]`, `gender: m`, `age: "35"`, `style: street`, `time: evening`). 01 차콜 후드 파카 + 오트밀 플리스 집업 + 네이비 크루넥 + 차콜 카고 + 블랙 레이스업 부츠(웅덩이 돌아가기) · 02 코발트 후드 아노락 + 그레이 터틀넥 + 블랙 와이드 팬츠 + 블랙 크로스바디(출입구에서 열쇠 찾기) · 03 러스트 레인 재킷 + 차콜 오버셔츠 + 크림 크루넥 니트 + 다크 브라운 팬츠(바람에 기운 우산) · 04 올리브 필드 셸 + 버건디 후디 + 블랙 릴랙스 진(자전거 자물쇠) · 05 네이비 후드 셸 + 머스터드 플리스 + 슬레이트 크루넥 + 그레이 팬츠 + 네이비 비니(장보기 뒤 후드). 아이템 ID `<룩 ID>.<제품 id>`, 파일 이름 `<제품 id>.webp`(바이트 그대로, 제작 측 이름 `NN-<제품 id>.webp`는 `deliveredImage`). 분류: 제작 측 `midlayer`(플리스·오버셔츠) → `top`, 그 안의 스웨트셔츠·니트 → `under`(01·03·05), 02 터틀넥·04 후디 `top`, `hat` → `headwear`, `bag`. 문구: 한국어 마스터(KOREAN_MASTER_FINAL·COPY_FINAL_v2: 제목·캡션·인트로·팁·제품 이름·제품별 입는 법)와 검토된 en/de 그대로, 단 03·04·05 인트로의 제작 메모 문장(“우산은 장면 소품…”, “…형태로 복원했습니다”, “…장면 소품입니다/으로만 남깁니다”)은 화면 문구에서 빼고(나머지 문장은 바이트 그대로, 원문 `copy.sourceIntro`), 독일어 3곳(03 인트로 `Dunkelbraune Hosen führen` → `Die dunkelbraune Hose führt`, 02·03 이너 입는 법 `stauen` → `auftragen`, 원문 `sourceIntro`·`sourceHowToWear`)만 다듬음. 앱 제목 = 영어 대문자 제목(CHARCOAL, ONE STEP AROUND · COBALT, KEYS SOMEWHERE · RUST UNDER THE UMBRELLA · OLIVE AT THE BIKE LOCK · NAVY, MUSTARD, HOMEWARD), `pull` = 제작 측 영어 인용구. 제품별 입는 법 21개 모두 다름. 대표 컷 = 다섯 룩 모두 아우터(제목 첫 색 단어; 01 CHARCOAL 카고·05 NAVY 비니도 맞지만 규칙 3), 컷 = 그 제품 WebP 자체(HERO·CUTS 5행). 장면 소품(03 우산, 04 자전거·열쇠, 05 종이봉투·식료품)은 제품 아님, 01만 신발이 보여 부츠 하나뿐(다른 룩 신발·양말 없음). 04 후드는 버건디 후디 것(올리브 셸엔 후드 없음). 모델 외관 28–32세, 숫자 기온 없음. [검증](rain-normal-male-night-street-20261026-validation.md).
+
+## b173 · 글로벌 맥락 테스트 — Clear / Pleasant / Female / 35+ / Day / Street (2026-10-27, 1 look)
+
+- 배치 `global-context-coastal-20261027`(READY.json 19개 SHA-256 일치). 에디토리얼 1장(1024×1536 JPG 264,708 B) + 독립 투명 WebP 제품 3개(500×500, 26,932–32,656 B) 바이트 그대로 → `look/global/global-context-coastal-20261027/gc-coastal-pleasant-f35-day-street-20261027-01/`, 보충 파일 `look/global-coastal-20261027.js`(cutouts.js 앞), 맥락 어댑터 `look/global-context.js`(마지막).
+- 룩 `gc-coastal-pleasant-f35-day-street-20261027-01`(clear · pleasant · f · 35 · street, 낮이라 `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: dry`, `contextReview: reviewed`), 아이템 `.01-top`·`.02-bottom`·`.03-bag`. 대표 컷 = 코발트 셔츠 WebP 자체.
+- 23°C / 체감 22°C · dry는 생성 가정(측정값 아님). 모델 외관 25–28, 타깃 30–44, 저장 35+. 사용자는 테스트 세트 제작·배포를 승인했고 이미지별 육안 승인은 하지 않음(상위 작업 QA). [검증](global-context-coastal-20261027-validation.md).

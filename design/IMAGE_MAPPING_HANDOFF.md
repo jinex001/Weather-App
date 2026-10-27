@@ -11,7 +11,7 @@
 - 2026-10-21 (앱 b115): street 01–05를 같은 방식으로 매핑함(`bl-light-chilly-m-35-day-street-NN`). minimal은 README만 있는 준비 폴더라 제외. 그날 날씨에 맞는 세트가 없는 스타일은 앱이 플레이스홀더(COMING SOON)를 보여줌(b114).
 - 2026-10-22 (앱 b116): Rain/Light 남성 minimal 01–05, 여성 minimal 01–05, Overcast 남성 저녁 minimal 01–05 매핑. 체감 단계가 비어 `Overcast/Unclassified/`로 올라온 저녁 세트는 사용자가 chilly로 정해 `Overcast/Chilly/Male/35+/night/minimal/`로 옮김(feelsLikeBand만 채움, ID 유지). 앞으로도 단계가 비어 있으면 매핑 때 사용자에게 묻는다.
 - 2026-10-22 (앱 b118): Rain/Light 여성 casual 01–05 매핑. casual은 앱 스타일이 아니라서 사용자가 street 탭으로 정함(룩 `style: street`, ID·폴더는 casual 유지, products.json appStyle·appOutfitId 기록). 앞으로 앱에 없는 스타일이 오면 매핑 전에 사용자에게 묻는다.
-- 현재 앱은 clear/cloudy만 구분한다. Rain 폴더를 만드는 것만으로 비 전용 매핑이 구현된 것은 아니다.
+- (2026-10-21 당시 기록) 그때 앱은 clear/cloudy만 구분했다. **현재(b173)**: 하늘 clear/cloudy + 비 강도 light/normal/pouring(b110, WMO 코드) + 시간대 + 체감 단계로 고르고, 순위 0 룩이 없으면 COMING SOON(b114). b173부터 같은 적합도 안에서 기후 맥락·시각 지역을 부드럽게 선호(5-2장). 폴더를 만드는 것만으로 매핑이 생기지는 않는다.
 - 실제 기온과 체감온도를 분리한다. 착장 보온 구간은 체감온도를 우선한다.
 
 ## 2. 폴더 구조
@@ -132,11 +132,19 @@ b143(흐린 날 남성 저녁 스트리트)이 아래 상태로 배포됐다가 
 - 투명 제품을 그대로 홈 대표 컷으로 쓸 때도 `look/cutouts.js`의 `HERO`·`CUTS`에 행이 있어야 하고 `tools/make-cutouts.py --check`의 `missing cutouts: 0`을 확인한다.
 - 화면에서는 제품 카드(`.lk-card img`)·캘린더 카드(`.dc`)가 CSS로 아이보리를 깔아 준다. 실제 화면 합성(카드 한 장 이상)을 렌더링해 확인한다.
 
+## 5-2. 글로벌 맥락 세트 매핑 (b173, 2026-10-27)
+
+- 경로: `look/global/<batchId>/<lookId>/editorial.jpg`, `products/NN-<분류>.webp`, `products.json`. 도시·기후로 폴더를 나누지 않는다. 보충 모듈은 `look/<batchId 요약>.js`로 `cutouts.js` 앞, 맥락 어댑터 `look/global-context.js`는 항상 맨 마지막.
+- products.json의 `visualRegion`·`climateContext.humidityContext`·`contextReview.status`를 룩에 그대로 옮긴다(`reviewed`일 때만 앱이 씀). `sourceCity`는 출처 기록일 뿐 선택 키가 아니다. `weather.isLiveMeasurement: false`인 기온·습도는 제작 가정으로 기록하고 측정값처럼 쓰지 않는다.
+- 기존 베를린 룩에 지역·습도를 붙일 때는 사진을 검토한 뒤 `look/global-context.js`의 `SIDECAR`에 룩 ID별로 넣는다. 폴더명만 보고 일괄 태그하지 않는다. 미상은 unknown(neutral 아님).
+- 날씨 필드(sky, rain, bands, time, style, gender)는 기존 규칙 그대로. 지역·습도는 날씨 적합도를 바꾸거나 COMING SOON을 우회하지 않는다.
+- 검증: 같은 적합도에서 지역 일치/불일치, 단계 정확 일치 기존 룩 > 옆 단계 지역 일치, 습도 unknown, 어댑터 없음, 마른 지역 룩이 비 날 제외, 비 3강도 COMING SOON 유지, 기존 자산 해시 불변. 자동 습도 분류는 아직 없음.
+
 ## 6. 매핑 시 추측하지 말아야 할 것
 
 - 체감 7°C는 기존 Chilly(1~9°C)에 해당한다. 나머지 온도 경계는 앱의 실제 BAND 정의를 읽어 사용하며 새 임계값을 임의로 만들지 않는다.
 - 제작 당시 실제 기온 12°C / 체감 7°C는 해당 이미지의 제작 조건이다. 매핑 시 실제 기온이 정확히 12°C인 때만 고르는 조건으로 사용하지 않는다.
-- Light/Normal/Pouring을 날씨 API 코드 또는 시간당 강수량에 연결하는 기준은 아직 미정이다. 사용 중인 API·단위·데이터 필드를 확인하고 매핑표를 제시해 사용자 확인을 받은 뒤 구현한다.
+- (2026-10-21 당시 기록: 비 강도 ↔ API 기준 미정.) b110부터 WMO 코드로 구현됨(`rainLevel`: light 51–57·61·80 / normal 63·66·81 / pouring 65·67·82·95–99, `look-library.md`). 시간당 강수량·강수확률로 강도를 바꾸지 않는다.
 - 보슬비(drizzle), 소나기(showers), 강수확률은 강수 강도와 같은 개념으로 단정하지 않는다. 강수확률만으로 세 강도를 결정하지 않는다.
 - 해당 조건에 승인된 룩이 없을 때의 fallback 정책도 임의로 강한 비용 착장을 맑은 날에 노출하는 방식으로 정하지 않는다. 기존 동작과 제약을 설명하고 필요한 정책을 확인한다.
 - 비 이미지의 빗줄기나 젖은 바닥을 육안으로 보고 기온·강수량을 추정하지 않는다.
