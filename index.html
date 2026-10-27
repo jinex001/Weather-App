@@ -1001,7 +1001,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b173";
+  var BUILD = "b174";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1181,7 +1181,10 @@
     }
     (timed.length ? timed : mine).forEach(function (o) {
       var near = Math.min.apply(null, o.bands.map(function (b) { return Math.abs(BAND_KEYS.indexOf(b) - bi); })), sr = skyRank(o);
-      if (near <= 1 && sr >= 0) { var sk = softRanks(o, v); list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0), cr: sk[0], rr: sk[1] }); }
+      // b174: a neighbour look made only for the warmer band (lighter clothes) ranks after colder-band neighbours (wn),
+      // so a 20° short-sleeve look doesn't come up on an 11° day while warmer-dressed looks are there
+      var wn = near === 1 && !o.bands.some(function (b) { return BAND_KEYS.indexOf(b) <= bi; }) ? 1 : 0;
+      if (near <= 1 && sr >= 0) { var sk = softRanks(o, v); list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0), wn: wn, cr: sk[0], rr: sk[1] }); }
     });
     return list;
   }
@@ -1197,10 +1200,10 @@
     // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
     // put until lookSeed changes: on app start and on each return to the app (b117: the home text shows the same pick))
     // b173: the place and climate context are part of the seed, so another city never keeps the old draw; the same weather
-    // fit sorts first, then climate (cr), then visual region (rr), then the random draw
+    // fit sorts first, then colder neighbour before warmer (wn, b174), then climate (cr), then visual region (rr), then the random draw
     var rnd = seeded(lookSeed + "|" + pics.style + pics.g + v.band[1] + (v.evening ? "e" : "") + (v.day || "") + "|" + (v.ctxKey || ""));
     list.forEach(function (e) { e.r = rnd(); });
-    list.sort(function (a, b) { return a.fit - b.fit || (a.cr || 0) - (b.cr || 0) || (a.rr || 0) - (b.rr || 0) || a.r - b.r; });
+    list.sort(function (a, b) { return a.fit - b.fit || (a.wn || 0) - (b.wn || 0) || (a.cr || 0) - (b.cr || 0) || (a.rr || 0) - (b.rr || 0) || a.r - b.r; });
     // b113: a calendar day opened from its card leads with the look that card's piece came from (the editor's pick),
     // whatever style the profile has; the other two are drawn as usual. b173: only while that look is still one of
     // today's candidates (same weather rank), never forced in from other weather
@@ -2056,7 +2059,7 @@
     var rnd = seeded(pieceSeed + "|piece|" + D.time[i] + g + "|" + cx.key);
     function pairs(test) {
       var out = [];
-      fits.forEach(function (e) { e.o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && test(it)) out.push({ o: e.o, item: k, it: it, fit: e.fit, rk: e.fit * 100 + (e.cr || 0) * 10 + (e.rr || 0) }); }); });
+      fits.forEach(function (e) { e.o.items.forEach(function (k) { var it = LIB.items[k]; if (it && it.image && test(it)) out.push({ o: e.o, item: k, it: it, fit: e.fit, rk: e.fit * 1000 + (e.wn || 0) * 100 + (e.cr || 0) * 10 + (e.rr || 0) }); }); });
       var top = Math.min.apply(null, out.map(function (p) { return p.rk; }));
       return out.filter(function (p) { return p.rk === top; });
     }
