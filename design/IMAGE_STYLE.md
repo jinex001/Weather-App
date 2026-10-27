@@ -514,3 +514,14 @@ photographic language and casting rules.
 ## b143 · Overcast / Chilly / Male / 35+ / Night / Streetwear
 
 User-approved 5 editorials and 21 individual product assets (4/6/3/5/3), mapped through `look/overcast-male-night-street.js`. IDs `ocn-06-street-m`–`ocn-10-street-m`. Latest explicit user direction overrides the earlier ivory JPG rule for this set: 500×500 transparent WebP, preserving source alpha with no new background removal. All five outerwear heroes use the same transparent asset (no duplicate cutout). Original generation PNGs are not committed. Hidden areas are inferred; actual temperatures, brands and fibre composition remain unknown. Other looks and selection logic unchanged.
+
+
+## Global expansion - climate context pilot (2026-10-27, proposed; not a change to approved art direction)
+
+Keep strong direct flash, wide-angle camera language, distinct everyday actions, person-dominant 80–90% framing and editorial/product specifications. **New generations should be planned by climate and visual context, not by a city-specific image identity.** Treat real city as the weather-fetch input and optional background reference, never as the sole eligibility criterion. Distinguish:
+
+- `climateContext`: feels-like temperature band, humidity and wind (only when measured), precipitation, sun/cloud, time and activity; this guides outfit/material compatibility.
+- `visualRegion`: restrained urban visual cues, independent of climate. It should be a preference rather than a hard requirement once global matching is implemented.
+- `originCity`: historical provenance only; do not regenerate approved Berlin assets or misrepresent the photographed locale.
+
+Prompt concept for future images: `Scene: {URBAN_VISUAL_CONTEXT}, {TIME}, {WEATHER}; Climate: {THERMAL_BAND}, {HUMIDITY_IF_KNOWN}, {WIND_IF_KNOWN}, {ACTIVITY}; Outfit: {CONDITION_APPROPRIATE_LAYERS}; Camera and casting: retain existing approved style.` Do not assume exact fibers, humidity tolerance or wind resistance from a photo. Preserve source filenames and IDs in legacy sets. The trial implementation is documented in `pilot/README.md` and `design/look-library.md`. This section supplements, and does not retroactively change, older Berlin examples or previously approved photographs.
