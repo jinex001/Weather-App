@@ -1,0 +1,352 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-street-20261028-05",
+  "batchId": "coastal-overcast-cool-female-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Existing approved casting retained from generation prompts; later general female casting guidance is not retroactively applied."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User accepted latest flowers/seated-map revisions and explicitly started full workflow on 2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "392e138c941735a873d821adcdd7ee48e4706f81429d7ebcb2ca758cab84deb4",
+  "editorialBytes": 258415,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper bag",
+    "flowers",
+    "orange",
+    "groceries",
+    "map",
+    "keys"
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-street-20261028-05",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-street-20261028-05.jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T08:30:09.847734+00:00",
+    "scope": "All 28 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "THE KEYS WERE HERE ALL ALONG",
+    "title": {
+      "ko": "열쇠는 여기 있었네",
+      "en": "The keys were here all along",
+      "de": "Da sind ja die Schlüssel"
+    },
+    "deck": {
+      "ko": "열쇠는 여기 있었네",
+      "en": "Keys held up at the front door, with a grin.",
+      "de": "Da sind ja die Schlüssel"
+    },
+    "intro": {
+      "ko": "현관 앞 토트에서 열쇠를 찾아낸 작은 웃음. 짧은 네이비 재킷과 크림 스트라이프 니트, 스톤 팬츠에 버건디 스니커즈로 색을 더했어요.",
+      "en": "A small smile as the keys finally emerge from the tote. A cropped navy jacket and cream striped knit meet stone trousers and burgundy sneakers.",
+      "de": "Ein kleines Lächeln, als die Schlüssel endlich aus dem Shopper kommen. Kurze marineblaue Jacke, cremefarbener Streifenstrick, steinfarbene Hose und bordeauxrote Sneaker."
+    },
+    "pullQuoteEn": "FOUND THEM. EVENTUALLY.",
+    "tip": {
+      "ko": "토트 속 작은 소지품을 한곳에 모아 두고, 열쇠를 꺼내는 손을 가리지 않게 소매를 정돈해 보세요.",
+      "en": "Keep small essentials together in the tote and settle the cuff clear of the hand reaching for the keys.",
+      "de": "Kleine Dinge im Shopper zusammenhalten und das Bündchen von der Hand mit dem Schlüssel zurückschieben."
+    },
+    "sourceDeckEn": "The keys were here all along",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, intro, pull, tip, names) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn); product how-to-wear refined only where sourceHowToWear is present (idiom); bags mapped to app category bag and earrings to jewelry (producer value in sourceAppCategory)."
+  },
+  "products": [
+    {
+      "id": "jacket",
+      "producerId": "05-jacket",
+      "nameKo": "네이비 크롭 재킷",
+      "name": {
+        "ko": "네이비 크롭 재킷",
+        "en": "Navy cropped zip jacket",
+        "de": "Kurze marineblaue Jacke mit Reißverschluss"
+      },
+      "description": {
+        "ko": "네이비 크롭 재킷. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Navy cropped zip jacket. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Kurze marineblaue Jacke mit Reißverschluss. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 스트라이프 니트를 드러내고 열쇠를 꺼내는 손목 주변은 소매가 덮지 않게 정리하세요.",
+        "en": "Wear it open over the striped knit and keep the cuff clear of the hand reaching for the keys.",
+        "de": "Offen über dem Streifenstrick tragen und das Bündchen von der Hand mit dem Schlüssel zurückhalten."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-street-20261028-05.jacket",
+      "image": "products/jacket.webp",
+      "bytes": 27342,
+      "sha256": "30b35eb0ab830396f78150de320d8f72a1b78191a2a4aea5a176991d5c816541",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceHowToWear": {
+        "en": "Wear open over the striped knit and keep the cuff clear of the hand reaching for the keys."
+      },
+      "altKo": "네이비 크롭 재킷 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "knit",
+      "producerId": "05-knit",
+      "nameKo": "크림 스트라이프 니트",
+      "name": {
+        "ko": "크림 스트라이프 니트",
+        "en": "Cream and navy striped knit",
+        "de": "Creme-marineblauer Streifenpullover"
+      },
+      "description": {
+        "ko": "크림 스트라이프 니트. 사진의 목선과 니트 조직을 따르며 가려진 밑단은 추정했습니다.",
+        "en": "Cream and navy striped knit. The neckline and knit texture follow the photograph; the hidden hem is inferred.",
+        "de": "Creme-marineblauer Streifenpullover. Ausschnitt und Strickstruktur folgen dem Foto; der verdeckte Saum ist ergänzt."
+      },
+      "howToWear": {
+        "ko": "밑단을 스톤 팬츠 허리에 가볍게 정리해 짧은 네이비 재킷 아래 스트라이프가 단정히 보이게 입으세요.",
+        "en": "Settle the hem at the stone trousers' waist so the stripes sit neatly beneath the cropped navy jacket.",
+        "de": "Den Saum am Bund der steinfarbenen Hose ordnen, damit die Streifen unter der kurzen Jacke ruhig verlaufen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-street-20261028-05.knit",
+      "image": "products/knit.webp",
+      "bytes": 43874,
+      "sha256": "9c1ea9e617608aae4709a7f63bb288e5f542856d6c169dfc23b1b8b79a3ca365",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "크림 스트라이프 니트 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-trousers",
+      "nameKo": "스톤 팬츠",
+      "name": {
+        "ko": "스톤 팬츠",
+        "en": "Stone relaxed trousers",
+        "de": "Lockere steinfarbene Hose"
+      },
+      "description": {
+        "ko": "스톤 팬츠. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Stone relaxed trousers. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Lockere steinfarbene Hose. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "허리와 허벅지가 편한 팬츠에 토트를 옆으로 메어 가방 안을 찾을 때 몸을 자유롭게 기울일 수 있게 하세요.",
+        "en": "Choose an easy waist and thigh fit and carry the tote at your side so you can lean in to find your keys.",
+        "de": "Eine bequeme Weite an Taille und Oberschenkeln wählen und den Shopper seitlich tragen, um sich beim Schlüsselsuchen frei bewegen zu können."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-street-20261028-05.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 28418,
+      "sha256": "c8258d65a2d552cd532c9df4c2c41b978fa25841075805642dedcea4c35b0d30",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "스톤 팬츠 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "05-sneakers",
+      "nameKo": "버건디 스니커즈",
+      "name": {
+        "ko": "버건디 스니커즈",
+        "en": "Burgundy sneakers with cream laces",
+        "de": "Bordeauxrote Sneaker mit cremefarbenen Schnürsenkeln"
+      },
+      "description": {
+        "ko": "버건디 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Burgundy sneakers with cream laces. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Bordeauxrote Sneaker mit cremefarbenen Schnürsenkeln. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "크림색 끈을 단정히 묶고 밝은 스톤 팬츠 아래 버건디 앞코가 보이도록 길이를 맞추세요.",
+        "en": "Tie the cream laces neatly and let the burgundy toes show below the pale stone trousers.",
+        "de": "Die cremefarbenen Schnürsenkel ordentlich binden und unter der hellen Hose die bordeauxroten Schuhspitzen zeigen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-street-20261028-05.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 45460,
+      "sha256": "4bdcdedb766a2b3d414101a9ad21a81657b05c73ae2a25ba8fd248ccef3d556f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "버건디 스니커즈 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "tote",
+      "producerId": "05-tote",
+      "nameKo": "탄 스웨이드 토트",
+      "name": {
+        "ko": "탄 스웨이드 토트",
+        "en": "Tan suede-look tote",
+        "de": "Hellbrauner Shopper in Veloursoptik"
+      },
+      "description": {
+        "ko": "탄 스웨이드 토트. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Tan suede-look tote. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Hellbrauner Shopper in Veloursoptik. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "열쇠를 자주 쓰는 날엔 작은 소지품을 가방 안 한곳에 모아 두고 손잡이를 어깨에 안정적으로 걸치세요.",
+        "en": "Keep small essentials together inside the tote and settle the handles securely on the shoulder.",
+        "de": "Kleine Dinge im Shopper an einer Stelle sammeln und die Henkel sicher auf die Schulter legen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-street-20261028-05.tote",
+      "image": "products/tote.webp",
+      "bytes": 37794,
+      "sha256": "046f5e6abe4f6c79698a8b10b884ff8f331896805f709671b315d53d7c3089f0",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "탄 스웨이드 토트 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "earrings",
+      "producerId": "05-earrings",
+      "nameKo": "골드 후프 이어링",
+      "name": {
+        "ko": "골드 후프 이어링",
+        "en": "Small gold-tone hoop earrings",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 후프 이어링. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Small gold-tone hoop earrings. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Kleine goldfarbene Creolen. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "올려 묶은 머리 옆에 작은 후프를 더해 스트라이프와 네이비 재킷의 단정한 느낌을 이어 주세요.",
+        "en": "Add small hoops beside the loose bun to keep the striped knit and navy jacket feeling understated.",
+        "de": "Neben dem lockeren Dutt kleine Creolen tragen, passend zum zurückhaltenden Streifenstrick und der marineblauen Jacke."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "jewelry",
+      "appItemId": "coastal-cool-f35-day-street-20261028-05.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 31284,
+      "sha256": "501558ba75c8645237e6309c2bb8f8d4acaadd5ad1ecc5dc0f552bb33e87b1d9",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "골드 후프 이어링 — 독립 투명 배경 제품 컷"
+    }
+  ],
+  "appSky": "cloudy",
+  "appBands": [
+    "cool"
+  ]
+}

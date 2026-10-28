@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-street-20261028-02",
+  "batchId": "coastal-overcast-cool-female-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Existing approved casting retained from generation prompts; later general female casting guidance is not retroactively applied."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User accepted latest flowers/seated-map revisions and explicitly started full workflow on 2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "470340e0e641b5c984397d28fe021ec684f7a0e239e1c83ee35816cfde2e0fa6",
+  "editorialBytes": 285558,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper bag",
+    "flowers",
+    "orange",
+    "groceries",
+    "map",
+    "keys"
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-street-20261028-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-street-20261028-02.jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T08:30:09.847734+00:00",
+    "scope": "All 28 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "COBALT AND TODAY'S FLOWERS",
+    "title": {
+      "ko": "코발트 재킷과 오늘의 꽃",
+      "en": "Cobalt and today's flowers",
+      "de": "Kobaltblau und Blumen für heute"
+    },
+    "deck": {
+      "ko": "코발트 재킷과 오늘의 꽃",
+      "en": "A pause in the lane to tidy the bouquet's paper.",
+      "de": "Kobaltblau und Blumen für heute"
+    },
+    "intro": {
+      "ko": "골목을 걷다 꽃다발의 포장을 살짝 정돈해요. 코발트 윈드브레이커와 크림 니트, 네이비 팬츠가 꽃의 부드러운 색을 또렷하게 받쳐 줍니다.",
+      "en": "A small pause to straighten the bouquet's wrapping. A cobalt windbreaker, cream knit and navy trousers frame the flowers' softer colours.",
+      "de": "Eine kleine Pause, um das Papier am Blumenstrauß zu richten. Kobaltblaue Windjacke, cremefarbener Strick und marineblaue Hose rahmen die zarten Blumenfarben."
+    },
+    "pullQuoteEn": "A LITTLE COLOUR FOR THE WALK.",
+    "tip": {
+      "ko": "바람이 선선한 날엔 얇은 겉옷을 열어 겹쳐 입고, 꽃다발은 손목이 편한 높이로 받쳐 보세요.",
+      "en": "On a cool breezy day, wear a light jacket open over a knit and hold the bouquet at a comfortable height.",
+      "de": "An einem kühlen, leicht windigen Tag eine leichte Jacke offen über Strick tragen und den Strauß bequem halten."
+    },
+    "sourceDeckEn": "Cobalt and today's flowers",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, intro, pull, tip, names) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn); product how-to-wear refined only where sourceHowToWear is present (idiom); bags mapped to app category bag and earrings to jewelry (producer value in sourceAppCategory)."
+  },
+  "products": [
+    {
+      "id": "jacket",
+      "producerId": "02-jacket",
+      "nameKo": "코발트 윈드브레이커",
+      "name": {
+        "ko": "코발트 윈드브레이커",
+        "en": "Cobalt windbreaker",
+        "de": "Kobaltblaue Windjacke"
+      },
+      "description": {
+        "ko": "코발트 윈드브레이커. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Cobalt windbreaker. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Kobaltblaue Windjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "지퍼를 열어 크림 니트를 드러내고 꽃다발을 감싸는 손목 주변만 소매를 가볍게 정리하세요.",
+        "en": "Leave the zip open over the cream knit and ease the cuffs back from the hands holding the bouquet.",
+        "de": "Den Reißverschluss über dem cremefarbenen Strick offen lassen und die Bündchen von den Händen am Blumenstrauß zurückschieben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-street-20261028-02.jacket",
+      "image": "products/jacket.webp",
+      "bytes": 37670,
+      "sha256": "37a21fe4f02f943c9f149cf2f1089c6860903a18baf35a28f2bfb07b6dd8e718",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "코발트 윈드브레이커 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "knit",
+      "producerId": "02-knit",
+      "nameKo": "크림 크루넥 니트",
+      "name": {
+        "ko": "크림 크루넥 니트",
+        "en": "Cream crewneck knit",
+        "de": "Cremefarbener Rundhalspullover"
+      },
+      "description": {
+        "ko": "크림 크루넥 니트. 사진의 목선과 니트 조직을 따르며 가려진 밑단은 추정했습니다.",
+        "en": "Cream crewneck knit. The neckline and knit texture follow the photograph; the hidden hem is inferred.",
+        "de": "Cremefarbener Rundhalspullover. Ausschnitt und Strickstruktur folgen dem Foto; der verdeckte Saum ist ergänzt."
+      },
+      "howToWear": {
+        "ko": "크림색 목선을 윈드브레이커 위로 단정히 드러내 코발트와 꽃의 색 사이를 부드럽게 이어 주세요.",
+        "en": "Keep the cream neckline visible to soften the contrast between the cobalt jacket and the flowers.",
+        "de": "Den cremefarbenen Ausschnitt sichtbar lassen; er verbindet das kräftige Blau mit den zarten Blumenfarben."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-street-20261028-02.knit",
+      "image": "products/knit.webp",
+      "bytes": 31848,
+      "sha256": "cb884e7957a01de8011fb49b5225220d779d22775a4b5cc58163b1929458b5db",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "크림 크루넥 니트 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "nameKo": "네이비 와이드 팬츠",
+      "name": {
+        "ko": "네이비 와이드 팬츠",
+        "en": "Navy wide-leg trousers",
+        "de": "Weite marineblaue Hose"
+      },
+      "description": {
+        "ko": "네이비 와이드 팬츠. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Navy wide-leg trousers. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Weite marineblaue Hose. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "꽃다발을 들고 걸을 때 발목 주위가 걸리지 않도록 넓은 밑단을 신발 위에서 정돈하세요.",
+        "en": "Keep the wide hems clear of the ankles and shoes while walking with the bouquet.",
+        "de": "Beim Gehen mit dem Blumenstrauß darauf achten, dass die weiten Säume nicht an Knöcheln oder Schuhen hängen bleiben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-street-20261028-02.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 16920,
+      "sha256": "47f2888c9915bc97664b97592d0b4b9bc9e2c2c59aa87bc0a6cab0df0b996ffe",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "네이비 와이드 팬츠 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "02-sneakers",
+      "nameKo": "라이트 그레이 스니커즈",
+      "name": {
+        "ko": "라이트 그레이 스니커즈",
+        "en": "Pale grey panel sneakers",
+        "de": "Hellgraue Sneaker mit Einsätzen"
+      },
+      "description": {
+        "ko": "라이트 그레이 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Pale grey panel sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Hellgraue Sneaker mit Einsätzen. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "라이트 그레이 스니커즈 위로 네이비 바짓단이 가볍게 떨어지도록 맞춰 밝은 신발을 살짝 드러내세요.",
+        "en": "Let the navy hems fall lightly over the pale grey sneakers, leaving the toes visible.",
+        "de": "Die marineblauen Säume locker über die hellgrauen Sneaker fallen lassen und die Schuhspitzen sichtbar lassen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-street-20261028-02.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 46610,
+      "sha256": "d6baf39174e96c901fa67003952dd094905cdf86e90f6d771cce6110fcb3ab9a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "라이트 그레이 스니커즈 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "02-shoulder-bag",
+      "nameKo": "브라운 숄더백",
+      "name": {
+        "ko": "브라운 숄더백",
+        "en": "Brown shoulder bag",
+        "de": "Braune Schultertasche"
+      },
+      "description": {
+        "ko": "브라운 숄더백. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Brown shoulder bag. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Braune Schultertasche. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "작은 가방은 어깨에서 몸 옆으로 붙이고 꽃다발은 반대 팔로 받쳐 앞쪽이 복잡해지지 않게 하세요.",
+        "en": "Keep the small bag at your side and cradle the bouquet with the opposite arm.",
+        "de": "Die kleine Tasche seitlich am Körper tragen und den Strauß mit dem anderen Arm halten."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-street-20261028-02.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 29806,
+      "sha256": "d6562228933888d01ef40e33eb6dbaef6fcf271f2544fb9cbd68598c9009acfa",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "브라운 숄더백 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "earrings",
+      "producerId": "02-earrings",
+      "nameKo": "골드 후프 이어링",
+      "name": {
+        "ko": "골드 후프 이어링",
+        "en": "Small gold-tone hoop earrings",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 후프 이어링. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Small gold-tone hoop earrings. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Kleine goldfarbene Creolen. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "짧은 머리 옆으로 작은 후프만 드러내 코발트 재킷과 꽃다발에 시선이 모이게 하세요.",
+        "en": "Let the small hoops show beside the short haircut, keeping the cobalt jacket and flowers as the focus.",
+        "de": "Die kleinen Creolen neben dem kurzen Haar sichtbar lassen, damit Jacke und Blumen im Mittelpunkt bleiben."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "jewelry",
+      "appItemId": "coastal-cool-f35-day-street-20261028-02.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 30744,
+      "sha256": "00aa98af5ed56cad2b70ed9652817ddbaea1cb5e0eb4b449b4c326ef21a7368f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "골드 후프 이어링 — 독립 투명 배경 제품 컷"
+    }
+  ],
+  "appSky": "cloudy",
+  "appBands": [
+    "cool"
+  ]
+}

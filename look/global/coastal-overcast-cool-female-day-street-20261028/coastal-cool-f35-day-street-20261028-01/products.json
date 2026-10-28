@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-street-20261028-01",
+  "batchId": "coastal-overcast-cool-female-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Existing approved casting retained from generation prompts; later general female casting guidance is not retroactively applied."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User accepted latest flowers/seated-map revisions and explicitly started full workflow on 2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0691d7a500d0622e5c07447ae801e8de741af56ca0b1bcb6ac485968cd0beff4",
+  "editorialBytes": 260629,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper bag",
+    "flowers",
+    "orange",
+    "groceries",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-street-20261028-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-street-20261028-01.jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T08:30:09.847734+00:00",
+    "scope": "All 28 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "COFFEE STEADY, PAPER BAG SLIPPING",
+    "title": {
+      "ko": "컵은 그대로, 봉투는 아슬아슬",
+      "en": "Coffee steady, paper bag slipping",
+      "de": "Der Kaffee bleibt, die Tüte rutscht"
+    },
+    "deck": {
+      "ko": "컵은 그대로, 봉투는 아슬아슬",
+      "en": "A lid held high while the paper bag makes its escape.",
+      "de": "Der Kaffee bleibt, die Tüte rutscht"
+    },
+    "intro": {
+      "ko": "카페를 나서는 순간 종이봉투가 팔 아래로 미끄러져요. 올리브 재킷과 오트밀 니트, 차콜 데님에 버건디 크로스백을 더한 흐린 낮의 스트리트 룩입니다.",
+      "en": "Leaving the café, a paper bag slips from under her elbow. Olive, oatmeal and charcoal layers are finished with a burgundy crossbody on an overcast day.",
+      "de": "Beim Verlassen des Cafés rutscht die Papiertüte unter dem Arm weg. Oliv, Hafer und Anthrazit treffen an diesem bedeckten Tag auf eine bordeauxrote Umhängetasche."
+    },
+    "pullQuoteEn": "COFFEE SAFE. BAG, ALMOST.",
+    "tip": {
+      "ko": "컵과 봉투를 함께 들 땐 가방을 몸 가까이 메고, 움직이기 편한 재킷 소매를 골라 보세요.",
+      "en": "When carrying a cup and bag, keep the crossbody close and the jacket sleeves easy to move in.",
+      "de": "Mit Becher und Tüte die Umhängetasche körpernah tragen und auf bequeme Jackenärmel achten."
+    },
+    "sourceDeckEn": "Coffee steady, paper bag slipping",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, intro, pull, tip, names) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn); product how-to-wear refined only where sourceHowToWear is present (idiom); bags mapped to app category bag and earrings to jewelry (producer value in sourceAppCategory)."
+  },
+  "products": [
+    {
+      "id": "jacket",
+      "producerId": "01-jacket",
+      "nameKo": "올리브 필드 재킷",
+      "name": {
+        "ko": "올리브 필드 재킷",
+        "en": "Olive field jacket",
+        "de": "Olivgrüne Fieldjacke"
+      },
+      "description": {
+        "ko": "올리브 필드 재킷. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Olive field jacket. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Olivgrüne Fieldjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "앞을 열고 오트밀 니트 위에 걸쳐, 두 손으로 컵과 봉투를 다룰 때 소매가 손을 덮지 않게 정돈하세요.",
+        "en": "Wear it open over the oatmeal knit and keep the cuffs clear of your hands while you juggle the cup and the bag.",
+        "de": "Offen über dem haferfarbenen Strick tragen und die Ärmel so richten, dass beim Tragen von Becher und Tüte die Hände frei bleiben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-street-20261028-01.jacket",
+      "image": "products/jacket.webp",
+      "bytes": 44016,
+      "sha256": "0a1b046520b352ce9e1662c820171f9f33e92c96bd5a1fb2d1c215c6232101be",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceHowToWear": {
+        "en": "Wear open over the oatmeal knit and keep the cuffs clear of your hands when carrying the cup and bag.",
+        "de": "Offen über dem Haferstrick tragen und die Ärmel so richten, dass beim Tragen von Becher und Tüte die Hände frei bleiben."
+      },
+      "altKo": "올리브 필드 재킷 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "knit",
+      "producerId": "01-knit",
+      "nameKo": "오트밀 니트",
+      "name": {
+        "ko": "오트밀 니트",
+        "en": "Oatmeal crewneck knit",
+        "de": "Rundhalspullover in Hafer"
+      },
+      "description": {
+        "ko": "오트밀 니트. 사진의 목선과 니트 조직을 따르며 가려진 밑단은 추정했습니다.",
+        "en": "Oatmeal crewneck knit. The neckline and knit texture follow the photograph; the hidden hem is inferred.",
+        "de": "Rundhalspullover in Hafer. Ausschnitt und Strickstruktur folgen dem Foto; der verdeckte Saum ist ergänzt."
+      },
+      "howToWear": {
+        "ko": "니트 밑단을 차콜 데님 허리에 가볍게 정돈해 짧은 재킷 아래 레이어가 뭉치지 않게 입으세요.",
+        "en": "Settle the hem at the charcoal jeans' waistband so it sits smoothly beneath the cropped jacket.",
+        "de": "Den Saum am Bund der anthrazitfarbenen Jeans glatt legen, damit er unter der kurzen Jacke nicht aufträgt."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-street-20261028-01.knit",
+      "image": "products/knit.webp",
+      "bytes": 48642,
+      "sha256": "c850509539d4b3bbc6e2fdf70e4023ca40b984623986add179f1a03b3ba4e9d9",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "오트밀 니트 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "jeans",
+      "producerId": "01-jeans",
+      "nameKo": "차콜 와이드 데님",
+      "name": {
+        "ko": "차콜 와이드 데님",
+        "en": "Washed charcoal wide-leg jeans",
+        "de": "Weite Jeans in verwaschenem Anthrazit"
+      },
+      "description": {
+        "ko": "차콜 와이드 데님. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Washed charcoal wide-leg jeans. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Weite Jeans in verwaschenem Anthrazit. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "상의 밑단을 허리에 가볍게 정리하고 넓은 바짓단이 스니커즈 밑창 아래로 끌리지 않게 길이를 맞추세요.",
+        "en": "Keep the top tidy at the waist and choose a hem that clears the sneakers' soles.",
+        "de": "Das Oberteil am Bund ordnen und die Länge so wählen, dass der weite Saum nicht unter die Sneaker rutscht."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-street-20261028-01.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 38708,
+      "sha256": "158cf41140bf21212d5445668900a9c68544ad1a992de4fe71c1e72f583e3f70",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "차콜 와이드 데님 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "01-sneakers",
+      "nameKo": "오프화이트 스니커즈",
+      "name": {
+        "ko": "오프화이트 스니커즈",
+        "en": "Off-white leather-look sneakers",
+        "de": "Cremeweiße Sneaker in Lederoptik"
+      },
+      "description": {
+        "ko": "오프화이트 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Off-white leather-look sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Cremeweiße Sneaker in Lederoptik. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "오프화이트 끈을 단정히 묶고 차콜 데님 아래 밝은 앞코가 조금 보이게 입으세요.",
+        "en": "Tie the off-white laces neatly and let a little of the pale toe show below the charcoal denim.",
+        "de": "Die cremeweißen Schnürsenkel ordentlich binden und unter der dunklen Jeans etwas von der hellen Schuhspitze zeigen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-street-20261028-01.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 42354,
+      "sha256": "1858df11f367fc23e6ea81931b9dc4efb21b531363657e7ffd00040b2a62290b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "오프화이트 스니커즈 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "crossbody",
+      "producerId": "01-crossbody",
+      "nameKo": "버건디 크로스백",
+      "name": {
+        "ko": "버건디 크로스백",
+        "en": "Burgundy flap crossbody bag",
+        "de": "Bordeauxrote Umhängetasche mit Klappe"
+      },
+      "description": {
+        "ko": "버건디 크로스백. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Burgundy flap crossbody bag. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Bordeauxrote Umhängetasche mit Klappe. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "가방을 옆구리에 가깝게 짧게 메면 몸을 비틀어 봉투를 받칠 때 앞으로 크게 흔들리지 않아요.",
+        "en": "Wear the bag close to your hip so it swings less when you turn to catch the paper bag.",
+        "de": "Die Tasche nah an der Hüfte tragen, damit sie beim Drehen nach der Papiertüte weniger schwingt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-street-20261028-01.crossbody",
+      "image": "products/crossbody.webp",
+      "bytes": 43670,
+      "sha256": "dc9aeebe982797434eb80aa3d36f127fc7905429f2f4f76c37916b0103919c0c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "버건디 크로스백 — 독립 투명 배경 제품 컷"
+    }
+  ],
+  "appSky": "cloudy",
+  "appBands": [
+    "cool"
+  ]
+}

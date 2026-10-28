@@ -1,0 +1,352 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-street-20261028-04",
+  "batchId": "coastal-overcast-cool-female-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Existing approved casting retained from generation prompts; later general female casting guidance is not retroactively applied."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User accepted latest flowers/seated-map revisions and explicitly started full workflow on 2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d8ca46835fd6ecfeea7cbed9cde485491a14f0b4a92001c4f9329e667810ca72",
+  "editorialBytes": 267326,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper bag",
+    "flowers",
+    "orange",
+    "groceries",
+    "map",
+    "keys"
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-street-20261028-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-street-20261028-04.bomber",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T08:30:09.847734+00:00",
+    "scope": "All 28 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "THE NEXT STREET, FOUND ON THE STEPS",
+    "title": {
+      "ko": "계단에서 찾는 다음 골목",
+      "en": "The next street, found on the steps",
+      "de": "Die nächste Gasse, auf der Stufe gefunden"
+    },
+    "deck": {
+      "ko": "계단에서 찾는 다음 골목",
+      "en": "A stone step, a map across her knee and no rush at all.",
+      "de": "Die nächste Gasse, auf der Stufe gefunden"
+    },
+    "intro": {
+      "ko": "돌계단에 잠깐 앉아 무릎 위 지도에서 다음 길을 찾아요. 샌드 봄버와 플럼 니트, 차콜 데님이 흐린 골목의 차분한 색과 어울립니다.",
+      "en": "A seat on the stone steps, a map across her lap, and time to find the next turn. Sand, plum and charcoal echo the quiet overcast street.",
+      "de": "Kurz auf den Steinstufen sitzen, die Karte auf dem Schoß, und die nächste Abzweigung suchen. Sand, Pflaume und Anthrazit passen zur ruhigen, bedeckten Gasse."
+    },
+    "pullQuoteEn": "NO HURRY. JUST THE NEXT TURN.",
+    "tip": {
+      "ko": "앉아서 지도를 볼 땐 재킷 지퍼를 열고 가방을 옆에 내려놓으면 손과 무릎이 한결 편해요.",
+      "en": "Open the jacket and set the bag beside you so your hands and knees have room for the map.",
+      "de": "Zum Kartenlesen im Sitzen die Jacke öffnen und die Tasche danebenstellen; so haben Hände und Knie mehr Platz."
+    },
+    "sourceDeckEn": "The next street, found on the steps",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, intro, pull, tip, names) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn); product how-to-wear refined only where sourceHowToWear is present (idiom); bags mapped to app category bag and earrings to jewelry (producer value in sourceAppCategory)."
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "producerId": "04-bomber",
+      "nameKo": "샌드 봄버 재킷",
+      "name": {
+        "ko": "샌드 봄버 재킷",
+        "en": "Sand bomber jacket",
+        "de": "Sandfarbene Bomberjacke"
+      },
+      "description": {
+        "ko": "샌드 봄버 재킷. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Sand bomber jacket. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Sandfarbene Bomberjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "계단에 앉을 때 지퍼를 열어 무릎 위 지도를 보는 자세에서 앞판이 당기지 않게 하세요.",
+        "en": "Open the zip when sitting so the front stays easy as you lean over the map on your lap.",
+        "de": "Im Sitzen den Reißverschluss öffnen, damit die Jacke beim Blick auf die Karte auf dem Schoß nicht spannt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-street-20261028-04.bomber",
+      "image": "products/bomber.webp",
+      "bytes": 36572,
+      "sha256": "03bd2a8bd2d32872d6c840991f5ade31194c578c37334c2990ac0c88f3176a95",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "샌드 봄버 재킷 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "knit",
+      "producerId": "04-knit",
+      "nameKo": "다크 플럼 니트",
+      "name": {
+        "ko": "다크 플럼 니트",
+        "en": "Dark plum crewneck knit",
+        "de": "Dunkelpflaumenfarbener Rundhalspullover"
+      },
+      "description": {
+        "ko": "다크 플럼 니트. 사진의 목선과 니트 조직을 따르며 가려진 밑단은 추정했습니다.",
+        "en": "Dark plum crewneck knit. The neckline and knit texture follow the photograph; the hidden hem is inferred.",
+        "de": "Dunkelpflaumenfarbener Rundhalspullover. Ausschnitt und Strickstruktur folgen dem Foto; der verdeckte Saum ist ergänzt."
+      },
+      "howToWear": {
+        "ko": "샌드색 재킷 안에 플럼색 니트를 단정히 겹치고 지도 위로 손을 뻗을 때 소매가 종이를 가리지 않게 하세요.",
+        "en": "Layer the plum knit under the sand jacket and keep the sleeves clear of the map as you trace a route.",
+        "de": "Den pflaumenfarbenen Strick unter der sandfarbenen Jacke tragen und beim Nachfahren der Route die Ärmel von der Karte fernhalten."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-street-20261028-04.knit",
+      "image": "products/knit.webp",
+      "bytes": 41270,
+      "sha256": "fe02044604bb0733b08ce0ee4fd17f94d14088b794fc925b8cb816583af4e100",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "다크 플럼 니트 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "jeans",
+      "producerId": "04-jeans",
+      "nameKo": "워시드 차콜 데님",
+      "name": {
+        "ko": "워시드 차콜 데님",
+        "en": "Washed charcoal straight jeans",
+        "de": "Gerade Jeans in verwaschenem Anthrazit"
+      },
+      "description": {
+        "ko": "워시드 차콜 데님. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Washed charcoal straight jeans. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Gerade Jeans in verwaschenem Anthrazit. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "낮은 계단에 편하게 앉을 수 있도록 무릎과 허벅지에 여유가 있는 데님을 선택하세요.",
+        "en": "Choose room through the knees and thighs for sitting comfortably on a low step.",
+        "de": "Für bequemes Sitzen auf einer niedrigen Stufe eine Jeans mit Platz an Knien und Oberschenkeln wählen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-street-20261028-04.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 42792,
+      "sha256": "d0adbd912ea8e3e1fc11a3cd22f751fc5913696044e7b2cdf651c4466505e531",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "워시드 차콜 데님 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "04-sneakers",
+      "nameKo": "베이지 패널 스니커즈",
+      "name": {
+        "ko": "베이지 패널 스니커즈",
+        "en": "Cream and beige panel sneakers",
+        "de": "Creme-beige Sneaker mit Einsätzen"
+      },
+      "description": {
+        "ko": "베이지 패널 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Cream and beige panel sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Creme-beige Sneaker mit Einsätzen. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "두 발을 아래 계단에 편하게 두고 바짓단이 신발 뒤축 아래에 끼지 않게 정리하세요.",
+        "en": "Rest both feet on the lower step and keep the denim hems out from under the heels.",
+        "de": "Beide Füße bequem auf die untere Stufe stellen und die Jeanssäume nicht unter die Fersen geraten lassen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-street-20261028-04.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 44922,
+      "sha256": "f4014f0a7b1d3953c95ffd8ea2a9847ec6bd34caac285bf2b7fa30ab52645ec5",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "베이지 패널 스니커즈 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "04-shoulder-bag",
+      "nameKo": "다크 브라운 숄더백",
+      "name": {
+        "ko": "다크 브라운 숄더백",
+        "en": "Dark brown leather-look shoulder bag",
+        "de": "Dunkelbraune Schultertasche in Lederoptik"
+      },
+      "description": {
+        "ko": "다크 브라운 숄더백. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Dark brown leather-look shoulder bag. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Dunkelbraune Schultertasche in Lederoptik. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "가방은 옆 계단에 내려놓고 스트랩도 몸 가까이 모아 지도를 펼칠 자리를 확보하세요.",
+        "en": "Set the bag on the step beside you and gather the strap close to leave room for the map.",
+        "de": "Die Tasche auf die Stufe daneben stellen und den Riemen nah heranlegen, damit Platz für die Karte bleibt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-street-20261028-04.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 39974,
+      "sha256": "a4fb26732bebdb8e76bfff1d2cf5da78f9f40e24a0215f59dfc99d09c1fc776a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "다크 브라운 숄더백 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "earrings",
+      "producerId": "04-earrings",
+      "nameKo": "골드 후프 이어링",
+      "name": {
+        "ko": "골드 후프 이어링",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "description": {
+        "ko": "골드 후프 이어링. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Small gold-tone hoops. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Kleine goldfarbene Creolen. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "머리를 낮게 묶어 작은 골드 후프가 살짝 보이게 하고 지도 쪽으로 고개를 숙여도 편한 크기를 고르세요.",
+        "en": "With the hair tied back low, choose small hoops that stay comfortable when you bend over the map.",
+        "de": "Das Haar tief zusammenbinden und kleine Creolen wählen, die beim Beugen über die Karte bequem bleiben."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "jewelry",
+      "appItemId": "coastal-cool-f35-day-street-20261028-04.earrings",
+      "image": "products/earrings.webp",
+      "bytes": 33554,
+      "sha256": "2743fa7737c24bc5d49e3f2f0944a85379cadcef1472a3a262d07ad53e7c1fa2",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "sourceHowToWear": {
+        "en": "Wear the hair low and choose small hoops that stay comfortable when you bend over the map."
+      },
+      "altKo": "골드 후프 이어링 — 독립 투명 배경 제품 컷"
+    }
+  ],
+  "appSky": "cloudy",
+  "appBands": [
+    "cool"
+  ]
+}

@@ -3,8 +3,8 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-28 (앱 빌드 b178) · 256룩 · 기사 룩 256 · 아이템 b177 수치 + 20 (b178 해안 남성 저녁 세트 5룩 · 20아이템, ID 충돌 없음 확인; 파이썬 파싱으로는 1537 → 1557, b177 기록 1536과의 1개 차이는 이번 변경 전부터; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
-모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `coastal-warm-male-day-street-20261027.js`(b177) → `coastal-warm-male-evening-street-20261027.js`(b178) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
+마지막 정리: 2026-10-28 (앱 빌드 b179) · 261룩 · 기사 룩 261 · 아이템 b178 수치 + 28 (b179 해안 흐림 선선함 여성 낮 세트 5룩 · 28아이템, ID 충돌 없음 확인; 아이템 총수는 파서마다 달라(b178 기록 1557, b179 점검 파서 1533 → 1561) 증가분만 기록; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `coastal-warm-male-day-street-20261027.js`(b177) → `coastal-warm-male-evening-street-20261027.js`(b178) → `coastal-overcast-cool-female-day-street-20261028.js`(b179) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
 
 ## Outfit
 
@@ -305,3 +305,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 룩 `coastal-pleasant-m35-evening-street-20261027-01`–`05`(clear · pleasant · m · 35 · street · **`time: "evening"`**, 저장 분류 night, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 블랙 셔츠 + 에크루 와이드 쇼츠 + 블랙 피셔맨 샌들(와인 바 샴페인) · 02 블루 셔츠 + 워시드 차콜 팬츠 + 샌드 캡(산책로 돌담 맥주) · 03 번트 레드 티 + 스톤 카고 쇼츠 + 블랙 플립플롭(돌계단에서 라임 짜기) · 04 페일 옐로 오픈 니트 폴로 + 네이비 쇼츠 + 밀짚 모자 + 브라운 플립플롭(흰 벽 앞에서 돌아봄) · 05 세이지·아이보리 줄무늬 셔츠(앞 열고) + 아이보리 립 탱크 + 다크 네이비 팬츠(벤치 스프리츠). 선글라스 01·03 목에 걸침, 04 손, 05 머리 위, 02 없음. 음료·잔·라임은 소품.
 - 아이템 ID `<룩 ID>.<제품 id>`(20개 모두 새 ID). 분류: 셔츠·티·폴로 `top`(05 셔츠는 탱크 위에 열어 `outer`, 탱크 `top`), 쇼츠 `shorts`, 팬츠 `bottom`, 샌들·플립플롭 `shoes`, 캡·모자 `headwear`, 선글라스 `eyewear`. 대표 컷 = 주 상의 WebP 자체(02는 제목 BLUE = 셔츠).
 - 저녁 룩이라 해안 지역 맑은(0–2) 저녁에만 나오고, 낮 해안 세트(b176·b177)·캘린더(낮 룩만 씀)는 그대로. 도시·습도%·바람 null, 24–25°C / 체감 23°C는 사용자 장면 가정(측정·실시간 아님). 모델 외관 28–32, 저장 35+. 02·05 신발은 크롭 밖이라 없음, 02·05 팬츠 길이·뒤판과 04 폴로 앞판은 추정 복원. [검증](coastal-warm-male-evening-street-20261027-validation.md).
+
+## b179 · 해안 · Overcast / Cool / Female / 35+ / Day / Street — 2026-10-28 세트 (5 looks)
+
+- 배치 `coastal-overcast-cool-female-day-street-20261028`(READY.json 154개 SHA-256 일치, 사용자가 최신 에디토리얼 5장 승인 — 02 꽃다발 수정본·04 앉아서 지도 보는 수정본, 2026-10-28). 에디토리얼 5장(1024×1536 JPG ≤288,341 B) + 독립 투명 WebP 제품 28개(5/6/5/6/6, 500×500, ≤49,240 B) 바이트 그대로 → `look/global/coastal-overcast-cool-female-day-street-20261028/<룩 ID>/editorial.jpg`·`products/<제품 id>.webp`, 보충 파일 `look/coastal-overcast-cool-female-day-street-20261028.js`(b178 모듈 뒤·cutouts.js 앞).
+- 룩 `coastal-cool-f35-day-street-20261028-01`–`05`(**cloudy**(제작 측 condition `overcast`는 설명값) · **cool** · f · 35 · street · 낮 = `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 올리브 필드 재킷 + 오트밀 니트 + 차콜 와이드 데님 + 오프화이트 스니커즈 + 버건디 크로스백(카페 나서며 커피·종이봉투) · 02 코발트 윈드브레이커 + 크림 니트 + 네이비 와이드 팬츠 + 그레이 스니커즈 + 브라운 숄더백 + 골드 후프(꽃다발 정돈) · 03 러스트 초어 재킷 + 아이보리 니트 + 라이트 블루 데님 + 탄 스니커즈 + 캔버스 토트(오렌지 받치기) · 04 샌드 봄버 + 플럼 니트 + 차콜 데님 + 크림·베이지 스니커즈 + 다크 브라운 숄더백 + 골드 후프(돌계단에서 지도) · 05 네이비 크롭 재킷 + 크림·네이비 줄무늬 니트 + 스톤 팬츠 + 버건디 스니커즈(크림 끈 v2) + 탄 스웨이드 토트 + 골드 후프(현관 앞 열쇠). 컵·종이봉투·꽃·오렌지/채소·지도·열쇠는 소품.
+- 아이템 ID `<룩 ID>.<제품 id>`(28개 모두 새 ID). 분류: 재킷·봄버 `outer`, 니트 `top`, 데님·팬츠 `bottom`, 스니커즈 `shoes`, 크로스백·숄더백·토트 `bag`(제작 측 `accessory`는 `sourceAppCategory`), 후프 `jewelry`. 대표 컷 = 아우터 WebP 자체(04 봄버, 나머지 재킷; 제목 첫 색 단어 02 COBALT도 재킷).
+- 체감 16°C는 제작 측 장면 가정(측정·실시간 아님), 기온·습도·바람·도시 null. 모델 외관 28–32(승인된 생성 프롬프트 그대로, 새 25–28 기준을 소급 적용하지 않음), 저장 35+. 가려진 뒤판·전체 길이·짝 신발/귀걸이·02 가방 형태는 추정 복원. 02 윈드브레이커는 사진에선 후드를 썼고 제품 컷은 칼라 + 조임끈 모습(보고만). [검증](coastal-overcast-cool-female-day-street-20261028-validation.md).

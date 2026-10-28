@@ -1,0 +1,12 @@
+# coastal-overcast-cool-female-day-street-20261028
+
+Fifth warm-coastal global set and the first overcast / cool one (app build b179), five looks `coastal-cool-f35-day-street-20261028-01` … `05`.
+
+- Weather fit: producer condition `overcast` → app sky `cloudy` · cool (10–17°) · women · 35+ storage · daytime (no `time` field) · street. Visual region `warm-coastal-urban` (reviewed); humidity context `unknown`. No city; feels like 16 °C is the producer's creative scenario, not a measurement or live weather. Temperature, humidity and wind are null.
+- Casting: model appearance 28–32 as in the approved generation prompts (the newer general 25–28 guidance was not applied retroactively), storage group 35+.
+- Approval: the user approved the latest five editorials (02 flowers revision, 04 seated-map revision) and authorized publishing this batch (2026-10-28). Products passed the producer's technical and four-background visual review (Codex); no per-product user visual approval.
+- Files per look: `editorial.jpg` (1024×1536 JPEG), `products/<product id>.webp` (500×500 transparent WebP, bytes as delivered), `products.json` (app mapping and final ko/en/de copy; producer text kept as `sourceDeckEn`, `sourceHowToWear`, `sourceAppCategory` where refined).
+- Scenes: 01 leaving a café, coffee held high while a paper bag slips · 02 tidying a bouquet's paper in a lane · 03 catching an orange at a canvas tote outside a greengrocer · 04 seated on stone steps with a map · 05 holding up keys at a front door. Cup, paper bag, flowers, oranges/groceries, map and keys are props, never products.
+- 04 shoes are the cream/beige panel sneakers visible in the seated revision. 05 shoes use the cream-lace v2 cutout. The 02 windbreaker is worn with the hood up in the photo; the product cut shows the collar with drawcords.
+- Reconstruction: hidden backs, full lengths, paired shoes/earrings and the partly hidden 02 bag shape are editorial reconstructions. Brands, prices, links and fibre composition are unknown; these are not verified retail listings.
+- App: `look/coastal-overcast-cool-female-day-street-20261028.js`; region rules `look/global-context.js`. Rules: `design/look-library.md`, validation `design/coastal-overcast-cool-female-day-street-20261028-validation.md`.

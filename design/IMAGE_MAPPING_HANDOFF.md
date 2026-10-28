@@ -399,3 +399,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 해 진 뒤 세트: 제작 측 `category.timeOfDay: night` + `appTime: evening` → 룩에 `time: "evening"`(앱의 저녁 표기, `lookFits`의 `timed`). 낮으로 등록하지 않음. 글로벌 경로·모듈 이름엔 `evening`을 넣어 낮 세트와 구분.
 - 제작 측 문구는 제목(ko/en/de)과 제품별 이름·입는 법만 있었음 → b177과 같은 방식(deck ko/de = 제목, en deck은 기사 제목과 다르게, 인트로·인용구·팁은 저녁 장면 보고 새로 씀). 입는 법 20개 중 5개만 고침(01 셔츠 de 동사, 03 선글라스 어색한 표현, 04 쇼츠·모자·플립플롭이 사진과 안 맞거나 어색), 원문 `sourceHowToWear`. 선글라스 위치(목에 걸침·손·머리 위)와 줄무늬·카고·오픈 니트는 사진대로.
 - [검증 기록](coastal-warm-male-evening-street-20261027-validation.md).
+
+## b179 · Global coastal / Overcast / Cool / Female / 35+ / Day / Street — 2026-10-28 set (5 looks · 28 products)
+
+- b177·b178과 같은 경로·파일 이름 방식. 진입점은 `originals/product-batch/complete/<lookId>/`만(폴더 이름 = 룩 ID). 승인 에디토리얼은 01 coffee-paper-bag · 02 flowers-v2 · 03 orange-tote · 04 seated-map-v2 · 05 keys(앱용 JPG는 제작 측 내보내기 그대로), 02 newspaper·04 standing map·01-editorial-v2와 05 버건디 끈 신발 컷은 보관용이라 안 씀.
+- 흐린 날 하늘: 제작 측 `category.weather: Overcast`/`weather.condition: overcast`는 설명값이고 앱은 기존 enum `sky: "cloudy"`. 체감 단계 첫 **선선함(cool)** 세트(`bands: ["cool"]`, 앱 BAND 정의 10~17°; 체감 16°C는 제작 가정).
+- 제작 측 문구가 ko/en/de 모두 완성(제목·deck·intro·pull·tip, 제품별 이름·설명·입는 법, 입는 법 28개 모두 다름 → 5-1 통과)이라 그대로 씀. 고친 것: en deck(제작 측은 영어 제목과 같은 문장 → 장면 문장, 원문 `copy.sourceDeckEn`), 입는 법 4곳(01 재킷 en·de, 04 귀걸이 en, 05 재킷 en 관용구, 원문 `sourceHowToWear`), 가방 분류 `accessory` → `bag`·귀걸이 → `jewelry`(원문 `sourceAppCategory`).
+- [검증 기록](coastal-overcast-cool-female-day-street-20261028-validation.md).

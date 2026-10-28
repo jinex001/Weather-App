@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-street-20261028-03",
+  "batchId": "coastal-overcast-cool-female-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Existing approved casting retained from generation prompts; later general female casting guidance is not retroactively applied."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User accepted latest flowers/seated-map revisions and explicitly started full workflow on 2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b105d43102197d4739126a98499772c59827ac332e5109affd9650564084bf60",
+  "editorialBytes": 288341,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper bag",
+    "flowers",
+    "orange",
+    "groceries",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-street-20261028-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-street-20261028-03.jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T08:30:09.847734+00:00",
+    "scope": "All 28 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "ONE ORANGE, ONE SMALL PAUSE",
+    "title": {
+      "ko": "오렌지 하나, 잠깐 멈춘 장보기",
+      "en": "One orange, one small pause",
+      "de": "Eine Orange, eine kleine Pause"
+    },
+    "deck": {
+      "ko": "오렌지 하나, 잠깐 멈춘 장보기",
+      "en": "Mid-stride, catching the orange before it rolls away.",
+      "de": "Eine Orange, eine kleine Pause"
+    },
+    "intro": {
+      "ko": "장바구니 입구의 오렌지를 한 손으로 받치는 순간. 러스트 재킷과 아이보리 니트에 밝은 데님과 탄색 스니커즈를 맞췄어요.",
+      "en": "One hand catches an orange at the tote's opening. A rust jacket and ivory knit meet pale denim and tan sneakers for the walk home.",
+      "de": "Eine Hand fängt die Orange am Taschenrand auf. Rostrote Jacke, elfenbeinfarbener Strick, helle Jeans und hellbraune Sneaker begleiten den Heimweg."
+    },
+    "pullQuoteEn": "ONE ORANGE IS MAKING A BREAK FOR IT.",
+    "tip": {
+      "ko": "장바구니는 무게가 아래에 모이게 챙기고, 몸을 기울여도 편한 재킷과 데님을 골라 보세요.",
+      "en": "Pack the tote with its weight low, and choose a jacket and jeans that let you lean and move easily.",
+      "de": "Das Gewicht im Shopper unten verteilen und Jacke und Jeans so wählen, dass Beugen und Bewegen bequem bleiben."
+    },
+    "sourceDeckEn": "One orange, one small pause",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, intro, pull, tip, names) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn); product how-to-wear refined only where sourceHowToWear is present (idiom); bags mapped to app category bag and earrings to jewelry (producer value in sourceAppCategory)."
+  },
+  "products": [
+    {
+      "id": "jacket",
+      "producerId": "03-jacket",
+      "nameKo": "러스트 초어 재킷",
+      "name": {
+        "ko": "러스트 초어 재킷",
+        "en": "Rust chore jacket",
+        "de": "Rostrote Arbeitsjacke"
+      },
+      "description": {
+        "ko": "러스트 초어 재킷. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Rust chore jacket. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Rostrote Arbeitsjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "재킷 앞을 열어 아이보리 니트를 보이고 장바구니 손잡이가 소매 끝에 걸리지 않게 잡으세요.",
+        "en": "Wear the jacket open over the ivory knit and keep the tote handles clear of the cuffs.",
+        "de": "Die Jacke offen über dem elfenbeinfarbenen Strick tragen und die Taschengriffe von den Bündchen fernhalten."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-street-20261028-03.jacket",
+      "image": "products/jacket.webp",
+      "bytes": 46064,
+      "sha256": "f8ba210091181332e4c44c55e39509ed8bf0a377979e485d0f7f9aeab94bbe19",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "러스트 초어 재킷 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "knit",
+      "producerId": "03-knit",
+      "nameKo": "아이보리 니트",
+      "name": {
+        "ko": "아이보리 니트",
+        "en": "Ivory crewneck knit",
+        "de": "Elfenbeinfarbener Rundhalspullover"
+      },
+      "description": {
+        "ko": "아이보리 니트. 사진의 목선과 니트 조직을 따르며 가려진 밑단은 추정했습니다.",
+        "en": "Ivory crewneck knit. The neckline and knit texture follow the photograph; the hidden hem is inferred.",
+        "de": "Elfenbeinfarbener Rundhalspullover. Ausschnitt und Strickstruktur folgen dem Foto; der verdeckte Saum ist ergänzt."
+      },
+      "howToWear": {
+        "ko": "아이보리 니트는 데님 허리에서 가볍게 정리하고 러스트 재킷 안쪽에 밝은 면으로 남겨 두세요.",
+        "en": "Tidy the knit at the jeans' waist and leave a bright panel visible inside the rust jacket.",
+        "de": "Den Strick am Jeansbund ordnen und unter der rostroten Jacke eine helle Fläche sichtbar lassen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-street-20261028-03.knit",
+      "image": "products/knit.webp",
+      "bytes": 43726,
+      "sha256": "c248578c8eba96f370236727dca2ebe4d88c2c5f393f2aa59baba23b4e7b270b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "아이보리 니트 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "jeans",
+      "producerId": "03-jeans",
+      "nameKo": "라이트 블루 와이드 데님",
+      "name": {
+        "ko": "라이트 블루 와이드 데님",
+        "en": "Light blue wide-leg jeans",
+        "de": "Weite hellblaue Jeans"
+      },
+      "description": {
+        "ko": "라이트 블루 와이드 데님. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Light blue wide-leg jeans. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Weite hellblaue Jeans. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "오렌지를 받치며 몸을 기울여도 허리와 허벅지가 당기지 않는 여유 있는 핏을 고르세요.",
+        "en": "Choose enough room at the waist and thighs to lean sideways while catching the orange.",
+        "de": "An Taille und Oberschenkeln genügend Weite wählen, um sich beim Auffangen der Orange seitlich beugen zu können."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-street-20261028-03.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 49240,
+      "sha256": "da895213ee43620387fe11278eb1f3b69937082ee98ef550689daf715c5dbb95",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "라이트 블루 와이드 데님 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "nameKo": "탄 스웨이드 스니커즈",
+      "name": {
+        "ko": "탄 스웨이드 스니커즈",
+        "en": "Tan suede-look sneakers",
+        "de": "Hellbraune Sneaker in Veloursoptik"
+      },
+      "description": {
+        "ko": "탄 스웨이드 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Tan suede-look sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Hellbraune Sneaker in Veloursoptik. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "탄색 신발 위로 데님 밑단이 살짝 떨어지게 하고 끈은 장바구니를 들고 걷기 전에 정돈하세요.",
+        "en": "Let the denim skim the tan shoes and secure the laces before walking with the shopping tote.",
+        "de": "Den Jeanssaum leicht über die hellbraunen Schuhe fallen lassen und vor dem Losgehen mit der Einkaufstasche die Schnürsenkel binden."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-street-20261028-03.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 47672,
+      "sha256": "4ad477640a26a1887b604ffaf432d295026fe4908d3c78b12a0af16252974e48",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "altKo": "탄 스웨이드 스니커즈 — 독립 투명 배경 제품 컷"
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "nameKo": "내추럴 캔버스 토트",
+      "name": {
+        "ko": "내추럴 캔버스 토트",
+        "en": "Natural canvas tote",
+        "de": "Naturfarbener Canvas-Shopper"
+      },
+      "description": {
+        "ko": "내추럴 캔버스 토트. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Natural canvas tote. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Naturfarbener Canvas-Shopper. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "무거운 물건은 아래에 넣고 둥근 과일은 입구 가까이에 높이 쌓지 않아 한 손으로도 안정적으로 들 수 있게 하세요.",
+        "en": "Pack heavier items low and avoid piling round fruit at the opening so the tote stays manageable in one hand.",
+        "de": "Schweres nach unten packen und runde Früchte nicht hoch am Rand stapeln, damit die Tasche mit einer Hand gut tragbar bleibt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Back/hidden construction, full lengths and matched pair reconstructed conservatively where not directly visible.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-street-20261028-03.tote",
+      "image": "products/tote.webp",
+      "bytes": 25758,
+      "sha256": "e94b954f4ee58b0c00d703e11e4e1bf4754ae8b898be1612b3d8461e3e91006b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready",
+      "sourceAppCategory": "accessory",
+      "altKo": "내추럴 캔버스 토트 — 독립 투명 배경 제품 컷"
+    }
+  ],
+  "appSky": "cloudy",
+  "appBands": [
+    "cool"
+  ]
+}
