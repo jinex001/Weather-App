@@ -149,21 +149,43 @@
   .summary { display: flex; align-items: stretch; gap: 7px; margin-top: 23px; word-break: keep-all; font-size: 16px; font-weight: 700; line-height: 1.5; letter-spacing: .2px; }
   .summary[hidden] { display: none; }
   .summary-bar { flex: none; width: 7px; background: var(--badge); }
-  /* today's outfit on the main screen, opens Today's Look (b68). b77: type only, between the feels-like block and the summary —
-     "Today's Look" over the band headline in Anton (b76 chevron removed) */
-  .peek { display: block; width: 100%; margin-top: 28px; padding: 0; border: 0; background: none; color: inherit;
-    font: inherit; letter-spacing: inherit; text-align: left; cursor: pointer; }
+  /* "Today's Look" kicker and the Anton two-line headline, now used by ABOUT YOU (b152); the home look itself is the
+     card stack below (b182) */
   .peek-k { display: block; font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
   .peek-d[hidden] { display: none; }
   .peek-d { display: block; margin-top: 6px; font-family: var(--display); font-size: 56px; line-height: .9; letter-spacing: 0; text-transform: uppercase; }
   /* b135: always two lines (split where the lines come out most even), 56px, smaller only if a line would not fit */
   .peek-d span { display: block; white-space: nowrap; }
-  /* b133: the pick's hero product (b134: the one its title names, else the outer), background removed, behind the
-     headline on the right (never down into the summary). b137: the letters that cross it keep the headline color */
-  .peek { position: relative; }
-  .peek-k, .peek-d { position: relative; }
-  .peek-p { position: absolute; pointer-events: none; }
-  .peek-p[hidden] { display: none; }
+  /* b182 (user picked proto/home-rail.html): Today's Look on home = three editorial photos (running, street, minimal),
+     one look each for today, stacked like the 7-day cards (middle big and on top, the two others smaller, tilted from
+     their bottom edge, tucked behind; three only, the row stops at the ends). No style labels. Under the middle card,
+     at its width and left edge: its look title (Anton 40px, always from two lines), then on rainy days the umbrella
+     line and today's rain. A new-draw button on the right of the kicker. The middle card opens Today's Look on that look */
+  .hl[hidden] { display: none; }
+  .hl { margin-top: 28px; }
+  .hl-head { display: flex; align-items: flex-end; justify-content: space-between; }
+  .hl-re { margin: 0 -10px -10px 0; padding: 10px; border: 0; background: none; color: inherit; cursor: pointer; line-height: 0; }
+  .hl-re svg { width: 22px; height: 22px; display: block; }
+  .hl-re.spin svg { animation: hl-spin .5s cubic-bezier(.2,.8,.2,1); }
+  @keyframes hl-spin { to { transform: rotate(360deg); } }
+  .hl-rail { --cw: 74%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+    margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 0; transition: opacity .25s; }
+  .hl-rail::-webkit-scrollbar { display: none; }
+  .hl-rail.swap { opacity: 0; }
+  .hl-card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always; aspect-ratio: 2 / 3;
+    padding: 0; border: 0; background: none; cursor: pointer; }
+  .hl-in { position: absolute; inset: 0; border-radius: 26px; overflow: hidden; transform-origin: 50% 100%; will-change: transform; background: #F3EFE8; }
+  .hl-in img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hl-in::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
+  .hl-in .soon { position: absolute; inset: 0; }
+  .hl-under { margin-top: 14px; }
+  .hl-title { font-family: var(--display); font-size: 40px; line-height: .92; letter-spacing: 0; text-transform: uppercase; transition: opacity .18s; }
+  .hl-title.out { opacity: 0; }
+  .hl-title span { display: block; }
+  .hl-rain[hidden] { display: none; }
+  .hl-rain { margin-top: 10px; font-size: 15px; font-weight: 700; line-height: 1.45; }
+  .hl-rain span { display: block; font-size: 13px; font-weight: 600; opacity: .7; word-break: keep-all; }
+  .hl .dc-dots { margin-top: 18px; }
   /* b152: first time only (no clothing style yet), ABOUT YOU takes the Today's Look spot: headline, the ask (no band bar —
      that bar belongs to the look's summary once picked), then Sport · Street · Minimal as background-free cuts. The same
      three tiles change it in Settings > Clothing style */
@@ -521,7 +543,12 @@
     <span class="feels-n" id="feels-n"></span>
   </div>
   </div>
-  <button class="peek" id="peek" type="button" hidden><span class="peek-k" id="peek-k"></span><img class="peek-p" id="peek-p" alt="" hidden><span class="peek-d" id="peek-d"></span></button>
+  <div class="hl" id="hl" hidden>
+    <div class="hl-head"><span class="peek-k">Today's Look</span><button type="button" class="hl-re" id="hl-re"><svg viewBox="0 0 256 256" aria-hidden="true"><path fill="currentColor" d="M240,56v48a8,8,0,0,1-8,8H184a8,8,0,0,1,0-16H211.4L184.81,71.64l-.25-.24a80,80,0,1,0-1.67,114.78,8,8,0,0,1,11,11.63A95.44,95.44,0,0,1,128,224h-1.32A96,96,0,1,1,195.75,60L224,85.8V56a8,8,0,1,1,16,0Z"/></svg></button></div>
+    <div class="hl-rail" id="hl-rail"></div>
+    <div class="hl-under" id="hl-under"><div class="hl-title" id="hl-title"></div><div class="hl-rain" id="hl-rain" hidden></div></div>
+    <div class="dc-dots" id="hl-dots" aria-hidden="true"></div>
+  </div>
   <div class="about" id="about" hidden></div>
   <div class="summary" id="summary" hidden><span class="summary-bar"></span><span id="summary-t"></span></div>
 
@@ -756,18 +783,21 @@
           noAlerts: "No weather warnings for this area right now.", outside: "Weather warnings come from the German Weather Service (DWD) and are only available in Germany.",
           alertsK: "Weather warnings", until: "until", loc: "Location", change: "Change",
           profile: "Today's Look profile", edit: "Edit", style: "Clothing style",
+          hlNew: "New looks", umb: "Take an umbrella", rainAmt: "Rain today {m} mm · {p}% chance", rainP: "{p}% chance of rain today",
           ask: "Pick the style you wear most. From today we'll choose your looks in it. Change it anytime in Settings.", lang: "Language", langV: "English (device)", units: "Units", src: "Data", ver: "Version",
           sev: { minor: "Minor", moderate: "Moderate", severe: "Severe", extreme: "Extreme" } },
     de: { home: "Start", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
           noAlerts: "Für diese Gegend gibt es gerade keine Unwetterwarnung.", outside: "Unwetterwarnungen kommen vom Deutschen Wetterdienst (DWD) und gibt es nur für Deutschland.",
           alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", change: "Ändern",
           profile: "Profil für Today's Look", edit: "Ändern", style: "Kleidungsstil",
+          hlNew: "Neue Looks", umb: "Schirm mitnehmen", rainAmt: "Regen heute {m} mm · {p} %", rainP: "Regenwahrscheinlichkeit heute {p} %",
           ask: "Wähle den Stil, den du am meisten trägst. Ab heute suchen wir deine Looks darin aus. Jederzeit in den Optionen änderbar.", lang: "Sprache", langV: "Deutsch (Gerät)", units: "Einheiten", src: "Daten", ver: "Version",
           sev: { minor: "Wetterwarnung", moderate: "Markante Warnung", severe: "Unwetter", extreme: "Extremes Unwetter" } },
     ko: { home: "홈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
           noAlerts: "지금 이 지역에 기상 경보가 없어요.", outside: "기상 경보는 독일 기상청(DWD) 자료라 독일 안에서만 볼 수 있어요.",
           alertsK: "기상 경보", until: "까지", loc: "위치", change: "바꾸기",
           profile: "Today's Look 프로필", edit: "수정", style: "옷 스타일",
+          hlNew: "다른 룩 보기", umb: "우산 꼭 챙겨요", rainAmt: "오늘 강수 {m} mm · 확률 {p}%", rainP: "오늘 비 올 확률 {p}%",
           ask: "주로 입는 스타일을 하나 골라 주세요. 오늘부터 이 스타일로 룩을 골라 드려요. 설정에서 언제든 바꿀 수 있어요.", lang: "언어", langV: "한국어 (기기 언어)", units: "단위", src: "데이터", ver: "버전",
           sev: { minor: "주의", moderate: "경고", severe: "위험", extreme: "매우 위험" } }
   }[LANG];
@@ -1007,7 +1037,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b181";
+  var BUILD = "b182";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1345,7 +1375,8 @@
     var d = v.data, cur = d.current, H = d.hourly, D = d.daily, band = v.band, L = LOOK[band[1]];
     var fem = profile.gender === "f", pics = lookPhotos(v, profile), st = lookState();
     // b113: a day opened from its card shows the card's look: its gender, and its style until another tab is tapped
-    if (v.pick) { pics.g = v.pick.o.gender; pics.style = v.style; }
+    if (v.pick) pics.g = v.pick.o.gender;
+    if (v.style) pics.style = v.style; // a calendar card's or a home card's look (b113, b182)
     // Baby is a fourth segment, only for people who go out with a baby; it shows the baby text and both baby photos
     var baby = profile.baby === "y" && (v.pick ? v.style : profile.style) === "baby", tabs = STYLES.concat(profile.baby === "y" ? ["baby"] : []);
     var wind = r(cur.wind_speed_10m || 0), windy = wind >= 30, extras = [];
@@ -1462,7 +1493,7 @@
         b.addEventListener("click", function () {
           var sheet = $("look"), y = sheet.scrollTop;
           profile.style = b.dataset.style; store("wx-profile", profile);
-          if (sheetView && sheetView.pick) sheetView.style = b.dataset.style;
+          if (sheetView && sheetView.style) sheetView.style = b.dataset.style;
           paintLook(); paintPeek(); sheet.scrollTop = y; // stay where the tabs are
         });
       });
@@ -1486,31 +1517,15 @@
     }
   });
 
-  // Main screen: "Today's Look" + headline, then the summary. b117 (user picked mockup C): both follow today's pick, the
-  // look the sheet opens on: its title as the headline, its caption + intro as the summary, then the rain lines.
-  // No look for today's weather yet (placeholder) or no article: the band headline and the look's or band's own line.
+  // Main screen (b182): ABOUT YOU until a clothing style is picked (b152), then the three-look card stack
   function paintPeek() {
-    var v = lastView, peek = $("peek"); if (!v) return;
+    var v = lastView; if (!v) return;
     var prof = load("wx-profile") || {};
-    if (!prof.style) { peek.hidden = true; $("summary").hidden = true; paintAbout(v, prof); return; }
+    $("summary").hidden = true;
+    if (!prof.style) { $("hl").hidden = true; paintAbout(v, prof); return; }
     $("about").hidden = true;
-    var e = lookPool(v, lookPhotos(v, load("wx-profile") || {}))[0], o = e && !e.soon ? e.o : null, A = o && o.article;
-    $("peek-k").textContent = "Today's Look";
-    // b119: no band headline (LAYER UP …) any more: a look without an article title shows only the kicker and summary
-    peekTitle = A ? A.title : "";
-    // b134: the product the title is about (look/cutouts.js HERO, e.g. CITRON ON THE TERRACE -> the citron knit)
-    var hero = A && o.hero && LIB.items[o.hero] && LIB.items[o.hero].cut ? LIB.items[o.hero] : null;
-    peekCut = hero;
-    fitHead();
-    $("peek-d").hidden = !A;
-    paintCut(hero);
-    var text = o ? o.deck[LANG] + (A && A.intro ? " " + A.intro[LANG] : "") : LOOK[v.band[1]].deck[LANG];
-    $("summary-t").textContent = [text].concat(homeRain).join(" ");
-    $("summary").hidden = false;
-    peek.hidden = false;
-    placeCut();
+    paintHome(v, prof);
   }
-
   // b152: the three clothing styles, each shown by the hero cut of the look it would pick today (else any of its looks)
   var STYLE_NAME = { run: "Sport", street: "Street", minimal: "Minimal" };
   function styleCut(v, prof, st) {
@@ -1545,47 +1560,96 @@
     setTimeout(paintPeek, 450);
   });
 
-  // b135: the headline in two lines of about the same width (one-word titles stay one line), 56px or smaller to fit
-  var peekTitle = "", measure = document.createElement("canvas").getContext("2d");
-  function fitHead() {
-    var d = $("peek-d"), w = peekTitle.toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")];
-    // b136: the headline keeps to the left 60%, the cut to the right 45% (5% overlap); full width when there is no cut
-    var cs = getComputedStyle(d), avail = ($("peek").offsetWidth || d.offsetWidth || 342) * (peekCut ? 0.6 : 1);
-    measure.font = "56px " + cs.fontFamily;
-    function width(t) { return measure.measureText(t).width; }
-    if (w.length > 1) {
-      var best = Infinity;
-      for (var i = 1; i < w.length; i++) {
-        var a = w.slice(0, i).join(" "), b = w.slice(i).join(" "), m = Math.max(width(a), width(b));
-        if (m < best) { best = m; lines = [a, b]; }
-      }
+  // ── Home look stack (b182) ──
+  // One look per style for today: the first of that style's draw (the same lookPool as the sheet, so the sheet opens on
+  // it), a placeholder card when that style has nothing made for today's weather yet
+  var homeLooks = [];
+  function drawHome(v, prof) {
+    return STYLES.map(function (st) {
+      var pics = lookPhotos(v, Object.assign({}, prof, { style: st }));
+      return { st: st, e: lookPool(v, pics)[0] };
+    });
+  }
+  function paintHome(v, prof) {
+    homeLooks = drawHome(v, prof);
+    var rail = $("hl-rail");
+    rail.innerHTML = homeLooks.map(function (h, k) {
+      var e = h.e, inner = e.soon ? soonHtml(e.soon, v.code) : e.o.image ? '<img alt="" src="' + e.o.image + '"' + (k === 1 ? "" : ' loading="lazy"') + ">" : "";
+      return '<button type="button" class="hl-card" data-k="' + k + '" aria-label="' + esc(homeTitle(e)) + '"><span class="hl-in">' + inner + "</span></button>";
+    }).join("");
+    $("hl-dots").innerHTML = homeLooks.map(function () { return "<span></span>"; }).join("");
+    var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0, mm = D.precipitation_sum ? D.precipitation_sum[0] : null;
+    var wet = (v.rain || p >= 50) && !isSnow(v.code), rl = $("hl-rain");
+    rl.hidden = !wet;
+    rl.innerHTML = wet ? esc(NV.umb) + "<span>" + esc(typeof mm === "number" ? fmt(NV.rainAmt, { m: (Math.round(mm * 10) / 10).toLocaleString(LOCALE), p: p }) : fmt(NV.rainP, { p: p })) + "</span>" : "";
+    $("hl-re").setAttribute("aria-label", NV.hlNew);
+    $("hl").hidden = false;
+    hlShown = -1;
+    hlCenter(1); hlStack();
+  }
+  function homeTitle(e) { return e.soon ? e.soon + " looks" : e.o.article ? e.o.article.title : e.o.deck[LANG]; }
+  // the title always starts at two lines (like the home headline before it, b135): split where the lines come out most even
+  var measure = document.createElement("canvas").getContext("2d");
+  function twoLines(el, t) {
+    var w = String(t).toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")], best = Infinity;
+    measure.font = "40px " + getComputedStyle(el).fontFamily;
+    for (var i = 1; i < w.length; i++) {
+      var a = w.slice(0, i).join(" "), b = w.slice(i).join(" "), m = Math.max(measure.measureText(a).width, measure.measureText(b).width);
+      if (m < best) { best = m; lines = [a, b]; }
     }
-    var widest = Math.max.apply(null, lines.map(width)), size = widest > avail ? Math.max(36, Math.floor(56 * avail / widest)) : 56;
-    d.textContent = "";
-    lines.forEach(function (t, i) { var s = document.createElement("span"); s.textContent = t + (i < lines.length - 1 ? " " : ""); d.appendChild(s); });
-    d.style.fontSize = size + "px";
+    el.innerHTML = lines.map(function (x, i) { return "<span>" + esc(x) + (i < lines.length - 1 ? " " : "") + "</span>"; }).join("");
   }
-
-  // b133: lay the cutout out against the headline's height
-  var peekCut = null;
-  function paintCut(it) {
-    var img = $("peek-p");
-    peekCut = it;
-    if (!it) { img.hidden = true; img.removeAttribute("src"); return; }
-    if (img.getAttribute("src") !== it.cut) { img.hidden = true; img.onload = placeCut; img.src = it.cut; }
-    placeCut();
+  // the same moves as the calendar stack (dayCards): toward the middle, tilted from the bottom edge, smaller and darker
+  var hlShown = -1;
+  function hlStack() {
+    var rail = $("hl-rail"), cs = rail.children, w = cs.length && cs[0].offsetWidth; if (!w) return 0;
+    var mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
+    [].forEach.call(cs, function (el, k) {
+      var t = (el.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), m = Math.min(a, 2.6), sg = t < 0 ? -1 : 1, inn = el.firstChild;
+      var pull = sg * (m <= 1 ? m * .34 : .34 + (m - 1) * .14) * w, e = Math.min(m, 1), ease = e * e * (3 - 2 * e), more = Math.max(0, Math.min(m - 1, 1));
+      inn.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * (3 * ease + 1.2 * more)).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(m, 2.2)).toFixed(4) + ")";
+      el.style.zIndex = 100 - Math.round(a * 10);
+      inn.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
+      if (a < best) { best = a; at = k; }
+    });
+    [].forEach.call($("hl-dots").children, function (s, k) { s.className = k === at ? "on" : ""; });
+    // the title block takes the middle card's resting width and left edge (the rail runs edge to edge, inside 24px padding)
+    var u = $("hl-under"); u.style.width = w + "px"; u.style.marginLeft = ((rail.clientWidth - w) / 2 - 24) + "px";
+    if (at !== hlShown && homeLooks[at]) {
+      var el = $("hl-title"), t = homeTitle(homeLooks[at].e), first = hlShown < 0;
+      hlShown = at;
+      if (first) twoLines(el, t);
+      else { el.classList.add("out"); setTimeout(function () { twoLines(el, t); el.classList.remove("out"); }, 180); }
+    }
+    return at;
   }
-  function placeCut() {
-    var img = $("peek-p"), d = $("peek-d"), peek = $("peek");
-    if (!peekCut || !img.naturalWidth || peek.hidden || d.hidden || !peek.offsetWidth) return;
-    var pw = peek.offsetWidth, ph = peek.offsetHeight, boxH = ph + 36, boxW = pw * 0.45,
-        s = Math.min(boxH / img.naturalHeight, boxW / img.naturalWidth),
-        w = img.naturalWidth * s, h = img.naturalHeight * s, left = pw * 0.55 + (boxW - w) / 2, top = (ph - h) / 2;
-    img.style.cssText = "left:" + left + "px;top:" + top + "px;width:" + w + "px;height:" + h + "px";
-    img.hidden = false;
-  }
-  addEventListener("resize", function () { fitHead(); placeCut(); rainFx(); });
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { fitHead(); placeCut(); rainFx(); });
+  function hlCenter(k) { var rail = $("hl-rail"), c = rail.children[k]; if (c) rail.scrollLeft = c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2; }
+  $("hl-rail").addEventListener("scroll", function () { requestAnimationFrame(hlStack); }, { passive: true });
+  $("hl-rail").addEventListener("click", function (e) {
+    var b = e.target.closest(".hl-card"); if (!b) return;
+    var rail = $("hl-rail"), k = +b.dataset.k, h = homeLooks[k];
+    if (k !== hlStack()) { rail.scrollTo({ left: b.offsetLeft + b.offsetWidth / 2 - rail.clientWidth / 2, behavior: "smooth" }); return; }
+    if (!h || !lastView) return;
+    // the middle card opens Today's Look on that look, in its style (the profile style stays as it is)
+    openLook(Object.assign({}, lastView, { mast: "Today's Look", style: h.st, pick: h.e.soon ? null : { o: h.e.o } }));
+  });
+  // none of the three? a new draw: another seed, kept when it changes the looks where a style has others to give
+  $("hl-re").addEventListener("click", function () {
+    var b = this, v = lastView, prof = load("wx-profile") || {}, rail = $("hl-rail"); if (!v) return;
+    b.classList.remove("spin"); void b.offsetWidth; b.classList.add("spin");
+    var was = homeLooks.map(function (h) { return h.e.o.id; }), keep = lookSeed, bestN = -1;
+    for (var n = 0; n < 12; n++) {
+      lookSeed = String(Math.random());
+      var same = drawHome(v, prof).filter(function (h, k) { return h.e.o.id === was[k]; }).length;
+      if (bestN < 0 || same < bestN) { bestN = same; keep = lookSeed; }
+      if (!same) break;
+    }
+    lookSeed = keep;
+    rail.classList.add("swap");
+    setTimeout(function () { paintHome(v, prof); rail.classList.remove("swap"); }, 250);
+  });
+  addEventListener("resize", function () { hlStack(); rainFx(); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { hlShown = -1; hlStack(); rainFx(); });
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
@@ -1808,7 +1872,6 @@
       graph.hidden = true; line.hidden = true;
     }
 
-    homeRain = rainText(H, hours);
     $("summary").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], bgHex, 1.5));
 
     // bars scale to the wettest hour shown (at least 30%), so a 30% hour fills the 32px column
@@ -1853,28 +1916,6 @@
       (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · " + BUILD;
   }
 
-  // Today's summary: day condition + high/low, rain in the next 12 h, a big drop later today, strong wind, umbrella, outfit, cold tip
-  // b117: the home summary is the pick's editorial (paintPeek); from the weather only the rain (or snow) outlook stays:
-  // raining now and when it stops, or rain all day, or when it starts in the next 12 hours, plus the umbrella line
-  var homeRain = [];
-  function rainText(H, hours) {
-    var low1 = function (x) { return LANG === "en" ? x.toLowerCase() : x; }, out = [];
-    var wet = function (i) { return (H.precipitation_probability[i] || 0) >= 50; };
-    var word = function (i) { return isSnow(H.weather_code[i]) ? T.wSnow : T.wRain; };
-    if (hours.length && wet(hours[0])) {
-      var end = -1; for (var k = 1; k < hours.length; k++) { if (!wet(hours[k])) { end = hours[k]; break; } }
-      out.push(end >= 0 ? fmt(T.sumRainNow, { w: low1(word(hours[0])), t: hourText(H.time[end]) }) : fmt(T.sumRainOn, { w: word(hours[0]) }));
-      if (word(hours[0]) === T.wRain) out.push(T.sumUmbrella);
-    } else {
-      var hit = -1; for (var m = 1; m < hours.length; m++) { if (wet(hours[m])) { hit = hours[m]; break; } }
-      if (hit >= 0) {
-        out.push(fmt(T.sumRainAt, { w: word(hit), t: hourText(H.time[hit]), p: H.precipitation_probability[hit] }));
-        if (word(hit) === T.wRain) out.push(T.sumUmbrella);
-      }
-    }
-    // each line is its own sentence now (en "{w} now, …" came out lowercase after the look text)
-    return out.map(function (x) { return x.charAt(0).toUpperCase() + x.slice(1); });
-  }
 
 
   // ── Place & data ──
@@ -1911,7 +1952,7 @@
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,direct_radiation,cloud_cover" +
       "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
-      "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,sunrise,sunset,wind_speed_10m_max" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,precipitation_sum,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
   }
@@ -2001,7 +2042,6 @@
     });
   })();
   $("head-tap").addEventListener("keydown", function (e) { if ((e.key === "Enter" || e.key === " ") && !e.target.closest("#city")) { e.preventDefault(); openLook(); } });
-  $("peek").addEventListener("click", openLook);
   $("lk-grab").addEventListener("click", closeLook);
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeLook(); closePlaces(); } });
   // Swipe the sheet down from its top to close it
