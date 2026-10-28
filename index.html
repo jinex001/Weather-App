@@ -168,7 +168,7 @@
   .hl-re svg { width: 22px; height: 22px; display: block; }
   .hl-re.spin svg { animation: hl-spin .5s cubic-bezier(.2,.8,.2,1); }
   @keyframes hl-spin { to { transform: rotate(360deg); } }
-  .hl-rail { --cw: 74%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+  .hl-rail { --cw: calc(74% + 40px); display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 0; transition: opacity .25s; }
   .hl-rail::-webkit-scrollbar { display: none; }
   .hl-rail.swap { opacity: 0; }
@@ -1037,7 +1037,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b182";
+  var BUILD = "b183";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
