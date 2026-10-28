@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-minimal-20261028-02",
+  "batchId": "coastal-overcast-cool-female-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a46184b651063185540b576063596f74bf1f7425c23f386001c90af49896c4b5",
+  "editorialBytes": 209614,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "flower",
+    "paper sleeve",
+    "coffee cup",
+    "grocery bag and contents",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-minimal-20261028-02",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-minimal-20261028-02.trench-jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T16:05:23.477567+00:00",
+    "reviewer": "Codex producer",
+    "scope": "25 product cutouts on all 20 white/black/grey/app composite sheets inspected. Alpha edges, full garment/paired shoes, color and observed construction checked. No user product approval claimed.",
+    "notes": [
+      "02-trousers master maximum alpha254 retained without destructive normalization; transparency and material rendering verified.",
+      "05-loafers are wholly inferred wardrobe design outside approved editorial crop; never claim observed.",
+      "Hidden backs, full lengths and shoe pairs inferred.",
+      "01 bag wider in product view than partially occluded reference; full shape inferred.",
+      "Small editorial earrings are incidental styling, not separate product assets."
+    ]
+  },
+  "copy": {
+    "titleEn": "COFFEE BEFORE THE NEXT STOP",
+    "title": {
+      "ko": "커피를 챙기는 아침",
+      "en": "Coffee before the next stop",
+      "de": "Kaffee vor dem nächsten Halt"
+    },
+    "deck": {
+      "ko": "뚜껑을 꾹 누르고 다시 걸을 준비",
+      "en": "One press on the lid, then on to the next stop.",
+      "de": "Einmal den Deckel andrücken, dann geht es weiter."
+    },
+    "intro": {
+      "ko": "스톤 재킷 아래 네이비 니트를 더해 밝은 팬츠와 균형을 맞췄습니다. 다음 걸음을 옮기기 전 커피 뚜껑을 닫습니다.",
+      "en": "A stone jacket and navy knit balance light trousers. Before moving on, she checks the coffee lid.",
+      "de": "Eine steinbeige Jacke und marineblauer Strick gleichen die helle Hose aus. Vor dem Weitergehen wird der Kaffeedeckel geprüft."
+    },
+    "pullQuoteEn": "LID ON, THEN ON YOUR WAY.",
+    "tip": {
+      "ko": "밝은 재킷과 밝은 팬츠 사이에 짙은 니트 한 장을 두면 흐린 날에도 실루엣이 또렷해요.",
+      "en": "One dark knit between a light jacket and light trousers keeps the silhouette defined on a grey day.",
+      "de": "Ein dunkler Pullover zwischen heller Jacke und heller Hose hält die Silhouette auch an grauen Tagen klar."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "커피를 챙기는 아침",
+        "en": "Coffee before the next stop",
+        "de": "Kaffee vor dem nächsten Halt"
+      },
+      "intro": {
+        "ko": "스톤 재킷 아래 네이비 니트를 더해 밝은 팬츠와 균형을 맞췄습니다. 다음 걸음을 옮기기 전 커피 뚜껑을 닫습니다.",
+        "en": "A stone jacket and navy knit balance light trousers. Before moving on, she checks the coffee lid.",
+        "de": "Eine steinbeige Jacke und marineblauer Strick gleichen die helle Hose aus. Vor dem Weitergehen wird der Kaffeedeckel geprüft."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "trench-jacket",
+      "producerId": "02-trench-jacket",
+      "nameKo": "스톤 쇼트 트렌치 재킷",
+      "name": {
+        "ko": "스톤 쇼트 트렌치 재킷",
+        "en": "Stone short trench jacket",
+        "de": "Kurze Trenchjacke in Steinbeige"
+      },
+      "description": {
+        "ko": "스톤 쇼트 트렌치 재킷. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Stone short trench jacket. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Kurze Trenchjacke in Steinbeige. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "단추를 모두 풀어 입으면 짧은 기장이 허리 아래에서 가볍게 떨어지고 커피를 든 팔도 편해요.",
+        "en": "Worn fully open, the short length falls lightly below the waist and leaves room for the arm holding the coffee.",
+        "de": "Ganz offen getragen fällt die kurze Länge locker unter die Taille, und der Arm mit dem Kaffee hat Platz."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-02.trench-jacket",
+      "image": "products/trench-jacket.webp",
+      "bytes": 30732,
+      "sha256": "521bb34dad258b04fa19a9d70b80ec0d58ac71e30d1d3658b5c7d70019330441",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "knit",
+      "producerId": "02-knit",
+      "nameKo": "네이비 크루넥 니트",
+      "name": {
+        "ko": "네이비 크루넥 니트",
+        "en": "Navy crewneck knit",
+        "de": "Marineblauer Rundhalspullover"
+      },
+      "description": {
+        "ko": "네이비 크루넥 니트. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Navy crewneck knit. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Marineblauer Rundhalspullover. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "네이비 니트 소매 끝을 트렌치 소매 밖으로 살짝 내면 밝은 재킷에 짙은 선이 생겨요.",
+        "en": "Let the navy cuffs peek past the trench sleeves for a dark line against the light jacket.",
+        "de": "Die marineblauen Bündchen etwas unter den Trenchärmeln zeigen – das setzt eine dunkle Linie zur hellen Jacke."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-02.knit",
+      "image": "products/knit.webp",
+      "bytes": 27258,
+      "sha256": "7e42418e79ec4f5f5fcab6a1b5144b30170a93ff4c1d59f306e4d90199246ad3",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "nameKo": "크림 코튼 팬츠",
+      "name": {
+        "ko": "크림 코튼 팬츠",
+        "en": "Cream cotton-look trousers",
+        "de": "Cremefarbene Hose in Baumwolloptik"
+      },
+      "description": {
+        "ko": "크림 코튼 팬츠. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Cream cotton-look trousers. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Cremefarbene Hose in Baumwolloptik. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "크림 팬츠는 바닥에 끌리지 않게 로퍼 발등 위에서 끝나는 길이로 고르세요.",
+        "en": "Choose the cream trousers in a length that ends on the loafer's vamp, clear of the pavement.",
+        "de": "Die cremefarbene Hose so lang wählen, dass sie auf dem Loafer endet und nicht über das Pflaster streift."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-02.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 24936,
+      "sha256": "4ef2ed39e37a5993881dcea72effaf3bb8825e6ae09d634eb10b23d53943a72d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-loafers",
+      "nameKo": "블랙 페니 로퍼",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "description": {
+        "ko": "블랙 페니 로퍼. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Black penny loafers. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Schwarze Pennyloafer. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "크림 팬츠 아래 블랙 로퍼를 두면 밝은 톤 전체에 무게 중심이 생겨요.",
+        "en": "Black loafers under cream trousers anchor the whole pale outfit.",
+        "de": "Schwarze Loafer unter der cremefarbenen Hose geben dem hellen Look Halt."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-02.loafers",
+      "image": "products/loafers.webp",
+      "bytes": 33614,
+      "sha256": "c8654bf204d5199a159f4d3d61cc527eca6ffda01fdfeba86f026753f74ac115",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "02-shoulder-bag",
+      "nameKo": "초콜릿 숄더백",
+      "name": {
+        "ko": "초콜릿 숄더백",
+        "en": "Chocolate shoulder bag",
+        "de": "Schokoladenbraune Schultertasche"
+      },
+      "description": {
+        "ko": "초콜릿 숄더백. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Chocolate shoulder bag. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Schokoladenbraune Schultertasche. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "초콜릿 숄더백은 커피를 든 손 반대편 어깨에 메면 걸을 때 컵과 부딪히지 않아요.",
+        "en": "Carry the chocolate bag on the shoulder opposite the coffee hand so cup and bag don't bump as you walk.",
+        "de": "Die schokoladenbraune Tasche auf der Schulter gegenüber der Kaffeehand tragen, damit Becher und Tasche beim Gehen nicht aneinanderstoßen."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-02.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 32328,
+      "sha256": "2130e6c3d2d8fe3d4cd150271de83ead30a553f30db56a4ea42a8bddb7c635f1",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트랩 길이를 조절해 가방을 몸 가까이 두세요.",
+        "en": "Adjust the strap so the bag sits close to your body.",
+        "de": "Die Riemenlänge so einstellen, dass die Tasche körpernah sitzt."
+      }
+    }
+  ],
+  "appBuild": "b184",
+  "appEditorialImage": "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-02/editorial.jpg",
+  "observationNotes": [
+    "Editorial 02 loafers show a small metal bit on the vamp; the delivered product cut is a plain penny strap (kept as delivered, reported)."
+  ]
+}

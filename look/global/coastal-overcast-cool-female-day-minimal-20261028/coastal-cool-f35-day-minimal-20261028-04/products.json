@@ -1,0 +1,342 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-minimal-20261028-04",
+  "batchId": "coastal-overcast-cool-female-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0e298e5fc632bea3cec69704bac4b71b4a7fd00b5361e946989002075e658d77",
+  "editorialBytes": 255089,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "flower",
+    "paper sleeve",
+    "coffee cup",
+    "grocery bag and contents",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-minimal-20261028-04",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-minimal-20261028-04.blazer",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T16:05:23.477567+00:00",
+    "reviewer": "Codex producer",
+    "scope": "25 product cutouts on all 20 white/black/grey/app composite sheets inspected. Alpha edges, full garment/paired shoes, color and observed construction checked. No user product approval claimed.",
+    "notes": [
+      "02-trousers master maximum alpha254 retained without destructive normalization; transparency and material rendering verified.",
+      "05-loafers are wholly inferred wardrobe design outside approved editorial crop; never claim observed.",
+      "Hidden backs, full lengths and shoe pairs inferred.",
+      "01 bag wider in product view than partially occluded reference; full shape inferred.",
+      "Small editorial earrings are incidental styling, not separate product assets."
+    ]
+  },
+  "copy": {
+    "titleEn": "A QUIET PAUSE TO FIND THE WAY",
+    "title": {
+      "ko": "계단 위 작은 길 찾기",
+      "en": "A quiet pause to find the way",
+      "de": "Eine ruhige Pause zur Orientierung"
+    },
+    "deck": {
+      "ko": "무릎 위 지도에서 다음 골목을 짚어요",
+      "en": "A finger on the map, tracing the next lane.",
+      "de": "Mit dem Finger auf der Karte zur nächsten Gasse."
+    },
+    "intro": {
+      "ko": "네이비 블레이저와 블루 셔츠를 회색 팬츠로 정리했습니다. 계단에 앉아 지도를 읽는 동안 탄 컬러 가방이 작은 온기를 더합니다.",
+      "en": "A navy blazer and blue shirt pair with grey trousers. A tan bag adds warmth while she reads a map on the steps.",
+      "de": "Marineblauer Blazer und blaues Hemd passen zur grauen Hose. Eine cognacfarbene Tasche setzt beim Kartenlesen auf der Treppe einen warmen Akzent."
+    },
+    "pullQuoteEn": "THE MAP CAN TAKE ITS TIME.",
+    "tip": {
+      "ko": "셔츠 소매를 블레이저 밖으로 조금 내면 차분한 네이비에 밝은 선이 생겨요.",
+      "en": "Let a little shirt cuff show past the blazer sleeve for a light line against the navy.",
+      "de": "Etwas Hemdmanschette unter dem Blazerärmel zeigen – das setzt eine helle Linie zum Marineblau."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "계단 위 작은 길 찾기",
+        "en": "A quiet pause to find the way",
+        "de": "Eine ruhige Pause zur Orientierung"
+      },
+      "intro": {
+        "ko": "네이비 블레이저와 블루 셔츠를 회색 팬츠로 정리했습니다. 계단에 앉아 지도를 읽는 동안 탄 컬러 가방이 작은 온기를 더합니다.",
+        "en": "A navy blazer and blue shirt pair with grey trousers. A tan bag adds warmth while she reads a map on the steps.",
+        "de": "Marineblauer Blazer und blaues Hemd passen zur grauen Hose. Eine cognacfarbene Tasche setzt beim Kartenlesen auf der Treppe einen warmen Akzent."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "04-blazer",
+      "nameKo": "네이비 블레이저",
+      "name": {
+        "ko": "네이비 블레이저",
+        "en": "Navy blazer",
+        "de": "Marineblauer Blazer"
+      },
+      "description": {
+        "ko": "네이비 블레이저. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Navy blazer. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Marineblauer Blazer. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "블레이저 단추를 풀고 앉으면 앞판이 자연스럽게 벌어져 무릎 위 지도를 펼칠 자리가 생겨요.",
+        "en": "Unbutton the blazer before sitting so the fronts fall open and leave room for the map on your knees.",
+        "de": "Den Blazer vor dem Hinsetzen öffnen, damit die Vorderteile aufgehen und die Karte auf den Knien Platz hat."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-04.blazer",
+      "image": "products/blazer.webp",
+      "bytes": 28942,
+      "sha256": "b9f59ac5e9c05fe71bcfd1416ca5d629858e1b9a13a1e5ac622abd77e11e3fcf",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "shirt",
+      "producerId": "04-shirt",
+      "nameKo": "페일 블루 셔츠",
+      "name": {
+        "ko": "페일 블루 셔츠",
+        "en": "Pale blue shirt",
+        "de": "Hellblaues Hemd"
+      },
+      "description": {
+        "ko": "페일 블루 셔츠. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Pale blue shirt. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Hellblaues Hemd. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "셔츠는 위 단추 두 개를 풀고 칼라를 블레이저 라펠 안쪽에 편하게 눕히세요.",
+        "en": "Open the top two buttons and let the collar lie easily inside the blazer lapels.",
+        "de": "Die oberen zwei Knöpfe öffnen und den Kragen locker innerhalb der Revers liegen lassen."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-04.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 34548,
+      "sha256": "b0f2cd35a4d80318803e7700c2018425814dc3327c501833253443eaf13b21a4",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-trousers",
+      "nameKo": "라이트 그레이 팬츠",
+      "name": {
+        "ko": "라이트 그레이 팬츠",
+        "en": "Light grey tailored trousers",
+        "de": "Hellgraue Stoffhose"
+      },
+      "description": {
+        "ko": "라이트 그레이 팬츠. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Light grey tailored trousers. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Hellgraue Stoffhose. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "라이트 그레이 팬츠는 넓게 떨어지는 핏으로 골라 계단에 앉아도 무릎이 당기지 않게 하세요.",
+        "en": "Choose the light grey trousers with a wide fall so they don't pull at the knee when you sit on the steps.",
+        "de": "Die hellgraue Hose weit fallend wählen, damit sie beim Sitzen auf der Treppe nicht am Knie spannt."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-04.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 33464,
+      "sha256": "f1fd74dc353aa6619daf384ef65ad4b086a15d15be59a2983ac5b5d6cb4050bc",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "04-loafers",
+      "nameKo": "블랙 페니 로퍼",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "description": {
+        "ko": "블랙 페니 로퍼. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Black penny loafers. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Schwarze Pennyloafer. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "회색 밑단 아래 블랙 페니 로퍼를 드러내 네이비 블레이저와 어두운 톤을 위아래로 맞추세요.",
+        "en": "Show the black penny loafers below the grey hems to echo the dark navy blazer at both ends of the look.",
+        "de": "Die schwarzen Pennyloafer unter den grauen Säumen zeigen – sie greifen das dunkle Marineblau des Blazers auf."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-04.loafers",
+      "image": "products/loafers.webp",
+      "bytes": 34484,
+      "sha256": "42dbdd457cf69f185dd3ac96fcd0e2a7652f764064f531a9428e024859d9e878",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "crossbody",
+      "producerId": "04-crossbody",
+      "nameKo": "탄 크로스보디백",
+      "name": {
+        "ko": "탄 크로스보디백",
+        "en": "Tan crossbody bag",
+        "de": "Cognacfarbene Umhängetasche"
+      },
+      "description": {
+        "ko": "탄 크로스보디백. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Tan crossbody bag. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Cognacfarbene Umhängetasche. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "탄 크로스보디백은 스트랩을 짧게 조절해 앉았을 때 허리 옆 계단 위에 놓이게 두세요.",
+        "en": "Shorten the strap of the tan crossbody so it sits on the step at your hip when you sit down.",
+        "de": "Den Riemen der cognacfarbenen Umhängetasche kürzen, damit sie im Sitzen neben der Hüfte auf der Stufe liegt."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-04.crossbody",
+      "image": "products/crossbody.webp",
+      "bytes": 46594,
+      "sha256": "ce54884e9787d7ce1aaef36e8bd7a149b8e54c79fb57dcb8783c34023551049a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트랩 길이를 조절해 가방을 몸 가까이 두세요.",
+        "en": "Adjust the strap so the bag sits close to your body.",
+        "de": "Die Riemenlänge so einstellen, dass die Tasche körpernah sitzt."
+      }
+    }
+  ],
+  "appBuild": "b184",
+  "appEditorialImage": "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-04/editorial.jpg",
+  "observationNotes": []
+}

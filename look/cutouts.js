@@ -1028,6 +1028,26 @@
     "coastal-cool-m35-day-street-20261028-05.zip-jacket": [
         "look/global/coastal-overcast-cool-male-day-street-20261028/coastal-cool-m35-day-street-20261028-05/products/zip-jacket.webp",
         null
+    ],
+    "coastal-cool-f35-day-minimal-20261028-01.blazer": [
+        "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-01/products/blazer.webp",
+        null
+    ],
+    "coastal-cool-f35-day-minimal-20261028-02.trench-jacket": [
+        "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-02/products/trench-jacket.webp",
+        null
+    ],
+    "coastal-cool-f35-day-minimal-20261028-03.collarless-jacket": [
+        "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-03/products/collarless-jacket.webp",
+        null
+    ],
+    "coastal-cool-f35-day-minimal-20261028-04.blazer": [
+        "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-04/products/blazer.webp",
+        null
+    ],
+    "coastal-cool-f35-day-minimal-20261028-05.zip-jacket": [
+        "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-05/products/zip-jacket.webp",
+        null
     ]
 };
   var HERO = {
@@ -1286,7 +1306,12 @@
     "coastal-cool-m35-day-street-20261028-02": "coastal-cool-m35-day-street-20261028-02.windbreaker",
     "coastal-cool-m35-day-street-20261028-03": "coastal-cool-m35-day-street-20261028-03.chore-jacket",
     "coastal-cool-m35-day-street-20261028-04": "coastal-cool-m35-day-street-20261028-04.bomber",
-    "coastal-cool-m35-day-street-20261028-05": "coastal-cool-m35-day-street-20261028-05.zip-jacket"
+    "coastal-cool-m35-day-street-20261028-05": "coastal-cool-m35-day-street-20261028-05.zip-jacket",
+    "coastal-cool-f35-day-minimal-20261028-01": "coastal-cool-f35-day-minimal-20261028-01.blazer",
+    "coastal-cool-f35-day-minimal-20261028-02": "coastal-cool-f35-day-minimal-20261028-02.trench-jacket",
+    "coastal-cool-f35-day-minimal-20261028-03": "coastal-cool-f35-day-minimal-20261028-03.collarless-jacket",
+    "coastal-cool-f35-day-minimal-20261028-04": "coastal-cool-f35-day-minimal-20261028-04.blazer",
+    "coastal-cool-f35-day-minimal-20261028-05": "coastal-cool-f35-day-minimal-20261028-05.zip-jacket"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

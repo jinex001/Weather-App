@@ -1,0 +1,342 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-minimal-20261028-03",
+  "batchId": "coastal-overcast-cool-female-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "cb8b8dc16e95d0a1d4f4dbe70d426d16ec19fb4915969010bf3b9e2e85522307",
+  "editorialBytes": 246997,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "flower",
+    "paper sleeve",
+    "coffee cup",
+    "grocery bag and contents",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-minimal-20261028-03",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-minimal-20261028-03.collarless-jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T16:05:23.477567+00:00",
+    "reviewer": "Codex producer",
+    "scope": "25 product cutouts on all 20 white/black/grey/app composite sheets inspected. Alpha edges, full garment/paired shoes, color and observed construction checked. No user product approval claimed.",
+    "notes": [
+      "02-trousers master maximum alpha254 retained without destructive normalization; transparency and material rendering verified.",
+      "05-loafers are wholly inferred wardrobe design outside approved editorial crop; never claim observed.",
+      "Hidden backs, full lengths and shoe pairs inferred.",
+      "01 bag wider in product view than partially occluded reference; full shape inferred.",
+      "Small editorial earrings are incidental styling, not separate product assets."
+    ]
+  },
+  "copy": {
+    "titleEn": "THE RHYTHM OF A GROCERY STOP",
+    "title": {
+      "ko": "장보기의 가벼운 리듬",
+      "en": "The rhythm of a grocery stop",
+      "de": "Der Rhythmus eines Einkaufs"
+    },
+    "deck": {
+      "ko": "봉투를 꼭 안고 가게 문을 나서며",
+      "en": "Out of the shop door with the bag held close.",
+      "de": "Mit der Tüte im Arm aus dem Laden."
+    },
+    "intro": {
+      "ko": "올리브 재킷과 화이트 티셔츠에 짙은 데님을 맞췄습니다. 장보기 봉투를 고쳐 잡는 동작이 단정한 옷차림에 리듬을 줍니다.",
+      "en": "Olive and white meet deep indigo denim. Adjusting a grocery bag gives the clean outfit an everyday rhythm.",
+      "de": "Oliv und Weiß treffen auf dunklen Indigo-Denim. Das Zurechtrücken der Einkaufstüte bringt Bewegung in den schlichten Look."
+    },
+    "pullQuoteEn": "BREAD, ORANGES, BOTH ARMS FULL.",
+    "tip": {
+      "ko": "장보기 날엔 큰 토트는 어깨에, 봉투는 두 팔로 안아 무게를 나누세요.",
+      "en": "On market days, put the big tote on your shoulder and hug the paper bag to share the weight.",
+      "de": "Beim Einkauf die große Tote auf die Schulter nehmen und die Papiertüte im Arm tragen – so verteilt sich das Gewicht."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "장보기의 가벼운 리듬",
+        "en": "The rhythm of a grocery stop",
+        "de": "Der Rhythmus eines Einkaufs"
+      },
+      "intro": {
+        "ko": "올리브 재킷과 화이트 티셔츠에 짙은 데님을 맞췄습니다. 장보기 봉투를 고쳐 잡는 동작이 단정한 옷차림에 리듬을 줍니다.",
+        "en": "Olive and white meet deep indigo denim. Adjusting a grocery bag gives the clean outfit an everyday rhythm.",
+        "de": "Oliv und Weiß treffen auf dunklen Indigo-Denim. Das Zurechtrücken der Einkaufstüte bringt Bewegung in den schlichten Look."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "collarless-jacket",
+      "producerId": "03-collarless-jacket",
+      "nameKo": "올리브 칼라리스 재킷",
+      "name": {
+        "ko": "올리브 칼라리스 재킷",
+        "en": "Olive collarless jacket",
+        "de": "Olivgrüne kragenlose Jacke"
+      },
+      "description": {
+        "ko": "올리브 칼라리스 재킷. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Olive collarless jacket. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Olivgrüne kragenlose Jacke. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "칼라리스 재킷은 위쪽 단추를 풀어 둥근 목선 안으로 흰 티셔츠가 보이게 입으세요.",
+        "en": "Leave the top buttons open so the white tee shows inside the round neckline.",
+        "de": "Die oberen Knöpfe offen lassen, damit das weiße Shirt im runden Ausschnitt sichtbar ist."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-03.collarless-jacket",
+      "image": "products/collarless-jacket.webp",
+      "bytes": 33530,
+      "sha256": "31984107d7a77d8c62c2df3839db2599ff8c11f6a07bfc4ed427cba380ec49b1",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "nameKo": "화이트 저지 티셔츠",
+      "name": {
+        "ko": "화이트 저지 티셔츠",
+        "en": "White jersey T-shirt",
+        "de": "Weißes Jersey-T-Shirt"
+      },
+      "description": {
+        "ko": "화이트 저지 티셔츠. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "White jersey T-shirt. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Weißes Jersey-T-Shirt. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "얇은 흰 티셔츠는 목선이 재킷 위로 살짝 올라오는 크루넥으로 고르면 얼굴 주변이 밝아져요.",
+        "en": "A thin white crewneck that rises just above the jacket opening brightens the face.",
+        "de": "Ein dünnes weißes Rundhalsshirt, das knapp über der Jackenöffnung sitzt, hellt das Gesicht auf."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-03.tee",
+      "image": "products/tee.webp",
+      "bytes": 24282,
+      "sha256": "2036aa54b609fea70e157606811edda7ff7d8ea99d7e71037c3d037ad933176e",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "jeans",
+      "producerId": "03-jeans",
+      "nameKo": "다크 인디고 진",
+      "name": {
+        "ko": "다크 인디고 진",
+        "en": "Dark indigo jeans",
+        "de": "Dunkle Indigojeans"
+      },
+      "description": {
+        "ko": "다크 인디고 진. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Dark indigo jeans. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Dunkle Indigojeans. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "짙은 인디고 진은 곧게 떨어지는 핏으로 골라 걸을 때 밑단이 스니커즈 위에 가볍게 닿게 하세요.",
+        "en": "Choose the dark indigo jeans with a straight fall so the hems brush the sneakers as you walk.",
+        "de": "Die dunkle Indigojeans gerade fallend wählen, damit die Säume beim Gehen leicht auf die Sneaker treffen."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-03.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 35960,
+      "sha256": "b8ecd384031903f36622c05832238350338cfdda7bfbf3a1e7b09d2aa61e3acf",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "nameKo": "오프화이트 스니커즈",
+      "name": {
+        "ko": "오프화이트 스니커즈",
+        "en": "Off-white sneakers",
+        "de": "Gebrochen weiße Sneaker"
+      },
+      "description": {
+        "ko": "오프화이트 스니커즈. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Off-white sneakers. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Gebrochen weiße Sneaker. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "오프화이트 스니커즈는 끈을 단정히 묶어 짙은 데님 아래 밝은 마무리로 두세요.",
+        "en": "Lace the off-white sneakers neatly as a light finish under dark denim.",
+        "de": "Die gebrochen weißen Sneaker ordentlich schnüren – ein heller Abschluss unter dunklem Denim."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-03.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 41710,
+      "sha256": "ea1792d44445b5a9bf769a7c82009d3886c1b1abe1ad949a6247b93c36f5a79e",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "nameKo": "블랙 레더 룩 토트",
+      "name": {
+        "ko": "블랙 레더 룩 토트",
+        "en": "Black leather-look tote",
+        "de": "Schwarze Tote in Lederoptik"
+      },
+      "description": {
+        "ko": "블랙 레더 룩 토트. 에디토리얼에 맞춘 콘셉트 이미지이며 실제 판매 제품과 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Black leather-look tote. An editorial concept image; retail identity and material composition are unverified.",
+        "de": "Schwarze Tote in Lederoptik. Ein Editorial-Konzeptbild; Handelsprodukt und Materialzusammensetzung sind nicht bestätigt."
+      },
+      "howToWear": {
+        "ko": "큰 토트는 어깨 깊숙이 메어 몸 뒤쪽으로 두면 두 팔로 장보기 봉투를 안기 편해요.",
+        "en": "Wear the big tote high on the shoulder and toward your back so both arms are free to hug the grocery bag.",
+        "de": "Die große Tote hoch auf der Schulter und eher hinten tragen, damit beide Arme die Einkaufstüte halten können."
+      },
+      "evidence": "visible details fixed; hidden full shape/back/pair inferred",
+      "reconstructionNote": "visible details fixed; hidden full shape/back/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-f35-day-minimal-20261028-03.tote",
+      "image": "products/tote.webp",
+      "bytes": 33926,
+      "sha256": "32fab28dddba875533c2fd95b995bab7cd2659ba86b52c09c694f44974f116ea",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "토트는 어깨에 가볍게 걸고 손을 자유롭게 두세요.",
+        "en": "Carry the tote over one shoulder to keep your hands free.",
+        "de": "Die Tote über einer Schulter tragen, damit die Hände frei bleiben."
+      }
+    }
+  ],
+  "appBuild": "b184",
+  "appEditorialImage": "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-03/editorial.jpg",
+  "observationNotes": []
+}
