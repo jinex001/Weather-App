@@ -23,6 +23,13 @@
   .phone { position: relative; max-width: 420px; margin: 12px auto 40px; background: var(--bg); padding: 36px 24px 44px; overflow: hidden; transition: background .3s; }
   .faux { opacity: .35; font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; }
   .k { font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; margin-top: 28px; }
+  /* kicker on the left, new-looks button on the right (Phosphor Regular arrow-clockwise, screen text color, no outline) */
+  .head { display: flex; align-items: flex-end; justify-content: space-between; }
+  .re { margin: 0 -10px -10px 0; padding: 10px; border: 0; background: none; color: inherit; cursor: pointer; line-height: 0; }
+  .re.spin svg { animation: re-spin .5s cubic-bezier(.2,.8,.2,1); }
+  @keyframes re-spin { to { transform: rotate(360deg); } }
+  .rail { transition: opacity .25s; }
+  .rail.swap { opacity: 0; }
   /* the fanned stack, same moves as the calendar (index.html dayCards): middle card big and on top, neighbours smaller,
      tilted from their bottom edge and tucked behind; endless (three sets, recentred after a swipe) */
   .rail { --cw: 74%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
@@ -71,7 +78,7 @@
 <div class="ctl" id="ctl"></div>
 <div class="phone" id="phone">
   <div class="faux">… 체감온도 블록 위쪽은 지금 앱 그대로 …</div>
-  <div class="k">Today's Look</div>
+  <div class="head"><div class="k">Today's Look</div><button type="button" class="re" id="re" aria-label="New looks"><svg viewBox="0 0 256 256" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M240,56v48a8,8,0,0,1-8,8H184a8,8,0,0,1,0-16H211.4L184.81,71.64l-.25-.24a80,80,0,1,0-1.67,114.78,8,8,0,0,1,11,11.63A95.44,95.44,0,0,1,128,224h-1.32A96,96,0,1,1,195.75,60L224,85.8V56a8,8,0,1,1,16,0Z"/></svg></button></div>
   <div class="rail" id="rail"></div>
   <div class="under" id="under"><div class="title" id="title"></div><div class="rainl" id="rainl" hidden></div></div>
   <div class="dots" id="dots" aria-hidden="true"></div>
@@ -86,13 +93,13 @@
   var T = {
     ko: { sky: ["밤", "맑은 낮"], g: ["남성", "여성"], again: "다른 룩 뽑기", rain: "비 오는 날",
       umb: "우산 꼭 챙겨요", amt: "오늘 강수 {mm} mm · 확률 {p}%",
-      note: "<b>시안 메모</b> · 홈의 TODAY'S LOOK 자리에서 제목·대표 컷·요약 대신 러닝·스트리트·미니멀 룩의 에디토리얼 사진 세 장이 캘린더 7 DAYS처럼 겹친 카드로 돌아가요(끝없이). 스타일 이름 표시는 없고, 가운데 카드의 룩 타이틀만 아래에 바뀌어 나와요. 가운데 카드를 누르면 그 룩의 디테일(Today's Look 시트), 옆 카드를 누르면 가운데로 와요. 룩은 실제 라이브러리에서 오늘 하늘·시간에 맞는 것 중 스타일마다 하나 랜덤." },
+      note: "<b>시안 메모</b> · 홈의 TODAY'S LOOK 자리에서 제목·대표 컷·요약 대신 러닝·스트리트·미니멀 룩의 에디토리얼 사진 세 장이 캘린더 7 DAYS처럼 겹친 카드로 세 장만 보여요. 오른쪽 위 버튼을 누르면 세 장을 새로 뽑아요. 스타일 이름 표시는 없고, 가운데 카드의 룩 타이틀만 아래에 바뀌어 나와요. 가운데 카드를 누르면 그 룩의 디테일(Today's Look 시트), 옆 카드를 누르면 가운데로 와요. 룩은 실제 라이브러리에서 오늘 하늘·시간에 맞는 것 중 스타일마다 하나 랜덤." },
     en: { sky: ["Night", "Sunny day"], g: ["Male", "Female"], again: "Draw again", rain: "Rainy day",
       umb: "Take an umbrella", amt: "Rain today {mm} mm · {p}% chance",
-      note: "<b>Mockup note</b> · Instead of the title, hero cut and summary, three editorial photos (running, street, minimal) rotate as a fanned stack like the 7-day calendar. No style labels; only the middle card's look title shows below. Tap the middle card for its detail sheet, a side card to bring it to the middle." },
+      note: "<b>Mockup note</b> · Instead of the title, hero cut and summary, three editorial photos (running, street, minimal) sit in a fanned stack like the 7-day calendar, three cards only; the button top right draws three new ones. No style labels; only the middle card's look title shows below. Tap the middle card for its detail sheet, a side card to bring it to the middle." },
     de: { sky: ["Nacht", "Sonniger Tag"], g: ["Männlich", "Weiblich"], again: "Neu ziehen", rain: "Regentag",
       umb: "Schirm mitnehmen", amt: "Regen heute {mm} mm · {p} %",
-      note: "<b>Entwurf</b> · Statt Titel, Produkt und Zusammenfassung drehen sich drei Editorial-Fotos (Laufen, Street, Minimal) als Kartenstapel wie im 7-Tage-Kalender. Keine Stil-Labels; unten nur der Titel der mittleren Karte. Tippen öffnet die Detailansicht." }
+      note: "<b>Entwurf</b> · Statt Titel, Produkt und Zusammenfassung liegen drei Editorial-Fotos (Laufen, Street, Minimal) als Kartenstapel wie im 7-Tage-Kalender; der Knopf oben rechts zieht drei neue. Keine Stil-Labels; unten nur der Titel der mittleren Karte. Tippen öffnet die Detailansicht." }
   }[LANG];
   var STY = ["run", "street", "minimal"], L = null, picks = [];
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
@@ -100,30 +107,32 @@
   function rnd(a) { return a[Math.floor(Math.random() * a.length)]; }
   // one look per style: article looks with a photo for this gender, today's sky and time first
   function pick() {
+    var prev = picks.map(function (o) { return o.id; });
     var evening = SKY === "night", sky = RAIN ? "rain" : SKY === "sunny" ? "clear" : null;
     picks = STY.map(function (st) {
       var all = L.outfits.filter(function (o) { return o.style === st && o.gender === G && o.article && o.image && (o.bands || []).indexOf("chilly") >= 0; });
       var fit = all.filter(function (o) { return (o.time === "evening") === evening && (!sky || o.sky === sky); });
       if (!fit.length && sky) fit = all.filter(function (o) { return o.sky === sky; });
       if (!fit.length) fit = all.filter(function (o) { return (o.time === "evening") === evening && o.sky !== "rain"; });
-      return rnd(fit.length ? fit : all);
+      var pool = fit.length ? fit : all, fresh = pool.filter(function (o) { return prev.indexOf(o.id) < 0; });
+      return rnd(fresh.length ? fresh : pool);
     });
   }
   function paint() {
     var cards = picks.map(function (o, k) {
       return '<button type="button" class="card" data-k="' + k + '"><span class="in"><img alt="" src="../' + o.image + '"></span></button>';
     });
-    var copy = cards.map(function (h) { return h.replace('class="card"', 'class="card" tabindex="-1" aria-hidden="true"'); });
+    // just the three cards (no endless copies): the middle one starts in the middle, one on each side
     var rail = document.getElementById("rail");
-    rail.innerHTML = copy.join("") + cards.join("") + copy.join("");
+    rail.innerHTML = cards.join("");
     document.getElementById("dots").innerHTML = picks.map(function () { return "<span></span>"; }).join("");
     // rainy day: umbrella + today's amount and chance (in the app: daily precipitation_sum + precipitation_probability_max)
     var rl = document.getElementById("rainl");
     rl.hidden = !RAIN;
     rl.innerHTML = RAIN ? esc(T.umb) + '<span>' + esc(T.amt.replace("{mm}", (2.4).toLocaleString(LANG)).replace("{p}", 95)) + "</span>" : "";
-    shown = -1; center(3); stack();
+    shown = -1; center(1); stack();
   }
-  var shown = -1, held = false, idle;
+  var shown = -1;
   function stack() {
     var rail = document.getElementById("rail"), cs = rail.children, w = cs.length && cs[0].offsetWidth; if (!w) return 0;
     var mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
@@ -164,15 +173,8 @@
     el.innerHTML = lines.map(function (x, i) { return "<span>" + esc(x) + (i < lines.length - 1 ? " " : "") + "</span>"; }).join("");
   }
   function center(k) { var rail = document.getElementById("rail"), c = rail.children[k]; rail.scrollLeft = c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2; }
-  function recenter() {
-    var rail = document.getElementById("rail"), w = rail.children[0].offsetWidth; if (held) return;
-    var at = stack();
-    if (at < 3) rail.scrollLeft += 3 * w; else if (at >= 6) rail.scrollLeft -= 3 * w;
-  }
   var rail = document.getElementById("rail");
-  rail.addEventListener("touchstart", function () { held = true; }, { passive: true });
-  rail.addEventListener("touchend", function () { held = false; clearTimeout(idle); idle = setTimeout(recenter, 160); }, { passive: true });
-  rail.addEventListener("scroll", function () { requestAnimationFrame(stack); clearTimeout(idle); idle = setTimeout(recenter, 160); }, { passive: true });
+  rail.addEventListener("scroll", function () { requestAnimationFrame(stack); }, { passive: true });
   rail.addEventListener("click", function (e) {
     var b = e.target.closest(".card"); if (!b) return;
     var k = [].indexOf.call(rail.children, b), at = stack();
@@ -192,9 +194,15 @@
     document.getElementById("close").onclick = closeSheet;
   }
   function closeSheet() { document.getElementById("sheet").classList.remove("open"); document.getElementById("phone").classList.remove("dim"); }
+  // none of the three? draw three new ones (others than these where the set allows), fade the row out and back in
+  document.getElementById("re").addEventListener("click", function () {
+    var b = this, r = document.getElementById("rail");
+    b.classList.remove("spin"); void b.offsetWidth; b.classList.add("spin");
+    r.classList.add("swap");
+    setTimeout(function () { pick(); paint(); r.classList.remove("swap"); }, 250);
+  });
   function ctl() {
-    document.getElementById("ctl").innerHTML = '<button data-a="again">' + T.again + "</button>" +
-      '<button data-a="night" class="' + (SKY === "night" ? "on" : "") + '">' + T.sky[0] + '</button><button data-a="sunny" class="' + (SKY === "sunny" ? "on" : "") + '">' + T.sky[1] + "</button>" +
+    document.getElementById("ctl").innerHTML = '<button data-a="night" class="' + (SKY === "night" ? "on" : "") + '">' + T.sky[0] + '</button><button data-a="sunny" class="' + (SKY === "sunny" ? "on" : "") + '">' + T.sky[1] + "</button>" +
       '<button data-a="rain" class="' + (RAIN ? "on" : "") + '">' + T.rain + "</button>" +
       '<button data-a="m" class="' + (G === "m" ? "on" : "") + '">' + T.g[0] + '</button><button data-a="f" class="' + (G === "f" ? "on" : "") + '">' + T.g[1] + "</button>";
   }
