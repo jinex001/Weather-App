@@ -39,6 +39,7 @@
   .under { margin-top: 14px; }
   .title { font: 40px/.92 var(--display); text-transform: uppercase; letter-spacing: 0; transition: opacity .18s; }
   /* rainy days: the umbrella line and today's rain, under the title */
+  .title span { display: block; }
   .rainl { margin-top: 10px; font: 700 15px/1.45 var(--sans); }
   .rainl[hidden] { display: none; }
   .rainl span { display: block; opacity: .7; font-weight: 600; font-size: 13px; word-break: keep-all; }
@@ -148,7 +149,19 @@
   function fadeTitle(t) {
     var el = document.getElementById("title");
     el.classList.add("out");
-    setTimeout(function () { el.textContent = t; el.classList.remove("out"); }, 180);
+    setTimeout(function () { twoLines(el, t); el.classList.remove("out"); }, 180);
+  }
+  // always at least two lines (like the home headline, b135): split where the two lines come out most even;
+  // a line too wide for the card still wraps, so long titles can take three
+  var meas = document.createElement("canvas").getContext("2d");
+  function twoLines(el, t) {
+    var w = String(t).toUpperCase().split(/\s+/).filter(Boolean), lines = [w.join(" ")], best = Infinity;
+    meas.font = "40px " + getComputedStyle(el).fontFamily;
+    for (var i = 1; i < w.length; i++) {
+      var a = w.slice(0, i).join(" "), b = w.slice(i).join(" "), m = Math.max(meas.measureText(a).width, meas.measureText(b).width);
+      if (m < best) { best = m; lines = [a, b]; }
+    }
+    el.innerHTML = lines.map(function (x, i) { return "<span>" + esc(x) + (i < lines.length - 1 ? " " : "") + "</span>"; }).join("");
   }
   function center(k) { var rail = document.getElementById("rail"), c = rail.children[k]; rail.scrollLeft = c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2; }
   function recenter() {
