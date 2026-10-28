@@ -13,6 +13,8 @@
     --glass-fill: rgba(255,255,255,.5); --glass-blur: blur(24px);
     --glass-light: inset 1px 1px 0 rgba(255,255,255,.8), inset -1px -1px 0 rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.15); }
   body[data-sky="sunny"] { --bg: #F2C14E; --fg: #141414; }
+  body[data-rain="1"] { --bg: #4F5D6B; --fg: #E6ECF2; }
+  body[data-rain="1"][data-sky="night"] { --bg: #1B2140; --fg: #F4F1E8; }
   * { box-sizing: border-box; }
   body { margin: 0; background: #E4E1DA; color: var(--fg); font-family: var(--sans); letter-spacing: -.02em; }
   .ctl { max-width: 420px; margin: 0 auto; padding: 16px 16px 0; display: flex; gap: 8px; flex-wrap: wrap; }
@@ -24,7 +26,7 @@
   /* the fanned stack, same moves as the calendar (index.html dayCards): middle card big and on top, neighbours smaller,
      tilted from their bottom edge and tucked behind; endless (three sets, recentred after a swipe) */
   .rail { --cw: 74%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
-    margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 22px; }
+    margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 0; }
   .rail::-webkit-scrollbar { display: none; }
   .card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always; aspect-ratio: 2 / 3; padding: 0; border: 0; background: none; cursor: pointer; }
   .in { position: absolute; inset: 0; border-radius: 26px; overflow: hidden; transform-origin: 50% 100%; will-change: transform; background: #2A3050; }
@@ -33,7 +35,14 @@
   .dots { display: flex; justify-content: center; gap: 8px; }
   .dots span { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .25; transition: opacity .2s; }
   .dots span.on { opacity: 1; }
-  .title { font: 44px/.92 var(--display); text-transform: uppercase; letter-spacing: 0; margin-top: 16px; min-height: 2.8em; transition: opacity .18s; }
+  /* the title sits right under the middle card, as wide as it and left-aligned with it (placed from the card in stack()) */
+  .under { margin-top: 14px; }
+  .title { font: 40px/.92 var(--display); text-transform: uppercase; letter-spacing: 0; transition: opacity .18s; }
+  /* rainy days: the umbrella line and today's rain, under the title */
+  .rainl { margin-top: 10px; font: 700 15px/1.45 var(--sans); }
+  .rainl[hidden] { display: none; }
+  .rainl span { display: block; opacity: .7; font-weight: 600; font-size: 13px; word-break: keep-all; }
+  .dots { margin-top: 18px; }
   .title.out { opacity: 0; }
   /* detail: the Today's Look sheet, opened on the picked look (here a short stand-in) */
   .sheet { position: absolute; inset: 0; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
@@ -63,22 +72,25 @@
   <div class="faux">… 체감온도 블록 위쪽은 지금 앱 그대로 …</div>
   <div class="k">Today's Look</div>
   <div class="rail" id="rail"></div>
+  <div class="under" id="under"><div class="title" id="title"></div><div class="rainl" id="rainl" hidden></div></div>
   <div class="dots" id="dots" aria-hidden="true"></div>
-  <div class="title" id="title"></div>
   <div class="sheet" id="sheet"></div>
 </div>
 <div class="note" id="note"></div>
 <script>
   var Q = new URLSearchParams(location.search), LANG = (Q.get("lang") || (navigator.language || "en").slice(0, 2)).toLowerCase();
   if (!/^(ko|en|de)$/.test(LANG)) LANG = "en";
-  var G = Q.get("g") === "f" ? "f" : "m", SKY = Q.get("sky") === "sunny" ? "sunny" : "night";
-  document.body.dataset.sky = SKY;
+  var G = Q.get("g") === "f" ? "f" : "m", SKY = Q.get("sky") === "sunny" ? "sunny" : "night", RAIN = Q.get("rain") === "1";
+  document.body.dataset.sky = SKY; document.body.dataset.rain = RAIN ? "1" : "";
   var T = {
-    ko: { sky: ["밤", "맑은 낮"], g: ["남성", "여성"], again: "다른 룩 뽑기",
+    ko: { sky: ["밤", "맑은 낮"], g: ["남성", "여성"], again: "다른 룩 뽑기", rain: "비 오는 날",
+      umb: "우산 꼭 챙겨요", amt: "오늘 강수 {mm} mm · 확률 {p}%",
       note: "<b>시안 메모</b> · 홈의 TODAY'S LOOK 자리에서 제목·대표 컷·요약 대신 러닝·스트리트·미니멀 룩의 에디토리얼 사진 세 장이 캘린더 7 DAYS처럼 겹친 카드로 돌아가요(끝없이). 스타일 이름 표시는 없고, 가운데 카드의 룩 타이틀만 아래에 바뀌어 나와요. 가운데 카드를 누르면 그 룩의 디테일(Today's Look 시트), 옆 카드를 누르면 가운데로 와요. 룩은 실제 라이브러리에서 오늘 하늘·시간에 맞는 것 중 스타일마다 하나 랜덤." },
-    en: { sky: ["Night", "Sunny day"], g: ["Male", "Female"], again: "Draw again",
+    en: { sky: ["Night", "Sunny day"], g: ["Male", "Female"], again: "Draw again", rain: "Rainy day",
+      umb: "Take an umbrella", amt: "Rain today {mm} mm · {p}% chance",
       note: "<b>Mockup note</b> · Instead of the title, hero cut and summary, three editorial photos (running, street, minimal) rotate as a fanned stack like the 7-day calendar. No style labels; only the middle card's look title shows below. Tap the middle card for its detail sheet, a side card to bring it to the middle." },
-    de: { sky: ["Nacht", "Sonniger Tag"], g: ["Männlich", "Weiblich"], again: "Neu ziehen",
+    de: { sky: ["Nacht", "Sonniger Tag"], g: ["Männlich", "Weiblich"], again: "Neu ziehen", rain: "Regentag",
+      umb: "Schirm mitnehmen", amt: "Regen heute {mm} mm · {p} %",
       note: "<b>Entwurf</b> · Statt Titel, Produkt und Zusammenfassung drehen sich drei Editorial-Fotos (Laufen, Street, Minimal) als Kartenstapel wie im 7-Tage-Kalender. Keine Stil-Labels; unten nur der Titel der mittleren Karte. Tippen öffnet die Detailansicht." }
   }[LANG];
   var STY = ["run", "street", "minimal"], L = null, picks = [];
@@ -87,11 +99,12 @@
   function rnd(a) { return a[Math.floor(Math.random() * a.length)]; }
   // one look per style: article looks with a photo for this gender, today's sky and time first
   function pick() {
-    var evening = SKY === "night", sky = SKY === "sunny" ? "clear" : null;
+    var evening = SKY === "night", sky = RAIN ? "rain" : SKY === "sunny" ? "clear" : null;
     picks = STY.map(function (st) {
       var all = L.outfits.filter(function (o) { return o.style === st && o.gender === G && o.article && o.image && (o.bands || []).indexOf("chilly") >= 0; });
       var fit = all.filter(function (o) { return (o.time === "evening") === evening && (!sky || o.sky === sky); });
-      if (!fit.length) fit = all.filter(function (o) { return (o.time === "evening") === evening; });
+      if (!fit.length && sky) fit = all.filter(function (o) { return o.sky === sky; });
+      if (!fit.length) fit = all.filter(function (o) { return (o.time === "evening") === evening && o.sky !== "rain"; });
       return rnd(fit.length ? fit : all);
     });
   }
@@ -103,6 +116,10 @@
     var rail = document.getElementById("rail");
     rail.innerHTML = copy.join("") + cards.join("") + copy.join("");
     document.getElementById("dots").innerHTML = picks.map(function () { return "<span></span>"; }).join("");
+    // rainy day: umbrella + today's amount and chance (in the app: daily precipitation_sum + precipitation_probability_max)
+    var rl = document.getElementById("rainl");
+    rl.hidden = !RAIN;
+    rl.innerHTML = RAIN ? esc(T.umb) + '<span>' + esc(T.amt.replace("{mm}", (2.4).toLocaleString(LANG)).replace("{p}", 95)) + "</span>" : "";
     shown = -1; center(3); stack();
   }
   var shown = -1, held = false, idle;
@@ -120,6 +137,10 @@
       inn.style.opacity = a > 2.4 ? Math.max(0, 1 - (a - 2.4) * 2).toFixed(2) : "";
       if (a < best) { best = a; at = k; }
     });
+    // the title block takes the middle card's resting width and left edge
+    // (the rail spans the phone edge to edge, the block sits inside its 24px side padding)
+    var u = document.getElementById("under");
+    u.style.width = w + "px"; u.style.marginLeft = ((rail.clientWidth - w) / 2 - 24) + "px";
     [].forEach.call(document.getElementById("dots").children, function (s, k) { s.className = k === at % 3 ? "on" : ""; });
     if (at % 3 !== shown) { shown = at % 3; fadeTitle(picks[shown].article.title); }
     return at;
@@ -161,12 +182,14 @@
   function ctl() {
     document.getElementById("ctl").innerHTML = '<button data-a="again">' + T.again + "</button>" +
       '<button data-a="night" class="' + (SKY === "night" ? "on" : "") + '">' + T.sky[0] + '</button><button data-a="sunny" class="' + (SKY === "sunny" ? "on" : "") + '">' + T.sky[1] + "</button>" +
+      '<button data-a="rain" class="' + (RAIN ? "on" : "") + '">' + T.rain + "</button>" +
       '<button data-a="m" class="' + (G === "m" ? "on" : "") + '">' + T.g[0] + '</button><button data-a="f" class="' + (G === "f" ? "on" : "") + '">' + T.g[1] + "</button>";
   }
   document.getElementById("ctl").addEventListener("click", function (e) {
     var a = e.target.dataset.a; if (!a) return;
     if (a === "night" || a === "sunny") { SKY = a; document.body.dataset.sky = a; }
     if (a === "m" || a === "f") G = a;
+    if (a === "rain") { RAIN = !RAIN; document.body.dataset.rain = RAIN ? "1" : ""; }
     closeSheet(); ctl(); pick(); paint();
   });
   document.getElementById("note").innerHTML = T.note;
