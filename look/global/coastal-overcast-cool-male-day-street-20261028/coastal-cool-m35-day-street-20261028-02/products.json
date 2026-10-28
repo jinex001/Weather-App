@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-street-20261028-02",
+  "batchId": "coastal-overcast-cool-male-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Approved male casting28–32, distinct from storage35+."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User explicitly approved all five male editorials and started full workflow on2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "928467b73a9b3cc3030ae038a1277a8e548de64d07541074700aeaebc9421cdc",
+  "editorialBytes": 280712,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "flowers",
+    "produce and carrots",
+    "paper grocery bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-street-20261028-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-street-20261028-02.windbreaker",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T10:44:53.678957+00:00",
+    "scope": "All 25 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "COBALT, FLOWERS AND AN EASY PACE",
+    "title": {
+      "ko": "코발트와 꽃, 느린 걸음",
+      "en": "Cobalt, flowers and an easy pace",
+      "de": "Kobaltblau, Blumen und ein ruhiger Schritt"
+    },
+    "deck": {
+      "ko": "코발트와 꽃, 느린 걸음",
+      "en": "A stray leaf, plucked from the bouquet's paper mid-stride.",
+      "de": "Kobaltblau, Blumen und ein ruhiger Schritt"
+    },
+    "intro": {
+      "ko": "꽃 포장에 끼인 잎을 조심스럽게 빼내요. 코발트 후드 윈드브레이커와 에크루 저지, 네이비 팬츠가 흐린 골목에 또렷한 색을 남깁니다.",
+      "en": "Gently freeing a leaf caught in the bouquet's wrapping. A cobalt hooded windbreaker, ecru jersey and navy trousers bring clear colour to the overcast street.",
+      "de": "Vorsichtig ein Blatt aus dem Blumenpapier lösen. Kobaltblaue Kapuzenjacke, ecrufarbener Jersey und marineblaue Hose bringen Farbe in die bedeckte Gasse."
+    },
+    "pullQuoteEn": "A LEAF OUT OF PLACE.",
+    "tip": {
+      "ko": "후드는 목 뒤로 두고 지퍼를 열어 가볍게 겹쳐 입으세요. 꽃다발과 가방은 양쪽으로 나누면 손이 편해요.",
+      "en": "Keep the hood down and the zip open; carry the bouquet and bag on opposite sides.",
+      "de": "Die Kapuze im Nacken und den Reißverschluss offen lassen; Strauß und Tasche auf verschiedene Seiten verteilen."
+    },
+    "sourceDeckEn": "Cobalt, flowers and an easy pace",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, titles, intro, pull, tip, product names and how-to-wear) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn). Categories already in the app enum (bag/outer/top/bottom/shoes); no category change."
+  },
+  "products": [
+    {
+      "id": "windbreaker",
+      "producerId": "02-windbreaker",
+      "nameKo": "코발트 후드 윈드브레이커",
+      "name": {
+        "ko": "코발트 후드 윈드브레이커",
+        "en": "Cobalt hooded windbreaker",
+        "de": "Kobaltblaue Windjacke mit Kapuze"
+      },
+      "description": {
+        "ko": "코발트 후드 윈드브레이커. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Cobalt hooded windbreaker. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Kobaltblaue Windjacke mit Kapuze. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "후드는 목 뒤로 내려 두고 앞 지퍼를 열어 꽃다발을 잡는 팔이 편하게 움직이도록 입으세요.",
+        "en": "Leave the hood down and the zip open so your arms move easily around the bouquet.",
+        "de": "Die Kapuze im Nacken lassen und den Reißverschluss öffnen, damit die Arme am Blumenstrauß frei bleiben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-street-20261028-02.windbreaker",
+      "image": "products/windbreaker.webp",
+      "bytes": 45998,
+      "sha256": "52c5b0daad05664f765753c5fc269d8b8a615566ff01924d6ef7a79e07558ebd",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "longsleeve",
+      "producerId": "02-longsleeve",
+      "nameKo": "에크루 롱슬리브 티",
+      "name": {
+        "ko": "에크루 롱슬리브 티",
+        "en": "Ecru jersey long-sleeve top",
+        "de": "Ecrufarbenes Jersey-Langarmshirt"
+      },
+      "description": {
+        "ko": "에크루 롱슬리브 티. 사진의 목선과 얇은 저지 질감을 바탕으로 복원했습니다. 가려진 소매와 밑단은 추정입니다.",
+        "en": "Ecru jersey long-sleeve top. Reconstructed from the photographed neckline and thin jersey texture; hidden sleeves and hems are inferred.",
+        "de": "Ecrufarbenes Jersey-Langarmshirt. Aus Ausschnitt und dünner Jerseystruktur im Foto rekonstruiert; verdeckte Ärmel und Säume sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "얇은 에크루 저지를 한 겹 받쳐 입고 꽃 포장을 정리하는 손 위로 소매가 내려오지 않게 하세요.",
+        "en": "Use one thin ecru jersey layer and keep the sleeves clear of the fingers tidying the wrapping.",
+        "de": "Eine dünne Lage ecrufarbenen Jersey tragen und die Ärmel von den Fingern am Blumenpapier fernhalten."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-street-20261028-02.longsleeve",
+      "image": "products/longsleeve.webp",
+      "bytes": 29094,
+      "sha256": "261b6fcb5785cb885084d6d7b6065e89cbe080a29c5984f8fdaaa553607ab2ee",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "nameKo": "네이비 팬츠",
+      "name": {
+        "ko": "네이비 팬츠",
+        "en": "Navy relaxed trousers",
+        "de": "Lockere marineblaue Hose"
+      },
+      "description": {
+        "ko": "네이비 팬츠. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Navy relaxed trousers. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Lockere marineblaue Hose. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "네이비 팬츠는 허벅지에 여유 있게 고르고, 걷는 발목 주위에 밑단이 걸리지 않게 정돈하세요.",
+        "en": "Choose room through the thighs and keep the hems clear of your ankles as you walk.",
+        "de": "An den Oberschenkeln genügend Weite wählen und die Säume beim Gehen von den Knöcheln freihalten."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-street-20261028-02.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 18122,
+      "sha256": "65c7ec276b3d0837ccc1e172896ee480f66cb54f1dab4284351a8558d0efdf00",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "02-sneakers",
+      "nameKo": "라이트 그레이 스니커즈",
+      "name": {
+        "ko": "라이트 그레이 스니커즈",
+        "en": "Pale grey panel sneakers",
+        "de": "Hellgraue Sneaker mit Einsätzen"
+      },
+      "description": {
+        "ko": "라이트 그레이 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Pale grey panel sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Hellgraue Sneaker mit Einsätzen. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "회색 신발 위로 바짓단이 가볍게 떨어지게 하고 끈은 꽃다발을 들기 전에 묶어 두세요.",
+        "en": "Let the trousers skim the pale grey shoes and secure the laces before picking up the bouquet.",
+        "de": "Die Hose locker über die hellgrauen Schuhe fallen lassen und vor dem Aufnehmen des Straußes die Schnürsenkel binden."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-street-20261028-02.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 46076,
+      "sha256": "fd4fbc2a88c77c8ddd416e289740f84f98255ccac90ccdd5a55eab1615b0bdad",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "02-shoulder-bag",
+      "nameKo": "탄 캔버스 숄더백",
+      "name": {
+        "ko": "탄 캔버스 숄더백",
+        "en": "Tan canvas shoulder bag",
+        "de": "Hellbraune Canvas-Schultertasche"
+      },
+      "description": {
+        "ko": "탄 캔버스 숄더백. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Tan canvas shoulder bag. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Hellbraune Canvas-Schultertasche. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "가방은 꽃다발 반대쪽 몸 옆에 두고 넓은 스트랩이 어깨에서 돌아가지 않게 펴서 메세요.",
+        "en": "Carry the bag opposite the bouquet and lay the broad strap flat across the shoulder.",
+        "de": "Die Tasche auf der anderen Seite des Straußes tragen und den breiten Riemen flach auf die Schulter legen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-street-20261028-02.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 44902,
+      "sha256": "154bb3a634e14b89661fe56d7a7b9289224125402dbc6151c5e77c7d0e2ae159",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b181"
+}

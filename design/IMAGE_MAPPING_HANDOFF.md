@@ -406,3 +406,9 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 흐린 날 하늘: 제작 측 `category.weather: Overcast`/`weather.condition: overcast`는 설명값이고 앱은 기존 enum `sky: "cloudy"`. 체감 단계 첫 **선선함(cool)** 세트(`bands: ["cool"]`, 앱 BAND 정의 10~17°; 체감 16°C는 제작 가정).
 - 제작 측 문구가 ko/en/de 모두 완성(제목·deck·intro·pull·tip, 제품별 이름·설명·입는 법, 입는 법 28개 모두 다름 → 5-1 통과)이라 그대로 씀. 고친 것: en deck(제작 측은 영어 제목과 같은 문장 → 장면 문장, 원문 `copy.sourceDeckEn`), 입는 법 4곳(01 재킷 en·de, 04 귀걸이 en, 05 재킷 en 관용구, 원문 `sourceHowToWear`), 가방 분류 `accessory` → `bag`·귀걸이 → `jewelry`(원문 `sourceAppCategory`).
 - [검증 기록](coastal-overcast-cool-female-day-street-20261028-validation.md).
+
+## b181 · Global coastal / Overcast / Cool / Male / 35+ / Day / Street — 2026-10-28 set (5 looks · 25 products)
+
+- b179와 같은 경로·파일 이름·하늘(`overcast` → `cloudy`)·단계(`cool`) 방식, 진입점 `originals/product-batch/complete/<lookId>/`만. `app-editorials/`·`app-products/`는 같은 바이트의 평면 사본이라 안 씀.
+- 제작 측 문구 ko/en/de 완성(입는 법 25개 모두 다름 → 5-1 통과). deck은 세 언어 모두 제목과 같은 문장이었음 → 앱 제목(영어 대문자)과 겹치는 en deck만 장면 문장으로(원문 `copy.sourceDeckEn`), 분류는 이미 앱 enum이라 그대로.
+- [검증 기록](coastal-overcast-cool-male-day-street-20261028-validation.md).

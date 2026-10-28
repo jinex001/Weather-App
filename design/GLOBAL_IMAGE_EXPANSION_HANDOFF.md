@@ -7,7 +7,7 @@
 | 항목 | 상태 |
 | --- | --- |
 | 생성 입력: 도시 대신 climateContext × visualRegion (IMAGE_STYLE 12장) | 구현됨(문서) |
-| 글로벌 저장 경로 `look/global/<batchId>/<lookId>/` | 구현됨, 첫 세트 `global-context-coastal-20261027` 1룩, 두 번째 `coastal-sunny-pleasant-female-day-street-20261027` 5룩(b176, 습도 unknown), 세 번째 `coastal-warm-male-day-street-20261027` 남성 5룩(b177, 습도 unknown), 네 번째 `coastal-warm-male-evening-street-20261027` 남성 저녁 5룩(b178, `time: "evening"`, 습도 unknown), 다섯 번째 `coastal-overcast-cool-female-day-street-20261028` 흐림·선선함 여성 낮 5룩(b179, sky `cloudy`, 습도 unknown) |
+| 글로벌 저장 경로 `look/global/<batchId>/<lookId>/` | 구현됨, 첫 세트 `global-context-coastal-20261027` 1룩, 두 번째 `coastal-sunny-pleasant-female-day-street-20261027` 5룩(b176, 습도 unknown), 세 번째 `coastal-warm-male-day-street-20261027` 남성 5룩(b177, 습도 unknown), 네 번째 `coastal-warm-male-evening-street-20261027` 남성 저녁 5룩(b178, `time: "evening"`, 습도 unknown), 다섯 번째 `coastal-overcast-cool-female-day-street-20261028` 흐림·선선함 여성 낮 5룩(b179, sky `cloudy`, 습도 unknown), 여섯 번째 `coastal-overcast-cool-male-day-street-20261028` 흐림·선선함 남성 낮 5룩(b181, sky `cloudy`, 습도 unknown) |
 | 선택적 룩 메타데이터 `visualRegion` · `climateContext.humidityContext` · `contextReview.status` | 구현됨(`look/global-coastal-20261027.js`) |
 | 어댑터 `look/global-context.js`(모든 룩 모듈 뒤 로드, 실패 시 b172 선택) | 구현됨 |
 | 기존 룩 sidecar(`SIDECAR`, 룩 ID → 검토된 값) | 형식만 구현, **비어 있음**(베를린 룩 검토 전) |

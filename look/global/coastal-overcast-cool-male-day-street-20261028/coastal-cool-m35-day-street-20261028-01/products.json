@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-street-20261028-01",
+  "batchId": "coastal-overcast-cool-male-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Approved male casting28–32, distinct from storage35+."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User explicitly approved all five male editorials and started full workflow on2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "efcb99573cc74d75b2ee8f1006606656266d94cd2affb2f1e0b8ca910a5ab95a",
+  "editorialBytes": 232685,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "flowers",
+    "produce and carrots",
+    "paper grocery bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-street-20261028-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-street-20261028-01.overshirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T10:44:53.678957+00:00",
+    "scope": "All 25 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "COFFEE, THEN THE NEXT CORNER",
+    "title": {
+      "ko": "커피 한 잔, 출발 전 작은 정리",
+      "en": "Coffee, then the next corner",
+      "de": "Erst Kaffee, dann die nächste Ecke"
+    },
+    "deck": {
+      "ko": "커피 한 잔, 출발 전 작은 정리",
+      "en": "One small fix to the cup sleeve before the walk goes on.",
+      "de": "Erst Kaffee, dann die nächste Ecke"
+    },
+    "intro": {
+      "ko": "카페 앞에서 컵 홀더를 고쳐 잡는 짧은 순간. 올리브 오버셔츠와 아이보리 티셔츠, 차콜 데님에 작은 브라운 크로스백을 맞췄어요.",
+      "en": "A brief pause outside the café to straighten the cup sleeve. An olive overshirt, ivory tee and charcoal denim are finished with a small brown crossbody.",
+      "de": "Vor dem Café kurz die Manschette am Becher richten. Olivgrünes Overshirt, elfenbeinfarbenes Shirt und dunkle Jeans werden von einer kleinen braunen Umhängetasche ergänzt."
+    },
+    "pullQuoteEn": "JUST A SMALL ADJUSTMENT.",
+    "tip": {
+      "ko": "선선한 낮에는 얇은 티셔츠에 가벼운 오버셔츠를 열어 입고 손목 주위만 정돈해 보세요.",
+      "en": "For a cool day, wear a light overshirt open over a thin tee and keep the cuffs tidy.",
+      "de": "An einem kühlen Tag ein leichtes Overshirt offen über einem dünnen Shirt tragen und die Ärmel ordnen."
+    },
+    "sourceDeckEn": "Coffee, then the next corner",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, titles, intro, pull, tip, product names and how-to-wear) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn). Categories already in the app enum (bag/outer/top/bottom/shoes); no category change."
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "producerId": "01-overshirt",
+      "nameKo": "올리브 오버셔츠",
+      "name": {
+        "ko": "올리브 오버셔츠",
+        "en": "Olive overshirt",
+        "de": "Olivgrünes Overshirt"
+      },
+      "description": {
+        "ko": "올리브 오버셔츠. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Olive overshirt. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Olivgrünes Overshirt. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 아이보리 티셔츠를 드러내고 컵을 잡는 손목 위로 소매를 가볍게 정리하세요.",
+        "en": "Wear open over the ivory tee and ease the cuffs back from the hands holding the cup.",
+        "de": "Offen über dem elfenbeinfarbenen Shirt tragen und die Ärmel von den Händen am Becher zurückschieben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-street-20261028-01.overshirt",
+      "image": "products/overshirt.webp",
+      "bytes": 32292,
+      "sha256": "c9c8d6812d6a3ea4e209c16bc363bf07ecb117e9ef7015f084d12e36e198b5ff",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "01-tee",
+      "nameKo": "아이보리 코튼 티셔츠",
+      "name": {
+        "ko": "아이보리 코튼 티셔츠",
+        "en": "Ivory crewneck T-shirt",
+        "de": "Elfenbeinfarbenes Rundhals-T-Shirt"
+      },
+      "description": {
+        "ko": "아이보리 코튼 티셔츠. 사진의 목선과 얇은 저지 질감을 바탕으로 복원했습니다. 가려진 소매와 밑단은 추정입니다.",
+        "en": "Ivory crewneck T-shirt. Reconstructed from the photographed neckline and thin jersey texture; hidden sleeves and hems are inferred.",
+        "de": "Elfenbeinfarbenes Rundhals-T-Shirt. Aus Ausschnitt und dünner Jerseystruktur im Foto rekonstruiert; verdeckte Ärmel und Säume sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "얇은 티셔츠 밑단을 데님 위로 편하게 두어 오버셔츠 안에서 뭉치지 않게 입으세요.",
+        "en": "Let the thin tee fall easily over the jeans so it sits smoothly under the overshirt.",
+        "de": "Das dünne Shirt locker über der Jeans tragen, damit es unter dem Overshirt glatt liegt."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-street-20261028-01.tee",
+      "image": "products/tee.webp",
+      "bytes": 24354,
+      "sha256": "d7c5e5ab2a96f4b529149195d999edac0c0b5d290a0ac24627f17795b45a5880",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "01-jeans",
+      "nameKo": "워시드 차콜 데님",
+      "name": {
+        "ko": "워시드 차콜 데님",
+        "en": "Washed charcoal straight jeans",
+        "de": "Gerade Jeans in verwaschenem Anthrazit"
+      },
+      "description": {
+        "ko": "워시드 차콜 데님. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Washed charcoal straight jeans. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Gerade Jeans in verwaschenem Anthrazit. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "여유 있는 다리선을 살리고 밑단이 크림색 신발 밑창 아래로 끌리지 않게 길이를 맞추세요.",
+        "en": "Keep the relaxed leg line and set the hem clear of the cream sneakers' soles.",
+        "de": "Die lockere Beinform erhalten und den Saum so wählen, dass er nicht unter die hellen Sneaker rutscht."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-street-20261028-01.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 35442,
+      "sha256": "0e65e2b0b397917b53f7c454d8fc5c7132af0a7f7eed2fb06102b5336a1d626f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "01-sneakers",
+      "nameKo": "크림 스니커즈",
+      "name": {
+        "ko": "크림 스니커즈",
+        "en": "Cream leather-look sneakers",
+        "de": "Cremefarbene Sneaker in Lederoptik"
+      },
+      "description": {
+        "ko": "크림 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Cream leather-look sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Cremefarbene Sneaker in Lederoptik. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "크림색 끈을 단정히 묶고 짙은 데님 아래 밝은 앞코가 보이게 입으세요.",
+        "en": "Tie the cream laces neatly and show a little pale toe below the dark denim.",
+        "de": "Die hellen Schnürsenkel ordentlich binden und unter der dunklen Jeans etwas Schuhspitze zeigen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-street-20261028-01.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 38332,
+      "sha256": "832bdca2fd3ddb06ba5a2f0f095531125f86616e29496126b924fd5e5b9699ad",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "producerId": "01-crossbody",
+      "nameKo": "다크 브라운 크로스백",
+      "name": {
+        "ko": "다크 브라운 크로스백",
+        "en": "Dark brown crossbody bag",
+        "de": "Dunkelbraune Umhängetasche"
+      },
+      "description": {
+        "ko": "다크 브라운 크로스백. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Dark brown crossbody bag. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Dunkelbraune Umhängetasche. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "가방을 몸 옆에 가깝게 메어 두 손으로 컵을 다룰 때 앞으로 흔들리지 않게 하세요.",
+        "en": "Keep the bag close at your side so it stays out of the way when both hands adjust the cup sleeve.",
+        "de": "Die Tasche nah an der Seite tragen, damit sie beim Richten der Bechermanschette nicht nach vorn schwingt."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-street-20261028-01.crossbody",
+      "image": "products/crossbody.webp",
+      "bytes": 39978,
+      "sha256": "416678ca2dd0eeb59f8ca721e29749f1361189ea126330daf6da4e6b64b826c7",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b181"
+}

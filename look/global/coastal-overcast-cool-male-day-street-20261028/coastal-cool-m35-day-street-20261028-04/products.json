@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-street-20261028-04",
+  "batchId": "coastal-overcast-cool-male-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Approved male casting28–32, distinct from storage35+."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User explicitly approved all five male editorials and started full workflow on2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "ea60b111368aa10db3d6c9b3deb1557e843eceec5b5278b7bcfc90efeb0512fd",
+  "editorialBytes": 284876,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "flowers",
+    "produce and carrots",
+    "paper grocery bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-street-20261028-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-street-20261028-04.bomber",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T10:44:53.678957+00:00",
+    "scope": "All 25 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "THE NEXT TURN CAN WAIT A MOMENT",
+    "title": {
+      "ko": "계단 위, 다음 길을 찾는 시간",
+      "en": "The next turn can wait a moment",
+      "de": "Die nächste Abzweigung hat einen Moment Zeit"
+    },
+    "deck": {
+      "ko": "계단 위, 다음 길을 찾는 시간",
+      "en": "A finger on the map and no hurry to get up.",
+      "de": "Die nächste Abzweigung hat einen Moment Zeit"
+    },
+    "intro": {
+      "ko": "돌계단에 앉아 무릎 위 지도에서 길을 짚어요. 샌드 봄버와 플럼색 롱슬리브, 차콜 데님에 크림색 스니커즈를 더한 차분한 낮의 룩입니다.",
+      "en": "Seated on the stone steps, tracing a route on the map across his lap. A sand bomber, plum jersey top and charcoal jeans meet cream sneakers for a quiet daytime look.",
+      "de": "Auf den Steinstufen die Route auf der Karte verfolgen. Sandfarbene Bomberjacke, pflaumenfarbenes Langarmshirt, dunkle Jeans und cremefarbene Sneaker ergeben einen ruhigen Tageslook."
+    },
+    "pullQuoteEn": "ONE PAUSE, THEN THE NEXT TURN.",
+    "tip": {
+      "ko": "재킷 지퍼를 열고 메신저백을 옆에 두면 지도와 손을 위한 공간이 생겨요.",
+      "en": "Open the jacket and set the messenger bag beside you to make room for the map and your hands.",
+      "de": "Die Jacke öffnen und die Kuriertasche danebenstellen, damit Karte und Hände Platz haben."
+    },
+    "sourceDeckEn": "The next turn can wait a moment",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, titles, intro, pull, tip, product names and how-to-wear) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn). Categories already in the app enum (bag/outer/top/bottom/shoes); no category change."
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "producerId": "04-bomber",
+      "nameKo": "샌드 봄버 재킷",
+      "name": {
+        "ko": "샌드 봄버 재킷",
+        "en": "Sand lightweight bomber",
+        "de": "Leichte sandfarbene Bomberjacke"
+      },
+      "description": {
+        "ko": "샌드 봄버 재킷. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Sand lightweight bomber. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Leichte sandfarbene Bomberjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "계단에 앉을 때 지퍼를 열어 지도를 보는 자세에서 재킷 앞판이 당기지 않게 하세요.",
+        "en": "Open the zip when sitting so the front stays easy as you lean over the map.",
+        "de": "Im Sitzen den Reißverschluss öffnen, damit die Jacke beim Beugen über die Karte nicht spannt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-street-20261028-04.bomber",
+      "image": "products/bomber.webp",
+      "bytes": 40884,
+      "sha256": "a31b71e9e097f153549e98ddadd6ab79c5b6525d1490c7d22e7966a1dd6ed8f3",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "longsleeve",
+      "producerId": "04-longsleeve",
+      "nameKo": "플럼 롱슬리브 티",
+      "name": {
+        "ko": "플럼 롱슬리브 티",
+        "en": "Plum jersey long-sleeve top",
+        "de": "Pflaumenfarbenes Jersey-Langarmshirt"
+      },
+      "description": {
+        "ko": "플럼 롱슬리브 티. 사진의 목선과 얇은 저지 질감을 바탕으로 복원했습니다. 가려진 소매와 밑단은 추정입니다.",
+        "en": "Plum jersey long-sleeve top. Reconstructed from the photographed neckline and thin jersey texture; hidden sleeves and hems are inferred.",
+        "de": "Pflaumenfarbenes Jersey-Langarmshirt. Aus Ausschnitt und dünner Jerseystruktur im Foto rekonstruiert; verdeckte Ärmel und Säume sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "얇은 플럼색 저지를 봄버 안에 입고 지도 위를 짚는 손목에서 소매를 살짝 정리하세요.",
+        "en": "Layer the thin plum jersey under the bomber and keep its cuffs clear of the hand tracing the map.",
+        "de": "Das dünne pflaumenfarbene Shirt unter der Bomberjacke tragen und die Ärmel von der Hand auf der Karte zurückschieben."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-street-20261028-04.longsleeve",
+      "image": "products/longsleeve.webp",
+      "bytes": 29516,
+      "sha256": "73c928ee02a7074e97a07a05c4bf3a89d2ac6bfd655233e0b05e8b7f4fb37139",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "04-jeans",
+      "nameKo": "워시드 차콜 데님",
+      "name": {
+        "ko": "워시드 차콜 데님",
+        "en": "Washed charcoal straight jeans",
+        "de": "Gerade Jeans in verwaschenem Anthrazit"
+      },
+      "description": {
+        "ko": "워시드 차콜 데님. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Washed charcoal straight jeans. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Gerade Jeans in verwaschenem Anthrazit. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "낮은 계단에서 무릎을 굽혀 앉아도 편하도록 허벅지와 무릎에 여유가 있는 데님을 선택하세요.",
+        "en": "Choose ease through the thighs and knees for sitting with bent legs on a low step.",
+        "de": "Für bequemes Sitzen mit angewinkelten Beinen genügend Weite an Oberschenkeln und Knien wählen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-street-20261028-04.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 40950,
+      "sha256": "ea79a931e492e82fceb159e340e6431096fccaaf0fef37efe40fc470ebd9d66e",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "04-sneakers",
+      "nameKo": "크림·베이지 스니커즈",
+      "name": {
+        "ko": "크림·베이지 스니커즈",
+        "en": "Cream and beige panel sneakers",
+        "de": "Creme-beige Sneaker mit Einsätzen"
+      },
+      "description": {
+        "ko": "크림·베이지 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Cream and beige panel sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Creme-beige Sneaker mit Einsätzen. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "두 발을 아래 계단에 편하게 두고 신발 끈과 데님 밑단이 서로 걸리지 않게 정돈하세요.",
+        "en": "Rest both feet on the lower step and keep the laces and denim hems clear of each other.",
+        "de": "Beide Füße auf die untere Stufe stellen und Schnürsenkel und Jeanssäume voneinander freihalten."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-street-20261028-04.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 40368,
+      "sha256": "79f28dd70a4a8f9d0ab8c63f3b6910ecf3d7c7b48560fe8f73901a55a21f643d",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "messenger",
+      "producerId": "04-messenger",
+      "nameKo": "다크 브라운 메신저백",
+      "name": {
+        "ko": "다크 브라운 메신저백",
+        "en": "Dark brown messenger bag",
+        "de": "Dunkelbraune Kuriertasche"
+      },
+      "description": {
+        "ko": "다크 브라운 메신저백. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Dark brown messenger bag. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Dunkelbraune Kuriertasche. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "가방을 옆 계단에 내려놓고 긴 스트랩을 몸 가까이 모아 무릎 위 지도를 펼칠 공간을 만드세요.",
+        "en": "Set the bag on the step beside you and gather the long strap close to leave space for the map.",
+        "de": "Die Tasche auf die Stufe daneben stellen und den langen Riemen heranlegen, damit Platz für die Karte bleibt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-street-20261028-04.messenger",
+      "image": "products/messenger.webp",
+      "bytes": 43644,
+      "sha256": "51e7fe40fb95d2f0768011fa8d899b0b5ddd554aeba14b5b0cc57a61bd5b8e97",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b181"
+}

@@ -1,0 +1,300 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-street-20261028-03",
+  "batchId": "coastal-overcast-cool-male-day-street-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "rainIntensity": null,
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false,
+    "note": "16 C is a creative editorial scenario, not current observed weather. Humidity and numerical wind unknown."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved coastal-city interior street, stucco/shutters/tiled doorway, no visible sea or landmarks, dry overcast daylight. No humidity measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+",
+    "note": "Approved male casting28–32, distinct from storage35+."
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User explicitly approved all five male editorials and started full workflow on2026-10-28.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e4217975794a02d31289040b61ed0ffbcb4a059c68c7a88e21cb1237ec8503e3",
+  "editorialBytes": 285502,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "flowers",
+    "produce and carrots",
+    "paper grocery bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "에디토리얼 사진을 바탕으로 복원한 이미지입니다. 가려진 부분과 전체 형태는 추정이며 실제 판매 제품이나 정확한 소재 혼용률은 확인되지 않았습니다.",
+    "en": "Images reconstructed from the editorial. Hidden details and full shapes are inferred; retail product identity and exact material composition are unverified.",
+    "de": "Anhand des Editorials rekonstruierte Bilder. Verdeckte Details und vollständige Formen sind ergänzt; Handelsprodukt und genaue Materialzusammensetzung sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-street-20261028-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-day-street-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-street-20261028-03.chore-jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T10:44:53.678957+00:00",
+    "scope": "All 25 products reviewed on four backgrounds; no per-product user approval claimed."
+  },
+  "copy": {
+    "titleEn": "A LITTLE ROOM FOR THE GREENS",
+    "title": {
+      "ko": "장바구니 속 초록을 정리하며",
+      "en": "A little room for the greens",
+      "de": "Ein wenig Platz für das Grün"
+    },
+    "deck": {
+      "ko": "장바구니 속 초록을 정리하며",
+      "en": "Carrot tops tucked back in, one handful at a time.",
+      "de": "Ein wenig Platz für das Grün"
+    },
+    "intro": {
+      "ko": "장바구니 밖으로 길게 나온 당근 잎을 안으로 정돈해요. 러스트 초어 재킷과 크림 티셔츠, 페이드 블루 데님은 느린 장보기에 편안한 조합입니다.",
+      "en": "Tucking long carrot tops back into the tote. A rust chore jacket, cream tee and faded blue jeans make an easy combination for a slow grocery run.",
+      "de": "Langes Möhrengrün wieder in den Shopper stecken. Rostrote Arbeitsjacke, cremefarbenes Shirt und verwaschene Jeans begleiten den entspannten Einkauf."
+    },
+    "pullQuoteEn": "THE GREENS NEED A LITTLE SPACE.",
+    "tip": {
+      "ko": "손잡이를 한 손에 모으고 장바구니를 허벅지에 잠깐 받치면 긴 채소 잎을 정리하기 쉬워요.",
+      "en": "Gather the handles in one hand and rest the tote against your thigh while tidying the leaves.",
+      "de": "Die Henkel in einer Hand sammeln und den Shopper am Oberschenkel abstützen, um die Blätter zu ordnen."
+    },
+    "sourceDeckEn": "A little room for the greens",
+    "refinements": "Producer delivered complete ko/en/de copy. Kept as delivered (Korean master, titles, intro, pull, tip, product names and how-to-wear) except: en deck rewritten so it does not repeat the English article title (producer deck in sourceDeckEn). Categories already in the app enum (bag/outer/top/bottom/shoes); no category change."
+  },
+  "products": [
+    {
+      "id": "chore-jacket",
+      "producerId": "03-chore-jacket",
+      "nameKo": "러스트 초어 재킷",
+      "name": {
+        "ko": "러스트 초어 재킷",
+        "en": "Rust chore jacket",
+        "de": "Rostrote Arbeitsjacke"
+      },
+      "description": {
+        "ko": "러스트 초어 재킷. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+        "en": "Rust chore jacket. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+        "de": "Rostrote Arbeitsjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "재킷 앞을 열고 손목 부분을 정돈해 장바구니 입구의 잎을 넣는 손이 가려지지 않게 하세요.",
+        "en": "Wear open and tidy the cuffs so your hands stay clear while tucking the leaves into the tote.",
+        "de": "Offen tragen und die Bündchen richten, damit die Hände beim Verstauen der Blätter frei bleiben."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-street-20261028-03.chore-jacket",
+      "image": "products/chore-jacket.webp",
+      "bytes": 44690,
+      "sha256": "1bc3a8f76469e1f475eba10eeceae029c92f80f2a66a0aaa3db0b4bd2a900bf3",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "nameKo": "크림 코튼 티셔츠",
+      "name": {
+        "ko": "크림 코튼 티셔츠",
+        "en": "Cream cotton-jersey T-shirt",
+        "de": "Cremefarbenes Jersey-T-Shirt"
+      },
+      "description": {
+        "ko": "크림 코튼 티셔츠. 사진의 목선과 얇은 저지 질감을 바탕으로 복원했습니다. 가려진 소매와 밑단은 추정입니다.",
+        "en": "Cream cotton-jersey T-shirt. Reconstructed from the photographed neckline and thin jersey texture; hidden sleeves and hems are inferred.",
+        "de": "Cremefarbenes Jersey-T-Shirt. Aus Ausschnitt und dünner Jerseystruktur im Foto rekonstruiert; verdeckte Ärmel und Säume sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "크림색 티셔츠를 단순한 한 겹으로 받쳐 러스트 재킷의 색과 장바구니의 초록을 편하게 이어 주세요.",
+        "en": "Keep the cream tee as a simple base between the rust jacket and the greens in the tote.",
+        "de": "Das cremefarbene Shirt als schlichte Basis zwischen rostroter Jacke und dem Grün im Shopper tragen."
+      },
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-street-20261028-03.tee",
+      "image": "products/tee.webp",
+      "bytes": 24812,
+      "sha256": "8876ad5c85231afff3c75b2ddc43a0f3de20c06e4473137c2a2f1f092488836c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "03-jeans",
+      "nameKo": "페이드 블루 데님",
+      "name": {
+        "ko": "페이드 블루 데님",
+        "en": "Faded blue relaxed jeans",
+        "de": "Lockere Jeans in verwaschenem Blau"
+      },
+      "description": {
+        "ko": "페이드 블루 데님. 사진의 색과 여유 있는 다리선을 바탕으로 전체 형태를 복원했습니다.",
+        "en": "Faded blue relaxed jeans. The full shape is reconstructed from the visible colour and relaxed leg line.",
+        "de": "Lockere Jeans in verwaschenem Blau. Die vollständige Form ist aus Farbe und lockerer Beinform im Foto rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "장바구니를 허벅지에 받쳐도 당기지 않는 여유 있는 핏을 고르고 밑단을 신발 위에서 정돈하세요.",
+        "en": "Choose enough room to rest the tote against your thigh and keep the hems tidy over the shoes.",
+        "de": "Genug Weite wählen, um die Tasche am Oberschenkel abzustützen, und die Säume über den Schuhen ordnen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-street-20261028-03.jeans",
+      "image": "products/jeans.webp",
+      "bytes": 45480,
+      "sha256": "9760cb1705b65399cf95de9a5bf24f3ae3018f37dc0dc0d99b467cf1df180763",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "nameKo": "탄 스니커즈",
+      "name": {
+        "ko": "탄 스니커즈",
+        "en": "Tan suede-look sneakers",
+        "de": "Hellbraune Sneaker in Veloursoptik"
+      },
+      "description": {
+        "ko": "탄 스니커즈. 사진에서 보이는 색과 패널을 바탕으로 한 켤레를 복원했습니다. 가려진 부분은 추정입니다.",
+        "en": "Tan suede-look sneakers. A matched pair reconstructed from visible colours and panels; covered areas are inferred.",
+        "de": "Hellbraune Sneaker in Veloursoptik. Ein Paar aus sichtbaren Farben und Einsätzen rekonstruiert; verdeckte Bereiche sind ergänzt."
+      },
+      "howToWear": {
+        "ko": "탄색 스니커즈의 밝은 끈을 묶고 느슨한 데님 밑단이 뒤축 아래로 들어가지 않게 입으세요.",
+        "en": "Tie the pale laces and keep the loose denim hems out from under the heels.",
+        "de": "Die hellen Schnürsenkel binden und die lockeren Jeanssäume nicht unter die Fersen geraten lassen."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-street-20261028-03.sneakers",
+      "image": "products/sneakers.webp",
+      "bytes": 41922,
+      "sha256": "da45393f118da7392434c6eebc6098b520c924147cb297f525c7651721a6be9c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "nameKo": "내추럴 캔버스 토트",
+      "name": {
+        "ko": "내추럴 캔버스 토트",
+        "en": "Natural canvas shopping tote",
+        "de": "Naturfarbener Canvas-Shopper"
+      },
+      "description": {
+        "ko": "내추럴 캔버스 토트. 사진에서 관찰한 색과 형태를 바탕으로 전체 모습을 복원했습니다.",
+        "en": "Natural canvas shopping tote. The complete shape is reconstructed from the colour and form visible in the photograph.",
+        "de": "Naturfarbener Canvas-Shopper. Die vollständige Form ist aus der im Foto sichtbaren Farbe und Gestalt rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "긴 채소 잎은 안쪽으로 정돈하고 무거운 물건은 아래에 넣어 장바구니를 몸 가까이 들기 편하게 하세요.",
+        "en": "Tuck long leaves inward and pack heavier groceries low so the tote is easy to hold close.",
+        "de": "Lange Blätter nach innen stecken und schwere Einkäufe unten einpacken, damit sich die Tasche körpernah halten lässt."
+      },
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Hidden rear/full lengths/second matching shoe inferred conservatively; no retail identity or exact fiber composition claimed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-street-20261028-03.tote",
+      "image": "products/tote.webp",
+      "bytes": 24270,
+      "sha256": "57164c7f8a4e708b4cc1a17bcb4eb607b716c6acba957b045a771e5967ae4f21",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b181"
+}
