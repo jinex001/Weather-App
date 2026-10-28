@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Home Look Stack</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* 시안 (앱 빌드 변화 없음): 홈의 TODAY'S LOOK 글자·컷·요약 대신 러닝·스트리트·미니멀 에디토리얼 세 장을
+     캘린더 7 DAYS(b165)처럼 겹친 카드로 돌리고, 아래 룩 타이틀. 누르면 디테일. ?lang=en|de, ?g=f, ?sky=sunny */
+  :root { --bg: #1B2140; --fg: #F4F1E8; --sans: Poppins, "Noto Sans KR", sans-serif; --display: Anton, "Noto Sans KR", sans-serif;
+    --glass-fill: rgba(255,255,255,.5); --glass-blur: blur(24px);
+    --glass-light: inset 1px 1px 0 rgba(255,255,255,.8), inset -1px -1px 0 rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.15); }
+  body[data-sky="sunny"] { --bg: #F2C14E; --fg: #141414; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #E4E1DA; color: var(--fg); font-family: var(--sans); letter-spacing: -.02em; }
+  .ctl { max-width: 420px; margin: 0 auto; padding: 16px 16px 0; display: flex; gap: 8px; flex-wrap: wrap; }
+  .ctl button { font: 600 12px var(--sans); border: 0; border-radius: 16px; padding: 7px 12px; background: rgba(20,20,20,.08); color: #141414; cursor: pointer; }
+  .ctl button.on { background: #141414; color: #fff; }
+  .phone { position: relative; max-width: 420px; margin: 12px auto 40px; background: var(--bg); padding: 36px 24px 44px; overflow: hidden; transition: background .3s; }
+  .faux { opacity: .35; font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+  .k { font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; margin-top: 28px; }
+  /* the fanned stack, same moves as the calendar (index.html dayCards): middle card big and on top, neighbours smaller,
+     tilted from their bottom edge and tucked behind; endless (three sets, recentred after a swipe) */
+  .rail { --cw: 74%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+    margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 22px; }
+  .rail::-webkit-scrollbar { display: none; }
+  .card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always; aspect-ratio: 2 / 3; padding: 0; border: 0; background: none; cursor: pointer; }
+  .in { position: absolute; inset: 0; border-radius: 26px; overflow: hidden; transform-origin: 50% 100%; will-change: transform; background: #2A3050; }
+  .in img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .in::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
+  .dots { display: flex; justify-content: center; gap: 8px; }
+  .dots span { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .25; transition: opacity .2s; }
+  .dots span.on { opacity: 1; }
+  .title { font: 44px/.92 var(--display); text-transform: uppercase; letter-spacing: 0; margin-top: 16px; min-height: 2.8em; transition: opacity .18s; }
+  .title.out { opacity: 0; }
+  /* detail: the Today's Look sheet, opened on the picked look (here a short stand-in) */
+  .sheet { position: absolute; inset: 0; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+    box-shadow: var(--glass-light); color: #141414; transform: translateY(102%); transition: transform .4s cubic-bezier(.2,.8,.2,1); overflow-y: auto; padding: 14px 24px 40px; border-radius: 28px 28px 0 0; }
+  .sheet.open { transform: none; }
+  .phone.dim > :not(.sheet) { filter: blur(10px); }
+  .bar { width: 40px; height: 5px; border-radius: 3px; background: #141414; opacity: .25; margin: 0 auto 20px; cursor: pointer; }
+  .sheet .k { margin-top: 0; }
+  .sheet .t { font: 44px/.92 var(--display); text-transform: uppercase; letter-spacing: 0; margin: 14px 0 14px; }
+  .sheet .ph { border-radius: 4px; overflow: hidden; }
+  .sheet .ph img { width: 100%; display: block; }
+  .sheet .deck { font: 700 18px/1.35 var(--sans); margin-top: 16px; word-break: keep-all; }
+  .sheet .intro { font: 500 15px/1.6 var(--sans); margin-top: 12px; word-break: keep-all; }
+  .pieces { display: flex; gap: 12px; overflow-x: auto; margin: 22px -24px 0; padding: 0 24px; scrollbar-width: none; }
+  .pieces div { flex: 0 0 64%; }
+  .pieces .im { aspect-ratio: 1; background: #F3EFE8; display: flex; align-items: center; justify-content: center; }
+  .pieces img { max-width: 100%; max-height: 100%; }
+  .pieces b { display: block; font: 30px/1 var(--display); text-transform: uppercase; letter-spacing: 0; margin-top: 10px; }
+  .pieces small { display: block; font: 600 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; margin-top: 10px; }
+  .note { max-width: 420px; margin: 0 auto 40px; padding: 0 16px; font: 500 13px/1.6 var(--sans); color: #141414; }
+  .note b { font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="ctl" id="ctl"></div>
+<div class="phone" id="phone">
+  <div class="faux">… 체감온도 블록 위쪽은 지금 앱 그대로 …</div>
+  <div class="k">Today's Look</div>
+  <div class="rail" id="rail"></div>
+  <div class="dots" id="dots" aria-hidden="true"></div>
+  <div class="title" id="title"></div>
+  <div class="sheet" id="sheet"></div>
+</div>
+<div class="note" id="note"></div>
+<script>
+  var Q = new URLSearchParams(location.search), LANG = (Q.get("lang") || (navigator.language || "en").slice(0, 2)).toLowerCase();
+  if (!/^(ko|en|de)$/.test(LANG)) LANG = "en";
+  var G = Q.get("g") === "f" ? "f" : "m", SKY = Q.get("sky") === "sunny" ? "sunny" : "night";
+  document.body.dataset.sky = SKY;
+  var T = {
+    ko: { sky: ["밤", "맑은 낮"], g: ["남성", "여성"], again: "다른 룩 뽑기",
+      note: "<b>시안 메모</b> · 홈의 TODAY'S LOOK 자리에서 제목·대표 컷·요약 대신 러닝·스트리트·미니멀 룩의 에디토리얼 사진 세 장이 캘린더 7 DAYS처럼 겹친 카드로 돌아가요(끝없이). 스타일 이름 표시는 없고, 가운데 카드의 룩 타이틀만 아래에 바뀌어 나와요. 가운데 카드를 누르면 그 룩의 디테일(Today's Look 시트), 옆 카드를 누르면 가운데로 와요. 룩은 실제 라이브러리에서 오늘 하늘·시간에 맞는 것 중 스타일마다 하나 랜덤." },
+    en: { sky: ["Night", "Sunny day"], g: ["Male", "Female"], again: "Draw again",
+      note: "<b>Mockup note</b> · Instead of the title, hero cut and summary, three editorial photos (running, street, minimal) rotate as a fanned stack like the 7-day calendar. No style labels; only the middle card's look title shows below. Tap the middle card for its detail sheet, a side card to bring it to the middle." },
+    de: { sky: ["Nacht", "Sonniger Tag"], g: ["Männlich", "Weiblich"], again: "Neu ziehen",
+      note: "<b>Entwurf</b> · Statt Titel, Produkt und Zusammenfassung drehen sich drei Editorial-Fotos (Laufen, Street, Minimal) als Kartenstapel wie im 7-Tage-Kalender. Keine Stil-Labels; unten nur der Titel der mittleren Karte. Tippen öffnet die Detailansicht." }
+  }[LANG];
+  var STY = ["run", "street", "minimal"], L = null, picks = [];
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function tx(v) { return v && typeof v === "object" ? v[LANG] || v.en || v.ko || "" : v || ""; }
+  function rnd(a) { return a[Math.floor(Math.random() * a.length)]; }
+  // one look per style: article looks with a photo for this gender, today's sky and time first
+  function pick() {
+    var evening = SKY === "night", sky = SKY === "sunny" ? "clear" : null;
+    picks = STY.map(function (st) {
+      var all = L.outfits.filter(function (o) { return o.style === st && o.gender === G && o.article && o.image && (o.bands || []).indexOf("chilly") >= 0; });
+      var fit = all.filter(function (o) { return (o.time === "evening") === evening && (!sky || o.sky === sky); });
+      if (!fit.length) fit = all.filter(function (o) { return (o.time === "evening") === evening; });
+      return rnd(fit.length ? fit : all);
+    });
+  }
+  function paint() {
+    var cards = picks.map(function (o, k) {
+      return '<button type="button" class="card" data-k="' + k + '"><span class="in"><img alt="" src="../' + o.image + '"></span></button>';
+    });
+    var copy = cards.map(function (h) { return h.replace('class="card"', 'class="card" tabindex="-1" aria-hidden="true"'); });
+    var rail = document.getElementById("rail");
+    rail.innerHTML = copy.join("") + cards.join("") + copy.join("");
+    document.getElementById("dots").innerHTML = picks.map(function () { return "<span></span>"; }).join("");
+    shown = -1; center(3); stack();
+  }
+  var shown = -1, held = false, idle;
+  function stack() {
+    var rail = document.getElementById("rail"), cs = rail.children, w = cs.length && cs[0].offsetWidth; if (!w) return 0;
+    var mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
+    [].forEach.call(cs, function (el, k) {
+      var t = (el.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), m = Math.min(a, 2.6), sg = t < 0 ? -1 : 1;
+      if (a > 3.5) { el.style.visibility = "hidden"; return; }
+      el.style.visibility = ""; var inn = el.firstChild;
+      var pull = sg * (m <= 1 ? m * .34 : .34 + (m - 1) * .14) * w, e = Math.min(m, 1), ease = e * e * (3 - 2 * e), more = Math.max(0, Math.min(m - 1, 1));
+      inn.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * (3 * ease + 1.2 * more)).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(m, 2.2)).toFixed(4) + ")";
+      el.style.zIndex = 100 - Math.round(a * 10);
+      inn.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
+      inn.style.opacity = a > 2.4 ? Math.max(0, 1 - (a - 2.4) * 2).toFixed(2) : "";
+      if (a < best) { best = a; at = k; }
+    });
+    [].forEach.call(document.getElementById("dots").children, function (s, k) { s.className = k === at % 3 ? "on" : ""; });
+    if (at % 3 !== shown) { shown = at % 3; fadeTitle(picks[shown].article.title); }
+    return at;
+  }
+  function fadeTitle(t) {
+    var el = document.getElementById("title");
+    el.classList.add("out");
+    setTimeout(function () { el.textContent = t; el.classList.remove("out"); }, 180);
+  }
+  function center(k) { var rail = document.getElementById("rail"), c = rail.children[k]; rail.scrollLeft = c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2; }
+  function recenter() {
+    var rail = document.getElementById("rail"), w = rail.children[0].offsetWidth; if (held) return;
+    var at = stack();
+    if (at < 3) rail.scrollLeft += 3 * w; else if (at >= 6) rail.scrollLeft -= 3 * w;
+  }
+  var rail = document.getElementById("rail");
+  rail.addEventListener("touchstart", function () { held = true; }, { passive: true });
+  rail.addEventListener("touchend", function () { held = false; clearTimeout(idle); idle = setTimeout(recenter, 160); }, { passive: true });
+  rail.addEventListener("scroll", function () { requestAnimationFrame(stack); clearTimeout(idle); idle = setTimeout(recenter, 160); }, { passive: true });
+  rail.addEventListener("click", function (e) {
+    var b = e.target.closest(".card"); if (!b) return;
+    var k = [].indexOf.call(rail.children, b), at = stack();
+    if (k !== at) { rail.scrollTo({ left: b.offsetLeft + b.offsetWidth / 2 - rail.clientWidth / 2, behavior: "smooth" }); return; }
+    openSheet(picks[k % 3]);
+  });
+  // the detail: here a short stand-in for the app's Today's Look sheet opened on that look
+  function openSheet(o) {
+    var items = o.items.map(function (id) { return L.items[id]; }).filter(function (it) { return it && it.image; });
+    var s = document.getElementById("sheet");
+    s.innerHTML = '<div class="bar" id="close"></div><div class="k">Today\'s Look</div><div class="t">' + esc(o.article.title) + "</div>" +
+      '<div class="ph"><img alt="" src="../' + o.image + '"></div><div class="deck">' + esc(tx(o.deck)) + '</div><div class="intro">' + esc(tx(o.article.intro)) + "</div>" +
+      '<div class="pieces">' + items.map(function (it, i) {
+        return '<div><div class="im"><img alt="" src="../' + it.image + '"></div><small>0' + (i + 1) + " · " + esc(it.cat) + "</small><b>" + esc(tx(it.name)) + "</b></div>";
+      }).join("") + "</div>";
+    s.scrollTop = 0; s.classList.add("open"); document.getElementById("phone").classList.add("dim");
+    document.getElementById("close").onclick = closeSheet;
+  }
+  function closeSheet() { document.getElementById("sheet").classList.remove("open"); document.getElementById("phone").classList.remove("dim"); }
+  function ctl() {
+    document.getElementById("ctl").innerHTML = '<button data-a="again">' + T.again + "</button>" +
+      '<button data-a="night" class="' + (SKY === "night" ? "on" : "") + '">' + T.sky[0] + '</button><button data-a="sunny" class="' + (SKY === "sunny" ? "on" : "") + '">' + T.sky[1] + "</button>" +
+      '<button data-a="m" class="' + (G === "m" ? "on" : "") + '">' + T.g[0] + '</button><button data-a="f" class="' + (G === "f" ? "on" : "") + '">' + T.g[1] + "</button>";
+  }
+  document.getElementById("ctl").addEventListener("click", function (e) {
+    var a = e.target.dataset.a; if (!a) return;
+    if (a === "night" || a === "sunny") { SKY = a; document.body.dataset.sky = a; }
+    if (a === "m" || a === "f") G = a;
+    closeSheet(); ctl(); pick(); paint();
+  });
+  document.getElementById("note").innerHTML = T.note;
+  // load the app's own look library, in the same order as index.html
+  fetch("../index.html").then(function (r) { return r.text(); }).then(function (html) {
+    var srcs = [], re = /<script src="(look\/[^"]+)"/g, m;
+    while ((m = re.exec(html))) srcs.push("../" + m[1]);
+    (function next() {
+      if (!srcs.length) { L = window.WX_LOOKS; ctl(); pick(); paint(); return; }
+      var s = document.createElement("script"); s.src = srcs.shift(); s.onload = next; s.onerror = next; document.head.appendChild(s);
+    })();
+  });
+</script>
+</body>
+</html>
