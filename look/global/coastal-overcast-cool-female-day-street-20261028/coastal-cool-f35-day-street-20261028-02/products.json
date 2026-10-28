@@ -114,16 +114,16 @@
     {
       "id": "jacket",
       "producerId": "02-jacket",
-      "nameKo": "코발트 윈드브레이커",
+      "nameKo": "코발트 후드 윈드브레이커",
       "name": {
-        "ko": "코발트 윈드브레이커",
-        "en": "Cobalt windbreaker",
-        "de": "Kobaltblaue Windjacke"
+        "ko": "코발트 후드 윈드브레이커",
+        "en": "Cobalt hooded windbreaker",
+        "de": "Kobaltblaue Windjacke mit Kapuze"
       },
       "description": {
-        "ko": "코발트 윈드브레이커. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
-        "en": "Cobalt windbreaker. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
-        "de": "Kobaltblaue Windjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+        "ko": "뒤로 내려 둔 후드와 지퍼 앞판, 여유 있는 소매가 보이는 코발트 윈드브레이커 복원 이미지입니다.",
+        "en": "A reconstructed cobalt windbreaker with an attached hood, zip front and relaxed sleeves; the editorial shows the hood resting behind the neck.",
+        "de": "Rekonstruierte kobaltblaue Windjacke mit angesetzter Kapuze, Reißverschluss und lockeren Ärmeln. Im Editorial liegt die Kapuze im Nacken."
       },
       "howToWear": {
         "ko": "지퍼를 열어 크림 니트를 드러내고 꽃다발을 감싸는 손목 주변만 소매를 가볍게 정리하세요.",
@@ -138,8 +138,8 @@
       "appCategory": "outer",
       "appItemId": "coastal-cool-f35-day-street-20261028-02.jacket",
       "image": "products/jacket.webp",
-      "bytes": 37670,
-      "sha256": "37a21fe4f02f943c9f149cf2f1089c6860903a18baf35a28f2bfb07b6dd8e718",
+      "bytes": 45426,
+      "sha256": "992ff570d932765e682ebcc14cbdeb23cc46b916b02ac2058cd5c00e615be06c",
       "dimensions": [
         500,
         500
@@ -147,7 +147,22 @@
       "alpha": true,
       "bg": "#F3EFE8",
       "status": "ready",
-      "altKo": "코발트 윈드브레이커 — 독립 투명 배경 제품 컷"
+      "altKo": "코발트 윈드브레이커 — 독립 투명 배경 제품 컷",
+      "sourceBeforeHoodCorrection": {
+        "name": {
+          "ko": "코발트 윈드브레이커",
+          "en": "Cobalt windbreaker",
+          "de": "Kobaltblaue Windjacke"
+        },
+        "description": {
+          "ko": "코발트 윈드브레이커. 여유 있는 짧은 실루엣과 긴 소매를 사진에 맞춰 복원했습니다.",
+          "en": "Cobalt windbreaker. A relaxed short silhouette and long sleeves reconstructed from the photograph.",
+          "de": "Kobaltblaue Windjacke. Lockere kurze Silhouette und lange Ärmel, anhand des Fotos rekonstruiert."
+        },
+        "sha256": "37a21fe4f02f943c9f149cf2f1089c6860903a18baf35a28f2bfb07b6dd8e718",
+        "bytes": 37670
+      },
+      "revision": "hood-v2"
     },
     {
       "id": "knit",
@@ -345,5 +360,10 @@
   "appSky": "cloudy",
   "appBands": [
     "cool"
-  ]
+  ],
+  "hoodCorrection": {
+    "reason": "Attached hood made explicit in product flat-lay; approved editorial unchanged. Editorial hood down, not up.",
+    "at": "2026-10-28T08:55:12.525897+00:00",
+    "previousDeployment": "55f7624aabe568c59d702e2e6c257ab1a1a1c278"
+  }
 }
