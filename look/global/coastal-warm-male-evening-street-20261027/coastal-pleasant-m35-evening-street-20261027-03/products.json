@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-evening-street-20261027-03",
+  "batchId": "coastal-warm-male-evening-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "appTime": "evening",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario after sunset (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved after-sunset coastal scene: stone paving, lamp-lit terraces and a dark sea margin; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved the five evening editorials and requested the full workflow on 2026-10-28. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "37c591ef6a8eb6edee7b37d51a4af1843f57594e97e8bf903c1253eb3c388ee0",
+  "editorialBytes": 290787,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "squeezing lime into a drink on a stone step outside a bar",
+  "sunglasses": "taken off, hooked at the tee neckline",
+  "notRegistered": "Nothing omitted except props.",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware",
+    "lime"
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-evening-street-20261027-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-evening-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-evening-street-20261027-03.tee",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T03:46:31.986715+00:00",
+    "scope": "All 20 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "A SQUEEZE OF LIME, AN EASY NIGHT",
+    "title": {
+      "ko": "라임 한 조각, 편안한 밤",
+      "en": "A squeeze of lime, an easy night",
+      "de": "Ein Spritzer Limette, ein entspannter Abend"
+    },
+    "deck": {
+      "ko": "라임 한 조각, 편안한 밤",
+      "en": "Lime over ice, a stone step for a seat.",
+      "de": "Ein Spritzer Limette, ein entspannter Abend"
+    },
+    "intro": {
+      "ko": "바 문 앞 돌계단에 걸터앉아 잔 위로 라임을 짜는 순간. 빛바랜 번트 레드 티셔츠와 스톤 카고 쇼츠는 계단에 편하게 앉기 좋고, 벗은 메탈 선글라스는 티셔츠 목에 걸려 있어요.",
+      "en": "Perched on the stone step outside a bar, squeezing a lime wedge over the glass. A faded burnt-red tee and stone cargo shorts make sitting on the steps easy, and the metal sunglasses, now off, hang at the neckline.",
+      "de": "Auf der Steinstufe vor einer Bar, eine Limettenspalte über dem Glas ausgedrückt. Ein verwaschenes rostrotes T-Shirt und steinfarbene Cargoshorts machen das Sitzen auf den Stufen leicht; die abgenommene Metallbrille hängt am Ausschnitt."
+    },
+    "pullQuoteEn": "THE BEST SEAT IS THE FRONT STEP.",
+    "tip": {
+      "ko": "계단이나 낮은 턱에 앉을 저녁엔 옆 주머니가 달린 카고 쇼츠가 편해요. 휴대폰이나 열쇠를 넣어도 앉을 때 배기지 않아요.",
+      "en": "For evenings on steps and low ledges, cargo shorts are practical: the side pockets hold a phone or keys without digging in when you sit.",
+      "de": "Für Abende auf Stufen und niedrigen Mauern sind Cargoshorts praktisch: Die Seitentaschen nehmen Handy oder Schlüssel auf, ohne im Sitzen zu drücken."
+    },
+    "refinements": "Producer delivered titles and per-product names/how-to-wear (ko/en/de). deck ko/de = producer title, en deck written so it does not repeat the English article title; intro, pull and tip written from the evening editorial scene. Product how-to-wear = producer text except where sourceHowToWear is present (awkward idiom, missing verb, or wording not grounded in the photo)."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "nameKo": "번트 레드 티셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "번트 레드 티셔츠",
+        "en": "Burnt red oversized T-shirt",
+        "de": "Rostrotes Oversize-T-Shirt"
+      },
+      "description": {
+        "ko": "번트 레드 티셔츠",
+        "en": "Burnt red oversized T-shirt",
+        "de": "Rostrotes Oversize-T-Shirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-03.tee",
+      "image": "products/tee.webp",
+      "bytes": 41086,
+      "sha256": "49b0f7f5fe6ee1544cf10322babe2bd6c9ff62756d4ddffcfe19ec8aa5646ba0",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "번트 레드 티셔츠는 쇼츠 밖으로 내려 앉아서 팔을 움직여도 편하게 입으세요.",
+        "en": "Leave the burnt red tee untucked so it stays easy when seated and moving your arms.",
+        "de": "Das rostrote T-Shirt über den Shorts tragen, damit es im Sitzen und bei Armbewegungen bequem bleibt."
+      },
+      "altKo": "번트 레드 티셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "03-shorts",
+      "nameKo": "스톤 카고 쇼츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "스톤 카고 쇼츠",
+        "en": "Stone cargo shorts",
+        "de": "Steinfarbene Cargoshorts"
+      },
+      "description": {
+        "ko": "스톤 카고 쇼츠",
+        "en": "Stone cargo shorts",
+        "de": "Steinfarbene Cargoshorts"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-03.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 45118,
+      "sha256": "cb2ed1a1569721b96efd441c7cf4d41ec3c815a7208bbf8844c32419d5f7354c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "스톤 카고 쇼츠는 여유로운 통을 유지하고 무릎 위로 밑단을 정리하세요.",
+        "en": "Keep the stone cargo shorts roomy with the hems resting above the knees.",
+        "de": "Die steinfarbenen Cargoshorts locker tragen; die Säume liegen oberhalb der Knie."
+      },
+      "altKo": "스톤 카고 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "flip-flops",
+      "producerId": "03-flip-flops",
+      "nameKo": "블랙 플립플롭",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 플립플롭",
+        "en": "Black flip-flops",
+        "de": "Schwarze Flipflops"
+      },
+      "description": {
+        "ko": "블랙 플립플롭",
+        "en": "Black flip-flops",
+        "de": "Schwarze Flipflops"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-03.flip-flops",
+      "image": "products/flip-flops.webp",
+      "bytes": 40332,
+      "sha256": "aa8f5e12c2342b722054d05114452828388950651040e8e8dd3be3316e5264ee",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "플립플롭은 발뒤꿈치가 밑창 위에 놓이는 크기로 골라 맨발에 신으세요.",
+        "en": "Choose flip-flops that support the whole heel and wear them on bare feet.",
+        "de": "Flipflops so wählen, dass die ganze Ferse auf der Sohle liegt, und barfuß tragen."
+      },
+      "altKo": "블랙 플립플롭 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "03-sunglasses",
+      "nameKo": "얇은 메탈 프레임 선글라스",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "얇은 메탈 프레임 선글라스",
+        "en": "Thin metal-frame aviator sunglasses",
+        "de": "Sonnenbrille mit dünnem Metallrahmen"
+      },
+      "description": {
+        "ko": "얇은 메탈 프레임 선글라스",
+        "en": "Thin metal-frame aviator sunglasses",
+        "de": "Sonnenbrille mit dünnem Metallrahmen"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-03.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 25434,
+      "sha256": "34a9bfb1d0c9da5d033c05140664714f4cd5e3eda347985a98f252c343cc5450",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "얇은 메탈 선글라스는 벗어서 티셔츠 목둘레에 걸어 두고, 라임을 짜는 동안 두 손을 자유롭게 하세요.",
+        "en": "Once the thin metal frames come off, hook them at the tee's neckline and keep both hands free for the lime.",
+        "de": "Die dünne Metallbrille nach dem Abnehmen in den Ausschnitt des T-Shirts hängen – so bleiben beide Hände für die Limette frei."
+      },
+      "sourceHowToWear": {
+        "ko": "메탈 선글라스는 벗어 티셔츠 목에 걸고 손으로 렌즈를 잡지 않도록 하세요.",
+        "en": "Hook the removed metal-frame sunglasses at the T-shirt neckline, avoiding fingerprints on the lenses.",
+        "de": "Die abgenommene Metallbrille in den T-Shirt-Ausschnitt hängen und die Gläser nicht anfassen."
+      },
+      "altKo": "얇은 메탈 프레임 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

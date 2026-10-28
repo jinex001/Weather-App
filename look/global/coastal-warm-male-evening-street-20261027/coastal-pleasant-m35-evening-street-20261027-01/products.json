@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-evening-street-20261027-01",
+  "batchId": "coastal-warm-male-evening-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "appTime": "evening",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario after sunset (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved after-sunset coastal scene: stone paving, lamp-lit terraces and a dark sea margin; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved the five evening editorials and requested the full workflow on 2026-10-28. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b5647371d0478512bc5e17046e8e0833263d1da84c13083c02c2bcd9e8c3ba06",
+  "editorialBytes": 251891,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "champagne at a waterfront wine-bar table after sunset",
+  "sunglasses": "taken off, hooked at the shirt neckline",
+  "notRegistered": "Footwear visible; nothing omitted except props.",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware",
+    "lime"
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-evening-street-20261027-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-evening-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-evening-street-20261027-01.shirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T03:46:31.986715+00:00",
+    "scope": "All 20 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "CHAMPAGNE AND AN UNHURRIED EVENING",
+    "title": {
+      "ko": "샴페인과 느긋한 저녁",
+      "en": "Champagne and an unhurried evening",
+      "de": "Champagner und ein ruhiger Abend"
+    },
+    "deck": {
+      "ko": "샴페인과 느긋한 저녁",
+      "en": "A coupe at the knee, a whole evening ahead.",
+      "de": "Champagner und ein ruhiger Abend"
+    },
+    "intro": {
+      "ko": "바닷가 와인 바 의자에 비스듬히 앉아 샴페인 잔을 무릎께에서 천천히 돌리는 저녁. 검은 셔츠와 에크루 쇼츠의 또렷한 대비가 조명 아래서 살아나고, 해가 진 뒤라 선글라스는 셔츠 목에 걸어 두었어요.",
+      "en": "Sitting sideways at a waterfront wine bar, slowly swirling a coupe down by his knee. The crisp contrast of a black shirt and ecru shorts comes alive under the lamps, and with the sun gone, the sunglasses hang at the open collar.",
+      "de": "Seitlich am Tisch einer Weinbar am Wasser, das Champagnerglas locker auf Kniehöhe. Der klare Kontrast von schwarzem Hemd und ecrufarbenen Shorts wirkt im Lampenlicht, und nach Sonnenuntergang hängt die Sonnenbrille am offenen Kragen."
+    },
+    "pullQuoteEn": "THE SUN IS GONE. THE GLASS IS NOT.",
+    "tip": {
+      "ko": "저녁 테라스에선 어두운 상의에 밝은 하의를 맞춰 보세요. 낮은 조명 아래서도 실루엣이 또렷하게 남아요.",
+      "en": "On an evening terrace, pair a dark top with light bottoms; the outline stays clear even in low lamplight.",
+      "de": "Auf der Abendterrasse ein dunkles Oberteil mit hellen Shorts kombinieren – so bleibt die Silhouette auch im schwachen Lampenlicht klar."
+    },
+    "refinements": "Producer delivered titles and per-product names/how-to-wear (ko/en/de). deck ko/de = producer title, en deck written so it does not repeat the English article title; intro, pull and tip written from the evening editorial scene. Product how-to-wear = producer text except where sourceHowToWear is present (awkward idiom, missing verb, or wording not grounded in the photo)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "01-shirt",
+      "nameKo": "블랙 린넨 반팔 셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 린넨 반팔 셔츠",
+        "en": "Black linen-look camp-collar shirt",
+        "de": "Schwarzes Kurzarmhemd in Leinenoptik"
+      },
+      "description": {
+        "ko": "블랙 린넨 반팔 셔츠",
+        "en": "Black linen-look camp-collar shirt",
+        "de": "Schwarzes Kurzarmhemd in Leinenoptik"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-01.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 23228,
+      "sha256": "934a45bb45bab5b48fe3ff4897bb34039ab29c9bf47656ebf659b3ab2bd96f9a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "검정 셔츠의 목을 여유 있게 열고 밑단을 빼 에크루 쇼츠 위에 입으세요.",
+        "en": "Leave the black shirt open at the neck and untucked over the ecru shorts.",
+        "de": "Das schwarze Hemd am Hals offen lassen und locker über den ecrufarbenen Shorts tragen."
+      },
+      "sourceHowToWear": {
+        "ko": "검정 셔츠의 목을 여유 있게 열고 밑단을 빼 에크루 쇼츠 위에 입으세요.",
+        "en": "Leave the black shirt open at the neck and untucked over the ecru shorts.",
+        "de": "Das schwarze Hemd am Hals offen und über den ecrufarbenen Shorts tragen."
+      },
+      "altKo": "블랙 린넨 반팔 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "01-shorts",
+      "nameKo": "에크루 와이드 쇼츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "에크루 와이드 쇼츠",
+        "en": "Ecru wide-leg shorts",
+        "de": "Weite ecrufarbene Shorts"
+      },
+      "description": {
+        "ko": "에크루 와이드 쇼츠",
+        "en": "Ecru wide-leg shorts",
+        "de": "Weite ecrufarbene Shorts"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-01.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 40762,
+      "sha256": "73dd4a0f1d9d927709dcc5dc8a98bf1f0614cf38b81cbd84dced281f6703465f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "앉았을 때 허벅지가 당기지 않는 넓은 통으로 고르고 무릎 가까운 길이를 유지하세요.",
+        "en": "Choose wide shorts that do not pull at the thigh when seated, with hems near the knee.",
+        "de": "Eine weite Passform wählen, die im Sitzen nicht am Oberschenkel spannt; der Saum bleibt in Knienähe."
+      },
+      "altKo": "에크루 와이드 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sandals",
+      "producerId": "01-sandals",
+      "nameKo": "블랙 피셔맨 샌들",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블랙 피셔맨 샌들",
+        "en": "Black leather-look fisherman sandals",
+        "de": "Schwarze Fischersandalen in Lederoptik"
+      },
+      "description": {
+        "ko": "블랙 피셔맨 샌들",
+        "en": "Black leather-look fisherman sandals",
+        "de": "Schwarze Fischersandalen in Lederoptik"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-01.sandals",
+      "image": "products/sandals.webp",
+      "bytes": 41104,
+      "sha256": "6c483e37df0a5828586fa585654d9680dd4256c6343b3b46f56940d8ef263c07",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "피셔맨 샌들은 맨발에 신고 발등의 스트랩을 편하게 맞추세요.",
+        "en": "Wear the fisherman sandals on bare feet with the straps sitting comfortably over the instep.",
+        "de": "Die Fischersandalen barfuß tragen und die Riemen bequem über dem Spann einstellen."
+      },
+      "altKo": "블랙 피셔맨 샌들 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "01-sunglasses",
+      "nameKo": "다크 렌즈 선글라스",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "다크 렌즈 선글라스",
+        "en": "Dark-lens sunglasses hanging at neckline",
+        "de": "Sonnenbrille mit dunklen Gläsern am Ausschnitt"
+      },
+      "description": {
+        "ko": "다크 렌즈 선글라스",
+        "en": "Dark-lens sunglasses hanging at neckline",
+        "de": "Sonnenbrille mit dunklen Gläsern am Ausschnitt"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-01.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 25022,
+      "sha256": "92df322ad0930bc4f069a3f69d06afcc6cd8dd624c4eb840187f92d204875fa6",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "해가 진 뒤에는 선글라스를 벗어 셔츠 목에 가볍게 걸어 두세요.",
+        "en": "After sunset, take off the sunglasses and hook them lightly at the shirt neckline.",
+        "de": "Nach Sonnenuntergang die Brille abnehmen und locker in den Hemdausschnitt hängen."
+      },
+      "altKo": "다크 렌즈 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

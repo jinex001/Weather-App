@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-evening-street-20261027-02",
+  "batchId": "coastal-warm-male-evening-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "appTime": "evening",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario after sunset (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved after-sunset coastal scene: stone paving, lamp-lit terraces and a dark sea margin; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved the five evening editorials and requested the full workflow on 2026-10-28. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "69951519fdc6173f2595514d68e1af8ea731a50ff3b4009bf21d86b5337e39b1",
+  "editorialBytes": 249677,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "beer at a stone sea wall on a lamp-lit promenade",
+  "sunglasses": "none photographed",
+  "notRegistered": "Footwear outside the crop (not registered); trouser length and back reconstructed.",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware",
+    "lime"
+  ],
+  "productCount": 3,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-evening-street-20261027-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-evening-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-evening-street-20261027-02.shirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T03:46:31.986715+00:00",
+    "scope": "All 20 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "A BLUE SHIRT BY THE HARBOR LIGHTS",
+    "title": {
+      "ko": "블루 셔츠, 해안의 불빛",
+      "en": "A blue shirt by the harbor lights",
+      "de": "Blaues Hemd im Hafenlicht"
+    },
+    "deck": {
+      "ko": "블루 셔츠, 해안의 불빛",
+      "en": "A cold beer on the sea wall as the lamps come on.",
+      "de": "Blaues Hemd im Hafenlicht"
+    },
+    "intro": {
+      "ko": "가로등이 켜진 해안 산책로, 돌담에 팔을 걸치고 맥주 한 잔. 단추를 몇 개 푼 블루 셔츠는 밑단을 빼 여유 있게 떨어지고, 워시드 차콜 팬츠가 밝은 블루를 차분히 받쳐 줘요. 샌드 캡은 저녁에도 가볍게 얹었어요.",
+      "en": "Lamps on along the promenade, an elbow on the stone wall and a beer in hand. The blue shirt, a few buttons undone, hangs loose, while washed charcoal trousers ground the brighter blue. A sand cap stays on, worn light.",
+      "de": "Die Laternen an der Promenade brennen, ein Ellbogen auf der Steinmauer, ein Bier in der Hand. Das blaue Hemd mit ein paar offenen Knöpfen fällt locker, die verwaschene anthrazitfarbene Hose erdet das kräftige Blau. Die sandfarbene Cap sitzt leicht auf dem Kopf."
+    },
+    "pullQuoteEn": "ONE ELBOW ON THE WALL, ONE BEER IN HAND.",
+    "tip": {
+      "ko": "밝은 색 셔츠엔 바랜 듯한 어두운 팬츠를 맞춰 보세요. 저녁 조명 아래서 색이 한결 차분해 보여요.",
+      "en": "Pair a bright shirt with faded dark trousers; under evening lamps the colour reads calmer.",
+      "de": "Ein kräftig farbiges Hemd mit einer verwaschenen dunklen Hose kombinieren – im Abendlicht wirkt die Farbe ruhiger."
+    },
+    "refinements": "Producer delivered titles and per-product names/how-to-wear (ko/en/de). deck ko/de = producer title, en deck written so it does not repeat the English article title; intro, pull and tip written from the evening editorial scene. Product how-to-wear = producer text except where sourceHowToWear is present (awkward idiom, missing verb, or wording not grounded in the photo)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "02-shirt",
+      "nameKo": "블루 반팔 셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "블루 반팔 셔츠",
+        "en": "Blue relaxed short-sleeve shirt",
+        "de": "Lockeres blaues Kurzarmhemd"
+      },
+      "description": {
+        "ko": "블루 반팔 셔츠",
+        "en": "Blue relaxed short-sleeve shirt",
+        "de": "Lockeres blaues Kurzarmhemd"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-02.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 44742,
+      "sha256": "29e17b56b2fef9c676be8a944ae11fcd984e3acf36e9052a5b8fb8ebb534b9da",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "블루 셔츠는 윗단추를 풀고 밑단을 빼 차콜 팬츠와 편하게 입으세요.",
+        "en": "Unfasten the top buttons and leave the blue shirt untucked over the charcoal trousers.",
+        "de": "Die oberen Knöpfe öffnen und das blaue Hemd über der anthrazitfarbenen Hose tragen."
+      },
+      "altKo": "블루 반팔 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "nameKo": "워시드 차콜 팬츠",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "워시드 차콜 팬츠",
+        "en": "Washed charcoal trousers",
+        "de": "Verwaschene anthrazitfarbene Hose"
+      },
+      "description": {
+        "ko": "워시드 차콜 팬츠",
+        "en": "Washed charcoal trousers",
+        "de": "Verwaschene anthrazitfarbene Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-02.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 25922,
+      "sha256": "3a730beab4ac8caa25e4ca84ce1632dd1034679e869c4577f506c96413bc1258",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "차콜 팬츠는 허리와 엉덩이가 편한 핏으로 블루 셔츠의 여유로운 실루엣과 맞추세요.",
+        "en": "Choose charcoal trousers with ease at waist and hips to match the loose blue shirt.",
+        "de": "Die anthrazitfarbene Hose an Taille und Hüfte bequem wählen, passend zum lockeren blauen Hemd."
+      },
+      "altKo": "워시드 차콜 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "cap",
+      "producerId": "02-cap",
+      "nameKo": "샌드 캡",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "샌드 캡",
+        "en": "Sand-colored baseball cap",
+        "de": "Sandfarbene Cap"
+      },
+      "description": {
+        "ko": "샌드 캡",
+        "en": "Sand-colored baseball cap",
+        "de": "Sandfarbene Cap"
+      },
+      "appCategory": "headwear",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-02.cap",
+      "image": "products/cap.webp",
+      "bytes": 37132,
+      "sha256": "5100d3767fcf8f1e4fd08ee8cf0add252632aff318c7bc324f9700208388e10f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "샌드 캡을 가볍게 눌러 쓰고 챙을 눈썹 위에 두어 얼굴이 드러나게 하세요.",
+        "en": "Wear the sand cap lightly with the brim above the brows so the face remains visible.",
+        "de": "Die sandfarbene Cap locker tragen, den Schirm über den Brauen lassen, damit das Gesicht frei bleibt."
+      },
+      "altKo": "샌드 캡 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

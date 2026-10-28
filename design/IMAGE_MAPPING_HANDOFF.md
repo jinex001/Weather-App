@@ -392,3 +392,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 제작 측 문구는 제목(ko/en/de)과 제품별 이름·입는 법만 있었음 → deck ko/de = 제작 측 제목, en deck은 영어 기사 제목과 겹치지 않게 다시 씀, 인트로·인용구·팁은 에디토리얼 장면(샴페인·맥주·칵테일·캡 잡고 걷기·스프리츠)을 보고 새로 씀. 제품 입는 법은 제작 측 문장이 제품마다 이미 달라(5-1장 통과) 그대로 쓰고, 5개만 고침: 03 팬츠(제작 메모 "허리 부근만 사진에서 확인됩니다"), 04·05 선글라스(쓰는 법이 빠짐/관용구), 01 셔츠·03 선글라스 de(동사 빠짐). 원문은 `sourceHowToWear`.
 - 제목에 색 단어가 없어 대표 컷은 b134 4번(아우터, 없으면 크게 보이는 옷 순서 outer → top)대로 고름.
 - [검증 기록](coastal-warm-male-day-street-20261027-validation.md).
+
+## b178 · Global coastal / Clear / Pleasant / Male / 35+ / Evening / Street — 2026-10-27 set (5 looks · 20 products)
+
+- b177과 같은 경로·파일 이름 방식(`look/global/<batchId>/<lookId>/products/<제품 id>.webp`). 진입점은 `originals/product-batch/complete/NN-street/`만.
+- 해 진 뒤 세트: 제작 측 `category.timeOfDay: night` + `appTime: evening` → 룩에 `time: "evening"`(앱의 저녁 표기, `lookFits`의 `timed`). 낮으로 등록하지 않음. 글로벌 경로·모듈 이름엔 `evening`을 넣어 낮 세트와 구분.
+- 제작 측 문구는 제목(ko/en/de)과 제품별 이름·입는 법만 있었음 → b177과 같은 방식(deck ko/de = 제목, en deck은 기사 제목과 다르게, 인트로·인용구·팁은 저녁 장면 보고 새로 씀). 입는 법 20개 중 5개만 고침(01 셔츠 de 동사, 03 선글라스 어색한 표현, 04 쇼츠·모자·플립플롭이 사진과 안 맞거나 어색), 원문 `sourceHowToWear`. 선글라스 위치(목에 걸침·손·머리 위)와 줄무늬·카고·오픈 니트는 사진대로.
+- [검증 기록](coastal-warm-male-evening-street-20261027-validation.md).

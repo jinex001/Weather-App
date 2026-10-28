@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-evening-street-20261027-04",
+  "batchId": "coastal-warm-male-evening-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "appTime": "evening",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario after sunset (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved after-sunset coastal scene: stone paving, lamp-lit terraces and a dark sea margin; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved the five evening editorials and requested the full workflow on 2026-10-28. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "00ab096f59802867b3fe20dcd65de86164c2bc16a47b6fd4816b9d9a38251343",
+  "editorialBytes": 259085,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "stepping aside against a white wall on a lamp-lit lane, holding the hat brim, glancing back",
+  "sunglasses": "taken off, held in the hand by one temple",
+  "notRegistered": "Rear-side view: polo front conservatively reconstructed.",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware",
+    "lime"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-evening-street-20261027-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-evening-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-evening-street-20261027-04.polo",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T03:46:31.986715+00:00",
+    "scope": "All 20 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "AN EVENING STROLL, A MOMENT TO PAUSE",
+    "title": {
+      "ko": "잠시 비켜선 저녁 산책",
+      "en": "An evening stroll, a moment to pause",
+      "de": "Ein Abendspaziergang mit kleiner Pause"
+    },
+    "deck": {
+      "ko": "잠시 비켜선 저녁 산책",
+      "en": "Stepping aside on the lane, one hand on the hat.",
+      "de": "Ein Abendspaziergang mit kleiner Pause"
+    },
+    "intro": {
+      "ko": "등불이 켜진 바닷가 골목을 걷다 하얀 벽 쪽으로 잠깐 비켜서 돌아보는 순간. 성글게 짠 페일 옐로 폴로 사이로 바람이 통하고, 네이비 쇼츠가 밝은 니트를 단정하게 받쳐 줘요. 벗은 선글라스는 손에 가볍게 들었어요.",
+      "en": "Walking a lamp-lit lane by the sea, he steps aside against a white wall and glances back. Air moves through the open knit of a pale yellow polo, navy shorts keep the light knit tidy, and the sunglasses, off for the night, dangle from one hand.",
+      "de": "Auf einer laternenbeleuchteten Gasse am Meer tritt er kurz an eine weiße Wand und blickt zurück. Durch das offene Strickmuster des hellgelben Polos zieht Luft, marineblaue Shorts halten den hellen Strick ruhig, und die abgenommene Sonnenbrille hängt locker in einer Hand."
+    },
+    "pullQuoteEn": "STEP ASIDE, LOOK BACK, KEEP WALKING.",
+    "tip": {
+      "ko": "구멍이 성근 니트는 군데군데 비치니 어두운 하의로 무게를 잡아 주세요. 밤 조명 아래서 니트 결이 더 또렷하게 보여요.",
+      "en": "Open knits are sheer in places, so anchor them with darker bottoms; under night lights the knit texture shows even more.",
+      "de": "Offener Strick ist stellenweise durchscheinend – mit dunkleren Shorts bekommt er Halt, und im Abendlicht tritt die Struktur noch deutlicher hervor."
+    },
+    "refinements": "Producer delivered titles and per-product names/how-to-wear (ko/en/de). deck ko/de = producer title, en deck written so it does not repeat the English article title; intro, pull and tip written from the evening editorial scene. Product how-to-wear = producer text except where sourceHowToWear is present (awkward idiom, missing verb, or wording not grounded in the photo)."
+  },
+  "products": [
+    {
+      "id": "polo",
+      "producerId": "04-polo",
+      "nameKo": "페일 옐로 오픈 니트 폴로",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "페일 옐로 오픈 니트 폴로",
+        "en": "Pale yellow open-knit polo",
+        "de": "Hellgelbes Polo in offenem Strick"
+      },
+      "description": {
+        "ko": "페일 옐로 오픈 니트 폴로",
+        "en": "Pale yellow open-knit polo",
+        "de": "Hellgelbes Polo in offenem Strick"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-04.polo",
+      "image": "products/polo.webp",
+      "bytes": 43460,
+      "sha256": "675aec0795bf12b6b5ef9919b3ce07b4352b699af7c9399a1506a97eda15bd7e",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "성근 옐로 니트 폴로는 밑단을 빼 입고 어깨와 등을 편하게 움직일 품을 고르세요.",
+        "en": "Wear the open-knit yellow polo untucked with room across the shoulders and back.",
+        "de": "Das gelbe Polo in offenem Strick über dem Bund tragen und an Schultern und Rücken Platz lassen."
+      },
+      "altKo": "페일 옐로 오픈 니트 폴로 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "04-shorts",
+      "nameKo": "네이비 쇼츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "네이비 쇼츠",
+        "en": "Navy relaxed shorts",
+        "de": "Lockere marineblaue Shorts"
+      },
+      "description": {
+        "ko": "네이비 쇼츠",
+        "en": "Navy relaxed shorts",
+        "de": "Lockere marineblaue Shorts"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-04.shorts",
+      "image": "products/shorts.webp",
+      "bytes": 33662,
+      "sha256": "07253e87a77d32904fb2c5f3d7b0695b938e8a0558e194375e02c4655190311b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "네이비 쇼츠는 허리 끈으로 편하게 맞추고, 니트 폴로 밑단이 허리선 위에 가볍게 걸치게 입으세요.",
+        "en": "Set the navy shorts comfortably with the drawstring and let the knit polo hem sit just over the waistband.",
+        "de": "Die marineblauen Shorts mit dem Kordelzug bequem einstellen und den Saum des Strickpolos locker über den Bund fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "네이비 쇼츠는 니트 밑단 아래로 자연스럽게 떨어지는 길이로 맞추세요.",
+        "en": "Choose navy shorts long enough to fall naturally below the knit hem.",
+        "de": "Die marineblauen Shorts so wählen, dass sie natürlich unter dem Stricksaum hervorschauen."
+      },
+      "altKo": "네이비 쇼츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "hat",
+      "producerId": "04-hat",
+      "nameKo": "내추럴 스트로 모자",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "내추럴 스트로 모자",
+        "en": "Natural woven straw hat with plain band",
+        "de": "Naturfarbener Strohhut mit schlichtem Band"
+      },
+      "description": {
+        "ko": "내추럴 스트로 모자",
+        "en": "Natural woven straw hat with plain band",
+        "de": "Naturfarbener Strohhut mit schlichtem Band"
+      },
+      "appCategory": "headwear",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-04.hat",
+      "image": "products/hat.webp",
+      "bytes": 46592,
+      "sha256": "b76ee50ad9eaf14b87fe4b2e5bdad0f6cff55602c9d7035652884dc6b99ae849",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "스트로 모자는 편하게 쓰고, 뒤돌아볼 때는 한 손으로 챙을 가볍게 잡아 주세요.",
+        "en": "Wear the straw hat comfortably and steady the brim with one hand as you glance back.",
+        "de": "Den Strohhut bequem aufsetzen und beim Umdrehen die Krempe mit einer Hand leicht festhalten."
+      },
+      "sourceHowToWear": {
+        "ko": "스트로 모자는 편하게 쓰고 대화하며 돌아볼 때 챙을 가볍게 잡아 주세요.",
+        "en": "Wear the straw hat comfortably and steady the brim as you turn back to a companion.",
+        "de": "Den Strohhut bequem aufsetzen und den Rand beim Umdrehen zum Gegenüber leicht festhalten."
+      },
+      "altKo": "내추럴 스트로 모자 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "flip-flops",
+      "producerId": "04-flip-flops",
+      "nameKo": "브라운 플립플롭",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "브라운 플립플롭",
+        "en": "Brown leather-look flip-flops",
+        "de": "Braune Flipflops in Lederoptik"
+      },
+      "description": {
+        "ko": "브라운 플립플롭",
+        "en": "Brown leather-look flip-flops",
+        "de": "Braune Flipflops in Lederoptik"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-04.flip-flops",
+      "image": "products/flip-flops.webp",
+      "bytes": 48690,
+      "sha256": "705e5586837f35ad1052e5868a384ddb36772a37de855f52270d9c5b048c98b5",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "브라운 플립플롭은 맨발에 신어, 짧은 쇼츠와 함께 다리 라인을 가볍게 마무리하세요.",
+        "en": "Wear the brown flip-flops on bare feet; with the short shorts they keep the whole leg line light.",
+        "de": "Die braunen Flipflops barfuß tragen; zu den kurzen Shorts bleibt die Beinlinie so leicht."
+      },
+      "sourceHowToWear": {
+        "ko": "브라운 플립플롭을 맨발에 신고 쇼츠와 다리 사이를 가볍게 이어 주세요.",
+        "en": "Wear the brown flip-flops on bare feet to keep the shorts outfit light.",
+        "de": "Die braunen Flipflops barfuß tragen, damit der Shorts-Look leicht bleibt."
+      },
+      "altKo": "브라운 플립플롭 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "04-sunglasses",
+      "nameKo": "토터스셸 선글라스",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses held in hand",
+        "de": "Sonnenbrille in Havannaoptik in der Hand"
+      },
+      "description": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses held in hand",
+        "de": "Sonnenbrille in Havannaoptik in der Hand"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-04.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 25592,
+      "sha256": "599307c6a384e4f94782ed724df36e7fe73237c59471785b175b15e54dec1a88",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "저녁에는 토터스셸 선글라스를 벗어 한쪽 다리를 잡고 느슨하게 들어 주세요.",
+        "en": "In the evening, take off the tortoiseshell sunglasses and hold them loosely by one temple.",
+        "de": "Abends die Havanna-Brille abnehmen und locker an einem Bügel halten."
+      },
+      "altKo": "토터스셸 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}

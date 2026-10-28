@@ -3,8 +3,8 @@
 Today's Look은 `look/outfits.js`(`window.WX_LOOKS = { version, outfits: [...], items: {...} }`)의 룩을 고른 스타일·성별 안에서 3개씩 보여줍니다.
 빌드 도구 없이 `<script src="look/outfits.js?v=<빌드>">`로 불러옵니다(빌드마다 `?v=`도 올릴 것). 파일이 안 불러지면 단계 기본 문구로 돌아갑니다.
 
-마지막 정리: 2026-10-27 (앱 빌드 b177) · 251룩 · 1536아이템 · 기사 룩 251 (b176 수치 246 · 1514 + b177 해안 남성 세트 5룩 · 22아이템, ID 충돌 없음 확인; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
-모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `coastal-warm-male-day-street-20261027.js`(b177) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
+마지막 정리: 2026-10-28 (앱 빌드 b178) · 256룩 · 기사 룩 256 · 아이템 b177 수치 + 20 (b178 해안 남성 저녁 세트 5룩 · 20아이템, ID 충돌 없음 확인; 파이썬 파싱으로는 1537 → 1557, b177 기록 1536과의 1개 차이는 이번 변경 전부터; b172는 문구만). 칸별 현황·빈 칸 목록은 `look-coverage.md`.
+모듈은 `index.html`의 순서대로 불러옴: `outfits.js` → 보충 모듈들 → `global-coastal-20261027.js` → `coastal-sunny-pleasant-female-day-street-20261027.js`(b176) → `coastal-warm-male-day-street-20261027.js`(b177) → `coastal-warm-male-evening-street-20261027.js`(b178) → `cutouts.js` → `coast-grid.js` → **`global-context.js`(마지막, b173)**.
 
 ## Outfit
 
@@ -298,3 +298,10 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 - 룩 `coastal-pleasant-m35-day-street-20261027-01`–`05`(clear · pleasant · m · 35 · street, 낮 = `time` 없음, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 에크루 텍스처 셔츠 + 차콜 쇼츠 + 피셔맨 샌들(카페에서 샴페인) · 02 코발트 티 + 스톤 쇼츠 + 블루 캡(항구 계단에서 맥주) · 03 테라코타 셔츠(앞 열고) + 화이트 탱크 + 네이비 팬츠 + 밀짚 버킷햇(라임 칵테일 젓기) · 04 번트 오렌지 메쉬 폴로 + 크림 와이드 팬츠 + 올리브 캡(캡 챙 잡고 걷기) · 05 세이지 셔츠 + 워시드 블랙 쇼츠(벤치에서 스프리츠). 선글라스 01–04 착용, 05 머리 위. 음료·잔은 소품.
 - 아이템 ID `<룩 ID>.<제품 id>`(22개 모두 새 ID). 분류: 셔츠·티·폴로 `top`(03 셔츠는 탱크 위에 열어 입어 `outer`, 탱크 `top` — b176 02와 같은 방식), 쇼츠 `shorts`, 팬츠 `bottom`, 샌들·플립플롭 `shoes`, 캡·햇 `headwear`, 선글라스 `eyewear`. 대표 컷: 제목에 색 단어가 없어 아우터(03 셔츠) 또는 주 상의(01 셔츠 · 02 티 · 04 폴로 · 05 셔츠) WebP 자체.
 - 도시·습도%·바람 null, 24–25°C / 체감 23°C는 사용자가 준 장면 가정(측정·실시간 아님, products.json `weather.temperatureRangeC`). 모델 외관 28–32, 저장 35+. 03 신발·05 신발은 크롭 밖이라 없음, 03 팬츠 아래 길이·뒤판은 추정 복원. [검증](coastal-warm-male-day-street-20261027-validation.md).
+
+## b178 · 해안 · Clear / Pleasant / Male / 35+ / Evening / Street — 2026-10-27 세트 (5 looks)
+
+- 배치 `coastal-warm-male-evening-street-20261027`(READY.json 78개 SHA-256 일치, 사용자가 해 진 뒤 에디토리얼 5장 승인, 2026-10-28). 에디토리얼 5장(1024×1536 JPG ≤290,787 B) + 독립 투명 WebP 제품 20개(4/3/4/5/4, 500×500, ≤48,690 B) 바이트 그대로 → `look/global/coastal-warm-male-evening-street-20261027/<룩 ID>/editorial.jpg`·`products/<제품 id>.webp`, 보충 파일 `look/coastal-warm-male-evening-street-20261027.js`.
+- 룩 `coastal-pleasant-m35-evening-street-20261027-01`–`05`(clear · pleasant · m · 35 · street · **`time: "evening"`**, 저장 분류 night, `visualRegion: warm-coastal-urban`, `humidityContext: unknown`, reviewed). 01 블랙 셔츠 + 에크루 와이드 쇼츠 + 블랙 피셔맨 샌들(와인 바 샴페인) · 02 블루 셔츠 + 워시드 차콜 팬츠 + 샌드 캡(산책로 돌담 맥주) · 03 번트 레드 티 + 스톤 카고 쇼츠 + 블랙 플립플롭(돌계단에서 라임 짜기) · 04 페일 옐로 오픈 니트 폴로 + 네이비 쇼츠 + 밀짚 모자 + 브라운 플립플롭(흰 벽 앞에서 돌아봄) · 05 세이지·아이보리 줄무늬 셔츠(앞 열고) + 아이보리 립 탱크 + 다크 네이비 팬츠(벤치 스프리츠). 선글라스 01·03 목에 걸침, 04 손, 05 머리 위, 02 없음. 음료·잔·라임은 소품.
+- 아이템 ID `<룩 ID>.<제품 id>`(20개 모두 새 ID). 분류: 셔츠·티·폴로 `top`(05 셔츠는 탱크 위에 열어 `outer`, 탱크 `top`), 쇼츠 `shorts`, 팬츠 `bottom`, 샌들·플립플롭 `shoes`, 캡·모자 `headwear`, 선글라스 `eyewear`. 대표 컷 = 주 상의 WebP 자체(02는 제목 BLUE = 셔츠).
+- 저녁 룩이라 해안 지역 맑은(0–2) 저녁에만 나오고, 낮 해안 세트(b176·b177)·캘린더(낮 룩만 씀)는 그대로. 도시·습도%·바람 null, 24–25°C / 체감 23°C는 사용자 장면 가정(측정·실시간 아님). 모델 외관 28–32, 저장 35+. 02·05 신발은 크롭 밖이라 없음, 02·05 팬츠 길이·뒤판과 04 폴로 앞판은 추정 복원. [검증](coastal-warm-male-evening-street-20261027-validation.md).

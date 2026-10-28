@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-evening-street-20261027-05",
+  "batchId": "coastal-warm-male-evening-street-20261027",
+  "category": {
+    "weather": "Sunny",
+    "rainIntensity": null,
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "appTime": "evening",
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "rainIntensity": null,
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "temperatureRangeC": [
+      24,
+      25
+    ],
+    "feelsLikeC": 23,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false,
+    "note": "User-provided editorial scenario after sunset (range 24–25 °C, feels like 23 °C); not a point measurement or live weather."
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Approved after-sunset coastal scene: stone paving, lamp-lit terraces and a dark sea margin; no landmark or city; no humidity or wind measurement."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User approved the five evening editorials and requested the full workflow on 2026-10-28. Product review is producer review, no per-product user approval.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "803bf4b3bbb880763bdec5451027346f3b53ca13b46c60321d418c8ca42fa2ad",
+  "editorialBytes": 242643,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scene": "seated on a terrace bench with an orange spritz",
+  "sunglasses": "pushed up on top of the head",
+  "notRegistered": "Footwear outside the crop (not registered); trouser length and back reconstructed.",
+  "scenePropsNotProducts": [
+    "drinks",
+    "glassware",
+    "lime"
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "사진을 바탕으로 제작한 제품 복원 이미지입니다. 가려진 부분은 추정이며 실제 판매 제품·소재 혼용률·선글라스 자외선 차단 성능은 확인되지 않았습니다.",
+    "en": "Editorial-based product reconstructions. Hidden details are inferred; retail identity, fiber composition and sunglasses UV performance are unverified.",
+    "de": "Produktrekonstruktionen anhand des Editorials. Verdeckte Details sind ergänzt; Handelsprodukt, Faserzusammensetzung und UV-Schutz der Sonnenbrillen sind nicht bestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-evening-street-20261027-05",
+  "appStyle": "street",
+  "appModule": "look/coastal-warm-male-evening-street-20261027.js",
+  "appHeroItem": "coastal-pleasant-m35-evening-street-20261027-05.shirt",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "reviewer": "Codex producer",
+    "at": "2026-10-28T03:46:31.986715+00:00",
+    "scope": "All 20 products on white/black/gray/app-ivory composites vs the five approved editorials (VISUAL_REVIEW.json)."
+  },
+  "copy": {
+    "titleEn": "STRIPES AND A SPRITZ",
+    "title": {
+      "ko": "스트라이프와 스프리츠",
+      "en": "Stripes and a spritz",
+      "de": "Streifen und ein Spritz"
+    },
+    "deck": {
+      "ko": "스트라이프와 스프리츠",
+      "en": "An arm along the bench, a spritz raised to the lens.",
+      "de": "Streifen und ein Spritz"
+    },
+    "intro": {
+      "ko": "바닷가 테라스 벤치에 팔을 걸치고 스프리츠 잔을 내미는 저녁. 세이지와 아이보리 줄무늬 셔츠를 앞을 연 채 립 탱크톱 위에 걸쳤고, 짙은 네이비 팬츠가 밝은 줄무늬를 차분하게 눌러 줘요. 선글라스는 머리 위에 올려 두었어요.",
+      "en": "An arm along the terrace bench, a spritz held out toward the camera. A sage-and-ivory striped shirt hangs open over a ribbed tank, deep navy trousers calm the light stripes, and the sunglasses sit up in his curls.",
+      "de": "Den Arm auf der Terrassenbank, den Spritz in Richtung Kamera. Ein salbeigrün-elfenbeinfarben gestreiftes Hemd hängt offen über einem Ripp-Tanktop, die dunkle marineblaue Hose beruhigt die hellen Streifen, und die Sonnenbrille steckt in den Locken."
+    },
+    "pullQuoteEn": "STRIPES OPEN, GLASS RAISED.",
+    "tip": {
+      "ko": "줄무늬 셔츠를 겉옷처럼 열어 입을 땐 안에 무지 탱크톱을 받쳐 보세요. 줄무늬가 한결 정돈돼 보여요.",
+      "en": "When you wear a striped shirt open like a light jacket, put a plain tank underneath; the stripes look more settled.",
+      "de": "Wer ein gestreiftes Hemd offen wie eine leichte Jacke trägt, setzt ein schlichtes Tanktop darunter – so wirken die Streifen ruhiger."
+    },
+    "refinements": "Producer delivered titles and per-product names/how-to-wear (ko/en/de). deck ko/de = producer title, en deck written so it does not repeat the English article title; intro, pull and tip written from the evening editorial scene. Product how-to-wear = producer text except where sourceHowToWear is present (awkward idiom, missing verb, or wording not grounded in the photo)."
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "05-shirt",
+      "nameKo": "세이지 스트라이프 셔츠",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "세이지 스트라이프 셔츠",
+        "en": "Sage and ivory striped linen-look shirt",
+        "de": "Salbei-elfenbein gestreiftes Hemd in Leinenoptik"
+      },
+      "description": {
+        "ko": "세이지 스트라이프 셔츠",
+        "en": "Sage and ivory striped linen-look shirt",
+        "de": "Salbei-elfenbein gestreiftes Hemd in Leinenoptik"
+      },
+      "appCategory": "outer",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-05.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 44036,
+      "sha256": "4ac6475a95002ea65919b0b43bd9846f51514ad7ddd4b01de6c7745274ea1ec0",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "세이지 스트라이프 셔츠를 앞이 열린 채로 입어 아이보리 탱크톱이 보이게 하세요.",
+        "en": "Wear the sage striped shirt open so the ivory tank remains visible.",
+        "de": "Das salbeigrün gestreifte Hemd offen tragen, damit das elfenbeinfarbene Tanktop sichtbar bleibt."
+      },
+      "altKo": "세이지 스트라이프 셔츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "tank",
+      "producerId": "05-tank",
+      "nameKo": "아이보리 립 탱크톱",
+      "evidence": "visible-item-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "아이보리 립 탱크톱",
+        "en": "Ivory ribbed tank top",
+        "de": "Elfenbeinfarbenes Ripp-Tanktop"
+      },
+      "description": {
+        "ko": "아이보리 립 탱크톱",
+        "en": "Ivory ribbed tank top",
+        "de": "Elfenbeinfarbenes Ripp-Tanktop"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-05.tank",
+      "image": "products/tank.webp",
+      "bytes": 23462,
+      "sha256": "3f1d8eb00897b3fed5af75d4498fe45d7426e5b14181e305a15aa17f75b07eb6",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "립 탱크톱은 몸을 조이지 않는 핏으로 셔츠 안에 입으세요.",
+        "en": "Wear the ribbed tank under the shirt in a close fit that does not pull.",
+        "de": "Das Ripp-Tanktop unter dem Hemd körpernah, aber ohne Spannung tragen."
+      },
+      "altKo": "아이보리 립 탱크톱 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-trousers",
+      "nameKo": "다크 네이비 팬츠",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "다크 네이비 팬츠",
+        "en": "Dark navy relaxed trousers",
+        "de": "Lockere dunkelmarineblaue Hose"
+      },
+      "description": {
+        "ko": "다크 네이비 팬츠",
+        "en": "Dark navy relaxed trousers",
+        "de": "Lockere dunkelmarineblaue Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-05.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 25048,
+      "sha256": "292f950c399b899fefc0948d5e7587f3a23c63abb03440c242f07210c5805728",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "네이비 팬츠는 앉았을 때 허리가 편한 핏으로 밝은 셔츠와 대비를 주세요.",
+        "en": "Choose navy trousers that sit comfortably at the waist when seated and contrast with the light shirt.",
+        "de": "Die marineblaue Hose im Sitzen an der Taille bequem wählen und zum hellen Hemd kontrastieren."
+      },
+      "altKo": "다크 네이비 팬츠 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "05-sunglasses",
+      "nameKo": "토터스셸 선글라스",
+      "evidence": "partially-visible-reconstructed",
+      "reconstructionNote": "Match visible editorial color/texture/construction. Hidden backs, full lengths, covered frames and 04 polo front are inferred, not observed.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "name": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses on top of head",
+        "de": "Sonnenbrille in Havannaoptik auf dem Kopf"
+      },
+      "description": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses on top of head",
+        "de": "Sonnenbrille in Havannaoptik auf dem Kopf"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-m35-evening-street-20261027-05.sunglasses",
+      "image": "products/sunglasses.webp",
+      "bytes": 28768,
+      "sha256": "dd090c8cd18ade92e29dcad505fd912b6f4dea04163ce9120825a9c4a3e5fa38",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "howToWear": {
+        "ko": "선글라스는 벗어 머리 위에 가볍게 올리고 얼굴과 눈을 드러내세요.",
+        "en": "Rest the removed sunglasses lightly on the head to leave the face and eyes open.",
+        "de": "Die abgenommene Brille leicht auf den Kopf setzen, damit Gesicht und Augen frei bleiben."
+      },
+      "altKo": "토터스셸 선글라스 — 독립 투명 배경 제품 컷",
+      "bg": "#F3EFE8",
+      "status": "ready"
+    }
+  ]
+}
