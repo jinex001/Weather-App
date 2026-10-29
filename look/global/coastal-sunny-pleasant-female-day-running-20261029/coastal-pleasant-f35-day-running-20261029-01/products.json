@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-running-20261029-01",
+  "batchId": "coastal-sunny-pleasant-female-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-v2-playful",
+    "evidence": "User approved playful revisions and explicitly requested product production, direct main publication, iCloud archive and cleanup, Notion update and next 5 editorial drafts.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b16d8dcb0cebf2a9fab18b61956f803d97c69d34e9288dccbb0a90495625daa5",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-running-20261029-01",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-female-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-f35-day-running-20261029-01.tee",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "earbud and case",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-29T20:43:26.366256+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 fitted shorts and separate belt;05 watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "끈이 또 풀렸네",
+      "en": "Laces, again?",
+      "de": "Schon wieder die Schnürsenkel?"
+    },
+    "titleEn": "LACES, AGAIN?",
+    "deck": {
+      "ko": "풀린 끈을 잡고 친구 쪽으로 웃는 순간",
+      "en": "A loose lace and a grin shared with a friend.",
+      "de": "Ein loser Schnürsenkel und ein Grinsen zur Freundin."
+    },
+    "intro": {
+      "ko": "다시 풀린 끈을 잡은 채 친구 쪽으로 눈을 돌립니다. 출발을 서두르기보다 작은 해프닝에 웃는 해안 골목의 낮입니다.",
+      "en": "With the loosened laces still in hand, she glances toward a friend. A small mishap turns the start of the run into a shared laugh in the coastal lane.",
+      "de": "Mit den losen Schnürsenkeln in der Hand blickt sie zur Freundin. Ein kleines Missgeschick macht den Laufbeginn in der Küstengasse zu einem gemeinsamen Lachen."
+    },
+    "tip": {
+      "ko": "출발 전 끈을 다시 확인하고 긴 끝은 짧게 정리하세요.",
+      "en": "Check the knot before starting and keep long lace ends tidy.",
+      "de": "Vor dem Start den Knoten prüfen und lange Schnürsenkelenden ordentlich halten."
+    },
+    "pullQuoteEn": "ONE KNOT, ONE MORE LAUGH."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "01-tee",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-01.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "콘플라워 블루 러닝 티셔츠",
+        "en": "Cornflower-blue running T-shirt",
+        "de": "Kornblumenblaues Laufshirt"
+      },
+      "nameKo": "콘플라워 블루 러닝 티셔츠",
+      "description": {
+        "ko": "블루 티셔츠는 쇼츠 허리 위에 편하게 두고 소매가 어깨를 당기지 않도록 맞추세요.",
+        "en": "Let the blue tee rest comfortably over the shorts and keep room at the shoulders.",
+        "de": "Das blaue Shirt locker über den Shorts tragen und an den Schultern Platz lassen."
+      },
+      "howToWear": {
+        "ko": "블루 티셔츠는 쇼츠 허리 위에 편하게 두고 소매가 어깨를 당기지 않도록 맞추세요.",
+        "en": "Let the blue tee rest comfortably over the shorts and keep room at the shoulders.",
+        "de": "Das blaue Shirt locker über den Shorts tragen und an den Schultern Platz lassen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "1e2c03ab4fe0102461ef091f559e891c5c2f3c0a28fecb995598a6795dbb54b5",
+      "bytes": 36728,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 01-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lined-shorts",
+      "producerId": "01-lined-shorts",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-01.lined-shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "차콜 라이너 일체형 러닝 쇼츠",
+        "en": "Charcoal running shorts with integrated liner",
+        "de": "Anthrazitfarbene Laufshorts mit integriertem Innenbein"
+      },
+      "nameKo": "차콜 라이너 일체형 러닝 쇼츠",
+      "description": {
+        "ko": "차콜 쇼츠의 일체형 라이너를 먼저 펴고 겉단이 다리 위에서 자유롭게 움직이게 두세요.",
+        "en": "Smooth the charcoal shorts' integrated liner first and let the outer hems move freely.",
+        "de": "Zuerst das integrierte Innenbein der anthrazitfarbenen Shorts glätten und die äußeren Säume locker lassen."
+      },
+      "howToWear": {
+        "ko": "차콜 쇼츠의 일체형 라이너를 먼저 펴고 겉단이 다리 위에서 자유롭게 움직이게 두세요.",
+        "en": "Smooth the charcoal shorts' integrated liner first and let the outer hems move freely.",
+        "de": "Zuerst das integrierte Innenbein der anthrazitfarbenen Shorts glätten und die äußeren Säume locker lassen."
+      },
+      "image": "products/lined-shorts.webp",
+      "sha256": "b8ce9128da11ffbc8f551da985b7edc80e01eaa783279872f73f09df803a32bb",
+      "bytes": 25664,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 01-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "01-running-shoes",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-01.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트·그레이 메시 러닝화",
+        "en": "Off-white and grey mesh running shoes",
+        "de": "Cremeweiße und graue Mesh-Laufschuhe"
+      },
+      "nameKo": "오프화이트·그레이 메시 러닝화",
+      "description": {
+        "ko": "계단에 올린 발의 끈을 고르게 조인 뒤 반대쪽도 같은 압박으로 맞추세요.",
+        "en": "Tighten the laces evenly on the raised foot, then match the fit on the other side.",
+        "de": "Die Schnürung am erhöhten Fuß gleichmäßig festziehen und den anderen Schuh ähnlich anpassen."
+      },
+      "howToWear": {
+        "ko": "계단에 올린 발의 끈을 고르게 조인 뒤 반대쪽도 같은 압박으로 맞추세요.",
+        "en": "Tighten the laces evenly on the raised foot, then match the fit on the other side.",
+        "de": "Die Schnürung am erhöhten Fuß gleichmäßig festziehen und den anderen Schuh ähnlich anpassen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "47ff049d90732ca9202ed0fde945e4f9bccbe938b25ccef41742a31c1947adce",
+      "bytes": 47264,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 01-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "01-socks",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-01.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 스포츠 양말",
+        "en": "White sports socks",
+        "de": "Weiße Sportsocken"
+      },
+      "nameKo": "화이트 스포츠 양말",
+      "description": {
+        "ko": "화이트 양말의 뒤꿈치를 맞추고 신발 안쪽에 접힌 부분이 없는지 펴 주세요.",
+        "en": "Align the white sock heels and smooth any folds inside the shoes.",
+        "de": "Die weißen Socken an der Ferse ausrichten und Falten im Schuh glätten."
+      },
+      "howToWear": {
+        "ko": "화이트 양말의 뒤꿈치를 맞추고 신발 안쪽에 접힌 부분이 없는지 펴 주세요.",
+        "en": "Align the white sock heels and smooth any folds inside the shoes.",
+        "de": "Die weißen Socken an der Ferse ausrichten und Falten im Schuh glätten."
+      },
+      "image": "products/socks.webp",
+      "sha256": "b0f578c4c4c99323cbfdd5d7b35cd7654e854d014de1b9ccb1976068adf80bb2",
+      "bytes": 38404,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 01-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

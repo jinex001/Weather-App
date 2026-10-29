@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-running-20261029-03",
+  "batchId": "coastal-sunny-pleasant-female-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-v2-playful",
+    "evidence": "User approved playful revisions and explicitly requested product production, direct main publication, iCloud archive and cleanup, Notion update and next 5 editorial drafts.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e784ab8c04a5d60bf4921ef6a7b6ec99c1f12de5a7a87e7edc315bf958aabdfa",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-running-20261029-03",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-female-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-f35-day-running-20261029-03.tee",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "earbud and case",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-29T20:43:26.366256+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 fitted shorts and separate belt;05 watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "이쪽 귀였네",
+      "en": "The other ear",
+      "de": "Das andere Ohr"
+    },
+    "titleEn": "THE OTHER EAR",
+    "deck": {
+      "ko": "이어버드를 들고 장난스럽게 곁눈질하며",
+      "en": "An earbud in hand and a cheeky sideways glance.",
+      "de": "Ein Ohrhörer in der Hand und ein schelmischer Seitenblick."
+    },
+    "intro": {
+      "ko": "이어버드를 귀 가까이 가져가다 옆 사람과 눈이 마주칩니다. 세이지와 스톤의 차분한 색 위로 짧은 장난기가 번집니다.",
+      "en": "She raises an earbud and catches her companion's eye. A cheeky moment interrupts the calm sage-and-stone palette.",
+      "de": "Sie hebt den Ohrhörer und begegnet dem Blick ihrer Begleitung. Ein schelmischer Moment unterbricht die ruhige Palette aus Salbei und Stein."
+    },
+    "tip": {
+      "ko": "앉기 전에 쇼츠와 티셔츠 밑단을 정리해 편한 자세를 만드세요.",
+      "en": "Smooth the shorts and tee hems before settling comfortably on the step.",
+      "de": "Die Säume von Shorts und Shirt richten, bevor du dich bequem auf die Stufe setzt."
+    },
+    "pullQuoteEn": "A LITTLE MISCHIEF BEFORE THE MUSIC."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-03.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "세이지 러닝 티셔츠",
+        "en": "Sage running T-shirt",
+        "de": "Salbeigrünes Laufshirt"
+      },
+      "nameKo": "세이지 러닝 티셔츠",
+      "description": {
+        "ko": "세이지 티셔츠의 밑단을 펴 두면 계단에 앉아도 허리 주변이 깔끔해요.",
+        "en": "Smooth the sage tee's hem to keep the waist neat while seated on the step.",
+        "de": "Den Saum des salbeigrünen Shirts glätten, damit die Taille auf der Stufe ordentlich bleibt."
+      },
+      "howToWear": {
+        "ko": "세이지 티셔츠의 밑단을 펴 두면 계단에 앉아도 허리 주변이 깔끔해요.",
+        "en": "Smooth the sage tee's hem to keep the waist neat while seated on the step.",
+        "de": "Den Saum des salbeigrünen Shirts glätten, damit die Taille auf der Stufe ordentlich bleibt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "ead787803ce233e7e1f2ebd3d7b262e7578080d0929640ecb60dc56c62d590cd",
+      "bytes": 26004,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 03-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "03-shorts",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-03.shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "라이트 스톤 러닝 쇼츠",
+        "en": "Light-stone running shorts",
+        "de": "Steinhelle Laufshorts"
+      },
+      "nameKo": "라이트 스톤 러닝 쇼츠",
+      "description": {
+        "ko": "스톤 쇼츠는 앉았을 때 허벅지에 여유가 남도록 겉단을 자연스럽게 내려 주세요.",
+        "en": "Let the stone shorts fall naturally with room around the thighs when seated.",
+        "de": "Die steinfarbenen Shorts im Sitzen natürlich fallen lassen und am Oberschenkel Platz lassen."
+      },
+      "howToWear": {
+        "ko": "스톤 쇼츠는 앉았을 때 허벅지에 여유가 남도록 겉단을 자연스럽게 내려 주세요.",
+        "en": "Let the stone shorts fall naturally with room around the thighs when seated.",
+        "de": "Die steinfarbenen Shorts im Sitzen natürlich fallen lassen und am Oberschenkel Platz lassen."
+      },
+      "image": "products/shorts.webp",
+      "sha256": "484d2f15f0f932de3168b05fc8ac97e844068305a947ed61d75138832a63e985",
+      "bytes": 27098,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 03-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "03-running-shoes",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-03.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "화이트·그레이 메시 러닝화",
+        "en": "White and grey mesh running shoes",
+        "de": "Weiße und graue Mesh-Laufschuhe"
+      },
+      "nameKo": "화이트·그레이 메시 러닝화",
+      "description": {
+        "ko": "화이트 러닝화는 혀를 가운데로 맞춘 뒤 끈이 꼬이지 않게 묶어 주세요.",
+        "en": "Centre the white shoe tongues before tying the laces without twists.",
+        "de": "Die Zungen der weißen Laufschuhe mittig ausrichten und die Schnürsenkel ohne Verdrehung binden."
+      },
+      "howToWear": {
+        "ko": "화이트 러닝화는 혀를 가운데로 맞춘 뒤 끈이 꼬이지 않게 묶어 주세요.",
+        "en": "Centre the white shoe tongues before tying the laces without twists.",
+        "de": "Die Zungen der weißen Laufschuhe mittig ausrichten und die Schnürsenkel ohne Verdrehung binden."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "809de7bc3a8eaee54e8441706d27d56e4bfc71e1a08679b7238e9196b7a9e7a7",
+      "bytes": 43990,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 03-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "03-socks",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-03.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 크루 스포츠 양말",
+        "en": "White crew sports socks",
+        "de": "Weiße Crew-Sportsocken"
+      },
+      "nameKo": "화이트 크루 스포츠 양말",
+      "description": {
+        "ko": "크루 양말은 리브 윗단을 접지 않고 펴 쇼츠 아래의 길이를 살려 주세요.",
+        "en": "Keep the crew socks unfolded to show their ribbed length below the shorts.",
+        "de": "Die Crew-Socken nicht umschlagen, damit ihre gerippte Länge unter den Shorts sichtbar bleibt."
+      },
+      "howToWear": {
+        "ko": "크루 양말은 리브 윗단을 접지 않고 펴 쇼츠 아래의 길이를 살려 주세요.",
+        "en": "Keep the crew socks unfolded to show their ribbed length below the shorts.",
+        "de": "Die Crew-Socken nicht umschlagen, damit ihre gerippte Länge unter den Shorts sichtbar bleibt."
+      },
+      "image": "products/socks.webp",
+      "sha256": "32d66f4e3141ac82793d50ca1cfa8efc4a8036db8e89712b108c0b97069dec69",
+      "bytes": 39500,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 03-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

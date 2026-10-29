@@ -1,0 +1,309 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-running-20261029-04",
+  "batchId": "coastal-sunny-pleasant-female-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-v2-playful",
+    "evidence": "User approved playful revisions and explicitly requested product production, direct main publication, iCloud archive and cleanup, Notion update and next 5 editorial drafts.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0bccb8a845ffdd15ece74d257d18aa8a06a04650d0a6e0eb46bda31e3cf7f582",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-running-20261029-04",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-female-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-f35-day-running-20261029-04.tank",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "earbud and case",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-29T20:43:26.366256+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 fitted shorts and separate belt;05 watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "폰이 왜 안 들어가",
+      "en": "A phone with other ideas",
+      "de": "Das Telefon hat andere Pläne"
+    },
+    "titleEn": "A PHONE WITH OTHER IDEAS",
+    "deck": {
+      "ko": "파우치에 걸린 폰을 고쳐 넣으며 피식",
+      "en": "A caught phone corner earns an amused grin.",
+      "de": "Eine klemmende Telefonecke sorgt für ein Grinsen."
+    },
+    "intro": {
+      "ko": "폰 모서리가 벨트 입구에 잠깐 걸립니다. 손은 여전히 파우치를 정리하고 눈빛은 옆 사람과 웃음을 나눕니다.",
+      "en": "The phone catches briefly on the pouch opening. Her hands keep working while a sideways glance shares the joke.",
+      "de": "Das Telefon bleibt kurz an der Taschenöffnung hängen. Die Hände arbeiten weiter, während ein Seitenblick den kleinen Spaß teilt."
+    },
+    "tip": {
+      "ko": "벨트 지퍼와 상의 밑단이 겹치지 않게 앞쪽을 정리하세요.",
+      "en": "Keep the top hem clear of the belt zip.",
+      "de": "Den Saum des Tops vom Reißverschluss des Gürtels fernhalten."
+    },
+    "pullQuoteEn": "ZIP IT WHEN IT FINALLY FITS."
+  },
+  "products": [
+    {
+      "id": "tank",
+      "producerId": "04-tank",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-04.tank",
+      "appCategory": "top",
+      "name": {
+        "ko": "네이비 러닝 탱크",
+        "en": "Navy running tank",
+        "de": "Marineblaues Lauftop"
+      },
+      "nameKo": "네이비 러닝 탱크",
+      "description": {
+        "ko": "네이비 탱크는 어깨끈이 비틀리지 않게 펴고 벨트 위로 앞자락을 정리하세요.",
+        "en": "Keep the navy tank straps flat and arrange the front clear of the belt.",
+        "de": "Die Träger des marineblauen Tops glatt halten und die Vorderseite oberhalb des Gürtels ordnen."
+      },
+      "howToWear": {
+        "ko": "네이비 탱크는 어깨끈이 비틀리지 않게 펴고 벨트 위로 앞자락을 정리하세요.",
+        "en": "Keep the navy tank straps flat and arrange the front clear of the belt.",
+        "de": "Die Träger des marineblauen Tops glatt halten und die Vorderseite oberhalb des Gürtels ordnen."
+      },
+      "image": "products/tank.webp",
+      "sha256": "508ff374d14eb22c513f6a6ff83d38b841381af2a7b2afb021fed5793130a464",
+      "bytes": 25828,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 04-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cycling-shorts",
+      "producerId": "04-cycling-shorts",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-04.cycling-shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "블랙 피티드 러닝 쇼츠",
+        "en": "Black fitted running shorts",
+        "de": "Schwarze eng anliegende Laufshorts"
+      },
+      "nameKo": "블랙 피티드 러닝 쇼츠",
+      "description": {
+        "ko": "피티드 쇼츠는 허리와 허벅지 밑단이 말리지 않도록 고르게 펴 입으세요.",
+        "en": "Smooth the fitted shorts evenly at the waist and thigh hems so they do not roll.",
+        "de": "Die eng anliegenden Shorts am Bund und an den Oberschenkelsäumen glattziehen, damit sie nicht hochrollen."
+      },
+      "howToWear": {
+        "ko": "피티드 쇼츠는 허리와 허벅지 밑단이 말리지 않도록 고르게 펴 입으세요.",
+        "en": "Smooth the fitted shorts evenly at the waist and thigh hems so they do not roll.",
+        "de": "Die eng anliegenden Shorts am Bund und an den Oberschenkelsäumen glattziehen, damit sie nicht hochrollen."
+      },
+      "image": "products/cycling-shorts.webp",
+      "sha256": "eafa2eeb2d46f02e7ac94de9b4c7e98c114a8048e6886c435c7419d733aeb598",
+      "bytes": 21344,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 04-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-belt",
+      "producerId": "04-running-belt",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-04.running-belt",
+      "appCategory": "gear",
+      "name": {
+        "ko": "블랙 러닝 벨트",
+        "en": "Black running belt",
+        "de": "Schwarzer Laufgürtel"
+      },
+      "nameKo": "블랙 러닝 벨트",
+      "description": {
+        "ko": "러닝 벨트는 파우치를 앞에 두고 폰을 넣은 뒤 지퍼를 끝까지 닫으세요.",
+        "en": "Place the belt pouch at the front and close the zip fully after putting the phone away.",
+        "de": "Die Gürteltasche vorne tragen und den Reißverschluss nach dem Verstauen des Telefons ganz schließen."
+      },
+      "howToWear": {
+        "ko": "러닝 벨트는 파우치를 앞에 두고 폰을 넣은 뒤 지퍼를 끝까지 닫으세요.",
+        "en": "Place the belt pouch at the front and close the zip fully after putting the phone away.",
+        "de": "Die Gürteltasche vorne tragen und den Reißverschluss nach dem Verstauen des Telefons ganz schließen."
+      },
+      "image": "products/running-belt.webp",
+      "sha256": "5b3133c4953cfc1f47f2e2d91176c4d1789fcb2611b11abb0e56c0e518bbc763",
+      "bytes": 22288,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 04-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "04-running-shoes",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-04.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "그레이·화이트 메시 러닝화",
+        "en": "Grey and white mesh running shoes",
+        "de": "Graue und weiße Mesh-Laufschuhe"
+      },
+      "nameKo": "그레이·화이트 메시 러닝화",
+      "description": {
+        "ko": "그레이·화이트 러닝화는 벨트를 맞춘 뒤 몇 걸음 걸어 발등 압박을 확인하세요.",
+        "en": "After adjusting the belt, walk a few steps to check pressure across the grey-and-white shoes.",
+        "de": "Nach dem Anpassen des Gürtels ein paar Schritte gehen und den Druck über dem Spann der grau-weißen Schuhe prüfen."
+      },
+      "howToWear": {
+        "ko": "그레이·화이트 러닝화는 벨트를 맞춘 뒤 몇 걸음 걸어 발등 압박을 확인하세요.",
+        "en": "After adjusting the belt, walk a few steps to check pressure across the grey-and-white shoes.",
+        "de": "Nach dem Anpassen des Gürtels ein paar Schritte gehen und den Druck über dem Spann der grau-weißen Schuhe prüfen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "16ab2abc9f9061bc5c84e462a22801108fc2eff70dbbd0be5e5c0c3b5afcfcd9",
+      "bytes": 44094,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 04-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "04-socks",
+      "appItemId": "coastal-pleasant-f35-day-running-20261029-04.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 앵클 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "nameKo": "화이트 앵클 양말",
+      "description": {
+        "ko": "짧은 화이트 양말은 발목 주름을 펴 피티드 쇼츠 아래를 간결하게 마무리하세요.",
+        "en": "Smooth the short white socks at the ankles for a clean finish below the fitted shorts.",
+        "de": "Die kurzen weißen Socken am Knöchel glätten, damit der Abschluss unter den engen Shorts klar bleibt."
+      },
+      "howToWear": {
+        "ko": "짧은 화이트 양말은 발목 주름을 펴 피티드 쇼츠 아래를 간결하게 마무리하세요.",
+        "en": "Smooth the short white socks at the ankles for a clean finish below the fitted shorts.",
+        "de": "Die kurzen weißen Socken am Knöchel glätten, damit der Abschluss unter den engen Shorts klar bleibt."
+      },
+      "image": "products/socks.webp",
+      "sha256": "9c7db82c7d36fad2b5378d77e08cbf9a000ca73255aada1942b52f4006ea046c",
+      "bytes": 40128,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 승인된 04-editorial-v2-playful.png 노출 부위",
+      "reconstructionNote": "가려진 전체 형태·허리·뒷면·밑창·반대 신발·양말의 발 부분은 추정 복원. 브랜드와 실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}
