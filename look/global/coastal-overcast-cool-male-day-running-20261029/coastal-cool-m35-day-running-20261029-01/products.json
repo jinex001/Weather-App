@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-running-20261029-01",
+  "batchId": "coastal-overcast-cool-male-day-running-20261029",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e6ec58a0dd6effcdb69de0031597bc3ffffbee383f56fe4228aba936f23a85e5",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "longsleeve",
+      "producerId": "01-longsleeve",
+      "nameKo": "슬레이트 블루 기능성 긴소매",
+      "name": {
+        "ko": "슬레이트 블루 기능성 긴소매",
+        "en": "Slate-blue long-sleeve running top",
+        "de": "Schieferblaues Lauf-Langarmshirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-running-20261029-01.longsleeve",
+      "image": "products/longsleeve.webp",
+      "sha256": "e4a32451d236b60256f9b7d442789518c6515bfddd87c1de22247b5a26ee2f32",
+      "bytes": 41642,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "라운드넥·래글런 절개·가는 조직, 긴 소매와 손목 마감 관찰",
+      "reconstructionNote": "숨은 허리밴드·등판·밑창·양말 발 전체 형태는 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "슬레이트 긴소매는 손목에서 멈추게 정리해 끈 묶는 손을 가리지 않게 하세요.",
+        "en": "Keep the slate sleeves at the wrists so they stay clear while tying laces.",
+        "de": "Die schieferblauen Ärmel am Handgelenk halten, damit sie beim Schnüren nicht stören."
+      },
+      "description": {
+        "ko": "슬레이트 긴소매는 손목에서 멈추게 정리해 끈 묶는 손을 가리지 않게 하세요.",
+        "en": "Keep the slate sleeves at the wrists so they stay clear while tying laces.",
+        "de": "Die schieferblauen Ärmel am Handgelenk halten, damit sie beim Schnüren nicht stören."
+      }
+    },
+    {
+      "id": "lined-shorts",
+      "producerId": "01-lined-shorts",
+      "nameKo": "블랙 라이너 일체형 러닝 쇼츠",
+      "name": {
+        "ko": "블랙 라이너 일체형 러닝 쇼츠",
+        "en": "Black running shorts with integrated liner",
+        "de": "Schwarze Laufshorts mit integriertem Innenbein"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-cool-m35-day-running-20261029-01.lined-shorts",
+      "image": "products/lined-shorts.webp",
+      "sha256": "20854ad45281e11b00c812410b315b43f64ec0f630c88f7f005e679e7530e296",
+      "bytes": 22954,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "헐렁한 블랙 겉 쇼츠와 밑으로 보이는 밀착 라이너, 한 품목",
+      "reconstructionNote": "숨은 허리밴드·등판·밑창·양말 발 전체 형태는 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "블랙 쇼츠의 일체형 라이너를 펴고 겉단이 자유롭게 움직이게 두세요.",
+        "en": "Smooth the black shorts' integrated liner and let the outer hems move freely.",
+        "de": "Das integrierte Innenbein der schwarzen Shorts glätten und die äußeren Säume locker lassen."
+      },
+      "description": {
+        "ko": "블랙 쇼츠의 일체형 라이너를 펴고 겉단이 자유롭게 움직이게 두세요.",
+        "en": "Smooth the black shorts' integrated liner and let the outer hems move freely.",
+        "de": "Das integrierte Innenbein der schwarzen Shorts glätten und die äußeren Säume locker lassen."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "01-running-shoes",
+      "nameKo": "화이트·라이트 그레이 메시 러닝화",
+      "name": {
+        "ko": "화이트·라이트 그레이 메시 러닝화",
+        "en": "White and light-grey mesh running shoes",
+        "de": "Weiße und hellgraue Mesh-Laufschuhe"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-running-20261029-01.running-shoes",
+      "image": "products/running-shoes.webp",
+      "sha256": "89f45672b90bca6d51a5f24be26b383249b4616abcd8b58bbe2ded95b38b025a",
+      "bytes": 45082,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "화이트 끈·메시 갑피·그레이 보강·화이트 쿠션 솔, 양쪽 신발 관찰",
+      "reconstructionNote": "숨은 허리밴드·등판·밑창·양말 발 전체 형태는 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "발을 계단에 올린 상태에서 화이트 러닝화 끈을 고르게 맞추세요.",
+        "en": "Adjust the white shoe laces evenly with your foot resting on the step.",
+        "de": "Die weißen Laufschuhe mit dem Fuß auf der Stufe gleichmäßig schnüren."
+      },
+      "description": {
+        "ko": "발을 계단에 올린 상태에서 화이트 러닝화 끈을 고르게 맞추세요.",
+        "en": "Adjust the white shoe laces evenly with your foot resting on the step.",
+        "de": "Die weißen Laufschuhe mit dem Fuß auf der Stufe gleichmäßig schnüren."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "01-socks",
+      "nameKo": "화이트 앵클 스포츠 양말",
+      "name": {
+        "ko": "화이트 앵클 스포츠 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-m35-day-running-20261029-01.socks",
+      "image": "products/socks.webp",
+      "sha256": "764fd6083bb03cfe3f75949a97fac2b208dddfd2bd81024bb6cc1509f22a6877",
+      "bytes": 41258,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "짧은 리브 발목, 양쪽 노출",
+      "reconstructionNote": "숨은 허리밴드·등판·밑창·양말 발 전체 형태는 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "앵클 양말은 뒤꿈치를 맞추고 신발 입구 위에 매끈하게 두세요.",
+        "en": "Align the ankle socks at the heel and keep them smooth above the shoe opening.",
+        "de": "Die Knöchelsocken an der Ferse ausrichten und oberhalb des Schuhrands glatt halten."
+      },
+      "description": {
+        "ko": "앵클 양말은 뒤꿈치를 맞추고 신발 입구 위에 매끈하게 두세요.",
+        "en": "Align the ankle socks at the heel and keep them smooth above the shoe opening.",
+        "de": "Die Knöchelsocken an der Ferse ausrichten und oberhalb des Schuhrands glatt halten."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "바다가 살짝 보이는 골목에서 끈을 묶고",
+      "en": "Laces tied in a lane with a glimpse of the sea.",
+      "de": "Schnürsenkel binden, während am Ende der Gasse das Meer aufblitzt."
+    },
+    "intro": {
+      "ko": "계단에 발을 올리고 러닝화 끈을 다시 맞춥니다. 흐린 해안의 낮에는 긴소매 한 장과 가벼운 쇼츠로 움직임을 간결하게 둡니다.",
+      "en": "He rests a foot on the step to retie his running shoes. One long-sleeve layer and light shorts keep movement simple on an overcast coastal day.",
+      "de": "Mit einem Fuß auf der Stufe schnürt er die Laufschuhe neu. Ein Langarmshirt und leichte Shorts halten die Bewegung am bewölkten Küstentag unkompliziert."
+    },
+    "tip": {
+      "ko": "재킷 없이 달리는 장면에 맞춰 소매와 허리의 여유를 확인하세요.",
+      "en": "For this jacket-free run, check that the sleeves and waist move easily.",
+      "de": "Für diesen Lauf ohne Jacke prüfen, ob Ärmel und Bund Bewegungsfreiheit lassen."
+    },
+    "pullQuoteEn": "ONE KNOT BEFORE THE FIRST STRIDE.",
+    "title": {
+      "ko": "끈부터 가볍게",
+      "en": "Laces before the first stride",
+      "de": "Die Schnürung vor dem ersten Schritt"
+    },
+    "titleEn": "LACES BEFORE THE FIRST STRIDE"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-running-20261029-01",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-male-day-running-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-cool-m35-day-running-20261029-01.longsleeve"
+}

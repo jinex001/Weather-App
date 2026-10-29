@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-minimal-20261029-05",
+  "batchId": "coastal-sunny-pleasant-female-day-minimal-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "15ea56627552ba8978f055cfbdf123de8040f6a8d1027d842bd11e90fbdcc2a8",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "05-shirt",
+      "nameKo": "스카이 블루 셔츠",
+      "name": {
+        "ko": "스카이 블루 셔츠",
+        "en": "Sky-blue shirt",
+        "de": "Hellblaues Hemd"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-05.shirt",
+      "image": "products/shirt.webp",
+      "sha256": "926801412edbb1626ffa0c38a7f492f22ad5f21bae9c02f92ac8ffbd6b0763dd",
+      "bytes": 34776,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 05-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "블루 셔츠는 윗단추를 풀고 소매를 접어 선글라스를 다루는 손목을 비워 주세요.",
+        "en": "Open the blue shirt at the neck and roll the sleeves clear of your wrists while handling the glasses.",
+        "de": "Das blaue Hemd am Hals öffnen und die Ärmel hochrollen, damit die Handgelenke beim Greifen zur Brille frei bleiben."
+      },
+      "description": {
+        "ko": "블루 셔츠는 윗단추를 풀고 소매를 접어 선글라스를 다루는 손목을 비워 주세요.",
+        "en": "Open the blue shirt at the neck and roll the sleeves clear of your wrists while handling the glasses.",
+        "de": "Das blaue Hemd am Hals öffnen und die Ärmel hochrollen, damit die Handgelenke beim Greifen zur Brille frei bleiben."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-trousers",
+      "nameKo": "크림 테일러드 팬츠",
+      "name": {
+        "ko": "크림 테일러드 팬츠",
+        "en": "Cream tailored trousers",
+        "de": "Cremefarbene Stoffhose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-05.trousers",
+      "image": "products/trousers.webp",
+      "sha256": "d45154d1977c42da076ef09b55d6d55b5b2a5c26719993a1d481daf2541d5350",
+      "bytes": 21400,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 05-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "크림 팬츠는 셔츠 밑단을 넣고 앞 주름을 곧게 펴 밝은 실루엣을 만드세요.",
+        "en": "Tuck the shirt into the cream trousers and smooth the front pleats for a light silhouette.",
+        "de": "Das Hemd in die cremefarbene Hose stecken und die vorderen Falten für eine helle Silhouette glätten."
+      },
+      "description": {
+        "ko": "크림 팬츠는 셔츠 밑단을 넣고 앞 주름을 곧게 펴 밝은 실루엣을 만드세요.",
+        "en": "Tuck the shirt into the cream trousers and smooth the front pleats for a light silhouette.",
+        "de": "Das Hemd in die cremefarbene Hose stecken und die vorderen Falten für eine helle Silhouette glätten."
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "05-tote",
+      "nameKo": "초콜릿 레더 토트",
+      "name": {
+        "ko": "초콜릿 레더 토트",
+        "en": "Chocolate leather-look tote",
+        "de": "Schokoladenbraune Tote in Lederoptik"
+      },
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-05.tote",
+      "image": "products/tote.webp",
+      "sha256": "6d9d73132868f497b2cce28ed0ea4624c086dd117157763843b800b4f993316d",
+      "bytes": 30924,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 05-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "키가 큰 레더 룩 토트는 어깨에 메고 입구를 몸 쪽으로 돌려 두세요.",
+        "en": "Carry the tall leather-look tote on your shoulder with the opening turned toward you.",
+        "de": "Die hohe Tote in Lederoptik auf der Schulter tragen und ihre Öffnung zum Körper drehen."
+      },
+      "description": {
+        "ko": "키가 큰 레더 룩 토트는 어깨에 메고 입구를 몸 쪽으로 돌려 두세요.",
+        "en": "Carry the tall leather-look tote on your shoulder with the opening turned toward you.",
+        "de": "Die hohe Tote in Lederoptik auf der Schulter tragen und ihre Öffnung zum Körper drehen."
+      }
+    },
+    {
+      "id": "sunglasses",
+      "producerId": "05-sunglasses",
+      "nameKo": "토터스셸 선글라스",
+      "name": {
+        "ko": "토터스셸 선글라스",
+        "en": "Tortoiseshell sunglasses",
+        "de": "Sonnenbrille in Schildpattoptik"
+      },
+      "appCategory": "eyewear",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-05.sunglasses",
+      "image": "products/sunglasses.webp",
+      "sha256": "ae0fb1a9e40d6435ee2759ebf2286be45ee7480250f3952ee7c8d563c9ac3d43",
+      "bytes": 22026,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 05-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "토터스셸 선글라스는 다리를 양손으로 펼쳐 쓰고, 벗을 때는 렌즈 대신 프레임을 잡으세요.",
+        "en": "Open both temples to put on the tortoiseshell glasses, and hold the frame rather than the lenses when removing them.",
+        "de": "Zum Aufsetzen der Schildpattbrille beide Bügel öffnen und beim Abnehmen den Rahmen statt der Gläser greifen."
+      },
+      "description": {
+        "ko": "토터스셸 선글라스는 다리를 양손으로 펼쳐 쓰고, 벗을 때는 렌즈 대신 프레임을 잡으세요.",
+        "en": "Open both temples to put on the tortoiseshell glasses, and hold the frame rather than the lenses when removing them.",
+        "de": "Zum Aufsetzen der Schildpattbrille beide Bügel öffnen und beim Abnehmen den Rahmen statt der Gläser greifen."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "선글라스를 펼치며 잠깐 멈춘 문 앞",
+      "en": "A pause at the door to unfold the sunglasses.",
+      "de": "An der Tür kurz die Sonnenbrille aufklappen."
+    },
+    "intro": {
+      "ko": "문 앞에서 선글라스 다리를 펼치며 다시 나설 준비를 합니다. 페일 블루와 크림 사이에 브라운 토트가 깊은 색을 더합니다.",
+      "en": "At the doorway, she unfolds the sunglasses before moving on. A brown tote adds depth between pale blue and cream.",
+      "de": "An der Haustür klappt sie die Sonnenbrille auf, bevor es weitergeht. Eine braune Tote verleiht Hellblau und Creme Tiefe."
+    },
+    "tip": {
+      "ko": "선글라스는 프레임을 잡고 다리를 펼쳐 렌즈에 손자국이 남지 않게 하세요.",
+      "en": "Hold the frame when unfolding the glasses to keep fingerprints off the lenses.",
+      "de": "Beim Aufklappen der Brille den Rahmen greifen, damit keine Fingerabdrücke auf die Gläser kommen."
+    },
+    "pullQuoteEn": "GLASSES OPEN, READY TO GO.",
+    "title": {
+      "ko": "문 앞의 선글라스",
+      "en": "Sunglasses at the doorway",
+      "de": "Die Sonnenbrille an der Haustür"
+    },
+    "titleEn": "SUNGLASSES AT THE DOORWAY"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-minimal-20261029-05",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-female-day-minimal-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-pleasant-f35-day-minimal-20261029-05.sunglasses",
+  "unexposedFootwear": "Not generated or mapped; outside editorial crop."
+}

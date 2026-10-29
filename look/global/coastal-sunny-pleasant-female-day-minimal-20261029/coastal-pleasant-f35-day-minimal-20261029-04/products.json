@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-minimal-20261029-04",
+  "batchId": "coastal-sunny-pleasant-female-day-minimal-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b754ccc2b411cb6e6923ff050ff7d6a1c112a9eea22a260e620726e9fac36f7d",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "knit",
+      "producerId": "04-knit",
+      "nameKo": "네이비 반팔 니트",
+      "name": {
+        "ko": "네이비 반팔 니트",
+        "en": "Navy short-sleeve knit",
+        "de": "Marineblauer Kurzarm-Strickpullover"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-04.knit",
+      "image": "products/knit.webp",
+      "sha256": "248cace280a46bed7e283fb411fa6198638f60eb25448a33b51f119a0cdaab6f",
+      "bytes": 25396,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 04-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "네이비 반팔 니트는 허리선을 정리해 밝은 팬츠와 경계를 또렷하게 두세요.",
+        "en": "Neaten the navy knit at the waist to define its edge against the pale trousers.",
+        "de": "Den marineblauen Strick am Bund ordnen, damit die Grenze zur hellen Hose klar bleibt."
+      },
+      "description": {
+        "ko": "네이비 반팔 니트는 허리선을 정리해 밝은 팬츠와 경계를 또렷하게 두세요.",
+        "en": "Neaten the navy knit at the waist to define its edge against the pale trousers.",
+        "de": "Den marineblauen Strick am Bund ordnen, damit die Grenze zur hellen Hose klar bleibt."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-trousers",
+      "nameKo": "라이트 스톤 팬츠",
+      "name": {
+        "ko": "라이트 스톤 팬츠",
+        "en": "Light-stone trousers",
+        "de": "Steinhelle Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-04.trousers",
+      "image": "products/trousers.webp",
+      "sha256": "265a3d5337c04a683d2eb566f2154eed144291d0d8d6cdcf30290e1559d1221f",
+      "bytes": 23448,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 04-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "스톤 팬츠는 앉았을 때 무릎과 허벅지가 편하도록 여유 있게 입으세요.",
+        "en": "Leave room through the stone trousers' knees and thighs when seated.",
+        "de": "Die steinfarbene Hose an Knie und Oberschenkel im Sitzen locker tragen."
+      },
+      "description": {
+        "ko": "스톤 팬츠는 앉았을 때 무릎과 허벅지가 편하도록 여유 있게 입으세요.",
+        "en": "Leave room through the stone trousers' knees and thighs when seated.",
+        "de": "Die steinfarbene Hose an Knie und Oberschenkel im Sitzen locker tragen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "04-loafers",
+      "nameKo": "블랙 페니 로퍼",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-04.loafers",
+      "image": "products/loafers.webp",
+      "sha256": "e5b09c2ea20c6e2e3315c2362e23502e2a9573a9bf5e4daabdbde23203be0803",
+      "bytes": 33572,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 04-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "블랙 페니 로퍼는 밝은 밑단 아래 드러내 니트와 어두운 톤을 이어 주세요.",
+        "en": "Show the black penny loafers below the pale hems to echo the dark knit.",
+        "de": "Die schwarzen Pennyloafer unter den hellen Säumen zeigen, damit sie den dunklen Strick aufgreifen."
+      },
+      "description": {
+        "ko": "블랙 페니 로퍼는 밝은 밑단 아래 드러내 니트와 어두운 톤을 이어 주세요.",
+        "en": "Show the black penny loafers below the pale hems to echo the dark knit.",
+        "de": "Die schwarzen Pennyloafer unter den hellen Säumen zeigen, damit sie den dunklen Strick aufgreifen."
+      }
+    },
+    {
+      "id": "bag",
+      "producerId": "04-bag",
+      "nameKo": "블랙 숄더백",
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-04.bag",
+      "image": "products/bag.webp",
+      "sha256": "6d7acd6a656f292abcbe0fc5636c5248cfe1e618fdee2b71d08f99dfb75401e5",
+      "bytes": 31068,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 04-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "블랙 숄더백은 팔 뒤로 살짝 돌려 책을 펼칠 무릎 공간을 비워 두세요.",
+        "en": "Move the black shoulder bag slightly behind your arm to make room for the open book.",
+        "de": "Die schwarze Schultertasche leicht hinter den Arm schieben, damit das offene Buch Platz hat."
+      },
+      "description": {
+        "ko": "블랙 숄더백은 팔 뒤로 살짝 돌려 책을 펼칠 무릎 공간을 비워 두세요.",
+        "en": "Move the black shoulder bag slightly behind your arm to make room for the open book.",
+        "de": "Die schwarze Schultertasche leicht hinter den Arm schieben, damit das offene Buch Platz hat."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "돌담에 앉아 책장을 넘기는 낮",
+      "en": "A page turns during a seat on the stone wall.",
+      "de": "Auf der Steinmauer eine Buchseite umblättern."
+    },
+    "intro": {
+      "ko": "돌담에 앉아 책을 펼치면 골목의 속도가 잠깐 느려집니다. 네이비와 밝은 팬츠의 또렷한 대비가 작은 독서 시간을 차분하게 감쌉니다.",
+      "en": "An open book on the stone wall slows the lane for a moment. Clear contrast between navy and pale trousers frames a quiet reading break.",
+      "de": "Ein offenes Buch auf der Steinmauer verlangsamt die Gasse für einen Moment. Der klare Kontrast von Marineblau und heller Hose begleitet die ruhige Lesepause."
+    },
+    "tip": {
+      "ko": "숄더백을 팔 뒤로 옮겨 책을 펼칠 자리를 만드세요.",
+      "en": "Move the shoulder bag behind your arm to make room for the book.",
+      "de": "Die Schultertasche hinter den Arm schieben, damit das Buch Platz hat."
+    },
+    "pullQuoteEn": "JUST ONE MORE PAGE.",
+    "title": {
+      "ko": "책 한 장의 여유",
+      "en": "A page before moving on",
+      "de": "Eine Seite vor dem Weitergehen"
+    },
+    "titleEn": "A PAGE BEFORE MOVING ON"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-minimal-20261029-04",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-female-day-minimal-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-pleasant-f35-day-minimal-20261029-04.knit"
+}

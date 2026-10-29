@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-running-20261029-04",
+  "batchId": "coastal-overcast-cool-male-day-running-20261029",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "22f0febcbcf003d5ff2acc7177fd88495c6383c590e7ea74bda143f18bd42d11",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "04-tee",
+      "nameKo": "버건디 기능성 반소매",
+      "name": {
+        "ko": "버건디 기능성 반소매",
+        "en": "Burgundy short-sleeve running top",
+        "de": "Burgunderfarbenes Laufshirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-running-20261029-04.tee",
+      "image": "products/tee.webp",
+      "sha256": "7cd664ff6095436ebed556bcbe6f80d54269986ef334cdd758e86051d66c2360",
+      "bytes": 37170,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "래글런 절개·크루넥·잔 메시 조직 관찰",
+      "reconstructionNote": "숨은 벨트 버클·뒤 스트랩·반대 신발·쇼츠 허리·밑창 등은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "버건디 반소매 앞자락을 벨트 위로 정리해 파우치 지퍼를 비워 두세요.",
+        "en": "Keep the burgundy tee clear of the belt pouch zip.",
+        "de": "Den Saum des burgunderfarbenen Shirts vom Reißverschluss der Gürteltasche fernhalten."
+      },
+      "description": {
+        "ko": "버건디 반소매 앞자락을 벨트 위로 정리해 파우치 지퍼를 비워 두세요.",
+        "en": "Keep the burgundy tee clear of the belt pouch zip.",
+        "de": "Den Saum des burgunderfarbenen Shirts vom Reißverschluss der Gürteltasche fernhalten."
+      }
+    },
+    {
+      "id": "lined-shorts",
+      "producerId": "04-lined-shorts",
+      "nameKo": "블랙 라이너 일체형 러닝 쇼츠",
+      "name": {
+        "ko": "블랙 라이너 일체형 러닝 쇼츠",
+        "en": "Black running shorts with integrated liner",
+        "de": "Schwarze Laufshorts mit integriertem Innenbein"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-cool-m35-day-running-20261029-04.lined-shorts",
+      "image": "products/lined-shorts.webp",
+      "sha256": "9676a55b2447f0fb60192164eb417dc320d978f0e3e035fc538110f49d3cf17c",
+      "bytes": 26992,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "겉 쇼츠와 조금 내려오는 밀착 라이너, 한 품목",
+      "reconstructionNote": "숨은 벨트 버클·뒤 스트랩·반대 신발·쇼츠 허리·밑창 등은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "라이너 일체형 쇼츠는 안쪽 다리 부분을 먼저 펴고 겉 쇼츠를 내려 주세요.",
+        "en": "Smooth the integrated liner first, then let the outer shorts fall over it.",
+        "de": "Zuerst das integrierte Innenbein glätten und dann die äußeren Shorts darüber fallen lassen."
+      },
+      "description": {
+        "ko": "라이너 일체형 쇼츠는 안쪽 다리 부분을 먼저 펴고 겉 쇼츠를 내려 주세요.",
+        "en": "Smooth the integrated liner first, then let the outer shorts fall over it.",
+        "de": "Zuerst das integrierte Innenbein glätten und dann die äußeren Shorts darüber fallen lassen."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "04-running-shoes",
+      "nameKo": "그레이·화이트 메시 러닝화",
+      "name": {
+        "ko": "그레이·화이트 메시 러닝화",
+        "en": "Grey and white mesh running shoes",
+        "de": "Graue und weiße Mesh-Laufschuhe"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-running-20261029-04.running-shoes",
+      "image": "products/running-shoes.webp",
+      "sha256": "454c394b038c9d767ffa5a1f84c2cb8323605a15dc5b54f3a2e6a333e099348e",
+      "bytes": 49728,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "뒤쪽 다리 신발 일부·끈·메시·화이트 솔 관찰",
+      "reconstructionNote": "숨은 벨트 버클·뒤 스트랩·반대 신발·쇼츠 허리·밑창 등은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "그레이·화이트 러닝화는 벨트를 맞춘 뒤 짧게 걸어 발등 압박을 확인하세요.",
+        "en": "After adjusting the belt, take a short walk to check pressure across the grey-and-white shoes.",
+        "de": "Nach dem Anpassen des Gürtels kurz gehen und den Druck über dem Spann der grau-weißen Schuhe prüfen."
+      },
+      "description": {
+        "ko": "그레이·화이트 러닝화는 벨트를 맞춘 뒤 짧게 걸어 발등 압박을 확인하세요.",
+        "en": "After adjusting the belt, take a short walk to check pressure across the grey-and-white shoes.",
+        "de": "Nach dem Anpassen des Gürtels kurz gehen und den Druck über dem Spann der grau-weißen Schuhe prüfen."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "04-socks",
+      "nameKo": "화이트 앵클 스포츠 양말",
+      "name": {
+        "ko": "화이트 앵클 스포츠 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-m35-day-running-20261029-04.socks",
+      "image": "products/socks.webp",
+      "sha256": "366d86402096545c7f4e31b33d681ab74f670a05f5493e131192848f976e34c8",
+      "bytes": 42018,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "뒤쪽 리브 발목 관찰",
+      "reconstructionNote": "숨은 벨트 버클·뒤 스트랩·반대 신발·쇼츠 허리·밑창 등은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "짧은 양말은 쇼츠와 함께 발목을 깔끔하게 드러내도록 당겨 주세요.",
+        "en": "Pull the short socks smooth to keep a clean ankle line below the shorts.",
+        "de": "Die kurzen Socken glattziehen, damit unter den Shorts eine klare Knöchellinie bleibt."
+      },
+      "description": {
+        "ko": "짧은 양말은 쇼츠와 함께 발목을 깔끔하게 드러내도록 당겨 주세요.",
+        "en": "Pull the short socks smooth to keep a clean ankle line below the shorts.",
+        "de": "Die kurzen Socken glattziehen, damit unter den Shorts eine klare Knöchellinie bleibt."
+      }
+    },
+    {
+      "id": "running-belt",
+      "producerId": "04-running-belt",
+      "nameKo": "블랙 러닝 벨트",
+      "name": {
+        "ko": "블랙 러닝 벨트",
+        "en": "Black running belt",
+        "de": "Schwarzer Laufgürtel"
+      },
+      "appCategory": "gear",
+      "appItemId": "coastal-cool-m35-day-running-20261029-04.running-belt",
+      "image": "products/running-belt.webp",
+      "sha256": "a89d20312f596a30211f0bb86337b0833eb973a003f1f277ebbd84b44957875d",
+      "bytes": 17904,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "낮은 가로 파우치·전면 지퍼·블랙 스트랩 관찰",
+      "reconstructionNote": "숨은 벨트 버클·뒤 스트랩·반대 신발·쇼츠 허리·밑창 등은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "블랙 러닝 벨트는 파우치를 앞에 두고 흔들리지 않을 정도로만 조절하세요.",
+        "en": "Place the black belt pouch at the front and tighten only enough to limit bouncing.",
+        "de": "Die schwarze Gürteltasche vorne tragen und nur so fest einstellen, dass sie wenig wippt."
+      },
+      "description": {
+        "ko": "블랙 러닝 벨트는 파우치를 앞에 두고 흔들리지 않을 정도로만 조절하세요.",
+        "en": "Place the black belt pouch at the front and tighten only enough to limit bouncing.",
+        "de": "Die schwarze Gürteltasche vorne tragen und nur so fest einstellen, dass sie wenig wippt."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "허리 벨트에 작은 준비를 마치고",
+      "en": "A final adjustment at the running belt.",
+      "de": "Die letzte Einstellung am Laufgürtel."
+    },
+    "intro": {
+      "ko": "러닝 벨트의 지퍼를 닫고 손을 비웁니다. 버건디가 흐린 골목에 깊은 색을 더하고 짧은 하의가 발걸음을 가볍게 둡니다.",
+      "en": "He closes the running belt and frees his hands. Burgundy adds depth to the grey lane while short hems keep the stride easy.",
+      "de": "Er schließt den Laufgürtel und hat die Hände frei. Burgunder bringt Tiefe in die graue Gasse, während kurze Säume den Schritt leicht halten."
+    },
+    "tip": {
+      "ko": "벨트와 티셔츠가 겹치는 부분을 펴 지퍼가 걸리지 않게 하세요.",
+      "en": "Smooth the tee where it meets the belt so the zip stays clear.",
+      "de": "Das Shirt am Übergang zum Gürtel glätten, damit der Reißverschluss frei bleibt."
+    },
+    "pullQuoteEn": "HANDS FREE, READY TO MOVE.",
+    "title": {
+      "ko": "벨트를 닫고 가볍게",
+      "en": "Zip up and move lightly",
+      "de": "Schließen und leicht loslaufen"
+    },
+    "titleEn": "ZIP UP AND MOVE LIGHTLY"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-running-20261029-04",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-male-day-running-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-cool-m35-day-running-20261029-04.tee"
+}

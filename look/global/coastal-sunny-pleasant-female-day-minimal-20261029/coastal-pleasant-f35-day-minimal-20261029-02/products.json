@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-minimal-20261029-02",
+  "batchId": "coastal-sunny-pleasant-female-day-minimal-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "9593bde3ae5c95ff3557350c477ae1e575b41b1553260fe2b29a7428c27eb749",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "knit",
+      "producerId": "02-knit",
+      "nameKo": "버터 옐로 반팔 니트",
+      "name": {
+        "ko": "버터 옐로 반팔 니트",
+        "en": "Butter-yellow short-sleeve knit",
+        "de": "Buttergelber Kurzarm-Strickpullover"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-02.knit",
+      "image": "products/knit.webp",
+      "sha256": "25391688fd851387ad323026146a657f33529b0aa060126cffc8a0d8d321ddaf",
+      "bytes": 30026,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 02-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "옐로 니트는 밝은 팬츠 안에 살짝 넣어 앉았을 때 허리 부분을 정리하세요.",
+        "en": "Lightly tuck the yellow knit into the pale trousers for a tidy waist when seated.",
+        "de": "Den gelben Strickpullover leicht in die helle Hose stecken, damit die Taille im Sitzen ordentlich bleibt."
+      },
+      "description": {
+        "ko": "옐로 니트는 밝은 팬츠 안에 살짝 넣어 앉았을 때 허리 부분을 정리하세요.",
+        "en": "Lightly tuck the yellow knit into the pale trousers for a tidy waist when seated.",
+        "de": "Den gelben Strickpullover leicht in die helle Hose stecken, damit die Taille im Sitzen ordentlich bleibt."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "nameKo": "아이보리 팬츠",
+      "name": {
+        "ko": "아이보리 팬츠",
+        "en": "Ivory trousers",
+        "de": "Elfenbeinfarbene Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-02.trousers",
+      "image": "products/trousers.webp",
+      "sha256": "bcca5169cf7dbe1c098e70efe0de766766c618d22dc6d5612f62384c7ce91b48",
+      "bytes": 20738,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 02-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "아이보리 팬츠는 무릎에 여유가 남는 폭으로 골라 계단에서 편하게 앉으세요.",
+        "en": "Choose ivory trousers with room at the knee for sitting comfortably on the step.",
+        "de": "Die elfenbeinfarbene Hose mit Platz am Knie wählen, damit das Sitzen auf der Stufe bequem bleibt."
+      },
+      "description": {
+        "ko": "아이보리 팬츠는 무릎에 여유가 남는 폭으로 골라 계단에서 편하게 앉으세요.",
+        "en": "Choose ivory trousers with room at the knee for sitting comfortably on the step.",
+        "de": "Die elfenbeinfarbene Hose mit Platz am Knie wählen, damit das Sitzen auf der Stufe bequem bleibt."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-loafers",
+      "nameKo": "다크 브라운 페니 로퍼",
+      "name": {
+        "ko": "다크 브라운 페니 로퍼",
+        "en": "Dark brown penny loafers",
+        "de": "Dunkelbraune Pennyloafer"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-02.loafers",
+      "image": "products/loafers.webp",
+      "sha256": "beff4780b020dd5f8902efa289bf43fac95b8ef8c4753f24818b447b97e8d5c0",
+      "bytes": 37822,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 02-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "다크 브라운 페니 로퍼 위로 팬츠 밑단을 발목에 맞춰 두세요.",
+        "en": "Let the trouser hems finish at the ankle above the dark brown penny loafers.",
+        "de": "Die Hosensäume am Knöchel oberhalb der dunkelbraunen Pennyloafer enden lassen."
+      },
+      "description": {
+        "ko": "다크 브라운 페니 로퍼 위로 팬츠 밑단을 발목에 맞춰 두세요.",
+        "en": "Let the trouser hems finish at the ankle above the dark brown penny loafers.",
+        "de": "Die Hosensäume am Knöchel oberhalb der dunkelbraunen Pennyloafer enden lassen."
+      }
+    },
+    {
+      "id": "bag",
+      "producerId": "02-bag",
+      "nameKo": "탄 크로스백",
+      "name": {
+        "ko": "탄 크로스백",
+        "en": "Tan crossbody bag",
+        "de": "Cognacfarbene Umhängetasche"
+      },
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-02.bag",
+      "image": "products/bag.webp",
+      "sha256": "c7a681c2d314f66977cce813d4d14d3df89344ff37563b2a088440f16179c35f",
+      "bytes": 44886,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 02-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "탄 크로스백은 허리 옆에 고정해 꽃 포장을 만지는 손과 겹치지 않게 하세요.",
+        "en": "Set the tan crossbody at your hip, clear of your hands as you arrange the flowers.",
+        "de": "Die cognacfarbene Umhängetasche seitlich an der Hüfte tragen, damit sie beim Richten der Blumen nicht stört."
+      },
+      "description": {
+        "ko": "탄 크로스백은 허리 옆에 고정해 꽃 포장을 만지는 손과 겹치지 않게 하세요.",
+        "en": "Set the tan crossbody at your hip, clear of your hands as you arrange the flowers.",
+        "de": "Die cognacfarbene Umhängetasche seitlich an der Hüfte tragen, damit sie beim Richten der Blumen nicht stört."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "꽃 포장지를 정리하는 햇빛 속 잠깐",
+      "en": "A sunny pause to fold the paper around the flowers.",
+      "de": "Eine sonnige Pause zum Richten des Blumenpapiers."
+    },
+    "intro": {
+      "ko": "낮은 계단에 앉아 꽃 포장지를 다시 접습니다. 옐로와 아이보리의 밝은 면에 브라운 가방이 따뜻한 중심을 더합니다.",
+      "en": "She sits on the low step and folds the flower wrapping back into place. A brown bag anchors the bright yellow and ivory palette.",
+      "de": "Auf der niedrigen Stufe faltet sie die Blumenhülle zurecht. Eine braune Tasche gibt der hellen Palette aus Gelb und Elfenbein Halt."
+    },
+    "tip": {
+      "ko": "앉을 때는 크로스백을 허리 옆으로 보내 무릎을 비워 두세요.",
+      "en": "Move the crossbody to your hip before sitting to clear your lap.",
+      "de": "Die Umhängetasche vor dem Hinsetzen zur Hüfte schieben, damit der Schoß frei bleibt."
+    },
+    "pullQuoteEn": "FLOWERS ARE A GOOD REASON TO STOP.",
+    "title": {
+      "ko": "꽃을 위한 계단",
+      "en": "A step set aside for flowers",
+      "de": "Eine Stufe für die Blumen"
+    },
+    "titleEn": "A STEP SET ASIDE FOR FLOWERS"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-minimal-20261029-02",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-female-day-minimal-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-pleasant-f35-day-minimal-20261029-02.knit"
+}

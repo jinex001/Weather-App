@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-running-20261029-02",
+  "batchId": "coastal-overcast-cool-male-day-running-20261029",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "2c5ee1bc462f4e35e2812b5ac68faad4ab8a68050f4683babd6dfbb52e2af73c",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "02-tee",
+      "nameKo": "올리브 기능성 반소매",
+      "name": {
+        "ko": "올리브 기능성 반소매",
+        "en": "Olive short-sleeve running top",
+        "de": "Olivgrünes Laufshirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-running-20261029-02.tee",
+      "image": "products/tee.webp",
+      "sha256": "d5689ac4b020060dba31b39a81cc776d06928349b9e736cf87ffe5ee584e2d1f",
+      "bytes": 34472,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "라운드넥·래글런 소매·미세한 메시 조직 관찰",
+      "reconstructionNote": "가려진 허리·쇼츠 안감·반대 신발·뒷면·밑창·양말 발은 추정; 미노출 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "올리브 반소매는 몸통에 가볍게 여유를 두어 물병을 들어도 당기지 않게 하세요.",
+        "en": "Leave a little room through the olive tee so it does not pull as you lift the bottle.",
+        "de": "Das olivfarbene Shirt am Rumpf locker tragen, damit es beim Anheben der Flasche nicht spannt."
+      },
+      "description": {
+        "ko": "올리브 반소매는 몸통에 가볍게 여유를 두어 물병을 들어도 당기지 않게 하세요.",
+        "en": "Leave a little room through the olive tee so it does not pull as you lift the bottle.",
+        "de": "Das olivfarbene Shirt am Rumpf locker tragen, damit es beim Anheben der Flasche nicht spannt."
+      }
+    },
+    {
+      "id": "shorts",
+      "producerId": "02-shorts",
+      "nameKo": "네이비 러닝 쇼츠",
+      "name": {
+        "ko": "네이비 러닝 쇼츠",
+        "en": "Navy running shorts",
+        "de": "Marineblaue Laufshorts"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-cool-m35-day-running-20261029-02.shorts",
+      "image": "products/shorts.webp",
+      "sha256": "8d43100e792c32b13462c0e1df2d1f020473bffb38bedcc763dfae574ce78c1a",
+      "bytes": 25650,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "짧은 기장·옆 트임·가벼운 겉감 관찰. 별도 라이너는 확정하지 않음",
+      "reconstructionNote": "가려진 허리·쇼츠 안감·반대 신발·뒷면·밑창·양말 발은 추정; 미노출 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "네이비 쇼츠는 허리끈을 편하게 조이고 옆 트임을 펼쳐 두세요.",
+        "en": "Set the navy shorts' drawstring comfortably and keep the side splits open.",
+        "de": "Den Kordelzug der marineblauen Shorts bequem einstellen und die Seitenschlitze frei lassen."
+      },
+      "description": {
+        "ko": "네이비 쇼츠는 허리끈을 편하게 조이고 옆 트임을 펼쳐 두세요.",
+        "en": "Set the navy shorts' drawstring comfortably and keep the side splits open.",
+        "de": "Den Kordelzug der marineblauen Shorts bequem einstellen und die Seitenschlitze frei lassen."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "02-running-shoes",
+      "nameKo": "라이트 그레이 메시 러닝화",
+      "name": {
+        "ko": "라이트 그레이 메시 러닝화",
+        "en": "Light-grey mesh running shoes",
+        "de": "Hellgraue Mesh-Laufschuhe"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-running-20261029-02.running-shoes",
+      "image": "products/running-shoes.webp",
+      "sha256": "ccfceb5195dd25f675d8362d70a30840bbacb85b3f50bb058e31bb8332fd3b0b",
+      "bytes": 47352,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "뒤쪽 다리 신발 일부와 메시·끈·화이트 솔 관찰",
+      "reconstructionNote": "가려진 허리·쇼츠 안감·반대 신발·뒷면·밑창·양말 발은 추정; 미노출 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "라이트 그레이 러닝화는 휴식 후 다시 출발하기 전에 발뒤꿈치가 뜨지 않는지 확인하세요.",
+        "en": "Before moving on, check that your heel sits securely in the light-grey running shoes.",
+        "de": "Vor dem Weiterlaufen prüfen, ob die Ferse in den hellgrauen Laufschuhen sicher sitzt."
+      },
+      "description": {
+        "ko": "라이트 그레이 러닝화는 휴식 후 다시 출발하기 전에 발뒤꿈치가 뜨지 않는지 확인하세요.",
+        "en": "Before moving on, check that your heel sits securely in the light-grey running shoes.",
+        "de": "Vor dem Weiterlaufen prüfen, ob die Ferse in den hellgrauen Laufschuhen sicher sitzt."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "02-socks",
+      "nameKo": "화이트 앵클 스포츠 양말",
+      "name": {
+        "ko": "화이트 앵클 스포츠 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-m35-day-running-20261029-02.socks",
+      "image": "products/socks.webp",
+      "sha256": "2eaa1a7d00a2d24fb35bad58d72c928aed687a163c91fbf514163dbb00adb939",
+      "bytes": 35604,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "뒤쪽 발목 부분 관찰",
+      "reconstructionNote": "가려진 허리·쇼츠 안감·반대 신발·뒷면·밑창·양말 발은 추정; 미노출 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "화이트 양말 윗단은 양쪽 발목에서 같은 높이로 맞춰 주세요.",
+        "en": "Set the white sock cuffs at the same height on both ankles.",
+        "de": "Die weißen Sockenbündchen an beiden Knöcheln auf gleiche Höhe bringen."
+      },
+      "description": {
+        "ko": "화이트 양말 윗단은 양쪽 발목에서 같은 높이로 맞춰 주세요.",
+        "en": "Set the white sock cuffs at the same height on both ankles.",
+        "de": "Die weißen Sockenbündchen an beiden Knöcheln auf gleiche Höhe bringen."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "담장 옆에서 물을 마시는 짧은 휴식",
+      "en": "A short water break beside the sea wall.",
+      "de": "Eine kurze Trinkpause an der Mauer zum Meer."
+    },
+    "intro": {
+      "ko": "담장 옆에 멈춰 물병을 들어 올립니다. 올리브와 네이비의 차분한 대비가 탁 트인 바다를 배경으로 이어집니다.",
+      "en": "He pauses by the wall and lifts the water bottle. A quiet olive-and-navy contrast carries through against the open sea.",
+      "de": "An der Mauer hält er an und hebt die Wasserflasche. Der ruhige Kontrast aus Oliv und Marineblau setzt sich vor dem offenen Meer fort."
+    },
+    "tip": {
+      "ko": "다시 출발하기 전에 옷이 허리에서 말리지 않았는지 정리하세요.",
+      "en": "Before moving on, smooth any fabric rolled up at the waist.",
+      "de": "Vor dem Weiterlaufen hochgerollten Stoff am Bund glattziehen."
+    },
+    "pullQuoteEn": "A SIP, THEN THE NEXT STRETCH.",
+    "title": {
+      "ko": "물 한 모금 뒤 다시",
+      "en": "A sip before moving on",
+      "de": "Ein Schluck vor dem Weiterlaufen"
+    },
+    "titleEn": "A SIP BEFORE MOVING ON"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-running-20261029-02",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-male-day-running-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-cool-m35-day-running-20261029-02.tee"
+}
