@@ -521,3 +521,8 @@ b179 검토 때 보고한 02 제품 컷(칼라 + 조임끈만)을 상위 작업�
 ## b185 · Coastal four-set publication — 2026-10-29
 
 User explicitly requested direct Codex publication without Claude. Added 20 daytime looks and 94 transparent products in four separate global batch paths/modules: cool cloudy male minimal, cool cloudy female running, cool cloudy male running, pleasant clear female minimal. ko/en/de per-product notes are distinct; source copy preserved. Existing IDs, assets and selector logic unchanged. 291 looks / 1,728 items; 114 new image hashes, 6,480 selector cases and missing cutouts 0 checked. [Validation](design/coastal-four-sets-20261029-validation.md). Actual live deployment and iCloud verification are tracked externally after publication.
+
+
+## b186 · Sunny coastal female daytime running — playful v2
+
+User approved playful-v2 editorials and direct Codex publication without Claude Code.5 looks/22 products/27 image assets, localized ko/en/de notes and scene copy, clear/pleasant/run/f/35/day. Asset path look/global/coastal-sunny-pleasant-female-day-running-20261029/; standalone module before cutouts. 296 looks/1,750 items;6,480 selector cases;2,170 existing images unchanged; missing cutouts0. [Validation](design/coastal-sunny-pleasant-female-day-running-20261029-validation.md). Original archives and actual live/Notion completion remain independently verified by the parent workflow.

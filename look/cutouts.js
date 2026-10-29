@@ -5,6 +5,12 @@
 (function () {
   var L = window.WX_LOOKS; if (!L) return;
   var CUTS = {
+"coastal-pleasant-f35-day-running-20261029-01.tee": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-01/products/tee.webp", 0.537],
+"coastal-pleasant-f35-day-running-20261029-02.tank": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-02/products/tank.webp", 0.551],
+"coastal-pleasant-f35-day-running-20261029-03.tee": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-03/products/tee.webp", 0.682],
+"coastal-pleasant-f35-day-running-20261029-04.tank": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-04/products/tank.webp", 0.187],
+"coastal-pleasant-f35-day-running-20261029-05.tee": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-05/products/tee.webp", 0.654],
+
 "coastal-cool-m35-day-minimal-20261028-01.blazer": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-01/products/blazer.webp", 0.201],
 "coastal-cool-m35-day-minimal-20261028-02.zip-jacket": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-02/products/zip-jacket.webp", 0.68],
 "coastal-cool-m35-day-minimal-20261028-03.collarless-jacket": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-03/products/collarless-jacket.webp", 0.373],
@@ -1072,6 +1078,12 @@
     ]
 };
   var HERO = {
+"coastal-pleasant-f35-day-running-20261029-01": "coastal-pleasant-f35-day-running-20261029-01.tee",
+"coastal-pleasant-f35-day-running-20261029-02": "coastal-pleasant-f35-day-running-20261029-02.tank",
+"coastal-pleasant-f35-day-running-20261029-03": "coastal-pleasant-f35-day-running-20261029-03.tee",
+"coastal-pleasant-f35-day-running-20261029-04": "coastal-pleasant-f35-day-running-20261029-04.tank",
+"coastal-pleasant-f35-day-running-20261029-05": "coastal-pleasant-f35-day-running-20261029-05.tee",
+
 "coastal-cool-m35-day-minimal-20261028-01": "coastal-cool-m35-day-minimal-20261028-01.blazer",
 "coastal-cool-m35-day-minimal-20261028-02": "coastal-cool-m35-day-minimal-20261028-02.zip-jacket",
 "coastal-cool-m35-day-minimal-20261028-03": "coastal-cool-m35-day-minimal-20261028-03.collarless-jacket",
