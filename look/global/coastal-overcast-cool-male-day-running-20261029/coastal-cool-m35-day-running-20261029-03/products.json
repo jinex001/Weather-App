@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-running-20261029-03",
+  "batchId": "coastal-overcast-cool-male-day-running-20261029",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "93f0a4324a7fe2bb48c4593d3496c4e3d0a2daaab195fe70451adc89075deca3",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "longsleeve",
+      "producerId": "03-longsleeve",
+      "nameKo": "더스티 블루 기능성 긴소매",
+      "name": {
+        "ko": "더스티 블루 기능성 긴소매",
+        "en": "Dusty-blue long-sleeve running top",
+        "de": "Staubblaues Lauf-Langarmshirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-running-20261029-03.longsleeve",
+      "image": "products/longsleeve.webp",
+      "sha256": "f9aee01445029d82d87c4f16340221001db9863dc139103bbb57d78c7a6494b4",
+      "bytes": 36388,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "실제 사진은 채도 낮은 블루. 원래 코발트 프롬프트보다 관찰색 우선",
+      "reconstructionNote": "팬츠 허리·뒤쪽 디테일·신발 밑창·양말 발은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "더스티 블루 긴소매는 앉았을 때 밑단이 말리지 않도록 펴 주세요.",
+        "en": "Smooth the dusty-blue top's hem so it does not roll up when seated.",
+        "de": "Den Saum des staubblauen Langarmshirts im Sitzen glatt halten, damit er nicht hochrollt."
+      },
+      "description": {
+        "ko": "더스티 블루 긴소매는 앉았을 때 밑단이 말리지 않도록 펴 주세요.",
+        "en": "Smooth the dusty-blue top's hem so it does not roll up when seated.",
+        "de": "Den Saum des staubblauen Langarmshirts im Sitzen glatt halten, damit er nicht hochrollt."
+      }
+    },
+    {
+      "id": "running-pants",
+      "producerId": "03-running-pants",
+      "nameKo": "차콜 테이퍼드 러닝 팬츠",
+      "name": {
+        "ko": "차콜 테이퍼드 러닝 팬츠",
+        "en": "Charcoal tapered running trousers",
+        "de": "Anthrazitfarbene schmal zulaufende Laufhose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-running-20261029-03.running-pants",
+      "image": "products/running-pants.webp",
+      "sha256": "844a30611e88d7d0c5a839f1ff65d2493bcf59d2980fed0d8a123ba004a0e1d9",
+      "bytes": 20172,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "얇은 우븐 형태·무릎 주름·발목 쪽 좁아지는 라인·일반 밑단, 레깅스 아님",
+      "reconstructionNote": "팬츠 허리·뒤쪽 디테일·신발 밑창·양말 발은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "테이퍼드 팬츠는 레깅스처럼 당기지 않고 무릎에 여유를 남겨 입으세요.",
+        "en": "Wear the tapered pants with room at the knee rather than pulling them tight like leggings.",
+        "de": "Die schmal zulaufende Hose mit Platz am Knie tragen, statt sie wie Tights straffzuziehen."
+      },
+      "description": {
+        "ko": "테이퍼드 팬츠는 레깅스처럼 당기지 않고 무릎에 여유를 남겨 입으세요.",
+        "en": "Wear the tapered pants with room at the knee rather than pulling them tight like leggings.",
+        "de": "Die schmal zulaufende Hose mit Platz am Knie tragen, statt sie wie Tights straffzuziehen."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "03-running-shoes",
+      "nameKo": "오프화이트·그레이 메시 러닝화",
+      "name": {
+        "ko": "오프화이트·그레이 메시 러닝화",
+        "en": "Off-white and grey mesh running shoes",
+        "de": "Cremeweiße und graue Mesh-Laufschuhe"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-running-20261029-03.running-shoes",
+      "image": "products/running-shoes.webp",
+      "sha256": "e6af258aff178b492c7913f2b7d5d2952958c4028fc09deb4aa11bd9109fb632",
+      "bytes": 45588,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "양쪽 메시 갑피·연회색 보강·오프화이트 끈과 솔 관찰",
+      "reconstructionNote": "팬츠 허리·뒤쪽 디테일·신발 밑창·양말 발은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "오프화이트 러닝화의 혀를 가운데로 맞춘 뒤 끈을 묶어 주세요.",
+        "en": "Centre the off-white shoe tongues before fastening the laces.",
+        "de": "Die Zungen der cremeweißen Laufschuhe vor dem Schnüren mittig ausrichten."
+      },
+      "description": {
+        "ko": "오프화이트 러닝화의 혀를 가운데로 맞춘 뒤 끈을 묶어 주세요.",
+        "en": "Centre the off-white shoe tongues before fastening the laces.",
+        "de": "Die Zungen der cremeweißen Laufschuhe vor dem Schnüren mittig ausrichten."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "03-socks",
+      "nameKo": "화이트 앵클 스포츠 양말",
+      "name": {
+        "ko": "화이트 앵클 스포츠 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-m35-day-running-20261029-03.socks",
+      "image": "products/socks.webp",
+      "sha256": "d028f6358c0895723856f23b9414dd9bc209538d9b462b72445da39da2c67889",
+      "bytes": 36364,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "양쪽 리브 발목 관찰",
+      "reconstructionNote": "팬츠 허리·뒤쪽 디테일·신발 밑창·양말 발은 추정 복원",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "양말은 팬츠 밑단과 겹치는 부분을 펴 발목이 울지 않게 하세요.",
+        "en": "Smooth the socks where they meet the trouser hems to avoid bunching at the ankle.",
+        "de": "Die Socken am Übergang zum Hosensaum glätten, damit am Knöchel keine Falten entstehen."
+      },
+      "description": {
+        "ko": "양말은 팬츠 밑단과 겹치는 부분을 펴 발목이 울지 않게 하세요.",
+        "en": "Smooth the socks where they meet the trouser hems to avoid bunching at the ankle.",
+        "de": "Die Socken am Übergang zum Hosensaum glätten, damit am Knöchel keine Falten entstehen."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "계단에 앉아 이어버드를 꺼내며",
+      "en": "An earbud comes out on the stone steps.",
+      "de": "Auf der Steintreppe den Ohrhörer herausnehmen."
+    },
+    "intro": {
+      "ko": "계단에 앉아 이어버드를 꺼내는 잠깐을 담았습니다. 더스티 블루와 차콜은 흐린 바다의 색과 차분하게 연결됩니다.",
+      "en": "A pause on the steps leaves time to take out an earbud. Dusty blue and charcoal sit quietly against the overcast sea.",
+      "de": "Auf der Treppe bleibt kurz Zeit, den Ohrhörer herauszunehmen. Staubblau und Anthrazit passen ruhig zum bewölkten Meer."
+    },
+    "tip": {
+      "ko": "팬츠는 레깅스와 달리 무릎에 여유를 남겨 앉아 보세요.",
+      "en": "Leave room at the knees in these trousers, rather than fitting them like leggings.",
+      "de": "Bei dieser Hose Platz am Knie lassen, statt sie wie Tights eng anzupassen."
+    },
+    "pullQuoteEn": "THE RUN CAN WAIT A MOMENT.",
+    "title": {
+      "ko": "출발 전 작은 준비",
+      "en": "Before the first stride",
+      "de": "Vor dem ersten Schritt"
+    },
+    "titleEn": "BEFORE THE FIRST STRIDE"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-running-20261029-03",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-male-day-running-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-cool-m35-day-running-20261029-03.longsleeve"
+}

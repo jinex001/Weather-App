@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-minimal-20261028-02",
+  "batchId": "coastal-overcast-cool-male-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a59b7b13c16675f6d926c259226988983dc46fa02680ff3ec8f0696f554ca82d",
+  "editorialBytes": 259837,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper pastry bag",
+    "flowers and paper sleeve",
+    "groceries and paper bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-minimal-20261028-02",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-minimal-20261028-02.zip-jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T18:49:50.723421+00:00",
+    "reviewer": "Codex producer",
+    "scope": "All25 products reviewed on white black grey app backgrounds; no user product approval claimed.",
+    "notes": [
+      "02 original front+back image rejected, replaced by independently generated v2 singlefront; original retained.",
+      "03small bandcollar preserved despite legacy kind name collarless-jacket.",
+      "05rib collar/cuffs and striped jersey preserved.",
+      "05footwear wholly inferred design outside crop; hidden backs/full lengths/pairs inferred."
+    ]
+  },
+  "copy": {
+    "titleEn": "A MOMENT FOR A FLOWER",
+    "title": {
+      "ko": "꽃 한 송이의 여유",
+      "en": "A moment for a flower",
+      "de": "Ein Moment für eine Blume"
+    },
+    "deck": {
+      "ko": "꽃 포장지를 매만지는 문턱의 여유",
+      "en": "A quiet doorstep pause to straighten the flowers.",
+      "de": "Auf der Türstufe kurz die Blumen richten."
+    },
+    "intro": {
+      "ko": "낮은 문턱에 앉아 꽃 포장을 다시 접습니다. 밝은 옷차림에 짙은 목선과 가방이 작은 무게를 더합니다.",
+      "en": "He sits on a low doorstep to fold the flower wrapping back into place. A dark neckline and bag anchor the pale outfit.",
+      "de": "Auf der niedrigen Türstufe faltet er die Blumenhülle zurecht. Ein dunkler Ausschnitt und die Tasche geben dem hellen Look Halt."
+    },
+    "pullQuoteEn": "A FLOWER IS REASON ENOUGH TO PAUSE.",
+    "tip": {
+      "ko": "앉기 전 재킷을 열어 무릎 위 공간을 비워 주세요.",
+      "en": "Open the jacket before sitting to clear your lap.",
+      "de": "Die Jacke vor dem Hinsetzen öffnen, damit der Schoß frei bleibt."
+    },
+    "sourceCopy": {
+      "titleEn": "A MOMENT FOR A FLOWER",
+      "title": {
+        "ko": "꽃 한 송이의 여유",
+        "en": "A moment for a flower",
+        "de": "Ein Moment für eine Blume"
+      },
+      "deck": {
+        "ko": "꽃 한 송이의 여유",
+        "en": "A moment for a flower",
+        "de": "Ein Moment für eine Blume"
+      },
+      "intro": {
+        "ko": "스톤 집 재킷과 네이비 니트에 크림 팬츠를 맞췄습니다. 문턱에 앉아 꽃 포장을 정리하는 순간입니다.",
+        "en": "A stone zip jacket and navy knit pair with cream trousers. On a low doorstep, he straightens a florist sleeve.",
+        "de": "Eine steinbeige Reißverschlussjacke und marineblauer Strick passen zur cremefarbenen Hose. Auf der Türstufe richtet er die Blumenhülle."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "02-zip-jacket",
+      "nameKo": "스톤 집 재킷",
+      "name": {
+        "ko": "스톤 집 재킷",
+        "en": "Stone zip jacket",
+        "de": "Steinbeige Reißverschlussjacke"
+      },
+      "description": {
+        "ko": "스톤 집 재킷은 지퍼를 열고 앉아 앞자락이 무릎 위에서 당기지 않게 하세요.",
+        "en": "Sit with the stone jacket unzipped so its front does not pull across your lap.",
+        "de": "Die steinbeige Jacke beim Sitzen öffnen, damit sie über dem Schoß nicht spannt."
+      },
+      "howToWear": {
+        "ko": "스톤 집 재킷은 지퍼를 열고 앉아 앞자락이 무릎 위에서 당기지 않게 하세요.",
+        "en": "Sit with the stone jacket unzipped so its front does not pull across your lap.",
+        "de": "Die steinbeige Jacke beim Sitzen öffnen, damit sie über dem Schoß nicht spannt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-02.zip-jacket",
+      "image": "products/zip-jacket.webp",
+      "bytes": 35582,
+      "sha256": "ba5b18b001bd34519570f221b747fc58f60214dd67215992bc43a87d885b3576",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "knit",
+      "producerId": "02-knit",
+      "nameKo": "네이비 크루넥 니트",
+      "name": {
+        "ko": "네이비 크루넥 니트",
+        "en": "Navy crewneck knit",
+        "de": "Marineblauer Rundhalspullover"
+      },
+      "description": {
+        "ko": "네이비 니트는 재킷 안에서 칼라 없이 단정한 목선으로 마무리하세요.",
+        "en": "Let the navy crewneck make a clean neckline inside the jacket.",
+        "de": "Den Rundhalsausschnitt des marineblauen Pullovers unter der Jacke schlicht halten."
+      },
+      "howToWear": {
+        "ko": "네이비 니트는 재킷 안에서 칼라 없이 단정한 목선으로 마무리하세요.",
+        "en": "Let the navy crewneck make a clean neckline inside the jacket.",
+        "de": "Den Rundhalsausschnitt des marineblauen Pullovers unter der Jacke schlicht halten."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-02.knit",
+      "image": "products/knit.webp",
+      "bytes": 30160,
+      "sha256": "5cc78ff59ae0e9551aa4aa9c6fff4b9289ffe2094c78810530cd83e88730b905",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "nameKo": "크림 코튼 팬츠",
+      "name": {
+        "ko": "크림 코튼 팬츠",
+        "en": "Cream cotton-look trousers",
+        "de": "Cremefarbene Hose in Baumwolloptik"
+      },
+      "description": {
+        "ko": "크림 팬츠는 무릎에 여유가 있는 핏으로 골라 낮은 문턱에 편하게 앉으세요.",
+        "en": "Choose cream trousers with room at the knee for sitting on a low doorstep.",
+        "de": "Die cremefarbene Hose mit etwas Platz am Knie wählen, damit das Sitzen auf der Türstufe bequem bleibt."
+      },
+      "howToWear": {
+        "ko": "크림 팬츠는 무릎에 여유가 있는 핏으로 골라 낮은 문턱에 편하게 앉으세요.",
+        "en": "Choose cream trousers with room at the knee for sitting on a low doorstep.",
+        "de": "Die cremefarbene Hose mit etwas Platz am Knie wählen, damit das Sitzen auf der Türstufe bequem bleibt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-02.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 25904,
+      "sha256": "e015bc38c6c77ba1464c69eb654ac78c016faf9f9553b84548e6d2ff49bf646a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-loafers",
+      "nameKo": "다크 브라운 페니 로퍼",
+      "name": {
+        "ko": "다크 브라운 페니 로퍼",
+        "en": "Dark brown penny loafers",
+        "de": "Dunkelbraune Pennyloafer"
+      },
+      "description": {
+        "ko": "브라운 페니 로퍼가 보이도록 밝은 팬츠 밑단을 발목에 맞추세요.",
+        "en": "Keep the light hems near the ankle to reveal the brown penny loafers.",
+        "de": "Die hellen Hosensäume am Knöchel enden lassen, damit die braunen Pennyloafer sichtbar sind."
+      },
+      "howToWear": {
+        "ko": "브라운 페니 로퍼가 보이도록 밝은 팬츠 밑단을 발목에 맞추세요.",
+        "en": "Keep the light hems near the ankle to reveal the brown penny loafers.",
+        "de": "Die hellen Hosensäume am Knöchel enden lassen, damit die braunen Pennyloafer sichtbar sind."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-02.loafers",
+      "image": "products/loafers.webp",
+      "bytes": 38616,
+      "sha256": "329a9e4cb5d06d03410aa0c9fe952932de39605cede8e650cf526e7679967197",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "02-tote",
+      "nameKo": "초콜릿 레더 룩 토트",
+      "name": {
+        "ko": "초콜릿 레더 룩 토트",
+        "en": "Chocolate leather-look tote",
+        "de": "Schokoladenbraune Tote in Lederoptik"
+      },
+      "description": {
+        "ko": "초콜릿 토트는 발 옆에 세워 꽃 포장을 정리할 무릎 공간을 비워 두세요.",
+        "en": "Stand the chocolate tote beside your feet to clear your lap for the flowers.",
+        "de": "Die schokoladenbraune Tote neben die Füße stellen, damit der Schoß für die Blumen frei bleibt."
+      },
+      "howToWear": {
+        "ko": "초콜릿 토트는 발 옆에 세워 꽃 포장을 정리할 무릎 공간을 비워 두세요.",
+        "en": "Stand the chocolate tote beside your feet to clear your lap for the flowers.",
+        "de": "Die schokoladenbraune Tote neben die Füße stellen, damit der Schoß für die Blumen frei bleibt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-02.tote",
+      "image": "products/tote.webp",
+      "bytes": 41598,
+      "sha256": "bbd92e3008df9d10c877e23897616a2ef2759980ee6c81fe2790d401131c1ca6",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "토트는 어깨에 가볍게 걸고 손을 자유롭게 두세요.",
+        "en": "Carry the tote over one shoulder to keep your hands free.",
+        "de": "Die Tote über einer Schulter tragen, damit die Hände frei bleiben."
+      }
+    }
+  ],
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  }
+}

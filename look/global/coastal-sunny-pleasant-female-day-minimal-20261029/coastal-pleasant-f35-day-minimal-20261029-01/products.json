@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-minimal-20261029-01",
+  "batchId": "coastal-sunny-pleasant-female-day-minimal-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "42fe853522718cb401549c7e8672a89a05cd021cf234150de15eeedadbe18d8d",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "01-shirt",
+      "nameKo": "아이보리 셔츠",
+      "name": {
+        "ko": "아이보리 셔츠",
+        "en": "Ivory shirt",
+        "de": "Elfenbeinfarbenes Hemd"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-01.shirt",
+      "image": "products/shirt.webp",
+      "sha256": "51ca20b1b440e08308421cb710fe4eea646e85ad1c3058f4904e7b958ad8b961",
+      "bytes": 30114,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 01-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "아이보리 셔츠는 윗단추를 풀고 소매를 팔꿈치 아래까지 접어 컵을 받기 편하게 하세요.",
+        "en": "Open the ivory shirt at the neck and roll the sleeves below the elbows to receive the cup.",
+        "de": "Das elfenbeinfarbene Hemd am Hals öffnen und die Ärmel bis unter die Ellenbogen hochrollen, um den Becher anzunehmen."
+      },
+      "description": {
+        "ko": "아이보리 셔츠는 윗단추를 풀고 소매를 팔꿈치 아래까지 접어 컵을 받기 편하게 하세요.",
+        "en": "Open the ivory shirt at the neck and roll the sleeves below the elbows to receive the cup.",
+        "de": "Das elfenbeinfarbene Hemd am Hals öffnen und die Ärmel bis unter die Ellenbogen hochrollen, um den Becher anzunehmen."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "01-trousers",
+      "nameKo": "토프 팬츠",
+      "name": {
+        "ko": "토프 팬츠",
+        "en": "Taupe trousers",
+        "de": "Taupefarbene Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-01.trousers",
+      "image": "products/trousers.webp",
+      "sha256": "32008e739a399e406cf8bd6157f72e9670d4517146d5c2319bd8704aa1a6d01a",
+      "bytes": 24768,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 01-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "토프 팬츠에 셔츠 앞자락을 넣어 허리선을 가볍게 정리하세요.",
+        "en": "Tuck the shirt front into the taupe trousers for an easy waistline.",
+        "de": "Die vordere Hemdpartie locker in die taupefarbene Hose stecken, um die Taille zu ordnen."
+      },
+      "description": {
+        "ko": "토프 팬츠에 셔츠 앞자락을 넣어 허리선을 가볍게 정리하세요.",
+        "en": "Tuck the shirt front into the taupe trousers for an easy waistline.",
+        "de": "Die vordere Hemdpartie locker in die taupefarbene Hose stecken, um die Taille zu ordnen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "01-loafers",
+      "nameKo": "블랙 비트 로퍼",
+      "name": {
+        "ko": "블랙 비트 로퍼",
+        "en": "Black bit loafers",
+        "de": "Schwarze Loafer mit Metallspange"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-01.loafers",
+      "image": "products/loafers.webp",
+      "sha256": "064975cdb0221f3fd5be0613973f625e3c6f83029387d3d84df0cceb4ec51cef",
+      "bytes": 34114,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 01-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "블랙 비트 로퍼의 금색 장식이 보이도록 팬츠 밑단을 길게 쌓지 마세요.",
+        "en": "Keep the hems clear of the gold hardware on the black bit loafers.",
+        "de": "Die Hosensäume nicht über die goldfarbenen Spangen der schwarzen Loafer fallen lassen."
+      },
+      "description": {
+        "ko": "블랙 비트 로퍼의 금색 장식이 보이도록 팬츠 밑단을 길게 쌓지 마세요.",
+        "en": "Keep the hems clear of the gold hardware on the black bit loafers.",
+        "de": "Die Hosensäume nicht über die goldfarbenen Spangen der schwarzen Loafer fallen lassen."
+      }
+    },
+    {
+      "id": "bag",
+      "producerId": "01-bag",
+      "nameKo": "초콜릿 숄더백",
+      "name": {
+        "ko": "초콜릿 숄더백",
+        "en": "Chocolate shoulder bag",
+        "de": "Schokoladenbraune Schultertasche"
+      },
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-01.bag",
+      "image": "products/bag.webp",
+      "sha256": "3ebe910a5b96123135fdf8fdb589b8006bfe842f88060b16e5736072f919720d",
+      "bytes": 30934,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 01-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "초콜릿 숄더백은 몸 옆에 두어 두 손으로 파란 컵을 받을 공간을 만드세요.",
+        "en": "Keep the chocolate shoulder bag at your side to leave both hands free for the blue cup.",
+        "de": "Die schokoladenbraune Schultertasche seitlich tragen, damit beide Hände den blauen Becher annehmen können."
+      },
+      "description": {
+        "ko": "초콜릿 숄더백은 몸 옆에 두어 두 손으로 파란 컵을 받을 공간을 만드세요.",
+        "en": "Keep the chocolate shoulder bag at your side to leave both hands free for the blue cup.",
+        "de": "Die schokoladenbraune Schultertasche seitlich tragen, damit beide Hände den blauen Becher annehmen können."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "카페 창에서 볼드한 블루 컵을 받으며",
+      "en": "A bold blue cup changes hands at the café window.",
+      "de": "Am Caféfenster wechselt ein kräftig blauer Becher die Hände."
+    },
+    "intro": {
+      "ko": "카페 창에서 선명한 파란 컵을 두 손으로 받습니다. 밝은 셔츠와 토프의 차분한 면 사이로 컵의 색이 순간을 또렷하게 남깁니다.",
+      "en": "She receives the vivid blue cup with both hands at the café window. Its colour gives a clear focus to the quiet ivory and taupe outfit.",
+      "de": "Am Caféfenster nimmt sie den leuchtend blauen Becher mit beiden Händen an. Seine Farbe setzt einen klaren Akzent im ruhigen Look aus Elfenbein und Taupe."
+    },
+    "tip": {
+      "ko": "컵을 받을 때는 가방을 몸 옆에 두어 손 앞을 비워 주세요.",
+      "en": "Move the bag to your side to leave room for receiving the cup.",
+      "de": "Die Tasche seitlich tragen, damit beim Annehmen des Bechers Platz bleibt."
+    },
+    "pullQuoteEn": "ONE BLUE CUP, THEN THE NEXT TURN.",
+    "title": {
+      "ko": "파란 컵을 받는 아침",
+      "en": "A blue cup before the next turn",
+      "de": "Ein blauer Becher vor der nächsten Ecke"
+    },
+    "titleEn": "A BLUE CUP BEFORE THE NEXT TURN"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-minimal-20261029-01",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-female-day-minimal-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-pleasant-f35-day-minimal-20261029-01.shirt"
+}

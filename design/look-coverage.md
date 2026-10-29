@@ -221,3 +221,8 @@ Second dated set for this category: five user-approved editorials plus 34 indepe
 ## b181 · 해안 흐림 선선함 남성 낮 스트리트 2026-10-28 세트 (2026-10-28)
 
 - 새 칸 흐림 · **선선함** · 남성 · 낮 · 스트리트에 5룩(`coastal-cool-m35-day-street-20261028-01`–`05`, sky `cloudy`(제작 측 overcast), warm-coastal-urban · 습도 unknown, 25제품 투명 WebP 5/5/5/5/5). 해안 지역 흐린 낮 선선함 남성 스트리트: 베를린 쌀쌀함 흐림 남성 스트리트 10룩(옆 단계) → 이 5룩 중 3개. 해안 흐린 낮 쾌적함 남성 스트리트: COMING SOON → 이 5룩(옆 단계). 여성 b179·맑음·비·저녁·베를린·지역 미상·유럽·동아시아·다른 스타일은 그대로(Node로 앱 `lookFits` 원본을 돌린 선택 회귀 2,160경우 중 바뀐 것은 이 2경우뿐). [검증](coastal-overcast-cool-male-day-street-20261028-validation.md).
+
+
+## b185 · 2026-10-29 coastal daytime additions
+
+Four user-authorized sets, 20 looks / 94 products: cloudy cool male minimal (5/25), cloudy cool female running (5/27), cloudy cool male running (5/21), clear pleasant female minimal (5/21). All reviewed warm-coastal-urban, humidity unknown, storage 35+, daytime. Existing looks and rules preserved. [Validation](coastal-four-sets-20261029-validation.md).

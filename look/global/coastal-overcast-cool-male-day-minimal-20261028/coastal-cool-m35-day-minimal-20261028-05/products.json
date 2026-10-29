@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-minimal-20261028-05",
+  "batchId": "coastal-overcast-cool-male-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f1b11e0566b80728e65053e7e02646e1e4c24b44d38028fe115c1d4278f78388",
+  "editorialBytes": 228871,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper pastry bag",
+    "flowers and paper sleeve",
+    "groceries and paper bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-minimal-20261028-05",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-minimal-20261028-05.zip-jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T18:49:50.723421+00:00",
+    "reviewer": "Codex producer",
+    "scope": "All25 products reviewed on white black grey app backgrounds; no user product approval claimed.",
+    "notes": [
+      "02 original front+back image rejected, replaced by independently generated v2 singlefront; original retained.",
+      "03small bandcollar preserved despite legacy kind name collarless-jacket.",
+      "05rib collar/cuffs and striped jersey preserved.",
+      "05footwear wholly inferred design outside crop; hidden backs/full lengths/pairs inferred."
+    ]
+  },
+  "copy": {
+    "titleEn": "KEYS AT THE DOORWAY",
+    "title": {
+      "ko": "문 앞에서 찾은 열쇠",
+      "en": "Keys at the doorway",
+      "de": "Schlüssel vor der Haustür"
+    },
+    "deck": {
+      "ko": "문 앞에서 열쇠를 찾은 순간",
+      "en": "The key appears just as the walk ends.",
+      "de": "Am Ende des Weges ist der Schlüssel gefunden."
+    },
+    "intro": {
+      "ko": "문 앞에서 열쇠를 꺼내며 걸음을 마무리합니다. 가는 스트라이프가 어두운 재킷 안쪽에 작은 리듬을 만듭니다.",
+      "en": "He finds the key as the walk ends at the doorway. Fine stripes add a quiet rhythm inside the dark jacket.",
+      "de": "An der Haustür findet er den Schlüssel und beendet den Weg. Feine Streifen geben der dunklen Jacke innen einen ruhigen Rhythmus."
+    },
+    "pullQuoteEn": "ONE KEY, ONE LAST STEP.",
+    "tip": {
+      "ko": "가방 입구를 몸 쪽으로 돌려 한 손으로 찾기 쉽게 두세요.",
+      "en": "Turn the bag opening toward you for an easier one-handed search.",
+      "de": "Die Taschenöffnung zum Körper drehen, damit eine Hand leichter darin suchen kann."
+    },
+    "sourceCopy": {
+      "titleEn": "KEYS AT THE DOORWAY",
+      "title": {
+        "ko": "문 앞에서 찾은 열쇠",
+        "en": "Keys at the doorway",
+        "de": "Schlüssel vor der Haustür"
+      },
+      "deck": {
+        "ko": "문 앞에서 찾은 열쇠",
+        "en": "Keys at the doorway",
+        "de": "Schlüssel vor der Haustür"
+      },
+      "intro": {
+        "ko": "블랙 집 재킷과 가는 스트라이프 저지에 베이지 팬츠를 맞췄습니다. 문 앞에서 열쇠를 찾는 순간을 가까이 담았습니다.",
+        "en": "A black zip jacket and fine striped jersey pair with beige trousers. The close view catches a key found at the door.",
+        "de": "Eine schwarze Reißverschlussjacke und feiner Streifenjersey passen zur beigen Hose. Die Nahaufnahme hält den gefundenen Schlüssel an der Tür fest."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "05-zip-jacket",
+      "nameKo": "블랙 립 칼라 집 재킷",
+      "name": {
+        "ko": "블랙 립 칼라 집 재킷",
+        "en": "Black rib-collar zip jacket",
+        "de": "Schwarze Reißverschlussjacke mit Rippkragen"
+      },
+      "description": {
+        "ko": "블랙 집 재킷은 립 칼라를 편하게 두고 지퍼를 열어 스트라이프를 보여 주세요.",
+        "en": "Leave the black zip jacket open and let its ribbed collar rest around the striped top.",
+        "de": "Die schwarze Reißverschlussjacke offen tragen und den Rippkragen locker um das Streifenshirt liegen lassen."
+      },
+      "howToWear": {
+        "ko": "블랙 집 재킷은 립 칼라를 편하게 두고 지퍼를 열어 스트라이프를 보여 주세요.",
+        "en": "Leave the black zip jacket open and let its ribbed collar rest around the striped top.",
+        "de": "Die schwarze Reißverschlussjacke offen tragen und den Rippkragen locker um das Streifenshirt liegen lassen."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-05.zip-jacket",
+      "image": "products/zip-jacket.webp",
+      "bytes": 23150,
+      "sha256": "815b0d82369cbef23cb6ee3ed70a8dcbc9ddf761f3077ebaafaa4a5776bcaa00",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "striped-jersey",
+      "producerId": "05-striped-jersey",
+      "nameKo": "에크루 스트라이프 저지",
+      "name": {
+        "ko": "에크루 스트라이프 저지",
+        "en": "Ecru striped jersey top",
+        "de": "Ecrufarbenes gestreiftes Jerseyshirt"
+      },
+      "description": {
+        "ko": "얇은 스트라이프 저지는 팬츠 안에 넣어 짧은 재킷 아래 허리선을 정리하세요.",
+        "en": "Tuck the fine striped jersey into the trousers to define the waist below the short jacket.",
+        "de": "Das feine Streifenjersey in die Hose stecken, um die Taille unter der kurzen Jacke zu ordnen."
+      },
+      "howToWear": {
+        "ko": "얇은 스트라이프 저지는 팬츠 안에 넣어 짧은 재킷 아래 허리선을 정리하세요.",
+        "en": "Tuck the fine striped jersey into the trousers to define the waist below the short jacket.",
+        "de": "Das feine Streifenjersey in die Hose stecken, um die Taille unter der kurzen Jacke zu ordnen."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-05.striped-jersey",
+      "image": "products/striped-jersey.webp",
+      "bytes": 43404,
+      "sha256": "926b3f07dae3b651106f5288463424eb7f9973dbb21db31fdb758c8a74eeb0c4",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-trousers",
+      "nameKo": "베이지 테일러드 팬츠",
+      "name": {
+        "ko": "베이지 테일러드 팬츠",
+        "en": "Beige tailored trousers",
+        "de": "Beige Stoffhose"
+      },
+      "description": {
+        "ko": "베이지 팬츠의 허리선을 맞추고 앞 주름을 펴 세로선을 살리세요.",
+        "en": "Set the beige waistband comfortably and smooth the front crease for a clean vertical line.",
+        "de": "Den beigen Bund bequem platzieren und die vordere Falte für eine klare senkrechte Linie glätten."
+      },
+      "howToWear": {
+        "ko": "베이지 팬츠의 허리선을 맞추고 앞 주름을 펴 세로선을 살리세요.",
+        "en": "Set the beige waistband comfortably and smooth the front crease for a clean vertical line.",
+        "de": "Den beigen Bund bequem platzieren und die vordere Falte für eine klare senkrechte Linie glätten."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-05.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 23166,
+      "sha256": "a6f2e6272874454fd54fe539be93bf49d524461c5f24e6ced09c48c005155b39",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "05-loafers",
+      "nameKo": "다크 브라운 로퍼",
+      "name": {
+        "ko": "다크 브라운 로퍼",
+        "en": "Dark brown loafers",
+        "de": "Dunkelbraune Loafer"
+      },
+      "description": {
+        "ko": "사진 밖 신발은 추정 디자인입니다. 다크 브라운 로퍼로 토트와 색을 이어 보세요.",
+        "en": "The shoes are an inferred design outside the crop; dark brown loafers can echo the tote.",
+        "de": "Die Schuhe sind ein ergänzter Entwurf außerhalb des Bildes; dunkelbraune Loafer greifen die Tote auf."
+      },
+      "howToWear": {
+        "ko": "사진 밖 신발은 추정 디자인입니다. 다크 브라운 로퍼로 토트와 색을 이어 보세요.",
+        "en": "The shoes are an inferred design outside the crop; dark brown loafers can echo the tote.",
+        "de": "Die Schuhe sind ein ergänzter Entwurf außerhalb des Bildes; dunkelbraune Loafer greifen die Tote auf."
+      },
+      "evidence": "05 footwear entirely outside crop; inferred wardrobe design",
+      "reconstructionNote": "05 footwear entirely outside crop; inferred wardrobe design",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-05.loafers",
+      "image": "products/loafers.webp",
+      "bytes": 35146,
+      "sha256": "e282ff72dac70320fd6cdd3ace81c6afd6e6e964ed28e262b8225e29485fb20b",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "05-tote",
+      "nameKo": "초콜릿 레더 룩 토트",
+      "name": {
+        "ko": "초콜릿 레더 룩 토트",
+        "en": "Chocolate leather-look tote",
+        "de": "Schokoladenbraune Tote in Lederoptik"
+      },
+      "description": {
+        "ko": "브라운 토트는 입구를 몸 쪽으로 돌려 문 앞에서 한 손으로 안을 찾기 쉽게 하세요.",
+        "en": "Turn the brown tote's opening toward your body for an easy one-handed search at the door.",
+        "de": "Die Öffnung der braunen Tote zum Körper drehen, damit eine Hand an der Tür darin suchen kann."
+      },
+      "howToWear": {
+        "ko": "브라운 토트는 입구를 몸 쪽으로 돌려 문 앞에서 한 손으로 안을 찾기 쉽게 하세요.",
+        "en": "Turn the brown tote's opening toward your body for an easy one-handed search at the door.",
+        "de": "Die Öffnung der braunen Tote zum Körper drehen, damit eine Hand an der Tür darin suchen kann."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-05.tote",
+      "image": "products/tote.webp",
+      "bytes": 49582,
+      "sha256": "993befc48a3a1da41e8cdfd78014aa3a64f90080e784651cf3c0c503a35e88ad",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "토트는 어깨에 가볍게 걸고 손을 자유롭게 두세요.",
+        "en": "Carry the tote over one shoulder to keep your hands free.",
+        "de": "Die Tote über einer Schulter tragen, damit die Hände frei bleiben."
+      }
+    }
+  ],
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  }
+}

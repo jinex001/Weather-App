@@ -1,0 +1,389 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-running-20261028-05",
+  "batchId": "coastal-overcast-cool-female-day-running-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "6f1221285ded2d6b03d4c79feed8e9e091caa90dd4657bfc3bdde19822c33ccd",
+  "editorialBytes": 238159,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "water bottle",
+    "earbuds and case",
+    "smartphone"
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-running-20261028-05",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-female-day-running-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-running-20261028-05.running-jacket",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T22:34:43.585870+00:00",
+    "reviewer": "Codex producer",
+    "scope": "27products all20white/black/grey/app composite sheets reviewed; no per-product user approval claimed",
+    "notes": [
+      "04attachedhood visible and preserved",
+      "02/04integratedliner shorts one product each",
+      "All shoes/socks matched pairs; hidden soles/back/fullshape inferred",
+      "Waterbottle earbuds-case phone excluded; belt/watch wearable accessories included",
+      "Brand and exactcomposition unverified; no performance guarantees"
+    ]
+  },
+  "copy": {
+    "titleEn": "AT YOUR OWN PACE",
+    "title": {
+      "ko": "나만의 페이스로",
+      "en": "At your own pace",
+      "de": "Im eigenen Tempo"
+    },
+    "deck": {
+      "ko": "워치를 확인하고 자신의 페이스로",
+      "en": "One watch check before finding her pace.",
+      "de": "Ein Blick auf die Uhr vor dem eigenen Tempo."
+    },
+    "intro": {
+      "ko": "출발 전 손목 화면을 한 번 확인합니다. 플럼과 스톤의 낮은 대비가 서두르지 않는 러닝 준비와 어울립니다.",
+      "en": "She checks the watch once before starting. The quiet contrast of plum and stone suits an unhurried start.",
+      "de": "Vor dem Start schaut sie einmal auf die Uhr. Der ruhige Kontrast aus Pflaume und Stein passt zum entspannten Beginn."
+    },
+    "pullQuoteEn": "YOUR RUN, YOUR RHYTHM.",
+    "tip": {
+      "ko": "워치가 소매에 가려지지 않도록 손목 주변을 정리하세요.",
+      "en": "Keep the sleeve clear of the watch face.",
+      "de": "Den Ärmel vom Zifferblatt der Uhr fernhalten."
+    },
+    "sourceCopy": {
+      "titleEn": "AT YOUR OWN PACE",
+      "title": {
+        "ko": "나만의 페이스로",
+        "en": "At your own pace",
+        "de": "Im eigenen Tempo"
+      },
+      "deck": {
+        "ko": "나만의 페이스로",
+        "en": "At your own pace",
+        "de": "Im eigenen Tempo"
+      },
+      "intro": {
+        "ko": "플럼 재킷과 페일 스톤 티셔츠를 차콜 레깅스에 겹쳤습니다. 워치를 확인하고 자신만의 페이스로 출발합니다.",
+        "en": "A plum jacket and pale-stone tee layer over charcoal leggings. A watch check marks the start of a run at her own pace.",
+        "de": "Eine pflaumenfarbene Jacke und ein steinhellgraues Shirt liegen über anthrazitfarbenen Tights. Ein Blick auf die Uhr begleitet den Start im eigenen Tempo."
+      },
+      "pullQuoteEn": "A little preparation, then your own pace.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "running-jacket",
+      "producerId": "05-running-jacket",
+      "nameKo": "플럼 러닝 재킷",
+      "name": {
+        "ko": "플럼 러닝 재킷",
+        "en": "Plum Running jacket",
+        "de": "Pflaume Laufjacke"
+      },
+      "description": {
+        "ko": "플럼 재킷의 소매 끝은 워치 위로 살짝 올려 화면을 볼 공간을 두세요.",
+        "en": "Move the plum jacket cuff slightly above the watch to leave its screen visible.",
+        "de": "Den Ärmel der pflaumenfarbenen Jacke etwas über die Uhr schieben, damit das Display sichtbar bleibt."
+      },
+      "howToWear": {
+        "ko": "플럼 재킷의 소매 끝은 워치 위로 살짝 올려 화면을 볼 공간을 두세요.",
+        "en": "Move the plum jacket cuff slightly above the watch to leave its screen visible.",
+        "de": "Den Ärmel der pflaumenfarbenen Jacke etwas über die Uhr schieben, damit das Display sichtbar bleibt."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-running-20261028-05.running-jacket",
+      "image": "products/running-jacket.webp",
+      "bytes": 39678,
+      "sha256": "7c7fdd3a222a2cf2dd160ba48679f95b63205b18ab3c32f49b10abf3aefd7ffe",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "출발할 때 가볍게 겹치고 몸이 따뜻해지면 지퍼로 환기를 조절하세요.",
+        "en": "Start with a light outer layer and adjust the zip as you warm up.",
+        "de": "Zum Start leicht darüberziehen und den Reißverschluss beim Aufwärmen anpassen."
+      }
+    },
+    {
+      "id": "tee",
+      "producerId": "05-tee",
+      "nameKo": "페일 스톤 기능성 티셔츠",
+      "name": {
+        "ko": "페일 스톤 기능성 티셔츠",
+        "en": "Pale stone Technical T-shirt",
+        "de": "Steinhellgrau Funktions-T-Shirt"
+      },
+      "description": {
+        "ko": "스톤 티셔츠는 플럼 재킷 사이로 밝은 세로 면을 만들도록 펴 주세요.",
+        "en": "Smooth the stone tee to make a light vertical panel inside the plum jacket.",
+        "de": "Das steinfarbene Shirt glätten, damit es zwischen den pflaumenfarbenen Jackenteilen eine helle Fläche bildet."
+      },
+      "howToWear": {
+        "ko": "스톤 티셔츠는 플럼 재킷 사이로 밝은 세로 면을 만들도록 펴 주세요.",
+        "en": "Smooth the stone tee to make a light vertical panel inside the plum jacket.",
+        "de": "Das steinfarbene Shirt glätten, damit es zwischen den pflaumenfarbenen Jackenteilen eine helle Fläche bildet."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-running-20261028-05.tee",
+      "image": "products/tee.webp",
+      "bytes": 35394,
+      "sha256": "a559a73c1294ea520b7ef655dc84e6f98b6b8b70bc9dda49d59e6b409b71be07",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "가벼운 재킷 아래 입고 몸이 더워지면 겉옷을 열어주세요.",
+        "en": "Wear under a light jacket and open the outer layer as you warm up.",
+        "de": "Unter einer leichten Jacke tragen und diese bei Wärme öffnen."
+      }
+    },
+    {
+      "id": "leggings",
+      "producerId": "05-leggings",
+      "nameKo": "차콜 러닝 레깅스",
+      "name": {
+        "ko": "차콜 러닝 레깅스",
+        "en": "Charcoal Running leggings",
+        "de": "Anthrazit Lauftights"
+      },
+      "description": {
+        "ko": "차콜 레깅스의 허리는 편하게 맞추고 출발 전 가볍게 무릎을 굽혀 보세요.",
+        "en": "Set the charcoal leggings waistband comfortably and bend your knees gently before starting.",
+        "de": "Den Bund der anthrazitfarbenen Tights bequem einstellen und vor dem Start leicht in die Knie gehen."
+      },
+      "howToWear": {
+        "ko": "차콜 레깅스의 허리는 편하게 맞추고 출발 전 가볍게 무릎을 굽혀 보세요.",
+        "en": "Set the charcoal leggings waistband comfortably and bend your knees gently before starting.",
+        "de": "Den Bund der anthrazitfarbenen Tights bequem einstellen und vor dem Start leicht in die Knie gehen."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-running-20261028-05.leggings",
+      "image": "products/leggings.webp",
+      "bytes": 17176,
+      "sha256": "48d68b2996d1bd0e79f56728770f1194c7a414c8f922f2a915bea74175d7bba5",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "허리와 발목이 접히지 않게 정리해 움직임을 편하게 하세요.",
+        "en": "Smooth the waist and ankles so the fabric does not bunch as you move.",
+        "de": "Bund und Knöchel glatt legen, damit sich der Stoff beim Bewegen nicht staut."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "05-running-shoes",
+      "nameKo": "화이트·그레이 메시 러닝화",
+      "name": {
+        "ko": "화이트·그레이 메시 러닝화",
+        "en": "White and grey mesh running shoes",
+        "de": "Weiße und graue Mesh-Laufschuhe"
+      },
+      "description": {
+        "ko": "메시 러닝화는 발등을 고르게 잡도록 끈을 아래부터 조여 주세요.",
+        "en": "Tighten the mesh running shoes from the lower eyelets upward for an even fit over the foot.",
+        "de": "Die Mesh-Laufschuhe von den unteren Ösen nach oben schnüren, damit sie gleichmäßig am Fuß sitzen."
+      },
+      "howToWear": {
+        "ko": "메시 러닝화는 발등을 고르게 잡도록 끈을 아래부터 조여 주세요.",
+        "en": "Tighten the mesh running shoes from the lower eyelets upward for an even fit over the foot.",
+        "de": "Die Mesh-Laufschuhe von den unteren Ösen nach oben schnüren, damit sie gleichmäßig am Fuß sitzen."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-running-20261028-05.running-shoes",
+      "image": "products/running-shoes.webp",
+      "bytes": 47670,
+      "sha256": "9b1ab2efee84e6bccc0768389f0d2674828aed634bb3f64d2e846a94db72df97",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "끈을 균등하게 조이고 걷거나 가볍게 뛰며 착용감을 확인하세요.",
+        "en": "Tighten the laces evenly and check the fit while walking or jogging gently.",
+        "de": "Die Schnürsenkel gleichmäßig anziehen und die Passform beim Gehen oder lockeren Joggen prüfen."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "05-socks",
+      "nameKo": "화이트 앵클 양말",
+      "name": {
+        "ko": "화이트 앵클 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "description": {
+        "ko": "워치를 확인하며 멈춘 동안 양말 뒤꿈치가 밀리지 않았는지도 살펴보세요.",
+        "en": "During the watch check, make sure the sock heels have not slipped.",
+        "de": "Beim Blick auf die Uhr auch prüfen, ob die Socken an der Ferse noch richtig sitzen."
+      },
+      "howToWear": {
+        "ko": "워치를 확인하며 멈춘 동안 양말 뒤꿈치가 밀리지 않았는지도 살펴보세요.",
+        "en": "During the watch check, make sure the sock heels have not slipped.",
+        "de": "Beim Blick auf die Uhr auch prüfen, ob die Socken an der Ferse noch richtig sitzen."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-f35-day-running-20261028-05.socks",
+      "image": "products/socks.webp",
+      "bytes": 31566,
+      "sha256": "3429995f872cb69eaebce6b2eb8db8c67ad606d7b25d99b69792655190dcb738",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "뒤꿈치를 맞추고 신발 안에 접힌 부분이 없도록 펴주세요.",
+        "en": "Align the heel and smooth out folds inside the shoe.",
+        "de": "Die Ferse ausrichten und Falten im Schuh glatt streichen."
+      }
+    },
+    {
+      "id": "sports-watch",
+      "producerId": "05-sports-watch",
+      "nameKo": "블랙 라운드 스포츠워치",
+      "name": {
+        "ko": "블랙 라운드 스포츠워치",
+        "en": "Black round sports watch",
+        "de": "Schwarze runde Sportuhr"
+      },
+      "description": {
+        "ko": "스포츠 워치는 손목뼈 위에 편하게 맞추고 달리기 전에 화면을 확인하세요.",
+        "en": "Fit the sports watch comfortably above the wrist bone and check the screen before running.",
+        "de": "Die Sportuhr bequem oberhalb des Handgelenkknochens tragen und das Display vor dem Lauf prüfen."
+      },
+      "howToWear": {
+        "ko": "스포츠 워치는 손목뼈 위에 편하게 맞추고 달리기 전에 화면을 확인하세요.",
+        "en": "Fit the sports watch comfortably above the wrist bone and check the screen before running.",
+        "de": "Die Sportuhr bequem oberhalb des Handgelenkknochens tragen und das Display vor dem Lauf prüfen."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "watch",
+      "appItemId": "coastal-cool-f35-day-running-20261028-05.sports-watch",
+      "image": "products/sports-watch.webp",
+      "bytes": 10626,
+      "sha256": "8010ec32d16a0b2a3ac9bfb72e2f904874d238c9b18f03edddc2b487a1a0e699",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "손목을 편하게 감싸도록 맞추고 출발 전에 화면을 확인하세요.",
+        "en": "Adjust for a comfortable fit and check the screen before starting.",
+        "de": "Bequem am Handgelenk einstellen und vor dem Start das Display prüfen."
+      }
+    }
+  ],
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  }
+}

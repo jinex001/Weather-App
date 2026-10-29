@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-minimal-20261028-01",
+  "batchId": "coastal-overcast-cool-male-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b182193ea007ffc56470df933626ffa983c4c34c4d1bc77fd24c590614e1523a",
+  "editorialBytes": 239345,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper pastry bag",
+    "flowers and paper sleeve",
+    "groceries and paper bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-minimal-20261028-01",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-minimal-20261028-01.blazer",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T18:49:50.723421+00:00",
+    "reviewer": "Codex producer",
+    "scope": "All25 products reviewed on white black grey app backgrounds; no user product approval claimed.",
+    "notes": [
+      "02 original front+back image rejected, replaced by independently generated v2 singlefront; original retained.",
+      "03small bandcollar preserved despite legacy kind name collarless-jacket.",
+      "05rib collar/cuffs and striped jersey preserved.",
+      "05footwear wholly inferred design outside crop; hidden backs/full lengths/pairs inferred."
+    ]
+  },
+  "copy": {
+    "titleEn": "COFFEE BEFORE THE NEXT STOP",
+    "title": {
+      "ko": "커피를 챙기는 아침",
+      "en": "Coffee before the next stop",
+      "de": "Kaffee vor dem nächsten Halt"
+    },
+    "deck": {
+      "ko": "컵 뚜껑을 누르고 다음 걸음을 준비하며",
+      "en": "A press on the coffee lid before the next stop.",
+      "de": "Ein Druck auf den Kaffeedeckel vor dem nächsten Halt."
+    },
+    "intro": {
+      "ko": "커피를 손에 들고 잠깐 멈춰 뚜껑을 확인합니다. 짙은 겉옷 사이로 밝은 목선이 드러나 낮의 차림을 가볍게 정리합니다.",
+      "en": "He pauses with his coffee to check the lid. A light neckline between dark jacket fronts keeps the daytime outfit relaxed.",
+      "de": "Mit dem Kaffee in der Hand prüft er kurz den Deckel. Ein heller Ausschnitt zwischen dunklen Jackenteilen hält den Tageslook entspannt."
+    },
+    "pullQuoteEn": "LID ON, THEN ON YOUR WAY.",
+    "tip": {
+      "ko": "두 손을 쓸 때는 가방을 옆으로 돌려 두세요.",
+      "en": "Move your bag to your side when using both hands.",
+      "de": "Die Tasche seitlich tragen, wenn beide Hände gebraucht werden."
+    },
+    "sourceCopy": {
+      "titleEn": "COFFEE BEFORE THE NEXT STOP",
+      "title": {
+        "ko": "커피를 챙기는 아침",
+        "en": "Coffee before the next stop",
+        "de": "Kaffee vor dem nächsten Halt"
+      },
+      "deck": {
+        "ko": "커피를 챙기는 아침",
+        "en": "Coffee before the next stop",
+        "de": "Kaffee vor dem nächsten Halt"
+      },
+      "intro": {
+        "ko": "차콜 블레이저와 아이보리 니트, 토프 팬츠로 선선한 낮의 겹침을 정리했습니다. 커피 뚜껑을 닫는 작은 동작을 담았습니다.",
+        "en": "Charcoal tailoring, ivory knit and taupe trousers make a quiet cool-day combination. He pauses to secure a coffee lid.",
+        "de": "Anthrazitfarbener Blazer, elfenbeinfarbener Strick und taupefarbene Hose passen zum kühlen Tag. Er hält kurz an, um den Kaffeedeckel zu schließen."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "01-blazer",
+      "nameKo": "차콜 블레이저",
+      "name": {
+        "ko": "차콜 블레이저",
+        "en": "Charcoal blazer",
+        "de": "Anthrazitfarbener Blazer"
+      },
+      "description": {
+        "ko": "차콜 블레이저는 앞을 열어 아이보리 목선이 길게 보이게 하세요.",
+        "en": "Leave the charcoal blazer open to frame the ivory neckline.",
+        "de": "Den anthrazitfarbenen Blazer offen tragen, damit der elfenbeinfarbene Ausschnitt sichtbar bleibt."
+      },
+      "howToWear": {
+        "ko": "차콜 블레이저는 앞을 열어 아이보리 목선이 길게 보이게 하세요.",
+        "en": "Leave the charcoal blazer open to frame the ivory neckline.",
+        "de": "Den anthrazitfarbenen Blazer offen tragen, damit der elfenbeinfarbene Ausschnitt sichtbar bleibt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-01.blazer",
+      "image": "products/blazer.webp",
+      "bytes": 38838,
+      "sha256": "31014db9f14704553d370e32288b15f4168ccc56ea62b900fc2dfbaac5f31ebb",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "knit",
+      "producerId": "01-knit",
+      "nameKo": "아이보리 크루넥 니트",
+      "name": {
+        "ko": "아이보리 크루넥 니트",
+        "en": "Ivory crewneck knit",
+        "de": "Elfenbeinfarbener Rundhalspullover"
+      },
+      "description": {
+        "ko": "니트 밑단은 팬츠 안에 가볍게 넣어 커피를 받을 때 앞판이 흐트러지지 않게 하세요.",
+        "en": "Lightly tuck the knit into the trousers to keep the front tidy while handling your coffee.",
+        "de": "Den Pullover locker in die Hose stecken, damit die Vorderseite beim Greifen nach dem Kaffee ordentlich bleibt."
+      },
+      "howToWear": {
+        "ko": "니트 밑단은 팬츠 안에 가볍게 넣어 커피를 받을 때 앞판이 흐트러지지 않게 하세요.",
+        "en": "Lightly tuck the knit into the trousers to keep the front tidy while handling your coffee.",
+        "de": "Den Pullover locker in die Hose stecken, damit die Vorderseite beim Greifen nach dem Kaffee ordentlich bleibt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-01.knit",
+      "image": "products/knit.webp",
+      "bytes": 35232,
+      "sha256": "efaa204a992ce3baf1ea43d579d795b74e63fee6bae2867f46321e5e4564392e",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "01-trousers",
+      "nameKo": "토프 테일러드 팬츠",
+      "name": {
+        "ko": "토프 테일러드 팬츠",
+        "en": "Taupe tailored trousers",
+        "de": "Taupefarbene Stoffhose"
+      },
+      "description": {
+        "ko": "토프 팬츠는 앞 주름을 곧게 펴 블레이저 아래로 차분하게 떨어뜨리세요.",
+        "en": "Keep the taupe trouser crease straight beneath the blazer.",
+        "de": "Die Bügelfalte der taupefarbenen Hose unter dem Blazer gerade fallen lassen."
+      },
+      "howToWear": {
+        "ko": "토프 팬츠는 앞 주름을 곧게 펴 블레이저 아래로 차분하게 떨어뜨리세요.",
+        "en": "Keep the taupe trouser crease straight beneath the blazer.",
+        "de": "Die Bügelfalte der taupefarbenen Hose unter dem Blazer gerade fallen lassen."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-01.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 25510,
+      "sha256": "01a5fe09527ec4b9ab7446f1237257436c0c9889d68ed55d808e77e8aa98e1ad",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "01-loafers",
+      "nameKo": "블랙 페니 로퍼",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "description": {
+        "ko": "블랙 로퍼 위에 밑단이 쌓이지 않게 팬츠 길이를 맞추세요.",
+        "en": "Set the trouser length so the hems do not pile up over the black loafers.",
+        "de": "Die Hosenlänge so wählen, dass sich die Säume nicht über den schwarzen Loafern stauen."
+      },
+      "howToWear": {
+        "ko": "블랙 로퍼 위에 밑단이 쌓이지 않게 팬츠 길이를 맞추세요.",
+        "en": "Set the trouser length so the hems do not pile up over the black loafers.",
+        "de": "Die Hosenlänge so wählen, dass sich die Säume nicht über den schwarzen Loafern stauen."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-01.loafers",
+      "image": "products/loafers.webp",
+      "bytes": 35204,
+      "sha256": "78b822465cf89c8d688ca0adcf9a1f6cbca33becdf417be557fbadfddd6a542c",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "01-shoulder-bag",
+      "nameKo": "블랙 숄더백",
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "description": {
+        "ko": "숄더백은 몸 옆으로 돌려 두 손으로 컵을 잡을 공간을 만드세요.",
+        "en": "Move the shoulder bag to your side to leave both hands free for the cup.",
+        "de": "Die Schultertasche seitlich tragen, damit beide Hände Platz für den Becher haben."
+      },
+      "howToWear": {
+        "ko": "숄더백은 몸 옆으로 돌려 두 손으로 컵을 잡을 공간을 만드세요.",
+        "en": "Move the shoulder bag to your side to leave both hands free for the cup.",
+        "de": "Die Schultertasche seitlich tragen, damit beide Hände Platz für den Becher haben."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-01.shoulder-bag",
+      "image": "products/shoulder-bag.webp",
+      "bytes": 32264,
+      "sha256": "e335181a8bca38debccb6dd605bd34871756f254c5b797a3139fd8439478f04a",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트랩 길이를 조절해 가방을 몸 가까이 두세요.",
+        "en": "Adjust the strap so the bag sits close to your body.",
+        "de": "Die Riemenlänge so einstellen, dass die Tasche körpernah sitzt."
+      }
+    }
+  ],
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  }
+}

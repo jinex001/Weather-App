@@ -1,0 +1,348 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-day-running-20261028-03",
+  "batchId": "coastal-overcast-cool-female-day-running-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b1f1450de1edb354c4585845fa5a571f136cfce84b4cddcb93f4ef0ed8287105",
+  "editorialBytes": 228198,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "water bottle",
+    "earbuds and case",
+    "smartphone"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-day-running-20261028-03",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-female-day-running-20261028.js",
+  "appHeroItem": "coastal-cool-f35-day-running-20261028-03.running-vest",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T22:34:43.585870+00:00",
+    "reviewer": "Codex producer",
+    "scope": "27products all20white/black/grey/app composite sheets reviewed; no per-product user approval claimed",
+    "notes": [
+      "04attachedhood visible and preserved",
+      "02/04integratedliner shorts one product each",
+      "All shoes/socks matched pairs; hidden soles/back/fullshape inferred",
+      "Waterbottle earbuds-case phone excluded; belt/watch wearable accessories included",
+      "Brand and exactcomposition unverified; no performance guarantees"
+    ]
+  },
+  "copy": {
+    "titleEn": "SMALL PREPARATIONS",
+    "title": {
+      "ko": "출발 전 작은 준비",
+      "en": "Small preparations",
+      "de": "Kleine Vorbereitungen"
+    },
+    "deck": {
+      "ko": "이어버드를 꺼내는 계단 위의 준비",
+      "en": "An earbud comes out before the first stride.",
+      "de": "Vor dem ersten Schritt den Ohrhörer herausnehmen."
+    },
+    "intro": {
+      "ko": "계단에 앉아 작은 케이스에서 이어버드를 꺼냅니다. 팔은 가볍게 두고 몸통에만 한 겹을 더한 차림입니다.",
+      "en": "Seated on the step, she takes an earbud from its case. One extra layer sits around the torso while the arms stay free.",
+      "de": "Auf der Stufe nimmt sie einen Ohrhörer aus dem Etui. Eine zusätzliche Schicht liegt am Rumpf, während die Arme frei bleiben."
+    },
+    "pullQuoteEn": "SMALL THINGS BEFORE THE RUN.",
+    "tip": {
+      "ko": "긴소매 끝을 손목에 맞추면 작은 소품을 다루기 편해요.",
+      "en": "Keep the cuffs at the wrists when handling small items.",
+      "de": "Die Ärmelbündchen am Handgelenk halten, wenn kleine Gegenstände benutzt werden."
+    },
+    "sourceCopy": {
+      "titleEn": "SMALL PREPARATIONS",
+      "title": {
+        "ko": "출발 전 작은 준비",
+        "en": "Small preparations",
+        "de": "Kleine Vorbereitungen"
+      },
+      "deck": {
+        "ko": "출발 전 작은 준비",
+        "en": "Small preparations",
+        "de": "Kleine Vorbereitungen"
+      },
+      "intro": {
+        "ko": "세이지 베스트와 아이보리 긴소매 저지를 차콜 레깅스에 맞췄습니다. 계단에 앉아 이어버드를 꺼내며 달릴 준비를 합니다.",
+        "en": "A sage vest and ivory long-sleeve jersey pair with charcoal leggings. Seated on a step, she takes out an earbud before the run.",
+        "de": "Eine salbeigrüne Weste und ein elfenbeinfarbenes Langarmshirt passen zu anthrazitfarbenen Tights. Auf der Stufe nimmt sie vor dem Lauf einen Ohrhörer heraus."
+      },
+      "pullQuoteEn": "A little preparation, then your own pace.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "running-vest",
+      "producerId": "03-running-vest",
+      "nameKo": "세이지 러닝 베스트",
+      "name": {
+        "ko": "세이지 러닝 베스트",
+        "en": "Sage Running vest",
+        "de": "Salbeigrün Laufweste"
+      },
+      "description": {
+        "ko": "세이지 베스트는 긴소매 위에 열어 입어 팔 움직임을 가볍게 두세요.",
+        "en": "Wear the sage vest open over long sleeves to keep arm movement easy.",
+        "de": "Die salbeigrüne Weste offen über dem Langarmshirt tragen, damit die Arme beweglich bleiben."
+      },
+      "howToWear": {
+        "ko": "세이지 베스트는 긴소매 위에 열어 입어 팔 움직임을 가볍게 두세요.",
+        "en": "Wear the sage vest open over long sleeves to keep arm movement easy.",
+        "de": "Die salbeigrüne Weste offen über dem Langarmshirt tragen, damit die Arme beweglich bleiben."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-f35-day-running-20261028-03.running-vest",
+      "image": "products/running-vest.webp",
+      "bytes": 33772,
+      "sha256": "7919861d733fe1ac3f67323291d40d3299a49e6461571d0e437b20ca2005bf7f",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "긴소매 위에 겹쳐 팔 움직임을 자유롭게 두세요.",
+        "en": "Layer over long sleeves while keeping your arms free.",
+        "de": "Über dem Langarmshirt tragen und die Arme frei bewegen."
+      }
+    },
+    {
+      "id": "longsleeve",
+      "producerId": "03-longsleeve",
+      "nameKo": "아이보리 긴소매 저지",
+      "name": {
+        "ko": "아이보리 긴소매 저지",
+        "en": "Ivory long-sleeve jersey top",
+        "de": "Elfenbeinfarbenes Jersey-Langarmshirt"
+      },
+      "description": {
+        "ko": "아이보리 긴소매는 소맷단이 손을 덮지 않게 손목에 맞추세요.",
+        "en": "Set the ivory long-sleeve cuffs at the wrist so your hands remain clear.",
+        "de": "Die Ärmel des elfenbeinfarbenen Langarmshirts am Handgelenk enden lassen."
+      },
+      "howToWear": {
+        "ko": "아이보리 긴소매는 소맷단이 손을 덮지 않게 손목에 맞추세요.",
+        "en": "Set the ivory long-sleeve cuffs at the wrist so your hands remain clear.",
+        "de": "Die Ärmel des elfenbeinfarbenen Langarmshirts am Handgelenk enden lassen."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-f35-day-running-20261028-03.longsleeve",
+      "image": "products/longsleeve.webp",
+      "bytes": 31854,
+      "sha256": "849e13649a53cd76db82fb8a430473ad2c005688321f2e23dc9c5f9fb5e1af45",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "베스트 아래 얇게 겹치고 소매가 손을 덮지 않게 정리하세요.",
+        "en": "Layer under the vest and keep the sleeves clear of your hands.",
+        "de": "Unter der Weste tragen und die Ärmel von den Händen fernhalten."
+      }
+    },
+    {
+      "id": "leggings",
+      "producerId": "03-leggings",
+      "nameKo": "차콜 러닝 레깅스",
+      "name": {
+        "ko": "차콜 러닝 레깅스",
+        "en": "Charcoal Running leggings",
+        "de": "Anthrazit Lauftights"
+      },
+      "description": {
+        "ko": "차콜 레깅스의 무릎 부분을 정리하고 앉아 이어버드를 꺼내세요.",
+        "en": "Smooth the charcoal leggings around the knees before settling on the step.",
+        "de": "Die anthrazitfarbenen Tights am Knie glätten, bevor du dich auf die Stufe setzt."
+      },
+      "howToWear": {
+        "ko": "차콜 레깅스의 무릎 부분을 정리하고 앉아 이어버드를 꺼내세요.",
+        "en": "Smooth the charcoal leggings around the knees before settling on the step.",
+        "de": "Die anthrazitfarbenen Tights am Knie glätten, bevor du dich auf die Stufe setzt."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-f35-day-running-20261028-03.leggings",
+      "image": "products/leggings.webp",
+      "bytes": 16996,
+      "sha256": "9ad86c48dce90798d6daf13e921e4efebab26688fff3a48765d1e6779c8a3eb1",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "허리와 발목이 접히지 않게 정리해 움직임을 편하게 하세요.",
+        "en": "Smooth the waist and ankles so the fabric does not bunch as you move.",
+        "de": "Bund und Knöchel glatt legen, damit sich der Stoff beim Bewegen nicht staut."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "03-running-shoes",
+      "nameKo": "화이트·그레이 메시 러닝화",
+      "name": {
+        "ko": "화이트·그레이 메시 러닝화",
+        "en": "White and grey mesh running shoes",
+        "de": "Weiße und graue Mesh-Laufschuhe"
+      },
+      "description": {
+        "ko": "오프화이트 끈은 메시 갑피 위에서 꼬이지 않도록 나란히 정리하세요.",
+        "en": "Lay the off-white laces flat over the mesh uppers without twisting.",
+        "de": "Die cremeweißen Schnürsenkel ohne Verdrehung flach über dem Mesh-Obermaterial legen."
+      },
+      "howToWear": {
+        "ko": "오프화이트 끈은 메시 갑피 위에서 꼬이지 않도록 나란히 정리하세요.",
+        "en": "Lay the off-white laces flat over the mesh uppers without twisting.",
+        "de": "Die cremeweißen Schnürsenkel ohne Verdrehung flach über dem Mesh-Obermaterial legen."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-f35-day-running-20261028-03.running-shoes",
+      "image": "products/running-shoes.webp",
+      "bytes": 49598,
+      "sha256": "b0e2a9c0488c4394bd9fe21cac726aa278fe3477180d01c5134bf7ff01c29f92",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "끈을 균등하게 조이고 걷거나 가볍게 뛰며 착용감을 확인하세요.",
+        "en": "Tighten the laces evenly and check the fit while walking or jogging gently.",
+        "de": "Die Schnürsenkel gleichmäßig anziehen und die Passform beim Gehen oder lockeren Joggen prüfen."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "03-socks",
+      "nameKo": "화이트 앵클 양말",
+      "name": {
+        "ko": "화이트 앵클 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "description": {
+        "ko": "양말 윗단은 레깅스 밑단 바로 아래에 주름 없이 두세요.",
+        "en": "Keep the sock cuffs smooth just below the leggings hems.",
+        "de": "Die Sockenbündchen direkt unter den Tights-Säumen faltenfrei halten."
+      },
+      "howToWear": {
+        "ko": "양말 윗단은 레깅스 밑단 바로 아래에 주름 없이 두세요.",
+        "en": "Keep the sock cuffs smooth just below the leggings hems.",
+        "de": "Die Sockenbündchen direkt unter den Tights-Säumen faltenfrei halten."
+      },
+      "evidence": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "reconstructionNote": "Visible details fixed; hidden full shape/back/pair conservatively inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-f35-day-running-20261028-03.socks",
+      "image": "products/socks.webp",
+      "bytes": 33460,
+      "sha256": "fbdff5e6c120482c621ae26c793e3d663704481f4ab08fa44138b9af03aa7dba",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "뒤꿈치를 맞추고 신발 안에 접힌 부분이 없도록 펴주세요.",
+        "en": "Align the heel and smooth out folds inside the shoe.",
+        "de": "Die Ferse ausrichten und Falten im Schuh glatt streichen."
+      }
+    }
+  ],
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  }
+}

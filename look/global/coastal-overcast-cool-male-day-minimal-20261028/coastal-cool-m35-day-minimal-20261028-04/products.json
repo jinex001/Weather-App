@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-minimal-20261028-04",
+  "batchId": "coastal-overcast-cool-male-day-minimal-20261028",
+  "category": {
+    "weather": "Overcast",
+    "rainIntensity": null,
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "globalContextVersion": 1,
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Pale stucco, shutters, doorstep, no visible sea; dry overcast daytime; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved",
+    "evidence": "User requested automation after viewing all five editorials.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "ea7243a5193bbf80bd47e9dbe68431662f8a2ef979f8ff5aacefe211d76646a9",
+  "editorialBytes": 279967,
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "paper pastry bag",
+    "flowers and paper sleeve",
+    "groceries and paper bag",
+    "map",
+    "keys"
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "reconstructionNotice": {
+    "ko": "가려진 형태와 뒷면·짝은 추정 복원입니다. 05번 신발은 사진 밖의 추정 디자인입니다. 실제 판매 제품과 소재 혼용률은 미확인입니다.",
+    "en": "Hidden shapes, backs and paired items are inferred. Look05 shoes are an inferred design outside the crop. Retail identity and material composition are unverified.",
+    "de": "Verdeckte Formen, Rückseiten und Paare sind ergänzt. Die Schuhe von Look05 sind ein ergänzter Entwurf außerhalb des Bildes. Handelsprodukt und Materialzusammensetzung sind unbestätigt."
+  },
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-minimal-20261028-04",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-day-minimal-20261028.js",
+  "appHeroItem": "coastal-cool-m35-day-minimal-20261028-04.blazer",
+  "contentType": "ai-styled-concept",
+  "producerVisualReview": {
+    "status": "passed",
+    "at": "2026-10-28T18:49:50.723421+00:00",
+    "reviewer": "Codex producer",
+    "scope": "All25 products reviewed on white black grey app backgrounds; no user product approval claimed.",
+    "notes": [
+      "02 original front+back image rejected, replaced by independently generated v2 singlefront; original retained.",
+      "03small bandcollar preserved despite legacy kind name collarless-jacket.",
+      "05rib collar/cuffs and striped jersey preserved.",
+      "05footwear wholly inferred design outside crop; hidden backs/full lengths/pairs inferred."
+    ]
+  },
+  "copy": {
+    "titleEn": "A QUIET PAUSE TO FIND THE WAY",
+    "title": {
+      "ko": "계단 위 작은 길 찾기",
+      "en": "A quiet pause to find the way",
+      "de": "Eine ruhige Pause zur Orientierung"
+    },
+    "deck": {
+      "ko": "지도 위에서 다음 골목을 찾는 잠깐",
+      "en": "Finding the next turn on a map spread across the knees.",
+      "de": "Auf der Karte über den Knien die nächste Abzweigung suchen."
+    },
+    "intro": {
+      "ko": "계단에 앉아 지도를 펼치면 산책의 속도도 느려집니다. 차가운 블루 계열 사이에서 탄 가방이 따뜻한 한 점이 됩니다.",
+      "en": "A map spread on the steps slows the walk for a moment. The tan bag adds one warm note among the cool blues.",
+      "de": "Die Karte auf der Treppe verlangsamt den Spaziergang für einen Moment. Die cognacfarbene Tasche setzt zwischen kühlen Blautönen einen warmen Akzent."
+    },
+    "pullQuoteEn": "THE NEXT TURN CAN WAIT.",
+    "tip": {
+      "ko": "블레이저 단추를 풀고 앉으면 지도를 펼치기 편해요.",
+      "en": "Unbutton the blazer before sitting to make room for the map.",
+      "de": "Den Blazer vor dem Hinsetzen öffnen, damit die Karte Platz hat."
+    },
+    "sourceCopy": {
+      "titleEn": "A QUIET PAUSE TO FIND THE WAY",
+      "title": {
+        "ko": "계단 위 작은 길 찾기",
+        "en": "A quiet pause to find the way",
+        "de": "Eine ruhige Pause zur Orientierung"
+      },
+      "deck": {
+        "ko": "계단 위 작은 길 찾기",
+        "en": "A quiet pause to find the way",
+        "de": "Eine ruhige Pause zur Orientierung"
+      },
+      "intro": {
+        "ko": "네이비 블레이저와 블루 셔츠를 회색 팬츠로 정리했습니다. 계단에 앉아 지도를 읽는 동안 탄 컬러 가방이 작은 온기를 더합니다.",
+        "en": "A navy blazer and blue shirt pair with grey trousers. A tan bag adds warmth while he reads a map on the steps.",
+        "de": "Marineblauer Blazer und blaues Hemd passen zur grauen Hose. Eine cognacfarbene Tasche setzt beim Kartenlesen auf der Treppe einen warmen Akzent."
+      },
+      "pullQuoteEn": "Small everyday pauses, simple layers.",
+      "tip": {
+        "ko": "선선한 낮에는 가벼운 겹침으로 조절하세요.",
+        "en": "Adjust light layers for a cool daytime outing.",
+        "de": "Leichte Schichten für einen kühlen Tag anpassen."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "04-blazer",
+      "nameKo": "네이비 블레이저",
+      "name": {
+        "ko": "네이비 블레이저",
+        "en": "Navy blazer",
+        "de": "Marineblauer Blazer"
+      },
+      "description": {
+        "ko": "네이비 블레이저는 앉기 전에 단추를 풀어 지도 펼칠 자리를 만드세요.",
+        "en": "Unbutton the navy blazer before sitting down to make room for the map.",
+        "de": "Den marineblauen Blazer vor dem Hinsetzen aufknöpfen, damit die Karte Platz hat."
+      },
+      "howToWear": {
+        "ko": "네이비 블레이저는 앉기 전에 단추를 풀어 지도 펼칠 자리를 만드세요.",
+        "en": "Unbutton the navy blazer before sitting down to make room for the map.",
+        "de": "Den marineblauen Blazer vor dem Hinsetzen aufknöpfen, damit die Karte Platz hat."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "outer",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-04.blazer",
+      "image": "products/blazer.webp",
+      "bytes": 27322,
+      "sha256": "83318e3b5f24b9d6f771293333b751df2576f2fb1c3b71b4640572f4da7149b2",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷을 열어 밝은 이너와 대비를 살리세요.",
+        "en": "Wear it open to contrast with the light inner layer.",
+        "de": "Offen tragen, damit die helle Innenschicht zur Geltung kommt."
+      }
+    },
+    {
+      "id": "shirt",
+      "producerId": "04-shirt",
+      "nameKo": "페일 블루 셔츠",
+      "name": {
+        "ko": "페일 블루 셔츠",
+        "en": "Pale blue shirt",
+        "de": "Hellblaues Hemd"
+      },
+      "description": {
+        "ko": "블루 셔츠의 윗단추를 풀어 블레이저 안쪽 목선을 편하게 두세요.",
+        "en": "Open the blue shirt's top button for an easy neckline inside the blazer.",
+        "de": "Den obersten Knopf des blauen Hemds öffnen, damit der Ausschnitt unter dem Blazer locker bleibt."
+      },
+      "howToWear": {
+        "ko": "블루 셔츠의 윗단추를 풀어 블레이저 안쪽 목선을 편하게 두세요.",
+        "en": "Open the blue shirt's top button for an easy neckline inside the blazer.",
+        "de": "Den obersten Knopf des blauen Hemds öffnen, damit der Ausschnitt unter dem Blazer locker bleibt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-04.shirt",
+      "image": "products/shirt.webp",
+      "bytes": 36180,
+      "sha256": "ac3f8ff01996514d52cd0201964a17a1e1413979682207edcfb421b832f01cd1",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "재킷 아래 얇게 겹쳐 입고 목선을 단정하게 정리하세요.",
+        "en": "Layer neatly under the jacket and keep the neckline clear.",
+        "de": "Unter der Jacke tragen und den Ausschnitt schlicht halten."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-trousers",
+      "nameKo": "라이트 그레이 팬츠",
+      "name": {
+        "ko": "라이트 그레이 팬츠",
+        "en": "Light grey tailored trousers",
+        "de": "Hellgraue Stoffhose"
+      },
+      "description": {
+        "ko": "그레이 팬츠는 앉았을 때 허벅지가 당기지 않는 폭으로 고르세요.",
+        "en": "Choose grey trousers that leave room through the thigh when seated.",
+        "de": "Die graue Hose so wählen, dass sie im Sitzen am Oberschenkel nicht spannt."
+      },
+      "howToWear": {
+        "ko": "그레이 팬츠는 앉았을 때 허벅지가 당기지 않는 폭으로 고르세요.",
+        "en": "Choose grey trousers that leave room through the thigh when seated.",
+        "de": "Die graue Hose so wählen, dass sie im Sitzen am Oberschenkel nicht spannt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bottom",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-04.trousers",
+      "image": "products/trousers.webp",
+      "bytes": 29456,
+      "sha256": "9968155a507cdf82307927479ffcfd7453c76e3674ae008283e88d57f0df7242",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트레이트 밑단이 신발 위에 가볍게 닿도록 연출하세요.",
+        "en": "Let the straight hem rest lightly above the shoes.",
+        "de": "Den geraden Saum leicht über den Schuhen enden lassen."
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "04-loafers",
+      "nameKo": "블랙 페니 로퍼",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "description": {
+        "ko": "블랙 페니 로퍼 위로 회색 밑단을 깔끔하게 두어 재킷의 어두운 톤과 연결하세요.",
+        "en": "Keep the grey hems neat above the black penny loafers to echo the dark jacket.",
+        "de": "Die grauen Säume über den schwarzen Pennyloafern glatt halten, damit sie den dunklen Blazer aufgreifen."
+      },
+      "howToWear": {
+        "ko": "블랙 페니 로퍼 위로 회색 밑단을 깔끔하게 두어 재킷의 어두운 톤과 연결하세요.",
+        "en": "Keep the grey hems neat above the black penny loafers to echo the dark jacket.",
+        "de": "Die grauen Säume über den schwarzen Pennyloafern glatt halten, damit sie den dunklen Blazer aufgreifen."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-04.loafers",
+      "image": "products/loafers.webp",
+      "bytes": 34334,
+      "sha256": "22fc63c6f0aa8867e6430499c0353cbca392bb999ea5a729bbbbd8f2db3e2385",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "팬츠 밑단을 정리해 낮은 로퍼 라인을 드러내세요.",
+        "en": "Keep trouser hems neat to reveal the low loafer profile.",
+        "de": "Den Hosensaum ordentlich legen, damit die flache Form sichtbar bleibt."
+      }
+    },
+    {
+      "id": "crossbody",
+      "producerId": "04-crossbody",
+      "nameKo": "탄 버클 사첼",
+      "name": {
+        "ko": "탄 버클 사첼",
+        "en": "Tan buckle satchel",
+        "de": "Cognacfarbene Satcheltasche mit Schnalle"
+      },
+      "description": {
+        "ko": "탄 사첼은 허리 옆에 놓이도록 스트랩 길이를 맞춰 앉아서도 꺼내기 쉽게 하세요.",
+        "en": "Set the tan satchel at hip height so it stays within reach while seated.",
+        "de": "Den Riemen der cognacfarbenen Satcheltasche auf Hüfthöhe einstellen, damit sie im Sitzen erreichbar bleibt."
+      },
+      "howToWear": {
+        "ko": "탄 사첼은 허리 옆에 놓이도록 스트랩 길이를 맞춰 앉아서도 꺼내기 쉽게 하세요.",
+        "en": "Set the tan satchel at hip height so it stays within reach while seated.",
+        "de": "Den Riemen der cognacfarbenen Satcheltasche auf Hüfthöhe einstellen, damit sie im Sitzen erreichbar bleibt."
+      },
+      "evidence": "Visible details fixed; hidden back/full length/pair inferred",
+      "reconstructionNote": "Visible details fixed; hidden back/full length/pair inferred",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "appCategory": "bag",
+      "appItemId": "coastal-cool-m35-day-minimal-20261028-04.crossbody",
+      "image": "products/crossbody.webp",
+      "bytes": 44082,
+      "sha256": "f87085b0740ff07dba9ad4fbb338bafa52613d6ccfd84564a870c3f64a752cf0",
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "status": "ready",
+      "sourceHowToWear": {
+        "ko": "스트랩 길이를 조절해 가방을 몸 가까이 두세요.",
+        "en": "Adjust the strap so the bag sits close to your body.",
+        "de": "Die Riemenlänge so einstellen, dass die Tasche körpernah sitzt."
+      }
+    }
+  ],
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  }
+}

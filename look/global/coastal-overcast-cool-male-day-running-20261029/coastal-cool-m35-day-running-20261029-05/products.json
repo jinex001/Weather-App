@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-day-running-20261029-05",
+  "batchId": "coastal-overcast-cool-male-day-running-20261029",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "overcast",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "4f00260e98fc83e316835f00ce8f99fddd727c68e68c9c8ba736ee6749f25f6f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "longsleeve",
+      "producerId": "05-longsleeve",
+      "nameKo": "차콜 헤더 기능성 긴소매",
+      "name": {
+        "ko": "차콜 헤더 기능성 긴소매",
+        "en": "Charcoal heather long-sleeve running top",
+        "de": "Anthrazitfarben meliertes Lauf-Langarmshirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-cool-m35-day-running-20261029-05.longsleeve",
+      "image": "products/longsleeve.webp",
+      "sha256": "d66ccaf533d0610da4bcf08644422ec89d46cd9bec3dfc81f13666f1428dca41",
+      "bytes": 42066,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "라운드넥·래글런 절개·가는 헤더 조직·손목 마감 관찰",
+      "reconstructionNote": "가려진 허리·반대 신발·밑창·양말 발·셔츠 뒷면 추정. 별도 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "차콜 헤더 긴소매는 팔꿈치가 편하게 굽혀지도록 소매를 정리하세요.",
+        "en": "Arrange the charcoal heather sleeves so your elbows can bend comfortably.",
+        "de": "Die anthrazitfarben melierten Ärmel so richten, dass sich die Ellenbogen bequem beugen lassen."
+      },
+      "description": {
+        "ko": "차콜 헤더 긴소매는 팔꿈치가 편하게 굽혀지도록 소매를 정리하세요.",
+        "en": "Arrange the charcoal heather sleeves so your elbows can bend comfortably.",
+        "de": "Die anthrazitfarben melierten Ärmel so richten, dass sich die Ellenbogen bequem beugen lassen."
+      }
+    },
+    {
+      "id": "shorts",
+      "producerId": "05-shorts",
+      "nameKo": "라이트 스톤 러닝 쇼츠",
+      "name": {
+        "ko": "라이트 스톤 러닝 쇼츠",
+        "en": "Light-stone running shorts",
+        "de": "Steinhelle Laufshorts"
+      },
+      "appCategory": "shorts",
+      "appItemId": "coastal-cool-m35-day-running-20261029-05.shorts",
+      "image": "products/shorts.webp",
+      "sha256": "e5c95e5310e7b7cc313be6960f9086da33afbe531a763caea47319418c8145c6",
+      "bytes": 30870,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "회색빛 밝은 겉감·옆 트임·헐렁한 짧은 기장, 라이너 미확인",
+      "reconstructionNote": "가려진 허리·반대 신발·밑창·양말 발·셔츠 뒷면 추정. 별도 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "스톤 쇼츠는 앉았을 때 허벅지를 조이지 않도록 밑단에 여유를 두세요.",
+        "en": "Leave room at the stone shorts' hems so they do not grip the thigh when seated.",
+        "de": "An den Säumen der steinfarbenen Shorts Platz lassen, damit sie im Sitzen nicht am Oberschenkel einschneiden."
+      },
+      "description": {
+        "ko": "스톤 쇼츠는 앉았을 때 허벅지를 조이지 않도록 밑단에 여유를 두세요.",
+        "en": "Leave room at the stone shorts' hems so they do not grip the thigh when seated.",
+        "de": "An den Säumen der steinfarbenen Shorts Platz lassen, damit sie im Sitzen nicht am Oberschenkel einschneiden."
+      }
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "05-running-shoes",
+      "nameKo": "그레이 메시 러닝화",
+      "name": {
+        "ko": "그레이 메시 러닝화",
+        "en": "Grey mesh running shoes",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-cool-m35-day-running-20261029-05.running-shoes",
+      "image": "products/running-shoes.webp",
+      "sha256": "118e8c4696a635f00d1045f6a0dc852ca85b07aea02fb69fa775e678f0a6360a",
+      "bytes": 45564,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "한쪽 신발 측면·그레이 보강·화이트 물결 쿠션 솔 관찰",
+      "reconstructionNote": "가려진 허리·반대 신발·밑창·양말 발·셔츠 뒷면 추정. 별도 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "그레이 러닝화는 달린 뒤 끈을 조금 풀어 다시 신을 때 편하게 조절하세요.",
+        "en": "After the run, loosen the grey shoe laces a little before adjusting them for the next wear.",
+        "de": "Nach dem Lauf die Schnürung der grauen Schuhe etwas lockern und beim nächsten Anziehen neu anpassen."
+      },
+      "description": {
+        "ko": "그레이 러닝화는 달린 뒤 끈을 조금 풀어 다시 신을 때 편하게 조절하세요.",
+        "en": "After the run, loosen the grey shoe laces a little before adjusting them for the next wear.",
+        "de": "Nach dem Lauf die Schnürung der grauen Schuhe etwas lockern und beim nächsten Anziehen neu anpassen."
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "05-socks",
+      "nameKo": "화이트 앵클 스포츠 양말",
+      "name": {
+        "ko": "화이트 앵클 스포츠 양말",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "appCategory": "socks",
+      "appItemId": "coastal-cool-m35-day-running-20261029-05.socks",
+      "image": "products/socks.webp",
+      "sha256": "cb180efa5f7e88295292d34ebbc4db73c30b7fc84526800a6d39ddce700e3d7b",
+      "bytes": 37970,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "한쪽 리브 발목 관찰",
+      "reconstructionNote": "가려진 허리·반대 신발·밑창·양말 발·셔츠 뒷면 추정. 별도 라이너 추가 금지",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "양말 발바닥에 접힌 부분이 없는지 확인한 뒤 러닝화를 다시 신으세요.",
+        "en": "Check the sock soles for folds before putting the running shoes back on.",
+        "de": "Vor dem erneuten Anziehen der Laufschuhe die Socken unter dem Fuß auf Falten prüfen."
+      },
+      "description": {
+        "ko": "양말 발바닥에 접힌 부분이 없는지 확인한 뒤 러닝화를 다시 신으세요.",
+        "en": "Check the sock soles for folds before putting the running shoes back on.",
+        "de": "Vor dem erneuten Anziehen der Laufschuhe die Socken unter dem Fuß auf Falten prüfen."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "돌담에 앉아 이마의 땀을 닦으며",
+      "en": "A seat on the wall after the last stretch.",
+      "de": "Nach dem letzten Abschnitt auf der Mauer sitzen."
+    },
+    "intro": {
+      "ko": "돌담에 앉아 이마의 땀을 닦으며 잠깐 쉽니다. 차콜 헤더와 밝은 쇼츠가 바다 옆의 느린 마무리를 담습니다.",
+      "en": "He sits on the wall and wipes his brow after the run. Charcoal heather and pale shorts frame a slower finish beside the sea.",
+      "de": "Nach dem Lauf sitzt er auf der Mauer und wischt sich über die Stirn. Meliertes Anthrazit und helle Shorts begleiten den ruhigen Ausklang am Meer."
+    },
+    "tip": {
+      "ko": "달린 뒤에는 끈과 허리를 편하게 풀어 잠깐 쉬어 가세요.",
+      "en": "After running, ease the laces and waistband for a short rest.",
+      "de": "Nach dem Lauf Schnürung und Bund für eine kurze Pause bequem lockern."
+    },
+    "pullQuoteEn": "THE LAST STRETCH ENDS HERE.",
+    "title": {
+      "ko": "달린 뒤의 잠깐",
+      "en": "A moment after the run",
+      "de": "Ein Moment nach dem Lauf"
+    },
+    "titleEn": "A MOMENT AFTER THE RUN"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-day-running-20261029-05",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-male-day-running-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-cool-m35-day-running-20261029-05.longsleeve"
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-f35-day-minimal-20261029-03",
+  "batchId": "coastal-sunny-pleasant-female-day-minimal-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct editorial review: urban pale walls, stone paving and a secondary sea glimpse; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-for-publication",
+    "evidence": "Latest user explicitly requested direct upload of all four waiting sets.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "47c25b6662b662c17784caddd7c8bfd2e6937dadd15b2cd2fe19d69593370d01",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "03-shirt",
+      "nameKo": "세이지 셔츠",
+      "name": {
+        "ko": "세이지 셔츠",
+        "en": "Sage shirt",
+        "de": "Salbeigrünes Hemd"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-03.shirt",
+      "image": "products/shirt.webp",
+      "sha256": "c11fff1b65dd8f85b37bfbc2a601afa3ddc749812350c91da2b27fb3035fb3db",
+      "bytes": 35900,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 03-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "세이지 셔츠는 앞을 열고 소매를 접어 아이보리 티셔츠를 편하게 감싸 주세요.",
+        "en": "Wear the sage shirt open with rolled sleeves around the ivory tee.",
+        "de": "Das salbeigrüne Hemd offen mit hochgerollten Ärmeln über dem elfenbeinfarbenen Shirt tragen."
+      },
+      "description": {
+        "ko": "세이지 셔츠는 앞을 열고 소매를 접어 아이보리 티셔츠를 편하게 감싸 주세요.",
+        "en": "Wear the sage shirt open with rolled sleeves around the ivory tee.",
+        "de": "Das salbeigrüne Hemd offen mit hochgerollten Ärmeln über dem elfenbeinfarbenen Shirt tragen."
+      }
+    },
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "nameKo": "아이보리 티셔츠",
+      "name": {
+        "ko": "아이보리 티셔츠",
+        "en": "Ivory T-shirt",
+        "de": "Elfenbeinfarbenes T-Shirt"
+      },
+      "appCategory": "top",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-03.tee",
+      "image": "products/tee.webp",
+      "sha256": "6fd9501ef23218e3dff8dff61315f6253bf48c13da770ca69c9a45954730a65a",
+      "bytes": 20948,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 03-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "아이보리 티셔츠는 셔츠 칼라 안쪽으로 둥근 목선이 보이게 펴 주세요.",
+        "en": "Smooth the ivory tee so its round neckline shows inside the shirt collar.",
+        "de": "Das elfenbeinfarbene Shirt so glätten, dass sein Rundhalsausschnitt im Hemdkragen sichtbar bleibt."
+      },
+      "description": {
+        "ko": "아이보리 티셔츠는 셔츠 칼라 안쪽으로 둥근 목선이 보이게 펴 주세요.",
+        "en": "Smooth the ivory tee so its round neckline shows inside the shirt collar.",
+        "de": "Das elfenbeinfarbene Shirt so glätten, dass sein Rundhalsausschnitt im Hemdkragen sichtbar bleibt."
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-trousers",
+      "nameKo": "네이비 팬츠",
+      "name": {
+        "ko": "네이비 팬츠",
+        "en": "Navy trousers",
+        "de": "Marineblaue Hose"
+      },
+      "appCategory": "bottom",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-03.trousers",
+      "image": "products/trousers.webp",
+      "sha256": "ade08854b5196e881089b934a7ac3af1ff0b8add5434022ed3776e27d81e4381",
+      "bytes": 17158,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 03-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "네이비 팬츠는 밝은 상의 아래 곧게 떨어뜨려 장보기 차림을 차분하게 잡아 주세요.",
+        "en": "Let the navy trousers fall straight beneath the light layers for a calm market-day outline.",
+        "de": "Die marineblaue Hose unter den hellen Schichten gerade fallen lassen, damit der Einkaufslook ruhig wirkt."
+      },
+      "description": {
+        "ko": "네이비 팬츠는 밝은 상의 아래 곧게 떨어뜨려 장보기 차림을 차분하게 잡아 주세요.",
+        "en": "Let the navy trousers fall straight beneath the light layers for a calm market-day outline.",
+        "de": "Die marineblaue Hose unter den hellen Schichten gerade fallen lassen, damit der Einkaufslook ruhig wirkt."
+      }
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "nameKo": "오프화이트 스니커즈",
+      "name": {
+        "ko": "오프화이트 스니커즈",
+        "en": "Off-white sneakers",
+        "de": "Cremeweiße Sneaker"
+      },
+      "appCategory": "shoes",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-03.sneakers",
+      "image": "products/sneakers.webp",
+      "sha256": "b17a3faf01390640e67f91c2d2eb6ad210245fdf9c245d541061a3e3062e108a",
+      "bytes": 38646,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 03-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "오프화이트 스니커즈는 끈을 짧게 정리해 골목을 걸을 때 밟히지 않게 하세요.",
+        "en": "Keep the off-white sneaker laces tidy so they stay clear of your steps.",
+        "de": "Die cremeweißen Schnürsenkel ordentlich halten, damit du beim Gehen nicht darauftrittst."
+      },
+      "description": {
+        "ko": "오프화이트 스니커즈는 끈을 짧게 정리해 골목을 걸을 때 밟히지 않게 하세요.",
+        "en": "Keep the off-white sneaker laces tidy so they stay clear of your steps.",
+        "de": "Die cremeweißen Schnürsenkel ordentlich halten, damit du beim Gehen nicht darauftrittst."
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "nameKo": "내추럴 캔버스 토트",
+      "name": {
+        "ko": "내추럴 캔버스 토트",
+        "en": "Natural canvas tote",
+        "de": "Naturfarbene Canvas-Tote"
+      },
+      "appCategory": "bag",
+      "appItemId": "coastal-pleasant-f35-day-minimal-20261029-03.tote",
+      "image": "products/tote.webp",
+      "sha256": "3f0f8db739759c754a5853bae86cb67c55a13f6b3ec0ef4d37bbc86934ee8620",
+      "bytes": 24092,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "직접 검수: 03-editorial.png의 노출 부분",
+      "reconstructionNote": "미노출 전체 형태·뒷면은 추정 복원. 신발은 노출 디자인을 기준으로 좌우 한 쌍 복원.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceHowToWear": null,
+      "howToWear": {
+        "ko": "캔버스 토트는 어깨에 걸고 입구를 앞쪽으로 돌려 내용물을 꺼내기 쉽게 하세요.",
+        "en": "Carry the canvas tote on your shoulder with its opening turned forward for easy access.",
+        "de": "Die Canvas-Tote auf der Schulter tragen und die Öffnung nach vorne drehen, damit der Inhalt erreichbar bleibt."
+      },
+      "description": {
+        "ko": "캔버스 토트는 어깨에 걸고 입구를 앞쪽으로 돌려 내용물을 꺼내기 쉽게 하세요.",
+        "en": "Carry the canvas tote on your shoulder with its opening turned forward for easy access.",
+        "de": "Die Canvas-Tote auf der Schulter tragen und die Öffnung nach vorne drehen, damit der Inhalt erreichbar bleibt."
+      }
+    }
+  ],
+  "copy": {
+    "sourceCopy": {},
+    "deck": {
+      "ko": "토트에서 오렌지를 꺼내는 가게 앞",
+      "en": "An orange comes out of the tote outside the shop.",
+      "de": "Vor dem Laden eine Orange aus der Tote nehmen."
+    },
+    "intro": {
+      "ko": "가게 앞에서 토트 안의 오렌지를 꺼냅니다. 밝은 겹침과 짙은 하의가 일상의 짧은 장보기를 단정하게 잡아 줍니다.",
+      "en": "Outside the shop, she takes an orange from the tote. Pale layers over a dark lower half keep the brief market stop simple.",
+      "de": "Vor dem Laden nimmt sie eine Orange aus der Tote. Helle Schichten über einer dunklen Hose halten den kurzen Einkauf schlicht."
+    },
+    "tip": {
+      "ko": "셔츠 앞을 열어 안쪽 티셔츠를 보여 주면 두 색이 가볍게 이어져요.",
+      "en": "Leave the shirt open to connect its colour with the pale tee beneath.",
+      "de": "Das Hemd offen tragen, damit seine Farbe mit dem hellen Shirt darunter zusammenspielt."
+    },
+    "pullQuoteEn": "AN ORANGE FOR THE WALK HOME.",
+    "title": {
+      "ko": "장보기의 작은 오렌지",
+      "en": "An orange from the market tote",
+      "de": "Eine Orange aus der Einkaufstasche"
+    },
+    "titleEn": "AN ORANGE FROM THE MARKET TOTE"
+  },
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-f35-day-minimal-20261029-03",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-female-day-minimal-20261029.js",
+  "publicationApproval": {
+    "actor": "user",
+    "instruction": "클로드로 보내지말고 바로 너가 올려",
+    "scope": "four waiting batches",
+    "date": "2026-10-29"
+  },
+  "appHeroItem": "coastal-pleasant-f35-day-minimal-20261029-03.shirt"
+}

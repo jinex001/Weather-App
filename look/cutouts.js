@@ -5,6 +5,27 @@
 (function () {
   var L = window.WX_LOOKS; if (!L) return;
   var CUTS = {
+"coastal-cool-m35-day-minimal-20261028-01.blazer": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-01/products/blazer.webp", 0.201],
+"coastal-cool-m35-day-minimal-20261028-02.zip-jacket": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-02/products/zip-jacket.webp", 0.68],
+"coastal-cool-m35-day-minimal-20261028-03.collarless-jacket": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-03/products/collarless-jacket.webp", 0.373],
+"coastal-cool-m35-day-minimal-20261028-04.blazer": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-04/products/blazer.webp", 0.153],
+"coastal-cool-m35-day-minimal-20261028-05.zip-jacket": ["look/global/coastal-overcast-cool-male-day-minimal-20261028/coastal-cool-m35-day-minimal-20261028-05/products/zip-jacket.webp", 0.119],
+"coastal-cool-f35-day-running-20261028-01.running-jacket": ["look/global/coastal-overcast-cool-female-day-running-20261028/coastal-cool-f35-day-running-20261028-01/products/running-jacket.webp", 0.387],
+"coastal-cool-f35-day-running-20261028-02.running-jacket": ["look/global/coastal-overcast-cool-female-day-running-20261028/coastal-cool-f35-day-running-20261028-02/products/running-jacket.webp", 0.499],
+"coastal-cool-f35-day-running-20261028-03.running-vest": ["look/global/coastal-overcast-cool-female-day-running-20261028/coastal-cool-f35-day-running-20261028-03/products/running-vest.webp", 0.481],
+"coastal-cool-f35-day-running-20261028-04.running-jacket": ["look/global/coastal-overcast-cool-female-day-running-20261028/coastal-cool-f35-day-running-20261028-04/products/running-jacket.webp", 0.292],
+"coastal-cool-f35-day-running-20261028-05.running-jacket": ["look/global/coastal-overcast-cool-female-day-running-20261028/coastal-cool-f35-day-running-20261028-05/products/running-jacket.webp", 0.315],
+"coastal-cool-m35-day-running-20261029-01.longsleeve": ["look/global/coastal-overcast-cool-male-day-running-20261029/coastal-cool-m35-day-running-20261029-01/products/longsleeve.webp", 0.365],
+"coastal-cool-m35-day-running-20261029-02.tee": ["look/global/coastal-overcast-cool-male-day-running-20261029/coastal-cool-m35-day-running-20261029-02/products/tee.webp", 0.357],
+"coastal-cool-m35-day-running-20261029-03.longsleeve": ["look/global/coastal-overcast-cool-male-day-running-20261029/coastal-cool-m35-day-running-20261029-03/products/longsleeve.webp", 0.307],
+"coastal-cool-m35-day-running-20261029-04.tee": ["look/global/coastal-overcast-cool-male-day-running-20261029/coastal-cool-m35-day-running-20261029-04/products/tee.webp", 0.199],
+"coastal-cool-m35-day-running-20261029-05.longsleeve": ["look/global/coastal-overcast-cool-male-day-running-20261029/coastal-cool-m35-day-running-20261029-05/products/longsleeve.webp", 0.264],
+"coastal-pleasant-f35-day-minimal-20261029-01.shirt": ["look/global/coastal-sunny-pleasant-female-day-minimal-20261029/coastal-pleasant-f35-day-minimal-20261029-01/products/shirt.webp", 0.876],
+"coastal-pleasant-f35-day-minimal-20261029-02.knit": ["look/global/coastal-sunny-pleasant-female-day-minimal-20261029/coastal-pleasant-f35-day-minimal-20261029-02/products/knit.webp", 0.851],
+"coastal-pleasant-f35-day-minimal-20261029-03.shirt": ["look/global/coastal-sunny-pleasant-female-day-minimal-20261029/coastal-pleasant-f35-day-minimal-20261029-03/products/shirt.webp", 0.676],
+"coastal-pleasant-f35-day-minimal-20261029-04.knit": ["look/global/coastal-sunny-pleasant-female-day-minimal-20261029/coastal-pleasant-f35-day-minimal-20261029-04/products/knit.webp", 0.121],
+"coastal-pleasant-f35-day-minimal-20261029-05.sunglasses": ["look/global/coastal-sunny-pleasant-female-day-minimal-20261029/coastal-pleasant-f35-day-minimal-20261029-05/products/sunglasses.webp", 0.223],
+
     "bn15-01-run-f.outer": [
         "look/berlin-complete/Sunny/Chilly/Female/35+/night/01-running/products/01-outer.cut.webp",
         0.104
@@ -1051,6 +1072,27 @@
     ]
 };
   var HERO = {
+"coastal-cool-m35-day-minimal-20261028-01": "coastal-cool-m35-day-minimal-20261028-01.blazer",
+"coastal-cool-m35-day-minimal-20261028-02": "coastal-cool-m35-day-minimal-20261028-02.zip-jacket",
+"coastal-cool-m35-day-minimal-20261028-03": "coastal-cool-m35-day-minimal-20261028-03.collarless-jacket",
+"coastal-cool-m35-day-minimal-20261028-04": "coastal-cool-m35-day-minimal-20261028-04.blazer",
+"coastal-cool-m35-day-minimal-20261028-05": "coastal-cool-m35-day-minimal-20261028-05.zip-jacket",
+"coastal-cool-f35-day-running-20261028-01": "coastal-cool-f35-day-running-20261028-01.running-jacket",
+"coastal-cool-f35-day-running-20261028-02": "coastal-cool-f35-day-running-20261028-02.running-jacket",
+"coastal-cool-f35-day-running-20261028-03": "coastal-cool-f35-day-running-20261028-03.running-vest",
+"coastal-cool-f35-day-running-20261028-04": "coastal-cool-f35-day-running-20261028-04.running-jacket",
+"coastal-cool-f35-day-running-20261028-05": "coastal-cool-f35-day-running-20261028-05.running-jacket",
+"coastal-cool-m35-day-running-20261029-01": "coastal-cool-m35-day-running-20261029-01.longsleeve",
+"coastal-cool-m35-day-running-20261029-02": "coastal-cool-m35-day-running-20261029-02.tee",
+"coastal-cool-m35-day-running-20261029-03": "coastal-cool-m35-day-running-20261029-03.longsleeve",
+"coastal-cool-m35-day-running-20261029-04": "coastal-cool-m35-day-running-20261029-04.tee",
+"coastal-cool-m35-day-running-20261029-05": "coastal-cool-m35-day-running-20261029-05.longsleeve",
+"coastal-pleasant-f35-day-minimal-20261029-01": "coastal-pleasant-f35-day-minimal-20261029-01.shirt",
+"coastal-pleasant-f35-day-minimal-20261029-02": "coastal-pleasant-f35-day-minimal-20261029-02.knit",
+"coastal-pleasant-f35-day-minimal-20261029-03": "coastal-pleasant-f35-day-minimal-20261029-03.shirt",
+"coastal-pleasant-f35-day-minimal-20261029-04": "coastal-pleasant-f35-day-minimal-20261029-04.knit",
+"coastal-pleasant-f35-day-minimal-20261029-05": "coastal-pleasant-f35-day-minimal-20261029-05.sunglasses",
+
     "bn15-01-run-f": "bn15-01-run-f.outer",
     "bn15-02-run-f": "bn15-02-run-f.outer",
     "bn15-03-run-f": "bn15-03-run-f.outer",
