@@ -21,7 +21,7 @@ The Korean master (title, deck, intro, tip, product names, per-product how-to-we
 
 All 23 how-to-wear notes are distinct in every language. Summaries and intros do not list product names, and pull quotes and tips are specific to each look.
 
-Reported but unchanged: 02 socks are named "ankle" (화이트 앵클 스포츠 양말), but both the cut and the editorial show a quarter-to-crew length. The name was kept, per the IMAGE_MAPPING_HANDOFF 5-1 rule. The 04 belt zip pull has a tiny illegible mark, and no brand can be read.
+02 socks, corrected in b189 at the user's request: b188 named them "ankle" (화이트 앵클 스포츠 양말), but both the cut and the editorial show a quarter-to-short-crew length. Name, how-to-wear and product description were rewritten in ko/en/de: 화이트 리브 스포츠 양말 / White ribbed sports socks / Weiße gerippte Sportsocken. Changed files: the dedicated module and look 02 `products.json`; the earlier wording is kept there under `copyRevision.sourceCopy`. Image, ID and source READY/outbox are unchanged. BUILD b189 and the module cache `?v=b189`. The 04 belt zip pull has a tiny illegible mark, and no brand can be read.
 
 ## Validation (this session)
 

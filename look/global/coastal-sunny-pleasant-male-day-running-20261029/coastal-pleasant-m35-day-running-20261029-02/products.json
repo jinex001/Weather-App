@@ -245,20 +245,20 @@
       "appItemId": "coastal-pleasant-m35-day-running-20261029-02.socks",
       "appCategory": "socks",
       "name": {
-        "ko": "화이트 앵클 스포츠 양말",
-        "en": "White ankle sports socks",
-        "de": "Weiße Knöchel-Sportsocken"
+        "ko": "화이트 리브 스포츠 양말",
+        "en": "White ribbed sports socks",
+        "de": "Weiße gerippte Sportsocken"
       },
-      "nameKo": "화이트 앵클 스포츠 양말",
+      "nameKo": "화이트 리브 스포츠 양말",
       "description": {
-        "ko": "앵클 양말은 신발 입구 위에서 양쪽 높이를 비슷하게 맞춰 주세요.",
-        "en": "Keep the ankle socks at a similar height above the shoe openings.",
-        "de": "Die Knöchelsocken oberhalb des Schuhrands an beiden Füßen auf ähnliche Höhe bringen."
+        "ko": "화이트 리브 조직과 짧은 크루 길이의 스포츠 양말 한 켤레입니다. 발과 뒤쪽의 가려진 형태는 추정 복원했습니다.",
+        "en": "A pair of white ribbed sports socks with a short crew cuff. Hidden foot and rear shapes are inferred reconstructions.",
+        "de": "Ein Paar weiße gerippte Sportsocken mit kurzem Schaft. Verdeckte Fuß- und Rückseitenformen wurden ergänzt."
       },
       "howToWear": {
-        "ko": "앵클 양말은 신발 입구 위에서 양쪽 높이를 비슷하게 맞춰 주세요.",
-        "en": "Keep the ankle socks at a similar height above the shoe openings.",
-        "de": "Die Knöchelsocken oberhalb des Schuhrands an beiden Füßen auf ähnliche Höhe bringen."
+        "ko": "양말의 리브 윗단을 양쪽 비슷한 높이에 두고 발등 주름을 펴 주세요.",
+        "en": "Set both ribbed cuffs at a similar height and smooth the fabric over each instep.",
+        "de": "Die gerippten Bündchen auf ähnliche Höhe ziehen und den Stoff über dem Spann glattstreichen."
       },
       "image": "products/socks.webp",
       "sha256": "cc57cbdb685e75d832c7f7d64642f51fee8955f45fb34a6411c5e72a1eec659c",
@@ -273,8 +273,30 @@
       "brand": null,
       "purchaseUrl": null,
       "materialComposition": null,
-      "status": "ready"
+      "status": "ready",
+      "copyRevision": {
+        "build": "b189",
+        "reason": "b189: name said 'ankle' but the product image and editorial show a quarter/short-crew ribbed sock; copy corrected, image unchanged.",
+        "sourceCopy": {
+          "name": {
+            "ko": "화이트 앵클 스포츠 양말",
+            "en": "White ankle sports socks",
+            "de": "Weiße Knöchel-Sportsocken"
+          },
+          "nameKo": "화이트 앵클 스포츠 양말",
+          "description": {
+            "ko": "앵클 양말은 신발 입구 위에서 양쪽 높이를 비슷하게 맞춰 주세요.",
+            "en": "Keep the ankle socks at a similar height above the shoe openings.",
+            "de": "Die Knöchelsocken oberhalb des Schuhrands an beiden Füßen auf ähnliche Höhe bringen."
+          },
+          "howToWear": {
+            "ko": "앵클 양말은 신발 입구 위에서 양쪽 높이를 비슷하게 맞춰 주세요.",
+            "en": "Keep the ankle socks at a similar height above the shoe openings.",
+            "de": "Die Knöchelsocken oberhalb des Schuhrands an beiden Füßen auf ähnliche Höhe bringen."
+          }
+        }
+      }
     }
   ],
-  "appBuild": "b188"
+  "appBuild": "b189"
 }
