@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-running-20261029-02",
+  "batchId": "coastal-sunny-pleasant-male-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3768c4efbb255a992864cc1e223cb724ecb3f4b9b3e5e9e46dc518597aa088d4",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-running-20261029-02",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-male-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-m35-day-running-20261029-02.tank",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T09:48:59.562721+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 loose running shorts and separate belt;03 navy cap;05 round watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "뚜껑이 이겼네",
+      "en": "The cap had other ideas",
+      "de": "Der Deckel hatte andere Pläne"
+    },
+    "titleEn": "THE CAP HAD OTHER IDEAS",
+    "deck": {
+      "ko": "손등의 물방울을 보며 터진 웃음",
+      "en": "A few drops on his hand turn into a laugh.",
+      "de": "Ein paar Tropfen auf der Hand sorgen für Lachen."
+    },
+    "intro": {
+      "ko": "물병 뚜껑이 풀리자 손등에 작은 물방울이 튑니다. 시선은 손으로 내려가고 웃음은 잠깐의 휴식을 길게 만듭니다.",
+      "en": "The cap comes free and a few drops land on his hand. He looks down at the little splash, and the water break stretches by one more laugh.",
+      "de": "Der Deckel löst sich und ein paar Tropfen landen auf seiner Hand. Er blickt auf den kleinen Spritzer und verlängert die Trinkpause um ein Lachen."
+    },
+    "tip": {
+      "ko": "물병을 열 때 팔과 어깨가 편하게 움직이는 여유를 두세요.",
+      "en": "Leave room for the arms and shoulders while opening the bottle.",
+      "de": "Beim Öffnen der Flasche Platz für Arme und Schultern lassen."
+    },
+    "pullQuoteEn": "A SIP AFTER THE SURPRISE.",
+    "sourceCopy": [
+      {
+        "field": "copy.intro.en",
+        "source": "The cap comes free and a few drops land on his hand. He looks down at the little splash and lets the water break last one laugh longer."
+      }
+    ],
+    "sourceCopyNote": "Claude b188 en/de idiom review; Korean master unchanged."
+  },
+  "products": [
+    {
+      "id": "tank",
+      "producerId": "02-tank",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-02.tank",
+      "appCategory": "top",
+      "name": {
+        "ko": "테라코타 슬리브리스 러닝 톱",
+        "en": "Terracotta sleeveless running top",
+        "de": "Terrakottafarbenes ärmelloses Laufshirt"
+      },
+      "nameKo": "테라코타 슬리브리스 러닝 톱",
+      "description": {
+        "ko": "테라코타 톱은 어깨와 옆선에 여유를 두어 물병을 들 때 편하게 입으세요.",
+        "en": "Leave room at the shoulders and sides of the terracotta top when lifting the bottle.",
+        "de": "Das terrakottafarbene Top an Schultern und Seiten locker tragen, damit das Anheben der Flasche bequem bleibt."
+      },
+      "howToWear": {
+        "ko": "테라코타 톱은 어깨와 옆선에 여유를 두어 물병을 들 때 편하게 입으세요.",
+        "en": "Leave room at the shoulders and sides of the terracotta top when lifting the bottle.",
+        "de": "Das terrakottafarbene Top an Schultern und Seiten locker tragen, damit das Anheben der Flasche bequem bleibt."
+      },
+      "image": "products/tank.webp",
+      "sha256": "eed718bab942f80b07ab6dc2245a93fa91f36b6ab98a8b2aa4cb1c8fd2b39818",
+      "bytes": 31870,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/02-editorial-v2-gaze.png visible wardrobe; gaze=bottle",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "02-shorts",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-02.shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "네이비 러닝 쇼츠",
+        "en": "Navy running shorts",
+        "de": "Marineblaue Laufshorts"
+      },
+      "nameKo": "네이비 러닝 쇼츠",
+      "description": {
+        "ko": "네이비 쇼츠는 허리끈을 편하게 맞추고 옆 트임이 말리지 않게 정리하세요.",
+        "en": "Set the navy drawstring comfortably and keep the shorts' side splits flat.",
+        "de": "Den Kordelzug der marineblauen Shorts bequem einstellen und die Seitenschlitze glatt halten."
+      },
+      "howToWear": {
+        "ko": "네이비 쇼츠는 허리끈을 편하게 맞추고 옆 트임이 말리지 않게 정리하세요.",
+        "en": "Set the navy drawstring comfortably and keep the shorts' side splits flat.",
+        "de": "Den Kordelzug der marineblauen Shorts bequem einstellen und die Seitenschlitze glatt halten."
+      },
+      "image": "products/shorts.webp",
+      "sha256": "7b1a31583325a0f246216a26ef3b0ef20252abed7193da186ec7759bbad31b5b",
+      "bytes": 25042,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/02-editorial-v2-gaze.png visible wardrobe; gaze=bottle",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "02-running-shoes",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-02.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "라이트 그레이 메시 러닝화",
+        "en": "Light-grey mesh running shoes",
+        "de": "Hellgraue Mesh-Laufschuhe"
+      },
+      "nameKo": "라이트 그레이 메시 러닝화",
+      "description": {
+        "ko": "라이트 그레이 러닝화는 쉬었다 출발하기 전에 발뒤꿈치가 뜨지 않는지 살펴보세요.",
+        "en": "Before moving on after the break, check that your heels sit securely in the light-grey shoes.",
+        "de": "Vor dem Weiterlaufen nach der Pause prüfen, ob die Fersen in den hellgrauen Schuhen sicher sitzen."
+      },
+      "howToWear": {
+        "ko": "라이트 그레이 러닝화는 쉬었다 출발하기 전에 발뒤꿈치가 뜨지 않는지 살펴보세요.",
+        "en": "Before moving on after the break, check that your heels sit securely in the light-grey shoes.",
+        "de": "Vor dem Weiterlaufen nach der Pause prüfen, ob die Fersen in den hellgrauen Schuhen sicher sitzen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "eac7dfccc64871db3f776bac19b9f07a2a362ffc1be372f8b93efaf7026f098a",
+      "bytes": 44998,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/02-editorial-v2-gaze.png visible wardrobe; gaze=bottle",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "02-socks",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-02.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 앵클 스포츠 양말",
+        "en": "White ankle sports socks",
+        "de": "Weiße Knöchel-Sportsocken"
+      },
+      "nameKo": "화이트 앵클 스포츠 양말",
+      "description": {
+        "ko": "앵클 양말은 신발 입구 위에서 양쪽 높이를 비슷하게 맞춰 주세요.",
+        "en": "Keep the ankle socks at a similar height above the shoe openings.",
+        "de": "Die Knöchelsocken oberhalb des Schuhrands an beiden Füßen auf ähnliche Höhe bringen."
+      },
+      "howToWear": {
+        "ko": "앵클 양말은 신발 입구 위에서 양쪽 높이를 비슷하게 맞춰 주세요.",
+        "en": "Keep the ankle socks at a similar height above the shoe openings.",
+        "de": "Die Knöchelsocken oberhalb des Schuhrands an beiden Füßen auf ähnliche Höhe bringen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "cc57cbdb685e75d832c7f7d64642f51fee8955f45fb34a6411c5e72a1eec659c",
+      "bytes": 40062,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/02-editorial-v2-gaze.png visible wardrobe; gaze=bottle",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b188"
+}

@@ -1,0 +1,309 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-running-20261029-03",
+  "batchId": "coastal-sunny-pleasant-male-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "9501b670dba1105e7df3787d72d361acfc78117f3294fe01ac1af0500217dab6",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-running-20261029-03",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-male-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-m35-day-running-20261029-03.running-cap",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T09:48:59.562721+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 loose running shorts and separate belt;03 navy cap;05 round watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "모자 잡았다",
+      "en": "Caught the cap",
+      "de": "Die Kappe erwischt"
+    },
+    "titleEn": "CAUGHT THE CAP",
+    "deck": {
+      "ko": "바람에 들린 챙을 따라가는 눈빛",
+      "en": "Eyes follow the brim as a little breeze lifts it.",
+      "de": "Der Blick folgt dem Schirm, den eine kleine Brise anhebt."
+    },
+    "intro": {
+      "ko": "걸음을 늦추던 순간 모자챙이 살짝 들립니다. 손과 눈이 챙을 따라가고 입가에는 짧은 장난기가 남습니다.",
+      "en": "A small breeze lifts the brim as he slows his stride. Hand and eyes follow it while a little grin lingers.",
+      "de": "Eine kleine Brise hebt den Schirm, als er langsamer wird. Hand und Blick folgen ihm, während ein kleines Grinsen bleibt."
+    },
+    "tip": {
+      "ko": "캡은 눈을 가리지 않는 높이로 쓰고 챙을 편하게 잡으세요.",
+      "en": "Wear the cap above the eyes and hold the brim comfortably.",
+      "de": "Die Kappe oberhalb der Augen tragen und den Schirm locker greifen."
+    },
+    "pullQuoteEn": "THE BREEZE GETS ONE TRY."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-03.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "세이지 러닝 티셔츠",
+        "en": "Sage running T-shirt",
+        "de": "Salbeigrünes Laufshirt"
+      },
+      "nameKo": "세이지 러닝 티셔츠",
+      "description": {
+        "ko": "세이지 티셔츠의 밑단은 쇼츠 밖에 두고 팔을 올려도 옆선이 당기지 않게 하세요.",
+        "en": "Leave the sage tee untucked with room through the sides when lifting your arm.",
+        "de": "Das salbeigrüne Shirt über den Shorts und seitlich locker tragen, damit es beim Heben des Arms nicht spannt."
+      },
+      "howToWear": {
+        "ko": "세이지 티셔츠의 밑단은 쇼츠 밖에 두고 팔을 올려도 옆선이 당기지 않게 하세요.",
+        "en": "Leave the sage tee untucked with room through the sides when lifting your arm.",
+        "de": "Das salbeigrüne Shirt über den Shorts und seitlich locker tragen, damit es beim Heben des Arms nicht spannt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "575f0f01398bf369a3bb6fdb49c3cbdaa6a2b79d4c75e63518b1bb7296658760",
+      "bytes": 25968,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/03-editorial-v2-gaze.png visible wardrobe; gaze=cap",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "03-shorts",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-03.shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "라이트 스톤 러닝 쇼츠",
+        "en": "Light-stone running shorts",
+        "de": "Steinhelle Laufshorts"
+      },
+      "nameKo": "라이트 스톤 러닝 쇼츠",
+      "description": {
+        "ko": "스톤 쇼츠는 걸을 때 옆 트임이 열리도록 밑단을 자연스럽게 내려 주세요.",
+        "en": "Let the stone shorts' hems fall naturally so the side splits move as you walk.",
+        "de": "Die Säume der steinfarbenen Shorts natürlich fallen lassen, damit sich die Seitenschlitze beim Gehen bewegen."
+      },
+      "howToWear": {
+        "ko": "스톤 쇼츠는 걸을 때 옆 트임이 열리도록 밑단을 자연스럽게 내려 주세요.",
+        "en": "Let the stone shorts' hems fall naturally so the side splits move as you walk.",
+        "de": "Die Säume der steinfarbenen Shorts natürlich fallen lassen, damit sich die Seitenschlitze beim Gehen bewegen."
+      },
+      "image": "products/shorts.webp",
+      "sha256": "ad7873eb4b02f97e1985e9faf59afd8195673290a564914a2517a46a92c3bcb3",
+      "bytes": 29118,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/03-editorial-v2-gaze.png visible wardrobe; gaze=cap",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-cap",
+      "producerId": "03-running-cap",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-03.running-cap",
+      "appCategory": "headwear",
+      "name": {
+        "ko": "네이비 러닝 캡",
+        "en": "Navy running cap",
+        "de": "Marineblaue Laufkappe"
+      },
+      "nameKo": "네이비 러닝 캡",
+      "description": {
+        "ko": "러닝 캡은 눈을 가리지 않는 높이로 맞추고 바람이 불면 챙을 가볍게 잡으세요.",
+        "en": "Set the running cap above the eyes and hold the brim lightly in a breeze.",
+        "de": "Die Laufkappe oberhalb der Augen platzieren und den Schirm bei Wind leicht festhalten."
+      },
+      "howToWear": {
+        "ko": "러닝 캡은 눈을 가리지 않는 높이로 맞추고 바람이 불면 챙을 가볍게 잡으세요.",
+        "en": "Set the running cap above the eyes and hold the brim lightly in a breeze.",
+        "de": "Die Laufkappe oberhalb der Augen platzieren und den Schirm bei Wind leicht festhalten."
+      },
+      "image": "products/running-cap.webp",
+      "sha256": "c0650a707011560abce8e0ff2a256d93f424ab0f1155c7da022f0a581050f650",
+      "bytes": 25244,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/03-editorial-v2-gaze.png visible wardrobe; gaze=cap",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "03-running-shoes",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-03.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "아이보리·그레이 메시 러닝화",
+        "en": "Ivory and grey mesh running shoes",
+        "de": "Elfenbeinfarbene und graue Mesh-Laufschuhe"
+      },
+      "nameKo": "아이보리·그레이 메시 러닝화",
+      "description": {
+        "ko": "아이보리 러닝화는 혀를 가운데로 맞춘 뒤 발등이 편하도록 끈을 묶으세요.",
+        "en": "Centre the ivory shoe tongues before adjusting the laces comfortably over the foot.",
+        "de": "Die Zungen der elfenbeinfarbenen Laufschuhe mittig ausrichten und die Schnürung bequem über dem Spann einstellen."
+      },
+      "howToWear": {
+        "ko": "아이보리 러닝화는 혀를 가운데로 맞춘 뒤 발등이 편하도록 끈을 묶으세요.",
+        "en": "Centre the ivory shoe tongues before adjusting the laces comfortably over the foot.",
+        "de": "Die Zungen der elfenbeinfarbenen Laufschuhe mittig ausrichten und die Schnürung bequem über dem Spann einstellen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "a87b1090d92654a0b4196cb2b3afe9dcc23234eda8fc4913cb365369d3693f39",
+      "bytes": 48526,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/03-editorial-v2-gaze.png visible wardrobe; gaze=cap",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "03-socks",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-03.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 스포츠 양말",
+        "en": "White sports socks",
+        "de": "Weiße Sportsocken"
+      },
+      "nameKo": "화이트 스포츠 양말",
+      "description": {
+        "ko": "화이트 양말은 쇼츠 아래에서 발목 주름을 펴 깔끔한 선으로 마무리하세요.",
+        "en": "Smooth the white socks at the ankle for a clean line below the shorts.",
+        "de": "Die weißen Socken am Knöchel glätten, damit unter den Shorts eine klare Linie bleibt."
+      },
+      "howToWear": {
+        "ko": "화이트 양말은 쇼츠 아래에서 발목 주름을 펴 깔끔한 선으로 마무리하세요.",
+        "en": "Smooth the white socks at the ankle for a clean line below the shorts.",
+        "de": "Die weißen Socken am Knöchel glätten, damit unter den Shorts eine klare Linie bleibt."
+      },
+      "image": "products/socks.webp",
+      "sha256": "4adbb9cb1429192fca747bf4ddc551e5e0824e2ac2a0de7eacbd76c8fed538e9",
+      "bytes": 32056,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/03-editorial-v2-gaze.png visible wardrobe; gaze=cap",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b188"
+}

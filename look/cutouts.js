@@ -5,6 +5,12 @@
 (function () {
   var L = window.WX_LOOKS; if (!L) return;
   var CUTS = {
+"coastal-pleasant-m35-day-running-20261029-01.tee": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-01/products/tee.webp", 0.574],
+"coastal-pleasant-m35-day-running-20261029-02.tank": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-02/products/tank.webp", 0.43],
+"coastal-pleasant-m35-day-running-20261029-03.running-cap": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-03/products/running-cap.webp", 0.216],
+"coastal-pleasant-m35-day-running-20261029-04.tank": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-04/products/tank.webp", 0.195],
+"coastal-pleasant-m35-day-running-20261029-05.tee": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-05/products/tee.webp", 0.827],
+
 "coastal-pleasant-f35-day-running-20261029-01.tee": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-01/products/tee.webp", 0.537],
 "coastal-pleasant-f35-day-running-20261029-02.tank": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-02/products/tank.webp", 0.551],
 "coastal-pleasant-f35-day-running-20261029-03.tee": ["look/global/coastal-sunny-pleasant-female-day-running-20261029/coastal-pleasant-f35-day-running-20261029-03/products/tee.webp", 0.682],
@@ -1078,6 +1084,12 @@
     ]
 };
   var HERO = {
+"coastal-pleasant-m35-day-running-20261029-01": "coastal-pleasant-m35-day-running-20261029-01.tee",
+"coastal-pleasant-m35-day-running-20261029-02": "coastal-pleasant-m35-day-running-20261029-02.tank",
+"coastal-pleasant-m35-day-running-20261029-03": "coastal-pleasant-m35-day-running-20261029-03.running-cap",
+"coastal-pleasant-m35-day-running-20261029-04": "coastal-pleasant-m35-day-running-20261029-04.tank",
+"coastal-pleasant-m35-day-running-20261029-05": "coastal-pleasant-m35-day-running-20261029-05.tee",
+
 "coastal-pleasant-f35-day-running-20261029-01": "coastal-pleasant-f35-day-running-20261029-01.tee",
 "coastal-pleasant-f35-day-running-20261029-02": "coastal-pleasant-f35-day-running-20261029-02.tank",
 "coastal-pleasant-f35-day-running-20261029-03": "coastal-pleasant-f35-day-running-20261029-03.tee",

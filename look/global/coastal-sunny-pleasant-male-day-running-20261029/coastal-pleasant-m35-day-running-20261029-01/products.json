@@ -1,0 +1,288 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-running-20261029-01",
+  "batchId": "coastal-sunny-pleasant-male-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "c5cfda1121bda9f5d45d59b853c409d0ad4ed4d0e2bd54f15b8d18a7fd91f9af",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-running-20261029-01",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-male-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-m35-day-running-20261029-01.tee",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T09:48:59.562721+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 loose running shorts and separate belt;03 navy cap;05 round watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "끈이 또 풀렸네",
+      "en": "Laces, again?",
+      "de": "Schon wieder die Schnürsenkel?"
+    },
+    "titleEn": "LACES, AGAIN?",
+    "deck": {
+      "ko": "끈을 묶다 카메라와 눈이 마주친 순간",
+      "en": "A cheeky look at the camera with the lace still loose.",
+      "de": "Ein schelmischer Blick zur Kamera mit noch losem Schnürsenkel."
+    },
+    "intro": {
+      "ko": "끈을 다시 묶던 손은 그대로 두고 카메라 쪽으로 눈을 올립니다. 작은 해프닝을 함께 웃는 시선이 출발 전의 긴장을 풉니다.",
+      "en": "His hands keep working on the knot as his eyes lift to the camera. A shared joke eases the moment before setting off.",
+      "de": "Die Hände arbeiten weiter am Knoten, während er zur Kamera blickt. Ein gemeinsamer Scherz lockert den Moment vor dem Start."
+    },
+    "tip": {
+      "ko": "출발 전에 양쪽 신발의 끈 조임을 비슷하게 맞추세요.",
+      "en": "Match the lace tension on both shoes before starting.",
+      "de": "Vor dem Start die Schnürung an beiden Schuhen ähnlich fest einstellen."
+    },
+    "pullQuoteEn": "ONE KNOT, ONE KNOWING LOOK.",
+    "sourceCopy": [
+      {
+        "field": "lined-shorts.name.de",
+        "source": "Anthrazitfarbene Laufshorts mit integriertem Innenbein"
+      },
+      {
+        "field": "lined-shorts.description.de",
+        "source": "Zuerst das integrierte Innenbein der anthrazitfarbenen Shorts glätten und die Außensäume beim Anheben des Knies frei lassen."
+      },
+      {
+        "field": "lined-shorts.howToWear.de",
+        "source": "Zuerst das integrierte Innenbein der anthrazitfarbenen Shorts glätten und die Außensäume beim Anheben des Knies frei lassen."
+      }
+    ],
+    "sourceCopyNote": "Claude b188 en/de idiom review; Korean master unchanged."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "01-tee",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-01.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "파우더 블루 러닝 티셔츠",
+        "en": "Powder-blue running T-shirt",
+        "de": "Puderblaues Laufshirt"
+      },
+      "nameKo": "파우더 블루 러닝 티셔츠",
+      "description": {
+        "ko": "블루 티셔츠는 쇼츠 위에 편하게 두어 몸을 숙여도 허리가 당기지 않게 하세요.",
+        "en": "Let the blue tee rest loosely over the shorts so it stays easy when you bend down.",
+        "de": "Das blaue Shirt locker über den Shorts tragen, damit es beim Bücken nicht am Bund spannt."
+      },
+      "howToWear": {
+        "ko": "블루 티셔츠는 쇼츠 위에 편하게 두어 몸을 숙여도 허리가 당기지 않게 하세요.",
+        "en": "Let the blue tee rest loosely over the shorts so it stays easy when you bend down.",
+        "de": "Das blaue Shirt locker über den Shorts tragen, damit es beim Bücken nicht am Bund spannt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "831b95f81ccbc5cb4720c46082013a4c954350670d5754636eb1fe79a6f4980b",
+      "bytes": 40070,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/01-editorial-v2-gaze.png visible wardrobe; gaze=camera",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lined-shorts",
+      "producerId": "01-lined-shorts",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-01.lined-shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "차콜 라이너 일체형 러닝 쇼츠",
+        "en": "Charcoal running shorts with integrated liner",
+        "de": "Anthrazitfarbene Laufshorts mit integrierter Innenhose"
+      },
+      "nameKo": "차콜 라이너 일체형 러닝 쇼츠",
+      "description": {
+        "ko": "차콜 쇼츠의 일체형 라이너를 먼저 펴고 겉단이 무릎을 올릴 때 따라 움직이게 두세요.",
+        "en": "Smooth the charcoal shorts' integrated liner first and let the outer hems move as you raise the knee.",
+        "de": "Zuerst die integrierte Innenhose der anthrazitfarbenen Shorts glätten und die Außensäume beim Anheben des Knies frei lassen."
+      },
+      "howToWear": {
+        "ko": "차콜 쇼츠의 일체형 라이너를 먼저 펴고 겉단이 무릎을 올릴 때 따라 움직이게 두세요.",
+        "en": "Smooth the charcoal shorts' integrated liner first and let the outer hems move as you raise the knee.",
+        "de": "Zuerst die integrierte Innenhose der anthrazitfarbenen Shorts glätten und die Außensäume beim Anheben des Knies frei lassen."
+      },
+      "image": "products/lined-shorts.webp",
+      "sha256": "ed4f09621709d99728534517b5678cc26bbb58f63be79f8f44c2efb89dffac36",
+      "bytes": 28748,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/01-editorial-v2-gaze.png visible wardrobe; gaze=camera",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "01-running-shoes",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-01.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트·그레이 메시 러닝화",
+        "en": "Off-white and grey mesh running shoes",
+        "de": "Cremeweiße und graue Mesh-Laufschuhe"
+      },
+      "nameKo": "오프화이트·그레이 메시 러닝화",
+      "description": {
+        "ko": "계단에 올린 신발의 끈을 고르게 조이고 긴 끝은 짧게 정리하세요.",
+        "en": "Tighten the raised shoe evenly and keep the long lace ends tidy.",
+        "de": "Den Schuh auf der Stufe gleichmäßig schnüren und lange Schnürsenkelenden ordentlich halten."
+      },
+      "howToWear": {
+        "ko": "계단에 올린 신발의 끈을 고르게 조이고 긴 끝은 짧게 정리하세요.",
+        "en": "Tighten the raised shoe evenly and keep the long lace ends tidy.",
+        "de": "Den Schuh auf der Stufe gleichmäßig schnüren und lange Schnürsenkelenden ordentlich halten."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "326488dbe3d8424faa4a0f6ea2e1eaec7cb4b4e2bbee38b3721c30948650292f",
+      "bytes": 49510,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/01-editorial-v2-gaze.png visible wardrobe; gaze=camera",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "01-socks",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-01.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 리브 스포츠 양말",
+        "en": "White ribbed sports socks",
+        "de": "Weiße gerippte Sportsocken"
+      },
+      "nameKo": "화이트 리브 스포츠 양말",
+      "description": {
+        "ko": "리브 양말은 뒤꿈치를 맞춘 뒤 발목에 접힌 부분을 펴 주세요.",
+        "en": "Align the ribbed sock heels, then smooth any folds around the ankles.",
+        "de": "Die gerippten Socken an der Ferse ausrichten und Falten am Knöchel glätten."
+      },
+      "howToWear": {
+        "ko": "리브 양말은 뒤꿈치를 맞춘 뒤 발목에 접힌 부분을 펴 주세요.",
+        "en": "Align the ribbed sock heels, then smooth any folds around the ankles.",
+        "de": "Die gerippten Socken an der Ferse ausrichten und Falten am Knöchel glätten."
+      },
+      "image": "products/socks.webp",
+      "sha256": "8875c9d8dd6bac204b8f06f600e9d08927613e32f388d288b3d7e6778a3a35f6",
+      "bytes": 37942,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/01-editorial-v2-gaze.png visible wardrobe; gaze=camera",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b188"
+}

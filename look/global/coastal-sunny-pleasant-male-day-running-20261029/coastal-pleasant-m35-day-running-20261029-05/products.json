@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-running-20261029-05",
+  "batchId": "coastal-sunny-pleasant-male-day-running-20261029",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "66ce060b20a6c968317f2c9735364e87a71477329812863ddb5d5f0f073d774f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-running-20261029-05",
+  "appStyle": "run",
+  "appModule": "look/coastal-sunny-pleasant-male-day-running-20261029.js",
+  "appHeroItem": "coastal-pleasant-m35-day-running-20261029-05.tee",
+  "scenePropsNotProducts": [
+    "water bottle and cap",
+    "phone",
+    "towel"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T09:48:59.562721+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "01 integrated liner single item;04 loose running shorts and separate belt;03 navy cap;05 round watch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "한 번 더 웃고 쉬자",
+      "en": "One more laugh after the run",
+      "de": "Noch ein Lachen nach dem Lauf"
+    },
+    "titleEn": "ONE MORE LAUGH AFTER THE RUN",
+    "deck": {
+      "ko": "수건을 든 채 옆 사람과 웃는 휴식",
+      "en": "A towel in hand and a laugh shared off camera.",
+      "de": "Ein Handtuch in der Hand und ein Lachen mit der Begleitung."
+    },
+    "intro": {
+      "ko": "돌담에 앉아 이마를 닦다가 옆 사람의 말에 웃습니다. 옐로와 네이비의 가벼운 대비가 햇빛 속의 느긋한 마무리를 담습니다.",
+      "en": "Seated on the wall, he pauses with the towel and laughs at something his companion says. A light yellow-and-navy contrast frames an easy finish in the sun.",
+      "de": "Auf der Mauer hält er mit dem Handtuch kurz inne und lacht über einen Satz seiner Begleitung. Der leichte Kontrast aus Gelb und Marineblau begleitet den entspannten Ausklang in der Sonne."
+    },
+    "tip": {
+      "ko": "달린 뒤에는 허리와 손목의 조임을 편하게 조절해 쉬어 가세요.",
+      "en": "After the run, ease the waistband and watch strap so the break stays comfortable.",
+      "de": "Nach dem Lauf Hosenbund und Uhrband für die Pause bequem einstellen."
+    },
+    "pullQuoteEn": "THE RUN ENDS WITH A LAUGH.",
+    "sourceCopy": [
+      {
+        "field": "copy.tip.en",
+        "source": "After running, adjust the waistband and wrist strap comfortably for a break."
+      }
+    ],
+    "sourceCopyNote": "Claude b188 en/de idiom review; Korean master unchanged."
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "05-tee",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-05.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "버터 옐로 러닝 티셔츠",
+        "en": "Butter-yellow running T-shirt",
+        "de": "Buttergelbes Laufshirt"
+      },
+      "nameKo": "버터 옐로 러닝 티셔츠",
+      "description": {
+        "ko": "옐로 티셔츠는 앉아 쉬는 동안 앞자락이 허리에서 말리지 않게 펴 주세요.",
+        "en": "Keep the yellow tee smooth at the waist while sitting down to rest.",
+        "de": "Das gelbe Shirt beim Sitzen am Bund glatt halten, damit es nicht hochrollt."
+      },
+      "howToWear": {
+        "ko": "옐로 티셔츠는 앉아 쉬는 동안 앞자락이 허리에서 말리지 않게 펴 주세요.",
+        "en": "Keep the yellow tee smooth at the waist while sitting down to rest.",
+        "de": "Das gelbe Shirt beim Sitzen am Bund glatt halten, damit es nicht hochrollt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "87006de29cabea34e56baa45c57e894f76d1fc2d7a4ec1eb6141277b0968ab04",
+      "bytes": 24484,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/05-editorial.png visible wardrobe; gaze=companion",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shorts",
+      "producerId": "05-shorts",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-05.shorts",
+      "appCategory": "shorts",
+      "name": {
+        "ko": "네이비 라이트 러닝 쇼츠",
+        "en": "Navy lightweight running shorts",
+        "de": "Leichte marineblaue Laufshorts"
+      },
+      "nameKo": "네이비 라이트 러닝 쇼츠",
+      "description": {
+        "ko": "가벼운 네이비 쇼츠는 무릎을 굽혀도 허벅지가 조이지 않는 폭으로 고르세요.",
+        "en": "Choose the light navy shorts with room through the thigh when bending the knee.",
+        "de": "Die leichten marineblauen Shorts so wählen, dass sie beim Beugen des Knies am Oberschenkel nicht spannen."
+      },
+      "howToWear": {
+        "ko": "가벼운 네이비 쇼츠는 무릎을 굽혀도 허벅지가 조이지 않는 폭으로 고르세요.",
+        "en": "Choose the light navy shorts with room through the thigh when bending the knee.",
+        "de": "Die leichten marineblauen Shorts so wählen, dass sie beim Beugen des Knies am Oberschenkel nicht spannen."
+      },
+      "image": "products/shorts.webp",
+      "sha256": "38f4b9d78adfb0e5f3284110f2372bd678224cbfe25851e9501132e2d23f666e",
+      "bytes": 24506,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/05-editorial.png visible wardrobe; gaze=companion",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "05-running-shoes",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-05.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트·그레이 러닝화",
+        "en": "Off-white and grey running shoes",
+        "de": "Cremeweiße und graue Laufschuhe"
+      },
+      "nameKo": "오프화이트·그레이 러닝화",
+      "description": {
+        "ko": "달린 뒤에는 오프화이트 러닝화 끈을 조금 풀고 다시 신을 때 새로 맞추세요.",
+        "en": "Loosen the off-white shoe laces a little after the run and readjust them next time.",
+        "de": "Die Schnürung der cremeweißen Schuhe nach dem Lauf etwas lockern und beim nächsten Anziehen neu einstellen."
+      },
+      "howToWear": {
+        "ko": "달린 뒤에는 오프화이트 러닝화 끈을 조금 풀고 다시 신을 때 새로 맞추세요.",
+        "en": "Loosen the off-white shoe laces a little after the run and readjust them next time.",
+        "de": "Die Schnürung der cremeweißen Schuhe nach dem Lauf etwas lockern und beim nächsten Anziehen neu einstellen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "317da2b232f9b1591946a470ecd9db0f3d690593034bef2af197e3b4664a0ccf",
+      "bytes": 45682,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/05-editorial.png visible wardrobe; gaze=companion",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "05-socks",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-05.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 크루 스포츠 양말",
+        "en": "White crew sports socks",
+        "de": "Weiße Crew-Sportsocken"
+      },
+      "nameKo": "화이트 크루 스포츠 양말",
+      "description": {
+        "ko": "크루 양말의 리브 윗단은 접지 않고 펴 편안하게 쉬어 가세요.",
+        "en": "Leave the crew socks unfolded and their ribbed cuffs smooth during the break.",
+        "de": "Die Crew-Socken in der Pause nicht umschlagen und ihre Rippbündchen glatt halten."
+      },
+      "howToWear": {
+        "ko": "크루 양말의 리브 윗단은 접지 않고 펴 편안하게 쉬어 가세요.",
+        "en": "Leave the crew socks unfolded and their ribbed cuffs smooth during the break.",
+        "de": "Die Crew-Socken in der Pause nicht umschlagen und ihre Rippbündchen glatt halten."
+      },
+      "image": "products/socks.webp",
+      "sha256": "bc5929f924fa246721e47d8c540860715679a1cc67353770c95f2db7de2f3775",
+      "bytes": 32726,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/05-editorial.png visible wardrobe; gaze=companion",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sports-watch",
+      "producerId": "05-sports-watch",
+      "appItemId": "coastal-pleasant-m35-day-running-20261029-05.sports-watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "블랙 라운드 스포츠 워치",
+        "en": "Black round sports watch",
+        "de": "Schwarze runde Sportuhr"
+      },
+      "nameKo": "블랙 라운드 스포츠 워치",
+      "description": {
+        "ko": "라운드 워치는 손목뼈 위에 맞추고 스트랩 끝을 고리에 넣어 두세요.",
+        "en": "Fit the round watch above the wrist bone and tuck the strap end into its keeper.",
+        "de": "Die runde Uhr oberhalb des Handgelenkknochens tragen und das Bandende in die Schlaufe stecken."
+      },
+      "howToWear": {
+        "ko": "라운드 워치는 손목뼈 위에 맞추고 스트랩 끝을 고리에 넣어 두세요.",
+        "en": "Fit the round watch above the wrist bone and tuck the strap end into its keeper.",
+        "de": "Die runde Uhr oberhalb des Handgelenkknochens tragen und das Bandende in die Schlaufe stecken."
+      },
+      "image": "products/sports-watch.webp",
+      "sha256": "d3c5a010843776246e3d3c412a7d36ccc055233b865e2fab0ef8eff5a3c40674",
+      "bytes": 10396,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Directly reviewed editorials/05-editorial.png visible wardrobe; gaze=companion",
+      "reconstructionNote": "가려진 허리·전체 형태·뒷면·밑창·반대 신발·양말 발 부분·캡 조절부는 추정 복원. 브랜드·실제 소재 혼용률은 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "appBuild": "b188"
+}
