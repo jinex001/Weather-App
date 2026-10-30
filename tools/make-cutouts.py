@@ -94,7 +94,7 @@ if todo and "--check" not in sys.argv:
     im = Image.new("RGB", (cols * T, r * T * 2), "white")
     for n, t in enumerate(todo):
         c = Image.open(os.path.join(ROOT, cuts[t["id"]][0])).convert("RGBA"); c.thumbnail((T - 10, T - 10))
-        for j, bg in enumerate(("#F2C14E", "#1B2140")):
+        for j, bg in enumerate(("#7FC1EA", "#1B2140")):
             tile = Image.new("RGBA", (T, T), bg); tile.alpha_composite(c, ((T - c.width) // 2, (T - c.height) // 2))
             im.paste(tile.convert("RGB"), ((n % cols) * T, (n // cols) * T * 2 + j * T))
     im.save(sheet)

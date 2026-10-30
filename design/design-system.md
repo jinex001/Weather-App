@@ -27,7 +27,7 @@
 
 | 상태 (`data-state`) | 조건 | 배경 | 글자 | 그래프 | 디자인 파일 |
 | --- | --- | --- | --- | --- | --- |
-| `sun` | 낮, 코드 0–2 | `sun-day` #F2C14E | `ink` 11.0:1 | — | `Main.dc.html` |
+| `sun` | 낮, 코드 0–2 | `sun-day` #7FC1EA 하늘색(b190) | `ink` 9.6:1 | — | `Main.dc.html` |
 | `overcast` | 낮, 코드 3·45·48 | 햇빛 밝기 3단계(아래) · 값이 없으면 `overcast-day` #A9B1B9 | `ink` 5.5~8.5:1 | — | 없음 (비 구름에서 빗줄기 뺌) |
 | `rain` | 낮, 비 코드 | `rain-day` #4F5D6B | `mist` 5.7:1 | `rain` 3.2:1 | `Rain.dc.html` |
 | `snow` | 낮, 눈 코드 | `snow-day` #E9EEF3 | `ink` 15.8:1 | `snow` 3.8:1 | `Snow.dc.html` |
@@ -54,7 +54,7 @@
 **배경 9 · 글자 3 · 날씨 2 · 그림 13 · 체감온도 9 · UI 3.** 전체 값과 용도는 `tokens.json`.
 
 - 글자색은 배경마다 하나(`ink`/`paper`/`mist`). 아이콘도 같은 색.
-- `rain` #8FB8DE: 강수 막대, 빗줄기. 어두운 배경 전용. 밝은 화면의 24시간 강수 막대는 `rain-light` #CAE2F8.
+- `rain` #8FB8DE: 강수 막대, 빗줄기. 어두운 배경 전용. 밝은 화면의 24시간 강수 막대는 `rain-light` #CAE2F8, 맑음(하늘색 바탕)만 #E6F3FC(b190).
 - `snow` #5C7A99: 낮의 강설 막대, 눈송이. 밤에는 `cloud-snow` #BCC8D4.
 - `sun-accent` #E8621C: 해의 원과 햇살만. 글자에는 쓰지 않음.
 - 그림 색(구름·달)은 그림 안에서만 쓰고 UI 글자로 끌어오지 않습니다.

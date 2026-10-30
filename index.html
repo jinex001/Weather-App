@@ -7,7 +7,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Weather">
-<meta name="theme-color" content="#F2C14E">
+<meta name="theme-color" content="#7FC1EA">
 <title>Weather</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700&family=Noto+Sans+KR:wght@500;600;700&display=swap">
 <style>
   :root {
-    --bg: #F2C14E; --fg: #141414; --graph: #8FB8DE;
+    --bg: #7FC1EA; --fg: #141414; --graph: #8FB8DE;
     --display: "Anton", "Noto Sans KR", sans-serif;
     --sans: "Poppins", "Noto Sans KR", system-ui, sans-serif;
     --mono: "Poppins", "Noto Sans KR", system-ui, sans-serif; /* data lines: same family as text, set at 500 */
@@ -39,7 +39,7 @@
     -webkit-tap-highlight-color: transparent;
     transition: background-color .4s ease, color .4s ease;
   }
-  body[data-state="sun"]        { --bg: #F2C14E; --fg: #141414; }
+  body[data-state="sun"]        { --bg: #7FC1EA; --fg: #141414; }
   body[data-state="rain"]       { --bg: #4F5D6B; --fg: #E6ECF2; --graph: #8FB8DE; }
   body[data-state="night"]      { --bg: #1B2140; --fg: #F4F1E8; }
   body[data-state="snow"]       { --bg: #E9EEF3; --fg: #141414; --graph: #5C7A99; }
@@ -282,7 +282,8 @@
   /* precipitation chance under every hour (b60): bar on a common baseline, then the % ("-" under 20%) */
   .hour-pb { height: 32px; margin-top: 6px; display: flex; align-items: flex-end; }
   .hour-bar { width: 28px; background: #8FB8DE; }
-  body[data-state="sun"] .hour-bar, body[data-state="overcast"] .hour-bar, body[data-state="snow"] .hour-bar { background: #CAE2F8; }
+  body[data-state="sun"] .hour-bar { background: #E6F3FC; }
+  body[data-state="overcast"] .hour-bar, body[data-state="snow"] .hour-bar { background: #CAE2F8; }
   .hour-p { font-family: var(--mono); font-weight: 500; font-size: 10px; min-height: 12px; }
   .status { font-family: var(--mono); font-weight: 500; font-size: 10px; text-align: center; margin-top: 12px; opacity: .8; min-height: 12px; }
   [hidden] { display: none !important; }
@@ -809,7 +810,7 @@
           sev: { minor: "주의", moderate: "경고", severe: "위험", extreme: "매우 위험" } }
   }[LANG];
 
-  var THEME = { sun: "#F2C14E", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#A9B1B9" };
+  var THEME = { sun: "#7FC1EA", rain: "#4F5D6B", night: "#1B2140", snow: "#E9EEF3", overcast: "#A9B1B9" };
   // Overcast days: background by measured daylight, ≥200 W/m² bright · 60–200 normal · <60 dim (thick cloud, winter, near sunrise/sunset)
   var OVERCAST_LIGHT = { bright: "#A3A091", normal: "#959B9E", dim: "#948B82" };
   function lightOf(w) { return typeof w !== "number" ? null : w >= 200 ? "bright" : w >= 60 ? "normal" : "dim"; }
@@ -865,9 +866,9 @@
   var ART = {
     sunClear: '<svg viewBox="0 0 240 170">' + RAYS + "</svg>",
     sunMostly: '<svg viewBox="0 0 240 170">' + RAYS +
-      '<g class="art-drift" style="animation-duration:33s;animation-delay:-13s"><path transform="translate(0 112) scale(.34)" d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFF4D6"/></g></svg>',
+      '<g class="art-drift" style="animation-duration:33s;animation-delay:-13s"><path transform="translate(0 112) scale(.34)" d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFFFFF"/></g></svg>',
     sunCloudy: '<svg viewBox="0 0 240 170"><circle class="art-sun art-sun-sm" cx="168" cy="54" r="40" fill="#E8621C"/>' +
-      '<path class="art-bob" d="M30 150h150a34 34 0 0 0 0-68 50 50 0 0 0-96 12 30 30 0 0 0-54 56z" fill="#FFF4D6"/></svg>',
+      '<path class="art-bob" d="M30 150h150a34 34 0 0 0 0-68 50 50 0 0 0-96 12 30 30 0 0 0-54 56z" fill="#FFFFFF"/></svg>',
     night: '<svg viewBox="0 0 240 170"><circle cx="124" cy="88" r="62" fill="#F4E9C8"/><circle cx="152" cy="68" r="54" fill="#1B2140"/><g fill="#F4E9C8">' +
       '<circle class="art-star" cx="40" cy="40" r="3"/><circle class="art-star" style="animation-delay:.8s" cx="206" cy="132" r="2.5"/>' +
       '<circle class="art-star" style="animation-delay:1.6s" cx="198" cy="26" r="2"/><circle class="art-star" style="animation-delay:.4s" cx="30" cy="140" r="2"/>' +
@@ -1044,7 +1045,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b189";
+  var BUILD = "b190";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.

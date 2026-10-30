@@ -192,7 +192,7 @@
 
 | 상태 | 조건 | 파일 | 배경 | 글자 |
 | --- | --- | --- | --- | --- |
-| 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#F2C14E` | `#141414` |
+| 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#7FC1EA` 하늘색(b190, 예전 노랑 #F2C14E) | `#141414` |
 | 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | 햇빛 밝기 3단계(b62): ≥200 W/m² `#A3A091` · 60–200 `#959B9E` · <60 `#948B82` (값 없으면 `#A9B1B9`) | `#141414` |
 | 비 낮 | is_day=1, 코드 51–67, 80–82, 95–99 | `Rain.dc.html` | `#4F5D6B` | `#E6ECF2` |
 | 눈 낮 | is_day=1, 코드 71–77, 85–86 | `Snow.dc.html` | `#E9EEF3` | `#141414` |
@@ -530,3 +530,7 @@ User approved playful-v2 editorials and direct Codex publication without Claude 
 ## b188 · 해안 · 맑음 · 쾌적함 · 남성 · 35+ · 낮 · 러닝 — 2026-10-29 세트 5룩 (2026-10-30)
 
 사용자 요청(시선 혼합 에디토리얼 5장·제품 제작 승인, 2026-10-30 이 배치 하나를 Claude Code가 `origin/main`에 반영하도록 지시, b187 위치 우선 선택 유지). READY.json 134개 해시 일치, `originals/product-batch/complete/<룩 ID>/`만 씀: 에디토리얼 5장(01–04 v2-gaze · 05 원본, 1024×1536 JPG 249,380–288,035 B) + 투명 WebP 제품 23개(4/4/5/5/5, 500×500, ≤49,510 B) 바이트 그대로 → `look/global/coastal-sunny-pleasant-male-day-running-20261029/<룩 ID>/`, 보충 파일 `look/coastal-sunny-pleasant-male-day-running-20261029.js`(b186 모듈 뒤·cutouts.js 앞). 룩 `coastal-pleasant-m35-day-running-20261029-01`–`05`(clear · pleasant · run · m · "35" · 낮, warm-coastal-urban · 습도 unknown · reviewed), 아이템 23개 모두 새 ID. 재킷 없음, 01 라이너 일체형 쇼츠 1품목, 04 쇼츠 + 별도 러닝 벨트(`gear`), 03 네이비 캡(`headwear`), 05 라운드 워치(`watch`); 물병·뚜껑·폰·수건은 소품. 한국어 마스터 그대로, en/de는 제작 측 문구에서 4곳만 다듬음(02 인트로 en, 05 팁 en, 01 쇼츠 de 이름·입는 법 Innenbein → Innenhose; 원문 products.json `copy.sourceCopy`). 대표 컷 = 01 티 · 02 탱크 · 03 캡 · 04 탱크 · 05 티 WebP 자체. 보고만: 02 양말 이름은 "앵클"인데 컷·사진은 쿼터~크루 길이. 체감 22°C는 제작 가정. 제품별 사용자 육안 승인은 주장하지 않음(제작 측 4배경 검수 + Claude가 28장 모두 열어 봄). 이 세션엔 node·JXA·Chrome 실행이 안 돼 `make-cutouts.py --check`·`location-first.cjs`·선택기 실행·브라우저 렌더링은 못 함 → 파이썬으로 모듈 리터럴·경로·해시·알파 헤더·HERO/CUTS·ID 충돌만 확인. 런타임 301룩 · 1,773아이템(산술). `BUILD` b188, 모듈·`cutouts.js?v=b188`. [검증](design/coastal-sunny-pleasant-male-day-running-20261029-validation.md).
+
+## b190 · 맑은 날 바탕 = 하늘색 (2026-10-30)
+
+사용자: "바탕화면을 하늘의 상태색으로, 특히 맑은 날 노란 바탕을 하늘색으로." 맑음·구름 조금 낮(코드 0–2) 배경 `#F2C14E` → **`#7FC1EA`**(글자 #141414 9.6:1), theme-color·`THEME.sun`·위젯 배경도 같이. 하늘색 위에서 그림이 잘 보이게 맑은 날 구름 `#FFF4D6` → 흰색, 해(#E8621C)는 그대로. 24시간 예보 강수 막대는 연한 하늘색 #CAE2F8이 바탕에 묻혀 맑음만 `#E6F3FC`(위젯도). 흐림·비·눈·밤 색은 그대로(이미 하늘 상태색). 체감 단계 색 `warm` #F2C14E는 화면 배경이 아니라 그대로. 위젯은 Scriptable에 다시 붙여넣어야 반영. 가짜 데이터로 코드 0·1·2 확인.
