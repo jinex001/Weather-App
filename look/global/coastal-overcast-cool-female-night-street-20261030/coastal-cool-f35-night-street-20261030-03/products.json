@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-street-20261030-03",
+  "batchId": "coastal-overcast-cool-female-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "808c25c7c72218f9809d7b7ec248db0de641f1955ec244ae514dfb277880e358",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-street-20261030-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-f35-night-street-20261030-03.tote",
+  "scenePropsNotProducts": [
+    "coffee cup and lid",
+    "flowers and kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T15:55:34.634343+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "27items5/6/6/6/4;01/05shoesoutsidecropomitted;02bagbodyinferredfromstrap;01/05jeanslegsandearringpairsinferred;04creamcrossbody;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "오렌지는 먼저 가려나 봐",
+      "en": "The orange has other plans",
+      "de": "Die Orange hat andere Pläne"
+    },
+    "titleEn": "THE ORANGE HAS OTHER PLANS",
+    "deck": {
+      "ko": "오렌지는 먼저 가려나 봐 — 밤 골목의 작은 장난.",
+      "en": "A quick catch beside the evening grocer.",
+      "de": "Ein schneller Griff vor dem Abendladen."
+    },
+    "intro": {
+      "ko": "가방 입구로 빠져나오려는 오렌지를 잡는 순간입니다. 세이지 오버셔츠와 인디고 진 사이에서 오렌지 토트가 밤 골목의 작은 색이 됩니다.",
+      "en": "One orange makes for the tote opening and is caught just in time. Sage and indigo let the rust-orange bag carry the color through the night lane.",
+      "de": "Eine Orange will aus dem Shopper und wird gerade noch erwischt. Salbei und Indigo überlassen der rostorangenen Tasche den Farbakzent in der nächtlichen Gasse."
+    },
+    "tip": {
+      "ko": "장을 넣을 때 작은 과일은 가방 아래쪽에 모으면 입구에서 빠져나오기 덜 쉬워요.",
+      "en": "Set small fruit lower in the tote so it stays clear of the opening.",
+      "de": "Kleines Obst unten im Shopper verstauen, damit es nicht direkt an der Öffnung liegt."
+    },
+    "pullQuoteEn": "Catch the little detour."
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "producerId": "03-overshirt",
+      "appItemId": "coastal-cool-f35-night-street-20261030-03.overshirt",
+      "appCategory": "outer",
+      "name": {
+        "ko": "세이지 코튼 오버셔츠",
+        "en": "Sage overshirt",
+        "de": "Salbeigrünes Overshirt"
+      },
+      "nameKo": "세이지 코튼 오버셔츠",
+      "description": {
+        "ko": "패치 포켓과 칼라, 느슨하게 걷은 긴 소매가 있는 세이지 오버셔츠입니다.",
+        "en": "Pale sage soft cotton-textured button-front overshirt, pointed collar, chest patch pocket, plain muted buttons, long sleeves loosely rolled.",
+        "de": "Salbeigrünes Overshirt mit Kragen, aufgesetzter Tasche und locker hochgeschlagenen langen Ärmeln."
+      },
+      "howToWear": {
+        "ko": "오버셔츠는 앞을 열고 걷은 소매가 풀리지 않게 가볍게 정리해 가방 속으로 손을 넣기 쉽게 하세요.",
+        "en": "Wear the overshirt open and secure the loose sleeve rolls before reaching into the tote.",
+        "de": "Das Overshirt offen tragen und die lockeren Ärmelumschläge vor dem Griff in den Shopper leicht richten."
+      },
+      "image": "products/overshirt.webp",
+      "sha256": "54ce1285167d61bc686814d94d1069690544af348ee98e2d6e4cb7a52446d406",
+      "bytes": 43540,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "appItemId": "coastal-cool-f35-night-street-20261030-03.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "화이트 크루넥 티셔츠",
+        "en": "White crew-neck T-shirt",
+        "de": "Weißes Rundhals-T-Shirt"
+      },
+      "nameKo": "화이트 크루넥 티셔츠",
+      "description": {
+        "ko": "기본 화이트 크루넥 반소매 티셔츠로 여유 있는 실루엣입니다.",
+        "en": "Plain white short-sleeve soft crewneck jersey T-shirt, relaxed regular fit.",
+        "de": "Schlichtes weißes Kurzarmshirt mit Rundhalsausschnitt und lockerer Form."
+      },
+      "howToWear": {
+        "ko": "화이트 티셔츠는 오버셔츠 아래에서 어깨가 겹쳐 뭉치지 않도록 펴 주세요.",
+        "en": "Smooth the white tee at the shoulders so it does not bunch beneath the overshirt.",
+        "de": "Das weiße Shirt an den Schultern glattstreichen, damit es sich unter dem Overshirt nicht staut."
+      },
+      "image": "products/tee.webp",
+      "sha256": "c2cb68b667ef2f4cee8baf9b171ef146b79973744084ca368e2adb8a37f0a502",
+      "bytes": 24174,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "03-jeans",
+      "appItemId": "coastal-cool-f35-night-street-20261030-03.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "인디고 스트레이트 진",
+        "en": "Indigo straight jeans",
+        "de": "Indigoblaue gerade Jeans"
+      },
+      "nameKo": "인디고 스트레이트 진",
+      "description": {
+        "ko": "워싱과 파이브 포켓, 넓은 일자 다리 형태의 인디고 진입니다.",
+        "en": "Medium indigo washed straight relaxed jeans, five-pocket construction, broad full-length hems.",
+        "de": "Verwaschene indigoblaue Five-Pocket-Jeans mit lockerem geradem Bein."
+      },
+      "howToWear": {
+        "ko": "인디고 진은 무릎을 굽혀도 허벅지가 당기지 않는 여유를 두고 밑단은 스니커즈 위로 정리하세요.",
+        "en": "Leave room through the indigo thighs when bending the knee and arrange the hems above the sneakers.",
+        "de": "Bei der indigoblauen Jeans Bewegungsfreiheit am Oberschenkel lassen und die Säume über den Sneakern ordnen."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "25f3f046267067930404598d7ed657dd6168e67150032f67bcf3fd0559e83be6",
+      "bytes": 40020,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "appItemId": "coastal-cool-f35-night-street-20261030-03.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트 캔버스 스니커즈",
+        "en": "Off-white canvas sneakers",
+        "de": "Cremeweiße Canvas-Sneaker"
+      },
+      "nameKo": "오프화이트 캔버스 스니커즈",
+      "description": {
+        "ko": "메탈 아일릿과 옅은 고무창, 얇은 어두운 측면 라인이 있는 캔버스 스니커즈 한 켤레입니다.",
+        "en": "Offwhite canvas low-top lace-up sneakers, ivory rubber sole with thin dark reddish sidewall line, silver eyelets. Matching left-right pair, unbranded.",
+        "de": "Canvas-Sneaker mit Metallösen, heller Gummisohle und schmaler dunkler Seitenlinie."
+      },
+      "howToWear": {
+        "ko": "캔버스 스니커즈 끈을 균일하게 묶어 장을 든 채 발을 내딛어도 발등이 편안하게 하세요.",
+        "en": "Tie the canvas sneakers with even tension so the insteps stay comfortable while carrying groceries.",
+        "de": "Die Canvas-Sneaker gleichmäßig schnüren, damit der Spann beim Tragen der Einkäufe bequem bleibt."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "8d1cca33649253ba3fe7139fb660b64ac79fc970a3d5c463dee2fa97841a6c72",
+      "bytes": 36774,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "appItemId": "coastal-cool-f35-night-street-20261030-03.tote",
+      "appCategory": "bag",
+      "name": {
+        "ko": "러스트 오렌지 토트백",
+        "en": "Rust-orange canvas tote",
+        "de": "Rostoranger Canvas-Shopper"
+      },
+      "nameKo": "러스트 오렌지 토트백",
+      "description": {
+        "ko": "긴 손잡이 두 개와 부드러운 사각 몸체의 러스트 오렌지 캔버스 토트입니다. 오렌지는 소품으로 제외합니다.",
+        "en": "Rust orange plain cotton canvas tote, large rectangular soft body, two long handles, visible side seam. Empty, no oranges.",
+        "de": "Rostoranger Canvas-Shopper mit zwei langen Henkeln und weichem rechteckigem Körper; ohne Orangen als Requisiten."
+      },
+      "howToWear": {
+        "ko": "토트 손잡이를 팔에 안정적으로 걸고 내용물 무게가 가방 아래쪽에 모이도록 두세요.",
+        "en": "Rest the tote handles securely on the forearm and keep heavier contents low in the bag.",
+        "de": "Die Shopperhenkel sicher über den Unterarm legen und schwerere Dinge unten in der Tasche verstauen."
+      },
+      "image": "products/tote.webp",
+      "sha256": "8013ffd63a7a27ae38c10e23e9a13458022ca570aa20dabc99e45fe5efc670ed",
+      "bytes": 29686,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "earrings",
+      "producerId": "03-earrings",
+      "appItemId": "coastal-cool-f35-night-street-20261030-03.earrings",
+      "appCategory": "jewelry",
+      "name": {
+        "ko": "골드 후프 이어링",
+        "en": "Gold-tone hoop earrings",
+        "de": "Goldfarbene Creolen"
+      },
+      "nameKo": "골드 후프 이어링",
+      "description": {
+        "ko": "보석이나 로고 없는 얇은 골드톤 후프 이어링 한 쌍입니다.",
+        "en": "Plain medium-small thin goldtone hoop earrings, matching pair, no gems, no logo.",
+        "de": "Ein Paar dünne goldfarbene Creolen ohne Steine oder Logo."
+      },
+      "howToWear": {
+        "ko": "골드 후프가 오버셔츠 칼라나 머리카락에 걸리지 않도록 잠금과 위치를 확인하세요.",
+        "en": "Check the gold hoops sit securely, clear of the overshirt collar and curls.",
+        "de": "Sitz und Verschluss der goldfarbenen Creolen prüfen und sie von Overshirtkragen und Locken fernhalten."
+      },
+      "image": "products/earrings.webp",
+      "sha256": "0a12633aa2542e3ffc307e125034e7b252c597d6ef20f214f0015a52036555e0",
+      "bytes": 30110,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

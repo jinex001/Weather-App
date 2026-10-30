@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-street-20261030-04",
+  "batchId": "coastal-overcast-cool-female-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "265c8c00462da5b099ac0b4a71e741eb42f2afd1c0b413e0c3cf1e19a71cd534",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-street-20261030-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-f35-night-street-20261030-04.cardigan",
+  "scenePropsNotProducts": [
+    "coffee cup and lid",
+    "flowers and kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T15:55:34.634343+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "27items5/6/6/6/4;01/05shoesoutsidecropomitted;02bagbodyinferredfromstrap;01/05jeanslegsandearringpairsinferred;04creamcrossbody;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "지도야 좀 펴져 봐",
+      "en": "A map with a mind of its own",
+      "de": "Eine Karte mit eigenem Willen"
+    },
+    "titleEn": "A MAP WITH A MIND OF ITS OWN",
+    "deck": {
+      "ko": "지도야 좀 펴져 봐 — 밤 골목의 작은 장난.",
+      "en": "A folding map delays the next turn.",
+      "de": "Eine Faltkarte verzögert die nächste Abzweigung."
+    },
+    "intro": {
+      "ko": "계단에 앉아 지도를 펼치는데 종이가 자꾸 접혀 들어가네요. 편안한 카디건과 와이드 바지로 조금 느리게 길을 찾아봅니다.",
+      "en": "The map keeps folding back as she settles on the steps. A soft cardigan and wide trousers leave time for finding the next turn.",
+      "de": "Auf den Stufen klappt die Karte immer wieder zu. Weiche Strickjacke und weite Hose lassen Zeit, die nächste Abzweigung zu finden."
+    },
+    "tip": {
+      "ko": "지도를 보기 전에 가방을 옆으로 옮기고 양발을 편하게 바닥에 두세요.",
+      "en": "Move the bag aside and settle both feet before opening the map.",
+      "de": "Vor dem Öffnen der Karte die Tasche zur Seite schieben und beide Füße bequem abstellen."
+    },
+    "pullQuoteEn": "Take a seat. Find the next turn."
+  },
+  "products": [
+    {
+      "id": "cardigan",
+      "producerId": "04-cardigan",
+      "appItemId": "coastal-cool-f35-night-street-20261030-04.cardigan",
+      "appCategory": "outer",
+      "name": {
+        "ko": "차콜 크롭 카디건",
+        "en": "Charcoal cropped cardigan",
+        "de": "Kurze anthrazitfarbene Strickjacke"
+      },
+      "nameKo": "차콜 크롭 카디건",
+      "description": {
+        "ko": "브이넥과 작은 어두운 단추, 포근한 표면 질감의 차콜 크롭 카디건입니다.",
+        "en": "Charcoal dark grey soft fuzzy knitted cropped cardigan, V neck, plain small dark buttons, relaxed long sleeves, subtle ribbed cuffs and hem.",
+        "de": "Kurze anthrazitfarbene Strickjacke mit V-Ausschnitt, kleinen dunklen Knöpfen und flauschiger Oberfläche."
+      },
+      "howToWear": {
+        "ko": "카디건은 앞을 열어 두고 앉을 때 밑단이 허리에 겹쳐 뭉치지 않게 펴 주세요.",
+        "en": "Leave the cardigan open and smooth its cropped hem when seated.",
+        "de": "Die Strickjacke offen lassen und den kurzen Saum im Sitzen glattstreichen."
+      },
+      "image": "products/cardigan.webp",
+      "sha256": "9e316ca90ba61cba0fd4698bc03d0fe227e11d7c68a0aa67f6453734fe258faa",
+      "bytes": 31498,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "04-tee",
+      "appItemId": "coastal-cool-f35-night-street-20261030-04.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "라이트 그레이 티셔츠",
+        "en": "Light-grey T-shirt",
+        "de": "Hellgraues T-Shirt"
+      },
+      "nameKo": "라이트 그레이 티셔츠",
+      "description": {
+        "ko": "멜란지 라이트 그레이의 기본 라운드넥 반소매 티셔츠입니다.",
+        "en": "Plain heatherlightgrey crewneck short-sleeve jersey T-shirt, soft regular fit.",
+        "de": "Schlichtes hellgrau meliertes Kurzarmshirt mit Rundhalsausschnitt."
+      },
+      "howToWear": {
+        "ko": "그레이 티셔츠는 바지 허리 안에 느슨하게 넣어 지도를 펼칠 때 배 쪽이 당기지 않게 하세요.",
+        "en": "Tuck the grey tee loosely so it does not pull across the stomach when unfolding the map.",
+        "de": "Das graue Shirt locker einstecken, damit es beim Auffalten der Karte nicht am Bauch spannt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "4f5cfa537f3322ea3f42dd0196b1e68efa76f20de1add8b4c0dd846af1651eeb",
+      "bytes": 38134,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-trousers",
+      "appItemId": "coastal-cool-f35-night-street-20261030-04.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "네이비 와이드 트라우저",
+        "en": "Navy wide-leg trousers",
+        "de": "Marineblaue weite Stoffhose"
+      },
+      "nameKo": "네이비 와이드 트라우저",
+      "description": {
+        "ko": "부드러운 앞주름과 넓은 다리 형태의 네이비 트라우저입니다. 가려진 허리 구조는 추정 복원했습니다.",
+        "en": "Dark navy wide-leg tailored trousers, elastic or plain waistband mostly obscured, soft front folds, full length. Hidden waistband inferred.",
+        "de": "Marineblaue Stoffhose mit weiten Beinen und weichen Vorderfalten; der verdeckte Bund wurde ergänzt."
+      },
+      "howToWear": {
+        "ko": "네이비 와이드 바지는 계단에 앉기 전에 무릎 위 원단을 정리하고 바짓단을 발등 위로 두세요.",
+        "en": "Arrange the navy fabric above the knees before sitting and keep the wide hems over the shoe uppers.",
+        "de": "Vor dem Hinsetzen den marineblauen Stoff über den Knien ordnen und die weiten Säume über dem Schuh halten."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "b2c882fd06559117b29e75131d5149f990bcce6ddaa388e3ab1c9484e1bc2400",
+      "bytes": 17208,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loafers",
+      "producerId": "04-loafers",
+      "appItemId": "coastal-cool-f35-night-street-20261030-04.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "광택 있는 블랙 페니 로퍼 한 켤레로 둥근 앞코와 낮은 밑창입니다.",
+        "en": "Plain black polished leather penny loafers, rounded toes, low black sole, matching left-right pair.",
+        "de": "Ein Paar glänzende schwarze Pennyloafer mit runder Spitze und niedriger Sohle."
+      },
+      "howToWear": {
+        "ko": "블랙 로퍼를 양발 바닥에 안정적으로 두고 계단 모서리가 신발 뒤꿈치를 누르지 않게 하세요.",
+        "en": "Plant both black loafers securely and keep the step edge clear of the heels.",
+        "de": "Beide schwarzen Loafer sicher abstellen und den Stufenrand von den Fersen fernhalten."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "f7db0ff9fe4730cc7bc7908d78fdaf9db6e0659b9ab8ea8b7446bb93c190e1ee",
+      "bytes": 35616,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "04-socks",
+      "appItemId": "coastal-cool-f35-night-street-20261030-04.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "라이트 그레이 리브 양말",
+        "en": "Light-grey ribbed socks",
+        "de": "Hellgraue Rippstrümpfe"
+      },
+      "nameKo": "라이트 그레이 리브 양말",
+      "description": {
+        "ko": "짧은 크루 길이의 라이트 그레이 리브 양말 한 켤레입니다. 신발 속 발 형태는 추정 복원했습니다.",
+        "en": "Lightgrey ribbed short-crew socks, matching pair, full foot shapes inferred from cuff exposure.",
+        "de": "Ein Paar hellgraue gerippte Socken mit kurzem Schaft; die Fußform im Schuh wurde ergänzt."
+      },
+      "howToWear": {
+        "ko": "그레이 양말 리브 윗단을 펴고 앉아 있는 동안 발목에서 접혀 뭉치지 않게 하세요.",
+        "en": "Smooth the grey ribbed cuffs so they do not fold into a bulky roll at the ankles while seated.",
+        "de": "Die grauen Rippbündchen glattziehen, damit sie sich im Sitzen am Knöchel nicht dick zusammenfalten."
+      },
+      "image": "products/socks.webp",
+      "sha256": "1c91651cad4360629cedb601126b9b2519cd3b81f42988baafbfaf0547f5a21c",
+      "bytes": 45648,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "producerId": "04-crossbody",
+      "appItemId": "coastal-cool-f35-night-street-20261030-04.crossbody",
+      "appCategory": "bag",
+      "name": {
+        "ko": "크림 캔버스 크로스바디백",
+        "en": "Cream canvas crossbody",
+        "de": "Cremefarbene Canvas-Umhängetasche"
+      },
+      "nameKo": "크림 캔버스 크로스바디백",
+      "description": {
+        "ko": "길고 가는 크림 스트랩과 부드러운 몸체가 있는 작은 캔버스 크로스바디백입니다.",
+        "en": "Small cream canvas crossbody bag, soft rounded rectangular body, long narrow cream strap, plain fastening, no map.",
+        "de": "Kleine cremefarbene Canvas-Umhängetasche mit langem schmalem Riemen und weichem Taschenkörper."
+      },
+      "howToWear": {
+        "ko": "크림 크로스바디백은 지도를 펼친 무릎 옆에 두고 스트랩이 종이를 누르지 않게 하세요.",
+        "en": "Keep the cream crossbody beside the lap, with the strap clear of the unfolded map.",
+        "de": "Die cremefarbene Umhängetasche neben dem Schoß lassen und den Riemen von der aufgefalteten Karte fernhalten."
+      },
+      "image": "products/crossbody.webp",
+      "sha256": "ba9691b758d80b21ab25e6ee678b175f28ea55c9545ed29ab1bc56fec830a9c9",
+      "bytes": 29582,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

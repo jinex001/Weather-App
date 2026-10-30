@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-street-20261030-02",
+  "batchId": "coastal-overcast-cool-female-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3575ff24fe0112020067c53a4a4ef1abf2b2bf54cea075855a2f479c84d99b4a",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-street-20261030-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-f35-night-street-20261030-02.denim-jacket",
+  "scenePropsNotProducts": [
+    "coffee cup and lid",
+    "flowers and kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T15:55:34.634343+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "27items5/6/6/6/4;01/05shoesoutsidecropomitted;02bagbodyinferredfromstrap;01/05jeanslegsandearringpairsinferred;04creamcrossbody;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "꽃줄기 잠깐만",
+      "en": "One stem, one small pause",
+      "de": "Ein Stiel, eine kleine Pause"
+    },
+    "titleEn": "ONE STEM, ONE SMALL PAUSE",
+    "deck": {
+      "ko": "꽃줄기 잠깐만 — 밤 골목의 작은 장난.",
+      "en": "A flower stem interrupts the walk.",
+      "de": "Ein Blumenstiel unterbricht den Spaziergang."
+    },
+    "intro": {
+      "ko": "꽃줄기가 데님 소매에 잠깐 걸렸어요. 급하게 잡아당기지 않고 풀어내다 웃음이 납니다. 옐로 티셔츠와 크림 진에 꽃색이 이어져요.",
+      "en": "A stem catches briefly at the denim cuff. Freeing it slowly brings a laugh, while yellow and cream pick up the colors of the flowers.",
+      "de": "Ein Stiel bleibt kurz am Jeansjackenbündchen hängen. Beim vorsichtigen Lösen entsteht ein Lachen; Gelb und Creme greifen die Blumenfarben auf."
+    },
+    "tip": {
+      "ko": "꽃줄기는 손목에서 조금 떨어뜨려 들고 소매에 걸린 부분은 천천히 풀어 주세요.",
+      "en": "Hold the stems a little away from the wrist and ease any caught section free slowly.",
+      "de": "Die Stiele etwas vom Handgelenk fernhalten und eingeklemmte Stellen langsam lösen."
+    },
+    "pullQuoteEn": "Let the flowers interrupt."
+  },
+  "products": [
+    {
+      "id": "denim-jacket",
+      "producerId": "02-denim-jacket",
+      "appItemId": "coastal-cool-f35-night-street-20261030-02.denim-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "인디고 크롭 데님 재킷",
+        "en": "Indigo cropped denim jacket",
+        "de": "Kurze indigoblaue Jeansjacke"
+      },
+      "nameKo": "인디고 크롭 데님 재킷",
+      "description": {
+        "ko": "대조되는 스티치와 가슴 플랩 포켓, 금속 단추가 있는 짧은 인디고 데님 재킷입니다.",
+        "en": "Dark indigo cropped denim trucker jacket, contrast warm-brown stitching, pointed collar, metal buttons, flap chest pockets and button cuffs.",
+        "de": "Kurze indigoblaue Jeansjacke mit Kontrastnähten, Brustklappentaschen und Metallknöpfen."
+      },
+      "howToWear": {
+        "ko": "데님 재킷 소매를 손목에 맞추고 꽃줄기를 잡는 쪽 커프 단추는 편하게 두세요.",
+        "en": "Set the denim cuffs at the wrists and leave room on the side holding the flower stems.",
+        "de": "Die Jeansjackenbündchen am Handgelenk ausrichten und an der Seite mit den Blumenstielen genügend Platz lassen."
+      },
+      "image": "products/denim-jacket.webp",
+      "sha256": "ba9235c3e1a8df653907a2cc039d5cfe3f99d9b543ebe828960354749b2bf50d",
+      "bytes": 28304,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "02-tee",
+      "appItemId": "coastal-cool-f35-night-street-20261030-02.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "버터 옐로 티셔츠",
+        "en": "Butter-yellow T-shirt",
+        "de": "Buttergelbes T-Shirt"
+      },
+      "nameKo": "버터 옐로 티셔츠",
+      "description": {
+        "ko": "부드러운 버터 옐로 컬러의 기본 크루넥 반소매 티셔츠입니다.",
+        "en": "Plain butteryellow crewneck short-sleeve cotton-like T-shirt, regular fit.",
+        "de": "Schlichtes buttergelbes Kurzarmshirt mit Rundhalsausschnitt."
+      },
+      "howToWear": {
+        "ko": "옐로 티셔츠는 진 안에 가볍게 넣어 꽃다발과 재킷 사이에서 색이 조금 보이게 하세요.",
+        "en": "Tuck the yellow tee lightly into the jeans, leaving a little color between the jacket and flowers.",
+        "de": "Das gelbe Shirt leicht in die Jeans stecken, sodass zwischen Jacke und Blumen etwas Farbe sichtbar bleibt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "668c982fd7379e9053a645b1d484bc28767decd0c66877c483a04508517ec5bd",
+      "bytes": 23462,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "02-jeans",
+      "appItemId": "coastal-cool-f35-night-street-20261030-02.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "크림 와이드 진",
+        "en": "Cream wide-leg jeans",
+        "de": "Cremefarbene weite Jeans"
+      },
+      "nameKo": "크림 와이드 진",
+      "description": {
+        "ko": "넓은 바짓단과 파이브 포켓 형태의 크림 컬러 와이드 진입니다.",
+        "en": "Cream offwhite wide-leg jeans, high waist, five-pocket construction, broad hems.",
+        "de": "Cremefarbene Five-Pocket-Jeans mit weitem Bein und breitem Saum."
+      },
+      "howToWear": {
+        "ko": "크림 와이드 진의 바짓단이 돌바닥에 끌리지 않게 정리하고 걸을 때 발끝을 가리지 않게 하세요.",
+        "en": "Keep the wide cream hems off the stone paving and clear of your toes while walking.",
+        "de": "Die weiten cremefarbenen Säume vom Steinboden fernhalten und beim Gehen genügend Platz vor den Zehen lassen."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "876a366bbc1cc743faf1b397387dd8f0ab4877c75deb8b9ec272c2da2028afde",
+      "bytes": 26074,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-loafers",
+      "appItemId": "coastal-cool-f35-night-street-20261030-02.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "버건디 페니 로퍼",
+        "en": "Burgundy penny loafers",
+        "de": "Bordeauxrote Pennyloafer"
+      },
+      "nameKo": "버건디 페니 로퍼",
+      "description": {
+        "ko": "둥근 아몬드형 앞코와 낮은 어두운 밑창의 버건디 페니 로퍼 한 켤레입니다.",
+        "en": "Dark burgundy leather penny loafers, rounded almond toes and low dark soles. One matching left-right pair.",
+        "de": "Bordeauxrote Pennyloafer mit rundlicher Mandelspitze und niedriger dunkler Sohle."
+      },
+      "howToWear": {
+        "ko": "버건디 로퍼는 뒤꿈치가 편하게 잡히는지 확인하고 양말 주름을 신발 안쪽에서 펴 주세요.",
+        "en": "Check that the burgundy loafers hold the heels comfortably and smooth the socks inside them.",
+        "de": "Auf bequemen Fersenhalt in den bordeauxroten Loafern achten und die Socken im Schuh glattziehen."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "df334ab13e0d31f58cdbf30a00cfe77d3c02378f45d935585dbd27b826a7d8ae",
+      "bytes": 33620,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "02-socks",
+      "appItemId": "coastal-cool-f35-night-street-20261030-02.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "크림 스포츠 양말",
+        "en": "Cream ribbed socks",
+        "de": "Cremefarbene Rippstrümpfe"
+      },
+      "nameKo": "크림 스포츠 양말",
+      "description": {
+        "ko": "크림 리브 양말 한 켤레로, 진과 신발에 가려진 발 부분은 추정 복원했습니다.",
+        "en": "Plain cream ankle-to-short-crew socks, fine ribbed cuffs, matching pair. Partly obscured by jeans/shoes, full foot shapes inferred.",
+        "de": "Ein Paar cremefarbene Rippstrümpfe; die von Jeans und Schuhen verdeckten Fußpartien wurden ergänzt."
+      },
+      "howToWear": {
+        "ko": "크림 양말의 윗단을 양쪽 비슷한 높이에 맞추고 넓은 바지 아래에서 말리지 않게 하세요.",
+        "en": "Set both cream sock cuffs evenly and keep them from rolling beneath the wide trousers.",
+        "de": "Die cremefarbenen Sockenbündchen gleich hoch ausrichten und unter den weiten Hosenbeinen nicht einrollen lassen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "d1a1a7ca0a3fa7674b82eac5bdd67a0536aa805d5ff09f25a7772498a9d61f1d",
+      "bytes": 27416,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "02-shoulder-bag",
+      "appItemId": "coastal-cool-f35-night-street-20261030-02.shoulder-bag",
+      "appCategory": "bag",
+      "name": {
+        "ko": "브라운 숄더백",
+        "en": "Brown shoulder bag",
+        "de": "Braune Schultertasche"
+      },
+      "nameKo": "브라운 숄더백",
+      "description": {
+        "ko": "화면의 브라운 어깨 스트랩만 근거로 한 숄더백입니다. 가방 몸체와 여밈은 추정 디자인입니다.",
+        "en": "Small plain darkbrown leather-look shoulder bag, narrow long darkbrown strap. ONLY strap visible behind model shoulder; whole bag body and fastening an inferred restrained design.",
+        "de": "Schultertasche nach dem im Bild sichtbaren braunen Riemen; Taschenkörper und Verschluss sind ein ergänzter Entwurf."
+      },
+      "howToWear": {
+        "ko": "브라운 스트랩이 어깨에서 흘러내리지 않게 길이를 맞추세요. 가방 몸체는 사진에서 확인되지 않은 복원안입니다.",
+        "en": "Adjust the brown strap so it stays on the shoulder; the bag body is an inferred design not visible in the photo.",
+        "de": "Den braunen Riemen so einstellen, dass er auf der Schulter bleibt; der Taschenkörper ist im Foto nicht sichtbar und wurde ergänzt."
+      },
+      "image": "products/shoulder-bag.webp",
+      "sha256": "095ba4915a2fe013e71dde4907283f5c97ffe4b7ccd87aeaad4eef58684917a4",
+      "bytes": 27864,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "partially-visible-reconstructed: only brownshoulderstrap visible; completebodydesign inferred",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

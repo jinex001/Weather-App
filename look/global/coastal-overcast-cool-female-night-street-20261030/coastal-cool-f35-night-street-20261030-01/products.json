@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-street-20261030-01",
+  "batchId": "coastal-overcast-cool-female-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "32107206cdffd204cef7a4fb4ed2c5a653164ad6d85045d8b14db6f314f42452",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-street-20261030-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-f35-night-street-20261030-01.bomber",
+  "scenePropsNotProducts": [
+    "coffee cup and lid",
+    "flowers and kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T15:55:34.634343+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "27items5/6/6/6/4;01/05shoesoutsidecropomitted;02bagbodyinferredfromstrap;01/05jeanslegsandearringpairsinferred;04creamcrossbody;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "뚜껑이 또 튀어 올라",
+      "en": "The lid pops up again",
+      "de": "Der Deckel springt wieder auf"
+    },
+    "titleEn": "THE LID POPS UP AGAIN",
+    "deck": {
+      "ko": "뚜껑이 또 튀어 올라 — 밤 골목의 작은 장난.",
+      "en": "A blue lid refuses to stay put.",
+      "de": "Ein blauer Deckel will nicht sitzen."
+    },
+    "intro": {
+      "ko": "밤 카페 앞에서 파란 컵 뚜껑을 누르다가 카메라와 눈이 마주쳤어요. 에크루 봄버와 네이비 티셔츠가 짧은 장난을 가볍게 받아 줍니다.",
+      "en": "Outside the night café, an awkward blue cup lid turns into a shared grin with the camera. Ecru and navy keep the little pause easy.",
+      "de": "Vor dem nächtlichen Café wird der störrische blaue Becherdeckel zum Anlass für einen verschmitzten Blick. Ecru und Marineblau halten den Moment entspannt."
+    },
+    "tip": {
+      "ko": "컵을 만질 때는 가방을 몸 옆으로 보내 두 손의 공간을 만들어 주세요.",
+      "en": "Move the bag to your side to leave both hands room around the cup.",
+      "de": "Die Tasche seitlich tragen, damit beide Hände am Becher Platz haben."
+    },
+    "pullQuoteEn": "One small pop, one shared grin."
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "producerId": "01-bomber",
+      "appItemId": "coastal-cool-f35-night-street-20261030-01.bomber",
+      "appCategory": "outer",
+      "name": {
+        "ko": "에크루 코튼 봄버",
+        "en": "Ecru cotton-style bomber",
+        "de": "Ecrufarbene Bomberjacke"
+      },
+      "nameKo": "에크루 코튼 봄버",
+      "description": {
+        "ko": "리브 칼라와 소맷단·밑단, 지퍼 여밈이 있는 에크루 봄버 재킷입니다.",
+        "en": "Ecru lightweight cotton-textured zip bomber jacket, ribbed collar cuffs and hem, subtle sleeve gathers and plain warm-metal zipper.",
+        "de": "Ecrufarbene Bomberjacke mit geripptem Kragen, Bündchen und Saum sowie Reißverschluss."
+      },
+      "howToWear": {
+        "ko": "봄버 지퍼를 가슴 아래까지 열고 소매 끝을 손목에 두어 컵 뚜껑을 만지는 손이 편하게 움직이도록 하세요.",
+        "en": "Leave the bomber partly unzipped and the cuffs at the wrists so your hands can steady the cup easily.",
+        "de": "Die Bomberjacke teilweise offen und die Bündchen am Handgelenk tragen, damit die Hände den Becher leicht halten können."
+      },
+      "image": "products/bomber.webp",
+      "sha256": "8dd5e9f8d1bc3999b4428a1524c9ad9037f75d9c664ce373048ea9a124564df7",
+      "bytes": 26220,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "01-tee",
+      "appItemId": "coastal-cool-f35-night-street-20261030-01.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "네이비 크루넥 티셔츠",
+        "en": "Navy crew-neck T-shirt",
+        "de": "Marineblaues Rundhals-T-Shirt"
+      },
+      "nameKo": "네이비 크루넥 티셔츠",
+      "description": {
+        "ko": "군더더기 없는 네이비 라운드넥 반소매 티셔츠입니다.",
+        "en": "Plain navy short-sleeve crewneck T-shirt, soft cotton-like jersey, regular straight body.",
+        "de": "Schlichtes marineblaues Kurzarmshirt mit Rundhalsausschnitt."
+      },
+      "howToWear": {
+        "ko": "네이비 티셔츠 밑단을 진 허리 안에 느슨하게 넣어 재킷 앞이 깔끔하게 떨어지게 하세요.",
+        "en": "Tuck the navy tee loosely into the jeans so the open jacket falls cleanly.",
+        "de": "Das marineblaue Shirt locker in die Jeans stecken, damit die offene Jacke glatt fällt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "a0a85cf66e0cd75e26176b9f8275a4e852b88bd38c5a962c444f187471d853ed",
+      "bytes": 23092,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "01-jeans",
+      "appItemId": "coastal-cool-f35-night-street-20261030-01.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "차콜 스트레이트 진",
+        "en": "Charcoal straight jeans",
+        "de": "Anthrazitfarbene gerade Jeans"
+      },
+      "nameKo": "차콜 스트레이트 진",
+      "description": {
+        "ko": "워싱된 차콜 진으로, 화면에 보이는 허리와 허벅지 아래의 일자 다리는 추정 복원했습니다.",
+        "en": "Washed charcoal grey straight-leg jeans, five-pocket waist and plain dark stitching. Upperthigh visible, full legs inferred.",
+        "de": "Verwaschene anthrazitfarbene Jeans; die geraden Hosenbeine unterhalb des sichtbaren oberen Bereichs wurden ergänzt."
+      },
+      "howToWear": {
+        "ko": "차콜 진은 허리를 조이지 않게 맞추고 몸을 기울일 때 골반 쪽 당김이 없는지 확인하세요.",
+        "en": "Keep the charcoal waistband comfortable and check that the hips remain free when leaning forward.",
+        "de": "Den Bund der anthrazitfarbenen Jeans bequem tragen und beim Vorbeugen auf Bewegungsfreiheit an der Hüfte achten."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "81cedbdc2b0535f33ffc6d61065f4b9c71f17f09ed46f598b558dde722eb9658",
+      "bytes": 29690,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "partially-visible-reconstructed: upperjeansvisible;fulllegsinferred",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "producerId": "01-crossbody",
+      "appItemId": "coastal-cool-f35-night-street-20261030-01.crossbody",
+      "appCategory": "bag",
+      "name": {
+        "ko": "블랙 크로스바디백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스바디백",
+      "description": {
+        "ko": "가느다란 스트랩과 골드톤 하드웨어가 있는 작은 블랙 크로스바디백입니다. 잘린 부분은 추정 복원했습니다.",
+        "en": "Small black structured leather-look crossbody bag, narrow long black strap, plain goldtone hardware. Body partly cropped, inferred complete shape.",
+        "de": "Kleine schwarze Umhängetasche mit schmalem Riemen und goldfarbener Hardware; abgeschnittene Bereiche wurden ergänzt."
+      },
+      "howToWear": {
+        "ko": "크로스바디백을 옆 골반에 두어 컵을 잡는 양손 사이로 가방이 넘어오지 않게 하세요.",
+        "en": "Keep the black crossbody at the side of the hip, clear of both hands around the cup.",
+        "de": "Die schwarze Umhängetasche seitlich an der Hüfte halten, damit sie den Händen am Becher nicht im Weg ist."
+      },
+      "image": "products/crossbody.webp",
+      "sha256": "8298a279bbb2dd87d188b803da47ff08e1b2f513c43ff9dc1d11350322374273",
+      "bytes": 24210,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "earrings",
+      "producerId": "01-earrings",
+      "appItemId": "coastal-cool-f35-night-street-20261030-01.earrings",
+      "appCategory": "jewelry",
+      "name": {
+        "ko": "골드 미니 후프 이어링",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "nameKo": "골드 미니 후프 이어링",
+      "description": {
+        "ko": "장식 없는 작은 골드톤 후프 한 쌍입니다. 가려진 반대쪽은 보이는 후프를 기준으로 복원했습니다.",
+        "en": "Small thin plain goldtone hoop earrings, matching pair, inferred opposite hoop. No gemstones or logo.",
+        "de": "Ein Paar kleine schlichte goldfarbene Creolen; die verdeckte Gegenseite wurde nach dem sichtbaren Ohrring ergänzt."
+      },
+      "howToWear": {
+        "ko": "작은 후프는 잠금이 닫혔는지 확인하고 재킷 칼라에 걸리지 않도록 머리카락을 정리하세요.",
+        "en": "Check the small hoops are closed and keep loose hair clear of the jacket collar.",
+        "de": "Den Verschluss der kleinen Creolen prüfen und lose Haare vom Jackenkragen fernhalten."
+      },
+      "image": "products/earrings.webp",
+      "sha256": "1c912e793f3e3ab70c815137a35639e90aadfab5950697d2a541b1829da85a97",
+      "bytes": 30462,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

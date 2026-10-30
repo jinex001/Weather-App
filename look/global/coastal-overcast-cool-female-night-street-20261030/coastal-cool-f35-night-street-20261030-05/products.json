@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-street-20261030-05",
+  "batchId": "coastal-overcast-cool-female-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e57a27a2e8607b24b1ec888626e88f1c8e18aab1c9e2f92f5ec3fa8276f8e806",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-street-20261030-05",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-female-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-f35-night-street-20261030-05.work-jacket",
+  "scenePropsNotProducts": [
+    "coffee cup and lid",
+    "flowers and kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T15:55:34.634343+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "27items5/6/6/6/4;01/05shoesoutsidecropomitted;02bagbodyinferredfromstrap;01/05jeanslegsandearringpairsinferred;04creamcrossbody;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "여기 있었네",
+      "en": "There they were",
+      "de": "Da waren sie also"
+    },
+    "titleEn": "THERE THEY WERE",
+    "deck": {
+      "ko": "여기 있었네 — 밤 골목의 작은 장난.",
+      "en": "The pocket finally gives up the keys.",
+      "de": "Die Tasche gibt endlich die Schlüssel her."
+    },
+    "intro": {
+      "ko": "한참 찾던 열쇠가 결국 주머니에 있었어요. 카메라를 향한 장난기 있는 미소에 코발트 재킷과 실버 시계가 작은 빛을 더합니다.",
+      "en": "The missing keys were in the pocket all along. A teasing glance toward the camera catches a little flash on cobalt cloth and a silver watch.",
+      "de": "Die gesuchten Schlüssel waren die ganze Zeit in der Tasche. Der schelmische Blick zur Kamera wird von kobaltblauem Stoff und silberner Uhr begleitet."
+    },
+    "tip": {
+      "ko": "열쇠를 꺼낼 쪽 소매를 조금 정리하면 금속 밴드와 커프가 덜 부딪힙니다.",
+      "en": "Clear the sleeve near the key pocket to keep the cuff and watch bracelet apart.",
+      "de": "Den Ärmel an der Schlüsseltasche richten, damit Bündchen und Uhrenband nicht aneinanderstoßen."
+    },
+    "pullQuoteEn": "Of course they were here."
+  },
+  "products": [
+    {
+      "id": "work-jacket",
+      "producerId": "05-work-jacket",
+      "appItemId": "coastal-cool-f35-night-street-20261030-05.work-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "코발트 워크 재킷",
+        "en": "Cobalt work jacket",
+        "de": "Kobaltblaue Arbeitsjacke"
+      },
+      "nameKo": "코발트 워크 재킷",
+      "description": {
+        "ko": "뾰족한 칼라와 큰 가슴 패치 포켓 두 개가 있는 코발트 블루 워크 재킷입니다.",
+        "en": "Bold cobaltblue cropped cotton-twill work jacket, pointed collar, two large plain patch chest pockets, dark buttons, long sleeves with button cuffs.",
+        "de": "Kobaltblaue Arbeitsjacke mit spitzem Kragen und zwei großen aufgesetzten Brusttaschen."
+      },
+      "howToWear": {
+        "ko": "워크 재킷 소매를 손목 위로 조금 정리해 열쇠와 시계가 커프에 걸리지 않게 하세요.",
+        "en": "Arrange the work-jacket cuffs just above the wrists, clear of the keys and watch.",
+        "de": "Die Arbeitsjackenbündchen etwas über dem Handgelenk ordnen, damit Schlüssel und Uhr nicht hängen bleiben."
+      },
+      "image": "products/work-jacket.webp",
+      "sha256": "65b263e95705d355992dbeb63a5305956d119bd38fad2a6f6331880455c2499d",
+      "bytes": 26782,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "05-tee",
+      "appItemId": "coastal-cool-f35-night-street-20261030-05.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "화이트 크루넥 티셔츠",
+        "en": "White crew-neck T-shirt",
+        "de": "Weißes Rundhals-T-Shirt"
+      },
+      "nameKo": "화이트 크루넥 티셔츠",
+      "description": {
+        "ko": "재킷 안에 보이는 기본 화이트 크루넥 티셔츠입니다. 가려진 소매와 밑단은 추정 복원했습니다.",
+        "en": "Plain white crewneck short-sleeve cotton-like jersey T-shirt, regular fit.",
+        "de": "Schlichtes weißes Rundhalsshirt unter der Jacke; verdeckte Ärmel und Saum wurden ergänzt."
+      },
+      "howToWear": {
+        "ko": "화이트 이너 티셔츠 목둘레를 펴고 재킷 안쪽에서 소매가 말리지 않게 정리하세요.",
+        "en": "Smooth the white inner tee at the neckline and keep its sleeves from rolling beneath the jacket.",
+        "de": "Den Ausschnitt des weißen Unterziehshirts glattstreichen und eingerollte Ärmel unter der Jacke richten."
+      },
+      "image": "products/tee.webp",
+      "sha256": "499bbe002c849ec6c500fe309be37e8e79a2619f5cb6493b713ffe52974c2095",
+      "bytes": 23468,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "05-jeans",
+      "appItemId": "coastal-cool-f35-night-street-20261030-05.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 스트레이트 진",
+        "en": "Black straight jeans",
+        "de": "Schwarze gerade Jeans"
+      },
+      "nameKo": "블랙 스트레이트 진",
+      "description": {
+        "ko": "워싱된 블랙 파이브 포켓 진입니다. 허리 아래 화면 밖 일자 다리는 추정 복원했습니다.",
+        "en": "Washed black straight-leg five-pocket jeans, upper waist visible only; full leg shape inferred.",
+        "de": "Verwaschene schwarze Five-Pocket-Jeans; die außerhalb des Bildes liegenden geraden Beine wurden ergänzt."
+      },
+      "howToWear": {
+        "ko": "블랙 진의 허리와 골반을 편하게 맞추세요. 화면 밖 다리 형태는 추정 복원했습니다.",
+        "en": "Fit the black jeans comfortably at the waist and hips; the legs outside the frame are inferred.",
+        "de": "Die schwarze Jeans an Taille und Hüfte bequem tragen; die im Bild fehlenden Hosenbeine wurden ergänzt."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "31a66d8be2c05d3877e0a13ec33bcb033bb956916cbc5e4327070542964b06a5",
+      "bytes": 25936,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "partially-visible-reconstructed: upperjeansvisible;fulllegsinferred",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "05-watch",
+      "appItemId": "coastal-cool-f35-night-street-20261030-05.watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "실버 라운드 워치",
+        "en": "Silver round-face watch",
+        "de": "Silberne Armbanduhr"
+      },
+      "nameKo": "실버 라운드 워치",
+      "description": {
+        "ko": "밝은 다이얼과 가는 인덱스·바늘, 메탈 링크 밴드의 작은 실버 라운드 워치입니다.",
+        "en": "Small round silver analog wristwatch, offwhite dial with fine tick marks and slender hands, silver linked metal bracelet, no brand/text.",
+        "de": "Kleine silberne Armbanduhr mit hellem Zifferblatt, feinen Strichen und Zeigern sowie Metallgliederband."
+      },
+      "howToWear": {
+        "ko": "손목시계는 손목뼈를 누르지 않는 위치에 두고 열쇠를 잡을 때 메탈 밴드가 끼지 않게 하세요.",
+        "en": "Wear the watch clear of the wrist bone and keep the metal bracelet free when holding the keys.",
+        "de": "Die Uhr ohne Druck am Handgelenkknochen tragen und das Metallband beim Halten der Schlüssel freihalten."
+      },
+      "image": "products/watch.webp",
+      "sha256": "1c5fcc78a0c3d192c3362fb9f3b30dfc021a98cce2edd1c700618b0d51dfbc9b",
+      "bytes": 23398,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: finalapprovededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·반대쪽 짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}

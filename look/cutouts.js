@@ -5,6 +5,12 @@
 (function () {
   var L = window.WX_LOOKS; if (!L) return;
   var CUTS = {
+"coastal-cool-f35-night-street-20261030-01.bomber": ["look/global/coastal-overcast-cool-female-night-street-20261030/coastal-cool-f35-night-street-20261030-01/products/bomber.webp", 0.825],
+"coastal-cool-f35-night-street-20261030-02.denim-jacket": ["look/global/coastal-overcast-cool-female-night-street-20261030/coastal-cool-f35-night-street-20261030-02/products/denim-jacket.webp", 0.174],
+"coastal-cool-f35-night-street-20261030-03.tote": ["look/global/coastal-overcast-cool-female-night-street-20261030/coastal-cool-f35-night-street-20261030-03/products/tote.webp", 0.38],
+"coastal-cool-f35-night-street-20261030-04.cardigan": ["look/global/coastal-overcast-cool-female-night-street-20261030/coastal-cool-f35-night-street-20261030-04/products/cardigan.webp", 0.196],
+"coastal-cool-f35-night-street-20261030-05.work-jacket": ["look/global/coastal-overcast-cool-female-night-street-20261030/coastal-cool-f35-night-street-20261030-05/products/work-jacket.webp", 0.207],
+
 "coastal-pleasant-m35-day-minimal-20261030-01.shirt": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-01/products/shirt.webp", 0.88],
 "coastal-pleasant-m35-day-minimal-20261030-02.polo": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-02/products/polo.webp", 0.112],
 "coastal-pleasant-m35-day-minimal-20261030-03.tote": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-03/products/tote.webp", 0.371],
@@ -1090,6 +1096,12 @@
     ]
 };
   var HERO = {
+"coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
+"coastal-cool-f35-night-street-20261030-02": "coastal-cool-f35-night-street-20261030-02.denim-jacket",
+"coastal-cool-f35-night-street-20261030-03": "coastal-cool-f35-night-street-20261030-03.tote",
+"coastal-cool-f35-night-street-20261030-04": "coastal-cool-f35-night-street-20261030-04.cardigan",
+"coastal-cool-f35-night-street-20261030-05": "coastal-cool-f35-night-street-20261030-05.work-jacket",
+
 "coastal-pleasant-m35-day-minimal-20261030-01": "coastal-pleasant-m35-day-minimal-20261030-01.shirt",
 "coastal-pleasant-m35-day-minimal-20261030-02": "coastal-pleasant-m35-day-minimal-20261030-02.polo",
 "coastal-pleasant-m35-day-minimal-20261030-03": "coastal-pleasant-m35-day-minimal-20261030-03.tote",

@@ -241,3 +241,8 @@ New cell clear · pleasant · male · day · run: 5 approved mixed-gaze editoria
 ## b190 · Sunny Pleasant male daytime minimal · 2026-10-30
 
 New cell clear · pleasant · male · day · minimal: 5 approved mixed-gaze editorials and 18 transparent products (4/3/4/4/3). Reviewed warm-coastal-urban, humidity unknown, storage 35+, model look 28–32. In coastal locations, clear pleasant (and adjacent warm) male minimal now draws from these 5 (previously no exact-band match). Berlin and unknown regions unchanged; `location-first.cjs` 72 cases pass. [Validation](coastal-sunny-pleasant-male-day-minimal-20261030-validation.md).
+
+
+## b192 · Overcast Cool female evening street · 2026-10-30
+
+First coastal female street evening set: cloudy · cool · female · evening · street, 5 approved mixed-gaze editorials and 27 transparent products (5/6/6/6/4). Reviewed warm-coastal-urban, humidity unknown, storage 35+, model look 25–28. In coastal locations after sunset, dry chilly/cool/pleasant female street now draws from these 5 instead of the previous daytime fallback; dry warm evenings show COMING SOON (existing evening-only rule), rain stays COMING SOON. Berlin and unknown regions unchanged. [Validation](coastal-overcast-cool-female-night-street-20261030-validation.md).
