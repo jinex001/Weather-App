@@ -60,7 +60,7 @@ const label = (c, day) => COND[condKey(c, day)][LI]
 
 // ── Design tokens (same as the app) ──
 const STATES = {
-  sun:         { bg: "#F2C14E", fg: "#141414", graph: "#141414" },
+  sun:         { bg: "#7FC1EA", fg: "#141414", graph: "#141414" },
   rain:        { bg: "#4F5D6B", fg: "#E6ECF2", graph: "#8FB8DE" },
   night:       { bg: "#1B2140", fg: "#F4F1E8", graph: "#F4F1E8" },
   "night-rain":{ bg: "#1B2140", fg: "#F4F1E8", graph: "#8FB8DE" },
@@ -372,9 +372,9 @@ function windIcon(level, color) {
 }
 
 // Next six hours like the app's forecast columns: hour, wind (icon + km/h), rain chance bar and % (b88)
-function hourStrip(parent, d, idx, fg, light) {
+function hourStrip(parent, d, idx, fg, light, sky) {
   const H = d.hourly, cols = idx.slice(0, 6), r = n => Math.round(n) || 0
-  const barColor = new Color(light ? "#CAE2F8" : "#8FB8DE")
+  const barColor = new Color(sky ? "#E6F3FC" : light ? "#CAE2F8" : "#8FB8DE")
   const top = Math.max(30, ...cols.map(i => H.precipitation_probability[i] || 0))
   const row = parent.addStack()
   row.layoutHorizontally()
@@ -479,14 +479,14 @@ async function build(d, family) {
   w.addSpacer(8)
   summaryBlock(w, today.text, 12.5, 3, 306, barColor, fg)
   w.addSpacer(10)
-  hourStrip(w, d, idx, fg, st.fg === "#141414")
+  hourStrip(w, d, idx, fg, st.fg === "#141414", st.bg === "#7FC1EA")
   return w
 }
 
 function errorWidget() {
   const w = new ListWidget()
   w.url = APP_URL
-  w.backgroundColor = new Color("#F2C14E")
+  w.backgroundColor = new Color("#7FC1EA")
   text(w, T.failed, Font.boldSystemFont(13), new Color("#141414"), { lines: 2 })
   w.refreshAfterDate = new Date(Date.now() + 10 * 60000)
   return w

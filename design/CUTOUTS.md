@@ -48,7 +48,7 @@ python3 tools/make-cutouts.py --sheet <스크래치패드>/cutouts-sheet.png
 2. 제품 JPG에서 rembg `isnet-general-use`로 배경을 지우고(`post_process_mask`), 옷 크기로 딱 맞게 자른다.
 3. 같은 폴더에 `<원래 이름>.cut.webp`(품질 80)로 저장한다. 예: `products/01-outer.jpg` → `products/01-outer.cut.webp`. 보통 9–30KB.
 4. 옷 부분의 평균 상대 밝기(`lum`)를 계산해서 `look/cutouts.js`를 다시 쓴다: `CUTS`(아이템 → [경로, lum]), `HERO`(룩 → 아이템). 대표가 아닌 컷 행은 빠진다. 쓰이지 않게 된 `.cut.webp` 파일은 지운다.
-5. 새 컷들을 노랑(맑음)·남색(밤) 바탕에 올린 확인용 시트를 만든다.
+5. 새 컷들을 하늘색(맑음)·남색(밤) 바탕에 올린 확인용 시트를 만든다.
 
 ## 꼭 확인할 것
 

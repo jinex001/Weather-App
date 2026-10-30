@@ -192,7 +192,7 @@
 
 | 상태 | 조건 | 파일 | 배경 | 글자 |
 | --- | --- | --- | --- | --- |
-| 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#F2C14E` | `#141414` |
+| 맑음·구름 조금 낮 | is_day=1, 코드 0–2 | `Main.dc.html` | `#7FC1EA` 하늘색(b191, 예전 노랑 #F2C14E) | `#141414` |
 | 흐림 낮 | is_day=1, 코드 3, 45, 48 (흐림·안개) | (캔버스 파일 없음, 구름 2개 = 비 화면 구름에서 빗줄기 뺀 것: 뒤 `#958E81`, 앞 `#EDE8DF`) | 햇빛 밝기 3단계(b62): ≥200 W/m² `#A3A091` · 60–200 `#959B9E` · <60 `#948B82` (값 없으면 `#A9B1B9`) | `#141414` |
 | 비 낮 | is_day=1, 코드 51–67, 80–82, 95–99 | `Rain.dc.html` | `#4F5D6B` | `#E6ECF2` |
 | 눈 낮 | is_day=1, 코드 71–77, 85–86 | `Snow.dc.html` | `#E9EEF3` | `#141414` |
@@ -534,3 +534,7 @@ User approved playful-v2 editorials and direct Codex publication without Claude 
 ## b190 · 해안 · 맑음 · 쾌적함 · 남성 · 35+ · 낮 · 미니멀 — 2026-10-30 세트 5룩 (2026-10-30)
 
 사용자 요청(시선 혼합 에디토리얼 5장·자동화 승인, 이 배치 하나를 Claude Code가 `origin/main`에 반영). READY.json 108개 해시 일치, `originals/product-batch/complete/<룩 ID>/`만 씀: 에디토리얼 5장(1024×1536 JPG 222,311–288,904 B) + 투명 WebP 제품 18개(4/3/4/4/3, 500×500, ≤44,074 B) 바이트 그대로 → `look/global/coastal-sunny-pleasant-male-day-minimal-20261030/<룩 ID>/`, 보충 파일 `look/coastal-sunny-pleasant-male-day-minimal-20261030.js`(b188 모듈 뒤·cutouts.js 앞). 룩 `coastal-pleasant-m35-day-minimal-20261030-01`–`05`(clear · pleasant · minimal · m · "35" · 낮, warm-coastal-urban · 습도 unknown · reviewed), 아이템 18개 모두 새 ID. **첫 맑은 쾌적함 남성 미니멀 룩**(해안 지역 이 칸 = 이 5룩). 장면: 01 컵 뚜껑 · 02 꽃 · 03 오렌지(러스트 토트는 실제 제품) · 04 계단 지도(네이비 캔버스 크로스바디) · 05 열쇠(실버 라운드 워치); 01·05 카메라 시선, 컵·꽃·오렌지·지도·열쇠는 소품. 05 신발은 크롭 밖, 02 양말은 잘 안 보여 없음, 05 바지 다리 형태는 추정 복원. 문구: 한국어 마스터(제목·요약·인트로·제품 이름·입는 법 18개)와 en/de 이름·입는 법 그대로; 팁이 다섯 룩 모두 첫 제품 입는 법과 같은 문장이라 룩 단위 팁을 ko/en/de로 새로 쓰고, en deck이 영어 제목으로 시작해 장면 문장으로, products.json ko/de 제품 설명(틀 문장)을 구체적으로(원문 `copy.sourceCopy`·`products[].sourceCopy`). 대표 컷 = 01 셔츠 · 02 폴로 · 03 토트 · 04 티 · 05 셔츠 WebP 자체. 체감 22°C는 제작 가정. 제품별 사용자 육안 승인은 주장하지 않음(제작 측 4배경 검수 + Claude가 23장 모두 열어 봄). 검증: Node로 index.html 순서 룩 스크립트 40개 → 306룩 · 1,791아이템, 경로 누락 0; `make-cutouts.py --check` missing 0; `location-first.cjs` 72경우 통과. 브라우저·실기기 렌더링은 못 함. `BUILD` b190, 모듈·`cutouts.js?v=b190`. [검증](design/coastal-sunny-pleasant-male-day-minimal-20261030-validation.md).
+
+## b191 · 맑은 날 바탕 = 하늘색 (2026-10-30)
+
+사용자: "바탕화면을 하늘의 상태색으로, 특히 맑은 날 노란 바탕을 하늘색으로." 맑음·구름 조금 낮(코드 0–2) 배경 `#F2C14E` → **`#7FC1EA`**(글자 #141414 9.4:1), theme-color·`THEME.sun`·위젯 배경도 같이. 하늘색 위에서 그림이 잘 보이게 맑은 날 구름 `#FFF4D6` → 흰색, 해(#E8621C)는 그대로. 24시간 예보 강수 막대는 연한 하늘색 #CAE2F8이 바탕에 묻혀 맑음만 `#E6F3FC`(위젯도). 흐림·비·눈·밤 색은 그대로(이미 하늘 상태색). 체감 단계 색 `warm` #F2C14E는 화면 배경이 아니라 그대로. 위젯은 Scriptable에 다시 붙여넣어야 반영. 가짜 데이터로 코드 0·1·2 확인.
