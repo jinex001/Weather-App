@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-minimal-20261030-03",
+  "batchId": "coastal-sunny-pleasant-male-day-minimal-20261030",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "ab1738d506f632f901fbeda6a71cc6400375075b59bff5a846c9e5423302d787",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-minimal-20261030-03",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-male-day-minimal-20261030.js",
+  "appHeroItem": "coastal-pleasant-m35-day-minimal-20261030-03.tote",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T13:59:05.874658+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "18items4/3/4/4/3;05shoesnotvisibleomitted;02socksunclearomitted;04navycrossbody;05trousersfulllegsinferred;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "오렌지 하나만 탈출",
+      "en": "One orange makes a break",
+      "de": "Eine Orange will ausbüxen"
+    },
+    "titleEn": "ONE ORANGE MAKES A BREAK",
+    "deck": {
+      "ko": "오렌지 하나만 탈출 — 맑은 해안의 가벼운 미니멀.",
+      "en": "Catching a runaway orange on the way home from the market.",
+      "de": "Eine Orange will ausbüxen — ein leichter Minimal-Look an der Küste."
+    },
+    "intro": {
+      "ko": "가방에서 먼저 나오려는 오렌지를 잡는 순간입니다. 세이지 셔츠와 차콜 바지에 러스트 토트 하나로 색을 더했어요.",
+      "en": "One orange tries to leave the tote before the shopping trip is over. A sage shirt and charcoal trousers let the rust-orange bag carry the color.",
+      "de": "Eine Orange möchte vorzeitig aus dem Shopper. Salbeigrünes Hemd und anthrazitfarbene Hose überlassen der rostorangenen Tasche den Farbakzent."
+    },
+    "tip": {
+      "ko": "옷은 세이지와 차콜로 차분하게 두고 색은 가방 하나에만 맡기면, 장보기 차림도 정돈돼 보여요.",
+      "en": "Keep the clothes to quiet sage and charcoal and give the colour to one bag; even a market run looks put together.",
+      "de": "Die Kleidung ruhig in Salbei und Anthrazit halten und die Farbe einer einzigen Tasche überlassen – so wirkt selbst der Marktgang aufgeräumt."
+    },
+    "pullQuoteEn": "One orange at a time.",
+    "sourceCopy": {
+      "deck": {
+        "en": "One orange makes a break — an easy minimal moment by the coast."
+      },
+      "tip": {
+        "ko": "밴드칼라의 위 단추를 편하게 열고 소매를 느슨하게 두어 가방 안으로 손을 넣기 쉽게 하세요.",
+        "en": "Leave the top of the band collar open and the sleeves relaxed for reaching into the tote.",
+        "de": "Den Stehkragen oben offen und die Ärmel locker lassen, damit der Griff in den Shopper leicht fällt."
+      },
+      "reason": "b190 review: en deck repeated the English article title; tip was identical to the first product how-to-wear on screen."
+    }
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "03-shirt",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-03.shirt",
+      "appCategory": "top",
+      "name": {
+        "ko": "세이지 반소매 밴드칼라 셔츠",
+        "en": "Sage band-collar shirt",
+        "de": "Salbeigrünes Kurzarmhemd mit Stehkragen"
+      },
+      "nameKo": "세이지 반소매 밴드칼라 셔츠",
+      "description": {
+        "ko": "옅은 세이지 린넨 질감 반소매 밴드칼라 셔츠. 작은 스탠드 칼라, 밝은 단추, 둥근 밑단, 접은 소매. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Pale sage linen-textured short-sleeve band-collar shirt, small round stand collar, plain light button-front, relaxed hem. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Blassgrünes Kurzarmhemd in Leinenoptik mit kleinem Stehkragen, hellen Knöpfen, abgerundetem Saum und umgeschlagenen Ärmeln. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "밴드칼라의 위 단추를 편하게 열고 소매를 느슨하게 두어 가방 안으로 손을 넣기 쉽게 하세요.",
+        "en": "Leave the top of the band collar open and the sleeves relaxed for reaching into the tote.",
+        "de": "Den Stehkragen oben offen und die Ärmel locker lassen, damit der Griff in den Shopper leicht fällt."
+      },
+      "image": "products/shirt.webp",
+      "sha256": "f5ce4593d7da7d390cdfe5a3e2fc4f4642c58ee0c4dfef806cf7bf5674561d5e",
+      "bytes": 44074,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "세이지 반소매 밴드칼라 셔츠의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Salbeigrünes Kurzarmhemd mit Stehkragen. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-trousers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-03.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "차콜 테이퍼드 트라우저",
+        "en": "Charcoal tapered trousers",
+        "de": "Anthrazitfarbene schmal zulaufende Stoffhose"
+      },
+      "nameKo": "차콜 테이퍼드 트라우저",
+      "description": {
+        "ko": "차콜 테이퍼드 트라우저. 깔끔한 허리, 살짝 접어 올린 밑단, 가벼운 직조 원단. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Charcoal relaxed tapered tailored trousers with plain waistband and slightly turned-up hems, lightweight woven cloth. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Anthrazitfarbene, schmal zulaufende Stoffhose mit schlichtem Bund, leicht umgeschlagenem Saum und leichtem Webstoff. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "테이퍼드 바지는 발목 쪽 주름을 정리하고 살짝 접힌 밑단을 양쪽 비슷하게 맞춰 주세요.",
+        "en": "Smooth the tapered lower legs and keep the lightly turned hems even on both sides.",
+        "de": "Die schmal zulaufenden Hosenbeine glattstreichen und die leicht umgeschlagenen Säume gleichmäßig ausrichten."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "1e88d27358406022daf617b157621413e1b7c7ad6c5ec63f558b2662227a85e2",
+      "bytes": 21238,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "차콜 테이퍼드 트라우저의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Anthrazitfarbene schmal zulaufende Stoffhose. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-03.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트 캔버스 스니커즈",
+        "en": "Off-white canvas sneakers",
+        "de": "Cremeweiße Canvas-Sneaker"
+      },
+      "nameKo": "오프화이트 캔버스 스니커즈",
+      "description": {
+        "ko": "오프화이트 캔버스 로우탑 스니커즈. 아이보리 끈, 크림색 평평한 고무 밑창, 한 켤레. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Offwhite plain canvas low-top sneakers, ivory laces and flat cream rubber soles, one matching left-right pair. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Cremeweiße Low-Top-Sneaker aus Canvas mit elfenbeinfarbenen Schnürsenkeln und flacher cremefarbener Gummisohle, ein Paar. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "캔버스 스니커즈는 발가락 앞 여유를 확인하고 옅은 끈을 같은 장력으로 묶어 주세요.",
+        "en": "Leave room ahead of the toes and tie the pale canvas-sneaker laces with even tension.",
+        "de": "Vorn genügend Zehenraum lassen und die hellen Schnürsenkel der Canvas-Sneaker gleichmäßig binden."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "c9f608acd3e8dcb98610b6780ceb255d3e89398532e91008faea23086ea71237",
+      "bytes": 34138,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "오프화이트 캔버스 스니커즈의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Cremeweiße Canvas-Sneaker. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-03.tote",
+      "appCategory": "bag",
+      "name": {
+        "ko": "러스트 오렌지 토트백",
+        "en": "Rust-orange cotton tote",
+        "de": "Rostoranger Baumwoll-Shopper"
+      },
+      "nameKo": "러스트 오렌지 토트백",
+      "description": {
+        "ko": "러스트 오렌지 코튼 캔버스 토트. 넓은 직사각형 몸판과 긴 손잡이 두 개. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Rust orange plain cotton canvas tote, broad rectangular soft body, two long handles. Empty, no oranges. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Rostoranger Shopper aus Baumwoll-Canvas mit breitem rechteckigem Korpus und zwei langen Henkeln. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "오렌지 토트의 손잡이를 팔에 안정적으로 걸고 무거운 내용물은 가방 아래쪽으로 모아 주세요.",
+        "en": "Rest the orange tote handles securely on the forearm and keep heavier contents low in the bag.",
+        "de": "Die Henkel des orangefarbenen Shoppers sicher über den Unterarm legen und schwerere Dinge unten verstauen."
+      },
+      "image": "products/tote.webp",
+      "sha256": "0de051e18bd515dc5be29a4225c7fb6cf4ee09bceebca744e1000a5808bb1054",
+      "bytes": 29814,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "러스트 오렌지 토트백의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Rostoranger Baumwoll-Shopper. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b190"
+}

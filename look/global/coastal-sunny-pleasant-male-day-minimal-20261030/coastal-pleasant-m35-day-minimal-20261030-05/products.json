@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-minimal-20261030-05",
+  "batchId": "coastal-sunny-pleasant-male-day-minimal-20261030",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a57644477ade87537731fec27a7ad9f2f43052b08a5bf7adc3ca6becc0a3d1e3",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 3,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-minimal-20261030-05",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-male-day-minimal-20261030.js",
+  "appHeroItem": "coastal-pleasant-m35-day-minimal-20261030-05.shirt",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T13:59:05.874658+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "18items4/3/4/4/3;05shoesnotvisibleomitted;02socksunclearomitted;04navycrossbody;05trousersfulllegsinferred;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "이 열쇠도 아니네",
+      "en": "Not this key either",
+      "de": "Dieser Schlüssel auch nicht"
+    },
+    "titleEn": "NOT THIS KEY EITHER",
+    "deck": {
+      "ko": "이 열쇠도 아니네 — 맑은 해안의 가벼운 미니멀.",
+      "en": "One more wrong key at the blue door, and a knowing grin.",
+      "de": "Dieser Schlüssel auch nicht — ein leichter Minimal-Look an der Küste."
+    },
+    "intro": {
+      "ko": "또 다른 열쇠를 골라야 하지만 표정은 심각하지 않아요. 파우더 블루 셔츠와 작은 실버 시계가 문 앞의 짧은 웃음을 받쳐 줍니다.",
+      "en": "It is the wrong key again, but there is no reason to look serious. A powder-blue shirt and a small silver watch frame the shared joke at the door.",
+      "de": "Wieder der falsche Schlüssel, aber kein Grund für eine ernste Miene. Puderblaues Hemd und kleine silberne Uhr begleiten den kurzen Scherz an der Tür."
+    },
+    "tip": {
+      "ko": "밝은 블루 셔츠와 스톤 바지에는 실버 시계 하나면 충분해요. 액세서리를 하나로 줄여 셔츠 색을 살리세요.",
+      "en": "A light-blue shirt and stone trousers need only one silver watch; a single accessory lets the shirt colour lead.",
+      "de": "Zu hellblauem Hemd und steinfarbener Hose genügt eine silberne Uhr; ein einziges Accessoire lässt die Hemdfarbe wirken."
+    },
+    "pullQuoteEn": "Try another key.",
+    "sourceCopy": {
+      "deck": {
+        "en": "Not this key either — an easy minimal moment by the coast."
+      },
+      "tip": {
+        "ko": "블루 셔츠의 칼라를 열고 열쇠를 돌리는 팔의 소매가 당기지 않도록 어깨선을 편하게 두세요.",
+        "en": "Leave the blue shirt collar open and the shoulder relaxed so the sleeve does not pull as you turn the key.",
+        "de": "Den Kragen des blauen Hemds offen und die Schulter locker lassen, damit der Ärmel beim Schlüsseldrehen nicht spannt."
+      },
+      "reason": "b190 review: en deck repeated the English article title; tip was identical to the first product how-to-wear on screen."
+    }
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "05-shirt",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-05.shirt",
+      "appCategory": "top",
+      "name": {
+        "ko": "파우더 블루 반소매 셔츠",
+        "en": "Powder-blue short-sleeve shirt",
+        "de": "Puderblaues Kurzarmhemd"
+      },
+      "nameKo": "파우더 블루 반소매 셔츠",
+      "description": {
+        "ko": "파우더 블루 반소매 셔츠. 레귤러 칼라, 가슴 포켓, 밝은 단추, 면 질감. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Powderblue plain short-sleeve cotton-textured button-front open-collar shirt, chest pocket and pale buttons. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Puderblaues Kurzarmhemd mit Kentkragen, Brusttasche, hellen Knöpfen und Baumwolloptik. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "블루 셔츠의 칼라를 열고 열쇠를 돌리는 팔의 소매가 당기지 않도록 어깨선을 편하게 두세요.",
+        "en": "Leave the blue shirt collar open and the shoulder relaxed so the sleeve does not pull as you turn the key.",
+        "de": "Den Kragen des blauen Hemds offen und die Schulter locker lassen, damit der Ärmel beim Schlüsseldrehen nicht spannt."
+      },
+      "image": "products/shirt.webp",
+      "sha256": "cbb6f176942806cb427af4e89d9c6a4ea5fce59c47d6bf3e754bfc92b3346a1d",
+      "bytes": 31982,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "파우더 블루 반소매 셔츠의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Puderblaues Kurzarmhemd. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-trousers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-05.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "라이트 스톤 스트레이트 트라우저",
+        "en": "Light-stone straight trousers",
+        "de": "Helle steinfarbene gerade Stoffhose"
+      },
+      "nameKo": "라이트 스톤 스트레이트 트라우저",
+      "description": {
+        "ko": "라이트 스톤 베이지 스트레이트 트라우저. 벨트 고리 있는 허리, 가벼운 직조. 사진에는 허리만 보여 다리 형태는 추정 복원. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Lightstone beige straight tailored trousers, plain waistband and belt loops, lightweight woven texture. Full legs inferred from visible waist only. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Helle steinbeige gerade Stoffhose mit Gürtelschlaufen und leichter Webart. Im Foto ist nur der Bund sichtbar, die Beinform ist ergänzt. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "스톤 바지는 허리와 골반을 편하게 맞추세요. 화면 밖 다리 형태는 추정 복원한 디자인입니다.",
+        "en": "Fit the stone trousers comfortably at the waist and hips; the legs outside the frame are an inferred design.",
+        "de": "Die steinfarbene Hose an Taille und Hüfte bequem tragen; die im Foto nicht sichtbaren Hosenbeine sind ergänzt."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "aaffc648e0e095eda4e98b450d8f71782ebb1c15b1e043c2fd86c4e36545181c",
+      "bytes": 22170,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "partially-visible-reconstructed: waist visible; fulllegs inferred",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "라이트 스톤 스트레이트 트라우저의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Helle steinfarbene gerade Stoffhose. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "watch",
+      "producerId": "05-watch",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-05.watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "실버 라운드 워치",
+        "en": "Silver round-face watch",
+        "de": "Silberne Armbanduhr mit rundem Zifferblatt"
+      },
+      "nameKo": "실버 라운드 워치",
+      "description": {
+        "ko": "작은 실버 라운드 아날로그 손목시계. 글자 없는 오프화이트 다이얼, 가는 바늘, 실버 메탈 링크 밴드. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Small simple round silver analog wristwatch, offwhite unlettered dial, thin hands and minimal tick marks, silver linked metal bracelet. No text or brand. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Kleine silberne runde Analoguhr mit unbeschriftetem cremeweißem Zifferblatt, feinen Zeigern und silbernem Gliederarmband. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "손목시계는 손목뼈를 누르지 않도록 조금 위에 두고, 손을 문에 댈 때 금속 밴드가 끼지 않게 하세요.",
+        "en": "Wear the watch just above the wrist bone and keep the bracelet clear when your hand rests on the door.",
+        "de": "Die Uhr knapp oberhalb des Handgelenkknochens tragen und darauf achten, dass das Metallband an der Tür nicht eingeklemmt wird."
+      },
+      "image": "products/watch.webp",
+      "sha256": "f0065af467f9a0fb28183d92876145c50a3867e75cc6203b7641256fdd792a9d",
+      "bytes": 21684,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "실버 라운드 워치의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Silberne Armbanduhr mit rundem Zifferblatt. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b190"
+}

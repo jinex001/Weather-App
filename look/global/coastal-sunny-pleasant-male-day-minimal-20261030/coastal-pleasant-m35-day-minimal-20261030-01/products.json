@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-minimal-20261030-01",
+  "batchId": "coastal-sunny-pleasant-male-day-minimal-20261030",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "754fc072897fb608421623c2f9b4bcbe9a936a2ca3859a5e751739580c54285b",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-minimal-20261030-01",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-male-day-minimal-20261030.js",
+  "appHeroItem": "coastal-pleasant-m35-day-minimal-20261030-01.shirt",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T13:59:05.874658+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "18items4/3/4/4/3;05shoesnotvisibleomitted;02socksunclearomitted;04navycrossbody;05trousersfulllegsinferred;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "뚜껑이 삐뚤어졌네",
+      "en": "The lid has other ideas",
+      "de": "Der Deckel macht, was er will"
+    },
+    "titleEn": "THE LID HAS OTHER IDEAS",
+    "deck": {
+      "ko": "뚜껑이 삐뚤어졌네 — 맑은 해안의 가벼운 미니멀.",
+      "en": "Steadying a blue cup with a sideways grin in a sunny coastal lane.",
+      "de": "Der Deckel macht, was er will — ein leichter Minimal-Look an der Küste."
+    },
+    "intro": {
+      "ko": "파란 컵의 뚜껑을 바로잡다가 카메라와 눈이 마주쳤어요. 아이보리 셔츠와 네이비 바지는 그 짧은 장난을 편하게 받아 줍니다.",
+      "en": "Fixing the blue cup lid turns into a shared grin with the camera. An ivory shirt and navy trousers keep the little interruption easy.",
+      "de": "Beim Richten des blauen Becherdeckels entsteht ein verschmitzter Blick in die Kamera. Elfenbeinfarbenes Hemd und marineblaue Hose bleiben dabei entspannt."
+    },
+    "tip": {
+      "ko": "셔츠와 바지는 두 가지 색으로만 묶고 토트는 셔츠와 같은 크림 톤으로 맞춰, 컵의 파랑만 튀게 두세요.",
+      "en": "Keep the outfit to two tones and match the cream tote to the shirt, so only the blue cup stands out.",
+      "de": "Den Look auf zwei Töne beschränken und den cremefarbenen Shopper zum Hemd passen lassen – so sticht nur der blaue Becher heraus."
+    },
+    "pullQuoteEn": "A small tilt, a shared grin.",
+    "sourceCopy": {
+      "deck": {
+        "en": "The lid has other ideas — an easy minimal moment by the coast."
+      },
+      "tip": {
+        "ko": "셔츠 밑단을 내어 입고 칼라를 가볍게 열어, 컵을 잡을 때 어깨가 편하게 움직이도록 하세요.",
+        "en": "Wear the hem untucked and the collar open so the shoulders move freely while you steady the cup.",
+        "de": "Den Saum locker über der Hose und den Kragen offen tragen, damit die Schultern beim Halten des Bechers frei bleiben."
+      },
+      "reason": "b190 review: en deck repeated the English article title; tip was identical to the first product how-to-wear on screen."
+    }
+  },
+  "products": [
+    {
+      "id": "shirt",
+      "producerId": "01-shirt",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-01.shirt",
+      "appCategory": "top",
+      "name": {
+        "ko": "아이보리 반소매 오픈칼라 셔츠",
+        "en": "Ivory open-collar short-sleeve shirt",
+        "de": "Elfenbeinfarbenes Kurzarmhemd mit offenem Kragen"
+      },
+      "nameKo": "아이보리 반소매 오픈칼라 셔츠",
+      "description": {
+        "ko": "아이보리 린넨 질감 반소매 오픈칼라 셔츠. 잔주름 결, 가슴 포켓 하나, 밝은 단추. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Ivory airy linen-textured short-sleeve open-collar button-front shirt, subtle crinkle, chest pocket, plain light buttons. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Elfenbeinfarbenes Kurzarmhemd mit offenem Kragen in Leinenoptik, leichte Knitterstruktur, eine Brusttasche, helle Knöpfe. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "셔츠 밑단을 내어 입고 칼라를 가볍게 열어, 컵을 잡을 때 어깨가 편하게 움직이도록 하세요.",
+        "en": "Wear the hem untucked and the collar open so the shoulders move freely while you steady the cup.",
+        "de": "Den Saum locker über der Hose und den Kragen offen tragen, damit die Schultern beim Halten des Bechers frei bleiben."
+      },
+      "image": "products/shirt.webp",
+      "sha256": "6e97f86d172dbeed298571661c16e682a41bc38fa09068ee9c08ba547d9aa6ce",
+      "bytes": 39020,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "아이보리 반소매 오픈칼라 셔츠의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Elfenbeinfarbenes Kurzarmhemd mit offenem Kragen. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "01-trousers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-01.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "네이비 스트레이트 트라우저",
+        "en": "Navy straight tailored trousers",
+        "de": "Marineblaue gerade Stoffhose"
+      },
+      "nameKo": "네이비 스트레이트 트라우저",
+      "description": {
+        "ko": "다크 네이비 스트레이트 트라우저. 앞주름과 사선 포켓, 가벼운 직조 질감. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Dark navy relaxed straight tailored trousers, waistband and pockets, lightweight woven texture. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Dunkelblaue gerade Stoffhose mit Bundfalte und schrägen Taschen, leicht gewebte Struktur. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "네이비 바지의 허리선을 편하게 맞추고 셔츠 아래로 주름이 자연스럽게 떨어지게 두세요.",
+        "en": "Set the navy waistband comfortably and let the trouser front fall cleanly beneath the shirt.",
+        "de": "Den Bund der marineblauen Hose bequem einstellen und die Vorderseite unter dem Hemd glatt fallen lassen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "401e8c2afad6a8b565b09ae49aef673a026dd49c6f02f1a9e660fe69194082a1",
+      "bytes": 19616,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 스트레이트 트라우저의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Marineblaue gerade Stoffhose. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "sneakers",
+      "producerId": "01-sneakers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-01.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트 레더 스니커즈",
+        "en": "Off-white leather sneakers",
+        "de": "Cremeweiße Ledersneaker"
+      },
+      "nameKo": "오프화이트 레더 스니커즈",
+      "description": {
+        "ko": "오프화이트 레더 로우 스니커즈. 같은 색 평평한 밑창과 옅은 끈, 한 켤레. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Plain offwhite low leather lace-up sneakers, offwhite flat sole and pale laces. One matching left-right pair. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Cremeweiße Low-Sneaker aus Leder mit flacher Sohle im gleichen Ton und hellen Schnürsenkeln, ein Paar. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "스니커즈 끈은 발등을 누르지 않게 묶고 바지 끝이 신발 윗부분에 가볍게 닿도록 하세요.",
+        "en": "Lace the sneakers without pressure over the instep and let the trouser hem brush the shoe upper.",
+        "de": "Die Sneaker ohne Druck am Spann schnüren; der Hosensaum darf das Obermaterial leicht berühren."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "808dfc322b001de4c43e304d6f8143ce907bd5530866b2110166674797df0191",
+      "bytes": 37462,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "오프화이트 레더 스니커즈의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Cremeweiße Ledersneaker. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "tote",
+      "producerId": "01-tote",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-01.tote",
+      "appCategory": "bag",
+      "name": {
+        "ko": "크림 캔버스 토트백",
+        "en": "Cream canvas tote",
+        "de": "Cremefarbener Canvas-Shopper"
+      },
+      "nameKo": "크림 캔버스 토트백",
+      "description": {
+        "ko": "크림 캔버스 토트백. 어깨에 메는 긴 손잡이 두 개, 자연스러운 직조 질감. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Plain cream soft canvas tote bag, two long shoulder handles, natural woven texture. Empty without cup. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Cremefarbener Canvas-Shopper mit zwei langen Schulterhenkeln und natürlicher Webstruktur. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "토트백은 한쪽 어깨에 걸고 컵을 잡는 팔꿈치에 손잡이가 끼지 않도록 뒤로 조금 보내세요.",
+        "en": "Carry the tote on one shoulder and move it slightly back so the handles stay clear of your cup-holding elbow.",
+        "de": "Den Shopper auf einer Schulter etwas nach hinten schieben, damit die Henkel dem Arm mit dem Becher nicht im Weg sind."
+      },
+      "image": "products/tote.webp",
+      "sha256": "4bf0bc63008c54c8fcc9e22be93de1b2e08352fc192cb5b4d948d0a621b175b4",
+      "bytes": 26136,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "크림 캔버스 토트백의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Cremefarbener Canvas-Shopper. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b190"
+}

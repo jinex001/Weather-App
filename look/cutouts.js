@@ -5,6 +5,12 @@
 (function () {
   var L = window.WX_LOOKS; if (!L) return;
   var CUTS = {
+"coastal-pleasant-m35-day-minimal-20261030-01.shirt": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-01/products/shirt.webp", 0.88],
+"coastal-pleasant-m35-day-minimal-20261030-02.polo": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-02/products/polo.webp", 0.112],
+"coastal-pleasant-m35-day-minimal-20261030-03.tote": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-03/products/tote.webp", 0.371],
+"coastal-pleasant-m35-day-minimal-20261030-04.tee": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-04/products/tee.webp", 0.911],
+"coastal-pleasant-m35-day-minimal-20261030-05.shirt": ["look/global/coastal-sunny-pleasant-male-day-minimal-20261030/coastal-pleasant-m35-day-minimal-20261030-05/products/shirt.webp", 0.69],
+
 "coastal-pleasant-m35-day-running-20261029-01.tee": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-01/products/tee.webp", 0.574],
 "coastal-pleasant-m35-day-running-20261029-02.tank": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-02/products/tank.webp", 0.43],
 "coastal-pleasant-m35-day-running-20261029-03.running-cap": ["look/global/coastal-sunny-pleasant-male-day-running-20261029/coastal-pleasant-m35-day-running-20261029-03/products/running-cap.webp", 0.216],
@@ -1084,6 +1090,12 @@
     ]
 };
   var HERO = {
+"coastal-pleasant-m35-day-minimal-20261030-01": "coastal-pleasant-m35-day-minimal-20261030-01.shirt",
+"coastal-pleasant-m35-day-minimal-20261030-02": "coastal-pleasant-m35-day-minimal-20261030-02.polo",
+"coastal-pleasant-m35-day-minimal-20261030-03": "coastal-pleasant-m35-day-minimal-20261030-03.tote",
+"coastal-pleasant-m35-day-minimal-20261030-04": "coastal-pleasant-m35-day-minimal-20261030-04.tee",
+"coastal-pleasant-m35-day-minimal-20261030-05": "coastal-pleasant-m35-day-minimal-20261030-05.shirt",
+
 "coastal-pleasant-m35-day-running-20261029-01": "coastal-pleasant-m35-day-running-20261029-01.tee",
 "coastal-pleasant-m35-day-running-20261029-02": "coastal-pleasant-m35-day-running-20261029-02.tank",
 "coastal-pleasant-m35-day-running-20261029-03": "coastal-pleasant-m35-day-running-20261029-03.running-cap",

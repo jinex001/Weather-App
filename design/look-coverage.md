@@ -236,3 +236,8 @@ Four user-authorized sets, 20 looks / 94 products: cloudy cool male minimal (5/2
 ## b188 · Sunny Pleasant male daytime running · 2026-10-30
 
 New cell clear · pleasant · male · day · run: 5 approved mixed-gaze editorials (01–04 v2-gaze, 05 original) and 23 transparent products (4/4/5/5/5, no jackets). Reviewed warm-coastal-urban, humidity unknown, storage 35+, model look 28–32. Expected effect (selector not executed in this session): in coastal locations, clear pleasant (and adjacent warm) male running draws from these 5. Berlin and unknown regions should be unchanged. [Validation](coastal-sunny-pleasant-male-day-running-20261029-validation.md).
+
+
+## b190 · Sunny Pleasant male daytime minimal · 2026-10-30
+
+New cell clear · pleasant · male · day · minimal: 5 approved mixed-gaze editorials and 18 transparent products (4/3/4/4/3). Reviewed warm-coastal-urban, humidity unknown, storage 35+, model look 28–32. In coastal locations, clear pleasant (and adjacent warm) male minimal now draws from these 5 (previously no exact-band match). Berlin and unknown regions unchanged; `location-first.cjs` 72 cases pass. [Validation](coastal-sunny-pleasant-male-day-minimal-20261030-validation.md).

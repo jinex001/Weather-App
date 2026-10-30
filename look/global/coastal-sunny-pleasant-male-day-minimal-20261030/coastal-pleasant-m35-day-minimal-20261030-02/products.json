@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-minimal-20261030-02",
+  "batchId": "coastal-sunny-pleasant-male-day-minimal-20261030",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "549a68a496f6112ebc1daece47f72a2d6afbb103f5506e33abf2509c0755533c",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 3,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-minimal-20261030-02",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-male-day-minimal-20261030.js",
+  "appHeroItem": "coastal-pleasant-m35-day-minimal-20261030-02.polo",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T13:59:05.874658+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "18items4/3/4/4/3;05shoesnotvisibleomitted;02socksunclearomitted;04navycrossbody;05trousersfulllegsinferred;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "꽃이 먼저 인사했다",
+      "en": "A flower says hello first",
+      "de": "Eine Blüte sagt zuerst Hallo"
+    },
+    "titleEn": "A FLOWER SAYS HELLO FIRST",
+    "deck": {
+      "ko": "꽃이 먼저 인사했다 — 맑은 해안의 가벼운 미니멀.",
+      "en": "A stray daisy tickles his nose on the way back from the flower stall.",
+      "de": "Eine Blüte sagt zuerst Hallo — ein leichter Minimal-Look an der Küste."
+    },
+    "intro": {
+      "ko": "코끝에 닿은 작은 꽃 때문에 웃음이 났어요. 네이비 폴로와 스톤 바지 사이에 꽃의 노랑이 가볍게 들어옵니다.",
+      "en": "A tiny bloom brushes his nose and interrupts the flower errand with a laugh. Navy knit and stone trousers leave room for the yellow flowers.",
+      "de": "Eine kleine Blüte kitzelt an der Nase und sorgt beim Blumenkauf für ein Lachen. Marineblauer Strick und steinfarbene Hose lassen das Gelb wirken."
+    },
+    "tip": {
+      "ko": "어두운 니트 폴로에 밝은 바지를 받치면, 꽃다발처럼 손에 든 것이 자연스럽게 색의 주인공이 돼요.",
+      "en": "A dark knit polo over light trousers lets whatever you carry, like a bunch of flowers, become the colour.",
+      "de": "Dunkles Strickpolo zu heller Hose: So wird das, was man in der Hand trägt – etwa ein Blumenstrauß –, zum Farbakzent."
+    },
+    "pullQuoteEn": "Let the flowers interrupt.",
+    "sourceCopy": {
+      "deck": {
+        "en": "A flower says hello first — an easy minimal moment by the coast."
+      },
+      "tip": {
+        "ko": "니트 폴로의 칼라를 편하게 열고 꽃다발을 잡을 때 소매가 팔을 조이지 않게 하세요.",
+        "en": "Leave the polo collar relaxed and keep the sleeves free of tension when you hold the flowers.",
+        "de": "Den Polokragen locker lassen; beim Halten der Blumen sollten die Ärmel nicht am Arm spannen."
+      },
+      "reason": "b190 review: en deck repeated the English article title; tip was identical to the first product how-to-wear on screen."
+    }
+  },
+  "products": [
+    {
+      "id": "polo",
+      "producerId": "02-polo",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-02.polo",
+      "appCategory": "top",
+      "name": {
+        "ko": "네이비 반소매 니트 폴로",
+        "en": "Navy short-sleeve knit polo",
+        "de": "Marineblaues Kurzarm-Strickpolo"
+      },
+      "nameKo": "네이비 반소매 니트 폴로",
+      "description": {
+        "ko": "네이비 하이게이지 반소매 니트 폴로. 부드러운 칼라, 두 단추 플래킷, 리브 밑단·소매단. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Dark navy fine-gauge short-sleeve knitted polo, soft open collar, short two-button placket and fine rib hems. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Marineblaues Kurzarm-Strickpolo in feiner Maschenware, weicher Kragen, Knopfleiste mit zwei Knöpfen, gerippte Bündchen. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "니트 폴로의 칼라를 편하게 열고 꽃다발을 잡을 때 소매가 팔을 조이지 않게 하세요.",
+        "en": "Leave the polo collar relaxed and keep the sleeves free of tension when you hold the flowers.",
+        "de": "Den Polokragen locker lassen; beim Halten der Blumen sollten die Ärmel nicht am Arm spannen."
+      },
+      "image": "products/polo.webp",
+      "sha256": "54452fc148c6311b9fe67c2d5e28855dedcb95a4202f9099f7bdb569fa858535",
+      "bytes": 22124,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 반소매 니트 폴로의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Marineblaues Kurzarm-Strickpolo. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-trousers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-02.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "라이트 스톤 플리츠 트라우저",
+        "en": "Light-stone pleated trousers",
+        "de": "Helle steinfarbene Bundfaltenhose"
+      },
+      "nameKo": "라이트 스톤 플리츠 트라우저",
+      "description": {
+        "ko": "라이트 스톤 원턱 트라우저. 린넨 같은 직조 질감, 곧게 떨어지는 긴 기장. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Lightstone ivory relaxed single-pleat tailored trousers, subtle linen-like woven texture, full-length straight legs. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Helle steinfarbene Hose mit einer Bundfalte, leinenartige Webstruktur, gerade geschnittene volle Länge. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "플리츠 바지는 앞주름을 펴고 허리를 조이지 않게 입어, 몸을 숙여도 편안하게 유지하세요.",
+        "en": "Let the front pleats lie smoothly and keep the waistband easy when you lean toward the flowers.",
+        "de": "Die Bundfalten glatt fallen lassen und den Bund so locker tragen, dass das Vorbeugen bequem bleibt."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "3c465fa898b451aa87b97d134da43af448fe704e411d138c911f2b3450179fba",
+      "bytes": 22336,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "라이트 스톤 플리츠 트라우저의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Helle steinfarbene Bundfaltenhose. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-loafers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-02.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "다크 브라운 페니 로퍼",
+        "en": "Dark-brown penny loafers",
+        "de": "Dunkelbraune Pennyloafer"
+      },
+      "nameKo": "다크 브라운 페니 로퍼",
+      "description": {
+        "ko": "다크 브라운 레더 페니 로퍼. 클래식 페니 스트랩, 낮은 어두운 밑창, 한 켤레. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Darkbrown leather plain pennyloafers, classic penny strap and dark low sole, matching left-right pair. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Dunkelbraune Pennyloafer aus Leder mit klassischem Steg und flacher dunkler Sohle, ein Paar. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "로퍼는 뒤꿈치가 들뜨지 않는 착용감을 확인하고 바지 밑단이 페니 스트랩을 덮지 않게 정리하세요.",
+        "en": "Check that the loafers hold the heel comfortably and keep the hem clear of the penny strap.",
+        "de": "Auf guten Halt an der Ferse achten und den Hosensaum so legen, dass er den Penny-Steg nicht verdeckt."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "3566a25fa0d9d0923473ad7e3a9f518bc2e105074144a10cd1c5038edeb57e0a",
+      "bytes": 36916,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "다크 브라운 페니 로퍼의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Dunkelbraune Pennyloafer. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b190"
+}

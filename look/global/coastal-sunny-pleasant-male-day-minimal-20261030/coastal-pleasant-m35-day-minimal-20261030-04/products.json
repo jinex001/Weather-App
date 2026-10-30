@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-pleasant-m35-day-minimal-20261030-04",
+  "batchId": "coastal-sunny-pleasant-male-day-minimal-20261030",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Pleasant",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "sunny",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": 22,
+    "feelsLikeBand": "pleasant",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "pleasant",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: sunny urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "approved-mixed-gaze",
+    "evidence": "User approved mixed-gaze editorials and automation; latest instruction delegates deployment to Claude Code. Product visual QA is producer-only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7510a77f73ec0b0224d7d57571c91d8d10c3eb4434abebdb389249caa3c6e533",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-pleasant-m35-day-minimal-20261030-04",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-sunny-pleasant-male-day-minimal-20261030.js",
+  "appHeroItem": "coastal-pleasant-m35-day-minimal-20261030-04.tee",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "paper map",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T13:59:05.874658+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "Whole products and left-right footwear pairs",
+      "Real alpha edges with no baked background",
+      "Reference colors and visible construction",
+      "18items4/3/4/4/3;05shoesnotvisibleomitted;02socksunclearomitted;04navycrossbody;05trousersfulllegsinferred;05silverwatch"
+    ],
+    "uncertainty": "Hidden full forms, backs, soles and paired shapes inferred, not verified retail products."
+  },
+  "copy": {
+    "title": {
+      "ko": "지도는 반대로",
+      "en": "The map is upside down",
+      "de": "Die Karte steht auf dem Kopf"
+    },
+    "titleEn": "THE MAP IS UPSIDE DOWN",
+    "deck": {
+      "ko": "지도는 반대로 — 맑은 해안의 가벼운 미니멀.",
+      "en": "Sitting on the steps, laughing at a map held the wrong way round.",
+      "de": "Die Karte steht auf dem Kopf — ein leichter Minimal-Look an der Küste."
+    },
+    "intro": {
+      "ko": "계단에 앉아 펼친 지도가 거꾸로였네요. 화이트 티셔츠와 샌드 와이드 바지로 잠깐 쉬는 동작까지 느슨하게 이어 갑니다.",
+      "en": "The map turns out to be upside down after he settles on the steps. A white tee and wide sand trousers make the pause feel unhurried.",
+      "de": "Auf den Stufen fällt auf: Die Karte steht auf dem Kopf. Weißes T-Shirt und weite sandfarbene Hose lassen die Pause entspannt wirken."
+    },
+    "tip": {
+      "ko": "앉아 쉬어 갈 날엔 품이 넉넉한 바지와 끈 달린 작은 가방으로, 두 손을 지도에 온전히 쓰세요.",
+      "en": "On a day of sit-down breaks, roomy trousers and a small strapped bag keep both hands free for the map.",
+      "de": "An einem Tag mit Sitzpausen sorgen eine weite Hose und eine kleine Umhängetasche dafür, dass beide Hände für die Karte frei bleiben."
+    },
+    "pullQuoteEn": "A pause before the next turn.",
+    "sourceCopy": {
+      "deck": {
+        "en": "The map is upside down — an easy minimal moment by the coast."
+      },
+      "tip": {
+        "ko": "화이트 티셔츠는 바지 허리 안에 가볍게 넣거나 느슨하게 두어, 앉을 때 배 쪽이 당기지 않게 하세요.",
+        "en": "Tuck the white tee loosely or leave it relaxed so it does not pull across the stomach when seated.",
+        "de": "Das weiße T-Shirt locker einstecken oder lose tragen, damit es im Sitzen am Bauch nicht spannt."
+      },
+      "reason": "b190 review: en deck repeated the English article title; tip was identical to the first product how-to-wear on screen."
+    }
+  },
+  "products": [
+    {
+      "id": "tee",
+      "producerId": "04-tee",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-04.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "화이트 크루넥 티셔츠",
+        "en": "White crew-neck T-shirt",
+        "de": "Weißes Rundhals-T-Shirt"
+      },
+      "nameKo": "화이트 크루넥 티셔츠",
+      "description": {
+        "ko": "화이트 크루넥 반소매 티셔츠. 도톰한 면 질감, 일자로 떨어지는 몸판, 깔끔한 밑단. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Plain white substantial short-sleeve cotton-textured crewneck T-shirt, relaxed straight body and neat hems. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Weißes Rundhals-T-Shirt aus festerer Baumwolloptik mit gerade fallendem Schnitt und sauberen Säumen. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "화이트 티셔츠는 바지 허리 안에 가볍게 넣거나 느슨하게 두어, 앉을 때 배 쪽이 당기지 않게 하세요.",
+        "en": "Tuck the white tee loosely or leave it relaxed so it does not pull across the stomach when seated.",
+        "de": "Das weiße T-Shirt locker einstecken oder lose tragen, damit es im Sitzen am Bauch nicht spannt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "07863df7189ad7a9f84f0578a72c927f81549d85573c5b30ef034a9a705885e5",
+      "bytes": 21384,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "화이트 크루넥 티셔츠의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Weißes Rundhals-T-Shirt. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-trousers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-04.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "샌드 와이드 트라우저",
+        "en": "Sand wide-leg trousers",
+        "de": "Sandfarbene weite Stoffhose"
+      },
+      "nameKo": "샌드 와이드 트라우저",
+      "description": {
+        "ko": "샌드 베이지 와이드 트라우저. 린넨 같은 직조, 부드러운 앞주름, 긴 기장. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Sand beige wide straight-leg tailored trousers, woven linen-like texture and soft front pleats, full length. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Sandbeige weite Stoffhose in leinenartiger Webart mit weichen Bundfalten, volle Länge. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "와이드 바지는 앉기 전에 무릎 위 원단을 조금 정리하고 밑단이 계단에 끌리지 않게 두세요.",
+        "en": "Arrange a little fabric above the knees before sitting and keep the wide hems off the steps.",
+        "de": "Vor dem Hinsetzen den Stoff über den Knien etwas ordnen und die weiten Säume nicht über die Stufen schleifen lassen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "75e606da8b44ff10e332bb4d4d0947d260c62125ea7929ec0fb2ec2438c07960",
+      "bytes": 24834,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "샌드 와이드 트라우저의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Sandfarbene weite Stoffhose. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "sneakers",
+      "producerId": "04-sneakers",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-04.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "토프 스웨이드 스니커즈",
+        "en": "Taupe suede sneakers",
+        "de": "Taupefarbene Wildleder-Sneaker"
+      },
+      "nameKo": "토프 스웨이드 스니커즈",
+      "description": {
+        "ko": "토프 스웨이드 로우 스니커즈. 옅은 베이지 끈, 흰 평평한 고무 밑창, 한 켤레. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Taupe minimal suede low lace-up sneakers, pale beige laces, white flat rubber sidewall soles, matching left-right pair. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Taupefarbene Low-Sneaker aus Wildleder mit hellbeigen Schnürsenkeln und flacher weißer Gummisohle, ein Paar. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "스웨이드 스니커즈는 발목을 편하게 두고, 계단에 앉을 때 양발을 안정적으로 바닥에 놓으세요.",
+        "en": "Keep the ankle fit comfortable and plant both suede sneakers securely while seated on the steps.",
+        "de": "Am Knöchel auf bequemen Sitz achten und beide Wildleder-Sneaker auf den Stufen sicher abstellen."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "46e50f3a4b92b76b8ed416c74fb5301c832b82b6f316c2898a1ac2b09036927e",
+      "bytes": 43456,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "토프 스웨이드 스니커즈의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Taupefarbene Wildleder-Sneaker. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    },
+    {
+      "id": "crossbody",
+      "producerId": "04-crossbody",
+      "appItemId": "coastal-pleasant-m35-day-minimal-20261030-04.crossbody",
+      "appCategory": "bag",
+      "name": {
+        "ko": "네이비 캔버스 크로스바디백",
+        "en": "Navy canvas crossbody pouch",
+        "de": "Marineblaue Canvas-Umhängetasche"
+      },
+      "nameKo": "네이비 캔버스 크로스바디백",
+      "description": {
+        "ko": "작은 네이비 캔버스 지퍼 크로스바디 파우치. 길이 조절 가능한 가는 네이비 스트랩, 앞 슬립 포켓. AI 스타일링 복원 이미지이며 실제 브랜드·소재 혼용률은 미확인입니다.",
+        "en": "Small navy canvas rectangular zip crossbody pouch with long narrow navy strap, subtle seams, plain hardware, empty. AI styling reconstruction; actual brand and fibre composition are unknown.",
+        "de": "Kleine marineblaue Canvas-Umhängetasche mit Reißverschluss, verstellbarem schmalem Riemen und vorderer Einstecktasche. KI-Styling-Rekonstruktion; Marke und Materialzusammensetzung sind unbekannt."
+      },
+      "howToWear": {
+        "ko": "크로스바디 스트랩은 지도를 펼칠 때 가방이 무릎 위로 미끄러지지 않는 길이로 맞추세요.",
+        "en": "Adjust the crossbody strap so the pouch stays at the hip instead of sliding onto the map.",
+        "de": "Den Umhängeriemen so einstellen, dass die Tasche an der Hüfte bleibt und nicht auf die Karte rutscht."
+      },
+      "image": "products/crossbody.webp",
+      "sha256": "0e00aa0f3cf90399bc4c453d9d2a2abcc4c596fc60dd3efb37cd624e5829d8f1",
+      "bytes": 28230,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "visible-item-reconstructed: approvededitorial",
+      "reconstructionNote": "가려진 전체 형태·뒷면·밑창·짝은 추정 복원. 브랜드·실제 소재 혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 캔버스 크로스바디백의 색과 보이는 형태를 에디토리얼에 맞춰 복원한 AI 스타일링 제품 이미지입니다. 실제 브랜드·소재 혼용률은 미확인입니다.",
+          "de": "Marineblaue Canvas-Umhängetasche. KI-Styling-Rekonstruktion nach dem sichtbaren Editorial; Marke und genaue Materialzusammensetzung sind unbekannt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b190"
+}
