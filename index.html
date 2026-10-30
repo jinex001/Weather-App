@@ -168,7 +168,7 @@
   .hl-re svg { width: 22px; height: 22px; display: block; }
   .hl-re.spin svg { animation: hl-spin .5s cubic-bezier(.2,.8,.2,1); }
   @keyframes hl-spin { to { transform: rotate(360deg); } }
-  .hl-rail { --cw: calc(74% + 40px); display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+  .hl-rail { isolation: isolate; --cw: calc(74% + 40px); display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 0; transition: opacity .25s; }
   .hl-rail::-webkit-scrollbar { display: none; }
   .hl-rail.swap { opacity: 0; }
@@ -289,13 +289,13 @@
   [hidden] { display: none !important; }
 
   /* Bottom menu (b88): a glass pill like the Today's Look sheet with the group switcher's ink pill for the open tab.
-     Icons only (b89), Phosphor regular outline (b91). Scrolling down shrinks it; scrolling up (or reaching the top) brings it back. */
+     Icons only (b89), Phosphor regular outline (b91). Scrolling down hides it; scrolling up (or reaching the top) brings it back. */
   .app, .page { padding-bottom: calc(env(safe-area-inset-bottom) + 112px); }
   .tabbar {
     position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
     display: flex; gap: 2px; padding: 5px; border-radius: 34px;
     width: min(calc(100% - 32px), 272px); transform: translateX(-50%); transform-origin: 50% 100%;
-    color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), width .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease;
+    color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease, visibility .3s;
   }
   .tabbar button {
     position: relative; flex: 1 1 0; min-width: 0; display: flex; align-items: center; justify-content: center;
@@ -305,10 +305,10 @@
   .tabbar button.on { background: #141414; color: #FFFFFF; }
   .tabbar svg { width: 24px; height: 24px; flex: none; fill: currentColor; transition: width .3s ease, height .3s ease; }
   .tabbar .tab-dot { position: absolute; top: 8px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
-  .tabbar.mini { width: min(calc(100% - 32px), 200px); }
-  .tabbar.mini button { padding: 8px 4px; }
-  .tabbar.mini svg { width: 20px; height: 20px; }
-  .tabbar.mini .tab-dot { top: 5px; }
+  .tabbar.scroll-hidden {
+    transform: translate(-50%, calc(100% + env(safe-area-inset-bottom) + 24px));
+    opacity: 0; visibility: hidden; pointer-events: none;
+  }
   body.look-open .tabbar { opacity: 0; pointer-events: none; }
   @media (prefers-reduced-motion: reduce) { .tabbar, .tabbar button, .tabbar svg { transition: none; } }
 
@@ -341,7 +341,7 @@
   .dc-dots { display: flex; justify-content: center; gap: 8px; margin-top: 2px; }
   .dc-dots span { width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .25; transition: opacity .2s; }
   .dc-dots span.on { opacity: 1; }
-  .dc-rail { --cw: 76%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+  .dc-rail { isolation: isolate; --cw: 76%; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
     margin: 0 -24px; padding: 30px calc((100% - var(--cw)) / 2) 28px; }
   .dc-rail::-webkit-scrollbar { display: none; }
   .dc { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always;
@@ -1047,7 +1047,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b192";
+  var BUILD = "b193";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -2326,20 +2326,20 @@
     $("pg-cal").hidden = t !== "cal"; $("pg-set").hidden = t !== "set"; $("pg-alert").hidden = t !== "alert";
     if (t !== "home") paintPages(load("wx-data"));
     window.scrollTo(0, 0);
-    $("tabbar").classList.remove("mini");
+    $("tabbar").classList.remove("scroll-hidden");
   }
   $("tabbar").querySelectorAll("button").forEach(function (b) {
     b.setAttribute("aria-label", NV[b.getAttribute("data-tab")]);
     b.addEventListener("click", function () { showTab(b.getAttribute("data-tab")); });
   });
-  // Instagram-style: scrolling down shrinks the menu to icons, scrolling up (or the top of the page) restores it
+  // Instagram-style: scrolling down hides the menu without resizing it, scrolling up (or the top of the page) restores it
   (function () {
     var lastY = window.scrollY, bar = $("tabbar");
     window.addEventListener("scroll", function () {
-      var y = window.scrollY, dy = y - lastY;
-      if (y < 24) bar.classList.remove("mini");
-      else if (dy > 6) bar.classList.add("mini");
-      else if (dy < -6) bar.classList.remove("mini");
+      var y = Math.max(0, Math.min(window.scrollY, document.documentElement.scrollHeight - window.innerHeight)), dy = y - lastY;
+      if (y < 24) bar.classList.remove("scroll-hidden");
+      else if (dy > 6) bar.classList.add("scroll-hidden");
+      else if (dy < -6) bar.classList.remove("scroll-hidden");
       if (Math.abs(dy) > 6 || y < 24) lastY = y;
     }, { passive: true });
   })();
