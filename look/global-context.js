@@ -94,12 +94,11 @@
     var rr = qr === "unknown" ? 0 : g.region === qr ? 0 : g.region === "neutral-urban" ? 1 : 2;
     return [cr, rr];
   }
-  // b175: a look made for one visual region (reviewed, not neutral-urban) only shows in that region; elsewhere, and
-  // where the region is unknown, it is left out (that cell then shows COMING SOON if nothing else fits). Looks without
-  // a region (all Berlin sets) show everywhere.
+  // Location is the first boundary: unreviewed legacy looks cannot fill coastal gaps.
   function allowed(o, v) {
-    var r = (o.gctx || {}).region || "unknown";
-    return r === "unknown" || r === "neutral-urban" || r === (v.region || "unknown");
+    var r = (o.gctx || {}).region || "unknown", q = v.region || "unknown";
+    if (q === "warm-coastal-urban") return r === q;
+    return r === "unknown" || r === "neutral-urban" || r === q;
   }
-  window.WX_GLOBAL = { version: 2, allowed: allowed, isCoastal: isCoastal, REGIONS: REGIONS, COUNTRY: COUNTRY, PROFILES: PROFILES, regionOf: regionOf, context: context, ranks: ranks };
+  window.WX_GLOBAL = { version: 3, allowed: allowed, isCoastal: isCoastal, REGIONS: REGIONS, COUNTRY: COUNTRY, PROFILES: PROFILES, regionOf: regionOf, context: context, ranks: ranks };
 })();

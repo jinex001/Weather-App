@@ -626,7 +626,7 @@
 <script src="look/coastal-sunny-pleasant-female-day-running-20261029.js?v=b186"></script>
 <script src="look/cutouts.js?v=b186"></script>
 <script src="look/coast-grid.js?v=b175"></script>
-<script src="look/global-context.js?v=b175"></script>
+<script src="look/global-context.js?v=b187"></script>
 <script>
 (function () {
   "use strict";
@@ -1043,7 +1043,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b186";
+  var BUILD = "b187";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1203,7 +1203,8 @@
     if (c === 63 || c === 66 || c === 81) return "normal";
     return "pouring";
   }
-  // b173: global context (look/global-context.js) as soft ranks after the weather fit: climate (cr) then visual region
+  // Location is filtered first (regionOk); climate (cr) and region ranks break remaining weather ties.
+  // b173: global context (look/global-context.js): climate (cr) then visual region
   // (rr). Without that file, or with an unknown place/humidity, every look gets 0 = the choice before b173.
   function softRanks(o, v) {
     var G = window.WX_GLOBAL;
@@ -1217,7 +1218,7 @@
   // Looks of one style and gender that fit the view, each with its sky rank (sr) and fit (lower is better)
   function lookFits(v, style, g) {
     var bi = BAND_KEYS.indexOf(v.band[1]), sky = v.clear ? "clear" : "cloudy", list = [];
-    var mine = LIB.outfits.filter(function (o) { return o.style === style && o.gender === g; });
+    var mine = LIB.outfits.filter(function (o) { return o.style === style && o.gender === g && regionOk(o, v); });
     var timed = mine.filter(function (o) { return (o.time === "evening") === !!v.evening; });
     // sky rank, lower is better. Rain day: a look for this rain strength 0, another rain strength 1, cloudy/any 2, clear 3.
     // Dry day: today's sky (or any) 0, the other dry sky 1, rain looks never.
@@ -1235,15 +1236,21 @@
     });
     return list;
   }
+  // Coastal dry-weather fallback stays inside the region and existing temperature limit.
+  // Rain strength remains strict; dry days never include rain outfits.
+  function skyAvailable(v, rank) {
+    return rank === 0 || (v.region === "warm-coastal-urban" && !v.rain && rank === 1);
+  }
   function lookPool(v, pics) {
     var list = lookFits(v, pics.style, pics.g);
     // b97: a look made for one sky only shows under that sky; looks for another sky are a fallback for a style and gender
     // that has nothing made for today's sky yet (b110: the best sky rank present wins)
     var best = Math.min.apply(null, list.map(function (e) { return e.sr; }).concat([9]));
     list = list.filter(function (e) { return e.sr === best; });
-    // b114: no set made for this weather (sky, rain strength or band) in this style and gender yet: one placeholder slide
+    // b187: coastal dry skies may fall back within the region; rain and temperature guards remain strict.
+    // b114: no eligible set: one placeholder slide
     // ("coming soon") with the band's own text, instead of looks made for other weather
-    if (!list.length || best > 0) return [{ o: bandOutfit(v, pics), fit: 0, soon: soonLabel(v, list.length) }];
+    if (!list.length || !skyAvailable(v, best)) return [{ o: bandOutfit(v, pics), fit: 0, soon: soonLabel(v, list.length) }];
     // b100: three looks only, picked at random among the best fits (shuffled within each fit level, the order stays
     // put until lookSeed changes: on app start and on each return to the app (b117: the home text shows the same pick))
     // b173: the place and climate context are part of the seed, so another city never keeps the old draw; the same weather
@@ -2108,11 +2115,12 @@
               f: r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]) };
     var cx = placeCtx(true), dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false, region: cx.region, humidity: cx.humidity }, all = [];
     STYLES.forEach(function (sty) { all = all.concat(lookFits(dv, sty, g)); });
-    // b114: no style has a set for that day's weather yet (rain strength, sky, band): the card shows a placeholder
-    if (!all.some(function (e) { return e.sr === 0; })) return { soon: soonLabel(dv, all.length) };
+    // Same coastal dry-sky fallback as lookPool; otherwise retain strict weather placeholders.
+    var best = Math.min.apply(null, all.map(function (e) { return e.sr; }).concat([9]));
+    if (!skyAvailable(dv, best)) return { soon: soonLabel(dv, all.length) };
     // b173: only looks made for that day's weather (sky rank 0, as the sheet it opens) with product cuts; among their
     // pieces the best weather fit, then climate, then visual region (the same order as lookPool)
-    var fits = all.filter(function (e) { return e.sr === 0 && e.o.article; });
+    var fits = all.filter(function (e) { return e.sr === best && e.o.article; });
     var rnd = seeded(pieceSeed + "|piece|" + D.time[i] + g + "|" + cx.key);
     function pairs(test) {
       var out = [];
