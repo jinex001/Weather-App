@@ -72,6 +72,12 @@
   .app { position: relative; }
   .rfx { position: absolute; left: 0; top: 0; width: 100%; pointer-events: none; z-index: 1; }
   .rfx svg { position: absolute; left: 0; top: 0; overflow: visible; }
+  /* showers (b194): rain for half of each 3.2s, then the sun comes out from behind the cloud until the next burst */
+  .sh-rain, .rfx svg.rf-burst { animation: sh-rain 3.2s step-end infinite; }
+  @keyframes sh-rain { 0% { visibility: visible; } 50% { visibility: hidden; } }
+  .sh-out { transform-origin: 198px 44px; animation: sh-out 3.2s ease-in-out infinite; }
+  @keyframes sh-out { 0%,45% { transform: translate(0,0) scale(1); } 58%,88% { transform: translate(8px,-10px) scale(1.25); } 100% { transform: translate(0,0) scale(1); } }
+  .sh-rays { transform-origin: 198px 44px; animation: art-spin 18s linear infinite; }
   .rf-s { opacity: 0; animation-timing-function: linear; animation-iteration-count: infinite; }
   .rf-ring { animation-name: rf-ring; } .rf-l { animation-name: rf-l; } .rf-r { animation-name: rf-r; } .rf-c { animation-name: rf-c; }
   @keyframes rf-ring { 0%,62% { opacity: 0; transform: scale(.2); } 63% { opacity: 1; transform: scale(.3); } 85% { opacity: 0; transform: scale(1.5); } 100% { opacity: 0; } }
@@ -628,7 +634,7 @@
 <script src="look/coastal-sunny-pleasant-male-day-running-20261029.js?v=b189"></script>
 <script src="look/coastal-sunny-pleasant-male-day-minimal-20261030.js?v=b190"></script>
 <script src="look/coastal-overcast-cool-female-night-street-20261030.js?v=b192"></script>
-<script src="look/cutouts.js?v=b192"></script>
+<script src="look/cutouts.js?v=b194"></script>
 <script src="look/coast-grid.js?v=b175"></script>
 <script src="look/global-context.js?v=b187"></script>
 <script>
@@ -856,6 +862,14 @@
     return "M" + x + " " + y + "c" + (r * .55).toFixed(1) + " " + (r * .8).toFixed(1) + " " + r + " " + (r * 1.45).toFixed(1) + " " + r + " " + 2 * r +
       "a" + r + " " + r + " 0 0 1-" + 2 * r + " 0c0-" + (r * .55).toFixed(1) + " " + (r * .45).toFixed(1) + "-" + (r * 1.2).toFixed(1) + " " + r + "-" + 2 * r + "z";
   }
+  // Shower drops (b194): two staggered sets under the clouds, all falling during the burst
+  var SHOWER_AT = [[58, 126, 0], [98, 126, .25], [138, 126, .5], [200, 100, .15], [78, 132, .4], [118, 132, .1], [160, 130, .6], [218, 104, .35],
+    [68, 129, .3], [108, 129, .55], [148, 129, .05], [210, 103, .45], [88, 135, .7], [128, 135, .4], [170, 133, .1], [228, 107, .65]];
+  function showerTears() {
+    return '<g class="sh-rain" fill="#8FB8DE">' + SHOWER_AT.map(function (d) {
+      return '<path class="art-tear" style="animation-duration:.8s;animation-delay:' + d[2] + 's" d="' + tearPath(d[0], d[1], 4.6) + '"/>';
+    }).join("") + "</g>";
+  }
   function tears(r) {
     return '<g fill="#8FB8DE">' + TEARS.map(function (d) {
       return '<path class="art-tear" style="animation-delay:' + d[2] + 's" d="' + tearPath(d[0], d[1], r) + '"/>';
@@ -881,10 +895,13 @@
     rain: '<svg viewBox="0 0 240 170">' + drift(2, .3, "#7A8896", 22, -6) + drift(30, .24, "#6B7886", 28, -18) +
       '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/>' + tears(4.2) +
       '<path d="' + CLOUD + '" fill="#2F3842"/>' + drift(120, .28, "#6B7886", 18, -10) + "</svg>",
-    // Showers (codes 80–82, b142): bursts of heavier rain with breaks, faster clouds, a sliver of sun behind
-    shower: '<svg viewBox="0 0 240 170"><circle class="art-sun" style="transform-origin:198px 44px" cx="198" cy="44" r="20" fill="#E8621C"/>' +
-      drift(4, .3, "#7A8896", 14, -4) + '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/>' +
-      '<g class="art-on1">' + rainDrops(30, 5, 3, 16, .7) + '</g><g class="art-on2">' + rainDrops(30, 9, 3, 16, .7) + "</g>" +
+    // Showers (codes 80–82, b142, b194): teardrops in bursts; between bursts the sun (rays turning) comes out from behind the cloud
+    shower: '<svg viewBox="0 0 240 170"><g class="sh-out"><path class="sh-rays" d="' + (function () {
+        var d = "";
+        for (var i = 0; i < 8; i++) { var a = i * Math.PI / 4; d += "M" + (198 + 25 * Math.cos(a)).toFixed(1) + " " + (44 + 25 * Math.sin(a)).toFixed(1) + "L" + (198 + 33 * Math.cos(a)).toFixed(1) + " " + (44 + 33 * Math.sin(a)).toFixed(1); }
+        return d;
+      })() + '" stroke="#E8621C" stroke-width="4.5" stroke-linecap="round"/><circle class="art-sun" style="transform-origin:198px 44px" cx="198" cy="44" r="20" fill="#E8621C"/></g>' +
+      drift(4, .3, "#7A8896", 14, -4) + '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/>' + showerTears() +
       '<path class="art-bob" d="' + CLOUD + '" fill="#2F3842"/>' + drift(118, .28, "#6B7886", 12, -7) + "</svg>",
     // Drizzle (codes 51–57, b141): fine short lines over the whole width, small rain clouds drifting across
     drizzle: '<svg viewBox="0 0 240 170">' + drift(2, .3, "#7A8896", 30, -8) + drift(30, .22, "#6B7886", 38, -24) +
@@ -895,8 +912,7 @@
     rainNight: '<svg viewBox="0 0 240 170">' + MOON_SMALL + drift(2, .3, "#3A4454", 22, -6) + drift(30, .24, "#5D6979", 28, -18) +
       tears(4.2) + '<path d="' + CLOUD + '" fill="#4A5666"/>' + drift(120, .28, "#5D6979", 18, -10) + "</svg>",
     showerNight: '<svg viewBox="0 0 240 170"><circle cx="196" cy="40" r="20" fill="#D9D2B8"/><circle cx="208" cy="31" r="17" fill="#1B2140"/>' +
-      drift(4, .3, "#3A4454", 14, -4) + '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#343E4C"/>' +
-      '<g class="art-on1">' + rainDrops(30, 5, 3, 16, .7) + '</g><g class="art-on2">' + rainDrops(30, 9, 3, 16, .7) + "</g>" +
+      drift(4, .3, "#3A4454", 14, -4) + '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#343E4C"/>' + showerTears() +
       '<path class="art-bob" d="' + CLOUD + '" fill="#4A5666"/>' + drift(118, .28, "#5D6979", 12, -7) + "</svg>",
     overcast: '<svg viewBox="0 0 240 170">' + drift(6, .32, "var(--oc-drift)", 36, -10) +
       '<g transform="translate(0 20)"><circle class="art-sun" style="transform-origin:206px 50px" cx="206" cy="50" r="18" fill="#E8621C"/><path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" style="fill:var(--oc-back)"/><path d="' + CLOUD + '" fill="#EDE8DF"/></g>' +
@@ -915,9 +931,9 @@
   var SPLASH = { light: { n: 5, t: 1.9, r: 3.6 }, normal: { n: 8, t: 1.5, r: 4.2 }, pouring: { n: 14, t: 1.05, r: 4.6 } };
   var SPLASH_AT = [[58, 126, 0], [118, 132, .43], [200, 100, .07], [98, 126, .13], [160, 130, .53], [78, 132, .3], [138, 126, .23], [218, 104, .37],
     [68, 128, .2], [88, 134, .5], [108, 128, .03], [128, 134, .33], [150, 128, .6], [208, 102, .57]];
-  var splashLevel = null;
-  function rainFx(level) {
-    if (level !== undefined) splashLevel = level;
+  var splashLevel = null, splashBurst = false;
+  function rainFx(level, burst) {
+    if (level !== undefined) { splashLevel = level; splashBurst = !!burst; }
     var old = document.getElementById("rfx"); if (old) old.remove();
     var art = $("art"), t = $("temp"), L = SPLASH[splashLevel];
     if (!L || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -940,7 +956,7 @@
     })(t);
     if (!boxes.length) return;
     svgArt.querySelectorAll(".art-tear").forEach(function (p) { p.style.display = "none"; });
-    var cap = Math.min.apply(null, boxes.map(function (b) { return b.top; })), R = L.r, T = L.t, k = 0;
+    var cap = Math.min.apply(null, boxes.map(function (b) { return b.top; })), R = L.r, T = splashBurst ? +(L.t * .7).toFixed(2) : L.t, k = 0;
     var css = ".rf-s{animation-duration:" + T + "s}", svg = "";
     SPLASH_AT.slice(0, L.n).forEach(function (d) {
       var x = ox + d[0], y0 = oy + d[1], dl = (d[2] * T).toFixed(2) + "s";
@@ -951,8 +967,10 @@
         '<circle class="rf-s rf-l" style="animation-delay:' + dl + '" r="1.8"/><circle class="rf-s rf-r" style="animation-delay:' + dl + '" r="1.8"/><circle class="rf-s rf-c" style="animation-delay:' + dl + '" r="1.4"/></g>';
     });
     var fx = document.createElement("div"); fx.id = "rfx"; fx.className = "rfx";
-    fx.innerHTML = "<style>" + css + "</style><svg width=\"100%\" height=\"" + Math.ceil(cap + 30) + "\" fill=\"#8FB8DE\">" + svg + "</svg>";
+    fx.innerHTML = "<style>" + css + "</style><svg" + (splashBurst ? ' class="rf-burst"' : "") + " width=\"100%\" height=\"" + Math.ceil(cap + 30) + "\" fill=\"#8FB8DE\">" + svg + "</svg>";
     app.appendChild(fx);
+    // showers: restart the art's burst with the overlay so the drops on the number and the sun stay in step
+    if (splashBurst) svgArt.querySelectorAll(".sh-rain, .sh-out").forEach(function (el) { el.style.animation = "none"; void el.getBoundingClientRect(); el.style.animation = ""; });
   }
 
   // Fog: a cloud (day: with a sliver of sun behind it) dissolving into horizontal bands that slowly sway
@@ -1047,7 +1065,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b193";
+  var BUILD = "b194";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1828,13 +1846,13 @@
     $("city-n").textContent = placeName(place);
     $("date").textContent = dateLine(nowLocal);
     $("art").innerHTML = artFor(state, cur.weather_code, isDay);
-    var rc = cur.weather_code, rainArt = (state === "rain" || state === "rain-night") && !isDrizzle(rc) && !isShower(rc);
+    var rc = cur.weather_code, rainArt = (state === "rain" || state === "rain-night") && !isDrizzle(rc);
 
     var t = r(cur.temperature_2m);
     var tempEl = $("temp");
     tempEl.innerHTML = String(t) + '<span class="deg">°</span>';
     tempEl.classList.toggle("long", String(t).length >= 3);
-    rainFx(rainArt ? rainLevel(rc) : null);
+    rainFx(rainArt ? rainLevel(rc) : null, isShower(rc));
     $("cond").textContent = condLabel(cur.weather_code, isDay);
     $("sub").textContent = fmt(T.sub, { h: r(Math.max(D.temperature_2m_max[0], cur.temperature_2m)), l: r(Math.min(D.temperature_2m_min[0], cur.temperature_2m)), w: r(cur.wind_speed_10m || 0) });
 
