@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-street-20261030-05",
+  "batchId": "coastal-overcast-cool-male-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-autonomous-production",
+    "evidence": "User authorized production without individual approval; producer editorial/product QA only. Muse owns post-production.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1f2297fb5626bfee548983a287593758fd1a5e67a03e25fdbab20fe4235abf4e",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-street-20261030-05",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-m35-night-street-20261030-05.bomber",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "wineglass/wine",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T21:28:09.494299+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "All 23 whole products visible with clean alpha edges on four backgrounds",
+      "Per-look counts 4/5/5/5/4 verified",
+      "All footwear paired, bags empty, props omitted",
+      "05 dark watch dial, lightweight jersey top;01/05 unseen footwear omitted",
+      "04 wine v2 wardrobe used; original map archive-only"
+    ],
+    "uncertainty": "Hidden full garment forms, backs, footwear pairs and watch strap construction inferred; no retail/material identity claim."
+  },
+  "copy": {
+    "titleEn": "The keys finally appear",
+    "title": {
+      "ko": "드디어 찾은 열쇠",
+      "en": "The keys finally appear",
+      "de": "Die Schlüssel sind wieder da"
+    },
+    "deck": {
+      "ko": "손목의 작은 디테일",
+      "en": "A small detail at the wrist",
+      "de": "Ein kleines Detail am Handgelenk"
+    },
+    "intro": {
+      "ko": "주머니를 뒤지다 찾은 열쇠를 친구에게 보여 주며 웃습니다. 초콜릿 봄버와 에크루 톱, 페이디드 블루 진에 작은 다크 다이얼 워치가 더해집니다.",
+      "en": "After a pocket search, the keys appear with a grin toward a friend. Chocolate brown, ecru and faded blue denim meet a small watch with a dark dial.",
+      "de": "Nach einer Suche in den Taschen tauchen die Schlüssel mit einem Grinsen zum Freund wieder auf. Schokoladenbraun, Ecru und verwaschenes Blau treffen auf eine kleine Uhr mit dunklem Zifferblatt."
+    },
+    "pullQuoteEn": "A small detail at the wrist",
+    "tip": {
+      "ko": "커프스를 조금 올려 워치를 드러내고 열쇠는 별도 주머니에 넣어 두세요.",
+      "en": "Raise the cuff slightly to reveal the watch and keep keys in a separate pocket.",
+      "de": "Die Manschette etwas hochschieben, um die Uhr zu zeigen, und Schlüssel separat verstauen."
+    }
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "producerId": "05-bomber",
+      "appItemId": "coastal-cool-m35-night-street-20261030-05.bomber",
+      "appCategory": "outer",
+      "name": {
+        "ko": "초콜릿 스웨이드 봄버",
+        "en": "Chocolate suede-look bomber",
+        "de": "Schokoladenbraune Bomberjacke in Veloursoptik"
+      },
+      "nameKo": "초콜릿 스웨이드 봄버",
+      "description": {
+        "ko": "초콜릿 스웨이드 봄버 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Textured zip bomber with brown rib trim. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Strukturierte Zip-Bomberjacke mit braunen Rippbündchen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "에크루 톱과 워시드 블루 진 위에 편하게 여며 입으세요.",
+        "en": "Wear loosely fastened over ecru and faded blue denim.",
+        "de": "Locker geschlossen über Ecru und verwaschenem blauem Denim tragen."
+      },
+      "image": "products/bomber.webp",
+      "sha256": "6cef073057ae44d4792b85ca60c8d9d343261fd7773d60799c4d46f632eb56d8",
+      "bytes": 43222,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "top",
+      "producerId": "05-top",
+      "appItemId": "coastal-cool-m35-night-street-20261030-05.top",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 크루넥 톱",
+        "en": "Ecru jersey top",
+        "de": "Ecrufarbenes Jersey-Top"
+      },
+      "nameKo": "에크루 크루넥 톱",
+      "description": {
+        "ko": "에크루 크루넥 톱 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Lightweight crewneck jersey, not a chunky knit. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Leichtes Jersey mit Rundhalsausschnitt, kein Grobstrick. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "봄버의 두꺼운 리브와 대비되도록 톱은 매끈하게 정리하세요.",
+        "en": "Keep the top smooth against the bomber ribbing.",
+        "de": "Das Top glatt tragen, als Kontrast zu den Rippbündchen der Jacke."
+      },
+      "image": "products/top.webp",
+      "sha256": "b0c9f67a588814ae79a71b1c731f06506cab9fd67d74f100ab6def578483c3a3",
+      "bytes": 31446,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "05-jeans",
+      "appItemId": "coastal-cool-m35-night-street-20261030-05.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "페이디드 블루 진",
+        "en": "Faded blue jeans",
+        "de": "Verwaschene blaue Jeans"
+      },
+      "nameKo": "페이디드 블루 진",
+      "description": {
+        "ko": "페이디드 블루 진 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Straight five-pocket jeans; hidden legs reconstructed. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Gerade Five-Pocket-Jeans; verdeckte Beine rekonstruiert. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "허리를 편하게 맞추고 상의 밑단을 억지로 넣지 마세요.",
+        "en": "Keep the waist comfortable and let the top fall naturally.",
+        "de": "Die Taille bequem wählen und das Oberteil natürlich fallen lassen."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "d709abf7eb276f3312c04659b33ecde4aca784f6932c0a533ef81c9e50b46667",
+      "bytes": 44258,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "05-watch",
+      "appItemId": "coastal-cool-m35-night-street-20261030-05.watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "실버 다크다이얼 워치",
+        "en": "Silver dark-dial watch",
+        "de": "Silberne Uhr mit dunklem Zifferblatt"
+      },
+      "nameKo": "실버 다크다이얼 워치",
+      "description": {
+        "ko": "실버 다크다이얼 워치 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Small silver case, dark dial and narrow dark strap. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Kleines silbernes Gehäuse, dunkles Zifferblatt und schmales dunkles Band. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "손목뼈 위에 맞추고 재킷 커프스를 조금 올려 보이게 하세요.",
+        "en": "Fit above the wrist bone and raise the cuff slightly.",
+        "de": "Oberhalb des Handgelenkknochens tragen und die Manschette etwas hochschieben."
+      },
+      "image": "products/watch.webp",
+      "sha256": "8d19ce76e10f31737b5f7c4ba0abbd26be99955061af1b262d8500cd5c459c95",
+      "bytes": 23028,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. Darkdialobserved; do notuseoriginalpromptplannedoffwhitedial.",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}
