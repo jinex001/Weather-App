@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-street-20261030-02",
+  "batchId": "coastal-overcast-cool-male-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-autonomous-production",
+    "evidence": "User authorized production without individual approval; producer editorial/product QA only. Muse owns post-production.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3c38b07da6aa81a9f7174518b888d4237f7bc057f0f3430ff6026a7542959bb4",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-street-20261030-02",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-m35-night-street-20261030-02.overshirt",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "wineglass/wine",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T21:28:09.494299+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "All 23 whole products visible with clean alpha edges on four backgrounds",
+      "Per-look counts 4/5/5/5/4 verified",
+      "All footwear paired, bags empty, props omitted",
+      "05 dark watch dial, lightweight jersey top;01/05 unseen footwear omitted",
+      "04 wine v2 wardrobe used; original map archive-only"
+    ],
+    "uncertainty": "Hidden full garment forms, backs, footwear pairs and watch strap construction inferred; no retail/material identity claim."
+  },
+  "copy": {
+    "titleEn": "A stem on the cuff",
+    "title": {
+      "ko": "소매에 걸린 꽃 한 송이",
+      "en": "A stem on the cuff",
+      "de": "Ein Stiel am Ärmel"
+    },
+    "deck": {
+      "ko": "작은 색의 간격",
+      "en": "Small breaks of color",
+      "de": "Kleine Farbakzente"
+    },
+    "intro": {
+      "ko": "포장 밖으로 나온 꽃 줄기가 커프스에 살짝 걸립니다. 러스트 코듀로이와 네이비 티, 밝은 진 사이에 크림 양말이 작은 리듬을 만듭니다.",
+      "en": "A flower stem catches gently on a cuff. Rust corduroy, navy and pale jeans meet a small flash of cream socks above black loafers.",
+      "de": "Ein Blumenstiel bleibt leicht an der Manschette hängen. Rostroter Cord, Marineblau und helle Jeans treffen auf einen kleinen cremefarbenen Akzent über schwarzen Loafern."
+    },
+    "pullQuoteEn": "Small breaks of color",
+    "tip": {
+      "ko": "오버셔츠를 열어 레이어를 보여 주고 양말은 발목 위로 조금만 드러내세요.",
+      "en": "Keep the overshirt open and show just a little sock above the loafers.",
+      "de": "Das Overshirt offen lassen und über den Loafern nur etwas Socke zeigen."
+    }
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "producerId": "02-overshirt",
+      "appItemId": "coastal-cool-m35-night-street-20261030-02.overshirt",
+      "appCategory": "outer",
+      "name": {
+        "ko": "러스트 코듀로이 오버셔츠",
+        "en": "Rust corduroy overshirt",
+        "de": "Rostrotes Cord-Overshirt"
+      },
+      "nameKo": "러스트 코듀로이 오버셔츠",
+      "description": {
+        "ko": "러스트 코듀로이 오버셔츠 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Cord overshirt with pointed collar and dark buttons. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Cord-Overshirt mit spitzem Kragen und dunklen Knöpfen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "네이비 티 위에 열어 입고 소매를 한 번 접으세요.",
+        "en": "Wear open over navy and turn the cuffs once.",
+        "de": "Offen über Marineblau tragen und die Manschetten einmal umschlagen."
+      },
+      "image": "products/overshirt.webp",
+      "sha256": "2a98da3286dcc6de48cc86b915bfc57db35fd6fa741f5d14c8896fab8f21b459",
+      "bytes": 47680,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "02-tee",
+      "appItemId": "coastal-cool-m35-night-street-20261030-02.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "네이비 티셔츠",
+        "en": "Navy T-shirt",
+        "de": "Marineblaues T-Shirt"
+      },
+      "nameKo": "네이비 티셔츠",
+      "description": {
+        "ko": "네이비 티셔츠 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain regular-fit crewneck jersey tee. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schlichtes Jersey-T-Shirt mit Rundhalsausschnitt und normaler Passform. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "오버셔츠 아래 밑단을 자연스럽게 내려 두세요.",
+        "en": "Leave the hem relaxed beneath the overshirt.",
+        "de": "Den Saum locker unter dem Overshirt fallen lassen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "f272145f156d34ebb5f87be2542af7718385f33112e950b9c5a0035d0c376983",
+      "bytes": 20786,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "02-jeans",
+      "appItemId": "coastal-cool-m35-night-street-20261030-02.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "라이트 스톤 진",
+        "en": "Light stone jeans",
+        "de": "Hellgraue Stonewashed-Jeans"
+      },
+      "nameKo": "라이트 스톤 진",
+      "description": {
+        "ko": "라이트 스톤 진 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Pale grey relaxed straight jeans. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Hellgraue, locker gerade geschnittene Jeans. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "로퍼 위에서 밑단이 살짝 닿는 길이로 입으세요.",
+        "en": "Let the hems lightly meet the loafers.",
+        "de": "Die Säume leicht auf den Loafern aufliegen lassen."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "98b8d26923912152ddec0cc7cc0bbfbb2e1995d8969b23e870c6272bab5c8d21",
+      "bytes": 43360,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-loafers",
+      "appItemId": "coastal-cool-m35-night-street-20261030-02.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "블랙 페니 로퍼 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain black low-soled penny loafer pair. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schwarzes Pennyloafer-Paar mit flacher Sohle. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "크림 양말과 신어 발목에 밝은 간격을 만드세요.",
+        "en": "Pair with cream socks for a light break at the ankle.",
+        "de": "Mit cremefarbenen Socken einen hellen Akzent am Knöchel setzen."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "1664ea2ea580b09957cbfce042af8159b477822daff8482cd16b6bdc4b6e45e3",
+      "bytes": 37952,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "02-socks",
+      "appItemId": "coastal-cool-m35-night-street-20261030-02.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "크림 리브 양말",
+        "en": "Cream rib socks",
+        "de": "Cremefarbene Rippsocken"
+      },
+      "nameKo": "크림 리브 양말",
+      "description": {
+        "ko": "크림 리브 양말 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain short-crew ribbed sock pair. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schlichtes kurzes Rippsocken-Paar. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "진과 로퍼 사이에 리브 조직이 조금 보이게 하세요.",
+        "en": "Show a little ribbing between the jeans and loafers.",
+        "de": "Etwas Rippstruktur zwischen Jeans und Loafern zeigen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "dde1c9dc1200271deabfa5ef3b4bee2235a72ee69ca747020d4faf09e9b503a5",
+      "bytes": 35878,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}
