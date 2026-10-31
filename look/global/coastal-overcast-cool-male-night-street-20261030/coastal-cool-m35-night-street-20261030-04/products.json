@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-street-20261030-04",
+  "batchId": "coastal-overcast-cool-male-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-autonomous-production",
+    "evidence": "User authorized production without individual approval; producer editorial/product QA only. Muse owns post-production.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d99c9e773e5c48c67d6fb7596f7f8174813232dd64de0f4ae35a09bb4f8250a8",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-street-20261030-04",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-m35-night-street-20261030-04.track-jacket",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "wineglass/wine",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T21:28:09.494299+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "All 23 whole products visible with clean alpha edges on four backgrounds",
+      "Per-look counts 4/5/5/5/4 verified",
+      "All footwear paired, bags empty, props omitted",
+      "05 dark watch dial, lightweight jersey top;01/05 unseen footwear omitted",
+      "04 wine v2 wardrobe used; original map archive-only"
+    ],
+    "uncertainty": "Hidden full garment forms, backs, footwear pairs and watch strap construction inferred; no retail/material identity claim."
+  },
+  "copy": {
+    "titleEn": "A pause on the steps",
+    "title": {
+      "ko": "계단에서 잠깐, 와인 한 모금",
+      "en": "A pause on the steps",
+      "de": "Eine Pause auf den Stufen"
+    },
+    "deck": {
+      "ko": "잠깐 쉬는 동안에도 편하게",
+      "en": "Easy even at a pause",
+      "de": "Auch in der Pause entspannt"
+    },
+    "intro": {
+      "ko": "계단에 앉아 동행의 이야기를 듣다 와인잔을 살짝 듭니다. 코발트 재킷과 샌드 카고, 밝은 스니커즈가 밤의 짧은 휴식을 가볍게 만듭니다.",
+      "en": "Seated on the steps, he lifts a glass while listening to a companion. Cobalt, sand and off-white keep the evening pause easy and bright.",
+      "de": "Auf den Stufen sitzend hebt er beim Zuhören sein Glas. Kobaltblau, Sand und Offwhite geben der abendlichen Pause Leichtigkeit."
+    },
+    "pullQuoteEn": "Easy even at a pause",
+    "tip": {
+      "ko": "앉을 때 크로스바디를 옆으로 돌리고 바지 무릎에 여유를 두세요.",
+      "en": "Slide the crossbody aside and leave room at the knees when sitting.",
+      "de": "Beim Sitzen die Umhängetasche zur Seite schieben und den Knien Platz lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "track-jacket",
+      "producerId": "04-track-jacket",
+      "appItemId": "coastal-cool-m35-night-street-20261030-04.track-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "코발트 트랙 재킷",
+        "en": "Cobalt track jacket",
+        "de": "Kobaltblaue Trainingsjacke"
+      },
+      "nameKo": "코발트 트랙 재킷",
+      "description": {
+        "ko": "코발트 트랙 재킷 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Light jacket with stand collar and black zipper. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Leichte Jacke mit Stehkragen und schwarzem Reißverschluss. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 조금 열어 그레이 티의 목선을 드러내세요.",
+        "en": "Open the zip slightly to show the grey neckline.",
+        "de": "Den Reißverschluss etwas öffnen, um den grauen Ausschnitt zu zeigen."
+      },
+      "image": "products/track-jacket.webp",
+      "sha256": "bb74f9c6a7f6317fca2105a8eac0308ff99fbc90d0ef543fe2d94bbaea6b0c12",
+      "bytes": 37790,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "04-tee",
+      "appItemId": "coastal-cool-m35-night-street-20261030-04.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "그레이 크루넥 티셔츠",
+        "en": "Grey crewneck T-shirt",
+        "de": "Graues Rundhals-T-Shirt"
+      },
+      "nameKo": "그레이 크루넥 티셔츠",
+      "description": {
+        "ko": "그레이 크루넥 티셔츠 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain grey-marl short-sleeve jersey tee. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schlichtes grau meliertes Kurzarm-Shirt aus Jersey. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "앉았을 때 재킷 아래에서 밑단이 뭉치지 않게 정리하세요.",
+        "en": "Smooth the hem beneath the jacket when sitting.",
+        "de": "Beim Sitzen den Saum unter der Jacke glattziehen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "f058b18199a595be140dec6c75b2a91e2b922f2a25709bbee3e997a0f7376ece",
+      "bytes": 45288,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cargo-trousers",
+      "producerId": "04-cargo-trousers",
+      "appItemId": "coastal-cool-m35-night-street-20261030-04.cargo-trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "샌드 카고 트라우저",
+        "en": "Sand cargo trousers",
+        "de": "Sandfarbene Cargohose"
+      },
+      "nameKo": "샌드 카고 트라우저",
+      "description": {
+        "ko": "샌드 카고 트라우저 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Relaxed cargo trousers with thigh flap pockets. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Lockere Cargohose mit Oberschenkeltaschen und Klappen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "앉기 전 포켓 안의 두꺼운 물건을 빼 실루엣을 편하게 하세요.",
+        "en": "Remove bulky pocket contents before sitting for a relaxed silhouette.",
+        "de": "Vor dem Sitzen sperrige Gegenstände aus den Taschen nehmen."
+      },
+      "image": "products/cargo-trousers.webp",
+      "sha256": "db19dec49dbc328e977f9ce207b9ac6ed829d75c53d0786e173a081883acf229",
+      "bytes": 34866,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "04-sneakers",
+      "appItemId": "coastal-cool-m35-night-street-20261030-04.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트 레더 스니커즈",
+        "en": "Off-white leather-look sneakers",
+        "de": "Offwhite-Sneaker in Lederoptik"
+      },
+      "nameKo": "오프화이트 레더 스니커즈",
+      "description": {
+        "ko": "오프화이트 레더 스니커즈 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain low-top pair with ivory flat soles. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schlichtes niedriges Paar mit flachen elfenbeinfarbenen Sohlen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "샌드 팬츠와 비슷한 밝기로 하체를 가볍게 연결하세요.",
+        "en": "Keep the lower half light with the sand trousers.",
+        "de": "Mit der sandfarbenen Hose eine helle untere Silhouette bilden."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "8d3f14f37b359f6227975ceb45971dd41f61ed20b9653a9cce73faec94b85db2",
+      "bytes": 43096,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "producerId": "04-crossbody",
+      "appItemId": "coastal-cool-m35-night-street-20261030-04.crossbody",
+      "appCategory": "bag",
+      "name": {
+        "ko": "블랙 나일론 크로스바디백",
+        "en": "Black nylon crossbody",
+        "de": "Schwarze Nylon-Umhängetasche"
+      },
+      "nameKo": "블랙 나일론 크로스바디백",
+      "description": {
+        "ko": "블랙 나일론 크로스바디백 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Small rounded zip pouch with adjustable webbing. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Kleine abgerundete Reißverschlusstasche mit verstellbarem Gurt. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "앉을 때 가방을 옆으로 돌려 무릎을 비워 두세요.",
+        "en": "Slide the bag to the side when sitting to keep your lap clear.",
+        "de": "Beim Sitzen die Tasche seitlich schieben, damit der Schoß frei bleibt."
+      },
+      "image": "products/crossbody.webp",
+      "sha256": "aeda24eb6a1d859b9aefff731fd870d5c8f8505e2ed2dfc4a5fb0de6912bdc92",
+      "bytes": 33836,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}
