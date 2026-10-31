@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-street-20261030-03",
+  "batchId": "coastal-overcast-cool-male-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-autonomous-production",
+    "evidence": "User authorized production without individual approval; producer editorial/product QA only. Muse owns post-production.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "31ad53758c49e020e9aec6fabe66c3eae2c4064b3f73925346c05c0d2a5dd43f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-street-20261030-03",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-m35-night-street-20261030-03.tote",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "wineglass/wine",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T21:28:09.494299+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "All 23 whole products visible with clean alpha edges on four backgrounds",
+      "Per-look counts 4/5/5/5/4 verified",
+      "All footwear paired, bags empty, props omitted",
+      "05 dark watch dial, lightweight jersey top;01/05 unseen footwear omitted",
+      "04 wine v2 wardrobe used; original map archive-only"
+    ],
+    "uncertainty": "Hidden full garment forms, backs, footwear pairs and watch strap construction inferred; no retail/material identity claim."
+  },
+  "copy": {
+    "titleEn": "One orange escapes",
+    "title": {
+      "ko": "토트에서 굴러 나온 오렌지",
+      "en": "One orange escapes",
+      "de": "Eine Orange entwischt"
+    },
+    "deck": {
+      "ko": "손이 움직이는 순간",
+      "en": "Hands in motion",
+      "de": "Hände in Bewegung"
+    },
+    "intro": {
+      "ko": "장바구니에서 나온 오렌지 하나를 받으려다 웃음이 납니다. 올리브 재킷과 블랙 진 옆에서 러스트 오렌지 토트가 장면의 색을 이어 갑니다.",
+      "en": "An orange slips from the tote and prompts a quick catch and a laugh. An olive jacket and washed black jeans let the rust orange bag carry the color.",
+      "de": "Eine Orange rutscht aus der Tasche und wird lachend aufgefangen. Olivgrüne Jacke und ausgewaschene schwarze Jeans lassen der rostroten Tasche den Farbakzent."
+    },
+    "pullQuoteEn": "Hands in motion",
+    "tip": {
+      "ko": "걷는 동안 토트 손잡이를 정리하고 가방 안 물건은 무게가 한쪽으로 쏠리지 않게 두세요.",
+      "en": "Gather the tote handles and balance its contents before walking on.",
+      "de": "Vor dem Weitergehen die Henkel ordnen und den Tascheninhalt gleichmäßig verteilen."
+    }
+  },
+  "products": [
+    {
+      "id": "utility-jacket",
+      "producerId": "03-utility-jacket",
+      "appItemId": "coastal-cool-m35-night-street-20261030-03.utility-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "올리브 유틸리티 재킷",
+        "en": "Olive utility jacket",
+        "de": "Olivgrüne Utilityjacke"
+      },
+      "nameKo": "올리브 유틸리티 재킷",
+      "description": {
+        "ko": "올리브 유틸리티 재킷 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Soft utility jacket with two chest pockets. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Weiche Utilityjacke mit zwei Brusttaschen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "그레이 티 위에 단추를 풀어 가볍게 걸치세요.",
+        "en": "Leave the buttons undone over the grey tee.",
+        "de": "Über dem grauen T-Shirt ungeknöpft tragen."
+      },
+      "image": "products/utility-jacket.webp",
+      "sha256": "a470415f8a3e6a56813971bc9f49b2c893abb36ec63fd9aafc5bfef3a4419145",
+      "bytes": 47600,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "03-tee",
+      "appItemId": "coastal-cool-m35-night-street-20261030-03.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "라이트 그레이 티셔츠",
+        "en": "Light grey T-shirt",
+        "de": "Hellgraues T-Shirt"
+      },
+      "nameKo": "라이트 그레이 티셔츠",
+      "description": {
+        "ko": "라이트 그레이 티셔츠 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain heather-grey short-sleeve jersey tee. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schlichtes hellgrau meliertes Kurzarm-Shirt aus Jersey. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "올리브 재킷의 안쪽을 밝게 받쳐 입으세요.",
+        "en": "Use it as a light layer beneath the olive jacket.",
+        "de": "Als helle Lage unter der olivgrünen Jacke tragen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "ed91006fcc2bb3585d9ed804c739e2c7b1170d904794165902e4fac763980fd1",
+      "bytes": 46570,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "03-jeans",
+      "appItemId": "coastal-cool-m35-night-street-20261030-03.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "워시드 블랙 진",
+        "en": "Washed black jeans",
+        "de": "Ausgewaschene schwarze Jeans"
+      },
+      "nameKo": "워시드 블랙 진",
+      "description": {
+        "ko": "워시드 블랙 진 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Relaxed straight jeans with lightly turned hems. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Locker gerade Jeans mit leicht umgeschlagenen Säumen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "스니커즈가 가려지지 않게 밑단을 얕게 접으세요.",
+        "en": "Turn the hems lightly so the sneakers remain visible.",
+        "de": "Die Säume leicht umschlagen, damit die Sneaker sichtbar bleiben."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "5a3bd6ea9e9e528ba97d756547e922740756b3a830ec1352d372a147ad0f8662",
+      "bytes": 36906,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-sneakers",
+      "appItemId": "coastal-cool-m35-night-street-20261030-03.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "오프화이트 캔버스 스니커즈",
+        "en": "Off-white canvas sneakers",
+        "de": "Offwhite-Canvas-Sneaker"
+      },
+      "nameKo": "오프화이트 캔버스 스니커즈",
+      "description": {
+        "ko": "오프화이트 캔버스 스니커즈 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Low canvas pair with thin reddish sole stripe. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Niedriges Canvas-Paar mit dünnem rötlichem Sohlenstreifen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "끈은 느슨하게 늘어뜨리지 말고 단정히 묶으세요.",
+        "en": "Tie the laces neatly without trailing ends.",
+        "de": "Die Schnürsenkel ordentlich binden, ohne lange lose Enden."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "e4a17b6f7bd3d9062ae6ffd09cdc5c48689335481edb9ab8852226e7a6ff9f3a",
+      "bytes": 47964,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tote",
+      "producerId": "03-tote",
+      "appItemId": "coastal-cool-m35-night-street-20261030-03.tote",
+      "appCategory": "bag",
+      "name": {
+        "ko": "러스트 오렌지 토트백",
+        "en": "Rust orange tote",
+        "de": "Rostorange Tote-Bag"
+      },
+      "nameKo": "러스트 오렌지 토트백",
+      "description": {
+        "ko": "러스트 오렌지 토트백 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain large canvas-look tote with long handles. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Große schlichte Tasche in Canvas-Optik mit langen Henkeln. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "어깨나 손에 들어 블랙 진 옆에 색을 더하세요.",
+        "en": "Carry by hand or shoulder to add color beside black jeans.",
+        "de": "In der Hand oder über der Schulter als Farbakzent zur schwarzen Jeans tragen."
+      },
+      "image": "products/tote.webp",
+      "sha256": "b1f5080d77093f5c868924a9526f79cda16338338ebe9af1c036eeeb198079b4",
+      "bytes": 44454,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}
