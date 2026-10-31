@@ -75,9 +75,9 @@
   /* showers (b194): rain for half of each 3.2s, then the sun comes out from behind the cloud until the next burst */
   .sh-rain, .rfx svg.rf-burst { animation: sh-rain 3.2s step-end infinite; }
   @keyframes sh-rain { 0% { visibility: visible; } 50% { visibility: hidden; } }
-  .sh-out { transform-origin: 198px 44px; animation: sh-out 3.2s ease-in-out infinite; }
-  @keyframes sh-out { 0%,45% { transform: translate(0,0) scale(1); } 58%,88% { transform: translate(8px,-10px) scale(1.25); } 100% { transform: translate(0,0) scale(1); } }
-  .sh-rays { transform-origin: 198px 44px; animation: art-spin 18s linear infinite; }
+  .sh-out { transform-origin: 198px 54px; animation: sh-out 3.2s ease-in-out infinite; }
+  @keyframes sh-out { 0%,45% { transform: translate(0,0) scale(1); } 58%,88% { transform: translate(8px,-8px) scale(1.18); } 100% { transform: translate(0,0) scale(1); } }
+  .sh-rays { transform-origin: 198px 54px; animation: art-spin 18s linear infinite; }
   .rf-s { opacity: 0; animation-timing-function: linear; animation-iteration-count: infinite; }
   .rf-ring { animation-name: rf-ring; } .rf-l { animation-name: rf-l; } .rf-r { animation-name: rf-r; } .rf-c { animation-name: rf-c; }
   @keyframes rf-ring { 0%,62% { opacity: 0; transform: scale(.2); } 63% { opacity: 1; transform: scale(.3); } 85% { opacity: 0; transform: scale(1.5); } 100% { opacity: 0; } }
@@ -634,7 +634,7 @@
 <script src="look/coastal-sunny-pleasant-male-day-running-20261029.js?v=b189"></script>
 <script src="look/coastal-sunny-pleasant-male-day-minimal-20261030.js?v=b190"></script>
 <script src="look/coastal-overcast-cool-female-night-street-20261030.js?v=b192"></script>
-<script src="look/cutouts.js?v=b194"></script>
+<script src="look/cutouts.js?v=b195"></script>
 <script src="look/coast-grid.js?v=b175"></script>
 <script src="look/global-context.js?v=b187"></script>
 <script>
@@ -864,7 +864,8 @@
   }
   // Shower drops (b194): two staggered sets under the clouds, all falling during the burst
   var SHOWER_AT = [[58, 126, 0], [98, 126, .25], [138, 126, .5], [200, 100, .15], [78, 132, .4], [118, 132, .1], [160, 130, .6], [218, 104, .35],
-    [68, 129, .3], [108, 129, .55], [148, 129, .05], [210, 103, .45], [88, 135, .7], [128, 135, .4], [170, 133, .1], [228, 107, .65]];
+    [68, 129, .3], [108, 129, .55], [148, 129, .05], [210, 103, .45], [88, 135, .7], [128, 135, .4], [170, 133, .1], [228, 107, .65],
+    [63, 132, .2], [93, 132, .6], [123, 130, .35], [143, 134, .75], [183, 129, .15], [205, 101, .55], [73, 136, .5], [113, 136, .05]];
   function showerTears() {
     return '<g class="sh-rain" fill="#8FB8DE">' + SHOWER_AT.map(function (d) {
       return '<path class="art-tear" style="animation-duration:.8s;animation-delay:' + d[2] + 's" d="' + tearPath(d[0], d[1], 4.6) + '"/>';
@@ -898,9 +899,9 @@
     // Showers (codes 80–82, b142, b194): teardrops in bursts; between bursts the sun (rays turning) comes out from behind the cloud
     shower: '<svg viewBox="0 0 240 170"><g class="sh-out"><path class="sh-rays" d="' + (function () {
         var d = "";
-        for (var i = 0; i < 8; i++) { var a = i * Math.PI / 4; d += "M" + (198 + 25 * Math.cos(a)).toFixed(1) + " " + (44 + 25 * Math.sin(a)).toFixed(1) + "L" + (198 + 33 * Math.cos(a)).toFixed(1) + " " + (44 + 33 * Math.sin(a)).toFixed(1); }
+        for (var i = 0; i < 8; i++) { var a = i * Math.PI / 4; d += "M" + (198 + 25 * Math.cos(a)).toFixed(1) + " " + (54 + 25 * Math.sin(a)).toFixed(1) + "L" + (198 + 33 * Math.cos(a)).toFixed(1) + " " + (54 + 33 * Math.sin(a)).toFixed(1); }
         return d;
-      })() + '" stroke="#E8621C" stroke-width="4.5" stroke-linecap="round"/><circle class="art-sun" style="transform-origin:198px 44px" cx="198" cy="44" r="20" fill="#E8621C"/></g>' +
+      })() + '" stroke="#E8621C" stroke-width="4.5" stroke-linecap="round"/><circle class="art-sun" style="transform-origin:198px 54px" cx="198" cy="54" r="20" fill="#E8621C"/></g>' +
       drift(4, .3, "#7A8896", 14, -4) + '<path d="M96 96h104a28 28 0 0 0 0-56 42 42 0 0 0-80 8 26 26 0 0 0-24 48z" fill="#7A8896"/>' + showerTears() +
       '<path class="art-bob" d="' + CLOUD + '" fill="#2F3842"/>' + drift(118, .28, "#6B7886", 12, -7) + "</svg>",
     // Drizzle (codes 51–57, b141): fine short lines over the whole width, small rain clouds drifting across
@@ -930,7 +931,10 @@
   // and resize; not with reduced motion (the art keeps its still teardrops then).
   var SPLASH = { light: { n: 5, t: 1.9, r: 3.6 }, normal: { n: 8, t: 1.5, r: 4.2 }, pouring: { n: 14, t: 1.05, r: 4.6 } };
   var SPLASH_AT = [[58, 126, 0], [118, 132, .43], [200, 100, .07], [98, 126, .13], [160, 130, .53], [78, 132, .3], [138, 126, .23], [218, 104, .37],
-    [68, 128, .2], [88, 134, .5], [108, 128, .03], [128, 134, .33], [150, 128, .6], [208, 102, .57]];
+    [68, 128, .2], [88, 134, .5], [108, 128, .03], [128, 134, .33], [150, 128, .6], [208, 102, .57],
+    [63, 131, .15], [93, 131, .45], [123, 129, .25], [143, 133, .7], [183, 128, .4], [223, 106, .2]];
+  // showers fall in short bursts, so more drops than steady rain of the same amount (b195)
+  var SHOWER_N = { light: 10, normal: 14, pouring: 20 };
   var splashLevel = null, splashBurst = false;
   function rainFx(level, burst) {
     if (level !== undefined) { splashLevel = level; splashBurst = !!burst; }
@@ -958,7 +962,7 @@
     svgArt.querySelectorAll(".art-tear").forEach(function (p) { p.style.display = "none"; });
     var cap = Math.min.apply(null, boxes.map(function (b) { return b.top; })), R = L.r, T = splashBurst ? +(L.t * .7).toFixed(2) : L.t, k = 0;
     var css = ".rf-s{animation-duration:" + T + "s}", svg = "";
-    SPLASH_AT.slice(0, L.n).forEach(function (d) {
+    SPLASH_AT.slice(0, splashBurst ? SHOWER_N[splashLevel] : L.n).forEach(function (d) {
       var x = ox + d[0], y0 = oy + d[1], dl = (d[2] * T).toFixed(2) + "s";
       var hit = boxes.filter(function (b) { return x >= b.l && x <= b.r; })[0], y1 = hit ? hit.top + 2 : cap - 6, fall = Math.round(y1 - y0 - 2 * R);
       css += "@keyframes rf" + k + "{0%{opacity:0;transform:translateY(-4px)}6%{opacity:1}62%{opacity:1;transform:translateY(" + fall + "px)}62.1%,100%{opacity:0;transform:translateY(" + fall + "px)}}";
@@ -1065,7 +1069,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b194";
+  var BUILD = "b195";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
