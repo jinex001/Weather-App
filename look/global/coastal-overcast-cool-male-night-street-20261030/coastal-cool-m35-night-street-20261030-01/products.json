@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-street-20261030-01",
+  "batchId": "coastal-overcast-cool-male-night-street-20261030",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": 16,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night urban stone lanes, pale stucco, secondary sea glimpse; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "authorized-autonomous-production",
+    "evidence": "User authorized production without individual approval; producer editorial/product QA only. Muse owns post-production.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "afe192f42623f2d1aace496582a7a90a8d8917e398a47340c3ed4583201fe35e",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-street-20261030-01",
+  "appStyle": "street",
+  "appModule": "look/coastal-overcast-cool-male-night-street-20261030.js",
+  "appHeroItem": "coastal-cool-m35-night-street-20261030-01.bomber",
+  "scenePropsNotProducts": [
+    "coffee cup/lid",
+    "flowers/kraftpaper",
+    "oranges",
+    "wineglass/wine",
+    "keys"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite items are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "checkedAt": "2026-10-30T21:28:09.494299+00:00",
+    "reviewedSheets": [
+      "01-white.jpg",
+      "02-white.jpg",
+      "03-white.jpg",
+      "04-white.jpg",
+      "05-white.jpg",
+      "01-black.jpg",
+      "02-black.jpg",
+      "03-black.jpg",
+      "04-black.jpg",
+      "05-black.jpg",
+      "01-grey.jpg",
+      "02-grey.jpg",
+      "03-grey.jpg",
+      "04-grey.jpg",
+      "05-grey.jpg",
+      "01-app.jpg",
+      "02-app.jpg",
+      "03-app.jpg",
+      "04-app.jpg",
+      "05-app.jpg"
+    ],
+    "checks": [
+      "All 23 whole products visible with clean alpha edges on four backgrounds",
+      "Per-look counts 4/5/5/5/4 verified",
+      "All footwear paired, bags empty, props omitted",
+      "05 dark watch dial, lightweight jersey top;01/05 unseen footwear omitted",
+      "04 wine v2 wardrobe used; original map archive-only"
+    ],
+    "uncertainty": "Hidden full garment forms, backs, footwear pairs and watch strap construction inferred; no retail/material identity claim."
+  },
+  "copy": {
+    "titleEn": "The lid has other plans",
+    "title": {
+      "ko": "뚜껑이 먼저 반응한 밤",
+      "en": "The lid has other plans",
+      "de": "Der Deckel hat andere Pläne"
+    },
+    "deck": {
+      "ko": "가벼운 레이어를 중심에",
+      "en": "Light layers lead",
+      "de": "Leichte Lagen geben den Ton an"
+    },
+    "intro": {
+      "ko": "컵 뚜껑을 다시 누르다 친구와 눈이 마주칩니다. 슬레이트 블루 봄버와 에크루 티, 차콜 카고가 항구 근처의 짧은 산책을 받쳐 줍니다.",
+      "en": "A coffee lid needs one more press, and a glance at a friend turns into a grin. Slate blue, ecru and charcoal keep the short walk near the harbor relaxed.",
+      "de": "Der Kaffeedeckel braucht noch einen Druck, und der Blick zu einem Freund wird zum Grinsen. Schieferblau, Ecru und Anthrazit begleiten den kurzen Weg am Hafen."
+    },
+    "pullQuoteEn": "Light layers lead",
+    "tip": {
+      "ko": "바람이 느껴지면 봄버 지퍼를 올리고, 걷다 더워지면 열어 조절하세요.",
+      "en": "Zip the bomber when the breeze picks up and open it as the walk warms you.",
+      "de": "Bei Wind die Bomberjacke schließen und beim Warmwerden wieder öffnen."
+    }
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "producerId": "01-bomber",
+      "appItemId": "coastal-cool-m35-night-street-20261030-01.bomber",
+      "appCategory": "outer",
+      "name": {
+        "ko": "슬레이트 블루 봄버",
+        "en": "Slate blue bomber",
+        "de": "Schieferblaue Bomberjacke"
+      },
+      "nameKo": "슬레이트 블루 봄버",
+      "description": {
+        "ko": "슬레이트 블루 봄버 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Zip bomber with dark rib trim. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Zip-Bomberjacke mit dunklen Rippbündchen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 에크루 톱과 차콜 팬츠를 연결하세요.",
+        "en": "Wear open over the ecru top and charcoal trousers.",
+        "de": "Offen über dem ecrufarbenen Top und der anthrazitfarbenen Hose tragen."
+      },
+      "image": "products/bomber.webp",
+      "sha256": "de1478691674dc6c72dfd131d47ccbcae867f389292d2be629e7f155f9ae6f59",
+      "bytes": 39744,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "01-tee",
+      "appItemId": "coastal-cool-m35-night-street-20261030-01.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 크루넥 티셔츠",
+        "en": "Ecru crewneck T-shirt",
+        "de": "Ecrufarbenes Rundhals-T-Shirt"
+      },
+      "nameKo": "에크루 크루넥 티셔츠",
+      "description": {
+        "ko": "에크루 크루넥 티셔츠 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Plain lightweight jersey T-shirt. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Schlichtes leichtes Jersey-T-Shirt. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "봄버 안에서 밝은 넥라인이 조금 드러나게 입으세요.",
+        "en": "Let the light neckline show beneath the bomber.",
+        "de": "Den hellen Ausschnitt unter der Bomberjacke hervorblitzen lassen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "59e81ecfff8db8ed675756592daa9152bc871315c602f589c8589ca4a9a3a534",
+      "bytes": 20578,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cargo-trousers",
+      "producerId": "01-cargo-trousers",
+      "appItemId": "coastal-cool-m35-night-street-20261030-01.cargo-trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "차콜 카고 트라우저",
+        "en": "Charcoal cargo trousers",
+        "de": "Anthrazitfarbene Cargohose"
+      },
+      "nameKo": "차콜 카고 트라우저",
+      "description": {
+        "ko": "차콜 카고 트라우저 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Relaxed trousers with thigh pockets. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Lockere Hose mit Oberschenkeltaschen. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "카고 포켓이 눌리지 않도록 가방을 허리 위에 두세요.",
+        "en": "Keep the bag above the waist so the cargo pockets stay clear.",
+        "de": "Die Tasche oberhalb der Taille tragen, damit die Cargotaschen frei bleiben."
+      },
+      "image": "products/cargo-trousers.webp",
+      "sha256": "d25c2513d81ae40e06e5043953662f27c356648455154319506f34c8d926318a",
+      "bytes": 28724,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody",
+      "producerId": "01-crossbody",
+      "appItemId": "coastal-cool-m35-night-street-20261030-01.crossbody",
+      "appCategory": "bag",
+      "name": {
+        "ko": "블랙 크로스바디백",
+        "en": "Black crossbody bag",
+        "de": "Schwarze Umhängetasche"
+      },
+      "nameKo": "블랙 크로스바디백",
+      "description": {
+        "ko": "블랙 크로스바디백 스타일의 독립 제품 이미지. 가려진 부분은 추정 복원이며 실제 브랜드와 소재 혼용률은 확인되지 않았습니다.",
+        "en": "Nylon-look zip pouch with broad strap. Hidden parts are inferred; brand and fibre composition unknown.",
+        "de": "Nylonartige Reißverschlusstasche mit breitem Gurt. Verdeckte Teile sind ergänzt; Marke und Faserzusammensetzung unbekannt."
+      },
+      "howToWear": {
+        "ko": "넓은 스트랩을 짧게 조절해 가슴 옆에 붙이세요.",
+        "en": "Shorten the broad strap so the pouch rests beside the chest.",
+        "de": "Den breiten Gurt kurz einstellen, sodass die Tasche seitlich an der Brust liegt."
+      },
+      "image": "products/crossbody.webp",
+      "sha256": "29d06b5d07025a902da33f1c98f7efafed1bfa465e4a10e971effd6f6c5122be",
+      "bytes": 31794,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Final selectededitorial directlyreviewed; hidden/fullparts reconstructed. ",
+      "reconstructionNote": "가려진 전체형태·소매·다리·뒷면·밑창·짝·워치 스트랩/버클은 추정 복원. 브랜드·실제 소재혼용률 미확인.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ]
+}
