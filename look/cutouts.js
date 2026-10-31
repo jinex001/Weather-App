@@ -1093,7 +1093,13 @@
     "coastal-cool-f35-day-minimal-20261028-05.zip-jacket": [
         "look/global/coastal-overcast-cool-female-day-minimal-20261028/coastal-cool-f35-day-minimal-20261028-05/products/zip-jacket.webp",
         null
-    ]
+    ],
+
+"coastal-cool-m35-night-street-20261030-01.bomber": ["look/global/coastal-overcast-cool-male-night-street-20261030/coastal-cool-m35-night-street-20261030-01/products/bomber.webp", 0.311],
+"coastal-cool-m35-night-street-20261030-02.overshirt": ["look/global/coastal-overcast-cool-male-night-street-20261030/coastal-cool-m35-night-street-20261030-02/products/overshirt.webp", 0.226],
+"coastal-cool-m35-night-street-20261030-03.tote": ["look/global/coastal-overcast-cool-male-night-street-20261030/coastal-cool-m35-night-street-20261030-03/products/tote.webp", 0.342],
+"coastal-cool-m35-night-street-20261030-04.track-jacket": ["look/global/coastal-overcast-cool-male-night-street-20261030/coastal-cool-m35-night-street-20261030-04/products/track-jacket.webp", 0.213],
+"coastal-cool-m35-night-street-20261030-05.bomber": ["look/global/coastal-overcast-cool-male-night-street-20261030/coastal-cool-m35-night-street-20261030-05/products/bomber.webp", 0.247]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1401,7 +1407,12 @@
     "coastal-cool-f35-day-minimal-20261028-02": "coastal-cool-f35-day-minimal-20261028-02.trench-jacket",
     "coastal-cool-f35-day-minimal-20261028-03": "coastal-cool-f35-day-minimal-20261028-03.collarless-jacket",
     "coastal-cool-f35-day-minimal-20261028-04": "coastal-cool-f35-day-minimal-20261028-04.blazer",
-    "coastal-cool-f35-day-minimal-20261028-05": "coastal-cool-f35-day-minimal-20261028-05.zip-jacket"
+    "coastal-cool-f35-day-minimal-20261028-05": "coastal-cool-f35-day-minimal-20261028-05.zip-jacket",
+"coastal-cool-m35-night-street-20261030-01": "coastal-cool-m35-night-street-20261030-01.bomber",
+"coastal-cool-m35-night-street-20261030-02": "coastal-cool-m35-night-street-20261030-02.overshirt",
+"coastal-cool-m35-night-street-20261030-03": "coastal-cool-m35-night-street-20261030-03.tote",
+"coastal-cool-m35-night-street-20261030-04": "coastal-cool-m35-night-street-20261030-04.track-jacket",
+"coastal-cool-m35-night-street-20261030-05": "coastal-cool-m35-night-street-20261030-05.bomber"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });
