@@ -109,6 +109,9 @@
   /* partly cloudy (b198): the small clouds never leave the screen together, see ART.sunCloudy */
   .pc-drift { animation: pc-drift 38s linear infinite; }
   @keyframes pc-drift { 0% { opacity: 0; transform: translateX(-20px); } 8%, 92% { opacity: 1; } 100% { opacity: 0; transform: translateX(210px); } }
+  /* clear night (b199): the crescent rocks ±14° in place, 5s */
+  .moon-rock { transform-origin: 124px 88px; animation: moon-rock 5s ease-in-out infinite; }
+  @keyframes moon-rock { 0%,100% { transform: rotate(-14deg); } 50% { transform: rotate(14deg); } }
   .art-star { animation: art-tw 2.4s ease-in-out infinite; }
   @keyframes art-tw { 0%,100% { opacity: 1; } 50% { opacity: .2; } }
   .art-fog { animation: art-fog 7s ease-in-out infinite alternate; }
@@ -637,7 +640,7 @@
 <script src="look/coastal-sunny-pleasant-male-day-running-20261029.js?v=b189"></script>
 <script src="look/coastal-sunny-pleasant-male-day-minimal-20261030.js?v=b190"></script>
 <script src="look/coastal-overcast-cool-female-night-street-20261030.js?v=b192"></script>
-<script src="look/coastal-overcast-cool-male-night-street-20261030.js?v=b196"></script> <script src="look/cutouts.js?v=b198"></script>
+<script src="look/coastal-overcast-cool-male-night-street-20261030.js?v=b196"></script> <script src="look/cutouts.js?v=b199"></script>
 <script src="look/coast-grid.js?v=b175"></script>
 <script src="look/global-context.js?v=b187"></script>
 <script>
@@ -892,7 +895,8 @@
     sunCloudy: '<svg viewBox="0 0 240 170"><circle class="art-sun" cx="120" cy="80" r="56" fill="#E8621C"/>' +
       '<g class="pc-drift"><path transform="translate(0 84) scale(.46)" d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFFFFF"/></g>' +
       '<g class="pc-drift" style="animation-delay:-19s"><path transform="translate(0 10) scale(.3)" d="M44 150h122a30 30 0 0 0 0-60 44 44 0 0 0-84 10 28 28 0 0 0-38 50z" fill="#FFFFFF"/></g></svg>',
-    night: '<svg viewBox="0 0 240 170"><circle cx="124" cy="88" r="62" fill="#F4E9C8"/><circle cx="152" cy="68" r="54" fill="#1B2140"/><g fill="#F4E9C8">' +
+    // Clear night (b199): the crescent rocks gently in place (both circles turn together around the moon's centre)
+    night: '<svg viewBox="0 0 240 170"><g class="moon-rock"><circle cx="124" cy="88" r="62" fill="#F4E9C8"/><circle cx="152" cy="68" r="54" fill="#1B2140"/></g><g fill="#F4E9C8">' +
       '<circle class="art-star" cx="40" cy="40" r="3"/><circle class="art-star" style="animation-delay:.8s" cx="206" cy="132" r="2.5"/>' +
       '<circle class="art-star" style="animation-delay:1.6s" cx="198" cy="26" r="2"/><circle class="art-star" style="animation-delay:.4s" cx="30" cy="140" r="2"/>' +
       '<circle class="art-star" style="animation-delay:1.2s" cx="72" cy="12" r="1.8"/></g></svg>',
@@ -1075,7 +1079,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b198";
+  var BUILD = "b199";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
