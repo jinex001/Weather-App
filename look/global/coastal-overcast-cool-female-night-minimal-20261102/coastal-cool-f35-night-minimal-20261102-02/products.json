@@ -1,0 +1,321 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-minimal-20261102-02",
+  "batchId": "coastal-overcast-cool-female-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night stone lanes, bakery/café fronts and pale stucco doorways under warm street lamps; no rain depicted (reflective paving is not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials (01 v2, 02, 03, 04 v2, 05 v2) and the full automation (2026-11-02, Claude Code publication). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "68c7264cfb473401c151843c0605f3cf238dec32a278d6e395ecd76f37cc9ab6",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-minimal-20261102-02",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-minimal-20261102-02.zip-jacket",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and the opposite shoe/earring are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-02T20:57:05.279214+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-02-overview.jpg"
+    ],
+    "findings": "All 25 products viewed on all four backgrounds. Full silhouettes, no baked opaque rectangles, no visible edge halos or clipping. Clothing/shoe colors and construction agree with approved editorials; hidden areas conservatively reconstructed as documented. Shoe pairs top-down and aligned. No scene props included."
+  },
+  "copy": {
+    "titleEn": "FIRST, THE SHOELACE",
+    "title": {
+      "ko": "잠깐, 신발 끈부터",
+      "en": "First, the shoelace",
+      "de": "Erst die Schnürsenkel"
+    },
+    "deck": {
+      "ko": "네이비 두 겹 사이로 아이보리가 밝게 드러납니다.",
+      "en": "Ivory brightens the space between two navy layers.",
+      "de": "Elfenbein hellt die beiden marineblauen Lagen auf."
+    },
+    "intro": {
+      "ko": "한쪽 무릎을 굽혀 끈을 묶는 순간에도 네이비와 아이보리의 대비는 선명합니다.",
+      "en": "The navy-and-ivory contrast stays clear even during a pause to tie a lace.",
+      "de": "Auch beim kurzen Halt zum Schuhe binden bleibt der Kontrast klar."
+    },
+    "body": {
+      "ko": "칼라 없는 집업 재킷과 스트레이트 팬츠를 네이비로 연결했습니다. 열린 지퍼 사이와 소매 끝으로 밝은 롱슬리브가 보이고, 같은 톤 스니커즈가 발끝을 받칩니다. 목 주변 장식은 작은 후프만 남겨 동작과 표정이 먼저 읽히게 했습니다. 간단한 색 조합이 생활의 움직임 속에서 힘을 냅니다.",
+      "en": "A collarless zip jacket and straight trousers form a continuous navy line. The light long-sleeve top appears through the open zip and at the cuffs, echoed by the tonal sneakers. Small hoops are the only jewelry, leaving room for the movement and smile. A simple palette works through an ordinary moment.",
+      "de": "Kragenlose Zipjacke und gerade Hose bilden eine durchgehende marineblaue Linie. Das helle Langarmshirt zeigt sich am offenen Reißverschluss und an den Bündchen; die gleichfarbigen Sneaker greifen es auf. Kleine Creolen bleiben der einzige Schmuck, damit Bewegung und Lächeln im Mittelpunkt stehen. Eine einfache Farbpalette trägt den alltäglichen Moment."
+    },
+    "pull": {
+      "ko": "네이비를 잇고, 아이보리로 숨을 틔우기.",
+      "en": "Connect the navy; give it room with ivory.",
+      "de": "Marineblau verbinden, mit Elfenbein auflockern."
+    },
+    "pullQuoteEn": "Connect the navy; give it room with ivory.",
+    "tip": {
+      "ko": "재킷 소매 아래 밝은 이너를 조금 드러내세요.",
+      "en": "Show a little light cuff below the jacket sleeve.",
+      "de": "Etwas helles Bündchen unter dem Jackenärmel zeigen."
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "02-01-outer",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-02.zip-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "네이비 칼라리스 집업",
+        "en": "Navy collarless zip jacket",
+        "de": "Marineblaue kragenlose Zipjacke"
+      },
+      "nameKo": "네이비 칼라리스 집업",
+      "description": {
+        "ko": "칼라 없는 둥근 목선과 앞 지퍼.",
+        "en": "Collarless round neckline and front zip.",
+        "de": "Kragenloser runder Ausschnitt und Frontreißverschluss."
+      },
+      "howToWear": {
+        "ko": "지퍼를 열어 아이보리 이너가 세로로 드러나게 입어보세요.",
+        "en": "Leave the zip open to reveal a vertical strip of the ivory layer.",
+        "de": "Den Reißverschluss offen lassen, damit das elfenbeinfarbene Oberteil als helle Linie sichtbar wird."
+      },
+      "image": "products/zip-jacket.webp",
+      "sha256": "3a80e291705a90c51f795db0ea41dd2946dd882b7fef1fa9e0e4ec3a2fc08b2c",
+      "bytes": 37660,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-sleeve-top",
+      "producerId": "02-02-top",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-02.long-sleeve-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "아이보리 롱슬리브",
+        "en": "Ivory long-sleeve top",
+        "de": "Elfenbeinfarbenes Langarmshirt"
+      },
+      "nameKo": "아이보리 롱슬리브",
+      "description": {
+        "ko": "밝은 아이보리색 긴소매와 둥근 목선.",
+        "en": "Light ivory long sleeves and round neckline.",
+        "de": "Helle elfenbeinfarbene lange Ärmel und runder Ausschnitt."
+      },
+      "howToWear": {
+        "ko": "소매 끝을 재킷 아래 조금 보여 네이비 착장의 경계를 부드럽게 만드세요.",
+        "en": "Show a little cuff below the jacket to soften the navy layers.",
+        "de": "Ein wenig Ärmel unter der Jacke hervorblitzen lassen, um das Marineblau aufzulockern."
+      },
+      "image": "products/long-sleeve-top.webp",
+      "sha256": "959d3978d1a10b2677a336cedda49e74d2690344d15132d89a5f5091ff203a7d",
+      "bytes": 36388,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "02-03-bottom",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-02.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "네이비 스트레이트 팬츠",
+        "en": "Navy straight trousers",
+        "de": "Marineblaue gerade Hose"
+      },
+      "nameKo": "네이비 스트레이트 팬츠",
+      "description": {
+        "ko": "짙은 네이비색과 곧게 떨어지는 다리선.",
+        "en": "Deep navy color and straight legs.",
+        "de": "Dunkles Marineblau und gerade Beine."
+      },
+      "howToWear": {
+        "ko": "재킷과 비슷한 네이비를 이어 입고 밝은 신발로 끝을 정리하세요.",
+        "en": "Continue the jacket's navy tone and finish with the light sneakers.",
+        "de": "Den Marineblauton der Jacke fortführen und mit hellen Sneakern abschließen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "c71ec44f1771b470ab57b9465c62955806d6f6e520be810ff7b3a817f131740e",
+      "bytes": 25832,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "02-04-shoes",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-02.sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "아이보리 로우탑 스니커즈",
+        "en": "Ivory low-top sneakers",
+        "de": "Elfenbeinfarbene Low-Top-Sneaker"
+      },
+      "nameKo": "아이보리 로우탑 스니커즈",
+      "description": {
+        "ko": "아이보리색 끈과 낮은 밑창.",
+        "en": "Ivory laces and low tonal soles.",
+        "de": "Elfenbeinfarbene Schnürsenkel und flache farbgleiche Sohlen."
+      },
+      "howToWear": {
+        "ko": "끈과 신발의 밝은 톤을 맞추면 짙은 팬츠 아래가 깔끔해집니다.",
+        "en": "Keep laces and uppers tonal for a clean finish below the dark trousers.",
+        "de": "Schnürsenkel und Obermaterial Ton in Ton halten, damit der Abschluss unter der dunklen Hose ruhig wirkt."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "2e245c907195667ccbb3318f850275e2389eb269efa8c126c1aaae5fcb77f67c",
+      "bytes": 43422,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoops",
+      "producerId": "02-05-jewelry",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-02.hoops",
+      "appCategory": "jewelry",
+      "name": {
+        "ko": "미니 골드 후프 귀걸이",
+        "en": "Mini gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "nameKo": "미니 골드 후프 귀걸이",
+      "description": {
+        "ko": "작고 가는 금빛 후프 한 쌍.",
+        "en": "A pair of small thin gold-tone hoops.",
+        "de": "Ein Paar kleine schmale goldfarbene Creolen."
+      },
+      "howToWear": {
+        "ko": "목걸이를 더하지 않고 작은 후프로 밝은 이너와 얼굴 사이를 연결하세요.",
+        "en": "Use small hoops to connect the bright neckline and face without adding a necklace.",
+        "de": "Mit kleinen Creolen den hellen Ausschnitt und das Gesicht verbinden, ohne eine Kette hinzuzufügen."
+      },
+      "image": "products/hoops.webp",
+      "sha256": "667e94e61f76392a3f3fbaf2ef92ea4aee39ea8d84c6fd780d4b663f941e1a0d",
+      "bytes": 30974,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b202"
+}

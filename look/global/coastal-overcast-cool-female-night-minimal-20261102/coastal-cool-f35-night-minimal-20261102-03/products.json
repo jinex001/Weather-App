@@ -1,0 +1,363 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-minimal-20261102-03",
+  "batchId": "coastal-overcast-cool-female-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night stone lanes, bakery/café fronts and pale stucco doorways under warm street lamps; no rain depicted (reflective paving is not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials (01 v2, 02, 03, 04 v2, 05 v2) and the full automation (2026-11-02, Claude Code publication). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "673add3619c383f7c2961f356c9aa80fc16ed351a6c293b04dcba284024af353",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-minimal-20261102-03",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-minimal-20261102-03.cardigan",
+  "scenePropsNotProducts": [
+    "receipt"
+  ],
+  "reconstructionNotice": "Only the lace edge of the camisole shows inside the cardigan, so its body is a conservative reconstruction. Hidden backs, soles and the opposite shoe/earring are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-02T20:57:05.279214+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-03-overview.jpg"
+    ],
+    "findings": "All 25 products viewed on all four backgrounds. Full silhouettes, no baked opaque rectangles, no visible edge halos or clipping. Clothing/shoe colors and construction agree with approved editorials; hidden areas conservatively reconstructed as documented. Shoe pairs top-down and aligned. No scene props included."
+  },
+  "copy": {
+    "titleEn": "A MOMENT FOR THE RECEIPT",
+    "title": {
+      "ko": "영수증을 챙기는 사이",
+      "en": "A moment for the receipt",
+      "de": "Ein Moment für den Beleg"
+    },
+    "deck": {
+      "ko": "크림 니트, 토프 스커트, 짙은 갈색 가방의 부드러운 연결.",
+      "en": "Cream knit, a taupe skirt and a deep brown bag fall into place.",
+      "de": "Cremestrick, Tauperock und dunkelbraune Tasche finden zusammen."
+    },
+    "intro": {
+      "ko": "가방에서 작은 종이를 정리하는 순간, 단추와 주름과 스트랩이 하나의 리듬을 만듭니다.",
+      "en": "While a little slip of paper is put away, buttons, folds and strap form their own rhythm.",
+      "de": "Beim Verstauen eines kleinen Zettels bilden Knöpfe, Falten und Riemen einen eigenen Rhythmus."
+    },
+    "body": {
+      "ko": "크림 카디건은 가운데를 여며 허리선을 잡고, 안쪽에는 레이스 캐미솔 가장자리를 살짝 남겼습니다. 토프 미디 스커트의 흐르는 선은 검정 슬링백에서 마무리됩니다. 짙은 갈색 가방과 둥근 후프가 밝은 상의에 깊이를 더합니다. 톤은 차분하지만 소재의 표정과 손동작은 충분히 살아 있습니다.",
+      "en": "The cream cardigan closes at the middle to define the waist, leaving a hint of the lace camisole inside. The flowing taupe midi line ends at black slingbacks. A deep brown shoulder bag and rounded hoops give the pale top some depth. The colors stay quiet while texture and movement keep the scene alive.",
+      "de": "Der cremefarbene Cardigan ist in der Mitte geschlossen und formt die Taille; innen bleibt etwas Spitze des Tops sichtbar. Die fließende Linie des taupefarbenen Midirocks endet an schwarzen Slingbacks. Eine dunkelbraune Schultertasche und rundliche Creolen geben dem hellen Oberteil Tiefe. Die Farben bleiben ruhig, während Textur und Bewegung die Szene beleben."
+    },
+    "pull": {
+      "ko": "부드러운 색 안에도 분명한 윤곽.",
+      "en": "Soft colors, a clear outline.",
+      "de": "Weiche Farben, klare Konturen."
+    },
+    "pullQuoteEn": "Soft colors, a clear outline.",
+    "tip": {
+      "ko": "가방은 옆으로 내려 스커트의 주름을 가리지 않게 하세요.",
+      "en": "Keep the bag at your side so the skirt folds remain visible.",
+      "de": "Die Tasche seitlich tragen, damit die Rockfalten sichtbar bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "cardigan",
+      "producerId": "03-01-outer",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-03.cardigan",
+      "appCategory": "outer",
+      "name": {
+        "ko": "크림 버튼 카디건",
+        "en": "Cream button cardigan",
+        "de": "Cremefarbener Cardigan"
+      },
+      "nameKo": "크림 버튼 카디건",
+      "description": {
+        "ko": "브이넥과 작은 밝은 단추.",
+        "en": "V neckline and small pale buttons.",
+        "de": "V-Ausschnitt und kleine helle Knöpfe."
+      },
+      "howToWear": {
+        "ko": "가운데 단추를 여며 허리선을 잡고 레이스 이너를 조금 드러내세요.",
+        "en": "Fasten the middle buttons to shape the waist and show a hint of the lace layer.",
+        "de": "Die mittleren Knöpfe schließen, um die Taille zu formen und etwas Spitze sichtbar zu lassen."
+      },
+      "image": "products/cardigan.webp",
+      "sha256": "0247f80ade6dbf0b7c67f9170ef07721b32ff2b6d16b9e9b24df6e095976cd06",
+      "bytes": 44806,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "camisole",
+      "producerId": "03-02-top",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-03.camisole",
+      "appCategory": "top",
+      "name": {
+        "ko": "아이보리 레이스 캐미솔",
+        "en": "Ivory lace camisole",
+        "de": "Elfenbeinfarbenes Spitzentop"
+      },
+      "nameKo": "아이보리 레이스 캐미솔",
+      "description": {
+        "ko": "가는 어깨끈과 레이스 목선.",
+        "en": "Thin shoulder straps and lace neckline.",
+        "de": "Schmale Träger und Spitzenausschnitt."
+      },
+      "howToWear": {
+        "ko": "카디건의 브이넥 안쪽에 레이스 가장자리만 살짝 보이게 겹쳐 입으세요.",
+        "en": "Let just the lace edge appear inside the cardigan's V neckline.",
+        "de": "Nur den Spitzenrand im V-Ausschnitt des Cardigans hervorblitzen lassen."
+      },
+      "image": "products/camisole.webp",
+      "sha256": "941b8b5b931ee915e9c73efb2fd1f4a9249fb54664f802fd9e4528cb0bc699b9",
+      "bytes": 33480,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "midi-skirt",
+      "producerId": "03-03-bottom",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-03.midi-skirt",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "토프 드레이프 미디 스커트",
+        "en": "Taupe draped midi skirt",
+        "de": "Taupefarbener Midirock"
+      },
+      "nameKo": "토프 드레이프 미디 스커트",
+      "description": {
+        "ko": "부드러운 주름과 미디 길이.",
+        "en": "Soft drape and midi length.",
+        "de": "Weicher Fall und Midilänge."
+      },
+      "howToWear": {
+        "ko": "크림 상의와 이어지는 부드러운 색을 유지하고 검정 슬링백으로 윤곽을 잡으세요.",
+        "en": "Keep the soft cream-to-taupe palette and anchor it with black slingbacks.",
+        "de": "Die weiche Creme-Taupe-Palette beibehalten und mit schwarzen Slingbacks einen klaren Abschluss setzen."
+      },
+      "image": "products/midi-skirt.webp",
+      "sha256": "d5b6536f57bd44f9d2ad0c1a285a0feb1cc30403381aa36f7ffe9d644ec019d2",
+      "bytes": 34892,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "slingbacks",
+      "producerId": "03-04-shoes",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-03.slingbacks",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 로우힐 슬링백",
+        "en": "Black low-heel slingbacks",
+        "de": "Schwarze Slingbacks mit niedrigem Absatz"
+      },
+      "nameKo": "블랙 로우힐 슬링백",
+      "description": {
+        "ko": "뒤꿈치 스트랩과 낮은 굽.",
+        "en": "Heel straps and low heels.",
+        "de": "Fersenriemen und niedrige Absätze."
+      },
+      "howToWear": {
+        "ko": "미디 스커트 아래 뒤꿈치 스트랩이 보이도록 밑단과 간격을 두세요.",
+        "en": "Leave space below the midi hem so the heel strap remains visible.",
+        "de": "Unter dem Midisaum etwas Abstand lassen, damit der Fersenriemen sichtbar bleibt."
+      },
+      "image": "products/slingbacks.webp",
+      "sha256": "9799e6abed68eb6ad75b1918a3bd215763e2520d126e2e248f39df773dbedda3",
+      "bytes": 45168,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "03-05-bag",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-03.shoulder-bag",
+      "appCategory": "bag",
+      "name": {
+        "ko": "다크 브라운 숄더백",
+        "en": "Dark brown shoulder bag",
+        "de": "Dunkelbraune Schultertasche"
+      },
+      "nameKo": "다크 브라운 숄더백",
+      "description": {
+        "ko": "짙은 갈색 몸판과 작은 금빛 버클.",
+        "en": "Dark brown body and small gold-tone buckle.",
+        "de": "Dunkelbrauner Taschenkörper und kleine goldfarbene Schnalle."
+      },
+      "howToWear": {
+        "ko": "가방을 몸 옆에 붙여 스커트의 흐르는 주름을 가리지 않게 하세요.",
+        "en": "Keep the bag at the side so it does not hide the skirt's drape.",
+        "de": "Die Tasche seitlich tragen, damit sie den fließenden Fall des Rocks nicht verdeckt."
+      },
+      "image": "products/shoulder-bag.webp",
+      "sha256": "c69a3ef0f4b79fd8e59c12f98646ae6b7f34f1da14a2674144deaddfb687621c",
+      "bytes": 38490,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoops",
+      "producerId": "03-06-jewelry",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-03.hoops",
+      "appCategory": "jewelry",
+      "name": {
+        "ko": "볼륨 골드 후프 귀걸이",
+        "en": "Rounded gold-tone hoops",
+        "de": "Rundliche goldfarbene Creolen"
+      },
+      "nameKo": "볼륨 골드 후프 귀걸이",
+      "description": {
+        "ko": "둥근 볼륨이 있는 금빛 후프.",
+        "en": "Rounded gold-tone hoops.",
+        "de": "Rundliche goldfarbene Creolen."
+      },
+      "howToWear": {
+        "ko": "머리를 낮게 묶어 둥근 후프와 카디건의 부드러운 선을 드러내세요.",
+        "en": "Tie the hair low to reveal the rounded hoops beside the soft cardigan lines.",
+        "de": "Die Haare tief zusammenbinden, damit die runden Creolen neben den weichen Cardiganlinien sichtbar werden."
+      },
+      "image": "products/hoops.webp",
+      "sha256": "bb8a3101ace7df9ede8d754cc59b26b12f89698d4fa5b81c33e72a16fb7451c1",
+      "bytes": 24674,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b202"
+}

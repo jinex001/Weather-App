@@ -251,3 +251,8 @@ First coastal female street evening set: cloudy · cool · female · evening · 
 ## b201 · Overcast Cool male evening minimal · 2026-11-02
 
 New cell cloudy · cool · male · evening · minimal: 5 user-approved editorials and 20 transparent products (3/4/5/5/3). Reviewed warm-coastal-urban, no rain, humidity unknown, storage 35+, model look 28–32. In coastal locations after sunset, dry chilly/cool/pleasant male minimal now draws from these 5 instead of the daytime fallback; rain stays COMING SOON and dry warm evenings show COMING SOON (existing evening-only rule, as in b192). Berlin and unknown regions unchanged. [Validation](coastal-overcast-cool-male-night-minimal-20261102-validation.md).
+
+
+## b202 · Overcast Cool female evening minimal · 2026-11-02
+
+New cell cloudy · cool · female · evening · minimal: 5 user-approved editorials and 25 transparent products (6/5/6/4/4). Reviewed warm-coastal-urban, no rain, humidity unknown, storage 35+, model look 25–28, audience 30–44. In coastal locations after sunset, dry chilly/cool/pleasant female minimal now draws from these 5 instead of the daytime fallback; rain stays COMING SOON and dry warm evenings show COMING SOON (existing evening-only rule, as in b192/b201). Berlin and unknown regions unchanged. [Validation](coastal-overcast-cool-female-night-minimal-20261102-validation.md).

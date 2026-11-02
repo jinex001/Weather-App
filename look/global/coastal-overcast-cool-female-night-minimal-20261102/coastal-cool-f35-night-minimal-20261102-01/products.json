@@ -1,0 +1,363 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-minimal-20261102-01",
+  "batchId": "coastal-overcast-cool-female-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night stone lanes, bakery/café fronts and pale stucco doorways under warm street lamps; no rain depicted (reflective paving is not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials (01 v2, 02, 03, 04 v2, 05 v2) and the full automation (2026-11-02, Claude Code publication). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "584a521df9197c396c116bea52d4136a8cc21bddae92504d60ee37c317dac764",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-minimal-20261102-01",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-minimal-20261102-01.trench",
+  "scenePropsNotProducts": [
+    "bread and paper bread bag"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and the opposite shoe/earring are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-02T20:57:05.279214+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-01-overview.jpg"
+    ],
+    "findings": "All 25 products viewed on all four backgrounds. Full silhouettes, no baked opaque rectangles, no visible edge halos or clipping. Clothing/shoe colors and construction agree with approved editorials; hidden areas conservatively reconstructed as documented. Shoe pairs top-down and aligned. No scene props included."
+  },
+  "copy": {
+    "titleEn": "HOLDING ON TO THE BREAD BAG",
+    "title": {
+      "ko": "빵 봉투를 붙잡은 밤",
+      "en": "Holding on to the bread bag",
+      "de": "Die Brottüte fest im Griff"
+    },
+    "deck": {
+      "ko": "짧은 회색 재킷과 길게 이어지는 검정 실루엣.",
+      "en": "A short gray jacket above a long black silhouette.",
+      "de": "Eine kurze graue Jacke über einer langen schwarzen Silhouette."
+    },
+    "intro": {
+      "ko": "빵집 앞에서 봉투를 여미는 작은 동작이 단정한 착장에 표정을 만듭니다.",
+      "en": "A small movement outside the bakery gives this clean outfit its expression.",
+      "de": "Eine kleine Bewegung vor der Bäckerei gibt dem klaren Outfit seinen Ausdruck."
+    },
+    "body": {
+      "ko": "스톤 톤 쇼트 트렌치 아래 검정 크루넥과 스트레이트 팬츠를 이어 입었습니다. 재킷의 짧은 길이와 팬츠의 긴 선이 만나 전신 비율이 또렷합니다. 리본 발레 플랫과 작은 숄더백은 같은 검정으로 정리하고, 귀 옆 후프만 은은하게 빛나게 했습니다. 밤 산책에 가볍게 겹쳐 입는 방식입니다.",
+      "en": "The stone short trench sits over a black crewneck and straight trousers. Its cropped length contrasts with the long trouser line, making the full silhouette easy to read. Bow ballet flats and a small shoulder bag repeat the black, while little hoops add a quiet glint beside the face. Light layers keep the look relaxed for a night walk.",
+      "de": "Der kurze steingraue Trench liegt über schwarzem Rundhalspullover und gerader Hose. Seine kurze Länge steht im Kontrast zur langen Hosenlinie und macht die ganze Silhouette lesbar. Ballerinas mit Schleife und eine kleine Schultertasche greifen das Schwarz auf; kleine Creolen setzen einen ruhigen Glanz neben dem Gesicht. Leichte Lagen passen zum entspannten Abendspaziergang."
+    },
+    "pull": {
+      "ko": "짧은 재킷 아래 길게 이어지는 검정.",
+      "en": "A short jacket, one long line of black.",
+      "de": "Kurze Jacke, eine lange schwarze Linie."
+    },
+    "pullQuoteEn": "A short jacket, one long line of black.",
+    "tip": {
+      "ko": "가방 끈은 짧게, 팬츠 밑단은 앞코가 보이게 맞추세요.",
+      "en": "Keep the bag strap short and let the shoe toes show beneath the trousers.",
+      "de": "Den Taschenriemen kurz halten und die Schuhkappen unter dem Hosensaum sichtbar lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "trench",
+      "producerId": "01-01-outer",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-01.trench",
+      "appCategory": "outer",
+      "name": {
+        "ko": "스톤 쇼트 트렌치",
+        "en": "Stone short trench",
+        "de": "Kurzer Trench in Steingrau"
+      },
+      "nameKo": "스톤 쇼트 트렌치",
+      "description": {
+        "ko": "짧은 길이, 라펠과 짙은 단추, 소매 탭.",
+        "en": "Short length, lapels, dark buttons and cuff tabs.",
+        "de": "Kurze Länge, Revers, dunkle Knöpfe und Ärmelriegel."
+      },
+      "howToWear": {
+        "ko": "검정 니트 위에 열어 입어 짧은 재킷과 긴 팬츠의 대비를 살려보세요.",
+        "en": "Wear it open over the black knit to contrast the short jacket with long trousers.",
+        "de": "Offen über dem schwarzen Strick tragen, damit kurze Jacke und lange Hose einen klaren Kontrast bilden."
+      },
+      "image": "products/trench.webp",
+      "sha256": "dbde2847566147b508c3150e9af16733ec2447c221246c86df97db908954f074",
+      "bytes": 44544,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sweater",
+      "producerId": "01-02-top",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-01.sweater",
+      "appCategory": "top",
+      "name": {
+        "ko": "블랙 크루넥 니트",
+        "en": "Black crewneck knit",
+        "de": "Schwarzer Rundhalspullover"
+      },
+      "nameKo": "블랙 크루넥 니트",
+      "description": {
+        "ko": "둥근 목선과 잔잔한 니트 표면.",
+        "en": "Round neckline and a fine knit surface.",
+        "de": "Runder Ausschnitt und feine Strickstruktur."
+      },
+      "howToWear": {
+        "ko": "밑단을 팬츠 안으로 정리하면 회색 재킷 아래 허리선이 또렷해집니다.",
+        "en": "Tuck the hem into the trousers to define the waist beneath the gray jacket.",
+        "de": "Den Saum in die Hose stecken, um unter der grauen Jacke die Taille zu betonen."
+      },
+      "image": "products/sweater.webp",
+      "sha256": "14f570b302ce53547de9f1efd05b4c3117d2745680ebf9bd4dda5606c664466d",
+      "bytes": 39206,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "01-03-bottom",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-01.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 스트레이트 팬츠",
+        "en": "Black straight trousers",
+        "de": "Schwarze gerade Hose"
+      },
+      "nameKo": "블랙 스트레이트 팬츠",
+      "description": {
+        "ko": "곧은 다리선과 허리의 벨트 고리.",
+        "en": "Straight legs and belt loops at the waist.",
+        "de": "Gerade Beine und Gürtelschlaufen am Bund."
+      },
+      "howToWear": {
+        "ko": "발레 플랫의 앞코가 보이는 길이로 밑단을 맞춰 긴 실루엣을 유지하세요.",
+        "en": "Let the ballet flats peek below the hem to keep the long silhouette readable.",
+        "de": "Den Saum so wählen, dass die Ballerinas sichtbar bleiben und die lange Silhouette erhalten bleibt."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "918be722e5e75a45944dde20c0f2237e74349a46ee03cb14f9bb1004a14863aa",
+      "bytes": 17746,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ballet-flats",
+      "producerId": "01-04-shoes",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-01.ballet-flats",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 리본 발레 플랫",
+        "en": "Black bow ballet flats",
+        "de": "Schwarze Ballerinas mit Schleife"
+      },
+      "nameKo": "블랙 리본 발레 플랫",
+      "description": {
+        "ko": "둥근 앞코와 작은 리본 장식.",
+        "en": "Round toes and small bow details.",
+        "de": "Runde Kappen und kleine Schleifen."
+      },
+      "howToWear": {
+        "ko": "작은 리본 디테일로 단정한 검정 팬츠에 가벼운 표정을 더하세요.",
+        "en": "Use the small bow detail to soften the clean black trouser line.",
+        "de": "Die kleine Schleife lockert die klare Linie der schwarzen Hose auf."
+      },
+      "image": "products/ballet-flats.webp",
+      "sha256": "5c300b3decfdca4514dfdef242738ddb7f60184cf08e8e11d5e0e65a69b88df7",
+      "bytes": 44228,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "01-05-bag",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-01.shoulder-bag",
+      "appCategory": "bag",
+      "name": {
+        "ko": "블랙 숄더백",
+        "en": "Black shoulder bag",
+        "de": "Schwarze Schultertasche"
+      },
+      "nameKo": "블랙 숄더백",
+      "description": {
+        "ko": "가느다란 끈과 낮고 긴 몸판.",
+        "en": "Slim strap and a low elongated body.",
+        "de": "Schmaler Riemen und länglicher flacher Taschenkörper."
+      },
+      "howToWear": {
+        "ko": "짧은 끈을 어깨에 걸어 가방이 재킷 밑단 가까이에 놓이게 하세요.",
+        "en": "Keep the strap short so the bag sits near the jacket hem.",
+        "de": "Den Riemen kurz halten, damit die Tasche nahe am Jackensaum sitzt."
+      },
+      "image": "products/shoulder-bag.webp",
+      "sha256": "bc0b09f81f12f6a0adebd4e89a7dec05f6cc5458c368241f5c25f0eddadbdbc4",
+      "bytes": 38564,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoops",
+      "producerId": "01-06-jewelry",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-01.hoops",
+      "appCategory": "jewelry",
+      "name": {
+        "ko": "슬림 골드 후프 귀걸이",
+        "en": "Slim gold-tone hoops",
+        "de": "Schmale goldfarbene Creolen"
+      },
+      "nameKo": "슬림 골드 후프 귀걸이",
+      "description": {
+        "ko": "가느다란 금빛 원형 후프 한 쌍.",
+        "en": "A pair of slim gold-tone hoops.",
+        "de": "Ein Paar schmale goldfarbene Creolen."
+      },
+      "howToWear": {
+        "ko": "짧은 머리 옆으로 작은 후프만 드러내 검정과 회색의 조합을 밝히세요.",
+        "en": "Let the small hoops show beside the bob to lift the black-and-gray palette.",
+        "de": "Die kleinen Creolen neben dem Bob sichtbar lassen, um Schwarz und Grau aufzulockern."
+      },
+      "image": "products/hoops.webp",
+      "sha256": "b61eea82b2101a07f06f4b067b8d0cd05ce0a610b28e6c78ee7a03e7cc151b66",
+      "bytes": 36808,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b202"
+}

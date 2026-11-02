@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-minimal-20261102-04",
+  "batchId": "coastal-overcast-cool-female-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night stone lanes, bakery/café fronts and pale stucco doorways under warm street lamps; no rain depicted (reflective paving is not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials (01 v2, 02, 03, 04 v2, 05 v2) and the full automation (2026-11-02, Claude Code publication). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "828a7a808e245e064b5f420b1336c05773ca59762c8fe8a969659c8b0bdf53f5",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-minimal-20261102-04",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-minimal-20261102-04.blazer",
+  "scenePropsNotProducts": [
+    "flowers"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs and soles are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-02T20:57:05.279214+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-04-overview.jpg"
+    ],
+    "findings": "All 25 products viewed on all four backgrounds. Full silhouettes, no baked opaque rectangles, no visible edge halos or clipping. Clothing/shoe colors and construction agree with approved editorials; hidden areas conservatively reconstructed as documented. Shoe pairs top-down and aligned. No scene props included."
+  },
+  "copy": {
+    "titleEn": "FLOWERS AND A STEP TO SIT ON",
+    "title": {
+      "ko": "꽃 한 다발과 계단 한 칸",
+      "en": "Flowers and a step to sit on",
+      "de": "Blumen und eine Stufe zum Sitzen"
+    },
+    "deck": {
+      "ko": "검정 블레이저와 밝은 팬츠 사이에 느긋한 여백.",
+      "en": "An easy pause between a black blazer and pale trousers.",
+      "de": "Eine entspannte Pause zwischen schwarzem Blazer und heller Hose."
+    },
+    "intro": {
+      "ko": "꽃줄기가 턱에 닿아 고개를 돌려 웃는 순간, 단정한 블레이저도 편안해집니다.",
+      "en": "A flower stem brushes her chin and she turns to laugh; even the tailored blazer relaxes.",
+      "de": "Ein Blumenstiel streift das Kinn, sie dreht sich lachend weg – selbst der Blazer wirkt gelöst."
+    },
+    "body": {
+      "ko": "흰 크루넥 티셔츠와 페일 스톤 팬츠를 밝은 중심으로 두고, 검정 블레이저와 페니 로퍼를 위아래에 배치했습니다. 소매는 가볍게 올려 손의 움직임을 드러냈습니다. 계단에 앉아도 바지의 곧은 선과 신발의 낮은 윤곽이 읽힙니다. 꽃은 그저 이 밤의 장면을 만드는 소품입니다.",
+      "en": "A white crewneck tee and pale stone trousers create a light center, framed above and below by a black blazer and penny loafers. Pushed-up sleeves leave the hands free to carry the moment. Even seated on the steps, the straight trouser line and low shoe profile stay clear. The flowers are simply a prop in this evening scene.",
+      "de": "Weißes Rundhalsshirt und helle steinfarbene Hose bilden eine helle Mitte. Schwarzer Blazer und Pennyloafer rahmen sie oben und unten. Hochgeschobene Ärmel lassen den Händen Raum. Auch auf der Treppe bleiben die gerade Hosenlinie und das niedrige Schuhprofil klar erkennbar. Die Blumen gehören nur zur Szene dieses Abends."
+    },
+    "pull": {
+      "ko": "단정함에 잠깐의 웃음을 더하기.",
+      "en": "A little laughter inside a tailored line.",
+      "de": "Ein wenig Lachen in einer klaren Linie."
+    },
+    "pullQuoteEn": "A little laughter inside a tailored line.",
+    "tip": {
+      "ko": "블레이저는 열고 티셔츠 밑단은 정리해 밝은 중심을 유지하세요.",
+      "en": "Leave the blazer open and tuck the tee to keep the bright center visible.",
+      "de": "Den Blazer offen lassen und das Shirt einstecken, damit die helle Mitte sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "04-01-outer",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-04.blazer",
+      "appCategory": "outer",
+      "name": {
+        "ko": "블랙 싱글 블레이저",
+        "en": "Black single-breasted blazer",
+        "de": "Schwarzer Einreiher-Blazer"
+      },
+      "nameKo": "블랙 싱글 블레이저",
+      "description": {
+        "ko": "노치드 라펠과 싱글 여밈.",
+        "en": "Notched lapels and single-breasted front.",
+        "de": "Fallendes Revers und einreihige Front."
+      },
+      "howToWear": {
+        "ko": "소매를 가볍게 올리고 흰 티셔츠 위에 열어 입어 여유를 주세요.",
+        "en": "Push up the sleeves and wear it open over the white tee for an easy line.",
+        "de": "Die Ärmel leicht hochschieben und den Blazer offen über dem weißen Shirt tragen."
+      },
+      "image": "products/blazer.webp",
+      "sha256": "4ea95a0b611ab9c3617be5eadacd2d94f1d81cc10c12a0379e8f7db1f6da69ce",
+      "bytes": 27576,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "04-02-top",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-04.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "화이트 크루넥 티셔츠",
+        "en": "White crewneck tee",
+        "de": "Weißes Rundhals-T-Shirt"
+      },
+      "nameKo": "화이트 크루넥 티셔츠",
+      "description": {
+        "ko": "둥근 목선의 흰색 반소매.",
+        "en": "White short sleeves and round neckline.",
+        "de": "Weiße kurze Ärmel und runder Ausschnitt."
+      },
+      "howToWear": {
+        "ko": "팬츠 안으로 밑단을 정리해 블레이저 아래 밝은 중심을 만드세요.",
+        "en": "Tuck it into the trousers to create a bright center beneath the blazer.",
+        "de": "In die Hose stecken, um unter dem Blazer eine helle Mitte zu schaffen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "c703068827aa4ccad5a1d4af362f665f8b432b4db0e354164d38dba60e1586bc",
+      "bytes": 28432,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-03-bottom",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-04.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "페일 스톤 스트레이트 팬츠",
+        "en": "Pale stone straight trousers",
+        "de": "Helle steinfarbene gerade Hose"
+      },
+      "nameKo": "페일 스톤 스트레이트 팬츠",
+      "description": {
+        "ko": "밝은 스톤 색과 잔잔한 원단 결.",
+        "en": "Pale stone color and subtle woven texture.",
+        "de": "Heller Steinton und dezente Gewebestruktur."
+      },
+      "howToWear": {
+        "ko": "앉았을 때도 밑단이 로퍼 위에서 자연스럽게 떨어지도록 길이를 맞추세요.",
+        "en": "Choose a hem that falls naturally above the loafers even when seated.",
+        "de": "Eine Länge wählen, die auch im Sitzen natürlich über den Loafern fällt."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "ed9e1c54800e0cdc724d3b4d7c731ab9cc4d8295785382accc97f8d2c9e5d2d8",
+      "bytes": 31898,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loafers",
+      "producerId": "04-04-shoes",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-04.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "페니 스트랩과 낮은 검정 밑창.",
+        "en": "Penny straps and low black soles.",
+        "de": "Pennyriemen und flache schwarze Sohlen."
+      },
+      "howToWear": {
+        "ko": "검정 블레이저와 신발 색을 연결해 밝은 팬츠를 사이에 두고 균형을 잡으세요.",
+        "en": "Echo the black blazer at the feet to balance the pale trousers between them.",
+        "de": "Die Farbe des schwarzen Blazers an den Füßen aufgreifen und die helle Hose dazwischen ausbalancieren."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "95602c714ee2234cff59bc393ca08a6ca0b3629cc11cd94ad4b364a2909d1daf",
+      "bytes": 35822,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b202"
+}

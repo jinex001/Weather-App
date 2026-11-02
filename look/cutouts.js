@@ -1104,7 +1104,12 @@
 "coastal-cool-m35-night-minimal-20261102-02.zip-jacket": ["look/global/coastal-overcast-cool-male-night-minimal-20261102/coastal-cool-m35-night-minimal-20261102-02/products/zip-jacket.webp", 0.857],
 "coastal-cool-m35-night-minimal-20261102-03.blouson": ["look/global/coastal-overcast-cool-male-night-minimal-20261102/coastal-cool-m35-night-minimal-20261102-03/products/blouson.webp", 0.163],
 "coastal-cool-m35-night-minimal-20261102-04.blazer": ["look/global/coastal-overcast-cool-male-night-minimal-20261102/coastal-cool-m35-night-minimal-20261102-04/products/blazer.webp", 0.127],
-"coastal-cool-m35-night-minimal-20261102-05.jacket": ["look/global/coastal-overcast-cool-male-night-minimal-20261102/coastal-cool-m35-night-minimal-20261102-05/products/jacket.webp", 0.241]
+"coastal-cool-m35-night-minimal-20261102-05.jacket": ["look/global/coastal-overcast-cool-male-night-minimal-20261102/coastal-cool-m35-night-minimal-20261102-05/products/jacket.webp", 0.241],
+"coastal-cool-f35-night-minimal-20261102-01.trench": ["look/global/coastal-overcast-cool-female-night-minimal-20261102/coastal-cool-f35-night-minimal-20261102-01/products/trench.webp", 0.564],
+"coastal-cool-f35-night-minimal-20261102-02.zip-jacket": ["look/global/coastal-overcast-cool-female-night-minimal-20261102/coastal-cool-f35-night-minimal-20261102-02/products/zip-jacket.webp", 0.178],
+"coastal-cool-f35-night-minimal-20261102-03.cardigan": ["look/global/coastal-overcast-cool-female-night-minimal-20261102/coastal-cool-f35-night-minimal-20261102-03/products/cardigan.webp", 0.863],
+"coastal-cool-f35-night-minimal-20261102-04.blazer": ["look/global/coastal-overcast-cool-female-night-minimal-20261102/coastal-cool-f35-night-minimal-20261102-04/products/blazer.webp", 0.103],
+"coastal-cool-f35-night-minimal-20261102-05.jacket": ["look/global/coastal-overcast-cool-female-night-minimal-20261102/coastal-cool-f35-night-minimal-20261102-05/products/jacket.webp", 0.188]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1422,7 +1427,12 @@
 "coastal-cool-m35-night-minimal-20261102-02": "coastal-cool-m35-night-minimal-20261102-02.zip-jacket",
 "coastal-cool-m35-night-minimal-20261102-03": "coastal-cool-m35-night-minimal-20261102-03.blouson",
 "coastal-cool-m35-night-minimal-20261102-04": "coastal-cool-m35-night-minimal-20261102-04.blazer",
-"coastal-cool-m35-night-minimal-20261102-05": "coastal-cool-m35-night-minimal-20261102-05.jacket"
+"coastal-cool-m35-night-minimal-20261102-05": "coastal-cool-m35-night-minimal-20261102-05.jacket",
+"coastal-cool-f35-night-minimal-20261102-01": "coastal-cool-f35-night-minimal-20261102-01.trench",
+"coastal-cool-f35-night-minimal-20261102-02": "coastal-cool-f35-night-minimal-20261102-02.zip-jacket",
+"coastal-cool-f35-night-minimal-20261102-03": "coastal-cool-f35-night-minimal-20261102-03.cardigan",
+"coastal-cool-f35-night-minimal-20261102-04": "coastal-cool-f35-night-minimal-20261102-04.blazer",
+"coastal-cool-f35-night-minimal-20261102-05": "coastal-cool-f35-night-minimal-20261102-05.jacket"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

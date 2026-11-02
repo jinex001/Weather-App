@@ -1,0 +1,283 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-minimal-20261102-05",
+  "batchId": "coastal-overcast-cool-female-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night stone lanes, bakery/café fronts and pale stucco doorways under warm street lamps; no rain depicted (reflective paving is not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials (01 v2, 02, 03, 04 v2, 05 v2) and the full automation (2026-11-02, Claude Code publication). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d83991910202970c62d4a3c2ce7a4abe0a58c7cda75463820811c382ef7c0cf3",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-minimal-20261102-05",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-female-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-minimal-20261102-05.jacket",
+  "scenePropsNotProducts": [
+    "keys"
+  ],
+  "reconstructionNotice": "Rear view: the jacket front and the blouse front/body are conservative reconstructions (only the back, collar and hem show). Hidden soles and the opposite shoe are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-02T20:57:05.279214+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-05-overview.jpg"
+    ],
+    "findings": "All 25 products viewed on all four backgrounds. Full silhouettes, no baked opaque rectangles, no visible edge halos or clipping. Clothing/shoe colors and construction agree with approved editorials; hidden areas conservatively reconstructed as documented. Shoe pairs top-down and aligned. No scene props included."
+  },
+  "copy": {
+    "titleEn": "ONE MORE LOOK AT THE DOOR",
+    "title": {
+      "ko": "문 앞에서 한 번 더",
+      "en": "One more look at the door",
+      "de": "Noch ein Blick an der Tür"
+    },
+    "deck": {
+      "ko": "초콜릿 재킷과 네이비 팬츠, 뒤돌아보는 순간의 균형.",
+      "en": "Chocolate and navy find balance in a turn back.",
+      "de": "Schokoladenbraun und Marineblau im Gleichgewicht der Drehung."
+    },
+    "intro": {
+      "ko": "열쇠를 돌리다 카메라 쪽으로 한 번 웃어 보이는 짧은 인사입니다.",
+      "en": "She turns the key, then offers the camera one last quick smile.",
+      "de": "Sie dreht den Schlüssel und schenkt der Kamera noch ein kurzes Lächeln."
+    },
+    "body": {
+      "ko": "초콜릿색 쇼트 재킷 아래 에크루 블라우스의 칼라와 밑단이 밝게 드러납니다. 짧은 재킷과 높은 팬츠 허리선이 뒤돌아선 몸의 선을 길게 이어 줍니다. 둥근 검정 발레 플랫은 문턱 앞의 작은 움직임에 어울리는 단정한 마무리입니다. 등 쪽 절개와 팬츠의 곧은 실루엣이 이 장면의 착장을 설명합니다.",
+      "en": "The ecru blouse shows at the collar and below the chocolate short jacket. A high trouser waist and short jacket keep the turned silhouette long. Round black ballet flats give the small movement at the doorstep a neat finish. Back seams and the straight trouser line tell the outfit’s story from this angle.",
+      "de": "Die Ecrubluse zeigt sich am Kragen und unter der kurzen schokoladenbraunen Jacke. Hohe Hosentaille und kurze Jacke halten die gedrehte Silhouette lang. Runde schwarze Ballerinas geben der kleinen Bewegung vor der Tür einen klaren Abschluss. Rückennähte und die gerade Hosenlinie erzählen das Outfit aus diesem Winkel."
+    },
+    "pull": {
+      "ko": "뒤돌아봐도 이어지는 비율.",
+      "en": "Proportion that holds through a turn.",
+      "de": "Proportionen, die auch in der Drehung stimmen."
+    },
+    "pullQuoteEn": "Proportion that holds through a turn.",
+    "tip": {
+      "ko": "에크루 밑단을 조금 남겨 짙은 두 색 사이에 간격을 만드세요.",
+      "en": "Leave a little ecru hem visible to separate the two dark colors.",
+      "de": "Etwas Ecrusaum sichtbar lassen, um die beiden dunklen Farben zu trennen."
+    }
+  },
+  "products": [
+    {
+      "id": "jacket",
+      "producerId": "05-01-outer",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-05.jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "초콜릿 쇼트 재킷",
+        "en": "Chocolate short jacket",
+        "de": "Kurze schokoladenbraune Jacke"
+      },
+      "nameKo": "초콜릿 쇼트 재킷",
+      "description": {
+        "ko": "짧은 밑단과 칼라, 짙은 소매 단추.",
+        "en": "Short hem, collar and dark cuff buttons.",
+        "de": "Kurzer Saum, Kragen und dunkle Ärmelknöpfe."
+      },
+      "howToWear": {
+        "ko": "짧은 밑단 아래 에크루 블라우스를 조금 드러내 뒤쪽에도 층을 만드세요.",
+        "en": "Let a little ecru blouse show below the short hem to keep the layers visible from behind.",
+        "de": "Unter dem kurzen Saum etwas Ecru hervorblitzen lassen, damit die Lagen auch von hinten sichtbar bleiben."
+      },
+      "image": "products/jacket.webp",
+      "sha256": "dbbd87274abda30c023c9b3aee0a815ee7aafe80d78c358c39e565b29c0f6ea0",
+      "bytes": 46790,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "blouse",
+      "producerId": "05-02-top",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-05.blouse",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 칼라 블라우스",
+        "en": "Ecru collared blouse",
+        "de": "Ecrufarbene Bluse mit Kragen"
+      },
+      "nameKo": "에크루 칼라 블라우스",
+      "description": {
+        "ko": "밝은 에크루색 칼라와 부드러운 몸판.",
+        "en": "Light ecru collar and softly shaped body.",
+        "de": "Heller Ecrukragen und weich fallender Rumpf."
+      },
+      "howToWear": {
+        "ko": "재킷 위로 칼라를 정리해 브라운과 네이비 사이에 밝은 포인트를 두세요.",
+        "en": "Arrange the collar above the jacket to add a light note between brown and navy.",
+        "de": "Den Kragen über der Jacke ordnen, um zwischen Braun und Marineblau einen hellen Akzent zu setzen."
+      },
+      "image": "products/blouse.webp",
+      "sha256": "d2433d89bce8fbfb909b96d1c2871ed31aa56d455f92122a0a2384477f4c7df1",
+      "bytes": 38024,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-03-bottom",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-05.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "네이비 테일러드 팬츠",
+        "en": "Navy tailored trousers",
+        "de": "Marineblaue Stoffhose"
+      },
+      "nameKo": "네이비 테일러드 팬츠",
+      "description": {
+        "ko": "네이비색 허리선과 곧은 다리.",
+        "en": "Navy waistband and straight legs.",
+        "de": "Marineblauer Bund und gerade Beine."
+      },
+      "howToWear": {
+        "ko": "짧은 재킷과 높은 허리선의 조합으로 뒤돌아선 실루엣도 길게 이어보세요.",
+        "en": "Pair the short jacket with the high waist to keep the turned silhouette elongated.",
+        "de": "Die kurze Jacke mit der hohen Taille kombinieren, damit auch die gedrehte Silhouette lang wirkt."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "501b87528b9fe6a5ea0259f5b0d2d1eaa45fc1d8403c96598539a0ee990c0929",
+      "bytes": 19170,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ballet-flats",
+      "producerId": "05-04-shoes",
+      "appItemId": "coastal-cool-f35-night-minimal-20261102-05.ballet-flats",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 라운드 발레 플랫",
+        "en": "Black round-toe ballet flats",
+        "de": "Schwarze Ballerinas mit runder Kappe"
+      },
+      "nameKo": "블랙 라운드 발레 플랫",
+      "description": {
+        "ko": "둥근 앞코와 작은 리본.",
+        "en": "Round toes and little bows.",
+        "de": "Runde Kappen und kleine Schleifen."
+      },
+      "howToWear": {
+        "ko": "바지 밑단 아래 둥근 앞코를 드러내 문 앞의 가벼운 동작을 마무리하세요.",
+        "en": "Let the round toes show beneath the hem to finish the light doorway movement.",
+        "de": "Die runden Kappen unter dem Saum sichtbar lassen, passend zur leichten Bewegung an der Tür."
+      },
+      "image": "products/ballet-flats.webp",
+      "sha256": "fa4350f3504e91b58e0637ea9a9cdb97d55c6a4dd723224fddd6d7c9fc8bd590",
+      "bytes": 37312,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; Preserve visible material/color/details. Concealed shape inferred conservatively; no brand identification.",
+      "reconstructionNotice": {
+        "ko": "사진에 보이는 색·형태를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 실제 판매 제품·브랜드와의 일치는 확인하지 않았습니다.",
+        "en": "Created from visible colors and shapes; hidden areas are conservatively reconstructed. No retail product or brand match is verified.",
+        "de": "Nach sichtbaren Farben und Formen erstellt; verdeckte Bereiche wurden zurückhaltend ergänzt. Eine Übereinstimmung mit Handelsprodukten oder Marken ist nicht bestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b202"
+}
