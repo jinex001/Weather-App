@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-minimal-20261102-04",
+  "batchId": "coastal-overcast-cool-male-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbor promenade and stone lanes, pale stucco, sea and harbor lights; no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials and the full automation (2026-11-02, Claude Code publication). Product images passed producer QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "df8da2e3560dbe36243e52dca96e09f3c9ae2022f5e396488d1b3caed0682449",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-minimal-20261102-04",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-m35-night-minimal-20261102-04.blazer",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "ticket",
+    "book/bookmark",
+    "keys"
+  ],
+  "omittedNotVisible": [
+    "01/05 footwear outside the frame",
+    "02 socks not visible"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite shoes are inferred. 05 jacket front is inferred from a rear view and the 05 polo body from its collar only. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "review-white.jpg",
+      "review-black.jpg",
+      "review-gray.jpg",
+      "review-app.jpg"
+    ],
+    "checks": [
+      "all20 apparel-only independent assets",
+      "true alpha borders clean on all four backgrounds",
+      "full silhouettes with margins; shoes/socks pairs",
+      "reference colors and minimal styling match"
+    ],
+    "uncertainty": "01 coat hidden lower length and all trouser rear/full legs conservative; 02 top sleeves concealed; shoe hidden mate inferred; 03 top concealed details conservative; 05 outer front inferred from rear-view reference; polo body only collar evidence; trousers full legs inferred"
+  },
+  "copy": {
+    "titleEn": "BETWEEN PAGES",
+    "title": {
+      "ko": "한 페이지의 웃음",
+      "en": "BETWEEN PAGES",
+      "de": "ZWISCHEN DEN SEITEN"
+    },
+    "deck": {
+      "ko": "블랙 셋업에 흰 티, 계단 위의 웃음",
+      "en": "A black suit and a white tee, laughing on the steps",
+      "de": "Schwarzer Anzug, weißes T-Shirt, ein Lachen auf der Treppe"
+    },
+    "intro": {
+      "ko": "계단에서 책갈피를 잡다 동행의 말에 웃습니다. 가벼운 블랙 셋업에 밝은 티셔츠를 더해 격식을 풀었습니다.",
+      "en": "A bookmark and a remark from a companion interrupt the page. A light black suit and pale tee soften the formality.",
+      "de": "Ein Lesezeichen und ein Satz der Begleitung unterbrechen die Seite. Leichter schwarzer Anzug und helles T-Shirt lösen die Förmlichkeit."
+    },
+    "pullQuoteEn": "A suit that sits easy.",
+    "tip": {
+      "ko": "셋업에 셔츠 대신 티셔츠를 넣고 구두·양말까지 블랙으로 이어 가면 격식은 빠지고 선은 남습니다.",
+      "en": "Swap the shirt for a tee and keep shoes and socks black: the formality drops, the clean line stays.",
+      "de": "Statt Hemd ein T-Shirt zum Anzug und Schuhe sowie Socken schwarz halten – die Förmlichkeit geht, die klare Linie bleibt."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "계단에서 책갈피를 잡다 동행의 말에 웃습니다. 가벼운 블랙 셋업에 밝은 티셔츠를 더해 격식을 풀었습니다.",
+        "en": "A bookmark and a remark from a companion interrupt the page. A light black suit and pale tee soften the formality.",
+        "de": "Ein Lesezeichen und ein Satz der Begleitung unterbrechen die Seite. Leichter schwarzer Anzug und helles T-Shirt lösen die Förmlichkeit."
+      },
+      "tip": {
+        "ko": "선선한 밤에는 가벼운 겹침을 유지하고 활동과 바람에 맞춰 여밈을 조절하세요.",
+        "en": "Keep layers light for a cool evening and adjust closures to activity and breeze.",
+        "de": "Für den kühlen Abend leicht schichten und die Verschlüsse an Bewegung und Wind anpassen."
+      },
+      "pullQuoteEn": "BETWEEN PAGES",
+      "reason": "b201 review: deck repeated the intro and pull repeated the title on screen; one generic tip was shared by all five looks."
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "04-outer",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-04.blazer",
+      "appCategory": "outer",
+      "name": {
+        "ko": "블랙 언스트럭처드 블레이저",
+        "en": "Black unstructured blazer",
+        "de": "Schwarzer unstrukturierter Blazer"
+      },
+      "nameKo": "블랙 언스트럭처드 블레이저",
+      "description": {
+        "ko": "블랙 경량 언스트럭처드 싱글 블레이저. 노치 라펠, 단추 두 개, 패치 포켓. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Black lightweight unstructured single-breasted blazer with notch lapels, two buttons and patch pockets. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Leichter schwarzer unstrukturierter Einreiher mit Reverskragen, zwei Knöpfen und aufgesetzten Taschen. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "블레이저 앞을 열어 티셔츠와 부드러운 어깨선을 드러내세요.",
+        "en": "Wear the blazer open to show the tee and relaxed shoulder line.",
+        "de": "Den Blazer offen tragen und T-Shirt sowie weiche Schulterlinie zeigen."
+      },
+      "image": "products/blazer.webp",
+      "sha256": "97441f59fb34f117422a525dbc35f74cf82032ae54a1697c3cc1ab6ef4bc46e4",
+      "bytes": 28704,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "블랙 언스트럭처드 블레이저. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Black unstructured blazer. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Schwarzer unstrukturierter Blazer. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "tee",
+      "producerId": "04-top",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-04.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "오프화이트 크루넥 티셔츠",
+        "en": "Off-white crewneck T-shirt",
+        "de": "Gebrochen weißes Rundhals-T-Shirt"
+      },
+      "nameKo": "오프화이트 크루넥 티셔츠",
+      "description": {
+        "ko": "오프화이트 코튼 저지 반소매 크루넥 티셔츠. 좁은 리브 목선과 곧은 밑단. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Off-white cotton jersey short-sleeve crewneck T-shirt with a narrow ribbed neck and straight hem. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Gebrochen weißes Kurzarm-T-Shirt aus Baumwolljersey mit schmalem Rippausschnitt und geradem Saum. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "블랙 셋업 안에서 목선을 단정하게 정리하세요.",
+        "en": "Keep the crewneck neat inside the black suit.",
+        "de": "Den Rundhalsausschnitt im schwarzen Anzug ordentlich legen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "5d746e3329e07ce302c547d4cef03d5ae65da49b259d2fa142e09a907d7b82cf",
+      "bytes": 19884,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "오프화이트 크루넥 티셔츠. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Off-white crewneck T-shirt. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Gebrochen weißes Rundhals-T-Shirt. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "04-bottom",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-04.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 테일러드 팬츠",
+        "en": "Black tailored trousers",
+        "de": "Schwarze Anzughose"
+      },
+      "nameKo": "블랙 테일러드 팬츠",
+      "description": {
+        "ko": "블레이저와 맞춘 블랙 스트레이트 테일러드 팬츠. 은은한 직조감과 다림질 주름선. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Black straight tailored trousers matching the blazer, with a subtle weave and pressed crease. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Schwarze gerade Anzughose passend zum Blazer, mit dezenter Webstruktur und Bügelfalte. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "앉을 때도 무릎의 여유를 살리고 밑단은 더비 위로 정리하세요.",
+        "en": "Keep room at the knees and settle the hem over the derbys.",
+        "de": "An den Knien Bewegungsraum lassen und den Saum über den Derbys ordnen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "b5b6a19f27c4e574a2f87846f18e93d8402adef622f666550a103f08ee9f8e6e",
+      "bytes": 15300,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "블랙 테일러드 팬츠. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Black tailored trousers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Schwarze Anzughose. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "derbys",
+      "producerId": "04-shoes",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-04.derbys",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 더비 슈즈",
+        "en": "Black derby shoes",
+        "de": "Schwarze Derbys"
+      },
+      "nameKo": "블랙 더비 슈즈",
+      "description": {
+        "ko": "블랙 가죽 플레인 토 더비 한 켤레. 5홀 오픈 레이싱, 약간 도톰한 낮은 밑창. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Pair of black leather plain-toe derbys with five-eyelet open lacing and slightly chunky low soles. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Schwarze Derbys aus Leder mit glatter Kappe, offener Schnürung mit fünf Ösen und leicht kräftiger flacher Sohle. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "끈을 고르게 조이고 검정 양말과 바지로 자연스럽게 이어 주세요.",
+        "en": "Lace evenly and continue the dark line with black socks and trousers.",
+        "de": "Gleichmäßig schnüren und mit schwarzen Socken und Hose verbinden."
+      },
+      "image": "products/derbys.webp",
+      "sha256": "03b6362676db1281204f48c96f8ca62acaf786cac836f3c014c06d8c40ad2246",
+      "bytes": 38892,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "블랙 더비 슈즈. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Black derby shoes. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Schwarze Derbys. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "04-socks",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-04.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "블랙 리브 삭스",
+        "en": "Black ribbed socks",
+        "de": "Schwarze Rippstrümpfe"
+      },
+      "nameKo": "블랙 리브 삭스",
+      "description": {
+        "ko": "무광 코튼 느낌의 블랙 고운 리브 크루 삭스 한 켤레. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Pair of black fine-ribbed crew socks in a matte cotton look. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Schwarze fein gerippte Crew-Socken in matter Baumwolloptik. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "발목에 주름이 뭉치지 않게 펴서 셋업의 선을 유지하세요.",
+        "en": "Smooth excess folds at the ankle to keep the suit line clean.",
+        "de": "Falten am Knöchel glattziehen, damit die Anzuglinie ruhig bleibt."
+      },
+      "image": "products/socks.webp",
+      "sha256": "8d7b856fa523f01d2c569b9e894a9f3db2800f7b2322cd37afe2cfa474bae712",
+      "bytes": 22210,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "블랙 리브 삭스. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Black ribbed socks. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Schwarze Rippstrümpfe. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b201"
+}

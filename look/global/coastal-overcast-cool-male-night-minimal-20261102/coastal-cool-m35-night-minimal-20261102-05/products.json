@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-minimal-20261102-05",
+  "batchId": "coastal-overcast-cool-male-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbor promenade and stone lanes, pale stucco, sea and harbor lights; no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials and the full automation (2026-11-02, Claude Code publication). Product images passed producer QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e302ce377e6bf3a8f7e40b5eee967f7401e3c3f25aaa2584153d0c7396f92e8d",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 3,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-minimal-20261102-05",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-m35-night-minimal-20261102-05.jacket",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "ticket",
+    "book/bookmark",
+    "keys"
+  ],
+  "omittedNotVisible": [
+    "01/05 footwear outside the frame",
+    "02 socks not visible"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite shoes are inferred. 05 jacket front is inferred from a rear view and the 05 polo body from its collar only. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "review-white.jpg",
+      "review-black.jpg",
+      "review-gray.jpg",
+      "review-app.jpg"
+    ],
+    "checks": [
+      "all20 apparel-only independent assets",
+      "true alpha borders clean on all four backgrounds",
+      "full silhouettes with margins; shoes/socks pairs",
+      "reference colors and minimal styling match"
+    ],
+    "uncertainty": "01 coat hidden lower length and all trouser rear/full legs conservative; 02 top sleeves concealed; shoe hidden mate inferred; 03 top concealed details conservative; 05 outer front inferred from rear-view reference; polo body only collar evidence; trousers full legs inferred"
+  },
+  "copy": {
+    "titleEn": "ONE LAST LOOK",
+    "title": {
+      "ko": "문 앞의 인사",
+      "en": "ONE LAST LOOK",
+      "de": "EIN LETZTER BLICK"
+    },
+    "deck": {
+      "ko": "브라운 재킷과 에크루 칼라, 문 앞의 인사",
+      "en": "Brown jacket, ecru collar, a goodbye at the door",
+      "de": "Braune Jacke, Ecrukragen, ein Abschied an der Tür"
+    },
+    "intro": {
+      "ko": "열쇠를 쥔 채 문을 열고 뒤를 돌아봅니다. 브라운 재킷의 뒷면과 에크루 칼라가 짧은 인사를 따뜻하게 남깁니다.",
+      "en": "Keys in hand, he opens the door and looks back. The brown jacket and ecru collar give the brief farewell warmth.",
+      "de": "Mit dem Schlüssel in der Hand öffnet er die Tür und blickt zurück. Braune Jacke und Ecrukragen geben dem Abschied Wärme."
+    },
+    "pullQuoteEn": "Brown, ecru, one look back.",
+    "tip": {
+      "ko": "짧은 재킷은 허리에서 끝나니 바지를 곧게 떨어뜨리고, 따뜻한 색은 니트 칼라에만 두세요.",
+      "en": "The short jacket stops at the waist, so let the trousers fall straight and keep the warm colour to the knit collar.",
+      "de": "Die kurze Jacke endet an der Taille: die Hose gerade fallen lassen und Wärme nur über den Strickkragen bringen."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "열쇠를 쥔 채 문을 열고 뒤를 돌아봅니다. 브라운 재킷의 뒷면과 에크루 칼라가 짧은 인사를 따뜻하게 남깁니다.",
+        "en": "Keys in hand, he opens the door and looks back. The brown jacket and ecru collar give the brief farewell warmth.",
+        "de": "Mit dem Schlüssel in der Hand öffnet er die Tür und blickt zurück. Braune Jacke und Ecrukragen geben dem Abschied Wärme."
+      },
+      "tip": {
+        "ko": "선선한 밤에는 가벼운 겹침을 유지하고 활동과 바람에 맞춰 여밈을 조절하세요.",
+        "en": "Keep layers light for a cool evening and adjust closures to activity and breeze.",
+        "de": "Für den kühlen Abend leicht schichten und die Verschlüsse an Bewegung und Wind anpassen."
+      },
+      "pullQuoteEn": "ONE LAST LOOK",
+      "reason": "b201 review: deck repeated the intro and pull repeated the title on screen; one generic tip was shared by all five looks."
+    }
+  },
+  "products": [
+    {
+      "id": "jacket",
+      "producerId": "05-outer",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-05.jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "초콜릿 브라운 쇼트 재킷",
+        "en": "Chocolate brown short jacket",
+        "de": "Kurze Jacke in Schokoladenbraun"
+      },
+      "nameKo": "초콜릿 브라운 쇼트 재킷",
+      "description": {
+        "ko": "초콜릿 브라운 매트 코튼 쇼트 재킷. 뾰족한 칼라와 등판 요크. 사진에는 뒷면만 보여 앞 여밈은 보수적으로 복원했습니다. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Chocolate brown matte cotton short jacket with a pointed collar and rear shoulder yoke. Only the back is visible, so the front closure is a conservative reconstruction. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Kurze Jacke aus matter Baumwolle in Schokoladenbraun mit spitzem Kragen und Rückenpasse. Sichtbar ist nur die Rückseite, die Front ist vorsichtig rekonstruiert. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "에크루 칼라가 재킷 위로 조금 보이도록 정리하세요.",
+        "en": "Let the ecru collar peek above the short brown jacket.",
+        "de": "Den ecrufarbenen Kragen leicht über der braunen Jacke zeigen."
+      },
+      "image": "products/jacket.webp",
+      "sha256": "0e4a09294dfea3e40a8ed71be8829f1a2dcf20f9a4bc3fb9c3d0454c42d9a78d",
+      "bytes": 30522,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "초콜릿 브라운 쇼트 재킷. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Chocolate brown short jacket. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Kurze Jacke in Schokoladenbraun. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "knit-polo",
+      "producerId": "05-top",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-05.knit-polo",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 니트 폴로",
+        "en": "Ecru knitted polo",
+        "de": "Ecrufarbenes Strickpolo"
+      },
+      "nameKo": "에크루 니트 폴로",
+      "description": {
+        "ko": "에크루 경량 리브 니트 긴소매 폴로. 와이드 칼라와 짧은 단추 여밈. 사진에는 칼라만 보여 몸판과 구조는 콘셉트 복원입니다. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Ecru lightweight ribbed-knit long-sleeve polo with a spread collar and short button placket. Only the collar is visible, so the body and construction are a concept reconstruction. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Ecrufarbenes leichtes Langarm-Strickpolo in Rippe mit Haifischkragen und kurzer Knopfleiste. Sichtbar ist nur der Kragen, Körper und Verarbeitung sind rekonstruiert. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "칼라를 부드럽게 펴고 브라운 재킷 안에 얇게 겹치세요.",
+        "en": "Lay the collar softly and layer lightly under the brown jacket.",
+        "de": "Den Kragen weich legen und leicht unter der braunen Jacke schichten."
+      },
+      "image": "products/knit-polo.webp",
+      "sha256": "12a2f20e1051681f603636303ef28429ea545de8ab32c0d579456387219e7a0d",
+      "bytes": 31274,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "에크루 니트 폴로. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Ecru knitted polo. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Ecrufarbenes Strickpolo. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "05-bottom",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-05.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 스트레이트 팬츠",
+        "en": "Black straight trousers",
+        "de": "Schwarze gerade Hose"
+      },
+      "nameKo": "블랙 스트레이트 팬츠",
+      "description": {
+        "ko": "블랙 스트레이트 테일러드 팬츠. 뒤 웰트 포켓과 깔끔한 허리 밴드. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Black straight tailored trousers with a rear welt pocket and a clean waistband. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Schwarze gerade Anzughose mit Paspeltasche hinten und schlichtem Bund. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "뒤 허리선을 편안하게 맞추고 쇼트 재킷 아래로 곧게 내려 입으세요.",
+        "en": "Keep the back waist comfortable and the leg straight beneath the short jacket.",
+        "de": "Den rückwärtigen Bund bequem setzen und die Hose unter der kurzen Jacke gerade fallen lassen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "3cb8b989ca828ba4ed0c1bcbb3111fd473236ff917bc629faa283f3040068762",
+      "bytes": 14582,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "블랙 스트레이트 팬츠. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Black straight trousers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Schwarze gerade Hose. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b201"
+}

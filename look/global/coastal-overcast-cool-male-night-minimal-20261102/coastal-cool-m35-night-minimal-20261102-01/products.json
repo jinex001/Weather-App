@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-minimal-20261102-01",
+  "batchId": "coastal-overcast-cool-male-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbor promenade and stone lanes, pale stucco, sea and harbor lights; no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials and the full automation (2026-11-02, Claude Code publication). Product images passed producer QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0b7d9ce20ad5ea98e48522185b85ad1b49eda3770f1c6d4bf3aedc7f6eae900d",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 3,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-minimal-20261102-01",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-m35-night-minimal-20261102-01.coat",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "ticket",
+    "book/bookmark",
+    "keys"
+  ],
+  "omittedNotVisible": [
+    "01/05 footwear outside the frame",
+    "02 socks not visible"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite shoes are inferred. 05 jacket front is inferred from a rear view and the 05 polo body from its collar only. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "review-white.jpg",
+      "review-black.jpg",
+      "review-gray.jpg",
+      "review-app.jpg"
+    ],
+    "checks": [
+      "all20 apparel-only independent assets",
+      "true alpha borders clean on all four backgrounds",
+      "full silhouettes with margins; shoes/socks pairs",
+      "reference colors and minimal styling match"
+    ],
+    "uncertainty": "01 coat hidden lower length and all trouser rear/full legs conservative; 02 top sleeves concealed; shoe hidden mate inferred; 03 top concealed details conservative; 05 outer front inferred from rear-view reference; polo body only collar evidence; trousers full legs inferred"
+  },
+  "copy": {
+    "titleEn": "CATCH THE COLLAR",
+    "title": {
+      "ko": "옷깃을 잡는 순간",
+      "en": "CATCH THE COLLAR",
+      "de": "DEN KRAGEN FANGEN"
+    },
+    "deck": {
+      "ko": "항구 불빛 앞, 차콜 코트의 조용한 겹침",
+      "en": "A quiet charcoal coat by the harbor lights",
+      "de": "Ein ruhiger Mantel in Anthrazit am Hafenlicht"
+    },
+    "intro": {
+      "ko": "낮은 항구 불빛 앞에서 바람이 옷깃을 건드립니다. 차콜과 아이보리의 단정한 겹침에 작은 웃음이 생깁니다.",
+      "en": "A breeze catches the collar beside the harbor lights. Charcoal and ivory keep the layers quiet while the moment brings a grin.",
+      "de": "Eine Brise hebt den Kragen im Hafenlicht. Anthrazit und Elfenbein halten die Schichten ruhig, der Moment bringt ein Lächeln."
+    },
+    "pullQuoteEn": "Charcoal, ivory, one easy grin.",
+    "tip": {
+      "ko": "코트와 바지를 같은 차콜로 맞추고 아이보리 니트 하나로 얼굴 주변만 밝히세요.",
+      "en": "Match coat and trousers in charcoal and let the ivory knit alone brighten the face.",
+      "de": "Mantel und Hose in Anthrazit halten und nur den elfenbeinfarbenen Strick am Gesicht aufhellen lassen."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "낮은 항구 불빛 앞에서 바람이 옷깃을 건드립니다. 차콜과 아이보리의 단정한 겹침에 작은 웃음이 생깁니다.",
+        "en": "A breeze catches the collar beside the harbor lights. Charcoal and ivory keep the layers quiet while the moment brings a grin.",
+        "de": "Eine Brise hebt den Kragen im Hafenlicht. Anthrazit und Elfenbein halten die Schichten ruhig, der Moment bringt ein Lächeln."
+      },
+      "tip": {
+        "ko": "선선한 밤에는 가벼운 겹침을 유지하고 활동과 바람에 맞춰 여밈을 조절하세요.",
+        "en": "Keep layers light for a cool evening and adjust closures to activity and breeze.",
+        "de": "Für den kühlen Abend leicht schichten und die Verschlüsse an Bewegung und Wind anpassen."
+      },
+      "pullQuoteEn": "CATCH THE COLLAR",
+      "reason": "b201 review: deck repeated the intro and pull repeated the title on screen; one generic tip was shared by all five looks."
+    }
+  },
+  "products": [
+    {
+      "id": "coat",
+      "producerId": "01-outer",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-01.coat",
+      "appCategory": "outer",
+      "name": {
+        "ko": "차콜 싱글 코트",
+        "en": "Charcoal single-breasted coat",
+        "de": "Einreihiger Mantel in Anthrazit"
+      },
+      "nameKo": "차콜 싱글 코트",
+      "description": {
+        "ko": "가볍고 매트한 직조감의 차콜 싱글 코트. 노치 칼라, 짙은 단추 세 개, 곧은 실루엣. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Lightweight charcoal single-breasted coat with a matte woven texture, notch collar, three dark buttons and a straight cut. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Leichter einreihiger Mantel in Anthrazit mit matter Webstruktur, Reverskragen, drei dunklen Knöpfen und geradem Schnitt. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 아이보리 이너를 드러내고 옷깃은 편안하게 정리하세요.",
+        "en": "Wear it open over ivory and let the collar sit naturally.",
+        "de": "Offen über Elfenbein tragen und den Kragen locker legen."
+      },
+      "image": "products/coat.webp",
+      "sha256": "644c267a90726b357dad0c341d542be6f1456a1f25590d744087baebf0538990",
+      "bytes": 41444,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "차콜 싱글 코트. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Charcoal single-breasted coat. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Einreihiger Mantel in Anthrazit. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "sweater",
+      "producerId": "01-top",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-01.sweater",
+      "appCategory": "top",
+      "name": {
+        "ko": "아이보리 크루넥 니트",
+        "en": "Ivory crewneck sweater",
+        "de": "Elfenbeinfarbener Rundhalspullover"
+      },
+      "nameKo": "아이보리 크루넥 니트",
+      "description": {
+        "ko": "아이보리 하이게이지 크루넥 니트. 좁은 리브 목선·소매단·밑단. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Ivory fine-gauge crewneck sweater with a narrow ribbed neckline, cuffs and hem. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Elfenbeinfarbener feiner Rundhalspullover mit schmalen Rippbündchen an Ausschnitt, Ärmeln und Saum. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "얇은 니트를 코트 안에 겹치고 소매 끝을 조금 드러내세요.",
+        "en": "Layer the fine sweater under the coat with a little cuff visible.",
+        "de": "Den feinen Pullover unter dem Mantel tragen, die Bündchen leicht zeigen."
+      },
+      "image": "products/sweater.webp",
+      "sha256": "204888e9800f229dac9a27a694a135c8241ba5d389cf66bcac6e7ad1ad15f5c5",
+      "bytes": 35286,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "아이보리 크루넥 니트. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Ivory crewneck sweater. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Elfenbeinfarbener Rundhalspullover. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "01-bottom",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-01.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "차콜 테일러드 팬츠",
+        "en": "Charcoal tailored trousers",
+        "de": "Anzughose in Anthrazit"
+      },
+      "nameKo": "차콜 테일러드 팬츠",
+      "description": {
+        "ko": "차콜 플랫 프런트 테일러드 팬츠. 곧은 다리선과 단순한 옆주머니. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Charcoal flat-front tailored trousers with a straight leg and simple side pockets. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Anthrazitfarbene Anzughose ohne Bundfalten, mit geradem Bein und schlichten Seitentaschen. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "허리선을 단정히 맞추고 코트 아래로 곧은 바지선을 이어 주세요.",
+        "en": "Keep the waist neat and let the straight leg extend beneath the coat.",
+        "de": "Den Bund ordentlich setzen und die gerade Linie unter dem Mantel fortführen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "c1fe223c0ba3928cfcfe3eec6d4fbfe4cfab06d301af3712b6a4748b6b8495c0",
+      "bytes": 18828,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "차콜 테일러드 팬츠. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Charcoal tailored trousers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Anzughose in Anthrazit. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b201"
+}

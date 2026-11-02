@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-minimal-20261102-03",
+  "batchId": "coastal-overcast-cool-male-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbor promenade and stone lanes, pale stucco, sea and harbor lights; no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials and the full automation (2026-11-02, Claude Code publication). Product images passed producer QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "202f68e60934cecdb7d0711fcca046c612452ac5ff50fa3b70ce84e9a9e15bea",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-minimal-20261102-03",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-m35-night-minimal-20261102-03.blouson",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "ticket",
+    "book/bookmark",
+    "keys"
+  ],
+  "omittedNotVisible": [
+    "01/05 footwear outside the frame",
+    "02 socks not visible"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite shoes are inferred. 05 jacket front is inferred from a rear view and the 05 polo body from its collar only. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "review-white.jpg",
+      "review-black.jpg",
+      "review-gray.jpg",
+      "review-app.jpg"
+    ],
+    "checks": [
+      "all20 apparel-only independent assets",
+      "true alpha borders clean on all four backgrounds",
+      "full silhouettes with margins; shoes/socks pairs",
+      "reference colors and minimal styling match"
+    ],
+    "uncertainty": "01 coat hidden lower length and all trouser rear/full legs conservative; 02 top sleeves concealed; shoe hidden mate inferred; 03 top concealed details conservative; 05 outer front inferred from rear-view reference; polo body only collar evidence; trousers full legs inferred"
+  },
+  "copy": {
+    "titleEn": "TICKET, FOUND",
+    "title": {
+      "ko": "티켓을 줍다가",
+      "en": "TICKET, FOUND",
+      "de": "TICKET GEFUNDEN"
+    },
+    "deck": {
+      "ko": "네이비 블루종과 크림 팬츠, 문 앞의 짧은 멈춤",
+      "en": "Navy blouson, cream trousers, a pause at the door",
+      "de": "Marineblouson, Cremehose, eine Pause an der Tür"
+    },
+    "intro": {
+      "ko": "문 앞에서 떨어진 티켓을 줍는 짧은 멈춤. 네이비 블루종과 크림 팬츠, 브라운 로퍼가 움직임 속에서도 차분하게 이어집니다.",
+      "en": "A dropped ticket creates a brief pause by the doorway. Navy, cream and brown stay composed through the movement.",
+      "de": "Ein gefallenes Ticket sorgt vor der Tür für eine kurze Pause. Marineblau, Creme und Braun bleiben in Bewegung ruhig."
+    },
+    "pullQuoteEn": "Navy at both ends.",
+    "tip": {
+      "ko": "블루종과 양말을 같은 네이비로 맞추면 밝은 팬츠가 위아래로 단정하게 묶입니다.",
+      "en": "Match the blouson and socks in navy so the pale trousers are framed at both ends.",
+      "de": "Blouson und Socken in Marineblau wählen, dann wird die helle Hose oben und unten eingerahmt."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "문 앞에서 떨어진 티켓을 줍는 짧은 멈춤. 네이비 블루종과 크림 팬츠, 브라운 로퍼가 움직임 속에서도 차분하게 이어집니다.",
+        "en": "A dropped ticket creates a brief pause by the doorway. Navy, cream and brown stay composed through the movement.",
+        "de": "Ein gefallenes Ticket sorgt vor der Tür für eine kurze Pause. Marineblau, Creme und Braun bleiben in Bewegung ruhig."
+      },
+      "tip": {
+        "ko": "선선한 밤에는 가벼운 겹침을 유지하고 활동과 바람에 맞춰 여밈을 조절하세요.",
+        "en": "Keep layers light for a cool evening and adjust closures to activity and breeze.",
+        "de": "Für den kühlen Abend leicht schichten und die Verschlüsse an Bewegung und Wind anpassen."
+      },
+      "pullQuoteEn": "TICKET, FOUND",
+      "reason": "b201 review: deck repeated the intro and pull repeated the title on screen; one generic tip was shared by all five looks."
+    }
+  },
+  "products": [
+    {
+      "id": "blouson",
+      "producerId": "03-outer",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-03.blouson",
+      "appCategory": "outer",
+      "name": {
+        "ko": "네이비 블루종",
+        "en": "Navy blouson",
+        "de": "Marineblauer Blouson"
+      },
+      "nameKo": "네이비 블루종",
+      "description": {
+        "ko": "네이비 매트 경량 집업 블루종. 뾰족한 칼라, 밴드 처리한 소매단과 밑단. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Navy matte lightweight zip blouson with a pointed collar and elasticated cuffs and hem. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Leichter mattmarineblauer Blouson mit Reißverschluss, spitzem Kragen und elastischen Bündchen. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 조금 열고 스톤 이너의 목선을 드러내세요.",
+        "en": "Open the zip slightly to reveal the stone neckline.",
+        "de": "Den Zipper leicht öffnen und den steinfarbenen Ausschnitt zeigen."
+      },
+      "image": "products/blouson.webp",
+      "sha256": "683582e47d7cccb7ec83601eb200d34b528ac720e3d855a8c779e2900525234d",
+      "bytes": 29722,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 블루종. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Navy blouson. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Marineblauer Blouson. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "crewneck-top",
+      "producerId": "03-top",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-03.crewneck-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "스톤 크루넥 톱",
+        "en": "Stone crewneck top",
+        "de": "Steinfarbenes Rundhalsoberteil"
+      },
+      "nameKo": "스톤 크루넥 톱",
+      "description": {
+        "ko": "은은한 멜란지 질감의 스톤 그레이 긴소매 크루넥 저지 톱. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Stone grey lightweight long-sleeve crewneck jersey top with a subtle marl. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Steingraues leichtes Langarm-Rundhalsoberteil aus Jersey mit dezenter Melange. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "네이비 재킷 안에 얇게 겹쳐 크림 팬츠와 색을 연결하세요.",
+        "en": "Use the light top to bridge the navy jacket and cream trousers.",
+        "de": "Mit dem hellen Oberteil Marinejacke und Cremehose verbinden."
+      },
+      "image": "products/crewneck-top.webp",
+      "sha256": "6297c2d8f7e850f98811b102d60aca1bc487fb5e49fe67dad53dcdb15172118c",
+      "bytes": 48154,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "스톤 크루넥 톱. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Stone crewneck top. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Steinfarbenes Rundhalsoberteil. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-bottom",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-03.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "크림 스트레이트 팬츠",
+        "en": "Cream straight trousers",
+        "de": "Cremefarbene gerade Hose"
+      },
+      "nameKo": "크림 스트레이트 팬츠",
+      "description": {
+        "ko": "크림 테일러드 스트레이트 팬츠. 단순한 허리 밴드와 깔끔한 다리선. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Cream tailored straight trousers with a plain waistband and a clean leg. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Cremefarbene gerade Anzughose mit schlichtem Bund und klarem Bein. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "곧은 밑단을 로퍼 위로 맞춰 네이비 양말을 조금 보여 주세요.",
+        "en": "Let the straight hem reveal a small band of navy sock above the loafers.",
+        "de": "Unter dem geraden Saum einen schmalen Streifen marineblauer Socken zeigen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "ba14e4b220c4955b1cd20f2688582ab97550ee66e5e58a860dd820539af1247a",
+      "bytes": 21926,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "크림 스트레이트 팬츠. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Cream straight trousers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Cremefarbene gerade Hose. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "03-shoes",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-03.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "브라운 스웨이드 룩 로퍼",
+        "en": "Brown suede-look loafers",
+        "de": "Braune Loafer in Wildlederoptik"
+      },
+      "nameKo": "브라운 스웨이드 룩 로퍼",
+      "description": {
+        "ko": "다크 브라운 스웨이드 룩 페니 로퍼 한 켤레. 둥근 아몬드 토, 낮은 브라운 밑창. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Pair of dark brown suede-look penny loafers with rounded almond toes and low brown soles. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Dunkelbraune Pennyloafer in Wildlederoptik mit runder Mandelspitze und flacher brauner Sohle. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "양쪽 슈즈의 발등을 가지런히 정리하고 밝은 팬츠와 연결하세요.",
+        "en": "Keep both vamps neat and pair the brown shoes with the pale trousers.",
+        "de": "Die braunen Loafer ordentlich zur hellen Hose kombinieren."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "794173ad0050d9e2ddda572bcff5e1a3ae9a886146c7c828db41f8dee3e0e589",
+      "bytes": 40242,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "브라운 스웨이드 룩 로퍼. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Brown suede-look loafers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Braune Loafer in Wildlederoptik. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "socks",
+      "producerId": "03-socks",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-03.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "네이비 리브 삭스",
+        "en": "Navy ribbed socks",
+        "de": "Marineblaue Rippstrümpfe"
+      },
+      "nameKo": "네이비 리브 삭스",
+      "description": {
+        "ko": "매트한 코튼 느낌의 네이비 고운 리브 크루 삭스 한 켤레. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Pair of navy fine-ribbed crew socks with a matte cotton look. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Marineblaue fein gerippte Crew-Socken in matter Baumwolloptik. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "리브를 매끈하게 펴고 팬츠와 로퍼 사이를 네이비로 이어 주세요.",
+        "en": "Smooth the ribs to connect the trouser hem and loafers in navy.",
+        "de": "Die Rippen glattziehen und Hose und Loafer mit Marineblau verbinden."
+      },
+      "image": "products/socks.webp",
+      "sha256": "ec3fd27abd172007581b3af6723010066b01004c55d60341efa94eeda6435161",
+      "bytes": 29184,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 리브 삭스. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Navy ribbed socks. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Marineblaue Rippstrümpfe. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b201"
+}

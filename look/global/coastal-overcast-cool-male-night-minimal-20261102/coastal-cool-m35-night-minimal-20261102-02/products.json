@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-minimal-20261102-02",
+  "batchId": "coastal-overcast-cool-male-night-minimal-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbor promenade and stone lanes, pale stucco, sea and harbor lights; no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "explicit-user-approved",
+    "evidence": "User explicitly approved these five editorials and the full automation (2026-11-02, Claude Code publication). Product images passed producer QA on four backgrounds only.",
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "78e3a31ecc4d68938be00e9a94957d48a3785893f80e3e4450f58121843ab213",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-minimal-20261102-02",
+  "appStyle": "minimal",
+  "appModule": "look/coastal-overcast-cool-male-night-minimal-20261102.js",
+  "appHeroItem": "coastal-cool-m35-night-minimal-20261102-02.zip-jacket",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "ticket",
+    "book/bookmark",
+    "keys"
+  ],
+  "omittedNotVisible": [
+    "01/05 footwear outside the frame",
+    "02 socks not visible"
+  ],
+  "reconstructionNotice": "Hidden full shapes, backs, soles and opposite shoes are inferred. 05 jacket front is inferred from a rear view and the 05 polo body from its collar only. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "passed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "review-white.jpg",
+      "review-black.jpg",
+      "review-gray.jpg",
+      "review-app.jpg"
+    ],
+    "checks": [
+      "all20 apparel-only independent assets",
+      "true alpha borders clean on all four backgrounds",
+      "full silhouettes with margins; shoes/socks pairs",
+      "reference colors and minimal styling match"
+    ],
+    "uncertainty": "01 coat hidden lower length and all trouser rear/full legs conservative; 02 top sleeves concealed; shoe hidden mate inferred; 03 top concealed details conservative; 05 outer front inferred from rear-view reference; polo body only collar evidence; trousers full legs inferred"
+  },
+  "copy": {
+    "titleEn": "ONE SMALL DROP",
+    "title": {
+      "ko": "커피 한 방울",
+      "en": "ONE SMALL DROP",
+      "de": "EIN KLEINER TROPFEN"
+    },
+    "deck": {
+      "ko": "크림 재킷과 네이비, 창가의 짧은 멈춤",
+      "en": "Cream over navy for a quick window-side stop",
+      "de": "Creme über Marineblau für einen kurzen Halt am Fenster"
+    },
+    "intro": {
+      "ko": "창가에서 흘린 커피 한 방울에 몸이 먼저 반응합니다. 크림 재킷과 네이비 팬츠가 가벼운 밤 외출을 정리합니다.",
+      "en": "One coffee drop prompts a quick step back. A cream jacket and navy trousers keep this evening stop easy.",
+      "de": "Ein Kaffeetropfen löst einen kleinen Schritt zurück aus. Cremejacke und Marinehose begleiten den entspannten Abend."
+    },
+    "pullQuoteEn": "Cream on top, navy underneath.",
+    "tip": {
+      "ko": "톱과 바지를 네이비로 이어 세로선을 길게 만들고, 밝은 재킷은 열어 그 선을 감싸세요.",
+      "en": "Run navy from top to trousers for one long line, and leave the pale jacket open to frame it.",
+      "de": "Oberteil und Hose in Marineblau durchziehen und die helle Jacke offen tragen, damit eine lange Linie entsteht."
+    },
+    "sourceCopy": {
+      "deck": {
+        "ko": "창가에서 흘린 커피 한 방울에 몸이 먼저 반응합니다. 크림 재킷과 네이비 팬츠가 가벼운 밤 외출을 정리합니다.",
+        "en": "One coffee drop prompts a quick step back. A cream jacket and navy trousers keep this evening stop easy.",
+        "de": "Ein Kaffeetropfen löst einen kleinen Schritt zurück aus. Cremejacke und Marinehose begleiten den entspannten Abend."
+      },
+      "tip": {
+        "ko": "선선한 밤에는 가벼운 겹침을 유지하고 활동과 바람에 맞춰 여밈을 조절하세요.",
+        "en": "Keep layers light for a cool evening and adjust closures to activity and breeze.",
+        "de": "Für den kühlen Abend leicht schichten und die Verschlüsse an Bewegung und Wind anpassen."
+      },
+      "pullQuoteEn": "ONE SMALL DROP",
+      "reason": "b201 review: deck repeated the intro and pull repeated the title on screen; one generic tip was shared by all five looks."
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "02-outer",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-02.zip-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "크림 집업 재킷",
+        "en": "Cream zip jacket",
+        "de": "Cremefarbene Reißverschlussjacke"
+      },
+      "nameKo": "크림 집업 재킷",
+      "description": {
+        "ko": "크림 코튼 쇼트 집업 재킷. 뾰족한 칼라, 실버 센터 지퍼, 군더더기 없는 소매. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Cream cotton short zip jacket with a pointed collar, silver centre zip and plain sleeves. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Kurze cremefarbene Baumwolljacke mit spitzem Kragen, silbernem Mittelreißverschluss und schlichten Ärmeln. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "지퍼를 열어 네이비와 크림의 대비를 살리세요.",
+        "en": "Leave the zip open to show the navy-and-cream contrast.",
+        "de": "Den Reißverschluss offen lassen, damit Marineblau und Creme sichtbar bleiben."
+      },
+      "image": "products/zip-jacket.webp",
+      "sha256": "234280f0d542d500ca5ab20f425b8ee3aeee86e9fbf1276a523a96309e72e127",
+      "bytes": 31172,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "크림 집업 재킷. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Cream zip jacket. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Cremefarbene Reißverschlussjacke. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "crewneck-top",
+      "producerId": "02-top",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-02.crewneck-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "네이비 크루넥 톱",
+        "en": "Navy crewneck top",
+        "de": "Marineblaues Rundhalsoberteil"
+      },
+      "nameKo": "네이비 크루넥 톱",
+      "description": {
+        "ko": "네이비 고운 저지 긴소매 크루넥 톱. 좁은 목선과 곧은 밑단. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Dark navy fine-jersey long-sleeve crewneck top with a narrow neckline and straight hem. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Dunkelblaues Langarm-Rundhalsoberteil aus feinem Jersey mit schmalem Ausschnitt und geradem Saum. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "목선을 평평하게 정리하고 밝은 재킷 안에 차분하게 겹치세요.",
+        "en": "Keep the neckline flat beneath the pale jacket.",
+        "de": "Den Ausschnitt glatt unter der hellen Jacke tragen."
+      },
+      "image": "products/crewneck-top.webp",
+      "sha256": "a0387a12cd3a87aa466c27174b287bbadb06dab1b205c699b2003767a4d39511",
+      "bytes": 28154,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 크루넥 톱. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Navy crewneck top. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Marineblaues Rundhalsoberteil. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "pleated-trousers",
+      "producerId": "02-bottom",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-02.pleated-trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "네이비 플리츠 팬츠",
+        "en": "Navy pleated trousers",
+        "de": "Marineblaue Bundfaltenhose"
+      },
+      "nameKo": "네이비 플리츠 팬츠",
+      "description": {
+        "ko": "네이비 앞주름 테일러드 스트레이트 팬츠. 허리 밴드와 눈에 띄지 않는 주머니. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Navy tailored straight trousers with front pleats, a waistband and discreet pockets. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Marineblaue gerade Anzughose mit Bundfalten, Bund und dezenten Taschen. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "앞주름을 살리고 밑단이 로퍼 위에 가볍게 닿게 맞추세요.",
+        "en": "Keep the pleats relaxed and the hem lightly above the loafers.",
+        "de": "Die Falten locker lassen und den Saum knapp über den Loafern setzen."
+      },
+      "image": "products/pleated-trousers.webp",
+      "sha256": "ca3a391004fa7202559dacdc33a4c02ad209354c4ad3d0f90933a4b52d00bc76",
+      "bytes": 17604,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "네이비 플리츠 팬츠. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Navy pleated trousers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Marineblaue Bundfaltenhose. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    },
+    {
+      "id": "loafers",
+      "producerId": "02-shoes",
+      "appItemId": "coastal-cool-m35-night-minimal-20261102-02.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "블랙 가죽 페니 로퍼 한 켤레. 매끈한 발등과 새들 스트랩, 낮은 블랙 밑창. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+        "en": "Pair of black leather penny loafers with a smooth vamp, saddle strap and low black sole. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+        "de": "Schwarze Pennyloafer aus Leder mit glattem Blatt, Riegel und flacher schwarzer Sohle. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+      },
+      "howToWear": {
+        "ko": "팬츠 밑단을 정리해 로퍼의 발등 장식이 보이게 하세요.",
+        "en": "Set the trouser hem so the loafer saddle remains visible.",
+        "de": "Den Hosensaum so setzen, dass der Loafersteg sichtbar bleibt."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "a031bd00f0fdb5a6ab8fa1c9e15472ce16c290b6199ede1758c475fc319489d7",
+      "bytes": 42374,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Approved editorial directly reviewed; partially-visible-reconstructed",
+      "reconstructionNote": "사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready",
+      "sourceCopy": {
+        "description": {
+          "ko": "블랙 페니 로퍼. 사진 기반 콘셉트 복원입니다. 브랜드·정확한 혼용률·판매 정보는 미상이며 가려진 전체 형태는 보수적으로 추정했습니다.",
+          "en": "Black penny loafers. Photo-based concept reconstruction. Brand, exact fibre content and retail details are unknown; hidden full shapes are conservatively inferred.",
+          "de": "Schwarze Pennyloafer. Fotobasierte Konzeptrekonstruktion. Marke, genaue Faserzusammensetzung und Verkaufsdaten sind unbekannt; verdeckte Gesamtformen sind vorsichtig ergänzt."
+        }
+      }
+    }
+  ],
+  "buildMapped": "b201"
+}
