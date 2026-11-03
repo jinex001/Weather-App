@@ -1114,7 +1114,12 @@
 "coastal-cool-f35-night-running-20261102-02.windbreaker": ["look/global/coastal-overcast-cool-female-night-running-20261102/coastal-cool-f35-night-running-20261102-02/products/windbreaker.webp", 0.588],
 "coastal-cool-f35-night-running-20261102-03.running-jacket": ["look/global/coastal-overcast-cool-female-night-running-20261102/coastal-cool-f35-night-running-20261102-03/products/running-jacket.webp", 0.382],
 "coastal-cool-f35-night-running-20261102-04.zip-jacket": ["look/global/coastal-overcast-cool-female-night-running-20261102/coastal-cool-f35-night-running-20261102-04/products/zip-jacket.webp", 0.125],
-"coastal-cool-f35-night-running-20261102-05.hooded-shell": ["look/global/coastal-overcast-cool-female-night-running-20261102/coastal-cool-f35-night-running-20261102-05/products/hooded-shell.webp", 0.446]
+"coastal-cool-f35-night-running-20261102-05.hooded-shell": ["look/global/coastal-overcast-cool-female-night-running-20261102/coastal-cool-f35-night-running-20261102-05/products/hooded-shell.webp", 0.446],
+"coastal-cool-m35-night-running-20261103-01.hooded-shell": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-01/products/hooded-shell.webp", 0.389],
+"coastal-cool-m35-night-running-20261103-02.running-jacket": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-02/products/running-jacket.webp", 0.678],
+"coastal-cool-m35-night-running-20261103-03.hydration-vest": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-03/products/hydration-vest.webp", 0.135],
+"coastal-cool-m35-night-running-20261103-04.hooded-shell": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-04/products/hooded-shell.webp", 0.587],
+"coastal-cool-m35-night-running-20261103-05.cap": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-05/products/cap.webp", 0.181]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1442,7 +1447,12 @@
 "coastal-cool-f35-night-running-20261102-02": "coastal-cool-f35-night-running-20261102-02.windbreaker",
 "coastal-cool-f35-night-running-20261102-03": "coastal-cool-f35-night-running-20261102-03.running-jacket",
 "coastal-cool-f35-night-running-20261102-04": "coastal-cool-f35-night-running-20261102-04.zip-jacket",
-"coastal-cool-f35-night-running-20261102-05": "coastal-cool-f35-night-running-20261102-05.hooded-shell"
+"coastal-cool-f35-night-running-20261102-05": "coastal-cool-f35-night-running-20261102-05.hooded-shell",
+"coastal-cool-m35-night-running-20261103-01": "coastal-cool-m35-night-running-20261103-01.hooded-shell",
+"coastal-cool-m35-night-running-20261103-02": "coastal-cool-m35-night-running-20261103-02.running-jacket",
+"coastal-cool-m35-night-running-20261103-03": "coastal-cool-m35-night-running-20261103-03.hydration-vest",
+"coastal-cool-m35-night-running-20261103-04": "coastal-cool-m35-night-running-20261103-04.hooded-shell",
+"coastal-cool-m35-night-running-20261103-05": "coastal-cool-m35-night-running-20261103-05.cap"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

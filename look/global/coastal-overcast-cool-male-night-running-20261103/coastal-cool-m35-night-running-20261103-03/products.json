@@ -1,0 +1,321 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-m35-night-running-20261103-03",
+  "batchId": "coastal-overcast-cool-male-night-running-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbour promenade with warm stucco walls, wall lamps and moored boats; no rain depicted (dry-looking paving); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": null,
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "b91b3a328ab54f930773aeae245280711e880bde8e6ef87ed66dffacd55754d0",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-m35-night-running-20261103-03",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-male-night-running-20261103.js",
+  "appHeroItem": "coastal-cool-m35-night-running-20261103-03.hydration-vest",
+  "scenePropsNotProducts": [
+    "paper cup"
+  ],
+  "reconstructionNotice": "The black hydration running vest (shoulder strips, two chest buckles, no centre zip) is a separate product from the cobalt long-sleeve top, which owns the silver upper-arm bands. The paper cup is a scene prop. Hidden backs, vest pockets and soles are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-03T13:03:46.558660+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-03-overview.jpg"
+    ],
+    "findings": "All28 viewed on4 backgrounds: no opaque rectangles, obvious halos or clipping. Shapes/colors match editorials.03 hydration vest has two chest buckles and no center zip, blue top owns upper-arm bands.05 jacket full sleeves reconstructed from pushed-up rear view; gray inner separate. Shoe pairs aligned overhead; socks paired; watch and cap complete. Hidden details conservative, no brand/verified-performance claim."
+  },
+  "copy": {
+    "titleEn": "BEFORE THE CUP FALLS",
+    "title": {
+      "ko": "컵이 넘어지기 전에",
+      "en": "Before the cup falls",
+      "de": "Bevor der Becher fällt"
+    },
+    "deck": {
+      "ko": "파란 긴소매와 검정 베스트의 확실한 역할 분담.",
+      "en": "Blue sleeves and a black vest with distinct roles.",
+      "de": "Blaue Ärmel und schwarze Weste mit klar verteilten Rollen."
+    },
+    "intro": {
+      "ko": "바람에 기운 종이컵을 손끝으로 재빨리 붙잡습니다.",
+      "en": "He quickly catches a paper cup tipped by the breeze.",
+      "de": "Er fängt den vom Wind gekippten Papierbecher schnell auf."
+    },
+    "body": {
+      "ko": "검정 하이드레이션 베스트의 두 가슴 버클과 수납부가 코발트 톱 위에 선을 만듭니다. 반사 밴드는 파란 위팔을 따라가고, 여유 있는 회색 팬츠는 타이츠와 다른 실루엣을 만듭니다. 검정 신발과 짧은 양말로 아래쪽을 간결하게 정리했습니다. 종이컵은 제품 목록에 포함하지 않는 장면 소품입니다.",
+      "en": "Two chest buckles and front pockets define the black hydration vest over the cobalt top. Reflective bands follow the blue upper arms, while relaxed gray trousers create a different line from tights. Black shoes and short socks keep the lower half simple. The paper cup remains a scene prop.",
+      "de": "Zwei Brustschnallen und Vordertaschen zeichnen die schwarze Laufweste über dem kobaltblauen Shirt. Reflexbänder folgen den blauen Oberarmen; lockere graue Hosenbeine unterscheiden sich von Tights. Schwarze Schuhe und kurze Socken halten den unteren Teil ruhig. Der Becher bleibt ein Szenenrequisit."
+    },
+    "pull": {
+      "ko": "짧은 베스트, 여유 있는 다리선.",
+      "en": "A short vest, a relaxed leg line.",
+      "de": "Kurze Weste, lockere Beinlinie."
+    },
+    "pullQuoteEn": "A short vest, a relaxed leg line.",
+    "tip": {
+      "ko": "두 가슴 버클을 평평하게 정리해 파란 몸판을 깔끔하게 보여주세요.",
+      "en": "Lay both chest buckles flat to keep the blue center clear.",
+      "de": "Beide Brustschnallen flach ausrichten, damit die blaue Mitte klar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "hydration-vest",
+      "producerId": "03-01-outer",
+      "appItemId": "coastal-cool-m35-night-running-20261103-03.hydration-vest",
+      "appCategory": "outer",
+      "name": {
+        "ko": "블랙 하이드레이션 베스트",
+        "en": "Black hydration running vest",
+        "de": "Schwarze Laufweste mit Taschen"
+      },
+      "nameKo": "블랙 하이드레이션 베스트",
+      "description": {
+        "ko": "검정 수납 베스트, 어깨 반사선과 가슴 버클 두 개.",
+        "en": "Black pocketed vest with reflective shoulder lines and two chest buckles.",
+        "de": "Schwarze Taschenweste mit Reflexlinien an den Schultern und zwei Brustschnallen."
+      },
+      "howToWear": {
+        "ko": "파란 긴소매 위에 입고 두 가슴 버클을 평평하게 정리하세요.",
+        "en": "Wear over blue sleeves and lay both chest buckles flat.",
+        "de": "Über Blau tragen und beide Brustschnallen flach ausrichten."
+      },
+      "image": "products/hydration-vest.webp",
+      "sha256": "cb348ecf7ff3ba4942399846b4b0ef5bc552ff2b59cffabfa9f329655e18e9fc",
+      "bytes": 38126,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible colors/material appearance/shape match reference; hidden shapes conservative. No retail identity or verified composition/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Based on visible colors and construction; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Nach sichtbaren Farben und Konstruktion erstellt; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-sleeve-top",
+      "producerId": "03-02-top",
+      "appItemId": "coastal-cool-m35-night-running-20261103-03.long-sleeve-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "코발트 반사 롱슬리브",
+        "en": "Cobalt reflective-detail long sleeve",
+        "de": "Kobaltblaues Langarmshirt mit Reflexdetails"
+      },
+      "nameKo": "코발트 반사 롱슬리브",
+      "description": {
+        "ko": "코발트 긴소매와 위팔 은색 밴드.",
+        "en": "Cobalt long sleeves with silver upper-arm bands.",
+        "de": "Kobaltblaue lange Ärmel mit silbernen Oberarmbändern."
+      },
+      "howToWear": {
+        "ko": "베스트 밖으로 파란 소매와 위팔 반사 밴드를 드러내세요.",
+        "en": "Show the blue sleeves and upper-arm bands outside the vest.",
+        "de": "Blaue Ärmel und Oberarmbänder neben der Weste sichtbar lassen."
+      },
+      "image": "products/long-sleeve-top.webp",
+      "sha256": "682e305aa0ba343a1b9116cc7ad3a2b98a3341e7383dea2a359a0f4290c3c87f",
+      "bytes": 46772,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible colors/material appearance/shape match reference; hidden shapes conservative. No retail identity or verified composition/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Based on visible colors and construction; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Nach sichtbaren Farben und Konstruktion erstellt; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-03-bottom",
+      "appItemId": "coastal-cool-m35-night-running-20261103-03.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "다크 그레이 러닝 팬츠",
+        "en": "Dark gray running trousers",
+        "de": "Dunkelgraue Laufhose"
+      },
+      "nameKo": "다크 그레이 러닝 팬츠",
+      "description": {
+        "ko": "짙은 회색 여유 있는 다리와 곧은 밑단.",
+        "en": "Dark gray relaxed legs and straight hems.",
+        "de": "Dunkelgraue lockere Beine und gerade Säume."
+      },
+      "howToWear": {
+        "ko": "타이츠보다 여유 있는 다리선을 살려 상체의 짧은 베스트와 대비하세요.",
+        "en": "Keep the relaxed legs distinct from the short vest above.",
+        "de": "Lockere Beine als Kontrast zur kurzen Weste erhalten."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "ddcb57a3bd1176970d8b22986e8fafd869dff77695adadb3201493d95b3a9e25",
+      "bytes": 26642,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible colors/material appearance/shape match reference; hidden shapes conservative. No retail identity or verified composition/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Based on visible colors and construction; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Nach sichtbaren Farben und Konstruktion erstellt; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "03-04-shoes",
+      "appItemId": "coastal-cool-m35-night-running-20261103-03.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 메시 러닝화",
+        "en": "Black mesh running shoes",
+        "de": "Schwarze Mesh-Laufschuhe"
+      },
+      "nameKo": "블랙 메시 러닝화",
+      "description": {
+        "ko": "검정 메시와 밝은 회색 밑창.",
+        "en": "Black mesh and pale gray soles.",
+        "de": "Schwarzes Mesh und hellgraue Sohlen."
+      },
+      "howToWear": {
+        "ko": "어두운 팬츠 아래 밝은 중창만 얇게 드러내세요.",
+        "en": "Let only the pale midsoles break the dark trouser line.",
+        "de": "Unter der dunklen Hose nur die helle Zwischensohle absetzen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "5308793c491e89b4d1bc2ffaa5bc7b9d7ef75793ce345fb1b45dbc36c2d0d399",
+      "bytes": 46102,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible colors/material appearance/shape match reference; hidden shapes conservative. No retail identity or verified composition/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Based on visible colors and construction; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Nach sichtbaren Farben und Konstruktion erstellt; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "03-05-socks",
+      "appItemId": "coastal-cool-m35-night-running-20261103-03.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "블랙 앵클 삭스",
+        "en": "Black ankle socks",
+        "de": "Schwarze knöchelhohe Socken"
+      },
+      "nameKo": "블랙 앵클 삭스",
+      "description": {
+        "ko": "검정색 짧은 발목과 작은 밝은 디테일.",
+        "en": "Short black ankle socks with small light details.",
+        "de": "Kurze schwarze Knöchelsocken mit kleinen hellen Details."
+      },
+      "howToWear": {
+        "ko": "검정 신발과 같은 톤으로 발목을 간결하게 연결하세요.",
+        "en": "Connect the ankles simply with socks matching the black shoes.",
+        "de": "Die Knöchel mit Socken im Ton der schwarzen Schuhe ruhig verbinden."
+      },
+      "image": "products/socks.webp",
+      "sha256": "f9eea3ec8338690088dfbbf50c9ff39ea8c4bc2b5c489a015857e2e3fe29ae56",
+      "bytes": 36068,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible colors/material appearance/shape match reference; hidden shapes conservative. No retail identity or verified composition/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Based on visible colors and construction; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Nach sichtbaren Farben und Konstruktion erstellt; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b204"
+}
