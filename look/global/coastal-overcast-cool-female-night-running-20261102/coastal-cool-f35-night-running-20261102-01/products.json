@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-running-20261102-01",
+  "batchId": "coastal-overcast-cool-female-night-running-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbour promenade with pale stucco walls, wall lamps and moored boats; no rain depicted (reflective paving and fountain water are not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "c58ea4f9851dbc5392e313e676d2a4c3fa6e6d859b4968d1bd6b7b68f6191bc0",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-running-20261102-01",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-female-night-running-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-running-20261102-01.hooded-shell",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "Hidden full shapes, backs and soles, and the inner top body under the shell, are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-03T09:53:27.373939+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-01-overview.jpg"
+    ],
+    "findings": "All27 on4 backgrounds reviewed.04outer corrected to long sleeve black zip jacket and04inner plain gray after reference comparison; corrected2 v2 sheets reviewed and passed. Old2 not for delivery. No opaque rectangles/halos/clipping observed. Hidden inner shoulder construction on01/02/03/05 conservative and not independently visible; no retail identity claimed. Rest follow matching visible silhouettes, pairs, colors."
+  },
+  "copy": {
+    "titleEn": "CATCH THE HOOD, TAKE A STEP",
+    "title": {
+      "ko": "후드를 붙잡고 한 걸음",
+      "en": "Catch the hood, take a step",
+      "de": "Kapuze fassen, weitergehen"
+    },
+    "deck": {
+      "ko": "코발트 셸과 검정 타이츠, 바람에 반응하는 어깨선.",
+      "en": "Cobalt, black tights and a shoulder line that catches the flash.",
+      "de": "Kobaltblau, schwarze Tights und eine Schulterlinie im Blitzlicht."
+    },
+    "intro": {
+      "ko": "낮은 턱을 내려서는 순간 후드 가장자리를 붙잡습니다.",
+      "en": "Stepping off a low curb, she catches the edge of her hood.",
+      "de": "Beim Schritt vom niedrigen Bordstein greift sie den Kapuzenrand."
+    },
+    "body": {
+      "ko": "파란 재킷은 이 룩의 한 가지 강한 색입니다. 안쪽 톱과 타이츠를 검정으로 연결하고 회색 러닝화로 발끝을 가볍게 정리했습니다. 어깨의 은색 디테일은 플래시에 선명하게 반응합니다. 손과 발은 바람과 보도 높이에 맞춰 자연스럽게 움직입니다.",
+      "en": "Blue is the single strong color here. The inner top and tights continue in black, with gray running shoes keeping the finish light. Silver shoulder details respond clearly to the direct flash. Hands and feet follow the wind and the change in pavement height.",
+      "de": "Blau ist hier der einzige kräftige Farbton. Shirt und Tights führen Schwarz fort, graue Laufschuhe geben einen leichten Abschluss. Silberne Schulterdetails reagieren klar auf den direkten Blitz. Hände und Füße folgen Wind und Bordsteinhöhe."
+    },
+    "pull": {
+      "ko": "파란색 하나면 충분한 밤.",
+      "en": "One blue note is enough for the night.",
+      "de": "Ein blauer Akzent reicht für die Nacht."
+    },
+    "pullQuoteEn": "One blue note is enough for the night.",
+    "tip": {
+      "ko": "검정 이너를 조금 드러내 코발트의 강도를 조절하세요.",
+      "en": "Show a little black beneath the cobalt to balance its intensity.",
+      "de": "Etwas Schwarz unter Kobaltblau zeigen, um die Intensität auszugleichen."
+    }
+  },
+  "products": [
+    {
+      "id": "hooded-shell",
+      "producerId": "01-01-outer",
+      "appItemId": "coastal-cool-f35-night-running-20261102-01.hooded-shell",
+      "appCategory": "outer",
+      "name": {
+        "ko": "코발트 후드 러닝 셸",
+        "en": "Cobalt hooded running shell",
+        "de": "Kobaltblaue Laufjacke mit Kapuze"
+      },
+      "nameKo": "코발트 후드 러닝 셸",
+      "description": {
+        "ko": "파란 후드와 앞 지퍼, 은색 어깨 파이핑.",
+        "en": "Blue hood, front zip and silver shoulder piping.",
+        "de": "Blaue Kapuze, Frontzip und silberne Schulterpaspeln."
+      },
+      "howToWear": {
+        "ko": "검정 이너 위에 열어 입고 은색 어깨 라인을 드러내세요.",
+        "en": "Wear it open over black and leave the silver shoulder lines visible.",
+        "de": "Offen über Schwarz tragen und die silbernen Schulterlinien sichtbar lassen."
+      },
+      "image": "products/hooded-shell.webp",
+      "sha256": "95c54f435f4b123a2af312aad2161ecd26311f2a857e59da3af368ade5e0eed7",
+      "bytes": 48134,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-sleeve-top",
+      "producerId": "01-02-top",
+      "appItemId": "coastal-cool-f35-night-running-20261102-01.long-sleeve-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "블랙 롱슬리브 러닝 톱",
+        "en": "Black long-sleeve running top",
+        "de": "Schwarzes langärmeliges Laufshirt"
+      },
+      "nameKo": "블랙 롱슬리브 러닝 톱",
+      "description": {
+        "ko": "검정 둥근 목선과 긴소매.",
+        "en": "Black round neckline and long sleeves.",
+        "de": "Schwarzer Rundhals und lange Ärmel."
+      },
+      "howToWear": {
+        "ko": "밝은 셸 안쪽을 검정으로 정리해 파란색이 선명하게 보이게 하세요.",
+        "en": "Use black beneath the bright shell to keep the blue clear.",
+        "de": "Unter der hellen Jacke Schwarz wählen, damit das Blau klar hervortritt."
+      },
+      "image": "products/long-sleeve-top.webp",
+      "sha256": "48c1a826cb53508ad0738e8446aa0accb03af2b5325f24e9d7061d1dd928e994",
+      "bytes": 33416,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "leggings",
+      "producerId": "01-03-bottom",
+      "appItemId": "coastal-cool-f35-night-running-20261102-01.leggings",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 러닝 레깅스",
+        "en": "Black running leggings",
+        "de": "Schwarze Lauftights"
+      },
+      "nameKo": "블랙 러닝 레깅스",
+      "description": {
+        "ko": "검정색 긴 다리와 넓은 허리 밴드.",
+        "en": "Full black legs and broad waistband.",
+        "de": "Lange schwarze Beine und breiter Bund."
+      },
+      "howToWear": {
+        "ko": "재킷 아래 곧은 검정 선을 이어 활동적인 전신 비율을 만드세요.",
+        "en": "Continue a clean black line beneath the jacket for an active silhouette.",
+        "de": "Unter der Jacke eine klare schwarze Linie fortführen."
+      },
+      "image": "products/leggings.webp",
+      "sha256": "674accb111dd5965518a248023bbcf06f05902f6eab888a28122e92abbcc1ade",
+      "bytes": 18196,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "01-04-shoes",
+      "appItemId": "coastal-cool-f35-night-running-20261102-01.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "그레이 메시 러닝화",
+        "en": "Gray mesh running shoes",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "nameKo": "그레이 메시 러닝화",
+      "description": {
+        "ko": "회색 메시와 흰 중창, 어두운 밑창 포인트.",
+        "en": "Gray mesh, white midsoles and dark sole accents.",
+        "de": "Graues Mesh, weiße Zwischensohlen und dunkle Sohlenakzente."
+      },
+      "howToWear": {
+        "ko": "회색 신발과 흰 중창으로 검정 레깅스의 끝을 밝히세요.",
+        "en": "Lift the end of the black leggings with gray shoes and white midsoles.",
+        "de": "Den Abschluss der schwarzen Tights mit Grau und weißen Zwischensohlen aufhellen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "7003adb7196b5b7be5083ef3bb8281f97fe64e5d5c207803197db49bc22f7815",
+      "bytes": 49722,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b203"
+}

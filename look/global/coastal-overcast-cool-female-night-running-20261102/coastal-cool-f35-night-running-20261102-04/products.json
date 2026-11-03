@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-running-20261102-04",
+  "batchId": "coastal-overcast-cool-female-night-running-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbour promenade with pale stucco walls, wall lamps and moored boats; no rain depicted (reflective paving and fountain water are not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f87479e8f0032c187234eb8a30179740866d40a596ae5c8012ae95a2e848260f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-running-20261102-04",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-female-night-running-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-running-20261102-04.zip-jacket",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "Outer and inner are the corrected v2 products: a long-sleeve black zip jacket with reflective upper-arm bands over a plain pale gray long-cuff top (the earlier vest/striped-inner images are superseded and not deployed). The wired earphones are worn gear. Hidden backs, soles and socks are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-03T09:53:27.373939+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-04-overview.jpg",
+      "04-01-outer-v2-four-backgrounds.jpg",
+      "04-02-top-v2-four-backgrounds.jpg"
+    ],
+    "findings": "All27 on4 backgrounds reviewed.04outer corrected to long sleeve black zip jacket and04inner plain gray after reference comparison; corrected2 v2 sheets reviewed and passed. Old2 not for delivery. No opaque rectangles/halos/clipping observed. Hidden inner shoulder construction on01/02/03/05 conservative and not independently visible; no retail identity claimed. Rest follow matching visible silhouettes, pairs, colors."
+  },
+  "copy": {
+    "titleEn": "WHEN AN EARBUD SLIPS",
+    "title": {
+      "ko": "이어폰이 빠진 순간",
+      "en": "When an earbud slips",
+      "de": "Wenn ein Ohrhörer rutscht"
+    },
+    "deck": {
+      "ko": "검정 집업과 회색 커프의 선명한 겹침.",
+      "en": "A clear contrast between a black zip jacket and gray cuffs.",
+      "de": "Klarer Kontrast zwischen schwarzer Zipjacke und grauen Bündchen."
+    },
+    "intro": {
+      "ko": "이어폰 하나를 붙잡으며 걸음을 늦추고 옆을 향해 웃습니다.",
+      "en": "She catches one earbud, slows her step and smiles to the side.",
+      "de": "Sie fängt einen Ohrhörer auf, wird langsamer und lächelt zur Seite."
+    },
+    "body": {
+      "ko": "검정 긴소매 집업은 팔 위쪽의 은색 반사 밴드와 작은 지퍼 포켓으로 선을 만듭니다. 소매 아래로 드러나는 회색 이너 커프가 손목을 밝힙니다. 검정 타이츠를 이어 입고 밝은 회색 러닝화와 짧은 흰 양말로 발목을 정리했습니다. 흰 이어폰 선은 웃음과 손동작 사이를 가볍게 연결합니다.",
+      "en": "The black long-sleeve zip jacket is defined by silver upper-arm bands and small zipped pockets. Gray inner cuffs brighten the wrists below its sleeves. Black tights continue the dark line, finished with pale gray running shoes and short white socks. A white earphone cable connects the smile and hand movement lightly.",
+      "de": "Die schwarze langärmelige Zipjacke zeichnet sich durch silberne Oberarmbänder und kleine Reißverschlusstaschen aus. Graue Innenbündchen hellen die Handgelenke unter den Ärmeln auf. Schwarze Tights führen die dunkle Linie fort, abgeschlossen von hellgrauen Laufschuhen und kurzen weißen Socken. Das weiße Kabel verbindet Lächeln und Handbewegung auf leichte Weise."
+    },
+    "pull": {
+      "ko": "움직임이 레이어를 설명하는 순간.",
+      "en": "Movement makes the layers readable.",
+      "de": "Bewegung macht die Lagen lesbar."
+    },
+    "pullQuoteEn": "Movement makes the layers readable.",
+    "tip": {
+      "ko": "이어폰 선은 손과 목선을 가리지 않도록 정리하세요.",
+      "en": "Keep the cable clear of the hands and neckline.",
+      "de": "Das Kabel von Händen und Ausschnitt fernhalten."
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "04-01-outer",
+      "appItemId": "coastal-cool-f35-night-running-20261102-04.zip-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "블랙 반사 롱슬리브 집업",
+        "en": "Black reflective-detail long-sleeve zip jacket",
+        "de": "Schwarze langärmelige Zipjacke mit Reflexdetails"
+      },
+      "nameKo": "블랙 반사 롱슬리브 집업",
+      "description": {
+        "ko": "검정 긴소매 집업과 위팔의 은색 반사 밴드.",
+        "en": "Black long-sleeve zip jacket with silver upper-arm bands.",
+        "de": "Schwarze langärmelige Zipjacke mit silbernen Oberarmbändern."
+      },
+      "howToWear": {
+        "ko": "검정 소매를 살짝 올려 회색 이너 커프를 드러내세요.",
+        "en": "Gather the black sleeves slightly to reveal the gray inner cuffs.",
+        "de": "Die schwarzen Ärmel leicht hochschieben, damit graue Bündchen sichtbar werden."
+      },
+      "image": "products/zip-jacket.webp",
+      "sha256": "635a9409dc1b8b6fc3d6314a477db7cf6ae7e99aea6453c452a24db3af9fb6d2",
+      "bytes": 27586,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-cuff-top",
+      "producerId": "04-02-top",
+      "appItemId": "coastal-cool-f35-night-running-20261102-04.long-cuff-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "페일 그레이 롱커프 톱",
+        "en": "Pale gray long-cuff top",
+        "de": "Hellgraues Shirt mit langen Bündchen"
+      },
+      "nameKo": "페일 그레이 롱커프 톱",
+      "description": {
+        "ko": "반사 장식 없는 밝은 회색 몸판과 긴 커프.",
+        "en": "Plain pale gray body and long cuffs, without reflective trim.",
+        "de": "Schlichter hellgrauer Rumpf und lange Bündchen ohne Reflexbesatz."
+      },
+      "howToWear": {
+        "ko": "검정 집업 아래 긴 회색 커프를 드러내 손목에 밝은 면을 두세요.",
+        "en": "Show the long gray cuffs below the black jacket to brighten the wrists.",
+        "de": "Die langen grauen Bündchen unter der schwarzen Jacke zeigen, um die Handgelenke aufzuhellen."
+      },
+      "image": "products/long-cuff-top.webp",
+      "sha256": "947642040582eb3962027ed5ca78515c51b3be3f563051e70f120370ca5d8faa",
+      "bytes": 43920,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tights",
+      "producerId": "04-03-bottom",
+      "appItemId": "coastal-cool-f35-night-running-20261102-04.tights",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 심플 러닝 타이츠",
+        "en": "Black simple running tights",
+        "de": "Schlichte schwarze Lauftights"
+      },
+      "nameKo": "블랙 심플 러닝 타이츠",
+      "description": {
+        "ko": "검정색 긴 레깅스와 단정한 허리선.",
+        "en": "Long black leggings and a clean waistband.",
+        "de": "Lange schwarze Tights und klarer Bund."
+      },
+      "howToWear": {
+        "ko": "베스트와 하의를 같은 검정으로 연결해 회색 소매를 강조하세요.",
+        "en": "Connect vest and tights in black to emphasize the gray sleeves.",
+        "de": "Weste und Tights in Schwarz verbinden und die grauen Ärmel betonen."
+      },
+      "image": "products/tights.webp",
+      "sha256": "595853f0ef728f97618ebeb820f53bf165da9b62abf9a682fb4c434d230e3d47",
+      "bytes": 18680,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "04-04-shoes",
+      "appItemId": "coastal-cool-f35-night-running-20261102-04.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "페일 그레이 러닝화",
+        "en": "Pale gray running shoes",
+        "de": "Hellgraue Laufschuhe"
+      },
+      "nameKo": "페일 그레이 러닝화",
+      "description": {
+        "ko": "밝은 회색 메시와 흰 중창.",
+        "en": "Pale gray mesh and white midsoles.",
+        "de": "Hellgraues Mesh und weiße Zwischensohlen."
+      },
+      "howToWear": {
+        "ko": "상의 소매와 신발의 회색을 연결해 밝은 요소를 위아래에 배치하세요.",
+        "en": "Echo the gray sleeves at the feet to balance the light accents.",
+        "de": "Das Grau der Ärmel an den Füßen aufgreifen und helle Akzente ausbalancieren."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "1882c4a110f93a14d86b8748f6617618980a2f802f5ad5e888f2b7337af35f28",
+      "bytes": 48256,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "04-05-socks",
+      "appItemId": "coastal-cool-f35-night-running-20261102-04.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 앵클 러닝 삭스",
+        "en": "White ankle running socks",
+        "de": "Weiße knöchelhohe Laufsocken"
+      },
+      "nameKo": "화이트 앵클 러닝 삭스",
+      "description": {
+        "ko": "짧은 흰 발목 길이와 짜임.",
+        "en": "Short white ankle length with knit texture.",
+        "de": "Kurze weiße Knöchellänge mit Strickstruktur."
+      },
+      "howToWear": {
+        "ko": "신발 위로 짧은 흰 가장자리만 보이게 정리하세요.",
+        "en": "Show only a short white edge above the shoes.",
+        "de": "Über den Schuhen nur einen kurzen weißen Rand zeigen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "2c95b213a2f3fa8cdf3385519922f4f393874f406ab0d34227269fe40e0f70c5",
+      "bytes": 46652,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "earphones",
+      "producerId": "04-06-gear",
+      "appItemId": "coastal-cool-f35-night-running-20261102-04.earphones",
+      "appCategory": "gear",
+      "name": {
+        "ko": "화이트 유선 이어폰",
+        "en": "White wired earphones",
+        "de": "Weiße kabelgebundene Ohrhörer"
+      },
+      "nameKo": "화이트 유선 이어폰",
+      "description": {
+        "ko": "흰색 이어버드 한 쌍과 Y자 유선 케이블.",
+        "en": "White earbuds with a Y-shaped wired cable.",
+        "de": "Weiße Ohrhörer mit Y-förmigem Kabel."
+      },
+      "howToWear": {
+        "ko": "이어폰 선이 목 주변과 손동작을 가리지 않도록 길이를 정리하세요.",
+        "en": "Arrange the cable so it does not obscure the neckline or hands.",
+        "de": "Das Kabel so ordnen, dass Ausschnitt und Hände frei bleiben."
+      },
+      "image": "products/earphones.webp",
+      "sha256": "02856cc4d3dbc972c1be94342dffa336baaeabfe317635415b702812265d9aa4",
+      "bytes": 26996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b203"
+}

@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "1.0",
+  "id": "coastal-cool-f35-night-running-20261102-05",
+  "batchId": "coastal-overcast-cool-female-night-running-20261102",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "night",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "night",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "warm-coastal-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: cloudy night harbour promenade with pale stucco walls, wall lamps and moored boats; no rain depicted (reflective paving and fountain water are not rain); humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1619285e8e327a4ee9ffd1d3b5978c515eda86a04d048437a09924ff622ead78",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "coastal-cool-f35-night-running-20261102-05",
+  "appStyle": "run",
+  "appModule": "look/coastal-overcast-cool-female-night-running-20261102.js",
+  "appHeroItem": "coastal-cool-f35-night-running-20261102-05.hooded-shell",
+  "scenePropsNotProducts": [
+    "harbour railing"
+  ],
+  "reconstructionNotice": "Rear view: the shell front, the cream inner top front and the watch face are conservative reconstructions. Hidden soles and socks are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer",
+    "checkedAt": "2026-11-03T09:53:27.373939+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "look-05-overview.jpg"
+    ],
+    "findings": "All27 on4 backgrounds reviewed.04outer corrected to long sleeve black zip jacket and04inner plain gray after reference comparison; corrected2 v2 sheets reviewed and passed. Old2 not for delivery. No opaque rectangles/halos/clipping observed. Hidden inner shoulder construction on01/02/03/05 conservative and not independently visible; no retail identity claimed. Rest follow matching visible silhouettes, pairs, colors."
+  },
+  "copy": {
+    "titleEn": "CHECK THE TIME, TURN BACK",
+    "title": {
+      "ko": "시간 확인, 그리고 뒤돌아보기",
+      "en": "Check the time, turn back",
+      "de": "Zeit prüfen, zurückblicken"
+    },
+    "deck": {
+      "ko": "세이지 셸과 차콜 타이츠 사이의 작은 크림색 여백.",
+      "en": "A little cream between a sage shell and charcoal tights.",
+      "de": "Etwas Creme zwischen Salbeijacke und Anthrazit-Tights."
+    },
+    "intro": {
+      "ko": "난간 옆에서 손목을 들어 시계를 보고 카메라 쪽으로 고개를 돌립니다.",
+      "en": "At the railing, she lifts her wrist and turns back toward the camera.",
+      "de": "Am Geländer hebt sie das Handgelenk und blickt zur Kamera zurück."
+    },
+    "body": {
+      "ko": "세이지 셸 아래 크림 이너의 커프와 밑단이 드러납니다. 차콜 타이츠의 곡선 봉제선은 뒤돌아선 자세를 따라가고, 회색 신발과 양말이 아래쪽을 차분하게 연결합니다. 어깨의 반사선과 어두운 시계 화면은 각각 빛과 시간을 담는 작은 디테일입니다.",
+      "en": "Cream cuffs and hem show beneath the sage shell. Curved seams in the charcoal tights follow the turned stance, while gray shoes and socks connect the lower layers quietly. A reflective shoulder line and dark watch face add two small details to the evening pause.",
+      "de": "Cremefarbene Bündchen und Saum zeigen sich unter der Salbeijacke. Geschwungene Nähte der Tights folgen der Drehung; graue Schuhe und Socken verbinden die unteren Lagen ruhig. Reflektierende Schulterlinie und dunkles Zifferblatt ergänzen die kurze Abendpause."
+    },
+    "pull": {
+      "ko": "뒤돌아봐도 분명한 전신의 선.",
+      "en": "A full silhouette that holds through a turn.",
+      "de": "Eine ganze Silhouette, auch in der Drehung."
+    },
+    "pullQuoteEn": "A full silhouette that holds through a turn.",
+    "tip": {
+      "ko": "재킷 밑단 아래 크림색을 조금 남겨 두 짙은 색을 분리하세요.",
+      "en": "Leave a little cream below the jacket to separate the darker colors.",
+      "de": "Unter dem Jackensaum etwas Creme zeigen, um dunklere Farben zu trennen."
+    }
+  },
+  "products": [
+    {
+      "id": "hooded-shell",
+      "producerId": "05-01-outer",
+      "appItemId": "coastal-cool-f35-night-running-20261102-05.hooded-shell",
+      "appCategory": "outer",
+      "name": {
+        "ko": "세이지 후드 러닝 셸",
+        "en": "Sage hooded running shell",
+        "de": "Salbeigrüne Laufjacke mit Kapuze"
+      },
+      "nameKo": "세이지 후드 러닝 셸",
+      "description": {
+        "ko": "세이지 후드와 은색 어깨 파이핑.",
+        "en": "Sage hood and silver shoulder piping.",
+        "de": "Salbeifarbene Kapuze und silberne Schulterpaspeln."
+      },
+      "howToWear": {
+        "ko": "크림 이너 밑단을 조금 남겨 차콜 타이츠와의 경계를 밝히세요.",
+        "en": "Leave a little cream hem to separate sage from charcoal.",
+        "de": "Etwas Cremesaum zeigen, um Salbei und Anthrazit zu trennen."
+      },
+      "image": "products/hooded-shell.webp",
+      "sha256": "165fb6783d1c26a2cd1726f4db79a1853433a18985cf17ff8d5e96e6d425853e",
+      "bytes": 48474,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-sleeve-top",
+      "producerId": "05-02-top",
+      "appItemId": "coastal-cool-f35-night-running-20261102-05.long-sleeve-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "크림 롱슬리브 러닝 톱",
+        "en": "Cream long-sleeve running top",
+        "de": "Cremefarbenes langärmeliges Laufshirt"
+      },
+      "nameKo": "크림 롱슬리브 러닝 톱",
+      "description": {
+        "ko": "크림색 둥근 목선과 긴소매.",
+        "en": "Cream round neckline and long sleeves.",
+        "de": "Cremefarbener Rundhals und lange Ärmel."
+      },
+      "howToWear": {
+        "ko": "재킷 아래 밑단과 커프를 조금 드러내 뒤쪽에서도 층이 읽히게 하세요.",
+        "en": "Show a little hem and cuff so the layers read from behind.",
+        "de": "Saum und Bündchen leicht zeigen, damit die Lagen von hinten lesbar bleiben."
+      },
+      "image": "products/long-sleeve-top.webp",
+      "sha256": "be17d470a2bd365195231536f8c37af2d3ec15b80a8f9ca63a2c5cc2ded3243c",
+      "bytes": 45766,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tights",
+      "producerId": "05-03-bottom",
+      "appItemId": "coastal-cool-f35-night-running-20261102-05.tights",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "차콜 커브심 러닝 타이츠",
+        "en": "Charcoal curved-seam running tights",
+        "de": "Anthrazitfarbene Lauftights mit geschwungenen Nähten"
+      },
+      "nameKo": "차콜 커브심 러닝 타이츠",
+      "description": {
+        "ko": "차콜색 몸판과 뒤쪽 곡선 봉제선.",
+        "en": "Charcoal body with curved rear seams.",
+        "de": "Anthrazitfarbene Tights mit geschwungenen Rückennähten."
+      },
+      "howToWear": {
+        "ko": "짧은 재킷 아래 뒤쪽 곡선 봉제선과 긴 다리선을 드러내세요.",
+        "en": "Let the curved rear seams and long leg line show below the short shell.",
+        "de": "Unter der kurzen Jacke geschwungene Rückennähte und lange Beinlinie zeigen."
+      },
+      "image": "products/tights.webp",
+      "sha256": "fc067a8721185b423609b09cbf6532ff0861c321cec869d1665bb3941419022e",
+      "bytes": 20098,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "05-04-shoes",
+      "appItemId": "coastal-cool-f35-night-running-20261102-05.running-shoes",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "그레이 로우 프로파일 러닝화",
+        "en": "Gray low-profile running shoes",
+        "de": "Graue flach geschnittene Laufschuhe"
+      },
+      "nameKo": "그레이 로우 프로파일 러닝화",
+      "description": {
+        "ko": "회색 메시와 흰 중창, 뒤꿈치 패널.",
+        "en": "Gray mesh, white midsoles and heel panels.",
+        "de": "Graues Mesh, weiße Zwischensohlen und Fersenpartien."
+      },
+      "howToWear": {
+        "ko": "차콜 하의 아래 회색과 흰 중창으로 가볍게 마무리하세요.",
+        "en": "Finish the charcoal line lightly with gray and white midsoles.",
+        "de": "Anthrazit mit Grau und weißen Zwischensohlen leicht abschließen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "5f48eff031f57886a668061f6518c60bac7686dfa84a087e6ae4d32a12a92098",
+      "bytes": 49374,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "05-05-socks",
+      "appItemId": "coastal-cool-f35-night-running-20261102-05.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "라이트 그레이 앵클 삭스",
+        "en": "Light gray ankle socks",
+        "de": "Hellgraue knöchelhohe Socken"
+      },
+      "nameKo": "라이트 그레이 앵클 삭스",
+      "description": {
+        "ko": "밝은 회색 짧은 양말 한 쌍.",
+        "en": "A pair of short light gray socks.",
+        "de": "Ein Paar kurze hellgraue Socken."
+      },
+      "howToWear": {
+        "ko": "회색 신발 위에 같은 계열의 짧은 양말을 연결하세요.",
+        "en": "Continue the gray shoe tone with short tonal socks.",
+        "de": "Den Grauton der Schuhe mit kurzen farbgleichen Socken fortführen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "17ab72ab0e75025372151beec1cd65967f75a701cfb8716b07acea008cf3ba1b",
+      "bytes": 47648,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "05-06-watch",
+      "appItemId": "coastal-cool-f35-night-running-20261102-05.watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "라운드 다크 스포츠 시계",
+        "en": "Round dark sports watch",
+        "de": "Runde dunkle Sportuhr"
+      },
+      "nameKo": "라운드 다크 스포츠 시계",
+      "description": {
+        "ko": "어두운 원형 화면과 검정 스트랩.",
+        "en": "Dark round face and black strap.",
+        "de": "Dunkles rundes Zifferblatt und schwarzes Band."
+      },
+      "howToWear": {
+        "ko": "재킷 커프를 살짝 올려 어두운 원형 화면이 보이게 하세요.",
+        "en": "Lift the jacket cuff slightly to reveal the round dark face.",
+        "de": "Das Jackenbündchen leicht hochschieben, damit das runde dunkle Zifferblatt sichtbar wird."
+      },
+      "image": "products/watch.webp",
+      "sha256": "8bbf990609f935a3353e5aad7fb28c0ec47ed53d42d61b8fb4356fd9fdc18e80",
+      "bytes": 28936,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Visible color, shape and construction match reference. Hidden shape conservatively inferred. No verified brand, fiber or performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색·구조를 기준으로 제작하고 가려진 부분은 보수적으로 복원했습니다. 판매 제품·브랜드·기능 성능은 확인하지 않았습니다.",
+        "en": "Based on visible color and construction; hidden parts conservatively reconstructed. Retail identity, brand and performance are unverified.",
+        "de": "Nach sichtbarer Farbe und Konstruktion erstellt; verdeckte Teile zurückhaltend ergänzt. Handelsidentität, Marke und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b203"
+}
