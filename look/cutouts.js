@@ -1119,7 +1119,12 @@
 "coastal-cool-m35-night-running-20261103-02.running-jacket": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-02/products/running-jacket.webp", 0.678],
 "coastal-cool-m35-night-running-20261103-03.hydration-vest": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-03/products/hydration-vest.webp", 0.135],
 "coastal-cool-m35-night-running-20261103-04.hooded-shell": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-04/products/hooded-shell.webp", 0.587],
-"coastal-cool-m35-night-running-20261103-05.cap": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-05/products/cap.webp", 0.181]
+"coastal-cool-m35-night-running-20261103-05.cap": ["look/global/coastal-overcast-cool-male-night-running-20261103/coastal-cool-m35-night-running-20261103-05/products/cap.webp", 0.181],
+"east-asian-cool-f35-day-street-20261103-01.bomber": ["look/global/east-asian-overcast-cool-female-day-street-20261103/east-asian-cool-f35-day-street-20261103-01/products/bomber.webp", 0.211],
+"east-asian-cool-f35-day-street-20261103-02.denim-jacket": ["look/global/east-asian-overcast-cool-female-day-street-20261103/east-asian-cool-f35-day-street-20261103-02/products/denim-jacket.webp", 0.344],
+"east-asian-cool-f35-day-street-20261103-03.overshirt": ["look/global/east-asian-overcast-cool-female-day-street-20261103/east-asian-cool-f35-day-street-20261103-03/products/overshirt.webp", 0.306],
+"east-asian-cool-f35-day-street-20261103-04.utility-jacket": ["look/global/east-asian-overcast-cool-female-day-street-20261103/east-asian-cool-f35-day-street-20261103-04/products/utility-jacket.webp", 0.458],
+"east-asian-cool-f35-day-street-20261103-05.blouson": ["look/global/east-asian-overcast-cool-female-day-street-20261103/east-asian-cool-f35-day-street-20261103-05/products/blouson.webp", 0.141]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1452,7 +1457,12 @@
 "coastal-cool-m35-night-running-20261103-02": "coastal-cool-m35-night-running-20261103-02.running-jacket",
 "coastal-cool-m35-night-running-20261103-03": "coastal-cool-m35-night-running-20261103-03.hydration-vest",
 "coastal-cool-m35-night-running-20261103-04": "coastal-cool-m35-night-running-20261103-04.hooded-shell",
-"coastal-cool-m35-night-running-20261103-05": "coastal-cool-m35-night-running-20261103-05.cap"
+"coastal-cool-m35-night-running-20261103-05": "coastal-cool-m35-night-running-20261103-05.cap",
+"east-asian-cool-f35-day-street-20261103-01": "east-asian-cool-f35-day-street-20261103-01.bomber",
+"east-asian-cool-f35-day-street-20261103-02": "east-asian-cool-f35-day-street-20261103-02.denim-jacket",
+"east-asian-cool-f35-day-street-20261103-03": "east-asian-cool-f35-day-street-20261103-03.overshirt",
+"east-asian-cool-f35-day-street-20261103-04": "east-asian-cool-f35-day-street-20261103-04.utility-jacket",
+"east-asian-cool-f35-day-street-20261103-05": "east-asian-cool-f35-day-street-20261103-05.blouson"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

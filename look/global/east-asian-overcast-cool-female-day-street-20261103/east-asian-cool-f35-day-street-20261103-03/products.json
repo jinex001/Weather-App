@@ -1,0 +1,364 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-street-20261103-03",
+  "batchId": "east-asian-overcast-cool-female-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime residential East Asian city lane with tiled shopfronts, a convenience store, potted plants, utility poles and overhead wires; dry asphalt, no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a06ac0a0b7db9b1fa2149a33c226e68add6794febdc17bc245e51572a5a89459",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-street-20261103-03",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-female-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-f35-day-street-20261103-03.overshirt",
+  "scenePropsNotProducts": [
+    "paper receipt"
+  ],
+  "reconstructionNotice": "The falling paper receipt is a scene prop. The ecru striped long sleeve shows at the hem and folded cuffs under the terracotta overshirt; the small hoops are warm gold-tone as in the actual image. Hidden backs and soles are inferred. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual QA",
+    "checkedAt": "2026-11-03T15:48:52.873714+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "look-03-overview.jpg"
+    ],
+    "findings": "All 27 isolated products have complete silhouettes, matching garment colors and visible details, clean alpha edges across four backgrounds, matching footwear/sock pairs, gold hoop pair and complete watch. No props or forced running trim. Look05 jeans retain visible rear construction; hidden garment fronts are conservative reconstructions. No visible matte, checkerboard or external shadow."
+  },
+  "copy": {
+    "titleEn": "A STEP TOWARD THE FALLING PAPER",
+    "title": {
+      "ko": "종이를 잡으려는 한 걸음",
+      "en": "A step toward the falling paper",
+      "de": "Ein Schritt zum fallenden Papier"
+    },
+    "deck": {
+      "ko": "테라코타와 가는 줄무늬에 작은 금빛.",
+      "en": "Terracotta, fine stripes and a small warm gold accent.",
+      "de": "Terrakotta, feine Streifen und ein kleiner goldener Akzent."
+    },
+    "intro": {
+      "ko": "떨어지는 종이에 손을 뻗으며 오버셔츠가 열립니다.",
+      "en": "The overshirt opens as a hand reaches for a falling slip of paper.",
+      "de": "Das Overshirt öffnet sich beim Griff nach einem fallenden Zettel."
+    },
+    "body": {
+      "ko": "따뜻한 흙빛 셔츠 안에 에크루와 검정의 가는 가로줄을 두었습니다. 여유 있는 네이비 팬츠와 검정 더비는 색 많은 상체를 차분하게 받칩니다. 머리 옆의 작은 금빛 링이 셔츠의 온도를 반복하고, 플래시는 팔을 뻗는 순간의 옷 주름을 살립니다.",
+      "en": "An ecru-and-black fine stripe sits inside the warm earth-red shirt. Relaxed navy trousers and black derbies steady the more colorful upper half. Small gold-tone hoops echo the shirt warmth, while flash picks out the folds made by the reaching arm.",
+      "de": "Feine ecrufarbene und schwarze Querstreifen liegen unter dem warmen erdroten Hemd. Lockere marineblaue Hose und schwarze Derbys beruhigen die farbige obere Hälfte. Kleine goldfarbene Creolen greifen die Wärme des Hemdes auf. Blitz zeigt die Falten des ausgestreckten Arms."
+    },
+    "pull": {
+      "ko": "움직임 사이로 드러나는 줄무늬.",
+      "en": "Stripes appear between movements.",
+      "de": "Streifen zwischen zwei Bewegungen."
+    },
+    "pullQuoteEn": "Stripes appear between movements.",
+    "tip": {
+      "ko": "소매를 가볍게 접되 줄무늬 이너의 커프를 무리하게 당기지 마세요.",
+      "en": "Turn the shirt sleeves lightly without pulling the striped cuffs tight.",
+      "de": "Hemdärmel locker umschlagen, ohne die gestreiften Bündchen straff zu ziehen."
+    }
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "producerId": "03-01-outer",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-03.overshirt",
+      "appCategory": "outer",
+      "name": {
+        "ko": "테라코타 오버셔츠",
+        "en": "Terracotta overshirt",
+        "de": "Terrakottafarbenes Overshirt"
+      },
+      "nameKo": "테라코타 오버셔츠",
+      "description": {
+        "ko": "붉은 흙빛에 칼라와 밝은 단추, 패치 주머니가 있는 긴소매 셔츠.",
+        "en": "Earth-red long-sleeve shirt with a collar, pale buttons and patch pockets.",
+        "de": "Erdrotes Langarmhemd mit Kragen, hellen Knöpfen und aufgesetzten Taschen."
+      },
+      "howToWear": {
+        "ko": "앞을 열고 소매를 한 번 접어 줄무늬 이너를 드러내세요.",
+        "en": "Open the front and turn the sleeves once to show the stripes.",
+        "de": "Vorn offen tragen und die Ärmel einmal umschlagen, um Streifen zu zeigen."
+      },
+      "image": "products/overshirt.webp",
+      "sha256": "e9f97607eb1947c6137b31f366047b83f278d3bb2630797a0405750a9a6b43d4",
+      "bytes": 46664,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "striped-top",
+      "producerId": "03-02-top",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-03.striped-top",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 스트라이프 롱슬리브",
+        "en": "Ecru striped long sleeve",
+        "de": "Ecrufarbenes Streifenshirt"
+      },
+      "nameKo": "에크루 스트라이프 롱슬리브",
+      "description": {
+        "ko": "에크루 바탕에 가는 검정 가로줄과 둥근 목선의 긴소매 톱.",
+        "en": "Ecru long sleeve with fine black horizontal stripes and a round neck.",
+        "de": "Ecrufarbenes Langarmshirt mit feinen schwarzen Querstreifen und Rundhals."
+      },
+      "howToWear": {
+        "ko": "오버셔츠 사이에 줄무늬 중앙을 넓게 남기세요.",
+        "en": "Leave a broad striped center between the overshirt panels.",
+        "de": "Zwischen den Hemdseiten eine breite gestreifte Mitte zeigen."
+      },
+      "image": "products/striped-top.webp",
+      "sha256": "2202c767f30e704de1ca2f13c731b43255082099203d331b8d68940e795746ff",
+      "bytes": 47454,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-03.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "네이비 스트레이트 팬츠",
+        "en": "Navy straight trousers",
+        "de": "Marineblaue gerade Hose"
+      },
+      "nameKo": "네이비 스트레이트 팬츠",
+      "description": {
+        "ko": "어두운 네이비와 벨트고리, 여유 있는 곧은 다리선의 팬츠.",
+        "en": "Dark navy trousers with belt loops and relaxed straight legs.",
+        "de": "Dunkelmarineblaue Hose mit Gürtelschlaufen und locker geraden Beinen."
+      },
+      "howToWear": {
+        "ko": "테라코타 상의와 대비되도록 하의는 단순한 네이비로 이어가세요.",
+        "en": "Keep navy below as a quiet contrast to terracotta.",
+        "de": "Marineblau unten als ruhigen Kontrast zu Terrakotta fortführen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "834b04bcb982ff0bcb827ea5b19752d77fc9de1e46ded86a2067d880788f849f",
+      "bytes": 23154,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "derbies",
+      "producerId": "03-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-03.derbies",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 청키 더비",
+        "en": "Black chunky derbies",
+        "de": "Schwarze kräftige Derbys"
+      },
+      "nameKo": "블랙 청키 더비",
+      "description": {
+        "ko": "검정 끈과 둥근 앞코, 두툼한 검정 밑창의 더비 한 켤레.",
+        "en": "Black lace-up derbies with rounded toes and substantial black soles.",
+        "de": "Schwarze Schnürderbys mit runden Kappen und kräftigen schwarzen Sohlen."
+      },
+      "howToWear": {
+        "ko": "팬츠 밑단을 신발 위에 가볍게 걸쳐 둥근 앞코를 남기세요.",
+        "en": "Let the hems lightly meet the shoes while leaving the toes visible.",
+        "de": "Säume leicht auf die Schuhe treffen lassen und die Kappen frei halten."
+      },
+      "image": "products/derbies.webp",
+      "sha256": "4689f9ccfcdd768fea4dc4aa9a8907ab5788b6013e8185f6a2d3d13507d3cc33",
+      "bytes": 47252,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "03-05-socks",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-03.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "블랙 쇼트 삭스",
+        "en": "Black short socks",
+        "de": "Kurze schwarze Socken"
+      },
+      "nameKo": "블랙 쇼트 삭스",
+      "description": {
+        "ko": "짧은 리브 입구와 단순한 검정 발등의 양말 한 쌍.",
+        "en": "Short black pair with ribbed openings and plain insteps.",
+        "de": "Kurzes schwarzes Paar mit Rippöffnungen und schlichtem Spann."
+      },
+      "howToWear": {
+        "ko": "더비와 같은 검정으로 발목의 색 변화를 줄이세요.",
+        "en": "Match the derbies in black to quiet the ankle transition.",
+        "de": "Mit Schwarz passend zu den Derbys den Knöchelübergang beruhigen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "ddad258e4a0bf2a6fc5682203bf13450d9e50e93f54bc12642139bc711a80b7b",
+      "bytes": 39094,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoop-earrings",
+      "producerId": "03-06-jewelry",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-03.hoop-earrings",
+      "appCategory": "jewelry",
+      "name": {
+        "ko": "골드 스몰 후프",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "nameKo": "골드 스몰 후프",
+      "description": {
+        "ko": "따뜻한 금빛의 가는 원형 링과 작은 여밈이 있는 귀걸이 한 쌍.",
+        "en": "Fine warm gold-tone circular earrings with small closures.",
+        "de": "Feine warme goldfarbene Ringohrringe mit kleinen Verschlüssen."
+      },
+      "howToWear": {
+        "ko": "머리를 귀 뒤로 넘겨 테라코타 옆에 작은 금빛을 남기세요.",
+        "en": "Tuck hair back to leave a small gold note beside terracotta.",
+        "de": "Haare hinters Ohr legen und neben Terrakotta einen goldenen Akzent zeigen."
+      },
+      "image": "products/hoop-earrings.webp",
+      "sha256": "1dea728c230c49e5cd08b22ac586676ad95e2fc6b70a01a0a9e9c553b507960f",
+      "bytes": 34510,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b205"
+}

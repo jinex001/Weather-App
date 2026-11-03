@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-street-20261103-02",
+  "batchId": "east-asian-overcast-cool-female-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime residential East Asian city lane with tiled shopfronts, a convenience store, potted plants, utility poles and overhead wires; dry asphalt, no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "83ca9a315811309d63a2f8cd11ff3f07828604e080ae8d9c948331c3a80d60cc",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-street-20261103-02",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-female-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-f35-day-street-20261103-02.denim-jacket",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "The pale gray hoodie (separate product) is worn under the washed denim jacket; its body and hood back are partly hidden and conservatively reconstructed. Gray ribbed socks are visible above both ivory sneakers. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual QA",
+    "checkedAt": "2026-11-03T15:48:52.873714+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "look-02-overview.jpg"
+    ],
+    "findings": "All 27 isolated products have complete silhouettes, matching garment colors and visible details, clean alpha edges across four backgrounds, matching footwear/sock pairs, gold hoop pair and complete watch. No props or forced running trim. Look05 jeans retain visible rear construction; hidden garment fronts are conservative reconstructions. No visible matte, checkerboard or external shadow."
+  },
+  "copy": {
+    "titleEn": "TIME TO UNTANGLE THE HOOD",
+    "title": {
+      "ko": "후드 끈을 푸는 시간",
+      "en": "Time to untangle the hood",
+      "de": "Zeit für die Kapuzenkordel"
+    },
+    "deck": {
+      "ko": "데님과 회색 후드가 만드는 겹친 목선.",
+      "en": "Denim and gray form two clear neckline layers.",
+      "de": "Jeans und Grau bilden zwei klare Lagen am Hals."
+    },
+    "intro": {
+      "ko": "발을 잠시 올리고 엉킨 끈을 정리하는 장면입니다.",
+      "en": "One foot is raised briefly while a drawstring is put back in order.",
+      "de": "Ein Fuß wird kurz angehoben, während die Kordel geordnet wird."
+    },
+    "body": {
+      "ko": "짧은 인디고 재킷에서 회색 후드와 긴 끈을 꺼냈습니다. 검정 크롭트 팬츠는 발목을 드러내고 회색 양말이 후디 색을 아래에서 반복합니다. 아이보리 캔버스화는 밝지만 과하게 튀지 않는 끝점입니다. 낮의 플래시는 데님 봉제선과 후드의 부드러운 주름을 구분합니다.",
+      "en": "The gray hood and long cords sit outside the short indigo jacket. Cropped black trousers reveal gray socks that repeat the hoodie color below. Ivory canvas shoes provide a pale, quiet finish. Daylight flash separates denim seams from the softer hood folds.",
+      "de": "Graue Kapuze und lange Kordeln liegen über der kurzen indigoblauen Jacke. Die verkürzte schwarze Hose zeigt graue Socken, die den Hoodie-Farbton wiederholen. Elfenbeinfarbene Canvas-Schuhe bilden einen ruhigen hellen Abschluss. Tageslichtblitz trennt Jeansnähte von weichen Kapuzenfalten."
+    },
+    "pull": {
+      "ko": "회색 한 줄이 위아래를 잇습니다.",
+      "en": "A gray line connects the layers.",
+      "de": "Eine graue Linie verbindet die Lagen."
+    },
+    "pullQuoteEn": "A gray line connects the layers.",
+    "tip": {
+      "ko": "양말 높이는 양쪽을 맞추고 후디 끈은 재킷 밖에 평평하게 두세요.",
+      "en": "Match sock heights and lay the hoodie cords flat outside the jacket.",
+      "de": "Socken gleich hoch tragen und die Kordeln flach außerhalb der Jacke legen."
+    }
+  },
+  "products": [
+    {
+      "id": "denim-jacket",
+      "producerId": "02-01-outer",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-02.denim-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "워시드 데님 재킷",
+        "en": "Washed denim jacket",
+        "de": "Verwaschene Jeansjacke"
+      },
+      "nameKo": "워시드 데님 재킷",
+      "description": {
+        "ko": "연한 인디고 워싱에 칼라, 단추, 덮개 가슴 주머니가 있는 재킷.",
+        "en": "Faded indigo jacket with a collar, buttons and flap chest pockets.",
+        "de": "Verblasste indigoblaue Jacke mit Kragen, Knöpfen und Brustklappentaschen."
+      },
+      "howToWear": {
+        "ko": "회색 후드를 칼라 밖에 꺼내 두 겹의 목선을 구분하세요.",
+        "en": "Pull the gray hood outside the collar to separate the neck layers.",
+        "de": "Die graue Kapuze über den Kragen legen und beide Lagen trennen."
+      },
+      "image": "products/denim-jacket.webp",
+      "sha256": "a0aa281dec471b700f653f3dbc97dcc9c374f9a0d2266b562aefb39f2e4e9cc0",
+      "bytes": 47544,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoodie",
+      "producerId": "02-02-top",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-02.hoodie",
+      "appCategory": "top",
+      "name": {
+        "ko": "페일 그레이 후디",
+        "en": "Pale gray hoodie",
+        "de": "Hellgrauer Hoodie"
+      },
+      "nameKo": "페일 그레이 후디",
+      "description": {
+        "ko": "긴 조임끈과 앞주머니, 리브 커프와 밑단의 밝은 회색 후디.",
+        "en": "Pale gray pullover with long drawstrings, a pouch pocket and ribbed edges.",
+        "de": "Hellgrauer Pullover mit langen Kordeln, Kängurutasche und Rippabschlüssen."
+      },
+      "howToWear": {
+        "ko": "조임끈을 같은 길이로 풀고 데님 재킷 아래 밑단을 조금 남기세요.",
+        "en": "Even the drawstrings and leave a little hem below the denim jacket.",
+        "de": "Kordeln gleich lang legen und etwas Saum unter der Jeansjacke zeigen."
+      },
+      "image": "products/hoodie.webp",
+      "sha256": "dd3cd5f945aee5336fafa217bf35ece5b2318ee95e60d081cd77158c5374e234",
+      "bytes": 43524,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-trousers",
+      "producerId": "02-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-02.cropped-trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 크롭트 팬츠",
+        "en": "Black cropped trousers",
+        "de": "Schwarze verkürzte Hose"
+      },
+      "nameKo": "블랙 크롭트 팬츠",
+      "description": {
+        "ko": "벨트고리와 앞여밈, 발목 위로 끝나는 곧은 다리선의 검정 팬츠.",
+        "en": "Black trousers with belt loops, a front fastening and straight cropped legs.",
+        "de": "Schwarze Hose mit Gürtelschlaufen, Frontverschluss und geraden verkürzten Beinen."
+      },
+      "howToWear": {
+        "ko": "회색 양말이 짧게 보이도록 발목 위 밑단을 유지하세요.",
+        "en": "Keep the cropped hem above a short visible gray sock line.",
+        "de": "Den kurzen Saum über einer schmalen grauen Sockenlinie halten."
+      },
+      "image": "products/cropped-trousers.webp",
+      "sha256": "c03147306cfcc24e1cfd4293b4f1ea551962ad3ee500d9cd8309a39a052fef1a",
+      "bytes": 16850,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-sneakers",
+      "producerId": "02-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-02.canvas-sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "아이보리 캔버스 스니커",
+        "en": "Ivory canvas sneakers",
+        "de": "Elfenbeinfarbene Canvas-Sneaker"
+      },
+      "nameKo": "아이보리 캔버스 스니커",
+      "description": {
+        "ko": "밝은 아이보리 갑피와 끈, 둥근 고무 토와 옆창의 한 켤레.",
+        "en": "Ivory lace-up pair with rounded rubber toe caps and pale sidewalls.",
+        "de": "Elfenbeinfarbenes Schnürpaar mit runden Gummikappen und hellen Sohlenrändern."
+      },
+      "howToWear": {
+        "ko": "검정 팬츠 끝에 밝은 신발을 두어 하체에 가벼운 끝점을 만드세요.",
+        "en": "Use the pale shoes as a light finish below black trousers.",
+        "de": "Die hellen Schuhe als leichten Abschluss unter Schwarz einsetzen."
+      },
+      "image": "products/canvas-sneakers.webp",
+      "sha256": "23d983ea65ff0e97a258ccf1d6e9c351c7e820db45728efe636d42aa6189374a",
+      "bytes": 46716,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "02-05-socks",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-02.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "그레이 리브 앵클 삭스",
+        "en": "Gray ribbed ankle socks",
+        "de": "Graue gerippte Knöchelsocken"
+      },
+      "nameKo": "그레이 리브 앵클 삭스",
+      "description": {
+        "ko": "짧은 발목 길이와 리브 입구, 둥근 발끝의 회색 양말 한 쌍.",
+        "en": "Gray ankle pair with ribbed cuffs and rounded toes.",
+        "de": "Graues Knöchelpaar mit Rippbündchen und runden Spitzen."
+      },
+      "howToWear": {
+        "ko": "후디의 회색을 발목에 작게 반복해 위아래를 연결하세요.",
+        "en": "Repeat the hoodie gray briefly at the ankles.",
+        "de": "Das Grau des Hoodies an den Knöcheln klein wiederholen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "47621f88c2e3b178d90923f839620dc561bfb00f09be66a6fc167c078c51918e",
+      "bytes": 49966,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b205"
+}

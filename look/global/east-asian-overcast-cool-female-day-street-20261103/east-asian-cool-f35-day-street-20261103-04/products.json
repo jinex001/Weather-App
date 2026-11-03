@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-street-20261103-04",
+  "batchId": "east-asian-overcast-cool-female-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime residential East Asian city lane with tiled shopfronts, a convenience store, potted plants, utility poles and overhead wires; dry asphalt, no rain depicted; humidity not inferred."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "10332d71087fb02eea0b6e85bb5a527b703c1d71527826466c0f0b52b7dc08eb",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-street-20261103-04",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-female-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-f35-day-street-20261103-04.utility-jacket",
+  "scenePropsNotProducts": [
+    "rice cracker",
+    "snack wrapper"
+  ],
+  "reconstructionNotice": "The rice cracker and its paper wrapper are scene props. Seated pose: the cargo trousers' full leg length and the tote's hidden side are conservatively reconstructed. Hidden backs and soles are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual QA",
+    "checkedAt": "2026-11-03T15:48:52.873714+00:00",
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "look-04-overview.jpg"
+    ],
+    "findings": "All 27 isolated products have complete silhouettes, matching garment colors and visible details, clean alpha edges across four backgrounds, matching footwear/sock pairs, gold hoop pair and complete watch. No props or forced running trim. Look05 jeans retain visible rear construction; hidden garment fronts are conservative reconstructions. No visible matte, checkerboard or external shadow."
+  },
+  "copy": {
+    "titleEn": "COLORS AT THE BENCH",
+    "title": {
+      "ko": "벤치에서 나누는 색",
+      "en": "Colors at the bench",
+      "de": "Farben auf der Bank"
+    },
+    "deck": {
+      "ko": "세이지, 검정, 밝은 스톤의 편안한 층.",
+      "en": "Easy layers in sage, black and pale stone.",
+      "de": "Entspannte Lagen in Salbei, Schwarz und hellem Stein."
+    },
+    "intro": {
+      "ko": "낮은 벤치에 앉아 잠시 포장을 여는 쉬는 시간입니다.",
+      "en": "A low bench offers a brief pause to open a snack wrapper.",
+      "de": "Auf einer niedrigen Bank wird kurz eine Snackverpackung geöffnet."
+    },
+    "body": {
+      "ko": "큰 패치 주머니의 세이지 재킷 아래 검정 니트를 두어 중심을 잡았습니다. 넓은 스톤 카고는 앉은 자세에서도 다리선을 읽게 하고, 짙은 회색 캔버스화가 밝은 바지 끝을 정돈합니다. 부드러운 검정 토트는 니트와 같은 색으로 연결됩니다. 플래시는 주머니와 무릎의 접힘을 선명하게 보여줍니다.",
+      "en": "A black knit anchors the sage jacket with its large patch pockets. Broad stone cargo legs remain readable in the seated pose, with dark gray canvas shoes grounding the pale hems. The soft black tote repeats the knit color. Flash defines the pockets and bends at the knees.",
+      "de": "Ein schwarzer Pullover gibt der salbeigrünen Jacke mit großen Taschen eine klare Mitte. Die weite steinfarbene Cargo bleibt auch im Sitzen erkennbar. Dunkelgraue Canvas-Schuhe schließen die hellen Säume ab, die weiche schwarze Tasche wiederholt den Pulloverton. Blitz betont Taschen und Kniefalten."
+    },
+    "pull": {
+      "ko": "밝은 카고를 받치는 검정 중심.",
+      "en": "A black center steadies pale cargo.",
+      "de": "Schwarz gibt heller Cargo Halt."
+    },
+    "pullQuoteEn": "A black center steadies pale cargo.",
+    "tip": {
+      "ko": "앉을 때 토트를 허벅지 위 대신 옆에 두어 카고 주머니를 가리지 마세요.",
+      "en": "Place the tote beside you instead of over the thighs to leave the cargo pockets visible.",
+      "de": "Die Tasche neben sich statt auf die Oberschenkel stellen, damit die Cargotaschen sichtbar bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "utility-jacket",
+      "producerId": "04-01-outer",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-04.utility-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "세이지 유틸리티 재킷",
+        "en": "Sage utility jacket",
+        "de": "Salbeigrüne Utilityjacke"
+      },
+      "nameKo": "세이지 유틸리티 재킷",
+      "description": {
+        "ko": "차분한 세이지색에 칼라와 앞여밈, 큰 덮개 패치 주머니의 재킷.",
+        "en": "Muted sage jacket with a collar, front fastening and large flap patch pockets.",
+        "de": "Gedämpft salbeigrüne Jacke mit Kragen, Frontverschluss und großen Klappentaschen."
+      },
+      "howToWear": {
+        "ko": "검정 니트가 목과 중앙에 보이게 재킷을 열어 입으세요.",
+        "en": "Open the jacket to show black at the neck and center.",
+        "de": "Die Jacke öffnen und Schwarz an Hals und Mitte zeigen."
+      },
+      "image": "products/utility-jacket.webp",
+      "sha256": "c1b38cf93e3d264bcaf5582afbf9f12ddcdc3afbd23987bb34493ae76d5ee022",
+      "bytes": 48650,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit",
+      "producerId": "04-02-top",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-04.knit",
+      "appCategory": "top",
+      "name": {
+        "ko": "블랙 크루넥 니트",
+        "en": "Black crewneck knit",
+        "de": "Schwarzer Rundhalspullover"
+      },
+      "nameKo": "블랙 크루넥 니트",
+      "description": {
+        "ko": "장식 없는 둥근 목선과 리브 끝단, 잔잔한 표면의 검정 긴소매 니트.",
+        "en": "Plain black fine-textured long sleeve with a round neck and ribbed edges.",
+        "de": "Schlichter fein strukturierter schwarzer Langarmpullover mit Rundhals und Rippkanten."
+      },
+      "howToWear": {
+        "ko": "밝은 카고 위에 검정 밑단을 단정히 두어 중심을 잡으세요.",
+        "en": "Keep the black hem neat above pale cargo trousers.",
+        "de": "Den schwarzen Saum über der hellen Cargo ordentlich halten."
+      },
+      "image": "products/knit.webp",
+      "sha256": "0e16f5a2abe2ac9c24442a4f0043b13e39f8e9d9248b82dcd0b7ccd111d2099b",
+      "bytes": 33246,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cargo-trousers",
+      "producerId": "04-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-04.cargo-trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "스톤 카고 팬츠",
+        "en": "Stone cargo trousers",
+        "de": "Steinfarbene Cargohose"
+      },
+      "nameKo": "스톤 카고 팬츠",
+      "description": {
+        "ko": "연한 스톤색과 넓은 다리, 허벅지 덮개 주머니가 있는 팬츠.",
+        "en": "Pale stone trousers with wide legs and flap thigh pockets.",
+        "de": "Helle steinfarbene Hose mit weiten Beinen und Oberschenkelklappentaschen."
+      },
+      "howToWear": {
+        "ko": "앉을 때 주머니를 납작하게 정리해 넓은 실루엣을 유지하세요.",
+        "en": "Flatten the pockets when sitting to keep the wide silhouette clear.",
+        "de": "Beim Sitzen Taschen flach legen und die weite Silhouette erhalten."
+      },
+      "image": "products/cargo-trousers.webp",
+      "sha256": "d5dc95e3d5daa1eae075220fdac1a095904340bf8973e6177c365fbd4cbd5321",
+      "bytes": 43804,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-sneakers",
+      "producerId": "04-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-04.canvas-sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "다크 그레이 캔버스 로톱",
+        "en": "Dark gray canvas low-tops",
+        "de": "Dunkelgraue Canvas-Sneaker"
+      },
+      "nameKo": "다크 그레이 캔버스 로톱",
+      "description": {
+        "ko": "짙은 회색 갑피와 밝은 끈, 흰 고무 토의 낮은 스니커 한 켤레.",
+        "en": "Dark gray low-tops with pale laces and white rubber toe caps.",
+        "de": "Dunkelgraue Halbschuhe mit hellen Schnürsenkeln und weißen Gummikappen."
+      },
+      "howToWear": {
+        "ko": "스톤색 밑단 아래 어두운 신발을 두어 하체 경계를 잡으세요.",
+        "en": "Anchor pale stone hems with the darker shoes.",
+        "de": "Helle steinfarbene Säume mit dunkleren Schuhen abschließen."
+      },
+      "image": "products/canvas-sneakers.webp",
+      "sha256": "0c2edfedb793d8e72b900184e4e688852eac714609df69cc9906109996498065",
+      "bytes": 49144,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tote-bag",
+      "producerId": "04-05-bag",
+      "appItemId": "east-asian-cool-f35-day-street-20261103-04.tote-bag",
+      "appCategory": "bag",
+      "name": {
+        "ko": "블랙 소프트 토트",
+        "en": "Black soft tote",
+        "de": "Schwarze weiche Tragetasche"
+      },
+      "nameKo": "블랙 소프트 토트",
+      "description": {
+        "ko": "넓은 몸체와 긴 손잡이, 장식 없는 검정 토트.",
+        "en": "Plain black tote with a broad soft body and long handles.",
+        "de": "Schlichte schwarze Tasche mit breitem weichem Körper und langen Henkeln."
+      },
+      "howToWear": {
+        "ko": "니트의 검정을 가방에 반복하고 어깨 한쪽에 편하게 두세요.",
+        "en": "Repeat the knit black in the tote and carry it on one shoulder.",
+        "de": "Das Schwarz des Pullovers in der Tasche wiederholen und einseitig schultern."
+      },
+      "image": "products/tote-bag.webp",
+      "sha256": "0ee05d9616fe2a7c25fbc59066f76c2663ac9b028960e3119d36a37eadb54082",
+      "bytes": 24746,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; Match visible colors/shapes/construction. Hidden structure conservative, no verified brand/fiber/performance claim.",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b205"
+}

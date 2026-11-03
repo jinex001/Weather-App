@@ -266,3 +266,8 @@ New cell cloudy · cool · female · evening · run: 5 producer-reviewed editori
 ## b204 · Overcast Cool male evening running · 2026-11-03
 
 New cell cloudy · cool · male · evening · run: 5 producer-reviewed editorials (standing user workflow authorization, no individual human visual approval) and 28 transparent products (5/5/5/6/7). Reviewed warm-coastal-urban, no rain, humidity unknown, storage 35+, model look 28–32. In coastal locations after sunset, dry chilly/cool/pleasant male running now draws from these 5 instead of the daytime fallback; rain stays COMING SOON and dry warm evenings show COMING SOON (existing evening-only rule, as in b192/b201–b203). Berlin and unknown regions unchanged. With b201–b204 the coastal overcast cool evening cells for minimal and running are filled for both genders. [Validation](coastal-overcast-cool-male-night-running-20261103-validation.md).
+
+
+## b205 · Overcast Cool female day street · East Asia · 2026-11-03
+
+First east-asian-urban cell: cloudy · cool · female · day · street, 5 producer-reviewed editorials (standing user workflow authorization, no individual human visual approval) and 27 transparent products (5/5/6/5/6). Reviewed east-asian-urban, no rain, humidity unknown, storage 35+, model look 25–28, audience 30–44. For places with a KR/JP/CN/TW/HK country code, cloudy cool day female street now draws these 5 instead of the Berlin chilly neighbours, and cloudy pleasant day female street shows them as the colder neighbour instead of COMING SOON. Clear, rain, evening, male, minimal and running in East Asia, and every European, coastal and unknown-region cell, are unchanged. Other D (East Asia) cells remain open. [Validation](east-asian-overcast-cool-female-day-street-20261103-validation.md).
