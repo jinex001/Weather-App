@@ -1,0 +1,463 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-running-20261104-01",
+  "batchId": "east-asian-overcast-cool-female-day-running-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban streets with small tiled building walls, shop and cafe windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; white reflective details catch the direct flash; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "709140e519fed60d5ed2e72302c9dd88f3fad51dc3b749913ab302b7c5d9df98",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 8,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-running-20261104-01",
+  "appStyle": "run",
+  "appModule": "look/east-asian-overcast-cool-female-day-running-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-running-20261104-01.mesh-runners",
+  "scenePropsNotProducts": [
+    "metal guard rail"
+  ],
+  "reconstructionNotice": "The metal guard rail is a scene prop, not a product. Bent forward with one foot on the kerb: the cobalt jacket back and hidden side, the gray crewneck body and the black shorts' seat are conservatively reconstructed. The gray cuffs in the editorial belong to the separate gray inner top; the delivered jacket is corrected v2, with blue cuffs only, and rejected v1 is kept for archive evidence and never deployed. The shorts and full-length tights are separate products. One silver stud is visible; the pair is inferred. Brand, metal, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex",
+    "checkedAt": "2026-11-04T20:16:04.060511+00:00",
+    "productCount": 34,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image of all five overview sheets, all34 across white/black/gray/app backgrounds",
+      "All targets independently isolated; no outfit collages",
+      "01jacketv2 blue cuffs only, gray inner top separate",
+      "Shorts and tights separate",
+      "04vest two chest buckles no zip; blue top separate; silver metal bracelet watch",
+      "05full sleeve navy jacket separate from gray tee",
+      "Complete matching shoe and sock pairs; reconstructed held shoe pair",
+      "Edges and transparency acceptable in all four final500composites"
+    ]
+  },
+  "copy": {
+    "titleEn": "A PAUSE FOR LOOSE LACES",
+    "title": {
+      "ko": "풀린 끈 앞의 잠깐",
+      "en": "A pause for loose laces",
+      "de": "Eine Pause für lose Senkel"
+    },
+    "deck": {
+      "ko": "코발트 재킷과 검정 두 겹 하의의 명확한 대비.",
+      "en": "Cobalt meets two independent black lower layers.",
+      "de": "Kobaltblau trifft auf zwei getrennte schwarze Unterlagen."
+    },
+    "intro": {
+      "ko": "낮은 턱에 한 발을 올리고 풀린 신발끈을 다시 묶습니다.",
+      "en": "She raises one foot onto a low curb to retie a loose lace.",
+      "de": "Sie stellt einen Fuß auf eine niedrige Kante und bindet den gelösten Senkel neu."
+    },
+    "body": {
+      "ko": "코발트 재킷의 흰 위팔 반사선이 플래시에 밝게 보입니다. 회색 긴소매 이너는 재킷 커프 아래 별도 층으로 이어지고 검정 쇼츠와 긴 타이츠가 움직임을 나눕니다. 흰 양말과 메시 러닝화, 검정 원형 시계와 작은 은색 스터드가 손과 발의 동작을 마무리합니다.",
+      "en": "White upper-arm bands on the cobalt jacket catch the flash. Gray inner sleeves remain a separate layer below the blue cuffs, while black shorts and full-length tights divide the lower silhouette. White socks and mesh runners finish the feet; a black round watch and tiny silver-tone studs complete the small details.",
+      "de": "Weiße Oberarmbänder der kobaltblauen Jacke fangen den Blitz. Graue Innenärmel bleiben unter blauen Bündchen eine eigene Lage, schwarze Shorts und lange Tight teilen die untere Silhouette. Weiße Socken und Mesh-Laufschuhe schließen die Füße ab; schwarze Runduhr und kleine Silberstecker ergänzen die Details."
+    },
+    "pull": {
+      "ko": "밝은 소매선 아래 분리된 회색 커프.",
+      "en": "A separate gray cuff below a bright sleeve line.",
+      "de": "Ein separates graues Bündchen unter der hellen Ärmellinie."
+    },
+    "pullQuoteEn": "A separate gray cuff below a bright sleeve line.",
+    "tip": {
+      "ko": "끈을 묶은 뒤 양쪽 끝을 짧게 정리하고 소매가 손을 덮지 않게 하세요.",
+      "en": "Keep lace ends short after tying and clear both hands of the sleeves.",
+      "de": "Die Senkelenden kurz halten und beim Binden beide Hände von den Ärmeln freihalten."
+    }
+  },
+  "products": [
+    {
+      "id": "reflective-jacket",
+      "producerId": "01-01-outer",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.reflective-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "코발트 리플렉티브 재킷",
+        "en": "Cobalt reflective jacket",
+        "de": "Kobaltblaue Reflexjacke"
+      },
+      "nameKo": "코발트 리플렉티브 재킷",
+      "description": {
+        "ko": "스탠드칼라와 중앙 지퍼, 흰 위팔 반사선, 파란 탄성 커프의 가벼운 재킷입니다.",
+        "en": "Light jacket with stand collar, central zip, white upper-arm reflective bands and blue elastic cuffs.",
+        "de": "Leichte Jacke mit Stehkragen, mittigem Zip, weißen Reflexbändern am Oberarm und blauen Elastikbündchen."
+      },
+      "howToWear": {
+        "ko": "회색 이너 커프가 별도 층으로 보이도록 재킷 소매를 정리하세요.",
+        "en": "Arrange the jacket sleeves so the gray inner cuffs remain a separate layer.",
+        "de": "Die Jackenärmel so ordnen, dass die grauen Innenbündchen eine eigene Lage bleiben."
+      },
+      "image": "products/reflective-jacket.webp",
+      "sha256": "57b1d4f91aeed3cd09ab0a6c8c9658952405add7994bcce7e1269877a184cc4a",
+      "bytes": 47064,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; cobalt blue lightweight zip running jacket, stand collar, full long sleeves, white reflective band around each upper arm, subtle side pockets; restore cuffs from visible reference",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-sleeve-crewneck",
+      "producerId": "01-02-top",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.long-sleeve-crewneck",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "그레이 크루넥 긴소매",
+        "en": "Gray long-sleeve crewneck",
+        "de": "Graues Langarmshirt"
+      },
+      "nameKo": "그레이 크루넥 긴소매",
+      "description": {
+        "ko": "회색의 고른 앞판과 둥근 목선, 긴소매와 짧은 커프가 있는 이너입니다.",
+        "en": "Gray inner top with plain front, round neck, long sleeves and short cuffs.",
+        "de": "Graues Innenshirt mit schlichter Vorderseite, Rundhals, langen Ärmeln und kurzen Bündchen."
+      },
+      "howToWear": {
+        "ko": "재킷 안에서 소매가 비틀리지 않도록 손목까지 펴 주세요.",
+        "en": "Smooth the sleeves to the wrists inside the jacket.",
+        "de": "Die Ärmel in der Jacke bis zu den Handgelenken glatt ziehen."
+      },
+      "image": "products/long-sleeve-crewneck.webp",
+      "sha256": "c41750ef54f55bf8ac53e56245c69e638e41c6cf2765658ae8f826ed523e53d9",
+      "bytes": 48288,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; light gray crewneck long-sleeve running top, thin plain fabric, fitted cuffs; conservative hidden front",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "curved-shorts",
+      "producerId": "01-03-shorts",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.curved-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "블랙 커브 러닝 쇼츠",
+        "en": "Black curved running shorts",
+        "de": "Schwarze Laufshorts mit Rundsaum"
+      },
+      "nameKo": "블랙 커브 러닝 쇼츠",
+      "description": {
+        "ko": "탄성 허리와 둥근 옆 트임의 여유로운 검정 쇼츠입니다.",
+        "en": "Relaxed black shorts with elastic waist and curved side hems.",
+        "de": "Lockere schwarze Shorts mit Elastikbund und gerundeten Seitensäumen."
+      },
+      "howToWear": {
+        "ko": "타이츠 위 허리선을 고르게 놓고 옆 트임이 말리지 않게 하세요.",
+        "en": "Set the waist evenly over tights and keep side hems unrolled.",
+        "de": "Den Bund gleichmäßig über der Tight ausrichten und die Säume glatt lassen."
+      },
+      "image": "products/curved-shorts.webp",
+      "sha256": "3a288250fb26be7e42fc038c468c87f16e8b047e0a7d6e50b46ea425ffd5d6b6",
+      "bytes": 31544,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black loose running shorts, curved side hem and elastic waist; shorts alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tights",
+      "producerId": "01-04-tights",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.tights",
+      "appCategory": "bottom",
+      "producerCategory": "tights",
+      "name": {
+        "ko": "블랙 풀렝스 타이츠",
+        "en": "Black full-length tights",
+        "de": "Schwarze lange Lauftight"
+      },
+      "nameKo": "블랙 풀렝스 타이츠",
+      "description": {
+        "ko": "단순한 허리와 몸에 맞는 긴 다리선의 검정 타이츠입니다.",
+        "en": "Black tights with simple waist and fitted full-length legs.",
+        "de": "Schwarze Tight mit schlichtem Bund und körpernahem langem Bein."
+      },
+      "howToWear": {
+        "ko": "쇼츠 아래 무릎과 발목의 접힘을 펴 주세요.",
+        "en": "Smooth knee and ankle folds below the shorts.",
+        "de": "Knie- und Knöchelfalten unter den Shorts glätten."
+      },
+      "image": "products/tights.webp",
+      "sha256": "7bcebe92bb2dcc9345f1ef49fcfc138043d8e2f8811a6943441f1a4e668c6ed3",
+      "bytes": 19284,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black fitted full-length running tights, simple elastic waist; tights alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mesh-runners",
+      "producerId": "01-05-shoes",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.mesh-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 메시 러너",
+        "en": "White mesh runners",
+        "de": "Weiße Mesh-Laufschuhe"
+      },
+      "nameKo": "화이트 메시 러너",
+      "description": {
+        "ko": "흰 끈과 메시 앞판, 조각된 흰 창의 러닝화 한 켤레입니다.",
+        "en": "White running pair with mesh uppers, white laces and sculpted soles.",
+        "de": "Weißes Laufpaar mit Mesh-Oberteil, weißen Senkeln und geformten Sohlen."
+      },
+      "howToWear": {
+        "ko": "풀린 끈을 묶은 뒤 끝이 바닥에 끌리지 않게 하세요.",
+        "en": "After tying, keep loose lace ends clear of the ground.",
+        "de": "Nach dem Binden die Senkelenden vom Boden fernhalten."
+      },
+      "image": "products/mesh-runners.webp",
+      "sha256": "ad61dad67d0c53a95d56bf97e1bfa3a889a5f0a8a7a27b79ba2c93e860bb72e9",
+      "bytes": 49622,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair white and light-gray mesh running shoes, white laces, sculpted white soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "01-06-socks",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "화이트 앵클 러닝 삭스",
+        "en": "White ankle running socks",
+        "de": "Weiße Knöchel-Laufsocken"
+      },
+      "nameKo": "화이트 앵클 러닝 삭스",
+      "description": {
+        "ko": "짧은 리브 커프와 메시 발등의 흰 양말 한 쌍입니다.",
+        "en": "White pair with short ribbed cuffs and mesh insteps.",
+        "de": "Weißes Paar mit kurzen Rippbündchen und Mesh-Spann."
+      },
+      "howToWear": {
+        "ko": "신발 뒤꿈치 위로 양말 커프를 양쪽 같은 높이로 펴세요.",
+        "en": "Set both cuffs evenly above the shoe heels.",
+        "de": "Beide Bündchen gleich hoch über den Fersen ausrichten."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "ed34c8c839e8460e43d9600df73515ea8dab15e69d7b2871d6ae463185d698e9",
+      "bytes": 49406,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair white ribbed ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sports-watch",
+      "producerId": "01-07-watch",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.sports-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "블랙 라운드 스포츠워치",
+        "en": "Black round sports watch",
+        "de": "Schwarze runde Sportuhr"
+      },
+      "nameKo": "블랙 라운드 스포츠워치",
+      "description": {
+        "ko": "검정 원형 화면과 유연한 구멍 스트랩의 시계입니다.",
+        "en": "Black round screen with a flexible perforated strap.",
+        "de": "Schwarzer runder Bildschirm mit flexiblem gelochtem Band."
+      },
+      "howToWear": {
+        "ko": "신발끈을 묶을 때 시계가 손등으로 밀리지 않게 조절하세요.",
+        "en": "Adjust so the watch stays off the hand while tying laces.",
+        "de": "So einstellen, dass die Uhr beim Schnüren nicht auf die Hand rutscht."
+      },
+      "image": "products/sports-watch.webp",
+      "sha256": "5c5401d7015db85a8627b3141f63a4f4746873ec6eb044a4e53fbe61a5a4b884",
+      "bytes": 21926,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black round sports watch, black screen and black flexible strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ball-studs",
+      "producerId": "01-08-earrings",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-01.ball-studs",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "실버 미니 볼 스터드",
+        "en": "Silver mini ball studs",
+        "de": "Silberne Mini-Kugelstecker"
+      },
+      "nameKo": "실버 미니 볼 스터드",
+      "description": {
+        "ko": "작은 은색 볼과 포스트, 뒤 잠금의 귀걸이 한 쌍입니다.",
+        "en": "Small silver-tone ball pair with posts and butterfly backs.",
+        "de": "Kleines silberfarbenes Kugelpaar mit Stiften und Schmetterlingsverschlüssen."
+      },
+      "howToWear": {
+        "ko": "옷을 갈아입기 전 잠금이 안정적으로 맞는지 확인하세요.",
+        "en": "Check the backs sit securely before changing layers.",
+        "de": "Vor dem Umziehen den sicheren Sitz der Verschlüsse prüfen."
+      },
+      "image": "products/ball-studs.webp",
+      "sha256": "568f1d0b64da777399ec7d677b00b7a7203c5a7726667672dcb207bd33a260cc",
+      "bytes": 19938,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair tiny silver-tone round stud earrings with backs",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b209"
+}

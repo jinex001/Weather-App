@@ -1,0 +1,381 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-running-20261104-02",
+  "batchId": "east-asian-overcast-cool-female-day-running-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban streets with small tiled building walls, shop and cafe windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; white reflective details catch the direct flash; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "2a2be1612f97251d6e6fc03433afe254bbe37063e3353ff502188dc15549252c",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-running-20261104-02",
+  "appStyle": "run",
+  "appModule": "look/east-asian-overcast-cool-female-day-running-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-running-20261104-02.running-shoes",
+  "scenePropsNotProducts": [
+    "pebble"
+  ],
+  "reconstructionNotice": "The pebble is a scene prop, not a product. One gray shoe is held in the hand and the other is worn, and they are listed as one pair. The sole and upper seen on the held shoe inform the pair, and the hidden parts of the worn shoe are inferred. The black zip belt is seen from the front; its full webbing length is inferred. The charcoal shorts and navy tights are separate products. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex",
+    "checkedAt": "2026-11-04T20:16:04.060511+00:00",
+    "productCount": 34,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image of all five overview sheets, all34 across white/black/gray/app backgrounds",
+      "All targets independently isolated; no outfit collages",
+      "01jacketv2 blue cuffs only, gray inner top separate",
+      "Shorts and tights separate",
+      "04vest two chest buckles no zip; blue top separate; silver metal bracelet watch",
+      "05full sleeve navy jacket separate from gray tee",
+      "Complete matching shoe and sock pairs; reconstructed held shoe pair",
+      "Edges and transparency acceptable in all four final500composites"
+    ]
+  },
+  "copy": {
+    "titleEn": "A PEBBLE IN THE SHOE",
+    "title": {
+      "ko": "신발 속 작은 돌",
+      "en": "A pebble in the shoe",
+      "de": "Ein Stein im Schuh"
+    },
+    "deck": {
+      "ko": "코랄 긴소매와 네이비 타이츠의 선명한 조합.",
+      "en": "Coral sleeves meet navy tights.",
+      "de": "Korallfarbene Ärmel treffen auf Marinetights."
+    },
+    "intro": {
+      "ko": "한쪽 신발을 벗어 손에 들고 밑창 가까이의 작은 돌을 털어 냅니다.",
+      "en": "She removes one shoe and holds it while shaking out a small pebble.",
+      "de": "Sie zieht einen Schuh aus und hält ihn beim Ausschütteln eines kleinen Steins."
+    },
+    "body": {
+      "ko": "흰 반사선이 코랄 소매 바깥을 따라 내려갑니다. 차콜 쇼츠는 네이비 타이츠와 별도 층을 이루고 회색 양말 한쪽이 신발 밖으로 드러납니다. 검정 허리 파우치는 몸 앞에 붙어 두 손의 동작을 비워 줍니다. 회색 러닝화는 신은 한쪽과 손에 든 한쪽이 한 켤레를 이룹니다.",
+      "en": "White reflective lines trace the outer coral sleeves. Charcoal shorts sit independently over navy tights, with one gray sock exposed outside the removed shoe. The black waist pouch stays close to the front and frees both hands. The shoe in hand and the one still worn form a complete gray running pair.",
+      "de": "Weiße Reflexlinien folgen den äußeren korallfarbenen Ärmeln. Anthrazitshorts liegen getrennt über der Marinetight; eine graue Socke zeigt sich ohne Schuh. Die schwarze Hüfttasche bleibt vorne am Körper und lässt beide Hände frei. Gehaltener und getragener Schuh ergeben ein vollständiges graues Laufpaar."
+    },
+    "pull": {
+      "ko": "잠깐 멈추면 보이는 두 겹의 선.",
+      "en": "A brief stop reveals the layered lines.",
+      "de": "Eine kurze Pause zeigt getrennte Lagen."
+    },
+    "pullQuoteEn": "A brief stop reveals the layered lines.",
+    "tip": {
+      "ko": "안정된 곳에 멈춰 돌을 제거하고 양말 앞부분을 편 뒤 다시 신으세요.",
+      "en": "Stop on stable ground, remove the pebble and smooth the sock before putting the shoe back on.",
+      "de": "Auf festem Boden anhalten, den Stein entfernen und die Socke vor dem Anziehen glätten."
+    }
+  },
+  "products": [
+    {
+      "id": "long-sleeve-top",
+      "producerId": "02-01-top",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-02.long-sleeve-top",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "코랄 리플렉티브 긴소매",
+        "en": "Coral reflective long sleeve",
+        "de": "Korallfarbenes Reflex-Langarmshirt"
+      },
+      "nameKo": "코랄 리플렉티브 긴소매",
+      "description": {
+        "ko": "크루넥과 긴소매 바깥쪽 흰 반사선의 코랄 상의입니다.",
+        "en": "Coral crewneck with white reflective lines along the outer sleeves.",
+        "de": "Korallfarbenes Rundhalsshirt mit weißen Reflexlinien außen an den Ärmeln."
+      },
+      "howToWear": {
+        "ko": "소매 바깥 반사선이 비틀리지 않도록 커프를 정리하세요.",
+        "en": "Keep the outer sleeve lines straight by aligning the cuffs.",
+        "de": "Die Bündchen für gerade äußere Reflexlinien ausrichten."
+      },
+      "image": "products/long-sleeve-top.webp",
+      "sha256": "93e336452fa9fc002d2406ff6e02453e3d15194cb6e389f5c32f223b6ef90ebd",
+      "bytes": 45272,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; coral crewneck long-sleeve running top with white reflective stripe running down outside sleeve toward forearm, slim plain body",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "piped-shorts",
+      "producerId": "02-02-shorts",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-02.piped-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "차콜 파이핑 쇼츠",
+        "en": "Charcoal piped shorts",
+        "de": "Anthrazitfarbene Shorts mit Paspel"
+      },
+      "nameKo": "차콜 파이핑 쇼츠",
+      "description": {
+        "ko": "흰 옆 파이핑과 둥근 트임, 탄성 허리의 차콜 쇼츠입니다.",
+        "en": "Charcoal shorts with white side piping, curved hems and elastic waist.",
+        "de": "Anthrazitshorts mit weißer Seitenpaspel, Rundsäumen und Elastikbund."
+      },
+      "howToWear": {
+        "ko": "네이비 타이츠 위에서 옆 파이핑이 양쪽 고르게 보이게 하세요.",
+        "en": "Show both side piping lines evenly over navy tights.",
+        "de": "Beide Seitenpaspeln gleichmäßig über der Marinetight zeigen."
+      },
+      "image": "products/piped-shorts.webp",
+      "sha256": "c266166db42324eee2445994887d2a0cfbffe38cbb07919c72142a4316dc7781",
+      "bytes": 46682,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; charcoal gray running shorts, curved hem, white reflective side piping, elastic waist; shorts alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tights",
+      "producerId": "02-03-tights",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-02.tights",
+      "appCategory": "bottom",
+      "producerCategory": "tights",
+      "name": {
+        "ko": "네이비 롱 타이츠",
+        "en": "Navy long tights",
+        "de": "Marineblaue lange Tight"
+      },
+      "nameKo": "네이비 롱 타이츠",
+      "description": {
+        "ko": "단순한 탄성 허리와 발목 길이의 밀착 다리선입니다.",
+        "en": "Simple elastic waist and fitted ankle-length legs in navy.",
+        "de": "Schlichter Elastikbund und anliegende knöchellange Beine in Marine."
+      },
+      "howToWear": {
+        "ko": "한쪽 신발을 벗을 때 발목 밑단이 양말에 끌려 올라가지 않게 하세요.",
+        "en": "Keep the ankle hem in place when removing one shoe.",
+        "de": "Beim Ausziehen eines Schuhs den Knöchelsaum an Ort und Stelle halten."
+      },
+      "image": "products/tights.webp",
+      "sha256": "4054d702b5319129c05477f94f557535c4a216fa54682672f0e351b8742f66c4",
+      "bytes": 20382,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy fitted full-length running tights, plain elastic waist; tights alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-shoes",
+      "producerId": "02-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-02.running-shoes",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "그레이 메시 러닝화",
+        "en": "Gray mesh running shoes",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "nameKo": "그레이 메시 러닝화",
+      "description": {
+        "ko": "회색 메시와 흰 끈, 두꺼운 흰 창의 한 켤레입니다.",
+        "en": "Gray mesh pair with white laces and substantial white soles.",
+        "de": "Graues Mesh-Paar mit weißen Senkeln und kräftigen weißen Sohlen."
+      },
+      "howToWear": {
+        "ko": "신발 속 돌을 제거한 뒤 양말이 접히지 않게 다시 신으세요.",
+        "en": "Remove the pebble before putting the shoe back on without folding the sock.",
+        "de": "Den Stein entfernen und den Schuh ohne gefaltete Socke wieder anziehen."
+      },
+      "image": "products/running-shoes.webp",
+      "sha256": "0e325f5af7fe5f3831a93f612ea1a84cc17c5211b7aafa6099c9c969bf2e83b3",
+      "bytes": 48434,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair gray mesh running shoes, white laces, thick white soles; reconstruct complete pair from shoe held sole outward and shoe worn",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "02-05-socks",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-02.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "그레이 앵클 삭스",
+        "en": "Gray ankle socks",
+        "de": "Graue Knöchelsocken"
+      },
+      "nameKo": "그레이 앵클 삭스",
+      "description": {
+        "ko": "짧은 리브 커프와 단순한 발등의 회색 양말 한 쌍입니다.",
+        "en": "Gray pair with short ribbed cuffs and plain insteps.",
+        "de": "Graues Paar mit kurzen Rippbündchen und schlichtem Spann."
+      },
+      "howToWear": {
+        "ko": "벗은 신발을 다시 신기 전 발끝의 양말 주름을 펴세요.",
+        "en": "Smooth toe folds before putting the shoe back on.",
+        "de": "Vor dem erneuten Anziehen die Zehenfalten glätten."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "5bb2f7b6c16bb5bad912fa3a1e2c0c653ed194750887645780edd486ef549ec7",
+      "bytes": 46540,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair light gray ribbed ankle socks, restore complete feet from sock-only lifted foot",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-belt",
+      "producerId": "02-06-belt",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-02.running-belt",
+      "appCategory": "bag",
+      "producerCategory": "belt",
+      "name": {
+        "ko": "블랙 지퍼 러닝 벨트",
+        "en": "Black zip running belt",
+        "de": "Schwarzer Laufgürtel mit Zip"
+      },
+      "nameKo": "블랙 지퍼 러닝 벨트",
+      "description": {
+        "ko": "앞 지퍼 파우치와 조절 끈, 검정 버클의 허리 벨트입니다.",
+        "en": "Waist belt with front zip pouch, adjustable webbing and black buckle.",
+        "de": "Hüftgürtel mit vorderer Ziptasche, verstellbarem Gurt und schwarzer Schnalle."
+      },
+      "howToWear": {
+        "ko": "파우치를 허리 앞에 평평하게 놓고 남는 끈을 고정하세요.",
+        "en": "Lay the pouch flat at the front and secure excess webbing.",
+        "de": "Die Tasche vorne flach anlegen und überschüssigen Gurt sichern."
+      },
+      "image": "products/running-belt.webp",
+      "sha256": "00fe6509078ad480c64bec458bb53a6a4e6c0b06be86c2d5cf7a6afa43b71411",
+      "bytes": 24734,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black running waist belt with rectangular front zip pouch, narrow adjustable webbing and rectangular black buckle",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b209"
+}

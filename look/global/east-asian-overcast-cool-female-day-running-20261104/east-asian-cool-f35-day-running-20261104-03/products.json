@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-running-20261104-03",
+  "batchId": "east-asian-overcast-cool-female-day-running-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban streets with small tiled building walls, shop and cafe windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; white reflective details catch the direct flash; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d74d140a7e0181922d1dc29f10b3dd7fd0fe11f5b82e89b4d8796a708e3d3fd2",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-running-20261104-03",
+  "appStyle": "run",
+  "appModule": "look/east-asian-overcast-cool-female-day-running-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-running-20261104-03.running-cap",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "No hand-held prop; the planters, cafe table and awnings are the setting. The raised hand covers part of the navy cap, and the back of the cap is inferred. The sage shell is worn open, with one arm raised and sleeves bunched: its back and hidden front are conservatively reconstructed. The black tee shows between the shell fronts. The black pants' waist is partly hidden. Black socks show above the white runners. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex",
+    "checkedAt": "2026-11-04T20:16:04.060511+00:00",
+    "productCount": 34,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image of all five overview sheets, all34 across white/black/gray/app backgrounds",
+      "All targets independently isolated; no outfit collages",
+      "01jacketv2 blue cuffs only, gray inner top separate",
+      "Shorts and tights separate",
+      "04vest two chest buckles no zip; blue top separate; silver metal bracelet watch",
+      "05full sleeve navy jacket separate from gray tee",
+      "Complete matching shoe and sock pairs; reconstructed held shoe pair",
+      "Edges and transparency acceptable in all four final500composites"
+    ]
+  },
+  "copy": {
+    "titleEn": "THE BRIM LIFTS IN THE WIND",
+    "title": {
+      "ko": "바람에 들린 챙",
+      "en": "The brim lifts in the wind",
+      "de": "Der Schirm hebt sich im Wind"
+    },
+    "deck": {
+      "ko": "세이지 쉘과 검정 팬츠의 가벼운 회복 걸음.",
+      "en": "A sage shell frames an easy recovery walk.",
+      "de": "Eine Salbeijacke begleitet den lockeren Erholungsschritt."
+    },
+    "intro": {
+      "ko": "바람에 들리는 모자 챙을 잡으며 어깨가 뒤로 돌아갑니다.",
+      "en": "A gust lifts the cap brim and turns her shoulder as she reaches to steady it.",
+      "de": "Eine Böe hebt den Capschirm und dreht beim Festhalten die Schulter."
+    },
+    "body": {
+      "ko": "열린 세이지 쉘 사이 검정 반팔 티가 보이고 긴 러닝 팬츠는 발목에서 모입니다. 네이비 캡과 검정 양말이 낮은 색 대비를 만들며 흰 러닝화가 발끝을 밝힙니다. 어깨의 흰 반사선과 직접 플래시가 회전한 상체의 주름을 분명하게 보여줍니다.",
+      "en": "A black tee shows between the open sage shell edges, while long running pants gather at the ankles. Navy cap and black socks keep the contrast low, with white runners brightening the feet. White shoulder lines and direct flash define the folds across the turning torso.",
+      "de": "Ein schwarzes Shirt zeigt sich zwischen offenen salbeifarbenen Jackenkanten, lange Laufhosen raffen sich am Knöchel. Marinecap und schwarze Socken halten den Kontrast niedrig, weiße Laufschuhe setzen helle Endpunkte. Weiße Schulterlinien und direkter Blitz zeichnen die Falten des gedrehten Oberkörpers klar."
+    },
+    "pull": {
+      "ko": "열린 쉘과 움직이는 어깨선.",
+      "en": "An open shell follows the shoulder turn.",
+      "de": "Die offene Jacke folgt der Schulterdrehung."
+    },
+    "pullQuoteEn": "An open shell follows the shoulder turn.",
+    "tip": {
+      "ko": "챙을 잡은 뒤 모자 조절 부분을 확인하고 팬츠 밑단이 뒤꿈치에 걸리지 않게 하세요.",
+      "en": "Check the cap adjustment after steadying the brim and keep pant hems clear of the heels.",
+      "de": "Nach dem Festhalten den Capsitz prüfen und die Hosensäume von den Fersen freihalten."
+    }
+  },
+  "products": [
+    {
+      "id": "running-shell",
+      "producerId": "03-01-outer",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-03.running-shell",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "세이지 라이트 러닝 쉘",
+        "en": "Sage light running shell",
+        "de": "Salbeifarbene leichte Laufjacke"
+      },
+      "nameKo": "세이지 라이트 러닝 쉘",
+      "description": {
+        "ko": "흰 어깨 반사선과 검정 옆 지퍼 포켓, 탄성 커프의 쉘입니다.",
+        "en": "Shell with white shoulder reflective lines, black side zip pockets and elastic cuffs.",
+        "de": "Jacke mit weißen Schulterreflexlinien, schwarzen Seitentaschenzips und Elastikbündchen."
+      },
+      "howToWear": {
+        "ko": "모자를 잡는 팔이 편하도록 커프를 가볍게 올리세요.",
+        "en": "Raise the cuffs lightly to free the arm steadying the cap.",
+        "de": "Die Bündchen leicht hochschieben und den Arm am Cap frei halten."
+      },
+      "image": "products/running-shell.webp",
+      "sha256": "bf7486c9686f6f901f6e78704c2d9c068c5b8db297b41ddada02c686da614314",
+      "bytes": 46388,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; sage lightweight zip running shell, low stand collar, white reflective shoulder seams, diagonal black zip side pockets, elastic cuffs; restore long sleeves from pushed-up sleeves",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-tee",
+      "producerId": "03-02-top",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-03.running-tee",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "블랙 플레인 러닝 티",
+        "en": "Black plain running tee",
+        "de": "Schwarzes schlichtes Laufshirt"
+      },
+      "nameKo": "블랙 플레인 러닝 티",
+      "description": {
+        "ko": "둥근 목선과 짧은 소매, 단순한 검정 앞판의 티입니다.",
+        "en": "Black tee with round neck, short sleeves and a plain front.",
+        "de": "Schwarzes Shirt mit Rundhals, kurzen Ärmeln und schlichter Vorderseite."
+      },
+      "howToWear": {
+        "ko": "열린 쉘 안에서 티 밑단이 말리지 않게 펴세요.",
+        "en": "Keep the tee hem smooth inside the open shell.",
+        "de": "Den Shirtsaum in der offenen Jacke glatt halten."
+      },
+      "image": "products/running-tee.webp",
+      "sha256": "e4c803b937187150ff377958a4006c428ee422027fca2aba1c1ac41e9820514a",
+      "bytes": 22218,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black plain crewneck short-sleeve running tee; conservative hidden body",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tapered-pants",
+      "producerId": "03-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-03.tapered-pants",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "블랙 테이퍼 러닝 팬츠",
+        "en": "Black tapered running pants",
+        "de": "Schwarze zulaufende Laufhose"
+      },
+      "nameKo": "블랙 테이퍼 러닝 팬츠",
+      "description": {
+        "ko": "탄성 허리와 여유로운 다리, 모인 발목 밑단의 검정 바지입니다.",
+        "en": "Black pants with elastic waist, relaxed legs and gathered ankle hems.",
+        "de": "Schwarze Hose mit Elastikbund, lockerem Bein und gerafften Knöchelsäumen."
+      },
+      "howToWear": {
+        "ko": "걷는 동안 발목 밑단이 신발 뒤에 끼지 않게 확인하세요.",
+        "en": "Keep ankle hems clear of shoe heels while walking.",
+        "de": "Beim Gehen die Knöchelsäume frei von den Schuhfersen halten."
+      },
+      "image": "products/tapered-pants.webp",
+      "sha256": "d7d22f7cb49d956dd41992241d94e3ee54d4989f32b161c3013f30e86c54fb71",
+      "bytes": 25078,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black lightweight ankle running pants with elastic waist, relaxed tapered legs and gathered ankle hems",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "runners",
+      "producerId": "03-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-03.runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 라이트 러너",
+        "en": "White light runners",
+        "de": "Weiße leichte Laufschuhe"
+      },
+      "nameKo": "화이트 라이트 러너",
+      "description": {
+        "ko": "흰 메시와 끈, 낮게 조각된 같은 색 창의 한 켤레입니다.",
+        "en": "White mesh pair with white laces and low sculpted matching soles.",
+        "de": "Weißes Mesh-Paar mit weißen Senkeln und niedrigen geformten Sohlen."
+      },
+      "howToWear": {
+        "ko": "회복 걸음에서도 두 신발의 끈을 짧게 정리하세요.",
+        "en": "Keep both sets of laces short during the recovery walk.",
+        "de": "Auch beim Erholungsgehen beide Schnürungen kurz halten."
+      },
+      "image": "products/runners.webp",
+      "sha256": "5d3e239d14c5de2e4d6553ba192517c1d31677502599c506a918347b4db4969c",
+      "bytes": 36816,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair white mesh running shoes with white laces, sculpted low white soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "03-05-socks",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-03.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "블랙 숏 앵클 삭스",
+        "en": "Black short ankle socks",
+        "de": "Schwarze kurze Knöchelsocken"
+      },
+      "nameKo": "블랙 숏 앵클 삭스",
+      "description": {
+        "ko": "낮은 커프와 메시 발등의 검정 양말 한 쌍입니다.",
+        "en": "Black pair with low cuffs and mesh insteps.",
+        "de": "Schwarzes Paar mit niedrigen Bündchen und Mesh-Spann."
+      },
+      "howToWear": {
+        "ko": "팬츠와 신발 사이 두 커프가 같은 높이로 보이게 하세요.",
+        "en": "Match the cuff heights between pants and shoes.",
+        "de": "Die Bündchen zwischen Hose und Schuhen gleich hoch tragen."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "1db73ca3071652bed46aebef59b95632ffdadc1b0751057ab8f52bcdee188b43",
+      "bytes": 43150,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair black ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-cap",
+      "producerId": "03-06-cap",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-03.running-cap",
+      "appCategory": "headwear",
+      "producerCategory": "cap",
+      "name": {
+        "ko": "네이비 러닝 캡",
+        "en": "Navy running cap",
+        "de": "Marineblaues Laufcap"
+      },
+      "nameKo": "네이비 러닝 캡",
+      "description": {
+        "ko": "부드러운 패널 크라운과 굽은 챙의 네이비 캡입니다.",
+        "en": "Navy cap with soft paneled crown and curved brim.",
+        "de": "Marinecap mit weicher geteilter Krone und gebogenem Schirm."
+      },
+      "howToWear": {
+        "ko": "바람이 불면 챙을 가볍게 잡고 조절 부분을 다시 맞추세요.",
+        "en": "Steady the brim in a gust and readjust the fit.",
+        "de": "Bei einer Böe den Schirm halten und den Sitz neu einstellen."
+      },
+      "image": "products/running-cap.webp",
+      "sha256": "c0f630ff8cc492d7f0b4d35d32a5f53340a5e3bfef1c07214df7d44f121981a7",
+      "bytes": 25374,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy curved-brim running cap, soft segmented crown, plain no logos",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b209"
+}

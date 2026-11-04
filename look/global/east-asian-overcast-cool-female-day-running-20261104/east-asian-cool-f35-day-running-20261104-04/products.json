@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-running-20261104-04",
+  "batchId": "east-asian-overcast-cool-female-day-running-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban streets with small tiled building walls, shop and cafe windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; white reflective details catch the direct flash; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f5a2cfb36d07f8a8fbfefff0634fcc14719e85ecc63de401fcb089c4cb645840",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-running-20261104-04",
+  "appStyle": "run",
+  "appModule": "look/east-asian-overcast-cool-female-day-running-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-running-20261104-04.hydration-vest",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "No hand-held prop; the cafe table and street are the setting. The vest closes with two chest buckles and has no zip. The hands cover part of the upper buckle, and the vest back is inferred. The royal blue long sleeve is a separate product beneath the vest straps. The watch is a silver round case with a dark face on a metal bracelet; its hidden links are inferred. The gray shorts and black tights are separate products. Brand, metal, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex",
+    "checkedAt": "2026-11-04T20:16:04.060511+00:00",
+    "productCount": 34,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image of all five overview sheets, all34 across white/black/gray/app backgrounds",
+      "All targets independently isolated; no outfit collages",
+      "01jacketv2 blue cuffs only, gray inner top separate",
+      "Shorts and tights separate",
+      "04vest two chest buckles no zip; blue top separate; silver metal bracelet watch",
+      "05full sleeve navy jacket separate from gray tee",
+      "Complete matching shoe and sock pairs; reconstructed held shoe pair",
+      "Edges and transparency acceptable in all four final500composites"
+    ]
+  },
+  "copy": {
+    "titleEn": "SETTING TWO CHEST BUCKLES",
+    "title": {
+      "ko": "두 개의 버클을 맞추며",
+      "en": "Setting two chest buckles",
+      "de": "Zwei Brustschnallen einstellen"
+    },
+    "deck": {
+      "ko": "검정 베스트 아래 로열블루 긴소매의 반사띠.",
+      "en": "Black vest panels frame royal blue sleeves.",
+      "de": "Schwarze Westenflächen rahmen königsblaue Ärmel."
+    },
+    "intro": {
+      "ko": "달리기를 멈추고 가슴끈을 양손으로 다시 맞춥니다.",
+      "en": "She stops running and uses both hands to reset the chest straps.",
+      "de": "Sie hält an und richtet die Brustgurte mit beiden Händen neu aus."
+    },
+    "body": {
+      "ko": "지퍼 없는 검정 하이드레이션 베스트는 두 가로 버클로 닫힙니다. 별도 로열블루 긴소매의 흰 위팔 띠는 플래시를 받고, 밝은 회색 쇼츠와 검정 긴 타이츠가 하체를 나눕니다. 검정 러닝화의 흰 창과 은색 금속 밴드 스포츠워치가 어두운 면 안에 밝은 끝점을 남깁니다.",
+      "en": "The zip-free black hydration vest closes with two horizontal buckles. White upper-arm bands on the separate royal blue long-sleeve top catch flash above light gray shorts and black full tights. White shoe soles and a silver-tone metal-bracelet sports watch add pale endpoints within dark layers.",
+      "de": "Die schwarze Trinkweste ohne Zip schließt mit zwei waagerechten Schnallen. Weiße Oberarmbänder des separaten königsblauen Langarmshirts fangen Blitz über hellgrauen Shorts und schwarzer langer Tight. Weiße Schuhsohlen und eine silberfarbene Sportuhr mit Metallband setzen helle Endpunkte."
+    },
+    "pull": {
+      "ko": "가슴끈 아래 독립된 파란 긴소매.",
+      "en": "Blue sleeves remain separate beneath the straps.",
+      "de": "Blaue Ärmel bleiben unter den Gurten eigenständig."
+    },
+    "pullQuoteEn": "Blue sleeves remain separate beneath the straps.",
+    "tip": {
+      "ko": "두 버클을 따로 조절하고 상의가 끈 아래 접히지 않았는지 확인하세요.",
+      "en": "Adjust each buckle separately and check the top is not folded beneath the straps.",
+      "de": "Jede Schnalle einzeln einstellen und das Shirt unter den Gurten glatt halten."
+    }
+  },
+  "products": [
+    {
+      "id": "hydration-vest",
+      "producerId": "04-01-vest",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.hydration-vest",
+      "appCategory": "outer",
+      "producerCategory": "vest",
+      "name": {
+        "ko": "블랙 투버클 하이드레이션 베스트",
+        "en": "Black two-buckle hydration vest",
+        "de": "Schwarze Trinkweste mit zwei Schnallen"
+      },
+      "nameKo": "블랙 투버클 하이드레이션 베스트",
+      "description": {
+        "ko": "민소매 앞 패널과 수납부, 가슴 가로 버클 두 개의 검정 베스트입니다.",
+        "en": "Black sleeveless vest with storage panels and two horizontal chest buckles, no zip.",
+        "de": "Schwarze ärmellose Weste mit Taschen und zwei waagerechten Brustschnallen ohne Zip."
+      },
+      "howToWear": {
+        "ko": "두 버클을 각각 맞추고 긴소매 상의를 가슴끈에 끼우지 마세요.",
+        "en": "Adjust both buckles without catching the long-sleeve top in the straps.",
+        "de": "Beide Schnallen einstellen, ohne das Langarmshirt einzuklemmen."
+      },
+      "image": "products/hydration-vest.webp",
+      "sha256": "114ba3bb543a891d899a89dd62b5ffb14b7d026d0f92e5fbcc072fca23d1d2a3",
+      "bytes": 47772,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black sleeveless hydration running vest with exactly TWO horizontal chest straps and black side-release buckles, front storage panels, no zipper, no bottles, empty separate vest",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-sleeve-top",
+      "producerId": "04-02-top",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.long-sleeve-top",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "로열블루 반사 긴소매",
+        "en": "Royal blue reflective long sleeve",
+        "de": "Königsblaues Reflex-Langarmshirt"
+      },
+      "nameKo": "로열블루 반사 긴소매",
+      "description": {
+        "ko": "잔잔한 질감과 크루넥, 양쪽 위팔 흰 반사띠의 긴소매입니다.",
+        "en": "Textured crewneck with white reflective upper-arm bands and long sleeves.",
+        "de": "Strukturiertes Rundhalsshirt mit weißen Oberarmreflexbändern und langen Ärmeln."
+      },
+      "howToWear": {
+        "ko": "베스트 아래 반사띠가 양쪽 팔 바깥에 놓이게 하세요.",
+        "en": "Keep both bands on the outer upper arms below the vest.",
+        "de": "Beide Bänder unter der Weste außen am Oberarm ausrichten."
+      },
+      "image": "products/long-sleeve-top.webp",
+      "sha256": "bfbe3cfb8583ce4ff9e2a125b4a67a01f6c308eaae5375e5695f43e94368b5be",
+      "bytes": 48048,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; royal blue textured crewneck long-sleeve running top with white reflective bands on both upper arms, fitted body",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "curved-shorts",
+      "producerId": "04-03-shorts",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.curved-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "라이트 그레이 커브 쇼츠",
+        "en": "Light gray curved shorts",
+        "de": "Hellgraue Shorts mit Rundsaum"
+      },
+      "nameKo": "라이트 그레이 커브 쇼츠",
+      "description": {
+        "ko": "탄성 허리와 둥근 옆 트임의 밝은 회색 쇼츠입니다.",
+        "en": "Light gray shorts with elastic waist and curved side hems.",
+        "de": "Hellgraue Shorts mit Elastikbund und gerundeten Seitensäumen."
+      },
+      "howToWear": {
+        "ko": "검정 타이츠와 쇼츠의 두 허리선이 뭉치지 않게 정리하세요.",
+        "en": "Separate the two waistbands so shorts and tights do not bunch.",
+        "de": "Beide Bünde ohne Stau zwischen Shorts und Tight ausrichten."
+      },
+      "image": "products/curved-shorts.webp",
+      "sha256": "e5f6f655f0c0b8782183f6ffac2d870599e173e056a7ddd99e944feb6a2022fe",
+      "bytes": 48450,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; light gray loose running shorts with curved side hem, elastic waist; shorts alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tights",
+      "producerId": "04-04-tights",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.tights",
+      "appCategory": "bottom",
+      "producerCategory": "tights",
+      "name": {
+        "ko": "블랙 스무스 롱 타이츠",
+        "en": "Black smooth long tights",
+        "de": "Schwarze glatte lange Tight"
+      },
+      "nameKo": "블랙 스무스 롱 타이츠",
+      "description": {
+        "ko": "좁은 허리 밴드와 긴 밀착 다리선의 검정 타이츠입니다.",
+        "en": "Black tights with a narrow waistband and long fitted legs.",
+        "de": "Schwarze Tight mit schmalem Bund und langen anliegenden Beinen."
+      },
+      "howToWear": {
+        "ko": "베스트를 조절한 뒤 무릎 뒤의 접힘도 가볍게 펴세요.",
+        "en": "Smooth folds behind the knees after adjusting the vest.",
+        "de": "Nach dem Einstellen der Weste die Kniekehlenfalten glätten."
+      },
+      "image": "products/tights.webp",
+      "sha256": "e4121aadf840db7c06305a683af9ca8003b68dee2b777a36ee302c8ecde5d525",
+      "bytes": 16924,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black fitted full-length running tights; tights alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "runners",
+      "producerId": "04-05-shoes",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 메시 화이트솔 러너",
+        "en": "Black mesh white-sole runners",
+        "de": "Schwarze Mesh-Laufschuhe mit weißer Sohle"
+      },
+      "nameKo": "블랙 메시 화이트솔 러너",
+      "description": {
+        "ko": "검정 메시와 끈, 두꺼운 흰 창의 러닝화 한 켤레입니다.",
+        "en": "Black mesh running pair with black laces and substantial white soles.",
+        "de": "Schwarzes Mesh-Laufpaar mit schwarzen Senkeln und kräftigen weißen Sohlen."
+      },
+      "howToWear": {
+        "ko": "흰 창 위 검정 끈이 늘어지지 않게 짧게 묶으세요.",
+        "en": "Tie black laces short above the white soles.",
+        "de": "Die schwarzen Senkel über den weißen Sohlen kurz binden."
+      },
+      "image": "products/runners.webp",
+      "sha256": "dd3e8cbec7d63ac531816ffddbca34bde593dcbf46bba8f41d69a13ceb40f29d",
+      "bytes": 49758,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair black mesh running shoes, black laces, thick white sculpted soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "04-06-socks",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "블랙 메시 앵클 삭스",
+        "en": "Black mesh ankle socks",
+        "de": "Schwarze Mesh-Knöchelsocken"
+      },
+      "nameKo": "블랙 메시 앵클 삭스",
+      "description": {
+        "ko": "검정 메시 발등과 짧은 커프의 양말 한 쌍입니다.",
+        "en": "Black pair with mesh insteps and short cuffs.",
+        "de": "Schwarzes Paar mit Mesh-Spann und kurzen Bündchen."
+      },
+      "howToWear": {
+        "ko": "타이츠 끝과 신발 사이 양말이 안으로 말리지 않게 하세요.",
+        "en": "Keep socks from rolling inward between tights and shoes.",
+        "de": "Die Socken zwischen Tight und Schuhen nicht einrollen lassen."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "50b4107c8ad388fe6273571ae8c6b344136c5bf6e908bbe1359d3c5d613eb1db",
+      "bytes": 41032,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair black ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sports-watch",
+      "producerId": "04-07-watch",
+      "appItemId": "east-asian-cool-f35-day-running-20261104-04.sports-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "실버 메탈 스포츠워치",
+        "en": "Silver metal sports watch",
+        "de": "Silberne Sportuhr mit Metallband"
+      },
+      "nameKo": "실버 메탈 스포츠워치",
+      "description": {
+        "ko": "어두운 원형 화면과 은색 케이스, 링크 금속 밴드의 시계입니다.",
+        "en": "Dark round screen with silver-tone case and linked metal bracelet.",
+        "de": "Dunkler runder Bildschirm mit silberfarbenem Gehäuse und Metallgliederband."
+      },
+      "howToWear": {
+        "ko": "버클을 만질 때 시계가 베스트 끈에 걸리지 않게 두세요.",
+        "en": "Keep the watch clear of vest straps while adjusting buckles.",
+        "de": "Beim Einstellen die Uhr frei von den Westengurten halten."
+      },
+      "image": "products/sports-watch.webp",
+      "sha256": "3858086c9748e99f1e90c1c8251d11dc295b283c51f985d3015adb8669684846",
+      "bytes": 31826,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver-tone round sports watch with dark round face and silver-tone linked METAL bracelet, matching actual image not an assumed strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b209"
+}
