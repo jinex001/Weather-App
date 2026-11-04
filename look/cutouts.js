@@ -1129,7 +1129,12 @@
 "east-asian-cool-m35-day-street-20261103-02.denim-jacket": ["look/global/east-asian-overcast-cool-male-day-street-20261103/east-asian-cool-m35-day-street-20261103-02/products/denim-jacket.webp", 0.323],
 "east-asian-cool-m35-day-street-20261103-03.trousers": ["look/global/east-asian-overcast-cool-male-day-street-20261103/east-asian-cool-m35-day-street-20261103-03/products/trousers.webp", 0.661],
 "east-asian-cool-m35-day-street-20261103-04.overshirt": ["look/global/east-asian-overcast-cool-male-day-street-20261103/east-asian-cool-m35-day-street-20261103-04/products/overshirt.webp", 0.136],
-"east-asian-cool-m35-day-street-20261103-05.blouson": ["look/global/east-asian-overcast-cool-male-day-street-20261103/east-asian-cool-m35-day-street-20261103-05/products/blouson.webp", 0.14]
+"east-asian-cool-m35-day-street-20261103-05.blouson": ["look/global/east-asian-overcast-cool-male-day-street-20261103/east-asian-cool-m35-day-street-20261103-05/products/blouson.webp", 0.14],
+"east-asian-cool-f35-day-minimal-20261104-01.blazer": ["look/global/east-asian-overcast-cool-female-day-minimal-20261104/east-asian-cool-f35-day-minimal-20261104-01/products/blazer.webp", 0.838],
+"east-asian-cool-f35-day-minimal-20261104-02.collarless-jacket": ["look/global/east-asian-overcast-cool-female-day-minimal-20261104/east-asian-cool-f35-day-minimal-20261104-02/products/collarless-jacket.webp", 0.297],
+"east-asian-cool-f35-day-minimal-20261104-03.cardigan": ["look/global/east-asian-overcast-cool-female-day-minimal-20261104/east-asian-cool-f35-day-minimal-20261104-03/products/cardigan.webp", 0.639],
+"east-asian-cool-f35-day-minimal-20261104-04.trench-coat": ["look/global/east-asian-overcast-cool-female-day-minimal-20261104/east-asian-cool-f35-day-minimal-20261104-04/products/trench-coat.webp", 0.664],
+"east-asian-cool-f35-day-minimal-20261104-05.zip-jacket": ["look/global/east-asian-overcast-cool-female-day-minimal-20261104/east-asian-cool-f35-day-minimal-20261104-05/products/zip-jacket.webp", 0.115]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1472,7 +1477,12 @@
 "east-asian-cool-m35-day-street-20261103-02": "east-asian-cool-m35-day-street-20261103-02.denim-jacket",
 "east-asian-cool-m35-day-street-20261103-03": "east-asian-cool-m35-day-street-20261103-03.trousers",
 "east-asian-cool-m35-day-street-20261103-04": "east-asian-cool-m35-day-street-20261103-04.overshirt",
-"east-asian-cool-m35-day-street-20261103-05": "east-asian-cool-m35-day-street-20261103-05.blouson"
+"east-asian-cool-m35-day-street-20261103-05": "east-asian-cool-m35-day-street-20261103-05.blouson",
+"east-asian-cool-f35-day-minimal-20261104-01": "east-asian-cool-f35-day-minimal-20261104-01.blazer",
+"east-asian-cool-f35-day-minimal-20261104-02": "east-asian-cool-f35-day-minimal-20261104-02.collarless-jacket",
+"east-asian-cool-f35-day-minimal-20261104-03": "east-asian-cool-f35-day-minimal-20261104-03.cardigan",
+"east-asian-cool-f35-day-minimal-20261104-04": "east-asian-cool-f35-day-minimal-20261104-04.trench-coat",
+"east-asian-cool-f35-day-minimal-20261104-05": "east-asian-cool-f35-day-minimal-20261104-05.zip-jacket"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

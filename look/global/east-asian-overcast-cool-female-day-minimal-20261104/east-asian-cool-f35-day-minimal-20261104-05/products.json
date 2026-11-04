@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-minimal-20261104-05",
+  "batchId": "east-asian-overcast-cool-female-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, cafe and florist shopfronts, canvas awnings, utility pipes and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f05943958fd1da82fa4f1473a8f96a1c78e0bd63cc07c2083db4a5994602218e",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-minimal-20261104-05",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-female-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-minimal-20261104-05.zip-jacket",
+  "scenePropsNotProducts": [
+    "bicycle",
+    "bicycle lock"
+  ],
+  "reconstructionNotice": "The bicycle and combination lock are scene props, not products. Bent forward over the lock: the black short zip jacket back and hem, the gray tee below the neckline and the cream cropped trousers' waist are conservatively reconstructed. The silver round white-dial watch on a linked metal bracelet is visible on the wrist. Black socks show above the black derbies. Only one silver ball stud is visible; the pair is inferred. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T10:08:31.028075+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "All30 independent single products or matching pairs, no collages",
+      "Color and construction match actual editorials",
+      "Conservative occluded garment reconstruction",
+      "Clean silhouette on all four backgrounds at500px",
+      "No props imported",
+      "05 watch silver linked bracelet and white round dial retained"
+    ]
+  },
+  "copy": {
+    "titleEn": "A BRIEF STRUGGLE WITH THE BICYCLE LOCK",
+    "title": {
+      "ko": "자전거 자물쇠와 잠깐의 씨름",
+      "en": "A brief struggle with the bicycle lock",
+      "de": "Ein kurzer Kampf mit dem Fahrradschloss"
+    },
+    "deck": {
+      "ko": "검정 지퍼 재킷과 크림 크롭 팬츠의 명확한 대비.",
+      "en": "Black zip jacket contrasts clearly with cream cropped trousers.",
+      "de": "Schwarze Zipjacke steht klar gegen verkürztes Creme."
+    },
+    "intro": {
+      "ko": "잠금이 잘 풀리지 않아 무릎을 조금 굽히고 손목을 가까이 모읍니다.",
+      "en": "A stubborn lock brings the wrists together and bends the knees slightly.",
+      "de": "Das widerspenstige Schloss führt die Handgelenke zusammen und beugt die Knie etwas."
+    },
+    "body": {
+      "ko": "검정 재킷 아래 회색 티가 목선의 어둠을 나눕니다. 크림 바지는 여유 있는 직선으로 떨어지고 검정 양말과 더비가 발끝을 묶습니다. 소매를 올리자 흰 다이얼의 은색 링크 시계가 보이고 작은 은색 스터드가 헤어 옆을 마무리합니다. 직광 플래시는 숙인 몸의 자연스러운 주름과 자물쇠를 잡는 손을 또렷하게 남깁니다.",
+      "en": "A gray tee divides the dark neckline inside the black jacket. Cream trousers fall in a relaxed straight line, finished with black socks and derbies. Raised sleeves reveal a silver linked watch with a white dial, while tiny silver studs finish the tied-back hair. Direct flash records natural body folds and hands working on the lock.",
+      "de": "Ein graues Shirt unterteilt den dunklen Ausschnitt in der schwarzen Jacke. Die cremefarbene Hose fällt locker und gerade zu schwarzen Socken und Derbys. Hochgeschobene Ärmel zeigen eine silberne Gliederuhr mit weißem Zifferblatt, winzige Silberstecker ergänzen das gebundene Haar. Direkter Blitz hält natürliche Falten und die Hände am Schloss fest."
+    },
+    "pull": {
+      "ko": "밝은 바지에 닿는 검정 발목.",
+      "en": "Black ankles against pale trousers.",
+      "de": "Schwarze Knöchel an heller Hose."
+    },
+    "pullQuoteEn": "Black ankles against pale trousers.",
+    "tip": {
+      "ko": "자물쇠를 풀 때 커프를 올리고 신발 끈 끝을 짧게 정리해 두세요.",
+      "en": "Raise the cuffs while unlocking and keep the shoe lace ends short.",
+      "de": "Beim Aufschließen die Bündchen hochschieben und die Schnürsenkelenden kurz halten."
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "05-01-outer",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.zip-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "블랙 쇼트 지퍼 재킷",
+        "en": "Black short zip jacket",
+        "de": "Schwarze kurze Zipjacke"
+      },
+      "nameKo": "블랙 쇼트 지퍼 재킷",
+      "description": {
+        "ko": "작은 칼라와 긴소매, 곧은 밑단, 측면 포켓의 검정 재킷입니다.",
+        "en": "Black jacket with small collar, long sleeves, straight hem and side pockets.",
+        "de": "Schwarze Jacke mit kleinem Kragen, langen Ärmeln, geradem Saum und Seitentaschen."
+      },
+      "howToWear": {
+        "ko": "자물쇠를 풀 때 커프를 잠시 올려 손목과 손을 비우세요.",
+        "en": "Push the cuffs up briefly to free wrists and hands while unlocking.",
+        "de": "Beim Aufschließen die Bündchen kurz hochschieben und Hände sowie Handgelenke frei halten."
+      },
+      "image": "products/zip-jacket.webp",
+      "sha256": "51dc9180873fb9e1fda460e28a59ec6eb514b8cfd856acdf2f1c3730fd226e55",
+      "bytes": 25434,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "05-02-top",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.tee",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "그레이 플레인 크루넥 티",
+        "en": "Gray plain crewneck tee",
+        "de": "Graues schlichtes Rundhalsshirt"
+      },
+      "nameKo": "그레이 플레인 크루넥 티",
+      "description": {
+        "ko": "단순한 회색 앞판과 짧은 소매, 둥근 목선의 티입니다.",
+        "en": "Plain gray tee with short sleeves and a round neckline.",
+        "de": "Schlichtes graues Shirt mit kurzen Ärmeln und Rundhals."
+      },
+      "howToWear": {
+        "ko": "검정 재킷의 지퍼를 조금 열어 회색 목선을 드러내세요.",
+        "en": "Open the black jacket slightly to reveal the gray neckline.",
+        "de": "Den Zip der schwarzen Jacke etwas öffnen und den grauen Ausschnitt zeigen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "0c8c081cc9baac2c69862158bdc2566886b8789bc28f960798ca056071a6974a",
+      "bytes": 44034,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-trousers",
+      "producerId": "05-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.cropped-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "크림 릴랙스 크롭 팬츠",
+        "en": "Cream relaxed cropped trousers",
+        "de": "Cremefarbene lockere verkürzte Hose"
+      },
+      "nameKo": "크림 릴랙스 크롭 팬츠",
+      "description": {
+        "ko": "측면 포켓과 단순한 봉제선, 여유로운 짧은 다리선의 크림 바지입니다.",
+        "en": "Cream trousers with side pockets, simple seams and relaxed cropped legs.",
+        "de": "Cremefarbene Hose mit Seitentaschen, schlichten Nähten und lockerem verkürztem Bein."
+      },
+      "howToWear": {
+        "ko": "몸을 숙였다 일어나면 무릎 주름을 가볍게 정리하세요.",
+        "en": "Smooth the knee folds lightly after straightening up.",
+        "de": "Nach dem Aufrichten die Kniefalten leicht glätten."
+      },
+      "image": "products/cropped-trousers.webp",
+      "sha256": "929dce34aed7a1df11f98b0a827a1b1bfc4c85aa4c62e7b0adc59f989f1b1083",
+      "bytes": 29356,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "derbies",
+      "producerId": "05-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.derbies",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 클린 더비",
+        "en": "Black clean derby shoes",
+        "de": "Schwarze schlichte Derbys"
+      },
+      "nameKo": "블랙 클린 더비",
+      "description": {
+        "ko": "둥근 앞코와 끈, 낮고 두꺼운 창의 단순한 검정 한 켤레입니다.",
+        "en": "Plain black lace-up pair with rounded toes and low substantial soles.",
+        "de": "Schlichtes schwarzes Schnürpaar mit runden Spitzen und niedrigen kräftigen Sohlen."
+      },
+      "howToWear": {
+        "ko": "페달과 가까운 끈 끝을 짧게 정리해 신발 위에 두세요.",
+        "en": "Keep lace ends short and resting on the shoes near the pedals.",
+        "de": "Nahe den Pedalen die Senkelenden kurz auf dem Schuh halten."
+      },
+      "image": "products/derbies.webp",
+      "sha256": "3ae73c110e845f3f7193a929f5d5dcc68fee3cd16471bd5359293d9de50156e1",
+      "bytes": 28426,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "05-05-socks",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "블랙 데일리 리브 삭스",
+        "en": "Black everyday ribbed socks",
+        "de": "Schwarze gerippte Alltagssocken"
+      },
+      "nameKo": "블랙 데일리 리브 삭스",
+      "description": {
+        "ko": "검정 리브 발목과 단순한 발등, 둥근 발끝의 양말 한 쌍입니다.",
+        "en": "Black pair with ribbed ankles, plain insteps and rounded toes.",
+        "de": "Schwarzes Paar mit gerippten Knöcheln, schlichtem Spann und runden Spitzen."
+      },
+      "howToWear": {
+        "ko": "크림 바지와 더비 사이 검정 커프 높이를 양쪽에서 맞추세요.",
+        "en": "Match black cuff heights between cream trousers and derbies.",
+        "de": "Zwischen Cremehose und Derbys beide schwarzen Bündchen gleich hoch tragen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "b910b2d517b09c3d3fba042707b05eb6a6a22cb97ddaa2147a63a728f001041b",
+      "bytes": 43572,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "05-06-watch",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "실버 화이트다이얼 시계",
+        "en": "Silver white-dial watch",
+        "de": "Silberne Uhr mit weißem Zifferblatt"
+      },
+      "nameKo": "실버 화이트다이얼 시계",
+      "description": {
+        "ko": "흰 원형 다이얼과 은색 케이스, 링크 브레이슬릿의 시계입니다.",
+        "en": "White round dial with silver-tone case and linked metal bracelet.",
+        "de": "Weißes rundes Zifferblatt mit silberfarbenem Gehäuse und Metallgliederband."
+      },
+      "howToWear": {
+        "ko": "올린 커프 아래 시계가 손등으로 내려오지 않게 위치를 맞추세요.",
+        "en": "Position the watch below the raised cuff without letting it slide onto the hand.",
+        "de": "Die Uhr unter dem hochgeschobenen Bündchen halten, ohne dass sie auf die Hand rutscht."
+      },
+      "image": "products/watch.webp",
+      "sha256": "3a35402c7b5fea25593312c5cc06cc816820202729a59e5ce50d87bdf65f64a6",
+      "bytes": 28690,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "stud-earrings",
+      "producerId": "05-07-earrings",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-05.stud-earrings",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "실버 미니 볼 스터드",
+        "en": "Silver mini ball studs",
+        "de": "Silberne Mini-Kugelstecker"
+      },
+      "nameKo": "실버 미니 볼 스터드",
+      "description": {
+        "ko": "작은 은색 원형 볼과 짧은 포스트, 뒤 잠금의 귀걸이 한 쌍입니다.",
+        "en": "Small silver-tone ball pair with short posts and butterfly backs.",
+        "de": "Kleines silberfarbenes Kugelpaar mit kurzen Stiften und Schmetterlingsverschlüssen."
+      },
+      "howToWear": {
+        "ko": "머리를 묶을 때 귀 뒤 잔머리가 잠금에 끼지 않게 정리하세요.",
+        "en": "Keep loose hairs clear of the backs when tying the hair up.",
+        "de": "Beim Zusammenbinden lose Haare von den Verschlüssen fernhalten."
+      },
+      "image": "products/stud-earrings.webp",
+      "sha256": "125978d6128fc672ccb648fdd01b66ba2be9ee115dbf2918457b2844a29ed6b0",
+      "bytes": 18366,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b207"
+}

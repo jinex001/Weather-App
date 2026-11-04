@@ -1,0 +1,381 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-minimal-20261104-03",
+  "batchId": "east-asian-overcast-cool-female-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, cafe and florist shopfronts, canvas awnings, utility pipes and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "ca79d24f4f99dcea8c473f77f9bfc668a254d0ca640121dff6b7df224aba5ee1",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-minimal-20261104-03",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-female-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-minimal-20261104-03.cardigan",
+  "scenePropsNotProducts": [
+    "bouquet",
+    "bouquet wrapping",
+    "flower buckets"
+  ],
+  "reconstructionNotice": "The bouquet, its kraft and tissue wrapping and the flower buckets are scene props, not products. The white shirt below the bag strap and the beige cardigan front are partly covered by the arms and are conservatively reconstructed. The dark brown flap crossbody is seen from one side; its far side and full strap length are inferred. No socks are visible, so none are listed. Only one gold-tone hoop is visible; the pair is inferred. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T10:08:31.028075+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "All30 independent single products or matching pairs, no collages",
+      "Color and construction match actual editorials",
+      "Conservative occluded garment reconstruction",
+      "Clean silhouette on all four backgrounds at500px",
+      "No props imported",
+      "05 watch silver linked bracelet and white round dial retained"
+    ]
+  },
+  "copy": {
+    "titleEn": "CATCHING THE FLOWER PAPER",
+    "title": {
+      "ko": "꽃 포장을 잡는 손",
+      "en": "Catching the flower paper",
+      "de": "Das Blumenpapier festhalten"
+    },
+    "deck": {
+      "ko": "베이지 니트와 흰 셔츠, 차콜 미디 스커트.",
+      "en": "Beige knit, a white shirt and a charcoal midi skirt.",
+      "de": "Beiger Strick, weißes Hemd und anthrazitfarbener Midirock."
+    },
+    "intro": {
+      "ko": "꽃가게 앞에서 날리는 포장지 모서리를 손으로 눌러 잡는 순간입니다.",
+      "en": "Outside a flower shop, one hand pins down a wrapping corner caught by the breeze.",
+      "de": "Vor dem Blumenladen hält eine Hand die vom Wind erfasste Papierecke fest."
+    },
+    "body": {
+      "ko": "넓은 앞단의 베이지 카디건은 흰 셔츠의 칼라를 부드럽게 감쌉니다. 곧은 차콜 스커트와 검정 앵클부츠는 밝은 상체 아래 긴 세로선을 만듭니다. 짙은 갈색 크로스백은 반대 골반에서 손동작을 비우고, 작은 금색 링이 헤어 옆에 보입니다. 플래시는 니트의 짜임과 가볍게 접힌 종이의 질감을 나눕니다.",
+      "en": "Broad cardigan borders soften the white shirt collar. A straight charcoal skirt and black ankle boots draw a long line below the pale upper layers. A dark brown crossbody rests on the opposite hip, leaving the gesture free; small gold-tone hoops show beside wavy hair. Flash separates knit texture from the lightly folded paper.",
+      "de": "Breite Cardigankanten umgeben den weißen Hemdkragen weich. Ein gerader anthrazitfarbener Rock und schwarze Ankleboots bilden eine lange Linie unter dem hellen Oberteil. Die dunkelbraune Tasche liegt an der gegenüberliegenden Hüfte und lässt die Bewegung frei. Kleine goldfarbene Creolen zeigen sich neben welligem Haar. Blitz trennt Strickstruktur von gefaltetem Papier."
+    },
+    "pull": {
+      "ko": "부드러운 짜임 아래 곧은 스커트 선.",
+      "en": "Soft knit above a straight skirt line.",
+      "de": "Weicher Strick über einer geraden Rocklinie."
+    },
+    "pullQuoteEn": "Soft knit above a straight skirt line.",
+    "tip": {
+      "ko": "셔츠 앞단을 스커트에 고르게 넣고 가방을 꽃을 잡는 손 반대쪽에 두세요.",
+      "en": "Tuck the shirt evenly into the skirt and move the bag opposite the hand holding the flowers.",
+      "de": "Das Hemd gleichmäßig einstecken und die Tasche gegenüber der blumenhaltenden Hand tragen."
+    }
+  },
+  "products": [
+    {
+      "id": "cardigan",
+      "producerId": "03-01-outer",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-03.cardigan",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "베이지 오픈 카디건",
+        "en": "Beige open cardigan",
+        "de": "Beiger offener Cardigan"
+      },
+      "nameKo": "베이지 오픈 카디건",
+      "description": {
+        "ko": "질감 있는 짜임과 넓은 앞단, 낮은 패치 포켓의 베이지 카디건입니다.",
+        "en": "Textured beige knit with broad front borders and low patch pockets.",
+        "de": "Strukturierter beiger Strick mit breiten Vorderkanten und tiefen aufgesetzten Taschen."
+      },
+      "howToWear": {
+        "ko": "흰 셔츠의 칼라를 카디건 밖으로 펴서 목선을 정리하세요.",
+        "en": "Set the white shirt collar outside the cardigan for a clear neckline.",
+        "de": "Den weißen Hemdkragen über den Cardigan legen und den Halsbereich ordnen."
+      },
+      "image": "products/cardigan.webp",
+      "sha256": "c838634dd6ea63bcea1cdfaaf2bb11f1c37b7c2fd92b4a34a1b917ffd5164b5f",
+      "bytes": 46670,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shirt",
+      "producerId": "03-02-top",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-03.shirt",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "화이트 팝린 셔츠",
+        "en": "White poplin shirt",
+        "de": "Weißes Popelinhemd"
+      },
+      "nameKo": "화이트 팝린 셔츠",
+      "description": {
+        "ko": "작은 칼라와 앞 단추, 긴소매, 둥근 밑단의 흰 셔츠입니다.",
+        "en": "White shirt with collar, front buttons, long sleeves and curved hem.",
+        "de": "Weißes Hemd mit Kragen, Vorderknöpfen, langen Ärmeln und gerundetem Saum."
+      },
+      "howToWear": {
+        "ko": "앞단을 스커트에 넣되 허리 위에 과한 주름이 모이지 않게 하세요.",
+        "en": "Tuck into the skirt without collecting excessive folds above the waist.",
+        "de": "In den Rock stecken, ohne über dem Bund zu viele Falten zu sammeln."
+      },
+      "image": "products/shirt.webp",
+      "sha256": "8e85b04b5b917a583e0c3e53412a43a836b6126d897f61ff6a8e89a13d10bbfb",
+      "bytes": 34744,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "midi-skirt",
+      "producerId": "03-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-03.midi-skirt",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "차콜 미디 스트레이트 스커트",
+        "en": "Charcoal straight midi skirt",
+        "de": "Anthrazitfarbener gerader Midirock"
+      },
+      "nameKo": "차콜 미디 스트레이트 스커트",
+      "description": {
+        "ko": "단순한 허리선과 곧은 옆선, 종아리 길이의 차콜 스커트입니다.",
+        "en": "Charcoal calf-length skirt with plain waistband and straight side lines.",
+        "de": "Wadenlanger anthrazitfarbener Rock mit schlichtem Bund und geraden Seitenlinien."
+      },
+      "howToWear": {
+        "ko": "부츠 윗부분과 밑단 사이 간격이 양쪽에서 고르게 보이게 하세요.",
+        "en": "Keep the interval between skirt hem and boot tops even.",
+        "de": "Den Abstand zwischen Rocksaum und Stiefeloberkante gleichmäßig halten."
+      },
+      "image": "products/midi-skirt.webp",
+      "sha256": "d71e4a0b398304d7ac86bcf7945d9c8cc8a19b5b326d3c7f7a3f53c981b07e20",
+      "bytes": 31306,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-boots",
+      "producerId": "03-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-03.ankle-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 로우힐 앵클부츠",
+        "en": "Black low-heel ankle boots",
+        "de": "Schwarze Ankleboots mit niedrigem Absatz"
+      },
+      "nameKo": "블랙 로우힐 앵클부츠",
+      "description": {
+        "ko": "둥근 앞코와 밀착된 발목, 낮은 블록 굽의 검정 한 켤레입니다.",
+        "en": "Black pair with rounded toes, close ankle shafts and low block heels.",
+        "de": "Schwarzes Paar mit runden Spitzen, engem Knöchelschaft und niedrigen Blockabsätzen."
+      },
+      "howToWear": {
+        "ko": "스커트 옆선 아래 부츠의 발목 부분을 곧게 세워 주세요.",
+        "en": "Keep the ankle shafts upright beneath the skirt side lines.",
+        "de": "Die Knöchelschäfte unter den Rockseiten gerade ausrichten."
+      },
+      "image": "products/ankle-boots.webp",
+      "sha256": "5534379889e36436746ee1eee0dba2bfeded21b29d96cf562ae4572ffcc14079",
+      "bytes": 28836,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody-bag",
+      "producerId": "03-05-bag",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-03.crossbody-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "다크 브라운 플랩 크로스백",
+        "en": "Dark brown flap crossbody",
+        "de": "Dunkelbraune Klappen-Umhängetasche"
+      },
+      "nameKo": "다크 브라운 플랩 크로스백",
+      "description": {
+        "ko": "둥근 직사각 플랩과 가는 조절 스트랩의 짙은 갈색 가방입니다.",
+        "en": "Dark brown bag with rounded rectangular flap and narrow adjustable strap.",
+        "de": "Dunkelbraune Tasche mit abgerundeter rechteckiger Klappe und schmalem verstellbarem Gurt."
+      },
+      "howToWear": {
+        "ko": "꽃 포장을 잡을 때 가방을 반대 골반에 두어 손을 비우세요.",
+        "en": "Rest the bag at the opposite hip while holding the flower paper.",
+        "de": "Beim Halten des Blumenpapiers die Tasche an der gegenüberliegenden Hüfte lassen."
+      },
+      "image": "products/crossbody-bag.webp",
+      "sha256": "c7a2ba9822f7ffc5eef61869705d6571c870fe983d353deff6806e6c12602f72",
+      "bytes": 28458,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoop-earrings",
+      "producerId": "03-06-earrings",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-03.hoop-earrings",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "골드 슬림 후프",
+        "en": "Slim gold-tone hoops",
+        "de": "Schmale goldfarbene Creolen"
+      },
+      "nameKo": "골드 슬림 후프",
+      "description": {
+        "ko": "가늘고 매끈한 링과 작은 여닫이 부분의 금색 한 쌍입니다.",
+        "en": "Slim smooth gold-tone pair with compact hinged sections.",
+        "de": "Schmales glattes goldfarbenes Paar mit kompakten Scharnieren."
+      },
+      "howToWear": {
+        "ko": "웨이브 헤어를 가볍게 넘겨 금색 선을 작은 포인트로 남기세요.",
+        "en": "Sweep back a little wavy hair to leave a small gold accent.",
+        "de": "Etwas welliges Haar zurücklegen und einen kleinen goldenen Akzent lassen."
+      },
+      "image": "products/hoop-earrings.webp",
+      "sha256": "6dbc3c893bec666d5ad15a87589ef2e94579e8d263e3c8193a53660722be8829",
+      "bytes": 37444,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b207"
+}

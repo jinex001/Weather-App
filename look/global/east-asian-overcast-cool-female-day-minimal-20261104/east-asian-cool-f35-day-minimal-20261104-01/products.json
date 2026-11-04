@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-minimal-20261104-01",
+  "batchId": "east-asian-overcast-cool-female-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, cafe and florist shopfronts, canvas awnings, utility pipes and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0274b2d1c605c7679f7cdfe2be406218bc1e9c3bf2262f7b651e7c2d0c7d4b06",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-minimal-20261104-01",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-female-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-minimal-20261104-01.blazer",
+  "scenePropsNotProducts": [
+    "tumbler"
+  ],
+  "reconstructionNotice": "The steel tumbler and its lid are scene props, not products; the parts of the ivory blazer front and black knit they and the raised arms cover are conservatively reconstructed. Black socks show above the black penny loafers. The black shoulder bag sits against the side, so its far side and full strap length are inferred. Only one gold-tone hoop is visible; the pair is inferred. Hidden backs and soles are inferred. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T10:08:31.028075+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "All30 independent single products or matching pairs, no collages",
+      "Color and construction match actual editorials",
+      "Conservative occluded garment reconstruction",
+      "Clean silhouette on all four backgrounds at500px",
+      "No props imported",
+      "05 watch silver linked bracelet and white round dial retained"
+    ]
+  },
+  "copy": {
+    "titleEn": "THE LID THAT WILL NOT TURN",
+    "title": {
+      "ko": "열리지 않는 뚜껑 앞에서",
+      "en": "The lid that will not turn",
+      "de": "Der Deckel bewegt sich nicht"
+    },
+    "deck": {
+      "ko": "아이보리 라펠과 토프 와이드 팬츠의 부드러운 균형.",
+      "en": "Ivory lapels balance soft taupe wide trousers.",
+      "de": "Elfenbeinfarbene Revers gleichen weite taupefarbene Hosen aus."
+    },
+    "intro": {
+      "ko": "카페 앞에서 텀블러 뚜껑을 돌리다 어깨가 자연스럽게 틀어집니다.",
+      "en": "Outside a cafe, twisting a tumbler lid naturally turns the shoulders.",
+      "de": "Vor einem Café dreht das Öffnen des Becherdeckels die Schultern ganz natürlich."
+    },
+    "body": {
+      "ko": "아이보리 블레이저 안의 검정 니트가 밝은 라펠 사이 중심을 잡습니다. 길고 넓은 토프 바지는 짧은 재킷의 비율을 이어가고 검정 양말과 로퍼가 하체 끝을 정리합니다. 작은 숄더백은 옆에 붙어 두 손의 동작을 비워 줍니다. 작은 금색 링과 직광 플래시의 선명한 그림자가 차분한 옷에 표정을 더합니다.",
+      "en": "Black knit holds the center between pale blazer lapels. Long taupe trousers continue the short jacket proportion, while black socks and loafers give a clear finish. A small shoulder bag rests against the side, leaving both hands free. Small gold-tone hoops and a crisp direct-flash shadow add expression to the quiet layers.",
+      "de": "Schwarzer Strick gibt den hellen Blazerrevers eine klare Mitte. Lange taupefarbene Hosen führen die kurze Jackenproportion fort, schwarze Socken und Loafer schließen sie ab. Die kleine Schultertasche bleibt seitlich und lässt beide Hände frei. Kleine goldfarbene Creolen und ein scharfer Blitzschatten geben den ruhigen Lagen Ausdruck."
+    },
+    "pull": {
+      "ko": "밝은 라펠 사이의 검정 중심.",
+      "en": "A black center between pale lapels.",
+      "de": "Eine schwarze Mitte zwischen hellen Revers."
+    },
+    "pullQuoteEn": "A black center between pale lapels.",
+    "tip": {
+      "ko": "가방을 옆구리에 붙이고 앞 단추를 열어 니트의 세로 면이 보이게 하세요.",
+      "en": "Keep the bag against the side and leave the jacket open to show the vertical knit panel.",
+      "de": "Die Tasche seitlich am Körper halten und die Jacke für eine vertikale Strickfläche offen lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "01-01-outer",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.blazer",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "아이보리 싱글 블레이저",
+        "en": "Ivory single-breasted blazer",
+        "de": "Elfenbeinfarbener Einreiher"
+      },
+      "nameKo": "아이보리 싱글 블레이저",
+      "description": {
+        "ko": "노치드 라펠과 밝은 단추, 플랩 포켓, 긴소매의 짧은 재킷입니다.",
+        "en": "Short jacket with notched lapels, pale button, flap pockets and long sleeves.",
+        "de": "Kurze Jacke mit fallendem Revers, hellem Knopf, Klappentaschen und langen Ärmeln."
+      },
+      "howToWear": {
+        "ko": "검정 니트가 중앙에 보이도록 앞을 열고 어깨선을 편안하게 두세요.",
+        "en": "Leave open over the black knit and let the shoulders sit naturally.",
+        "de": "Offen über schwarzem Strick tragen und die Schulterlinie locker lassen."
+      },
+      "image": "products/blazer.webp",
+      "sha256": "c3b0b6f81a76f79a699a7bebb2c8e391398b479c418ca0c23f24d481f5db289c",
+      "bytes": 41260,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit",
+      "producerId": "01-02-top",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "블랙 파인 크루넥 니트",
+        "en": "Black fine crewneck knit",
+        "de": "Schwarzer feiner Rundhalspullover"
+      },
+      "nameKo": "블랙 파인 크루넥 니트",
+      "description": {
+        "ko": "단순한 둥근 목선과 긴소매, 리브 밑단의 검정 니트입니다.",
+        "en": "Plain black knit with round neckline, long sleeves and ribbed hem.",
+        "de": "Schlichter schwarzer Strick mit Rundhals, langen Ärmeln und Rippbund."
+      },
+      "howToWear": {
+        "ko": "밝은 라펠 사이 목선을 평평하게 정리해 검정 면을 단정하게 남기세요.",
+        "en": "Keep the neckline flat between pale lapels for a clear black center.",
+        "de": "Den Ausschnitt zwischen hellen Revers glatt halten und eine klare schwarze Mitte zeigen."
+      },
+      "image": "products/knit.webp",
+      "sha256": "f34f218620dc815daaa3d20f46df2ec5bc225df3c93f1c8ad2206096d6921c83",
+      "bytes": 24612,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-trousers",
+      "producerId": "01-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.wide-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "토프 와이드 플리츠 팬츠",
+        "en": "Taupe wide pleated trousers",
+        "de": "Taupefarbene weite Bundfaltenhose"
+      },
+      "nameKo": "토프 와이드 플리츠 팬츠",
+      "description": {
+        "ko": "앞 주름과 벨트고리, 길고 넓은 다리선의 토프 바지입니다.",
+        "en": "Taupe trousers with front pleats, belt loops and long wide legs.",
+        "de": "Taupefarbene Hose mit Bundfalten, Gürtelschlaufen und langen weiten Beinen."
+      },
+      "howToWear": {
+        "ko": "로퍼의 페니 스트랩을 가리지 않도록 밑단 길이를 맞추세요.",
+        "en": "Set the hem length to leave the loafer penny straps visible.",
+        "de": "Die Länge so wählen, dass die Pennystege der Loafer sichtbar bleiben."
+      },
+      "image": "products/wide-trousers.webp",
+      "sha256": "2a4cefa232526e58cd42daab04012573a0a2830cd84538ddec0f78a4ecf38d87",
+      "bytes": 28784,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loafers",
+      "producerId": "01-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.loafers",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "둥근 앞코와 페니 스트랩, 낮고 두꺼운 창의 검정 한 켤레입니다.",
+        "en": "Black pair with rounded toes, penny straps and low substantial soles.",
+        "de": "Schwarzes Paar mit runden Spitzen, Pennystegen und niedrigen kräftigen Sohlen."
+      },
+      "howToWear": {
+        "ko": "넓은 바지 아래 두 신발의 앞코가 같은 정도로 드러나게 하세요.",
+        "en": "Let both toes show evenly below the wide trousers.",
+        "de": "Unter der weiten Hose beide Schuhspitzen gleich weit zeigen."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "31cd55e46f52f90ab8bff85e3ce62ed55e0027a649ba6569acfbc2ce01224f3f",
+      "bytes": 25412,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "01-05-socks",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "블랙 리브 앵클 삭스",
+        "en": "Black ribbed ankle socks",
+        "de": "Schwarze gerippte Knöchelsocken"
+      },
+      "nameKo": "블랙 리브 앵클 삭스",
+      "description": {
+        "ko": "검정 리브 커프와 둥근 발끝의 발목 양말 한 쌍입니다.",
+        "en": "Black ankle pair with ribbed cuffs and rounded toes.",
+        "de": "Schwarzes Knöchelpaar mit Rippbündchen und runden Spitzen."
+      },
+      "howToWear": {
+        "ko": "바지와 로퍼 사이에 피부가 끊겨 보이지 않도록 커프를 펴세요.",
+        "en": "Smooth the cuffs for a continuous dark line above the loafers.",
+        "de": "Die Bündchen für eine durchgehende dunkle Linie über den Loafern glatt ziehen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "c52fe1b2c127ea1cde0332c4af3ce6a580618d86eccc941a9010e66a46d86c7b",
+      "bytes": 29716,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "01-06-bag",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "블랙 스트럭처 숄더백",
+        "en": "Black structured shoulder bag",
+        "de": "Schwarze strukturierte Schultertasche"
+      },
+      "nameKo": "블랙 스트럭처 숄더백",
+      "description": {
+        "ko": "각진 작은 몸체와 가는 긴 손잡이의 검정 가방입니다.",
+        "en": "Small squared black bag with a narrow long shoulder handle.",
+        "de": "Kleine kantige schwarze Tasche mit schmalem langem Schulterhenkel."
+      },
+      "howToWear": {
+        "ko": "뚜껑을 돌리는 두 손을 비우도록 가방을 옆구리에 붙여 두세요.",
+        "en": "Keep the bag against the side so both hands can work the lid.",
+        "de": "Die Tasche seitlich am Körper lassen, damit beide Hände den Deckel drehen können."
+      },
+      "image": "products/shoulder-bag.webp",
+      "sha256": "9074e01e31ec6ae54d256638c6a44550d404896eabbd68bcfc9658f0bb10ac45",
+      "bytes": 23758,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoop-earrings",
+      "producerId": "01-07-earrings",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-01.hoop-earrings",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "골드 스몰 후프",
+        "en": "Small gold-tone hoops",
+        "de": "Kleine goldfarbene Creolen"
+      },
+      "nameKo": "골드 스몰 후프",
+      "description": {
+        "ko": "둥근 두께와 작은 잠금 장치의 금색 링 귀걸이 한 쌍입니다.",
+        "en": "Small gold-tone hoop pair with rounded thickness and compact clasps.",
+        "de": "Kleines goldfarbenes Creolenpaar mit runder Stärke und kompakten Verschlüssen."
+      },
+      "howToWear": {
+        "ko": "짧은 헤어 옆에서 귀걸이가 칼라에 걸리지 않게 두세요.",
+        "en": "Keep the hoops clear of the collar beside short hair.",
+        "de": "Die Creolen neben kurzem Haar frei vom Kragen halten."
+      },
+      "image": "products/hoop-earrings.webp",
+      "sha256": "eb10d29be74062eb886725dc8b1e28ccab6254030d72d43efce4e88ffeccebeb",
+      "bytes": 41686,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b207"
+}

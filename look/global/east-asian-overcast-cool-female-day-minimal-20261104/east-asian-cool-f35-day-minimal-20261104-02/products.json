@@ -1,0 +1,340 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-minimal-20261104-02",
+  "batchId": "east-asian-overcast-cool-female-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, cafe and florist shopfronts, canvas awnings, utility pipes and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1daaebc059e47e3df3fda3843986f6f31e597bffee7f2c23d4e1f2fb7f46b827",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-minimal-20261104-02",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-female-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-minimal-20261104-02.collarless-jacket",
+  "scenePropsNotProducts": [
+    "receipt",
+    "paper grocery bag",
+    "greens"
+  ],
+  "reconstructionNotice": "The receipt stuck to the raised flat and the paper grocery bag with greens are scene props, not products. The slate collarless jacket is shown closed on a turned body, so its far side and back are conservatively reconstructed; the ivory tee hem and neckline are visible and its back is inferred. No socks are visible, so none are listed. Only one silver-tone hoop is visible; the pair is inferred. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T10:08:31.028075+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "All30 independent single products or matching pairs, no collages",
+      "Color and construction match actual editorials",
+      "Conservative occluded garment reconstruction",
+      "Clean silhouette on all four backgrounds at500px",
+      "No props imported",
+      "05 watch silver linked bracelet and white round dial retained"
+    ]
+  },
+  "copy": {
+    "titleEn": "A SMALL PAPER AT THE TOE",
+    "title": {
+      "ko": "발끝에 붙은 작은 종이",
+      "en": "A small paper at the toe",
+      "de": "Ein kleiner Zettel am Schuh"
+    },
+    "deck": {
+      "ko": "칼라 없는 회색 재킷과 검정 플랫의 간결한 선.",
+      "en": "A collarless gray jacket meets a clean black flat.",
+      "de": "Kragenloses Grau trifft auf einen schlichten schwarzen Ballerina."
+    },
+    "intro": {
+      "ko": "신발에 붙은 영수증을 보고 한쪽 발을 들며 몸이 옆으로 돌아갑니다.",
+      "en": "Spotting a receipt stuck to the shoe, she lifts one foot and turns to look.",
+      "de": "Beim Entdecken des angehafteten Kassenbons hebt sie einen Fuß und dreht sich um."
+    },
+    "body": {
+      "ko": "슬레이트 재킷의 둥근 목선 아래 아이보리 티가 조금 드러납니다. 짧은 검정 바지는 발목을 남기고 작은 리본의 발레 플랫으로 이어집니다. 귀 옆의 얇은 은색 링은 단정한 단발과 함께 가벼운 마무리가 됩니다. 흐린 낮의 직광 플래시는 회색 재킷의 봉제선과 발을 올린 순간의 주름을 분명하게 보여줍니다.",
+      "en": "A little ivory tee shows beneath the slate jacket neckline. Cropped black trousers leave an ankle interval before bow-front ballet flats. Fine silver hoops finish the chin-length bob lightly. Daytime direct flash makes the gray seams and the folds of the raised leg clear against the tiled storefront.",
+      "de": "Etwas elfenbeinfarbenes Shirt zeigt sich unter dem schiefergrauen Jackenausschnitt. Die verkürzte schwarze Hose lässt Abstand am Knöchel vor Ballerinas mit Schleifen. Feine silberfarbene Creolen ergänzen den kinnlangen Bob. Direkter Tagesblitz zeichnet graue Nähte und die Falten des angehobenen Beins vor der gefliesten Ladenfront klar."
+    },
+    "pull": {
+      "ko": "짧은 밑단이 만드는 발목의 여백.",
+      "en": "A cropped hem leaves room at the ankle.",
+      "de": "Ein kurzer Saum lässt Platz am Knöchel."
+    },
+    "pullQuoteEn": "A cropped hem leaves room at the ankle.",
+    "tip": {
+      "ko": "움직이기 전에 밑창의 종이를 제거하고 티 밑단을 가볍게 정리하세요.",
+      "en": "Remove the paper before walking and lightly straighten the tee hem.",
+      "de": "Das Papier vor dem Weitergehen entfernen und den Shirtsaum leicht glätten."
+    }
+  },
+  "products": [
+    {
+      "id": "collarless-jacket",
+      "producerId": "02-01-outer",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-02.collarless-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "슬레이트 칼라리스 재킷",
+        "en": "Slate collarless jacket",
+        "de": "Schiefergraue kragenlose Jacke"
+      },
+      "nameKo": "슬레이트 칼라리스 재킷",
+      "description": {
+        "ko": "둥근 목선과 어두운 단추, 웰트 포켓의 짧은 회색 재킷입니다.",
+        "en": "Short gray jacket with round neckline, dark buttons and welt pockets.",
+        "de": "Kurze graue Jacke mit Rundhals, dunklen Knöpfen und Leistentaschen."
+      },
+      "howToWear": {
+        "ko": "아이보리 티의 목선이 일정하게 보이도록 앞을 열어 주세요.",
+        "en": "Open the front for an even ivory line at the neckline.",
+        "de": "Vorn öffnen und am Ausschnitt eine gleichmäßige elfenbeinfarbene Linie zeigen."
+      },
+      "image": "products/collarless-jacket.webp",
+      "sha256": "4fe66584d8e922f0da85bb7370b89305aa8a52c1821ebd5bc694f0c82665e490",
+      "bytes": 45428,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "02-02-top",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-02.tee",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "아이보리 크루넥 티",
+        "en": "Ivory crewneck tee",
+        "de": "Elfenbeinfarbenes Rundhalsshirt"
+      },
+      "nameKo": "아이보리 크루넥 티",
+      "description": {
+        "ko": "짧은 소매와 단순한 목선, 곧은 밑단의 아이보리 티입니다.",
+        "en": "Ivory tee with short sleeves, plain neckline and straight hem.",
+        "de": "Elfenbeinfarbenes Shirt mit kurzen Ärmeln, schlichtem Ausschnitt und geradem Saum."
+      },
+      "howToWear": {
+        "ko": "티 밑단을 바지에 가볍게 넣어 짧은 재킷의 길이를 살리세요.",
+        "en": "Lightly tuck the tee to preserve the short jacket proportion.",
+        "de": "Das Shirt locker einstecken, damit die kurze Jackenproportion sichtbar bleibt."
+      },
+      "image": "products/tee.webp",
+      "sha256": "87cdc288a980e5242e483733df95b6ca093091eaddb141f7a0617a7736e12bf6",
+      "bytes": 27332,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-trousers",
+      "producerId": "02-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-02.cropped-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "블랙 크롭 스트레이트 팬츠",
+        "en": "Black cropped straight trousers",
+        "de": "Schwarze verkürzte gerade Hose"
+      },
+      "nameKo": "블랙 크롭 스트레이트 팬츠",
+      "description": {
+        "ko": "단순한 허리선과 여유로운 직선 다리, 짧은 밑단의 검정 바지입니다.",
+        "en": "Black trousers with a plain waist, relaxed straight legs and cropped hems.",
+        "de": "Schwarze Hose mit schlichtem Bund, lockerem geradem Bein und verkürztem Saum."
+      },
+      "howToWear": {
+        "ko": "플랫 슈즈 위 발목이 조금 남도록 바지 위치를 맞추세요.",
+        "en": "Position the hems for a small ankle interval above the flats.",
+        "de": "Die Säume für einen kleinen Knöchelabstand über den Ballerinas ausrichten."
+      },
+      "image": "products/cropped-trousers.webp",
+      "sha256": "93f945c273ed4d49f3e49104d383e7dab81af8ecf4249ead3bcfa2bf25c675f2",
+      "bytes": 15848,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ballet-flats",
+      "producerId": "02-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-02.ballet-flats",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 보 발레 플랫",
+        "en": "Black bow ballet flats",
+        "de": "Schwarze Ballerinas mit Schleife"
+      },
+      "nameKo": "블랙 보 발레 플랫",
+      "description": {
+        "ko": "둥근 앞코와 작은 리본, 얇은 평평한 창의 검정 한 켤레입니다.",
+        "en": "Black pair with rounded toes, small bows and thin flat soles.",
+        "de": "Schwarzes Paar mit runden Spitzen, kleinen Schleifen und dünnen flachen Sohlen."
+      },
+      "howToWear": {
+        "ko": "밑창에 종이가 붙었다면 멈춰 제거한 뒤 걸으세요.",
+        "en": "Stop to remove any paper stuck to the sole before walking on.",
+        "de": "Angehaftetes Papier an der Sohle im Stehen entfernen, bevor man weitergeht."
+      },
+      "image": "products/ballet-flats.webp",
+      "sha256": "cf4f4fc61f50a19aaf26c10925539c6ed162c14860dbe87e549ac39bdcced426",
+      "bytes": 27102,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "hoop-earrings",
+      "producerId": "02-05-earrings",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-02.hoop-earrings",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "실버 씬 후프",
+        "en": "Fine silver-tone hoops",
+        "de": "Feine silberfarbene Creolen"
+      },
+      "nameKo": "실버 씬 후프",
+      "description": {
+        "ko": "가는 원형 선과 작은 잠금 부분의 은색 귀걸이 한 쌍입니다.",
+        "en": "Fine silver-tone circular pair with small clasp sections.",
+        "de": "Feines silberfarbenes rundes Paar mit kleinen Verschlussteilen."
+      },
+      "howToWear": {
+        "ko": "단발을 귀 뒤로 조금 넘겨 얇은 링이 보이게 하세요.",
+        "en": "Tuck the bob slightly behind the ear to show the fine hoop.",
+        "de": "Den Bob leicht hinters Ohr legen und den feinen Ring zeigen."
+      },
+      "image": "products/hoop-earrings.webp",
+      "sha256": "8347de7d51543d38b1bed9fb6805dbbf007521afcfa4cda5d8a366f727e0f737",
+      "bytes": 28522,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b207"
+}

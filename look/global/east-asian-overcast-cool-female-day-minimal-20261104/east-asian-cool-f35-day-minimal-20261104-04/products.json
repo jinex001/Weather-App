@@ -1,0 +1,338 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-f35-day-minimal-20261104-04",
+  "batchId": "east-asian-overcast-cool-female-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, cafe and florist shopfronts, canvas awnings, utility pipes and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f4b263ed5baef283e51b107e36c3da9cd9b0e039dc8e62a8c8ff3a701204eaea",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-f35-day-minimal-20261104-04",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-female-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-f35-day-minimal-20261104-04.trench-coat",
+  "scenePropsNotProducts": [
+    "cardboard parcel"
+  ],
+  "reconstructionNotice": "The cardboard parcel is a scene prop, not a product; it covers part of the sand trench front and sleeve, which are conservatively reconstructed with the back. The light gray knit shows at the neckline, torso and cuff. The brown rounded-flap crossbody is seen from one side; its far side is inferred. No socks are visible, so none are listed. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T10:08:31.028075+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "All30 independent single products or matching pairs, no collages",
+      "Color and construction match actual editorials",
+      "Conservative occluded garment reconstruction",
+      "Clean silhouette on all four backgrounds at500px",
+      "No props imported",
+      "05 watch silver linked bracelet and white round dial retained"
+    ]
+  },
+  "copy": {
+    "titleEn": "A PARCEL AT THE DOORWAY",
+    "title": {
+      "ko": "상자를 들고 문을 열 때",
+      "en": "A parcel at the doorway",
+      "de": "Mit einem Paket an der Tür"
+    },
+    "deck": {
+      "ko": "샌드 코트 사이로 이어지는 회색과 네이비.",
+      "en": "Gray and navy run between open sand coat panels.",
+      "de": "Grau und Marine zwischen offenen sandfarbenen Mantelseiten."
+    },
+    "intro": {
+      "ko": "작은 상자를 골반에 받친 채 빈손으로 문고리를 잡습니다.",
+      "en": "A small parcel is steadied at the hip while the free hand reaches for the door.",
+      "de": "Das kleine Paket liegt an der Hüfte, während die freie Hand die Türklinke greift."
+    },
+    "body": {
+      "ko": "가벼운 샌드 코트의 열린 앞면 사이로 회색 니트와 네이비 와이드 팬츠가 이어집니다. 흰 로톱은 어두운 바지 아래 밝은 끝점을 만들고 갈색 크로스백은 몸 옆에 놓입니다. 옆으로 돌아선 자세와 직광 플래시는 코트 소매와 바지의 넓은 폭을 함께 보여줍니다. 상자는 상황을 설명하는 소품이며 착장 제품과 구분됩니다.",
+      "en": "A light sand coat opens over gray knit and navy wide trousers. White low-tops make a bright finish under dark hems, with a brown crossbody resting at the side. The sideward turn and direct flash reveal the coat sleeve and broad trouser shape together. The box explains the incident and remains a scene prop rather than an outfit product.",
+      "de": "Der leichte sandfarbene Mantel öffnet sich über grauem Strick und weiter marineblauer Hose. Weiße Halbschuhe setzen einen hellen Abschluss unter dunkle Säume, die braune Tasche liegt seitlich. Seitliche Drehung und direkter Blitz zeigen Mantelärmel und weite Hosenform zugleich. Die Schachtel erklärt die Situation und bleibt eine Szenenrequisite."
+    },
+    "pull": {
+      "ko": "열린 코트 안의 차분한 세로선.",
+      "en": "A quiet vertical line inside the open coat.",
+      "de": "Eine ruhige vertikale Linie im offenen Mantel."
+    },
+    "pullQuoteEn": "A quiet vertical line inside the open coat.",
+    "tip": {
+      "ko": "계단을 넘기 전 긴 바지 밑단을 확인하고 가방이 문 여는 팔을 막지 않게 옮기세요.",
+      "en": "Check long hems at the step and move the bag clear of the arm opening the door.",
+      "de": "An der Stufe die langen Säume prüfen und die Tasche vom türöffnenden Arm wegschieben."
+    }
+  },
+  "products": [
+    {
+      "id": "trench-coat",
+      "producerId": "04-01-outer",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-04.trench-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "샌드 라이트 트렌치",
+        "en": "Sand light trench coat",
+        "de": "Sandfarbener leichter Trenchcoat"
+      },
+      "nameKo": "샌드 라이트 트렌치",
+      "description": {
+        "ko": "작은 칼라와 어두운 단추, 커프 탭, 무릎 길이의 샌드 코트입니다.",
+        "en": "Sand knee-length coat with collar, dark buttons and cuff tabs.",
+        "de": "Knielanger sandfarbener Mantel mit Kragen, dunklen Knöpfen und Ärmelriegeln."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 회색 니트와 네이비 바지의 세로선을 보여 주세요.",
+        "en": "Wear open to show the vertical gray-and-navy line beneath.",
+        "de": "Offen tragen und die vertikale Grau-Marine-Linie darunter zeigen."
+      },
+      "image": "products/trench-coat.webp",
+      "sha256": "fadb345092a0f5c716ccf539b89b8c2aba40a5f690c3cca32c11c24f2532bd0a",
+      "bytes": 37120,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit",
+      "producerId": "04-02-top",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-04.knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "라이트 그레이 크루넥 니트",
+        "en": "Light gray crewneck knit",
+        "de": "Hellgrauer Rundhalspullover"
+      },
+      "nameKo": "라이트 그레이 크루넥 니트",
+      "description": {
+        "ko": "고른 회색 짜임과 둥근 목선, 긴소매, 리브 밑단의 니트입니다.",
+        "en": "Even gray knit with round neck, long sleeves and ribbed hem.",
+        "de": "Gleichmäßiger grauer Strick mit Rundhals, langen Ärmeln und Rippbund."
+      },
+      "howToWear": {
+        "ko": "상자를 들기 전에 니트 밑단을 펴 코트 안에서 말리지 않게 하세요.",
+        "en": "Smooth the knit hem before lifting the parcel so it stays flat inside the coat.",
+        "de": "Vor dem Anheben des Pakets den Stricksaum im Mantel glatt legen."
+      },
+      "image": "products/knit.webp",
+      "sha256": "d8754cefb16158b407ceb34471674a39eb565abf5978c2134d32f0ea3ee8abd6",
+      "bytes": 47428,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-trousers",
+      "producerId": "04-03-bottom",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-04.wide-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "네이비 와이드 트라우저",
+        "en": "Navy wide trousers",
+        "de": "Marineblaue weite Hose"
+      },
+      "nameKo": "네이비 와이드 트라우저",
+      "description": {
+        "ko": "앞 주름과 벨트고리, 길고 넓은 직선 다리의 네이비 바지입니다.",
+        "en": "Navy trousers with front pleats, belt loops and long wide straight legs.",
+        "de": "Marineblaue Hose mit Bundfalten, Gürtelschlaufen und langem weitem geradem Bein."
+      },
+      "howToWear": {
+        "ko": "계단을 넘을 때 흰 스니커 앞코에 밑단이 걸리지 않도록 확인하세요.",
+        "en": "Check that the hem clears the white sneaker toe at the step.",
+        "de": "An der Stufe darauf achten, dass der Saum frei von der weißen Schuhspitze bleibt."
+      },
+      "image": "products/wide-trousers.webp",
+      "sha256": "055aed2510615755c68af5820621edda408a52dea8c8cca84e1fa8acd8888ba8",
+      "bytes": 26284,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "low-tops",
+      "producerId": "04-04-shoes",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-04.low-tops",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 클린 로톱",
+        "en": "White clean low-tops",
+        "de": "Weiße schlichte Halbschuhe"
+      },
+      "nameKo": "화이트 클린 로톱",
+      "description": {
+        "ko": "흰 끈과 단순한 패널, 같은 색 낮은 창의 로톱 한 켤레입니다.",
+        "en": "White low-top pair with white laces, plain panels and matching low soles.",
+        "de": "Weißes Halbschuhpaar mit weißen Senkeln, schlichten Flächen und gleichfarbigen niedrigen Sohlen."
+      },
+      "howToWear": {
+        "ko": "네이비 바지 아래 흰 끈을 짧게 묶어 밝은 끝점을 정리하세요.",
+        "en": "Tie short white bows beneath navy trousers for a tidy light finish.",
+        "de": "Unter der marineblauen Hose kurze weiße Schleifen für einen klaren hellen Abschluss binden."
+      },
+      "image": "products/low-tops.webp",
+      "sha256": "97f644a22c88f6c0ecebc92edf646a00383b30cae0e8f2494e0dcf49696294da",
+      "bytes": 29186,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody-bag",
+      "producerId": "04-05-bag",
+      "appItemId": "east-asian-cool-f35-day-minimal-20261104-04.crossbody-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "브라운 라운드 플랩 크로스백",
+        "en": "Brown rounded-flap crossbody",
+        "de": "Braune Rundklappen-Umhängetasche"
+      },
+      "nameKo": "브라운 라운드 플랩 크로스백",
+      "description": {
+        "ko": "둥근 플랩과 금속 고리, 가는 조절 스트랩의 갈색 가방입니다.",
+        "en": "Brown bag with rounded flap, metal rings and a narrow adjustable strap.",
+        "de": "Braune Tasche mit runder Klappe, Metallringen und schmalem verstellbarem Gurt."
+      },
+      "howToWear": {
+        "ko": "상자를 받치는 팔 반대쪽으로 가방을 옮겨 문 여는 손을 비우세요.",
+        "en": "Move the bag away from the parcel-supporting arm to free the reaching hand.",
+        "de": "Die Tasche vom paketstützenden Arm wegschieben und die greifende Hand frei halten."
+      },
+      "image": "products/crossbody-bag.webp",
+      "sha256": "eeb1ce83860697fd6fbedb1eb1b019f406638f613e8b81381ffef0192363a4da",
+      "bytes": 32270,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual editorial producer visual review; hidden portions conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b207"
+}
