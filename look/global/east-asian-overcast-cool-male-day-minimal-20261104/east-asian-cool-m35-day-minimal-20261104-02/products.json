@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-minimal-20261104-02",
+  "batchId": "east-asian-overcast-cool-male-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, bakery and shop windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "32a93ecd887cd1e9c41ab37d8ff046ec045f15b04b1eee880ab7ab11b704fc17",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-minimal-20261104-02",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-male-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-minimal-20261104-02.blazer",
+  "scenePropsNotProducts": [
+    "coin"
+  ],
+  "reconstructionNotice": "The coin on the pavement is a scene prop, not a product. Bent forward with one knee flexed: the navy blazer back, the shirt below the belt and the pleated trousers' seat are conservatively reconstructed. The brown belt shows at the front with a silver-tone buckle; its full length is inferred. The watch is a silver-tone round case with a white dial on a brown strap, not a metal bracelet; the strap's hidden side is inferred. No socks are visible, so none are listed. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T12:25:42.549499+00:00",
+    "productCount": 28,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image review of all five look overview sheets; all 28 isolated products, complete pairs and straps, no outfit collages or props; clean final composites on four backgrounds."
+    ]
+  },
+  "copy": {
+    "titleEn": "BENDING FOR A COIN",
+    "title": {
+      "ko": "동전을 향해 숙이는 순간",
+      "en": "Bending for a coin",
+      "de": "Nach einer Münze greifen"
+    },
+    "deck": {
+      "ko": "네이비 블레이저와 회색 플리츠의 가벼운 격식.",
+      "en": "A navy blazer lends gray pleats an easy formality.",
+      "de": "Marineblauer Blazer und graue Bundfalten wirken locker formell."
+    },
+    "intro": {
+      "ko": "바닥의 작은 동전을 발견하고 한쪽 무릎을 굽힙니다.",
+      "en": "Spotting a small coin on the pavement, he bends one knee and reaches down.",
+      "de": "Eine kleine Münze auf dem Pflaster lässt ihn ein Knie beugen und nach unten greifen."
+    },
+    "body": {
+      "ko": "흰 버튼다운 셔츠가 네이비 블레이저 안을 밝힙니다. 회색 앞 주름 바지와 검정 더비가 단정한 선을 만들고 갈색 벨트와 갈색 스트랩 시계가 작은 색 연결을 더합니다. 숙인 자세에서도 열린 재킷과 여유 있는 바지의 형태가 읽힙니다.",
+      "en": "A white button-down brightens the navy blazer. Gray pleated trousers and black derbies hold a clear line; a brown belt and brown watch strap provide a small color connection. The open jacket and relaxed trousers retain their shape through the bent pose.",
+      "de": "Ein weißes Button-down-Hemd hellt den marineblauen Blazer auf. Graue Bundfalten und schwarze Derbys halten eine klare Linie; brauner Gürtel und braunes Uhrenband verbinden kleine Details. Offene Jacke und lockere Hose bleiben auch in der gebeugten Haltung lesbar."
+    },
+    "pull": {
+      "ko": "갈색 스트랩으로 잇는 작은 디테일.",
+      "en": "Small details connected by brown straps.",
+      "de": "Braune Bänder verbinden kleine Details."
+    },
+    "pullQuoteEn": "Small details connected by brown straps.",
+    "tip": {
+      "ko": "몸을 숙이기 전 재킷 단추를 풀고 일어난 뒤 셔츠 앞단을 정리하세요.",
+      "en": "Unbutton before bending and straighten the shirt front after standing up.",
+      "de": "Vor dem Bücken die Jacke öffnen und danach die Hemdfront glätten."
+    }
+  },
+  "products": [
+    {
+      "id": "blazer",
+      "producerId": "02-01-outer",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-02.blazer",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "네이비 소프트 블레이저",
+        "en": "Navy soft blazer",
+        "de": "Marineblauer weicher Blazer"
+      },
+      "nameKo": "네이비 소프트 블레이저",
+      "description": {
+        "ko": "노치드 라펠과 앞 단추, 낮은 포켓의 네이비 재킷입니다.",
+        "en": "Navy jacket with notched lapels, front buttons and low pockets.",
+        "de": "Marineblaue Jacke mit fallendem Revers, Vorderknöpfen und tiefen Taschen."
+      },
+      "howToWear": {
+        "ko": "몸을 숙일 때 앞단이 당기지 않도록 단추를 풀어 주세요.",
+        "en": "Unbutton before bending so the front can move freely.",
+        "de": "Vor dem Bücken öffnen, damit sich die Vorderseite frei bewegt."
+      },
+      "image": "products/blazer.webp",
+      "sha256": "a83d09f46907e49b4e919fe1844a5d255666453c3068fa31447abaf0c0389ff2",
+      "bytes": 33752,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "button-down-shirt",
+      "producerId": "02-02-top",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-02.button-down-shirt",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "화이트 버튼다운 셔츠",
+        "en": "White button-down shirt",
+        "de": "Weißes Button-down-Hemd"
+      },
+      "nameKo": "화이트 버튼다운 셔츠",
+      "description": {
+        "ko": "칼라 끝 단추와 긴소매, 둥근 밑단의 흰 셔츠입니다.",
+        "en": "White shirt with button-down collar points, long sleeves and curved hem.",
+        "de": "Weißes Hemd mit geknöpften Kragenspitzen, langen Ärmeln und gerundetem Saum."
+      },
+      "howToWear": {
+        "ko": "허리에 가볍게 넣고 칼라 끝을 평평하게 정리하세요.",
+        "en": "Tuck lightly and lay the collar points flat.",
+        "de": "Locker einstecken und die Kragenspitzen glatt legen."
+      },
+      "image": "products/button-down-shirt.webp",
+      "sha256": "56911b0db38dd6a492deb3f70d3032f67d140a05d4a410a2aece6fa1a73da9b1",
+      "bytes": 41516,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pleated-trousers",
+      "producerId": "02-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-02.pleated-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "그레이 플리츠 트라우저",
+        "en": "Gray pleated trousers",
+        "de": "Graue Bundfaltenhose"
+      },
+      "nameKo": "그레이 플리츠 트라우저",
+      "description": {
+        "ko": "앞 주름과 벨트고리, 여유로운 긴 다리선의 회색 바지입니다.",
+        "en": "Gray trousers with front pleats, belt loops and relaxed long legs.",
+        "de": "Graue Hose mit Bundfalten, Gürtelschlaufen und lockerem langem Bein."
+      },
+      "howToWear": {
+        "ko": "숙였다 일어난 뒤 앞 주름이 곧게 떨어지도록 정리하세요.",
+        "en": "Straighten the front pleats after standing up.",
+        "de": "Nach dem Aufrichten die Bundfalten gerade ausrichten."
+      },
+      "image": "products/pleated-trousers.webp",
+      "sha256": "a3d162f82491ef02a8ffcdad6e6b1c2b93134ac515b397eff08e42558b95afae",
+      "bytes": 38418,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "derbies",
+      "producerId": "02-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-02.derbies",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 플레인 더비",
+        "en": "Black plain derbies",
+        "de": "Schwarze schlichte Derbys"
+      },
+      "nameKo": "블랙 플레인 더비",
+      "description": {
+        "ko": "열린 끈 구조와 둥근 앞코, 낮은 굽의 검정 한 켤레입니다.",
+        "en": "Black pair with open lacing, rounded toes and low heels.",
+        "de": "Schwarzes Paar mit offener Schnürung, runden Spitzen und niedrigen Absätzen."
+      },
+      "howToWear": {
+        "ko": "회색 바지 아래 끈 끝을 짧게 묶어 정리하세요.",
+        "en": "Tie short lace ends beneath the gray trousers.",
+        "de": "Unter der grauen Hose die Senkelenden kurz binden."
+      },
+      "image": "products/derbies.webp",
+      "sha256": "fd4896042b4652549e79ddc470c2b5be165dd4d31dcc9766f254d512aad5e421",
+      "bytes": 29290,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "belt",
+      "producerId": "02-05-belt",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-02.belt",
+      "appCategory": "accessory",
+      "producerCategory": "belt",
+      "name": {
+        "ko": "브라운 슬림 벨트",
+        "en": "Brown slim belt",
+        "de": "Schmaler brauner Gürtel"
+      },
+      "nameKo": "브라운 슬림 벨트",
+      "description": {
+        "ko": "가는 갈색 스트랩과 은색 직사각 버클의 벨트입니다.",
+        "en": "Narrow brown strap with a silver-tone rectangular buckle.",
+        "de": "Schmaler brauner Riemen mit silberfarbener rechteckiger Schnalle."
+      },
+      "howToWear": {
+        "ko": "버클을 셔츠 단추선 중앙에 맞추고 끝을 고리에 넣으세요.",
+        "en": "Center the buckle below the shirt placket and secure the end.",
+        "de": "Die Schnalle unter der Knopfleiste mittig setzen und das Ende einstecken."
+      },
+      "image": "products/belt.webp",
+      "sha256": "6ad9747eb9d3cb8d4982eedf5c0dbafab0c82d0481c3ec72399ac035755767fb",
+      "bytes": 23016,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "02-06-watch",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-02.watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "화이트다이얼 브라운스트랩 시계",
+        "en": "White-dial brown-strap watch",
+        "de": "Uhr mit weißem Blatt und braunem Band"
+      },
+      "nameKo": "화이트다이얼 브라운스트랩 시계",
+      "description": {
+        "ko": "은색 원형 케이스와 흰 다이얼, 갈색 스트랩의 시계입니다.",
+        "en": "Silver-tone round case, white dial and brown strap.",
+        "de": "Silberfarbenes rundes Gehäuse, weißes Zifferblatt und braunes Band."
+      },
+      "howToWear": {
+        "ko": "셔츠 커프 아래에 두되 손등으로 밀리지 않게 조절하세요.",
+        "en": "Set below the shirt cuff without letting it slide onto the hand.",
+        "de": "Unter der Hemdmanschette tragen, ohne auf die Hand zu rutschen."
+      },
+      "image": "products/watch.webp",
+      "sha256": "b363dfba248477670d42af49ed9ab6d1a0a9e435686f9cc7c573a89f70c7ce4d",
+      "bytes": 16944,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b208"
+}

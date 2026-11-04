@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-minimal-20261104-03",
+  "batchId": "east-asian-overcast-cool-male-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, bakery and shop windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "eccea0fe3444f2657339811da1e41f3b71f9f5522de5069adecec9b7eb327b36",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-minimal-20261104-03",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-male-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-minimal-20261104-03.zip-jacket",
+  "scenePropsNotProducts": [
+    "baguette",
+    "paper bread sleeve"
+  ],
+  "reconstructionNotice": "The baguette and its paper sleeve are scene props, not products; they and the raised arms cover part of the ivory zip jacket and the navy knit, which are conservatively reconstructed. The navy top is a textured knit, not a tee. The brown soft shoulder bag is seen from one side and held up by its strap; its far side and full strap length are inferred. No socks are visible, so none are listed. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T12:25:42.549499+00:00",
+    "productCount": 28,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image review of all five look overview sheets; all 28 isolated products, complete pairs and straps, no outfit collages or props; clean final composites on four backgrounds."
+    ]
+  },
+  "copy": {
+    "titleEn": "BETWEEN A STRAP AND PAPER",
+    "title": {
+      "ko": "어깨끈과 포장지 사이",
+      "en": "Between a strap and paper",
+      "de": "Zwischen Gurt und Papier"
+    },
+    "deck": {
+      "ko": "아이보리 지퍼 재킷 안의 네이비 짜임.",
+      "en": "Ivory zip layers reveal navy knit texture.",
+      "de": "Eine elfenbeinfarbene Zipjacke zeigt Marinestrick."
+    },
+    "intro": {
+      "ko": "가방끈에 걸린 포장지를 풀려고 팔과 어깨를 잠시 모읍니다.",
+      "en": "He draws an arm and shoulder together to free wrapping paper caught in the bag strap.",
+      "de": "Arm und Schulter kommen zusammen, um das im Taschengurt verfangene Papier zu lösen."
+    },
+    "body": {
+      "ko": "짧은 아이보리 재킷은 네이비 텍스처 니트 위에 가볍게 열려 있습니다. 검정 바지 아래 흰 스니커가 밝은 끝점을 만들고 갈색 숄더백은 부드러운 곡선을 남깁니다. 플래시는 재킷 봉제선과 손에 모인 끈을 분명하게 보여줍니다.",
+      "en": "The short ivory jacket opens lightly over a textured navy knit. White sneakers finish black trousers with a pale endpoint, and the brown shoulder bag adds a soft curve. Direct flash defines the jacket seams and the strap gathered in his hands.",
+      "de": "Die kurze helle Jacke öffnet sich über strukturiertem Marinestrick. Weiße Sneaker setzen unter schwarzen Hosen einen hellen Abschluss, die braune Schultertasche eine weiche Kurve. Direkter Blitz zeichnet Jackennähte und den Gurt in den Händen klar."
+    },
+    "pull": {
+      "ko": "짧은 밝은 재킷과 긴 어두운 바지.",
+      "en": "A short pale jacket over long dark trousers.",
+      "de": "Eine kurze helle Jacke über langen dunklen Hosen."
+    },
+    "pullQuoteEn": "A short pale jacket over long dark trousers.",
+    "tip": {
+      "ko": "걸음을 멈추고 스트랩을 먼저 풀어 가방이 한쪽 어깨를 당기지 않게 하세요.",
+      "en": "Stop and free the strap first so the bag does not pull one shoulder.",
+      "de": "Anhalten und zuerst den Gurt lösen, damit die Tasche nicht an einer Schulter zieht."
+    }
+  },
+  "products": [
+    {
+      "id": "zip-jacket",
+      "producerId": "03-01-outer",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-03.zip-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "아이보리 칼라 지퍼 재킷",
+        "en": "Ivory collared zip jacket",
+        "de": "Elfenbeinfarbene Zipjacke mit Kragen"
+      },
+      "nameKo": "아이보리 칼라 지퍼 재킷",
+      "description": {
+        "ko": "포인티드 칼라와 중앙 지퍼, 옆 웰트 포켓의 짧은 재킷입니다.",
+        "en": "Short jacket with pointed collar, central zip and side welt pockets.",
+        "de": "Kurze Jacke mit spitzem Kragen, mittigem Zip und seitlichen Leistentaschen."
+      },
+      "howToWear": {
+        "ko": "지퍼를 조금 열어 네이비 니트의 질감을 보여 주세요.",
+        "en": "Open slightly to reveal the navy knit texture.",
+        "de": "Etwas öffnen und die Struktur des Marinestricks zeigen."
+      },
+      "image": "products/zip-jacket.webp",
+      "sha256": "516b7468c5addaf4d655d652a7142a42c21c588dfd44ddaf1e88d88ff601e8a2",
+      "bytes": 35914,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "textured-knit",
+      "producerId": "03-02-top",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-03.textured-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "네이비 텍스처 니트",
+        "en": "Navy textured knit",
+        "de": "Marineblauer Strukturstrick"
+      },
+      "nameKo": "네이비 텍스처 니트",
+      "description": {
+        "ko": "둥근 목선과 고른 질감, 리브 커프와 밑단의 긴소매 니트입니다.",
+        "en": "Long-sleeved knit with round neck, even texture and ribbed cuffs and hem.",
+        "de": "Langärmliger Strick mit Rundhals, gleichmäßiger Struktur und Rippabschlüssen."
+      },
+      "howToWear": {
+        "ko": "밑단을 평평하게 펴 짧은 재킷 아래 뭉치지 않게 하세요.",
+        "en": "Smooth the hem so it does not bunch inside the short jacket.",
+        "de": "Den Saum glätten, damit er sich in der kurzen Jacke nicht staut."
+      },
+      "image": "products/textured-knit.webp",
+      "sha256": "157471effdc456d6d22e4b89000a6ba480f18b2d58ba882a8b2ee0a8f5c2aabc",
+      "bytes": 36526,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "relaxed-trousers",
+      "producerId": "03-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-03.relaxed-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "블랙 릴랙스 팬츠",
+        "en": "Black relaxed trousers",
+        "de": "Schwarze lockere Hose"
+      },
+      "nameKo": "블랙 릴랙스 팬츠",
+      "description": {
+        "ko": "단순한 허리선과 긴 직선 다리의 여유로운 검정 바지입니다.",
+        "en": "Relaxed black trousers with plain waist and long straight legs.",
+        "de": "Lockere schwarze Hose mit schlichtem Bund und langen geraden Beinen."
+      },
+      "howToWear": {
+        "ko": "흰 스니커 위 밑단이 양쪽에서 고르게 떨어지게 하세요.",
+        "en": "Let both hems fall evenly above the white sneakers.",
+        "de": "Beide Säume gleichmäßig über den weißen Sneakern fallen lassen."
+      },
+      "image": "products/relaxed-trousers.webp",
+      "sha256": "8ca3edf3d9d380fa4e404ab9844cb2893b17439ab7966ca9b29c5c3074e2fc1d",
+      "bytes": 14392,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sneakers",
+      "producerId": "03-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-03.sneakers",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 클린 스니커",
+        "en": "White clean sneakers",
+        "de": "Weiße schlichte Sneaker"
+      },
+      "nameKo": "화이트 클린 스니커",
+      "description": {
+        "ko": "흰 끈과 단순한 패널, 낮은 같은 색 창의 한 켤레입니다.",
+        "en": "White pair with white laces, plain panels and matching low soles.",
+        "de": "Weißes Paar mit weißen Senkeln, schlichten Flächen und gleichfarbigen niedrigen Sohlen."
+      },
+      "howToWear": {
+        "ko": "끈을 짧게 묶고 검정 바지와 밝은 끝점을 분명히 나누세요.",
+        "en": "Tie short bows for a clear pale finish below black trousers.",
+        "de": "Kurze Schleifen für einen klaren hellen Abschluss unter der schwarzen Hose binden."
+      },
+      "image": "products/sneakers.webp",
+      "sha256": "75b765009e2a5570628fcbb4ea65e73294931426684d30fab97cd5cdde68bd3c",
+      "bytes": 29692,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "03-05-bag",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-03.shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "브라운 소프트 숄더백",
+        "en": "Brown soft shoulder bag",
+        "de": "Braune weiche Schultertasche"
+      },
+      "nameKo": "브라운 소프트 숄더백",
+      "description": {
+        "ko": "부드러운 갈색 몸체와 긴 루프형 숄더 스트랩의 가방입니다.",
+        "en": "Soft brown body with a long loop shoulder strap.",
+        "de": "Weicher brauner Taschenkörper mit langem Schlaufen-Schultergurt."
+      },
+      "howToWear": {
+        "ko": "포장 종이와 스트랩이 엉키면 멈춰 끈을 먼저 풀어 주세요.",
+        "en": "Stop and free the strap if it catches the wrapping paper.",
+        "de": "Anhalten und den Gurt lösen, wenn er sich im Papier verfängt."
+      },
+      "image": "products/shoulder-bag.webp",
+      "sha256": "74ba4de8ae7f0f415aca5bddda47d14870c14d91c434d3e39d20ee45bfcbe41f",
+      "bytes": 27384,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b208"
+}

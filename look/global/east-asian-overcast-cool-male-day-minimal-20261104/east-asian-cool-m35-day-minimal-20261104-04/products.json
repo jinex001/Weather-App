@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-minimal-20261104-04",
+  "batchId": "east-asian-overcast-cool-male-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, bakery and shop windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "dbf9b92589d501a75fe6186d08b9805d1a2ea161b82539d740742a5d7c8ed811",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-minimal-20261104-04",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-male-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-minimal-20261104-04.eyeglasses",
+  "scenePropsNotProducts": [
+    "cleaning cloth"
+  ],
+  "reconstructionNotice": "The cleaning cloth is a scene prop, not a product. The silver rounded eyeglasses are held in the hands and listed as a wearable product; their far temple is inferred. The hands and rolled cuffs cover part of the sage band-collar overshirt and ecru knit, which are conservatively reconstructed with the back. Brown socks show above the brown penny loafers. Brand, metal, lens properties, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T12:25:42.549499+00:00",
+    "productCount": 28,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image review of all five look overview sheets; all 28 isolated products, complete pairs and straps, no outfit collages or props; clean final composites on four backgrounds."
+    ]
+  },
+  "copy": {
+    "titleEn": "A PAUSE TO CLEAN THE GLASSES",
+    "title": {
+      "ko": "안경을 닦는 짧은 멈춤",
+      "en": "A pause to clean the glasses",
+      "de": "Eine Pause für die Brille"
+    },
+    "deck": {
+      "ko": "세이지 밴드칼라와 에크루 니트의 부드러운 층.",
+      "en": "Sage band collar meets soft ecru knit.",
+      "de": "Salbeigrüner Stehkragen trifft auf weichen Ecrustrick."
+    },
+    "intro": {
+      "ko": "안경을 벗어 손에 들고 렌즈를 닦습니다.",
+      "en": "He removes the glasses and holds them in his hands to clean a lens.",
+      "de": "Er nimmt die Brille ab und hält sie zum Reinigen eines Glases in den Händen."
+    },
+    "body": {
+      "ko": "낮은 칼라의 세이지 오버셔츠 아래 에크루 니트가 보입니다. 토프 바지는 넓고 곧게 떨어져 갈색 양말과 로퍼에 닿습니다. 손에 든 가는 은색 안경은 낮은 색 대비 안에서 작은 빛을 남기고 직광 플래시가 옷의 주름과 둥근 테를 구분합니다.",
+      "en": "Ecru knit shows under a low-collared sage overshirt. Wide straight taupe trousers reach brown socks and loafers. Fine silver-tone glasses catch a small glint within the low-contrast palette, while direct flash distinguishes clothing folds from the rounded frames.",
+      "de": "Ecrustrick zeigt sich unter dem niedrigen Kragen des salbeifarbenen Overshirts. Weite gerade taupefarbene Hosen reichen zu braunen Socken und Loafern. Die feine silberfarbene Brille setzt einen kleinen Lichtpunkt; direkter Blitz trennt Kleidungsfalten von der runden Fassung."
+    },
+    "pull": {
+      "ko": "낮은 칼라 아래 밝은 목선.",
+      "en": "A pale neckline below a low collar.",
+      "de": "Ein heller Ausschnitt unter einem niedrigen Kragen."
+    },
+    "pullQuoteEn": "A pale neckline below a low collar.",
+    "tip": {
+      "ko": "커프를 조금 올리고 안경은 다리를 잡아 렌즈에 지문이 남지 않게 하세요.",
+      "en": "Raise the cuffs slightly and hold a temple to keep fingerprints off the lenses.",
+      "de": "Die Manschetten etwas hochschieben und die Brille am Bügel halten, damit die Gläser sauber bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "producerId": "04-01-outer",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-04.overshirt",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "세이지 밴드칼라 오버셔츠",
+        "en": "Sage band-collar overshirt",
+        "de": "Salbeifarbenes Stehkragen-Overshirt"
+      },
+      "nameKo": "세이지 밴드칼라 오버셔츠",
+      "description": {
+        "ko": "낮은 밴드칼라와 가슴 패치 포켓, 앞 단추의 긴소매 셔츠입니다.",
+        "en": "Long-sleeved shirt with low band collar, chest patch pocket and front buttons.",
+        "de": "Langärmliges Hemd mit niedrigem Stehkragen, Brusttasche und Vorderknöpfen."
+      },
+      "howToWear": {
+        "ko": "안경을 닦을 때 커프를 살짝 올려 손목을 비우세요.",
+        "en": "Push the cuffs up slightly while cleaning the glasses.",
+        "de": "Beim Brillenputzen die Manschetten leicht hochschieben."
+      },
+      "image": "products/overshirt.webp",
+      "sha256": "2c9927b1cabec438b17351fc24b4555088ee42c0521ecc58a2e5d165c997edcb",
+      "bytes": 45478,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit",
+      "producerId": "04-02-top",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-04.knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "에크루 크루넥 니트",
+        "en": "Ecru crewneck knit",
+        "de": "Ecrufarbener Rundhalspullover"
+      },
+      "nameKo": "에크루 크루넥 니트",
+      "description": {
+        "ko": "밝은 에크루 앞판과 둥근 목선, 리브 밑단의 니트입니다.",
+        "en": "Pale ecru knit with round neck and ribbed hem.",
+        "de": "Heller ecrufarbener Strick mit Rundhals und Rippbund."
+      },
+      "howToWear": {
+        "ko": "세이지 앞단 사이에 밝은 목선이 고르게 보이게 하세요.",
+        "en": "Show an even pale neckline between the sage front edges.",
+        "de": "Zwischen den salbeifarbenen Vorderkanten einen gleichmäßigen hellen Ausschnitt zeigen."
+      },
+      "image": "products/knit.webp",
+      "sha256": "f318a3c6df05f71d2708800ab61cb39988535eb6f8eda79775018de47e8232e2",
+      "bytes": 39994,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-trousers",
+      "producerId": "04-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-04.wide-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "토프 와이드 스트레이트 팬츠",
+        "en": "Taupe wide straight trousers",
+        "de": "Taupefarbene weite gerade Hose"
+      },
+      "nameKo": "토프 와이드 스트레이트 팬츠",
+      "description": {
+        "ko": "벨트고리와 앞 주름, 넓고 곧은 다리선의 토프 바지입니다.",
+        "en": "Taupe trousers with belt loops, front pleats and wide straight legs.",
+        "de": "Taupefarbene Hose mit Gürtelschlaufen, Bundfalten und weitem geradem Bein."
+      },
+      "howToWear": {
+        "ko": "갈색 로퍼 위에서 밑단이 접히지 않게 길이를 맞추세요.",
+        "en": "Set the length to avoid folded hems above brown loafers.",
+        "de": "Die Länge ohne umgeschlagene Säume über den braunen Loafern wählen."
+      },
+      "image": "products/wide-trousers.webp",
+      "sha256": "08dabd98aa01de22ef5b34050149ba46a2b38b14796a7a187f857b61b6738b67",
+      "bytes": 31622,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "penny-loafers",
+      "producerId": "04-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-04.penny-loafers",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "브라운 페니 로퍼",
+        "en": "Brown penny loafers",
+        "de": "Braune Pennyloafer"
+      },
+      "nameKo": "브라운 페니 로퍼",
+      "description": {
+        "ko": "갈색 앞판과 페니 스트랩, 낮은 굽의 둥근 한 켤레입니다.",
+        "en": "Brown pair with penny straps, rounded toes and low heels.",
+        "de": "Braunes Paar mit Pennystegen, runden Spitzen und niedrigen Absätzen."
+      },
+      "howToWear": {
+        "ko": "갈색 양말과 이어지도록 두 신발의 스트랩을 드러내세요.",
+        "en": "Show the straps above a continuous brown sock line.",
+        "de": "Die Stege über einer durchgehenden braunen Sockenlinie zeigen."
+      },
+      "image": "products/penny-loafers.webp",
+      "sha256": "7739edcbaa5adf6c584fc4302b6c93baa31d61512360ba80dd802863e174f8d1",
+      "bytes": 36420,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "04-05-socks",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-04.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "브라운 앵클 삭스",
+        "en": "Brown ankle socks",
+        "de": "Braune Knöchelsocken"
+      },
+      "nameKo": "브라운 앵클 삭스",
+      "description": {
+        "ko": "짙은 갈색 커프와 단순한 발등의 발목 양말 한 쌍입니다.",
+        "en": "Dark brown ankle pair with plain insteps and compact cuffs.",
+        "de": "Dunkelbraunes Knöchelpaar mit schlichtem Spann und kurzen Bündchen."
+      },
+      "howToWear": {
+        "ko": "로퍼 위 커프 높이를 양쪽에서 같게 맞추세요.",
+        "en": "Match cuff heights above both loafers.",
+        "de": "Beide Bündchen über den Loafern gleich hoch ausrichten."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "4d57c028022d093f38e0d3ac61f9f01231c68f30f067004f08bd66060c05c758",
+      "bytes": 33778,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "eyeglasses",
+      "producerId": "04-06-eyewear",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-04.eyeglasses",
+      "appCategory": "eyewear",
+      "producerCategory": "eyewear",
+      "name": {
+        "ko": "실버 라운드 안경",
+        "en": "Silver rounded eyeglasses",
+        "de": "Silberne runde Brille"
+      },
+      "nameKo": "실버 라운드 안경",
+      "description": {
+        "ko": "가는 은색 둥근 테와 투명 렌즈, 접히는 다리의 안경입니다.",
+        "en": "Fine silver-tone rounded frames with clear lenses and folding temples.",
+        "de": "Feine silberfarbene runde Fassung mit klaren Gläsern und klappbaren Bügeln."
+      },
+      "howToWear": {
+        "ko": "벗었을 때 한쪽 다리를 잡고 렌즈를 손가락으로 누르지 마세요.",
+        "en": "Hold one temple when removed and keep fingers off the lenses.",
+        "de": "Abgesetzt an einem Bügel halten und die Gläser nicht berühren."
+      },
+      "image": "products/eyeglasses.webp",
+      "sha256": "daecf3282831402a862f21495573c360c394ba23f9e64675451d7ddee7f62969",
+      "bytes": 35296,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b208"
+}

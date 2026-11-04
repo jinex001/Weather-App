@@ -1,0 +1,335 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-minimal-20261104-05",
+  "batchId": "east-asian-overcast-cool-male-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, bakery and shop windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "9e8168e0ddbab256b3c3073447dc0d0eca81a30439daba63c3e119c03b16d586",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-minimal-20261104-05",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-male-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-minimal-20261104-05.patch-pocket-coat",
+  "scenePropsNotProducts": [
+    "bakery cart",
+    "bread",
+    "bread packaging"
+  ],
+  "reconstructionNotice": "The bakery cart, bread and packaging are scene props, not products. Turned sideways: the charcoal coat's far side and back, the black ribbed knit below the coat front and the navy trousers' waist are conservatively reconstructed. The black tote hangs from one hand, so its far side is inferred. No socks are visible, so none are listed. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T12:25:42.549499+00:00",
+    "productCount": 28,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image review of all five look overview sheets; all 28 isolated products, complete pairs and straps, no outfit collages or props; clean final composites on four backgrounds."
+    ]
+  },
+  "copy": {
+    "titleEn": "ONE STEP AROUND THE CART",
+    "title": {
+      "ko": "카트를 비켜서는 한 걸음",
+      "en": "One step around the cart",
+      "de": "Ein Schritt am Wagen vorbei"
+    },
+    "deck": {
+      "ko": "차콜 패치 포켓과 검정 리브 니트의 질감.",
+      "en": "Charcoal patch pockets meet black rib texture.",
+      "de": "Anthrazitfarbene Taschen treffen auf schwarzen Rippstrick."
+    },
+    "intro": {
+      "ko": "지나가는 카트에 자리를 내주며 몸을 옆으로 틉니다.",
+      "en": "He turns sideways to make room for a passing cart.",
+      "de": "Er dreht sich seitlich, um einem vorbeifahrenden Wagen Platz zu machen."
+    },
+    "body": {
+      "ko": "큰 패치 포켓의 짧은 차콜 코트가 검정 리브 니트 위에 놓입니다. 네이비 발목 바지는 검정 첼시 부츠로 마무리되고 긴 손잡이 토트는 반대쪽 손에 들립니다. 단순한 어두운 면들이 플래시 아래 서로 다른 결로 읽힙니다.",
+      "en": "A short charcoal coat with large patch pockets sits over a black ribbed knit. Navy ankle trousers end at black Chelsea boots; a long-handled tote rests in the opposite hand. Direct flash gives the simple dark surfaces distinct textures.",
+      "de": "Ein kurzer Anthrazitmantel mit großen aufgesetzten Taschen liegt über schwarzem Rippstrick. Marineblaue Knöchelhosen enden an schwarzen Chelseaboots; der Shopper hängt in der anderen Hand. Direkter Blitz macht unterschiedliche Strukturen in den schlichten dunklen Flächen sichtbar."
+    },
+    "pull": {
+      "ko": "어두운 색 안에서 드러나는 짜임.",
+      "en": "Texture becomes visible within dark tones.",
+      "de": "Struktur zeigt sich innerhalb dunkler Töne."
+    },
+    "pullQuoteEn": "Texture becomes visible within dark tones.",
+    "tip": {
+      "ko": "토트를 카트 반대쪽으로 옮기고 부츠 입구에 바지 밑단이 걸리지 않게 하세요.",
+      "en": "Move the tote away from the cart and keep trouser hems clear of boot openings.",
+      "de": "Den Shopper vom Wagen wegtragen und die Hosensäume frei von den Schaftöffnungen halten."
+    }
+  },
+  "products": [
+    {
+      "id": "patch-pocket-coat",
+      "producerId": "05-01-outer",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-05.patch-pocket-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "차콜 패치포켓 코트",
+        "en": "Charcoal patch-pocket coat",
+        "de": "Anthrazitmantel mit aufgesetzten Taschen"
+      },
+      "nameKo": "차콜 패치포켓 코트",
+      "description": {
+        "ko": "넓은 칼라와 큰 하단 패치 포켓 두 개의 짧은 코트입니다.",
+        "en": "Short coat with broad collar and two large lower patch pockets.",
+        "de": "Kurzer Mantel mit breitem Kragen und zwei großen aufgesetzten Taschen."
+      },
+      "howToWear": {
+        "ko": "카트를 비켜설 때 앞을 열어 발 움직임을 편하게 두세요.",
+        "en": "Wear open for an easy sidestep around the cart.",
+        "de": "Für den Schritt am Wagen vorbei offen tragen."
+      },
+      "image": "products/patch-pocket-coat.webp",
+      "sha256": "6c4e3a696c795c1ecfb1cc3a584093bbb39fdb7091bcefc31c206b4339837353",
+      "bytes": 48566,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-knit",
+      "producerId": "05-02-top",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-05.ribbed-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "블랙 리브 크루넥",
+        "en": "Black ribbed crewneck",
+        "de": "Schwarzer Rippstrickpullover"
+      },
+      "nameKo": "블랙 리브 크루넥",
+      "description": {
+        "ko": "세로 리브 짜임과 둥근 목선, 긴소매의 검정 니트입니다.",
+        "en": "Black long-sleeved knit with vertical rib texture and round neck.",
+        "de": "Schwarzer langärmliger Strick mit senkrechten Rippen und Rundhals."
+      },
+      "howToWear": {
+        "ko": "코트 안에서 리브 선이 비틀리지 않게 밑단을 펴세요.",
+        "en": "Smooth the hem to keep the ribs straight inside the coat.",
+        "de": "Den Saum glätten, damit die Rippen im Mantel gerade bleiben."
+      },
+      "image": "products/ribbed-knit.webp",
+      "sha256": "fd5c830f975c95f74763b45f85b35478826f70d74e56f05d7bd7a47270a306df",
+      "bytes": 38966,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-trousers",
+      "producerId": "05-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-05.ankle-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "네이비 앵클 트라우저",
+        "en": "Navy ankle trousers",
+        "de": "Marineblaue Knöchelhose"
+      },
+      "nameKo": "네이비 앵클 트라우저",
+      "description": {
+        "ko": "앞 주름과 벨트고리, 발목 길이의 여유로운 네이비 바지입니다.",
+        "en": "Relaxed navy trousers with front pleats, belt loops and ankle-length hems.",
+        "de": "Lockere marineblaue Hose mit Bundfalten, Gürtelschlaufen und knöchellangen Säumen."
+      },
+      "howToWear": {
+        "ko": "첼시 부츠 윗부분에 밑단이 걸리지 않게 정리하세요.",
+        "en": "Keep the hems clear of the Chelsea boot tops.",
+        "de": "Die Säume frei von den Chelsea-Schafträndern halten."
+      },
+      "image": "products/ankle-trousers.webp",
+      "sha256": "112f8cb414a3f466a00b828c8cb7cd6c946b4b8d9e48e45e73d12053325d717f",
+      "bytes": 24006,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "chelsea-boots",
+      "producerId": "05-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-05.chelsea-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 첼시 부츠",
+        "en": "Black Chelsea boots",
+        "de": "Schwarze Chelseaboots"
+      },
+      "nameKo": "블랙 첼시 부츠",
+      "description": {
+        "ko": "옆 탄성 패널과 뒤 당김 고리, 낮은 굽의 검정 한 켤레입니다.",
+        "en": "Black pair with side elastic panels, rear pull loops and low heels.",
+        "de": "Schwarzes Paar mit seitlichen Elastikeinsätzen, Zugschlaufen und niedrigen Absätzen."
+      },
+      "howToWear": {
+        "ko": "부츠 입구 안으로 바지 끝이 말려 들어가지 않게 하세요.",
+        "en": "Keep trouser hems from rolling into the boot openings.",
+        "de": "Die Hosensäume nicht in die Schaftöffnungen einrollen lassen."
+      },
+      "image": "products/chelsea-boots.webp",
+      "sha256": "0eef3c627d7978bb9b94d4116a45c1b867a25f547df487b634a28831aa594637",
+      "bytes": 30818,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tote",
+      "producerId": "05-05-bag",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-05.tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "블랙 캔버스 토트",
+        "en": "Black canvas tote",
+        "de": "Schwarzer Canvas-Shopper"
+      },
+      "nameKo": "블랙 캔버스 토트",
+      "description": {
+        "ko": "직사각 몸체와 긴 손잡이 두 개, 열린 윗부분의 검정 토트입니다.",
+        "en": "Black tote with rectangular body, two long handles and open top.",
+        "de": "Schwarzer Shopper mit rechteckigem Körper, zwei langen Henkeln und offener Oberseite."
+      },
+      "howToWear": {
+        "ko": "카트 반대쪽으로 가방을 옮겨 보행 공간을 남기세요.",
+        "en": "Carry on the side away from the cart to leave walking space.",
+        "de": "Auf der vom Wagen abgewandten Seite tragen und Gehraum lassen."
+      },
+      "image": "products/tote.webp",
+      "sha256": "cdce1c1b624928896ff8de548257b2f0fd7e8b69571aef78d246e0891a0722a9",
+      "bytes": 18066,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b208"
+}

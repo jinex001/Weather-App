@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-minimal-20261104-01",
+  "batchId": "east-asian-overcast-cool-male-day-minimal-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban shopping streets with small tiled building walls, bakery and shop windows, canvas awnings, utility poles and stone paving; no rain depicted and reflective paving is not read as rain; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "154ec3ed6fcea9a54e89d7c652d200b7607b76813ea38bc1a27c5cab9f9725ae",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-minimal-20261104-01",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-overcast-cool-male-day-minimal-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-minimal-20261104-01.coat",
+  "scenePropsNotProducts": [
+    "newspaper"
+  ],
+  "reconstructionNotice": "The newspaper is a scene prop, not a product; it covers part of the camel coat sleeve and front, which are conservatively reconstructed with the back. The navy knit shows between the lapels and at the cuff. Black socks show above the black penny loafers. The black crossbody is seen from one side; its far side and full strap length are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review",
+    "checkedAt": "2026-11-04T12:25:42.549499+00:00",
+    "productCount": 28,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "Actual view_image review of all five look overview sheets; all 28 isolated products, complete pairs and straps, no outfit collages or props; clean final composites on four backgrounds."
+    ]
+  },
+  "copy": {
+    "titleEn": "THE NEWSPAPER CATCHES THE WIND",
+    "title": {
+      "ko": "바람이 펼친 신문",
+      "en": "The newspaper catches the wind",
+      "de": "Die Zeitung fängt den Wind"
+    },
+    "deck": {
+      "ko": "카멜 코트 아래 네이비와 스톤의 차분한 대비.",
+      "en": "Camel, navy and stone form a quiet contrast.",
+      "de": "Kamel, Marine und Stein bilden einen ruhigen Kontrast."
+    },
+    "intro": {
+      "ko": "갑자기 펼쳐진 신문 모서리를 잡으며 몸이 앞으로 기울어집니다.",
+      "en": "A sudden gust opens the paper and draws his body forward to catch its corner.",
+      "de": "Eine Böe öffnet die Zeitung und zieht den Körper beim Greifen der Ecke nach vorn."
+    },
+    "body": {
+      "ko": "긴 카멜 코트의 라펠 사이로 네이비 니트가 보입니다. 밝은 스톤 바지는 검정 양말과 페니 로퍼로 이어지고 작은 크로스백은 몸 옆에 붙습니다. 흐린 거리의 직광 플래시는 코트 표면과 흔들리는 종이의 접힌 선을 또렷하게 나눕니다.",
+      "en": "Navy knit shows between the long camel coat lapels. Pale stone trousers lead to black socks and penny loafers, while a small crossbody stays close to the side. Direct flash separates the coat surface from the moving folds of paper against the overcast street.",
+      "de": "Marineblauer Strick zeigt sich zwischen den langen kamelfarbenen Revers. Helle steingraue Hosen führen zu schwarzen Socken und Pennyloafern; eine kleine Umhängetasche bleibt seitlich am Körper. Direkter Blitz trennt die Manteloberfläche von den bewegten Papierfalten vor der bedeckten Straße."
+    },
+    "pull": {
+      "ko": "밝은 바지로 이어지는 긴 코트 선.",
+      "en": "A long coat line meets pale trousers.",
+      "de": "Eine lange Mantellinie trifft auf helle Hosen."
+    },
+    "pullQuoteEn": "A long coat line meets pale trousers.",
+    "tip": {
+      "ko": "가방을 옆으로 두고 코트 앞을 열어 두 손의 움직임을 편하게 하세요.",
+      "en": "Keep the bag at the side and the coat open for free movement of both hands.",
+      "de": "Die Tasche seitlich und den Mantel offen halten, damit beide Hände frei bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "coat",
+      "producerId": "01-01-outer",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-01.coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "카멜 싱글 코트",
+        "en": "Camel single-breasted coat",
+        "de": "Kamelfarbener Einreihermantel"
+      },
+      "nameKo": "카멜 싱글 코트",
+      "description": {
+        "ko": "노치드 라펠과 어두운 단추, 세로 포켓의 허벅지 길이 코트입니다.",
+        "en": "Thigh-length camel coat with notched lapels, dark buttons and vertical pockets.",
+        "de": "Oberschenkellanger kamelfarbener Mantel mit fallendem Revers, dunklen Knöpfen und senkrechten Taschen."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 네이비 니트와 밝은 바지의 세로선을 드러내세요.",
+        "en": "Wear open to reveal the navy knit and pale trouser line.",
+        "de": "Offen tragen und die Linie aus Marinestrick und heller Hose zeigen."
+      },
+      "image": "products/coat.webp",
+      "sha256": "899c93fba62e41917673579a4c1f97fce68fc1100749345622b459de5bcdca40",
+      "bytes": 42070,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit",
+      "producerId": "01-02-top",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-01.knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "네이비 텍스처 크루넥",
+        "en": "Navy textured crewneck",
+        "de": "Marineblauer Strukturpullover"
+      },
+      "nameKo": "네이비 텍스처 크루넥",
+      "description": {
+        "ko": "잔잔한 짜임과 둥근 목선, 리브 밑단의 긴소매 니트입니다.",
+        "en": "Long-sleeved navy knit with fine texture, round neck and ribbed hem.",
+        "de": "Langärmliger Marinestrick mit feiner Struktur, Rundhals und Rippbund."
+      },
+      "howToWear": {
+        "ko": "코트 라펠 사이 목선을 평평하게 정리하세요.",
+        "en": "Keep the neckline flat between the coat lapels.",
+        "de": "Den Ausschnitt zwischen den Mantelrevers glatt legen."
+      },
+      "image": "products/knit.webp",
+      "sha256": "92709d6e9bf29e3e6cbde84d7a8c5d6eb12d82d3b54b4be19256eb34b81c588a",
+      "bytes": 47894,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "01-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-01.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "스톤 스트레이트 팬츠",
+        "en": "Stone straight trousers",
+        "de": "Steingraue gerade Hose"
+      },
+      "nameKo": "스톤 스트레이트 팬츠",
+      "description": {
+        "ko": "벨트고리와 단순한 앞판, 긴 직선 다리의 밝은 바지입니다.",
+        "en": "Pale trousers with belt loops, a plain front and long straight legs.",
+        "de": "Helle Hose mit Gürtelschlaufen, schlichter Vorderseite und langen geraden Beinen."
+      },
+      "howToWear": {
+        "ko": "로퍼 앞코를 덮지 않도록 밑단 길이를 맞추세요.",
+        "en": "Set the hems to clear the loafer toes.",
+        "de": "Die Säume so ausrichten, dass die Loaferspitzen frei bleiben."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "690c485b8986aeafb5d05546523a5075911829b64c23c8328741cbbe74baa2b0",
+      "bytes": 23994,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "penny-loafers",
+      "producerId": "01-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-01.penny-loafers",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "페니 스트랩과 둥근 앞코, 낮은 굽의 검정 한 켤레입니다.",
+        "en": "Black pair with penny straps, rounded toes and low heels.",
+        "de": "Schwarzes Paar mit Pennystegen, runden Spitzen und niedrigen Absätzen."
+      },
+      "howToWear": {
+        "ko": "밝은 바지 아래 두 신발의 앞코를 고르게 보이게 하세요.",
+        "en": "Show both toes evenly beneath the pale trousers.",
+        "de": "Unter der hellen Hose beide Schuhspitzen gleich weit zeigen."
+      },
+      "image": "products/penny-loafers.webp",
+      "sha256": "36cf3aa4551af6f67884abb2e249e8297b7d3d790bc27a552434e46fe9430d72",
+      "bytes": 26224,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "01-05-socks",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-01.socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "블랙 리브 삭스",
+        "en": "Black ribbed socks",
+        "de": "Schwarze Rippensocken"
+      },
+      "nameKo": "블랙 리브 삭스",
+      "description": {
+        "ko": "세로 리브 커프와 둥근 발끝의 검정 양말 한 쌍입니다.",
+        "en": "Black sock pair with vertical ribbed cuffs and rounded toes.",
+        "de": "Schwarzes Sockenpaar mit senkrechten Rippbündchen und runden Spitzen."
+      },
+      "howToWear": {
+        "ko": "바지와 로퍼 사이 커프를 펴 어두운 선을 이어 주세요.",
+        "en": "Smooth the cuffs for a continuous dark line above the loafers.",
+        "de": "Die Bündchen für eine durchgehende dunkle Linie über den Loafern glätten."
+      },
+      "image": "products/socks.webp",
+      "sha256": "415c29feaaec39671c9235b7a736852c8685be8ae85ef700c19c16f98eeacea8",
+      "bytes": 35404,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody-bag",
+      "producerId": "01-06-bag",
+      "appItemId": "east-asian-cool-m35-day-minimal-20261104-01.crossbody-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "블랙 라운드 크로스백",
+        "en": "Black rounded crossbody",
+        "de": "Schwarze abgerundete Umhängetasche"
+      },
+      "nameKo": "블랙 라운드 크로스백",
+      "description": {
+        "ko": "둥근 직사각 몸체와 플랩, 가는 조절 스트랩의 작은 가방입니다.",
+        "en": "Small bag with rounded rectangular body, flap and narrow adjustable strap.",
+        "de": "Kleine Tasche mit abgerundetem rechteckigem Körper, Klappe und schmalem verstellbarem Gurt."
+      },
+      "howToWear": {
+        "ko": "신문을 잡는 손에 걸리지 않게 가방을 몸 옆으로 두세요.",
+        "en": "Keep the bag at the side clear of the hand holding the paper.",
+        "de": "Die Tasche seitlich und frei von der zeitungshaltenden Hand tragen."
+      },
+      "image": "products/crossbody-bag.webp",
+      "sha256": "13d72de5501ab7f84b576fc1dd551e32a1e31472e0f5923725c1b1897edd7027",
+      "bytes": 21804,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer visual review; occlusion conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b208"
+}
