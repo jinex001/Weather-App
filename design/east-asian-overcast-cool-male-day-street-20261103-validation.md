@@ -1,0 +1,32 @@
+# b206 · Overcast / Cool / Male / Day / Street — East Asian urban (2026-11-03 set, published 2026-11-04)
+
+The user's standing workflow authorization (2026-11-03, "앞으로도 승인 없이 진행") and the 2026-11-04 correction/continuation instruction cover this batch. The five editorials passed producer QA (02 is the v2 youthful-model replacement); the user did not visually approve them individually. 21 products were corrected after the v1 collages were rejected; all 29 v2 products passed producer technical QA and four-background visual QA (white, black, gray, app `#F3EFE8`); the user did not approve each product image individually. Claude Code published this one batch to `origin/main`. Archiving originals and deleting local duplicates follow only after the live deployment is verified.
+
+## Content and scope
+
+- 5 looks, 29 products (6/5/6/6/6), 34 deployed images. Look IDs `east-asian-cool-m35-day-street-20261103-01`–`05`, items `<look ID>.<product id>` (all new). Module `look/east-asian-overcast-cool-male-day-street-20261103.js` loads after the b205 module and before `cutouts.js` and `global-context.js`.
+- Source: only `originals/product-batch/v2/complete/<look ID>/` (product `image`/`master` paths all under `product-batch/v2/`). The rejected v1 collages (`product-batch/masters`, `webp`, `qa`, `superseded/`) and editorial 02 v1 are archival evidence only and were not imported.
+- Assets in `look/global/east-asian-overcast-cool-male-day-street-20261103/<look ID>/`: `editorial.jpg`, `products/<product id>.webp`, `products.json`. Delivery bytes copied unchanged (renamed from producer IDs such as `01-01-outer` to names such as `bomber`; `producerId` keeps the original). PNG masters, editorial PNGs, QA sheets, journals and scripts are not committed.
+- Mapping: sky `cloudy` · band `cool` · style `street` · gender `m` · age storage `"35"` · daytime (no `time` key) · `visualRegion: east-asian-urban` · `humidityContext: unknown` · context reviewed. No rain depicted. Model appearance 28–32 with mixed casting independent of the East Asian location; audience 30–44. Temperature, feels-like, humidity, wind and city are null/unknown.
+- Scenes on overcast East Asian residential streets: 01 re-grips a paper grocery bag outside a shop · 02 the hoodie cord catches on a bicycle-rack rail · 03 shakes a small stone out of a lifted derby · 04 opens a snack on a stone bench · 05 unlocks a door and glances back. Scene props, not products: grocery bag and groceries, stones, snack and wrapper, keys.
+- Products: 01 rust bomber, ecru crewneck tee, black washed wide jeans, black canvas low-tops, white ribbed ankle socks, navy flap crossbody (`bag`). 02 faded indigo denim jacket, light gray hoodie, olive cargo trousers, ivory canvas sneakers, pale gray ankle socks. 03 sage four-pocket button utility jacket, black textured crewneck knit, stone plain wide trousers, black chunky derbies, black ribbed socks, silver round watch on a linked bracelet (`watch`). 04 navy button overshirt, ecru tee with thin black stripes, mid-blue straight jeans, dark gray canvas sneakers, white ribbed socks, black open tote (`bag`). 05 black zip blouson, cream crewneck sweatshirt, charcoal cropped trousers, black penny loafers, white ankle socks, black rectangular watch (`watch`). Hidden fronts are conservative reconstructions. No forced reflective trim. Brands, fibre composition, performance and retail identity are unknown.
+- Heroes (`tools/make-cutouts.py` `pick`, design/CUTOUTS.md b134, exact word match): 03 A SMALL STONE IN THE SHOE → stone wide trousers; 01 (BAG does not match "Navy flap crossbody"), 02 (HOOD is not "hoodie"), 04 and 05 have no matching word → the outer (bomber, denim jacket, overshirt, blouson). Each reuses the product's own WebP; `lum` uses the existing sRGB-weighted convention.
+
+## Region behaviour (no code change)
+
+Same `look/global-context.js` rules as b205: KR/JP/CN/TW/HK country codes map to `east-asian-urban`, and region-tagged looks show only in their own region.
+- East Asian places, cloudy cool day, male street: these 5 looks (exact band) lead instead of the Berlin overcast street neighbours.
+- East Asian places, cloudy pleasant day, male street: previously COMING SOON, now these 5 as the colder neighbour (existing adjacent-band rule).
+- Unchanged: East Asian clear, rain, evening, minimal and running; the b205 female street pools; every European, coastal and unknown-region cell. GPS positions without a country code stay `unknown` (existing behaviour).
+
+## Copy
+
+The producer's ko/en/de copy is used unchanged: titles, decks, intros, bodies, pull quotes and tips for 5 looks; names, visual descriptions and individual how-to-wear notes for 29 products. The app article shows the English title in capitals, the English pull, and the localized deck, intro and tip; the body is kept in `products.json` (`copy.body`). Decks differ from intros, pulls from titles, all 5 tips and 29 notes are distinct per language; no brand, price or verified fibre/performance claims.
+
+## Validation (this session)
+
+- **READY.json:** 307/307 files match size and SHA-256, no unlisted files. All 34 copied files match READY and their `originals/` v2 sources.
+- **Image files:** editorials 1024×1536 JPEG, 280,366–296,162 B (≤300,000). Products 500×500 RGBA WebP, 17,394–49,250 B (≤50,000), alpha min 0 / max ≥250; corners transparent except `02/products/socks.webp` with corner alpha ≤2 (bytes unchanged, recorded). None of the 2460 previously tracked images changed.
+- **Runtime (JavaScriptCore):** all 48 `look/*.js` scripts in index.html order for `origin/main` (37e4218) and for this change: 346 looks, 1997 items (base + 5 / 29), every existing look and item identical. The real `lookFits`/`lookPool`/`skyAvailable` ran over 8100 cases; previous candidates and ranks are identical everywhere, new looks appear only in east-asian-urban male street chilly/cool/pleasant cells, and only the cloudy cool and cloudy pleasant day male street pools change. `location-first.cjs` port 72 cases pass (coastal unchanged); 7 East Asian places resolve to east-asian-urban.
+- **Browser:** headless Chrome loaded the real index.html (`?region=east-asian-urban`) and rendered the article section of all 5 looks in ko/en/de (15 renders), every product image at 500 px on the `#F3EFE8` card, 0 page errors.
+- Live deployment, the 34 public images and the archive are verified separately after the push.

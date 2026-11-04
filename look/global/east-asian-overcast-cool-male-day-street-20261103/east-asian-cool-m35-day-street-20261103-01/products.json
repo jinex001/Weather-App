@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-street-20261103-01",
+  "batchId": "east-asian-overcast-cool-male-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban residential streets with tiled building walls, shopfronts, parked bicycles, bollards, utility poles and mid-rise apartments; dry paving, no rain depicted; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3d725dec116e501371bfb1c06c760c3de108d32f59b4f740e65218be96972e9b",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-street-20261103-01",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-male-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-m35-day-street-20261103-01.bomber",
+  "scenePropsNotProducts": [
+    "paper grocery bag",
+    "groceries"
+  ],
+  "reconstructionNotice": "The brown paper grocery bag with greens, apple and baguette is a scene prop, not a product; the parts of the rust bomber, ecru tee and navy flap crossbody it covers are conservatively reconstructed. White sock tops show above the black canvas low-tops. Hidden backs and soles are inferred. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review, not individual human approval",
+    "checkedAt": "2026-11-04T08:15:07.790360+00:00",
+    "correctedCount": 21,
+    "preservedValidCount": 8,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "v2/qa/look-01-overview.jpg"
+    ],
+    "findings": "All29 are isolated products; footwear/socks matching pairs. Collages removed. Concerned shoe source halos and light fabric edge flecks do not remain as visible background contamination in final500px composites. Actual-alpha technical check passed. Colors/details match editorial references; hidden fronts conservative."
+  },
+  "copy": {
+    "titleEn": "A QUICK GRIP ON THE GROCERY BAG",
+    "title": {
+      "ko": "봉투를 고쳐 드는 순간",
+      "en": "A quick grip on the grocery bag",
+      "de": "Die Einkaufstüte neu greifen"
+    },
+    "deck": {
+      "ko": "러스트 봄버와 검정 와이드 진이 만드는 짧고 넓은 균형.",
+      "en": "A short rust bomber balances broad black denim.",
+      "de": "Ein kurzer rostfarbener Blouson gleicht weite schwarze Jeans aus."
+    },
+    "intro": {
+      "ko": "흐린 낮의 가게 앞에서 장바구니 봉투가 기울자 두 손이 바빠집니다.",
+      "en": "Outside a shop on an overcast day, a tilting grocery bag keeps both hands busy.",
+      "de": "Vor einem Laden am bewölkten Tag beschäftigt eine kippende Einkaufstüte beide Hände."
+    },
+    "body": {
+      "ko": "짧은 러스트 봄버 안의 에크루 티가 얼굴 아래 밝은 면을 만듭니다. 넓게 떨어지는 검정 진은 봄버의 모인 밑단과 균형을 이루고, 흰 토와 양말이 발끝을 나눕니다. 네이비 플랩 크로스백은 골반 옆으로 물러나 손동작을 방해하지 않습니다. 직광 플래시는 주황 소매의 접힘과 회색 타일의 질감을 선명하게 잡습니다.",
+      "en": "An ecru tee puts a light area beneath the face inside the short rust bomber. Broad black jeans balance its gathered hem, with white toe caps and socks dividing the darker lower half. A navy flap crossbody rests at the side hip, clear of the gesture. Direct flash defines orange sleeve folds and the texture of gray tiles.",
+      "de": "Ein ecrufarbenes Shirt setzt unter dem Gesicht eine helle Fläche in die kurze rostfarbene Jacke. Weite schwarze Jeans gleichen den gerafften Saum aus, weiße Kappen und Socken unterteilen die dunkle untere Hälfte. Die marineblaue Klappentasche liegt seitlich an der Hüfte und lässt die Bewegung frei. Direkter Blitz zeichnet orange Ärmelfalten und graue Fliesen klar."
+    },
+    "pull": {
+      "ko": "따뜻한 한 겹, 차분한 넓은 하체.",
+      "en": "One warm layer over a quiet, wide base.",
+      "de": "Eine warme Lage über einer ruhigen weiten Basis."
+    },
+    "pullQuoteEn": "One warm layer over a quiet, wide base.",
+    "tip": {
+      "ko": "가방을 옆 골반으로 옮기고 지퍼를 열어 에크루 티의 세로선을 남기세요.",
+      "en": "Move the bag to the side hip and leave the zip open for a vertical ecru line.",
+      "de": "Die Tasche seitlich tragen und den Zip für eine vertikale ecrufarbene Linie offen lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "bomber",
+      "producerId": "01-01-outer",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-01.bomber",
+      "appCategory": "outer",
+      "name": {
+        "ko": "러스트 봄버 재킷",
+        "en": "Rust bomber jacket",
+        "de": "Rostrote Bomberjacke"
+      },
+      "nameKo": "러스트 봄버 재킷",
+      "description": {
+        "ko": "녹슨 주황색의 짧은 지퍼 재킷으로 리브 칼라와 커프, 모인 밑단이 보입니다.",
+        "en": "Short rust-orange zip jacket with ribbed collar, cuffs and gathered hem.",
+        "de": "Kurze rostorange Zipjacke mit Rippkragen, Bündchen und gerafftem Saum."
+      },
+      "howToWear": {
+        "ko": "에크루 티가 세로로 보이도록 지퍼를 열어 두세요.",
+        "en": "Leave the zip open to show a vertical strip of ecru tee.",
+        "de": "Den Zip offen lassen, damit das ecrufarbene Shirt einen vertikalen Streifen bildet."
+      },
+      "image": "products/bomber.webp",
+      "sha256": "bb1e063492eb278a88bc56e406155a631b4b7037df5c6a82ff7d54c2bdd52277",
+      "bytes": 47288,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tee",
+      "producerId": "01-02-top",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-01.tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 크루넥 티",
+        "en": "Ecru crewneck tee",
+        "de": "Ecrufarbenes Rundhalsshirt"
+      },
+      "nameKo": "에크루 크루넥 티",
+      "description": {
+        "ko": "둥근 목선과 짧은 소매, 곧은 밑단의 장식 없는 에크루 티입니다.",
+        "en": "Plain ecru tee with round neckline, short sleeves and straight hem.",
+        "de": "Schlichtes ecrufarbenes Shirt mit Rundhals, kurzen Ärmeln und geradem Saum."
+      },
+      "howToWear": {
+        "ko": "봄버 아래 목선을 평평하게 정리해 밝은 색을 남기세요.",
+        "en": "Keep the neckline flat beneath the bomber for a clean light accent.",
+        "de": "Den Ausschnitt unter der Bomberjacke glatt legen und einen hellen Akzent lassen."
+      },
+      "image": "products/tee.webp",
+      "sha256": "1d9cb1facd3afc8473b8fb3ee9e2653c49bacba36d959c46fe583c4239d370f3",
+      "bytes": 28426,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-jeans",
+      "producerId": "01-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-01.wide-jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "블랙 워시드 와이드 진",
+        "en": "Black washed wide jeans",
+        "de": "Schwarze verwaschene weite Jeans"
+      },
+      "nameKo": "블랙 워시드 와이드 진",
+      "description": {
+        "ko": "워싱된 검정 표면과 벨트고리, 길고 넓은 다리선의 진입니다.",
+        "en": "Washed black jeans with belt loops and long wide legs.",
+        "de": "Verwaschene schwarze Jeans mit Gürtelschlaufen und langen weiten Beinen."
+      },
+      "howToWear": {
+        "ko": "검정 스니커의 흰 토가 남도록 밑단 길이를 맞추세요.",
+        "en": "Set the hem length so the sneaker's white toe remains visible.",
+        "de": "Die Saumlänge so wählen, dass die weiße Sneakerkappe sichtbar bleibt."
+      },
+      "image": "products/wide-jeans.webp",
+      "sha256": "3092643661723655fae752481e486304e4a5116af7ef87887a029e11feb2770c",
+      "bytes": 26654,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-sneakers",
+      "producerId": "01-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-01.canvas-sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 캔버스 로톱",
+        "en": "Black canvas low-tops",
+        "de": "Schwarze Canvas-Sneaker"
+      },
+      "nameKo": "블랙 캔버스 로톱",
+      "description": {
+        "ko": "검정 갑피에 흰 끈과 고무 토, 밝은 옆창이 있는 한 켤레입니다.",
+        "en": "Black low-tops with white laces, rubber toe caps and pale sidewalls.",
+        "de": "Schwarze Halbschuhe mit weißen Schnürsenkeln, Gummikappen und hellen Sohlenrändern."
+      },
+      "howToWear": {
+        "ko": "긴 검정 진 아래 흰 끈을 가지런히 묶어 대비를 만드세요.",
+        "en": "Tie the white laces neatly beneath long black denim for contrast.",
+        "de": "Die weißen Schnürsenkel unter der langen schwarzen Jeans ordentlich binden."
+      },
+      "image": "products/canvas-sneakers.webp",
+      "sha256": "9e705f36630c884b641231f16b08b4bdc8514cebd788e22d45e187269188166a",
+      "bytes": 44904,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "01-05-socks",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-01.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 리브 앵클 삭스",
+        "en": "White ribbed ankle socks",
+        "de": "Weiße gerippte Knöchelsocken"
+      },
+      "nameKo": "화이트 리브 앵클 삭스",
+      "description": {
+        "ko": "흰 리브 커프와 둥근 발끝의 발목 양말 한 쌍입니다.",
+        "en": "White ankle pair with ribbed cuffs and rounded toes.",
+        "de": "Weiße Knöchelsocken mit Rippbündchen und runden Spitzen als Paar."
+      },
+      "howToWear": {
+        "ko": "바지와 스니커 사이에 흰색이 조금만 보이게 높이를 맞추세요.",
+        "en": "Show a small white interval between jeans and sneakers.",
+        "de": "Zwischen Jeans und Sneakern nur einen schmalen weißen Abschnitt zeigen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "e288bfad647dbea612117a8837c47710973bc9f8388b9f4aad16d3fc16cc8ebf",
+      "bytes": 38310,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crossbody-bag",
+      "producerId": "01-06-bag",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-01.crossbody-bag",
+      "appCategory": "bag",
+      "name": {
+        "ko": "네이비 플랩 크로스백",
+        "en": "Navy flap crossbody",
+        "de": "Marineblaue Klappen-Umhängetasche"
+      },
+      "nameKo": "네이비 플랩 크로스백",
+      "description": {
+        "ko": "둥근 모서리의 작은 몸체와 스냅 플랩, 조절 스트랩이 있는 네이비 가방입니다.",
+        "en": "Small navy bag with rounded corners, snap flap and adjustable strap.",
+        "de": "Kleine marineblaue Tasche mit runden Ecken, Druckknopfklappe und verstellbarem Gurt."
+      },
+      "howToWear": {
+        "ko": "가방을 옆 골반에 두어 봄버 앞 지퍼선을 가리지 마세요.",
+        "en": "Rest the bag at the side hip to keep the bomber's front zip visible.",
+        "de": "Die Tasche seitlich an der Hüfte tragen und den vorderen Jackenzip frei lassen."
+      },
+      "image": "products/crossbody-bag.webp",
+      "sha256": "d159ed069c0d65ef22bf0cd24553d6cf430e93538324344c57d0c3d971e8fea0",
+      "bytes": 27974,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b206"
+}

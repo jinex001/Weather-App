@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-street-20261103-03",
+  "batchId": "east-asian-overcast-cool-male-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban residential streets with tiled building walls, shopfronts, parked bicycles, bollards, utility poles and mid-rise apartments; dry paving, no rain depicted; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "11c5914f2baefc4d99473f184f13371a0fcfe1f34089a47426289a8a6af0498f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-street-20261103-03",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-male-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-m35-day-street-20261103-03.trousers",
+  "scenePropsNotProducts": [
+    "small stones"
+  ],
+  "reconstructionNotice": "The falling small stones shaken from the lifted derby are a scene prop. The sage four-flap-pocket button utility jacket front is partly covered by the bent arm and is conservatively reconstructed; the stone trousers are plain (no visible pleat detail claimed). The silver round watch on a linked bracelet is visible on the left wrist. Hidden backs and soles are inferred. Brand, metal, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review, not individual human approval",
+    "checkedAt": "2026-11-04T08:15:07.790360+00:00",
+    "correctedCount": 21,
+    "preservedValidCount": 8,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "v2/qa/look-03-overview.jpg"
+    ],
+    "findings": "All29 are isolated products; footwear/socks matching pairs. Collages removed. Concerned shoe source halos and light fabric edge flecks do not remain as visible background contamination in final500px composites. Actual-alpha technical check passed. Colors/details match editorial references; hidden fronts conservative."
+  },
+  "copy": {
+    "titleEn": "A SMALL STONE IN THE SHOE",
+    "title": {
+      "ko": "신발 속 작은 돌",
+      "en": "A small stone in the shoe",
+      "de": "Ein kleiner Stein im Schuh"
+    },
+    "deck": {
+      "ko": "세이지 포포켓 재킷과 밝은 스톤 바지의 대비.",
+      "en": "A sage four-pocket jacket contrasts with pale stone trousers.",
+      "de": "Salbeifarbene Vier-Taschen-Jacke trifft auf helle steinfarbene Hose."
+    },
+    "intro": {
+      "ko": "한쪽 더비를 들어 돌을 털고 양말 발을 잠시 바닥에 놓은 순간입니다.",
+      "en": "One derby is lifted to shake out a stone while the socked foot rests briefly on the paving.",
+      "de": "Ein Derby wird ausgeschüttelt, während der Fuß im Socken kurz auf dem Pflaster steht."
+    },
+    "body": {
+      "ko": "어두운 단추와 네 개의 플랩 포켓이 세이지 재킷의 앞면을 나눕니다. 안쪽 검정 니트와 검정 양말은 밝은 스톤 바지 위아래에 같은 명도를 놓습니다. 두꺼운 창의 더비와 은색 링크 시계가 각각 발과 손목에서 작은 무게를 더합니다. 플래시는 숙인 어깨와 굽힌 무릎의 주름을 보여주며 포켓의 구조도 또렷하게 남깁니다.",
+      "en": "Dark buttons and four flap pockets divide the sage jacket front. Black knit and black socks repeat the same dark tone above and below pale stone trousers. Substantial derby soles and a silver linked watch add weight at the feet and wrist. Flash reveals bent shoulders and knees without losing the pocket structure.",
+      "de": "Dunkle Knöpfe und vier Klappentaschen gliedern die salbeifarbene Jacke. Schwarzer Strick und schwarze Socken wiederholen den dunklen Ton über und unter der hellen Hose. Kräftige Derbysohlen und eine silberne Gliederuhr setzen Gewicht an Fuß und Handgelenk. Blitz zeigt gebeugte Schultern und Knie, ohne die Taschenstruktur zu verlieren."
+    },
+    "pull": {
+      "ko": "검정 중심이 밝은 바지를 붙잡습니다.",
+      "en": "A black center anchors the pale trousers.",
+      "de": "Eine schwarze Mitte verankert die helle Hose."
+    },
+    "pullQuoteEn": "A black center anchors the pale trousers.",
+    "tip": {
+      "ko": "재킷 앞을 열어 검정 니트를 보이게 두고, 돌을 턴 뒤 신발을 다시 신은 다음 걸으세요.",
+      "en": "Leave the jacket open over the black knit, and put the cleared shoe back on before walking.",
+      "de": "Die Jacke über schwarzem Strick offen lassen und den ausgeschüttelten Schuh vor dem Weitergehen wieder anziehen."
+    }
+  },
+  "products": [
+    {
+      "id": "utility-jacket",
+      "producerId": "03-01-outer",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-03.utility-jacket",
+      "appCategory": "outer",
+      "name": {
+        "ko": "세이지 포포켓 유틸리티 재킷",
+        "en": "Sage four-pocket utility jacket",
+        "de": "Salbeifarbene Vier-Taschen-Jacke"
+      },
+      "nameKo": "세이지 포포켓 유틸리티 재킷",
+      "description": {
+        "ko": "네 개의 큰 플랩 포켓과 어두운 단추, 긴소매의 세이지 재킷입니다.",
+        "en": "Sage jacket with four large flap pockets, dark buttons and long sleeves.",
+        "de": "Salbeifarbene Jacke mit vier großen Klappentaschen, dunklen Knöpfen und langen Ärmeln."
+      },
+      "howToWear": {
+        "ko": "검정 니트가 보이게 앞을 열고 네 포켓은 평평하게 두세요.",
+        "en": "Wear open over the black knit and keep the four pockets flat.",
+        "de": "Offen über dem schwarzen Strick tragen und die vier Taschen flach lassen."
+      },
+      "image": "products/utility-jacket.webp",
+      "sha256": "ea5a11dce821bcb2c976d0f17e41c9a95ff313c24bf7bbff51038f7439ec2299",
+      "bytes": 42256,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit",
+      "producerId": "03-02-top",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-03.knit",
+      "appCategory": "top",
+      "name": {
+        "ko": "블랙 텍스처 크루넥 니트",
+        "en": "Black textured crewneck knit",
+        "de": "Schwarzer strukturierter Rundhalspullover"
+      },
+      "nameKo": "블랙 텍스처 크루넥 니트",
+      "description": {
+        "ko": "고른 검정 짜임과 리브 목선, 긴소매, 리브 밑단의 니트입니다.",
+        "en": "Black textured knit with ribbed round neck, long sleeves and ribbed hem.",
+        "de": "Schwarzer strukturierter Strick mit Ripprundhals, langen Ärmeln und Rippbund."
+      },
+      "howToWear": {
+        "ko": "세이지 칼라 사이에 검정 목선이 고르게 보이게 정리하세요.",
+        "en": "Center the black neckline between the sage jacket's collar points.",
+        "de": "Den schwarzen Ausschnitt mittig zwischen den salbeifarbenen Kragenspitzen ausrichten."
+      },
+      "image": "products/knit.webp",
+      "sha256": "8ae717acf561182f0e9461a6ce2ecbf4faa9b93d8b3f6e107c82dd97a4b14a33",
+      "bytes": 48096,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trousers",
+      "producerId": "03-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-03.trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "스톤 와이드 트라우저",
+        "en": "Stone wide trousers",
+        "de": "Steinfarbene weite Hose"
+      },
+      "nameKo": "스톤 와이드 트라우저",
+      "description": {
+        "ko": "밝은 스톤색과 측면 포켓, 곧고 넓은 다리선의 바지입니다.",
+        "en": "Pale stone trousers with side pockets and straight wide legs.",
+        "de": "Helle steinfarbene Hose mit Seitentaschen und geradem weitem Bein."
+      },
+      "howToWear": {
+        "ko": "더비의 두꺼운 앞창이 드러나도록 밑단을 길게 끌지 마세요.",
+        "en": "Keep the hem off the ground so the derby's substantial sole stays visible.",
+        "de": "Den Saum vom Boden fernhalten und die kräftige Derbysohle zeigen."
+      },
+      "image": "products/trousers.webp",
+      "sha256": "6788414b05ca5c84c5795a05df285d5e0b4734c5765a03567ceeeb1ae036ab1c",
+      "bytes": 33032,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "derbies",
+      "producerId": "03-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-03.derbies",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 청키 더비",
+        "en": "Black chunky derby shoes",
+        "de": "Schwarze kräftige Derbys"
+      },
+      "nameKo": "블랙 청키 더비",
+      "description": {
+        "ko": "둥근 앞코와 끈, 앞판 봉제선, 두꺼운 요철창의 검정 한 켤레입니다.",
+        "en": "Black lace-up pair with rounded toes, apron seams and substantial treaded soles.",
+        "de": "Schwarzes Schnürpaar mit runden Spitzen, Vorderblattnähten und kräftigen Profilsohlen."
+      },
+      "howToWear": {
+        "ko": "밝은 바지 아래 끈을 단단히 묶고 두 신발의 매듭 길이를 맞추세요.",
+        "en": "Tie securely below pale trousers and keep both lace bows similar in length.",
+        "de": "Unter der hellen Hose fest schnüren und beide Schleifen gleich lang halten."
+      },
+      "image": "products/derbies.webp",
+      "sha256": "4fa941fcb4dd10735ba87ed8557c763b5670bb00008ce9940b6276bbc4285ab7",
+      "bytes": 40008,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "03-05-socks",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-03.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "블랙 리브 앵클 삭스",
+        "en": "Black ribbed ankle socks",
+        "de": "Schwarze gerippte Knöchelsocken"
+      },
+      "nameKo": "블랙 리브 앵클 삭스",
+      "description": {
+        "ko": "검정 리브 발목과 둥근 발끝, 단순한 발등의 양말 한 쌍입니다.",
+        "en": "Black ankle pair with ribbed cuffs, rounded toes and plain insteps.",
+        "de": "Schwarzes Knöchelpaar mit Rippbündchen, runden Spitzen und schlichtem Spann."
+      },
+      "howToWear": {
+        "ko": "돌을 털 때도 양말 발을 바닥에 오래 두지 말고 신발을 다시 신으세요.",
+        "en": "After clearing the shoe, put it back on before walking on the socked foot.",
+        "de": "Nach dem Ausschütteln den Schuh wieder anziehen, bevor man mit dem Socken weitergeht."
+      },
+      "image": "products/socks.webp",
+      "sha256": "5ec27efb6838aa32698cc0789b7e6f2658c37db13fd4c146cb204b4185a3e279",
+      "bytes": 44118,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "03-06-watch",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-03.watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "실버 라운드 브레이슬릿 시계",
+        "en": "Silver round bracelet watch",
+        "de": "Silberne runde Gliederuhr"
+      },
+      "nameKo": "실버 라운드 브레이슬릿 시계",
+      "description": {
+        "ko": "작은 원형 케이스와 어두운 다이얼, 은색 링크 브레이슬릿의 시계입니다.",
+        "en": "Small round silver-tone case with dark dial and linked metal bracelet.",
+        "de": "Kleines rundes silberfarbenes Gehäuse mit dunklem Zifferblatt und Gliederband."
+      },
+      "howToWear": {
+        "ko": "재킷 커프를 손목 뒤로 살짝 밀어 은색 링크를 보여 주세요.",
+        "en": "Slide the jacket cuff back slightly to reveal the silver links.",
+        "de": "Das Jackenbündchen leicht zurückschieben und die silbernen Glieder zeigen."
+      },
+      "image": "products/watch.webp",
+      "sha256": "838b622c2b12349e6eb4ea0475d462bb15f0372ae82438c257e679c5f0dca4a3",
+      "bytes": 23596,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b206"
+}

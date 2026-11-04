@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-street-20261103-04",
+  "batchId": "east-asian-overcast-cool-male-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban residential streets with tiled building walls, shopfronts, parked bicycles, bollards, utility poles and mid-rise apartments; dry paving, no rain depicted; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "55cd6b8f3ff9df2b6024171a85e58c45b0ad2da14b56b6af45a9d479db7b063f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-street-20261103-04",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-male-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-m35-day-street-20261103-04.overshirt",
+  "scenePropsNotProducts": [
+    "snack",
+    "snack wrapper"
+  ],
+  "reconstructionNotice": "The white snack and its wrapper are scene props. Seated pose: the full jean leg length and the black open tote's hidden side are conservatively reconstructed; the ecru tee has thin black stripes. Hidden backs and soles are inferred. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review, not individual human approval",
+    "checkedAt": "2026-11-04T08:15:07.790360+00:00",
+    "correctedCount": 21,
+    "preservedValidCount": 8,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "v2/qa/look-04-overview.jpg"
+    ],
+    "findings": "All29 are isolated products; footwear/socks matching pairs. Collages removed. Concerned shoe source halos and light fabric edge flecks do not remain as visible background contamination in final500px composites. Actual-alpha technical check passed. Colors/details match editorial references; hidden fronts conservative."
+  },
+  "copy": {
+    "titleEn": "OPENING A SNACK ON THE BENCH",
+    "title": {
+      "ko": "벤치에서 여는 간식",
+      "en": "Opening a snack on the bench",
+      "de": "Eine Snackpause auf der Bank"
+    },
+    "deck": {
+      "ko": "네이비 오버셔츠 사이로 보이는 가는 가로줄.",
+      "en": "Fine horizontal lines show between navy overshirt panels.",
+      "de": "Feine Querlinien zwischen marineblauen Hemdseiten."
+    },
+    "intro": {
+      "ko": "포장을 뜯느라 몸을 조금 앞으로 기울인 낮의 벤치 휴식입니다.",
+      "en": "A slight forward lean accompanies the struggle with a snack wrapper during a bench break.",
+      "de": "Beim Öffnen der Snackverpackung neigt sich der Körper auf der Bank leicht nach vorn."
+    },
+    "body": {
+      "ko": "네이비 버튼 오버셔츠 안의 에크루 스트라이프는 좁은 검정 선으로 리듬을 만듭니다. 중간 파랑의 넓은 진과 짙은 회색 캔버스화가 편안한 아래쪽 폭을 이어갑니다. 흰 양말은 앉았을 때 드러나는 발목을 밝히고 검정 토트는 옆에 놓여 손과 무릎을 비웁니다. 직광 플래시가 소매와 무릎의 접힘을 분명하게 잡습니다.",
+      "en": "Thin black lines give rhythm to the ecru top inside the navy button overshirt. Broad mid-blue jeans and dark gray canvas shoes continue the relaxed lower shape. White socks brighten the ankles exposed while seated, and a black tote sits alongside to leave hands and knees free. Direct flash records folds at the sleeves and knees.",
+      "de": "Dünne schwarze Linien geben dem ecrufarbenen Shirt unter dem marineblauen Overshirt Rhythmus. Weite mittelblaue Jeans und dunkelgraue Canvas-Schuhe setzen die lockere Form fort. Weiße Socken hellen die im Sitzen sichtbaren Knöchel auf. Die schwarze Tasche steht daneben und lässt Hände und Knie frei. Direkter Blitz hält Ärmel- und Kniefalten fest."
+    },
+    "pull": {
+      "ko": "줄무늬는 중앙에, 가방은 옆에.",
+      "en": "Stripes at the center, the bag to the side.",
+      "de": "Streifen in der Mitte, die Tasche daneben."
+    },
+    "pullQuoteEn": "Stripes at the center, the bag to the side.",
+    "tip": {
+      "ko": "앉은 뒤 이너 밑단을 펴고 토트 손잡이를 통로 밖으로 모아 두세요.",
+      "en": "Smooth the inner hem after sitting and gather tote handles away from the walkway.",
+      "de": "Den inneren Saum im Sitzen glätten und die Taschenhenkel vom Gehweg fernhalten."
+    }
+  },
+  "products": [
+    {
+      "id": "overshirt",
+      "producerId": "04-01-outer",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-04.overshirt",
+      "appCategory": "outer",
+      "name": {
+        "ko": "네이비 버튼 오버셔츠",
+        "en": "Navy button overshirt",
+        "de": "Marineblaues Knopf-Overshirt"
+      },
+      "nameKo": "네이비 버튼 오버셔츠",
+      "description": {
+        "ko": "칼라와 가슴 플랩 포켓 두 개, 어두운 단추의 긴소매 셔츠입니다.",
+        "en": "Long-sleeve navy shirt with collar, two chest flap pockets and dark buttons.",
+        "de": "Langärmeliges marineblaues Hemd mit Kragen, zwei Brustklappentaschen und dunklen Knöpfen."
+      },
+      "howToWear": {
+        "ko": "줄무늬가 중앙에 보이도록 앞 단추를 풀어 두세요.",
+        "en": "Unbutton the front to frame the stripes down the center.",
+        "de": "Die Vorderseite offen lassen und die Streifen mittig einrahmen."
+      },
+      "image": "products/overshirt.webp",
+      "sha256": "a9eff7293182e8a35b5ff1d613d32aa9b104ae5716395df7fb8223641cac1e27",
+      "bytes": 33530,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "striped-tee",
+      "producerId": "04-02-top",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-04.striped-tee",
+      "appCategory": "top",
+      "name": {
+        "ko": "에크루 씬 스트라이프 긴팔",
+        "en": "Ecru fine-stripe long-sleeve tee",
+        "de": "Ecrufarbenes feingestreiftes Langarmshirt"
+      },
+      "nameKo": "에크루 씬 스트라이프 긴팔",
+      "description": {
+        "ko": "에크루 바탕에 얇은 검정 가로선과 둥근 목선이 있는 긴팔입니다.",
+        "en": "Ecru long-sleeve tee with thin black horizontal lines and a round neckline.",
+        "de": "Ecrufarbenes Langarmshirt mit dünnen schwarzen Querstreifen und Rundhals."
+      },
+      "howToWear": {
+        "ko": "앉았을 때 밑단을 펴서 가로선이 한쪽으로 뭉치지 않게 하세요.",
+        "en": "Smooth the hem when seated so the horizontal lines do not bunch to one side.",
+        "de": "Im Sitzen den Saum glätten, damit sich die Querstreifen nicht seitlich stauen."
+      },
+      "image": "products/striped-tee.webp",
+      "sha256": "7c43660cca8538fbee86d8f0aec47d9414ea56516b5f250bf40d633eaa441a39",
+      "bytes": 48662,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "jeans",
+      "producerId": "04-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-04.jeans",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "미드 블루 스트레이트 진",
+        "en": "Mid-blue straight jeans",
+        "de": "Mittelblaue gerade Jeans"
+      },
+      "nameKo": "미드 블루 스트레이트 진",
+      "description": {
+        "ko": "중간 파랑 워싱과 밝은 봉제선, 벨트고리, 긴 곧은 다리선의 진입니다.",
+        "en": "Mid-blue jeans with pale seams, belt loops and long straight legs.",
+        "de": "Mittelblaue Jeans mit hellen Nähten, Gürtelschlaufen und langen geraden Beinen."
+      },
+      "howToWear": {
+        "ko": "벤치에서 일어날 때 무릎과 밑단 주름을 가볍게 정리하세요.",
+        "en": "After standing from the bench, smooth the knees and hems lightly.",
+        "de": "Nach dem Aufstehen von der Bank Kniepartien und Säume leicht glätten."
+      },
+      "image": "products/jeans.webp",
+      "sha256": "dcc0ab3154cfd0a428cc34063b43f1dc0ecd18fa1e9bc91682a1953cdaf1b6bc",
+      "bytes": 48434,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-sneakers",
+      "producerId": "04-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-04.canvas-sneakers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "다크 그레이 캔버스 스니커",
+        "en": "Dark gray canvas sneakers",
+        "de": "Dunkelgraue Canvas-Sneaker"
+      },
+      "nameKo": "다크 그레이 캔버스 스니커",
+      "description": {
+        "ko": "짙은 회색 갑피에 흰 토와 끈, 밝은 옆창의 로톱 한 켤레입니다.",
+        "en": "Dark gray low-top pair with white toes, laces and pale sidewalls.",
+        "de": "Dunkelgraues Halbschuhpaar mit weißen Kappen, Senkeln und hellen Sohlenrändern."
+      },
+      "howToWear": {
+        "ko": "블루 진 아래 신발 두 개의 흰 토가 같은 정도로 보이게 하세요.",
+        "en": "Let both white toe caps show equally below blue denim.",
+        "de": "Unter der blauen Jeans beide weißen Kappen gleich weit zeigen."
+      },
+      "image": "products/canvas-sneakers.webp",
+      "sha256": "0fdc4eeece53d6c388b5a1367d538e70c94e397c52d0a0adfa2ab8cd25f6ed74",
+      "bytes": 49250,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "04-05-socks",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-04.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 리브 데일리 삭스",
+        "en": "White ribbed everyday socks",
+        "de": "Weiße gerippte Alltagssocken"
+      },
+      "nameKo": "화이트 리브 데일리 삭스",
+      "description": {
+        "ko": "밝은 흰색과 리브 발목, 둥근 발끝의 짧은 양말 한 쌍입니다.",
+        "en": "Short white pair with ribbed ankles and rounded toes.",
+        "de": "Kurzes weißes Paar mit gerippten Knöcheln und runden Spitzen."
+      },
+      "howToWear": {
+        "ko": "앉았을 때 드러나는 양쪽 양말 높이를 맞춰 주세요.",
+        "en": "Match the height of both socks visible while seated.",
+        "de": "Die im Sitzen sichtbaren Socken auf gleiche Höhe ziehen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "838f3ad57aa6799ea762b39aa5cd4b934584a2cffde197146e879ff0fb2d6add",
+      "bytes": 40646,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tote-bag",
+      "producerId": "04-06-bag",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-04.tote-bag",
+      "appCategory": "bag",
+      "name": {
+        "ko": "블랙 오픈 토트",
+        "en": "Black open tote",
+        "de": "Schwarze offene Tragetasche"
+      },
+      "nameKo": "블랙 오픈 토트",
+      "description": {
+        "ko": "넓은 입구와 긴 손잡이 두 개, 각진 몸체의 검정 토트입니다.",
+        "en": "Black tote with an open top, two long handles and a squared body.",
+        "de": "Schwarze Tasche mit offener Oberseite, zwei langen Henkeln und kantigem Körper."
+      },
+      "howToWear": {
+        "ko": "벤치 옆에 둘 때 손잡이가 통로로 늘어지지 않게 모아 두세요.",
+        "en": "Gather the handles beside the bench so they stay out of the walkway.",
+        "de": "Die Henkel neben der Bank zusammenlegen und aus dem Gehweg halten."
+      },
+      "image": "products/tote-bag.webp",
+      "sha256": "f168a4e803be2a16eebaada9ae6127f6ff218360814886eac3b17501ff87867d",
+      "bytes": 26992,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b206"
+}

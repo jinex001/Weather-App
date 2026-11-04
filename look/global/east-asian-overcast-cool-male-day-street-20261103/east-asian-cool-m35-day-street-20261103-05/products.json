@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-street-20261103-05",
+  "batchId": "east-asian-overcast-cool-male-day-street-20261103",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban residential streets with tiled building walls, shopfronts, parked bicycles, bollards, utility poles and mid-rise apartments; dry paving, no rain depicted; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "311bf9d9044da79c2a69b5abb48ed43fbab9130889ed819be11785ee9545436f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-street-20261103-05",
+  "appStyle": "street",
+  "appModule": "look/east-asian-overcast-cool-male-day-street-20261103.js",
+  "appHeroItem": "east-asian-cool-m35-day-street-20261103-05.blouson",
+  "scenePropsNotProducts": [
+    "keys"
+  ],
+  "reconstructionNotice": "Rear three-quarter view at a door: the black zip blouson front and the cream crewneck sweatshirt front are conservative reconstructions from the visible collar, hem and zip edge. The keys in the lock are a scene prop. The black rectangular watch face is only partly visible. White socks show above the black penny loafers under charcoal cropped trousers. Brand, fibre composition and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer visual review, not individual human approval",
+    "checkedAt": "2026-11-04T08:15:07.790360+00:00",
+    "correctedCount": 21,
+    "preservedValidCount": 8,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "v2/qa/look-05-overview.jpg"
+    ],
+    "findings": "All29 are isolated products; footwear/socks matching pairs. Collages removed. Concerned shoe source halos and light fabric edge flecks do not remain as visible background contamination in final500px composites. Actual-alpha technical check passed. Colors/details match editorial references; hidden fronts conservative."
+  },
+  "copy": {
+    "titleEn": "A GLANCE BACK AT THE DOOR",
+    "title": {
+      "ko": "문을 열다 돌아보기",
+      "en": "A glance back at the door",
+      "de": "Ein Blick zurück an der Tür"
+    },
+    "deck": {
+      "ko": "검정 블루종 아래 크림 밑단과 흰 발목의 선명한 간격.",
+      "en": "Cream at the hem and white at the ankles interrupt black and charcoal.",
+      "de": "Creme am Saum und Weiß am Knöchel unterbrechen Schwarz und Anthrazit."
+    },
+    "intro": {
+      "ko": "문을 열면서 뒤를 보는 각도에 짧은 재킷의 뒷선이 드러납니다.",
+      "en": "The backward glance while opening the door reveals the short jacket from behind.",
+      "de": "Beim Türöffnen zeigt der Blick zurück die kurze Jacke von hinten."
+    },
+    "body": {
+      "ko": "검정 블루종의 모인 밑단 아래로 크림 크루넥이 조금 이어집니다. 차콜 크롭 트라우저는 검정과 가까운 색을 유지하면서 흰 양말과 페니 로퍼 사이에 또렷한 끝점을 만듭니다. 가는 검정 스트랩의 직사각 시계는 문고리를 잡는 손목에서 보입니다. 낮의 플래시는 뒤돌아선 재킷 주름과 바지의 여유를 동시에 드러냅니다.",
+      "en": "A little cream crewneck hem extends below the gathered black blouson. Charcoal cropped trousers keep the palette close while defining the white socks above penny loafers. A rectangular watch on a narrow black strap appears at the reaching wrist. Daytime flash shows rear jacket folds and the relaxed trouser line together.",
+      "de": "Ein kleiner cremefarbener Saum liegt unter dem gerafften schwarzen Blouson. Die verkürzte anthrazitfarbene Hose bleibt im dunklen Farbbereich und grenzt weiße Socken über Pennyloafern klar ab. Am ausgestreckten Handgelenk erscheint eine rechteckige Uhr mit schmalem schwarzem Band. Tagesblitz zeigt Jackenfalten von hinten und die lockere Hosenlinie zugleich."
+    },
+    "pull": {
+      "ko": "어두운 옷 사이에 남긴 밝은 두 줄.",
+      "en": "Two light intervals within the dark layers.",
+      "de": "Zwei helle Abstände zwischen dunklen Lagen."
+    },
+    "pullQuoteEn": "Two light intervals within the dark layers.",
+    "tip": {
+      "ko": "크림 밑단을 고르게 펴고 양말 커프를 접지 않아 밝은 간격을 일정하게 유지하세요.",
+      "en": "Keep the cream hem even and the sock cuffs unfolded for consistent light intervals.",
+      "de": "Den cremefarbenen Saum gleichmäßig und die Sockenbündchen ungefaltelt halten."
+    }
+  },
+  "products": [
+    {
+      "id": "blouson",
+      "producerId": "05-01-outer",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-05.blouson",
+      "appCategory": "outer",
+      "name": {
+        "ko": "블랙 지퍼 블루종",
+        "en": "Black zip blouson",
+        "de": "Schwarzer Zip-Blouson"
+      },
+      "nameKo": "블랙 지퍼 블루종",
+      "description": {
+        "ko": "작은 칼라와 긴소매, 모인 커프와 밑단, 측면 포켓의 짧은 재킷입니다.",
+        "en": "Short black jacket with small collar, long sleeves, gathered cuffs and hem, and side pockets.",
+        "de": "Kurze schwarze Jacke mit kleinem Kragen, langen Ärmeln, gerafften Bündchen und Seitentaschen."
+      },
+      "howToWear": {
+        "ko": "크림 이너 밑단이 조금 남도록 블루종 밑단을 자연스럽게 두세요.",
+        "en": "Let a little cream hem extend beneath the blouson's gathered edge.",
+        "de": "Einen kleinen cremefarbenen Saum unter dem gerafften Blousonrand zeigen."
+      },
+      "image": "products/blouson.webp",
+      "sha256": "b70e4f9f9f18024a7bd6cc4de09da50bb1d8ca2094324004d4cea9b4301daf3f",
+      "bytes": 26558,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sweatshirt",
+      "producerId": "05-02-top",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-05.sweatshirt",
+      "appCategory": "top",
+      "name": {
+        "ko": "크림 크루넥 스웨트셔츠",
+        "en": "Cream crewneck sweatshirt",
+        "de": "Cremefarbenes Rundhals-Sweatshirt"
+      },
+      "nameKo": "크림 크루넥 스웨트셔츠",
+      "description": {
+        "ko": "크림색의 단순한 앞판과 리브 목선, 커프, 밑단의 긴팔입니다.",
+        "en": "Plain cream long-sleeve sweatshirt with ribbed neckline, cuffs and hem.",
+        "de": "Schlichtes cremefarbenes Sweatshirt mit langen Ärmeln und Rippabschlüssen."
+      },
+      "howToWear": {
+        "ko": "검정 재킷 아래 밝은 밑단이 한쪽으로 말리지 않게 펴 주세요.",
+        "en": "Keep the pale hem even beneath the black jacket without rolling to one side.",
+        "de": "Den hellen Saum unter der schwarzen Jacke gleichmäßig ausrichten."
+      },
+      "image": "products/sweatshirt.webp",
+      "sha256": "d92fd0f98e58ded6818a1511482b1b438c004d1fc8321c90fdc48e90a699254d",
+      "bytes": 32858,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-trousers",
+      "producerId": "05-03-bottom",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-05.cropped-trousers",
+      "appCategory": "bottom",
+      "name": {
+        "ko": "차콜 크롭 트라우저",
+        "en": "Charcoal cropped trousers",
+        "de": "Anthrazitfarbene verkürzte Hose"
+      },
+      "nameKo": "차콜 크롭 트라우저",
+      "description": {
+        "ko": "차콜색의 여유로운 직선 다리와 벨트고리, 짧은 밑단의 바지입니다.",
+        "en": "Charcoal trousers with relaxed straight legs, belt loops and cropped hems.",
+        "de": "Anthrazitfarbene Hose mit lockerem geradem Bein, Gürtelschlaufen und verkürztem Saum."
+      },
+      "howToWear": {
+        "ko": "로퍼 위 흰 양말이 일정한 폭으로 보이도록 바지 위치를 맞추세요.",
+        "en": "Position the trousers for an even band of white sock above the loafers.",
+        "de": "Die Hose so ausrichten, dass über den Loafern ein gleichmäßiger weißer Sockenstreifen bleibt."
+      },
+      "image": "products/cropped-trousers.webp",
+      "sha256": "2408459a4fa17e08a1dae9681b7cc3ef89c54ebcfc105f1339bb4ecffddd74ed",
+      "bytes": 21738,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loafers",
+      "producerId": "05-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-05.loafers",
+      "appCategory": "shoes",
+      "name": {
+        "ko": "블랙 페니 로퍼",
+        "en": "Black penny loafers",
+        "de": "Schwarze Pennyloafer"
+      },
+      "nameKo": "블랙 페니 로퍼",
+      "description": {
+        "ko": "광택 있는 검정 표면과 페니 스트랩, 둥근 앞코, 낮고 두꺼운 창의 한 켤레입니다.",
+        "en": "Polished black pair with penny straps, rounded toes and low substantial soles.",
+        "de": "Glänzendes schwarzes Paar mit Pennystegen, runden Spitzen und niedrigen kräftigen Sohlen."
+      },
+      "howToWear": {
+        "ko": "흰 양말을 신발 안에서 구기지 않고 뒤꿈치를 끝까지 넣으세요.",
+        "en": "Smooth white socks inside and seat the heel fully in each loafer.",
+        "de": "Die weißen Socken im Schuh glätten und die Ferse ganz einsetzen."
+      },
+      "image": "products/loafers.webp",
+      "sha256": "68abdb76f7d19b8b616583e22e46e8d79dd3c8d6f3969e881d77074cdface9cd",
+      "bytes": 32940,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "socks",
+      "producerId": "05-05-socks",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-05.socks",
+      "appCategory": "socks",
+      "name": {
+        "ko": "화이트 로퍼 앵클 삭스",
+        "en": "White loafer ankle socks",
+        "de": "Weiße Knöchelsocken zu Loafern"
+      },
+      "nameKo": "화이트 로퍼 앵클 삭스",
+      "description": {
+        "ko": "흰 리브 커프와 둥근 뒤꿈치, 발끝이 보이는 양말 한 쌍입니다.",
+        "en": "White pair with ribbed cuffs and rounded heels and toes.",
+        "de": "Weißes Paar mit Rippbündchen, gerundeten Fersen und Spitzen."
+      },
+      "howToWear": {
+        "ko": "크롭 바지 아래 커프를 접지 않고 곧게 올려 주세요.",
+        "en": "Wear the cuffs straight without folding below cropped trousers.",
+        "de": "Die Bündchen unter der verkürzten Hose gerade und ungefaltelt tragen."
+      },
+      "image": "products/socks.webp",
+      "sha256": "a933e3b1052abe83e9dc57ddb5a5c7e9943f3ad5683b075983f938d383a44baf",
+      "bytes": 40510,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "watch",
+      "producerId": "05-06-watch",
+      "appItemId": "east-asian-cool-m35-day-street-20261103-05.watch",
+      "appCategory": "watch",
+      "name": {
+        "ko": "블랙 렉탱글 시계",
+        "en": "Black rectangular watch",
+        "de": "Schwarze rechteckige Uhr"
+      },
+      "nameKo": "블랙 렉탱글 시계",
+      "description": {
+        "ko": "어두운 직사각 다이얼과 밝은 얇은 케이스, 가는 검정 스트랩의 시계입니다.",
+        "en": "Dark rectangular dial with a slim pale case and narrow black strap.",
+        "de": "Dunkles rechteckiges Zifferblatt mit schmalem hellem Gehäuse und schwarzem Band."
+      },
+      "howToWear": {
+        "ko": "문고리를 잡을 때 커프에 걸리지 않도록 시계를 손목에 맞게 두세요.",
+        "en": "Fit the watch at the wrist so it stays clear of the cuff while reaching for the door.",
+        "de": "Die Uhr passend am Handgelenk tragen, damit sie beim Griff zur Tür frei vom Bündchen bleibt."
+      },
+      "image": "products/watch.webp",
+      "sha256": "8f73583cb36736d57e1ed59829288de592d071f94a95c7655ed21b5b871eed5f",
+      "bytes": 17394,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; actual image producer review; hidden areas conservative",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible color and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farbe und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b206"
+}
