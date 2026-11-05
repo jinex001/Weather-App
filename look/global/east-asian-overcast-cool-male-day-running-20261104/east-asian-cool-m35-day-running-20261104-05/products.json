@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-running-20261104-05",
+  "batchId": "east-asian-overcast-cool-male-day-running-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; no rain depicted and reflective paving is not read as rain; white reflective details catch the direct flash; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "a6a0c7c16ecf6c73baea7d5279f793e5d3fead5edad05d08a18e27fc33452d82",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-running-20261104-05",
+  "appStyle": "run",
+  "appModule": "look/east-asian-overcast-cool-male-day-running-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-running-20261104-05.mesh-runners",
+  "scenePropsNotProducts": [
+    "small stone"
+  ],
+  "reconstructionNotice": "The small stone falling from the shoe is a scene prop, not a product. One gray shoe is held in the hand and the other is worn, and they are listed as one pair. The raised foot shows only its gray sock, which informs the full sock pair. The raised knee and hand hide part of the burgundy top and the cropped pants' waist; those parts are inferred. The navy cap's far side is inferred. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image all5overviews four backgrounds",
+    "checkedAt": "2026-11-05T02:46:06.825053+00:00",
+    "productCount": 32,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "All32 independent products, full pairs and straps, no outfit collages",
+      "01orange jacket no inner cuffs, source edgeflecks not objectionable on final500composites",
+      "Shorts/tights separate",
+      "03two-buckle nozip vest separate sage top and silvercase blackstrapwatch",
+      "04longsleeve navy jacket separate white tee",
+      "05held+worn shoe reconstructed pair and gray socks"
+    ]
+  },
+  "copy": {
+    "titleEn": "A SMALL STONE IN THE SHOE",
+    "title": {
+      "ko": "신발 안의 작은 돌",
+      "en": "A small stone in the shoe",
+      "de": "Ein kleiner Stein im Schuh"
+    },
+    "deck": {
+      "ko": "버건디 긴소매와 종아리 길이 검정 팬츠.",
+      "en": "Burgundy sleeves meet calf-length black pants.",
+      "de": "Burgunderärmel treffen auf wadenlange schwarze Hosen."
+    },
+    "intro": {
+      "ko": "한쪽 신발을 벗어 흔들며 발끝을 가볍게 들어 균형을 잡습니다.",
+      "en": "He removes and shakes one shoe while lifting the socked foot to balance.",
+      "de": "Er zieht einen Schuh aus und schüttelt ihn, während der besockte Fuß zum Balancieren angehoben bleibt."
+    },
+    "body": {
+      "ko": "버건디 상의의 흰 어깨선은 소매 바깥으로 이어집니다. 검정 크롭 팬츠 아래 회색 양말이 드러나고 손에 든 신발과 신은 신발이 한 켤레를 이룹니다. 네이비 캡의 흰 옆선과 검정 시계가 작은 동작을 둘러싸며 플래시는 메시와 옷의 질감을 나눕니다.",
+      "en": "White shoulder piping continues along the burgundy outer sleeves. Gray socks show below black cropped pants; the held and worn shoes form one complete pair. A white cap side line and black watch frame the small movement while flash separates mesh and fabric textures.",
+      "de": "Weiße Schulterpaspeln laufen entlang der äußeren Burgunderärmel. Graue Socken zeigen sich unter verkürzten schwarzen Hosen; gehaltener und getragener Schuh ergeben ein Paar. Weiße Cap-Seitenlinie und schwarze Uhr rahmen die Bewegung, während Blitz Mesh und Stoff trennt."
+    },
+    "pull": {
+      "ko": "신발을 벗은 순간 드러나는 회색 양말.",
+      "en": "A gray sock appears when the shoe comes off.",
+      "de": "Beim Ausziehen zeigt sich die graue Socke."
+    },
+    "pullQuoteEn": "A gray sock appears when the shoe comes off.",
+    "tip": {
+      "ko": "안정된 곳에 멈춰 돌을 털고 양말을 편 뒤 다시 신으세요.",
+      "en": "Stop on stable ground, empty the shoe and smooth the sock before replacing it.",
+      "de": "Auf festem Boden anhalten, den Schuh leeren und die Socke vor dem Anziehen glätten."
+    }
+  },
+  "products": [
+    {
+      "id": "reflective-long-sleeve",
+      "producerId": "05-01-top",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-05.reflective-long-sleeve",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "버건디 반사 긴소매",
+        "en": "Burgundy reflective long sleeve",
+        "de": "Burgunderfarbenes Reflex-Langarmshirt"
+      },
+      "nameKo": "버건디 반사 긴소매",
+      "description": {
+        "ko": "흰 어깨선이 소매 바깥으로 이어지는 버건디 크루넥입니다.",
+        "en": "Burgundy crewneck with white shoulder piping continuing along the outer sleeves.",
+        "de": "Burgunderfarbenes Rundhalsshirt mit weißer Schulterpaspel entlang der äußeren Ärmel."
+      },
+      "howToWear": {
+        "ko": "신발을 흔들 때 소매 커프가 손에 걸리지 않게 올리세요.",
+        "en": "Raise the cuffs clear of the hands while shaking the shoe.",
+        "de": "Beim Ausschütteln des Schuhs die Bündchen von den Händen fernhalten."
+      },
+      "image": "products/reflective-long-sleeve.webp",
+      "sha256": "69b1d6ee9b65329c56022377db683d48795f653bdb933d8df95ab86f98b2f16c",
+      "bytes": 48436,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; burgundy crewneck long-sleeve running top, white reflective shoulder piping continuing outside sleeves, burgundy cuffs",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-pants",
+      "producerId": "05-02-bottom",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-05.cropped-pants",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "블랙 파이핑 크롭 팬츠",
+        "en": "Black piped cropped pants",
+        "de": "Schwarze verkürzte Hose mit Paspel"
+      },
+      "nameKo": "블랙 파이핑 크롭 팬츠",
+      "description": {
+        "ko": "탄성 허리와 모인 종아리 밑단, 가는 흰 옆선의 바지입니다.",
+        "en": "Elastic-waist pants with gathered calf hems and fine white side piping.",
+        "de": "Hose mit Elastikbund, gerafften Wadensäumen und feiner weißer Seitenpaspel."
+      },
+      "howToWear": {
+        "ko": "들었던 다리를 내린 뒤 양쪽 밑단을 같은 높이로 맞추세요.",
+        "en": "Match both hems after lowering the raised leg.",
+        "de": "Nach dem Absetzen beide Säume gleich hoch ausrichten."
+      },
+      "image": "products/cropped-pants.webp",
+      "sha256": "d92221815eee6186d750d661c18e48d975c4b7dff4fcce512c7a9ac14f624ae1",
+      "bytes": 28108,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black relaxed cropped running pants mid calf with elastic waist and gathered cuff hem, narrow white side piping",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mesh-runners",
+      "producerId": "05-03-shoes",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-05.mesh-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "라이트 그레이 메시 러너",
+        "en": "Light gray mesh runners",
+        "de": "Hellgraue Mesh-Laufschuhe"
+      },
+      "nameKo": "라이트 그레이 메시 러너",
+      "description": {
+        "ko": "회색 끈과 메시 앞판, 검정 밑창 부분이 있는 흰 창의 한 켤레입니다.",
+        "en": "Gray-laced mesh pair with white soles and black outsole sections.",
+        "de": "Mesh-Paar mit grauen Senkeln, weißen Sohlen und schwarzen Sohlenflächen."
+      },
+      "howToWear": {
+        "ko": "돌을 턴 신발을 신기 전 안쪽에 남은 이물이 없는지 확인하세요.",
+        "en": "Check the emptied shoe before putting it back on.",
+        "de": "Den ausgeschüttelten Schuh vor dem Anziehen innen prüfen."
+      },
+      "image": "products/mesh-runners.webp",
+      "sha256": "b1fcba9f64b7fe5833d1fdc80527a8e1c0eb12c75d1dcadd72b63e5eef076eaf",
+      "bytes": 49318,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair light gray mesh running shoes gray laces white soles black outsole; restore complete pair from shoe held and shoe worn",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "05-04-socks",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-05.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "그레이 플레인 앵클 삭스",
+        "en": "Gray plain ankle socks",
+        "de": "Graue schlichte Knöchelsocken"
+      },
+      "nameKo": "그레이 플레인 앵클 삭스",
+      "description": {
+        "ko": "낮은 커프와 단순한 회색 발등, 둥근 발끝의 한 쌍입니다.",
+        "en": "Gray pair with low cuffs, plain insteps and rounded toes.",
+        "de": "Graues Paar mit niedrigen Bündchen, schlichtem Spann und runden Spitzen."
+      },
+      "howToWear": {
+        "ko": "벗은 신발을 다시 신을 때 양말 앞코를 펴 주세요.",
+        "en": "Smooth the sock toes before replacing the shoe.",
+        "de": "Vor dem erneuten Anziehen die Sockenspitzen glätten."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "a679c20d06a1a42e78e6c72bb011af05d6612cd4a832bc7b5170b380ae60e2ef",
+      "bytes": 49542,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair gray ankle socks, conservative full sock reconstruction from visible sock-only raised foot",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-cap",
+      "producerId": "05-05-cap",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-05.running-cap",
+      "appCategory": "headwear",
+      "producerCategory": "cap",
+      "name": {
+        "ko": "네이비 반사선 러닝 캡",
+        "en": "Navy reflective-line running cap",
+        "de": "Marineblaues Laufcap mit Reflexlinie"
+      },
+      "nameKo": "네이비 반사선 러닝 캡",
+      "description": {
+        "ko": "부드러운 크라운과 굽은 챙, 흰 옆 반사선의 캡입니다.",
+        "en": "Soft crown and curved brim with a white side reflective line.",
+        "de": "Weiche Krone und gebogener Schirm mit weißer Seitenreflexlinie."
+      },
+      "howToWear": {
+        "ko": "몸을 숙여도 챙이 시야를 막지 않도록 각도를 맞추세요.",
+        "en": "Angle the brim to keep the view clear while bending.",
+        "de": "Den Schirm beim Bücken für freie Sicht ausrichten."
+      },
+      "image": "products/running-cap.webp",
+      "sha256": "94ad7fb790ce791e59b123404ebcbfda976d5692c5c509e6ba6da6ebfa6ed6a3",
+      "bytes": 23172,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy curved-brim running cap with white reflective curved side panel line",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sports-watch",
+      "producerId": "05-06-watch",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-05.sports-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "블랙 루프스트랩 스포츠워치",
+        "en": "Black loop-strap sports watch",
+        "de": "Schwarze Sportuhr mit Schlaufenband"
+      },
+      "nameKo": "블랙 루프스트랩 스포츠워치",
+      "description": {
+        "ko": "검정 원형 화면과 구멍 스트랩, 작은 버클의 시계입니다.",
+        "en": "Black round screen with perforated strap and compact buckle.",
+        "de": "Schwarzer runder Bildschirm mit gelochtem Band und kleiner Schnalle."
+      },
+      "howToWear": {
+        "ko": "신발을 든 손 반대 손목에서 시계가 미끄러지지 않게 맞추세요.",
+        "en": "Secure the watch on the wrist opposite the shoe-holding hand.",
+        "de": "Die Uhr am Handgelenk gegenüber der schuhhaltenden Hand sicher anpassen."
+      },
+      "image": "products/sports-watch.webp",
+      "sha256": "92f34efa93432854b4ce94c78be4af56aaf4e8f138effd78a2fbe9dc528cba8c",
+      "bytes": 27652,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black round sports watch dark face black flexible strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b210"
+}

@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-cool-m35-day-running-20261104-02",
+  "batchId": "east-asian-overcast-cool-male-day-running-20261104",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Cool",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cool",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "cool",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: overcast daytime East Asian urban streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; no rain depicted and reflective paving is not read as rain; white reflective details catch the direct flash; humidity not inferred. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "e5d77b6fae61895159b480038309a52802307177b092d283a62f9ecfedb651ea",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-cool-m35-day-running-20261104-02",
+  "appStyle": "run",
+  "appModule": "look/east-asian-overcast-cool-male-day-running-20261104.js",
+  "appHeroItem": "east-asian-cool-m35-day-running-20261104-02.mesh-runners",
+  "scenePropsNotProducts": [
+    "twig"
+  ],
+  "reconstructionNotice": "The twig caught in the laces is a scene prop, not a product. The man stands with one foot raised on a stone ledge: the top's back, the shorts' hidden leg and the tights' waist are conservatively reconstructed. The black zip pouch is seen from the front, with its full webbing and buckle inferred. The gray shorts and navy tights are separate products. Both shoes are visible and listed as one pair. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image all5overviews four backgrounds",
+    "checkedAt": "2026-11-05T02:46:06.825053+00:00",
+    "productCount": 32,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "All32 independent products, full pairs and straps, no outfit collages",
+      "01orange jacket no inner cuffs, source edgeflecks not objectionable on final500composites",
+      "Shorts/tights separate",
+      "03two-buckle nozip vest separate sage top and silvercase blackstrapwatch",
+      "04longsleeve navy jacket separate white tee",
+      "05held+worn shoe reconstructed pair and gray socks"
+    ]
+  },
+  "copy": {
+    "titleEn": "A TWIG IN THE LACES",
+    "title": {
+      "ko": "끈에 걸린 작은 가지",
+      "en": "A twig in the laces",
+      "de": "Ein Zweig in den Senkeln"
+    },
+    "deck": {
+      "ko": "코발트 긴소매와 네이비 타이츠의 깊은 색.",
+      "en": "Cobalt sleeves meet deep navy tights.",
+      "de": "Kobaltblaue Ärmel treffen auf tiefe Marinetights."
+    },
+    "intro": {
+      "ko": "한 발을 낮은 턱에 올려 신발끈에 걸린 가지를 떼어 냅니다.",
+      "en": "He raises one foot onto a low curb to remove a twig caught in the shoelace.",
+      "de": "Er stellt einen Fuß auf eine niedrige Kante und entfernt einen Zweig aus der Schnürung."
+    },
+    "body": {
+      "ko": "코발트 상의의 흰 위팔 띠가 숙인 몸의 방향을 보여줍니다. 회색 쇼츠 아래 네이비 타이츠가 이어지고 회색 양말과 메시 러닝화가 단정한 끝을 만듭니다. 검정 지퍼 허리 파우치는 몸 앞에 붙어 손동작을 비워 둡니다.",
+      "en": "White upper-arm bands trace the cobalt top across the bent torso. Navy tights extend below gray shorts to gray socks and mesh runners. A black zip waist pouch stays close at the front and leaves both hands free.",
+      "de": "Weiße Oberarmbänder folgen dem kobaltblauen Shirt am gebeugten Oberkörper. Unter grauen Shorts reicht die Marinetight zu grauen Socken und Mesh-Laufschuhen. Eine schwarze Zip-Hüfttasche bleibt vorne körpernah und lässt beide Hände frei."
+    },
+    "pull": {
+      "ko": "무릎을 굽혀도 분리되는 두 겹.",
+      "en": "Two layers stay distinct at the bent knee.",
+      "de": "Zwei Lagen bleiben am gebeugten Knie getrennt."
+    },
+    "pullQuoteEn": "Two layers stay distinct at the bent knee.",
+    "tip": {
+      "ko": "가지를 제거한 뒤 끈 매듭과 양말 앞부분을 다시 정리하세요.",
+      "en": "Recheck the knot and smooth the sock after removing the twig.",
+      "de": "Nach dem Entfernen den Knoten prüfen und die Socke glätten."
+    }
+  },
+  "products": [
+    {
+      "id": "reflective-long-sleeve",
+      "producerId": "02-01-top",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-02.reflective-long-sleeve",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "코발트 반사 긴소매",
+        "en": "Cobalt reflective long sleeve",
+        "de": "Kobaltblaues Reflex-Langarmshirt"
+      },
+      "nameKo": "코발트 반사 긴소매",
+      "description": {
+        "ko": "크루넥과 파란 커프, 양쪽 위팔 흰 반사띠의 긴소매입니다.",
+        "en": "Crewneck with blue cuffs and white reflective upper-arm bands.",
+        "de": "Rundhalsshirt mit blauen Bündchen und weißen Oberarmreflexbändern."
+      },
+      "howToWear": {
+        "ko": "숙일 때 소매 반사띠가 바깥쪽에 남도록 펴세요.",
+        "en": "Keep the bands facing outward when bending.",
+        "de": "Beim Bücken die Bänder nach außen ausrichten."
+      },
+      "image": "products/reflective-long-sleeve.webp",
+      "sha256": "0943ecc5fb153070fdb2f68be9b02d3f4f6949fd7fd5085062fc4bdae5af786f",
+      "bytes": 43600,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; cobalt blue crewneck long-sleeve running top, white reflective bands on both upper arms, blue self cuffs",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "relaxed-shorts",
+      "producerId": "02-02-shorts",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-02.relaxed-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "그레이 릴랙스 쇼츠",
+        "en": "Gray relaxed shorts",
+        "de": "Graue lockere Laufshorts"
+      },
+      "nameKo": "그레이 릴랙스 쇼츠",
+      "description": {
+        "ko": "탄성 허리와 옆 트임, 넓은 다리선의 회색 쇼츠입니다.",
+        "en": "Gray shorts with elastic waist, side slits and roomy legs.",
+        "de": "Graue Shorts mit Elastikbund, Seitenschlitzen und weitem Bein."
+      },
+      "howToWear": {
+        "ko": "올린 무릎 위에서 쇼츠가 타이츠와 붙어 말리지 않게 하세요.",
+        "en": "Keep the shorts separate from tights over the raised knee.",
+        "de": "Die Shorts am gehobenen Knie frei von der Tight halten."
+      },
+      "image": "products/relaxed-shorts.webp",
+      "sha256": "60dbfca1af59c32b3867e813ac6f75cb2a2e39a30f03a7f874cdff04d0d332d5",
+      "bytes": 46512,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; gray loose running shorts, elastic waist and side slit; shorts alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tights",
+      "producerId": "02-03-tights",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-02.tights",
+      "appCategory": "bottom",
+      "producerCategory": "tights",
+      "name": {
+        "ko": "네이비 롱 러닝 타이츠",
+        "en": "Navy long running tights",
+        "de": "Marineblaue lange Lauftight"
+      },
+      "nameKo": "네이비 롱 러닝 타이츠",
+      "description": {
+        "ko": "단순한 탄성 허리와 발목 길이 밀착 다리선입니다.",
+        "en": "Plain elastic waist and fitted ankle-length navy legs.",
+        "de": "Schlichter Elastikbund und anliegende knöchellange Beine in Marine."
+      },
+      "howToWear": {
+        "ko": "다리를 내린 뒤 무릎 뒤 접힘을 가볍게 펴세요.",
+        "en": "Smooth behind-knee folds after lowering the leg.",
+        "de": "Nach dem Absetzen die Kniekehlenfalten glätten."
+      },
+      "image": "products/tights.webp",
+      "sha256": "70420a6fd1240f6e600fef9e9a29fe9cb261f4db7d027f8b4516fb93db6dd2ce",
+      "bytes": 23602,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy fitted full-length running tights, simple elastic waist; tights alone",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mesh-runners",
+      "producerId": "02-04-shoes",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-02.mesh-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "그레이 메시 러너",
+        "en": "Gray mesh runners",
+        "de": "Graue Mesh-Laufschuhe"
+      },
+      "nameKo": "그레이 메시 러너",
+      "description": {
+        "ko": "회색 메시와 흰 끈, 검정 부분이 있는 조각된 흰 창의 한 켤레입니다.",
+        "en": "Gray mesh pair with white laces and sculpted white soles with black sections.",
+        "de": "Graues Mesh-Paar mit weißen Senkeln und geformten weißen Sohlen mit schwarzen Flächen."
+      },
+      "howToWear": {
+        "ko": "끈에 걸린 나뭇가지를 제거한 뒤 매듭을 다시 확인하세요.",
+        "en": "Recheck the knot after removing the twig from the laces.",
+        "de": "Nach dem Entfernen des Zweigs den Schnürknoten prüfen."
+      },
+      "image": "products/mesh-runners.webp",
+      "sha256": "5fa2c64a68bfeb4cbf175381aa381d7a56c5861fb1d4cc546a8d87e4f7a87da3",
+      "bytes": 48502,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair gray mesh running shoes white laces sculpted white soles black outsole sections",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "02-05-socks",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-02.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "그레이 메시 앵클 삭스",
+        "en": "Gray mesh ankle socks",
+        "de": "Graue Mesh-Knöchelsocken"
+      },
+      "nameKo": "그레이 메시 앵클 삭스",
+      "description": {
+        "ko": "낮은 커프와 넓은 메시 발등의 회색 양말 한 쌍입니다.",
+        "en": "Gray pair with low cuffs and broad mesh insteps.",
+        "de": "Graues Paar mit niedrigen Bündchen und breitem Mesh-Spann."
+      },
+      "howToWear": {
+        "ko": "타이츠 아래 양말 커프가 발뒤꿈치로 밀리지 않게 하세요.",
+        "en": "Keep the cuffs from sliding into the heels below the tights.",
+        "de": "Die Bündchen unter der Tight nicht in die Fersen rutschen lassen."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "88aa191a82c3880fa7e4a0cbe8228c41e384bc08747d155bfdb5e6a25967e0c0",
+      "bytes": 48250,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair gray ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "zip-pouch",
+      "producerId": "02-06-belt",
+      "appItemId": "east-asian-cool-m35-day-running-20261104-02.zip-pouch",
+      "appCategory": "bag",
+      "producerCategory": "belt",
+      "name": {
+        "ko": "블랙 러닝 지퍼 파우치",
+        "en": "Black running zip pouch",
+        "de": "Schwarze Lauf-Ziptasche"
+      },
+      "nameKo": "블랙 러닝 지퍼 파우치",
+      "description": {
+        "ko": "은색 지퍼와 조절 검정 끈, 뒤 버클의 허리 파우치입니다.",
+        "en": "Waist pouch with silver-tone zip, adjustable black webbing and rear buckle.",
+        "de": "Hüfttasche mit silberfarbenem Zip, verstellbarem schwarzem Gurt und hinterer Schnalle."
+      },
+      "howToWear": {
+        "ko": "파우치를 몸 앞에 붙여 숙일 때 흔들리지 않게 맞추세요.",
+        "en": "Fit the pouch close at the front while bending.",
+        "de": "Die Tasche beim Bücken vorne körpernah einstellen."
+      },
+      "image": "products/zip-pouch.webp",
+      "sha256": "1d0880366f5936adce380a5e2b35338e76cfc719f83e27cb84bd84b35afe31d4",
+      "bytes": 33374,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black running waist zip pouch belt, silver zip, adjustable black webbing and black buckle",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·섬유 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b210"
+}
