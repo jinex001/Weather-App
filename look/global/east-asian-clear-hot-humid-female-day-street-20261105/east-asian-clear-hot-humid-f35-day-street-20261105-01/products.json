@@ -67,7 +67,7 @@
   "scenePropsNotProducts": [
     "plastic drink bottle"
   ],
-  "reconstructionNotice": "The plastic drink bottle is a scene prop, not a product. The shirt is worn open and blowing in the editorial; the product shows it buttoned, a conservative catalog reconstruction, with its back inferred. The white tank is a separate product; its lower front is partly hidden by the arms. The crossbody hangs at the hip and is partly hidden by the hand, so its front, flap and proportions are conservatively reconstructed. Both sandals are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "reconstructionNotice": "The plastic drink bottle is a scene prop, not a product. The shirt is worn open and blowing in the editorial; the product shows it buttoned, a conservative catalog reconstruction, with its back inferred. The white tank is a separate product; its lower front is partly hidden by the arms. The crossbody hangs at the hip and is partly hidden by the hand, so its strap layout and obscured hardware are conservatively reconstructed. Both sandals are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
   "producerVisualReview": {
     "status": "pass",
     "producerReview": true,
@@ -107,8 +107,8 @@
     },
     "body": {
       "ko": "연파랑 셔츠 아래 흰 리브가 드러나고, 무릎 길이 쇼츠의 앞주름이 움직임을 따라 펼쳐진다. 검정 샌들과 작은 가방이 밝은 색을 잡아 준다.",
-      "en": "Pale blue frames the white tank while the front pleats of the knee-length shorts open with her step. Black ankle straps and a small flap bag anchor the light palette.",
-      "de": "Hellblau rahmt das weiße Top ein, während sich die Bundfalten der knielangen Shorts beim Schritt öffnen. Schwarze Knöchelriemen und eine kleine Klappentasche geben den hellen Farben Halt."
+      "en": "Pale blue frames the white tank while the front pleats of the knee-length shorts open with her step. Black ankle straps and a small zip bag anchor the light palette.",
+      "de": "Hellblau rahmt das weiße Top ein, während sich die Bundfalten der knielangen Shorts beim Schritt öffnen. Schwarze Knöchelriemen und eine kleine Reißverschlusstasche geben den hellen Farben Halt."
     },
     "pull": {
       "ko": "파랑과 흰색 사이로 드러나는 움직임.",
@@ -294,15 +294,15 @@
       "appCategory": "bag",
       "producerCategory": "bag",
       "name": {
-        "ko": "블랙 미니 플랩 크로스백",
-        "en": "Black mini flap crossbody",
-        "de": "Kleine schwarze Umhängetasche mit Klappe"
+        "ko": "블랙 지퍼 크로스백",
+        "en": "Black zip crossbody bag",
+        "de": "Schwarze Umhängetasche mit Reißverschluss"
       },
-      "nameKo": "블랙 미니 플랩 크로스백",
+      "nameKo": "블랙 지퍼 크로스백",
       "description": {
-        "ko": "둥근 모서리의 작은 플랩과 은색 연결 장식이 달린 검정 가방.",
-        "en": "Compact black bag with a rounded flap and silver-tone strap clips.",
-        "de": "Kompakte schwarze Tasche mit gerundeter Klappe und silberfarbenen Riemenclips."
+        "ko": "둥근 모서리와 가장자리 지퍼, 가는 스트랩이 있는 검은 직사각형 가방.",
+        "en": "A black rectangular bag with rounded corners, an edge zipper and a slim strap.",
+        "de": "Schwarze rechteckige Tasche mit abgerundeten Ecken, umlaufendem Reißverschluss und schmalem Riemen."
       },
       "howToWear": {
         "ko": "가방을 옆으로 돌려 셔츠 앞단이 눌리지 않게 하세요.",
@@ -310,14 +310,14 @@
         "de": "Die Tasche seitlich an der Hüfte tragen, damit die Hemdfront frei bleibt."
       },
       "image": "products/mini-flap-crossbody.webp",
-      "sha256": "a0a390c16dfb317371fc58afbd9a0363e8c91c3939461447074ece4abab7237a",
-      "bytes": 29330,
+      "sha256": "cf6506d2915e7d1e8529b1e2790075d2c245930cb47daebd3a3a486340174bed",
+      "bytes": 31506,
       "dimensions": [
         500,
         500
       ],
       "alpha": true,
-      "evidence": "Producer-reviewed editorial directly reviewed; small black rectangular rounded-edge crossbody with flap, narrow adjustable long strap and silver-tone fittings",
+      "evidence": "Producer-reviewed editorial directly reviewed; small black rectangular rounded-corner crossbody with a plain face, edge zipper and slim strap; strap layout and obscured hardware reconstructed",
       "reconstructionNotice": {
         "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
         "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
@@ -326,7 +326,19 @@
       "brand": null,
       "purchaseUrl": null,
       "materialComposition": null,
-      "status": "ready"
+      "status": "ready",
+      "correction": {
+        "build": "b212",
+        "bridge": "female-bag-correction/BRIDGE.json",
+        "archivedInBatch": "east-asian-clear-hot-humid-male-day-street-20261105",
+        "master": "female-bag-correction/01-05-bag-v2.png",
+        "qaSheet": "product-batch/qa/female-bag.jpg",
+        "sourceGenerationId": "exec-4bb8a84f-1fca-4377-92c5-6a95a776a184",
+        "previousSha256": "a0a390c16dfb317371fc58afbd9a0363e8c91c3939461447074ece4abab7237a",
+        "visualReview": "Compared with the worn bag and checked on white, black, gray and app backgrounds. Plain face and edge zip match visible construction. Strap layout and obscured hardware are reconstructed.",
+        "reviewer": "Codex producer review",
+        "individualProductHumanApproval": false
+      }
     },
     {
       "id": "bold-hoops",

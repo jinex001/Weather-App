@@ -1,0 +1,333 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-street-20261105-05",
+  "batchId": "east-asian-clear-hot-humid-male-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban streets with tiled apartment blocks, shop fronts, fruit stands, awnings, potted plants and parked scooters; hard direct sun with sharp shadows and a deep blue sky. No rain is depicted, and reflective paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3f4ebc3c085c7df94c4680003e571db4e3c4148be4f628877f85fbcb33df99d2",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-street-20261105-05",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-street-20261105-05.zip-shoulder-bag",
+  "scenePropsNotProducts": [
+    "keys"
+  ],
+  "reconstructionNotice": "The keys and the other person's hand at the shop window are scene props and setting, not products. The tank's back and the trouser waist are conservatively reconstructed. The burgundy bag is seen at an angle against the hip, so its far side and strap length are inferred. The watch is seen at an angle. Both sandals are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T22:58:43.671751+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-5.jpg"
+    ],
+    "findings": [
+      "Producer reviewed the editorials and all thirty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props; apply the female bag correction in the same publication. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "BURGUNDY AT THE WINDOW",
+    "title": {
+      "ko": "창가의 버건디",
+      "en": "Burgundy at the window",
+      "de": "Bordeaux am Fenster"
+    },
+    "deck": {
+      "ko": "검은 탱크톱과 스톤색 크롭 팬츠.",
+      "en": "A black tank with stone cropped trousers.",
+      "de": "Schwarzes Rippentop und verkürzte Hose in Steinfarbe."
+    },
+    "intro": {
+      "ko": "가게 창 너머에서 건네는 열쇠를 향해 손을 편다.",
+      "en": "He opens his hand for keys passed through the shop window.",
+      "de": "Er öffnet die Hand für die Schlüssel am Ladenfenster."
+    },
+    "body": {
+      "ko": "리브 탱크톱과 스톤색 팬츠가 허리에서 갈리고, 버건디 지퍼백이 옆에 걸린다. 검은 피셔맨 샌들과 은색 시계가 착장을 마무리한다.",
+      "en": "Black ribs meet stone pleats at the waist, with a burgundy zip bag at the side. Black fisherman sandals and a silver watch finish the look.",
+      "de": "Schwarze Rippen treffen am Bund auf helle Falten. Seitlich hängt die bordeauxrote Tasche mit Reißverschluss. Schwarze Fischersandalen und eine silberfarbene Uhr ergänzen den Look."
+    },
+    "pull": {
+      "ko": "스톤색 주름 옆의 버건디.",
+      "en": "Burgundy beside pale pleats.",
+      "de": "Bordeaux neben hellen Bundfalten."
+    },
+    "pullQuoteEn": "Burgundy beside pale pleats.",
+    "tip": {
+      "ko": "팬츠 밑단이 샌들 버클 위에서 끝나게 맞추세요.",
+      "en": "Let the cropped hems finish above the sandal buckles.",
+      "de": "Die Hosensäume oberhalb der Sandalenschnallen enden lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "ribbed-tank",
+      "producerId": "05-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-05.ribbed-tank",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "검정 리브 탱크톱",
+        "en": "Black ribbed tank",
+        "de": "Schwarzes Rippentop"
+      },
+      "nameKo": "검정 리브 탱크톱",
+      "description": {
+        "ko": "검정 세로 골지 민소매 상의.",
+        "en": "Black sleeveless top with vertical ribs.",
+        "de": "Schwarzes ärmelloses Top mit Längsrippen."
+      },
+      "howToWear": {
+        "ko": "스톤색 바지에 넣어 허리선을 보이세요.",
+        "en": "Tuck it into the stone trousers to show the waist.",
+        "de": "In die steinfarbene Hose stecken, damit der Bund sichtbar bleibt."
+      },
+      "image": "products/ribbed-tank.webp",
+      "sha256": "2520c7e9ca8b31d0f2571112a0960f0160ae465d4e24efb4b9f9c61ccb31b070",
+      "bytes": 21940,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black ribbed tank",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pleated-cropped-trousers",
+      "producerId": "05-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-05.pleated-cropped-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "스톤색 주름 크롭 팬츠",
+        "en": "Stone pleated cropped trousers",
+        "de": "Steinfarbene verkürzte Bundfaltenhose"
+      },
+      "nameKo": "스톤색 주름 크롭 팬츠",
+      "description": {
+        "ko": "앞주름과 발목 위 밑단이 있는 스톤색 바지.",
+        "en": "Stone trousers with front pleats and above-ankle hems.",
+        "de": "Steinfarbene Hose mit Bundfalten und Saum über dem Knöchel."
+      },
+      "howToWear": {
+        "ko": "밑단 아래 피셔맨 샌들의 짜임을 남기세요.",
+        "en": "Leave the fisherman sandal straps visible below the hems.",
+        "de": "Die Riemen der Fischersandalen unter dem Saum sichtbar lassen."
+      },
+      "image": "products/pleated-cropped-trousers.webp",
+      "sha256": "69967866197c8273c55a61ea030adba2823ba0e943cb506a429642538fd43c01",
+      "bytes": 38758,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; stone pleated cropped trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fisherman-sandals",
+      "producerId": "05-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-05.fisherman-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 피셔맨 샌들",
+        "en": "Black fisherman sandals",
+        "de": "Schwarze Fischersandalen"
+      },
+      "nameKo": "검정 피셔맨 샌들",
+      "description": {
+        "ko": "앞코가 닫힌 검정 스트랩 샌들 한 켤레.",
+        "en": "Pair of black closed-toe sandals with interlaced straps.",
+        "de": "Schwarzes Sandalenpaar mit geschlossener Spitze und verflochtenen Riemen."
+      },
+      "howToWear": {
+        "ko": "짧은 바지 밑단에 맞춰 발등 구조를 보여 주세요.",
+        "en": "Pair with cropped trousers to show the straps across the foot.",
+        "de": "Zur verkürzten Hose tragen, damit die Riemen über dem Fuß sichtbar sind."
+      },
+      "image": "products/fisherman-sandals.webp",
+      "sha256": "6a0a8fd8e9db35630b89e0ab89ded158a27ea2822c624dd192e0098a58ced43f",
+      "bytes": 47748,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black closed-toe fisherman sandals, pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "zip-shoulder-bag",
+      "producerId": "05-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-05.zip-shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "버건디 지퍼 숄더백",
+        "en": "Burgundy zip shoulder bag",
+        "de": "Burgunderrote Schultertasche mit Reißverschluss"
+      },
+      "nameKo": "버건디 지퍼 숄더백",
+      "description": {
+        "ko": "좁은 스트랩과 은색 부속이 있는 직사각형 가방.",
+        "en": "Rectangular zip bag with a narrow strap and silver-tone hardware.",
+        "de": "Rechteckige Reißverschlusstasche mit schmalem Riemen und silberfarbenen Beschlägen."
+      },
+      "howToWear": {
+        "ko": "검정 상의 옆으로 가방을 내려 색을 드러내세요.",
+        "en": "Let the bag hang beside the black tank to show its color.",
+        "de": "Neben dem schwarzen Top hängen lassen, damit die Farbe sichtbar bleibt."
+      },
+      "image": "products/zip-shoulder-bag.webp",
+      "sha256": "5a0e7ede50b5c1ddf4f506833cc3f920863848a41559c6b79fc99dec9e24aba7",
+      "bytes": 48676,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; burgundy rectangular zip shoulder bag with narrow strap and silver hardware",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "white-dial-watch",
+      "producerId": "05-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-05.white-dial-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "흰 다이얼 은색 메탈 시계",
+        "en": "White-dial silver-tone bracelet watch",
+        "de": "Silberfarbene Gliederbanduhr mit weißem Zifferblatt"
+      },
+      "nameKo": "흰 다이얼 은색 메탈 시계",
+      "description": {
+        "ko": "둥근 은색 케이스와 흰 다이얼, 링크 밴드.",
+        "en": "Round silver-tone case, white dial and link band.",
+        "de": "Rundes silberfarbenes Gehäuse, weißes Zifferblatt und Gliederband."
+      },
+      "howToWear": {
+        "ko": "가방의 은색 부속과 함께 손목에 밝은 포인트를 더하세요.",
+        "en": "Echo the bag hardware with the bright watch case.",
+        "de": "Mit dem hellen Gehäuse die Beschläge der Tasche aufgreifen."
+      },
+      "image": "products/white-dial-watch.webp",
+      "sha256": "4cb5924ace599a39a9148196ee68379a988521863a449a6ec2d0e1f5d78231b7",
+      "bytes": 28950,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; round silver white dial watch with metal bracelet",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b212"
+}

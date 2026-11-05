@@ -1154,7 +1154,12 @@
 "east-asian-clear-hot-humid-f35-day-street-20261105-02.crew-neck-tee": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-02/products/crew-neck-tee.webp", 0.497],
 "east-asian-clear-hot-humid-f35-day-street-20261105-03.sleeveless-collared-shirt": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-03/products/sleeveless-collared-shirt.webp", 0.803],
 "east-asian-clear-hot-humid-f35-day-street-20261105-04.camp-collar-shirt": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-04/products/camp-collar-shirt.webp", 0.571],
-"east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-05/products/tab-flap-bag.webp", 0.227]
+"east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-05/products/tab-flap-bag.webp", 0.227],
+"east-asian-clear-hot-humid-m35-day-street-20261105-01.camp-shirt": ["look/global/east-asian-clear-hot-humid-male-day-street-20261105/east-asian-clear-hot-humid-m35-day-street-20261105-01/products/camp-shirt.webp", 0.218],
+"east-asian-clear-hot-humid-m35-day-street-20261105-02.knit-polo": ["look/global/east-asian-clear-hot-humid-male-day-street-20261105/east-asian-clear-hot-humid-m35-day-street-20261105-02/products/knit-polo.webp", 0.45],
+"east-asian-clear-hot-humid-m35-day-street-20261105-03.open-toe-slides": ["look/global/east-asian-clear-hot-humid-male-day-street-20261105/east-asian-clear-hot-humid-m35-day-street-20261105-03/products/open-toe-slides.webp", 0.27],
+"east-asian-clear-hot-humid-m35-day-street-20261105-04.camp-shirt": ["look/global/east-asian-clear-hot-humid-male-day-street-20261105/east-asian-clear-hot-humid-m35-day-street-20261105-04/products/camp-shirt.webp", 0.474],
+"east-asian-clear-hot-humid-m35-day-street-20261105-05.zip-shoulder-bag": ["look/global/east-asian-clear-hot-humid-male-day-street-20261105/east-asian-clear-hot-humid-m35-day-street-20261105-05/products/zip-shoulder-bag.webp", 0.177]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1522,7 +1527,12 @@
 "east-asian-clear-hot-humid-f35-day-street-20261105-02": "east-asian-clear-hot-humid-f35-day-street-20261105-02.crew-neck-tee",
 "east-asian-clear-hot-humid-f35-day-street-20261105-03": "east-asian-clear-hot-humid-f35-day-street-20261105-03.sleeveless-collared-shirt",
 "east-asian-clear-hot-humid-f35-day-street-20261105-04": "east-asian-clear-hot-humid-f35-day-street-20261105-04.camp-collar-shirt",
-"east-asian-clear-hot-humid-f35-day-street-20261105-05": "east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag"
+"east-asian-clear-hot-humid-f35-day-street-20261105-05": "east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag",
+"east-asian-clear-hot-humid-m35-day-street-20261105-01": "east-asian-clear-hot-humid-m35-day-street-20261105-01.camp-shirt",
+"east-asian-clear-hot-humid-m35-day-street-20261105-02": "east-asian-clear-hot-humid-m35-day-street-20261105-02.knit-polo",
+"east-asian-clear-hot-humid-m35-day-street-20261105-03": "east-asian-clear-hot-humid-m35-day-street-20261105-03.open-toe-slides",
+"east-asian-clear-hot-humid-m35-day-street-20261105-04": "east-asian-clear-hot-humid-m35-day-street-20261105-04.camp-shirt",
+"east-asian-clear-hot-humid-m35-day-street-20261105-05": "east-asian-clear-hot-humid-m35-day-street-20261105-05.zip-shoulder-bag"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

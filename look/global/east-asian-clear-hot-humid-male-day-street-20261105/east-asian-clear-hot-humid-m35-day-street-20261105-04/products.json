@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-street-20261105-04",
+  "batchId": "east-asian-clear-hot-humid-male-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban streets with tiled apartment blocks, shop fronts, fruit stands, awnings, potted plants and parked scooters; hard direct sun with sharp shadows and a deep blue sky. No rain is depicted, and reflective paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "94f998c606d7fb4c65d30ecc07921ac0f8245ea8c14b8d9271d972fe9a1f6d1e",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-street-20261105-04",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-street-20261105-04.camp-shirt",
+  "scenePropsNotProducts": [
+    "fabric door curtain"
+  ],
+  "reconstructionNotice": "The pale fabric curtain at the shop door is part of the setting, not a product. The raised hand covers part of the cap, so the cap's far side is inferred. The camp shirt is the only top; the tote strap and raised arm hide parts of it, so its back and hidden side are conservatively reconstructed. The tote hangs against the hip, so its full shape is inferred. The trouser waist is partly hidden by the shirt. The watch is seen at an angle. Both sneakers are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T22:58:43.671751+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-4.jpg"
+    ],
+    "findings": [
+      "Producer reviewed the editorials and all thirty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props; apply the female bag correction in the same publication. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "SAGE BY THE CURTAIN",
+    "title": {
+      "ko": "커튼 옆의 세이지 셔츠",
+      "en": "Sage by the curtain",
+      "de": "Salbei am Vorhang"
+    },
+    "deck": {
+      "ko": "네이비 캡과 검은 와이드 팬츠.",
+      "en": "A navy cap over a loose black silhouette.",
+      "de": "Eine marineblaue Kappe zu einer weiten schwarzen Silhouette."
+    },
+    "intro": {
+      "ko": "출입구 커튼이 날리자 챙에 손을 올린다.",
+      "en": "He steadies the brim as the doorway curtain lifts.",
+      "de": "Als der Vorhang hochweht, hält er den Schirm der Kappe fest."
+    },
+    "body": {
+      "ko": "세이지 캠프 셔츠 아래 검은 바짓단이 길게 떨어진다. 아이보리 캔버스화가 발끝을 밝히고 검은 토트의 리벳이 빛을 받는다.",
+      "en": "A sage camp shirt sits over wide black trousers. Ivory canvas shoes brighten the hem and brass-colored rivets catch light on the tote.",
+      "de": "Das salbeifarbene Hemd fällt locker über die weite schwarze Hose. Helle Canvas-Schuhe setzen einen Akzent, die messingfarbenen Nieten des Shoppers fangen Licht ein."
+    },
+    "pull": {
+      "ko": "검은 밑단 아래 아이보리 앞코.",
+      "en": "Ivory toe caps below black hems.",
+      "de": "Helle Schuhspitzen unter schwarzen Säumen."
+    },
+    "pullQuoteEn": "Ivory toe caps below black hems.",
+    "tip": {
+      "ko": "와이드 팬츠의 밑단을 신발 앞코 위에 가볍게 얹으세요.",
+      "en": "Let the wide hems rest lightly over the toe caps.",
+      "de": "Die weiten Säume locker auf den Schuhspitzen aufliegen lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "camp-shirt",
+      "producerId": "04-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-04.camp-shirt",
+      "appCategory": "top",
+      "producerCategory": "shirt",
+      "name": {
+        "ko": "세이지 캠프 셔츠",
+        "en": "Sage camp shirt",
+        "de": "Salbeigrünes Camphemd"
+      },
+      "nameKo": "세이지 캠프 셔츠",
+      "description": {
+        "ko": "흰 단추가 달린 세이지색 반팔 셔츠.",
+        "en": "Sage short-sleeve shirt with white buttons.",
+        "de": "Salbeigrünes Kurzarmhemd mit weißen Knöpfen."
+      },
+      "howToWear": {
+        "ko": "목 쪽 단추 하나를 풀어 칼라를 여세요.",
+        "en": "Undo the top button to open the collar.",
+        "de": "Den obersten Knopf für einen offenen Kragen lösen."
+      },
+      "image": "products/camp-shirt.webp",
+      "sha256": "b2526d7e1279e12e5aa692b18f3d388369bfb1f22898ec599eb1115e89c29321",
+      "bytes": 48270,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; sage green short-sleeve camp shirt with white buttons",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-trousers",
+      "producerId": "04-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-04.wide-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "검정 와이드 팬츠",
+        "en": "Black wide trousers",
+        "de": "Weite schwarze Hose"
+      },
+      "nameKo": "검정 와이드 팬츠",
+      "description": {
+        "ko": "넓게 떨어지는 검정 바지.",
+        "en": "Black trousers with a wide leg.",
+        "de": "Schwarze Hose mit weitem Bein."
+      },
+      "howToWear": {
+        "ko": "밑단이 스니커즈 앞코를 덮지 않게 정리하세요.",
+        "en": "Keep the hems clear of the sneaker toes.",
+        "de": "Den Saum nicht über die Schuhspitzen fallen lassen."
+      },
+      "image": "products/wide-trousers.webp",
+      "sha256": "bb3dc3ed3eb4e9cae5012067dc5f4ec95fed56b72e21ec1cc816d86899935ae9",
+      "bytes": 24814,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black wide lightweight trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-low-tops",
+      "producerId": "04-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-04.canvas-low-tops",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "아이보리 캔버스 로우톱",
+        "en": "Ivory canvas low-tops",
+        "de": "Elfenbeinfarbene Canvas-Sneaker"
+      },
+      "nameKo": "아이보리 캔버스 로우톱",
+      "description": {
+        "ko": "아이보리 캔버스와 낮은 끈 여밈.",
+        "en": "Ivory canvas uppers with a low lace-up profile.",
+        "de": "Elfenbeinfarbenes Canvas mit niedriger Schnürung."
+      },
+      "howToWear": {
+        "ko": "검정 바지 아래 밝은 앞코를 드러내세요.",
+        "en": "Show the pale toes beneath black trousers.",
+        "de": "Die hellen Spitzen unter der schwarzen Hose zeigen."
+      },
+      "image": "products/canvas-low-tops.webp",
+      "sha256": "052b2e2308820a935178ac2411c44300d1c34abe3cbabb27c96d6067a449a835",
+      "bytes": 45150,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ivory low-top canvas lace-up sneakers, pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "plain-cap",
+      "producerId": "04-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-04.plain-cap",
+      "appCategory": "headwear",
+      "producerCategory": "cap",
+      "name": {
+        "ko": "무지 네이비 캡",
+        "en": "Plain navy cap",
+        "de": "Schlichte marineblaue Kappe"
+      },
+      "nameKo": "무지 네이비 캡",
+      "description": {
+        "ko": "장식 없이 챙이 달린 네이비 캡.",
+        "en": "Plain navy cap with a projecting brim.",
+        "de": "Schlichte marineblaue Kappe mit Schirm."
+      },
+      "howToWear": {
+        "ko": "세이지 셔츠 칼라와 간격이 생기도록 똑바로 쓰세요.",
+        "en": "Wear it level to leave space above the sage collar.",
+        "de": "Gerade tragen und Abstand zum salbeigrünen Kragen lassen."
+      },
+      "image": "products/plain-cap.webp",
+      "sha256": "d3bbe5fcb3d0d75bba23e490b7be2212ca55de4df6c57ac8b57ae59a43d8187f",
+      "bytes": 41254,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; plain navy cap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "open-top-tote",
+      "producerId": "04-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-04.open-top-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "검정 오픈 토트",
+        "en": "Black open-top tote",
+        "de": "Schwarze offene Tragetasche"
+      },
+      "nameKo": "검정 오픈 토트",
+      "description": {
+        "ko": "넓은 손잡이와 황동색 리벳이 달린 토트.",
+        "en": "Open tote with wide straps and brass-tone rivets.",
+        "de": "Offene Tasche mit breiten Henkeln und messingfarbenen Nieten."
+      },
+      "howToWear": {
+        "ko": "손잡이를 모아 손에 들면 리벳이 바깥으로 보입니다.",
+        "en": "Gather the handles in one hand with the rivets facing out.",
+        "de": "Die Henkel in einer Hand bündeln und die Nieten nach außen drehen."
+      },
+      "image": "products/open-top-tote.webp",
+      "sha256": "214b5631148ab286793d07e608b53f1b570794c8634f0d0f6f007c9e36244ba4",
+      "bytes": 25594,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black open-top tote with wide straps and brass rivets",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rectangular-strap-watch",
+      "producerId": "04-06",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-04.rectangular-strap-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "사각 은색 스트랩 시계",
+        "en": "Rectangular silver-tone strap watch",
+        "de": "Rechteckige silberfarbene Armbanduhr"
+      },
+      "nameKo": "사각 은색 스트랩 시계",
+      "description": {
+        "ko": "은색 사각 케이스와 검정 밴드.",
+        "en": "Rectangular silver-tone case with a black band.",
+        "de": "Rechteckiges silberfarbenes Gehäuse mit schwarzem Band."
+      },
+      "howToWear": {
+        "ko": "검정 토트와 밴드 색을 맞추세요.",
+        "en": "Repeat the black tote color in the watch band.",
+        "de": "Das Schwarz der Tasche im Uhrenband wiederholen."
+      },
+      "image": "products/rectangular-strap-watch.webp",
+      "sha256": "38ddeb46adcc8e86613ed74811e60f878323ecc2d0d9bf40e1130729d4ddc8b3",
+      "bytes": 22114,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; rectangular silver watch with black strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b212"
+}

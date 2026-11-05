@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-street-20261105-02",
+  "batchId": "east-asian-clear-hot-humid-male-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban streets with tiled apartment blocks, shop fronts, fruit stands, awnings, potted plants and parked scooters; hard direct sun with sharp shadows and a deep blue sky. No rain is depicted, and reflective paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "9534575b634b8588da9b82bf123cd79fedaae85e54a04a4c4fc6175202192928",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-street-20261105-02",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-street-20261105-02.knit-polo",
+  "scenePropsNotProducts": [
+    "receipt"
+  ],
+  "reconstructionNotice": "The flying receipt is a scene prop, not a product. The man reaches across his body, so the polo's far side and back are conservatively reconstructed. The tote hangs from the shoulder at an angle, so its back and handle layout are inferred. The trousers' waist sits under the polo hem and is inferred. The watch is seen at an angle. Both sneakers and both socks are visible and listed as one pair each. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T22:58:43.671751+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-2.jpg"
+    ],
+    "findings": [
+      "Producer reviewed the editorials and all thirty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props; apply the female bag correction in the same publication. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "CORAL POLO AND A FLYING RECEIPT",
+    "title": {
+      "ko": "코럴 폴로와 날아간 영수증",
+      "en": "Coral polo and a flying receipt",
+      "de": "Koralle und der fliegende Bon"
+    },
+    "deck": {
+      "ko": "성긴 니트와 넓은 차콜 바지의 대비.",
+      "en": "Open knit against wide charcoal trousers.",
+      "de": "Luftiger Strick zu weiten anthrazitfarbenen Hosen."
+    },
+    "intro": {
+      "ko": "가게 앞에서 영수증이 날리자 한 손을 뻗는다.",
+      "en": "He reaches as a receipt lifts outside the shop.",
+      "de": "Vor dem Laden greift er nach einem wegfliegenden Kassenzettel."
+    },
+    "body": {
+      "ko": "코럴 폴로의 니트 조직이 햇빛에 드러난다. 차콜 바지 아래 흰 양말과 캔버스화가 이어지고 네이비 토트가 어깨에 걸린다.",
+      "en": "Sunlight picks out the texture of the coral polo. White socks meet canvas sneakers under charcoal hems, with a navy tote over one shoulder.",
+      "de": "Die Sonne zeichnet die Struktur des Polos nach. Weiße Socken treffen unter den dunklen Säumen auf Canvas-Sneaker. Über der Schulter hängt ein marineblauer Shopper."
+    },
+    "pull": {
+      "ko": "어두운 바짓단 아래 흰 발목선.",
+      "en": "A white ankle line below charcoal.",
+      "de": "Eine weiße Linie unter Anthrazit."
+    },
+    "pullQuoteEn": "A white ankle line below charcoal.",
+    "tip": {
+      "ko": "폴로의 윗단추를 풀어 칼라가 자연스럽게 놓이게 하세요.",
+      "en": "Undo the top button to let the polo collar sit open.",
+      "de": "Den oberen Knopf öffnen, damit der Polokragen locker fällt."
+    }
+  },
+  "products": [
+    {
+      "id": "knit-polo",
+      "producerId": "02-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-02.knit-polo",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "코럴 니트 폴로",
+        "en": "Coral knit polo",
+        "de": "Korallfarbenes Strickpolo"
+      },
+      "nameKo": "코럴 니트 폴로",
+      "description": {
+        "ko": "표면 짜임이 보이는 반팔 칼라 니트.",
+        "en": "Short-sleeve collared knit with visible texture.",
+        "de": "Strickpolo mit kurzen Ärmeln und sichtbarer Struktur."
+      },
+      "howToWear": {
+        "ko": "넓은 차콜 바지 위에 밑단을 자연스럽게 두세요.",
+        "en": "Let the hem fall over the wide charcoal trousers.",
+        "de": "Den Saum locker über die weite anthrazitfarbene Hose fallen lassen."
+      },
+      "image": "products/knit-polo.webp",
+      "sha256": "5cc4aa5ad34e36c3ce7c9ced8e2ff3a73136867c6af639aede028dbe815cbd4a",
+      "bytes": 49962,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; coral textured short-sleeve knit polo",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-cropped-trousers",
+      "producerId": "02-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-02.wide-cropped-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "차콜 와이드 크롭 팬츠",
+        "en": "Charcoal wide cropped trousers",
+        "de": "Weite verkürzte Hose in Anthrazit"
+      },
+      "nameKo": "차콜 와이드 크롭 팬츠",
+      "description": {
+        "ko": "폭이 넓고 발목 위에서 끝나는 바지.",
+        "en": "Wide legs ending above the ankle.",
+        "de": "Weite Beine mit Saum oberhalb des Knöchels."
+      },
+      "howToWear": {
+        "ko": "흰 양말이 밑단 아래 보이게 입으세요.",
+        "en": "Let the white socks show below the hem.",
+        "de": "Weiße Socken unter dem Saum hervorblitzen lassen."
+      },
+      "image": "products/wide-cropped-trousers.webp",
+      "sha256": "5872813badc888be3aac4eae01c3ee4aef8a1b76beef2ac71d5ebfd439ba749b",
+      "bytes": 36076,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; charcoal wide cropped trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-low-tops",
+      "producerId": "02-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-02.canvas-low-tops",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "흰 캔버스 로우톱",
+        "en": "White canvas low-tops",
+        "de": "Weiße Canvas-Sneaker"
+      },
+      "nameKo": "흰 캔버스 로우톱",
+      "description": {
+        "ko": "흰 끈이 달린 낮은 캔버스 스니커즈 한 켤레.",
+        "en": "White low-cut canvas lace-ups.",
+        "de": "Weiße, niedrig geschnittene Canvas-Schnürschuhe."
+      },
+      "howToWear": {
+        "ko": "흰 양말과 이어 신어 신발 주변의 색을 맞추세요.",
+        "en": "Pair with white socks for a continuous line.",
+        "de": "Mit weißen Socken für einen durchgehenden Farbton kombinieren."
+      },
+      "image": "products/canvas-low-tops.webp",
+      "sha256": "e0d2fd4f1cdd1493ddadbd603f2199aa2cd860cdeb35d8f6c8ee834a3033b253",
+      "bytes": 48552,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; white low-top canvas lace-up sneakers, pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-crew-socks",
+      "producerId": "02-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-02.ribbed-crew-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "흰 리브 크루 삭스",
+        "en": "White ribbed crew socks",
+        "de": "Weiße gerippte Socken"
+      },
+      "nameKo": "흰 리브 크루 삭스",
+      "description": {
+        "ko": "발목 위로 올라오는 골지 양말 한 켤레.",
+        "en": "Ribbed socks that extend above the ankle.",
+        "de": "Gerippte Socken, die über den Knöchel reichen."
+      },
+      "howToWear": {
+        "ko": "입구를 접지 말고 골을 펴세요.",
+        "en": "Wear unfolded to show the ribs.",
+        "de": "Nicht umschlagen, damit die Rippen sichtbar bleiben."
+      },
+      "image": "products/ribbed-crew-socks.webp",
+      "sha256": "a06438aac110fc7163159f02827d9e3f8bccaf8ce57719c753fe462a4852a701",
+      "bytes": 41832,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; white ribbed crew socks, pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "front-pocket-tote",
+      "producerId": "02-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-02.front-pocket-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "네이비 앞포켓 토트",
+        "en": "Navy front-pocket tote",
+        "de": "Marineblaue Tasche mit Frontfach"
+      },
+      "nameKo": "네이비 앞포켓 토트",
+      "description": {
+        "ko": "은색 스냅이 달린 앞포켓의 네이비 캔버스 토트.",
+        "en": "Navy canvas tote with a silver-tone snap on the front pocket.",
+        "de": "Marineblaue Canvastasche mit silberfarbenem Druckknopf am Frontfach."
+      },
+      "howToWear": {
+        "ko": "앞포켓을 바깥으로 향하게 드세요.",
+        "en": "Carry it with the front pocket facing out.",
+        "de": "Mit dem Frontfach nach außen tragen."
+      },
+      "image": "products/front-pocket-tote.webp",
+      "sha256": "8ce33c32463b7b49c4e5b0f3ea2c237dce05ff8e78caa26e3920d34a6f1b7245",
+      "bytes": 32004,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy canvas tote with front pocket and silver snap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "bracelet-watch",
+      "producerId": "02-06",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-02.bracelet-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "은색 원형 메탈 시계",
+        "en": "Round silver-tone bracelet watch",
+        "de": "Runde silberfarbene Gliederbanduhr"
+      },
+      "nameKo": "은색 원형 메탈 시계",
+      "description": {
+        "ko": "원형 케이스와 은색 링크 밴드.",
+        "en": "Round case with a silver-tone link band.",
+        "de": "Rundes Gehäuse mit silberfarbenem Gliederband."
+      },
+      "howToWear": {
+        "ko": "폴로 소매와 손목 사이에 여백을 두세요.",
+        "en": "Leave space between the polo sleeve and the watch.",
+        "de": "Zwischen Poloärmel und Uhr etwas Abstand lassen."
+      },
+      "image": "products/bracelet-watch.webp",
+      "sha256": "2fcca8f911a4305b559a9c08bab8e4b7f0943eeb754335d7c530ebe4663dae90",
+      "bytes": 29064,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; round silver watch with metal bracelet",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b212"
+}

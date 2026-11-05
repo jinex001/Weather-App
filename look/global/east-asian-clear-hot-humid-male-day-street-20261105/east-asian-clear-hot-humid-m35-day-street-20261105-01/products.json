@@ -1,0 +1,416 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-street-20261105-01",
+  "batchId": "east-asian-clear-hot-humid-male-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban streets with tiled apartment blocks, shop fronts, fruit stands, awnings, potted plants and parked scooters; hard direct sun with sharp shadows and a deep blue sky. No rain is depicted, and reflective paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "cabc5362a086b6a2c2e04517eb070a146ac137bf24b30de40457c3bfebb50cf6",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-street-20261105-01",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-street-20261105-01.camp-shirt",
+  "scenePropsNotProducts": [
+    "falling lime",
+    "fruit stand"
+  ],
+  "reconstructionNotice": "The falling lime and the fruit stand are scene props and setting, not products. The shirt is worn open and shifted by the reach; the product shows it buttoned, a conservative catalog reconstruction, with its back inferred. The sling crosses the chest and hides part of the shirt and tank, so its strap layout and back are inferred. The tank's lower front and the shorts' waist are partly hidden. The watch and bracelet are seen at an angle. Both slides are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T22:58:43.671751+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-1.jpg"
+    ],
+    "findings": [
+      "Producer reviewed the editorials and all thirty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props; apply the female bag correction in the same publication. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "THE RUNAWAY LIME",
+    "title": {
+      "ko": "라임이 굴러간 순간",
+      "en": "The runaway lime",
+      "de": "Die rollende Limette"
+    },
+    "deck": {
+      "ko": "코발트와 스톤색으로 맞춘 한낮의 레이어.",
+      "en": "Cobalt and stone layers for midday.",
+      "de": "Kobaltblau und Steingrau für den Mittag."
+    },
+    "intro": {
+      "ko": "가판대에서 떨어진 라임을 향해 손을 뻗는다.",
+      "en": "He reaches for a lime falling from the fruit stand.",
+      "de": "Er greift nach einer Limette, die vom Obststand fällt."
+    },
+    "body": {
+      "ko": "흰 리브 탱크톱 위로 코발트 셔츠가 열리고 스톤색 쇼츠의 앞주름이 움직인다. 가로형 슬링백과 두 버클 샌들이 검은색을 반복한다.",
+      "en": "The cobalt shirt opens over a white ribbed tank as the pleats of the stone shorts shift. A horizontal sling and two-buckle slides repeat the black accents.",
+      "de": "Das kobaltblaue Hemd schwingt über dem weißen Rippentop auf. Die Falten der hellen Shorts bewegen sich mit. Schwarze Tasche und Pantoletten mit zwei Schnallen greifen einander farblich auf."
+    },
+    "pull": {
+      "ko": "열린 셔츠 사이의 흰 리브.",
+      "en": "White ribs between blue panels.",
+      "de": "Weiße Rippen zwischen blauen Hemdseiten."
+    },
+    "pullQuoteEn": "White ribs between blue panels.",
+    "tip": {
+      "ko": "가방을 허리 가까이 올려 지퍼에 손이 닿게 하세요.",
+      "en": "Set the sling near the waist so the zipper stays within reach.",
+      "de": "Die Tasche nah an der Taille tragen, damit der Reißverschluss gut erreichbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "camp-shirt",
+      "producerId": "01-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.camp-shirt",
+      "appCategory": "outer",
+      "producerCategory": "shirt",
+      "name": {
+        "ko": "코발트 캠프 셔츠",
+        "en": "Cobalt camp shirt",
+        "de": "Kobaltblaues Camphemd"
+      },
+      "nameKo": "코발트 캠프 셔츠",
+      "description": {
+        "ko": "흰 단추와 가슴 포켓이 있는 반팔 셔츠.",
+        "en": "Short sleeves, white buttons and a chest pocket.",
+        "de": "Kurze Ärmel, weiße Knöpfe und eine Brusttasche."
+      },
+      "howToWear": {
+        "ko": "흰 탱크 위에 열어 입으세요.",
+        "en": "Wear it open over the white tank.",
+        "de": "Offen über dem weißen Tanktop tragen."
+      },
+      "image": "products/camp-shirt.webp",
+      "sha256": "41f8c8456065b8efb593133b062c853d3c779dd8a79ad78f9fefd0c58c0cacb5",
+      "bytes": 34296,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; cobalt open short sleeve camp shirt, white buttons and chest pocket",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-tank",
+      "producerId": "01-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.ribbed-tank",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "흰 리브 탱크톱",
+        "en": "White ribbed tank",
+        "de": "Weißes Rippentop"
+      },
+      "nameKo": "흰 리브 탱크톱",
+      "description": {
+        "ko": "세로 골이 보이는 흰 민소매 상의.",
+        "en": "White sleeveless top with vertical ribs.",
+        "de": "Ärmelloses weißes Top mit Längsrippen."
+      },
+      "howToWear": {
+        "ko": "앞단을 쇼츠 안에 정리하세요.",
+        "en": "Tuck the front into the shorts.",
+        "de": "Vorne in die Shorts stecken."
+      },
+      "image": "products/ribbed-tank.webp",
+      "sha256": "6a5e67499efbe19b987562cb4bb513120d279a1ab19b04ed8accdbab13f3f1e0",
+      "bytes": 30132,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; white ribbed tank top",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pleated-shorts",
+      "producerId": "01-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.pleated-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "스톤색 주름 쇼츠",
+        "en": "Stone pleated shorts",
+        "de": "Steinfarbene Bundfaltenshorts"
+      },
+      "nameKo": "스톤색 주름 쇼츠",
+      "description": {
+        "ko": "무릎까지 내려오는 앞주름 쇼츠.",
+        "en": "Knee-length shorts with front pleats.",
+        "de": "Knielange Shorts mit Bundfalten."
+      },
+      "howToWear": {
+        "ko": "탱크톱을 넣어 앞주름을 드러내세요.",
+        "en": "Tuck in the tank to show the pleats.",
+        "de": "Das Top einstecken, damit die Falten sichtbar bleiben."
+      },
+      "image": "products/pleated-shorts.webp",
+      "sha256": "8e0fa19e085103b0cf209244c915ed5e9bf94e8a2696354486f80f136130ae0c",
+      "bytes": 46206,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; stone pleated knee-length shorts",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "two-buckle-slides",
+      "producerId": "01-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.two-buckle-slides",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 두 버클 슬라이드",
+        "en": "Black two-buckle slides",
+        "de": "Schwarze Pantoletten mit zwei Schnallen"
+      },
+      "nameKo": "검정 두 버클 슬라이드",
+      "description": {
+        "ko": "발등에 버클 두 개가 있는 검정 샌들 한 켤레.",
+        "en": "Black slides with two buckles across each instep.",
+        "de": "Schwarze Pantoletten mit je zwei Schnallen über dem Rist."
+      },
+      "howToWear": {
+        "ko": "무릎 길이 쇼츠에 맨발로 신으세요.",
+        "en": "Wear barefoot with knee-length shorts.",
+        "de": "Barfuß zu knielangen Shorts tragen."
+      },
+      "image": "products/two-buckle-slides.webp",
+      "sha256": "3637c2d5ba7ffa2985921c365fc77a4996e02be62bfa63ca132b99873d0172d3",
+      "bytes": 49074,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black two-buckle slide sandals, pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "horizontal-sling-bag",
+      "producerId": "01-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.horizontal-sling-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "검정 가로형 슬링백",
+        "en": "Black horizontal sling bag",
+        "de": "Schwarze querformatige Slingbag"
+      },
+      "nameKo": "검정 가로형 슬링백",
+      "description": {
+        "ko": "은색 앞지퍼와 넓은 검정 웨빙 스트랩.",
+        "en": "Silver front zip and a wide black webbing strap.",
+        "de": "Silberfarbener Frontreißverschluss und breiter schwarzer Gurt."
+      },
+      "howToWear": {
+        "ko": "앞지퍼가 손에 닿도록 허리 가까이 올리세요.",
+        "en": "Set it near the waist to reach the front zip.",
+        "de": "Hüfthoch tragen, damit der Frontreißverschluss erreichbar bleibt."
+      },
+      "image": "products/horizontal-sling-bag.webp",
+      "sha256": "87da011f99193032a2f43e761f8c304f906786756d179d878845e97aaaf80e58",
+      "bytes": 40164,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; horizontal black rectangular sling bag with silver front zipper and wide black webbing strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "black-strap-watch",
+      "producerId": "01-06",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.black-strap-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "검정 스트랩 시계",
+        "en": "Watch with black strap",
+        "de": "Uhr mit schwarzem Band"
+      },
+      "nameKo": "검정 스트랩 시계",
+      "description": {
+        "ko": "은색 케이스에 검정 스트랩을 단 시계.",
+        "en": "Silver-tone case with a black strap.",
+        "de": "Silberfarbenes Gehäuse mit schwarzem Band."
+      },
+      "howToWear": {
+        "ko": "셔츠 소매 아래 케이스가 보이게 두세요.",
+        "en": "Let the case show below the shirt sleeve.",
+        "de": "Das Gehäuse unter dem Hemdärmel sichtbar lassen."
+      },
+      "image": "products/black-strap-watch.webp",
+      "sha256": "465fbd002a3ee400e22bd41dd1638ce31f93338bfc8f41545253ea45d4bab7ca",
+      "bytes": 29550,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver case watch with black strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "chain-bracelet",
+      "producerId": "01-07",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-01.chain-bracelet",
+      "appCategory": "jewelry",
+      "producerCategory": "bracelet",
+      "name": {
+        "ko": "은색 체인 팔찌",
+        "en": "Silver-tone chain bracelet",
+        "de": "Silberfarbenes Kettenarmband"
+      },
+      "nameKo": "은색 체인 팔찌",
+      "description": {
+        "ko": "은색 고리가 이어진 손목 장식.",
+        "en": "Linked silver-tone bracelet.",
+        "de": "Armband aus silberfarbenen Gliedern."
+      },
+      "howToWear": {
+        "ko": "시계 반대쪽 손목에 차세요.",
+        "en": "Wear on the wrist opposite the watch.",
+        "de": "Am anderen Handgelenk als die Uhr tragen."
+      },
+      "image": "products/chain-bracelet.webp",
+      "sha256": "b1643ef3758cbcd48cf7908db8b8c6df4c4f1599f086ceac329af0d2af4d1499",
+      "bytes": 47352,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver chain bracelet",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b212"
+}

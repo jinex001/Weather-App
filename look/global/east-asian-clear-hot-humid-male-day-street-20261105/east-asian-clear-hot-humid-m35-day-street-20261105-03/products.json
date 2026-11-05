@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-street-20261105-03",
+  "batchId": "east-asian-clear-hot-humid-male-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban streets with tiled apartment blocks, shop fronts, fruit stands, awnings, potted plants and parked scooters; hard direct sun with sharp shadows and a deep blue sky. No rain is depicted, and reflective paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "dc2bd07efec8c50eff9a55c6a42641b08aca734bd5a2b129cbc0f3a7019127f5",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-street-20261105-03",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-street-20261105-03.open-toe-slides",
+  "scenePropsNotProducts": [
+    "paper bag"
+  ],
+  "reconstructionNotice": "The paper bag is a scene prop, not a product. The sleeveless knit polo's back and the jeans' hidden side are conservatively reconstructed. The crossbody sits at the hip with its strap across the chest, so its back and strap length are inferred. The watch dial is mostly hidden and is a conservative simple dial; the bracelet is seen at an angle. Both slides are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T22:58:43.671751+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-3.jpg"
+    ],
+    "findings": [
+      "Producer reviewed the editorials and all thirty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props; apply the female bag correction in the same publication. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "ONE STEP OFF THE CURB",
+    "title": {
+      "ko": "가게 턱을 내려오는 길",
+      "en": "One step off the curb",
+      "de": "Ein Schritt vom Absatz"
+    },
+    "deck": {
+      "ko": "아이보리 민소매와 워싱 데님의 여름 조합.",
+      "en": "An ivory sleeveless collar with faded denim.",
+      "de": "Elfenbeinfarbener Kragen und verwaschener Denim."
+    },
+    "intro": {
+      "ko": "종이봉투를 든 채 타일 턱에서 한 발을 내딛는다.",
+      "en": "Paper bag in hand, he steps off the tiled threshold.",
+      "de": "Mit einer Papiertüte in der Hand tritt er von der gefliesten Schwelle."
+    },
+    "body": {
+      "ko": "민소매 칼라가 어깨를 드러내고 넓은 크롭 진이 발목 위에서 끝난다. 갈색 플랩백과 오픈토 슬라이드가 색을 맞춘다.",
+      "en": "The sleeveless knit exposes the shoulders and cropped wide jeans leave the ankle free. Brown open slides echo the small flap bag.",
+      "de": "Der ärmellose Strick lässt die Schultern frei, die weite Jeans endet oberhalb der Knöchel. Braune Pantoletten greifen die Farbe der Klappentasche auf."
+    },
+    "pull": {
+      "ko": "워싱 데님 아래 드러난 발목.",
+      "en": "Bare ankles beneath washed denim.",
+      "de": "Freie Knöchel unter hellem Denim."
+    },
+    "pullQuoteEn": "Bare ankles beneath washed denim.",
+    "tip": {
+      "ko": "가방을 골반 높이에 맞춰 칼라와 허리선이 보이게 하세요.",
+      "en": "Set the crossbody at hip height so the collar and waistband remain visible.",
+      "de": "Die Tasche auf Hüfthöhe tragen, damit Kragen und Bund sichtbar bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "sleeveless-knit-polo",
+      "producerId": "03-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-03.sleeveless-knit-polo",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "아이보리 민소매 니트 폴로",
+        "en": "Ivory sleeveless knit polo",
+        "de": "Ärmelloses Strickpolo in Elfenbein"
+      },
+      "nameKo": "아이보리 민소매 니트 폴로",
+      "description": {
+        "ko": "칼라와 표면 짜임이 있는 아이보리 민소매 상의.",
+        "en": "Ivory sleeveless top with a collar and textured knit.",
+        "de": "Ärmelloses Top in Elfenbein mit Kragen und Strickstruktur."
+      },
+      "howToWear": {
+        "ko": "연청 바지 앞쪽에 밑단을 살짝 넣으세요.",
+        "en": "Tuck a small section into the faded jeans.",
+        "de": "Den Saum vorne ein Stück in die ausgewaschene Jeans stecken."
+      },
+      "image": "products/sleeveless-knit-polo.webp",
+      "sha256": "7f99f42bc2784b30d328bbecde74aa6cc2a1877ab0800198be5a0bbc4f80d470",
+      "bytes": 44524,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ivory sleeveless textured knit polo",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "faded-cropped-jeans",
+      "producerId": "03-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-03.faded-cropped-jeans",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "워싱 연청 크롭 진",
+        "en": "Faded blue cropped jeans",
+        "de": "Verkürzte ausgewaschene Bluejeans"
+      },
+      "nameKo": "워싱 연청 크롭 진",
+      "description": {
+        "ko": "여유 있는 폭과 짧은 밑단의 워싱 데님.",
+        "en": "Faded denim with loose legs and cropped hems.",
+        "de": "Ausgewaschener Denim mit lockeren Beinen und kurzem Saum."
+      },
+      "howToWear": {
+        "ko": "갈색 슬라이드 위로 발목이 보이게 두세요.",
+        "en": "Keep the ankle visible above the brown slides.",
+        "de": "Den Knöchel über den braunen Pantoletten sichtbar lassen."
+      },
+      "image": "products/faded-cropped-jeans.webp",
+      "sha256": "4a4af5a79b99fb67bf670382aca68b7d0b634daad09a5363411579442154761e",
+      "bytes": 49202,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; loose faded blue cropped jeans",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "open-toe-slides",
+      "producerId": "03-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-03.open-toe-slides",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "갈색 오픈토 슬라이드",
+        "en": "Brown open-toe slides",
+        "de": "Braune Pantoletten mit offener Spitze"
+      },
+      "nameKo": "갈색 오픈토 슬라이드",
+      "description": {
+        "ko": "앞이 열린 갈색 슬라이드 한 켤레.",
+        "en": "Brown slip-on sandals with open toes.",
+        "de": "Braune Schlupfsandalen mit offener Spitze."
+      },
+      "howToWear": {
+        "ko": "연청과 매치하고 가방으로 갈색을 반복하세요.",
+        "en": "Pair with faded jeans and repeat the brown in the bag.",
+        "de": "Zur ausgewaschenen Jeans tragen und Braun bei der Tasche wiederholen."
+      },
+      "image": "products/open-toe-slides.webp",
+      "sha256": "b755571aa772fb4cdbc2e7bf9ec9025b623f32d168e763d3c481867b779675ed",
+      "bytes": 49690,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; brown open-toe leather slides, pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "flap-crossbody",
+      "producerId": "03-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-03.flap-crossbody",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "갈색 플랩 크로스백",
+        "en": "Brown flap crossbody",
+        "de": "Braune Umhängetasche mit Klappe"
+      },
+      "nameKo": "갈색 플랩 크로스백",
+      "description": {
+        "ko": "황동색 잠금장치가 달린 작은 직사각형 가방.",
+        "en": "Small rectangular bag with a flap and brass-tone clasp.",
+        "de": "Kleine rechteckige Tasche mit Klappe und messingfarbenem Verschluss."
+      },
+      "howToWear": {
+        "ko": "잠금장치가 가려지지 않도록 옆구리에 두세요.",
+        "en": "Set it at your side with the clasp exposed.",
+        "de": "Seitlich tragen, damit der Verschluss sichtbar bleibt."
+      },
+      "image": "products/flap-crossbody.webp",
+      "sha256": "f56e44b80ee132c72e40ce436500bc9680a73f6286526b3b466890c965014c15",
+      "bytes": 46734,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small brown rectangular flap crossbody with brass clasp",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "link-watch",
+      "producerId": "03-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-03.link-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "은색 링크 시계",
+        "en": "Silver-tone link watch",
+        "de": "Silberfarbene Uhr mit Gliederband"
+      },
+      "nameKo": "은색 링크 시계",
+      "description": {
+        "ko": "은색 링크 밴드와 단순하게 복원한 다이얼.",
+        "en": "Silver-tone links and a conservatively reconstructed dial.",
+        "de": "Silberfarbene Glieder und zurückhaltend ergänztes Zifferblatt."
+      },
+      "howToWear": {
+        "ko": "민소매 니트에 단독으로 차도 손목이 깔끔합니다.",
+        "en": "Wear it alone at the wrist with the sleeveless knit.",
+        "de": "Zum ärmellosen Stricktop allein am Handgelenk tragen."
+      },
+      "image": "products/link-watch.webp",
+      "sha256": "bf27c3fcb0b908850bd27529454cc0781b6714cc97a10ccd0f396b55370f90fb",
+      "bytes": 27526,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver metal bracelet watch, face mostly hidden, conservative simple dial",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "link-bracelet",
+      "producerId": "03-06",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-street-20261105-03.link-bracelet",
+      "appCategory": "jewelry",
+      "producerCategory": "bracelet",
+      "name": {
+        "ko": "은색 링크 팔찌",
+        "en": "Silver-tone link bracelet",
+        "de": "Silberfarbenes Gliederarmband"
+      },
+      "nameKo": "은색 링크 팔찌",
+      "description": {
+        "ko": "은색 링크가 이어진 팔찌.",
+        "en": "Bracelet made of linked silver-tone pieces.",
+        "de": "Armband aus verbundenen silberfarbenen Gliedern."
+      },
+      "howToWear": {
+        "ko": "갈색 가방을 드는 쪽 손목에 차세요.",
+        "en": "Wear it on the wrist beside the brown bag.",
+        "de": "Am Handgelenk auf der Seite der braunen Tasche tragen."
+      },
+      "image": "products/link-bracelet.webp",
+      "sha256": "5cf69a84223a6d11e3916b6679c535a6d2c00c46f1ecabc8497d73df32f12726",
+      "bytes": 48778,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver chain bracelet",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b212"
+}
