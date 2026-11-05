@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-street-20261105-02",
+  "batchId": "east-asian-clear-hot-humid-female-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban shopping streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted, and a small damp patch on the paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d7dacc991b1a42e5aa5a51fa9649207064a2d708e97783cc516847f2c9b1634f",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-street-20261105-02",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-street-20261105-02.crew-neck-tee",
+  "scenePropsNotProducts": [
+    "receipt"
+  ],
+  "reconstructionNotice": "The receipt stuck to the raised sole is a scene prop, not a product. The woman bends and raises one foot, so the tee's back, the skirt's hidden side and the full length of its slit are conservatively reconstructed. The navy tote is seen from the side and partly hidden by the arm; its front and second handle are inferred. The watch is seen at an angle, with its hidden strap inferred. Both sneakers and both socks are visible and listed as one pair each. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T09:43:58.597006+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "All five overview sheets reviewed. Blue shirt shows no visible stray edge flecks in the final composites."
+    ]
+  },
+  "copy": {
+    "titleEn": "CORAL AT NOON",
+    "title": {
+      "ko": "코럴과 차콜의 한낮",
+      "en": "Coral at noon",
+      "de": "Koralle am Mittag"
+    },
+    "deck": {
+      "ko": "밝은 티셔츠와 옆 트임 미디스커트.",
+      "en": "A bright tee over a charcoal midi skirt with a side slit.",
+      "de": "Ein leuchtendes Shirt über einem anthrazitfarbenen Midirock mit Schlitz."
+    },
+    "intro": {
+      "ko": "영수증을 향해 손을 뻗는 순간 스커트 트임이 걸음을 따라 열린다.",
+      "en": "She reaches for a receipt as the slit opens with her step.",
+      "de": "Beim Griff nach dem Kassenzettel öffnet sich der Schlitz mit dem Schritt."
+    },
+    "body": {
+      "ko": "코럴 티셔츠가 차콜의 무게를 덜고, 흰 캔버스와 양말이 발목에 밝은 선을 만든다. 네이비 토트와 사각 시계가 색의 대비를 정돈한다.",
+      "en": "Coral lifts the charcoal skirt and white canvas sneakers repeat the pale line of the socks. A navy tote and a rectangular watch add two darker accents.",
+      "de": "Koralle hellt den dunklen Rock auf. Weiße Canvas-Sneaker greifen die Farbe der Socken auf, während ein marineblauer Shopper und eine rechteckige Uhr dunkle Akzente setzen."
+    },
+    "pull": {
+      "ko": "흰 발목선으로 마무리한 차콜.",
+      "en": "A white ankle line below charcoal.",
+      "de": "Eine weiße Linie unter dem dunklen Rock."
+    },
+    "pullQuoteEn": "A white ankle line below charcoal.",
+    "tip": {
+      "ko": "티셔츠 앞단만 넣어 허리선을 드러내세요.",
+      "en": "Tuck just the front of the tee to define the waist.",
+      "de": "Das Shirt nur vorn einstecken, um die Taille zu betonen."
+    }
+  },
+  "products": [
+    {
+      "id": "crew-neck-tee",
+      "producerId": "02-01-top",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-02.crew-neck-tee",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "코럴 크루넥 티셔츠",
+        "en": "Coral crew neck tee",
+        "de": "Korallfarbenes Rundhalsshirt"
+      },
+      "nameKo": "코럴 크루넥 티셔츠",
+      "description": {
+        "ko": "둥근 목선과 반소매, 곧은 밑단의 코럴 티셔츠.",
+        "en": "Coral tee with a round neckline, short sleeves and a straight hem.",
+        "de": "Korallfarbenes Shirt mit Rundhals, kurzen Ärmeln und geradem Saum."
+      },
+      "howToWear": {
+        "ko": "앞 밑단만 스커트에 넣어 허리선을 살리세요.",
+        "en": "Tuck just the front into the skirt to define the waist.",
+        "de": "Nur vorn in den Rock stecken, um die Taille zu betonen."
+      },
+      "image": "products/crew-neck-tee.webp",
+      "sha256": "c10db8862b85f338a7d9339ec4f76897484e08fa1545a0818d48778f404514a3",
+      "bytes": 44418,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; muted coral plain short-sleeve crewneck tee, relaxed body and straight hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "slit-midi-skirt",
+      "producerId": "02-02-bottom",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-02.slit-midi-skirt",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "차콜 슬릿 미디스커트",
+        "en": "Charcoal slit midi skirt",
+        "de": "Anthrazitfarbener Midirock mit Schlitz"
+      },
+      "nameKo": "차콜 슬릿 미디스커트",
+      "description": {
+        "ko": "곧게 떨어지는 차콜 미디스커트에 옆 트임이 있습니다.",
+        "en": "Straight charcoal midi skirt with a slit at the side.",
+        "de": "Gerader anthrazitfarbener Midirock mit Seitenschlitz."
+      },
+      "howToWear": {
+        "ko": "낮은 스니커즈를 신어 트임 아래 다리선을 드러내세요.",
+        "en": "Wear low sneakers to leave space below the slit.",
+        "de": "Flache Sneaker tragen, damit unter dem Schlitz Bein sichtbar bleibt."
+      },
+      "image": "products/slit-midi-skirt.webp",
+      "sha256": "eeb247f1400e42e332f1ee3b5d30170004cd24fe90b0a087690898eaa6d28ac8",
+      "bytes": 36592,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; charcoal straight midi skirt, plain waistband and side slit, conservative hidden front",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-sneakers",
+      "producerId": "02-03-shoes",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-02.canvas-sneakers",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 캔버스 스니커즈",
+        "en": "White canvas sneakers",
+        "de": "Weiße Canvas-Sneaker"
+      },
+      "nameKo": "화이트 캔버스 스니커즈",
+      "description": {
+        "ko": "흰 끈과 둥근 고무 앞코, 검정 줄이 들어간 밑창.",
+        "en": "White laces, rounded rubber toe caps and a black line around the sole.",
+        "de": "Weiße Schnürsenkel, runde Gummikappen und eine schwarze Linie an der Sohle."
+      },
+      "howToWear": {
+        "ko": "흰 끈을 짧게 묶어 스커트 아래 신발선을 정돈하세요.",
+        "en": "Tie short lace loops for a clean line below the skirt.",
+        "de": "Die Schleifen kurz binden, damit die Schuhe unter dem Rock ruhig wirken."
+      },
+      "image": "products/canvas-sneakers.webp",
+      "sha256": "56116d0e452b9653055dc419b06da2c04c0174223a1e55f762f30c2a08bbd4cb",
+      "bytes": 42828,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair white low canvas sneakers, white laces rubber toe caps and thin dark stripe around ivory rubber soles, no logos",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "02-04-socks",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-02.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "화이트 앵클 삭스",
+        "en": "White ankle socks",
+        "de": "Weiße Knöchelsocken"
+      },
+      "nameKo": "화이트 앵클 삭스",
+      "description": {
+        "ko": "매끈한 발등과 도톰한 리브 입구의 흰 양말 한 켤레.",
+        "en": "White socks with smooth insteps and substantial ribbed cuffs.",
+        "de": "Weiße Socken mit glattem Spann und kräftigem Rippbündchen."
+      },
+      "howToWear": {
+        "ko": "스니커즈 위로 흰 리브가 조금만 보이게 신으세요.",
+        "en": "Show just a little ribbing above the sneakers.",
+        "de": "Über den Sneakern nur etwas vom Rippbündchen zeigen."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "b508e063f515309d91225465b60ad14471f6b161902b5a020364df109da222b8",
+      "bytes": 41346,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair white ribbed ankle socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "double-handle-tote",
+      "producerId": "02-05-bag",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-02.double-handle-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "네이비 더블 핸들 토트",
+        "en": "Navy double handle tote",
+        "de": "Marineblauer Shopper mit zwei Henkeln"
+      },
+      "nameKo": "네이비 더블 핸들 토트",
+      "description": {
+        "ko": "넓은 사각 몸체와 길게 이어진 두 손잡이의 네이비 토트.",
+        "en": "Navy tote with a broad rectangular body and two long handles.",
+        "de": "Marineblauer Shopper mit breitem rechteckigem Korpus und zwei langen Henkeln."
+      },
+      "howToWear": {
+        "ko": "어깨에 걸어 코럴 티셔츠와 가방의 색 대비를 살리세요.",
+        "en": "Carry it on the shoulder to set navy against the coral tee.",
+        "de": "Über der Schulter tragen, damit Marineblau und Koralle direkt aufeinandertreffen."
+      },
+      "image": "products/double-handle-tote.webp",
+      "sha256": "f0c42f1c0879217cd352a25930272b90c8d69cca50d002a7844e165d2993793e",
+      "bytes": 29342,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy canvas shoulder tote, rectangular open body and two long broad handles, plain unbranded",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rectangular-watch",
+      "producerId": "02-06-watch",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-02.rectangular-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "사각 실버 톤 시계",
+        "en": "Rectangular silver-tone watch",
+        "de": "Rechteckige silberfarbene Uhr"
+      },
+      "nameKo": "사각 실버 톤 시계",
+      "description": {
+        "ko": "은색 직사각 케이스와 어두운 다이얼, 검정 스트랩의 시계.",
+        "en": "Rectangular silver-tone case, dark dial and black strap.",
+        "de": "Rechteckiges silberfarbenes Gehäuse, dunkles Zifferblatt und schwarzes Band."
+      },
+      "howToWear": {
+        "ko": "반소매 아래 손목에 단독으로 차세요.",
+        "en": "Wear it alone on the wrist below the short sleeve.",
+        "de": "Unter dem kurzen Ärmel allein am Handgelenk tragen."
+      },
+      "image": "products/rectangular-watch.webp",
+      "sha256": "2ba3fdd0cb943c4abb0aa12e895b0d62cf3462ee70f6013a7c104886affae40f",
+      "bytes": 21554,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small rectangular silver-tone case watch with dark face and black strap, actual square watch",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b211"
+}

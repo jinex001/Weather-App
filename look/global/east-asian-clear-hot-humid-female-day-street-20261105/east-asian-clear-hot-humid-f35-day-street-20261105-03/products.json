@@ -1,0 +1,333 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-street-20261105-03",
+  "batchId": "east-asian-clear-hot-humid-female-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban shopping streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted, and a small damp patch on the paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7d179912c9fd7ee0bdc33fa0203b67f524a4488855524ba84889f87ea3561ca8",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-street-20261105-03",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-street-20261105-03.sleeveless-collared-shirt",
+  "scenePropsNotProducts": [
+    "paper bag"
+  ],
+  "reconstructionNotice": "The paper bag is a scene prop, not a product. It and the raised arm hide part of the sleeveless shirt front, and that front and the back are conservatively reconstructed. The jeans waist sits under the shirt hem and is inferred. The brown flap bag is seen from behind the arm, so its front is partly inferred. One earring is visible, and the pair is inferred from it. Both slides are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T09:43:58.597006+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "All five overview sheets reviewed. Blue shirt shows no visible stray edge flecks in the final composites."
+    ]
+  },
+  "copy": {
+    "titleEn": "ECRU AND BROWN ON A SHORT WALK",
+    "title": {
+      "ko": "에크루와 갈색의 짧은 산책",
+      "en": "Ecru and brown on a short walk",
+      "de": "Ein kurzer Weg in Ecru und Braun"
+    },
+    "deck": {
+      "ko": "민소매 칼라와 크롭 진, 발등이 열린 슬라이드.",
+      "en": "A sleeveless collar, cropped denim and open slides.",
+      "de": "Ärmellose Bluse, verkürzte Jeans und offene Pantoletten."
+    },
+    "intro": {
+      "ko": "종이봉투를 든 손이 움직일 때 민소매 셔츠의 곡선 밑단이 드러난다.",
+      "en": "The curved shirt hem comes into view as she shifts a paper bag.",
+      "de": "Beim Umgreifen der Papiertüte wird der gerundete Blusensaum sichtbar."
+    },
+    "body": {
+      "ko": "에크루 칼라는 파란 진의 워싱을 밝히고, 갈색 슬라이드와 둥근 플랩백이 같은 온도를 더한다. 금색 링은 목선 위에 작은 빛을 남긴다.",
+      "en": "The ecru collar brightens mid-blue denim. Brown cutout slides echo the rounded flap bag, and gold-tone hoops catch the light above the collar.",
+      "de": "Der Ecrukragen hellt das mittlere Jeansblau auf. Braune Pantoletten greifen die Farbe der runden Klappentasche auf, goldfarbene Creolen fangen über dem Kragen Licht ein."
+    },
+    "pull": {
+      "ko": "에크루 칼라 위의 금색 곡선.",
+      "en": "Gold curves above an ecru collar.",
+      "de": "Goldfarbene Bögen über Ecru."
+    },
+    "pullQuoteEn": "Gold curves above an ecru collar.",
+    "tip": {
+      "ko": "진 밑단을 접지 않아 발목과 슬라이드 사이에 간격을 두세요.",
+      "en": "Leave the jean hems uncuffed to show the ankle above the slides.",
+      "de": "Die Jeans ungekrempelt lassen, damit über den Pantoletten der Knöchel sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "sleeveless-collared-shirt",
+      "producerId": "03-01-top",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-03.sleeveless-collared-shirt",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "에크루 민소매 칼라 셔츠",
+        "en": "Ecru sleeveless collared shirt",
+        "de": "Ärmellose Bluse in Ecru"
+      },
+      "nameKo": "에크루 민소매 칼라 셔츠",
+      "description": {
+        "ko": "밝은 에크루에 뾰족한 칼라와 작은 단추, 둥근 밑단을 더한 민소매 셔츠.",
+        "en": "Ecru sleeveless shirt with a pointed collar, small buttons and a curved hem.",
+        "de": "Ärmellose Bluse in Ecru mit spitzem Kragen, kleinen Knöpfen und rundem Saum."
+      },
+      "howToWear": {
+        "ko": "윗단추 하나를 풀어 목선을 가볍게 여세요.",
+        "en": "Open the top button for a relaxed neckline.",
+        "de": "Den obersten Knopf für einen lockeren Ausschnitt öffnen."
+      },
+      "image": "products/sleeveless-collared-shirt.webp",
+      "sha256": "1b37d1be2876198f123d21aaaca5ce99149e1bf6704bf1db437ef3dc624fdcdb",
+      "bytes": 43232,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ecru sleeveless collared button-front blouse, pointed collar, pale buttons, curved hem, lightweight textured fabric",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-straight-jeans",
+      "producerId": "03-02-bottom",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-03.cropped-straight-jeans",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "블루 크롭 스트레이트 진",
+        "en": "Blue cropped straight jeans",
+        "de": "Verkürzte gerade Jeans in Blau"
+      },
+      "nameKo": "블루 크롭 스트레이트 진",
+      "description": {
+        "ko": "중간 파랑 워싱과 곧은 통, 발목이 드러나는 밑단의 진.",
+        "en": "Mid-blue jeans with a straight leg and a hem that leaves the ankle visible.",
+        "de": "Mittelblaue Jeans mit geradem Bein und knöchelfreiem Saum."
+      },
+      "howToWear": {
+        "ko": "밑단을 접지 않고 슬라이드 위 발목을 드러내세요.",
+        "en": "Leave the hems uncuffed above the slides.",
+        "de": "Die Säume über den Pantoletten glatt und ungekrempelt lassen."
+      },
+      "image": "products/cropped-straight-jeans.webp",
+      "sha256": "73bd3e7dce9e59673723d67c0abf20f8e7a9189a49542f6fa2410d1662969c50",
+      "bytes": 47356,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; blue loose straight jeans cropped above ankle, midwash denim, front pockets and belt loops",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cutout-slides",
+      "producerId": "03-03-shoes",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-03.cutout-slides",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "브라운 컷아웃 슬라이드",
+        "en": "Brown cutout slides",
+        "de": "Braune Pantoletten mit Aussparungen"
+      },
+      "nameKo": "브라운 컷아웃 슬라이드",
+      "description": {
+        "ko": "넓은 컷아웃 발등 스트랩과 낮은 굽, 열린 앞코의 갈색 슬라이드.",
+        "en": "Brown slides with wide cutout straps, low heels and open toes.",
+        "de": "Braune Pantoletten mit breiten Riemen mit Aussparungen, flachem Absatz und offener Spitze."
+      },
+      "howToWear": {
+        "ko": "발등의 컷아웃이 보이도록 크롭 진과 매치하세요.",
+        "en": "Pair with cropped jeans to keep the cutout straps visible.",
+        "de": "Zu verkürzten Jeans tragen, damit die Aussparungen sichtbar bleiben."
+      },
+      "image": "products/cutout-slides.webp",
+      "sha256": "f5db5944f5fddaddcb1bfd2753c5dd0f7bd3346fc907653ee2a492e294787334",
+      "bytes": 31514,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair brown flat slide sandals, broad interwoven H-like geometric straps, open toe, low brown sole, no logo",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rounded-flap-bag",
+      "producerId": "03-04-bag",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-03.rounded-flap-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "브라운 라운드 플랩백",
+        "en": "Brown rounded flap bag",
+        "de": "Braune Tasche mit runder Klappe"
+      },
+      "nameKo": "브라운 라운드 플랩백",
+      "description": {
+        "ko": "곡선형 플랩과 대비 봉제선, 금색 버클이 달린 갈색 가방.",
+        "en": "Brown bag with a curved flap, contrast stitching and a gold-tone buckle.",
+        "de": "Braune Tasche mit geschwungener Klappe, Kontrastnähten und goldfarbener Schnalle."
+      },
+      "howToWear": {
+        "ko": "몸 옆에 걸쳐 밝은 셔츠 앞판을 비워 두세요.",
+        "en": "Carry it at your side to keep the pale shirt front clear.",
+        "de": "Seitlich tragen, damit die helle Blusenfront frei bleibt."
+      },
+      "image": "products/rounded-flap-bag.webp",
+      "sha256": "2e62a33373a3b2ccf93f81ab919f646d0f438e46fb111b8573d9c8fa7c11e64d",
+      "bytes": 34696,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small brown rounded saddle shoulder bag, rounded flap, adjustable strap and brass-tone rectangular hardware",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rounded-hoops",
+      "producerId": "03-05-earrings",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-03.rounded-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "골드 톤 볼륨 링 귀걸이",
+        "en": "Rounded gold-tone hoops",
+        "de": "Runde goldfarbene Creolen"
+      },
+      "nameKo": "골드 톤 볼륨 링 귀걸이",
+      "description": {
+        "ko": "아래로 갈수록 두꺼워지는 금색 링과 얇은 힌지 잠금.",
+        "en": "Gold-tone hoops that thicken toward the bottom, with slim hinged closures.",
+        "de": "Goldfarbene Creolen mit kräftigerem unterem Bogen und schmalen Scharnier­verschlüssen."
+      },
+      "howToWear": {
+        "ko": "머리를 묶어 에크루 칼라 위에 금색 곡선을 드러내세요.",
+        "en": "Tie your hair back to show the gold curves above the ecru collar.",
+        "de": "Die Haare zusammenbinden, damit die goldfarbenen Bögen über dem Kragen sichtbar sind."
+      },
+      "image": "products/rounded-hoops.webp",
+      "sha256": "763796c6fd4336885e803817ce1f6bfd9034ab6ca1fe20ae20b665d74e06f3e9",
+      "bytes": 29686,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair small gold-tone rounded hoop earrings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b211"
+}

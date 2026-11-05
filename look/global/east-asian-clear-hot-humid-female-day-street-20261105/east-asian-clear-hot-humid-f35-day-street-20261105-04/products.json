@@ -1,0 +1,415 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-street-20261105-04",
+  "batchId": "east-asian-clear-hot-humid-female-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban shopping streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted, and a small damp patch on the paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "aeaa53179a451a83dbcc05756f8deb1833809b317472c440c7622529f46bf86d",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-street-20261105-04",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-street-20261105-04.camp-collar-shirt",
+  "scenePropsNotProducts": [
+    "fabric door curtain"
+  ],
+  "reconstructionNotice": "The pale fabric curtain at the shop door is part of the setting, not a product. The raised hand covers part of the cap's brim, and the cap's far side is inferred. The camp-collar shirt is the only top; the bag strap and raised arm hide parts of it, so its back and hidden side are conservatively reconstructed. The soft tote is folded against the hip, and its full shape is inferred. The trouser waist is partly hidden by the shirt, and the socks show only above the sneakers. One earring is visible, and the pair is inferred from it. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T09:43:58.597006+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "All five overview sheets reviewed. Blue shirt shows no visible stray edge flecks in the final composites."
+    ]
+  },
+  "copy": {
+    "titleEn": "SAGE AND A WIDE BLACK LEG",
+    "title": {
+      "ko": "세이지 셔츠와 검정 와이드 팬츠",
+      "en": "Sage and a wide black leg",
+      "de": "Salbei zur weiten schwarzen Hose"
+    },
+    "deck": {
+      "ko": "캠프 칼라와 가벼운 여름 실루엣.",
+      "en": "An open camp collar and an easy summer silhouette.",
+      "de": "Ein offener Reverskragen und eine lockere Sommerform."
+    },
+    "intro": {
+      "ko": "커튼 옆에서 몸을 틀 때 넓은 바짓단이 따라 움직인다.",
+      "en": "The trouser legs follow her turn beside the curtain.",
+      "de": "Die weiten Hosenbeine folgen der Drehung neben dem Vorhang."
+    },
+    "body": {
+      "ko": "세이지 셔츠와 검정 팬츠는 부드러운 대비를 만들고 아이보리 스니커즈가 발끝을 밝힌다. 네이비 캡과 가는 은색 링이 얼굴 주변을 정리한다.",
+      "en": "Sage and black make a soft contrast, and ivory canvas toes brighten the hem. A navy cap and slim silver-tone hoops frame the face.",
+      "de": "Salbeigrün und Schwarz bilden einen weichen Kontrast. Elfenbeinfarbene Schuhspitzen hellen den Saum auf, Kappe und schmale Creolen rahmen das Gesicht."
+    },
+    "pull": {
+      "ko": "넓은 밑단 아래 밝은 앞코.",
+      "en": "Pale toe caps under wide black hems.",
+      "de": "Helle Schuhspitzen unter weiten Säumen."
+    },
+    "pullQuoteEn": "Pale toe caps under wide black hems.",
+    "tip": {
+      "ko": "바지가 움직일 때 두 양말의 높이가 같게 맞추세요.",
+      "en": "Match the sock heights so they show evenly as the trousers move.",
+      "de": "Beide Socken auf die gleiche Höhe ziehen, damit sie beim Gehen gleichmäßig sichtbar werden."
+    }
+  },
+  "products": [
+    {
+      "id": "camp-collar-shirt",
+      "producerId": "04-01-shirt",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.camp-collar-shirt",
+      "appCategory": "top",
+      "producerCategory": "shirt",
+      "name": {
+        "ko": "세이지 캠프 칼라 셔츠",
+        "en": "Sage camp collar shirt",
+        "de": "Salbeigrünes Hemd mit Reverskragen"
+      },
+      "nameKo": "세이지 캠프 칼라 셔츠",
+      "description": {
+        "ko": "열린 칼라와 가슴 포켓이 있는 세이지색 반팔 셔츠.",
+        "en": "Sage short sleeve shirt with an open collar and chest pocket.",
+        "de": "Salbeigrünes Kurzarmhemd mit offenem Reverskragen und Brusttasche."
+      },
+      "howToWear": {
+        "ko": "윗단추를 열어 목 주변에 여유를 두세요.",
+        "en": "Leave the top button open for room at the neck.",
+        "de": "Den obersten Knopf für mehr Platz am Hals offen lassen."
+      },
+      "image": "products/camp-collar-shirt.webp",
+      "sha256": "7344f1291957a7d70e63cc042442dbcfd14d3fe791706e705f531bc424699720",
+      "bytes": 47070,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; sage loose short-sleeve camp-collar shirt with notched open collar, front buttons, chest patch pocket, curved hem; no inner shirt",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "drawstring-wide-trousers",
+      "producerId": "04-02-bottom",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.drawstring-wide-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "블랙 드로스트링 와이드 팬츠",
+        "en": "Black wide leg drawstring trousers",
+        "de": "Weite schwarze Hose mit Tunnelzug"
+      },
+      "nameKo": "블랙 드로스트링 와이드 팬츠",
+      "description": {
+        "ko": "끈으로 조이는 허리와 넓은 바짓단의 검정 팬츠.",
+        "en": "Black trousers with a drawstring waist and wide hems.",
+        "de": "Schwarze Hose mit Tunnelzugbund und weiten Säumen."
+      },
+      "howToWear": {
+        "ko": "허리끈을 짧게 묶어 셔츠 아래로 길게 늘어지지 않게 하세요.",
+        "en": "Tie the drawstring in a short bow under the shirt.",
+        "de": "Die Kordel unter dem Hemd zu einer kurzen Schleife binden."
+      },
+      "image": "products/drawstring-wide-trousers.webp",
+      "sha256": "178b882ee608dc75fd05279aa0fff5e3cc2fbb3a7b3630d7bb0382851159569b",
+      "bytes": 34648,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black wide lightweight drawstring ankle trousers, elastic waist and visible black drawstring, loose cropped hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-sneakers",
+      "producerId": "04-03-shoes",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.canvas-sneakers",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "아이보리 캔버스 스니커즈",
+        "en": "Ivory canvas sneakers",
+        "de": "Elfenbeinfarbene Canvas-Sneaker"
+      },
+      "nameKo": "아이보리 캔버스 스니커즈",
+      "description": {
+        "ko": "아이보리 끈과 둥근 고무 앞코, 가는 검정 밑창 줄이 보입니다.",
+        "en": "Ivory laces, rounded rubber toe caps and fine black sole stripes.",
+        "de": "Elfenbeinfarbene Schnürsenkel, runde Gummikappen und feine schwarze Sohlenstreifen."
+      },
+      "howToWear": {
+        "ko": "검정 바짓단 아래로 밝은 앞코가 보이게 하세요.",
+        "en": "Let the pale toe caps show beneath the black hems.",
+        "de": "Die hellen Zehenkappen unter den schwarzen Säumen hervorblitzen lassen."
+      },
+      "image": "products/canvas-sneakers.webp",
+      "sha256": "60d567415d504898d975eae0be0018743a7697aeb22da7bff97e10b82c48eea9",
+      "bytes": 47688,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair ivory low canvas sneakers, offwhite laces, ivory rubber toe caps and soles with thin dark stripe, no logos",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-cuff-socks",
+      "producerId": "04-04-socks",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.rib-cuff-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "화이트 리브 커프 양말",
+        "en": "White rib cuff socks",
+        "de": "Weiße Socken mit Rippbündchen"
+      },
+      "nameKo": "화이트 리브 커프 양말",
+      "description": {
+        "ko": "촘촘한 세로 골이 발목과 발등에 이어지는 흰 양말.",
+        "en": "White socks with close vertical ribs at the ankle and instep.",
+        "de": "Weiße Socken mit engen Längsrippen am Knöchel und Spann."
+      },
+      "howToWear": {
+        "ko": "바지가 움직일 때 양말이 같은 높이로 보이도록 맞추세요.",
+        "en": "Match cuff heights so both socks show evenly as the trousers move.",
+        "de": "Die Bündchen auf gleiche Höhe ziehen, damit beide beim Gehen gleichmäßig sichtbar sind."
+      },
+      "image": "products/rib-cuff-socks.webp",
+      "sha256": "448b96e87720bb8f5bbe92279529cbb779d1388f3f75ac980c3ca43df93154bc",
+      "bytes": 42116,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair white short ribbed ankle socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "soft-tote",
+      "producerId": "04-05-bag",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.soft-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "블랙 소프트 토트",
+        "en": "Soft black tote",
+        "de": "Weicher schwarzer Shopper"
+      },
+      "nameKo": "블랙 소프트 토트",
+      "description": {
+        "ko": "부드럽게 접히는 사각 몸체에 긴 손잡이 두 개가 달린 검정 토트.",
+        "en": "Soft black rectangular tote with two long handles.",
+        "de": "Weicher schwarzer Shopper mit rechteckigem Korpus und zwei langen Henkeln."
+      },
+      "howToWear": {
+        "ko": "토트를 한쪽 어깨에 걸어 가슴 포켓을 드러내세요.",
+        "en": "Slip the tote over one shoulder to leave the chest pocket visible.",
+        "de": "Den Shopper über einer Schulter tragen, damit die Brusttasche sichtbar bleibt."
+      },
+      "image": "products/soft-tote.webp",
+      "sha256": "88bdc7c33fbdf0a97a4b083928ab21cbac9acb20eaa3724f190f2a5e7cd6b2be",
+      "bytes": 30014,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black canvas open tote, rectangular soft body and two long handles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "curved-brim-cap",
+      "producerId": "04-06-cap",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.curved-brim-cap",
+      "appCategory": "headwear",
+      "producerCategory": "cap",
+      "name": {
+        "ko": "네이비 곡선 챙 캡",
+        "en": "Navy curved brim cap",
+        "de": "Marineblaue Kappe mit gebogenem Schirm"
+      },
+      "nameKo": "네이비 곡선 챙 캡",
+      "description": {
+        "ko": "둥근 패널과 작은 통풍 구멍, 굽은 챙의 네이비 캡.",
+        "en": "Navy cap with a rounded panel crown, eyelets and a curved brim.",
+        "de": "Marineblaue Kappe mit rundem Korpus, Luftösen und gebogenem Schirm."
+      },
+      "howToWear": {
+        "ko": "챙을 앞으로 두어 강한 낮빛을 가리세요.",
+        "en": "Set the brim forward to shade your face in bright daylight.",
+        "de": "Den Schirm bei hellem Tageslicht nach vorn drehen."
+      },
+      "image": "products/curved-brim-cap.webp",
+      "sha256": "10a1edbe6bf378562c1a3e6f32066f4207bbe2799f06acb32b811805ebec6ca8",
+      "bytes": 32166,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy plain curved-brim cap, soft paneled crown, no logos",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "slim-hoops",
+      "producerId": "04-07-earrings",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-04.slim-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "가는 실버 톤 링 귀걸이",
+        "en": "Slim silver-tone hoops",
+        "de": "Schmale silberfarbene Creolen"
+      },
+      "nameKo": "가는 실버 톤 링 귀걸이",
+      "description": {
+        "ko": "가는 원형 선과 작은 고리 잠금의 은색 귀걸이.",
+        "en": "Fine silver-tone circles with small latch closures.",
+        "de": "Feine silberfarbene Ringe mit kleinen Verschlüssen."
+      },
+      "howToWear": {
+        "ko": "캡 아래로 땋은 머리를 뒤로 보내 얇은 링을 드러내세요.",
+        "en": "Sweep the braid back under the cap to show the slim hoops.",
+        "de": "Den Zopf unter der Kappe nach hinten legen, damit die feinen Creolen sichtbar bleiben."
+      },
+      "image": "products/slim-hoops.webp",
+      "sha256": "f9034f2113f98da4afc3948d6cb205b18505e39e85008841bcc915e60e2cf616",
+      "bytes": 21642,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair small silver-tone thin hoop earrings with compact clasps, visible at ear",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b211"
+}

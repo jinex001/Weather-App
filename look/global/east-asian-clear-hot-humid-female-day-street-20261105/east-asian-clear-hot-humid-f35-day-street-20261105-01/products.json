@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-street-20261105-01",
+  "batchId": "east-asian-clear-hot-humid-female-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban shopping streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted, and a small damp patch on the paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "bd9475709190ef9c4ef31d242f78cf57f8c9972bcf44bef9ea3cde2a9729d97c",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-street-20261105-01",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-street-20261105-01.short-sleeve-shirt",
+  "scenePropsNotProducts": [
+    "plastic drink bottle"
+  ],
+  "reconstructionNotice": "The plastic drink bottle is a scene prop, not a product. The shirt is worn open and blowing in the editorial; the product shows it buttoned, a conservative catalog reconstruction, with its back inferred. The white tank is a separate product; its lower front is partly hidden by the arms. The crossbody hangs at the hip and is partly hidden by the hand, so its front, flap and proportions are conservatively reconstructed. Both sandals are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T09:43:58.597006+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "All five overview sheets reviewed. Blue shirt shows no visible stray edge flecks in the final composites."
+    ]
+  },
+  "copy": {
+    "titleEn": "AN OPEN BLUE SHIRT IN THE SUN",
+    "title": {
+      "ko": "연파랑 셔츠가 열린 순간",
+      "en": "An open blue shirt in the sun",
+      "de": "Ein offenes blaues Hemd in der Sonne"
+    },
+    "deck": {
+      "ko": "샌드 버뮤다와 흰 탱크톱으로 만든 여름 레이어.",
+      "en": "A white ribbed tank and sand Bermudas for a hot afternoon.",
+      "de": "Weißes Rippentop und sandfarbene Bermudas für einen heißen Nachmittag."
+    },
+    "intro": {
+      "ko": "한낮 거리에서 병을 받아 드는 순간 셔츠 앞자락이 벌어진다.",
+      "en": "The shirt swings open as she reaches to catch a bottle.",
+      "de": "Beim Auffangen der Flasche schwingt das Hemd auf."
+    },
+    "body": {
+      "ko": "연파랑 셔츠 아래 흰 리브가 드러나고, 무릎 길이 쇼츠의 앞주름이 움직임을 따라 펼쳐진다. 검정 샌들과 작은 가방이 밝은 색을 잡아 준다.",
+      "en": "Pale blue frames the white tank while the front pleats of the knee-length shorts open with her step. Black ankle straps and a small flap bag anchor the light palette.",
+      "de": "Hellblau rahmt das weiße Top ein, während sich die Bundfalten der knielangen Shorts beim Schritt öffnen. Schwarze Knöchelriemen und eine kleine Klappentasche geben den hellen Farben Halt."
+    },
+    "pull": {
+      "ko": "파랑과 흰색 사이로 드러나는 움직임.",
+      "en": "A flash of white between blue panels.",
+      "de": "Ein heller Streifen zwischen zwei blauen Hemdseiten."
+    },
+    "pullQuoteEn": "A flash of white between blue panels.",
+    "tip": {
+      "ko": "크로스백을 옆으로 돌려 셔츠 앞선을 살리세요.",
+      "en": "Move the crossbody to the hip to let the shirt front swing.",
+      "de": "Die Umhängetasche zur Hüfte schieben, damit das Hemd frei schwingt."
+    }
+  },
+  "products": [
+    {
+      "id": "short-sleeve-shirt",
+      "producerId": "01-01-shirt",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-01.short-sleeve-shirt",
+      "appCategory": "outer",
+      "producerCategory": "shirt",
+      "name": {
+        "ko": "라이트 블루 반팔 셔츠",
+        "en": "Light blue short sleeve shirt",
+        "de": "Hellblaues Kurzarmhemd"
+      },
+      "nameKo": "라이트 블루 반팔 셔츠",
+      "description": {
+        "ko": "뾰족한 칼라와 흰 단추, 둥근 밑단이 있는 연파랑 셔츠.",
+        "en": "A pale blue shirt with a pointed collar, white buttons and a curved hem.",
+        "de": "Hellblaues Hemd mit spitzem Kragen, weißen Knöpfen und gerundetem Saum."
+      },
+      "howToWear": {
+        "ko": "흰 탱크톱 위에 셔츠를 열어 입으세요.",
+        "en": "Wear it open over the white tank.",
+        "de": "Offen über dem weißen Tanktop tragen."
+      },
+      "image": "products/short-sleeve-shirt.webp",
+      "sha256": "f30c0229a79078fafca616f6fba7d3342d3029bd838cc827e22202eab9e080b6",
+      "bytes": 36594,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pale blue loose short-sleeve button-front shirt, pointed collar, white buttons, long gently curved hem; shirt ONLY with empty collar and front, no white tank attached; front conservatively buttoned for catalog view",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-tank",
+      "producerId": "01-02-top",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-01.ribbed-tank",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "화이트 리브 탱크톱",
+        "en": "White ribbed tank",
+        "de": "Weißes Rippentop"
+      },
+      "nameKo": "화이트 리브 탱크톱",
+      "description": {
+        "ko": "넓은 어깨끈과 깊은 둥근 목선, 세로 리브가 보이는 흰 상의.",
+        "en": "White tank with wide straps, a scoop neck and vertical ribs.",
+        "de": "Weißes Top mit breiten Trägern, tiefem Rundhals und Längsrippen."
+      },
+      "howToWear": {
+        "ko": "쇼츠 허리에 넣어 앞선을 정리하세요.",
+        "en": "Tuck it into the shorts for a clean waistline.",
+        "de": "Für eine klare Taillenlinie in die Shorts stecken."
+      },
+      "image": "products/ribbed-tank.webp",
+      "sha256": "f1f7e2921208ea4c1a8fc3df48d46f1d9624925d678e6f8715f2dd693e289e75",
+      "bytes": 33476,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; white ribbed sleeveless scoop-neck tank, broad straps, simple straight hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pleated-bermuda",
+      "producerId": "01-03-bottom",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-01.pleated-bermuda",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "샌드 플리츠 버뮤다",
+        "en": "Sand pleated Bermuda shorts",
+        "de": "Sandfarbene Bundfaltenbermudas"
+      },
+      "nameKo": "샌드 플리츠 버뮤다",
+      "description": {
+        "ko": "앞 주름과 벨트 고리, 무릎까지 넓게 떨어지는 모래색 쇼츠.",
+        "en": "Sand shorts with front pleats, belt loops and wide knee-length legs.",
+        "de": "Sandfarbene Shorts mit Bundfalten, Gürtelschlaufen und weitem, knielangem Bein."
+      },
+      "howToWear": {
+        "ko": "셔츠 밑단을 풀어 주름 위로 자연스럽게 두세요.",
+        "en": "Let the open shirt hem fall loosely over the pleats.",
+        "de": "Den offenen Hemdsaum locker über die Falten fallen lassen."
+      },
+      "image": "products/pleated-bermuda.webp",
+      "sha256": "97bde7afe63bb0761011eb459b2ff0019366b7d32a584c266ba1a83e6b019070",
+      "bytes": 48746,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; sand beige loose knee-length tailored shorts, front pleats, belt loops, side pockets",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-strap-sandals",
+      "producerId": "01-04-shoes",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-01.ankle-strap-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 발목 스트랩 샌들",
+        "en": "Black ankle strap sandals",
+        "de": "Schwarze Sandalen mit Knöchelriemen"
+      },
+      "nameKo": "블랙 발목 스트랩 샌들",
+      "description": {
+        "ko": "가는 앞 스트랩과 작은 버클이 달린 발목 스트랩, 낮은 검정 밑창.",
+        "en": "Slim toe straps, buckled ankle straps and low black soles.",
+        "de": "Schmale Zehenriemen, Knöchelriemen mit Schnallen und flache schwarze Sohlen."
+      },
+      "howToWear": {
+        "ko": "발목 스트랩이 드러나도록 무릎 길이 쇼츠와 신으세요.",
+        "en": "Pair with knee-length shorts to show the ankle straps.",
+        "de": "Zu knielangen Shorts tragen, damit die Knöchelriemen sichtbar bleiben."
+      },
+      "image": "products/ankle-strap-sandals.webp",
+      "sha256": "d01ce91517d65e793e6e0f4b25fd3444f23bb4ff5e8164f1e450a1db796628bf",
+      "bytes": 34156,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair black flat thin-strap sandals, single toe strap and adjustable ankle strap, flat black sole",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mini-flap-crossbody",
+      "producerId": "01-05-bag",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-01.mini-flap-crossbody",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "블랙 미니 플랩 크로스백",
+        "en": "Black mini flap crossbody",
+        "de": "Kleine schwarze Umhängetasche mit Klappe"
+      },
+      "nameKo": "블랙 미니 플랩 크로스백",
+      "description": {
+        "ko": "둥근 모서리의 작은 플랩과 은색 연결 장식이 달린 검정 가방.",
+        "en": "Compact black bag with a rounded flap and silver-tone strap clips.",
+        "de": "Kompakte schwarze Tasche mit gerundeter Klappe und silberfarbenen Riemenclips."
+      },
+      "howToWear": {
+        "ko": "가방을 옆으로 돌려 셔츠 앞단이 눌리지 않게 하세요.",
+        "en": "Set the bag at the hip to leave the shirt front free.",
+        "de": "Die Tasche seitlich an der Hüfte tragen, damit die Hemdfront frei bleibt."
+      },
+      "image": "products/mini-flap-crossbody.webp",
+      "sha256": "a0a390c16dfb317371fc58afbd9a0363e8c91c3939461447074ece4abab7237a",
+      "bytes": 29330,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small black rectangular rounded-edge crossbody with flap, narrow adjustable long strap and silver-tone fittings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "bold-hoops",
+      "producerId": "01-06-earrings",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-01.bold-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "볼드 실버 톤 링 귀걸이",
+        "en": "Bold silver-tone hoops",
+        "de": "Kräftige silberfarbene Creolen"
+      },
+      "nameKo": "볼드 실버 톤 링 귀걸이",
+      "description": {
+        "ko": "아래쪽이 도톰한 은색 링 한 쌍과 작은 힌지 잠금.",
+        "en": "A pair of silver-tone hoops with full lower curves and small hinged closures.",
+        "de": "Silberfarbene Creolen mit kräftigem unterem Bogen und kleinen Scharnier­verschlüssen."
+      },
+      "howToWear": {
+        "ko": "머리를 한쪽 귀 뒤로 넘겨 링의 곡선을 드러내세요.",
+        "en": "Tuck hair behind one ear to show the curved hoop.",
+        "de": "Das Haar hinter ein Ohr streichen, damit der runde Bogen sichtbar wird."
+      },
+      "image": "products/bold-hoops.webp",
+      "sha256": "9b9f6860a1b29928f1dc935cd5ec04ad3e48369ef35870bdae81a55a63af84a6",
+      "bytes": 26424,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair small silver-tone rounded hoop earrings with compact clasps",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b211"
+}

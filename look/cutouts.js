@@ -1149,7 +1149,12 @@
 "east-asian-cool-m35-day-running-20261104-02.mesh-runners": ["look/global/east-asian-overcast-cool-male-day-running-20261104/east-asian-cool-m35-day-running-20261104-02/products/mesh-runners.webp", 0.623],
 "east-asian-cool-m35-day-running-20261104-03.two-buckle-vest": ["look/global/east-asian-overcast-cool-male-day-running-20261104/east-asian-cool-m35-day-running-20261104-03/products/two-buckle-vest.webp", 0.124],
 "east-asian-cool-m35-day-running-20261104-04.running-cap": ["look/global/east-asian-overcast-cool-male-day-running-20261104/east-asian-cool-m35-day-running-20261104-04/products/running-cap.webp", 0.7],
-"east-asian-cool-m35-day-running-20261104-05.mesh-runners": ["look/global/east-asian-overcast-cool-male-day-running-20261104/east-asian-cool-m35-day-running-20261104-05/products/mesh-runners.webp", 0.591]
+"east-asian-cool-m35-day-running-20261104-05.mesh-runners": ["look/global/east-asian-overcast-cool-male-day-running-20261104/east-asian-cool-m35-day-running-20261104-05/products/mesh-runners.webp", 0.591],
+"east-asian-clear-hot-humid-f35-day-street-20261105-01.short-sleeve-shirt": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-01/products/short-sleeve-shirt.webp", 0.728],
+"east-asian-clear-hot-humid-f35-day-street-20261105-02.crew-neck-tee": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-02/products/crew-neck-tee.webp", 0.497],
+"east-asian-clear-hot-humid-f35-day-street-20261105-03.sleeveless-collared-shirt": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-03/products/sleeveless-collared-shirt.webp", 0.803],
+"east-asian-clear-hot-humid-f35-day-street-20261105-04.camp-collar-shirt": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-04/products/camp-collar-shirt.webp", 0.571],
+"east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag": ["look/global/east-asian-clear-hot-humid-female-day-street-20261105/east-asian-clear-hot-humid-f35-day-street-20261105-05/products/tab-flap-bag.webp", 0.227]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1512,7 +1517,12 @@
 "east-asian-cool-m35-day-running-20261104-02": "east-asian-cool-m35-day-running-20261104-02.mesh-runners",
 "east-asian-cool-m35-day-running-20261104-03": "east-asian-cool-m35-day-running-20261104-03.two-buckle-vest",
 "east-asian-cool-m35-day-running-20261104-04": "east-asian-cool-m35-day-running-20261104-04.running-cap",
-"east-asian-cool-m35-day-running-20261104-05": "east-asian-cool-m35-day-running-20261104-05.mesh-runners"
+"east-asian-cool-m35-day-running-20261104-05": "east-asian-cool-m35-day-running-20261104-05.mesh-runners",
+"east-asian-clear-hot-humid-f35-day-street-20261105-01": "east-asian-clear-hot-humid-f35-day-street-20261105-01.short-sleeve-shirt",
+"east-asian-clear-hot-humid-f35-day-street-20261105-02": "east-asian-clear-hot-humid-f35-day-street-20261105-02.crew-neck-tee",
+"east-asian-clear-hot-humid-f35-day-street-20261105-03": "east-asian-clear-hot-humid-f35-day-street-20261105-03.sleeveless-collared-shirt",
+"east-asian-clear-hot-humid-f35-day-street-20261105-04": "east-asian-clear-hot-humid-f35-day-street-20261105-04.camp-collar-shirt",
+"east-asian-clear-hot-humid-f35-day-street-20261105-05": "east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

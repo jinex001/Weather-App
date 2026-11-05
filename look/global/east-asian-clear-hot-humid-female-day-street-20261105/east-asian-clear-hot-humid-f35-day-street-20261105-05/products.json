@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-street-20261105-05",
+  "batchId": "east-asian-clear-hot-humid-female-day-street-20261105",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban shopping streets with small tiled building walls, shop windows, canvas awnings, potted plants, parked scooters and brick or stone paving; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted, and a small damp patch on the paving is not read as rain. Humid is the producer's hot-humid styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "producer-reviewed-standing-authorization",
+    "evidence": "Five editorials passed producer QA and continued under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"); the user did not visually approve them individually. Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualHumanVisualApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "3e1a6824e52e0b91eb0e000f7bd24a9b25aaf9f2744e2ab799d19115b79e3d9a",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-street-20261105-05",
+  "appStyle": "street",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-street-20261105.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag",
+  "scenePropsNotProducts": [
+    "key"
+  ],
+  "reconstructionNotice": "The dropped key is a scene prop, not a product. The woman bends forward, so the tank's back and lower front and the trouser waist are conservatively reconstructed. The burgundy bag is seen at an angle, and its hidden side is inferred. The watch's strap is partly hidden by the wrist. One stud is visible, and the pair is inferred from it. Both sandals are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-05T09:43:58.597006+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "All five overview sheets reviewed. Blue shirt shows no visible stray edge flecks in the final composites."
+    ]
+  },
+  "copy": {
+    "titleEn": "BURGUNDY BETWEEN BLACK AND STONE",
+    "title": {
+      "ko": "검정과 스톤 사이의 버건디",
+      "en": "Burgundy between black and stone",
+      "de": "Bordeaux zwischen Schwarz und Stein"
+    },
+    "deck": {
+      "ko": "민소매와 크롭 팬츠에 작은 플랩백을 더했다.",
+      "en": "A small flap bag alongside a black tank and cropped trousers.",
+      "de": "Eine kleine Klappentasche zum schwarzen Tanktop und zur verkürzten Hose."
+    },
+    "intro": {
+      "ko": "열쇠를 받으려 손을 펴는 순간 흰 시계판이 빛을 받는다.",
+      "en": "The white dial catches the light as her hand opens for the keys.",
+      "de": "Das weiße Zifferblatt fängt Licht ein, als sich die Hand für den Schlüssel öffnet."
+    },
+    "body": {
+      "ko": "검정 탱크톱과 스톤색 앞주름 팬츠가 허리에서 또렷하게 나뉜다. 발끝의 검정 피셔맨 샌들과 옆의 버건디 가방이 대비를 이어 간다.",
+      "en": "Black and stone meet at the waist, where the tank is tucked into the pleated trousers. The black fisherman sandals echo the top and the burgundy bag adds a warm accent at the hip.",
+      "de": "Schwarz und Stein treffen an der Taille aufeinander, wo das Top in der Bundfaltenhose steckt. Die schwarzen Fischersandalen greifen den Ton des Tops auf. Bordeaux setzt seitlich einen warmen Akzent."
+    },
+    "pull": {
+      "ko": "밝은 바지와 검정 스트랩의 대비.",
+      "en": "Pale pleats above black straps.",
+      "de": "Helle Bundfalten über schwarzen Riemen."
+    },
+    "pullQuoteEn": "Pale pleats above black straps.",
+    "tip": {
+      "ko": "팬츠 밑단을 샌들 버클 위로 떨어뜨리세요.",
+      "en": "Let the trouser hems finish above the sandal buckles.",
+      "de": "Die Hosensäume oberhalb der Sandalenschnallen enden lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "round-neck-tank",
+      "producerId": "05-01-top",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-05.round-neck-tank",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "블랙 라운드넥 탱크톱",
+        "en": "Black round neck tank",
+        "de": "Schwarzes Tanktop mit Rundhals"
+      },
+      "nameKo": "블랙 라운드넥 탱크톱",
+      "description": {
+        "ko": "넓은 어깨와 둥근 목선, 몸을 따라가는 검정 민소매.",
+        "en": "Black sleeveless top with wide shoulders, a round neck and a close fit.",
+        "de": "Schwarzes ärmelloses Top mit breiten Schultern, Rundhals und körpernahem Schnitt."
+      },
+      "howToWear": {
+        "ko": "밝은 팬츠 허리에 넣어 색의 경계를 또렷하게 하세요.",
+        "en": "Tuck it into the pale trousers for a crisp color break.",
+        "de": "In die helle Hose stecken, damit der Farbwechsel klar bleibt."
+      },
+      "image": "products/round-neck-tank.webp",
+      "sha256": "b018216243f265b7426374bd09983cd1aca664b9f0381b4f3f2a12318ec25600",
+      "bytes": 23750,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black ribbed sleeveless crewneck tank, wide straps and simple straight hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cropped-pleat-trousers",
+      "producerId": "05-02-bottom",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-05.cropped-pleat-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "스톤 크롭 플리츠 팬츠",
+        "en": "Stone cropped pleat trousers",
+        "de": "Verkürzte steinfarbene Bundfaltenhose"
+      },
+      "nameKo": "스톤 크롭 플리츠 팬츠",
+      "description": {
+        "ko": "앞 주름과 벨트 고리, 넓은 크롭 밑단의 밝은 팬츠.",
+        "en": "Pale trousers with front pleats, belt loops and wide cropped hems.",
+        "de": "Helle Hose mit Bundfalten, Gürtelschlaufen und weiten verkürzten Säumen."
+      },
+      "howToWear": {
+        "ko": "샌들 버클 위로 밑단이 떨어지게 입으세요.",
+        "en": "Let the hems end above the sandal buckles.",
+        "de": "Die Säume oberhalb der Sandalenschnallen enden lassen."
+      },
+      "image": "products/cropped-pleat-trousers.webp",
+      "sha256": "838c2f6815a58a35b62cb0fb37dd91bac5e05594c5ac94ba950f09e76a8c471d",
+      "bytes": 49142,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; stone beige loose wide cropped trousers above ankle, front pleats and belt loops, pale textured fabric",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fisherman-sandals",
+      "producerId": "05-03-shoes",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-05.fisherman-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 피셔맨 샌들",
+        "en": "Black fisherman sandals",
+        "de": "Schwarze Fischersandalen"
+      },
+      "nameKo": "블랙 피셔맨 샌들",
+      "description": {
+        "ko": "앞코를 덮는 교차 스트랩과 사각 버클의 검정 샌들.",
+        "en": "Black sandals with interlaced straps over the toes and square buckles.",
+        "de": "Schwarze Sandalen mit verflochtenen Riemen über den Zehen und eckigen Schnallen."
+      },
+      "howToWear": {
+        "ko": "짧은 바지와 신어 스트랩 사이의 틈을 보여 주세요.",
+        "en": "Wear them with cropped trousers to show the gaps between the straps.",
+        "de": "Zu verkürzten Hosen tragen, damit die Zwischenräume der Riemen sichtbar sind."
+      },
+      "image": "products/fisherman-sandals.webp",
+      "sha256": "fcdee99699170c81aeebdac82a7e5cfeb3cdc1be41993adcf4825da613e290f8",
+      "bytes": 41992,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair black flat fisherman sandals with woven closed toe straps, ankle buckle strap and flat soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tab-flap-bag",
+      "producerId": "05-04-bag",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-05.tab-flap-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "버건디 탭 플랩백",
+        "en": "Burgundy tab flap bag",
+        "de": "Bordeauxrote Tasche mit Klappe und Lasche"
+      },
+      "nameKo": "버건디 탭 플랩백",
+      "description": {
+        "ko": "중앙 탭이 달린 둥근 플랩과 길이 조절 스트랩의 버건디 가방.",
+        "en": "Burgundy bag with a curved flap, center tab and adjustable strap.",
+        "de": "Bordeauxrote Tasche mit gerundeter Klappe, mittiger Lasche und verstellbarem Riemen."
+      },
+      "howToWear": {
+        "ko": "검정 상의 옆에 걸어 버건디를 강조하세요.",
+        "en": "Carry it beside the black top to bring out the burgundy.",
+        "de": "Seitlich zum schwarzen Top tragen, damit Bordeaux hervortritt."
+      },
+      "image": "products/tab-flap-bag.webp",
+      "sha256": "6a10eeccc514a77005b6049b2ca2f554cd7875d95d87ef7a2dc371d15879c760",
+      "bytes": 36530,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; burgundy small rounded-flap crossbody, long narrow adjustable strap, compact dark hardware",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "white-dial-watch",
+      "producerId": "05-05-watch",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-05.white-dial-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "화이트 다이얼 라운드 시계",
+        "en": "Round white dial watch",
+        "de": "Runde Uhr mit weißem Zifferblatt"
+      },
+      "nameKo": "화이트 다이얼 라운드 시계",
+      "description": {
+        "ko": "은색 원형 케이스와 흰 다이얼, 검정 스트랩의 시계.",
+        "en": "Round silver-tone case with a white dial and black strap.",
+        "de": "Rundes silberfarbenes Gehäuse mit weißem Zifferblatt und schwarzem Band."
+      },
+      "howToWear": {
+        "ko": "흰 다이얼이 손목 위에 오도록 스트랩을 맞추세요.",
+        "en": "Adjust the strap to center the white dial on the wrist.",
+        "de": "Das Band so einstellen, dass das weiße Zifferblatt mittig am Handgelenk sitzt."
+      },
+      "image": "products/white-dial-watch.webp",
+      "sha256": "d76d2563c2469b0f936e0c32d85cc86b5f22622f2ef6f8cda5f53b9c703d16d7",
+      "bytes": 32004,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver-tone round analog watch with white face and black strap, simple hour marks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "round-studs",
+      "producerId": "05-06-earrings",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-street-20261105-05.round-studs",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "실버 톤 라운드 스터드",
+        "en": "Round silver-tone studs",
+        "de": "Runde silberfarbene Ohrstecker"
+      },
+      "nameKo": "실버 톤 라운드 스터드",
+      "description": {
+        "ko": "투명한 원형 장식을 은색 테두리가 감싸는 작은 스터드 한 쌍.",
+        "en": "Small studs with clear round centers and silver-tone rims.",
+        "de": "Kleine Ohrstecker mit klaren runden Einsätzen und silberfarbenen Rändern."
+      },
+      "howToWear": {
+        "ko": "머리를 올려 작은 스터드에 빛이 닿게 하세요.",
+        "en": "Wear your hair up so light catches the small studs.",
+        "de": "Die Haare hochstecken, damit Licht auf die kleinen Stecker fällt."
+      },
+      "image": "products/round-studs.webp",
+      "sha256": "8d552ba40dfd3bc1d813125a208dd2e90bd23e5f68791c2bd15fe05a66c9575a",
+      "bytes": 22770,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; matching pair tiny silver-tone round stud earrings with backs",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b211"
+}
