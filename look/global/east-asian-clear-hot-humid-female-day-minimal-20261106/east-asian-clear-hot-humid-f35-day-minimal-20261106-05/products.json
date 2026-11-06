@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05",
+  "batchId": "east-asian-clear-hot-humid-female-day-minimal-20261106",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime urban streets with a white-tiled cafe front, outdoor stairs with leaf shadows, a stone wall with a parked bicycle, a pedestrian crossing with street trees, and a residential wall with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five female editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "edcd76095a5b00180619b5d9fa442d994eef61231f804565b17acc3f46e99c26",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-minimal-20261106.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05.square-neck-jumpsuit",
+  "scenePropsNotProducts": [
+    "metal gate"
+  ],
+  "reconstructionNotice": "The metal gate is a scene prop, not a product. The jumpsuit's back is hidden and is conservatively reconstructed. The shoulder bag is partly hidden by the arm, so its far side and closure are inferred. One hoop is visible, and the pair is inferred from it. Both sandals are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-06T11:45:05.224242+00:00",
+    "productCount": 20,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "Compared five sheets with approved editorials. Hidden construction reconstructed, including vest front, earring backs and bag closures. No scene props.",
+      "Producer reviewed the editorials and all twenty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "CHARCOAL AT THE GATE",
+    "title": {
+      "ko": "철문 앞 차콜 점프수트",
+      "en": "Charcoal at the gate",
+      "de": "Anthrazit am Tor"
+    },
+    "deck": {
+      "ko": "어두운 원피스형 실루엣에 밝은 가방 하나.",
+      "en": "A dark jumpsuit with a single light bag.",
+      "de": "Ein dunkler Jumpsuit mit einer hellen Tasche."
+    },
+    "intro": {
+      "ko": "철문을 밀며 뻗은 손을 따라 시선이 움직인다.",
+      "en": "Her eyes follow her hand as she pushes the metal gate.",
+      "de": "Beim Aufdrücken des Metalltors folgt ihr Blick der Hand."
+    },
+    "body": {
+      "ko": "스퀘어넥과 긴 와이드 다리선이 한 벌로 이어진다. 검정 샌들과 작은 은색 후프, 아이보리 숄더백을 더했다.",
+      "en": "A square neckline leads into long wide legs. Black sandals, small silver-tone hoops and an ivory bag finish the outfit.",
+      "de": "Der Karreeausschnitt geht in eine Silhouette mit langen weiten Beinen über. Schwarze Sandalen, kleine silberfarbene Creolen und eine helle Tasche ergänzen den Look."
+    },
+    "pull": {
+      "ko": "차콜 옆으로 밝아지는 아이보리.",
+      "en": "Ivory against charcoal.",
+      "de": "Elfenbein neben Anthrazit."
+    },
+    "pullQuoteEn": "Ivory against charcoal.",
+    "tip": {
+      "ko": "점프수트 밑단이 샌들 밑으로 들어가지 않게 길이를 맞추세요.",
+      "en": "Set the hems to stay clear of the sandal soles.",
+      "de": "Die Säume so wählen, dass sie nicht unter die Sandalensohlen geraten."
+    }
+  },
+  "products": [
+    {
+      "id": "square-neck-jumpsuit",
+      "producerId": "05-01",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05.square-neck-jumpsuit",
+      "appCategory": "top",
+      "producerCategory": "jumpsuit",
+      "name": {
+        "ko": "차콜 스퀘어넥 점프수트",
+        "en": "Charcoal square-neck jumpsuit",
+        "de": "Anthrazitfarbener Jumpsuit mit Karreeausschnitt"
+      },
+      "nameKo": "차콜 스퀘어넥 점프수트",
+      "description": {
+        "ko": "넓은 어깨끈과 긴 와이드 팬츠가 이어진 형태.",
+        "en": "Wide shoulder straps and long wide legs in one piece.",
+        "de": "Breite Träger und lange weite Beine in einem Stück."
+      },
+      "howToWear": {
+        "ko": "밑단이 바닥에 끌리지 않도록 신발 높이를 맞추세요.",
+        "en": "Choose shoe height so the hems clear the ground.",
+        "de": "Die Schuhhöhe so wählen, dass die Säume frei bleiben."
+      },
+      "image": "products/square-neck-jumpsuit.webp",
+      "sha256": "f91f4850dc7fe587893a2278d1c89919f86f555f43df7a039fb8e7826e09a790",
+      "bytes": 22710,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; charcoal square-neck sleeveless wide-leg jumpsuit",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "two-strap-sandals",
+      "producerId": "05-02",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05.two-strap-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 투 스트랩 샌들",
+        "en": "Black two-strap sandals",
+        "de": "Schwarze Sandalen mit zwei Riemen"
+      },
+      "nameKo": "검정 투 스트랩 샌들",
+      "description": {
+        "ko": "가는 스트랩 두 줄과 낮은 밑창.",
+        "en": "Two fine straps and a low sole.",
+        "de": "Zwei feine Riemen und flache Sohle."
+      },
+      "howToWear": {
+        "ko": "차콜 점프수트와 어두운 톤을 이어 주세요.",
+        "en": "Continue the dark palette of the charcoal jumpsuit.",
+        "de": "Den dunklen Ton des Jumpsuits fortführen."
+      },
+      "image": "products/two-strap-sandals.webp",
+      "sha256": "be02ea14394b82edfb2019d8157c6eb3ae4eccd00b8401ffd547677241263399",
+      "bytes": 23648,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black thin-strap flat sandals pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mini-shoulder-bag",
+      "producerId": "05-03",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05.mini-shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "아이보리 미니 숄더백",
+        "en": "Ivory mini shoulder bag",
+        "de": "Kleine Schultertasche in Elfenbein"
+      },
+      "nameKo": "아이보리 미니 숄더백",
+      "description": {
+        "ko": "작은 곡선 몸체와 은색 연결부.",
+        "en": "Small curved body and silver-tone fittings.",
+        "de": "Kleiner geschwungener Körper mit silberfarbenen Beschlägen."
+      },
+      "howToWear": {
+        "ko": "차콜 옆에 밝은 가방이 보이게 어깨에 메세요.",
+        "en": "Carry at the shoulder to show the light contrast against charcoal.",
+        "de": "An der Schulter tragen, damit der helle Kontrast zu Anthrazit sichtbar bleibt."
+      },
+      "image": "products/mini-shoulder-bag.webp",
+      "sha256": "afb28a5f41173006d29aac6e60be69c7abbbb3d78352a32f301e1fda3de812b5",
+      "bytes": 20118,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ivory compact shoulder bag with silver-tone hardware",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "small-hoops",
+      "producerId": "05-04",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-05.small-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "은색 미니 후프",
+        "en": "Small silver-tone hoops",
+        "de": "Kleine silberfarbene Creolen"
+      },
+      "nameKo": "은색 미니 후프",
+      "description": {
+        "ko": "가느다란 원형 링과 경첩 여밈.",
+        "en": "Slim circular hoops with hinged closures.",
+        "de": "Schmale runde Ringe mit Klappverschluss."
+      },
+      "howToWear": {
+        "ko": "머리를 한쪽으로 넘겨 링을 드러내세요.",
+        "en": "Sweep the hair to one side to reveal the hoops.",
+        "de": "Die Haare zur Seite legen, damit die Creolen sichtbar werden."
+      },
+      "image": "products/small-hoops.webp",
+      "sha256": "e4e1e4e49bc017c32f79ccabc32f780d52fbcfffc6bdb69c6eecf27ba9ee2418",
+      "bytes": 13248,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small silver hoop earrings pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b213"
+}

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03",
+  "batchId": "east-asian-clear-hot-humid-female-day-minimal-20261106",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime urban streets with a white-tiled cafe front, outdoor stairs with leaf shadows, a stone wall with a parked bicycle, a pedestrian crossing with street trees, and a residential wall with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five female editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "8b7c70bf4aa5205beac1bc47a3a6b301f552d57a6ce3f162a136b45cb08a39ec",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-minimal-20261106.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03.open-collar-blouse",
+  "scenePropsNotProducts": [
+    "bicycle",
+    "bike lock"
+  ],
+  "reconstructionNotice": "The bicycle and its lock are scene props, not products. The woman leans forward, so the blouse's back and the part behind the strap and bag are conservatively reconstructed, and the skirt's waist sits under the blouse hem and is inferred. The crossbody's back and strap layout are inferred. Both sandals are visible and listed as one pair. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-06T11:45:05.224242+00:00",
+    "productCount": 20,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Compared five sheets with approved editorials. Hidden construction reconstructed, including vest front, earring backs and bag closures. No scene props.",
+      "Producer reviewed the editorials and all twenty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "A WHITE COLLAR BY THE BIKE",
+    "title": {
+      "ko": "자전거 옆의 흰 칼라",
+      "en": "A white collar by the bike",
+      "de": "Ein weißer Kragen am Fahrrad"
+    },
+    "deck": {
+      "ko": "흰 셔츠와 슬레이트 스커트로 만든 가벼운 조합.",
+      "en": "A loose white blouse and a straight slate skirt.",
+      "de": "Eine lockere weiße Bluse zum geraden schiefergrauen Rock."
+    },
+    "intro": {
+      "ko": "자전거 자물쇠에 손을 뻗자 스커트 옆트임이 벌어진다.",
+      "en": "As she reaches for the bike lock, the side slit opens.",
+      "de": "Beim Griff zum Fahrradschloss öffnet sich der Seitenschlitz."
+    },
+    "body": {
+      "ko": "여유로운 반소매와 곧은 미디 실루엣을 가는 샌들 스트랩이 받친다. 그래파이트 가방은 골반에 놓인다.",
+      "en": "The easy sleeves and straight midi hem leave room for fine sandal straps. A graphite crossbody rests at the hip.",
+      "de": "Zu den lockeren Ärmeln und dem geraden Midisaum kommen feine Sandalenriemen. Die graphitfarbene Tasche sitzt an der Hüfte."
+    },
+    "pull": {
+      "ko": "흰 칼라에서 아이보리 스트랩까지.",
+      "en": "From a white collar to ivory straps.",
+      "de": "Vom weißen Kragen bis zu den elfenbeinfarbenen Riemen."
+    },
+    "pullQuoteEn": "From a white collar to ivory straps.",
+    "tip": {
+      "ko": "자전거에 오르기 전 스커트 밑단과 가방 끈을 정리하세요.",
+      "en": "Secure the skirt hem and bag strap before getting on the bike.",
+      "de": "Rocksaum und Taschenriemen vor dem Aufsteigen sichern."
+    }
+  },
+  "products": [
+    {
+      "id": "open-collar-blouse",
+      "producerId": "03-01",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03.open-collar-blouse",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "흰 오픈칼라 블라우스",
+        "en": "White open-collar blouse",
+        "de": "Weiße Bluse mit offenem Kragen"
+      },
+      "nameKo": "흰 오픈칼라 블라우스",
+      "description": {
+        "ko": "반소매와 여유 있는 직선 밑단.",
+        "en": "Short sleeves and a loose straight hem.",
+        "de": "Kurze Ärmel und lockerer gerader Saum."
+      },
+      "howToWear": {
+        "ko": "스커트 허리 위에 밑단을 자연스럽게 두세요.",
+        "en": "Let the hem fall loosely over the skirt waistband.",
+        "de": "Den Saum locker über den Rockbund fallen lassen."
+      },
+      "image": "products/open-collar-blouse.webp",
+      "sha256": "d5433b33328a9385156e34d8249572c39add61d71114bd58f42327c58a973187",
+      "bytes": 34490,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; white short-sleeve boxy open-collar blouse",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "side-slit-midi-skirt",
+      "producerId": "03-02",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03.side-slit-midi-skirt",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "슬레이트 옆트임 미디 스커트",
+        "en": "Slate side-slit midi skirt",
+        "de": "Schiefergrauer Midirock mit Seitenschlitz"
+      },
+      "nameKo": "슬레이트 옆트임 미디 스커트",
+      "description": {
+        "ko": "곧게 떨어지는 미디 길이와 옆트임.",
+        "en": "Straight midi cut with a side slit.",
+        "de": "Gerader Midischnitt mit Seitenschlitz."
+      },
+      "howToWear": {
+        "ko": "가는 스트랩 샌들을 골라 밑단 아래를 가볍게 연출하세요.",
+        "en": "Choose fine sandal straps to keep the line light below the hem.",
+        "de": "Feine Sandalenriemen für eine leichte Linie unter dem Saum wählen."
+      },
+      "image": "products/side-slit-midi-skirt.webp",
+      "sha256": "14d128302bcffc3c62a87fa890c65c31e27848fe67b2cccb5e1b6e7ac0d9c85e",
+      "bytes": 22776,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; slate straight midi skirt with side slit",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cross-strap-sandals",
+      "producerId": "03-03",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03.cross-strap-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "아이보리 교차 스트랩 샌들",
+        "en": "Ivory cross-strap sandals",
+        "de": "Elfenbeinfarbene Sandalen mit Kreuzriemen"
+      },
+      "nameKo": "아이보리 교차 스트랩 샌들",
+      "description": {
+        "ko": "발등 교차 스트랩과 발뒤꿈치 버클.",
+        "en": "Crossed instep straps and heel buckles.",
+        "de": "Gekreuzte Riemen über dem Rist und Schnallen an der Ferse."
+      },
+      "howToWear": {
+        "ko": "흰 블라우스와 밝은 톤을 이어 주세요.",
+        "en": "Repeat the blouse's light tone at the feet.",
+        "de": "Den hellen Ton der Bluse an den Füßen wiederholen."
+      },
+      "image": "products/cross-strap-sandals.webp",
+      "sha256": "fbdb86a96bd422f42cd2b8ab93b2b0a0c375f57c81f7ad15171e1b69d55bf572",
+      "bytes": 41126,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ivory thin cross-strap flat sandals pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "zip-crossbody",
+      "producerId": "03-04",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-03.zip-crossbody",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "그래파이트 지퍼 크로스백",
+        "en": "Graphite zip crossbody",
+        "de": "Graphitfarbene Umhängetasche mit Reißverschluss"
+      },
+      "nameKo": "그래파이트 지퍼 크로스백",
+      "description": {
+        "ko": "둥근 모서리의 사각 몸체와 조절 끈.",
+        "en": "Rounded rectangular body with an adjustable strap.",
+        "de": "Rechteckiger Körper mit runden Ecken und verstellbarem Riemen."
+      },
+      "howToWear": {
+        "ko": "손을 자유롭게 쓰도록 골반 가까이 착용하세요.",
+        "en": "Wear it near the hip to keep both hands free.",
+        "de": "Hüftnah tragen, damit beide Hände frei bleiben."
+      },
+      "image": "products/zip-crossbody.webp",
+      "sha256": "f6bb25b027b2ba83da8314a9eb257470a23c7154c57469533eb4b78399274388",
+      "bytes": 21222,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; graphite rectangular zip crossbody",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b213"
+}

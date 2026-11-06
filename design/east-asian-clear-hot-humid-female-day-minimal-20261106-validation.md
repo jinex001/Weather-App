@@ -1,0 +1,34 @@
+# b213 · Clear / Hot (humid setting) / Female / Day / Minimal — East Asian urban (2026-11-06)
+
+The user's standing workflow authorization (2026-11-03, "앞으로도 승인 없이 진행") covers this batch. READY.json and the handoff record that the user explicitly approved the five editorials. All 20 products passed producer technical QA and four-background visual QA (white, black, gray, app `#F3EFE8`); the user did not approve each product image individually. Claude Code published this one batch to `origin/main`. Archiving originals and deleting local duplicates follow only after the live deployment is verified.
+
+## Content and scope
+
+- 5 looks, 20 products (4/4/4/4/4), 25 deployed images, 5 metadata files. Look IDs `east-asian-clear-hot-humid-f35-day-minimal-20261106-01`–`05`, items `<look ID>.<product id>` (all new). Module `look/east-asian-clear-hot-humid-female-day-minimal-20261106.js` loads after the b212 module and before `cutouts.js` and `global-context.js`.
+- Source: `originals/product-batch/complete/<look ID>/`, with `APP_MAPPING.json`, `PRODUCT_COPY.json` and `EDITORIAL_COPY.json` as the authority (the importer asserts that they agree with the delivery, and that each product hash matches `TECHNICAL_QA.json`).
+- Assets in `look/global/east-asian-clear-hot-humid-female-day-minimal-20261106/<look ID>/`: `editorial.jpg`, `products/<product id>.webp`, `products.json`. Delivery bytes copied unchanged (renamed from producer IDs such as `01-01` to names such as `square-neck-dress`; `producerId` keeps the original). PNG masters, editorial PNGs, QA sheets, journals and scripts are not committed.
+- Mapping: sky `clear` · band `hot` · style `minimal` · gender `f` · age storage `"35"` · daytime (no `time` key) · `visualRegion: east-asian-urban` · `humidityContext: humid` · context reviewed. No rain depicted. Humid is the producer's styling setting, not a measurement: temperature, feels-like, relative humidity, wind and city are null. Model appearance 25–28 with mixed casting independent of the location; audience 30–44.
+- Category mapping to existing `CAT_LABEL` keys, per producer ID because this delivery has no category key: dress and jumpsuit → `top` (the first of each in the library; there is no dress key and adding one would be a code change, so their product card label reads "Top"), vest worn with nothing under it → `top`, tailored knee shorts → `shorts`, earrings → `jewelry`. `producerCategory` keeps the type in `products.json`.
+- Scenes on sunny streets: 01 steps out through a glass cafe door · 02 walks down outdoor stairs through leaf shadows · 03 reaches for a bike lock · 04 looks back on a crossing · 05 pushes a metal gate. Scene props and setting, not products: cafe door and interior, stair handrail and planter, bicycle and lock, metal gate.
+- Products: 01 ivory square-neck dress, brown H-strap slides, curved brown shoulder bag, round silver-tone studs. 02 black sleeveless mock neck, oatmeal pleated trousers, black square-toe mules, slim black shoulder bag. 03 white open-collar blouse, slate side-slit midi skirt, ivory cross-strap sandals, graphite zip crossbody. 04 pale blue tailored vest, pale blue cuffed shorts, tan strappy sandals, cream two-handle tote. 05 charcoal square-neck jumpsuit, black two-strap sandals, ivory mini shoulder bag, small silver-tone hoops. Hidden areas are conservative reconstructions. Brands, metal, fibre composition, performance and retail identity are unknown.
+- Heroes (design/CUTOUTS.md b134): `pick` returns 03 WHITE → blouse, 04 PALE → vest (rule 3 puts it ahead of the shorts), 05 CHARCOAL → jumpsuit. 01 and 02 have no title word in a product name and no outer, so rule 7 applies: 01 → dress (the deck and body are about it), 02 → mules (the title is about the stairs and the pull names the black toe, the same reading as b212's ONE STEP OFF THE CURB). Each hero reuses the product's own WebP; `lum` uses the existing sRGB-weighted convention. The style tiles were rendered to confirm they read.
+
+## Region behaviour (no code change)
+
+Same `look/global-context.js` rules as b205–b212: KR/JP/CN/TW/HK country codes map to `east-asian-urban`, and region-tagged looks show only in their own region.
+- East Asian places, clear hot day, female minimal: these 5 looks instead of COMING SOON.
+- East Asian places, clear warm day and clear scorching day, female minimal: these 5 as the neighbouring band (existing adjacent-band rule).
+- Unchanged: East Asian cloudy, rain and evening hot cells (still COMING SOON); male minimal and run; the b211 and b212 street pools; the b207 cool pool; every European, coastal, neutral and unknown-region cell. GPS positions without a country code stay `unknown` (existing behaviour).
+- `gctx.humidity` is `humid`. The app has no humidity input yet, so it does not change any order; explicit humid and dry queries return the same three looks in this cell.
+
+## Copy
+
+The producer's ko/en/de copy is used unchanged: titles, decks, intros, bodies, pull quotes and tips for 5 looks; names, visual descriptions and individual how-to-wear notes for 20 products. The app article shows the English title in capitals, the English pull, and the localized deck, intro and tip; the body is kept in `products.json` (`copy.body`). Decks differ from intros, pulls from titles, all 5 tips and 20 notes are distinct per language; no brand, price or verified fibre/performance claims.
+
+## Validation (this session)
+
+- **READY.json:** 123/123 files match size and SHA-256, no unlisted files. All 25 copied files match READY and their `originals/` sources, and all 20 product hashes match `TECHNICAL_QA.json`; `VISUAL_QA.json` passes all 20.
+- **Image files:** editorials 1024×1536 JPEG, 289,217–298,024 B (≤300,000). Products 500×500 RGBA WebP, 12,348–44,696 B (≤50,000), alpha min 0 / max ≥250, corners transparent. None of the 2708 previously tracked images changed, and no PNG is in the change.
+- **Runtime (JavaScriptCore):** all 55 `look/*.js` scripts in index.html order for `origin/main` (2bca5f6) and for this change: 381 looks, 2201 items (base + 5 / 20), every existing look and item identical. The real `lookFits`/`lookPool`/`skyAvailable` ran over 8100 cases; previous candidates and ranks are identical everywhere, and new looks appear only in east-asian-urban female minimal warm/hot/scorching day cells (45 candidate cases). Only the clear warm, hot and scorching day female minimal pools change (9 cases across humidity queries). `location-first.cjs` port 72 cases pass (coastal unchanged); 7 East Asian places resolve to east-asian-urban.
+- **Browser:** headless Chrome loaded the real index.html (`?region=east-asian-urban`) and rendered the article section of all 5 looks in ko/en/de (15 renders), every product image at 500 px on the `#F3EFE8` card, 0 page errors.
+- Live deployment, the 25 public images and the archive are verified separately after the push.

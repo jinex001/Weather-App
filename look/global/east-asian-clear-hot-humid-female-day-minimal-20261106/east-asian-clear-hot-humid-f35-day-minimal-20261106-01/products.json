@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01",
+  "batchId": "east-asian-clear-hot-humid-female-day-minimal-20261106",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime urban streets with a white-tiled cafe front, outdoor stairs with leaf shadows, a stone wall with a parked bicycle, a pedestrian crossing with street trees, and a residential wall with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five female editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f58e3cd406830e0c4a8e06d698c236f0d7c0709479b7427e5d0e83b638af51f5",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-minimal-20261106.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01.square-neck-dress",
+  "scenePropsNotProducts": [
+    "glass cafe door",
+    "cafe interior"
+  ],
+  "reconstructionNotice": "The glass cafe door, table, flowers and cafe interior are the setting, not products. The dress's back is hidden, and the shoulder bag is seen from the side under the arm, so its far side and closure are conservatively reconstructed. One stud is visible, and the pair is inferred from it. Both slides are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-06T11:45:05.224242+00:00",
+    "productCount": 20,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "Compared five sheets with approved editorials. Hidden construction reconstructed, including vest front, earring backs and bag closures. No scene props.",
+      "Producer reviewed the editorials and all twenty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "OUT THROUGH THE CAFÉ DOOR",
+    "title": {
+      "ko": "카페 문을 나서는 순간",
+      "en": "Out through the café door",
+      "de": "Durch die Cafétür"
+    },
+    "deck": {
+      "ko": "아이보리와 갈색으로 맞춘 한낮의 원피스.",
+      "en": "An ivory dress with brown accents for midday.",
+      "de": "Ein elfenbeinfarbenes Kleid mit braunen Akzenten für den Mittag."
+    },
+    "intro": {
+      "ko": "유리문을 손바닥으로 받치며 보도로 한 발 내딛는다.",
+      "en": "She catches the glass door with her palm as she steps outside.",
+      "de": "Beim Schritt nach draußen hält sie die Glastür mit der Hand auf."
+    },
+    "body": {
+      "ko": "스퀘어넥과 넓은 끈이 상체를 잡고 퍼지는 밑단이 걸음을 따른다. 가방과 슬라이드가 갈색을 반복한다.",
+      "en": "Wide straps frame the square neckline, and the flared hem follows her stride. Brown repeats in the shoulder bag and slides.",
+      "de": "Breite Träger rahmen den Karreeausschnitt ein. Der ausgestellte Saum folgt dem Schritt, während Tasche und Pantoletten den Braunton wiederholen."
+    },
+    "pull": {
+      "ko": "밝은 미디 아래 짙은 갈색.",
+      "en": "Deep brown beneath a pale midi hem.",
+      "de": "Dunkles Braun unter einem hellen Midisaum."
+    },
+    "pullQuoteEn": "Deep brown beneath a pale midi hem.",
+    "tip": {
+      "ko": "가방을 겨드랑이 가까이 메어 허리선을 드러내세요.",
+      "en": "Carry the bag high under the arm to show the waist.",
+      "de": "Die Tasche hoch unter dem Arm tragen, damit die Taille sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "square-neck-dress",
+      "producerId": "01-01",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01.square-neck-dress",
+      "appCategory": "top",
+      "producerCategory": "dress",
+      "name": {
+        "ko": "아이보리 스퀘어넥 원피스",
+        "en": "Ivory square-neck dress",
+        "de": "Elfenbeinfarbenes Kleid mit Karreeausschnitt"
+      },
+      "nameKo": "아이보리 스퀘어넥 원피스",
+      "description": {
+        "ko": "넓은 어깨끈과 퍼지는 미디 밑단.",
+        "en": "Wide straps and a flared midi hem.",
+        "de": "Breite Träger und ausgestellter Midisaum."
+      },
+      "howToWear": {
+        "ko": "갈색 슬라이드와 가볍게 매치하세요.",
+        "en": "Pair with brown slides.",
+        "de": "Mit braunen Pantoletten kombinieren."
+      },
+      "image": "products/square-neck-dress.webp",
+      "sha256": "5d0bc7a73f1ea13629a2ef32c9ef718d5c9bd860a9821bfa80e8d3de4a009c57",
+      "bytes": 26040,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ivory square-neck wide strap midi dress, softly flared",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "h-strap-slides",
+      "producerId": "01-02",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01.h-strap-slides",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "갈색 H 스트랩 슬라이드",
+        "en": "Brown H-strap slides",
+        "de": "Braune Pantoletten mit H-Riemen"
+      },
+      "nameKo": "갈색 H 스트랩 슬라이드",
+      "description": {
+        "ko": "넓은 H자 스트랩과 낮은 밑창.",
+        "en": "Broad H-shaped straps and a low sole.",
+        "de": "Breite H-Riemen und flache Sohle."
+      },
+      "howToWear": {
+        "ko": "미디 원피스 아래 발목을 드러내세요.",
+        "en": "Leave the ankles bare below the midi dress.",
+        "de": "Unter dem Midikleid die Knöchel frei lassen."
+      },
+      "image": "products/h-strap-slides.webp",
+      "sha256": "6a0e4b4d7c2908e4b07f9e29b178647176a9815a223e8a7a5cb57d3ec4b47ea9",
+      "bytes": 28456,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; brown flat H-strap slide sandals pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "curved-shoulder-bag",
+      "producerId": "01-03",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01.curved-shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "갈색 곡선 숄더백",
+        "en": "Curved brown shoulder bag",
+        "de": "Geschwungene braune Schultertasche"
+      },
+      "nameKo": "갈색 곡선 숄더백",
+      "description": {
+        "ko": "곡선 입구와 금색 스트랩 연결부.",
+        "en": "Curved opening with gold-tone strap fittings.",
+        "de": "Geschwungene Öffnung mit goldfarbenen Beschlägen."
+      },
+      "howToWear": {
+        "ko": "샌들과 같은 계열의 갈색을 골라보세요.",
+        "en": "Echo the brown tone of the sandals.",
+        "de": "Den Braunton der Sandalen aufgreifen."
+      },
+      "image": "products/curved-shoulder-bag.webp",
+      "sha256": "ef9bd83fcbe90ac16d347e1955426c93219200aeeeffca02718c3e1086dc8cbb",
+      "bytes": 27010,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small brown curved shoulder bag with gold-tone strap hardware",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "round-studs",
+      "producerId": "01-04",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-01.round-studs",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "은색 원형 스터드",
+        "en": "Round silver-tone studs",
+        "de": "Runde silberfarbene Ohrstecker"
+      },
+      "nameKo": "은색 원형 스터드",
+      "description": {
+        "ko": "작은 원형 앞면과 뒤 마개.",
+        "en": "Small round fronts and push backs.",
+        "de": "Kleine runde Vorderseiten mit Steckverschlüssen."
+      },
+      "howToWear": {
+        "ko": "짧은 머리나 귀 뒤로 넘긴 머리에 매치하세요.",
+        "en": "Wear with short hair or hair tucked behind the ears.",
+        "de": "Zu kurzen oder hinters Ohr gesteckten Haaren tragen."
+      },
+      "image": "products/round-studs.webp",
+      "sha256": "4648a8f342ed2406a4dd8f3a5d9f2a70d3f11396787f3bcf5755394925d521a1",
+      "bytes": 16614,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; small round silver stud earrings pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b213"
+}

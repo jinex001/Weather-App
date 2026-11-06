@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04",
+  "batchId": "east-asian-clear-hot-humid-female-day-minimal-20261106",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime urban streets with a white-tiled cafe front, outdoor stairs with leaf shadows, a stone wall with a parked bicycle, a pedestrian crossing with street trees, and a residential wall with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five female editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "87f40e7edb6b3f38dad9ea6c852b28ba327cad7e1fd07212e304ba3edbad11e8",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-minimal-20261106.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04.tailored-vest",
+  "scenePropsNotProducts": [],
+  "reconstructionNotice": "The pedestrian crossing is the setting, not a product. The woman is seen from behind, so the vest's front and the shorts' front are conservatively reconstructed from the visible back, collar and hems. The tote's far side is inferred. Both sandals are visible and listed as one pair. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-06T11:45:05.224242+00:00",
+    "productCount": 20,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Compared five sheets with approved editorials. Hidden construction reconstructed, including vest front, earring backs and bag closures. No scene props.",
+      "Producer reviewed the editorials and all twenty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "PALE BLUE AT THE CROSSING",
+    "title": {
+      "ko": "횡단보도의 연파랑",
+      "en": "Pale blue at the crossing",
+      "de": "Hellblau am Zebrastreifen"
+    },
+    "deck": {
+      "ko": "베스트와 턴업 쇼츠를 한 벌로 맞춘 낮 착장.",
+      "en": "A tailored vest and cuffed shorts in the same blue.",
+      "de": "Eine taillierte Weste mit Shorts im selben Blauton."
+    },
+    "intro": {
+      "ko": "횡단보도를 건너며 어깨 너머로 돌아본다.",
+      "en": "She looks back over her shoulder as she crosses the street.",
+      "de": "Beim Überqueren blickt sie über die Schulter zurück."
+    },
+    "body": {
+      "ko": "베스트 뒤 허리 탭과 쇼츠의 접힌 밑단이 셋업의 선을 또렷하게 만든다. 크림 토트와 탄색 샌들을 더했다.",
+      "en": "A back waist tab and turned-up hems give the matching pieces definition. A cream tote and tan sandals soften the blue.",
+      "de": "Der Rückengurt der Weste und die umgeschlagenen Säume geben dem Set Kontur. Eine cremefarbene Tasche und hellbraune Sandalen ergänzen das Blau."
+    },
+    "pull": {
+      "ko": "같은 색으로 이어지는 허리와 무릎.",
+      "en": "One blue from waist to knee.",
+      "de": "Ein Blauton von der Taille bis zum Knie."
+    },
+    "pullQuoteEn": "One blue from waist to knee.",
+    "tip": {
+      "ko": "토트 손잡이 두 개를 함께 쥐고 걸으세요.",
+      "en": "Hold both tote handles together as you walk.",
+      "de": "Beim Gehen beide Henkel zusammenhalten."
+    }
+  },
+  "products": [
+    {
+      "id": "tailored-vest",
+      "producerId": "04-01",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04.tailored-vest",
+      "appCategory": "top",
+      "producerCategory": "vest",
+      "name": {
+        "ko": "연파랑 테일러드 베스트",
+        "en": "Pale blue tailored vest",
+        "de": "Hellblaue taillierte Weste"
+      },
+      "nameKo": "연파랑 테일러드 베스트",
+      "description": {
+        "ko": "칼라와 허리선을 잡은 민소매 재단.",
+        "en": "Sleeveless tailoring with a collar and defined waist.",
+        "de": "Ärmelloser Schnitt mit Kragen und betonter Taille."
+      },
+      "howToWear": {
+        "ko": "같은 색 쇼츠와 한 벌처럼 입으세요.",
+        "en": "Wear as a set with the matching shorts.",
+        "de": "Als Set mit den passenden Shorts tragen."
+      },
+      "image": "products/tailored-vest.webp",
+      "sha256": "4acbe922cfaba84a7ecb6e04d9ea26ada83db1a37d3734883a8b1d608c71756a",
+      "bytes": 34488,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pale blue fitted sleeveless collared vest with rear waist tab",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cuffed-shorts",
+      "producerId": "04-02",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04.cuffed-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "연파랑 턴업 쇼츠",
+        "en": "Pale blue cuffed shorts",
+        "de": "Hellblaue Shorts mit Umschlag"
+      },
+      "nameKo": "연파랑 턴업 쇼츠",
+      "description": {
+        "ko": "무릎 길이와 접어 올린 밑단.",
+        "en": "Knee length with turned-up hems.",
+        "de": "Knielanger Schnitt mit umgeschlagenen Säumen."
+      },
+      "howToWear": {
+        "ko": "밑단을 펴고 낮은 샌들과 매치하세요.",
+        "en": "Smooth the cuffs and pair with flat sandals.",
+        "de": "Die Umschläge glatt legen und flache Sandalen dazu tragen."
+      },
+      "image": "products/cuffed-shorts.webp",
+      "sha256": "19bbf3c20f5d4952b76621acae0ca7029b967ebd5001154f30f17ef21222ddd8",
+      "bytes": 41020,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pale blue tailored knee shorts with cuffs",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "strappy-sandals",
+      "producerId": "04-03",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04.strappy-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "탄색 스트랩 샌들",
+        "en": "Tan strappy sandals",
+        "de": "Hellbraune Riemchensandalen"
+      },
+      "nameKo": "탄색 스트랩 샌들",
+      "description": {
+        "ko": "가는 앞 스트랩과 발목 버클.",
+        "en": "Fine front straps and ankle buckles.",
+        "de": "Feine Vorderriemen und Schnallen am Knöchel."
+      },
+      "howToWear": {
+        "ko": "연파랑 셋업에 따뜻한 색을 더하세요.",
+        "en": "Add a warm accent to the pale blue set.",
+        "de": "Einen warmen Akzent zum hellblauen Set setzen."
+      },
+      "image": "products/strappy-sandals.webp",
+      "sha256": "e34959019ad55259f92943a8aab5d7e2f48bad25144c66c96ab02fa167549f3e",
+      "bytes": 44696,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; tan thin-strap flat sandals pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "two-handle-tote",
+      "producerId": "04-04",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-04.two-handle-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "크림 투핸들 토트",
+        "en": "Cream two-handle tote",
+        "de": "Cremefarbene Tasche mit zwei Henkeln"
+      },
+      "nameKo": "크림 투핸들 토트",
+      "description": {
+        "ko": "밝은 천 몸체와 긴 손잡이 두 개.",
+        "en": "Pale fabric body and two long handles.",
+        "de": "Heller Stoffkörper mit zwei langen Henkeln."
+      },
+      "howToWear": {
+        "ko": "두 손잡이를 함께 잡아 가방이 기울지 않게 하세요.",
+        "en": "Hold both handles together to keep the bag level.",
+        "de": "Beide Henkel zusammenfassen, damit die Tasche gerade hängt."
+      },
+      "image": "products/two-handle-tote.webp",
+      "sha256": "f2b3fa51e58ab18147f194d142841182214c27617f8a98c8b04d11dca952a3f5",
+      "bytes": 31132,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; unbleached cream tote with two straps",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b213"
+}

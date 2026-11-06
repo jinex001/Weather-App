@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02",
+  "batchId": "east-asian-clear-hot-humid-female-day-minimal-20261106",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime urban streets with a white-tiled cafe front, outdoor stairs with leaf shadows, a stone wall with a parked bicycle, a pedestrian crossing with street trees, and a residential wall with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five female editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "c0a4f2b841a07127d96166db087ae8586547450bccbbc941a8b882f9ea951b31",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-minimal-20261106.js",
+  "appHeroItem": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02.square-toe-mules",
+  "scenePropsNotProducts": [
+    "stair handrail",
+    "planter"
+  ],
+  "reconstructionNotice": "The stairs, handrail and planter are the setting, not products. The camera looks down from above, so the top's back and the trousers' back are conservatively reconstructed, and the arm partly hides the shoulder bag, whose far side and closure are inferred. Both mules are visible and listed as one pair. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-06T11:45:05.224242+00:00",
+    "productCount": 20,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "Compared five sheets with approved editorials. Hidden construction reconstructed, including vest front, earring backs and bag closures. No scene props.",
+      "Producer reviewed the editorials and all twenty products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "LEAF SHADOWS ON THE STAIRS",
+    "title": {
+      "ko": "계단에 내려앉은 그림자",
+      "en": "Leaf shadows on the stairs",
+      "de": "Blätterschatten auf der Treppe"
+    },
+    "deck": {
+      "ko": "검정 상의와 오트밀 팬츠의 간결한 대비.",
+      "en": "A clean contrast between a black top and oatmeal trousers.",
+      "de": "Ein klarer Kontrast aus Schwarz und Haferbeige."
+    },
+    "intro": {
+      "ko": "계단에서 나뭇잎 그림자 쪽으로 눈길이 간다.",
+      "en": "Her gaze follows the leaf shadows across the steps.",
+      "de": "Ihr Blick folgt den Blätterschatten auf den Stufen."
+    },
+    "body": {
+      "ko": "민소매 모크넥 아래 앞주름 팬츠가 넓게 떨어진다. 검정 가방과 각진 뮬이 위아래를 잇는다.",
+      "en": "Pleats open into wide legs below the sleeveless mock neck. The black bag and square-toe mules connect the top and bottom.",
+      "de": "Unter dem ärmellosen Top mit Stehkragen öffnen sich die Bundfalten zu weiten Beinen. Schwarze Tasche und Mules greifen den Ton des Tops auf."
+    },
+    "pull": {
+      "ko": "오트밀 밑단 사이로 보이는 검정 앞코.",
+      "en": "A black toe beneath the oatmeal hem.",
+      "de": "Schwarze Spitzen unter hellem Saum."
+    },
+    "pullQuoteEn": "A black toe beneath the oatmeal hem.",
+    "tip": {
+      "ko": "바지 길이를 맞춰 뮬의 각진 앞코를 살리세요.",
+      "en": "Set the trouser length to show the square toes.",
+      "de": "Die Hosenlänge so wählen, dass die eckigen Schuhspitzen sichtbar bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "sleeveless-mock-neck",
+      "producerId": "02-01",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02.sleeveless-mock-neck",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "검정 민소매 모크넥",
+        "en": "Black sleeveless mock neck",
+        "de": "Schwarzes ärmelloses Top mit Stehkragen"
+      },
+      "nameKo": "검정 민소매 모크넥",
+      "description": {
+        "ko": "낮은 스탠드 칼라와 몸에 붙는 허리선.",
+        "en": "Low stand collar and a fitted waist.",
+        "de": "Niedriger Stehkragen und körpernahe Taille."
+      },
+      "howToWear": {
+        "ko": "넓은 팬츠와 상하 폭의 대비를 살리세요.",
+        "en": "Balance the fitted top with wide trousers.",
+        "de": "Das schmale Top mit weiter Hose ausgleichen."
+      },
+      "image": "products/sleeveless-mock-neck.webp",
+      "sha256": "5abba32e54e9c33fb4e4c313f2ec8cdda7a1215f345344a190728be298eafcd3",
+      "bytes": 12348,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black sleeveless fitted mock-neck top",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pleated-trousers",
+      "producerId": "02-02",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02.pleated-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "오트밀 플리츠 팬츠",
+        "en": "Oatmeal pleated trousers",
+        "de": "Haferfarbene Bundfaltenhose"
+      },
+      "nameKo": "오트밀 플리츠 팬츠",
+      "description": {
+        "ko": "앞주름과 발목까지 넓게 떨어지는 실루엣.",
+        "en": "Front pleats and wide legs down to the ankle.",
+        "de": "Bundfalten und weite Beine bis zum Knöchel."
+      },
+      "howToWear": {
+        "ko": "뮬 앞코가 보이도록 밑단을 정리하세요.",
+        "en": "Set the hem to reveal the mule toes.",
+        "de": "Den Saum so wählen, dass die Schuhspitzen sichtbar bleiben."
+      },
+      "image": "products/pleated-trousers.webp",
+      "sha256": "e6f0a3b54645dbc15b565f9391ec6872b0815c294796cc683638212c0fd63024",
+      "bytes": 33910,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; oatmeal wide-leg pleated trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "square-toe-mules",
+      "producerId": "02-03",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02.square-toe-mules",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 스퀘어토 뮬",
+        "en": "Black square-toe mules",
+        "de": "Schwarze Mules mit Karreespitze"
+      },
+      "nameKo": "검정 스퀘어토 뮬",
+      "description": {
+        "ko": "각진 앞코와 뒤가 열린 낮은 신발.",
+        "en": "Square toes and open heels on a low sole.",
+        "de": "Eckige Spitzen und offene Fersen auf flacher Sohle."
+      },
+      "howToWear": {
+        "ko": "오트밀 팬츠 아래 검정 앞코를 살짝 보이게 하세요.",
+        "en": "Let the black toes peek below the oatmeal trousers.",
+        "de": "Die schwarzen Spitzen unter der haferfarbenen Hose zeigen."
+      },
+      "image": "products/square-toe-mules.webp",
+      "sha256": "91164d96d5acdecedfc670da2410740210d23a2aac961d77538365cd378756a6",
+      "bytes": 19636,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black square-toe flat mules pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "slim-shoulder-bag",
+      "producerId": "02-04",
+      "appItemId": "east-asian-clear-hot-humid-f35-day-minimal-20261106-02.slim-shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "검정 슬림 숄더백",
+        "en": "Slim black shoulder bag",
+        "de": "Schmale schwarze Schultertasche"
+      },
+      "nameKo": "검정 슬림 숄더백",
+      "description": {
+        "ko": "길쭉한 몸체와 가는 어깨끈.",
+        "en": "Elongated body and a slim shoulder strap.",
+        "de": "Länglicher Taschenkörper und schmaler Schulterriemen."
+      },
+      "howToWear": {
+        "ko": "겨드랑이 아래 가까이 들어 상의 선을 살리세요.",
+        "en": "Carry it high under the arm to keep the top's line clear.",
+        "de": "Hoch unter dem Arm tragen, damit die Linie des Tops sichtbar bleibt."
+      },
+      "image": "products/slim-shoulder-bag.webp",
+      "sha256": "caf8cda3db3de6c97f3d9215d799b82ef26024b4df98f6232219d448d3fc1a1f",
+      "bytes": 16086,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; structured slim black shoulder bag",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b213"
+}
