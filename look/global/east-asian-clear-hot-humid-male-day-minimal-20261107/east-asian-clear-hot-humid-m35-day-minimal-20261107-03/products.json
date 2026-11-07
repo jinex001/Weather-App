@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03",
+  "batchId": "east-asian-clear-hot-humid-male-day-minimal-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban lanes: a cafe doorway with a tiled step, steep stone stairs between low houses, a stone wall in a residential lane, a concrete wall with a parked bicycle, and a narrow alley with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "510f4e8e5524f105a3b4ff65eb8fca34e0eb6084ccf595e9d73e8d9a049419d2",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-minimal-20261107.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.pocket-shirt",
+  "scenePropsNotProducts": [
+    "paper"
+  ],
+  "reconstructionNotice": "The stone wall and the paper he picks up are the setting, not products. He bends forward, so the shirt's lower front and the shorts' waist are partly hidden and conservatively reconstructed, and the tote's far side is inferred. Both sandals are visible and listed as one pair. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-07T15:39:38.575663+00:00",
+    "productCount": 23,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed five final sheets against editorial images. Garments now isolated without footwear. Hidden shirt fronts, bag closures and watch faces conservatively reconstructed. Previous eight failed masters retained in superseded.",
+      "Producer reviewed the editorials and all twenty-three products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "PAPER ON THE LANE",
+    "title": {
+      "ko": "종이가 떨어진 골목",
+      "en": "Paper on the lane",
+      "de": "Papier in der Gasse"
+    },
+    "deck": {
+      "ko": "연파랑 셔츠와 아이보리 쇼츠의 밝은 배색.",
+      "en": "Pale blue and ivory in the midday sun.",
+      "de": "Hellblau und Elfenbein in der Mittagssonne."
+    },
+    "intro": {
+      "ko": "담장 아래 떨어진 종이를 향해 손을 뻗는다.",
+      "en": "He reaches for a folded paper beside the wall.",
+      "de": "Neben der Mauer greift er nach einem gefalteten Papier."
+    },
+    "body": {
+      "ko": "무릎 길이 쇼츠의 앞주름과 여유로운 반소매가 움직임을 따른다. 탄색 샌들과 크림 토트로 색을 부드럽게 이어 간다.",
+      "en": "Knee-length pleated shorts and loose short sleeves follow the bend. Tan slides and a cream tote continue the soft palette.",
+      "de": "Knielange Bundfaltenshorts und lockere kurze Ärmel folgen der Bewegung. Hellbraune Sandalen und eine cremefarbene Tasche ergänzen die hellen Farben."
+    },
+    "pull": {
+      "ko": "연파랑 아래 따뜻한 탄색.",
+      "en": "Warm tan beneath pale blue.",
+      "de": "Warmes Braun unter Hellblau."
+    },
+    "pullQuoteEn": "Warm tan beneath pale blue.",
+    "tip": {
+      "ko": "숙일 때 토트 손잡이를 함께 잡으세요.",
+      "en": "Hold the tote handles together when bending.",
+      "de": "Beim Bücken die Taschenhenkel zusammenhalten."
+    }
+  },
+  "products": [
+    {
+      "id": "pocket-shirt",
+      "producerId": "03-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.pocket-shirt",
+      "appCategory": "top",
+      "producerCategory": "shirt",
+      "name": {
+        "ko": "연파랑 포켓 셔츠",
+        "en": "Pale blue pocket shirt",
+        "de": "Hellblaues Hemd mit Brusttasche"
+      },
+      "nameKo": "연파랑 포켓 셔츠",
+      "description": {
+        "ko": "흰 단추와 가슴 포켓의 반팔 셔츠.",
+        "en": "Short-sleeve shirt with white buttons and chest pocket.",
+        "de": "Kurzarmhemd mit weißen Knöpfen und Brusttasche."
+      },
+      "howToWear": {
+        "ko": "윗단추를 풀어 칼라를 편하게 두세요.",
+        "en": "Undo the top button to relax the collar.",
+        "de": "Den obersten Knopf für einen lockeren Kragen öffnen."
+      },
+      "image": "products/pocket-shirt.webp",
+      "sha256": "02f65964a36631155d1118f315e6378f7594e7c888a1e6945a3ca06ab992349b",
+      "bytes": 49016,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pale blue short sleeve button shirt with chest pocket and white buttons",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tailored-shorts",
+      "producerId": "03-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.tailored-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "아이보리 테일러드 쇼츠",
+        "en": "Ivory tailored shorts",
+        "de": "Elfenbeinfarbene Bundfaltenshorts"
+      },
+      "nameKo": "아이보리 테일러드 쇼츠",
+      "description": {
+        "ko": "앞주름과 무릎 길이의 곧은 재단.",
+        "en": "Front pleats and a straight knee-length cut.",
+        "de": "Bundfalten und gerader knielanger Schnitt."
+      },
+      "howToWear": {
+        "ko": "셔츠 앞단을 살짝 넣어 주름을 보이세요.",
+        "en": "Tuck a little shirt front in to show the pleats.",
+        "de": "Die Hemdfront leicht einstecken, um die Falten zu zeigen."
+      },
+      "image": "products/tailored-shorts.webp",
+      "sha256": "3f8fb1a5afd10e595c01517827ceb3fe263ab3c0056a262690c69b523cd2b1db",
+      "bytes": 32778,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ivory tailored knee-length shorts",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "slide-sandals",
+      "producerId": "03-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.slide-sandals",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "탄색 슬라이드 샌들",
+        "en": "Tan slide sandals",
+        "de": "Hellbraune Schlupfsandalen"
+      },
+      "nameKo": "탄색 슬라이드 샌들",
+      "description": {
+        "ko": "가는 스트랩 두 줄과 평평한 밑창.",
+        "en": "Two slim straps and a flat sole.",
+        "de": "Zwei schmale Riemen und flache Sohle."
+      },
+      "howToWear": {
+        "ko": "밝은 쇼츠 아래 따뜻한 톤을 더하세요.",
+        "en": "Add a warm tone below the pale shorts.",
+        "de": "Unter den hellen Shorts einen warmen Farbton setzen."
+      },
+      "image": "products/slide-sandals.webp",
+      "sha256": "e8bc1ea9a85defdc65ab6011e510ff21828272f1de67ab4a744a43aae5022e2b",
+      "bytes": 37764,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; tan thin two-strap flat sandals pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "canvas-tote",
+      "producerId": "03-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.canvas-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "크림 캔버스 토트",
+        "en": "Cream canvas tote",
+        "de": "Cremefarbene Canvastasche"
+      },
+      "nameKo": "크림 캔버스 토트",
+      "description": {
+        "ko": "무지 천 몸체와 긴 손잡이 두 개.",
+        "en": "Plain fabric body and two long handles.",
+        "de": "Schlichter Stoffkörper und zwei lange Henkel."
+      },
+      "howToWear": {
+        "ko": "숙일 때 손잡이를 잡아 앞으로 쏠리지 않게 하세요.",
+        "en": "Hold the handles when bending to keep the bag close.",
+        "de": "Beim Bücken die Henkel halten, damit die Tasche körpernah bleibt."
+      },
+      "image": "products/canvas-tote.webp",
+      "sha256": "b1c8ab076baa82bb782453299855613ab5934e3714ed52ee459957007df8e4a8",
+      "bytes": 32756,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; plain cream canvas tote",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b214"
+}

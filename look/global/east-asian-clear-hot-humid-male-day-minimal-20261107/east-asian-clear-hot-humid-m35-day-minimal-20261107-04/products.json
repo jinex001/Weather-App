@@ -1,0 +1,335 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04",
+  "batchId": "east-asian-clear-hot-humid-male-day-minimal-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban lanes: a cafe doorway with a tiled step, steep stone stairs between low houses, a stone wall in a residential lane, a concrete wall with a parked bicycle, and a narrow alley with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7f7bb7b9bd32c74be82185b7613fe5bfbd45512efc5d3985294804ded578ff85",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-minimal-20261107.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.sleeveless-knit-polo",
+  "scenePropsNotProducts": [
+    "bicycle",
+    "bike lock"
+  ],
+  "reconstructionNotice": "The bicycle and its lock are scene props, not products. He leans forward over the bike, so the knit polo's back and the bag's far side and closure are conservatively reconstructed, and the watch dial is inferred. Both mules are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-07T15:39:38.575663+00:00",
+    "productCount": 23,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed five final sheets against editorial images. Garments now isolated without footwear. Hidden shirt fronts, bag closures and watch faces conservatively reconstructed. Previous eight failed masters retained in superseded.",
+      "Producer reviewed the editorials and all twenty-three products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "ECRU BESIDE THE BICYCLE",
+    "title": {
+      "ko": "자전거 옆의 에크루",
+      "en": "Ecru beside the bicycle",
+      "de": "Ecru am Fahrrad"
+    },
+    "deck": {
+      "ko": "민소매 니트와 슬레이트 바지의 질감 대비.",
+      "en": "A sleeveless knit against slate trousers.",
+      "de": "Ärmelloser Strick zur schiefergrauen Hose."
+    },
+    "intro": {
+      "ko": "잠금장치에 두 손을 모으자 가방이 등 쪽으로 움직인다.",
+      "en": "As both hands reach the lock, the bag shifts behind him.",
+      "de": "Als beide Hände zum Schloss gehen, rutscht die Tasche nach hinten."
+    },
+    "body": {
+      "ko": "칼라와 작은 단추가 성긴 니트에 선을 더한다. 길게 떨어지는 바지 아래 갈색 뮬이 보이고 토프 가방의 사선 지퍼가 빛을 받는다.",
+      "en": "A collar and small buttons define the textured knit. Brown mules show below long straight hems, and a diagonal zip catches the light.",
+      "de": "Kragen und kleine Knöpfe geben dem strukturierten Strick Kontur. Unter langen geraden Säumen zeigen sich braune Mules, der schräge Taschenreißverschluss fängt Licht."
+    },
+    "pull": {
+      "ko": "밝은 짜임과 곧은 회색 선.",
+      "en": "Pale knit beside a straight gray line.",
+      "de": "Heller Strick neben einer geraden grauen Linie."
+    },
+    "pullQuoteEn": "Pale knit beside a straight gray line.",
+    "tip": {
+      "ko": "가방을 뒤로 돌려 잠금장치 앞 공간을 비우세요.",
+      "en": "Move the bag behind you to leave room by the lock.",
+      "de": "Die Tasche hinter den Körper drehen, damit am Schloss Platz bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "sleeveless-knit-polo",
+      "producerId": "04-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.sleeveless-knit-polo",
+      "appCategory": "top",
+      "producerCategory": "polo",
+      "name": {
+        "ko": "에크루 민소매 니트 폴로",
+        "en": "Ecru sleeveless knit polo",
+        "de": "Ärmelloses Strickpolo in Ecru"
+      },
+      "nameKo": "에크루 민소매 니트 폴로",
+      "description": {
+        "ko": "성긴 표면 짜임과 칼라, 밝은 단추.",
+        "en": "Textured knit, collar and pale buttons.",
+        "de": "Strukturierter Strick, Kragen und helle Knöpfe."
+      },
+      "howToWear": {
+        "ko": "슬레이트 바지 위에 밑단을 두세요.",
+        "en": "Let the hem fall over the slate trousers.",
+        "de": "Den Saum über die schiefergraue Hose fallen lassen."
+      },
+      "image": "products/sleeveless-knit-polo.webp",
+      "sha256": "5538b8fa3bac8c383d0367a8fafde1ccfd43fb376751a0608b9a4ecaffc5b8ab",
+      "bytes": 47694,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; ecru sleeveless textured knit polo with pale buttons",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "04-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "trousers",
+      "name": {
+        "ko": "슬레이트 스트레이트 팬츠",
+        "en": "Slate straight trousers",
+        "de": "Schiefergraue gerade Hose"
+      },
+      "nameKo": "슬레이트 스트레이트 팬츠",
+      "description": {
+        "ko": "앞주름과 길게 떨어지는 곧은 다리선.",
+        "en": "Front pleats and long straight legs.",
+        "de": "Bundfalten und lange gerade Beine."
+      },
+      "howToWear": {
+        "ko": "뮬 뒤축에 밑단이 끼지 않게 정리하세요.",
+        "en": "Keep the hems clear of the mule heels.",
+        "de": "Den Saum von den offenen Fersen fernhalten."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "ff92916029013b7fd1b0c56f9b9a5260e5cdf0364efe5edab3b54557ce5dbb31",
+      "bytes": 20918,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; slate straight tailored trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "flat-mules",
+      "producerId": "04-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.flat-mules",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "짙은 갈색 플랫 뮬",
+        "en": "Dark brown flat mules",
+        "de": "Dunkelbraune flache Mules"
+      },
+      "nameKo": "짙은 갈색 플랫 뮬",
+      "description": {
+        "ko": "앞코가 닫히고 뒤축이 열린 한 켤레.",
+        "en": "Closed-toe pair with open heels.",
+        "de": "Paar mit geschlossener Spitze und offener Ferse."
+      },
+      "howToWear": {
+        "ko": "니트의 밝은 톤 아래 짙은 색을 더하세요.",
+        "en": "Ground the pale knit with a dark shoe.",
+        "de": "Den hellen Strick mit dunklen Schuhen ergänzen."
+      },
+      "image": "products/flat-mules.webp",
+      "sha256": "ee8296807a21d46d6ffdc673d4d9eac2de62e1a0162943f3fdd13860ed68af7d",
+      "bytes": 28902,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; dark brown closed-toe flat leather mules pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "diagonal-zip-bag",
+      "producerId": "04-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.diagonal-zip-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "토프 사선 지퍼백",
+        "en": "Taupe diagonal-zip bag",
+        "de": "Taupefarbene Tasche mit schrägem Reißverschluss"
+      },
+      "nameKo": "토프 사선 지퍼백",
+      "description": {
+        "ko": "곡선 몸체와 사선 앞지퍼, 넓은 조절 끈.",
+        "en": "Curved body, diagonal front zip and broad strap.",
+        "de": "Geschwungener Körper, schräger Frontreißverschluss und breiter Riemen."
+      },
+      "howToWear": {
+        "ko": "자전거 잠금을 풀 때 가방을 등 쪽으로 돌리세요.",
+        "en": "Turn the bag behind you while unlocking the bike.",
+        "de": "Beim Aufschließen des Fahrrads die Tasche nach hinten drehen."
+      },
+      "image": "products/diagonal-zip-bag.webp",
+      "sha256": "ef58fc3835191573abf49938054ea06fe6970fe212438d30aaa3b034c797541f",
+      "bytes": 36052,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; taupe zip crossbody with broad adjustable strap and diagonal front zipper",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pale-dial-watch",
+      "producerId": "04-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.pale-dial-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "은색 밝은 다이얼 시계",
+        "en": "Silver-tone pale-dial watch",
+        "de": "Silberfarbene Uhr mit hellem Zifferblatt"
+      },
+      "nameKo": "은색 밝은 다이얼 시계",
+      "description": {
+        "ko": "작은 원형 케이스와 링크 브레이슬릿.",
+        "en": "Small round case and link bracelet.",
+        "de": "Kleines rundes Gehäuse und Gliederband."
+      },
+      "howToWear": {
+        "ko": "가방의 은색 지퍼와 맞춰 차세요.",
+        "en": "Echo the bag's silver-tone zip.",
+        "de": "Den silberfarbenen Taschenreißverschluss aufgreifen."
+      },
+      "image": "products/pale-dial-watch.webp",
+      "sha256": "e1aeebc69481a3d22fedae7bc9839f05070a94fde8e3014c98463a34d2c4e5f1",
+      "bytes": 36538,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver round metal bracelet watch",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b214"
+}

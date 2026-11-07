@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05",
+  "batchId": "east-asian-clear-hot-humid-male-day-minimal-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban lanes: a cafe doorway with a tiled step, steep stone stairs between low houses, a stone wall in a residential lane, a concrete wall with a parked bicycle, and a narrow alley with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "818b7b0eacb93ef44497c29d260fc6b446b83dbff5480413fe54e1fc178d2937",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 4,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-minimal-20261107.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.rectangular-shoulder-bag",
+  "scenePropsNotProducts": [
+    "metal gate"
+  ],
+  "reconstructionNotice": "The metal gate is a scene prop, not a product. He is seen from behind, so the shirt's front is conservatively reconstructed from the visible back, collar and curved hem, and the shoulder bag's far side and closure are inferred. Both slides are visible and listed as one pair. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-07T15:39:38.575663+00:00",
+    "productCount": 23,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed five final sheets against editorial images. Garments now isolated without footwear. Hidden shirt fronts, bag closures and watch faces conservatively reconstructed. Previous eight failed masters retained in superseded.",
+      "Producer reviewed the editorials and all twenty-three products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "TURNING BACK AT THE GATE",
+    "title": {
+      "ko": "돌아보며 잡은 문",
+      "en": "Turning back at the gate",
+      "de": "Ein Blick zurück am Tor"
+    },
+    "deck": {
+      "ko": "검정 셔츠와 웜 토프 바지에 버건디 한 점.",
+      "en": "Black and warm taupe with a burgundy accent.",
+      "de": "Schwarz und warmes Taupe mit Burgunderrot."
+    },
+    "intro": {
+      "ko": "지나온 문손잡이를 잡으며 어깨 너머로 웃는다.",
+      "en": "He looks back with a smile while catching the gate handle.",
+      "de": "Beim Griff nach dem Tor blickt er lächelnd zurück."
+    },
+    "body": {
+      "ko": "둥근 셔츠 밑단이 넓은 바지 위에 놓인다. 검정 슬라이드가 상의 색을 잇고 버건디 가방은 옆구리에 놓인다.",
+      "en": "A curved shirt hem falls over wide trousers. Black slides echo the shirt, and a burgundy bag rests at the side.",
+      "de": "Der gerundete Hemdsaum liegt über der weiten Hose. Schwarze Sandalen greifen den Hemdton auf, die burgunderrote Tasche sitzt seitlich."
+    },
+    "pull": {
+      "ko": "검정 옆으로 보이는 버건디.",
+      "en": "Burgundy against black.",
+      "de": "Burgunderrot neben Schwarz."
+    },
+    "pullQuoteEn": "Burgundy against black.",
+    "tip": {
+      "ko": "가방 끈 길이를 맞춰 문손잡이에 걸리지 않게 하세요.",
+      "en": "Adjust the strap so the bag stays clear of the gate handle.",
+      "de": "Den Riemen so einstellen, dass die Tasche vom Türgriff frei bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "band-collar-shirt",
+      "producerId": "05-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.band-collar-shirt",
+      "appCategory": "top",
+      "producerCategory": "shirt",
+      "name": {
+        "ko": "검정 반팔 밴드칼라 셔츠",
+        "en": "Black band-collar short-sleeve shirt",
+        "de": "Schwarzes Kurzarmhemd mit Stehkragen"
+      },
+      "nameKo": "검정 반팔 밴드칼라 셔츠",
+      "description": {
+        "ko": "짧은 칼라와 앞단추, 둥근 밑단.",
+        "en": "Low collar, front buttons and curved hem.",
+        "de": "Niedriger Kragen, Frontknöpfe und gerundeter Saum."
+      },
+      "howToWear": {
+        "ko": "토프 바지 위로 밑단을 꺼내 입으세요.",
+        "en": "Wear untucked over the taupe trousers.",
+        "de": "Über der taupefarbenen Hose tragen."
+      },
+      "image": "products/band-collar-shirt.webp",
+      "sha256": "0b4f41ae4d587d189baef8d5b271d28365b3c0136025bd6f4d10114584312e80",
+      "bytes": 34216,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black short sleeve collarless button shirt, gently curved hem, conservatively restore hidden front",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-trousers",
+      "producerId": "05-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.wide-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "trousers",
+      "name": {
+        "ko": "웜 토프 와이드 팬츠",
+        "en": "Warm taupe wide trousers",
+        "de": "Weite Hose in warmem Taupe"
+      },
+      "nameKo": "웜 토프 와이드 팬츠",
+      "description": {
+        "ko": "깊은 앞주름과 넓고 긴 다리선.",
+        "en": "Deep front pleats and long wide legs.",
+        "de": "Tiefe Bundfalten und lange weite Beine."
+      },
+      "howToWear": {
+        "ko": "샌들 위에서 밑단이 모이지 않게 길이를 맞추세요.",
+        "en": "Set the length so the hems do not bunch over the slides.",
+        "de": "Die Länge so wählen, dass sich der Saum nicht über den Sandalen staut."
+      },
+      "image": "products/wide-trousers.webp",
+      "sha256": "5aad864cf45bb0711b5bc766e0166992ec0de3cfc2d65486dac5f4dd35e6ea4f",
+      "bytes": 31000,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; warm taupe pleated wide trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "broad-strap-slides",
+      "producerId": "05-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.broad-strap-slides",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 와이드 스트랩 슬라이드",
+        "en": "Black broad-strap slides",
+        "de": "Schwarze Pantoletten mit breiten Riemen"
+      },
+      "nameKo": "검정 와이드 스트랩 슬라이드",
+      "description": {
+        "ko": "검정 스트랩 두 줄과 단순한 밑창.",
+        "en": "Two black straps and a plain sole.",
+        "de": "Zwei schwarze Riemen und schlichte Sohle."
+      },
+      "howToWear": {
+        "ko": "셔츠의 검정을 발끝에서 반복하세요.",
+        "en": "Repeat the shirt's black at the feet.",
+        "de": "Das Schwarz des Hemds an den Füßen wiederholen."
+      },
+      "image": "products/broad-strap-slides.webp",
+      "sha256": "8ab99f92a841e1a4229a1fda1a5cdeb8b29f25427d68717cf18b1a164d957d2d",
+      "bytes": 23042,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black two-strap flat slides pair",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rectangular-shoulder-bag",
+      "producerId": "05-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.rectangular-shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "버건디 사각 숄더백",
+        "en": "Burgundy rectangular shoulder bag",
+        "de": "Burgunderrote rechteckige Schultertasche"
+      },
+      "nameKo": "버건디 사각 숄더백",
+      "description": {
+        "ko": "은색 지퍼와 조절 스트랩의 사각 가방.",
+        "en": "Rectangular bag with silver-tone zip and adjustable strap.",
+        "de": "Rechteckige Tasche mit silberfarbenem Reißverschluss und verstellbarem Riemen."
+      },
+      "howToWear": {
+        "ko": "검정 셔츠 옆으로 가방 색이 보이게 메세요.",
+        "en": "Let the burgundy show beside the black shirt.",
+        "de": "Die burgunderrote Farbe neben dem schwarzen Hemd zeigen."
+      },
+      "image": "products/rectangular-shoulder-bag.webp",
+      "sha256": "c8eeb1a69fa27adf7716ec9ca28025baf5b7524528024d6d17b38d01c5938ff1",
+      "bytes": 23028,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; burgundy rectangular zip shoulder bag with silver hardware and adjustable strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b214"
+}

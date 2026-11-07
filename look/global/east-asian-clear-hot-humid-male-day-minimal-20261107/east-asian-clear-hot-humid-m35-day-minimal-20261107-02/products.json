@@ -1,0 +1,335 @@
+{
+  "schemaVersion": "1.0",
+  "id": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02",
+  "batchId": "east-asian-clear-hot-humid-male-day-minimal-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban lanes: a cafe doorway with a tiled step, steep stone stairs between low houses, a stone wall in a residential lane, a concrete wall with a parked bicycle, and a narrow alley with a metal gate; hard direct sun with sharp shadows and a visible sheen of sweat on skin. No rain is depicted. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the five male editorials were explicitly approved (userApprovedEditorials true), with publication under the user's standing workflow authorization (2026-11-03, \"앞으로도 승인 없이 진행\"). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "cbc050dcc79984a3a5ed3b65be60e425c516216bacceffc371c485e017b593e1",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02",
+  "appStyle": "minimal",
+  "appModule": "look/east-asian-clear-hot-humid-male-day-minimal-20261107.js",
+  "appHeroItem": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.wide-cropped-trousers",
+  "scenePropsNotProducts": [
+    "stair handrail",
+    "plants"
+  ],
+  "reconstructionNotice": "The stone stairs, handrail and plants are the setting, not products. The grit falling from the raised sandal is part of the scene; the slides are restored with clean soles. The crossbody's back and closure and the trousers' back are conservatively reconstructed, and the watch dial is only partly visible and is inferred. Both slides are visible and listed as one pair. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-07T15:39:38.575663+00:00",
+    "productCount": 23,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed five final sheets against editorial images. Garments now isolated without footwear. Hidden shirt fronts, bag closures and watch faces conservatively reconstructed. Previous eight failed masters retained in superseded.",
+      "Producer reviewed the editorials and all twenty-three products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "A SMALL STONE IN THE SANDAL",
+    "title": {
+      "ko": "샌들 속 작은 돌",
+      "en": "A small stone in the sandal",
+      "de": "Ein Stein in der Sandale"
+    },
+    "deck": {
+      "ko": "차콜 민소매와 스톤 크롭 팬츠의 가벼운 조합.",
+      "en": "Charcoal and stone in a light summer silhouette.",
+      "de": "Anthrazit und Stein in einer leichten Sommersilhouette."
+    },
+    "intro": {
+      "ko": "계단에서 한쪽 발을 들어 신발 속 돌을 턴다.",
+      "en": "On the stairs he lifts one foot to shake a stone free.",
+      "de": "Auf der Treppe hebt er einen Fuß und schüttelt einen Stein heraus."
+    },
+    "body": {
+      "ko": "짧은 크루넥 상의와 넓은 바지 밑단 사이로 검정 가방이 놓인다. 낮은 샌들과 은색 시계가 착장을 정리한다.",
+      "en": "A black crossbody sits between the sleeveless crew neck and wide cropped hems. Low sandals and a silver-tone watch complete the look.",
+      "de": "Zwischen ärmellosem Rundhalstop und weitem kurzem Saum liegt eine schwarze Tasche. Flache Sandalen und eine silberfarbene Uhr ergänzen den Look."
+    },
+    "pull": {
+      "ko": "검정 스트랩 위로 드러난 발목.",
+      "en": "An open ankle above black straps.",
+      "de": "Ein freier Knöchel über schwarzen Riemen."
+    },
+    "pullQuoteEn": "An open ankle above black straps.",
+    "tip": {
+      "ko": "신발을 정리할 때 난간 가까이에서 균형을 잡으세요.",
+      "en": "Steady yourself close to the railing while clearing the sandal.",
+      "de": "Beim Ausschütteln nahe am Geländer Halt suchen."
+    }
+  },
+  "products": [
+    {
+      "id": "sleeveless-crew-neck",
+      "producerId": "02-01",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.sleeveless-crew-neck",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "차콜 민소매 크루넥",
+        "en": "Charcoal sleeveless crew neck",
+        "de": "Ärmelloses Rundhalstop in Anthrazit"
+      },
+      "nameKo": "차콜 민소매 크루넥",
+      "description": {
+        "ko": "리브 둥근 목선과 곧은 밑단.",
+        "en": "Ribbed round neck and straight hem.",
+        "de": "Gerippter Rundhals und gerader Saum."
+      },
+      "howToWear": {
+        "ko": "밑단을 바지 위에 자연스럽게 두세요.",
+        "en": "Let the hem sit naturally over the trousers.",
+        "de": "Den Saum locker über der Hose lassen."
+      },
+      "image": "products/sleeveless-crew-neck.webp",
+      "sha256": "4942ae6c9f4b04e63862d9471d6d35d09688d35f634c68a3680b880fe4512f21",
+      "bytes": 46996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; charcoal sleeveless knit crewneck top",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-cropped-trousers",
+      "producerId": "02-02",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.wide-cropped-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "trousers",
+      "name": {
+        "ko": "스톤 와이드 크롭 팬츠",
+        "en": "Stone wide cropped trousers",
+        "de": "Steinfarbene weite verkürzte Hose"
+      },
+      "nameKo": "스톤 와이드 크롭 팬츠",
+      "description": {
+        "ko": "풍성한 앞주름과 넓은 크롭 다리선.",
+        "en": "Generous front pleats and wide cropped legs.",
+        "de": "Großzügige Bundfalten und weite verkürzte Beine."
+      },
+      "howToWear": {
+        "ko": "신발을 털기 전 난간 쪽에서 균형을 잡으세요.",
+        "en": "Steady yourself by the railing before clearing the sandal.",
+        "de": "Vor dem Ausschütteln der Sandale am Geländer Halt suchen."
+      },
+      "image": "products/wide-cropped-trousers.webp",
+      "sha256": "954402bbb161a0584ad488ea675f8ba6c40187fd40ac97eec9f5321ca15bf027",
+      "bytes": 37866,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pale stone wide pleated cropped trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "two-strap-slides",
+      "producerId": "02-03",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.two-strap-slides",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 투 스트랩 슬라이드",
+        "en": "Black two-strap slides",
+        "de": "Schwarze Pantoletten mit zwei Riemen"
+      },
+      "nameKo": "검정 투 스트랩 슬라이드",
+      "description": {
+        "ko": "넓은 검정 스트랩 두 줄의 낮은 샌들.",
+        "en": "Low sandals with two broad black straps.",
+        "de": "Flache Sandalen mit zwei breiten schwarzen Riemen."
+      },
+      "howToWear": {
+        "ko": "스톤색 바지와 맞춰 발등의 대비를 살리세요.",
+        "en": "Contrast the straps with the stone trousers.",
+        "de": "Die Riemen mit der steinfarbenen Hose kontrastieren."
+      },
+      "image": "products/two-strap-slides.webp",
+      "sha256": "f4501cd7c447fd3e8e2ccb4f0fd8bb8f269912ef646402a1ddaab183d4778567",
+      "bytes": 21108,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black two-strap flat slide sandals pair, restore clean soles without pebbles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "zip-crossbody",
+      "producerId": "02-04",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.zip-crossbody",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "검정 지퍼 크로스백",
+        "en": "Black zip crossbody",
+        "de": "Schwarze Umhängetasche mit Reißverschluss"
+      },
+      "nameKo": "검정 지퍼 크로스백",
+      "description": {
+        "ko": "사각 몸체와 넓은 조절 스트랩.",
+        "en": "Rectangular body and broad adjustable strap.",
+        "de": "Rechteckiger Körper und breiter verstellbarer Riemen."
+      },
+      "howToWear": {
+        "ko": "몸 앞 골반 가까이에 고정하세요.",
+        "en": "Keep it close to the front hip.",
+        "de": "Vorne hüftnah tragen."
+      },
+      "image": "products/zip-crossbody.webp",
+      "sha256": "1ff3f151b9583a17934e9432462e9789fc35b454ede5b067afb6dbfbeff9a727",
+      "bytes": 33012,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black rectangular zip crossbody with broad adjustable strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "bracelet-watch",
+      "producerId": "02-05",
+      "appItemId": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.bracelet-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "검정 다이얼 메탈 시계",
+        "en": "Dark-dial bracelet watch",
+        "de": "Gliederuhr mit dunklem Zifferblatt"
+      },
+      "nameKo": "검정 다이얼 메탈 시계",
+      "description": {
+        "ko": "검정 원형 다이얼과 은색 링크 밴드.",
+        "en": "Dark round dial and silver-tone links.",
+        "de": "Dunkles rundes Zifferblatt und silberfarbene Glieder."
+      },
+      "howToWear": {
+        "ko": "민소매 아래 손목에 단독으로 차세요.",
+        "en": "Wear alone at the wrist below the sleeveless top.",
+        "de": "Zum ärmellosen Top allein am Handgelenk tragen."
+      },
+      "image": "products/bracelet-watch.webp",
+      "sha256": "f0031459e6a1fe9deb995ede4d316e4feea5e3658b8e2ea9dd6d7b2b15b2a994",
+      "bytes": 38806,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver round dark dial metal bracelet watch",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했고 가려진 부분은 보수적으로 복원했습니다. 브랜드·판매 제품·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively reconstructed. Brand, retail identity, fiber composition and performance are unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Handelsidentität, Faserzusammensetzung und Leistung sind unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b214"
+}
