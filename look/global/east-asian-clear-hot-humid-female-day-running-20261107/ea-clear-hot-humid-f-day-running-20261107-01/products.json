@@ -1,0 +1,461 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ea-clear-hot-humid-f-day-running-20261107-01",
+  "batchId": "east-asian-clear-hot-humid-female-day-running-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban running routes: a tree-lined riverside promenade with a city skyline, a sloping residential lane with a stone step, a shaded pavement past hedges and low apartment blocks, a street-side drinking fountain, and a riverside railing with apartment blocks and a bridge; hard direct sun with sharp shadows, blue sky and a visible sheen of sweat on skin. No rain is depicted; the wet paving at the fountain is fountain water. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the user explicitly approved these five female running editorials and full automation of this batch (userApprovedEditorials true, currentBatchExplicitAuthorization true; 2026-11-07). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1e7aa9028911f1753fe0ff9a45103ea0b84d4e83683e3097300d75aeabf895d2",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 8,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "ea-clear-hot-humid-f-day-running-20261107-01",
+  "appStyle": "run",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-running-20261107.js",
+  "appHeroItem": "ea-clear-hot-humid-f-day-running-20261107-01.mesh-singlet",
+  "scenePropsNotProducts": [
+    "promenade railing",
+    "trees and hedges",
+    "river and skyline"
+  ],
+  "reconstructionNotice": "The riverside promenade, its railing, trees, hedges, the river and the skyline are the setting, not products. Her arms are raised to the headband, so the singlet's back and the sports bra's hidden front and band are conservatively reconstructed; the singlet is restored alone, without the bra. The watch dial and the small hoops are small in frame and their details are inferred. Both runners and both socks are visible and listed as pairs. Brand, fibre composition, metal, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-08T02:38:20.024306+00:00",
+    "productCount": 29,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "Actual worn silhouettes, colors and accessories matched. Hidden fronts restored conservatively.",
+      "First singlet source alpha flecks evaluated at final 500px: no visible floating debris on any background.",
+      "Independent garments only; no stray shoes or scene props.",
+      "Producer reviewed the editorials and all twenty-nine products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "BACK INTO THE SUN",
+    "title": {
+      "ko": "그늘 끝에서 다시 출발",
+      "en": "Back into the sun",
+      "de": "Zurück ins Sonnenlicht"
+    },
+    "deck": {
+      "ko": "화이트 메시와 코발트가 만드는 선명한 러닝 조합.",
+      "en": "White mesh and cobalt create a crisp running combination.",
+      "de": "Weißes Mesh und Kobaltblau bilden eine klare Laufkombination."
+    },
+    "intro": {
+      "ko": "강변 그늘을 나서기 전 헤드밴드를 고쳐 씁니다.",
+      "en": "A pause at the edge of the riverside shade becomes a moment to adjust a headband.",
+      "de": "Am Rand des Schattens am Fluss wird das Stirnband kurz gerichtet."
+    },
+    "body": {
+      "ko": "흰 메시 싱글릿 아래 검정 브라가 드러나며 가벼운 레이어의 구조를 보여줍니다. 코발트 쇼츠의 흰 곡선 테두리는 흰 양말과 신발로 이어집니다. 검정 헤드밴드와 시계 스트랩이 밝은 조합을 정돈하고 작은 은색 후프가 마무리합니다.",
+      "en": "The black bra remains visible beneath the white mesh singlet, making the light layering easy to read. White curved piping on cobalt shorts connects to white socks and runners. A black headband and watch strap balance the bright palette, finished with small silver hoops.",
+      "de": "Der schwarze Sport-BH bleibt unter dem weißen Mesh-Singlet sichtbar. Weiße Bogenpaspeln an den kobaltblauen Shorts führen zu weißen Socken und Laufschuhen. Schwarzes Stirnband und Uhrenband ordnen die helle Palette, kleine silberne Creolen ergänzen sie."
+    },
+    "pull": {
+      "ko": "선명한 색 하나면 리듬이 생깁니다.",
+      "en": "One strong color sets the rhythm.",
+      "de": "Eine kräftige Farbe gibt den Takt."
+    },
+    "pullQuoteEn": "One strong color sets the rhythm.",
+    "tip": {
+      "ko": "헤드밴드는 머리선에 평평하게, 싱글릿은 허리 위에 느슨하게 두세요.",
+      "en": "Keep the headband flat at the hairline and the singlet loose over the waist.",
+      "de": "Das Stirnband flach am Haaransatz und das Singlet locker über dem Bund tragen."
+    }
+  },
+  "products": [
+    {
+      "id": "mesh-singlet",
+      "producerId": "01-01-top",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.mesh-singlet",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "화이트 메시 싱글릿",
+        "en": "White mesh singlet",
+        "de": "Weißes Mesh-Singlet"
+      },
+      "nameKo": "화이트 메시 싱글릿",
+      "description": {
+        "ko": "넓은 암홀과 흰 바인딩, 구멍 조직의 민소매입니다.",
+        "en": "Sleeveless mesh with deep armholes and white binding.",
+        "de": "Ärmelloses Mesh mit tiefen Armausschnitten und weißen Einfassungen."
+      },
+      "howToWear": {
+        "ko": "검정 브라 위에 겹쳐 코발트 쇼츠와 입으세요.",
+        "en": "Layer over the black bra with cobalt shorts.",
+        "de": "Über dem schwarzen Sport-BH zu kobaltblauen Shorts tragen."
+      },
+      "image": "products/mesh-singlet.webp",
+      "sha256": "66e0b00f3f44173dc723f33421220a0b77e9b7272ae11c151e00961b972c2135",
+      "bytes": 48926,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; white perforated mesh sleeveless running singlet, scoop neck, low armholes, white binding; ONLY singlet, no black bra",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sports-bra",
+      "producerId": "01-02-bra",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.sports-bra",
+      "appCategory": "under",
+      "producerCategory": "bra",
+      "name": {
+        "ko": "블랙 스포츠 브라",
+        "en": "Black sports bra",
+        "de": "Schwarzer Sport-BH"
+      },
+      "nameKo": "블랙 스포츠 브라",
+      "description": {
+        "ko": "넓은 어깨끈과 짧은 밑단 밴드의 검정 브라입니다.",
+        "en": "Black cropped bra with broad straps and an underband.",
+        "de": "Schwarzer kurzer BH mit breiten Trägern und Unterbrustband."
+      },
+      "howToWear": {
+        "ko": "흰 메시 싱글릿 안쪽에 단독 이너로 맞추세요.",
+        "en": "Use as the separate inner layer beneath the mesh singlet.",
+        "de": "Als separate Unterlage unter dem Mesh-Singlet tragen."
+      },
+      "image": "products/sports-bra.webp",
+      "sha256": "ad8efe235d70199fdd697efeb45c85d91af096fc002ba59dd0351664fa0e638d",
+      "bytes": 16734,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black plain sports bra, broad straps and supportive cropped band; conservatively restore hidden front",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "piping-shorts",
+      "producerId": "01-03-shorts",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.piping-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "코발트 파이핑 쇼츠",
+        "en": "Cobalt piping shorts",
+        "de": "Kobaltblaue Paspelshorts"
+      },
+      "nameKo": "코발트 파이핑 쇼츠",
+      "description": {
+        "ko": "흰 곡선 파이핑과 트인 밑단의 파란 쇼츠입니다.",
+        "en": "Blue shorts with curved white piping and split hems.",
+        "de": "Blaue Shorts mit weißen Bogenpaspeln und seitlichen Schlitzen."
+      },
+      "howToWear": {
+        "ko": "흰 상의를 밖으로 내려 허리와 밑단을 편하게 두세요.",
+        "en": "Let the white top fall loosely over the elastic waist.",
+        "de": "Das weiße Oberteil locker über dem elastischen Bund lassen."
+      },
+      "image": "products/piping-shorts.webp",
+      "sha256": "b67a1bb61fb2b7b7881436ef75e8842a1948c2103c55621181b5021b1b0f6966",
+      "bytes": 31042,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; cobalt blue lightweight running shorts, elastic waist, white curved side piping and split curved hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-socks",
+      "producerId": "01-04-socks",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.rib-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "화이트 리브 러닝 양말",
+        "en": "White rib running socks",
+        "de": "Weiße Ripp-Laufsocken"
+      },
+      "nameKo": "화이트 리브 러닝 양말",
+      "description": {
+        "ko": "발목을 덮는 흰 리브 양말 한 쌍입니다.",
+        "en": "A pair of white ankle socks with ribbed cuffs.",
+        "de": "Ein Paar weiße Knöchelsocken mit Rippbündchen."
+      },
+      "howToWear": {
+        "ko": "흰 운동화 위로 리브 끝이 보이게 맞추세요.",
+        "en": "Show the ribbed cuffs above the white shoes.",
+        "de": "Die Rippbündchen über den weißen Schuhen sichtbar lassen."
+      },
+      "image": "products/rib-socks.webp",
+      "sha256": "7917339df99b58021a23663924944790c1ef853000846860302328eeecd0d1aa",
+      "bytes": 30420,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair white ribbed ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mesh-runners",
+      "producerId": "01-05-shoes",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.mesh-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 메시 러너",
+        "en": "White mesh runners",
+        "de": "Weiße Mesh-Laufschuhe"
+      },
+      "nameKo": "화이트 메시 러너",
+      "description": {
+        "ko": "흰 끈과 조형적인 흰 밑창의 메시 신발입니다.",
+        "en": "White mesh shoes with white laces and sculpted soles.",
+        "de": "Weiße Mesh-Schuhe mit weißen Schnürsenkeln und geformten Sohlen."
+      },
+      "howToWear": {
+        "ko": "코발트 쇼츠 아래 흰 양말과 연결하세요.",
+        "en": "Pair with white socks below the cobalt shorts.",
+        "de": "Unter den kobaltblauen Shorts mit weißen Socken kombinieren."
+      },
+      "image": "products/mesh-runners.webp",
+      "sha256": "832fc389e4abc9532c6c51012ca2ce93900fa4a2b3fe56ad88de8cf35c879751",
+      "bytes": 39588,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair white mesh running shoes, white laces and thick white sculpted soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "round-watch",
+      "producerId": "01-06-watch",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.round-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "실버 라운드 러닝 워치",
+        "en": "Silver round running watch",
+        "de": "Silberne runde Laufuhr"
+      },
+      "nameKo": "실버 라운드 러닝 워치",
+      "description": {
+        "ko": "은색 원형 케이스와 검정 화면·스트랩입니다.",
+        "en": "Silver round case with a dark face and black strap.",
+        "de": "Silbernes Rundgehäuse mit dunklem Zifferblatt und schwarzem Band."
+      },
+      "howToWear": {
+        "ko": "헤드밴드의 검정색과 스트랩 색을 맞추세요.",
+        "en": "Echo the black headband with the watch strap.",
+        "de": "Das schwarze Armband farblich zum Stirnband abstimmen."
+      },
+      "image": "products/round-watch.webp",
+      "sha256": "408b6a7356508fe814736b802f00209682c307a376335bdb54f7a1ff12b79d15",
+      "bytes": 22702,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; round silver sports watch with dark face and black flexible strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-headband",
+      "producerId": "01-07-headband",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.wide-headband",
+      "appCategory": "headwear",
+      "producerCategory": "headband",
+      "name": {
+        "ko": "블랙 와이드 헤드밴드",
+        "en": "Black wide headband",
+        "de": "Breites schwarzes Stirnband"
+      },
+      "nameKo": "블랙 와이드 헤드밴드",
+      "description": {
+        "ko": "넓고 부드러운 검정 밴드 형태입니다.",
+        "en": "A broad black fabric headband with visible seams.",
+        "de": "Breites schwarzes Stoffstirnband mit sichtbaren Nähten."
+      },
+      "howToWear": {
+        "ko": "헤어라인에 평평하게 두어 싱글릿을 가리지 않게 하세요.",
+        "en": "Keep it flat at the hairline, clear of the singlet.",
+        "de": "Flach am Haaransatz tragen, ohne das Singlet zu verdecken."
+      },
+      "image": "products/wide-headband.webp",
+      "sha256": "07db7bf8f38f7a5a621f20cb8226eed6656e4d742826d5e0569b6f462f8df9a4",
+      "bytes": 15774,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black wide soft stretch running headband",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mini-hoops",
+      "producerId": "01-08-earrings",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-01.mini-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "미니 실버 후프",
+        "en": "Mini silver hoops",
+        "de": "Kleine silberne Creolen"
+      },
+      "nameKo": "미니 실버 후프",
+      "description": {
+        "ko": "잠금 장식이 있는 작은 은색 고리 한 쌍입니다.",
+        "en": "A pair of small silver hoops with hinged closures.",
+        "de": "Ein Paar kleine silberne Creolen mit Klappverschluss."
+      },
+      "howToWear": {
+        "ko": "단정한 헤드밴드 옆에 작은 포인트로 두세요.",
+        "en": "Use as a small accent beside the neat headband.",
+        "de": "Als kleinen Akzent neben dem schlichten Stirnband tragen."
+      },
+      "image": "products/mini-hoops.webp",
+      "sha256": "331547e12c72fee979d3f75bb5ce0b3237a569188c276ec02433a562110f873f",
+      "bytes": 17916,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair small silver hoop earrings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b215"
+}

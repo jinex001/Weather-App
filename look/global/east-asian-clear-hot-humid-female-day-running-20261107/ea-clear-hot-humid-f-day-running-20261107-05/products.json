@@ -1,0 +1,337 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ea-clear-hot-humid-f-day-running-20261107-05",
+  "batchId": "east-asian-clear-hot-humid-female-day-running-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban running routes: a tree-lined riverside promenade with a city skyline, a sloping residential lane with a stone step, a shaded pavement past hedges and low apartment blocks, a street-side drinking fountain, and a riverside railing with apartment blocks and a bridge; hard direct sun with sharp shadows, blue sky and a visible sheen of sweat on skin. No rain is depicted; the wet paving at the fountain is fountain water. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the user explicitly approved these five female running editorials and full automation of this batch (userApprovedEditorials true, currentBatchExplicitAuthorization true; 2026-11-07). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "bb4623a2509196a79cbb5ccc9a394b63715c2f31787488d14391ac99efe30504",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "ea-clear-hot-humid-f-day-running-20261107-05",
+  "appStyle": "run",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-running-20261107.js",
+  "appHeroItem": "ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet",
+  "scenePropsNotProducts": [
+    "riverside railing",
+    "river and bridge"
+  ],
+  "reconstructionNotice": "The riverside railing, the river, the bridge and the buildings are the setting, not products. She is seen from behind while stretching, so the racerback singlet's front and the shorts' front are conservatively reconstructed from the visible back and sides, and the watch dial is inferred. Both runners and both socks are visible and listed as pairs. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-08T02:38:20.024306+00:00",
+    "productCount": 29,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "Actual worn silhouettes, colors and accessories matched. Hidden fronts restored conservatively.",
+      "First singlet source alpha flecks evaluated at final 500px: no visible floating debris on any background.",
+      "Independent garments only; no stray shoes or scene props.",
+      "Producer reviewed the editorials and all twenty-nine products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "A LONGER BREATH BY THE RIVER",
+    "title": {
+      "ko": "강변에서 길게 숨쉬기",
+      "en": "A longer breath by the river",
+      "de": "Ein längerer Atemzug am Fluss"
+    },
+    "deck": {
+      "ko": "버건디 레이서백과 차콜 쇼츠의 간결한 마무리.",
+      "en": "Burgundy racerback and charcoal shorts make a simple finish.",
+      "de": "Burgunderrotes Racerback und anthrazitfarbene Shorts bilden den Abschluss."
+    },
+    "intro": {
+      "ko": "난간에 손을 두고 종아리를 늘리며 뒤를 돌아봅니다.",
+      "en": "Hands on the railing, a calf stretch ends with a glance back.",
+      "de": "Mit den Händen am Geländer endet die Wadendehnung in einem Blick zurück."
+    },
+    "body": {
+      "ko": "등이 좁아지는 버건디 싱글릿과 몸을 따르는 차콜 쇼츠가 서로 다른 길이를 만듭니다. 회색 양말과 흰 신발은 짙은 색 아래 밝은 끝점을 놓습니다. 은색 시계 테두리와 흰 측면 라인이 작게 빛나며 움직임 뒤의 휴식을 정돈합니다.",
+      "en": "The burgundy racerback singlet and close-fitting charcoal shorts create distinct hem lengths. Gray socks and white shoes add a light endpoint beneath the deeper colors. A silver watch rim and small white side lines bring a restrained highlight to the pause after movement.",
+      "de": "Das burgunderrote Racerback-Singlet und die körpernahen anthrazitfarbenen Shorts setzen unterschiedliche Saumlängen. Graue Socken und weiße Schuhe bilden einen hellen Abschluss unter den dunklen Farben. Silberner Uhrenrand und kleine weiße Seitenlinien ergänzen den ruhigen Moment."
+    },
+    "pull": {
+      "ko": "마지막 동작까지 단정하게.",
+      "en": "Keep the finish as clear as the start.",
+      "de": "Den Abschluss so klar halten wie den Start."
+    },
+    "pullQuoteEn": "Keep the finish as clear as the start.",
+    "tip": {
+      "ko": "싱글릿을 쇼츠 밖으로 내려 길이 차이를 살리고 양말 입구는 접지 마세요.",
+      "en": "Leave the singlet untucked and the gray sock cuffs unfolded.",
+      "de": "Das Singlet über dem Bund und die grauen Sockenbündchen ungeklappt tragen."
+    }
+  },
+  "products": [
+    {
+      "id": "racerback-singlet",
+      "producerId": "05-01-top",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "버건디 레이서백 싱글릿",
+        "en": "Burgundy racerback singlet",
+        "de": "Burgunderrotes Racerback-Singlet"
+      },
+      "nameKo": "버건디 레이서백 싱글릿",
+      "description": {
+        "ko": "등이 좁아지는 민소매와 흰 하단 측면 라인입니다.",
+        "en": "Racerback cut with white lower-side lines.",
+        "de": "Racerback-Schnitt mit weißen Linien an den unteren Seiten."
+      },
+      "howToWear": {
+        "ko": "차콜 쇼츠 위에 내려 버건디 색을 길게 이어가세요.",
+        "en": "Let the burgundy top fall over the charcoal shorts.",
+        "de": "Das burgunderrote Top über anthrazitfarbene Shorts fallen lassen."
+      },
+      "image": "products/racerback-singlet.webp",
+      "sha256": "e6d66c575d3fd8c2e04e74ed71c5371a8f4007d478c3fde4ad99d35c51ab07e2",
+      "bytes": 32576,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; burgundy racerback sleeveless running singlet with white curved lower-side reflective piping; restore simple scoopneck front conservatively, no text",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mid-thigh-shorts",
+      "producerId": "05-02-shorts",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-05.mid-thigh-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "차콜 미드타이 쇼츠",
+        "en": "Charcoal mid-thigh shorts",
+        "de": "Anthrazitfarbene Shorts bis zur Oberschenkelmitte"
+      },
+      "nameKo": "차콜 미드타이 쇼츠",
+      "description": {
+        "ko": "몸을 따르는 중간 허벅지 길이와 흰 측면 라인입니다.",
+        "en": "Close-fitting mid-thigh shorts with white side lines.",
+        "de": "Körpernahe Shorts bis zur Oberschenkelmitte mit weißen Seitenlinien."
+      },
+      "howToWear": {
+        "ko": "긴 버건디 싱글릿과 겹쳐 밑단 길이 차이를 만드세요.",
+        "en": "Layer beneath the long burgundy singlet with distinct hems.",
+        "de": "Unter dem langen burgunderroten Singlet die Säume absetzen."
+      },
+      "image": "products/mid-thigh-shorts.webp",
+      "sha256": "1165d4fa5f8f399fb4f4256855cc2afa76ea95baa44fe7c3bcec5b7529ec5a3d",
+      "bytes": 24900,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; charcoal fitted mid-thigh running shorts, white diagonal outer side reflective piping and elastic waist",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "short-socks",
+      "producerId": "05-03-socks",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-05.short-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "그레이 쇼트 러닝 양말",
+        "en": "Gray short running socks",
+        "de": "Kurze graue Laufsocken"
+      },
+      "nameKo": "그레이 쇼트 러닝 양말",
+      "description": {
+        "ko": "짧은 회색 입구와 발등 짜임이 보입니다.",
+        "en": "Short gray cuffs with visible knit across the instep.",
+        "de": "Kurze graue Bündchen mit sichtbarer Strickstruktur am Spann."
+      },
+      "howToWear": {
+        "ko": "흰 신발 위 회색 부분을 접지 않고 남기세요.",
+        "en": "Leave the gray cuffs unfolded above the white shoes.",
+        "de": "Graue Bündchen ungeklappt über den weißen Schuhen lassen."
+      },
+      "image": "products/short-socks.webp",
+      "sha256": "edb043f87daa541fc565886093fee52f667b895ce0d14a01aa3c9efb6bbadeda",
+      "bytes": 45854,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair gray ribbed ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mesh-runners",
+      "producerId": "05-04-shoes",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-05.mesh-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "화이트 그레이 메시 러너",
+        "en": "White-gray mesh runners",
+        "de": "Weiß-graue Mesh-Laufschuhe"
+      },
+      "nameKo": "화이트 그레이 메시 러너",
+      "description": {
+        "ko": "흰 메시와 연회색 패널, 물결형 흰 밑창입니다.",
+        "en": "White mesh, pale gray panels and wavy white soles.",
+        "de": "Weißes Mesh, hellgraue Einsätze und gewellte weiße Sohlen."
+      },
+      "howToWear": {
+        "ko": "버건디와 차콜 조합 아래 밝은 끝점을 만드세요.",
+        "en": "Use as a light finish beneath burgundy and charcoal.",
+        "de": "Als hellen Abschluss unter Burgunderrot und Anthrazit tragen."
+      },
+      "image": "products/mesh-runners.webp",
+      "sha256": "aea3cc5c2198ca205c55aa2af507893762354f4ccd1442187c7795f011e9de9d",
+      "bytes": 35760,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair white and pale gray mesh running shoes, white laces and white soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "black-strap-watch",
+      "producerId": "05-05-watch",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-05.black-strap-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "실버 블랙 스트랩 워치",
+        "en": "Silver black-strap watch",
+        "de": "Silberne Uhr mit schwarzem Band"
+      },
+      "nameKo": "실버 블랙 스트랩 워치",
+      "description": {
+        "ko": "은색 원형 테두리와 어두운 화면, 검정 스트랩입니다.",
+        "en": "Silver circular rim, dark face and black strap.",
+        "de": "Silberner Rundrand, dunkles Zifferblatt und schwarzes Band."
+      },
+      "howToWear": {
+        "ko": "버건디 싱글릿 옆 손목에 은색 테두리를 드러내세요.",
+        "en": "Show the silver rim at the wrist beside the burgundy singlet.",
+        "de": "Den silbernen Rand am Handgelenk neben dem burgunderroten Top zeigen."
+      },
+      "image": "products/black-strap-watch.webp",
+      "sha256": "b60443e693dd88561f5d9054f55a3cd7ccbad2ebfbe4e096d1d4b95fa4905728",
+      "bytes": 19434,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; silver round sports watch, dark face, black flexible strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b215"
+}

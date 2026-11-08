@@ -1169,7 +1169,12 @@
 "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.wide-cropped-trousers": ["look/global/east-asian-clear-hot-humid-male-day-minimal-20261107/east-asian-clear-hot-humid-m35-day-minimal-20261107-02/products/wide-cropped-trousers.webp", 0.694],
 "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.pocket-shirt": ["look/global/east-asian-clear-hot-humid-male-day-minimal-20261107/east-asian-clear-hot-humid-m35-day-minimal-20261107-03/products/pocket-shirt.webp", 0.699],
 "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.sleeveless-knit-polo": ["look/global/east-asian-clear-hot-humid-male-day-minimal-20261107/east-asian-clear-hot-humid-m35-day-minimal-20261107-04/products/sleeveless-knit-polo.webp", 0.819],
-"east-asian-clear-hot-humid-m35-day-minimal-20261107-05.rectangular-shoulder-bag": ["look/global/east-asian-clear-hot-humid-male-day-minimal-20261107/east-asian-clear-hot-humid-m35-day-minimal-20261107-05/products/rectangular-shoulder-bag.webp", 0.21]
+"east-asian-clear-hot-humid-m35-day-minimal-20261107-05.rectangular-shoulder-bag": ["look/global/east-asian-clear-hot-humid-male-day-minimal-20261107/east-asian-clear-hot-humid-m35-day-minimal-20261107-05/products/rectangular-shoulder-bag.webp", 0.21],
+"ea-clear-hot-humid-f-day-running-20261107-01.mesh-singlet": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-01/products/mesh-singlet.webp", 0.894],
+"ea-clear-hot-humid-f-day-running-20261107-02.mesh-runners": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-02/products/mesh-runners.webp", 0.716],
+"ea-clear-hot-humid-f-day-running-20261107-03.line-tank": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-03/products/line-tank.webp", 0.604],
+"ea-clear-hot-humid-f-day-running-20261107-04.running-tank": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-04/products/running-tank.webp", 0.653],
+"ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-05/products/racerback-singlet.webp", 0.172]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1552,7 +1557,12 @@
 "east-asian-clear-hot-humid-m35-day-minimal-20261107-02": "east-asian-clear-hot-humid-m35-day-minimal-20261107-02.wide-cropped-trousers",
 "east-asian-clear-hot-humid-m35-day-minimal-20261107-03": "east-asian-clear-hot-humid-m35-day-minimal-20261107-03.pocket-shirt",
 "east-asian-clear-hot-humid-m35-day-minimal-20261107-04": "east-asian-clear-hot-humid-m35-day-minimal-20261107-04.sleeveless-knit-polo",
-"east-asian-clear-hot-humid-m35-day-minimal-20261107-05": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.rectangular-shoulder-bag"
+"east-asian-clear-hot-humid-m35-day-minimal-20261107-05": "east-asian-clear-hot-humid-m35-day-minimal-20261107-05.rectangular-shoulder-bag",
+"ea-clear-hot-humid-f-day-running-20261107-01": "ea-clear-hot-humid-f-day-running-20261107-01.mesh-singlet",
+"ea-clear-hot-humid-f-day-running-20261107-02": "ea-clear-hot-humid-f-day-running-20261107-02.mesh-runners",
+"ea-clear-hot-humid-f-day-running-20261107-03": "ea-clear-hot-humid-f-day-running-20261107-03.line-tank",
+"ea-clear-hot-humid-f-day-running-20261107-04": "ea-clear-hot-humid-f-day-running-20261107-04.running-tank",
+"ea-clear-hot-humid-f-day-running-20261107-05": "ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

@@ -1,0 +1,378 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ea-clear-hot-humid-f-day-running-20261107-04",
+  "batchId": "east-asian-clear-hot-humid-female-day-running-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban running routes: a tree-lined riverside promenade with a city skyline, a sloping residential lane with a stone step, a shaded pavement past hedges and low apartment blocks, a street-side drinking fountain, and a riverside railing with apartment blocks and a bridge; hard direct sun with sharp shadows, blue sky and a visible sheen of sweat on skin. No rain is depicted; the wet paving at the fountain is fountain water. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the user explicitly approved these five female running editorials and full automation of this batch (userApprovedEditorials true, currentBatchExplicitAuthorization true; 2026-11-07). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7e8caf392447e363582fd6d41adfce864bb6544de74b41d5c6fed7a25a9b1c20",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "ea-clear-hot-humid-f-day-running-20261107-04",
+  "appStyle": "run",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-running-20261107.js",
+  "appHeroItem": "ea-clear-hot-humid-f-day-running-20261107-04.running-tank",
+  "scenePropsNotProducts": [
+    "drinking fountain",
+    "water"
+  ],
+  "reconstructionNotice": "The drinking fountain, its water and the street behind are the setting, not products. She leans forward to drink, so the tank's back, the shorts' back and the cap's rear are conservatively reconstructed, and the watch dial is inferred. Both runners and both socks are visible and listed as pairs. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-08T02:38:20.024306+00:00",
+    "productCount": 29,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Actual worn silhouettes, colors and accessories matched. Hidden fronts restored conservatively.",
+      "First singlet source alpha flecks evaluated at final 500px: no visible floating debris on any background.",
+      "Independent garments only; no stray shoes or scene props.",
+      "Producer reviewed the editorials and all twenty-nine products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "A SIP-SIZED PAUSE",
+    "title": {
+      "ko": "물 한 모금의 쉼표",
+      "en": "A sip-sized pause",
+      "de": "Eine Pause für einen Schluck"
+    },
+    "deck": {
+      "ko": "하늘색과 네이비 사이에 크림 러너를 더했습니다.",
+      "en": "Pale blue and navy meet cream runners.",
+      "de": "Hellblau und Marineblau treffen auf cremefarbene Laufschuhe."
+    },
+    "intro": {
+      "ko": "음수대 버튼을 누르고 손에 물을 받는 짧은 휴식입니다.",
+      "en": "Pressing the fountain button makes room for a brief drink.",
+      "de": "Ein Druck auf den Brunnenknopf schafft einen kurzen Trinkmoment."
+    },
+    "body": {
+      "ko": "연한 블루 탱크와 네이비 쇼츠는 같은 색 계열 안에서 명도를 나눕니다. 캡은 쇼츠 색을 반복하고 흰 양말과 크림 신발이 아래쪽을 밝힙니다. 탱크의 작은 어깨 선과 쇼츠의 흰 테두리가 과한 장식 없이 연결됩니다.",
+      "en": "The pale blue tank and navy shorts divide light and dark within one color family. A cap repeats the shorts' navy, while white socks and cream shoes brighten the lower half. Small shoulder details and white shorts edging connect the pieces without extra decoration.",
+      "de": "Hellblaues Tanktop und marineblaue Shorts teilen eine Farbfamilie in helle und dunkle Töne. Die Kappe wiederholt das Marineblau, weiße Socken und cremefarbene Schuhe hellen den unteren Bereich auf. Kleine Schulterdetails und weiße Kanten verbinden die Teile."
+    },
+    "pull": {
+      "ko": "잠깐 멈춰도 흐름은 이어집니다.",
+      "en": "A pause can keep the rhythm going.",
+      "de": "Eine Pause erhält den Rhythmus."
+    },
+    "pullQuoteEn": "A pause can keep the rhythm going.",
+    "tip": {
+      "ko": "챙을 시야에 걸리지 않게 두고 캡과 쇼츠의 네이비를 맞추세요.",
+      "en": "Keep the brim clear of your sight and repeat navy through cap and shorts.",
+      "de": "Den Schirm aus dem Sichtfeld halten und Marineblau in Kappe und Shorts wiederholen."
+    }
+  },
+  "products": [
+    {
+      "id": "running-tank",
+      "producerId": "04-01-top",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-04.running-tank",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "페일 블루 러닝 탱크",
+        "en": "Pale blue running tank",
+        "de": "Hellblaues Lauftanktop"
+      },
+      "nameKo": "페일 블루 러닝 탱크",
+      "description": {
+        "ko": "라운드 네크라인과 작은 흰 어깨 포인트의 민소매입니다.",
+        "en": "Sleeveless scoop neck with small white shoulder details.",
+        "de": "Ärmelloses Oberteil mit Rundhalsausschnitt und weißen Schulterdetails."
+      },
+      "howToWear": {
+        "ko": "네이비 쇼츠 위로 내려 연한 파랑과 진한 파랑을 나누세요.",
+        "en": "Wear over navy shorts to separate the two blue tones.",
+        "de": "Über marineblauen Shorts die beiden Blautöne absetzen."
+      },
+      "image": "products/running-tank.webp",
+      "sha256": "d08553c2067a8b7c2d279156fc181a92f0d9fd51095d9969b56c6a98a5fc40a5",
+      "bytes": 35696,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pale blue sleeveless running tank, scoop neck and small white shoulder reflective piping",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "split-shorts",
+      "producerId": "04-02-shorts",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-04.split-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "네이비 스플릿 쇼츠",
+        "en": "Navy split shorts",
+        "de": "Marineblaue Schlitzshorts"
+      },
+      "nameKo": "네이비 스플릿 쇼츠",
+      "description": {
+        "ko": "흰 곡선 테두리가 옆트임을 따라가는 쇼츠입니다.",
+        "en": "Navy shorts with white curved edging around the side splits.",
+        "de": "Marineblaue Shorts mit weißer Bogenkante an den Seitenschlitzen."
+      },
+      "howToWear": {
+        "ko": "하늘색 탱크와 흰 양말 사이의 짙은 중심으로 쓰세요.",
+        "en": "Use as a dark anchor between the blue tank and white socks.",
+        "de": "Als dunklen Mittelpunkt zwischen hellblauem Top und weißen Socken tragen."
+      },
+      "image": "products/split-shorts.webp",
+      "sha256": "3039c19bfb696c5bdbcb754513b9f0c9c15a7c8c8bc57fa13612c06f7c78679c",
+      "bytes": 27296,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; navy loose split-hem running shorts with curved white side piping",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-socks",
+      "producerId": "04-03-socks",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-04.ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "화이트 라이트 앵클 양말",
+        "en": "White light ankle socks",
+        "de": "Weiße leichte Knöchelsocken"
+      },
+      "nameKo": "화이트 라이트 앵클 양말",
+      "description": {
+        "ko": "짧은 리브 입구와 흰 편직 표면의 양말입니다.",
+        "en": "White knitted socks with short ribbed cuffs.",
+        "de": "Weiße Stricksocken mit kurzen Rippbündchen."
+      },
+      "howToWear": {
+        "ko": "크림 신발과 살짝 다른 흰색을 그대로 보여주세요.",
+        "en": "Let the white socks contrast subtly with cream shoes.",
+        "de": "Den leichten Weißkontrast zu cremefarbenen Schuhen zeigen."
+      },
+      "image": "products/ankle-socks.webp",
+      "sha256": "11259a55334b3c0eaac6bbc3c6c4caa37bfe11a28ca0d48c7a76884940272514",
+      "bytes": 37012,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair white ribbed ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mesh-runners",
+      "producerId": "04-04-shoes",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-04.mesh-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "크림 메시 러너",
+        "en": "Cream mesh runners",
+        "de": "Cremefarbene Mesh-Laufschuhe"
+      },
+      "nameKo": "크림 메시 러너",
+      "description": {
+        "ko": "크림 끈과 둥근 앞코, 두꺼운 밑창입니다.",
+        "en": "Cream laces, rounded toes and substantial soles.",
+        "de": "Cremefarbene Schnürsenkel, runde Zehenpartien und kräftige Sohlen."
+      },
+      "howToWear": {
+        "ko": "네이비 쇼츠 아래 흰 양말과 따뜻한 밝은색을 더하세요.",
+        "en": "Add warm light tones with white socks beneath navy shorts.",
+        "de": "Mit weißen Socken warme helle Töne unter marineblauen Shorts ergänzen."
+      },
+      "image": "products/mesh-runners.webp",
+      "sha256": "e0d57e03dd8c08b0c4303d92a3f7df3f8af5dec2510a2e8999af5d5f676813e7",
+      "bytes": 38730,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair ivory cream mesh running shoes, cream laces and thick cream soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "curved-brim-cap",
+      "producerId": "04-05-cap",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-04.curved-brim-cap",
+      "appCategory": "headwear",
+      "producerCategory": "cap",
+      "name": {
+        "ko": "네이비 커브 캡",
+        "en": "Navy curved-brim cap",
+        "de": "Marineblaue Kappe mit gebogenem Schirm"
+      },
+      "nameKo": "네이비 커브 캡",
+      "description": {
+        "ko": "절개가 있는 부드러운 크라운과 굽은 챙입니다.",
+        "en": "Soft paneled crown and a curved brim in navy.",
+        "de": "Weiche segmentierte Krone und gebogener Schirm in Marineblau."
+      },
+      "howToWear": {
+        "ko": "네이비 쇼츠와 색을 맞추고 얼굴이 보이게 챙을 두세요.",
+        "en": "Match the navy shorts and keep the brim clear of the face.",
+        "de": "Zu den marineblauen Shorts mit freier Sicht aufs Gesicht tragen."
+      },
+      "image": "products/curved-brim-cap.webp",
+      "sha256": "ed32344d8a9d4c50686850594bb98cd9076d0d8e2cbf01c2f6bccff5fb644587",
+      "bytes": 23416,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; plain navy curved brim soft segmented running cap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "sports-watch",
+      "producerId": "04-06-watch",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-04.sports-watch",
+      "appCategory": "watch",
+      "producerCategory": "watch",
+      "name": {
+        "ko": "블랙 미니멀 스포츠 워치",
+        "en": "Black minimal sports watch",
+        "de": "Schlichte schwarze Sportuhr"
+      },
+      "nameKo": "블랙 미니멀 스포츠 워치",
+      "description": {
+        "ko": "단정한 원형 케이스와 검정 스트랩입니다.",
+        "en": "A plain round case with a black strap and dark face.",
+        "de": "Schlichtes Rundgehäuse mit schwarzem Band und dunklem Zifferblatt."
+      },
+      "howToWear": {
+        "ko": "블루 탱크의 맨팔에 작은 검정 포인트로 두세요.",
+        "en": "Add a small black accent to the bare arm beside the blue tank.",
+        "de": "Als kleinen schwarzen Akzent am freien Arm zum blauen Top tragen."
+      },
+      "image": "products/sports-watch.webp",
+      "sha256": "d73d0ccee371c651f487ec71ae9cbb5c9a356fdc46c220b4bb432038cb3b574f",
+      "bytes": 13402,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black round dark-face sports watch and black flexible strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b215"
+}

@@ -1,0 +1,338 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ea-clear-hot-humid-f-day-running-20261107-03",
+  "batchId": "east-asian-clear-hot-humid-female-day-running-20261107",
+  "category": {
+    "weather": "Sunny",
+    "temperatureBand": "Hot",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "running"
+  },
+  "weather": {
+    "city": null,
+    "condition": "clear",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "hot",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "east-asian-urban",
+  "climateContext": {
+    "feelsLikeBand": "hot",
+    "humidityContext": "humid",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Direct review: clear, sunny daytime East Asian urban running routes: a tree-lined riverside promenade with a city skyline, a sloping residential lane with a stone step, a shaded pavement past hedges and low apartment blocks, a street-side drinking fountain, and a riverside railing with apartment blocks and a bridge; hard direct sun with sharp shadows, blue sky and a visible sheen of sweat on skin. No rain is depicted; the wet paving at the fountain is fountain water. The East Asian urban region and the humid setting are the producer's reviewed mapping; humid is a styling setting, not a measurement. Mixed adult model casting is independent of the location."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "castingPolicy": "mixed adult model appearance independent of the East Asian urban location (user 2026-11-03)",
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The handoff and READY.json record that the user explicitly approved these five female running editorials and full automation of this batch (userApprovedEditorials true, currentBatchExplicitAuthorization true; 2026-11-07). Product images passed producer technical QA and producer visual QA on four backgrounds only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "37d15562ad2caf8acb5ce978d478f85fad1a905ed80413378df220d388a38727",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "productCount": 5,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "ea-clear-hot-humid-f-day-running-20261107-03",
+  "appStyle": "run",
+  "appModule": "look/east-asian-clear-hot-humid-female-day-running-20261107.js",
+  "appHeroItem": "ea-clear-hot-humid-f-day-running-20261107-03.line-tank",
+  "scenePropsNotProducts": [
+    "twig",
+    "hedge",
+    "stone planter wall"
+  ],
+  "reconstructionNotice": "The twig on the pavement, the hedge and the stone planter wall are the setting, not products. She is mid-stride in profile, so the tank's far side, the shorts' far side and the pouch's back and strap are conservatively reconstructed. Both runners and both socks are visible and listed as pairs. Brand, fibre composition, performance and retail identity are unknown.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex producer review",
+    "checkedAt": "2026-11-08T02:38:20.024306+00:00",
+    "productCount": 29,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app #F3EFE8"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Actual worn silhouettes, colors and accessories matched. Hidden fronts restored conservatively.",
+      "First singlet source alpha flecks evaluated at final 500px: no visible floating debris on any background.",
+      "Independent garments only; no stray shoes or scene props.",
+      "Producer reviewed the editorials and all twenty-nine products. Humid is a styling setting. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims."
+    ]
+  },
+  "copy": {
+    "titleEn": "A STEP AROUND THE TWIG",
+    "title": {
+      "ko": "작은 가지를 넘는 순간",
+      "en": "A step around the twig",
+      "de": "Ein Schritt um den Zweig"
+    },
+    "deck": {
+      "ko": "세이지와 민트가 검정 러닝 베이스를 밝힙니다.",
+      "en": "Sage and mint brighten a black running base.",
+      "de": "Salbei und Mint erhellen die schwarze Laufbasis."
+    },
+    "intro": {
+      "ko": "길 위 작은 가지를 피하며 발걸음이 옆으로 튑니다.",
+      "en": "A small fallen branch turns the next stride into a sideways hop.",
+      "de": "Ein kleiner Ast auf dem Weg macht aus dem nächsten Schritt einen seitlichen Sprung."
+    },
+    "body": {
+      "ko": "세이지 탱크의 곡선 라인과 검정 쇼츠의 짧은 흰 포인트가 움직임을 따라갑니다. 허리 파우치는 상의 아래쪽에 납작하게 놓이고 회색 양말은 민트 화이트 러너로 연결됩니다. 밝은 녹색 계열은 한두 군데만 반복해 전체를 가볍게 묶었습니다.",
+      "en": "Curved lines on the sage tank and a short white accent on the black shorts follow the movement. A slim pouch lies flat at the lower waist, while gray socks lead into mint-white runners. Repeating the green tones in just two places keeps the combination light.",
+      "de": "Gebogene Linien am salbeigrünen Top und ein kurzer weißer Akzent an den schwarzen Shorts begleiten die Bewegung. Die schmale Tasche liegt flach am unteren Bund, graue Socken führen zu mint-weißen Schuhen. Zwei grüne Akzente halten die Kombination leicht."
+    },
+    "pull": {
+      "ko": "예상 밖의 한 걸음도 가볍게.",
+      "en": "An unexpected step can stay light.",
+      "de": "Auch ein unerwarteter Schritt bleibt leicht."
+    },
+    "pullQuoteEn": "An unexpected step can stay light.",
+    "tip": {
+      "ko": "허리 파우치의 긴 끈은 정리하고 탱크 옆선이 남도록 위치를 낮추세요.",
+      "en": "Tuck away loose pouch straps and keep the tank's side lines visible.",
+      "de": "Lose Taschengurte verstauen und die Seitenlinien des Tops sichtbar lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "line-tank",
+      "producerId": "03-01-top",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-03.line-tank",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "세이지 라인 탱크",
+        "en": "Sage line tank",
+        "de": "Salbeigrünes Tanktop mit Linien"
+      },
+      "nameKo": "세이지 라인 탱크",
+      "description": {
+        "ko": "세이지 민소매 양옆에 흰 곡선 라인이 있습니다.",
+        "en": "Sage sleeveless tank with white curved side lines.",
+        "de": "Salbeigrünes Tanktop mit weißen gebogenen Seitenlinien."
+      },
+      "howToWear": {
+        "ko": "검정 허리 파우치를 아래쪽에 겹쳐 라인을 남기세요.",
+        "en": "Place the black pouch low enough to keep the side lines visible.",
+        "de": "Die schwarze Tasche tief genug für sichtbare Seitenlinien tragen."
+      },
+      "image": "products/line-tank.webp",
+      "sha256": "03028e51d19fe1122729a6b788f161dde08b2619b96f7f4af6a7872455a9a9fc",
+      "bytes": 29886,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; sage green sleeveless scoopneck technical running tank with white curved side reflective piping",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "accent-shorts",
+      "producerId": "03-02-shorts",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-03.accent-shorts",
+      "appCategory": "shorts",
+      "producerCategory": "shorts",
+      "name": {
+        "ko": "블랙 액센트 쇼츠",
+        "en": "Black accent shorts",
+        "de": "Schwarze Shorts mit Akzent"
+      },
+      "nameKo": "블랙 액센트 쇼츠",
+      "description": {
+        "ko": "여유 있는 검정 실루엣과 짧은 흰 사선 포인트입니다.",
+        "en": "Loose black silhouette with a short diagonal white accent.",
+        "de": "Lockere schwarze Silhouette mit kurzem weißem Diagonalakzent."
+      },
+      "howToWear": {
+        "ko": "세이지 탱크와 연결하고 허리 밴드를 비틀지 마세요.",
+        "en": "Pair with the sage tank and keep the waistband flat.",
+        "de": "Zum salbeigrünen Tanktop mit flach liegendem Bund tragen."
+      },
+      "image": "products/accent-shorts.webp",
+      "sha256": "348b66c66cdd40eaf8a0ef47733f94376701296487595d06316d4d4827c5ac3e",
+      "bytes": 22526,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black loose running shorts with white short diagonal reflective accent and elastic waist",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-ankle-socks",
+      "producerId": "03-03-socks",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-03.rib-ankle-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "그레이 리브 앵클 양말",
+        "en": "Gray rib ankle socks",
+        "de": "Graue Ripp-Knöchelsocken"
+      },
+      "nameKo": "그레이 리브 앵클 양말",
+      "description": {
+        "ko": "회색 리브 입구와 짜임이 보이는 발목 양말입니다.",
+        "en": "Gray ankle socks with ribbed cuffs and visible knit texture.",
+        "de": "Graue Knöchelsocken mit Rippbündchen und sichtbarer Strickstruktur."
+      },
+      "howToWear": {
+        "ko": "민트 신발 위에 회색 입구를 짧게 보이게 하세요.",
+        "en": "Show a short gray cuff above the mint shoes.",
+        "de": "Ein kurzes graues Bündchen über den mintfarbenen Schuhen zeigen."
+      },
+      "image": "products/rib-ankle-socks.webp",
+      "sha256": "5eb5877fa15d0438c0e8e01cce4065eda62678d6be13ce73cfa84332eab76f0a",
+      "bytes": 44996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair gray ribbed ankle running socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mint-runners",
+      "producerId": "03-04-shoes",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-03.mint-runners",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "민트 화이트 러너",
+        "en": "Mint-white runners",
+        "de": "Mint-weiße Laufschuhe"
+      },
+      "nameKo": "민트 화이트 러너",
+      "description": {
+        "ko": "민트 안감과 끈, 흰 메시 패널의 신발입니다.",
+        "en": "Mint lining and laces with white mesh panels.",
+        "de": "Mintfarbenes Futter und Schnürsenkel mit weißen Mesh-Einsätzen."
+      },
+      "howToWear": {
+        "ko": "세이지 상의와 부드럽게 연결해 검정 쇼츠를 밝히세요.",
+        "en": "Link softly to the sage top around the black shorts.",
+        "de": "Zum salbeigrünen Oberteil und den schwarzen Shorts abstimmen."
+      },
+      "image": "products/mint-runners.webp",
+      "sha256": "1604538abdf8a6d0d6ae441a91bdf48eec40e2355b4c0cfcf0851587eafb6c55",
+      "bytes": 35644,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; pair pale mint and white mesh running shoes, mint laces and white sculpted soles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "running-pouch",
+      "producerId": "03-05-belt",
+      "appItemId": "ea-clear-hot-humid-f-day-running-20261107-03.running-pouch",
+      "appCategory": "bag",
+      "producerCategory": "belt",
+      "name": {
+        "ko": "블랙 슬림 러닝 파우치",
+        "en": "Black slim running pouch",
+        "de": "Schmale schwarze Lauftasche"
+      },
+      "nameKo": "블랙 슬림 러닝 파우치",
+      "description": {
+        "ko": "앞 지퍼와 가는 조절 스트랩의 둥근 사각 파우치입니다.",
+        "en": "Rounded rectangular pouch with front zip and narrow adjustable strap.",
+        "de": "Abgerundete rechteckige Tasche mit Frontreißverschluss und schmalem verstellbarem Band."
+      },
+      "howToWear": {
+        "ko": "세이지 탱크 아래쪽에 평평하게 밀착시키세요.",
+        "en": "Wear flat across the lower part of the sage tank.",
+        "de": "Flach über dem unteren Bereich des salbeigrünen Tanktops tragen."
+      },
+      "image": "products/running-pouch.webp",
+      "sha256": "bcece85babcb3987b68709149886e78107e25c937561e91f5a4843db124297c8",
+      "bytes": 13786,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed editorial directly reviewed; black slim running waist pouch, front zipper, curved rectangular pouch and narrow adjustable strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·소재 성분·성능은 확인하지 않았습니다.",
+        "en": "Visible colors and construction reproduced; hidden areas conservatively restored. Brand, composition and performance unverified.",
+        "de": "Sichtbare Farben und Konstruktion wiedergegeben; verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Leistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b215"
+}
