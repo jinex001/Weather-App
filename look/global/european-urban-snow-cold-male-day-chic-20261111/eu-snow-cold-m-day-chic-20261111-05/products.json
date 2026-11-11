@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-chic-20261111-05",
+  "batchId": "european-urban-snow-cold-male-day-chic-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal",
+    "styleLabel": {
+      "ko": "시크",
+      "en": "Chic",
+      "de": "Chic"
+    }
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city neighbourhood (bakery front, tram stop, snowbank, front door, cafe terrace) in overcast daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 front boot is emphasized by the wide-angle perspective; hidden item details are reconstructed; some dark knits show minor pale flecks; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user approved these five Picsart snow Chic editorials and asked to hand the batch to Claude Code and finish the cycle (APPROVAL.json userQuote \"클로드 한테 넘기고 작업사이클 마무리꺼지\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: Picsart cutouts, producer technical QA and four-background visual review only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "cc880d920fc7ecae7bacc944a7624269770bc6a9f6a4c2aeff804f0b8e52cce2",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (PICSART_RESULTS.json, PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-chic-20261111-05",
+  "appStyle": "minimal",
+  "appStyleLabel": {
+    "ko": "시크",
+    "en": "Chic",
+    "de": "Chic"
+  },
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-chic-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-chic-20261111-05.double-breasted-coat",
+  "scenePropsNotProducts": [
+    "takeaway coffee cup",
+    "cafe terrace",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-five products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T19:47:17.140382+00:00",
+    "productCount": 35,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-05.jpg"
+    ],
+    "findings": [
+      "All five sheets checked. Dark navy and black items have low contrast on black but show clean silhouettes on the other backgrounds. Concealed details including some necklines, closures and boot shafts are reconstructions. Some dark knits show minor snow-like flecks."
+    ],
+    "editorialReview": "Five distinct young-adult models, head to boots, visible scarves, front layers and daylight snow. Cut 03 has noticeably stronger perspective on the leading boot."
+  },
+  "copy": {
+    "titleEn": "COFFEE ON THE WALK",
+    "title": {
+      "ko": "커피 한 잔 들고",
+      "en": "Coffee on the walk",
+      "de": "Mit Kaffee unterwegs"
+    },
+    "deck": {
+      "ko": "미드나이트 코트에 버건디 스카프가 색을 더합니다.",
+      "en": "Burgundy adds color to a midnight coat.",
+      "de": "Burgunderrot setzt einen Akzent auf dem mitternachtsblauen Mantel."
+    },
+    "intro": {
+      "ko": "한 손에 커피를 들고 눈이 치워진 보도를 걷습니다.",
+      "en": "He walks along the cleared sidewalk with coffee in one hand.",
+      "de": "Mit Kaffee in einer Hand geht er über den geräumten Gehweg."
+    },
+    "body": {
+      "ko": "짙은 더블 코트 사이로 아이보리 케이블 니트가 드러납니다. 회색 플리츠 팬츠와 검정 레이스업 부츠로 차분하게 이어집니다.",
+      "en": "An ivory cable knit shows between the coat lapels. Gray pleats and black lace-up boots carry the dark palette below.",
+      "de": "Zwischen den Revers ist elfenbeinfarbener Zopfstrick sichtbar. Graue Bundfalten und schwarze Schnürboots führen die dunkle Palette fort."
+    },
+    "pull": {
+      "ko": "짙은 네이비 위로 내려오는 와인색.",
+      "en": "Wine-red fringe on deep navy.",
+      "de": "Weinrote Fransen auf tiefem Marineblau."
+    },
+    "pullQuoteEn": "Wine-red fringe on deep navy.",
+    "tip": {
+      "ko": "스카프를 짧게 감아 니트의 케이블 무늬가 보이게 하세요.",
+      "en": "Wrap the scarf short to leave the cable texture visible.",
+      "de": "Den Schal kurz wickeln, damit das Zopfmuster sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "double-breasted-coat",
+      "producerId": "05-01",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.double-breasted-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "미드나이트 더블 코트",
+        "en": "Midnight double-breasted coat",
+        "de": "Mitternachtsblauer Zweireihermantel"
+      },
+      "nameKo": "미드나이트 더블 코트",
+      "description": {
+        "ko": "깊은 네이비와 대칭 단추 배열",
+        "en": "Deep navy and symmetrical buttons",
+        "de": "Tiefes Marineblau und symmetrische Knopfreihen"
+      },
+      "howToWear": {
+        "ko": "미드나이트 더블 코트를 입을 때 앞을 조금 열어 안쪽 레이어가 보이게 하세요.",
+        "en": "With midnight double-breasted coat, leave the front slightly open to show the inner layers.",
+        "de": "Mitternachtsblauer Zweireihermantel: Vorne leicht öffnen, damit die inneren Lagen sichtbar bleiben."
+      },
+      "image": "products/double-breasted-coat.webp",
+      "sha256": "92a67c4aac29ae019b59b4d09fd5297ad2add87edd780a0d4875e0e27cd89098",
+      "bytes": 32628,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cable-knit",
+      "producerId": "05-02",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.cable-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "아이보리 케이블 니트",
+        "en": "Ivory cable knit",
+        "de": "Elfenbeinfarbener Zopfstrickpullover"
+      },
+      "nameKo": "아이보리 케이블 니트",
+      "description": {
+        "ko": "아이보리 케이블 짜임",
+        "en": "Ivory cable texture",
+        "de": "Elfenbeinfarbener Zopfstrick"
+      },
+      "howToWear": {
+        "ko": "아이보리 케이블 니트를 입을 때 스카프 끝을 옆으로 정리해 니트 목선을 드러내세요.",
+        "en": "With ivory cable knit, set the scarf ends aside to reveal the knit neckline.",
+        "de": "Elfenbeinfarbener Zopfstrickpullover: Die Schalenden seitlich anlegen, damit der Ausschnitt sichtbar bleibt."
+      },
+      "image": "products/cable-knit.webp",
+      "sha256": "9a045dcf8b5bb5aa94d98f762b22f61f37a78b5120a12694cf3802174cb45667",
+      "bytes": 49712,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "pleated-trousers",
+      "producerId": "05-03",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.pleated-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "회색 플리츠 팬츠",
+        "en": "Gray pleated trousers",
+        "de": "Graue Bundfaltenhose"
+      },
+      "nameKo": "회색 플리츠 팬츠",
+      "description": {
+        "ko": "허리의 앞주름과 접힌 밑단",
+        "en": "Pleated waist and cuffed hems",
+        "de": "Bundfalten und umgeschlagene Säume"
+      },
+      "howToWear": {
+        "ko": "회색 플리츠 팬츠를 입을 때 바지 밑단이 부츠 끈에 걸리지 않도록 길이를 맞추세요.",
+        "en": "With gray pleated trousers, set the hems so they clear the boot laces.",
+        "de": "Graue Bundfaltenhose: Die Säume so einstellen, dass die Schnürung frei bleibt."
+      },
+      "image": "products/pleated-trousers.webp",
+      "sha256": "68554b1c502f87c4260a9df4563f15a165f19bba99036bbae3d17cce5c1cfb36",
+      "bytes": 38946,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "beanie",
+      "producerId": "05-04",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "미드나이트 네이비 비니",
+        "en": "Midnight navy beanie",
+        "de": "Mitternachtsblaue Strickmütze"
+      },
+      "nameKo": "미드나이트 네이비 비니",
+      "description": {
+        "ko": "짙은 네이비 골지와 접어 올린 가장자리",
+        "en": "Deep navy ribs and turned-up edge",
+        "de": "Tiefblauer Längsripp mit Umschlag"
+      },
+      "howToWear": {
+        "ko": "미드나이트 네이비 비니를 입을 때 귀를 덮도록 머리 둘레에 편하게 맞추세요.",
+        "en": "With midnight navy beanie, fit it comfortably around the head to cover the ears.",
+        "de": "Mitternachtsblaue Strickmütze: Bequem um den Kopf anlegen, damit die Ohren bedeckt sind."
+      },
+      "image": "products/beanie.webp",
+      "sha256": "83a4bba12e37e32a052c27b9d3069e6a68623f6856f956bd48f4a4271ab59c99",
+      "bytes": 44812,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fringe-scarf",
+      "producerId": "05-05",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "버건디 프린지 스카프",
+        "en": "Burgundy fringe scarf",
+        "de": "Burgunderroter Fransenschal"
+      },
+      "nameKo": "버건디 프린지 스카프",
+      "description": {
+        "ko": "와인색 직물과 긴 술",
+        "en": "Wine-red fabric and long fringe",
+        "de": "Weinrotes Gewebe und lange Fransen"
+      },
+      "howToWear": {
+        "ko": "버건디 프린지 스카프를 입을 때 목에 한 번 감고 한쪽 끝을 짧게 정리하세요.",
+        "en": "With burgundy fringe scarf, wrap once and tuck one end short.",
+        "de": "Burgunderroter Fransenschal: Einmal um den Hals legen und ein Ende kurz einstecken."
+      },
+      "image": "products/fringe-scarf.webp",
+      "sha256": "68bf859f097de8a4574dcda66a8a2c8f7d67c5303ee9969e938515b4fab085e0",
+      "bytes": 47240,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "leather-gloves",
+      "producerId": "05-06",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.leather-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "짙은 갈색 가죽 장갑",
+        "en": "Dark brown leather gloves",
+        "de": "Dunkelbraune Lederhandschuhe"
+      },
+      "nameKo": "짙은 갈색 가죽 장갑",
+      "description": {
+        "ko": "짙은 갈색 표면과 손목 주름",
+        "en": "Dark brown finish and gathered wrists",
+        "de": "Dunkelbraune Oberfläche und geraffte Bündchen"
+      },
+      "howToWear": {
+        "ko": "짙은 갈색 가죽 장갑를 입을 때 손목이 드러나지 않도록 코트 소매 아래에 넣으세요.",
+        "en": "With dark brown leather gloves, tuck the cuffs beneath the coat sleeves to cover the wrists.",
+        "de": "Dunkelbraune Lederhandschuhe: Die Bündchen unter die Mantelärmel stecken."
+      },
+      "image": "products/leather-gloves.webp",
+      "sha256": "cadf3bc6a3286d122e8935147db83660c9d9d9da4b3d820396d67cb2efbaf7c8",
+      "bytes": 48476,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "winter-lace-up-boots",
+      "producerId": "05-07",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-05.winter-lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "검정 방한 레이스업 부츠",
+        "en": "Black winter lace-up boots",
+        "de": "Schwarze Winter-Schnürboots"
+      },
+      "nameKo": "검정 방한 레이스업 부츠",
+      "description": {
+        "ko": "검정 끈과 발목을 감싸는 패딩",
+        "en": "Black laces and padded ankles",
+        "de": "Schwarze Schnürung und gepolsterter Schaft"
+      },
+      "howToWear": {
+        "ko": "검정 방한 레이스업 부츠를 입을 때 바지 밑단 아래로 밑창 옆면이 보이게 신으세요.",
+        "en": "With black winter lace-up boots, let the sole edge show beneath the trouser hems.",
+        "de": "Schwarze Winter-Schnürboots: Die Sohlenkante unter den Hosensäumen sichtbar lassen."
+      },
+      "image": "products/winter-lace-up-boots.webp",
+      "sha256": "e8f0efda3e1a73f94744536d8d3c79f217cf63802b599347ff8fdca4e6216871",
+      "bytes": 41366,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b219"
+}

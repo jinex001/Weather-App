@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-chic-20261111-04",
+  "batchId": "european-urban-snow-cold-male-day-chic-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal",
+    "styleLabel": {
+      "ko": "시크",
+      "en": "Chic",
+      "de": "Chic"
+    }
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city neighbourhood (bakery front, tram stop, snowbank, front door, cafe terrace) in overcast daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 front boot is emphasized by the wide-angle perspective; hidden item details are reconstructed; some dark knits show minor pale flecks; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user approved these five Picsart snow Chic editorials and asked to hand the batch to Claude Code and finish the cycle (APPROVAL.json userQuote \"클로드 한테 넘기고 작업사이클 마무리꺼지\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: Picsart cutouts, producer technical QA and four-background visual review only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "af8c6edd5389418f6abc8696105ef8b3a368dc01a838e0c098d9b2056a9c9377",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (PICSART_RESULTS.json, PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-chic-20261111-04",
+  "appStyle": "minimal",
+  "appStyleLabel": {
+    "ko": "시크",
+    "en": "Chic",
+    "de": "Chic"
+  },
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-chic-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-chic-20261111-04.belted-coat",
+  "scenePropsNotProducts": [
+    "front door",
+    "key",
+    "wall lantern"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-five products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T19:47:17.140382+00:00",
+    "productCount": 35,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-04.jpg"
+    ],
+    "findings": [
+      "All five sheets checked. Dark navy and black items have low contrast on black but show clean silhouettes on the other backgrounds. Concealed details including some necklines, closures and boot shafts are reconstructions. Some dark knits show minor snow-like flecks."
+    ],
+    "editorialReview": "Five distinct young-adult models, head to boots, visible scarves, front layers and daylight snow. Cut 03 has noticeably stronger perspective on the leading boot."
+  },
+  "copy": {
+    "titleEn": "THE KEY AT THE DOOR",
+    "title": {
+      "ko": "현관 앞에서 찾은 열쇠",
+      "en": "The key at the door",
+      "de": "Der Schlüssel vor der Tür"
+    },
+    "deck": {
+      "ko": "벨티드 올리브 코트에 스톤색 스카프를 맞췄습니다.",
+      "en": "A stone scarf complements a belted olive coat.",
+      "de": "Ein steinfarbener Schal ergänzt den olivfarbenen Gürtelmantel."
+    },
+    "intro": {
+      "ko": "현관에서 발걸음을 멈추고 장갑 낀 손으로 열쇠를 고릅니다.",
+      "en": "At the entrance he stops to find the right key in his gloved hand.",
+      "de": "Vor dem Eingang hält er an und sucht den passenden Schlüssel."
+    },
+    "body": {
+      "ko": "코트의 허리끈이 실루엣을 잡고, 밝은 터틀넥과 스카프가 얼굴 아래에 겹칩니다. 회색 바지와 갈색 부츠로 마무리했습니다.",
+      "en": "The belt shapes the olive coat while pale knit and scarf brighten the neckline. Gray trousers and brown boots complete the look.",
+      "de": "Der Gürtel gibt dem Mantel Form. Heller Strick und Schal rahmen den Hals, graue Hose und braune Boots runden den Look ab."
+    },
+    "pull": {
+      "ko": "올리브 라펠 위의 부드러운 회베이지.",
+      "en": "Soft stone tones against olive lapels.",
+      "de": "Weiches Graubeige auf olivfarbenem Revers."
+    },
+    "pullQuoteEn": "Soft stone tones against olive lapels.",
+    "tip": {
+      "ko": "허리끈을 느슨하게 묶어 니트 목선과 라펠을 함께 보이게 하세요.",
+      "en": "Tie the belt loosely so the knit neckline and lapels both show.",
+      "de": "Den Gürtel locker binden, damit Rollkragen und Revers sichtbar bleiben."
+    }
+  },
+  "products": [
+    {
+      "id": "belted-coat",
+      "producerId": "04-01",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.belted-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "딥 올리브 벨티드 코트",
+        "en": "Deep olive belted coat",
+        "de": "Dunkelolivfarbener Gürtelmantel"
+      },
+      "nameKo": "딥 올리브 벨티드 코트",
+      "description": {
+        "ko": "올리브 라펠과 같은 색 허리끈",
+        "en": "Olive lapels and matching tie belt",
+        "de": "Olivfarbenes Revers und passender Bindegürtel"
+      },
+      "howToWear": {
+        "ko": "딥 올리브 벨티드 코트를 입을 때 앞을 조금 열어 안쪽 레이어가 보이게 하세요.",
+        "en": "With deep olive belted coat, leave the front slightly open to show the inner layers.",
+        "de": "Dunkelolivfarbener Gürtelmantel: Vorne leicht öffnen, damit die inneren Lagen sichtbar bleiben."
+      },
+      "image": "products/belted-coat.webp",
+      "sha256": "230abd211e2623b37ca9bf141f6e41a29f9c89cccebf648464d067a5acb25a74",
+      "bytes": 38110,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fine-knit-rollneck",
+      "producerId": "04-02",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.fine-knit-rollneck",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "오트밀 파인니트 터틀넥",
+        "en": "Oatmeal fine-knit rollneck",
+        "de": "Haferfarbener Feinripp-Rollkragen"
+      },
+      "nameKo": "오트밀 파인니트 터틀넥",
+      "description": {
+        "ko": "밝고 얇은 짜임과 접힌 목선",
+        "en": "Pale fine knit and folded neckline",
+        "de": "Heller Feinstrick und umgelegter Kragen"
+      },
+      "howToWear": {
+        "ko": "오트밀 파인니트 터틀넥를 입을 때 스카프 끝을 옆으로 정리해 니트 목선을 드러내세요.",
+        "en": "With oatmeal fine-knit rollneck, set the scarf ends aside to reveal the knit neckline.",
+        "de": "Haferfarbener Feinripp-Rollkragen: Die Schalenden seitlich anlegen, damit der Ausschnitt sichtbar bleibt."
+      },
+      "image": "products/fine-knit-rollneck.webp",
+      "sha256": "2a53d3973e030c6ea0fa732b18e2f5ffec0b260e8badeefeb6fad821e54d5251",
+      "bytes": 44300,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "04-03",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "회색 스트레이트 팬츠",
+        "en": "Gray straight trousers",
+        "de": "Graue gerade Hose"
+      },
+      "nameKo": "회색 스트레이트 팬츠",
+      "description": {
+        "ko": "회색 바탕과 곧은 밑단",
+        "en": "Gray body with straight hems",
+        "de": "Grauer Stoff mit geradem Saum"
+      },
+      "howToWear": {
+        "ko": "회색 스트레이트 팬츠를 입을 때 바지 밑단이 부츠 끈에 걸리지 않도록 길이를 맞추세요.",
+        "en": "With gray straight trousers, set the hems so they clear the boot laces.",
+        "de": "Graue gerade Hose: Die Säume so einstellen, dass die Schnürung frei bleibt."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "674a0b693e1e035fa10d0ba823b29776622636587c18ca7db7f076b6c4355dca",
+      "bytes": 34658,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-beanie",
+      "producerId": "04-04",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.ribbed-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "스톤 골지 비니",
+        "en": "Stone ribbed beanie",
+        "de": "Steinfarbene Rippmütze"
+      },
+      "nameKo": "스톤 골지 비니",
+      "description": {
+        "ko": "회베이지의 도톰한 골지",
+        "en": "Thick gray-beige ribbing",
+        "de": "Kräftiger graubeiger Rippstrick"
+      },
+      "howToWear": {
+        "ko": "스톤 골지 비니를 입을 때 귀를 덮도록 머리 둘레에 편하게 맞추세요.",
+        "en": "With stone ribbed beanie, fit it comfortably around the head to cover the ears.",
+        "de": "Steinfarbene Rippmütze: Bequem um den Kopf anlegen, damit die Ohren bedeckt sind."
+      },
+      "image": "products/ribbed-beanie.webp",
+      "sha256": "03dee3fc0c0a1d063bc81232c795a7b9cfd8b248f90d4d14bf9c468a1053a5a5",
+      "bytes": 46996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fringe-scarf",
+      "producerId": "04-05",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "스톤 프린지 스카프",
+        "en": "Stone fringe scarf",
+        "de": "Steinfarbener Fransenschal"
+      },
+      "nameKo": "스톤 프린지 스카프",
+      "description": {
+        "ko": "회베이지 직물과 프린지",
+        "en": "Gray-beige fabric and fringe",
+        "de": "Graubeiges Gewebe mit Fransen"
+      },
+      "howToWear": {
+        "ko": "스톤 프린지 스카프를 입을 때 목에 한 번 감고 한쪽 끝을 짧게 정리하세요.",
+        "en": "With stone fringe scarf, wrap once and tuck one end short.",
+        "de": "Steinfarbener Fransenschal: Einmal um den Hals legen und ein Ende kurz einstecken."
+      },
+      "image": "products/fringe-scarf.webp",
+      "sha256": "56a70fcdf50342427a6ef5fe49d85cfcb5878af9d9d328036d8b59bd939b233d",
+      "bytes": 49064,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit-gloves",
+      "producerId": "04-06",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.knit-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "차콜 니트 장갑",
+        "en": "Charcoal knit gloves",
+        "de": "Anthrazitfarbene Strickhandschuhe"
+      },
+      "nameKo": "차콜 니트 장갑",
+      "description": {
+        "ko": "짙은 회색 짜임과 골지 손목",
+        "en": "Dark gray knit and ribbed cuffs",
+        "de": "Dunkelgrauer Strick und Rippbündchen"
+      },
+      "howToWear": {
+        "ko": "차콜 니트 장갑를 입을 때 손목이 드러나지 않도록 코트 소매 아래에 넣으세요.",
+        "en": "With charcoal knit gloves, tuck the cuffs beneath the coat sleeves to cover the wrists.",
+        "de": "Anthrazitfarbene Strickhandschuhe: Die Bündchen unter die Mantelärmel stecken."
+      },
+      "image": "products/knit-gloves.webp",
+      "sha256": "f7b8a98b6ddb8c7f71737896cd6f746b7cd4b9e40409fff838d47e3696da3ffc",
+      "bytes": 49508,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "winter-boots",
+      "producerId": "04-07",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-04.winter-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "다크 브라운 방한 부츠",
+        "en": "Dark brown winter boots",
+        "de": "Dunkelbraune Winterboots"
+      },
+      "nameKo": "다크 브라운 방한 부츠",
+      "description": {
+        "ko": "갈색 앞코와 금속 끈 고리",
+        "en": "Brown toes and metal lace hooks",
+        "de": "Braune Spitzen und Metallhaken"
+      },
+      "howToWear": {
+        "ko": "다크 브라운 방한 부츠를 입을 때 바지 밑단 아래로 밑창 옆면이 보이게 신으세요.",
+        "en": "With dark brown winter boots, let the sole edge show beneath the trouser hems.",
+        "de": "Dunkelbraune Winterboots: Die Sohlenkante unter den Hosensäumen sichtbar lassen."
+      },
+      "image": "products/winter-boots.webp",
+      "sha256": "b1546263161d847cc4c46ec69a98de7b29447d181ae67f2c2cddbccd7cda2ba8",
+      "bytes": 43900,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b219"
+}

@@ -659,7 +659,8 @@
 <script src="look/european-urban-snow-cold-female-day-street-picsart-20261110.js?v=b216"></script>
 <script src="look/european-urban-snow-cold-male-day-street-picsart-20261111.js?v=b217"></script>
 <script src="look/european-urban-snow-cold-female-day-minimal-codex-20261111.js?v=b218"></script>
-<script src="look/cutouts.js?v=b218"></script>
+<script src="look/european-urban-snow-cold-male-day-chic-20261111.js?v=b219"></script>
+<script src="look/cutouts.js?v=b219"></script>
 <script src="look/coast-grid.js?v=b175"></script>
 <script src="look/global-context.js?v=b187"></script>
 <script>
@@ -1099,7 +1100,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b218";
+  var BUILD = "b219";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1193,7 +1194,7 @@
           tonight: "{t}부터 {v}°로 떨어져요. 늦게 들어오면 한 겹 더 챙기세요.", hotTmr: "내일은 {v}°. 오늘 밤 물병을 얼려두세요.", coldTmr: "내일 아침 {v}°. 보온병에 따뜻한 물을 챙기세요.",
           older: "50대 이상이면 한 겹 더 입는 걸 권해요.",
           ask: "오늘 뭘 입을지 맞춰드릴게요. 세 가지만 알려주세요.", q: ["성별", "연령대", "아기와 함께 외출하나요?"],
-          o: [["여성", "남성", "선택 안 함"], ["35세 미만", "35+", "60+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "미니멀", "아기"],
+          o: [["여성", "남성", "선택 안 함"], ["35세 미만", "35+", "60+"], ["네", "아니요"]], styles: ["러닝", "스트리트", "시크", "아기"],
           own: "갖고 있어요", want: "관심 있어요",
           fitToday: "오늘의 추천", fitGood: "이것도 좋아요", fitOk: "이것도 나쁘지 않아요", fitAlso: "오늘 날씨에도 맞아요", fitDay: "이날의 추천", fitSoon: "준비 중", soon: "이 날씨에 맞는 룩 사진은 아직 준비 중이에요.", fitDayAlso: "이날 날씨에도 맞아요", fitClear: "맑은 날 룩", fitCloudy: "흐린 날 룩", fitBand: "{b}에 맞춘 룩",
           go: "내 룩 보기", fine: "답은 이 폰에만 저장되고 어디로도 보내지 않아요.<br>맨 아래 Edit profile에서 언제든 바꿀 수 있어요.", feels: "체감" },
@@ -1201,7 +1202,7 @@
           tonight: "Drops to {v}° from {t}. Out late? Take an extra layer.", hotTmr: "{v}° tomorrow. Freeze a water bottle tonight.", coldTmr: "{v}° tomorrow morning. Take a flask of something warm.",
           older: "At 50+, we suggest one more layer.",
           ask: "Let's match today's outfit to you. Just three questions.", q: ["Gender", "Age", "Going out with a baby?"],
-          o: [["Woman", "Man", "Prefer not to say"], ["Under 35", "35+", "60+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Minimal", "Baby"],
+          o: [["Woman", "Man", "Prefer not to say"], ["Under 35", "35+", "60+"], ["Yes", "No"]], styles: ["Running", "Streetwear", "Chic", "Baby"],
           own: "I own this", want: "Interested",
           fitToday: "Today's pick", fitGood: "This works too", fitOk: "Not bad either", fitAlso: "Also right for today", fitDay: "Pick for the day", fitSoon: "Coming soon", soon: "Looks for this weather are still in the works.", fitDayAlso: "Also right for the day", fitClear: "For clear days", fitCloudy: "For cloudy days", fitBand: "For {b} days",
           go: "Show my look", fine: "Your answers stay on this phone and are never sent anywhere.<br>Change them any time under Edit profile.", feels: "Feels" },
@@ -1209,7 +1210,7 @@
           tonight: "Ab {t} nur noch {v}°. Spät unterwegs? Eine Schicht mehr.", hotTmr: "Morgen {v}°. Heute Abend eine Wasserflasche einfrieren.", coldTmr: "Morgen früh {v}°. Eine Thermoskanne mit Warmem mitnehmen.",
           older: "Ab 50 empfehlen wir eine Schicht mehr.",
           ask: "Wir passen den Look an dich an. Nur drei Fragen.", q: ["Geschlecht", "Alter", "Mit Baby unterwegs?"],
-          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 35", "35+", "60+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Minimal", "Baby"],
+          o: [["Frau", "Mann", "Keine Angabe"], ["Unter 35", "35+", "60+"], ["Ja", "Nein"]], styles: ["Laufen", "Streetwear", "Chic", "Baby"],
           own: "Hab ich", want: "Interessiert mich",
           fitToday: "Heute empfohlen", fitGood: "Passt auch gut", fitOk: "Auch nicht schlecht", fitAlso: "Passt heute auch", fitDay: "Für diesen Tag", fitSoon: "In Arbeit", soon: "Looks für dieses Wetter sind noch in Arbeit.", fitDayAlso: "Passt an diesem Tag auch", fitClear: "Für klare Tage", fitCloudy: "Für trübe Tage", fitBand: "Passt bei: {b}",
           go: "Meinen Look zeigen", fine: "Deine Antworten bleiben auf diesem Handy und werden nirgends hingeschickt.<br>Unter Edit profile jederzeit änderbar.", feels: "Gefühlt" }
@@ -1602,7 +1603,8 @@
     paintHome(v, prof);
   }
   // b152: the three clothing styles, each shown by the hero cut of the look it would pick today (else any of its looks)
-  var STYLE_NAME = { run: "Sport", street: "Street", minimal: "Minimal" };
+  // b219: the minimal style is shown as Chic (key, saved profiles and looks keep "minimal")
+  var STYLE_NAME = { run: "Sport", street: "Street", minimal: "Chic" };
   function styleCut(v, prof, st) {
     var pics = lookPhotos(v, Object.assign({}, prof, { style: st })), e = lookPool(v, pics)[0], o = e && !e.soon ? e.o : null;
     var it = o && o.hero && LIB.items[o.hero];

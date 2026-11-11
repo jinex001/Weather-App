@@ -1,0 +1,438 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-chic-20261111-02",
+  "batchId": "european-urban-snow-cold-male-day-chic-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal",
+    "styleLabel": {
+      "ko": "시크",
+      "en": "Chic",
+      "de": "Chic"
+    }
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city neighbourhood (bakery front, tram stop, snowbank, front door, cafe terrace) in overcast daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 front boot is emphasized by the wide-angle perspective; hidden item details are reconstructed; some dark knits show minor pale flecks; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user approved these five Picsart snow Chic editorials and asked to hand the batch to Claude Code and finish the cycle (APPROVAL.json userQuote \"클로드 한테 넘기고 작업사이클 마무리꺼지\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: Picsart cutouts, producer technical QA and four-background visual review only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "8d465e3e69ddbdf90d56ca299df1af5f2c48a851e253ab0c0da98642de551b15",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (PICSART_RESULTS.json, PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-chic-20261111-02",
+  "appStyle": "minimal",
+  "appStyleLabel": {
+    "ko": "시크",
+    "en": "Chic",
+    "de": "Chic"
+  },
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-chic-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-chic-20261111-02.double-breasted-coat",
+  "scenePropsNotProducts": [
+    "tram",
+    "tram shelter",
+    "bench",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-five products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T19:47:17.140382+00:00",
+    "productCount": 35,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-02.jpg"
+    ],
+    "findings": [
+      "All five sheets checked. Dark navy and black items have low contrast on black but show clean silhouettes on the other backgrounds. Concealed details including some necklines, closures and boot shafts are reconstructions. Some dark knits show minor snow-like flecks."
+    ],
+    "editorialReview": "Five distinct young-adult models, head to boots, visible scarves, front layers and daylight snow. Cut 03 has noticeably stronger perspective on the leading boot."
+  },
+  "copy": {
+    "titleEn": "AS THE TRAM PULLS IN",
+    "title": {
+      "ko": "트램이 들어오는 순간",
+      "en": "As the tram pulls in",
+      "de": "Wenn die Tram einfährt"
+    },
+    "deck": {
+      "ko": "캐멀 코트에 오트밀 스카프를 둘렀습니다.",
+      "en": "Oatmeal fringe softens a camel coat.",
+      "de": "Haferfarbene Fransen ergänzen den kamelfarbenen Mantel."
+    },
+    "intro": {
+      "ko": "트램이 다가오자 한 손으로 스카프 끝을 잡습니다.",
+      "en": "He catches the scarf end as the tram approaches.",
+      "de": "Als die Tram näher kommt, hält er das Schalende fest."
+    },
+    "body": {
+      "ko": "캐멀 더블 코트 아래 짙은 갈색 니트와 팬츠가 이어집니다. 밝은 스카프와 붉은 갈색 부츠가 서로 다른 온도의 색을 더합니다.",
+      "en": "A dark brown knit and trousers sit beneath the double-breasted camel coat. Pale fringe and oxblood boots add two warmer notes.",
+      "de": "Dunkler Strick und braune Hose liegen unter dem kamelfarbenen Zweireiher. Helle Fransen und ochsenblutrote Boots setzen warme Akzente."
+    },
+    "pull": {
+      "ko": "캐멀과 오트밀, 발끝의 붉은 갈색.",
+      "en": "Camel and oatmeal with a hint of oxblood.",
+      "de": "Kamel und Hafer mit einem Hauch Ochsenblutrot."
+    },
+    "pullQuoteEn": "Camel and oatmeal with a hint of oxblood.",
+    "tip": {
+      "ko": "오트밀 스카프를 한쪽 라펠에 걸쳐 갈색 니트를 드러내세요.",
+      "en": "Set the oatmeal scarf over one lapel to show the brown knit.",
+      "de": "Den hellen Schal über ein Revers legen, damit der braune Strick sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "double-breasted-coat",
+      "producerId": "02-01",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.double-breasted-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "캐멀 더블 코트",
+        "en": "Camel double-breasted coat",
+        "de": "Kamelfarbener Zweireihermantel"
+      },
+      "nameKo": "캐멀 더블 코트",
+      "description": {
+        "ko": "넓은 라펠과 두 줄 단추",
+        "en": "Broad lapels and two button rows",
+        "de": "Breites Revers und zwei Knopfreihen"
+      },
+      "howToWear": {
+        "ko": "캐멀 더블 코트를 입을 때 앞을 조금 열어 안쪽 레이어가 보이게 하세요.",
+        "en": "With camel double-breasted coat, leave the front slightly open to show the inner layers.",
+        "de": "Kamelfarbener Zweireihermantel: Vorne leicht öffnen, damit die inneren Lagen sichtbar bleiben."
+      },
+      "image": "products/double-breasted-coat.webp",
+      "sha256": "fc5be0202b322556f8420a6dcdd1847e6d44045cb16b4017542ad72e7b8e8490",
+      "bytes": 49364,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mock-neck",
+      "producerId": "02-02",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.mock-neck",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "에스프레소 모크넥",
+        "en": "Espresso mock neck",
+        "de": "Espressobrauner Stehkragenpullover"
+      },
+      "nameKo": "에스프레소 모크넥",
+      "description": {
+        "ko": "짧게 올라오는 목선과 세로 골",
+        "en": "Short standing collar and vertical ribs",
+        "de": "Kurzer Stehkragen und Längsripp"
+      },
+      "howToWear": {
+        "ko": "에스프레소 모크넥를 입을 때 스카프 끝을 옆으로 정리해 니트 목선을 드러내세요.",
+        "en": "With espresso mock neck, set the scarf ends aside to reveal the knit neckline.",
+        "de": "Espressobrauner Stehkragenpullover: Die Schalenden seitlich anlegen, damit der Ausschnitt sichtbar bleibt."
+      },
+      "image": "products/mock-neck.webp",
+      "sha256": "22f568cc14b9189dc68952267b4548b1a294acb62b6c2f1ce70e278dd9bc8cac",
+      "bytes": 43404,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "02-03",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "초콜릿 스트레이트 팬츠",
+        "en": "Chocolate straight trousers",
+        "de": "Schokoladenbraune gerade Hose"
+      },
+      "nameKo": "초콜릿 스트레이트 팬츠",
+      "description": {
+        "ko": "곧은 다리선과 따뜻한 갈색",
+        "en": "Straight leg and warm brown",
+        "de": "Gerades Bein und warmes Braun"
+      },
+      "howToWear": {
+        "ko": "초콜릿 스트레이트 팬츠를 입을 때 바지 밑단이 부츠 끈에 걸리지 않도록 길이를 맞추세요.",
+        "en": "With chocolate straight trousers, set the hems so they clear the boot laces.",
+        "de": "Schokoladenbraune gerade Hose: Die Säume so einstellen, dass die Schnürung frei bleibt."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "774cfcc908c7a7184f881da1660a138c20ce072c1573efbdd287024ec2893ddd",
+      "bytes": 23124,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "padded-earmuffs",
+      "producerId": "02-04",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.padded-earmuffs",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "다크 패딩 귀마개",
+        "en": "Dark padded earmuffs",
+        "de": "Dunkle gepolsterte Ohrwärmer"
+      },
+      "nameKo": "다크 패딩 귀마개",
+      "description": {
+        "ko": "아치형 밴드와 둥근 패드",
+        "en": "Curved band and round pads",
+        "de": "Gebogener Bügel und runde Polster"
+      },
+      "howToWear": {
+        "ko": "다크 패딩 귀마개를 입을 때 귀를 덮도록 머리 둘레에 편하게 맞추세요.",
+        "en": "With dark padded earmuffs, fit it comfortably around the head to cover the ears.",
+        "de": "Dunkle gepolsterte Ohrwärmer: Bequem um den Kopf anlegen, damit die Ohren bedeckt sind."
+      },
+      "image": "products/padded-earmuffs.webp",
+      "sha256": "354d8f5eed95a1eb1cb98083e0738b2b18acc485e0c29b2f4f8e625d72cabe60",
+      "bytes": 46400,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fringe-scarf",
+      "producerId": "02-05",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "오트밀 프린지 스카프",
+        "en": "Oatmeal fringe scarf",
+        "de": "Haferfarbener Fransenschal"
+      },
+      "nameKo": "오트밀 프린지 스카프",
+      "description": {
+        "ko": "밝은 베이지 직물과 긴 프린지",
+        "en": "Pale beige fabric with long fringes",
+        "de": "Heller Beigestoff mit langen Fransen"
+      },
+      "howToWear": {
+        "ko": "오트밀 프린지 스카프를 입을 때 목에 한 번 감고 한쪽 끝을 짧게 정리하세요.",
+        "en": "With oatmeal fringe scarf, wrap once and tuck one end short.",
+        "de": "Haferfarbener Fransenschal: Einmal um den Hals legen und ein Ende kurz einstecken."
+      },
+      "image": "products/fringe-scarf.webp",
+      "sha256": "f5c402f6288f3dcf701bbf54e618f5c0d0cca182898c114bd46d05ba32617932",
+      "bytes": 49538,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "leather-gloves",
+      "producerId": "02-06",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.leather-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "브라운 가죽 장갑",
+        "en": "Brown leather gloves",
+        "de": "Braune Lederhandschuhe"
+      },
+      "nameKo": "브라운 가죽 장갑",
+      "description": {
+        "ko": "따뜻한 갈색과 주름 잡힌 손목",
+        "en": "Warm brown and gathered wrists",
+        "de": "Warmes Braun und geraffte Bündchen"
+      },
+      "howToWear": {
+        "ko": "브라운 가죽 장갑를 입을 때 손목이 드러나지 않도록 코트 소매 아래에 넣으세요.",
+        "en": "With brown leather gloves, tuck the cuffs beneath the coat sleeves to cover the wrists.",
+        "de": "Braune Lederhandschuhe: Die Bündchen unter die Mantelärmel stecken."
+      },
+      "image": "products/leather-gloves.webp",
+      "sha256": "13d588041db073348f3761544f6747e405496431adceb0b4129018d22e681884",
+      "bytes": 45886,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lace-up-boots",
+      "producerId": "02-07",
+      "appItemId": "eu-snow-cold-m-day-chic-20261111-02.lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "name": {
+        "ko": "옥스블러드 레이스업 부츠",
+        "en": "Oxblood lace-up boots",
+        "de": "Ochsenblutrote Schnürboots"
+      },
+      "nameKo": "옥스블러드 레이스업 부츠",
+      "description": {
+        "ko": "붉은 갈색 갑피와 검은 러그솔",
+        "en": "Reddish brown uppers and black lugs",
+        "de": "Rotbrauner Schaft und schwarze Profilsohle"
+      },
+      "howToWear": {
+        "ko": "옥스블러드 레이스업 부츠를 입을 때 바지 밑단 아래로 밑창 옆면이 보이게 신으세요.",
+        "en": "With oxblood lace-up boots, let the sole edge show beneath the trouser hems.",
+        "de": "Ochsenblutrote Schnürboots: Die Sohlenkante unter den Hosensäumen sichtbar lassen."
+      },
+      "image": "products/lace-up-boots.webp",
+      "sha256": "8fa389dd70f825ac81927d4bcb74b23d514fa9337c75817ca994f27629a5de09",
+      "bytes": 45054,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Picsart product cutout (reference kept in the iCloud originals)",
+      "reconstructionNotice": {
+        "ko": "착장 사진에 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b219"
+}
