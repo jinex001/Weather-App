@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-street-20261111-04",
+  "batchId": "european-urban-snow-cold-male-day-street-picsart-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European residential city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 clips the fingertips of the outstretched arm at the right edge; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Picsart snow editorials and asked for product breakdown and full automation of this batch (EDITORIAL_QA.json approvalQuote). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7ef96fbb1ea844cd85788e3df5bcba0635624ffc130c80bd5ae8df1765dbe4ea",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (PICSART_RESULTS.json, PROMPTS.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-street-20261111-04",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-street-picsart-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-street-20261111-04.rib-cuff-mittens",
+  "scenePropsNotProducts": [
+    "front door",
+    "key",
+    "companion"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T11:31:55.302546+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed all five sheets. Isolated silhouettes, garment openings and scarf fringes remain readable across the four backgrounds. Concealed fronts reconstructed per item references. Some dark garments have low contrast against black."
+    ],
+    "editorialReview": "All five reviewed. Head and boots visible; scene trigger and reaction readable in each. Look 03 clips fingertips of outstretched arm at right edge."
+  },
+  "copy": {
+    "titleEn": "A KEY CAUGHT AT THE CUFF",
+    "title": {
+      "ko": "벙어리장갑에 걸린 열쇠",
+      "en": "A key caught at the cuff",
+      "de": "Ein Schlüssel am Fäustlingsbund"
+    },
+    "deck": {
+      "ko": "차콜 패딩 사이로 청록 니트와 회색 머플러가 보입니다.",
+      "en": "Teal knit and a gray scarf sit inside charcoal padding.",
+      "de": "Petrolfarbener Strick und grauer Schal unter dunkler Steppung."
+    },
+    "intro": {
+      "ko": "현관 앞에서 장갑 끝에 걸린 열쇠를 빼며 옆 사람을 보고 웃습니다.",
+      "en": "At the door, he frees a key from his mitten cuff and laughs with a companion.",
+      "de": "Vor der Tür löst er den Schlüssel vom Fäustlingsbund und lacht mit seiner Begleitung."
+    },
+    "body": {
+      "ko": "후드 패딩 안에 청록 니트를 입고 회색 프린지 머플러를 둘렀습니다. 진한 데님과 검정 레이스업 부츠가 색을 아래로 잇고, 리브 커프 벙어리장갑이 손목을 감쌉니다.",
+      "en": "A hooded puffer frames teal knit and a gray fringe scarf. Dark denim leads to black lace-up boots, and ribbed mitten cuffs cover the wrists.",
+      "de": "Die Kapuzenjacke rahmt petrolfarbenen Strick und grauen Fransenschal. Dunkler Denim führt zu schwarzen Schnürstiefeln, die Rippbündchen bedecken die Handgelenke."
+    },
+    "pull": {
+      "ko": "현관 앞에서 잠깐 멈춘 손.",
+      "en": "A brief pause at the door.",
+      "de": "Ein kurzer Halt vor der Tür."
+    },
+    "pullQuoteEn": "A brief pause at the door.",
+    "tip": {
+      "ko": "머플러 끝은 패딩 안쪽에 정리해 청록색이 조금 보이게 하세요.",
+      "en": "Tuck the scarf ends into the puffer with a little teal showing.",
+      "de": "Die Schalenden in die Jacke stecken und etwas Petrol zeigen."
+    }
+  },
+  "products": [
+    {
+      "id": "hooded-puffer",
+      "producerId": "04-01",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-04.hooded-puffer",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "차콜 후드 패딩",
+        "en": "Charcoal hooded puffer",
+        "de": "Anthrazitfarbene Kapuzensteppjacke"
+      },
+      "nameKo": "차콜 후드 패딩",
+      "description": {
+        "ko": "가로 퀼팅과 후드, 앞 지퍼",
+        "en": "Horizontal quilting, hood and front zip",
+        "de": "Quersteppung, Kapuze und Frontreißverschluss"
+      },
+      "howToWear": {
+        "ko": "청록 니트와 회색 머플러를 겹쳐 입으세요.",
+        "en": "Layer over teal knit and a gray scarf.",
+        "de": "Über petrolfarbenem Strick und grauem Schal tragen."
+      },
+      "image": "products/hooded-puffer.webp",
+      "sha256": "42789c527517edbe808729314191072de67a3b7efcdd191ed302297d328e032a",
+      "bytes": 35710,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Charcoal hooded horizontally quilted zip puffer",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "textured-sweater",
+      "producerId": "04-02",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-04.textured-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "청록 텍스처 니트",
+        "en": "Teal textured sweater",
+        "de": "Petrolfarbener Strukturpullover"
+      },
+      "nameKo": "청록 텍스처 니트",
+      "description": {
+        "ko": "차분한 청록색의 도톰한 짜임",
+        "en": "Textured knit in muted teal",
+        "de": "Strukturstrick in gedecktem Petrol"
+      },
+      "howToWear": {
+        "ko": "패딩 앞쪽으로 청록색을 살짝 보이세요.",
+        "en": "Show a strip of teal inside the puffer.",
+        "de": "Etwas Petrol in der Steppjacke zeigen."
+      },
+      "image": "products/textured-sweater.webp",
+      "sha256": "d7e6bb2fdd754d2ec3bb5767e140a0829703158e4e49602741a10cb85f277ce1",
+      "bytes": 48282,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Muted teal textured crewneck knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fringe-scarf",
+      "producerId": "04-03",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-04.fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "헤더 그레이 프린지 머플러",
+        "en": "Heather gray fringe scarf",
+        "de": "Melierter grauer Fransenschal"
+      },
+      "nameKo": "헤더 그레이 프린지 머플러",
+      "description": {
+        "ko": "회색 혼합 조직과 긴 프린지",
+        "en": "Gray marl texture and long fringes",
+        "de": "Grauer Melangestrick und lange Fransen"
+      },
+      "howToWear": {
+        "ko": "후드 아래로 한 번 두르고 끝을 정돈하세요.",
+        "en": "Wrap once below the hood and settle the ends.",
+        "de": "Einmal unter der Kapuze umlegen und die Enden ordnen."
+      },
+      "image": "products/fringe-scarf.webp",
+      "sha256": "d096dbca84e8972baa4e6e121b0d39006be5235259ee43b064922bea7d3e64ea",
+      "bytes": 47928,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Heather gray long knitted fringed scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-denim",
+      "producerId": "04-04",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-04.straight-denim",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "인디고 스트레이트 데님",
+        "en": "Indigo straight denim",
+        "de": "Indigoblaue gerade Jeans"
+      },
+      "nameKo": "인디고 스트레이트 데님",
+      "description": {
+        "ko": "곧은 실루엣의 진한 인디고",
+        "en": "Deep indigo denim with a straight silhouette",
+        "de": "Dunkler Indigo-Denim mit gerader Silhouette"
+      },
+      "howToWear": {
+        "ko": "청록 니트 아래 짙은 색을 이어가세요.",
+        "en": "Continue the dark palette below the teal knit.",
+        "de": "Die dunkle Farbpalette unter dem petrolfarbenen Strick fortsetzen."
+      },
+      "image": "products/straight-denim.webp",
+      "sha256": "008394fb04341b643cd26c5d08f7024e7d5f9d634bd398fdcebfdfc6807053c9",
+      "bytes": 32246,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Dark indigo straight jeans",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-cuff-mittens",
+      "producerId": "04-05",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-04.rib-cuff-mittens",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "name": {
+        "ko": "블랙 리브 커프 벙어리장갑",
+        "en": "Black rib-cuff mittens",
+        "de": "Schwarze Fäustlinge mit Rippbund"
+      },
+      "nameKo": "블랙 리브 커프 벙어리장갑",
+      "description": {
+        "ko": "검정 짜임과 긴 손목 커프",
+        "en": "Black knit with long wrist cuffs",
+        "de": "Schwarzer Strick mit langen Handgelenkbündchen"
+      },
+      "howToWear": {
+        "ko": "긴 커프를 패딩 소매 아래에 겹치세요.",
+        "en": "Overlap the long cuffs under the puffer sleeves.",
+        "de": "Die langen Bündchen unter die Steppärmel schieben."
+      },
+      "image": "products/rib-cuff-mittens.webp",
+      "sha256": "16d9368485d801d4b7b631bd9aee9012afebe4c16c4a56a88c4f075d81f7fb75",
+      "bytes": 42018,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair black textured knit mittens with long rib cuffs, thumb shape conservatively reconstructed",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lace-up-boots",
+      "producerId": "04-06",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-04.lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 레이스업 방한 부츠",
+        "en": "Black lace-up winter boots",
+        "de": "Schwarze Schnür-Winterstiefel"
+      },
+      "nameKo": "블랙 레이스업 방한 부츠",
+      "description": {
+        "ko": "검정 끈과 둥근 앞코, 러그솔",
+        "en": "Black laces, round toes and lug soles",
+        "de": "Schwarze Schnürung, runde Spitzen und Profilsohlen"
+      },
+      "howToWear": {
+        "ko": "인디고 바지 아래 검정 앞코를 보이세요.",
+        "en": "Leave the black toes visible below the indigo jeans.",
+        "de": "Die schwarzen Spitzen unter den Indigojeans zeigen."
+      },
+      "image": "products/lace-up-boots.webp",
+      "sha256": "5ff346ce620b9aac830a67f3fd4d805b6f45a925392dd53a0606cc3d374794bc",
+      "bytes": 31812,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair black leather-look lace-up ankle boots with lug soles",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b217"
+}

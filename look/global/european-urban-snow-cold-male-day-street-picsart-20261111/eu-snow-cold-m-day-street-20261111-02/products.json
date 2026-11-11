@@ -1,0 +1,378 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-street-20261111-02",
+  "batchId": "european-urban-snow-cold-male-day-street-picsart-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European residential city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 clips the fingertips of the outstretched arm at the right edge; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Picsart snow editorials and asked for product breakdown and full automation of this batch (EDITORIAL_QA.json approvalQuote). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "80095257a10d95dbeacc4c270c048da094a57bd7f5bd419ae1ea4f0c7b165f96",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (PICSART_RESULTS.json, PROMPTS.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-street-20261111-02",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-street-picsart-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-street-20261111-02.fringe-scarf",
+  "scenePropsNotProducts": [
+    "tram stop",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T11:31:55.302546+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed all five sheets. Isolated silhouettes, garment openings and scarf fringes remain readable across the four backgrounds. Concealed fronts reconstructed per item references. Some dark garments have low contrast against black."
+    ],
+    "editorialReview": "All five reviewed. Head and boots visible; scene trigger and reaction readable in each. Look 03 clips fingertips of outstretched arm at right edge."
+  },
+  "copy": {
+    "titleEn": "A BLUE SCARF IN THE WIND",
+    "title": {
+      "ko": "바람에 풀린 파란 머플러",
+      "en": "A blue scarf in the wind",
+      "de": "Ein blauer Schal im Wind"
+    },
+    "deck": {
+      "ko": "올리브 파카와 크림 니트 위로 짙은 파랑이 흐릅니다.",
+      "en": "Deep blue moves across olive and cream layers.",
+      "de": "Tiefblau bewegt sich über olivgrünen und cremefarbenen Schichten."
+    },
+    "intro": {
+      "ko": "트램 정류장에서 바람에 날린 머플러 끝을 붙잡습니다.",
+      "en": "At the tram stop, a gust sends the scarf end into his hand.",
+      "de": "An der Haltestelle fängt er das Schalende nach einer Windböe auf."
+    },
+    "body": {
+      "ko": "올리브 파카 안의 크림 리브 니트가 얼굴 아래를 밝히고 파란 프린지 머플러가 움직임을 더합니다. 짙은 데님과 갈색 레이스업 부츠가 차분한 바탕을 만듭니다.",
+      "en": "Cream rib knit brightens the open olive parka. The blue fringe scarf moves across the frame while dark denim and brown lace-up boots anchor the look.",
+      "de": "Cremefarbener Rippstrick hellt den offenen Parka auf. Der blaue Fransenschal bringt Bewegung, dunkler Denim und braune Schnürstiefel geben dem Look Halt."
+    },
+    "pull": {
+      "ko": "한 손에 잡힌 겨울의 파랑.",
+      "en": "A strip of winter blue in one hand.",
+      "de": "Ein Streifen Winterblau in einer Hand."
+    },
+    "pullQuoteEn": "A strip of winter blue in one hand.",
+    "tip": {
+      "ko": "머플러를 목에 한 번 감고 긴 끝은 파카 안에 넣어 보세요.",
+      "en": "Wrap the scarf once and tuck the longer end inside the parka.",
+      "de": "Den Schal einmal umlegen und das längere Ende in den Parka stecken."
+    }
+  },
+  "products": [
+    {
+      "id": "hooded-parka",
+      "producerId": "02-01",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-02.hooded-parka",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "올리브 후드 파카",
+        "en": "Olive hooded parka",
+        "de": "Olivgrüner Kapuzenparka"
+      },
+      "nameKo": "올리브 후드 파카",
+      "description": {
+        "ko": "긴 몸판과 스냅 덮개, 사선 플랩 포켓",
+        "en": "Long body, snap placket and angled flap pockets",
+        "de": "Langer Schnitt, Druckknopfleiste und schräge Pattentaschen"
+      },
+      "howToWear": {
+        "ko": "크림 니트와 파란 머플러를 안쪽에 겹치세요.",
+        "en": "Layer it over cream knit and a blue scarf.",
+        "de": "Über cremefarbenem Strick und blauem Schal tragen."
+      },
+      "image": "products/hooded-parka.webp",
+      "sha256": "ff2dbf4cd80c1e097a81ae95834b76c45e2e5bef5b21c4956a017d4cf97768da",
+      "bytes": 48174,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Olive mid-thigh hooded insulated parka with zip, snap placket and diagonal flap pockets",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-sweater",
+      "producerId": "02-02",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-02.rib-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "크림 리브 니트",
+        "en": "Cream rib sweater",
+        "de": "Cremefarbener Ripppullover"
+      },
+      "nameKo": "크림 리브 니트",
+      "description": {
+        "ko": "세로로 이어지는 크림색 골지",
+        "en": "Vertical cream ribbing",
+        "de": "Senkrechte cremefarbene Rippen"
+      },
+      "howToWear": {
+        "ko": "올리브 파카를 열어 골지 결을 보이세요.",
+        "en": "Open the olive parka to reveal the ribs.",
+        "de": "Den Parka öffnen und die Rippen zeigen."
+      },
+      "image": "products/rib-sweater.webp",
+      "sha256": "4096108522ff293fe730b263b020e303ec98b90632f11823e18dbe6c3d3700e7",
+      "bytes": 46880,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Cream vertically ribbed knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-jeans",
+      "producerId": "02-03",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-02.straight-jeans",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "다크 인디고 스트레이트 진",
+        "en": "Dark indigo straight jeans",
+        "de": "Dunkelindigoblaue gerade Jeans"
+      },
+      "nameKo": "다크 인디고 스트레이트 진",
+      "description": {
+        "ko": "진한 데님과 갈색 배색 스티치",
+        "en": "Dark denim with tobacco contrast stitching",
+        "de": "Dunkler Denim mit tabakfarbenen Kontrastnähten"
+      },
+      "howToWear": {
+        "ko": "갈색 부츠 위에 밑단을 곧게 두세요.",
+        "en": "Let the straight hem sit over brown boots.",
+        "de": "Den geraden Saum über den braunen Stiefeln lassen."
+      },
+      "image": "products/straight-jeans.webp",
+      "sha256": "01de3a7a824edaa828df5f91053f78a2be308b254ffff3800d28b177f76bfd96",
+      "bytes": 34076,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Dark indigo straight jeans with tobacco contrast stitching",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fringe-scarf",
+      "producerId": "02-04",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-02.fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "딥 블루 프린지 머플러",
+        "en": "Deep blue fringe scarf",
+        "de": "Tiefblauer Fransenschal"
+      },
+      "nameKo": "딥 블루 프린지 머플러",
+      "description": {
+        "ko": "길게 떨어지는 파란 짜임과 프린지",
+        "en": "Long blue textured knit with fringes",
+        "de": "Langer blauer Strukturstrick mit Fransen"
+      },
+      "howToWear": {
+        "ko": "크림 니트 위에 한 번 감아 색을 더하세요.",
+        "en": "Wrap once over cream knit for color.",
+        "de": "Einmal über cremefarbenem Strick umlegen."
+      },
+      "image": "products/fringe-scarf.webp",
+      "sha256": "8f43f55a2013b4c2c0648424cc9dbea397cc8ad203aa60ed68eedf0fc242d6d2",
+      "bytes": 48362,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Deep blue textured long fringed scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit-gloves",
+      "producerId": "02-05",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-02.knit-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "name": {
+        "ko": "블랙 니트 장갑",
+        "en": "Black knit gloves",
+        "de": "Schwarze Strickhandschuhe"
+      },
+      "nameKo": "블랙 니트 장갑",
+      "description": {
+        "ko": "검정 니트의 손가락 장갑 한 쌍",
+        "en": "A pair of black full-finger knit gloves",
+        "de": "Ein Paar schwarze Fingerhandschuhe aus Strick"
+      },
+      "howToWear": {
+        "ko": "파카 소매와 머플러 사이에 검정 포인트를 주세요.",
+        "en": "Use black to anchor the parka and blue scarf.",
+        "de": "Schwarz als ruhigen Akzent zu Parka und blauem Schal tragen."
+      },
+      "image": "products/knit-gloves.webp",
+      "sha256": "bf7b39f3649bebb8915caab0a94687a2bdbf936b1af858ca32379a9da197debc",
+      "bytes": 45444,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair black knit full-finger gloves",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lug-boots",
+      "producerId": "02-06",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-02.lug-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "다크 브라운 러그 부츠",
+        "en": "Dark brown lug boots",
+        "de": "Dunkelbraune Profilstiefel"
+      },
+      "nameKo": "다크 브라운 러그 부츠",
+      "description": {
+        "ko": "갈색 웰트와 끈, 굵은 밑창",
+        "en": "Brown welt, laces and chunky lug soles",
+        "de": "Brauner Sohlenrand, Schnürung und kräftige Profilsohlen"
+      },
+      "howToWear": {
+        "ko": "인디고 데님과 올리브 파카에 갈색을 더하세요.",
+        "en": "Add brown to indigo denim and olive padding.",
+        "de": "Indigoblauen Denim und Olivgrün mit Braun ergänzen."
+      },
+      "image": "products/lug-boots.webp",
+      "sha256": "f1b234c578d159ed8499ae3e49530837c8c59b7f7d3128d33d68f0768e5d322f",
+      "bytes": 33050,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair dark brown lace-up winter boots with brown welt and lug soles",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b217"
+}

@@ -1179,7 +1179,12 @@
 "eu-snow-cold-f-day-street-20261110-02.zip-fleece": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-02/products/zip-fleece.webp", 0.112],
 "eu-snow-cold-f-day-street-20261110-03.shearling-jacket": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-03/products/shearling-jacket.webp", 0.348],
 "eu-snow-cold-f-day-street-20261110-04.oversized-scarf": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-04/products/oversized-scarf.webp", 0.474],
-"eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-05/products/rib-neck-warmer.webp", 0.563]
+"eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-05/products/rib-neck-warmer.webp", 0.563],
+"eu-snow-cold-m-day-street-20261111-01.quilted-jacket": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-01/products/quilted-jacket.webp", 0.147],
+"eu-snow-cold-m-day-street-20261111-02.fringe-scarf": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-02/products/fringe-scarf.webp", 0.198],
+"eu-snow-cold-m-day-street-20261111-03.shearling-jacket": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-03/products/shearling-jacket.webp", 0.364],
+"eu-snow-cold-m-day-street-20261111-04.rib-cuff-mittens": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-04/products/rib-cuff-mittens.webp", 0.149],
+"eu-snow-cold-m-day-street-20261111-05.work-jacket": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-05/products/work-jacket.webp", 0.171]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1572,7 +1577,12 @@
 "eu-snow-cold-f-day-street-20261110-02": "eu-snow-cold-f-day-street-20261110-02.zip-fleece",
 "eu-snow-cold-f-day-street-20261110-03": "eu-snow-cold-f-day-street-20261110-03.shearling-jacket",
 "eu-snow-cold-f-day-street-20261110-04": "eu-snow-cold-f-day-street-20261110-04.oversized-scarf",
-"eu-snow-cold-f-day-street-20261110-05": "eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer"
+"eu-snow-cold-f-day-street-20261110-05": "eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer",
+"eu-snow-cold-m-day-street-20261111-01": "eu-snow-cold-m-day-street-20261111-01.quilted-jacket",
+"eu-snow-cold-m-day-street-20261111-02": "eu-snow-cold-m-day-street-20261111-02.fringe-scarf",
+"eu-snow-cold-m-day-street-20261111-03": "eu-snow-cold-m-day-street-20261111-03.shearling-jacket",
+"eu-snow-cold-m-day-street-20261111-04": "eu-snow-cold-m-day-street-20261111-04.rib-cuff-mittens",
+"eu-snow-cold-m-day-street-20261111-05": "eu-snow-cold-m-day-street-20261111-05.work-jacket"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

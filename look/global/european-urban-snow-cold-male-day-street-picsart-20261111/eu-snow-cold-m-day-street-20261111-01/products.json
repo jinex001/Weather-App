@@ -1,0 +1,378 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-street-20261111-01",
+  "batchId": "european-urban-snow-cold-male-day-street-picsart-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European residential city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 clips the fingertips of the outstretched arm at the right edge; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Picsart snow editorials and asked for product breakdown and full automation of this batch (EDITORIAL_QA.json approvalQuote). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "409c72c8948e27c7b8b1cd96828dda7c163a19e2a9cba1f083b28123958307eb",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (PICSART_RESULTS.json, PROMPTS.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-street-20261111-01",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-street-picsart-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-street-20261111-01.quilted-jacket",
+  "scenePropsNotProducts": [
+    "bakery front",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T11:31:55.302546+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed all five sheets. Isolated silhouettes, garment openings and scarf fringes remain readable across the four backgrounds. Concealed fronts reconstructed per item references. Some dark garments have low contrast against black."
+    ],
+    "editorialReview": "All five reviewed. Head and boots visible; scene trigger and reaction readable in each. Look 03 clips fingertips of outstretched arm at right edge."
+  },
+  "copy": {
+    "titleEn": "SNOW ON THE SLEEVE",
+    "title": {
+      "ko": "소매 위에 내려앉은 눈",
+      "en": "Snow on the sleeve",
+      "de": "Schnee auf dem Ärmel"
+    },
+    "deck": {
+      "ko": "검정 퀼팅 사이로 녹슨 주황색 니트가 보입니다.",
+      "en": "Rust knit peeks through black quilting.",
+      "de": "Rostfarbener Strick blitzt zwischen schwarzen Steppnähten hervor."
+    },
+    "intro": {
+      "ko": "빵집 차양에서 떨어진 눈을 장갑 낀 손으로 털어 냅니다.",
+      "en": "Outside the bakery, he brushes snow from his sleeve with a gloved hand.",
+      "de": "Vor der Bäckerei streift er mit dem Handschuh Schnee vom Ärmel."
+    },
+    "body": {
+      "ko": "짧은 퀼팅 재킷과 차콜 카펜터 팬츠가 워크웨어 실루엣을 만듭니다. 주황색 니트와 회색 비니를 더하고, 굵은 밑창의 검정 부츠로 이어집니다.",
+      "en": "A short quilted jacket and charcoal carpenter trousers give this look a workwear shape. Rust knit and a gray beanie add color and texture, with black lug boots below.",
+      "de": "Die kurze Steppjacke und die anthrazitfarbene Arbeitshose bestimmen die Silhouette. Rostfarbener Strick und eine graue Mütze ergänzen die schwarzen Profilstiefel."
+    },
+    "pull": {
+      "ko": "눈이 내려앉은 검정 소매 옆의 따뜻한 주황색.",
+      "en": "Warm rust beside a snow-dusted sleeve.",
+      "de": "Warmes Rostrot neben einem verschneiten Ärmel."
+    },
+    "pullQuoteEn": "Warm rust beside a snow-dusted sleeve.",
+    "tip": {
+      "ko": "니트 밑단을 조금 드러내고 바지 끝은 부츠 위로 자연스럽게 떨어뜨리세요.",
+      "en": "Show a little knit at the hem and let the trousers fall over the boot shafts.",
+      "de": "Den Stricksaum etwas zeigen und die Hose locker über die Stiefelschäfte fallen lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "quilted-jacket",
+      "producerId": "01-01",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-01.quilted-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "블랙 다이아 퀼팅 재킷",
+        "en": "Black diamond-quilted jacket",
+        "de": "Schwarze Rautensteppjacke"
+      },
+      "nameKo": "블랙 다이아 퀼팅 재킷",
+      "description": {
+        "ko": "다이아 퀼팅과 접힌 칼라",
+        "en": "Diamond quilting and a fold-down collar",
+        "de": "Rautensteppung und Umlegekragen"
+      },
+      "howToWear": {
+        "ko": "주황 니트 위에 겹쳐 입으세요.",
+        "en": "Layer over the rust knit.",
+        "de": "Über dem rostfarbenen Pullover tragen."
+      },
+      "image": "products/quilted-jacket.webp",
+      "sha256": "b95258dc706b6ef818b8d40cd1c1b6d7d58dc013761d35578cf93403cedfdca6",
+      "bytes": 34406,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Black diamond-quilted short zip work jacket with pointed fold-down collar",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "marl-sweater",
+      "producerId": "01-02",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-01.marl-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "러스트 멜란지 니트",
+        "en": "Rust marl sweater",
+        "de": "Rostfarbener Melangepullover"
+      },
+      "nameKo": "러스트 멜란지 니트",
+      "description": {
+        "ko": "녹슨 주황색의 혼합 짜임과 둥근 목",
+        "en": "Rust marl knit with a round neck",
+        "de": "Rostfarbener Melangestrick mit Rundhals"
+      },
+      "howToWear": {
+        "ko": "검정 재킷 사이로 색을 드러내세요.",
+        "en": "Reveal its color inside the black jacket.",
+        "de": "Die Farbe in der schwarzen Jacke zeigen."
+      },
+      "image": "products/marl-sweater.webp",
+      "sha256": "a32b8c0f442a22f2174b515d36cb839d03fa012f9bf933eda6798353a7fbecfe",
+      "bytes": 49008,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Rust orange marled crew-neck knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "carpenter-trousers",
+      "producerId": "01-03",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-01.carpenter-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "차콜 카펜터 팬츠",
+        "en": "Charcoal carpenter trousers",
+        "de": "Anthrazitfarbene Arbeitshose"
+      },
+      "nameKo": "차콜 카펜터 팬츠",
+      "description": {
+        "ko": "워싱 표면과 큰 앞 패치 포켓",
+        "en": "Washed finish and broad front patch pockets",
+        "de": "Gewaschene Optik und große aufgesetzte Fronttaschen"
+      },
+      "howToWear": {
+        "ko": "곧은 바지통을 검정 부츠 위에 떨어뜨리세요.",
+        "en": "Let the straight legs fall over the black boots.",
+        "de": "Die geraden Beine über die schwarzen Stiefel fallen lassen."
+      },
+      "image": "products/carpenter-trousers.webp",
+      "sha256": "3346c0e0924de5946d326f7798bfd82dbdde61c4d3ee6eb0a5b6d871f6d47734",
+      "bytes": 32472,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Washed charcoal straight carpenter trousers with broad front patch pockets",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cuff-beanie",
+      "producerId": "01-04",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-01.cuff-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "name": {
+        "ko": "차콜 커프 비니",
+        "en": "Charcoal cuff beanie",
+        "de": "Anthrazitfarbene Umschlagmütze"
+      },
+      "nameKo": "차콜 커프 비니",
+      "description": {
+        "ko": "골지 짜임과 넓은 접은 끝단",
+        "en": "Ribbed knit with a wide folded cuff",
+        "de": "Rippstrick mit breitem Umschlag"
+      },
+      "howToWear": {
+        "ko": "차콜 팬츠의 색을 머리 쪽에서 반복하세요.",
+        "en": "Echo the charcoal trousers at the head.",
+        "de": "Anthrazit von der Hose am Kopf wiederholen."
+      },
+      "image": "products/cuff-beanie.webp",
+      "sha256": "1e632428f3fc34b7f4812d1c616852e74cb31f1ec48b783e3b2617687a653c59",
+      "bytes": 41730,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Charcoal ribbed cuff beanie",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-cuff-gloves",
+      "producerId": "01-05",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-01.rib-cuff-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "name": {
+        "ko": "블랙 리브 장갑",
+        "en": "Black rib-cuff gloves",
+        "de": "Schwarze Fingerhandschuhe mit Rippbund"
+      },
+      "nameKo": "블랙 리브 장갑",
+      "description": {
+        "ko": "검정 니트와 리브 손목의 손가락 장갑",
+        "en": "Black full-finger knit gloves with ribbed cuffs",
+        "de": "Schwarze Fingerhandschuhe aus Strick mit Rippbund"
+      },
+      "howToWear": {
+        "ko": "커프를 퀼팅 재킷 소매 안에 넣으세요.",
+        "en": "Tuck the cuffs into the quilted sleeves.",
+        "de": "Die Bündchen in die Steppärmel stecken."
+      },
+      "image": "products/rib-cuff-gloves.webp",
+      "sha256": "5608522e3d6b7fa70b125bee080eef059436d87ca558b9c2c7dde2ab0986cc68",
+      "bytes": 46180,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair black rib-cuff knit full-finger gloves",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lug-ankle-boots",
+      "producerId": "01-06",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-01.lug-ankle-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "블랙 러그솔 앵클 부츠",
+        "en": "Black lug ankle boots",
+        "de": "Schwarze Profilstiefeletten"
+      },
+      "nameKo": "블랙 러그솔 앵클 부츠",
+      "description": {
+        "ko": "검정 끈과 두꺼운 검정 밑창",
+        "en": "Black laces and thick black lug soles",
+        "de": "Schwarze Schnürsenkel und kräftige schwarze Profilsohlen"
+      },
+      "howToWear": {
+        "ko": "카펜터 팬츠 아래 밑창이 보이게 신으세요.",
+        "en": "Show the lug soles below the carpenter trousers.",
+        "de": "Die Profilsohlen unter der Arbeitshose sichtbar lassen."
+      },
+      "image": "products/lug-ankle-boots.webp",
+      "sha256": "a9bea3134968e7eae347d4f6fef4e6958bd0cb3c5b653d0ccf6bd9dfee282868",
+      "bytes": 29202,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair black lace-up leather-look ankle boots with black lug soles",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b217"
+}

@@ -1,0 +1,378 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-street-20261111-03",
+  "batchId": "european-urban-snow-cold-male-day-street-picsart-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European residential city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 clips the fingertips of the outstretched arm at the right edge; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Picsart snow editorials and asked for product breakdown and full automation of this batch (EDITORIAL_QA.json approvalQuote). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "c55a5a801257c84f9ab97d1cf2ab0d774df2dba437bc12b1d8fb488620ed28c8",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (PICSART_RESULTS.json, PROMPTS.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-street-20261111-03",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-street-picsart-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-street-20261111-03.shearling-jacket",
+  "scenePropsNotProducts": [
+    "slushy curb",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T11:31:55.302546+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed all five sheets. Isolated silhouettes, garment openings and scarf fringes remain readable across the four backgrounds. Concealed fronts reconstructed per item references. Some dark garments have low contrast against black."
+    ],
+    "editorialReview": "All five reviewed. Head and boots visible; scene trigger and reaction readable in each. Look 03 clips fingertips of outstretched arm at right edge."
+  },
+  "copy": {
+    "titleEn": "A STEP OFF THE SLUSHY CURB",
+    "title": {
+      "ko": "눈 녹은 연석을 넘는 순간",
+      "en": "A step off the slushy curb",
+      "de": "Ein Schritt über den matschigen Bordstein"
+    },
+    "deck": {
+      "ko": "갈색 재킷과 버건디 비니의 겨울 조합.",
+      "en": "Brown and burgundy meet winter layers.",
+      "de": "Braun und Burgunderrot treffen auf Winterlagen."
+    },
+    "intro": {
+      "ko": "발밑에서 튀어 오르는 물을 보며 팔을 뻗어 균형을 잡습니다.",
+      "en": "He looks down at the splash and extends an arm to balance.",
+      "de": "Er blickt auf das Spritzwasser und streckt einen Arm zum Balancieren aus."
+    },
+    "body": {
+      "ko": "갈색 재킷의 밝은 털 테두리와 차콜 니트가 질감 차이를 만듭니다. 올리브 팬츠와 짙은 갈색 부츠를 연결하고, 버건디 비니와 검정 백팩을 더했습니다.",
+      "en": "Pale fleece edges on the brown jacket contrast with the charcoal knit. Olive trousers lead into dark brown boots, with a burgundy beanie and black backpack completing the outfit.",
+      "de": "Helle Fellkanten an der braunen Jacke setzen sich vom anthrazitfarbenen Strick ab. Olivgrüne Hose und dunkelbraune Stiefel ergänzen Mütze und schwarzen Rucksack."
+    },
+    "pull": {
+      "ko": "발끝에서 튄 물과 짧은 웃음.",
+      "en": "A splash at the boot and a quick laugh.",
+      "de": "Ein Spritzer am Stiefel und ein kurzes Lachen."
+    },
+    "pullQuoteEn": "A splash at the boot and a quick laugh.",
+    "tip": {
+      "ko": "재킷의 밝은 칼라가 보이게 백팩 끈을 어깨에 맞추세요.",
+      "en": "Set the backpack straps so the pale collar stays visible.",
+      "de": "Die Rucksackgurte so einstellen, dass der helle Kragen sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "shearling-jacket",
+      "producerId": "03-01",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-03.shearling-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "브라운 시어링 스타일 재킷",
+        "en": "Brown shearling-style jacket",
+        "de": "Braune Jacke in Shearling-Optik"
+      },
+      "nameKo": "브라운 시어링 스타일 재킷",
+      "description": {
+        "ko": "갈색 표면과 크림색 털 칼라·소매끝",
+        "en": "Brown surface with cream fleece collar and cuffs",
+        "de": "Braune Oberfläche mit cremefarbenem Fellkragen und Ärmelabschlüssen"
+      },
+      "howToWear": {
+        "ko": "차콜 니트 위에서 밝은 칼라를 살리세요.",
+        "en": "Frame charcoal knit with the pale collar.",
+        "de": "Anthrazitfarbenen Strick mit dem hellen Kragen einrahmen."
+      },
+      "image": "products/shearling-jacket.webp",
+      "sha256": "6e781a08c2e45bada6e161208349497511c431721f853db786b5f100ef3e5152",
+      "bytes": 49512,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Brown suede-look aviator jacket with cream shearling-look collar, cuffs, hem and zipper edge",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "crew-sweater",
+      "producerId": "03-02",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-03.crew-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "차콜 헤더 크루 니트",
+        "en": "Charcoal heather crew sweater",
+        "de": "Melierter anthrazitfarbener Rundhalspullover"
+      },
+      "nameKo": "차콜 헤더 크루 니트",
+      "description": {
+        "ko": "굵은 혼합 짜임과 둥근 목",
+        "en": "Heavy marl knit with a round neck",
+        "de": "Kräftiger Melangestrick mit Rundhals"
+      },
+      "howToWear": {
+        "ko": "갈색 재킷 안에 질감이 보이게 입으세요.",
+        "en": "Show the knit texture inside the brown jacket.",
+        "de": "Die Strickstruktur in der braunen Jacke sichtbar lassen."
+      },
+      "image": "products/crew-sweater.webp",
+      "sha256": "2cb68afa165005e8f5ad331c9b06cf3ba96bfe9ecf98870cfbb51b4231ef5221",
+      "bytes": 49168,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Charcoal heather heavy crewneck knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "03-03",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-03.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "올리브 스트레이트 팬츠",
+        "en": "Olive straight trousers",
+        "de": "Olivgrüne gerade Hose"
+      },
+      "nameKo": "올리브 스트레이트 팬츠",
+      "description": {
+        "ko": "올리브색의 곧은 다리",
+        "en": "Olive fabric with straight legs",
+        "de": "Olivgrüner Stoff mit geraden Beinen"
+      },
+      "howToWear": {
+        "ko": "짙은 갈색 부츠와 부드럽게 연결하세요.",
+        "en": "Pair with dark brown boots for an earthy palette.",
+        "de": "Mit dunkelbraunen Stiefeln zu Erdtönen kombinieren."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "11d2d2ab2981b3ddcc75458c80d89fed2f4f63cbfe672e5edb0fc4e9574405c6",
+      "bytes": 23090,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Olive straight trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-beanie",
+      "producerId": "03-04",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-03.rib-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "name": {
+        "ko": "버건디 리브 비니",
+        "en": "Burgundy rib beanie",
+        "de": "Burgunderrote Rippmütze"
+      },
+      "nameKo": "버건디 리브 비니",
+      "description": {
+        "ko": "버건디 골지와 접은 커프",
+        "en": "Burgundy rib knit and folded cuff",
+        "de": "Burgunderroter Rippstrick und Umschlag"
+      },
+      "howToWear": {
+        "ko": "갈색과 올리브 위에 짙은 붉은색을 하나 더하세요.",
+        "en": "Add one dark red accent above brown and olive.",
+        "de": "Über Braun und Oliv einen dunkelroten Akzent setzen."
+      },
+      "image": "products/rib-beanie.webp",
+      "sha256": "58e7a99fcdfba42e13a2b076da919186eacaf7fd991ca4984f7d74436e58831a",
+      "bytes": 46100,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Burgundy ribbed cuff knit beanie",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ankle-boots",
+      "producerId": "03-05",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-03.ankle-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "다크 브라운 앵클 부츠",
+        "en": "Dark brown ankle boots",
+        "de": "Dunkelbraune Schnürstiefeletten"
+      },
+      "nameKo": "다크 브라운 앵클 부츠",
+      "description": {
+        "ko": "갈색 끈과 러그솔의 짧은 부츠",
+        "en": "Short boots with brown laces and lug soles",
+        "de": "Kurze Stiefel mit brauner Schnürung und Profilsohlen"
+      },
+      "howToWear": {
+        "ko": "올리브 팬츠 밑단 아래 앞코를 보이세요.",
+        "en": "Show the toe below the olive hems.",
+        "de": "Die Spitzen unter der olivgrünen Hose sichtbar lassen."
+      },
+      "image": "products/ankle-boots.webp",
+      "sha256": "51310113233f28eb59c5e1b71285bb262a08cf6f93c0becb9b1505517060a173",
+      "bytes": 44986,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair dark brown lace-up ankle boots with chunky brown lug soles",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "soft-backpack",
+      "producerId": "03-06",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-03.soft-backpack",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "블랙 소프트 백팩",
+        "en": "Black soft backpack",
+        "de": "Schwarzer weicher Rucksack"
+      },
+      "nameKo": "블랙 소프트 백팩",
+      "description": {
+        "ko": "부드러운 검정 몸판과 패딩 끈",
+        "en": "Soft black body with padded straps",
+        "de": "Weicher schwarzer Körper mit gepolsterten Gurten"
+      },
+      "howToWear": {
+        "ko": "끈을 재킷 칼라 바깥으로 정리하세요.",
+        "en": "Keep the straps clear of the jacket collar.",
+        "de": "Die Gurte neben dem Jackenkragen führen."
+      },
+      "image": "products/soft-backpack.webp",
+      "sha256": "ff3918161770a962e45e65a9dad8038a2a234e347c1c25318bdf8d47ad3bb0f3",
+      "bytes": 33460,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Black soft backpack with padded black adjustable straps, conservative plain front because only side and strap visible",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b217"
+}

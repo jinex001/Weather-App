@@ -1,0 +1,379 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-m-day-street-20261111-05",
+  "batchId": "european-urban-snow-cold-male-day-street-picsart-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European residential city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 03 clips the fingertips of the outstretched arm at the right edge; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Picsart snow editorials and asked for product breakdown and full automation of this batch (EDITORIAL_QA.json approvalQuote). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "d37baa27484887d4b0e21db77bb09557af621e0fd67c6bab27c5cfbd5b9666dc",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (PICSART_RESULTS.json, PROMPTS.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-m-day-street-20261111-05",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-male-day-street-picsart-20261111.js",
+  "appHeroItem": "eu-snow-cold-m-day-street-20261111-05.work-jacket",
+  "scenePropsNotProducts": [
+    "grocery bag",
+    "apple",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T11:31:55.302546+00:00",
+    "productCount": 30,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "Reviewed all five sheets. Isolated silhouettes, garment openings and scarf fringes remain readable across the four backgrounds. Concealed fronts reconstructed per item references. Some dark garments have low contrast against black."
+    ],
+    "editorialReview": "All five reviewed. Head and boots visible; scene trigger and reaction readable in each. Look 03 clips fingertips of outstretched arm at right edge."
+  },
+  "copy": {
+    "titleEn": "AN APPLE AT THE EDGE",
+    "title": {
+      "ko": "봉투 끝의 사과",
+      "en": "An apple at the edge",
+      "de": "Ein Apfel am Tütenrand"
+    },
+    "deck": {
+      "ko": "네이비 워크 재킷과 오트밀 카디건을 겹쳤습니다.",
+      "en": "Navy workwear layers over an oatmeal cardigan.",
+      "de": "Marineblaue Arbeitsjacke über einer haferfarbenen Strickjacke."
+    },
+    "intro": {
+      "ko": "기울어진 장바구니에서 떨어지려는 사과를 손으로 붙잡습니다.",
+      "en": "He catches an apple as the grocery bag tips.",
+      "de": "Als die Einkaufstüte kippt, fängt er den Apfel auf."
+    },
+    "body": {
+      "ko": "밝은 털 칼라의 네이비 재킷 아래 오트밀 버튼 카디건과 짙은 갈색 니트가 보입니다. 갈색 코듀로이 팬츠는 탄색 부츠로 이어지고, 벽돌색 비니가 얼굴 주변에 색을 더합니다.",
+      "en": "A pale collar frames the navy work jacket, oatmeal button cardigan and dark brown knit. Brown cords lead to tan boots, and a brick-red beanie adds color around the face.",
+      "de": "Ein heller Kragen rahmt die marineblaue Jacke, die haferfarbene Strickjacke und den dunkelbraunen Strick. Brauner Cord führt zu hellbraunen Stiefeln. Eine ziegelrote Mütze setzt Farbe am Gesicht."
+    },
+    "pull": {
+      "ko": "장보는 길에 생긴 작은 소동.",
+      "en": "A small mishap on the way home.",
+      "de": "Ein kleines Missgeschick auf dem Heimweg."
+    },
+    "pullQuoteEn": "A small mishap on the way home.",
+    "tip": {
+      "ko": "카디건 단추와 밝은 칼라가 함께 보이도록 재킷 앞을 여유 있게 여세요.",
+      "en": "Leave the jacket open enough to show the cardigan buttons and pale collar.",
+      "de": "Die Jacke so weit öffnen, dass Knöpfe und heller Kragen zu sehen sind."
+    }
+  },
+  "products": [
+    {
+      "id": "work-jacket",
+      "producerId": "05-01",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-05.work-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "네이비 플리스 칼라 워크 재킷",
+        "en": "Navy fleece-collar work jacket",
+        "de": "Marineblaue Arbeitsjacke mit Fleecekragen"
+      },
+      "nameKo": "네이비 플리스 칼라 워크 재킷",
+      "description": {
+        "ko": "크림색 털 칼라와 큰 패치 포켓",
+        "en": "Cream fleece-look collar and large patch pockets",
+        "de": "Cremefarbener Kragen in Fleece-Optik und große aufgesetzte Taschen"
+      },
+      "howToWear": {
+        "ko": "오트밀 카디건의 단추가 보이게 여세요.",
+        "en": "Open the front to show the oatmeal cardigan buttons.",
+        "de": "Vorn öffnen, damit die Knöpfe der Strickjacke sichtbar sind."
+      },
+      "image": "products/work-jacket.webp",
+      "sha256": "83739620d61bc4fb0358fd422c9981f6c8c10d5d84457b107da798f8e38d6a6b",
+      "bytes": 47674,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Deep navy work jacket with cream fleece-look lining and collar and broad patch pockets",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "button-cardigan",
+      "producerId": "05-02",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-05.button-cardigan",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "오트밀 버튼 카디건",
+        "en": "Oatmeal button cardigan",
+        "de": "Haferfarbene Strickjacke"
+      },
+      "nameKo": "오트밀 버튼 카디건",
+      "description": {
+        "ko": "어두운 단추와 리브 밑단의 밝은 짜임",
+        "en": "Pale knit with dark buttons and ribbed hem",
+        "de": "Heller Strick mit dunklen Knöpfen und Rippbund"
+      },
+      "howToWear": {
+        "ko": "네이비 재킷과 갈색 니트 사이에 겹치세요.",
+        "en": "Layer between the navy jacket and brown knit.",
+        "de": "Zwischen marineblauer Jacke und braunem Strick tragen."
+      },
+      "image": "products/button-cardigan.webp",
+      "sha256": "9b5b93737d3baad3f2a2b696c314bf6561c502af4646bd025d7891bf2f3a5f11",
+      "bytes": 49058,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Oatmeal textured button-front cardigan with dark buttons and ribbed hem",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "inner-knit",
+      "producerId": "05-03",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-05.inner-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "다크 브라운 이너 니트",
+        "en": "Dark brown inner knit",
+        "de": "Dunkelbrauner Strickpullover"
+      },
+      "nameKo": "다크 브라운 이너 니트",
+      "description": {
+        "ko": "목선에서 보이는 짙은 갈색 짜임",
+        "en": "Dark brown knit visible at the neckline",
+        "de": "Am Hals sichtbarer dunkelbrauner Strick"
+      },
+      "howToWear": {
+        "ko": "카디건 위 목선에 짙은 갈색을 조금 남기세요.",
+        "en": "Show a little brown above the cardigan neckline.",
+        "de": "Etwas Braun oberhalb des Strickjackenausschnitts zeigen."
+      },
+      "image": "products/inner-knit.webp",
+      "sha256": "0c6822f026cfd6c9fccb1601b86250b6ec0e6123f53b0b9de3a11bbab3829a3f",
+      "bytes": 45288,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Dark brown crewneck knit underlayer visible at neckline, conservative plain body",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-cords",
+      "producerId": "05-04",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-05.straight-cords",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "브라운 스트레이트 코듀로이",
+        "en": "Brown straight cords",
+        "de": "Braune gerade Cordhose"
+      },
+      "nameKo": "브라운 스트레이트 코듀로이",
+      "description": {
+        "ko": "골이 보이는 어두운 갈색 바지",
+        "en": "Dark brown trousers with visible cord ribs",
+        "de": "Dunkelbraune Hose mit sichtbaren Cordrippen"
+      },
+      "howToWear": {
+        "ko": "밝은 카디건 아래 결이 보이게 입으세요.",
+        "en": "Show the cord texture below the pale cardigan.",
+        "de": "Die Cordstruktur unter der hellen Strickjacke zeigen."
+      },
+      "image": "products/straight-cords.webp",
+      "sha256": "5355cbc3c30dd316a80969ab91de823f4917e4f97b47daeddb423a8f92706159",
+      "bytes": 28402,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Dark brown straight corduroy trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cuff-beanie",
+      "producerId": "05-05",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-05.cuff-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "name": {
+        "ko": "브릭 레드 커프 비니",
+        "en": "Brick-red cuff beanie",
+        "de": "Ziegelrote Umschlagmütze"
+      },
+      "nameKo": "브릭 레드 커프 비니",
+      "description": {
+        "ko": "벽돌색 골지와 접은 끝단",
+        "en": "Brick-red rib knit with a folded cuff",
+        "de": "Ziegelroter Rippstrick mit Umschlag"
+      },
+      "howToWear": {
+        "ko": "네이비 칼라 위에 따뜻한 붉은색을 더하세요.",
+        "en": "Add warm red above the navy collar.",
+        "de": "Warmes Rot oberhalb des marineblauen Kragens ergänzen."
+      },
+      "image": "products/cuff-beanie.webp",
+      "sha256": "03f4d961669f1a7cd72440ee186e228e66eba3ba6fb89550d090989a74c7ba0a",
+      "bytes": 46844,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Brick red ribbed cuff knit beanie",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "work-boots",
+      "producerId": "05-06",
+      "appItemId": "eu-snow-cold-m-day-street-20261111-05.work-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "탄 레이스업 워크 부츠",
+        "en": "Tan lace-up work boots",
+        "de": "Hellbraune Schnür-Arbeitsstiefel"
+      },
+      "nameKo": "탄 레이스업 워크 부츠",
+      "description": {
+        "ko": "밝은 갈색 표면과 어두운 러그솔",
+        "en": "Tan surface with dark lug soles",
+        "de": "Hellbraune Oberfläche und dunkle Profilsohlen"
+      },
+      "howToWear": {
+        "ko": "갈색 코듀로이 아래 발끝을 밝히세요.",
+        "en": "Lighten the base beneath the brown cords.",
+        "de": "Unter der braunen Cordhose einen helleren Abschluss setzen."
+      },
+      "image": "products/work-boots.webp",
+      "sha256": "9596edf10460a601e08fbf421bb3d7242436982e28256ad2cbee285032b895f6",
+      "bytes": 42234,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Matching pair tan lace-up work boots with dark lug soles",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b217"
+}
