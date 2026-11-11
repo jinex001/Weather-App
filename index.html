@@ -656,7 +656,8 @@
 <script src="look/east-asian-clear-hot-humid-female-day-minimal-20261106.js?v=b213"></script>
 <script src="look/east-asian-clear-hot-humid-male-day-minimal-20261107.js?v=b214"></script>
 <script src="look/east-asian-clear-hot-humid-female-day-running-20261107.js?v=b215"></script>
-<script src="look/cutouts.js?v=b215"></script>
+<script src="look/european-urban-snow-cold-female-day-street-picsart-20261110.js?v=b216"></script>
+<script src="look/cutouts.js?v=b216"></script>
 <script src="look/coast-grid.js?v=b175"></script>
 <script src="look/global-context.js?v=b187"></script>
 <script>
@@ -1096,7 +1097,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b215";
+  var BUILD = "b216";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1275,7 +1276,10 @@
     var timed = mine.filter(function (o) { return (o.time === "evening") === !!v.evening; });
     // sky rank, lower is better. Rain day: a look for this rain strength 0, another rain strength 1, cloudy/any 2, clear 3.
     // Dry day: today's sky (or any) 0, the other dry sky 1, rain looks never.
+    // b216: snow looks (sky "snow") only on snow days (WMO 71–77, 85, 86 = isSnow, v.snow) and never for a band colder
+    // than the one they were made for (a cold snow look serves cold and, as the colder-dressed neighbour, chilly; not very cold)
     function skyRank(o) {
+      if (o.sky === "snow") return v.snow && o.bands.some(function (b) { return BAND_KEYS.indexOf(b) <= bi; }) ? 0 : -1;
       if (v.rain) return o.sky === "rain" ? (o.rain === v.rain ? 0 : 1) : o.sky === "clear" ? 3 : 2;
       if (o.sky === "rain") return -1;
       return o.sky === "any" || o.sky === sky ? 0 : 1;
@@ -1287,6 +1291,9 @@
       var wn = near === 1 && !o.bands.some(function (b) { return BAND_KEYS.indexOf(b) <= bi; }) ? 1 : 0;
       if (near <= 1 && sr >= 0 && regionOk(o, v)) { var sk = softRanks(o, v); list.push({ o: o, sr: sr, fit: near * 2 + (sr ? 1 : 0), wn: wn, cr: sk[0], rr: sk[1] }); }
     });
+    // b216: a snow day with a snow look for this style and gender shows snow looks only; without one, the looks and order
+    // from before b216 stay (a snow day reads as a dry cloudy day)
+    if (v.snow && list.some(function (e) { return e.o.sky === "snow"; })) list = list.filter(function (e) { return e.o.sky === "snow"; });
     return list;
   }
   // Coastal dry-weather fallback stays inside the region and existing temperature limit.
@@ -1421,7 +1428,7 @@
     var D = v.data.daily, c = D.weather_code[i], f = r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]), band = bandOf(f);
     var w = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0, cx = placeCtx(true); // b173: a future day's humidity is unknown
     return {
-      data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, rain: rainLevel(c), updated: v.updated,
+      data: v.data, band: band, f: f, i0: v.i0, theme: v.theme, color: LOOK_COLOR[band[1]], evening: false, clear: c <= 2, rain: rainLevel(c), snow: isSnow(c), updated: v.updated,
       region: cx.region, humidity: cx.humidity, ctxKey: cx.key,
       day: i, pick: pick || null, style: pick ? pick.o.style : null, mast: "Editor's pick", rainP: D.precipitation_probability_max[i] || 0, windMax: w, code: c,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
@@ -1963,7 +1970,7 @@
       evening = mNow >= new Date(D.sunset[0] + ":00Z").getTime() - 10 * 60000 || mNow < Math.min(new Date(D.sunrise[0] + ":00Z").getTime(), morning);
     var cx = placeCtx(false);
     lastView = {
-      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code), code: cur.weather_code,
+      data: data, band: band, f: f, i0: i0, theme: bgHex, color: LOOK_COLOR[band[1]], evening: evening, clear: cur.weather_code <= 2, rain: rainLevel(cur.weather_code), snow: isSnow(cur.weather_code), code: cur.weather_code,
       region: cx.region, humidity: cx.humidity, ctxKey: cx.key,
       icon: '<span class="feels-ic" style="--badge:' + readableOn(BAND_COLOR[band[1]], "#FFFFFF", 1.5) + '">' +
         person(band[1], (cur.wind_speed_10m || 0) >= 30, isRain(cur.weather_code), isSnow(cur.weather_code)).replace('class="person-ic', 'class="play person-ic') + "</span>",
@@ -2166,8 +2173,10 @@
   function dayPick(D, i, g) {
     var c = D.weather_code[i], d = { c: c, p: D.precipitation_probability_max[i] || 0, w: D.wind_speed_10m_max ? r(D.wind_speed_10m_max[i]) : 0,
               f: r(D.apparent_temperature_max ? D.apparent_temperature_max[i] : D.temperature_2m_max[i]) };
-    var cx = placeCtx(true), dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), evening: false, region: cx.region, humidity: cx.humidity }, all = [];
+    var cx = placeCtx(true), dv = { band: bandOf(d.f), clear: c <= 2, rain: rainLevel(c), snow: isSnow(c), evening: false, region: cx.region, humidity: cx.humidity }, all = [];
     STYLES.forEach(function (sty) { all = all.concat(lookFits(dv, sty, g)); });
+    // b216: on a snow day a snow look of any style leads the card, like the sheet it opens
+    if (dv.snow && all.some(function (e) { return e.o.sky === "snow"; })) all = all.filter(function (e) { return e.o.sky === "snow"; });
     // Same coastal dry-sky fallback as lookPool; otherwise retain strict weather placeholders.
     var best = Math.min.apply(null, all.map(function (e) { return e.sr; }).concat([9]));
     if (!skyAvailable(dv, best)) return { soon: soonLabel(dv, all.length) };

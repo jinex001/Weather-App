@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-street-20261110-05",
+  "batchId": "european-urban-snow-cold-female-day-street-picsart-20261110",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. The user chose these existing editorials as-is after earlier feedback that the styling looked aloof; no style correction is claimed."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-selected",
+    "evidence": "The user explicitly selected these five existing Picsart snow editorials for product breakdown and full automation of this batch, choosing to use them as-is after earlier feedback that the styling looked aloof (no style correction claimed). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "0d8b9f8d8437e487f5594684bbc6777fc24a8499f57b55aaecf9ce76fbb78a6b",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (EDITORIAL_GENERATION.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-street-20261110-05",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-street-picsart-20261110.js",
+  "appHeroItem": "eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer",
+  "scenePropsNotProducts": [
+    "snow ridge",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-one products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image five overview sheets",
+    "checkedAt": "2026-11-11T01:00:06.677491+00:00",
+    "productCount": 31,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "Each product isolated, no scene snow or other garments",
+      "Colors and visible construction matched to five Picsart editorials",
+      "Neck openings and item edges composite cleanly at 500px",
+      "Hidden knit fronts conservatively reconstructed"
+    ]
+  },
+  "copy": {
+    "titleEn": "LIME ABOVE THE SNOW RIDGE",
+    "title": {
+      "ko": "눈턱 위의 라임 포인트",
+      "en": "Lime above the snow ridge",
+      "de": "Limette über dem Schneerand"
+    },
+    "deck": {
+      "ko": "긴 차콜 파카와 인디고 카펜터 진의 조합입니다.",
+      "en": "A long charcoal parka meets indigo carpenter jeans.",
+      "de": "Langer anthrazitfarbener Parka zu indigoblauen Carpenter-Jeans."
+    },
+    "intro": {
+      "ko": "보도에 쌓인 눈의 가장자리에 한 발을 올립니다.",
+      "en": "One foot rests at the edge of snow gathered along the pavement.",
+      "de": "Ein Fuß steht am Schneerand des Gehwegs."
+    },
+    "body": {
+      "ko": "큰 후드와 플랩 포켓의 차콜 파카 안에 검정 니트를 겹쳤습니다. 목에는 라임 리브 넥워머 하나로 색을 집중하고, 넓은 인디고 데님은 유틸리티 포켓과 배색 스티치로 결을 더합니다. 두툼한 검정 부츠와 골드 후프가 위아래에서 작게 마무리합니다.",
+      "en": "Black knit sits inside a charcoal parka with a large hood and flap pockets. A single lime rib neck warmer focuses the color at the neck. Wide indigo denim adds utility pockets and contrast stitching, finished with substantial black boots and gold hoops.",
+      "de": "Schwarzer Strick liegt unter einem anthrazitfarbenen Parka mit großer Kapuze und Pattentaschen. Ein limettengrüner Ripp-Halswärmer konzentriert die Farbe am Hals. Weiter indigoblauer Denim ergänzt Arbeitstaschen und Kontrastnähte, schwarze Stiefel und goldene Creolen schließen den Look ab."
+    },
+    "pull": {
+      "ko": "차콜 안에서 또렷해지는 라임.",
+      "en": "Lime stands out within charcoal.",
+      "de": "Limettengrün hebt sich aus Anthrazit ab."
+    },
+    "pullQuoteEn": "Lime stands out within charcoal.",
+    "tip": {
+      "ko": "넥워머가 칼라 위로 보이게 하고 바지 밑단이 부츠 앞코를 덮지 않게 두세요.",
+      "en": "Show the neck warmer above the collar and keep the boot toes clear of the denim hems.",
+      "de": "Den Halswärmer über dem Kragen zeigen und die Stiefelspitzen unter den Jeans sichtbar lassen."
+    }
+  },
+  "products": [
+    {
+      "id": "long-technical-parka",
+      "producerId": "05-01",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-05.long-technical-parka",
+      "appCategory": "outer",
+      "producerCategory": "parka",
+      "name": {
+        "ko": "차콜 롱 테크 파카",
+        "en": "Charcoal long technical parka",
+        "de": "Langer anthrazitfarbener Parka"
+      },
+      "nameKo": "차콜 롱 테크 파카",
+      "description": {
+        "ko": "큰 후드와 플랩 포켓, 조임끈의 긴 파카입니다.",
+        "en": "Long parka with a large hood, flap pockets and drawcords.",
+        "de": "Langer Parka mit großer Kapuze, Pattentaschen und Kordelzügen."
+      },
+      "howToWear": {
+        "ko": "라임 넥워머가 보이도록 목의 여밈을 조절하세요.",
+        "en": "Adjust the neck opening to reveal the lime warmer.",
+        "de": "Die Halsöffnung für den limettengrünen Wärmer anpassen."
+      },
+      "image": "products/long-technical-parka.webp",
+      "sha256": "eb11f3d420bc1c56d9c71fbfba8a0762265a2d7d2438b30fd213dbac66b284f4",
+      "bytes": 35066,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; charcoal long hooded technical parka with flap pockets and drawcords",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "textured-knit",
+      "producerId": "05-02",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-05.textured-knit",
+      "appCategory": "top",
+      "producerCategory": "sweater",
+      "name": {
+        "ko": "블랙 텍스처 니트",
+        "en": "Black textured knit",
+        "de": "Schwarzer strukturierter Pullover"
+      },
+      "nameKo": "블랙 텍스처 니트",
+      "description": {
+        "ko": "거친 짜임과 둥근 목, 리브 끝단의 검정 니트입니다.",
+        "en": "Black round-neck sweater with textured knit and ribbed edges.",
+        "de": "Schwarzer Rundhalspullover mit Strukturstrick und Rippabschlüssen."
+      },
+      "howToWear": {
+        "ko": "긴 파카 안에서 진한 바탕을 이어가세요.",
+        "en": "Continue a dark base beneath the long parka.",
+        "de": "Unter dem langen Parka eine dunkle Basis fortsetzen."
+      },
+      "image": "products/textured-knit.webp",
+      "sha256": "d700276cf071d01eff2b47bdef1d4fdc286b44cf4e33f1a0a674bb574eceb0a1",
+      "bytes": 45278,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; black textured sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-neck-warmer",
+      "producerId": "05-03",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer",
+      "appCategory": "scarf",
+      "producerCategory": "neck warmer",
+      "name": {
+        "ko": "라임 리브 넥워머",
+        "en": "Lime rib neck warmer",
+        "de": "Limettengrüner Ripp-Halswärmer"
+      },
+      "nameKo": "라임 리브 넥워머",
+      "description": {
+        "ko": "굵은 리브 조직의 밝은 튜브형 넥워머입니다.",
+        "en": "Bright tubular neck warmer in chunky rib knit.",
+        "de": "Leuchtender schlauchförmiger Halswärmer aus kräftigem Rippstrick."
+      },
+      "howToWear": {
+        "ko": "파카 칼라 위로 라임색을 한 군데 드러내세요.",
+        "en": "Show a single lime accent above the parka collar.",
+        "de": "Über dem Parkakragen einen einzelnen Limettenakzent zeigen."
+      },
+      "image": "products/rib-neck-warmer.webp",
+      "sha256": "49414e0d42a15c35cad57e3c3209603901d39ac534976929735a14524f92c3d6",
+      "bytes": 46626,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; lime green chunky knit tubular neck warmer",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-carpenter-jeans",
+      "producerId": "05-04",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-05.wide-carpenter-jeans",
+      "appCategory": "bottom",
+      "producerCategory": "jeans",
+      "name": {
+        "ko": "인디고 와이드 카펜터 진",
+        "en": "Indigo wide carpenter jeans",
+        "de": "Indigoblaue weite Carpenter-Jeans"
+      },
+      "nameKo": "인디고 와이드 카펜터 진",
+      "description": {
+        "ko": "배색 스티치와 유틸리티 포켓의 넓은 데님입니다.",
+        "en": "Wide denim with contrast stitching and utility pockets.",
+        "de": "Weiter Denim mit Kontrastnähten und Arbeitstaschen."
+      },
+      "howToWear": {
+        "ko": "파카 아래 바지통을 펴고 부츠 앞코를 남기세요.",
+        "en": "Keep the legs wide beneath the parka and show the boot toes.",
+        "de": "Unter dem Parka die Beine weit lassen und Stiefelspitzen zeigen."
+      },
+      "image": "products/wide-carpenter-jeans.webp",
+      "sha256": "0a67ac9ec47f8040a30e9c17442962ac9a8c6a14bb1791aba436ef3a381ef2fb",
+      "bytes": 44180,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; dark indigo wide-leg carpenter jeans with patch utility pockets and contrast stitching",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "chunky-snow-boots",
+      "producerId": "05-05",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-05.chunky-snow-boots",
+      "appCategory": "shoes",
+      "producerCategory": "boots",
+      "name": {
+        "ko": "블랙 청키 스노 부츠",
+        "en": "Black chunky snow boots",
+        "de": "Schwarze klobige Schneestiefel"
+      },
+      "nameKo": "블랙 청키 스노 부츠",
+      "description": {
+        "ko": "굵은 끈과 넓은 밑창, 두툼한 입구의 부츠입니다.",
+        "en": "Thick laces, broad soles and padded collars.",
+        "de": "Dicke Schnürsenkel, breite Sohlen und gepolsterte Schaftränder."
+      },
+      "howToWear": {
+        "ko": "와이드 인디고 밑단 아래 검정 밑창을 보이세요.",
+        "en": "Show the black soles beneath the wide indigo hems.",
+        "de": "Schwarze Sohlen unter weiten indigoblauen Säumen zeigen."
+      },
+      "image": "products/chunky-snow-boots.webp",
+      "sha256": "e165bc2e73a6820642c7d87b14780601956b4762e1f6466e6cbc5ec61e08765f",
+      "bytes": 32192,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of black chunky lace-up snow boots",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "large-hoops",
+      "producerId": "05-06",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-05.large-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "골드 라지 후프",
+        "en": "Gold large hoops",
+        "de": "Große goldene Creolen"
+      },
+      "nameKo": "골드 라지 후프",
+      "description": {
+        "ko": "가느다란 큰 원형 골드 후프 한 쌍입니다.",
+        "en": "A pair of large slender gold circular hoops.",
+        "de": "Ein Paar große schmale goldene runde Creolen."
+      },
+      "howToWear": {
+        "ko": "라임 넥워머 옆에 귀가 보이도록 머리를 넘기세요.",
+        "en": "Keep hair clear to show the hoops beside the lime warmer.",
+        "de": "Die Haare für sichtbare Creolen neben dem Halswärmer zurücknehmen."
+      },
+      "image": "products/large-hoops.webp",
+      "sha256": "bb8d63ec912be8d5d4b6a9d8714318ef9a9a6a891ac8abd0625b52e8f241cfc9",
+      "bytes": 33430,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of gold-tone hoop earrings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b216"
+}

@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-street-20261110-04",
+  "batchId": "european-urban-snow-cold-female-day-street-picsart-20261110",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. The user chose these existing editorials as-is after earlier feedback that the styling looked aloof; no style correction is claimed."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-selected",
+    "evidence": "The user explicitly selected these five existing Picsart snow editorials for product breakdown and full automation of this batch, choosing to use them as-is after earlier feedback that the styling looked aloof (no style correction claimed). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1501ea7c33d580286a26308068281ebcf6040faf1308d8d6a16dc9daca9212fd",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (EDITORIAL_GENERATION.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-street-20261110-04",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-street-picsart-20261110.js",
+  "appHeroItem": "eu-snow-cold-f-day-street-20261110-04.oversized-scarf",
+  "scenePropsNotProducts": [
+    "falling snow",
+    "street"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-one products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image five overview sheets",
+    "checkedAt": "2026-11-11T01:00:06.677491+00:00",
+    "productCount": 31,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-04-overview.jpg"
+    ],
+    "findings": [
+      "Each product isolated, no scene snow or other garments",
+      "Colors and visible construction matched to five Picsart editorials",
+      "Neck openings and item edges composite cleanly at 500px",
+      "Hidden knit fronts conservatively reconstructed"
+    ]
+  },
+  "copy": {
+    "titleEn": "CATCHING THE GRAY SCARF",
+    "title": {
+      "ko": "바람을 잡는 회색 머플러",
+      "en": "Catching the gray scarf",
+      "de": "Den grauen Schal festhalten"
+    },
+    "deck": {
+      "ko": "코코아 패딩과 올리브 카고를 따뜻한 색으로 연결했습니다.",
+      "en": "Cocoa padding and olive cargos connect through warm tones.",
+      "de": "Kakaobraune Steppjacke und olivgrüne Cargohose verbinden warme Töne."
+    },
+    "intro": {
+      "ko": "거리 모퉁이에서 날리는 머플러를 손으로 붙잡습니다.",
+      "en": "At the street corner, hands catch a scarf moving in the gust.",
+      "de": "An der Straßenecke halten die Hände den Schal im Wind fest."
+    },
+    "body": {
+      "ko": "짧고 박시한 코코아 패딩 아래 아이보리 니트 끝이 보입니다. 넓은 올리브 카고는 발목에서 모이고 갈색 레이스업 부츠로 연결됩니다. 길게 날리는 회색 머플러는 짧은 재킷과 길이 차이를 만들며, 귀의 작은 골드 장식이 가까이에서 마무리합니다.",
+      "en": "A narrow ivory knit hem appears below the short boxy cocoa puffer. Wide olive cargos gather at the ankles and lead into brown lace-up boots. The long gray scarf contrasts with the short jacket, while small gold earrings finish the close details.",
+      "de": "Ein schmaler elfenbeinfarbener Stricksaum erscheint unter der kurzen kastigen Jacke. Weite olivgrüne Cargohosen sammeln sich an den Knöcheln und führen zu braunen Schnürstiefeln. Der lange graue Schal setzt sich von der kurzen Jacke ab, kleine goldene Ohrringe ergänzen die Details."
+    },
+    "pull": {
+      "ko": "짧은 재킷 옆으로 길게 흐르는 머플러.",
+      "en": "A long scarf beside a short jacket.",
+      "de": "Ein langer Schal neben einer kurzen Jacke."
+    },
+    "pullQuoteEn": "A long scarf beside a short jacket.",
+    "tip": {
+      "ko": "머플러는 목에 여유를 두고 카고의 모인 밑단을 부츠 위에 놓으세요.",
+      "en": "Leave room around the neck and rest the gathered cargo hems above the boots.",
+      "de": "Am Hals Raum lassen und die gerafften Cargosaume über den Stiefeln platzieren."
+    }
+  },
+  "products": [
+    {
+      "id": "boxy-puffer",
+      "producerId": "04-01",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-04.boxy-puffer",
+      "appCategory": "outer",
+      "producerCategory": "puffer",
+      "name": {
+        "ko": "코코아 박시 패딩",
+        "en": "Cocoa boxy puffer",
+        "de": "Kakaobraune kastenförmige Steppjacke"
+      },
+      "nameKo": "코코아 박시 패딩",
+      "description": {
+        "ko": "높은 칼라와 짧은 몸판, 넓은 퀼팅 재킷입니다.",
+        "en": "High collar, short boxy body and broad quilting.",
+        "de": "Hoher Kragen, kurzer kastiger Körper und breite Steppung."
+      },
+      "howToWear": {
+        "ko": "긴 회색 머플러와 짧은 밑단을 대비시키세요.",
+        "en": "Pair the short hem with the long gray scarf.",
+        "de": "Den kurzen Saum mit dem langen grauen Schal kombinieren."
+      },
+      "image": "products/boxy-puffer.webp",
+      "sha256": "01d4185c88daa18ca33a7552ccce9b516c3b4813720d3d66dc1cdbdce32dbd3a",
+      "bytes": 28050,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; cocoa brown cropped puffer with zip and elastic hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-knit",
+      "producerId": "04-02",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-04.rib-knit",
+      "appCategory": "top",
+      "producerCategory": "sweater",
+      "name": {
+        "ko": "아이보리 리브 니트",
+        "en": "Ivory rib knit",
+        "de": "Elfenbeinfarbener Ripp-Pullover"
+      },
+      "nameKo": "아이보리 리브 니트",
+      "description": {
+        "ko": "잔 리브 조직과 단정한 둥근 목의 밝은 니트입니다.",
+        "en": "Light sweater with fine ribs and a simple round neck.",
+        "de": "Heller Pullover mit feinen Rippen und schlichtem Rundhals."
+      },
+      "howToWear": {
+        "ko": "패딩 아래 아이보리 밑단을 조금 드러내세요.",
+        "en": "Reveal a narrow ivory hem below the puffer.",
+        "de": "Einen schmalen elfenbeinfarbenen Saum unter der Jacke zeigen."
+      },
+      "image": "products/rib-knit.webp",
+      "sha256": "eef407a782878df3b30d157c1845b5e428ccddd890d47fdf6aea106adffd5b29",
+      "bytes": 49562,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; ivory ribbed sweater visible at waist, hidden neckline reconstructed conservatively",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "oversized-scarf",
+      "producerId": "04-03",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-04.oversized-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "헤더 그레이 오버 머플러",
+        "en": "Heather gray oversized scarf",
+        "de": "Übergroßer melierter grauer Schal"
+      },
+      "nameKo": "헤더 그레이 오버 머플러",
+      "description": {
+        "ko": "넓고 긴 회색 몸판과 가는 프린지입니다.",
+        "en": "Broad long gray scarf with fine fringes.",
+        "de": "Breiter langer grauer Schal mit feinen Fransen."
+      },
+      "howToWear": {
+        "ko": "목에 느슨하게 둘러 코코아 재킷 앞을 채우세요.",
+        "en": "Wrap loosely to fill the front of the cocoa jacket.",
+        "de": "Locker umlegen und die Front der kakaobraunen Jacke füllen."
+      },
+      "image": "products/oversized-scarf.webp",
+      "sha256": "3e996659aa86d77e979210c64242ecf8f481b91f97611ad955418a6cd72a8e59",
+      "bytes": 49256,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; heather grey oversized fringed scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "barrel-cargos",
+      "producerId": "04-04",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-04.barrel-cargos",
+      "appCategory": "bottom",
+      "producerCategory": "trousers",
+      "name": {
+        "ko": "올리브 배럴 카고 팬츠",
+        "en": "Olive barrel cargos",
+        "de": "Olivgrüne Barrel-Cargohose"
+      },
+      "nameKo": "올리브 배럴 카고 팬츠",
+      "description": {
+        "ko": "옆 패치 포켓과 모인 발목의 넉넉한 팬츠입니다.",
+        "en": "Roomy trousers with side patch pockets and gathered ankles.",
+        "de": "Weite Hose mit seitlichen aufgesetzten Taschen und gerafften Knöcheln."
+      },
+      "howToWear": {
+        "ko": "밑단을 부츠 위에 모아 곡선 다리를 유지하세요.",
+        "en": "Gather above boots to keep the curved leg shape.",
+        "de": "Über den Stiefeln die gebogene Beinform erhalten."
+      },
+      "image": "products/barrel-cargos.webp",
+      "sha256": "3e3c8a542f1320e85ca1f5f1bf278102cb42ae8cd06f4f517920fe4af211b646",
+      "bytes": 41338,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; olive barrel-leg cargo trousers with patch pockets and gathered hems",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lace-up-lug-boots",
+      "producerId": "04-05",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-04.lace-up-lug-boots",
+      "appCategory": "shoes",
+      "producerCategory": "boots",
+      "name": {
+        "ko": "탄 레이스업 러그 부츠",
+        "en": "Tan lace-up lug boots",
+        "de": "Hellbraune Schnürstiefel mit Profil"
+      },
+      "nameKo": "탄 레이스업 러그 부츠",
+      "description": {
+        "ko": "갈색 끈과 톤을 맞춘 굵은 밑창의 부츠입니다.",
+        "en": "Tan lace-up boots with tonal heavy soles.",
+        "de": "Hellbraune Schnürstiefel mit kräftigen Sohlen im gleichen Ton."
+      },
+      "howToWear": {
+        "ko": "올리브 바지 아래 갈색을 이어 주세요.",
+        "en": "Add tan beneath the olive trousers.",
+        "de": "Hellbraun unter der olivgrünen Hose ergänzen."
+      },
+      "image": "products/lace-up-lug-boots.webp",
+      "sha256": "ed1d669a47a6ebef558c1a01f5e43b973e889a79feafffe6211d0db417522f99",
+      "bytes": 39466,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of tan brown lace-up lug boots",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "link-hoops",
+      "producerId": "04-06",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-04.link-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "골드 링크 후프",
+        "en": "Gold link hoops",
+        "de": "Goldene Creolen mit Ringanhänger"
+      },
+      "nameKo": "골드 링크 후프",
+      "description": {
+        "ko": "작은 후프 아래 고리 장식이 달린 귀걸이입니다.",
+        "en": "Small hoops with a little ring suspended below.",
+        "de": "Kleine Creolen mit einem kleinen Ringanhänger."
+      },
+      "howToWear": {
+        "ko": "회색 머플러 위에 작은 골드 포인트로 두세요.",
+        "en": "Use as a small gold accent above the gray scarf.",
+        "de": "Als kleinen Goldakzent oberhalb des grauen Schals tragen."
+      },
+      "image": "products/link-hoops.webp",
+      "sha256": "382a37155bb18ba1fae3ebf6a09235f926ce7da28286d561b326f1101f3a2240",
+      "bytes": 27884,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of small gold hoop earrings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b216"
+}

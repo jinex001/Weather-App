@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-street-20261110-03",
+  "batchId": "european-urban-snow-cold-female-day-street-picsart-20261110",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. The user chose these existing editorials as-is after earlier feedback that the styling looked aloof; no style correction is claimed."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-selected",
+    "evidence": "The user explicitly selected these five existing Picsart snow editorials for product breakdown and full automation of this batch, choosing to use them as-is after earlier feedback that the styling looked aloof (no style correction claimed). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "cf9fa6deb98d1507a2a7193c92c7d6af8d39077761d34d14c01a2a3cb91375af",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (EDITORIAL_GENERATION.json)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-street-20261110-03",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-street-picsart-20261110.js",
+  "appHeroItem": "eu-snow-cold-f-day-street-20261110-03.shearling-jacket",
+  "scenePropsNotProducts": [
+    "falling snow",
+    "street"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-one products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image five overview sheets",
+    "checkedAt": "2026-11-11T01:00:06.677491+00:00",
+    "productCount": 31,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "Each product isolated, no scene snow or other garments",
+      "Colors and visible construction matched to five Picsart editorials",
+      "Neck openings and item edges composite cleanly at 500px",
+      "Hidden knit fronts conservatively reconstructed"
+    ]
+  },
+  "copy": {
+    "titleEn": "BURGUNDY AND WINTER GRAY",
+    "title": {
+      "ko": "버건디와 회색의 겨울",
+      "en": "Burgundy and winter gray",
+      "de": "Burgunderrot und Wintergrau"
+    },
+    "deck": {
+      "ko": "시어링 재킷에 긴 머플러와 넓은 팬츠를 맞췄습니다.",
+      "en": "Shearling, a long scarf and wide trousers share the frame.",
+      "de": "Shearling, langer Schal und weite Hose im selben Bild."
+    },
+    "intro": {
+      "ko": "눈 오는 키오스크 옆에서 거리 쪽으로 고개를 돌립니다.",
+      "en": "Beside a snowy kiosk, a glance turns toward the street.",
+      "de": "Neben dem verschneiten Kiosk wendet sich der Blick zur Straße."
+    },
+    "body": {
+      "ko": "옥스블러드 재킷의 밝은 털 테두리가 어깨와 소매를 강조합니다. 검정 니트 위로 긴 회색 머플러가 내려오고, 차콜 플리츠 팬츠는 넉넉한 폭으로 이어집니다. 같은 붉은 계열의 숄더백과 작은 은색 후프를 더해 색과 장식의 수를 정돈했습니다.",
+      "en": "Pale fleece edges emphasize the shoulders and cuffs of the oxblood jacket. A long gray scarf falls over black knit, followed by generous charcoal pleated trousers. A shoulder bag in a related red tone and small silver hoops keep the palette and accessories focused.",
+      "de": "Helle Fellkanten betonen Schultern und Ärmel der dunkelroten Jacke. Ein langer grauer Schal fällt über schwarzen Strick, darunter folgt eine weite anthrazitfarbene Bundfaltenhose. Eine farblich verwandte Schultertasche und kleine silberne Creolen halten die Akzente zusammen."
+    },
+    "pull": {
+      "ko": "긴 회색 머플러가 잇는 겨울 레이어.",
+      "en": "A long gray scarf connects the layers.",
+      "de": "Ein langer grauer Schal verbindet die Schichten."
+    },
+    "pullQuoteEn": "A long gray scarf connects the layers.",
+    "tip": {
+      "ko": "머플러 끝을 재킷 앞에 길게 두고 가방 끈은 어깨에 단정히 맞추세요.",
+      "en": "Let the scarf ends fall down the jacket and settle the bag strap neatly on the shoulder.",
+      "de": "Die Schalenden über die Jacke fallen lassen und den Taschenriemen auf der Schulter ordnen."
+    }
+  },
+  "products": [
+    {
+      "id": "shearling-jacket",
+      "producerId": "03-01",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.shearling-jacket",
+      "appCategory": "outer",
+      "producerCategory": "jacket",
+      "name": {
+        "ko": "옥스블러드 시어링 재킷",
+        "en": "Oxblood shearling jacket",
+        "de": "Ochsenblutrote Shearlingjacke"
+      },
+      "nameKo": "옥스블러드 시어링 재킷",
+      "description": {
+        "ko": "아이보리 털 칼라와 소매끝, 짙은 붉은 표면입니다.",
+        "en": "Ivory fleece collar and cuffs with a deep red surface.",
+        "de": "Elfenbeinfarbener Fellkragen und Ärmelabschlüsse auf dunkelroter Oberfläche."
+      },
+      "howToWear": {
+        "ko": "검정 니트 위에 회색 머플러를 덧대세요.",
+        "en": "Layer over black knit with the gray scarf.",
+        "de": "Über schwarzem Strick mit grauem Schal kombinieren."
+      },
+      "image": "products/shearling-jacket.webp",
+      "sha256": "d5a49d7c921aa28f55c41048b5e005019422428e5faf690ebd5e29431a2617a2",
+      "bytes": 45274,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; oxblood aviator jacket with ivory shearling collar cuffs and hem",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-crew-knit",
+      "producerId": "03-02",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.rib-crew-knit",
+      "appCategory": "top",
+      "producerCategory": "sweater",
+      "name": {
+        "ko": "블랙 리브 크루 니트",
+        "en": "Black rib crew knit",
+        "de": "Schwarzer Ripp-Rundhalspullover"
+      },
+      "nameKo": "블랙 리브 크루 니트",
+      "description": {
+        "ko": "둥근 목과 리브 끝단의 검정 니트입니다.",
+        "en": "Black sweater with a round neck and ribbed edges.",
+        "de": "Schwarzer Pullover mit Rundhals und Rippabschlüssen."
+      },
+      "howToWear": {
+        "ko": "붉은 재킷 안쪽의 차분한 바탕으로 입으세요.",
+        "en": "Use as a quiet base inside the red jacket.",
+        "de": "Als ruhige Basis unter der roten Jacke tragen."
+      },
+      "image": "products/rib-crew-knit.webp",
+      "sha256": "f77e745aa8dd45e4c5f2c940ed44e15fd54e4fa07deccfeca58e8e569ecdbbb6",
+      "bytes": 49704,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; black rib knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "long-fringe-scarf",
+      "producerId": "03-03",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.long-fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "그레이 롱 프린지 머플러",
+        "en": "Gray long fringe scarf",
+        "de": "Langer grauer Fransenschal"
+      },
+      "nameKo": "그레이 롱 프린지 머플러",
+      "description": {
+        "ko": "넓은 회색 몸판과 길게 풀린 프린지입니다.",
+        "en": "Broad gray body with long loose fringes.",
+        "de": "Breite graue Fläche mit langen Fransen."
+      },
+      "howToWear": {
+        "ko": "목에 한 번 둘러 재킷 앞쪽으로 길게 내리세요.",
+        "en": "Wrap once and let the ends fall down the jacket.",
+        "de": "Einmal umlegen und die Enden über die Jacke fallen lassen."
+      },
+      "image": "products/long-fringe-scarf.webp",
+      "sha256": "3f46ea7646f7953f875e765b65cb7cc09fe53d484840574ce166747b84e3eded",
+      "bytes": 48276,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; heather grey long fringed scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-pleat-trousers",
+      "producerId": "03-04",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.wide-pleat-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "trousers",
+      "name": {
+        "ko": "차콜 와이드 플리츠 팬츠",
+        "en": "Charcoal wide pleat trousers",
+        "de": "Weite anthrazitfarbene Bundfaltenhose"
+      },
+      "nameKo": "차콜 와이드 플리츠 팬츠",
+      "description": {
+        "ko": "앞 주름과 여유 있는 다리의 차콜 팬츠입니다.",
+        "en": "Charcoal trousers with front pleats and wide legs.",
+        "de": "Anthrazitfarbene Hose mit Bundfalten und weiten Beinen."
+      },
+      "howToWear": {
+        "ko": "짧은 시어링 재킷 아래 바지 길이를 길게 두세요.",
+        "en": "Let the trousers extend below the short shearling jacket.",
+        "de": "Die lange Hose unter der kurzen Shearlingjacke tragen."
+      },
+      "image": "products/wide-pleat-trousers.webp",
+      "sha256": "0f864647f64d711e2ea1375c3a70f9636f4e5f37fe4e3acac3a573799d97bff6",
+      "bytes": 35132,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; charcoal pleated wide-leg tailored trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lug-ankle-boots",
+      "producerId": "03-05",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.lug-ankle-boots",
+      "appCategory": "shoes",
+      "producerCategory": "boots",
+      "name": {
+        "ko": "블랙 러그 앵클 부츠",
+        "en": "Black lug ankle boots",
+        "de": "Schwarze Profil-Stiefeletten"
+      },
+      "nameKo": "블랙 러그 앵클 부츠",
+      "description": {
+        "ko": "둥근 앞코와 끈, 굵은 밑창의 검정 부츠입니다.",
+        "en": "Black boots with round toes, laces and heavy soles.",
+        "de": "Schwarze Stiefel mit runden Spitzen, Schnürung und kräftigen Sohlen."
+      },
+      "howToWear": {
+        "ko": "차콜 바지 아래 앞코와 밑창을 드러내세요.",
+        "en": "Show the toes and soles below the charcoal trousers.",
+        "de": "Spitzen und Sohlen unter der anthrazitfarbenen Hose zeigen."
+      },
+      "image": "products/lug-ankle-boots.webp",
+      "sha256": "42dd955326ce241a54e5d1ec73ee0df321b566dcb4e72ee0c9c796e4d60f1ef0",
+      "bytes": 29316,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of black lace-up lug-sole ankle boots",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "shoulder-bag",
+      "producerId": "03-06",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.shoulder-bag",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "name": {
+        "ko": "버건디 숄더백",
+        "en": "Burgundy shoulder bag",
+        "de": "Burgunderrote Schultertasche"
+      },
+      "nameKo": "버건디 숄더백",
+      "description": {
+        "ko": "둥근 몸판과 버클 조절 끈의 작은 가방입니다.",
+        "en": "Rounded bag with a narrow buckle-adjusted shoulder strap.",
+        "de": "Abgerundete Tasche mit schmalem verstellbarem Schnallenriemen."
+      },
+      "howToWear": {
+        "ko": "재킷과 가까운 붉은색으로 어깨에 걸치세요.",
+        "en": "Carry at the shoulder to echo the jacket's red.",
+        "de": "Über der Schulter das Rot der Jacke aufgreifen."
+      },
+      "image": "products/shoulder-bag.webp",
+      "sha256": "a28166809e3d91254cc48ae7ee640cc0147995c4fbbcf8310e24c5e9239ad107",
+      "bytes": 38410,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; oxblood rounded shoulder bag with narrow buckle strap",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "round-hoops",
+      "producerId": "03-07",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-03.round-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "실버 라운드 후프",
+        "en": "Silver round hoops",
+        "de": "Silberne runde Creolen"
+      },
+      "nameKo": "실버 라운드 후프",
+      "description": {
+        "ko": "가느다란 은색 원형 후프 한 쌍입니다.",
+        "en": "A pair of slender silver circular hoops.",
+        "de": "Ein Paar schmale silberne runde Creolen."
+      },
+      "howToWear": {
+        "ko": "머플러 위로 귀가 드러나는 쪽에 포인트를 주세요.",
+        "en": "Keep a small accent visible above the scarf.",
+        "de": "Oberhalb des Schals einen kleinen Akzent sichtbar lassen."
+      },
+      "image": "products/round-hoops.webp",
+      "sha256": "1f59a8f62ced88bca4abef24595054966fe9b4270bfda82d0e07c549f1d2a954",
+      "bytes": 29874,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of silver hoop earrings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b216"
+}

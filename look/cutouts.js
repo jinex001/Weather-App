@@ -1174,7 +1174,12 @@
 "ea-clear-hot-humid-f-day-running-20261107-02.mesh-runners": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-02/products/mesh-runners.webp", 0.716],
 "ea-clear-hot-humid-f-day-running-20261107-03.line-tank": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-03/products/line-tank.webp", 0.604],
 "ea-clear-hot-humid-f-day-running-20261107-04.running-tank": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-04/products/running-tank.webp", 0.653],
-"ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-05/products/racerback-singlet.webp", 0.172]
+"ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet": ["look/global/east-asian-clear-hot-humid-female-day-running-20261107/ea-clear-hot-humid-f-day-running-20261107-05/products/racerback-singlet.webp", 0.172],
+"eu-snow-cold-f-day-street-20261110-01.knit-hood": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-01/products/knit-hood.webp", 0.164],
+"eu-snow-cold-f-day-street-20261110-02.zip-fleece": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-02/products/zip-fleece.webp", 0.112],
+"eu-snow-cold-f-day-street-20261110-03.shearling-jacket": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-03/products/shearling-jacket.webp", 0.348],
+"eu-snow-cold-f-day-street-20261110-04.oversized-scarf": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-04/products/oversized-scarf.webp", 0.474],
+"eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer": ["look/global/european-urban-snow-cold-female-day-street-picsart-20261110/eu-snow-cold-f-day-street-20261110-05/products/rib-neck-warmer.webp", 0.563]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1562,7 +1567,12 @@
 "ea-clear-hot-humid-f-day-running-20261107-02": "ea-clear-hot-humid-f-day-running-20261107-02.mesh-runners",
 "ea-clear-hot-humid-f-day-running-20261107-03": "ea-clear-hot-humid-f-day-running-20261107-03.line-tank",
 "ea-clear-hot-humid-f-day-running-20261107-04": "ea-clear-hot-humid-f-day-running-20261107-04.running-tank",
-"ea-clear-hot-humid-f-day-running-20261107-05": "ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet"
+"ea-clear-hot-humid-f-day-running-20261107-05": "ea-clear-hot-humid-f-day-running-20261107-05.racerback-singlet",
+"eu-snow-cold-f-day-street-20261110-01": "eu-snow-cold-f-day-street-20261110-01.knit-hood",
+"eu-snow-cold-f-day-street-20261110-02": "eu-snow-cold-f-day-street-20261110-02.zip-fleece",
+"eu-snow-cold-f-day-street-20261110-03": "eu-snow-cold-f-day-street-20261110-03.shearling-jacket",
+"eu-snow-cold-f-day-street-20261110-04": "eu-snow-cold-f-day-street-20261110-04.oversized-scarf",
+"eu-snow-cold-f-day-street-20261110-05": "eu-snow-cold-f-day-street-20261110-05.rib-neck-warmer"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

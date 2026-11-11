@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-street-20261110-02",
+  "batchId": "european-urban-snow-cold-female-day-street-picsart-20261110",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. The user chose these existing editorials as-is after earlier feedback that the styling looked aloof; no style correction is claimed."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-selected",
+    "evidence": "The user explicitly selected these five existing Picsart snow editorials for product breakdown and full automation of this batch, choosing to use them as-is after earlier feedback that the styling looked aloof (no style correction claimed). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1d049d2558d6050d9e9cb119682c3127712dc9a0e6a67d12528613e72e20fa7a",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (EDITORIAL_GENERATION.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-street-20261110-02",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-street-picsart-20261110.js",
+  "appHeroItem": "eu-snow-cold-f-day-street-20261110-02.zip-fleece",
+  "scenePropsNotProducts": [
+    "falling snow",
+    "street"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-one products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image five overview sheets",
+    "checkedAt": "2026-11-11T01:00:06.677491+00:00",
+    "productCount": 31,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "Each product isolated, no scene snow or other garments",
+      "Colors and visible construction matched to five Picsart editorials",
+      "Neck openings and item edges composite cleanly at 500px",
+      "Hidden knit fronts conservatively reconstructed"
+    ]
+  },
+  "copy": {
+    "titleEn": "RED BENEATH SILVER",
+    "title": {
+      "ko": "실버 패딩 아래의 레드",
+      "en": "Red beneath silver",
+      "de": "Rot unter Silber"
+    },
+    "deck": {
+      "ko": "짧은 아우터와 긴 검정 데님이 만드는 겨울 비율.",
+      "en": "A cropped outer layer meets long black denim.",
+      "de": "Kurze Oberjacke trifft auf langen schwarzen Denim."
+    },
+    "intro": {
+      "ko": "지하철 출입구를 지나 눈 오는 보도로 나옵니다.",
+      "en": "The subway entrance gives way to a snowy pavement.",
+      "de": "Am U-Bahn-Eingang beginnt der verschneite Gehweg."
+    },
+    "body": {
+      "ko": "은색 퀼팅 패딩의 짧은 길이 아래 레드 집업 플리스가 드러납니다. 같은 붉은색 비니가 색을 위로 이어 주고, 작은 은색 후프가 패딩의 금속빛을 반복합니다. 검정 코티드 와이드 진과 긴 레이스업 부츠는 하체를 하나의 짙은 선으로 묶습니다.",
+      "en": "A red zip fleece extends beneath the short silver quilted puffer. A matching red beanie carries the color upward, while small silver hoops repeat the jacket's metallic tone. Black coated wide jeans and tall lace-up boots form one continuous dark line below.",
+      "de": "Eine rote Fleecejacke reicht unter die kurze silberne Steppjacke. Die rote Mütze führt die Farbe nach oben, kleine silberne Creolen greifen den Metallton auf. Schwarze beschichtete weite Jeans und hohe Schnürstiefel bilden darunter eine lange dunkle Linie."
+    },
+    "pull": {
+      "ko": "짧은 실버, 길게 이어지는 검정.",
+      "en": "Short silver, a long black line.",
+      "de": "Kurzes Silber und eine lange schwarze Linie."
+    },
+    "pullQuoteEn": "Short silver, a long black line.",
+    "tip": {
+      "ko": "플리스 지퍼와 패딩 여밈을 조절해 레드 레이어가 보이게 하세요.",
+      "en": "Adjust both zips so the red fleece layer remains visible.",
+      "de": "Beide Reißverschlüsse so einstellen, dass die rote Fleeceschicht sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "cropped-puffer",
+      "producerId": "02-01",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-02.cropped-puffer",
+      "appCategory": "outer",
+      "producerCategory": "puffer",
+      "name": {
+        "ko": "실버 크롭 패딩",
+        "en": "Silver cropped puffer",
+        "de": "Silberne kurze Steppjacke"
+      },
+      "nameKo": "실버 크롭 패딩",
+      "description": {
+        "ko": "짧은 길이와 큰 칼라, 은색 광택 퀼팅입니다.",
+        "en": "Short cut, large collar and metallic silver quilting.",
+        "de": "Kurzer Schnitt mit großem Kragen und silberner Steppoberfläche."
+      },
+      "howToWear": {
+        "ko": "레드 플리스가 아래로 보이게 지퍼를 여세요.",
+        "en": "Open the zip to reveal the red fleece.",
+        "de": "Den Reißverschluss für die rote Fleecejacke öffnen."
+      },
+      "image": "products/cropped-puffer.webp",
+      "sha256": "4545065336e73c8397a8cc364d3cd9856c53f5e8bd630ff3609f350cb1bac52d",
+      "bytes": 37762,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; metallic silver cropped quilted puffer jacket",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "zip-fleece",
+      "producerId": "02-02",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-02.zip-fleece",
+      "appCategory": "top",
+      "producerCategory": "fleece",
+      "name": {
+        "ko": "레드 집업 플리스",
+        "en": "Red zip fleece",
+        "de": "Rote Fleecejacke"
+      },
+      "nameKo": "레드 집업 플리스",
+      "description": {
+        "ko": "스탠드 칼라와 앞 지퍼의 짙은 빨간 플리스입니다.",
+        "en": "Deep red fleece with a stand collar and front zip.",
+        "de": "Dunkelrotes Fleece mit Stehkragen und Frontreißverschluss."
+      },
+      "howToWear": {
+        "ko": "실버 패딩과 검정 데님 사이에 색을 넣으세요.",
+        "en": "Place the red layer between silver puffer and black denim.",
+        "de": "Rot zwischen silberner Jacke und schwarzem Denim einsetzen."
+      },
+      "image": "products/zip-fleece.webp",
+      "sha256": "ca5cd2424fef8c0a525eef0aa38f0046d432b50c2c1af39aefe940fc7d8aefb8",
+      "bytes": 28008,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; deep red full zip stand collar fleece",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "coated-wide-jeans",
+      "producerId": "02-03",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-02.coated-wide-jeans",
+      "appCategory": "bottom",
+      "producerCategory": "jeans",
+      "name": {
+        "ko": "블랙 코티드 와이드 진",
+        "en": "Black coated wide jeans",
+        "de": "Schwarze beschichtete weite Jeans"
+      },
+      "nameKo": "블랙 코티드 와이드 진",
+      "description": {
+        "ko": "표면 광택과 넓은 다리의 검정 데님입니다.",
+        "en": "Black denim with a glossy surface and wide legs.",
+        "de": "Schwarzer Denim mit glänzender Oberfläche und weiten Beinen."
+      },
+      "howToWear": {
+        "ko": "부츠 윗부분을 덮되 앞코는 보이게 두세요.",
+        "en": "Cover the boot shafts while keeping the toes visible.",
+        "de": "Die Stiefelschäfte bedecken und die Spitzen sichtbar lassen."
+      },
+      "image": "products/coated-wide-jeans.webp",
+      "sha256": "a8b5fb287a629bf2975a902f7aecbaa4a42b9179c397dc6465f4402e6a6da616",
+      "bytes": 31944,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; black coated wide-leg denim jeans",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cuff-beanie",
+      "producerId": "02-04",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-02.cuff-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "beanie",
+      "name": {
+        "ko": "레드 커프 비니",
+        "en": "Red cuff beanie",
+        "de": "Rote Umschlagmütze"
+      },
+      "nameKo": "레드 커프 비니",
+      "description": {
+        "ko": "골지 조직과 넓은 접은 끝단의 빨간 비니입니다.",
+        "en": "Red rib knit beanie with a broad folded cuff.",
+        "de": "Rote Rippstrickmütze mit breitem Umschlag."
+      },
+      "howToWear": {
+        "ko": "플리스의 빨강을 머리 쪽에서 반복하세요.",
+        "en": "Repeat the fleece's red at the head.",
+        "de": "Das Rot der Fleecejacke am Kopf wiederholen."
+      },
+      "image": "products/cuff-beanie.webp",
+      "sha256": "56d028a19ca8d37ca0d73aa9dbcbc62df16a69977621aaaf0547955bf1fb4554",
+      "bytes": 45996,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; red cuffed knit beanie",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "small-hoops",
+      "producerId": "02-05",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-02.small-hoops",
+      "appCategory": "jewelry",
+      "producerCategory": "earrings",
+      "name": {
+        "ko": "스몰 실버 후프",
+        "en": "Small silver hoops",
+        "de": "Kleine silberne Creolen"
+      },
+      "nameKo": "스몰 실버 후프",
+      "description": {
+        "ko": "작은 은색 원형 고리 귀걸이 한 쌍입니다.",
+        "en": "A pair of small silver circular hoop earrings.",
+        "de": "Ein Paar kleine silberne runde Creolen."
+      },
+      "howToWear": {
+        "ko": "빨간 비니 아래 귀 쪽의 작은 포인트로 두세요.",
+        "en": "Use as a small accent below the red beanie.",
+        "de": "Unter der roten Mütze als kleinen Akzent tragen."
+      },
+      "image": "products/small-hoops.webp",
+      "sha256": "b1a7d2a77185d189039aede809f7470271336088bf1d361fd6bc983ce44850dc",
+      "bytes": 32954,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of small silver hoop earrings",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "tall-lace-up-boots",
+      "producerId": "02-06",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-02.tall-lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "boots",
+      "name": {
+        "ko": "블랙 톨 레이스업 부츠",
+        "en": "Black tall lace-up boots",
+        "de": "Hohe schwarze Schnürstiefel"
+      },
+      "nameKo": "블랙 톨 레이스업 부츠",
+      "description": {
+        "ko": "긴 샤프트와 연속된 끈, 깊은 밑창의 부츠입니다.",
+        "en": "Tall shafts, continuous lacing and deep lug soles.",
+        "de": "Hohe Schäfte, durchgehende Schnürung und kräftige Profilsohlen."
+      },
+      "howToWear": {
+        "ko": "와이드 진 안쪽에 긴 샤프트를 넣으세요.",
+        "en": "Wear the tall shafts beneath the wide jeans.",
+        "de": "Die hohen Schäfte unter den weiten Jeans tragen."
+      },
+      "image": "products/tall-lace-up-boots.webp",
+      "sha256": "ad2f522657b2aa376592359ae36e5ab1d70a354e8bb0bbc2bfc8dcb0f2ab1e0c",
+      "bytes": 35574,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of tall black lace-up lug-sole boots",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b216"
+}

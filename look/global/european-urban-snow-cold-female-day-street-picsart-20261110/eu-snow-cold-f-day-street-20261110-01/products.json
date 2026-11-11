@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-street-20261110-01",
+  "batchId": "european-urban-snow-cold-female-day-street-picsart-20261110",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: a European city street in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. The user chose these existing editorials as-is after earlier feedback that the styling looked aloof; no style correction is claimed."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-selected",
+    "evidence": "The user explicitly selected these five existing Picsart snow editorials for product breakdown and full automation of this batch, choosing to use them as-is after earlier feedback that the styling looked aloof (no style correction claimed). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1bdda15172b58d872f526464c5f6e532f9c7330cc428e8aeba3aa4fb408bfa50",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart (EDITORIAL_GENERATION.json)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-street-20261110-01",
+  "appStyle": "street",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-street-picsart-20261110.js",
+  "appHeroItem": "eu-snow-cold-f-day-street-20261110-01.knit-hood",
+  "scenePropsNotProducts": [
+    "tram shelter",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-one products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "Codex actual view_image five overview sheets",
+    "checkedAt": "2026-11-11T01:00:06.677491+00:00",
+    "productCount": 31,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": [
+      "Each product isolated, no scene snow or other garments",
+      "Colors and visible construction matched to five Picsart editorials",
+      "Neck openings and item edges composite cleanly at 500px",
+      "Hidden knit fronts conservatively reconstructed"
+    ]
+  },
+  "copy": {
+    "titleEn": "COBALT AT THE TRAM STOP",
+    "title": {
+      "ko": "코발트 후드, 눈 오는 정류장",
+      "en": "Cobalt at the tram stop",
+      "de": "Kobalt an der Haltestelle"
+    },
+    "deck": {
+      "ko": "네이비 패딩과 벌룬 카고에 파란 니트 후드를 더했습니다.",
+      "en": "A blue knit hood joins navy padding and balloon cargos.",
+      "de": "Blaue Strickhaube zu marineblauer Steppjacke und Ballon-Cargohose."
+    },
+    "intro": {
+      "ko": "눈발이 흐르는 트램 정류장에서 다음 발걸음을 돌립니다.",
+      "en": "Snow passes the tram shelter as the next step turns back toward the street.",
+      "de": "Schnee zieht am Wartehäuschen vorbei, während sich der nächste Schritt zur Straße wendet."
+    },
+    "body": {
+      "ko": "넉넉한 네이비 패딩 아래로 크림과 네이비 줄무늬가 길게 보입니다. 회색 카고는 발목에서 모여 부피 있는 상체와 균형을 이루고, 검정 양말과 투톤 부츠가 아래를 연결합니다. 얼굴 주변의 코발트 후드가 짙은 겨울색 안에 선명한 포인트를 만듭니다.",
+      "en": "The cream and navy striped sweater extends below a roomy navy puffer. Gray cargos gather at the ankles to balance the full upper silhouette, with black socks leading into two-tone boots. Around the face, a cobalt hood creates one clear accent within the dark winter palette.",
+      "de": "Der creme-marineblaue Streifenpullover reicht unter die weite Steppjacke. Graue Cargohosen sammeln sich an den Knöcheln und gleichen die voluminöse obere Silhouette aus. Schwarze Socken führen zu zweifarbigen Stiefeln. Die kobaltblaue Haube setzt einen klaren Akzent am Gesicht."
+    },
+    "pull": {
+      "ko": "눈발 사이에 남는 파란색.",
+      "en": "A blue accent between snowflakes.",
+      "de": "Ein blauer Akzent zwischen Schneeflocken."
+    },
+    "pullQuoteEn": "A blue accent between snowflakes.",
+    "tip": {
+      "ko": "카고 밑단을 부츠 위에 모으고 줄무늬 니트의 길이를 살리세요.",
+      "en": "Gather the cargo hems above the boots and leave the striped knit hem visible.",
+      "de": "Die Cargosaume über den Stiefeln sammeln und den gestreiften Stricksaum zeigen."
+    }
+  },
+  "products": [
+    {
+      "id": "volume-puffer",
+      "producerId": "01-01",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-01.volume-puffer",
+      "appCategory": "outer",
+      "producerCategory": "puffer",
+      "name": {
+        "ko": "네이비 볼륨 패딩",
+        "en": "Navy volume puffer",
+        "de": "Marineblaue Volumenjacke"
+      },
+      "nameKo": "네이비 볼륨 패딩",
+      "description": {
+        "ko": "큰 후드와 가로 퀼팅, 지퍼 여밈의 넉넉한 패딩입니다.",
+        "en": "Roomy puffer with a large hood, horizontal quilting and zip closure.",
+        "de": "Weite Steppjacke mit großer Kapuze, Quersteppung und Reißverschluss."
+      },
+      "howToWear": {
+        "ko": "줄무늬 니트 밑단이 보이도록 겹치세요.",
+        "en": "Layer to reveal the striped sweater hem.",
+        "de": "Den Saum des Streifenpullovers darunter zeigen."
+      },
+      "image": "products/volume-puffer.webp",
+      "sha256": "61adf1db85284374af2a328daaab664595469a1abf77706e3bb0d6f5c2da337a",
+      "bytes": 29044,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; oversized ink navy zip hooded quilted puffer",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "stripe-knit",
+      "producerId": "01-02",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-01.stripe-knit",
+      "appCategory": "top",
+      "producerCategory": "sweater",
+      "name": {
+        "ko": "크림 네이비 스트라이프 니트",
+        "en": "Cream-navy stripe knit",
+        "de": "Creme-marineblauer Streifenpullover"
+      },
+      "nameKo": "크림 네이비 스트라이프 니트",
+      "description": {
+        "ko": "넓은 가로 줄무늬와 리브 끝단의 긴 니트입니다.",
+        "en": "Long sweater with broad horizontal stripes and ribbed edges.",
+        "de": "Langer Pullover mit breiten Querstreifen und Rippabschlüssen."
+      },
+      "howToWear": {
+        "ko": "네이비 패딩 아래 긴 밑단으로 길이 차이를 만드세요.",
+        "en": "Use its long hem below the navy puffer.",
+        "de": "Den langen Saum unter der marineblauen Jacke absetzen."
+      },
+      "image": "products/stripe-knit.webp",
+      "sha256": "b29af79d6ea43377d9c33e7a7e6054e580fa26da4234c42f729f5e86923f292c",
+      "bytes": 45840,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; cream and navy broad striped long rib-hem sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "balloon-cargos",
+      "producerId": "01-03",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-01.balloon-cargos",
+      "appCategory": "bottom",
+      "producerCategory": "trousers",
+      "name": {
+        "ko": "슬레이트 벌룬 카고",
+        "en": "Slate balloon cargos",
+        "de": "Schiefergraue Ballon-Cargohose"
+      },
+      "nameKo": "슬레이트 벌룬 카고",
+      "description": {
+        "ko": "큰 플랩 포켓과 조인 밑단의 볼륨 팬츠입니다.",
+        "en": "Volume trousers with large flap pockets and gathered hems.",
+        "de": "Voluminöse Hose mit großen Pattentaschen und gerafften Säumen."
+      },
+      "howToWear": {
+        "ko": "부츠 위에서 밑단을 모아 벌룬 라인을 살리세요.",
+        "en": "Gather the hems above boots to show the balloon shape.",
+        "de": "Die Säume über den Stiefeln für die Ballonform zusammenhalten."
+      },
+      "image": "products/balloon-cargos.webp",
+      "sha256": "b3780ceb239e0a27a6c3dfc618b27cc569161b434c0ccea31dd3621008bfcadb",
+      "bytes": 40674,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; slate grey balloon cargo trousers with flap side pockets and cinched hems",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit-hood",
+      "producerId": "01-04",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-01.knit-hood",
+      "appCategory": "headwear",
+      "producerCategory": "balaclava",
+      "name": {
+        "ko": "코발트 니트 후드",
+        "en": "Cobalt knit hood",
+        "de": "Kobaltblaue Strickhaube"
+      },
+      "nameKo": "코발트 니트 후드",
+      "description": {
+        "ko": "얼굴을 감싸는 굵은 리브 조직의 파란 후드입니다.",
+        "en": "Blue open-face hood in a chunky rib knit.",
+        "de": "Blaue Strickhaube mit Gesichtsausschnitt und kräftigen Rippen."
+      },
+      "howToWear": {
+        "ko": "네이비 아우터 위에 얼굴 주변만 밝게 드러내세요.",
+        "en": "Frame the face with cobalt above the navy outer layer.",
+        "de": "Das Gesicht über der marineblauen Jacke kobaltblau einrahmen."
+      },
+      "image": "products/knit-hood.webp",
+      "sha256": "f708493854a58543c5287276416d50fd876a60c080c4e6be4967a9bc063c6a1b",
+      "bytes": 46528,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; cobalt blue chunky knitted open-face balaclava",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-boot-socks",
+      "producerId": "01-05",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-01.rib-boot-socks",
+      "appCategory": "socks",
+      "producerCategory": "socks",
+      "name": {
+        "ko": "블랙 리브 부츠 양말",
+        "en": "Black rib boot socks",
+        "de": "Schwarze Ripp-Stiefelsocken"
+      },
+      "nameKo": "블랙 리브 부츠 양말",
+      "description": {
+        "ko": "긴 리브 줄기와 검정 발부분의 양말 한 쌍입니다.",
+        "en": "A pair of black socks with tall ribbed shafts.",
+        "de": "Ein Paar schwarze Socken mit hohen Ripp-Schäften."
+      },
+      "howToWear": {
+        "ko": "카고 밑단과 부츠 사이에 리브를 짧게 보이세요.",
+        "en": "Show a little rib between cargo hems and boots.",
+        "de": "Etwas Rippstruktur zwischen Cargosaum und Stiefeln zeigen."
+      },
+      "image": "products/rib-boot-socks.webp",
+      "sha256": "b23c5f1a17a8b3f681e47e6462a1bcf0c2db1003dc1864ab4d32fbef3c88ff08",
+      "bytes": 38314,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of black ribbed boot socks",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lug-winter-boots",
+      "producerId": "01-06",
+      "appItemId": "eu-snow-cold-f-day-street-20261110-01.lug-winter-boots",
+      "appCategory": "shoes",
+      "producerCategory": "boots",
+      "name": {
+        "ko": "투톤 러그솔 방한 부츠",
+        "en": "Two-tone lug winter boots",
+        "de": "Zweifarbige Winterstiefel mit Profilsohle"
+      },
+      "nameKo": "투톤 러그솔 방한 부츠",
+      "description": {
+        "ko": "회색 패널과 검정 끈, 크림 중창의 부츠입니다.",
+        "en": "Gray panels, black laces and cream midsoles.",
+        "de": "Graue Einsätze, schwarze Schnürsenkel und cremefarbene Zwischensohlen."
+      },
+      "howToWear": {
+        "ko": "회색 카고와 검정 양말을 이어 신으세요.",
+        "en": "Connect gray cargos with black socks.",
+        "de": "Mit grauer Cargohose und schwarzen Socken kombinieren."
+      },
+      "image": "products/lug-winter-boots.webp",
+      "sha256": "42d5452ceb44fd0974eb44247b18fee64b644497c4a26d25bf37a38dbd8de816",
+      "bytes": 42528,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; pair of black and slate grey lace-up winter boots with cream midsoles and black lug outsoles",
+      "reconstructionNotice": {
+        "ko": "보이는 색과 구조를 기준으로 제작했으며 가려진 부분은 보수적으로 복원했습니다. 브랜드·성분·방수 및 보온 성능은 확인하지 않았습니다.",
+        "en": "Visible construction reproduced; hidden areas conservatively restored. Brand, composition and protective performance unverified.",
+        "de": "Sichtbare Konstruktion wiedergegeben, verdeckte Bereiche zurückhaltend ergänzt. Marke, Zusammensetzung und Schutzleistung unbestätigt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b216"
+}
