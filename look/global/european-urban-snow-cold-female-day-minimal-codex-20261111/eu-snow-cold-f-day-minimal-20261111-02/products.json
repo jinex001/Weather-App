@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-minimal-20261111-02",
+  "batchId": "european-urban-snow-cold-female-day-minimal-codex-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Codex built-in image_gen editorials: a European city neighbourhood (shop fronts, tram, snowbanks, doorways, cafe terrace) in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 02 lead boot sits close to the lower edge; look 05 holds coffee beside the torso; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Codex snow minimal editorials and started full automation of this batch (APPROVAL.json userQuote \"오케이 자동화 시작.\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "45e9b5f206857c39d9295709ddd5bbfc3dd8e34035e084d5a183b15ccd591055",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Codex built-in image_gen (PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-minimal-20261111-02",
+  "appStyle": "minimal",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-minimal-codex-20261111.js",
+  "appHeroItem": "eu-snow-cold-f-day-minimal-20261111-02.wool-coat",
+  "scenePropsNotProducts": [
+    "tram",
+    "tram shelter",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-five products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T17:54:27.808618+00:00",
+    "productCount": 35,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-02-overview.jpg"
+    ],
+    "findings": [
+      "02-06 v2 has separated thumb outlines; archived prior version. All other items reviewed against editorial sheets.",
+      "Some dark pieces have low contrast on black. Minor snow-like flecks on navy knit pieces do not obscure the silhouettes."
+    ],
+    "editorialReview": "All five visually checked for full-body framing, snow, scarves and visible front layers. Look 02 lead boot sits close to the lower edge. Look 05 holds coffee beside the torso."
+  },
+  "copy": {
+    "titleEn": "AS THE TRAM ARRIVES",
+    "title": {
+      "ko": "트램이 들어올 때",
+      "en": "As the tram arrives",
+      "de": "Wenn die Tram einfährt"
+    },
+    "deck": {
+      "ko": "코코아색 코트에 오트밀 스카프를 둘렀습니다.",
+      "en": "An oatmeal scarf softens the cocoa coat.",
+      "de": "Ein haferfarbener Schal hellt den kakaobraunen Mantel auf."
+    },
+    "intro": {
+      "ko": "정류장에서 스카프를 한 손으로 잡고 들어오는 트램을 바라봅니다.",
+      "en": "At the stop, she holds her scarf and looks toward the arriving tram.",
+      "de": "An der Haltestelle hält sie den Schal fest und schaut zur einfahrenden Tram."
+    },
+    "body": {
+      "ko": "밝은 골지 터틀넥과 프린지 스카프가 갈색 코트를 밝힙니다. 회갈색 팬츠와 갈색 레이스업 부츠로 마무리했습니다.",
+      "en": "Pale ribbing and scarf fringe brighten the brown wool coat. Mushroom trousers and lace-up boots complete the look.",
+      "de": "Heller Rippstrick und Fransen setzen sich vom braunen Mantel ab. Graubraune Hose und Schnürboots ergänzen den Look."
+    },
+    "pull": {
+      "ko": "코트 위로 길게 떨어지는 밝은 프린지.",
+      "en": "Light fringe against cocoa wool.",
+      "de": "Helle Fransen auf kakaobrauner Wolle."
+    },
+    "pullQuoteEn": "Light fringe against cocoa wool.",
+    "tip": {
+      "ko": "스카프의 긴 끝을 한쪽으로 넘겨 니트의 골지가 보이게 해보세요.",
+      "en": "Bring the longer scarf end to one side to reveal the knit’s ribbing.",
+      "de": "Das längere Schalende zur Seite legen, damit der Rippstrick sichtbar bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "wool-coat",
+      "producerId": "02-01",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.wool-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "코코아색 울 코트",
+        "en": "Cocoa wool coat",
+        "de": "Kakaobrauner Wollmantel"
+      },
+      "nameKo": "코코아색 울 코트",
+      "description": {
+        "ko": "따뜻한 갈색과 넓은 접이식 라펠",
+        "en": "Warm brown with broad folded lapels",
+        "de": "Warmes Braun mit breitem Revers"
+      },
+      "howToWear": {
+        "ko": "라펠 한쪽을 드러내도록 밝은 스카프를 둘러 보세요.",
+        "en": "Set the pale scarf to one side to reveal a lapel.",
+        "de": "Den hellen Schal seitlich tragen, damit ein Revers sichtbar bleibt."
+      },
+      "image": "products/wool-coat.webp",
+      "sha256": "24166131c24bb291984e7c2b9ffa0d97238354e963f22a6cea02b1793212a294",
+      "bytes": 48942,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; cocoa brown lapelled wool coat",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-turtleneck",
+      "producerId": "02-02",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.ribbed-turtleneck",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "오트밀 골지 터틀넥",
+        "en": "Oatmeal ribbed turtleneck",
+        "de": "Haferfarbener Ripprollkragenpullover"
+      },
+      "nameKo": "오트밀 골지 터틀넥",
+      "description": {
+        "ko": "목을 감싸는 밝은 세로 골지",
+        "en": "Pale vertical ribbing and a high neckline",
+        "de": "Heller Längsripp und hoher Kragen"
+      },
+      "howToWear": {
+        "ko": "코트 앞을 느슨하게 여며 세로 골지가 보이게 하세요.",
+        "en": "Fasten the coat loosely to show the vertical ribs.",
+        "de": "Den Mantel locker schließen, damit der Längsripp sichtbar bleibt."
+      },
+      "image": "products/ribbed-turtleneck.webp",
+      "sha256": "4c229ba89ed670ad456344b241e4400becb9aef1c90da472c951e550549e83e8",
+      "bytes": 49714,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; oatmeal ribbed turtleneck sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "02-03",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "회갈색 스트레이트 팬츠",
+        "en": "Mushroom straight trousers",
+        "de": "Graubraune gerade Hose"
+      },
+      "nameKo": "회갈색 스트레이트 팬츠",
+      "description": {
+        "ko": "차분한 회갈색과 곧은 다리선",
+        "en": "Muted gray-brown and a straight leg",
+        "de": "Gedecktes Graubraun und gerades Bein"
+      },
+      "howToWear": {
+        "ko": "코코아색 코트 아래 부드러운 명도 차를 만드세요.",
+        "en": "Use it for a soft contrast below the cocoa coat.",
+        "de": "Für einen sanften Kontrast unter dem kakaobraunen Mantel tragen."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "6dcca789f3eb2815cb0db1eed2fb11bd4c3426749ee572d1f360286da1eab501",
+      "bytes": 33866,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; mushroom gray straight trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ear-warmer",
+      "producerId": "02-04",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.ear-warmer",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "name": {
+        "ko": "짙은 갈색 귀마개 밴드",
+        "en": "Dark brown ear warmer",
+        "de": "Dunkelbraunes Ohrenwärmer-Stirnband"
+      },
+      "nameKo": "짙은 갈색 귀마개 밴드",
+      "description": {
+        "ko": "귀를 덮는 넓은 갈색 밴드",
+        "en": "Wide brown band that covers the ears",
+        "de": "Breites braunes Band, das die Ohren bedeckt"
+      },
+      "howToWear": {
+        "ko": "머리 위 컬이 보이게 귀 높이에 맞추세요.",
+        "en": "Set it at ear level with the curls visible above.",
+        "de": "Auf Ohrhöhe tragen, damit die Locken darüber sichtbar bleiben."
+      },
+      "image": "products/ear-warmer.webp",
+      "sha256": "5be6a915962ae8c55a19ffefd7412c4d6f530e13a0ae410e84ee334befe480f2",
+      "bytes": 48350,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; dark brown fuzzy ear warmer headband",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "fringe-scarf",
+      "producerId": "02-05",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.fringe-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "오트밀 프린지 스카프",
+        "en": "Oatmeal fringe scarf",
+        "de": "Haferfarbener Fransenschal"
+      },
+      "nameKo": "오트밀 프린지 스카프",
+      "description": {
+        "ko": "밝은 직물과 길게 내려오는 술 장식",
+        "en": "Pale woven fabric and long fringe",
+        "de": "Helles Gewebe und lange Fransen"
+      },
+      "howToWear": {
+        "ko": "긴 끝 한쪽을 코트 앞에 내려 질감을 살리세요.",
+        "en": "Let one long end hang over the coat to show the fringe.",
+        "de": "Ein langes Ende über den Mantel hängen lassen, damit die Fransen sichtbar sind."
+      },
+      "image": "products/fringe-scarf.webp",
+      "sha256": "f508128c3fa448223d57a2ee49aab8842a4feec64003ab40b77aba5b6ed0a706",
+      "bytes": 49690,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; light oatmeal fringed wool scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "leather-gloves",
+      "producerId": "02-06",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.leather-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "name": {
+        "ko": "갈색 가죽 장갑",
+        "en": "Brown leather gloves",
+        "de": "Braune Lederhandschuhe"
+      },
+      "nameKo": "갈색 가죽 장갑",
+      "description": {
+        "ko": "손가락이 분리된 따뜻한 갈색 장갑",
+        "en": "Warm brown gloves with separate fingers",
+        "de": "Handschuhe in warmem Braun mit einzelnen Fingern"
+      },
+      "howToWear": {
+        "ko": "스카프를 잡기 쉽게 손끝이 맞는 장갑을 고르세요.",
+        "en": "Choose a close fit at the fingertips for an easy grip on the scarf.",
+        "de": "Für einen sicheren Griff am Schal auf passende Fingerspitzen achten."
+      },
+      "image": "products/leather-gloves.webp",
+      "sha256": "e248640a9c1f26234262ce4cff6041e12bbd1341e05ef2ba8994f7174a01c883",
+      "bytes": 48242,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; brown leather gloves",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lace-up-boots",
+      "producerId": "02-07",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-02.lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "에스프레소 레이스업 부츠",
+        "en": "Espresso lace-up boots",
+        "de": "Espressobraune Schnürboots"
+      },
+      "nameKo": "에스프레소 레이스업 부츠",
+      "description": {
+        "ko": "짙은 갈색 갑피와 앞 끈 여밈",
+        "en": "Dark brown uppers with front lacing",
+        "de": "Dunkelbrauner Schaft mit Frontschnürung"
+      },
+      "howToWear": {
+        "ko": "바지 끝을 부츠 끈 위쪽에 정리하세요.",
+        "en": "Set the trouser hems just above the laces.",
+        "de": "Die Hosensäume knapp oberhalb der Schnürung ausrichten."
+      },
+      "image": "products/lace-up-boots.webp",
+      "sha256": "2e975fa438229e9f02b14222abfb039a31be428c628c1d77160059a5e6aac11e",
+      "bytes": 43914,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; dark brown lace-up ankle boots",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b218"
+}

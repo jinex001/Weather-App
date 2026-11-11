@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-minimal-20261111-03",
+  "batchId": "european-urban-snow-cold-female-day-minimal-codex-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Codex built-in image_gen editorials: a European city neighbourhood (shop fronts, tram, snowbanks, doorways, cafe terrace) in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 02 lead boot sits close to the lower edge; look 05 holds coffee beside the torso; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Codex snow minimal editorials and started full automation of this batch (APPROVAL.json userQuote \"오케이 자동화 시작.\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "402bf479617f071c572507095542c9d6e9e9633ad16b39f219699802e486271a",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Codex built-in image_gen (PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-minimal-20261111-03",
+  "appStyle": "minimal",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-minimal-codex-20261111.js",
+  "appHeroItem": "eu-snow-cold-f-day-minimal-20261111-03.double-breasted-coat",
+  "scenePropsNotProducts": [
+    "snowbank",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-five products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T17:54:27.808618+00:00",
+    "productCount": 35,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-03-overview.jpg"
+    ],
+    "findings": [
+      "02-06 v2 has separated thumb outlines; archived prior version. All other items reviewed against editorial sheets.",
+      "Some dark pieces have low contrast on black. Minor snow-like flecks on navy knit pieces do not obscure the silhouettes."
+    ],
+    "editorialReview": "All five visually checked for full-body framing, snow, scarves and visible front layers. Look 02 lead boot sits close to the lower edge. Look 05 holds coffee beside the torso."
+  },
+  "copy": {
+    "titleEn": "A STEP AROUND THE SNOWBANK",
+    "title": {
+      "ko": "눈더미 옆의 한 걸음",
+      "en": "A step around the snowbank",
+      "de": "Ein Schritt um den Schneehaufen"
+    },
+    "deck": {
+      "ko": "네이비 코트 위에 코발트 스카프가 선명합니다.",
+      "en": "Cobalt stands out against an ink-navy coat.",
+      "de": "Kobaltblau setzt einen Akzent auf dem tintenblauen Mantel."
+    },
+    "intro": {
+      "ko": "가게 앞에 밀어 놓은 눈을 피해 한쪽 발을 내딛습니다.",
+      "en": "She looks down as she steps around a ridge of shoveled snow.",
+      "de": "Sie schaut zu Boden und tritt um den zusammengeschobenen Schnee herum."
+    },
+    "body": {
+      "ko": "네이비 코트 사이로 아이보리 니트가 보이고, 넓은 차콜 바지가 검정 부츠 위에 떨어집니다.",
+      "en": "Ivory knit shows through the navy coat, and wide charcoal trousers fall over black winter boots.",
+      "de": "Unter dem Mantel ist elfenbeinfarbener Strick sichtbar. Die weite anthrazitfarbene Hose fällt über schwarze Winterboots."
+    },
+    "pull": {
+      "ko": "눈길에서 먼저 눈에 들어오는 코발트.",
+      "en": "Cobalt against a snowy pavement.",
+      "de": "Kobaltblau vor verschneitem Pflaster."
+    },
+    "pullQuoteEn": "Cobalt against a snowy pavement.",
+    "tip": {
+      "ko": "밑창이 두툼한 부츠에 바지 밑단이 끌리지 않도록 길이를 맞춰 보세요.",
+      "en": "Choose a trouser length that clears the boots’ lug soles.",
+      "de": "Die Hosenlänge so wählen, dass der Saum über der Profilsohle bleibt."
+    }
+  },
+  "products": [
+    {
+      "id": "double-breasted-coat",
+      "producerId": "03-01",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.double-breasted-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "잉크 네이비 더블 코트",
+        "en": "Ink-navy double-breasted coat",
+        "de": "Tintenblauer Zweireihermantel"
+      },
+      "nameKo": "잉크 네이비 더블 코트",
+      "description": {
+        "ko": "넓은 라펠과 두 줄 단추",
+        "en": "Wide lapels and two button rows",
+        "de": "Breites Revers und zwei Knopfreihen"
+      },
+      "howToWear": {
+        "ko": "밝은 니트가 보이도록 라펠을 펴세요.",
+        "en": "Set the lapels flat to frame the pale knit.",
+        "de": "Das Revers glattlegen, damit es den hellen Strick einrahmt."
+      },
+      "image": "products/double-breasted-coat.webp",
+      "sha256": "7d620f17abb352f1d6ebb7302d2579d33771c2450631fb7ee76c18537dc341d8",
+      "bytes": 28998,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; ink navy double-breasted wool coat with wide lapels",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "mock-neck-sweater",
+      "producerId": "03-02",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.mock-neck-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "아이보리 모크넥 니트",
+        "en": "Ivory mock-neck sweater",
+        "de": "Elfenbeinfarbener Stehkragenpullover"
+      },
+      "nameKo": "아이보리 모크넥 니트",
+      "description": {
+        "ko": "짧게 올라오는 목선과 밝은 짜임",
+        "en": "Short stand neckline and pale knit",
+        "de": "Kurzer Stehkragen und heller Strick"
+      },
+      "howToWear": {
+        "ko": "코발트 스카프 아래 밝은 바탕으로 입으세요.",
+        "en": "Use it as a pale base below the cobalt scarf.",
+        "de": "Als helle Lage unter dem kobaltblauen Schal tragen."
+      },
+      "image": "products/mock-neck-sweater.webp",
+      "sha256": "7cc16dc84a1ac658d827be47d1b581e1b68cfa3587d9623727b1f5b43e4cfc88",
+      "bytes": 47458,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; ivory mock-neck knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wide-leg-trousers",
+      "producerId": "03-03",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.wide-leg-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "차콜 와이드 팬츠",
+        "en": "Charcoal wide-leg trousers",
+        "de": "Weite anthrazitfarbene Hose"
+      },
+      "nameKo": "차콜 와이드 팬츠",
+      "description": {
+        "ko": "허벅지부터 여유 있게 떨어지는 바지",
+        "en": "Relaxed width from thigh to hem",
+        "de": "Lockere Weite vom Oberschenkel bis zum Saum"
+      },
+      "howToWear": {
+        "ko": "보폭을 넓혀도 밑단이 땅에 닿지 않는 길이를 고르세요.",
+        "en": "Choose a hem that stays clear of the ground on a long stride.",
+        "de": "Eine Länge wählen, die auch bei großen Schritten frei bleibt."
+      },
+      "image": "products/wide-leg-trousers.webp",
+      "sha256": "b6c9573ff88868d6ee3261c6422d9d2ddd0d3ab604c0ece03960798c119a8ac2",
+      "bytes": 45260,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; charcoal wide straight-leg trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "rib-beanie",
+      "producerId": "03-04",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.rib-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "name": {
+        "ko": "네이비 골지 비니",
+        "en": "Navy rib-knit beanie",
+        "de": "Marineblaue Rippstrickmütze"
+      },
+      "nameKo": "네이비 골지 비니",
+      "description": {
+        "ko": "세로 골이 있는 짙은 파란색 모자",
+        "en": "Deep blue cap with vertical ribs",
+        "de": "Dunkelblaue Mütze mit Längsripp"
+      },
+      "howToWear": {
+        "ko": "스카프보다 어두운 파랑을 머리 쪽에 두세요.",
+        "en": "Keep the darker blue above the bright scarf.",
+        "de": "Das dunklere Blau oberhalb des leuchtenden Schals einsetzen."
+      },
+      "image": "products/rib-beanie.webp",
+      "sha256": "a96e4bfd273e5106eff71edda2b587291db26ce54097d18a5d4190e77c72499d",
+      "bytes": 49132,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; navy rib-knit cap",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "loop-scarf",
+      "producerId": "03-05",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.loop-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "코발트 루프 스카프",
+        "en": "Cobalt loop scarf",
+        "de": "Kobaltblauer Schlingenschal"
+      },
+      "nameKo": "코발트 루프 스카프",
+      "description": {
+        "ko": "목을 두르는 선명한 파란색",
+        "en": "Vivid blue wrapped around the neck",
+        "de": "Leuchtendes Blau, um den Hals gewickelt"
+      },
+      "howToWear": {
+        "ko": "코트 단추가 드러나도록 스카프 끝을 안쪽으로 넣으세요.",
+        "en": "Tuck the scarf ends so the coat buttons show.",
+        "de": "Die Schalenden einstecken, damit die Mantelknöpfe sichtbar bleiben."
+      },
+      "image": "products/loop-scarf.webp",
+      "sha256": "a30347d47e408cf5caf94d597338fe3edd01b5cbbe89959084f02bcc57667de2",
+      "bytes": 49538,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; cobalt blue short looped wool scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "gloves",
+      "producerId": "03-06",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "name": {
+        "ko": "네이비 장갑",
+        "en": "Navy gloves",
+        "de": "Marineblaue Fingerhandschuhe"
+      },
+      "nameKo": "네이비 장갑",
+      "description": {
+        "ko": "짙은 파란색의 오지 장갑",
+        "en": "Dark blue five-finger gloves",
+        "de": "Dunkelblaue Fingerhandschuhe"
+      },
+      "howToWear": {
+        "ko": "코트와 비슷한 톤으로 손까지 이어가세요.",
+        "en": "Echo the coat color at the hands.",
+        "de": "Den Mantelton an den Händen aufgreifen."
+      },
+      "image": "products/gloves.webp",
+      "sha256": "c28835ee09c3eee8bc6a0c7142782e09074a1b35a8df402fe47e2bed41f8c52c",
+      "bytes": 47926,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; dark navy five-finger gloves",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lug-sole-boots",
+      "producerId": "03-07",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-03.lug-sole-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 러그솔 방한 부츠",
+        "en": "Black lug-sole winter boots",
+        "de": "Schwarze Winterboots mit Profilsohle"
+      },
+      "nameKo": "검정 러그솔 방한 부츠",
+      "description": {
+        "ko": "검정 끈과 굵은 밑창 돌기",
+        "en": "Black laces and deep outsole lugs",
+        "de": "Schwarze Schnürung und ausgeprägte Profilstollen"
+      },
+      "howToWear": {
+        "ko": "넓은 바지 아래에서도 밑창 옆면이 보이게 하세요.",
+        "en": "Let the outsole edge show below the wide trousers.",
+        "de": "Die Sohlenkante unter der weiten Hose sichtbar lassen."
+      },
+      "image": "products/lug-sole-boots.webp",
+      "sha256": "fdb4849d74cdef01c27049eb012901a8d5aea1e3fea3de9f5578d465a6ab65a7",
+      "bytes": 39564,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; black insulated lug-sole lace-up boots",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b218"
+}

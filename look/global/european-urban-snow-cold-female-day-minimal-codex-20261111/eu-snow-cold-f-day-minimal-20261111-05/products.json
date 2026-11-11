@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-minimal-20261111-05",
+  "batchId": "european-urban-snow-cold-female-day-minimal-codex-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "minimal"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Codex built-in image_gen editorials: a European city neighbourhood (shop fronts, tram, snowbanks, doorways, cafe terrace) in daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: look 02 lead boot sits close to the lower edge; look 05 holds coffee beside the torso; head and boots are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Codex snow minimal editorials and started full automation of this batch (APPROVAL.json userQuote \"오케이 자동화 시작.\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: built-in image_gen, producer technical QA and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "11246e83c353bc4e23dd9f4a307eb0626713e1607720c3d6b85d524e761e9c41",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Codex built-in image_gen (PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-minimal-20261111-05",
+  "appStyle": "minimal",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-minimal-codex-20261111.js",
+  "appHeroItem": "eu-snow-cold-f-day-minimal-20261111-05.double-breasted-coat",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "cafe terrace",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-five products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-11T17:54:27.808618+00:00",
+    "productCount": 35,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-05-overview.jpg"
+    ],
+    "findings": [
+      "02-06 v2 has separated thumb outlines; archived prior version. All other items reviewed against editorial sheets.",
+      "Some dark pieces have low contrast on black. Minor snow-like flecks on navy knit pieces do not obscure the silhouettes."
+    ],
+    "editorialReview": "All five visually checked for full-body framing, snow, scarves and visible front layers. Look 02 lead boot sits close to the lower edge. Look 05 holds coffee beside the torso."
+  },
+  "copy": {
+    "titleEn": "COFFEE ON THE WALK",
+    "title": {
+      "ko": "커피 한 잔 들고",
+      "en": "Coffee on the walk",
+      "de": "Mit einem Kaffee unterwegs"
+    },
+    "deck": {
+      "ko": "회색 코트와 아이보리 니트 위로 벽돌빛 비니가 보입니다.",
+      "en": "A rust-red beanie warms a gray coat and ivory knit.",
+      "de": "Eine rostrote Mütze setzt Farbe zu grauem Mantel und hellem Strick."
+    },
+    "intro": {
+      "ko": "카페 앞에서 커피를 한 손에 들고 눈이 치워진 보도를 걷습니다.",
+      "en": "She leaves the café with a cup in one hand and walks along the cleared pavement.",
+      "de": "Mit dem Kaffee in der Hand geht sie vom Café über den geräumten Gehweg."
+    },
+    "body": {
+      "ko": "차콜 스카프가 목을 감싸고 회색 코트의 열린 라펠 사이로 밝은 골지 니트가 보입니다. 검정 부츠가 짙은 팬츠를 받쳐 줍니다.",
+      "en": "A charcoal scarf frames the neck while open gray lapels reveal pale ribbed knit. Black boots anchor the graphite trousers.",
+      "de": "Ein anthrazitfarbener Schal wärmt den Hals. Zwischen den offenen Revers sieht man den hellen Rippstrick. Schwarze Boots ergänzen die dunkelgraue Hose."
+    },
+    "pull": {
+      "ko": "회색 레이어 위로 따뜻한 벽돌빛.",
+      "en": "A flash of rust above gray layers.",
+      "de": "Ein warmer Rostton über grauen Lagen."
+    },
+    "pullQuoteEn": "A flash of rust above gray layers.",
+    "tip": {
+      "ko": "비니를 색 포인트로 두고 스카프와 팬츠는 짙은 회색으로 맞춰 보세요.",
+      "en": "Let the beanie supply the color and pair it with a dark gray scarf and trousers.",
+      "de": "Die Mütze als Farbakzent tragen und Schal und Hose in dunklem Grau wählen."
+    }
+  },
+  "products": [
+    {
+      "id": "double-breasted-coat",
+      "producerId": "05-01",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.double-breasted-coat",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "name": {
+        "ko": "도브 그레이 더블 코트",
+        "en": "Dove-gray double-breasted coat",
+        "de": "Taubengrauer Zweireihermantel"
+      },
+      "nameKo": "도브 그레이 더블 코트",
+      "description": {
+        "ko": "회색 라펠과 대비되는 검정 단추",
+        "en": "Gray lapels contrasted with black buttons",
+        "de": "Graues Revers mit kontrastierenden schwarzen Knöpfen"
+      },
+      "howToWear": {
+        "ko": "앞을 열어 단추와 밝은 니트가 함께 보이게 하세요.",
+        "en": "Wear the coat open to show both the buttons and the pale knit.",
+        "de": "Den Mantel offen tragen, damit Knöpfe und heller Strick sichtbar sind."
+      },
+      "image": "products/double-breasted-coat.webp",
+      "sha256": "67200186c04588abeba7303d93197538dc5e93f2e1e44ce139ebdc5af1fe6189",
+      "bytes": 47712,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; dove gray double-breasted wool coat with wide lapels and black buttons",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-sweater",
+      "producerId": "05-02",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.ribbed-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "name": {
+        "ko": "아이보리 골지 니트",
+        "en": "Ivory ribbed sweater",
+        "de": "Elfenbeinfarbener Ripppullover"
+      },
+      "nameKo": "아이보리 골지 니트",
+      "description": {
+        "ko": "밝은 아이보리색의 세로 골지",
+        "en": "Pale ivory vertical ribs",
+        "de": "Heller elfenbeinfarbener Längsripp"
+      },
+      "howToWear": {
+        "ko": "회색 코트 안에서 니트 앞판을 넓게 드러내세요.",
+        "en": "Show a broad panel of knit inside the gray coat.",
+        "de": "Unter dem grauen Mantel eine breite Strickfläche zeigen."
+      },
+      "image": "products/ribbed-sweater.webp",
+      "sha256": "b2d8997833e0b816a0cac832921d9c6c527aa1491db8e54b5805f5457da722e5",
+      "bytes": 49312,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; ivory ribbed knit sweater",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "straight-trousers",
+      "producerId": "05-03",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.straight-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "name": {
+        "ko": "그래파이트 스트레이트 팬츠",
+        "en": "Graphite straight trousers",
+        "de": "Graphitgraue gerade Hose"
+      },
+      "nameKo": "그래파이트 스트레이트 팬츠",
+      "description": {
+        "ko": "진한 회색의 곧은 바지선",
+        "en": "Deep gray with a straight leg",
+        "de": "Dunkelgrau mit geradem Bein"
+      },
+      "howToWear": {
+        "ko": "검정 부츠와 이어 입어 하체를 짙게 정리하세요.",
+        "en": "Pair with black boots to keep the lower half dark.",
+        "de": "Mit schwarzen Boots für eine dunkle Basis kombinieren."
+      },
+      "image": "products/straight-trousers.webp",
+      "sha256": "4841b09b2ede668efc0df21d91b6aad35092613d1a3bcf595bf65454e6144d06",
+      "bytes": 40136,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; graphite straight wool trousers",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ribbed-beanie",
+      "producerId": "05-04",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.ribbed-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "name": {
+        "ko": "벽돌빛 골지 비니",
+        "en": "Rust-red ribbed beanie",
+        "de": "Rostrote Rippmütze"
+      },
+      "nameKo": "벽돌빛 골지 비니",
+      "description": {
+        "ko": "벽돌빛 골지와 접어 올린 끝단",
+        "en": "Rust-red ribbing and a turned-up cuff",
+        "de": "Rostroter Rippstrick und Umschlag"
+      },
+      "howToWear": {
+        "ko": "회색 착장 위에 한 가지 따뜻한 색으로 더하세요.",
+        "en": "Use it as the single warm accent above the gray layers.",
+        "de": "Als einzigen warmen Farbakzent zu den grauen Lagen tragen."
+      },
+      "image": "products/ribbed-beanie.webp",
+      "sha256": "e1770e37fb6acacc8d169e94c0ea1c61dfa3794dbd0c38f13f50caf79344b010",
+      "bytes": 49152,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; rust-red rib-knit beanie",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "wrap-scarf",
+      "producerId": "05-05",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.wrap-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "name": {
+        "ko": "차콜 랩 스카프",
+        "en": "Charcoal wrap scarf",
+        "de": "Anthrazitfarbener Wickelschal"
+      },
+      "nameKo": "차콜 랩 스카프",
+      "description": {
+        "ko": "목에 짧게 감긴 차콜색 짜임",
+        "en": "Charcoal knit wrapped short around the neck",
+        "de": "Kurzer Wickel aus anthrazitfarbenem Strick"
+      },
+      "howToWear": {
+        "ko": "비니 색이 잘 보이도록 목 쪽에서 차분하게 정리하세요.",
+        "en": "Keep it compact at the neck to let the beanie color stand out.",
+        "de": "Kompakt am Hals wickeln, damit die Mützenfarbe hervorsticht."
+      },
+      "image": "products/wrap-scarf.webp",
+      "sha256": "59b5abaf20dd40f9fc150c08ff999aeb46c62c4f25090724f9a0ec7c59427c76",
+      "bytes": 48902,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; charcoal wrapped short wool scarf",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "knit-gloves",
+      "producerId": "05-06",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.knit-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "name": {
+        "ko": "회색 니트 장갑",
+        "en": "Gray knit gloves",
+        "de": "Graue Strickhandschuhe"
+      },
+      "nameKo": "회색 니트 장갑",
+      "description": {
+        "ko": "회색 니트와 분리된 손가락",
+        "en": "Gray knit with individual fingers",
+        "de": "Grauer Strick mit einzelnen Fingern"
+      },
+      "howToWear": {
+        "ko": "컵을 쥐었을 때 손바닥이 접히지 않는 핏을 고르세요.",
+        "en": "Choose a fit that stays smooth in the palm when holding a cup.",
+        "de": "Eine Passform wählen, die beim Halten eines Bechers glatt anliegt."
+      },
+      "image": "products/knit-gloves.webp",
+      "sha256": "6d5522fb238da888bd8a8019195fc6167af4aba7479fd28eb1719692a823a9b2",
+      "bytes": 47978,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; gray knit five-finger gloves",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "lace-up-ankle-boots",
+      "producerId": "05-07",
+      "appItemId": "eu-snow-cold-f-day-minimal-20261111-05.lace-up-ankle-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "name": {
+        "ko": "검정 레이스업 앵클 부츠",
+        "en": "Black lace-up ankle boots",
+        "de": "Schwarze Schnürstiefeletten"
+      },
+      "nameKo": "검정 레이스업 앵클 부츠",
+      "description": {
+        "ko": "발목을 덮는 검정 갑피와 앞 끈",
+        "en": "Black ankle-covering uppers and front laces",
+        "de": "Schwarzer knöchelhoher Schaft und Frontschnürung"
+      },
+      "howToWear": {
+        "ko": "회색 팬츠 끝이 끈에 걸리지 않게 정리하세요.",
+        "en": "Set the gray trouser hems clear of the laces.",
+        "de": "Die grauen Hosensäume von der Schnürung freihalten."
+      },
+      "image": "products/lace-up-ankle-boots.webp",
+      "sha256": "34cd126f1f2b79301c71d97d7ec7e7f8605fdd6c7cbff4b443214875a4974552",
+      "bytes": 45998,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Codex editorial; black lace-up winter ankle boots",
+      "reconstructionNotice": {
+        "ko": "보이는 구조를 재현하고 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Visible construction reproduced and hidden areas conservatively restored.",
+        "de": "Sichtbare Konstruktion wiedergegeben und verdeckte Bereiche zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b218"
+}

@@ -1184,7 +1184,12 @@
 "eu-snow-cold-m-day-street-20261111-02.fringe-scarf": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-02/products/fringe-scarf.webp", 0.198],
 "eu-snow-cold-m-day-street-20261111-03.shearling-jacket": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-03/products/shearling-jacket.webp", 0.364],
 "eu-snow-cold-m-day-street-20261111-04.rib-cuff-mittens": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-04/products/rib-cuff-mittens.webp", 0.149],
-"eu-snow-cold-m-day-street-20261111-05.work-jacket": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-05/products/work-jacket.webp", 0.171]
+"eu-snow-cold-m-day-street-20261111-05.work-jacket": ["look/global/european-urban-snow-cold-male-day-street-picsart-20261111/eu-snow-cold-m-day-street-20261111-05/products/work-jacket.webp", 0.171],
+"eu-snow-cold-f-day-minimal-20261111-01.herringbone-coat": ["look/global/european-urban-snow-cold-female-day-minimal-codex-20261111/eu-snow-cold-f-day-minimal-20261111-01/products/herringbone-coat.webp", 0.225],
+"eu-snow-cold-f-day-minimal-20261111-02.wool-coat": ["look/global/european-urban-snow-cold-female-day-minimal-codex-20261111/eu-snow-cold-f-day-minimal-20261111-02/products/wool-coat.webp", 0.188],
+"eu-snow-cold-f-day-minimal-20261111-03.double-breasted-coat": ["look/global/european-urban-snow-cold-female-day-minimal-codex-20261111/eu-snow-cold-f-day-minimal-20261111-03/products/double-breasted-coat.webp", 0.1],
+"eu-snow-cold-f-day-minimal-20261111-04.coat": ["look/global/european-urban-snow-cold-female-day-minimal-codex-20261111/eu-snow-cold-f-day-minimal-20261111-04/products/coat.webp", 0.294],
+"eu-snow-cold-f-day-minimal-20261111-05.double-breasted-coat": ["look/global/european-urban-snow-cold-female-day-minimal-codex-20261111/eu-snow-cold-f-day-minimal-20261111-05/products/double-breasted-coat.webp", 0.374]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1582,7 +1587,12 @@
 "eu-snow-cold-m-day-street-20261111-02": "eu-snow-cold-m-day-street-20261111-02.fringe-scarf",
 "eu-snow-cold-m-day-street-20261111-03": "eu-snow-cold-m-day-street-20261111-03.shearling-jacket",
 "eu-snow-cold-m-day-street-20261111-04": "eu-snow-cold-m-day-street-20261111-04.rib-cuff-mittens",
-"eu-snow-cold-m-day-street-20261111-05": "eu-snow-cold-m-day-street-20261111-05.work-jacket"
+"eu-snow-cold-m-day-street-20261111-05": "eu-snow-cold-m-day-street-20261111-05.work-jacket",
+"eu-snow-cold-f-day-minimal-20261111-01": "eu-snow-cold-f-day-minimal-20261111-01.herringbone-coat",
+"eu-snow-cold-f-day-minimal-20261111-02": "eu-snow-cold-f-day-minimal-20261111-02.wool-coat",
+"eu-snow-cold-f-day-minimal-20261111-03": "eu-snow-cold-f-day-minimal-20261111-03.double-breasted-coat",
+"eu-snow-cold-f-day-minimal-20261111-04": "eu-snow-cold-f-day-minimal-20261111-04.coat",
+"eu-snow-cold-f-day-minimal-20261111-05": "eu-snow-cold-f-day-minimal-20261111-05.double-breasted-coat"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });
