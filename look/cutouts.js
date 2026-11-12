@@ -1199,7 +1199,12 @@
 "eu-snow-cold-f-day-run-20261111-02.wind-shell": ["look/global/european-urban-snow-cold-female-day-running-picsart-20261111/eu-snow-cold-f-day-run-20261111-02/products/wind-shell.webp", 0.224],
 "eu-snow-cold-f-day-run-20261111-03.running-headband": ["look/global/european-urban-snow-cold-female-day-running-picsart-20261111/eu-snow-cold-f-day-run-20261111-03/products/running-headband.webp", 0.14],
 "eu-snow-cold-f-day-run-20261111-04.reflective-running-gloves": ["look/global/european-urban-snow-cold-female-day-running-picsart-20261111/eu-snow-cold-f-day-run-20261111-04/products/reflective-running-gloves.webp", 0.156],
-"eu-snow-cold-f-day-run-20261111-05.running-watch": ["look/global/european-urban-snow-cold-female-day-running-picsart-20261111/eu-snow-cold-f-day-run-20261111-05/products/running-watch.webp", 0.134]
+"eu-snow-cold-f-day-run-20261111-05.running-watch": ["look/global/european-urban-snow-cold-female-day-running-picsart-20261111/eu-snow-cold-f-day-run-20261111-05/products/running-watch.webp", 0.134],
+"eu-snow-cold-m-day-run-20261112-01.hooded-running-shell": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-01/products/hooded-running-shell.webp", 0.214],
+"eu-snow-cold-m-day-run-20261112-02.wind-shell": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-02/products/wind-shell.webp", 0.289],
+"eu-snow-cold-m-day-run-20261112-03.hooded-wind-shell": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-03/products/hooded-wind-shell.webp", 0.154],
+"eu-snow-cold-m-day-run-20261112-04.reflective-running-gloves": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-04/products/reflective-running-gloves.webp", 0.173],
+"eu-snow-cold-m-day-run-20261112-05.running-watch": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-05/products/running-watch.webp", 0.108]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1612,7 +1617,12 @@
 "eu-snow-cold-f-day-run-20261111-02": "eu-snow-cold-f-day-run-20261111-02.wind-shell",
 "eu-snow-cold-f-day-run-20261111-03": "eu-snow-cold-f-day-run-20261111-03.running-headband",
 "eu-snow-cold-f-day-run-20261111-04": "eu-snow-cold-f-day-run-20261111-04.reflective-running-gloves",
-"eu-snow-cold-f-day-run-20261111-05": "eu-snow-cold-f-day-run-20261111-05.running-watch"
+"eu-snow-cold-f-day-run-20261111-05": "eu-snow-cold-f-day-run-20261111-05.running-watch",
+"eu-snow-cold-m-day-run-20261112-01": "eu-snow-cold-m-day-run-20261112-01.hooded-running-shell",
+"eu-snow-cold-m-day-run-20261112-02": "eu-snow-cold-m-day-run-20261112-02.wind-shell",
+"eu-snow-cold-m-day-run-20261112-03": "eu-snow-cold-m-day-run-20261112-03.hooded-wind-shell",
+"eu-snow-cold-m-day-run-20261112-04": "eu-snow-cold-m-day-run-20261112-04.reflective-running-gloves",
+"eu-snow-cold-m-day-run-20261112-05": "eu-snow-cold-m-day-run-20261112-05.running-watch"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

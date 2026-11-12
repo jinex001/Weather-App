@@ -58,7 +58,7 @@
 3. 보통 비: 남녀 × 낮·저녁 × 3스타일 중 여성 낮 러닝(b157)·남성 낮 미니멀(b163)·남성 낮 스트리트(b164)·여성 낮 스트리트(b166)·남성 저녁 미니멀(b167)·여성 낮 미니멀(b168)·남성 낮 러닝(b169)·남성 저녁 러닝(b170)·남성 저녁 스트리트(b171)를 뺀 3세트(이제 보통 비 낮은 남녀 3스타일, 저녁은 남성 3스타일 모두 있음, 남은 것은 여성 저녁 3스타일)
 4. 쏟아지는 비: 남녀 × 낮·저녁 × 3스타일 (12세트), 폴더는 README만
 5. 다른 체감 단계 전부: 극한 추위 · 매우 추움 · 추움 · 선선함(해안 지역 흐린 낮만: 스트리트 여성 5룩 b179 · 남성 5룩 b181, 미니멀 여성 5룩 b184) · 쾌적함(해안 지역 맑은 스트리트만: 낮 여성 6룩 b173·b176, 낮 남성 5룩 b177, 저녁 남성 5룩 b178) · 따뜻함 · 더움 · 극심한 더위 (지금은 거의 쌀쌀함만 있음, 쌀쌀함과 바로 옆 단계(추움 -9~0°, 선선함 10~17°)엔 쌀쌀함 룩이 대신 나옴, 그보다 먼 단계는 플레이스홀더)
-6. 눈: 앱 규칙 b216(`sky: "snow"`, 눈 코드 날만). 세트는 european-urban · 추움 · 낮 · 스트리트 여성 5룩(b216)·남성 5룩(b217), 미니멀(시크) 여성 5룩(b218)·남성 5룩(b219), 러닝 여성 5룩(b220)뿐 — 그 칸 밖의 눈 날은 b216 이전처럼 흐림 세트로 고름(또는 COMING SOON)
+6. 눈: 앱 규칙 b216(`sky: "snow"`, 눈 코드 날만). 세트는 european-urban · 추움 · 낮 · 스트리트 여성 5룩(b216)·남성 5룩(b217), 미니멀(시크) 여성 5룩(b218)·남성 5룩(b219), 러닝 여성 5룩(b220)·남성 5룩(b221)뿐 — 그 칸 밖의 눈 날은 b216 이전처럼 흐림 세트로 고름(또는 COMING SOON)
 
 ## 준비가 덜 된 것
 
@@ -341,4 +341,8 @@ Snow · cold · male · day · minimal (shown as 시크/Chic/Chic from b219), 5 
 ## b220 · Snow Cold female day running · European urban · 2026-11-12
 
 Snow · cold · female · day · running, 5 Picsart editorials the user explicitly approved for this batch and 36 transparent products (7/7/7/7/8, Codex built-in image_gen, producer QA only, no individual product approval). Reviewed european-urban, humidity unknown, temperature and feels-like null (snow and cold are production settings), storage 35+, model look 25–28, audience 30–44. b216 snow selector reused unchanged: on snow codes 71/73/75/77/85/86 in a european-urban place, a cold or chilly day female running draws these 5 (home running card, running sheet, day sheet); the mixed-style calendar card on a female snow day is a female snow look of any of the three styles. The four earlier snow sets (b216–b219) and every other weather, region, style, gender, evening and band keep their b219 looks and order. Very cold and colder snow days stay COMING SOON. Male running snow has no set yet (keeps the cloudy male running looks). [Validation](european-urban-snow-cold-female-day-running-picsart-20261111-validation.md).
+
+## b221 · Snow Cold male day running · European urban · 2026-11-12
+
+Snow · cold · male · day · running, 5 Picsart editorials the user explicitly approved for this batch and 36 transparent products (7/7/7/7/8, Codex built-in image_gen, producer QA only, no individual product approval). Reviewed european-urban, humidity unknown, temperature and feels-like null (snow and cold are production settings), storage 35+, model look 28–32, audience 30–44. b216 snow selector reused unchanged: on snow codes 71/73/75/77/85/86 in a european-urban place, a cold or chilly day male running draws these 5 (home running card, running sheet, day sheet); the mixed-style calendar card on a male snow day is a male snow look of any of the three styles. The five earlier snow sets (b216–b220) and every other weather, region, style, gender, evening and band keep their b220 looks and order. Very cold and colder snow days stay COMING SOON. With this set every style × gender has a european-urban cold day snow set. [Validation](european-urban-snow-cold-male-day-running-picsart-20261112-validation.md).
 

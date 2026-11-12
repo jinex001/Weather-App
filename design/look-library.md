@@ -132,7 +132,7 @@ look/berlin-complete/<하늘>/<단계>/<성별>/<연령대>/<day|night>/
 
 비 세트(b110)는 `design/IMAGE_MAPPING_HANDOFF.md` 규칙(새 폴더 `Rain/<강도>/<단계>/<성별>/<연령>/<시간>/<스타일>/<번호>/`, 승인·productionStatus 확인)대로 등록. 제작 측 descriptionKo가 제작 메모("AI 콘셉트 제품 컷… 추정 복원")라서 화면용 입는 법(note)·인트로는 사진 보고 새로 씀(ko/en/de), 제작 메모 문장("…스타일링 콘셉트예요")은 화면에 안 씀. products.json `mappingStatus`는 mapped로. pullQuoteEn이 headlineEn과 같은 말이면(스트리트 01–05) `pull`을 넣지 않음(제목 아래 같은 문구 두 번 안 나오게).
 
-없는 것(b173 기준, 위 표는 오래된 줄도 섞여 있음 — 정확한 칸은 `look-coverage.md`): 빈 칸은 다른 날씨 룩으로 채우지 않고 COMING SOON(b114). 쌀쌀함·쾌적함(여성 맑은 낮 스트리트 1룩) 밖의 단계는 옆 단계 룩이 없으면 COMING SOON. 35세 미만·60+ 전용, 아기 없음. 눈 전용은 european-urban 추움 낮 스트리트 여성 5룩(b216)·남성 5룩(b217), 미니멀(화면 이름 시크, b219) 여성 5룩(b218)·남성 5룩(b219), 러닝 여성 5룩(b220)뿐.
+없는 것(b173 기준, 위 표는 오래된 줄도 섞여 있음 — 정확한 칸은 `look-coverage.md`): 빈 칸은 다른 날씨 룩으로 채우지 않고 COMING SOON(b114). 쌀쌀함·쾌적함(여성 맑은 낮 스트리트 1룩) 밖의 단계는 옆 단계 룩이 없으면 COMING SOON. 35세 미만·60+ 전용, 아기 없음. 눈 전용은 european-urban 추움 낮 스트리트 여성 5룩(b216)·남성 5룩(b217), 미니멀(화면 이름 시크, b219) 여성 5룩(b218)·남성 5룩(b219), 러닝 여성 5룩(b220)·남성 5룩(b221)뿐.
 
 예전 것(지움): b36–b67의 시트 자른 사진·아기 사진·`look/chilly`·`cool`·`clear`·`items`(b71), 낮 사진 `bm15-*`(b86). 그 문구 원문은 `look-chilly.md`·`look-cool.md`·`look-clear.md`에 기록으로만 남음.
 
