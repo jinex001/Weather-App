@@ -1,0 +1,432 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-snow-cold-f-day-run-20261111-01",
+  "batchId": "european-urban-snow-cold-female-day-running-picsart-20261111",
+  "category": {
+    "weather": "Snow",
+    "temperatureBand": "Cold",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "run"
+  },
+  "weather": {
+    "city": null,
+    "condition": "snow",
+    "precipitation": "moderate falling snow depicted, not measured",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "cold",
+    "isLiveMeasurement": false
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "cold",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of five Picsart editorials: an ordinary European residential neighbourhood (cleared pavements, plowed snowbanks, a crossing, a park gate, stone walls) in overcast daytime with moderate falling snow depicted (not measured). Snow and the cold band are production settings; numeric temperature, feels-like and humidity are unknown. Producer note: winter running layers, gaiters and reflective details are visible; look 04 is a stationary glove adjustment and look 05 a cool-down walk with a running watch; head and shoes are visible in all five."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "The user explicitly approved these five Picsart snow running editorials and started full automation of this batch (APPROVAL.json userQuote \"좋아 이제 자동화 시작해.\"; EDITORIAL_QA.json keeps the earlier pre-approval producer snapshot). READY.json: userApprovedEditorials true, currentBatchExplicitAuthorization true. Products: Codex built-in image_gen, producer technical QA and four-background visual QA only (04-02/05-02 corrected v2).",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "f4ac2c17465c125aac7b54b1dc9dda5b9f6c3880a3c3089cb6e0646f6baf0b3a",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (PICSART_RESULTS.json, PROMPTS.json, style guide sha256 1f578ca227f663b4218b238d5b07184b5ccc7de6822f5033607e05fe60b0a54c)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-snow-cold-f-day-run-20261111-01",
+  "appStyle": "run",
+  "appSky": "snow",
+  "appModule": "look/european-urban-snow-cold-female-day-running-picsart-20261111.js",
+  "appHeroItem": "eu-snow-cold-f-day-run-20261111-01.hooded-running-shell",
+  "scenePropsNotProducts": [
+    "plowed snowbank",
+    "falling snow"
+  ],
+  "reconstructionNotice": "Producer reviewed the editorials and all thirty-six products. Snow/cold are production settings with numeric temperatures unknown. Hidden fronts reconstructed conservatively. Exclude scene props. No brand, price or verified fiber claims.",
+  "producerVisualReview": {
+    "status": "pass",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "checkedAt": "2026-11-12T02:31:26.221501+00:00",
+    "productCount": 36,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/look-01-overview.jpg"
+    ],
+    "findings": "Reviewed all five sheets and both replacement tops. Separate gaiters excluded from corrected tops; prior assets preserved. Dark fabric has lower contrast on black.",
+    "corrections": [],
+    "editorialReview": "Five full-body snowy daytime frames. Technical winter running layers, gaiters and reflective details are visible. Look 04 is a stationary glove adjustment; Look 05 is a cool-down walk."
+  },
+  "copy": {
+    "titleEn": "A STEP AROUND THE SNOWBANK",
+    "title": {
+      "ko": "눈더미 옆으로 한 발",
+      "en": "A step around the snowbank",
+      "de": "Ein Schritt am Schneerand"
+    },
+    "deck": {
+      "ko": "코발트 셸과 차콜 타이츠로 눈길을 달립니다.",
+      "en": "A cobalt shell and charcoal tights on a snowy run.",
+      "de": "Kobaltblaue Laufjacke und anthrazitfarbene Tights im Schnee."
+    },
+    "intro": {
+      "ko": "눈이 밀려 있는 곳에서 보폭을 줄여 치워진 쪽으로 옮깁니다.",
+      "en": "She shortens her stride as the snow narrows the path.",
+      "de": "Wo Schnee den Weg verengt, verkürzt sie ihren Schritt."
+    },
+    "body": {
+      "ko": "열린 셸 사이로 회색 보온 상의가 보이고, 넥워머와 헤드밴드가 목과 귀를 덮습니다. 짧은 반사선은 재킷과 타이츠의 움직임을 따라갑니다.",
+      "en": "Gray thermal knit shows inside the shell. A gaiter and headband cover her neck and ears, while short reflective strips catch the flash.",
+      "de": "Unter der Jacke ist grauer Thermostrick sichtbar. Schlauchschal und Stirnband schützen Hals und Ohren, kurze Reflexstreifen fangen den Blitz ein."
+    },
+    "pull": {
+      "ko": "눈 옆으로 옮긴 짧은 한 걸음.",
+      "en": "A short stride beside the snow.",
+      "de": "Ein kurzer Schritt neben dem Schnee."
+    },
+    "pullQuoteEn": "A short stride beside the snow.",
+    "tip": {
+      "ko": "가벼운 조깅을 시작할 때 셸 지퍼를 열어 안쪽 보온 레이어를 조절하세요.",
+      "en": "Adjust the shell zip as you warm up to regulate the inner layers.",
+      "de": "Beim Warmlaufen den Reißverschluss öffnen, um die Wärme der Lagen zu regulieren."
+    }
+  },
+  "products": [
+    {
+      "id": "hooded-running-shell",
+      "producerId": "01-01",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.hooded-running-shell",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-01.webp",
+      "name": {
+        "ko": "코발트 후드 러닝 셸",
+        "en": "Cobalt hooded running shell",
+        "de": "Kobaltblaue Laufjacke mit Kapuze"
+      },
+      "nameKo": "코발트 후드 러닝 셸",
+      "description": {
+        "ko": "선명한 파란 후드와 가슴의 짧은 반사선",
+        "en": "Bright blue hood and short reflective chest strips",
+        "de": "Leuchtend blaue Kapuze und kurze Reflexstreifen an der Brust"
+      },
+      "howToWear": {
+        "ko": "코발트 후드 러닝 셸 · 뛰기 시작할 때 앞 지퍼로 보온을 조절하세요.",
+        "en": "Cobalt hooded running shell · Adjust warmth with the front zip as you start running.",
+        "de": "Kobaltblaue Laufjacke mit Kapuze · Die Wärme beim Anlaufen über den Frontreißverschluss regulieren."
+      },
+      "image": "products/hooded-running-shell.webp",
+      "sha256": "a96ef10784aa1710f0cea2897ca64b6266f5b670da0d2a577fb0226c3b1cfcff",
+      "bytes": 45054,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: cobalt hooded running shell with short reflective bars",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "thermal-running-top",
+      "producerId": "01-02",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.thermal-running-top",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-02.webp",
+      "name": {
+        "ko": "슬레이트 보온 러닝 상의",
+        "en": "Slate thermal running top",
+        "de": "Schiefergraues Thermolaufshirt"
+      },
+      "nameKo": "슬레이트 보온 러닝 상의",
+      "description": {
+        "ko": "몸에 붙는 회색 긴소매 레이어",
+        "en": "Close-fitting gray long-sleeved layer",
+        "de": "Eng anliegende graue Langarmlage"
+      },
+      "howToWear": {
+        "ko": "슬레이트 보온 러닝 상의 · 셸 안에 입고 팔꿈치가 편하게 움직이는지 확인하세요.",
+        "en": "Slate thermal running top · Layer under the shell and check that your elbows move freely.",
+        "de": "Schiefergraues Thermolaufshirt · Unter der Jacke tragen und auf freie Bewegung der Ellenbogen achten."
+      },
+      "image": "products/thermal-running-top.webp",
+      "sha256": "c5933d721838b7c335892a5075a35427e455b2431fc0f5f41c99f5455801e8aa",
+      "bytes": 44090,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: slate gray fitted thermal running top",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "reflective-running-tights",
+      "producerId": "01-03",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.reflective-running-tights",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-03.webp",
+      "name": {
+        "ko": "차콜 반사 러닝 타이츠",
+        "en": "Charcoal reflective running tights",
+        "de": "Anthrazitfarbene Lauftights mit Reflexdetails"
+      },
+      "nameKo": "차콜 반사 러닝 타이츠",
+      "description": {
+        "ko": "발목까지 이어지는 차콜색과 작은 반사선",
+        "en": "Ankle-length charcoal with small reflective marks",
+        "de": "Knöchellanges Anthrazit mit kleinen Reflexdetails"
+      },
+      "howToWear": {
+        "ko": "차콜 반사 러닝 타이츠 · 밑단을 러닝 양말 위에 맞춰 발목이 드러나지 않게 하세요.",
+        "en": "Charcoal reflective running tights · Set the hems over running socks to cover the ankles.",
+        "de": "Anthrazitfarbene Lauftights mit Reflexdetails · Die Säume über den Laufsocken tragen, damit die Knöchel bedeckt bleiben."
+      },
+      "image": "products/reflective-running-tights.webp",
+      "sha256": "566b6a98f4b2cbc5a5fe3ed3d643ba512983d0baa2c0679d38254b447d51370a",
+      "bytes": 22180,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: charcoal full-length tights with small reflective bars",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ear-band",
+      "producerId": "01-04",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.ear-band",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-04.webp",
+      "name": {
+        "ko": "검정 귀 덮는 러닝 밴드",
+        "en": "Black ear-covering running band",
+        "de": "Schwarzes Laufstirnband mit Ohrenschutz"
+      },
+      "nameKo": "검정 귀 덮는 러닝 밴드",
+      "description": {
+        "ko": "귀를 감싸는 폭 넓은 검정 밴드",
+        "en": "Wide black band covering the ears",
+        "de": "Breites schwarzes Band, das die Ohren bedeckt"
+      },
+      "howToWear": {
+        "ko": "검정 귀 덮는 러닝 밴드 · 귀를 덮고 고개를 돌릴 때도 편한 위치에 맞추세요.",
+        "en": "Black ear-covering running band · Cover the ears and check the fit when turning your head.",
+        "de": "Schwarzes Laufstirnband mit Ohrenschutz · Die Ohren bedecken und den Sitz beim Drehen des Kopfes prüfen."
+      },
+      "image": "products/ear-band.webp",
+      "sha256": "84206f2702b3290d3e1afd6fbaca8225258d301219bd6ae68d15cea661f713a1",
+      "bytes": 37090,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: black wide ear-covering running headband",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "neck-gaiter",
+      "producerId": "01-05",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.neck-gaiter",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-05.webp",
+      "name": {
+        "ko": "회색 러닝 넥워머",
+        "en": "Gray running neck gaiter",
+        "de": "Grauer Lauf-Schlauchschal"
+      },
+      "nameKo": "회색 러닝 넥워머",
+      "description": {
+        "ko": "목 가까이 모이는 회색 주름",
+        "en": "Gray folds gathered close to the neck",
+        "de": "Halsnah geraffte graue Falten"
+      },
+      "howToWear": {
+        "ko": "회색 러닝 넥워머 · 목에 가볍게 겹쳐 턱과 어깨의 움직임을 확보하세요.",
+        "en": "Gray running neck gaiter · Gather it loosely at the neck so your chin and shoulders move freely.",
+        "de": "Grauer Lauf-Schlauchschal · Locker am Hals tragen, damit Kinn und Schultern frei beweglich bleiben."
+      },
+      "image": "products/neck-gaiter.webp",
+      "sha256": "dcc6d639336ba306bb5843235a4ab28b2da26fbf22087637ff05e6dbfe1ca8a6",
+      "bytes": 41768,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: gray fitted neck gaiter",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "reflective-running-gloves",
+      "producerId": "01-06",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.reflective-running-gloves",
+      "appCategory": "hands",
+      "producerCategory": "gloves",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-06.webp",
+      "name": {
+        "ko": "검정 반사 러닝 장갑",
+        "en": "Black reflective running gloves",
+        "de": "Schwarze Laufhandschuhe mit Reflexdetails"
+      },
+      "nameKo": "검정 반사 러닝 장갑",
+      "description": {
+        "ko": "검정 손등 위 짧은 밝은 선",
+        "en": "Short bright strips on the black backs",
+        "de": "Kurze helle Streifen auf schwarzem Handrücken"
+      },
+      "howToWear": {
+        "ko": "검정 반사 러닝 장갑 · 장갑 손목과 셸 소매가 겹치게 정리하세요.",
+        "en": "Black reflective running gloves · Overlap the glove cuffs with the shell sleeves.",
+        "de": "Schwarze Laufhandschuhe mit Reflexdetails · Die Jackenärmel über die Handschuhbündchen ziehen."
+      },
+      "image": "products/reflective-running-gloves.webp",
+      "sha256": "504675146e3a4ec101f5fe27ff8464a73199ce553cf432257a49a400368506d3",
+      "bytes": 40896,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: black running gloves with reflective dashes",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "trail-running-shoes",
+      "producerId": "01-07",
+      "appItemId": "eu-snow-cold-f-day-run-20261111-01.trail-running-shoes",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Codex built-in image_gen",
+      "producerImage": "product-batch/webp/01-07.webp",
+      "name": {
+        "ko": "차콜 트레일 러닝화",
+        "en": "Charcoal trail running shoes",
+        "de": "Anthrazitfarbene Trailschuhe"
+      },
+      "nameKo": "차콜 트레일 러닝화",
+      "description": {
+        "ko": "검정과 회색 갑피, 깊은 밑창 돌기",
+        "en": "Black and gray uppers with deep outsole lugs",
+        "de": "Schwarz-grauer Schaft mit tiefem Sohlenprofil"
+      },
+      "howToWear": {
+        "ko": "차콜 트레일 러닝화 · 발가락에 여유를 두고 끈을 매어 뒤꿈치를 고정하세요.",
+        "en": "Charcoal trail running shoes · Leave room for your toes and lace the shoes to secure the heel.",
+        "de": "Anthrazitfarbene Trailschuhe · Den Zehen Platz lassen und die Ferse mit der Schnürung fixieren."
+      },
+      "image": "products/trail-running-shoes.webp",
+      "sha256": "c5d60e239e303d22aedf9274f30d0dc7a80b3d8b962d91b93a75870ec42b5c9b",
+      "bytes": 49470,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Producer-reviewed Picsart editorial; Codex built-in image_gen product: charcoal lugged trail running shoes",
+      "reconstructionNotice": {
+        "ko": "착장 사진에서 가려진 부분은 보수적으로 복원했습니다.",
+        "en": "Concealed details were conservatively reconstructed.",
+        "de": "Verdeckte Details wurden zurückhaltend ergänzt."
+      },
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b220"
+}
