@@ -1,0 +1,516 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-overcast-chilly-f-day-casual-20261112-02",
+  "batchId": "european-urban-overcast-chilly-day-casual-expansion-20261112",
+  "producerLookId": "female-02",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street",
+    "producerStyle": "casual"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "precipitation": "none",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "stylingAssumption": {
+    "temperatureC": 6,
+    "feelsLikeC": 3,
+    "note": "Production setting from APP_MAPPING.json, not a measurement."
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "chilly",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of the approved editorial: an ordinary European brick-and-stone street in dry, overcast late-autumn daylight with fallen leaves, no rain or snow depicted. 6°C / feels 3°C (chilly) is the production styling setting, not a measurement; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "READY.json userApprovedEditorials true; APPROVAL.json currentBatchHandoffAndPublicationAuthorized true, source 'editorial-v3 except male/04 from editorial-v5'. The earlier EDITORIAL_QA snapshots still say awaiting review. Products: Picsart, producer technical and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7fe45e9b5e67af58d8ee0bf01874e448344bc1887a7ad7f60cef53aeda4108f4",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (originals/picsart/PROMPTS.json, PICSART_JOBS/RESULTS.json; editorial-v3 keeps the same master)",
+  "productCount": 8,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-overcast-chilly-f-day-casual-20261112-02",
+  "appStyle": "street",
+  "appSky": "cloudy",
+  "appModule": "look/european-urban-overcast-chilly-day-casual-expansion-20261112.js",
+  "appHeroItem": "eu-overcast-chilly-f-day-casual-20261112-02.brown-shearling-trim-leather-jacket",
+  "scenePropsNotProducts": [
+    "book stall",
+    "books",
+    "bookseller"
+  ],
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "productCount": 66,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/female-02.jpg"
+    ],
+    "findings": [
+      "Exact garment construction where obscured is a visual reconstruction.",
+      "Male 05 brown gloves read as knit in the cutout and are labeled accordingly."
+    ]
+  },
+  "copy": {
+    "titleEn": "SHEARLING AT THE BOOKSTALL",
+    "title": {
+      "ko": "책방 앞 시어링",
+      "en": "Shearling at the bookstall",
+      "de": "Lammfell am Bücherstand"
+    },
+    "deck": {
+      "ko": "헌책 노점 앞에서 오래 머물러도 따뜻한 가죽과 코듀로이 차림.",
+      "en": "Leather and corduroy warm enough for a long browse at the bookstall.",
+      "de": "Leder und Cord, warm genug für langes Stöbern am Bücherstand."
+    },
+    "intro": {
+      "ko": "흐린 오후, 헌책 노점 주인과 이야기가 길어집니다. 시어링 소매와 비니가 찬 공기를 막아 주어 책장을 넘기는 손만 바쁩니다.",
+      "en": "On a grey afternoon the chat with the bookseller runs long. Shearling cuffs and a beanie keep the cold out, so only the hands turning pages stay busy.",
+      "de": "An einem grauen Nachmittag wird das Gespräch mit dem Buchhändler länger. Lammfellbündchen und Beanie halten die Kälte ab, nur die Hände blättern."
+    },
+    "body": {
+      "ko": "그레이 프린지 스카프까지 더해 목과 몸통을 따뜻하게 감쌉니다.",
+      "en": "Finish the layers with gray fringed scarf.",
+      "de": "Grauer Fransenschal ergänzt die Lagen."
+    },
+    "pull": {
+      "ko": "시어링 트리밍 브라운 가죽 재킷",
+      "en": "Brown shearling-trim leather jacket",
+      "de": "Braune Lederjacke mit Lammfellbesatz"
+    },
+    "pullQuoteEn": "Brown shearling-trim leather jacket",
+    "tip": {
+      "ko": "갈색 가죽, 버건디 코듀로이, 회색 니트처럼 질감이 다른 세 가지를 겹치면 색을 더하지 않아도 풍성해 보여요.",
+      "en": "Stack three textures — brown leather, burgundy cord, grey knit — and the look feels rich without adding more colour.",
+      "de": "Drei Texturen kombinieren – braunes Leder, bordeauxroter Cord, grauer Strick –, dann wirkt der Look reich, ohne mehr Farbe."
+    },
+    "sourceCopy": {
+      "ko": {
+        "deck": "시어링 트리밍 브라운 가죽 재킷에 그레이 리브 니트을 겹친 초겨울 캐주얼.",
+        "intro": "기온 6°C, 체감 3°C의 흐린 낮을 위한 차림입니다.",
+        "tip": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요."
+      },
+      "en": {
+        "deck": "Brown shearling-trim leather jacket over gray ribbed knit sweater for an early-winter casual look.",
+        "intro": "For an overcast day at 6°C that feels like 3°C.",
+        "tip": "Wear it over knitwear and leave the front slightly open to show the layer."
+      },
+      "de": {
+        "deck": "Braune Lederjacke mit Lammfellbesatz über Grauer Rippstrickpullover für einen lässigen Start in den Winter.",
+        "intro": "Für einen bedeckten Tag bei 6 °C, gefühlt 3 °C.",
+        "tip": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      }
+    },
+    "rewriteReason": "b222 Claude Code copy rewrite under design/IMAGE_MAPPING_HANDOFF.md 5-1: delivered intro and tip were one sentence for all 10 looks (tip = the outer's how-to-wear), product how-to-wear used 9 template sentences for 66 products, decks listed product names (ko particle error '니트을', de case errors). Titles, pulls, bodies and product names/descriptions are kept verbatim; rewritten fields keep the delivered text in source* fields. Written from the 10 approved editorials."
+  },
+  "products": [
+    {
+      "id": "brown-shearling-trim-leather-jacket",
+      "producerId": "female-02-01",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.brown-shearling-trim-leather-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/7975075f-efcf-48fa-bf61-b12f72495fb7.png",
+      "producerImage": "product-batch/webp/female-02-01.webp",
+      "name": {
+        "ko": "시어링 트리밍 브라운 가죽 재킷",
+        "en": "Brown shearling-trim leather jacket",
+        "de": "Braune Lederjacke mit Lammfellbesatz"
+      },
+      "nameKo": "시어링 트리밍 브라운 가죽 재킷",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 시어링 트리밍 브라운 가죽 재킷.",
+        "en": "Brown shearling-trim leather jacket, recreated from the editorial outfit.",
+        "de": "Braune Lederjacke mit Lammfellbesatz, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 두고 시어링 소매 끝이 장갑 위를 살짝 덮게 입으세요.",
+        "en": "Wear it open and let the shearling cuffs overlap the gloves slightly.",
+        "de": "Offen tragen und die Lammfellbündchen leicht über die Handschuhe fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요.",
+        "en": "Wear it over knitwear and leave the front slightly open to show the layer.",
+        "de": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      },
+      "image": "products/brown-shearling-trim-leather-jacket.webp",
+      "sha256": "a244d052b1b6268c5c345efde7af6e7105391a5de32a685cb5271642ffd779aa",
+      "bytes": 45258,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "gray-ribbed-knit-sweater",
+      "producerId": "female-02-02",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.gray-ribbed-knit-sweater",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/84132360-f69e-489e-8cee-b96d7a56afac.png",
+      "producerImage": "product-batch/webp/female-02-02.webp",
+      "name": {
+        "ko": "그레이 리브 니트",
+        "en": "Gray ribbed knit sweater",
+        "de": "Grauer Rippstrickpullover"
+      },
+      "nameKo": "그레이 리브 니트",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 그레이 리브 니트.",
+        "en": "Gray ribbed knit sweater, recreated from the editorial outfit.",
+        "de": "Grauer Rippstrickpullover, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "니트를 가슴에서 매끈하게 정리해 스카프 양끝 사이로 회색 면이 보이게 하세요.",
+        "en": "Keep the knit smooth at the chest so a panel of grey shows between the scarf ends.",
+        "de": "Den Pullover an der Brust glatt ziehen, damit zwischen den Schalenden eine graue Fläche bleibt."
+      },
+      "sourceHowToWear": {
+        "ko": "겉옷 안에 입고 목선이나 소매의 질감이 보이게 정리하세요.",
+        "en": "Layer it under the jacket and let the neckline or cuffs show.",
+        "de": "Unter der Jacke tragen und Ausschnitt oder Bündchen sichtbar lassen."
+      },
+      "image": "products/gray-ribbed-knit-sweater.webp",
+      "sha256": "7fd2be14494d96f004d5a75cdccd069a7a97268f5d1d782d5ad112f3b06860e7",
+      "bytes": 48982,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "gray-fringed-scarf",
+      "producerId": "female-02-03",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.gray-fringed-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/2fa03bca-9aca-4bb0-847f-739607fae02f.png",
+      "producerImage": "product-batch/webp/female-02-03.webp",
+      "name": {
+        "ko": "그레이 프린지 스카프",
+        "en": "Gray fringed scarf",
+        "de": "Grauer Fransenschal"
+      },
+      "nameKo": "그레이 프린지 스카프",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 그레이 프린지 스카프.",
+        "en": "Gray fringed scarf, recreated from the editorial outfit.",
+        "de": "Grauer Fransenschal, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "목에 한 번 감은 뒤 양끝을 앞으로 나란히 늘어뜨려 프린지가 허리 아래로 오게 하세요.",
+        "en": "Wrap once, then let both ends hang side by side so the fringe falls below the waist.",
+        "de": "Einmal umwickeln, dann beide Enden nebeneinander nach vorn hängen lassen, sodass die Fransen unter die Taille reichen."
+      },
+      "sourceHowToWear": {
+        "ko": "목에 한 번 감고 한쪽 끝을 길게 늘어뜨려 보세요.",
+        "en": "Wrap once at the neck and let one end hang longer.",
+        "de": "Einmal um den Hals legen und ein Ende länger hängen lassen."
+      },
+      "image": "products/gray-fringed-scarf.webp",
+      "sha256": "de11f95de002137924d650d895fca36cc6901a6c6e38fea81ae66dd5aef3a8cf",
+      "bytes": 49976,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "dark-rib-knit-beanie",
+      "producerId": "female-02-04",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.dark-rib-knit-beanie",
+      "appCategory": "headwear",
+      "producerCategory": "headwear",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/8b6b2bb5-9d8c-4d3f-836e-67ee1affea71.png",
+      "producerImage": "product-batch/webp/female-02-04.webp",
+      "name": {
+        "ko": "다크 리브 비니",
+        "en": "Dark rib-knit beanie",
+        "de": "Dunkle Rippstrickmütze"
+      },
+      "nameKo": "다크 리브 비니",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 다크 리브 비니.",
+        "en": "Dark rib-knit beanie, recreated from the editorial outfit.",
+        "de": "Dunkle Rippstrickmütze, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "이마를 살짝 드러내고 귀까지 깊게 써서 접은 단을 수평으로 맞추세요.",
+        "en": "Pull it down over the ears, leaving a little forehead, and keep the turned-up band level.",
+        "de": "Über die Ohren ziehen, etwas Stirn freilassen und den Umschlag waagerecht halten."
+      },
+      "sourceHowToWear": {
+        "ko": "귀 윗부분을 덮고 접어 올린 부분을 고르게 정리하세요.",
+        "en": "Cover the tops of the ears and even out the folded brim.",
+        "de": "Über die oberen Ohrränder ziehen und den Umschlag gleichmäßig richten."
+      },
+      "image": "products/dark-rib-knit-beanie.webp",
+      "sha256": "1fc20a3a7a1f7d8aef23a7ba6c3a1d2435d8ddc0755de2b2669dfe8ea4c4b2aa",
+      "bytes": 40474,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "brown-gloves",
+      "producerId": "female-02-05",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.brown-gloves",
+      "appCategory": "hands",
+      "producerCategory": "hands",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/4403a685-4989-408d-815e-42515365784b.png",
+      "producerImage": "product-batch/webp/female-02-05.webp",
+      "name": {
+        "ko": "브라운 장갑",
+        "en": "Brown gloves pair",
+        "de": "Braune Handschuhe"
+      },
+      "nameKo": "브라운 장갑",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 브라운 장갑.",
+        "en": "Brown gloves pair, recreated from the editorial outfit.",
+        "de": "Braune Handschuhe, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "책장을 넘길 수 있게 손에 꼭 맞는 사이즈로 끼고 손목은 가죽 소매 안에 넣으세요.",
+        "en": "Choose a snug fit so you can still turn pages, and tuck the wrists into the jacket cuffs.",
+        "de": "Eng anliegend tragen, damit man noch blättern kann, und die Handgelenke in die Jackenärmel stecken."
+      },
+      "sourceHowToWear": {
+        "ko": "손목을 덮고 겉옷 소매 아래로 장갑 끝을 넣어보세요.",
+        "en": "Cover the wrists and tuck the glove cuffs under the jacket sleeves.",
+        "de": "Die Handgelenke bedecken und die Handschuhbündchen unter die Jackenärmel schieben."
+      },
+      "image": "products/brown-gloves.webp",
+      "sha256": "ff9c5c06226dac7418bc51b32900b28d8113c6090c3a9573cffd30672dafaece",
+      "bytes": 44586,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "burgundy-corduroy-trousers",
+      "producerId": "female-02-06",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.burgundy-corduroy-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/0c7fd5e7-5bd7-4e2f-8e66-3bf6eabb5ceb.png",
+      "producerImage": "product-batch/webp/female-02-06.webp",
+      "name": {
+        "ko": "버건디 코듀로이 팬츠",
+        "en": "Burgundy corduroy trousers",
+        "de": "Bordeauxrote Cordhose"
+      },
+      "nameKo": "버건디 코듀로이 팬츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 버건디 코듀로이 팬츠.",
+        "en": "Burgundy corduroy trousers, recreated from the editorial outfit.",
+        "de": "Bordeauxrote Cordhose, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "여유 있는 통을 발목에서 모아 부츠 위에 주름이 쌓이게 입으세요.",
+        "en": "Let the roomy legs gather at the ankle so soft folds stack above the boots.",
+        "de": "Die weiten Beine am Knöchel sammeln lassen, sodass sich weiche Falten über den Stiefeln legen."
+      },
+      "sourceHowToWear": {
+        "ko": "부츠 위로 밑단이 자연스럽게 떨어지도록 길이를 맞춰보세요.",
+        "en": "Let the hem fall naturally over the top of the boots.",
+        "de": "Den Saum locker über dem Stiefelschaft fallen lassen."
+      },
+      "image": "products/burgundy-corduroy-trousers.webp",
+      "sha256": "d5cd8506c522143e0dd7476465840097b510aa9e1f327cbc2b291fc1bb6f9bcf",
+      "bytes": 29070,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "black-lug-boots",
+      "producerId": "female-02-07",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.black-lug-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/c2e99128-5376-4325-b0fd-5377c844ed53.png",
+      "producerImage": "product-batch/webp/female-02-07.webp",
+      "name": {
+        "ko": "블랙 러그솔 부츠",
+        "en": "Black lug boots pair",
+        "de": "Schwarze Stiefel mit Profilsohle"
+      },
+      "nameKo": "블랙 러그솔 부츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 블랙 러그솔 부츠.",
+        "en": "Black lug boots pair, recreated from the editorial outfit.",
+        "de": "Schwarze Stiefel mit Profilsohle, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "바지 밑단을 부츠 안에 넣지 말고 위로 덮이게 두고, 끈은 끝까지 묶어 주세요.",
+        "en": "Let the trousers sit over the boots, not inside, and lace them all the way up.",
+        "de": "Die Hose über, nicht in die Stiefel fallen lassen und bis oben schnüren."
+      },
+      "sourceHowToWear": {
+        "ko": "도톰한 양말과 함께 신고 끈을 발목에서 편하게 고정하세요.",
+        "en": "Wear with substantial socks and secure the laces comfortably at the ankle.",
+        "de": "Mit dickeren Socken tragen und die Schnürsenkel am Knöchel bequem binden."
+      },
+      "image": "products/black-lug-boots.webp",
+      "sha256": "daab178629903928047c78347af326cc2932fc65590bccaad03f0d6b61ea3cec",
+      "bytes": 23474,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ivory-canvas-tote",
+      "producerId": "female-02-08",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-02.ivory-canvas-tote",
+      "appCategory": "bag",
+      "producerCategory": "bag",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/665a5d13-7c1a-4089-9fb0-0bf889504079.png",
+      "producerImage": "product-batch/webp/female-02-08.webp",
+      "name": {
+        "ko": "아이보리 캔버스 토트백",
+        "en": "Ivory canvas tote",
+        "de": "Elfenbeinfarbene Canvastasche"
+      },
+      "nameKo": "아이보리 캔버스 토트백",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 아이보리 캔버스 토트백.",
+        "en": "Ivory canvas tote, recreated from the editorial outfit.",
+        "de": "Elfenbeinfarbene Canvastasche, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "책 몇 권을 넣어도 처지지 않게 어깨 가까이 짧게 메세요.",
+        "en": "Wear it high on the shoulder so a few books don't drag it down.",
+        "de": "Hoch an der Schulter tragen, damit ein paar Bücher sie nicht nach unten ziehen."
+      },
+      "sourceHowToWear": {
+        "ko": "가벼운 외출에는 어깨에 걸치거나 손에 들어보세요.",
+        "en": "Carry it by hand or over the shoulder for a short outing.",
+        "de": "Für einen kurzen Weg in der Hand oder über der Schulter tragen."
+      },
+      "image": "products/ivory-canvas-tote.webp",
+      "sha256": "fcbca92d70ee2688e888f1b0795f4e50408a8a970eea1a3c7ef86e69ded016fe",
+      "bytes": 26084,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b222"
+}

@@ -1204,7 +1204,17 @@
 "eu-snow-cold-m-day-run-20261112-02.wind-shell": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-02/products/wind-shell.webp", 0.289],
 "eu-snow-cold-m-day-run-20261112-03.hooded-wind-shell": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-03/products/hooded-wind-shell.webp", 0.154],
 "eu-snow-cold-m-day-run-20261112-04.reflective-running-gloves": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-04/products/reflective-running-gloves.webp", 0.173],
-"eu-snow-cold-m-day-run-20261112-05.running-watch": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-05/products/running-watch.webp", 0.108]
+"eu-snow-cold-m-day-run-20261112-05.running-watch": ["look/global/european-urban-snow-cold-male-day-running-picsart-20261112/eu-snow-cold-m-day-run-20261112-05/products/running-watch.webp", 0.108],
+"eu-overcast-chilly-f-day-casual-20261112-01.olive-cropped-field-jacket": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-f-day-casual-20261112-01/products/olive-cropped-field-jacket.webp", 0.233],
+"eu-overcast-chilly-f-day-casual-20261112-02.brown-shearling-trim-leather-jacket": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-f-day-casual-20261112-02/products/brown-shearling-trim-leather-jacket.webp", 0.305],
+"eu-overcast-chilly-f-day-casual-20261112-03.red-and-navy-plaid-overshirt": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-f-day-casual-20261112-03/products/red-and-navy-plaid-overshirt.webp", 0.148],
+"eu-overcast-chilly-f-day-casual-20261112-04.forest-green-and-ivory-striped-rugby-knit": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-f-day-casual-20261112-04/products/forest-green-and-ivory-striped-rugby-knit.webp", 0.427],
+"eu-overcast-chilly-f-day-casual-20261112-05.cobalt-blue-fringed-scarf": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-f-day-casual-20261112-05/products/cobalt-blue-fringed-scarf.webp", 0.136],
+"eu-overcast-chilly-m-day-casual-20261112-01.brown-shearling-collar-leather-jacket": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-01/products/brown-shearling-collar-leather-jacket.webp", 0.284],
+"eu-overcast-chilly-m-day-casual-20261112-02.indigo-denim-jacket-with-brown-collar": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-02/products/indigo-denim-jacket-with-brown-collar.webp", 0.184],
+"eu-overcast-chilly-m-day-casual-20261112-03.chocolate-corduroy-trousers": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-03/products/chocolate-corduroy-trousers.webp", 0.123],
+"eu-overcast-chilly-m-day-casual-20261112-04.cobalt-ribbed-zip-knit": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-04/products/cobalt-ribbed-zip-knit.webp", 0.123],
+"eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-05/products/navy-quilted-jacket.webp", 0.14]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1622,7 +1632,17 @@
 "eu-snow-cold-m-day-run-20261112-02": "eu-snow-cold-m-day-run-20261112-02.wind-shell",
 "eu-snow-cold-m-day-run-20261112-03": "eu-snow-cold-m-day-run-20261112-03.hooded-wind-shell",
 "eu-snow-cold-m-day-run-20261112-04": "eu-snow-cold-m-day-run-20261112-04.reflective-running-gloves",
-"eu-snow-cold-m-day-run-20261112-05": "eu-snow-cold-m-day-run-20261112-05.running-watch"
+"eu-snow-cold-m-day-run-20261112-05": "eu-snow-cold-m-day-run-20261112-05.running-watch",
+"eu-overcast-chilly-f-day-casual-20261112-01": "eu-overcast-chilly-f-day-casual-20261112-01.olive-cropped-field-jacket",
+"eu-overcast-chilly-f-day-casual-20261112-02": "eu-overcast-chilly-f-day-casual-20261112-02.brown-shearling-trim-leather-jacket",
+"eu-overcast-chilly-f-day-casual-20261112-03": "eu-overcast-chilly-f-day-casual-20261112-03.red-and-navy-plaid-overshirt",
+"eu-overcast-chilly-f-day-casual-20261112-04": "eu-overcast-chilly-f-day-casual-20261112-04.forest-green-and-ivory-striped-rugby-knit",
+"eu-overcast-chilly-f-day-casual-20261112-05": "eu-overcast-chilly-f-day-casual-20261112-05.cobalt-blue-fringed-scarf",
+"eu-overcast-chilly-m-day-casual-20261112-01": "eu-overcast-chilly-m-day-casual-20261112-01.brown-shearling-collar-leather-jacket",
+"eu-overcast-chilly-m-day-casual-20261112-02": "eu-overcast-chilly-m-day-casual-20261112-02.indigo-denim-jacket-with-brown-collar",
+"eu-overcast-chilly-m-day-casual-20261112-03": "eu-overcast-chilly-m-day-casual-20261112-03.chocolate-corduroy-trousers",
+"eu-overcast-chilly-m-day-casual-20261112-04": "eu-overcast-chilly-m-day-casual-20261112-04.cobalt-ribbed-zip-knit",
+"eu-overcast-chilly-m-day-casual-20261112-05": "eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

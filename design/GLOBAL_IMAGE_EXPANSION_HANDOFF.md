@@ -16,6 +16,7 @@
 | 장소 → 시각 지역: `?region=` 명시값, geocoder `country_code`(장소 `cc`로 저장), 카나리아 제도 좌표 프로필, 해안 칸(b175 `look/coast-grid.js`, GPS 포함) | 구현됨. 그 밖의 GPS·예전 저장 장소·목록 밖 나라 = unknown |
 | 습도 맥락 순위 | 명시값(`?humidity=`)만. **API 습도 요청·분류·임계값은 보류** |
 | 같은 적합도 안에서 기후 → 지역 순위, 씨앗에 장소·맥락 포함, `lastView`·`dayView`·`dayPick`·`lookPool` 공유, `v.pick` 재검증 | 구현됨 |
+| b222: european-urban 장소에서는 지역 없는 기존 룩(베를린 세트)의 지역 순위 = european-urban 룩과 같음(0) → 유럽 세트가 기존 룩과 같은 랜덤 추첨 | 구현됨 |
 | 베를린 사진 검토 후 지역 태깅, 도시 인식 가능 자산 예외 목록 | 보류 |
 | 제작·가져오기 도구의 글로벌 경로 지원(로컬 automation 도구) | 보류(이 저장소 밖, 점검 안 함) |
 | 습도 기반 자동 선택(예보 `relative_humidity_2m` 등) | 보류 — 수치 구간 미정, 임의 임계값 금지 |

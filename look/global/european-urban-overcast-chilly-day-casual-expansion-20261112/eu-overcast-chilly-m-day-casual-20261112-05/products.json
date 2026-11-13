@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-overcast-chilly-m-day-casual-20261112-05",
+  "batchId": "european-urban-overcast-chilly-day-casual-expansion-20261112",
+  "producerLookId": "male-05",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street",
+    "producerStyle": "casual"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "precipitation": "none",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "stylingAssumption": {
+    "temperatureC": 6,
+    "feelsLikeC": 3,
+    "note": "Production setting from APP_MAPPING.json, not a measurement."
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "chilly",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of the approved editorial: an ordinary European brick-and-stone street in dry, overcast late-autumn daylight with fallen leaves, no rain or snow depicted. 6°C / feels 3°C (chilly) is the production styling setting, not a measurement; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "READY.json userApprovedEditorials true; APPROVAL.json currentBatchHandoffAndPublicationAuthorized true, source 'editorial-v3 except male/04 from editorial-v5'. The earlier EDITORIAL_QA snapshots still say awaiting review. Products: Picsart, producer technical and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "7e3d71c68450793a79a42f674823775821c6fcff1f4a73532785db7c5afd6256",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (originals/picsart/PROMPTS.json, PICSART_JOBS/RESULTS.json; editorial-v3 keeps the same master)",
+  "productCount": 7,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-overcast-chilly-m-day-casual-20261112-05",
+  "appStyle": "street",
+  "appSky": "cloudy",
+  "appModule": "look/european-urban-overcast-chilly-day-casual-expansion-20261112.js",
+  "appHeroItem": "eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket",
+  "scenePropsNotProducts": [
+    "laundromat door",
+    "neighbour"
+  ],
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "productCount": 66,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/male-05.jpg"
+    ],
+    "findings": [
+      "Exact garment construction where obscured is a visual reconstruction.",
+      "Male 05 brown gloves read as knit in the cutout and are labeled accordingly."
+    ]
+  },
+  "copy": {
+    "titleEn": "NAVY QUILTING AND STRIPES",
+    "title": {
+      "ko": "네이비 퀼팅과 스트라이프",
+      "en": "Navy quilting and stripes",
+      "de": "Marineblaue Steppjacke und Streifen"
+    },
+    "deck": {
+      "ko": "빨래방 문을 잡아 주며 웃는, 이웃 같은 퀼팅과 줄무늬 차림.",
+      "en": "Holding the laundromat door with a grin, in quilting and stripes.",
+      "de": "Die Tür zum Waschsalon aufhalten, mit einem Grinsen, in Stepp und Streifen."
+    },
+    "intro": {
+      "ko": "빨래방 문을 열어 뒤따라오는 이웃을 기다립니다. 네이비 퀼팅 재킷 안의 회색·네이비 줄무늬와 아이보리 칼라가 단정한 층을 만듭니다.",
+      "en": "He holds the laundromat door for the neighbour behind him. Inside the navy quilted jacket, grey-and-navy stripes and an ivory collar build neat layers.",
+      "de": "Er hält die Tür des Waschsalons für den Nachbarn hinter ihm auf. In der marineblauen Steppjacke bilden grau-marineblaue Streifen und ein elfenbeinfarbener Kragen ordentliche Lagen."
+    },
+    "body": {
+      "ko": "아이보리 칼라 이너까지 더해 목과 몸통을 따뜻하게 감쌉니다.",
+      "en": "Finish the layers with ivory collared underlayer.",
+      "de": "Elfenbeinfarbenes Oberteil mit Kragen ergänzt die Lagen."
+    },
+    "pull": {
+      "ko": "네이비 퀼팅 재킷",
+      "en": "Navy quilted jacket",
+      "de": "Marineblaue Steppjacke"
+    },
+    "pullQuoteEn": "Navy quilted jacket",
+    "tip": {
+      "ko": "오트밀 스카프처럼 밝은 색을 목에 두면 네이비와 올리브 조합이 칙칙해 보이지 않아요.",
+      "en": "A light shade at the neck, like oatmeal, keeps navy and olive from looking dull.",
+      "de": "Ein heller Haferton am Hals verhindert, dass Marine und Oliv trüb wirken."
+    },
+    "sourceCopy": {
+      "ko": {
+        "deck": "네이비 퀼팅 재킷에 그레이·네이비 스트라이프 니트을 겹친 초겨울 캐주얼.",
+        "intro": "기온 6°C, 체감 3°C의 흐린 낮을 위한 차림입니다.",
+        "tip": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요."
+      },
+      "en": {
+        "deck": "Navy quilted jacket over gray and navy striped knit for an early-winter casual look.",
+        "intro": "For an overcast day at 6°C that feels like 3°C.",
+        "tip": "Wear it over knitwear and leave the front slightly open to show the layer."
+      },
+      "de": {
+        "deck": "Marineblaue Steppjacke über Grau-marineblauer Streifenpullover für einen lässigen Start in den Winter.",
+        "intro": "Für einen bedeckten Tag bei 6 °C, gefühlt 3 °C.",
+        "tip": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      }
+    },
+    "rewriteReason": "b222 Claude Code copy rewrite under design/IMAGE_MAPPING_HANDOFF.md 5-1: delivered intro and tip were one sentence for all 10 looks (tip = the outer's how-to-wear), product how-to-wear used 9 template sentences for 66 products, decks listed product names (ko particle error '니트을', de case errors). Titles, pulls, bodies and product names/descriptions are kept verbatim; rewritten fields keep the delivered text in source* fields. Written from the 10 approved editorials."
+  },
+  "products": [
+    {
+      "id": "navy-quilted-jacket",
+      "producerId": "male-05-01",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/6d98bc40-a883-4eff-a6cd-f3c849d45c19.png",
+      "producerImage": "product-batch/webp/male-05-01.webp",
+      "name": {
+        "ko": "네이비 퀼팅 재킷",
+        "en": "Navy quilted jacket",
+        "de": "Marineblaue Steppjacke"
+      },
+      "nameKo": "네이비 퀼팅 재킷",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 네이비 퀼팅 재킷.",
+        "en": "Navy quilted jacket, recreated from the editorial outfit.",
+        "de": "Marineblaue Steppjacke, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "퀼팅 재킷은 단추를 풀어 줄무늬 니트가 가슴 가득 보이게 열어 입으세요.",
+        "en": "Leave the quilted jacket unbuttoned so the striped knit fills the chest.",
+        "de": "Die Steppjacke offen tragen, damit der Streifenpullover die Brust füllt."
+      },
+      "sourceHowToWear": {
+        "ko": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요.",
+        "en": "Wear it over knitwear and leave the front slightly open to show the layer.",
+        "de": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      },
+      "image": "products/navy-quilted-jacket.webp",
+      "sha256": "cadd36e8fdd4a81a6b19e7cbfff6a662ba71c46e99448c97cbbbb7cf734fdaf5",
+      "bytes": 30930,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "gray-and-navy-striped-knit",
+      "producerId": "male-05-02",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.gray-and-navy-striped-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/632c5a47-eede-4e51-967a-bb0bb1d8a8c0.png",
+      "producerImage": "product-batch/webp/male-05-02.webp",
+      "name": {
+        "ko": "그레이·네이비 스트라이프 니트",
+        "en": "Gray and navy striped knit",
+        "de": "Grau-marineblauer Streifenpullover"
+      },
+      "nameKo": "그레이·네이비 스트라이프 니트",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 그레이·네이비 스트라이프 니트.",
+        "en": "Gray and navy striped knit, recreated from the editorial outfit.",
+        "de": "Grau-marineblauer Streifenpullover, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "크루넥 위로 아이보리 칼라를 꺼내 줄무늬와 깃이 함께 보이게 하세요.",
+        "en": "Pull the ivory collar out over the crew neck so stripes and collar read together.",
+        "de": "Den elfenbeinfarbenen Kragen über den Rundhals ziehen, damit Streifen und Kragen zusammen wirken."
+      },
+      "sourceHowToWear": {
+        "ko": "겉옷 안에 입고 목선이나 소매의 질감이 보이게 정리하세요.",
+        "en": "Layer it under the jacket and let the neckline or cuffs show.",
+        "de": "Unter der Jacke tragen und Ausschnitt oder Bündchen sichtbar lassen."
+      },
+      "image": "products/gray-and-navy-striped-knit.webp",
+      "sha256": "3855232e7e077d47f203d73ff0acb5d215761029b87f3bca3facc1f75b7a13cb",
+      "bytes": 43024,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "ivory-collared-underlayer",
+      "producerId": "male-05-03",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.ivory-collared-underlayer",
+      "appCategory": "under",
+      "producerCategory": "under",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/1fff0538-da8b-41df-a847-85582ab3e3b1.png",
+      "producerImage": "product-batch/webp/male-05-03.webp",
+      "name": {
+        "ko": "아이보리 칼라 이너",
+        "en": "Ivory collared underlayer",
+        "de": "Elfenbeinfarbenes Oberteil mit Kragen"
+      },
+      "nameKo": "아이보리 칼라 이너",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 아이보리 칼라 이너.",
+        "en": "Ivory collared underlayer, recreated from the editorial outfit.",
+        "de": "Elfenbeinfarbenes Oberteil mit Kragen, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "칼라 끝을 니트 목선 위에 평평하게 눕혀 단정하게 정리하세요.",
+        "en": "Lay the collar points flat over the knit neckline.",
+        "de": "Die Kragenspitzen flach über den Pulloverausschnitt legen."
+      },
+      "sourceHowToWear": {
+        "ko": "상의 아래에 받쳐 입고 보이는 가장자리만 정돈하세요.",
+        "en": "Wear it under the main top and tidy the visible edges.",
+        "de": "Unter dem Oberteil tragen und die sichtbaren Kanten glattziehen."
+      },
+      "image": "products/ivory-collared-underlayer.webp",
+      "sha256": "a739731f61d6791087d40cb5dca659f9ebb193168422be893f0fd880f55d10e9",
+      "bytes": 40870,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "oatmeal-fringed-scarf",
+      "producerId": "male-05-04",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.oatmeal-fringed-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/4aebd7c9-2b86-4375-a4bb-a8ed14659281.png",
+      "producerImage": "product-batch/webp/male-05-04.webp",
+      "name": {
+        "ko": "오트밀 프린지 스카프",
+        "en": "Oatmeal fringed scarf",
+        "de": "Haferfarbener Fransenschal"
+      },
+      "nameKo": "오트밀 프린지 스카프",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 오트밀 프린지 스카프.",
+        "en": "Oatmeal fringed scarf, recreated from the editorial outfit.",
+        "de": "Haferfarbener Fransenschal, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "목에 느슨하게 걸쳐 한쪽 끝을 더 길게 두면 문을 잡는 동작에도 자연스럽게 흔들려요.",
+        "en": "Hang it loosely with one end longer; it swings naturally as you hold a door.",
+        "de": "Locker umhängen, ein Ende länger – es schwingt natürlich mit, wenn man eine Tür aufhält."
+      },
+      "sourceHowToWear": {
+        "ko": "목에 한 번 감고 한쪽 끝을 길게 늘어뜨려 보세요.",
+        "en": "Wrap once at the neck and let one end hang longer.",
+        "de": "Einmal um den Hals legen und ein Ende länger hängen lassen."
+      },
+      "image": "products/oatmeal-fringed-scarf.webp",
+      "sha256": "a395a19ebd12db0ce30f715272570e1ef2c185d96a236cf448c0ba1f7795c550",
+      "bytes": 47394,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "brown-knit-gloves",
+      "producerId": "male-05-05",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.brown-knit-gloves",
+      "appCategory": "hands",
+      "producerCategory": "hands",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/14f0f896-8c22-4912-bebf-fc0cb93dd02f.png",
+      "producerImage": "product-batch/webp/male-05-05.webp",
+      "name": {
+        "ko": "브라운 니트 장갑",
+        "en": "Brown knit gloves pair",
+        "de": "Braune Strickhandschuhe"
+      },
+      "nameKo": "브라운 니트 장갑",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 브라운 니트 장갑.",
+        "en": "Brown knit gloves pair, recreated from the editorial outfit.",
+        "de": "Braune Strickhandschuhe, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "갈색 니트 장갑을 재킷 소매 안쪽까지 깊게 당겨 끼세요.",
+        "en": "Pull the brown knit gloves deep up inside the jacket sleeves.",
+        "de": "Die braunen Strickhandschuhe tief in die Jackenärmel ziehen."
+      },
+      "sourceHowToWear": {
+        "ko": "손목을 덮고 겉옷 소매 아래로 장갑 끝을 넣어보세요.",
+        "en": "Cover the wrists and tuck the glove cuffs under the jacket sleeves.",
+        "de": "Die Handgelenke bedecken und die Handschuhbündchen unter die Jackenärmel schieben."
+      },
+      "image": "products/brown-knit-gloves.webp",
+      "sha256": "3259e3f80bf5f4372611dca10d72335120c77834a1daec8dcbea950a596fd8f3",
+      "bytes": 48636,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "olive-trousers",
+      "producerId": "male-05-06",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.olive-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/a3ddfafe-775f-436c-87a6-5ea7d102d1a3.png",
+      "producerImage": "product-batch/webp/male-05-06.webp",
+      "name": {
+        "ko": "올리브 팬츠",
+        "en": "Olive trousers",
+        "de": "Olivgrüne Hose"
+      },
+      "nameKo": "올리브 팬츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 올리브 팬츠.",
+        "en": "Olive trousers, recreated from the editorial outfit.",
+        "de": "Olivgrüne Hose, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "넉넉한 올리브 바지는 밑단을 접지 않고 부츠 발등에 살짝 쌓이게 입으세요.",
+        "en": "Wear the relaxed olive trousers uncuffed, gathering lightly on the boot.",
+        "de": "Die lockere olivgrüne Hose ohne Umschlag tragen, leicht auf dem Stiefel gestaucht."
+      },
+      "sourceHowToWear": {
+        "ko": "부츠 위로 밑단이 자연스럽게 떨어지도록 길이를 맞춰보세요.",
+        "en": "Let the hem fall naturally over the top of the boots.",
+        "de": "Den Saum locker über dem Stiefelschaft fallen lassen."
+      },
+      "image": "products/olive-trousers.webp",
+      "sha256": "1d5878f93034805ff2b398cd75d8b9424d8adcb20e300b72877f2a67cbe06805",
+      "bytes": 25502,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "black-boots",
+      "producerId": "male-05-07",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-05.black-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/a6a49bf0-a160-4127-86d5-edd23330b436.png",
+      "producerImage": "product-batch/webp/male-05-07.webp",
+      "name": {
+        "ko": "블랙 부츠",
+        "en": "Black boots pair",
+        "de": "Schwarze Stiefel"
+      },
+      "nameKo": "블랙 부츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 블랙 부츠.",
+        "en": "Black boots pair, recreated from the editorial outfit.",
+        "de": "Schwarze Stiefel, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "광택 있는 블랙 부츠는 바지 밑단을 뒤꿈치 쪽에 살짝 걸쳐 앞코가 드러나게 신으세요.",
+        "en": "Let the hem catch at the heel of the shiny black boots so the toe shows.",
+        "de": "Den Saum an der Ferse der glänzenden schwarzen Stiefel hängen lassen, damit die Spitze sichtbar ist."
+      },
+      "sourceHowToWear": {
+        "ko": "도톰한 양말과 함께 신고 끈을 발목에서 편하게 고정하세요.",
+        "en": "Wear with substantial socks and secure the laces comfortably at the ankle.",
+        "de": "Mit dickeren Socken tragen und die Schnürsenkel am Knöchel bequem binden."
+      },
+      "image": "products/black-boots.webp",
+      "sha256": "522c9efee7f68d773945bc733a604d3e6f89afd80ac04dabb50e5ff12ee3da19",
+      "bytes": 28280,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b222"
+}

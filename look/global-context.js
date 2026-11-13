@@ -87,11 +87,13 @@
   }
   // Soft ranks, lower is better; only used to order looks that already have the same weather fit.
   // climate: unknown query → 0 for all; same reviewed humidity 0 → unknown 1 → other known 2
-  // region: unknown query → 0 for all; same region 0 → reviewed neutral-urban 1 → other or unknown 2
+  // region: unknown query → 0 for all; same region 0 → reviewed neutral-urban 1 → other or unknown 2.
+  // b222: in a european-urban place the region-unknown legacy looks (the Berlin sets) rank like european-urban looks, so tagged
+  // European sets join their random draw instead of always leading it (other places and neutral-urban unchanged)
   function ranks(o, v) {
     var g = o.gctx || { region: "unknown", humidity: "unknown" }, qh = v.humidity || "unknown", qr = v.region || "unknown";
     var cr = qh === "unknown" ? 0 : g.humidity === qh ? 0 : g.humidity === "unknown" ? 1 : 2;
-    var rr = qr === "unknown" ? 0 : g.region === qr ? 0 : g.region === "neutral-urban" ? 1 : 2;
+    var rr = qr === "unknown" ? 0 : g.region === qr ? 0 : qr === "european-urban" && g.region === "unknown" ? 0 : g.region === "neutral-urban" ? 1 : 2;
     return [cr, rr];
   }
   // Location is the first boundary: unreviewed legacy looks cannot fill coastal gaps.

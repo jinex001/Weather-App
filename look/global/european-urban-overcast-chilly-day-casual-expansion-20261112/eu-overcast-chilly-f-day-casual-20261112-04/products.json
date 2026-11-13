@@ -1,0 +1,426 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-overcast-chilly-f-day-casual-20261112-04",
+  "batchId": "european-urban-overcast-chilly-day-casual-expansion-20261112",
+  "producerLookId": "female-04",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Female",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street",
+    "producerStyle": "casual"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "precipitation": "none",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "stylingAssumption": {
+    "temperatureC": 6,
+    "feelsLikeC": 3,
+    "note": "Production setting from APP_MAPPING.json, not a measurement."
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "chilly",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of the approved editorial: an ordinary European brick-and-stone street in dry, overcast late-autumn daylight with fallen leaves, no rain or snow depicted. 6°C / feels 3°C (chilly) is the production styling setting, not a measurement; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "READY.json userApprovedEditorials true; APPROVAL.json currentBatchHandoffAndPublicationAuthorized true, source 'editorial-v3 except male/04 from editorial-v5'. The earlier EDITORIAL_QA snapshots still say awaiting review. Products: Picsart, producer technical and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "9fa345cfda2d65d2078f34e082d03dba6a302ff8a6789d282cfc8e3611870cc3",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Codex built-in image_gen replacement (originals/editorial-v3/PROMPTS.json, style guide sha256 1f578ca2…; casting revision 25–28)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-overcast-chilly-f-day-casual-20261112-04",
+  "appStyle": "street",
+  "appSky": "cloudy",
+  "appModule": "look/european-urban-overcast-chilly-day-casual-expansion-20261112.js",
+  "appHeroItem": "eu-overcast-chilly-f-day-casual-20261112-04.forest-green-and-ivory-striped-rugby-knit",
+  "scenePropsNotProducts": [
+    "coffee cup",
+    "bakery front",
+    "bench"
+  ],
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "productCount": 66,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/female-04.jpg"
+    ],
+    "findings": [
+      "Exact garment construction where obscured is a visual reconstruction.",
+      "Male 05 brown gloves read as knit in the cutout and are labeled accordingly."
+    ]
+  },
+  "copy": {
+    "titleEn": "COFFEE AND FOREST GREEN",
+    "title": {
+      "ko": "커피와 포레스트 그린",
+      "en": "Coffee and forest green",
+      "de": "Kaffee und Waldgrün"
+    },
+    "deck": {
+      "ko": "커피 한 잔 들고 빵집 앞을 지나는 가벼운 걸음의 줄무늬 차림.",
+      "en": "Coffee in hand past the bakery, stripes in step.",
+      "de": "Mit Kaffee am Bäcker vorbei, die Streifen im Gleichschritt."
+    },
+    "intro": {
+      "ko": "빵집 앞을 지나며 따뜻한 컵을 쥔 손에 힘이 들어갑니다. 연기 같은 회색 블루종을 열어 두면 포레스트 그린 줄무늬가 걸음마다 드러납니다.",
+      "en": "Passing the bakery, the warm cup gets a tighter grip. Leave the smoke-grey blouson open and the forest-green stripes show with every step.",
+      "de": "Am Bäcker vorbei wird der warme Becher fester gehalten. Bleibt der rauchgraue Blouson offen, zeigen sich die waldgrünen Streifen bei jedem Schritt."
+    },
+    "body": {
+      "ko": "포레스트 그린 울 스카프까지 더해 목과 몸통을 따뜻하게 감쌉니다.",
+      "en": "Finish the layers with forest wool scarf.",
+      "de": "Waldgrüner Wollschal ergänzt die Lagen."
+    },
+    "pull": {
+      "ko": "스모크 그레이 집업 블루종",
+      "en": "Smoke-gray zip blouson",
+      "de": "Rauchgrauer Blouson mit Reißverschluss"
+    },
+    "pullQuoteEn": "Smoke-gray zip blouson",
+    "tip": {
+      "ko": "스카프와 니트 줄무늬를 같은 초록으로 맞추면 회색 아우터가 차갑지 않아 보여요.",
+      "en": "Match the scarf to the green of the stripes and the grey outer never looks cold.",
+      "de": "Den Schal im Grün der Streifen wählen – so wirkt die graue Jacke nie kühl."
+    },
+    "sourceCopy": {
+      "ko": {
+        "deck": "스모크 그레이 집업 블루종에 포레스트 그린·아이보리 스트라이프 럭비 니트을 겹친 초겨울 캐주얼.",
+        "intro": "기온 6°C, 체감 3°C의 흐린 낮을 위한 차림입니다.",
+        "tip": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요."
+      },
+      "en": {
+        "deck": "Smoke-gray zip blouson over forest green and ivory striped rugby knit for an early-winter casual look.",
+        "intro": "For an overcast day at 6°C that feels like 3°C.",
+        "tip": "Wear it over knitwear and leave the front slightly open to show the layer."
+      },
+      "de": {
+        "deck": "Rauchgrauer Blouson mit Reißverschluss über Waldgrün-elfenbeinfarbener Rugby-Strickpullover für einen lässigen Start in den Winter.",
+        "intro": "Für einen bedeckten Tag bei 6 °C, gefühlt 3 °C.",
+        "tip": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      }
+    },
+    "rewriteReason": "b222 Claude Code copy rewrite under design/IMAGE_MAPPING_HANDOFF.md 5-1: delivered intro and tip were one sentence for all 10 looks (tip = the outer's how-to-wear), product how-to-wear used 9 template sentences for 66 products, decks listed product names (ko particle error '니트을', de case errors). Titles, pulls, bodies and product names/descriptions are kept verbatim; rewritten fields keep the delivered text in source* fields. Written from the 10 approved editorials."
+  },
+  "products": [
+    {
+      "id": "smoke-gray-zip-blouson",
+      "producerId": "female-04-01",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-04.smoke-gray-zip-blouson",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/ab797642-5171-4a64-b993-735b6466bf96.png",
+      "producerImage": "product-batch/webp/female-04-01.webp",
+      "name": {
+        "ko": "스모크 그레이 집업 블루종",
+        "en": "Smoke-gray zip blouson",
+        "de": "Rauchgrauer Blouson mit Reißverschluss"
+      },
+      "nameKo": "스모크 그레이 집업 블루종",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 스모크 그레이 집업 블루종.",
+        "en": "Smoke-gray zip blouson, recreated from the editorial outfit.",
+        "de": "Rauchgrauer Blouson mit Reißverschluss, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "지퍼를 열고 소매는 컵을 쥔 손등까지 내려 덮어 주세요.",
+        "en": "Wear it unzipped with the sleeves down to the back of the hand around the cup.",
+        "de": "Offen tragen, die Ärmel bis auf den Handrücken am Becher."
+      },
+      "sourceHowToWear": {
+        "ko": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요.",
+        "en": "Wear it over knitwear and leave the front slightly open to show the layer.",
+        "de": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      },
+      "image": "products/smoke-gray-zip-blouson.webp",
+      "sha256": "ce572f46febfa898f775504d256867eb025cb3782c128f0723836302a849be99",
+      "bytes": 26090,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "forest-green-and-ivory-striped-rugby-knit",
+      "producerId": "female-04-02",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-04.forest-green-and-ivory-striped-rugby-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/9c862db4-7cbd-4fba-be59-d5c2ac77a133.png",
+      "producerImage": "product-batch/webp/female-04-02.webp",
+      "name": {
+        "ko": "포레스트 그린·아이보리 스트라이프 럭비 니트",
+        "en": "Forest green and ivory striped rugby knit",
+        "de": "Waldgrün-elfenbeinfarbener Rugby-Strickpullover"
+      },
+      "nameKo": "포레스트 그린·아이보리 스트라이프 럭비 니트",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 포레스트 그린·아이보리 스트라이프 럭비 니트.",
+        "en": "Forest green and ivory striped rugby knit, recreated from the editorial outfit.",
+        "de": "Waldgrün-elfenbeinfarbener Rugby-Strickpullover, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "줄무늬가 가로로 곧게 보이도록 밑단을 바지 허리 위에 평평하게 내려 두세요.",
+        "en": "Let the hem sit flat over the waistband so the stripes run straight across.",
+        "de": "Den Saum flach über dem Hosenbund lassen, damit die Streifen gerade verlaufen."
+      },
+      "sourceHowToWear": {
+        "ko": "겉옷 안에 입고 목선이나 소매의 질감이 보이게 정리하세요.",
+        "en": "Layer it under the jacket and let the neckline or cuffs show.",
+        "de": "Unter der Jacke tragen und Ausschnitt oder Bündchen sichtbar lassen."
+      },
+      "image": "products/forest-green-and-ivory-striped-rugby-knit.webp",
+      "sha256": "b14b8e30a6b8a62ef9184884a9d14498580ec385bc7837d82baaff9592a84510",
+      "bytes": 37604,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "forest-wool-scarf",
+      "producerId": "female-04-03",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-04.forest-wool-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/23e3a9e9-48dd-44bb-ae9e-0c2c70e0223e.png",
+      "producerImage": "product-batch/webp/female-04-03.webp",
+      "name": {
+        "ko": "포레스트 그린 울 스카프",
+        "en": "Forest wool scarf",
+        "de": "Waldgrüner Wollschal"
+      },
+      "nameKo": "포레스트 그린 울 스카프",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 포레스트 그린 울 스카프.",
+        "en": "Forest wool scarf, recreated from the editorial outfit.",
+        "de": "Waldgrüner Wollschal, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "목에 가볍게 감아 양끝을 니트 줄무늬 위로 길게 늘어뜨리세요.",
+        "en": "Wrap it lightly and let both ends fall long over the stripes.",
+        "de": "Locker umlegen und beide Enden lang über die Streifen fallen lassen."
+      },
+      "sourceHowToWear": {
+        "ko": "목에 한 번 감고 한쪽 끝을 길게 늘어뜨려 보세요.",
+        "en": "Wrap once at the neck and let one end hang longer.",
+        "de": "Einmal um den Hals legen und ein Ende länger hängen lassen."
+      },
+      "image": "products/forest-wool-scarf.webp",
+      "sha256": "4a37b7648fad36f0b156fdfa39128e175385b9842258d2a78cfbadb06074d9c1",
+      "bytes": 38626,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "deep-indigo-wide-straight-jeans",
+      "producerId": "female-04-04",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-04.deep-indigo-wide-straight-jeans",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/ef511285-0296-42b1-a548-d13749930c60.png",
+      "producerImage": "product-batch/webp/female-04-04.webp",
+      "name": {
+        "ko": "진청 와이드 스트레이트 데님",
+        "en": "Deep indigo wide straight jeans",
+        "de": "Dunkelblaue Jeans mit weitem geradem Bein"
+      },
+      "nameKo": "진청 와이드 스트레이트 데님",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 진청 와이드 스트레이트 데님.",
+        "en": "Deep indigo wide straight jeans, recreated from the editorial outfit.",
+        "de": "Dunkelblaue Jeans mit weitem geradem Bein, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "허리를 니트 아래 높게 두고 넓은 통이 부츠 끈을 반쯤 덮게 입으세요.",
+        "en": "Wear them high under the knit, the wide legs covering half the boot laces.",
+        "de": "Hoch unter dem Strick tragen, die weiten Beine bedecken die Stiefelschnürung zur Hälfte."
+      },
+      "sourceHowToWear": {
+        "ko": "부츠 위로 밑단이 자연스럽게 떨어지도록 길이를 맞춰보세요.",
+        "en": "Let the hem fall naturally over the top of the boots.",
+        "de": "Den Saum locker über dem Stiefelschaft fallen lassen."
+      },
+      "image": "products/deep-indigo-wide-straight-jeans.webp",
+      "sha256": "47bd3a9d529a04d29de28684790f066e917881872f0050a8a27fb86cce2f8938",
+      "bytes": 23746,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "black-gloves",
+      "producerId": "female-04-05",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-04.black-gloves",
+      "appCategory": "hands",
+      "producerCategory": "hands",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/6e59d0bf-7d68-48bf-b063-2034883d4c2f.png",
+      "producerImage": "product-batch/webp/female-04-05.webp",
+      "name": {
+        "ko": "블랙 장갑",
+        "en": "Black gloves pair",
+        "de": "Schwarze Handschuhe"
+      },
+      "nameKo": "블랙 장갑",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 블랙 장갑.",
+        "en": "Black gloves pair, recreated from the editorial outfit.",
+        "de": "Schwarze Handschuhe, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "컵을 들지 않은 손에도 끼고 다녀야 체감 3°C의 바람이 손끝에 닿지 않아요.",
+        "en": "Keep both on, even the hand not holding the cup; at a feels-like of 3°C the wind finds bare fingertips.",
+        "de": "Beide anlassen, auch an der Hand ohne Becher – bei gefühlt 3 °C findet der Wind jede nackte Fingerspitze."
+      },
+      "sourceHowToWear": {
+        "ko": "손목을 덮고 겉옷 소매 아래로 장갑 끝을 넣어보세요.",
+        "en": "Cover the wrists and tuck the glove cuffs under the jacket sleeves.",
+        "de": "Die Handgelenke bedecken und die Handschuhbündchen unter die Jackenärmel schieben."
+      },
+      "image": "products/black-gloves.webp",
+      "sha256": "c888d5333326e93dc0b85a5ae9633704378349a7268d365de2a31b4a7d813ad0",
+      "bytes": 32238,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "gray-lace-up-boots",
+      "producerId": "female-04-06",
+      "appItemId": "eu-overcast-chilly-f-day-casual-20261112-04.gray-lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/4fcb04f1-732e-490b-9ee6-bbf7479358b8.png",
+      "producerImage": "product-batch/webp/female-04-06.webp",
+      "name": {
+        "ko": "그레이 레이스업 부츠",
+        "en": "Gray lace-up boots pair",
+        "de": "Graue Schnürstiefel"
+      },
+      "nameKo": "그레이 레이스업 부츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 그레이 레이스업 부츠.",
+        "en": "Gray lace-up boots pair, recreated from the editorial outfit.",
+        "de": "Graue Schnürstiefel, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "회색 부츠는 짙은 양말과 신어 바지 밑단과 자연스럽게 이어지게 하세요.",
+        "en": "Pair the grey boots with dark socks so they flow into the jean hems.",
+        "de": "Die grauen Stiefel mit dunklen Socken tragen, damit sie fließend in den Jeanssaum übergehen."
+      },
+      "sourceHowToWear": {
+        "ko": "도톰한 양말과 함께 신고 끈을 발목에서 편하게 고정하세요.",
+        "en": "Wear with substantial socks and secure the laces comfortably at the ankle.",
+        "de": "Mit dickeren Socken tragen und die Schnürsenkel am Knöchel bequem binden."
+      },
+      "image": "products/gray-lace-up-boots.webp",
+      "sha256": "d19ce07adb441bc6006fc55d5391541aa94324cdfa45aae13d8f4e1229fbe9eb",
+      "bytes": 29824,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b222"
+}

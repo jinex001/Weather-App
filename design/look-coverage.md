@@ -16,9 +16,9 @@
 | 맑음 | 남 | 저녁 | 5 기사 (b132) | 5 기사 (b131, 30제품) | 5 기사 (b130) | `Sunny/Chilly/Male/35+/night/` |
 | 맑음 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Sunny/Chilly/Female/35+/day/` (b124) |
 | 맑음 | 여 | 저녁 | 5 기사 (b138, 40제품, 홈 컷 b139) | 5 기사 (b140, 42제품) | 5 기사 (b129) | `Sunny/Chilly/Female/35+/night/` |
-| 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` 28제품 b147에 투명 WebP로 교체 + b145 두 번째 세트 28제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
+| 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` 28제품 b147에 투명 WebP로 교체 + b145 두 번째 세트 28제품, 투명 WebP) + european-urban 장소에서 b222 5룩(33제품) = 15 | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
 | 흐림 | 남 | 저녁 | **✕** | 5 기사 (b143, 21제품, 투명 WebP) | 5 기사 | `Overcast/Chilly/Male/35+/night/<06–10-street · minimal>/` |
-| 흐림 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Overcast/Chilly/Female/35+/day/` |
+| 흐림 | 여 | 낮 | 5 기사 | 5 기사 + european-urban 장소에서 b222 5룩(33제품) = 10 | 5 기사 | `Overcast/Chilly/Female/35+/day/` |
 | 흐림 | 여 | 저녁 | 10 기사 (기존 5 + b153 2026-10-25 세트 29제품) | 10 기사 (기존 5 + b153 32제품) | 10 기사 (기존 5 + b153 34제품) | `Overcast/Chilly/Female/35+/night/` (b153 세트는 `<running·street·minimal>-20261025/<01–15>/`, 투명 WebP) |
 | 가벼운 비 | 남 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Rain/Light/Chilly/Male/35+/day/<스타일>/` |
 | 가벼운 비 | 남 | 저녁 | 5 기사 (b158, 30제품, 투명 WebP) | 5 기사 (b161, 25제품, 투명 WebP) | **✕** | `Rain/Light/Chilly/Male/35+/night/running-20261025/<01–05>/`, 스트리트는 `street/<01–05>/` |
@@ -345,4 +345,8 @@ Snow · cold · female · day · running, 5 Picsart editorials the user explicit
 ## b221 · Snow Cold male day running · European urban · 2026-11-12
 
 Snow · cold · male · day · running, 5 Picsart editorials the user explicitly approved for this batch and 36 transparent products (7/7/7/7/8, Codex built-in image_gen, producer QA only, no individual product approval). Reviewed european-urban, humidity unknown, temperature and feels-like null (snow and cold are production settings), storage 35+, model look 28–32, audience 30–44. b216 snow selector reused unchanged: on snow codes 71/73/75/77/85/86 in a european-urban place, a cold or chilly day male running draws these 5 (home running card, running sheet, day sheet); the mixed-style calendar card on a male snow day is a male snow look of any of the three styles. The five earlier snow sets (b216–b220) and every other weather, region, style, gender, evening and band keep their b220 looks and order. Very cold and colder snow days stay COMING SOON. With this set every style × gender has a european-urban cold day snow set. [Validation](european-urban-snow-cold-male-day-running-picsart-20261112-validation.md).
+
+## b222 · Overcast Chilly day casual (street) expansion · European urban · 2026-11-12
+
+Dry cloudy · chilly · day · street (the app's casual pool; tab label Streetwear/스트리트, key `street`), 5 female + 5 male looks, 66 transparent Picsart products (7/8/7/6/6 · 7/6/6/6/7). Reviewed european-urban, humidity unknown; 6°C / feels 3°C is a production setting, not a measurement. Appended to the existing pools: in a european-urban place the dry cloudy chilly day street draw is female 5 → 10 looks, male 10 → 15; the same looks are cold/cool neighbours. b222 region-rank tie (`look/global-context.js`): there, region-unknown Berlin looks rank like european-urban looks, so the new looks share the random 3 (first-slot share 0.507 f / 0.312 m over 3000 seeds vs 0.5 / 0.333 expected). Clear, rain, snow (cold/chilly with snow looks), evening, run, Chic and other regions keep their b221 looks. [Validation](european-urban-overcast-chilly-day-casual-expansion-20261112-validation.md).
 

@@ -1,0 +1,425 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-overcast-chilly-m-day-casual-20261112-04",
+  "batchId": "european-urban-overcast-chilly-day-casual-expansion-20261112",
+  "producerLookId": "male-04",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street",
+    "producerStyle": "casual"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "precipitation": "none",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "stylingAssumption": {
+    "temperatureC": 6,
+    "feelsLikeC": 3,
+    "note": "Production setting from APP_MAPPING.json, not a measurement."
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "chilly",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of the approved editorial: an ordinary European brick-and-stone street in dry, overcast late-autumn daylight with fallen leaves, no rain or snow depicted. 6°C / feels 3°C (chilly) is the production styling setting, not a measurement; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      25,
+      28
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "READY.json userApprovedEditorials true; APPROVAL.json currentBatchHandoffAndPublicationAuthorized true, source 'editorial-v3 except male/04 from editorial-v5'. The earlier EDITORIAL_QA snapshots still say awaiting review. Products: Picsart, producer technical and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "1e16a753918f659b8520fb84120e8bde08259d2606cebd79a39b3bd3ab756889",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "originals/editorial-v5/male/04.png (APPROVAL.json: 'editorial-v3 except male/04 from editorial-v5'; v5 has no prompt record of its own, the preceding v4 record is Codex image_gen, apparent age 27–28)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-overcast-chilly-m-day-casual-20261112-04",
+  "appStyle": "street",
+  "appSky": "cloudy",
+  "appModule": "look/european-urban-overcast-chilly-day-casual-expansion-20261112.js",
+  "appHeroItem": "eu-overcast-chilly-m-day-casual-20261112-04.cobalt-ribbed-zip-knit",
+  "scenePropsNotProducts": [
+    "tram-stop bench",
+    "tram"
+  ],
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "productCount": 66,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/male-04.jpg"
+    ],
+    "findings": [
+      "Exact garment construction where obscured is a visual reconstruction.",
+      "Male 05 brown gloves read as knit in the cutout and are labeled accordingly."
+    ]
+  },
+  "copy": {
+    "titleEn": "COBALT KNIT AT THE TRAM STOP",
+    "title": {
+      "ko": "정류장의 코발트 니트",
+      "en": "Cobalt knit at the tram stop",
+      "de": "Kobaltblauer Strick an der Haltestelle"
+    },
+    "deck": {
+      "ko": "트램을 기다리며 벤치에 앉아 풀린 부츠 끈을 다시 묶는 차림.",
+      "en": "Retying a loose bootlace on the bench while the tram is on its way.",
+      "de": "Auf der Bank an der Haltestelle den Stiefel neu schnüren, während die Tram kommt."
+    },
+    "intro": {
+      "ko": "트램 정류장 벤치에 걸터앉아 풀린 끈을 당깁니다. 차콜과 그래파이트 사이에서 코발트 집업 니트가 목과 손목에 선명한 파랑을 남깁니다.",
+      "en": "Perched on the tram-stop bench, he pulls a loose lace tight. Between charcoal and graphite, the cobalt zip knit leaves a sharp blue at neck and wrists.",
+      "de": "Auf der Bank der Tramhaltestelle zieht er einen losen Schnürsenkel fest. Zwischen Anthrazit und Graphit setzt der kobaltblaue Strick am Hals und an den Handgelenken ein klares Blau."
+    },
+    "body": {
+      "ko": "그래파이트 울 스카프까지 더해 목과 몸통을 따뜻하게 감쌉니다.",
+      "en": "Finish the layers with graphite wool scarf.",
+      "de": "Graphitfarbener Wollschal ergänzt die Lagen."
+    },
+    "pull": {
+      "ko": "차콜 크롭 울 블루종",
+      "en": "Charcoal cropped wool blouson",
+      "de": "Kurzer anthrazitfarbener Wollblouson"
+    },
+    "pullQuoteEn": "Charcoal cropped wool blouson",
+    "tip": {
+      "ko": "코발트는 목과 손목, 두 군데에서만 보이게 두면 어두운 아우터 속에서 더 또렷해요.",
+      "en": "Let the cobalt show in just two places — neck and wrists — and it pops against the dark outer.",
+      "de": "Das Kobaltblau nur an zwei Stellen zeigen – Hals und Handgelenke –, dann leuchtet es vor der dunklen Jacke."
+    },
+    "sourceCopy": {
+      "ko": {
+        "deck": "차콜 크롭 울 블루종에 코발트 리브 집업 니트을 겹친 초겨울 캐주얼.",
+        "intro": "기온 6°C, 체감 3°C의 흐린 낮을 위한 차림입니다.",
+        "tip": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요."
+      },
+      "en": {
+        "deck": "Charcoal cropped wool blouson over cobalt ribbed zip knit for an early-winter casual look.",
+        "intro": "For an overcast day at 6°C that feels like 3°C.",
+        "tip": "Wear it over knitwear and leave the front slightly open to show the layer."
+      },
+      "de": {
+        "deck": "Kurzer anthrazitfarbener Wollblouson über Kobaltblauer Rippstrickpullover mit Reißverschluss für einen lässigen Start in den Winter.",
+        "intro": "Für einen bedeckten Tag bei 6 °C, gefühlt 3 °C.",
+        "tip": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      }
+    },
+    "rewriteReason": "b222 Claude Code copy rewrite under design/IMAGE_MAPPING_HANDOFF.md 5-1: delivered intro and tip were one sentence for all 10 looks (tip = the outer's how-to-wear), product how-to-wear used 9 template sentences for 66 products, decks listed product names (ko particle error '니트을', de case errors). Titles, pulls, bodies and product names/descriptions are kept verbatim; rewritten fields keep the delivered text in source* fields. Written from the 10 approved editorials."
+  },
+  "products": [
+    {
+      "id": "charcoal-cropped-wool-blouson",
+      "producerId": "male-04-01",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-04.charcoal-cropped-wool-blouson",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/df8fc3fc-5f23-4cd4-b99c-1a90f33b1346.png",
+      "producerImage": "product-batch/webp/male-04-01.webp",
+      "name": {
+        "ko": "차콜 크롭 울 블루종",
+        "en": "Charcoal cropped wool blouson",
+        "de": "Kurzer anthrazitfarbener Wollblouson"
+      },
+      "nameKo": "차콜 크롭 울 블루종",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 차콜 크롭 울 블루종.",
+        "en": "Charcoal cropped wool blouson, recreated from the editorial outfit.",
+        "de": "Kurzer anthrazitfarbener Wollblouson, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "짧은 블루종은 앞을 열고 허리선 위에서 끝나게 입어 니트의 파랑이 길게 보이게 하세요.",
+        "en": "Wear the short blouson open, ending above the waist, so the blue knit runs long.",
+        "de": "Den kurzen Blouson offen tragen, er endet über der Taille, damit der blaue Strick lang wirkt."
+      },
+      "sourceHowToWear": {
+        "ko": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요.",
+        "en": "Wear it over knitwear and leave the front slightly open to show the layer.",
+        "de": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      },
+      "image": "products/charcoal-cropped-wool-blouson.webp",
+      "sha256": "52f064eea0c08cd086c57c193bcce373417a3cbd1dde1aada4f147df83b235e8",
+      "bytes": 33394,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "cobalt-ribbed-zip-knit",
+      "producerId": "male-04-02",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-04.cobalt-ribbed-zip-knit",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/293e0f7f-58a6-4077-8584-e562c6491236.png",
+      "producerImage": "product-batch/webp/male-04-02.webp",
+      "name": {
+        "ko": "코발트 리브 집업 니트",
+        "en": "Cobalt ribbed zip knit",
+        "de": "Kobaltblauer Rippstrickpullover mit Reißverschluss"
+      },
+      "nameKo": "코발트 리브 집업 니트",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 코발트 리브 집업 니트.",
+        "en": "Cobalt ribbed zip knit, recreated from the editorial outfit.",
+        "de": "Kobaltblauer Rippstrickpullover mit Reißverschluss, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "지퍼를 목 끝까지 올리고 소매 리브를 장갑 위로 접어 올려 파란 띠를 만드세요.",
+        "en": "Zip it to the top and fold the rib cuffs over the gloves for a band of blue.",
+        "de": "Bis oben schließen und die Rippbündchen über die Handschuhe schlagen – ein blaues Band."
+      },
+      "sourceHowToWear": {
+        "ko": "겉옷 안에 입고 목선이나 소매의 질감이 보이게 정리하세요.",
+        "en": "Layer it under the jacket and let the neckline or cuffs show.",
+        "de": "Unter der Jacke tragen und Ausschnitt oder Bündchen sichtbar lassen."
+      },
+      "image": "products/cobalt-ribbed-zip-knit.webp",
+      "sha256": "25c4282f67d5b5566d0af1ebae648a25ece0201d36e64f34625dd04ecfc1173e",
+      "bytes": 41826,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "graphite-wool-scarf",
+      "producerId": "male-04-03",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-04.graphite-wool-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/59e2bfd0-b58e-4f18-a8b7-e08fdfc71d2e.png",
+      "producerImage": "product-batch/webp/male-04-03.webp",
+      "name": {
+        "ko": "그래파이트 울 스카프",
+        "en": "Graphite wool scarf",
+        "de": "Graphitfarbener Wollschal"
+      },
+      "nameKo": "그래파이트 울 스카프",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 그래파이트 울 스카프.",
+        "en": "Graphite wool scarf, recreated from the editorial outfit.",
+        "de": "Graphitfarbener Wollschal, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "목 뒤에서 한쪽 어깨로 비스듬히 넘겨 걸쳐 니트 지퍼 라인을 가리지 마세요.",
+        "en": "Drape it from the back of the neck over one shoulder at an angle, keeping the knit's zip line clear.",
+        "de": "Vom Nacken schräg über eine Schulter legen, sodass die Reißverschlusslinie des Pullovers frei bleibt."
+      },
+      "sourceHowToWear": {
+        "ko": "목에 한 번 감고 한쪽 끝을 길게 늘어뜨려 보세요.",
+        "en": "Wrap once at the neck and let one end hang longer.",
+        "de": "Einmal um den Hals legen und ein Ende länger hängen lassen."
+      },
+      "image": "products/graphite-wool-scarf.webp",
+      "sha256": "b8dfd7071e580db9997b51bd913b3341a34d398f609ddafc64619bb8f346dcff",
+      "bytes": 44792,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "charcoal-knit-gloves",
+      "producerId": "male-04-04",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-04.charcoal-knit-gloves",
+      "appCategory": "hands",
+      "producerCategory": "hands",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/b39a6f3b-3c55-47e0-8c8e-bf8379a47de3.png",
+      "producerImage": "product-batch/webp/male-04-04.webp",
+      "name": {
+        "ko": "차콜 니트 장갑",
+        "en": "Charcoal knit gloves pair",
+        "de": "Anthrazitfarbene Strickhandschuhe"
+      },
+      "nameKo": "차콜 니트 장갑",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 차콜 니트 장갑.",
+        "en": "Charcoal knit gloves pair, recreated from the editorial outfit.",
+        "de": "Anthrazitfarbene Strickhandschuhe, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "얇은 니트 장갑이라 낀 채로 부츠 끈도 묶을 수 있어요. 손가락 끝까지 당겨 끼세요.",
+        "en": "Thin enough to tie a bootlace with them on; pull them snug to the fingertips.",
+        "de": "Dünn genug, um damit Schnürsenkel zu binden; bis in die Fingerspitzen straff ziehen."
+      },
+      "sourceHowToWear": {
+        "ko": "손목을 덮고 겉옷 소매 아래로 장갑 끝을 넣어보세요.",
+        "en": "Cover the wrists and tuck the glove cuffs under the jacket sleeves.",
+        "de": "Die Handgelenke bedecken und die Handschuhbündchen unter die Jackenärmel schieben."
+      },
+      "image": "products/charcoal-knit-gloves.webp",
+      "sha256": "75e45dc0e81eb00de16a19b99bfa225d9448ab185ebc3b8004da090225c2652c",
+      "bytes": 43594,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "dark-straight-denim",
+      "producerId": "male-04-05",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-04.dark-straight-denim",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/3f48021a-f02f-4112-8e21-10d25e27d2b2.png",
+      "producerImage": "product-batch/webp/male-04-05.webp",
+      "name": {
+        "ko": "다크 스트레이트 데님",
+        "en": "Dark straight denim",
+        "de": "Dunkle Jeans mit geradem Bein"
+      },
+      "nameKo": "다크 스트레이트 데님",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 다크 스트레이트 데님.",
+        "en": "Dark straight denim, recreated from the editorial outfit.",
+        "de": "Dunkle Jeans mit geradem Bein, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "곧은 데님은 접지 말고 밑단이 부츠 위에 한 번 쌓이게 길게 두세요.",
+        "en": "Leave the straight denim uncuffed and long enough to stack once on the boots.",
+        "de": "Die gerade Jeans nicht umschlagen, lang genug, damit sie einmal auf den Stiefeln aufliegt."
+      },
+      "sourceHowToWear": {
+        "ko": "부츠 위로 밑단이 자연스럽게 떨어지도록 길이를 맞춰보세요.",
+        "en": "Let the hem fall naturally over the top of the boots.",
+        "de": "Den Saum locker über dem Stiefelschaft fallen lassen."
+      },
+      "image": "products/dark-straight-denim.webp",
+      "sha256": "83adee4a72dbb75e4822a8b7b15c3817c773176340ee484d4e72bfdec6bac2d0",
+      "bytes": 21602,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "slate-gray-suede-lace-up-boots",
+      "producerId": "male-04-06",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-04.slate-gray-suede-lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/deaed482-e144-4d26-a158-a9fa27d16656.png",
+      "producerImage": "product-batch/webp/male-04-06.webp",
+      "name": {
+        "ko": "슬레이트 그레이 스웨이드 레이스업 부츠",
+        "en": "Slate gray suede lace-up boots pair",
+        "de": "Schiefergraue Schnürstiefel aus Veloursleder"
+      },
+      "nameKo": "슬레이트 그레이 스웨이드 레이스업 부츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 슬레이트 그레이 스웨이드 레이스업 부츠.",
+        "en": "Slate gray suede lace-up boots pair, recreated from the editorial outfit.",
+        "de": "Schiefergraue Schnürstiefel aus Veloursleder, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "슬레이트 스웨이드가 데님 색을 부드럽게 받아 주니 끈은 발등에서 고르게 당겨 묶으세요.",
+        "en": "Slate suede softens into the denim; pull the laces evenly across the instep.",
+        "de": "Schiefergraues Veloursleder nimmt den Denimton weich auf; die Schnürung über dem Rist gleichmäßig anziehen."
+      },
+      "sourceHowToWear": {
+        "ko": "도톰한 양말과 함께 신고 끈을 발목에서 편하게 고정하세요.",
+        "en": "Wear with substantial socks and secure the laces comfortably at the ankle.",
+        "de": "Mit dickeren Socken tragen und die Schnürsenkel am Knöchel bequem binden."
+      },
+      "image": "products/slate-gray-suede-lace-up-boots.webp",
+      "sha256": "2699dfcc7ced945584b58d04284928fd5a3b45f60a2ff2dca600930787babbf6",
+      "bytes": 28784,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b222"
+}

@@ -1,0 +1,425 @@
+{
+  "schemaVersion": "1.0",
+  "id": "eu-overcast-chilly-m-day-casual-20261112-02",
+  "batchId": "european-urban-overcast-chilly-day-casual-expansion-20261112",
+  "producerLookId": "male-02",
+  "category": {
+    "weather": "Overcast",
+    "temperatureBand": "Chilly",
+    "gender": "Male",
+    "ageGroup": "35+",
+    "timeOfDay": "day",
+    "style": "street",
+    "producerStyle": "casual"
+  },
+  "weather": {
+    "city": null,
+    "condition": "cloudy",
+    "precipitation": "none",
+    "timeOfDay": "day",
+    "temperatureC": null,
+    "feelsLikeC": null,
+    "feelsLikeBand": "chilly",
+    "isLiveMeasurement": false
+  },
+  "stylingAssumption": {
+    "temperatureC": 6,
+    "feelsLikeC": 3,
+    "note": "Production setting from APP_MAPPING.json, not a measurement."
+  },
+  "sourceCity": null,
+  "visualRegion": "european-urban",
+  "climateContext": {
+    "feelsLikeBand": "chilly",
+    "humidityContext": "unknown",
+    "relativeHumidityPct": null,
+    "windKmh": null
+  },
+  "contextReview": {
+    "status": "reviewed",
+    "basis": "Producer review of the approved editorial: an ordinary European brick-and-stone street in dry, overcast late-autumn daylight with fallen leaves, no rain or snow depicted. 6°C / feels 3°C (chilly) is the production styling setting, not a measurement; humidity unknown."
+  },
+  "casting": {
+    "modelAppearanceAgeRange": [
+      28,
+      32
+    ],
+    "audienceAgeRange": [
+      30,
+      44
+    ],
+    "audienceStorageGroup": "35+"
+  },
+  "approval": {
+    "editorial": "user-approved",
+    "evidence": "READY.json userApprovedEditorials true; APPROVAL.json currentBatchHandoffAndPublicationAuthorized true, source 'editorial-v3 except male/04 from editorial-v5'. The earlier EDITORIAL_QA snapshots still say awaiting review. Products: Picsart, producer technical and four-background visual QA only.",
+    "individualProductHumanApproval": false,
+    "perProductUserVisualApproval": false
+  },
+  "editorialImage": "editorial.jpg",
+  "editorialSha256": "fb97f5653c4110bb392dfc5c367995863719867c636f3508c494bd234e41193d",
+  "editorialDimensions": [
+    1024,
+    1536
+  ],
+  "editorialSource": "Picsart gpt-image-2.6-sunburst (originals/picsart/PROMPTS.json, PICSART_JOBS/RESULTS.json; editorial-v3 keeps the same master)",
+  "productCount": 6,
+  "productImagesComplete": true,
+  "contentType": "ai-styled-concept",
+  "productionStatus": "ready",
+  "mappingStatus": "mapped",
+  "appOutfitId": "eu-overcast-chilly-m-day-casual-20261112-02",
+  "appStyle": "street",
+  "appSky": "cloudy",
+  "appModule": "look/european-urban-overcast-chilly-day-casual-expansion-20261112.js",
+  "appHeroItem": "eu-overcast-chilly-m-day-casual-20261112-02.indigo-denim-jacket-with-brown-collar",
+  "scenePropsNotProducts": [
+    "fruit crates",
+    "apple"
+  ],
+  "producerVisualReview": {
+    "status": "reviewed",
+    "producerReview": true,
+    "userProductVisualApproval": false,
+    "reviewer": "producer (Codex)",
+    "productCount": 66,
+    "backgrounds": [
+      "white",
+      "black",
+      "gray",
+      "app"
+    ],
+    "reviewedSheets": [
+      "qa/male-02.jpg"
+    ],
+    "findings": [
+      "Exact garment construction where obscured is a visual reconstruction.",
+      "Male 05 brown gloves read as knit in the cutout and are labeled accordingly."
+    ]
+  },
+  "copy": {
+    "titleEn": "MARKET-DAY DENIM",
+    "title": {
+      "ko": "마켓 데님",
+      "en": "Market-day denim",
+      "de": "Denim für den Markt"
+    },
+    "deck": {
+      "ko": "과일 가게 앞에서 사과 하나를 들어 보는 장날의 데님 차림.",
+      "en": "Weighing an apple at the grocer's, in market-day denim.",
+      "de": "Am Obststand einen Apfel prüfen – Denim für den Markttag."
+    },
+    "intro": {
+      "ko": "장 보러 나온 흐린 오후, 잘 익은 사과를 골라 들어 봅니다. 브라운 칼라 데님 재킷 아래로 버건디 체크가 겹쳐 과일 상자 색과 어울립니다.",
+      "en": "A grey market afternoon, picking out a ripe apple. Under the brown-collared denim jacket, burgundy check layers in with the colours of the fruit crates.",
+      "de": "Ein grauer Marktnachmittag, ein reifer Apfel wird ausgesucht. Unter der Jeansjacke mit braunem Kragen fügt sich das bordeauxrote Karo in die Farben der Obstkisten."
+    },
+    "body": {
+      "ko": "차콜 스카프까지 더해 목과 몸통을 따뜻하게 감쌉니다.",
+      "en": "Finish the layers with charcoal scarf.",
+      "de": "Anthrazitfarbener Schal ergänzt die Lagen."
+    },
+    "pull": {
+      "ko": "브라운 칼라 인디고 데님 재킷",
+      "en": "Indigo denim jacket with brown collar",
+      "de": "Indigoblaue Jeansjacke mit braunem Kragen"
+    },
+    "pullQuoteEn": "Indigo denim jacket with brown collar",
+    "tip": {
+      "ko": "데님 재킷과 네이비 바지처럼 같은 계열 파랑을 위아래로 쓰면 체크 셔츠가 자연스러운 중심이 돼요.",
+      "en": "Blue on top and bottom — denim and navy — lets the check shirt become the natural centre.",
+      "de": "Blau oben und unten – Denim und Marine – macht das Karohemd zur natürlichen Mitte."
+    },
+    "sourceCopy": {
+      "ko": {
+        "deck": "브라운 칼라 인디고 데님 재킷에 버건디 체크 오버셔츠을 겹친 초겨울 캐주얼.",
+        "intro": "기온 6°C, 체감 3°C의 흐린 낮을 위한 차림입니다.",
+        "tip": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요."
+      },
+      "en": {
+        "deck": "Indigo denim jacket with brown collar over burgundy plaid overshirt for an early-winter casual look.",
+        "intro": "For an overcast day at 6°C that feels like 3°C.",
+        "tip": "Wear it over knitwear and leave the front slightly open to show the layer."
+      },
+      "de": {
+        "deck": "Indigoblaue Jeansjacke mit braunem Kragen über Bordeauxrotes Karo-Overshirt für einen lässigen Start in den Winter.",
+        "intro": "Für einen bedeckten Tag bei 6 °C, gefühlt 3 °C.",
+        "tip": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      }
+    },
+    "rewriteReason": "b222 Claude Code copy rewrite under design/IMAGE_MAPPING_HANDOFF.md 5-1: delivered intro and tip were one sentence for all 10 looks (tip = the outer's how-to-wear), product how-to-wear used 9 template sentences for 66 products, decks listed product names (ko particle error '니트을', de case errors). Titles, pulls, bodies and product names/descriptions are kept verbatim; rewritten fields keep the delivered text in source* fields. Written from the 10 approved editorials."
+  },
+  "products": [
+    {
+      "id": "indigo-denim-jacket-with-brown-collar",
+      "producerId": "male-02-01",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-02.indigo-denim-jacket-with-brown-collar",
+      "appCategory": "outer",
+      "producerCategory": "outer",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/048ab00d-6368-4c5a-bee2-d5c4d92fddc4.png",
+      "producerImage": "product-batch/webp/male-02-01.webp",
+      "name": {
+        "ko": "브라운 칼라 인디고 데님 재킷",
+        "en": "Indigo denim jacket with brown collar",
+        "de": "Indigoblaue Jeansjacke mit braunem Kragen"
+      },
+      "nameKo": "브라운 칼라 인디고 데님 재킷",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 브라운 칼라 인디고 데님 재킷.",
+        "en": "Indigo denim jacket with brown collar, recreated from the editorial outfit.",
+        "de": "Indigoblaue Jeansjacke mit braunem Kragen, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "앞을 열어 입고 브라운 칼라는 세우지 말고 눕혀 데님과 대비되게 두세요.",
+        "en": "Wear it open with the brown collar laid flat against the denim for contrast.",
+        "de": "Offen tragen, den braunen Kragen flach auf dem Denim liegen lassen – als Kontrast."
+      },
+      "sourceHowToWear": {
+        "ko": "니트 위에 입고 앞섶을 살짝 열어 레이어를 보여주세요.",
+        "en": "Wear it over knitwear and leave the front slightly open to show the layer.",
+        "de": "Über Strick tragen und vorne leicht offen lassen, damit die Schicht sichtbar bleibt."
+      },
+      "image": "products/indigo-denim-jacket-with-brown-collar.webp",
+      "sha256": "e9e3598fc9fa7ef243ba253e32480acd93560ddd5a99c17558943c68796f2655",
+      "bytes": 45708,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "burgundy-plaid-overshirt",
+      "producerId": "male-02-02",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-02.burgundy-plaid-overshirt",
+      "appCategory": "top",
+      "producerCategory": "top",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/f539fabc-2646-4e3b-83ee-d54e6145ed6b.png",
+      "producerImage": "product-batch/webp/male-02-02.webp",
+      "name": {
+        "ko": "버건디 체크 오버셔츠",
+        "en": "Burgundy plaid overshirt",
+        "de": "Bordeauxrotes Karo-Overshirt"
+      },
+      "nameKo": "버건디 체크 오버셔츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 버건디 체크 오버셔츠.",
+        "en": "Burgundy plaid overshirt, recreated from the editorial outfit.",
+        "de": "Bordeauxrotes Karo-Overshirt, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "단추를 모두 풀고 재킷 밑단보다 조금 길게 내려 체크가 한 줄 더 보이게 하세요.",
+        "en": "Leave it fully unbuttoned and a touch longer than the jacket so one more band of check shows.",
+        "de": "Ganz offen tragen, etwas länger als die Jacke, damit noch ein Streifen Karo zu sehen ist."
+      },
+      "sourceHowToWear": {
+        "ko": "겉옷 안에 입고 목선이나 소매의 질감이 보이게 정리하세요.",
+        "en": "Layer it under the jacket and let the neckline or cuffs show.",
+        "de": "Unter der Jacke tragen und Ausschnitt oder Bündchen sichtbar lassen."
+      },
+      "image": "products/burgundy-plaid-overshirt.webp",
+      "sha256": "38609ec256c667895dd3fc58c3db31c3120b49c8e5794754e763e5f3bd291983",
+      "bytes": 43142,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "charcoal-scarf",
+      "producerId": "male-02-03",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-02.charcoal-scarf",
+      "appCategory": "scarf",
+      "producerCategory": "scarf",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/e434fcab-0494-4cc0-9029-2ca39f87d9e9.png",
+      "producerImage": "product-batch/webp/male-02-03.webp",
+      "name": {
+        "ko": "차콜 스카프",
+        "en": "Charcoal scarf",
+        "de": "Anthrazitfarbener Schal"
+      },
+      "nameKo": "차콜 스카프",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 차콜 스카프.",
+        "en": "Charcoal scarf, recreated from the editorial outfit.",
+        "de": "Anthrazitfarbener Schal, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "목에 한 번 감고 양끝을 셔츠 앞섶 위로 내려 체크를 반쯤 가리세요.",
+        "en": "Wrap once and let the ends run down the shirt placket, half-covering the check.",
+        "de": "Einmal umwickeln und die Enden über die Knopfleiste fallen lassen, das Karo halb verdeckt."
+      },
+      "sourceHowToWear": {
+        "ko": "목에 한 번 감고 한쪽 끝을 길게 늘어뜨려 보세요.",
+        "en": "Wrap once at the neck and let one end hang longer.",
+        "de": "Einmal um den Hals legen und ein Ende länger hängen lassen."
+      },
+      "image": "products/charcoal-scarf.webp",
+      "sha256": "d03d10a37a4fcc8c009e3f8bcb5b89f7bd12736f6255032a42722ba031e94bda",
+      "bytes": 32366,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "black-gloves",
+      "producerId": "male-02-04",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-02.black-gloves",
+      "appCategory": "hands",
+      "producerCategory": "hands",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/68091285-bb1b-4bcb-93b0-863b44f7b515.png",
+      "producerImage": "product-batch/webp/male-02-04.webp",
+      "name": {
+        "ko": "블랙 장갑",
+        "en": "Black gloves pair",
+        "de": "Schwarze Handschuhe"
+      },
+      "nameKo": "블랙 장갑",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 블랙 장갑.",
+        "en": "Black gloves pair, recreated from the editorial outfit.",
+        "de": "Schwarze Handschuhe, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "손목이 짧은 장갑이라 재킷 소매를 조금 내려 손목 틈을 덮어 주세요.",
+        "en": "These are short at the wrist, so let the jacket sleeves come down to cover the gap.",
+        "de": "Sie sind am Handgelenk kurz – die Jackenärmel etwas herunterziehen, um die Lücke zu schließen."
+      },
+      "sourceHowToWear": {
+        "ko": "손목을 덮고 겉옷 소매 아래로 장갑 끝을 넣어보세요.",
+        "en": "Cover the wrists and tuck the glove cuffs under the jacket sleeves.",
+        "de": "Die Handgelenke bedecken und die Handschuhbündchen unter die Jackenärmel schieben."
+      },
+      "image": "products/black-gloves.webp",
+      "sha256": "d8df6181d78f17947591e57eef40de4cb50fbced5380ddc4258f65bf03561613",
+      "bytes": 37590,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "navy-trousers",
+      "producerId": "male-02-05",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-02.navy-trousers",
+      "appCategory": "bottom",
+      "producerCategory": "bottom",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/72695475-10a0-4f2d-88a6-c31b69dd71a2.png",
+      "producerImage": "product-batch/webp/male-02-05.webp",
+      "name": {
+        "ko": "네이비 팬츠",
+        "en": "Navy trousers",
+        "de": "Marineblaue Hose"
+      },
+      "nameKo": "네이비 팬츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 네이비 팬츠.",
+        "en": "Navy trousers, recreated from the editorial outfit.",
+        "de": "Marineblaue Hose, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "통이 곧은 네이비 바지는 밑단이 부츠 끈 위에 살짝 얹히게 길이를 맞추세요.",
+        "en": "Set the straight navy legs so the hem rests just on the boot laces.",
+        "de": "Die gerade geschnittene Marinehose so kürzen, dass der Saum knapp auf der Schnürung liegt."
+      },
+      "sourceHowToWear": {
+        "ko": "부츠 위로 밑단이 자연스럽게 떨어지도록 길이를 맞춰보세요.",
+        "en": "Let the hem fall naturally over the top of the boots.",
+        "de": "Den Saum locker über dem Stiefelschaft fallen lassen."
+      },
+      "image": "products/navy-trousers.webp",
+      "sha256": "2c74d31f4ff544ea256f7abdcbddf999b3972aef0c4fbcc444163560518f7aa7",
+      "bytes": 18872,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    },
+    {
+      "id": "brown-lace-up-boots",
+      "producerId": "male-02-06",
+      "appItemId": "eu-overcast-chilly-m-day-casual-20261112-02.brown-lace-up-boots",
+      "appCategory": "shoes",
+      "producerCategory": "shoes",
+      "producerSource": "Picsart",
+      "producerReference": "https://gcdn.picsart.com/pipeline-output/9b199035-12f6-4b87-8421-cab202965914.png",
+      "producerImage": "product-batch/webp/male-02-06.webp",
+      "name": {
+        "ko": "브라운 레이스업 부츠",
+        "en": "Brown lace-up boots pair",
+        "de": "Braune Schnürstiefel"
+      },
+      "nameKo": "브라운 레이스업 부츠",
+      "description": {
+        "ko": "이 착장을 참고해 복원한 브라운 레이스업 부츠.",
+        "en": "Brown lace-up boots pair, recreated from the editorial outfit.",
+        "de": "Braune Schnürstiefel, nach dem Outfit der Fotostrecke rekonstruiert."
+      },
+      "howToWear": {
+        "ko": "브라운 칼라와 색을 맞춘 부츠라 끈을 깔끔하게 묶어 위아래 갈색이 이어지게 하세요.",
+        "en": "They echo the brown collar; lace them neatly so the brown ties top and bottom together.",
+        "de": "Sie greifen den braunen Kragen auf; ordentlich schnüren, damit das Braun oben und unten verbindet."
+      },
+      "sourceHowToWear": {
+        "ko": "도톰한 양말과 함께 신고 끈을 발목에서 편하게 고정하세요.",
+        "en": "Wear with substantial socks and secure the laces comfortably at the ankle.",
+        "de": "Mit dickeren Socken tragen und die Schnürsenkel am Knöchel bequem binden."
+      },
+      "image": "products/brown-lace-up-boots.webp",
+      "sha256": "13cfa682de780bc607e798bb2e3007aadef82a3c6b48a1f0370a449be37e6b70",
+      "bytes": 31536,
+      "dimensions": [
+        500,
+        500
+      ],
+      "alpha": true,
+      "evidence": "Picsart product reconstruction from the approved editorial (product-batch/PICSART_PLAN.json, generation-journal.jsonl); producer technical and four-background visual QA",
+      "reconstructionNotice": "Exact garment construction where obscured is a visual reconstruction.",
+      "brand": null,
+      "purchaseUrl": null,
+      "materialComposition": null,
+      "status": "ready"
+    }
+  ],
+  "buildMapped": "b222"
+}
