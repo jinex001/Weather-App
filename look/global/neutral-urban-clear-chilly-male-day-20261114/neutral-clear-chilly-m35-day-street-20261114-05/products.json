@@ -1,0 +1,221 @@
+{
+ "batch": "clear-chilly-male-day-20261114",
+ "id": "male-05",
+ "appOutfitId": "neutral-clear-chilly-m35-day-street-20261114-05",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "day",
+ "gender": "m",
+ "age": "35",
+ "style": "street",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "jumping off a curb with a grocery bag after a dropped apple, sunglasses in the chest pocket",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "06c16880a311e41e287a661de3b8afadc4a6b8032068f0aa1b064da863be2c20",
+ "masterEditorial": "editorials/05-graphite-down-parka.png",
+ "copy": {
+  "title": {
+   "ko": "연석 위로 움직이는 붉은 목도리",
+   "en": "A rust scarf over the curb",
+   "de": "Rostroter Schal am Bordstein"
+  },
+  "intro": {
+   "ko": "긴 그래파이트 다운 파카 안쪽에 크림색 니트를 입고 녹슨 붉은색 목도리를 둘렀다. 발목을 잡아 주는 브라운 끈 부츠가 올리브색 바지 아래로 보인다.",
+   "en": "A rust scarf and cream knit show inside a long graphite down parka. Brown lace-up boots anchor the dark olive trousers.",
+   "de": "Unter dem langen graphitfarbenen Daunenparka kommen ein rostroter Schal und cremefarbener Strick hervor. Braune Schnürstiefel ergänzen die dunkelolivfarbene Hose."
+  },
+  "deck": {
+   "ko": "떨어진 사과를 쫓아 연석을 뛰어내려도 흐트러지지 않는 긴 파카.",
+   "en": "A long parka that stays put when you leap off the curb after a runaway apple.",
+   "de": "Ein langer Parka, der sitzt, auch wenn man einem davonrollenden Apfel vom Bordstein hinterherspringt."
+  },
+  "articleTitle": "A RUST SCARF OVER THE CURB",
+  "pull": "THE APPLE CAN WAIT.",
+  "tip": {
+   "ko": "긴 파카 아래엔 발목으로 갈수록 살짝 좁아지는 바지를 고르면 연석을 오르내릴 때 밑단이 걸리지 않아요.",
+   "en": "Under a long parka, pick trousers that taper slightly towards the ankle so the hem never catches on a curb.",
+   "de": "Unter einem langen Parka eine Hose wählen, die zum Knöchel leicht schmaler wird, damit der Saum nirgends hängen bleibt."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf",
+ "productCount": 8,
+ "products": [
+  {
+   "producerId": "m05-p01",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.graphite-long-down-parka",
+   "appCategory": "outer",
+   "spec": "long graphite down parka with wide baffles",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "그래파이트 롱 다운 파카",
+    "en": "Graphite long down parka",
+    "de": "Langer graphitfarbener Daunenparka"
+   },
+   "howToWear": {
+    "ko": "파카 상단을 열어 밝은 니트와 붉은 목도리를 드러낸다.",
+    "en": "Open the top of the parka to show the light knit and rust scarf.",
+    "de": "Den Parka oben öffnen, damit heller Strick und rostfarbener Schal sichtbar sind."
+   },
+   "image": "products/graphite-long-down-parka.webp",
+   "sha256": "db2bb78843b263d2f724c618ccc03b3bd83615cd29c313597bc261137dfbfd6d",
+   "bytes": 24990,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p02",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.cream-quarter-zip-rib-knit",
+   "appCategory": "top",
+   "spec": "deep cream quarter-zip rib knit",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "크림 하프집 리브 니트",
+    "en": "Cream quarter-zip rib knit",
+    "de": "Cremefarbener Rippstrick-Troyer"
+   },
+   "howToWear": {
+    "ko": "니트의 짧은 지퍼를 내려 목도리 아래에 여유를 둔다.",
+    "en": "Lower the short zip to make room under the scarf.",
+    "de": "Den kurzen Reißverschluss öffnen, damit unter dem Schal Platz bleibt."
+   },
+   "image": "products/cream-quarter-zip-rib-knit.webp",
+   "sha256": "c432d1845442443b3258fbefd97694801687bb49dcd9a718c3752353227e1d95",
+   "bytes": 41076,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p03",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.dark-olive-wool-blend-trousers",
+   "appCategory": "bottom",
+   "spec": "dark olive wool-blend trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "다크 올리브 울 혼방 팬츠",
+    "en": "Dark olive wool-blend trousers",
+    "de": "Dunkelolivfarbene Hose aus Wollmischung"
+   },
+   "howToWear": {
+    "ko": "올리브색 바지를 브라운 부츠와 이어 차분한 색을 유지한다.",
+    "en": "Pair dark olive trousers with brown boots for a muted base.",
+    "de": "Dunkelolive Hose und braune Stiefel als ruhige Basis kombinieren."
+   },
+   "image": "products/dark-olive-wool-blend-trousers.webp",
+   "sha256": "903a269a4d2cbc11761d6a74a29801210968fd495466592dff5c7992d0dfd96d",
+   "bytes": 24684,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p04",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.brown-leather-lace-up-boots",
+   "appCategory": "shoes",
+   "spec": "brown leather lace-up lug boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "브라운 가죽 끈 부츠",
+    "en": "Brown leather lace-up boots",
+    "de": "Braune Lederschnürstiefel"
+   },
+   "howToWear": {
+    "ko": "연석을 오르내릴 때 발이 흔들리지 않게 끈을 고정한다.",
+    "en": "Tie the laces snugly before stepping up and down curbs.",
+    "de": "Die Schnürsenkel fest binden, damit der Fuß am Bordstein Halt hat."
+   },
+   "image": "products/brown-leather-lace-up-boots.webp",
+   "sha256": "f4bb891cbbd0b6c597151a0c850736db740741d82de17f35c7a317b16e97d132",
+   "bytes": 46840,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p05",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.charcoal-ribbed-beanie",
+   "appCategory": "headwear",
+   "spec": "charcoal rib knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 리브드 비니",
+    "en": "Charcoal ribbed beanie",
+    "de": "Anthrazitfarbene Rippstrickmütze"
+   },
+   "howToWear": {
+    "ko": "긴 파카에 차콜 비니를 맞추고 목도리에 색을 모은다.",
+    "en": "Match the charcoal beanie to the long parka and let the scarf carry the color.",
+    "de": "Die anthrazitfarbene Mütze auf den langen Parka abstimmen und dem Schal die Farbe überlassen."
+   },
+   "image": "products/charcoal-ribbed-beanie.webp",
+   "sha256": "ec5d507b4624f5af6019216de129c5d7f86b0137d6f18504e7996de169b883d6",
+   "bytes": 43152,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p06",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "rust-red fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "러스트 레드 프린지 목도리",
+    "en": "Rust-red fringe scarf",
+    "de": "Rostroter Fransenschal"
+   },
+   "howToWear": {
+    "ko": "붉은 목도리는 앞쪽으로 내려 크림 니트 위에 색을 더한다.",
+    "en": "Let the rust scarf fall in front of the cream knit.",
+    "de": "Den rostroten Schal vor dem cremefarbenen Strick herunterhängen lassen."
+   },
+   "image": "products/rust-red-fringe-scarf.webp",
+   "sha256": "06f8c0e6f6b009c2cb5b8c045238c5fb549583289659982efa76d9566a0b5571",
+   "bytes": 47870,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p07",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.amber-lens-metal-sunglasses",
+   "appCategory": "eyewear",
+   "spec": "amber-tinted thin metal sunglasses",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "앰버 렌즈 메탈 선글라스",
+    "en": "Amber-lens metal sunglasses",
+    "de": "Metallsonnenbrille mit bernsteinfarbenen Gläsern"
+   },
+   "howToWear": {
+    "ko": "이동할 때는 가슴 주머니 안쪽에 깊게 넣는다.",
+    "en": "Tuck the glasses well into a chest pocket while moving.",
+    "de": "Unterwegs die Brille tief in die Brusttasche stecken."
+   },
+   "image": "products/amber-lens-metal-sunglasses.webp",
+   "sha256": "5a191c0470d72fe9aa9d70e42205fc084e0b53e09508a4d28587c34b2cba876f",
+   "bytes": 20836,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p08",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-05.taupe-grey-merino-socks",
+   "appCategory": "socks",
+   "spec": "taupe grey merino socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "토프 그레이 메리노 양말",
+    "en": "Taupe grey merino socks",
+    "de": "Taupegraue Merinosocken"
+   },
+   "howToWear": {
+    "ko": "끈 부츠 안에 메리노 양말을 신고 발목까지 덮는다.",
+    "en": "Wear the merino socks high enough to cover the ankle inside the lace-up boots.",
+    "de": "Die Merinosocken in den Schnürstiefeln bis über die Knöchel ziehen."
+   },
+   "image": "products/taupe-grey-merino-socks.webp",
+   "sha256": "04117e823e495fb625244cdf8515a1abd9d40d92a1a046ab01e644b6041b7032",
+   "bytes": 46614,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

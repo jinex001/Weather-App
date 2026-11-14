@@ -1,0 +1,221 @@
+{
+ "batch": "clear-chilly-male-day-20261114",
+ "id": "male-04",
+ "appOutfitId": "neutral-clear-chilly-m35-day-street-20261114-04",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "day",
+ "gender": "m",
+ "age": "35",
+ "style": "street",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "leaning on a bench, adjusting the sunglasses",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "73342f22b6bba8da7e1b36b2d4b0d62e29764bbb1c469d07d78a32734bbe86db",
+ "masterEditorial": "editorials/04-cobalt-down-puffer.png",
+ "copy": {
+  "title": {
+   "ko": "코발트 푸퍼가 보이는 자리",
+   "en": "Cobalt beside the bench",
+   "de": "Kobaltblau an der Bank"
+  },
+  "intro": {
+   "ko": "코발트 오리털 푸퍼에 검정 후디와 바랜 데님을 맞췄다. 회색 목도리와 검정 선글라스로 색을 정리했다.",
+   "en": "A cobalt duck-down puffer goes with a black hoodie and faded denim. A smoky grey scarf and black sunglasses keep the rest of the palette quiet.",
+   "de": "Zur kobaltblauen Entendaunenjacke passen ein schwarzer Hoodie und verwaschene Jeans. Ein rauchgrauer Schal und eine schwarze Sonnenbrille halten den Rest zurückhaltend."
+  },
+  "deck": {
+   "ko": "벤치에 기대 선글라스를 고쳐 쓰는, 코발트 한 벌로 색을 정한 날.",
+   "en": "One cobalt jacket sets the colour while you lean on the bench and settle your sunglasses.",
+   "de": "Eine kobaltblaue Jacke gibt die Farbe vor, während man an der Bank lehnt und die Sonnenbrille richtet."
+  },
+  "articleTitle": "COBALT BESIDE THE BENCH",
+  "pull": "ONE BRIGHT COLOUR, THE REST IN GREY.",
+  "tip": {
+   "ko": "선명한 아우터 하나를 입는 날엔 나머지를 검정과 회색으로만 두어 색이 한곳에 모이게 해요.",
+   "en": "On a day with one vivid jacket, keep everything else black and grey so the colour sits in one place.",
+   "de": "Mit einer leuchtenden Jacke den Rest in Schwarz und Grau halten, damit die Farbe an einer Stelle bleibt."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-day-street-20261114-04.cobalt-duck-down-puffer",
+ "productCount": 8,
+ "products": [
+  {
+   "producerId": "m04-p01",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.cobalt-duck-down-puffer",
+   "appCategory": "outer",
+   "spec": "matte cobalt duck-down puffer with wide horizontal baffles",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "코발트 오리털 푸퍼",
+    "en": "Cobalt duck-down puffer",
+    "de": "Kobaltblaue Entendaunenjacke"
+   },
+   "howToWear": {
+    "ko": "푸퍼를 살짝 열어 검정 후디와 코발트 색을 함께 보여 준다.",
+    "en": "Leave the puffer open enough to show the black hoodie against cobalt blue.",
+    "de": "Die Daunenjacke etwas öffnen, damit der schwarze Hoodie zum Kobaltblau sichtbar wird."
+   },
+   "image": "products/cobalt-duck-down-puffer.webp",
+   "sha256": "35548320fa266d54c66d53db4f7be6ffc891327bb47731059430c15bf9b2da44",
+   "bytes": 30238,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p02",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.black-pullover-hoodie",
+   "appCategory": "top",
+   "spec": "black pullover hoodie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 풀오버 후디",
+    "en": "Black pullover hoodie",
+    "de": "Schwarzer Kapuzenpullover"
+   },
+   "howToWear": {
+    "ko": "후드를 밖으로 빼 목 뒤에 포개어 둔다.",
+    "en": "Let the hood rest outside the puffer at the back of the neck.",
+    "de": "Die Kapuze außen aus der Jacke über den Nacken legen."
+   },
+   "image": "products/black-pullover-hoodie.webp",
+   "sha256": "36361a862a4390f5f56c66572aea029a96aaa92af0731961cd98ba9b1139cf54",
+   "bytes": 17058,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p03",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.faded-charcoal-jeans",
+   "appCategory": "bottom",
+   "spec": "faded charcoal straight-leg jeans",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "바랜 차콜 데님",
+    "en": "Faded charcoal jeans",
+    "de": "Verwaschene anthrazitfarbene Jeans"
+   },
+   "howToWear": {
+    "ko": "바랜 데님을 코발트 아우터 옆의 차분한 색으로 쓴다.",
+    "en": "Use faded denim as a quiet backdrop for the cobalt jacket.",
+    "de": "Die verwaschene Jeans als ruhigen Gegenpol zur kobaltblauen Jacke tragen."
+   },
+   "image": "products/faded-charcoal-jeans.webp",
+   "sha256": "90dbd3a054ea455932e1761e8eb9b4b472f0faf1134494cfb43c7b0e4752c02b",
+   "bytes": 28916,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p04",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.black-padded-ankle-boots",
+   "appCategory": "shoes",
+   "spec": "black padded ankle boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 패딩 앵클 부츠",
+    "en": "Black padded ankle boots",
+    "de": "Schwarze gepolsterte Stiefeletten"
+   },
+   "howToWear": {
+    "ko": "데님 밑단을 부츠 윗부분에 가볍게 걸친다.",
+    "en": "Keep the jeans hem resting loosely on the top of the padded boots.",
+    "de": "Den Jeanssaum locker auf dem Schaft der gepolsterten Stiefeletten aufliegen lassen."
+   },
+   "image": "products/black-padded-ankle-boots.webp",
+   "sha256": "923f853b7b10f0eed85db23d35470a7a60d89faeafd9368f7d01b67516a6eb4e",
+   "bytes": 24404,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p05",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.charcoal-knit-beanie",
+   "appCategory": "headwear",
+   "spec": "charcoal rib knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 니트 비니",
+    "en": "Charcoal knit beanie",
+    "de": "Anthrazitfarbene Strickmütze"
+   },
+   "howToWear": {
+    "ko": "비니의 접힌 밴드를 이마 위에 가볍게 맞춘다.",
+    "en": "Set the turn-up just above the forehead.",
+    "de": "Den Umschlag locker oberhalb der Stirn tragen."
+   },
+   "image": "products/charcoal-knit-beanie.webp",
+   "sha256": "225e1178ac0efd7dc68be1decdee9f21e0948482a3b50b341166a3aa4909af14",
+   "bytes": 42832,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p06",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.smoke-grey-wool-scarf",
+   "appCategory": "scarf",
+   "spec": "smoke-grey fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "스모크 그레이 울 목도리",
+    "en": "Smoke grey wool scarf",
+    "de": "Rauchgrauer Wollschal"
+   },
+   "howToWear": {
+    "ko": "회색 목도리를 한 번 감아 얼굴 가까이 부드러운 색을 둔다.",
+    "en": "Wrap it once for a softer grey against the face.",
+    "de": "Einmal wickeln, damit das weiche Grau nah am Gesicht liegt."
+   },
+   "image": "products/smoke-grey-wool-scarf.webp",
+   "sha256": "ef7e1d18b9be41a0c39298293cf1741d65eca035a49b01aab8fbca37b567292e",
+   "bytes": 45058,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p07",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.black-rectangular-sunglasses",
+   "appCategory": "eyewear",
+   "spec": "black rectangular sunglasses",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 사각 선글라스",
+    "en": "Black rectangular sunglasses",
+    "de": "Schwarze rechteckige Sonnenbrille"
+   },
+   "howToWear": {
+    "ko": "햇빛이 강한 벤치 옆에서 사각 선글라스를 쓴다.",
+    "en": "Wear the square frames in the bright sun by the bench.",
+    "de": "Die rechteckige Brille in der hellen Sonne an der Bank aufsetzen."
+   },
+   "image": "products/black-rectangular-sunglasses.webp",
+   "sha256": "d4e4f7a201a1ddc2d49f41f61888932f0182c34eeb42b19d065915bce349e106",
+   "bytes": 13950,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p08",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-04.white-crewneck-base-tee",
+   "appCategory": "under",
+   "spec": "white crew-neck undershirt with only the hem visible",
+   "evidence": "partially-visible-reconstructed",
+   "name": {
+    "ko": "흰색 크루넥 이너 티",
+    "en": "White crewneck base tee",
+    "de": "Weißes Rundhals-T-Shirt"
+   },
+   "howToWear": {
+    "ko": "검정 후디 아래로 흰색 티 밑단만 가늘게 보이게 입는다.",
+    "en": "Leave a thin edge of white showing below the black hoodie.",
+    "de": "Unter dem schwarzen Hoodie nur einen schmalen weißen Saum zeigen."
+   },
+   "image": "products/white-crewneck-base-tee.webp",
+   "sha256": "3c9b42985a35b9b9e54f5cebdcd21ad40c2db4f010f86aaaa6fed1a78ea68daf",
+   "bytes": 19410,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

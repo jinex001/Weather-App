@@ -1,0 +1,221 @@
+{
+ "batch": "clear-chilly-male-day-20261114",
+ "id": "male-02",
+ "appOutfitId": "neutral-clear-chilly-m35-day-minimal-20261114-02",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "day",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "seated on a street bench eating a pastry, catching crumbs",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "f2502821286b098e0417745c40444bcf3c51633f6d6d9e9cc0008c758bcecf89",
+ "masterEditorial": "editorials/02-chocolate-overcoat-v2.png",
+ "copy": {
+  "title": {
+   "ko": "햇볕 아래의 초콜릿 코트",
+   "en": "Chocolate wool in the sun",
+   "de": "Schokobraune Wolle in der Sonne"
+  },
+  "intro": {
+   "ko": "초콜릿색 울 코트와 코듀로이 사이로 크림색 케이블 니트가 보인다. 벤치에 앉을 때 코트 앞을 열어 니트와 목도리를 드러냈다.",
+   "en": "A cream cable knit shows between dark chocolate wool and corduroy. Open the coat as you sit to let the knit and the scarf show.",
+   "de": "Zwischen schokobrauner Wolle und Cord kommt ein cremefarbener Zopfstrickpullover zum Vorschein. Beim Sitzen zeigt der offene Mantel Strick und Schal."
+  },
+  "deck": {
+   "ko": "벤치에서 갓 산 빵을 먹다 부스러기를 받아 내는 따뜻한 갈색 차림.",
+   "en": "Warm browns for a bench break, catching pastry crumbs in the winter sun.",
+   "de": "Warme Brauntöne für eine Pause auf der Bank, samt Gebäckkrümeln in der Wintersonne."
+  },
+  "articleTitle": "CHOCOLATE WOOL IN THE SUN",
+  "pull": "CRUMBS AND CABLE KNIT.",
+  "tip": {
+   "ko": "갈색을 위아래로 이어 입을 땐 크림 니트와 오트밀 목도리처럼 밝은 색을 가운데 두면 무거워 보이지 않아요.",
+   "en": "When you wear brown head to toe, keep the light colours in the middle, like the cream knit and oatmeal scarf, so it never looks heavy.",
+   "de": "Wer Braun von Kopf bis Fuß trägt, setzt helle Töne wie Cremestrick und Haferschal in die Mitte – so wirkt es nie schwer."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-day-minimal-20261114-02.chocolate-long-wool-overcoat",
+ "productCount": 8,
+ "products": [
+  {
+   "producerId": "m02-p01",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.chocolate-long-wool-overcoat",
+   "appCategory": "outer",
+   "spec": "dark chocolate long wool overcoat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "초콜릿 롱 울 코트",
+    "en": "Chocolate long wool overcoat",
+    "de": "Langer schokobrauner Wollmantel"
+   },
+   "howToWear": {
+    "ko": "벤치에 앉을 때 앞을 열어 코트가 양옆으로 떨어지게 한다.",
+    "en": "Open the coat as you sit so it falls at either side.",
+    "de": "Beim Hinsetzen den Mantel öffnen, damit er seitlich herabfällt."
+   },
+   "image": "products/chocolate-long-wool-overcoat.webp",
+   "sha256": "d57c61c1482dc8b29a41d5813120b5c69b1807b2f5b1d773b149aeb94ed46112",
+   "bytes": 18084,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p02",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.cream-cable-knit-sweater",
+   "appCategory": "top",
+   "spec": "cream cable-knit crewneck sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "크림 케이블 니트",
+    "en": "Cream cable-knit sweater",
+    "de": "Cremefarbener Zopfstrickpullover"
+   },
+   "howToWear": {
+    "ko": "목도리를 느슨하게 둘러 케이블 짜임이 보이게 한다.",
+    "en": "Keep the scarf loose enough to show the cable pattern.",
+    "de": "Den Schal locker binden, damit das Zopfmuster sichtbar bleibt."
+   },
+   "image": "products/cream-cable-knit-sweater.webp",
+   "sha256": "1f0ffb69780457f238bd6a06d733d3ce687432411022dae61e6605ba6375adc2",
+   "bytes": 47976,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p03",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.espresso-corduroy-trousers",
+   "appCategory": "bottom",
+   "spec": "espresso straight-leg corduroy trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "에스프레소 코듀로이 팬츠",
+    "en": "Espresso corduroy trousers",
+    "de": "Espressobraune Cordhose"
+   },
+   "howToWear": {
+    "ko": "코듀로이의 골이 눌리지 않도록 무릎이 편한 여유를 둔다.",
+    "en": "Leave room at the knee so the corduroy drapes comfortably when seated.",
+    "de": "Am Knie genug Platz lassen, damit die Cordhose beim Sitzen locker fällt."
+   },
+   "image": "products/espresso-corduroy-trousers.webp",
+   "sha256": "783150f953cac031891c6283afa2259b3fb7cd47068b5e6a81a6b4b7a139a769",
+   "bytes": 21504,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p04",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.dark-brown-suede-lug-boots",
+   "appCategory": "shoes",
+   "spec": "dark brown suede lug ankle boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "다크 브라운 스웨이드 부츠",
+    "en": "Dark brown suede lug boots",
+    "de": "Dunkelbraune Wildlederstiefel mit Profilsohle"
+   },
+   "howToWear": {
+    "ko": "스웨이드 부츠에는 밝은 울 양말을 살짝 보이게 신는다.",
+    "en": "Let a little of the light wool sock show above the suede boots.",
+    "de": "Über den Wildlederstiefeln etwas von den hellen Wollsocken zeigen."
+   },
+   "image": "products/dark-brown-suede-lug-boots.webp",
+   "sha256": "12797d2958118beb3896cb8ebb0044031b46b41df0138e3620b9002f702b364e",
+   "bytes": 27704,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p05",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.deep-brown-knit-beanie",
+   "appCategory": "headwear",
+   "spec": "deep brown knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "딥 브라운 니트 비니",
+    "en": "Deep brown knit beanie",
+    "de": "Tiefbraune Strickmütze"
+   },
+   "howToWear": {
+    "ko": "갈색 비니를 코트와 비슷한 톤으로 맞춘다.",
+    "en": "Pick up the coat’s warm brown with the knit beanie.",
+    "de": "Den warmen Braunton des Mantels mit der Strickmütze aufgreifen."
+   },
+   "image": "products/deep-brown-knit-beanie.webp",
+   "sha256": "240e481b3163f9087abfb043b56029b7f558aef1ddceec2dffd7097df1a90fec",
+   "bytes": 48006,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p06",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.oatmeal-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "thick oatmeal fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "오트밀 프린지 목도리",
+    "en": "Oatmeal fringe scarf",
+    "de": "Haferfarbener Fransenschal"
+   },
+   "howToWear": {
+    "ko": "프린지 한쪽을 앞으로 내려 코트의 어두운 색을 밝힌다.",
+    "en": "Let one fringed end fall forward against the dark coat.",
+    "de": "Ein Fransenende als hellen Akzent vor dem dunklen Mantel hängen lassen."
+   },
+   "image": "products/oatmeal-fringe-scarf.webp",
+   "sha256": "f109930ef82e15e899fdb9dd3f9d605f958c13be052544508efdde177f9d2eb3",
+   "bytes": 49108,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p07",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.dark-tortoiseshell-sunglasses",
+   "appCategory": "eyewear",
+   "spec": "dark tortoiseshell rectangular sunglasses",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "다크 토터스셸 선글라스",
+    "en": "Dark tortoiseshell sunglasses",
+    "de": "Dunkle Sonnenbrille in Schildpattoptik"
+   },
+   "howToWear": {
+    "ko": "벤치에 앉아 햇볕을 즐길 때 착용한다.",
+    "en": "Wear them while sitting in the direct sun.",
+    "de": "Beim Sitzen in der direkten Sonne aufsetzen."
+   },
+   "image": "products/dark-tortoiseshell-sunglasses.webp",
+   "sha256": "7cfa483489cad5bb3434cd9f03aac9a58cdee203089b4f8c7ac5af430a15cf2b",
+   "bytes": 18446,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p08",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-02.oatmeal-wool-socks",
+   "appCategory": "socks",
+   "spec": "oatmeal wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "오트밀 울 양말",
+    "en": "Oatmeal wool socks",
+    "de": "Haferfarbene Wollsocken"
+   },
+   "howToWear": {
+    "ko": "코듀로이 밑단과 부츠 사이에 밝은 양말을 드러낸다.",
+    "en": "Show a band of light wool between the corduroy and the boots.",
+    "de": "Zwischen Cordhose und Stiefeln einen Streifen helle Wolle zeigen."
+   },
+   "image": "products/oatmeal-wool-socks.webp",
+   "sha256": "fda0f67941e7db144b21763c661ae212824fa8e8a85117463303cd345083e993",
+   "bytes": 49736,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

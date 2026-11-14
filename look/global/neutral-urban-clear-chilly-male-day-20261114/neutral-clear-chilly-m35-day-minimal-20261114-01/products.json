@@ -1,0 +1,221 @@
+{
+ "batch": "clear-chilly-male-day-20261114",
+ "id": "male-01",
+ "appOutfitId": "neutral-clear-chilly-m35-day-minimal-20261114-01",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "day",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "opening a café door, sunglasses held in the hand",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "2f936636d124f669978699a206a8365dd54b71601c336f8a1dffa26e3e3efe6a",
+ "masterEditorial": "editorials/01-charcoal-overcoat.png",
+ "copy": {
+  "title": {
+   "ko": "카페 앞의 차콜 코트",
+   "en": "Charcoal at the café door",
+   "de": "Anthrazit vor dem Café"
+  },
+  "intro": {
+   "ko": "긴 울 코트에 오트밀 니트와 회색 플란넬 팬츠를 입었다. 목도리를 감고, 실내로 들어서기 전 선글라스를 손에 들었다.",
+   "en": "A long wool coat goes over an oatmeal knit and grey flannel trousers. Wrap the scarf close and slip the sunglasses off as you head inside.",
+   "de": "Zum langen Wollmantel kommen ein haferfarbener Strickpullover und eine graue Flanellhose. Den Schal eng wickeln und die Sonnenbrille vor dem Hereingehen absetzen."
+  },
+  "deck": {
+   "ko": "카페 문을 밀며 선글라스를 벗는, 맑고 쌀쌀한 한낮의 긴 코트 차림.",
+   "en": "A long coat for a bright, chilly noon, sunglasses off as the café door swings open.",
+   "de": "Ein langer Mantel für einen hellen, kühlen Mittag – die Sonnenbrille kommt an der Café-Tür ab."
+  },
+  "articleTitle": "CHARCOAL AT THE CAFÉ DOOR",
+  "pull": "SUNGLASSES OFF AT THE DOOR.",
+  "tip": {
+   "ko": "실내외를 자주 오가는 날엔 목도리와 비니를 벗기 쉬운 것으로 골라, 코트만 입은 차림도 완성돼 보이게 해요.",
+   "en": "On a day of popping in and out, choose a scarf and beanie that come off easily so the coat alone still looks finished.",
+   "de": "An Tagen mit viel Rein und Raus Schal und Mütze wählen, die sich leicht abnehmen lassen – der Mantel allein soll trotzdem fertig wirken."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-day-minimal-20261114-01.charcoal-long-wool-overcoat",
+ "productCount": 8,
+ "products": [
+  {
+   "producerId": "m01-p01",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.charcoal-long-wool-overcoat",
+   "appCategory": "outer",
+   "spec": "charcoal wool overcoat, long below knee",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 롱 울 코트",
+    "en": "Charcoal long wool overcoat",
+    "de": "Langer anthrazitfarbener Wollmantel"
+   },
+   "howToWear": {
+    "ko": "아래쪽 단추만 잠가 오트밀 니트를 살짝 드러낸다.",
+    "en": "Fasten a lower button to leave the oatmeal knit visible.",
+    "de": "Nur einen unteren Knopf schließen, damit der haferfarbene Strick sichtbar bleibt."
+   },
+   "image": "products/charcoal-long-wool-overcoat.webp",
+   "sha256": "4697a3aee8a9565c1a52e7b68e4dd4c4a8dc993ce2e5a5ee37bf11ce1d5e564c",
+   "bytes": 21924,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p02",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.oatmeal-rib-knit-sweater",
+   "appCategory": "top",
+   "spec": "oatmeal rib-knit crewneck sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "오트밀 리브 니트",
+    "en": "Oatmeal rib-knit sweater",
+    "de": "Haferfarbener Rippstrickpullover"
+   },
+   "howToWear": {
+    "ko": "리브 니트의 밝은 색을 차콜 코트 안쪽에서 살린다.",
+    "en": "Let the light rib knit brighten the opening of the charcoal coat.",
+    "de": "Der helle Rippstrick setzt einen Akzent im offenen Mantel."
+   },
+   "image": "products/oatmeal-rib-knit-sweater.webp",
+   "sha256": "31d4f9b0f75b32a2585e6d91c373b432d08845546272b6456688b8b52a856e65",
+   "bytes": 45440,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p03",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.grey-wide-leg-flannel-trousers",
+   "appCategory": "bottom",
+   "spec": "grey wide-leg flannel trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "회색 와이드 플란넬 팬츠",
+    "en": "Grey wide-leg flannel trousers",
+    "de": "Graue weite Flanellhose"
+   },
+   "howToWear": {
+    "ko": "통 넓은 플란넬은 부츠 위에 자연스럽게 떨어지도록 입는다.",
+    "en": "Let the wide flannel legs fall naturally over the boots.",
+    "de": "Die weiten Flanellbeine locker über die Stiefel fallen lassen."
+   },
+   "image": "products/grey-wide-leg-flannel-trousers.webp",
+   "sha256": "624ed635a92d29ffdc90149ed614bbc2e3d54c6e5e869dccc34ad3886553e393",
+   "bytes": 29008,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p04",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.black-leather-derby-boots",
+   "appCategory": "shoes",
+   "spec": "black leather derby ankle boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 가죽 더비 부츠",
+    "en": "Black leather derby boots",
+    "de": "Schwarze Derby-Stiefel aus Leder"
+   },
+   "howToWear": {
+    "ko": "와이드 팬츠 밑에서 더비 부츠의 둥근 앞코를 드러낸다.",
+    "en": "Let the derby boots’ rounded toes show below the wide trousers.",
+    "de": "Die runden Kappen der Derby-Stiefel unter der weiten Hose sichtbar lassen."
+   },
+   "image": "products/black-leather-derby-boots.webp",
+   "sha256": "50dfb1e526d42965e24a9327a1665cc9953dce9e920945e680c5bd6bc221e4b0",
+   "bytes": 24218,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p05",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.charcoal-ribbed-beanie",
+   "appCategory": "headwear",
+   "spec": "charcoal rib knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 리브 비니",
+    "en": "Charcoal ribbed beanie",
+    "de": "Anthrazitfarbene Rippstrickmütze"
+   },
+   "howToWear": {
+    "ko": "비니를 낮게 써서 카페 앞에서 기다릴 때 귀를 덮는다.",
+    "en": "Pull the beanie low enough to cover the ears while waiting outside.",
+    "de": "Beim Warten draußen die Mütze über die Ohren ziehen."
+   },
+   "image": "products/charcoal-ribbed-beanie.webp",
+   "sha256": "0728b4f6c7453a4e4023f07994f333c6fcc61f75ddea1bb6a7d15e323ea2a812",
+   "bytes": 48854,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p06",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.slate-wool-scarf",
+   "appCategory": "scarf",
+   "spec": "slate charcoal fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "슬레이트 울 목도리",
+    "en": "Slate wool scarf",
+    "de": "Schiefergrauer Wollschal"
+   },
+   "howToWear": {
+    "ko": "목에 한 번 감아 코트 깃 위로 끝을 늘어뜨린다.",
+    "en": "Wrap it once and let the ends fall over the coat lapels.",
+    "de": "Einmal um den Hals wickeln und die Enden über dem Revers hängen lassen."
+   },
+   "image": "products/slate-wool-scarf.webp",
+   "sha256": "61059034b58c3d9b06a3dce647f3faa8b2d0492a102939a2bbff7bfd2c911097",
+   "bytes": 41268,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p07",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.black-round-sunglasses",
+   "appCategory": "eyewear",
+   "spec": "black rounded sunglasses",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 라운드 선글라스",
+    "en": "Black round sunglasses",
+    "de": "Schwarze runde Sonnenbrille"
+   },
+   "howToWear": {
+    "ko": "실내에 들어가기 전에 벗어 다리 한쪽을 가볍게 쥔다.",
+    "en": "Remove the sunglasses at the door and hold them by one temple.",
+    "de": "An der Tür absetzen und locker an einem Bügel halten."
+   },
+   "image": "products/black-round-sunglasses.webp",
+   "sha256": "fb1dca3fde745683746c3c5dcac03907e1696438ff2dc6484083abb7a6c42095",
+   "bytes": 15668,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p08",
+   "appItemId": "neutral-clear-chilly-m35-day-minimal-20261114-01.dark-grey-wool-socks",
+   "appCategory": "socks",
+   "spec": "dark grey wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "진회색 울 양말",
+    "en": "Dark grey wool socks",
+    "de": "Dunkelgraue Wollsocken"
+   },
+   "howToWear": {
+    "ko": "부츠에 신되 걸을 때 바짓단이 양말을 덮게 한다.",
+    "en": "Wear them with the boots and let the trouser hems fall over them.",
+    "de": "Im Stiefel tragen und die Hosenbeine darüber fallen lassen."
+   },
+   "image": "products/dark-grey-wool-socks.webp",
+   "sha256": "bef31d9414da0e249f3c79113539d3902097da85542e60c4093d46f4894a98b8",
+   "bytes": 40658,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

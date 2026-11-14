@@ -12,7 +12,7 @@
 
 | 하늘 | 성별 | 시간 | 러닝 | 스트리트 | 미니멀 | 폴더 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 맑음 | 남 | 낮 | 5 기사 (b128) | 5 기사 (b126) | 5 기사 (b127) | `Sunny/Chilly/Male/35+/day/` |
+| 맑음 | 남 | 낮 | 5 기사 (b128) | 5 기사 (b126) + neutral-urban 3룩(b223, 24제품) = 8 | 5 기사 (b127) + neutral-urban 2룩(b223, 16제품) = 7 | `Sunny/Chilly/Male/35+/day/` (b223은 `look/global/neutral-urban-clear-chilly-male-day-20261114/`) |
 | 맑음 | 남 | 저녁 | 5 기사 (b132) | 5 기사 (b131, 30제품) | 5 기사 (b130) | `Sunny/Chilly/Male/35+/night/` |
 | 맑음 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Sunny/Chilly/Female/35+/day/` (b124) |
 | 맑음 | 여 | 저녁 | 5 기사 (b138, 40제품, 홈 컷 b139) | 5 기사 (b140, 42제품) | 5 기사 (b129) | `Sunny/Chilly/Female/35+/night/` |
@@ -350,3 +350,8 @@ Snow · cold · male · day · running, 5 Picsart editorials the user explicitly
 
 Dry cloudy · chilly · day · street (the app's casual pool; tab label Streetwear/스트리트, key `street`), 5 female + 5 male looks, 66 transparent Picsart products (7/8/7/6/6 · 7/6/6/6/7). Reviewed european-urban, humidity unknown; 6°C / feels 3°C is a production setting, not a measurement. Appended to the existing pools: in a european-urban place the dry cloudy chilly day street draw is female 5 → 10 looks, male 10 → 15; the same looks are cold/cool neighbours. b222 region-rank tie (`look/global-context.js`): there, region-unknown Berlin looks rank like european-urban looks, so the new looks share the random 3 (first-slot share 0.507 f / 0.312 m over 3000 seeds vs 0.5 / 0.333 expected). Clear, rain, snow (cold/chilly with snow looks), evening, run, Chic and other regions keep their b221 looks. [Validation](european-urban-overcast-chilly-day-casual-expansion-20261112-validation.md).
 
+
+
+## b223 · Clear Chilly male day minimal + street · neutral-urban · 2026-11-14
+
+Clear (0–2) · chilly · male 35+ · day: 2 minimal + 3 street looks (`neutral-clear-chilly-m35-day-<style>-20261114-01…05`), 40 transparent products (8 each, Codex image_gen, producer QA). First reviewed `neutral-urban` set; humidity unknown; actual temperature null, feels-like 7°C is the styling setting. Effect under the existing rank rule (`look/global-context.js`, unchanged): unknown-region places (GPS) mix them into the Berlin draw (minimal 5 → 7, street 5 → 8 candidates); neutral-urban and east-asian-urban places put them first; **european-urban places (Berlin by city search) keep showing the 5 Berlin looks per style** — the new looks rank second there (reviewed neutral = 1, Berlin legacy = 0); warm-coastal places exclude them (b187). Also cold/cool neighbour on clear days in the same places.

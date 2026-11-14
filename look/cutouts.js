@@ -1214,7 +1214,12 @@
 "eu-overcast-chilly-m-day-casual-20261112-02.indigo-denim-jacket-with-brown-collar": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-02/products/indigo-denim-jacket-with-brown-collar.webp", 0.184],
 "eu-overcast-chilly-m-day-casual-20261112-03.chocolate-corduroy-trousers": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-03/products/chocolate-corduroy-trousers.webp", 0.123],
 "eu-overcast-chilly-m-day-casual-20261112-04.cobalt-ribbed-zip-knit": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-04/products/cobalt-ribbed-zip-knit.webp", 0.123],
-"eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-05/products/navy-quilted-jacket.webp", 0.14]
+"eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket": ["look/global/european-urban-overcast-chilly-day-casual-expansion-20261112/eu-overcast-chilly-m-day-casual-20261112-05/products/navy-quilted-jacket.webp", 0.14],
+"neutral-clear-chilly-m35-day-minimal-20261114-01.charcoal-long-wool-overcoat": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-minimal-20261114-01/products/charcoal-long-wool-overcoat.webp", null],
+"neutral-clear-chilly-m35-day-minimal-20261114-02.chocolate-long-wool-overcoat": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-minimal-20261114-02/products/chocolate-long-wool-overcoat.webp", null],
+"neutral-clear-chilly-m35-day-street-20261114-03.olive-hooded-down-parka": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-03/products/olive-hooded-down-parka.webp", null],
+"neutral-clear-chilly-m35-day-street-20261114-04.cobalt-duck-down-puffer": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-04/products/cobalt-duck-down-puffer.webp", null],
+"neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-05/products/rust-red-fringe-scarf.webp", null]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1642,7 +1647,12 @@
 "eu-overcast-chilly-m-day-casual-20261112-02": "eu-overcast-chilly-m-day-casual-20261112-02.indigo-denim-jacket-with-brown-collar",
 "eu-overcast-chilly-m-day-casual-20261112-03": "eu-overcast-chilly-m-day-casual-20261112-03.chocolate-corduroy-trousers",
 "eu-overcast-chilly-m-day-casual-20261112-04": "eu-overcast-chilly-m-day-casual-20261112-04.cobalt-ribbed-zip-knit",
-"eu-overcast-chilly-m-day-casual-20261112-05": "eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket"
+"eu-overcast-chilly-m-day-casual-20261112-05": "eu-overcast-chilly-m-day-casual-20261112-05.navy-quilted-jacket",
+"neutral-clear-chilly-m35-day-minimal-20261114-01": "neutral-clear-chilly-m35-day-minimal-20261114-01.charcoal-long-wool-overcoat",
+"neutral-clear-chilly-m35-day-minimal-20261114-02": "neutral-clear-chilly-m35-day-minimal-20261114-02.chocolate-long-wool-overcoat",
+"neutral-clear-chilly-m35-day-street-20261114-03": "neutral-clear-chilly-m35-day-street-20261114-03.olive-hooded-down-parka",
+"neutral-clear-chilly-m35-day-street-20261114-04": "neutral-clear-chilly-m35-day-street-20261114-04.cobalt-duck-down-puffer",
+"neutral-clear-chilly-m35-day-street-20261114-05": "neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

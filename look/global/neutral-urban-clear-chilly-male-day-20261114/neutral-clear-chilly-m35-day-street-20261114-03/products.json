@@ -1,0 +1,221 @@
+{
+ "batch": "clear-chilly-male-day-20261114",
+ "id": "male-03",
+ "appOutfitId": "neutral-clear-chilly-m35-day-street-20261114-03",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "day",
+ "gender": "m",
+ "age": "35",
+ "style": "street",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "crouching to unlock a bicycle, sunglasses clipped to the chest pocket",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "7c9a5d97a893f64ad11adee2a7024f310b66e412cf8525f600bfde491a0439ab",
+ "masterEditorial": "editorials/03-olive-down-parka-v2.png",
+ "copy": {
+  "title": {
+   "ko": "자전거 옆의 올리브 파카",
+   "en": "An olive parka by the bike",
+   "de": "Olivgrüner Parka am Fahrrad"
+  },
+  "intro": {
+   "ko": "올리브 다운 파카에 회색 니트와 검정 데님을 입었다. 자물쇠를 풀 때는 선글라스를 가슴 주머니에 걸어 두 손을 비웠다.",
+   "en": "A grey knit and black jeans sit under the olive down parka. Clip the sunglasses to the chest pocket to free both hands for the lock.",
+   "de": "Zum olivgrünen Daunenparka kommen ein grauer Strickpullover und schwarze Jeans. Die Sonnenbrille hängt an der Brusttasche, damit beide Hände fürs Schloss frei bleiben."
+  },
+  "deck": {
+   "ko": "자전거 자물쇠 앞에 쪼그려 앉아도 편한 파카와 데님.",
+   "en": "A parka and loose denim that make crouching at the bike lock easy.",
+   "de": "Parka und lockere Jeans, mit denen das Hocken am Fahrradschloss leichtfällt."
+  },
+  "articleTitle": "AN OLIVE PARKA BY THE BIKE",
+  "pull": "TWO HANDS FREE FOR THE LOCK.",
+  "tip": {
+   "ko": "자전거를 탈 날엔 목도리를 파카 안으로 넣고, 밑단이 너무 넓지 않은 바지를 골라요.",
+   "en": "On bike days, tuck the scarf inside the parka and choose jeans that aren't too wide at the hem.",
+   "de": "An Fahrradtagen den Schal in den Parka stecken und eine Jeans wählen, die unten nicht zu weit ist."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-day-street-20261114-03.olive-hooded-down-parka",
+ "productCount": 8,
+ "products": [
+  {
+   "producerId": "m03-p01",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.olive-hooded-down-parka",
+   "appCategory": "outer",
+   "spec": "matte olive hip-length hooded down parka",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "올리브 후드 다운 파카",
+    "en": "Olive hooded down parka",
+    "de": "Olivgrüner Daunenparka mit Kapuze"
+   },
+   "howToWear": {
+    "ko": "자전거 자물쇠를 만질 때 파카 지퍼를 조금 내려 움직임을 확보한다.",
+    "en": "Lower the zipper a little for room to crouch at the bike lock.",
+    "de": "Zum Hinhocken am Fahrradschloss den Reißverschluss ein Stück öffnen."
+   },
+   "image": "products/olive-hooded-down-parka.webp",
+   "sha256": "2472e0356723a04350184ac870fdb0af91d7f06ee0ee69c8b314fbd90bfc76a8",
+   "bytes": 27986,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p02",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.grey-waffle-knit",
+   "appCategory": "top",
+   "spec": "grey waffle-knit sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "회색 와플 니트",
+    "en": "Grey waffle knit",
+    "de": "Grauer Pullover in Waffelstrick"
+   },
+   "howToWear": {
+    "ko": "파카를 살짝 열어 회색 와플 짜임을 드러낸다.",
+    "en": "Leave the parka slightly open to show the grey waffle texture.",
+    "de": "Den Parka leicht öffnen, damit der graue Waffelstrick sichtbar wird."
+   },
+   "image": "products/grey-waffle-knit.webp",
+   "sha256": "6e48a4b0a69a42358650c1f621e40000535202d56ba7cbaf952d531a7152ce04",
+   "bytes": 48140,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p03",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.black-straight-leg-jeans",
+   "appCategory": "bottom",
+   "spec": "loose black straight-leg jeans",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 스트레이트 데님",
+    "en": "Black straight-leg jeans",
+    "de": "Schwarze Jeans mit geradem Bein"
+   },
+   "howToWear": {
+    "ko": "쪼그릴 때 무릎을 편하게 굽힐 수 있는 스트레이트 핏을 고른다.",
+    "en": "Choose straight jeans with enough room to bend your knees.",
+    "de": "Gerade Jeans mit genug Platz zum Beugen der Knie wählen."
+   },
+   "image": "products/black-straight-leg-jeans.webp",
+   "sha256": "bf0cf887e600866ade52047ae60e95d652ac97a74d2db069c5f52c6fdccb7f8d",
+   "bytes": 26586,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p04",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.black-hiking-boots",
+   "appCategory": "shoes",
+   "spec": "black lug hiking boots with charcoal laces",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 하이킹 부츠",
+    "en": "Black hiking boots",
+    "de": "Schwarze Wanderstiefel"
+   },
+   "howToWear": {
+    "ko": "울 양말 위에 끈을 단단히 묶어 뒤축을 고정한다.",
+    "en": "Lace the boots securely over wool socks to hold the heel.",
+    "de": "Die Stiefel über Wollsocken fest schnüren, damit die Ferse Halt hat."
+   },
+   "image": "products/black-hiking-boots.webp",
+   "sha256": "50e34c0483f946cdc1d244c103d841f99cff7fd53974a6208d2ed15046aa8476",
+   "bytes": 34352,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p05",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.black-ribbed-beanie",
+   "appCategory": "headwear",
+   "spec": "black rib beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 리브 비니",
+    "en": "Black ribbed beanie",
+    "de": "Schwarze Rippstrickmütze"
+   },
+   "howToWear": {
+    "ko": "후드를 내렸을 때도 귀가 따뜻하도록 비니를 깊게 쓴다.",
+    "en": "Wear it low to keep your ears warm with the hood down.",
+    "de": "Die Mütze tief tragen, damit die Ohren auch ohne Kapuze warm bleiben."
+   },
+   "image": "products/black-ribbed-beanie.webp",
+   "sha256": "0e8e5955121e7b0f06a856e4457c68d59e088560dc3c8df4a119389ecd8b447c",
+   "bytes": 45090,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p06",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.charcoal-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "charcoal textured fringed scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 프린지 목도리",
+    "en": "Charcoal fringe scarf",
+    "de": "Anthrazitfarbener Fransenschal"
+   },
+   "howToWear": {
+    "ko": "자전거 바퀴에 닿지 않도록 목도리 끝을 여민다.",
+    "en": "Tuck the scarf ends in before working near the bicycle wheel.",
+    "de": "Die Schalenden einstecken, bevor man am Fahrrad hantiert."
+   },
+   "image": "products/charcoal-fringe-scarf.webp",
+   "sha256": "98985697090ccc26df9c6f1f6e8d7db4a07f150eb237c8b5c73a102b991227fe",
+   "bytes": 45812,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p07",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.smoke-grey-aviator-sunglasses",
+   "appCategory": "eyewear",
+   "spec": "smoke-grey thin metal aviator sunglasses",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "스모크 그레이 에비에이터 선글라스",
+    "en": "Smoke grey aviator sunglasses",
+    "de": "Rauchgraue Pilotenbrille"
+   },
+   "howToWear": {
+    "ko": "한쪽 다리로 가슴 주머니에 걸어 두 손을 비운다.",
+    "en": "Clip one temple to the chest pocket to keep both hands free.",
+    "de": "Einen Bügel an die Brusttasche hängen, damit beide Hände frei bleiben."
+   },
+   "image": "products/smoke-grey-aviator-sunglasses.webp",
+   "sha256": "5fcceee0c929f6532734d9b9ed2c8b80b6b022003b282faba31a2be148d88ed4",
+   "bytes": 16316,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p08",
+   "appItemId": "neutral-clear-chilly-m35-day-street-20261114-03.grey-wool-socks",
+   "appCategory": "socks",
+   "spec": "grey wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "회색 울 양말",
+    "en": "Grey wool socks",
+    "de": "Graue Wollsocken"
+   },
+   "howToWear": {
+    "ko": "바지가 올라갈 때도 발목이 덮이도록 긴 울 양말을 신는다.",
+    "en": "Choose wool socks tall enough to cover the ankle when crouching.",
+    "de": "Wollsocken wählen, die den Knöchel auch in der Hocke bedecken."
+   },
+   "image": "products/grey-wool-socks.webp",
+   "sha256": "0a95420bd3d2fe620d71ceb978b52aed38cf6ce999cd7ebb6273b4d7552e3767",
+   "bytes": 41796,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}
