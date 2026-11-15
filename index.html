@@ -536,10 +536,75 @@
   .pl-act { flex: none; background: none; border: 0; padding: 12px 0 12px 12px; font: 700 11px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: inherit; cursor: pointer; }
   .pl-msg { padding: 14px 0; font-size: 14px; font-weight: 500; opacity: .6; }
   .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+  /* ── b226: full-screen editorial home (Figma 14:36) ── */
+  .fh { position: sticky; top: 0; z-index: 0; height: 100svh; margin: calc(-1 * (env(safe-area-inset-top) + 20px)) -24px 0; overflow: hidden; background: var(--bg); }
+  body.fh-on .head-tap, body.fh-on #hl, body.fh-on #about, body.fh-on #summary, body.fh-on .grow { display: none !important; }
+  body.fh-on .app { padding-bottom: 0; }
+  .fh-rail { position: absolute; inset: 0; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .fh-rail::-webkit-scrollbar { display: none; }
+  .fh-slide { flex: 0 0 100%; height: 100%; scroll-snap-align: center; scroll-snap-stop: always; padding: 0; border: 0; background: var(--bg); cursor: pointer; }
+  .fh-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
+  /* type straight on the photo, white with a 1px black outline so it reads on any picture (user's Figma) */
+  .fh-over { position: absolute; inset: 0; pointer-events: none; color: #FFFFFF; display: flex; flex-direction: column; justify-content: flex-end;
+    padding: calc(env(safe-area-inset-top) + 22px) 20px calc(env(safe-area-inset-bottom) + 96px) 12px;
+    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
+  .fh-wx, .fh-bot { transition: opacity .2s; }
+  .fh-over.moving .fh-wx, .fh-over.moving .fh-bot { opacity: 0; }
+  .fh-wx { display: flex; flex-direction: column; align-items: flex-start; }
+  .fh-city { pointer-events: auto; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; color: inherit; background: none; border: 0; padding: 8px 8px 8px 0; margin: -8px 0; text-shadow: inherit; cursor: pointer; }
+  .fh-ar { display: flex; align-items: flex-end; margin-top: 18px; }
+  .fh-art, .fh-art svg { width: 150px; height: 106px; overflow: visible; }
+  .fh-art { margin-left: -12px; }
+  .fh-art svg { display: block; }
+  .fh-p { margin: 0 0 26px 14px; }
+  .fh-p .feels-ic { width: 22px; height: 24px; background: none; color: #FFFFFF; --bg: transparent; --graph: #FFFFFF; filter: drop-shadow(1px 0 0 #000) drop-shadow(-1px 0 0 #000) drop-shadow(0 1px 0 #000) drop-shadow(0 -1px 0 #000); }
+  .fh-p .feels-ic svg { width: 22px; height: 22px; left: 0; top: 0; }
+  .fh-p .person-ic .hd { stroke: none; }
+  /* temperature + condition: the condition sits half over the number's foot; the ° overlaps the number, half raised */
+  .fh-tc { display: flex; flex-direction: column; align-items: flex-start; margin-top: 18px; }
+  .fh-temp { position: relative; font: 800 64px/.9 var(--sans); letter-spacing: -.04em; }
+  .fh-temp .fh-deg { position: absolute; left: calc(100% - 7px); top: -2px; font-size: .55em; font-weight: 700; line-height: 1; }
+  .fh-cond { position: relative; margin-top: -15px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
+  .fh-umb { margin-top: 8px; font: 700 12px/1.4 var(--sans); max-width: 300px; }
+  .fh-bot { margin-top: 26px; }
+  .fh-k { font: 700 11px/1.2 var(--sans); letter-spacing: -.01em; }
+  .fh-title { margin-top: 6px; font: 800 28px/1.03 var(--sans); letter-spacing: -.03em; text-transform: uppercase; }
+  .fh-title span { display: block; }
+  /* the text block goes to the calmer side of the lower photo (fhSide) and moves over as the photos swipe */
+  .fh-over.right { padding-left: 20px; padding-right: 12px; }
+  .fh-over.right .fh-wx { align-items: flex-end; text-align: right; }
+  .fh-over.right .fh-bot { text-align: right; }
+  .fh-over.right .fh-ar { flex-direction: row-reverse; }
+  .fh-over.right .fh-art { margin: 0 -12px 0 0; }
+  .fh-over.right .fh-p { margin: 0 14px 26px 0; }
+  .fh-over.right .fh-tc { align-items: flex-end; margin-right: 16px; }
+  /* the article and the forecast below it: common glass over the photo */
+  body.fh-on .fh-body { position: relative; z-index: 1; margin: 0 -24px; padding: 22px 24px calc(env(safe-area-inset-bottom) + 112px); min-height: 70svh;
+    border-radius: 28px 28px 0 0; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light);
+    color: #141414; --fg: #141414; }
+  .fh-read { padding-bottom: 30px; }
+  .fh-read .fh-rk { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; opacity: .7; }
+  .fh-read .lk-atitle { margin-top: 8px; }
+  .fh-deck { margin-top: 16px; font-size: 18px; font-weight: 700; line-height: 1.35; word-break: keep-all; }
 </style>
 </head>
 <body data-state="sun">
 <main class="app">
+  <!-- b226: full-screen editorial home (Figma 14:36). The photo of today's pick fills the first screen and stays behind
+       (sticky) while the glass article scrolls up over it; swipe sideways for the three styles. Only once a clothing
+       style is picked (ABOUT YOU and the old layout stay until then). -->
+  <section class="fh" id="fh" hidden>
+    <div class="fh-rail" id="fh-rail"></div>
+    <div class="fh-over" id="fh-over">
+      <div class="fh-wx">
+        <button type="button" class="fh-city" id="fh-city"></button>
+        <div class="fh-ar"><div class="fh-art" id="fh-art"></div><span class="fh-p" id="fh-p"></span></div>
+        <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div></div>
+        <div class="fh-umb" id="fh-umb" hidden></div>
+      </div>
+      <div class="fh-bot"><div class="fh-k" id="fh-k"></div><div class="fh-title" id="fh-title"></div></div>
+    </div>
+  </section>
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div class="city" id="city" role="button" tabindex="0"><span id="city-n">Berlin</span><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg></div>
@@ -567,6 +632,8 @@
 
   <div class="grow"></div>
 
+  <div class="fh-body" id="fh-body">
+  <article class="fh-read" id="fh-read" hidden></article>
   <div class="line" id="line" hidden></div>
   <div class="graph" id="graph" hidden>
     <div class="graph-head"><div class="graph-title" id="gtitle"></div><div class="graph-max" id="gmax"></div></div>
@@ -576,6 +643,7 @@
 
   <div class="hours-wrap"><div class="hours" id="hours"></div></div>
   <div class="status" id="status"></div>
+  </div>
 </main>
 
 <section class="page" id="pg-cal" hidden></section>
@@ -974,6 +1042,7 @@
   function rainFx(level, burst) {
     if (level !== undefined) { splashLevel = level; splashBurst = !!burst; }
     var old = document.getElementById("rfx"); if (old) old.remove();
+    if (document.body.classList.contains("fh-on")) return;
     var art = $("art"), t = $("temp"), L = SPLASH[splashLevel];
     if (!L || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     var svgArt = art.querySelector("svg"); if (!svgArt) return;
@@ -1105,7 +1174,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b225";
+  var BUILD = "b226";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1603,9 +1672,12 @@
     var v = lastView; if (!v) return;
     var prof = load("wx-profile") || {};
     $("summary").hidden = true;
-    if (!prof.style) { $("hl").hidden = true; paintAbout(v, prof); return; }
+    if (!prof.style) { document.body.classList.remove("fh-on"); $("fh").hidden = true; $("fh-read").hidden = true; $("hl").hidden = true; paintAbout(v, prof); return; }
     $("about").hidden = true;
-    paintHome(v, prof);
+    var was = document.body.classList.contains("fh-on");
+    document.body.classList.add("fh-on"); $("fh").hidden = false;
+    if (!was) rainFx();
+    paintFull(v, prof);
   }
   // b152: the three clothing styles, each shown by the hero cut of the look it would pick today (else any of its looks)
   // b219: the minimal style is shown as Chic (key, saved profiles and looks keep "minimal")
@@ -1732,6 +1804,100 @@
   });
   addEventListener("resize", function () { hlStack(); rainFx(); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { hlShown = -1; hlStack(); rainFx(); });
+
+  // ── Full-screen editorial home (b226, Figma 14:36) ──
+  var lastArt = "", fhLooks = [], fhAt = 0, fhSides = {};
+  var FH = { ko: { today: "오늘의 {s}" }, en: { today: "Today's {s}" }, de: { today: "Heute: {s}" } }[LANG];
+  // night art covers the moon with a circle in the night color; on a photo that circle would show, so cut it with a mask
+  function moonMask(svg) {
+    var n = 0;
+    return svg.replace(/<circle cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)" fill="(#[0-9A-Fa-f]{6})"\/><circle cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)" fill="#1B2140"\/>/g,
+      function (_, a, b, c, f, x, y, rr) {
+        var id = "fhm" + (++n);
+        return '<mask id="' + id + '"><rect x="-300" y="-300" width="900" height="800" fill="#fff"/><circle cx="' + x + '" cy="' + y + '" r="' + rr + '" fill="#000"/></mask>' +
+          '<circle cx="' + a + '" cy="' + b + '" r="' + c + '" fill="' + f + '" mask="url(#' + id + ')"/>';
+      });
+  }
+  // which side of the lower photo is calmer: luminance edges in the visible crop (object-fit: cover), lower 40 %, left vs right half
+  function fhSide(o) {
+    if (!o || !o.image) return Promise.resolve("left");
+    if (fhSides[o.image]) return Promise.resolve(fhSides[o.image]);
+    return new Promise(function (res) {
+      var im = new Image();
+      im.onload = function () {
+        try {
+          var W = 120, H = 180, c = document.createElement("canvas"); c.width = W; c.height = H;
+          var g = c.getContext("2d"); g.drawImage(im, 0, 0, W, H);
+          var d = g.getImageData(0, 0, W, H).data, fh = $("fh");
+          var vis = Math.min(1, (fh.clientWidth / Math.max(1, fh.clientHeight)) / (W / H)), x0 = Math.round(W * (1 - vis) / 2), vw = Math.round(W * vis);
+          var y0 = Math.round(H * .58), y1 = Math.round(H * .97), e = [0, 0], n = [0, 0];
+          var L = function (x, y) { var i = (y * W + x) * 4; return .3 * d[i] + .59 * d[i + 1] + .11 * d[i + 2]; };
+          for (var y = y0; y < y1; y++) for (var x = x0 + 1; x < x0 + vw; x++) {
+            var k = x < x0 + vw / 2 ? 0 : 1;
+            e[k] += Math.abs(L(x, y) - L(x - 1, y)) + Math.abs(L(x, y) - L(x, y - 1)); n[k]++;
+          }
+          res(fhSides[o.image] = e[1] / n[1] < e[0] / n[0] * .92 ? "right" : "left");
+        } catch (err) { res("left"); }
+      };
+      im.onerror = function () { res("left"); };
+      im.src = o.image;
+    });
+  }
+  function paintFull(v, prof) {
+    fhLooks = drawHome(v, prof);
+    var start = Math.max(0, STYLES.indexOf(prof.style)), rail = $("fh-rail");
+    rail.innerHTML = fhLooks.map(function (h, k) {
+      var e = h.e, img = !e.soon && e.o.image ? '<img alt="" src="' + e.o.image + '"' + (k === start ? "" : ' loading="lazy"') + ">" : "";
+      return '<button type="button" class="fh-slide" data-k="' + k + '" aria-label="' + esc(homeTitle(e)) + '">' + img + "</button>";
+    }).join("");
+    $("fh-city").textContent = $("city-n").textContent;
+    $("fh-city").setAttribute("aria-label", T.plOpen);
+    $("fh-art").innerHTML = moonMask(lastArt);
+    $("fh-p").innerHTML = v.icon;
+    var c = v.data.current;
+    $("fh-temp").innerHTML = r(c.temperature_2m) + '<span class="fh-deg">°</span>';
+    $("fh-cond").textContent = $("cond").textContent;
+    var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0, mm = D.precipitation_sum ? D.precipitation_sum[0] : null;
+    var wet = (v.rain || p >= 50) && !isSnow(v.code), u = $("fh-umb");
+    u.hidden = !wet;
+    u.textContent = wet ? NV.umb + " · " + (typeof mm === "number" ? fmt(NV.rainAmt, { m: (Math.round(mm * 10) / 10).toLocaleString(LOCALE), p: p }) : fmt(NV.rainP, { p: p })) : "";
+    fhAt = -1;
+    rail.scrollLeft = start * rail.clientWidth;
+    fhShow(start, true);
+  }
+  function fhShow(k, now) {
+    var h = fhLooks[k]; if (!h) return;
+    fhAt = k;
+    var over = $("fh-over"), e = h.e;
+    if (!now) over.classList.add("moving");
+    Promise.all([fhSide(e.soon ? null : e.o), new Promise(function (res) { setTimeout(res, now ? 0 : 200); })]).then(function (r2) {
+      if (fhAt !== k) return;
+      over.classList.toggle("right", r2[0] === "right");
+      $("fh-k").textContent = fmt(FH.today, { s: LT.styles[STYLES.indexOf(h.st)] });
+      twoLines($("fh-title"), homeTitle(e));
+      fhRead(h);
+      over.classList.remove("moving");
+    });
+  }
+  // the article under the photo: kicker, title, caption, then the same intro / product cards / pull quote / tip as the sheet
+  function fhRead(h) {
+    var e = h.e, a = $("fh-read"), o = e.soon ? null : e.o, k = '<div class="fh-rk">' + esc(fmt(FH.today, { s: LT.styles[STYLES.indexOf(h.st)] })) + "</div>";
+    a.innerHTML = o ? k + (o.article ? '<div class="lk-atitle">' + esc(o.article.title) + "</div>" : "") + '<div class="fh-deck">' + esc(o.deck[LANG]) + "</div>" +
+        (o.article ? articleHtml(o, [], lookState()) : "")
+      : k + '<div class="lk-atitle">' + esc(homeTitle(e)) + '</div><div class="fh-deck">' + esc(LT.soon) + "</div>";
+    a.hidden = false;
+  }
+  (function () {
+    var rail = $("fh-rail"), tm = null;
+    rail.addEventListener("scroll", function () {
+      clearTimeout(tm);
+      tm = setTimeout(function () { var k = Math.round(rail.scrollLeft / Math.max(1, rail.clientWidth)); if (k !== fhAt) fhShow(k); }, 90);
+    }, { passive: true });
+    // a tap on the photo reads on: scroll to the article
+    rail.addEventListener("click", function () { window.scrollTo({ top: $("fh-body").getBoundingClientRect().top + window.scrollY, behavior: "smooth" }); });
+    $("fh-city").addEventListener("click", openPlaces);
+    addEventListener("resize", function () { if (fhAt >= 0) rail.scrollLeft = fhAt * rail.clientWidth; });
+  })();
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
@@ -1892,7 +2058,8 @@
 
     $("city-n").textContent = placeName(place);
     $("date").textContent = dateLine(nowLocal);
-    $("art").innerHTML = artFor(state, cur.weather_code, isDay);
+    lastArt = artFor(state, cur.weather_code, isDay);
+    $("art").innerHTML = lastArt;
     var rc = cur.weather_code, rainArt = (state === "rain" || state === "rain-night") && !isDrizzle(rc);
 
     var t = r(cur.temperature_2m);
