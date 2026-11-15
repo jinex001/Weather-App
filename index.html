@@ -1174,11 +1174,12 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  // From 2026-11-15 the app carries a version number (1.001, 1.002, …) instead of a build tag (bNN). Raise it on
-  // every deploy of app code; the format "N.NNN" in var VERSION is what checkBuild reads, so keep it.
-  var VERSION = "1.001", BUILD = "v" + VERSION;
-  // Phones still running b226 or older look for the old build tag below; it differs from theirs, so they reload once
-  // and pick up this version. Leave this line as it is:  var BUILD = "b227"
+  // Version (user, 2026-11-15) + build number, shown together as "v1.0 (226)". The version changes only when the user
+  // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
+  // line in the form var BUILD = "bNN".
+  var VERSION = "1.0";
+  var BUILD = "b226";
+  var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -2166,7 +2167,7 @@
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
     $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + (cloud && cloud.met ? " · MET" : "") +
       (cloud ? " · ☁" + Math.round(cloud.cover) + "%" : "") + (sun ? " · ☀" + Math.round(sun.share * 100) + "%" : "") +
-      (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · " + BUILD;
+      (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · v" + VER_LABEL;
   }
 
 
@@ -2211,7 +2212,7 @@
   }
 
   // The home-screen app keeps running the page it loaded, so new builds never show up on their own.
-  // Check the deployed page's VERSION and reload once when it differs (at most once a minute, once per version).
+  // Check the deployed page's BUILD and reload once when it differs (at most once a minute, once per build).
   var lastBuildCheck = 0;
   function checkBuild() {
     if (Date.now() - lastBuildCheck < 60000) return;
@@ -2219,8 +2220,8 @@
     fetch(location.pathname + "?build=" + Date.now(), { cache: "no-store" })
       .then(function (res) { return res.ok ? res.text() : ""; })
       .then(function (html) {
-        var m = html.match(/var VERSION = "(\d+\.\d+)"/);
-        if (!m || m[1] === VERSION) return;
+        var m = html.match(/var BUILD = "(b\d+)"/);
+        if (!m || m[1] === BUILD) return;
         try { if (sessionStorage.getItem("wx-reloaded") === m[1]) return; sessionStorage.setItem("wx-reloaded", m[1]); } catch (e) {}
         // A new query string so the reload can't come back from the 10-minute HTTP cache of the old page.
         location.replace(location.pathname + "?v=" + m[1]);
@@ -2543,7 +2544,7 @@
       '<div class="set"><span><span class="pg-k">' + esc(NV.lang) + '</span><span class="set-v">' + esc(NV.langV) + "</span></span></div>" +
       '<div class="set"><span><span class="pg-k">' + esc(NV.units) + '</span><span class="set-v">°C · km/h</span></span></div>' +
       '<div class="set"><span><span class="pg-k">' + esc(NV.src) + '</span><span class="set-v">Open-Meteo · DWD · MET Norway</span></span></div>' +
-      '<div class="set"><span><span class="pg-k">' + esc(NV.ver) + '</span><span class="set-v">' + VERSION + "</span></span></div></div>";
+      '<div class="set"><span><span class="pg-k">' + esc(NV.ver) + '</span><span class="set-v">' + VER_LABEL + "</span></span></div></div>";
     $("set-loc").addEventListener("click", openPlaces);
     $("set-style").addEventListener("click", function () { setStyleOpen = !setStyleOpen; paintSettings(); });
     var tiles = document.querySelector("#pg-set .set-sty");
