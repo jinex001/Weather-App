@@ -1,0 +1,201 @@
+{
+ "batch": "clear-chilly-male-night-20261114",
+ "id": "male-05",
+ "appOutfitId": "neutral-clear-chilly-m35-night-street-20261114-05",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "night",
+ "appTime": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "street",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "stepping off a front doorstep at night with a paper grocery bag held in one arm",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "5ea39e01032d7c8b3b94ab9a6829311014165a6212ada5e24123ec0eb5d99e56",
+ "masterEditorial": "editorials/05-graphite-long-down-parka.png",
+ "copy": {
+  "title": {
+   "ko": "장바구니와 붉은 목도리",
+   "en": "Groceries and a rust scarf",
+   "de": "Einkäufe und ein rostfarbener Schal"
+  },
+  "intro": {
+   "ko": "긴 그래파이트 파카에 크림 하프집 니트를 겹쳤다. 러스트 레드 목도리가 올리브 팬츠와 브라운 부츠 위에서 색을 더한다.",
+   "en": "A cream quarter zip shows beneath the long graphite parka. A rust scarf adds color above olive trousers and brown boots.",
+   "de": "Unter dem langen graphitfarbenen Parka zeigt sich ein cremefarbener Troyer. Ein rostfarbener Schal setzt einen farbigen Akzent zu olivgrüner Hose und braunen Stiefeln."
+  },
+  "deck": {
+   "ko": "장바구니를 한 팔에 안고 현관 계단을 조심조심 딛는 밤.",
+   "en": "One arm around the shopping, one careful foot on the front step.",
+   "de": "Ein Arm um die Einkaufstüte, ein vorsichtiger Fuß auf der Stufe vor der Haustür."
+  },
+  "articleTitle": "GROCERIES AND A RUST SCARF",
+  "pull": "MIND THE STEP, SAVE THE BAGUETTE.",
+  "tip": {
+   "ko": "장을 본 날엔 무거운 봉투를 몸 가까이 안고, 문 쪽 손은 비워 둬요.",
+   "en": "After shopping, hold the heavy bag close to your body and keep the hand nearest the door free.",
+   "de": "Nach dem Einkauf die schwere Tüte nah am Körper tragen und die Hand zur Tür hin frei lassen."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf",
+ "productCount": 7,
+ "products": [
+  {
+   "producerId": "m05-p01",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.long-graphite-down-parka",
+   "appCategory": "outer",
+   "spec": "long graphite hooded matte down parka",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "그래파이트 롱 다운 파카",
+    "en": "Long graphite down parka",
+    "de": "Langer graphitfarbener Daunenparka"
+   },
+   "howToWear": {
+    "ko": "코트 상단을 열어 크림 니트와 붉은 목도리를 살린다.",
+    "en": "Open the top to show the cream knit and rust scarf.",
+    "de": "Den Parka oben öffnen, damit heller Strick und rostfarbener Schal sichtbar werden."
+   },
+   "image": "products/long-graphite-down-parka.webp",
+   "sha256": "924bb1016511385eb29651de8bd72f20932b55b23919dbf19c371e492bb01e90",
+   "bytes": 20138,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p02",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.cream-ribbed-quarter-zip-sweater",
+   "appCategory": "top",
+   "spec": "cream ribbed quarter-zip sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "크림 골지 하프집 니트",
+    "en": "Cream ribbed quarter-zip sweater",
+    "de": "Cremefarbener Rippstrick-Troyer"
+   },
+   "howToWear": {
+    "ko": "목도리 아래에서 짧은 지퍼를 조금 내려 여유를 둔다.",
+    "en": "Lower the short zip a little beneath the scarf.",
+    "de": "Den kurzen Reißverschluss unter dem Schal etwas öffnen."
+   },
+   "image": "products/cream-ribbed-quarter-zip-sweater.webp",
+   "sha256": "6e19befd7f7ea3a9bb2f040db976ac90c728fd9c2dc2c01e11d6bd6cc10b2748",
+   "bytes": 43450,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p03",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.olive-straight-leg-trousers",
+   "appCategory": "bottom",
+   "spec": "olive straight trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "올리브 스트레이트 팬츠",
+    "en": "Olive straight-leg trousers",
+    "de": "Gerade olivgrüne Hose"
+   },
+   "howToWear": {
+    "ko": "브라운 부츠 위로 올리브 바지가 곧게 떨어지게 한다.",
+    "en": "Let the olive trouser legs fall straight above the brown boots.",
+    "de": "Die olivgrünen Hosenbeine gerade über die braunen Stiefel fallen lassen."
+   },
+   "image": "products/olive-straight-leg-trousers.webp",
+   "sha256": "4c01443fb921bb074ff55db18ab0945b18487098f4547df547a76ae66c69a40a",
+   "bytes": 17732,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p04",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.brown-leather-lace-up-boots",
+   "appCategory": "shoes",
+   "spec": "brown leather lace-up boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "브라운 가죽 끈 부츠",
+    "en": "Brown leather lace-up boots",
+    "de": "Braune Lederschnürstiefel"
+   },
+   "howToWear": {
+    "ko": "장바구니를 들고 계단을 내려올 때 발이 흔들리지 않게 끈을 묶는다.",
+    "en": "Lace the boots snugly for steady footing on steps with groceries.",
+    "de": "Für sicheren Tritt mit Einkäufen auf der Treppe die Stiefel fest schnüren."
+   },
+   "image": "products/brown-leather-lace-up-boots.webp",
+   "sha256": "73c5403b6987319a4953068a9f0a24f39582b450f4e59f7a1ab9cdcc2fc47ee9",
+   "bytes": 34034,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p05",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.charcoal-rib-knit-beanie",
+   "appCategory": "headwear",
+   "spec": "charcoal rib knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 골지 비니",
+    "en": "Charcoal rib-knit beanie",
+    "de": "Anthrazitfarbene Rippstrickmütze"
+   },
+   "howToWear": {
+    "ko": "차콜 비니로 파카 색을 이어 주고 목도리를 포인트로 둔다.",
+    "en": "Pick up the parka’s dark grey in the beanie and let the rust scarf stand out.",
+    "de": "Das Dunkelgrau des Parkas in der Mütze aufgreifen und den rostfarbenen Schal betonen."
+   },
+   "image": "products/charcoal-rib-knit-beanie.webp",
+   "sha256": "460d70cf7ca2637b455190fd8539eb1350009de5492f75c6320732f37e287288",
+   "bytes": 39000,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p06",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "rust red fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "러스트 레드 프린지 목도리",
+    "en": "Rust-red fringe scarf",
+    "de": "Rostroter Fransenschal"
+   },
+   "howToWear": {
+    "ko": "러스트 레드 목도리 끝을 크림 니트 앞으로 내려 입는다.",
+    "en": "Let the rust-red ends hang against the cream knit.",
+    "de": "Die rostroten Enden vor dem cremefarbenen Strick herabhängen lassen."
+   },
+   "image": "products/rust-red-fringe-scarf.webp",
+   "sha256": "fd09e3352c3fc6e40c2f829bc87191f0c785bffe85039dfe2d1db2a5f9c627b2",
+   "bytes": 48272,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p07",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-05.taupe-grey-wool-socks",
+   "appCategory": "socks",
+   "spec": "taupe grey wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "토프 그레이 울 양말",
+    "en": "Taupe grey wool socks",
+    "de": "Taupegraue Wollsocken"
+   },
+   "howToWear": {
+    "ko": "부츠 안에서 발목까지 올라오는 울 양말을 신는다.",
+    "en": "Wear wool socks that cover the ankles inside the boots.",
+    "de": "In den Stiefeln Wollsocken tragen, die bis über die Knöchel reichen."
+   },
+   "image": "products/taupe-grey-wool-socks.webp",
+   "sha256": "13f67b1ce7ebb46a59c35d8b74ad5a7922f022ff41bf0bcb1b8991112c96ffbd",
+   "bytes": 47918,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

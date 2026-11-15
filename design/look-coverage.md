@@ -13,7 +13,7 @@
 | 하늘 | 성별 | 시간 | 러닝 | 스트리트 | 미니멀 | 폴더 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 맑음 | 남 | 낮 | 5 기사 (b128) | 5 기사 (b126) + neutral-urban 3룩(b223, 24제품) = 8 | 5 기사 (b127) + neutral-urban 2룩(b223, 16제품) = 7 | `Sunny/Chilly/Male/35+/day/` (b223은 `look/global/neutral-urban-clear-chilly-male-day-20261114/`) |
-| 맑음 | 남 | 저녁 | 5 기사 (b132) | 5 기사 (b131, 30제품) | 5 기사 (b130) | `Sunny/Chilly/Male/35+/night/` |
+| 맑음 | 남 | 저녁 | 5 기사 (b132) | 5 기사 (b131, 30제품) + neutral-urban 3룩(b224, 22제품) = 8 | 5 기사 (b130) + neutral-urban 2룩(b224, 13제품) = 7 | `Sunny/Chilly/Male/35+/night/` (b224는 `look/global/neutral-urban-clear-chilly-male-night-20261114/`) |
 | 맑음 | 여 | 낮 | 5 기사 | 5 기사 | 5 기사 | `Sunny/Chilly/Female/35+/day/` (b124) |
 | 맑음 | 여 | 저녁 | 5 기사 (b138, 40제품, 홈 컷 b139) | 5 기사 (b140, 42제품) | 5 기사 (b129) | `Sunny/Chilly/Female/35+/night/` |
 | 흐림 | 남 | 낮 | 5 기사 | 10 기사 (`oc15-06…10` 28제품 b147에 투명 WebP로 교체 + b145 두 번째 세트 28제품, 투명 WebP) + european-urban 장소에서 b222 5룩(33제품) = 15 | 5 기사 | `Overcast/Chilly/Male/35+/day/` (b145 세트는 `day/street/01–05/`) |
@@ -355,3 +355,7 @@ Dry cloudy · chilly · day · street (the app's casual pool; tab label Streetwe
 ## b223 · Clear Chilly male day minimal + street · neutral-urban · 2026-11-14
 
 Clear (0–2) · chilly · male 35+ · day: 2 minimal + 3 street looks (`neutral-clear-chilly-m35-day-<style>-20261114-01…05`), 40 transparent products (8 each, Codex image_gen, producer QA). First reviewed `neutral-urban` set; humidity unknown; actual temperature null, feels-like 7°C is the styling setting. Effect under the existing rank rule (`look/global-context.js`, unchanged): unknown-region places (GPS) mix them into the Berlin draw (minimal 5 → 7, street 5 → 8 candidates); neutral-urban and east-asian-urban places put them first; **european-urban places (Berlin by city search) keep showing the 5 Berlin looks per style** — the new looks rank second there (reviewed neutral = 1, Berlin legacy = 0); warm-coastal places exclude them (b187). Also cold/cool neighbour on clear days in the same places.
+
+## b224 · Clear Chilly male evening minimal + street · neutral-urban · 2026-11-14
+
+Clear (0–2) · chilly · male 35+ · evening (`time: "evening"`, delivered as night): 2 minimal + 3 street looks (`neutral-clear-chilly-m35-night-<style>-20261114-01…05`), 35 transparent products (6/7/8/7/7, Codex image_gen, producer QA). Reviewed `neutral-urban`; humidity unknown; actual temperature null, feels-like 7°C is the styling setting. Look 03's grey gloves are a pair reconstructed from the one visible glove. Effect under the existing rank rule (`look/global-context.js`, unchanged): unknown-region places (GPS) mix them into the Berlin evening draw (minimal 5 → 7, street 5 → 8 candidates); neutral-urban and east-asian-urban places put them first; **european-urban places (Berlin by city search) keep showing the 5 Berlin evening looks per style** (new looks rank second there); warm-coastal places exclude them. Also cold/cool neighbour on clear evenings in the same places. Day, cloudy, rain and snow views unchanged. [Validation](neutral-urban-clear-chilly-male-night-20261114-validation.md).

@@ -1,0 +1,180 @@
+{
+ "batch": "clear-chilly-male-night-20261114",
+ "id": "male-01",
+ "appOutfitId": "neutral-clear-chilly-m35-night-minimal-20261114-01",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "night",
+ "appTime": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "turning the key in a front door at night, one hand in the trouser pocket",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "9555e49a44eb8e2112fc1b9ca3daa39d4c7388a1f5486a8a7b640bce675b2b76",
+ "masterEditorial": "editorials/01-charcoal-wool-coat.png",
+ "copy": {
+  "title": {
+   "ko": "현관 앞의 차콜 울 코트",
+   "en": "Charcoal at the front door",
+   "de": "Anthrazit vor der Haustür"
+  },
+  "intro": {
+   "ko": "회색 목도리와 검정 터틀넥을 겹치고 긴 울 코트의 위쪽을 열었다. 첼시 부츠가 어두운 색의 착장을 이어 준다.",
+   "en": "A grey scarf and black rollneck sit inside the open wool coat. Chelsea boots carry the dark palette to the ground.",
+   "de": "Grauer Schal und schwarzer Rollkragen liegen unter dem offenen Wollmantel. Chelsea-Boots greifen die dunklen Töne auf."
+  },
+  "deck": {
+   "ko": "늦은 밤 현관 열쇠를 돌리는, 짙은 색으로 이어 입은 긴 코트 차림.",
+   "en": "Dark tones head to toe for a late walk home, key already in the lock.",
+   "de": "Dunkle Töne von Kopf bis Fuß für den späten Heimweg – der Schlüssel steckt schon im Schloss."
+  },
+  "articleTitle": "CHARCOAL AT THE FRONT DOOR",
+  "pull": "KEY IN THE LOCK, HAND IN THE POCKET.",
+  "tip": {
+   "ko": "짙은 색만 입는 밤엔 회색 목도리처럼 질감이 다른 소품 하나로 얼굴 주변을 밝혀요.",
+   "en": "On an all-dark night, one piece with a different texture, like a grey scarf, brightens the area around the face.",
+   "de": "An einem Abend ganz in dunklen Tönen hellt ein Teil mit anderer Struktur, etwa ein grauer Schal, die Partie ums Gesicht auf."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-night-minimal-20261114-01.long-charcoal-wool-coat",
+ "productCount": 6,
+ "products": [
+  {
+   "producerId": "m01-p01",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-01.long-charcoal-wool-coat",
+   "appCategory": "outer",
+   "spec": "long charcoal single-breasted wool coat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 롱 울 코트",
+    "en": "Long charcoal wool coat",
+    "de": "Langer anthrazitfarbener Wollmantel"
+   },
+   "howToWear": {
+    "ko": "위쪽을 열어 터틀넥과 목도리가 보이게 입는다.",
+    "en": "Leave the top open to show the turtleneck and scarf.",
+    "de": "Den Mantel oben offen lassen, damit Rollkragen und Schal sichtbar bleiben."
+   },
+   "image": "products/long-charcoal-wool-coat.webp",
+   "sha256": "389a7675f9130725e6a4c441640d2c6764f687d643a70e1c74f87a590ea9826f",
+   "bytes": 20946,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p02",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-01.black-merino-turtleneck",
+   "appCategory": "top",
+   "spec": "black merino turtleneck",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 메리노 터틀넥",
+    "en": "Black merino turtleneck",
+    "de": "Schwarzer Merino-Rollkragenpullover"
+   },
+   "howToWear": {
+    "ko": "울 코트 안에 터틀넥을 입어 목을 한 겹 더 감싼다.",
+    "en": "Wear it under the wool coat for an extra layer at the neck.",
+    "de": "Unter dem Wollmantel wärmt der Rollkragen zusätzlich am Hals."
+   },
+   "image": "products/black-merino-turtleneck.webp",
+   "sha256": "4a7cbacc904d1b8f6fa952b760556c943b7e6913fa01d4b8b9170e4c45752c74",
+   "bytes": 20040,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p03",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-01.charcoal-straight-leg-wool-trousers",
+   "appCategory": "bottom",
+   "spec": "charcoal straight wool trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 스트레이트 울 팬츠",
+    "en": "Charcoal straight-leg wool trousers",
+    "de": "Gerade anthrazitfarbene Wollhose"
+   },
+   "howToWear": {
+    "ko": "바짓단이 첼시 부츠 입구를 가볍게 덮게 한다.",
+    "en": "Let the trouser hems skim the tops of the Chelsea boots.",
+    "de": "Die Hosensäume locker über die Chelsea-Boots fallen lassen."
+   },
+   "image": "products/charcoal-straight-leg-wool-trousers.webp",
+   "sha256": "2c8df126bdaf2d22c113f43be76c1eae5b3f6ed44dfd8f71d8915b8e0f64f1a9",
+   "bytes": 14000,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p04",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-01.black-leather-chelsea-boots",
+   "appCategory": "shoes",
+   "spec": "black leather Chelsea boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 가죽 첼시 부츠",
+    "en": "Black leather Chelsea boots",
+    "de": "Schwarze Chelsea-Boots aus Leder"
+   },
+   "howToWear": {
+    "ko": "코트와 바지의 짙은 색에 맞춰 매끈한 가죽을 고른다.",
+    "en": "Pair the smooth leather with the dark shades of the coat and trousers.",
+    "de": "Glattes Leder zu den dunklen Tönen von Mantel und Hose kombinieren."
+   },
+   "image": "products/black-leather-chelsea-boots.webp",
+   "sha256": "4c8567ac3fb45f272d83f6b4a952d268fb766b14107bd9ba9c43c082dc671f13",
+   "bytes": 20524,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p05",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-01.black-ribbed-beanie",
+   "appCategory": "headwear",
+   "spec": "black ribbed beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 골지 비니",
+    "en": "Black ribbed beanie",
+    "de": "Schwarze Rippstrickmütze"
+   },
+   "howToWear": {
+    "ko": "귀를 살짝 덮도록 비니를 내려 쓴다.",
+    "en": "Pull the beanie down to cover the tops of the ears.",
+    "de": "Die Mütze leicht über die Ohren ziehen."
+   },
+   "image": "products/black-ribbed-beanie.webp",
+   "sha256": "75c2fd3961cc48e820f6d76e9b3bb0b6810e2f34c146960b2f338c6606a3ca2b",
+   "bytes": 40268,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p06",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-01.heather-grey-wool-scarf",
+   "appCategory": "scarf",
+   "spec": "heather grey fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "멜란지 그레이 울 목도리",
+    "en": "Heather grey wool scarf",
+    "de": "Grau melierter Wollschal"
+   },
+   "howToWear": {
+    "ko": "목에 한 번 감고 한쪽 끝을 앞으로 늘어뜨린다.",
+    "en": "Loop it once and let one end hang down the front.",
+    "de": "Einmal um den Hals wickeln und ein Ende vorne hängen lassen."
+   },
+   "image": "products/heather-grey-wool-scarf.webp",
+   "sha256": "6b1cba99b2b877ac34ab358ef3191340f67368e5166d5885696369d0a2ae8277",
+   "bytes": 49516,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

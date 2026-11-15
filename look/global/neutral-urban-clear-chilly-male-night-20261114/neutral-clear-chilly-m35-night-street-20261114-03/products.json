@@ -1,0 +1,222 @@
+{
+ "batch": "clear-chilly-male-night-20261114",
+ "id": "male-03",
+ "appOutfitId": "neutral-clear-chilly-m35-night-street-20261114-03",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "night",
+ "appTime": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "street",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "crouching on the pavement at night, reaching for one grey glove dropped on the stoop steps",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "7cfe32b15ca7ef295dc063f9a0ae0042ab3f188d7bc84d8e1b8acbfeeda9c708",
+ "masterEditorial": "editorials/03-olive-down-parka.png",
+ "copy": {
+  "title": {
+   "ko": "계단에 떨어진 장갑",
+   "en": "The glove on the step",
+   "de": "Der Handschuh auf der Stufe"
+  },
+  "intro": {
+   "ko": "올리브 파카와 검정 데님에 회색 울 소품을 맞췄다. 무릎에 여유 있는 데님과 끈 부츠는 몸을 낮출 때도 편하다.",
+   "en": "Grey wool accessories sit against an olive parka and black denim. Room at the knee and firmly laced boots help when crouching.",
+   "de": "Graue Wollaccessoires ergänzen den olivgrünen Parka und die schwarze Jeans. Platz am Knie und fest geschnürte Stiefel erleichtern das Hinhocken."
+  },
+  "deck": {
+   "ko": "떨어뜨린 장갑 한 짝을 주우려 쪼그려 앉은 밤의 파카 차림.",
+   "en": "A parka night, crouched low to rescue the one that got away.",
+   "de": "Ein Parka-Abend: in der Hocke, um den einen Ausreißer wieder einzusammeln."
+  },
+  "articleTitle": "THE GLOVE ON THE STEP",
+  "pull": "ONE GLOVE DOWN, ONE TO GO.",
+  "tip": {
+   "ko": "장갑은 벗으면 바로 파카 주머니 깊숙이 넣어야 한 짝만 잃어버리지 않아요.",
+   "en": "Push gloves deep into a parka pocket the moment they come off, so you never lose just one.",
+   "de": "Handschuhe gleich nach dem Ausziehen tief in die Parkatasche stecken – so geht nie einer allein verloren."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-night-street-20261114-03.heather-grey-wool-gloves",
+ "productCount": 8,
+ "products": [
+  {
+   "producerId": "m03-p01",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.olive-hooded-down-parka",
+   "appCategory": "outer",
+   "spec": "matte olive hooded down parka",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "올리브 후드 다운 파카",
+    "en": "Olive hooded down parka",
+    "de": "Olivgrüner Daunenparka mit Kapuze"
+   },
+   "howToWear": {
+    "ko": "파카 지퍼를 가슴까지 열어 니트를 드러낸다.",
+    "en": "Unzip the parka to the chest to reveal the knit.",
+    "de": "Den Parka bis zur Brust öffnen, damit der Strick sichtbar wird."
+   },
+   "image": "products/olive-hooded-down-parka.webp",
+   "sha256": "26aa61af4cd7eb806b72384cd37be06f153c2e41cf5ea498618db27a66d40828",
+   "bytes": 27296,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p02",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.black-rib-knit-sweater",
+   "appCategory": "top",
+   "spec": "black rib-knit sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 골지 니트",
+    "en": "Black rib-knit sweater",
+    "de": "Schwarzer Rippstrickpullover"
+   },
+   "howToWear": {
+    "ko": "검정 골지 니트로 올리브 파카 안쪽을 차분하게 받친다.",
+    "en": "Set the olive parka against a simple black rib knit.",
+    "de": "Zum olivgrünen Parka einen schlichten schwarzen Rippstrickpullover tragen."
+   },
+   "image": "products/black-rib-knit-sweater.webp",
+   "sha256": "b15d5feba8c738ffd8ea906acb5519d1b3a63d90831cfdeee291394d26d5606f",
+   "bytes": 37590,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p03",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.black-straight-leg-jeans",
+   "appCategory": "bottom",
+   "spec": "black straight-leg jeans",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 스트레이트 데님",
+    "en": "Black straight-leg jeans",
+    "de": "Schwarze Jeans mit geradem Bein"
+   },
+   "howToWear": {
+    "ko": "쪼그릴 때 무릎이 당기지 않는 스트레이트 핏을 고른다.",
+    "en": "Choose straight legs that leave room at the knee when crouching.",
+    "de": "Gerade Beine mit Bewegungsfreiheit am Knie wählen."
+   },
+   "image": "products/black-straight-leg-jeans.webp",
+   "sha256": "aeebf2099d240d79ee301d898ab63f7bbeb9963f10abbe45ac3d3092115f9510",
+   "bytes": 19552,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p04",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.black-hiking-boots",
+   "appCategory": "shoes",
+   "spec": "black hiking boots with grey laces",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 하이킹 부츠",
+    "en": "Black hiking boots",
+    "de": "Schwarze Wanderstiefel"
+   },
+   "howToWear": {
+    "ko": "하이킹 부츠 끈을 조여 계단에서도 뒤꿈치를 잡아 준다.",
+    "en": "Tie the hiking boots snugly to keep the heel in place on steps.",
+    "de": "Die Wanderstiefel fest schnüren, damit die Ferse auf Stufen Halt hat."
+   },
+   "image": "products/black-hiking-boots.webp",
+   "sha256": "0c7fa44c81951a3c1410d2766bf8115a33bdf025ca3ae85fb1bc6dfdf505cf23",
+   "bytes": 33520,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p05",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.black-ribbed-knit-beanie",
+   "appCategory": "headwear",
+   "spec": "black rib knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 골지 비니",
+    "en": "Black ribbed knit beanie",
+    "de": "Schwarze Mütze in Rippstrick"
+   },
+   "howToWear": {
+    "ko": "후드를 내린 상태에서도 귀를 덮는다.",
+    "en": "Cover the ears even with the hood down.",
+    "de": "Die Ohren auch bei heruntergelassener Kapuze bedecken."
+   },
+   "image": "products/black-ribbed-knit-beanie.webp",
+   "sha256": "ca504537a5040811db46efdfdd55e7e035577d59de65f47bd90672d6060f48cd",
+   "bytes": 43166,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p06",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.graphite-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "graphite textured fringed scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "그래파이트 프린지 목도리",
+    "en": "Graphite fringe scarf",
+    "de": "Graphitfarbener Fransenschal"
+   },
+   "howToWear": {
+    "ko": "파카 깃 사이로 목도리 끝을 내려 보온한다.",
+    "en": "Let the scarf ends fall between the parka lapels for warmth.",
+    "de": "Die Schalenden zwischen den offenen Parkakanten hängen lassen."
+   },
+   "image": "products/graphite-fringe-scarf.webp",
+   "sha256": "0af54e4847e2c4cad2ecad55c15b0fce1a03ebeb3104c749ddd0fc37fe94f142",
+   "bytes": 48164,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p07",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.grey-wool-socks",
+   "appCategory": "socks",
+   "spec": "grey wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "회색 울 양말",
+    "en": "Grey wool socks",
+    "de": "Graue Wollsocken"
+   },
+   "howToWear": {
+    "ko": "바짓단이 올라가도 발목을 덮을 길이로 신는다.",
+    "en": "Wear them high enough to cover the ankle as the jeans rise.",
+    "de": "Die Socken so hoch tragen, dass sie auch bei hochrutschender Jeans den Knöchel bedecken."
+   },
+   "image": "products/grey-wool-socks.webp",
+   "sha256": "7f19f72b1a5af47b5dfcc53897d8061d2cda0f49306c5adbb0f66da70883c52a",
+   "bytes": 48370,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p08",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-03.heather-grey-wool-gloves",
+   "appCategory": "hands",
+   "spec": "heather grey wool gloves, exactly one matching pair based on the dropped glove",
+   "evidence": "partially-visible-reconstructed",
+   "name": {
+    "ko": "멜란지 그레이 울 장갑",
+    "en": "Heather grey wool gloves",
+    "de": "Grau melierte Wollhandschuhe"
+   },
+   "howToWear": {
+    "ko": "외출 직전 장갑 한 켤레를 챙겨 손을 보온한다.",
+    "en": "Take both gloves before heading out to keep your hands warm.",
+    "de": "Vor dem Rausgehen beide Handschuhe einstecken."
+   },
+   "image": "products/heather-grey-wool-gloves.webp",
+   "sha256": "d49da78fc360189210ace9c95a0bc520baf6778ffd53e97364f24dbf2b511e0d",
+   "bytes": 46320,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

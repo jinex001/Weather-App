@@ -1,0 +1,201 @@
+{
+ "batch": "clear-chilly-male-night-20261114",
+ "id": "male-04",
+ "appOutfitId": "neutral-clear-chilly-m35-night-street-20261114-04",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "night",
+ "appTime": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "street",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "perched on a pavement rail outside a lit shop window at night, one hand held out towards the camera",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "b666d04679738a05c831301665485b3bf3b516c441ed79277def226389f48621",
+ "masterEditorial": "editorials/04-ink-blue-down-puffer.png",
+ "copy": {
+  "title": {
+   "ko": "가게 불빛 아래 잉크 블루",
+   "en": "Ink blue in the shop light",
+   "de": "Tintenblau im Ladenlicht"
+  },
+  "intro": {
+   "ko": "잉크 블루 푸퍼와 바랜 검정 데님에 연회색 목도리를 둘렀다. 패딩 앵클 부츠와 울 양말이 발목을 덮는다.",
+   "en": "A pale grey scarf lifts the ink blue puffer and faded black jeans. Padded boots and wool socks cover the ankles.",
+   "de": "Ein hellgrauer Schal setzt einen Akzent zur tintenblauen Daunenjacke und verwaschenen Jeans. Gefütterte Stiefeletten und Wollsocken bedecken die Knöchel."
+  },
+  "deck": {
+   "ko": "가게 앞 난간에 걸터앉아 손을 내미는, 밤 산책용 푸퍼 차림.",
+   "en": "A puffer for an evening stroll, perched on the rail outside the shop with a hand held out.",
+   "de": "Eine Daunenjacke für den Abendspaziergang – auf dem Geländer vor dem Laden, die Hand ausgestreckt."
+  },
+  "articleTitle": "INK BLUE IN THE SHOP LIGHT",
+  "pull": "COME ON, KEEP UP.",
+  "tip": {
+   "ko": "난간이나 벤치에 잠깐 걸터앉을 땐 푸퍼 밑단을 깔고 앉으면 차가운 금속이 덜 느껴져요.",
+   "en": "When you perch on a rail or bench for a moment, sit on the hem of the puffer to keep the cold metal off.",
+   "de": "Wer sich kurz auf ein Geländer oder eine Bank setzt, zieht den Saum der Daunenjacke unter sich – so bleibt das kalte Metall auf Abstand."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-night-street-20261114-04.ink-blue-duck-down-puffer",
+ "productCount": 7,
+ "products": [
+  {
+   "producerId": "m04-p01",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.ink-blue-duck-down-puffer",
+   "appCategory": "outer",
+   "spec": "ink-blue hooded duck-down puffer with thick baffles",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "잉크 블루 오리털 푸퍼",
+    "en": "Ink blue duck-down puffer",
+    "de": "Tintenblaue Entendaunenjacke"
+   },
+   "howToWear": {
+    "ko": "잉크 블루와 연회색이 보이도록 푸퍼를 조금 열어 둔다.",
+    "en": "Leave the puffer slightly open so the ink blue and pale grey both show.",
+    "de": "Die Jacke etwas offen lassen, damit Tintenblau und Hellgrau sichtbar bleiben."
+   },
+   "image": "products/ink-blue-duck-down-puffer.webp",
+   "sha256": "c22dbfed024d756393ce9899555e381675930de6de45b54684119b0e4bc599c8",
+   "bytes": 27178,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p02",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.black-crewneck-knit",
+   "appCategory": "top",
+   "spec": "black crewneck knit",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 크루넥 니트",
+    "en": "Black crewneck knit",
+    "de": "Schwarzer Rundhals-Strickpullover"
+   },
+   "howToWear": {
+    "ko": "볼륨 있는 푸퍼 안에 몸에 가까운 니트를 입는다.",
+    "en": "Wear a close-fitting knit under the roomy puffer.",
+    "de": "Unter der voluminösen Jacke einen körpernahen Strickpullover tragen."
+   },
+   "image": "products/black-crewneck-knit.webp",
+   "sha256": "94f075a577a396d79c6256c838e0cfc925a43e4259c8c04b844470a8d2d70c4f",
+   "bytes": 26534,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p03",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.faded-black-straight-leg-jeans",
+   "appCategory": "bottom",
+   "spec": "faded black slim straight jeans",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "바랜 검정 스트레이트 데님",
+    "en": "Faded black straight-leg jeans",
+    "de": "Verwaschene schwarze Jeans mit geradem Bein"
+   },
+   "howToWear": {
+    "ko": "바랜 검정 데님으로 남색 아우터의 색을 살린다.",
+    "en": "Use faded black denim to bring out the blue of the jacket.",
+    "de": "Verwaschenen schwarzen Denim zum Tintenblau der Jacke tragen."
+   },
+   "image": "products/faded-black-straight-leg-jeans.webp",
+   "sha256": "dda29c3d91d29dd4c0bee4cbeb90800035851339818209ba7bc68561edad5280",
+   "bytes": 24994,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p04",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.black-padded-ankle-boots",
+   "appCategory": "shoes",
+   "spec": "black padded ankle boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 패딩 앵클 부츠",
+    "en": "Black padded ankle boots",
+    "de": "Schwarze gepolsterte Stiefeletten"
+   },
+   "howToWear": {
+    "ko": "부츠 목 위에 데님을 가볍게 올려 둔다.",
+    "en": "Let the jeans rest lightly on the padded boot shafts.",
+    "de": "Den Jeanssaum locker auf den gepolsterten Stiefelschäften aufliegen lassen."
+   },
+   "image": "products/black-padded-ankle-boots.webp",
+   "sha256": "95fa78312438cf4cc8e9cb440479f8c86c04d402127cf70053fedf1c6a426803",
+   "bytes": 23008,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p05",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.charcoal-knit-beanie",
+   "appCategory": "headwear",
+   "spec": "charcoal knit beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 니트 비니",
+    "en": "Charcoal knit beanie",
+    "de": "Anthrazitfarbene Strickmütze"
+   },
+   "howToWear": {
+    "ko": "접힌 밴드를 이마 위에 맞춰 쓰고 귀를 덮는다.",
+    "en": "Set the cuff above the brow and pull the sides over the ears.",
+    "de": "Den Umschlag über der Stirn platzieren und die Seiten über die Ohren ziehen."
+   },
+   "image": "products/charcoal-knit-beanie.webp",
+   "sha256": "84216352806354e5808436f4a60fe6187c6134263d795a62ddef8b13326be5fa",
+   "bytes": 44674,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p06",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.pale-grey-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "pale grey fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "연회색 프린지 목도리",
+    "en": "Pale grey fringe scarf",
+    "de": "Hellgrauer Fransenschal"
+   },
+   "howToWear": {
+    "ko": "연회색 목도리를 두툼하게 둘러 얼굴 가까이를 밝힌다.",
+    "en": "Wrap the thick pale scarf to bring a light tone close to the face.",
+    "de": "Den dicken hellgrauen Schal wickeln, damit der helle Ton nah am Gesicht liegt."
+   },
+   "image": "products/pale-grey-fringe-scarf.webp",
+   "sha256": "06be28057c0b566f3f949cc9ccf657b372a7cb205bf51f5d9726392204b100b7",
+   "bytes": 49980,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p07",
+   "appItemId": "neutral-clear-chilly-m35-night-street-20261114-04.heather-grey-wool-socks",
+   "appCategory": "socks",
+   "spec": "heather grey wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "멜란지 그레이 울 양말",
+    "en": "Heather grey wool socks",
+    "de": "Grau melierte Wollsocken"
+   },
+   "howToWear": {
+    "ko": "데님과 부츠 사이에 회색 양말이 조금 보이게 신는다.",
+    "en": "Show a little grey wool between the jeans and boot tops.",
+    "de": "Zwischen Jeanssaum und Stiefeln einen Streifen graue Wolle zeigen."
+   },
+   "image": "products/heather-grey-wool-socks.webp",
+   "sha256": "9931013b1ab5c46e15546cb7594294c43c55452dd8b919abbd38ad0b87bc1bbf",
+   "bytes": 44492,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

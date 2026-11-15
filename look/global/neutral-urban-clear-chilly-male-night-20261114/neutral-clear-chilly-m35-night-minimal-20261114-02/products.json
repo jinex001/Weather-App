@@ -1,0 +1,201 @@
+{
+ "batch": "clear-chilly-male-night-20261114",
+ "id": "male-02",
+ "appOutfitId": "neutral-clear-chilly-m35-night-minimal-20261114-02",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "clear",
+ "band": "chilly",
+ "time": "night",
+ "appTime": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "visualRegion": "neutral-urban",
+ "humidityContext": "unknown",
+ "temperatureC": null,
+ "feelsLikeC": 7,
+ "isLiveMeasurement": false,
+ "scene": "sitting on a stone bench by a café window at night, blowing on a steaming paper cup",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "2a91baec80c2dc797dca35b7815cbdd1a2c1487923f2c84c2e0f72263eca6915",
+ "masterEditorial": "editorials/02-espresso-wool-coat.png",
+ "copy": {
+  "title": {
+   "ko": "따뜻한 한 모금",
+   "en": "A warm sip after dark",
+   "de": "Ein warmer Schluck am Abend"
+  },
+  "intro": {
+   "ko": "에스프레소색 코트와 크림 목도리 사이로 밝은 케이블 니트가 보인다. 벤치에 앉으면 바짓단과 스웨이드 부츠 사이로 울 양말이 드러난다.",
+   "en": "A light cable knit shows between espresso wool and a cream scarf. When he sits, wool socks peek out above the suede boots.",
+   "de": "Heller Zopfstrick zeigt sich zwischen espressobraunem Mantel und cremefarbenem Schal. Beim Sitzen blitzen Wollsocken über den Wildlederstiefeln hervor."
+  },
+  "deck": {
+   "ko": "카페 창가 벤치에 앉아 뜨거운 컵을 호호 부는 밤의 갈색 차림.",
+   "en": "Browns for a night-time bench stop, blowing on a cup still too hot to drink.",
+   "de": "Brauntöne für eine abendliche Pause auf der Bank – der Becher ist noch zu heiß zum Trinken."
+  },
+  "articleTitle": "A WARM SIP AFTER DARK",
+  "pull": "TOO HOT TO DRINK, TOO GOOD TO WAIT.",
+  "tip": {
+   "ko": "밤에 밖에 앉아 있을 땐 두꺼운 목도리를 풀지 말고, 따뜻한 컵은 두 손으로 감싸 쥐어요.",
+   "en": "When you sit outside at night, keep the thick scarf on and wrap both hands around the warm cup.",
+   "de": "Wer abends draußen sitzt, behält den dicken Schal an und legt beide Hände um den warmen Becher."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery)"
+ },
+ "heroItem": "neutral-clear-chilly-m35-night-minimal-20261114-02.long-espresso-wool-coat",
+ "productCount": 7,
+ "products": [
+  {
+   "producerId": "m02-p01",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.long-espresso-wool-coat",
+   "appCategory": "outer",
+   "spec": "long espresso wool overcoat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "에스프레소 롱 울 코트",
+    "en": "Long espresso wool coat",
+    "de": "Langer espressobrauner Wollmantel"
+   },
+   "howToWear": {
+    "ko": "앉을 때 코트 자락을 양옆으로 정리한다.",
+    "en": "Move the coat skirts to either side before sitting.",
+    "de": "Vor dem Hinsetzen die Mantelschöße zur Seite legen."
+   },
+   "image": "products/long-espresso-wool-coat.webp",
+   "sha256": "560d9f465f14bdf3a3b4dd54ec6ae45ab64891938b49b30efd1ec46f81dbee73",
+   "bytes": 16274,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p02",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.oatmeal-cable-knit-sweater",
+   "appCategory": "top",
+   "spec": "pale oatmeal cable-knit sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "오트밀 케이블 니트",
+    "en": "Oatmeal cable-knit sweater",
+    "de": "Haferfarbener Zopfstrickpullover"
+   },
+   "howToWear": {
+    "ko": "코트 여밈을 열어 케이블 짜임을 드러낸다.",
+    "en": "Open the coat to show the cable pattern.",
+    "de": "Den Mantel öffnen, damit das Zopfmuster sichtbar ist."
+   },
+   "image": "products/oatmeal-cable-knit-sweater.webp",
+   "sha256": "9d8292f6220ef741e4ff9cef7d6f3aab83f021708b8b01c2f9ea3e4c3e8511dc",
+   "bytes": 47436,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p03",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.charcoal-wool-trousers",
+   "appCategory": "bottom",
+   "spec": "charcoal wool trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 울 팬츠",
+    "en": "Charcoal wool trousers",
+    "de": "Anthrazitfarbene Wollhose"
+   },
+   "howToWear": {
+    "ko": "무릎을 굽혀도 편하게 떨어지는 폭을 고른다.",
+    "en": "Choose a cut that drapes comfortably when the knees bend.",
+    "de": "Einen Schnitt wählen, der am gebeugten Knie locker fällt."
+   },
+   "image": "products/charcoal-wool-trousers.webp",
+   "sha256": "0fcd61b83357168d47ef3a81283502b648b7b617ba107407d16ec99b17285da3",
+   "bytes": 21750,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p04",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.brown-suede-lace-up-boots",
+   "appCategory": "shoes",
+   "spec": "brown suede lace-up boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "브라운 스웨이드 끈 부츠",
+    "en": "Brown suede lace-up boots",
+    "de": "Braune Wildleder-Schnürstiefel"
+   },
+   "howToWear": {
+    "ko": "마른 보도에서는 스웨이드에 밝은 울 양말을 맞춘다.",
+    "en": "Pair suede boots with light wool socks on dry streets.",
+    "de": "Auf trockenem Pflaster Wildlederstiefel mit hellen Wollsocken kombinieren."
+   },
+   "image": "products/brown-suede-lace-up-boots.webp",
+   "sha256": "1c18c57ade43e9502a0ba9344a8876e7022fcb7a81f2690b6fd6fe88a5846074",
+   "bytes": 27822,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p05",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.brown-ribbed-beanie",
+   "appCategory": "headwear",
+   "spec": "brown ribbed beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "갈색 골지 비니",
+    "en": "Brown ribbed beanie",
+    "de": "Braune Rippstrickmütze"
+   },
+   "howToWear": {
+    "ko": "코트와 같은 갈색 계열로 비니를 맞춘다.",
+    "en": "Pick a beanie in the same brown family as the coat.",
+    "de": "Eine Mütze in einem ähnlichen Braunton wie den Mantel wählen."
+   },
+   "image": "products/brown-ribbed-beanie.webp",
+   "sha256": "6698d611bd5bd35df05285c2b07e5f4aee8e420cfff62a684228f4136cecbfd1",
+   "bytes": 40010,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p06",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.cream-fringe-scarf",
+   "appCategory": "scarf",
+   "spec": "heavy cream fringed scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "크림 프린지 목도리",
+    "en": "Cream fringe scarf",
+    "de": "Cremefarbener Fransenschal"
+   },
+   "howToWear": {
+    "ko": "밝은 프린지를 코트 앞으로 내려 색 대비를 준다.",
+    "en": "Let the light fringe fall over the front of the dark coat.",
+    "de": "Die hellen Fransen vorne über den dunklen Mantel fallen lassen."
+   },
+   "image": "products/cream-fringe-scarf.webp",
+   "sha256": "f722831af8d0668a665aa3662892e90d00ddc0f64f02dca12fd28acd2d30c7f6",
+   "bytes": 45426,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p07",
+   "appItemId": "neutral-clear-chilly-m35-night-minimal-20261114-02.oatmeal-wool-socks",
+   "appCategory": "socks",
+   "spec": "oatmeal wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "오트밀 울 양말",
+    "en": "Oatmeal wool socks",
+    "de": "Haferfarbene Wollsocken"
+   },
+   "howToWear": {
+    "ko": "앉았을 때 부츠 위로 오트밀 색이 살짝 보이게 한다.",
+    "en": "Let a little oatmeal wool show above the boots when seated.",
+    "de": "Beim Sitzen einen Streifen haferfarbener Wolle über den Stiefeln zeigen."
+   },
+   "image": "products/oatmeal-wool-socks.webp",
+   "sha256": "90d0b4a5f0d2b0f6e5f47274f5ee6076bf54becc2bfe052d9a69b9561fc221b1",
+   "bytes": 46570,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

@@ -1219,7 +1219,12 @@
 "neutral-clear-chilly-m35-day-minimal-20261114-02.chocolate-long-wool-overcoat": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-minimal-20261114-02/products/chocolate-long-wool-overcoat.webp", null],
 "neutral-clear-chilly-m35-day-street-20261114-03.olive-hooded-down-parka": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-03/products/olive-hooded-down-parka.webp", null],
 "neutral-clear-chilly-m35-day-street-20261114-04.cobalt-duck-down-puffer": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-04/products/cobalt-duck-down-puffer.webp", null],
-"neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-05/products/rust-red-fringe-scarf.webp", null]
+"neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf": ["look/global/neutral-urban-clear-chilly-male-day-20261114/neutral-clear-chilly-m35-day-street-20261114-05/products/rust-red-fringe-scarf.webp", null],
+"neutral-clear-chilly-m35-night-minimal-20261114-01.long-charcoal-wool-coat": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-minimal-20261114-01/products/long-charcoal-wool-coat.webp", null],
+"neutral-clear-chilly-m35-night-minimal-20261114-02.long-espresso-wool-coat": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-minimal-20261114-02/products/long-espresso-wool-coat.webp", null],
+"neutral-clear-chilly-m35-night-street-20261114-03.heather-grey-wool-gloves": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-03/products/heather-grey-wool-gloves.webp", null],
+"neutral-clear-chilly-m35-night-street-20261114-04.ink-blue-duck-down-puffer": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-04/products/ink-blue-duck-down-puffer.webp", null],
+"neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-05/products/rust-red-fringe-scarf.webp", null]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1652,7 +1657,12 @@
 "neutral-clear-chilly-m35-day-minimal-20261114-02": "neutral-clear-chilly-m35-day-minimal-20261114-02.chocolate-long-wool-overcoat",
 "neutral-clear-chilly-m35-day-street-20261114-03": "neutral-clear-chilly-m35-day-street-20261114-03.olive-hooded-down-parka",
 "neutral-clear-chilly-m35-day-street-20261114-04": "neutral-clear-chilly-m35-day-street-20261114-04.cobalt-duck-down-puffer",
-"neutral-clear-chilly-m35-day-street-20261114-05": "neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf"
+"neutral-clear-chilly-m35-day-street-20261114-05": "neutral-clear-chilly-m35-day-street-20261114-05.rust-red-fringe-scarf",
+"neutral-clear-chilly-m35-night-minimal-20261114-01": "neutral-clear-chilly-m35-night-minimal-20261114-01.long-charcoal-wool-coat",
+"neutral-clear-chilly-m35-night-minimal-20261114-02": "neutral-clear-chilly-m35-night-minimal-20261114-02.long-espresso-wool-coat",
+"neutral-clear-chilly-m35-night-street-20261114-03": "neutral-clear-chilly-m35-night-street-20261114-03.heather-grey-wool-gloves",
+"neutral-clear-chilly-m35-night-street-20261114-04": "neutral-clear-chilly-m35-night-street-20261114-04.ink-blue-duck-down-puffer",
+"neutral-clear-chilly-m35-night-street-20261114-05": "neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });
