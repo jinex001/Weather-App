@@ -6,7 +6,7 @@
 // - Place → visual region: explicit region (tests, ?region=) or the geocoder country code, plus one narrow coordinate
 //   profile, and (b175) a coastal cell from look/coast-grid.js, also for GPS. Otherwise GPS, old saved places and missing
 //   countries stay unknown (no reverse geocoding). b175: a region-tagged look only shows in its own region (allowed);
-//   the region never casts models.
+//   the region never casts models. Seoul GPS uses the same region as city search.
 // - Humidity: only explicit categorical input (humid / dry). No API humidity is read and no thresholds exist yet.
 // Rules: design/look-library.md "글로벌 맥락", design/IMAGE_STYLE.md 12장.
 (function () { "use strict";
@@ -62,7 +62,7 @@
     for (var n = 0; n < runs.length; n += 2) if (j >= runs[n] && j <= runs[n + 1]) return true;
     return false;
   }
-  // A place without a country code (GPS) inside this box is treated as East Asia: never coastal, region unknown
+  // Preserve the existing no-coastal-fallback area for GPS in East Asia.
   function inEastAsia(lat, lon) { return lat >= 18 && lat <= 46 && lon >= 100 && lon <= 150; }
 
   // Where the place is, as a visual region: explicit > coordinate profile (same country) > East Asian country >
@@ -76,6 +76,10 @@
       if (cc && f.cc === cc && +p.lat >= f.lat[0] && +p.lat <= f.lat[1] && +p.lon >= f.lon[0] && +p.lon <= f.lon[1]) return f.region;
     }
     if (COUNTRY[cc] === "east-asian-urban") return COUNTRY[cc];
+    // GPS does not return a country code. Recognize the Seoul metro area locally.
+    if (!cc && +p.lat >= 37.35 && +p.lat <= 37.75 && +p.lon >= 126.65 && +p.lon <= 127.25) {
+      return "east-asian-urban";
+    }
     if (!(!cc && inEastAsia(+p.lat, +p.lon)) && isCoastal(p.lat, p.lon)) return "warm-coastal-urban";
     return COUNTRY[cc] || "unknown";
   }
@@ -100,6 +104,8 @@
   function allowed(o, v) {
     var r = (o.gctx || {}).region || "unknown", q = v.region || "unknown";
     if (q === "warm-coastal-urban") return r === q;
+    // Untagged legacy Berlin photos are unsuitable for a known East Asian place.
+    if (q === "east-asian-urban") return r === q || r === "neutral-urban";
     return r === "unknown" || r === "neutral-urban" || r === q;
   }
   window.WX_GLOBAL = { version: 3, allowed: allowed, isCoastal: isCoastal, REGIONS: REGIONS, COUNTRY: COUNTRY, PROFILES: PROFILES, regionOf: regionOf, context: context, ranks: ranks };
