@@ -552,13 +552,16 @@
   @keyframes fh-drift { 0% { opacity: 0; transform: translateX(calc(var(--fd0, -200) * 1px)); } 7%, 93% { opacity: 1; } 100% { opacity: 0; transform: translateX(calc(var(--fd1, 440) * 1px)); } }
   body.fh-on .head-tap, body.fh-on #hl, body.fh-on #about, body.fh-on #summary, body.fh-on .grow { display: none !important; }
   body.fh-on .app { padding-bottom: 0; }
-  .fh-rail { position: absolute; inset: 0; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
+  /* b229: weather-colour frame (the .fh background) around the photo: the photo starts below the status bar so the OS blur never sits on it */
+  .fh-rail, .fh-over { top: calc(env(safe-area-inset-top) + 8px); right: 10px; bottom: 10px; left: 10px; border-radius: 30px; }
+  .fh-over { overflow: hidden; }
+  .fh-rail { position: absolute; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
   .fh-rail::-webkit-scrollbar { display: none; }
   .fh-slide { flex: 0 0 100%; height: 100%; scroll-snap-align: center; scroll-snap-stop: always; padding: 0; border: 0; background: var(--bg); cursor: pointer; }
   .fh-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
   /* type straight on the photo, white with a 1px black outline so it reads on any picture (user's Figma) */
-  .fh-over { position: absolute; inset: 0; pointer-events: none; color: #FFFFFF; display: flex; flex-direction: column; justify-content: flex-end;
-    padding: calc(env(safe-area-inset-top) + 22px) 20px calc(env(safe-area-inset-bottom) + 96px) 12px;
+  .fh-over { position: absolute; pointer-events: none; color: #FFFFFF; display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 22px 12px calc(env(safe-area-inset-bottom) + 86px) 10px;
     text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
   .fh-wx, .fh-bot { transition: opacity .2s; }
   .fh-over.moving .fh-wx, .fh-over.moving .fh-bot { opacity: 0; }
@@ -586,7 +589,7 @@
   .fh-title { margin-top: 6px; font: 800 28px/1.03 var(--sans); letter-spacing: -.03em; text-transform: uppercase; }
   .fh-title span { display: block; }
   /* the text block goes to the calmer side of the lower photo (fhSide) and moves over as the photos swipe */
-  .fh-over.right { padding-left: 20px; padding-right: 12px; }
+  .fh-over.right { padding-left: 12px; padding-right: 10px; }
   .fh-over.right .fh-wx { align-items: flex-end; text-align: right; }
   .fh-over.right .fh-bot { text-align: right; }
   .fh-over.right .fh-ar { flex-direction: row-reverse; }
@@ -1193,7 +1196,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b229";
+  var BUILD = "b230";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
