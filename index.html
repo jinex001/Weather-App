@@ -599,8 +599,8 @@
   .fh-temp { position: relative; font: 800 64px/.9 var(--sans); letter-spacing: -.04em; }
   /* b232: the ° sits low at the number's right edge and goes under the digits (negative z-index inside the number's own stacking context), so the digits cover it a little */
   .fh-temp { isolation: isolate; }
-  .fh-temp .fh-deg { position: absolute; z-index: -1; left: calc(100% - 9px); top: 30px; font-size: .55em; font-weight: 700; line-height: 1; }
-  .fh-cond { position: relative; margin: 0 0 7px 22px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
+  .fh-temp .fh-deg { position: absolute; z-index: -1; left: calc(100% - 9px); top: -9px; font-size: .55em; font-weight: 700; line-height: 1; }
+  .fh-cond { position: relative; margin: 0 0 6px -16px; z-index: 1; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
   /* b229: feels-like line under the condition: temperature, band-color bar, moving person, band name, all at the condition's size */
   .fh-fl { display: flex; align-items: center; flex-basis: 100%; margin-top: 6px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; white-space: nowrap; }
   .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); box-shadow: 0 0 0 1px #000; vertical-align: 0; }
@@ -1231,7 +1231,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b232";
+  var BUILD = "b233";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
@@ -1943,7 +1943,7 @@
     if (!now) over.classList.add("moving");
     Promise.all([fhSide(e.soon ? null : e.o), new Promise(function (res) { setTimeout(res, now ? 0 : 200); })]).then(function (r2) {
       if (fhAt !== k) return;
-      over.classList.toggle("right", r2[0] === "right");
+      over.classList.remove("right"); // b233: text always left-aligned (the side finder is no longer used)
       fhDrift();
       $("fh-k").textContent = fmt(FH.today, { s: LT.styles[STYLES.indexOf(h.st)] });
       twoLines($("fh-title"), homeTitle(e));
