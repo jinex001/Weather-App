@@ -1224,7 +1224,12 @@
 "neutral-clear-chilly-m35-night-minimal-20261114-02.long-espresso-wool-coat": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-minimal-20261114-02/products/long-espresso-wool-coat.webp", null],
 "neutral-clear-chilly-m35-night-street-20261114-03.heather-grey-wool-gloves": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-03/products/heather-grey-wool-gloves.webp", null],
 "neutral-clear-chilly-m35-night-street-20261114-04.ink-blue-duck-down-puffer": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-04/products/ink-blue-duck-down-puffer.webp", null],
-"neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-05/products/rust-red-fringe-scarf.webp", null]
+"neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf": ["look/global/neutral-urban-clear-chilly-male-night-20261114/neutral-clear-chilly-m35-night-street-20261114-05/products/rust-red-fringe-scarf.webp", null],
+"eu-rain-light-chilly-m-night-chic-20261116-01.charcoal-long-wool-overcoat": ["look/global/berlin-light-rain-chilly-male-night-chic-20261116/eu-rain-light-chilly-m-night-chic-20261116-01/products/charcoal-long-wool-overcoat.webp", null],
+"eu-rain-light-chilly-m-night-chic-20261116-02.espresso-long-wool-coat": ["look/global/berlin-light-rain-chilly-male-night-chic-20261116/eu-rain-light-chilly-m-night-chic-20261116-02/products/espresso-long-wool-coat.webp", null],
+"eu-rain-light-chilly-m-night-chic-20261116-03.ink-navy-long-matte-insulated-raincoat": ["look/global/berlin-light-rain-chilly-male-night-chic-20261116/eu-rain-light-chilly-m-night-chic-20261116-03/products/ink-navy-long-matte-insulated-raincoat.webp", null],
+"eu-rain-light-chilly-m-night-chic-20261116-04.olive-long-insulated-hooded-coat": ["look/global/berlin-light-rain-chilly-male-night-chic-20261116/eu-rain-light-chilly-m-night-chic-20261116-04/products/olive-long-insulated-hooded-coat.webp", null],
+"eu-rain-light-chilly-m-night-chic-20261116-05.dark-brown-rubber-soled-lace-up-boots": ["look/global/berlin-light-rain-chilly-male-night-chic-20261116/eu-rain-light-chilly-m-night-chic-20261116-05/products/dark-brown-rubber-soled-lace-up-boots.webp", null]
 };
   var HERO = {
 "coastal-cool-f35-night-street-20261030-01": "coastal-cool-f35-night-street-20261030-01.bomber",
@@ -1662,7 +1667,12 @@
 "neutral-clear-chilly-m35-night-minimal-20261114-02": "neutral-clear-chilly-m35-night-minimal-20261114-02.long-espresso-wool-coat",
 "neutral-clear-chilly-m35-night-street-20261114-03": "neutral-clear-chilly-m35-night-street-20261114-03.heather-grey-wool-gloves",
 "neutral-clear-chilly-m35-night-street-20261114-04": "neutral-clear-chilly-m35-night-street-20261114-04.ink-blue-duck-down-puffer",
-"neutral-clear-chilly-m35-night-street-20261114-05": "neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf"
+"neutral-clear-chilly-m35-night-street-20261114-05": "neutral-clear-chilly-m35-night-street-20261114-05.rust-red-fringe-scarf",
+"eu-rain-light-chilly-m-night-chic-20261116-01": "eu-rain-light-chilly-m-night-chic-20261116-01.charcoal-long-wool-overcoat",
+"eu-rain-light-chilly-m-night-chic-20261116-02": "eu-rain-light-chilly-m-night-chic-20261116-02.espresso-long-wool-coat",
+"eu-rain-light-chilly-m-night-chic-20261116-03": "eu-rain-light-chilly-m-night-chic-20261116-03.ink-navy-long-matte-insulated-raincoat",
+"eu-rain-light-chilly-m-night-chic-20261116-04": "eu-rain-light-chilly-m-night-chic-20261116-04.olive-long-insulated-hooded-coat",
+"eu-rain-light-chilly-m-night-chic-20261116-05": "eu-rain-light-chilly-m-night-chic-20261116-05.dark-brown-rubber-soled-lace-up-boots"
 };
   Object.keys(CUTS).forEach(function (id) { var it = L.items[id]; if (it) { it.cut = CUTS[id][0]; it.lum = CUTS[id][1]; } });
   L.outfits.forEach(function (o) { if (HERO[o.id]) o.hero = HERO[o.id]; });

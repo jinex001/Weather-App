@@ -1,0 +1,210 @@
+{
+ "batch": "berlin-light-rain-chilly-male-night-chic-20261116",
+ "id": "male-03",
+ "appOutfitId": "eu-rain-light-chilly-m-night-chic-20261116-03",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "rain",
+ "rain": "light",
+ "band": "chilly",
+ "time": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "appStyleLabel": "Chic",
+ "visualRegion": "european-urban",
+ "sourceCity": "Berlin",
+ "humidityContext": "unknown",
+ "temperatureC": 10,
+ "feelsLikeC": 6,
+ "isLiveMeasurement": false,
+ "scene": "crouching beside a parked bicycle under a doorway lamp at night, stretching a rain cover over the saddle",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "cb4631fceb2bb94a9a25e1bb35a3742a34d51f1fdb888ed9e337d7a4ba76931e",
+ "masterEditorial": "editorials/03-ink-navy-bicycle-beanie-v2.png",
+ "copy": {
+  "title": {
+   "ko": "안장에 남은 빗방울",
+   "en": "Raindrops on the saddle",
+   "de": "Regentropfen auf dem Sattel"
+  },
+  "intro": {
+   "ko": "잉크 네이비 레인코트와 끈 부츠를 신고 안장에 방수 커버를 씌운다.",
+   "en": "An ink-navy raincoat and lace-up boots suit the moment he stretches a cover over the saddle.",
+   "de": "Tintenblauer Regenmantel und Schnürstiefel passen zum kurzen Halt, um den Sattel abzudecken."
+  },
+  "deck": {
+   "ko": "세워 둔 자전거 옆에 쪼그려 앉아 젖은 안장에 커버를 씌우는, 남색과 검정의 비 오는 저녁 차림.",
+   "en": "Navy and black for a rainy evening, crouched by the parked bike to get a cover over the wet saddle.",
+   "de": "Marineblau und Schwarz für einen Regenabend – in der Hocke neben dem abgestellten Rad, um den nassen Sattel abzudecken."
+  },
+  "articleTitle": "RAINDROPS ON THE SADDLE",
+  "pull": "TOMORROW'S RIDE STARTS DRY.",
+  "tip": {
+   "ko": "자전거를 밖에 세워 두는 날엔 안장 커버를 코트 주머니에 넣어 다녀요.",
+   "en": "Keep a saddle cover in your coat pocket on days the bike stays outside.",
+   "de": "An Tagen, an denen das Rad draußen bleibt, einen Sattelschutz in der Manteltasche dabeihaben."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery); English product names only sentence-cased (sourceNameEn)"
+ },
+ "heroItem": "eu-rain-light-chilly-m-night-chic-20261116-03.ink-navy-long-matte-insulated-raincoat",
+ "productCount": 7,
+ "products": [
+  {
+   "producerId": "m03-p01",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.ink-navy-long-matte-insulated-raincoat",
+   "appCategory": "outer",
+   "spec": "ink navy long matte insulated raincoat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "잉크 네이비 롱 레인코트",
+    "en": "Ink navy long matte insulated raincoat",
+    "de": "Langer tintenblauer Regenmantel"
+   },
+   "sourceNameEn": "ink navy long matte insulated raincoat",
+   "howToWear": {
+    "ko": "처마 아래에서 레인코트를 살짝 열어 니트를 드러낸다.",
+    "en": "Open the raincoat slightly while under cover to show the knit.",
+    "de": "Unter dem Vordach den Regenmantel etwas öffnen, damit der Strick sichtbar wird."
+   },
+   "image": "products/ink-navy-long-matte-insulated-raincoat.webp",
+   "sha256": "939f96fbc31998a89d8081dab1f430f6d4d1169f0196625881060abc1ad725ca",
+   "bytes": 17902,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p02",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.slate-merino-ribbed-sweater",
+   "appCategory": "top",
+   "spec": "slate merino ribbed sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "슬레이트 메리노 골지 니트",
+    "en": "Slate merino ribbed sweater",
+    "de": "Schiefergrauer Merino-Rippstrickpullover"
+   },
+   "sourceNameEn": "slate merino ribbed sweater",
+   "howToWear": {
+    "ko": "레인코트 아래에 슬레이트색 메리노 니트를 입는다.",
+    "en": "Wear the slate merino knit as a layer under the raincoat.",
+    "de": "Den schiefergrauen Merinopullover unter dem Regenmantel tragen."
+   },
+   "image": "products/slate-merino-ribbed-sweater.webp",
+   "sha256": "abdb55ced9d075fab842f463f851d5738a35721b683f6c44137bd310a0b3f92c",
+   "bytes": 39232,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p03",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.black-straight-trousers",
+   "appCategory": "bottom",
+   "spec": "black straight trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 스트레이트 팬츠",
+    "en": "Black straight trousers",
+    "de": "Gerade schwarze Hose"
+   },
+   "sourceNameEn": "black straight trousers",
+   "howToWear": {
+    "ko": "무릎을 굽히기 편한 스트레이트 핏을 고른다.",
+    "en": "Choose straight legs with room to bend at the knee.",
+    "de": "Gerade Hosenbeine mit Bewegungsfreiheit am Knie wählen."
+   },
+   "image": "products/black-straight-trousers.webp",
+   "sha256": "08c5035cb1e2b84063d3c320c7ce5fc17dbf278df2f18f51ac1bf54df2a98224",
+   "bytes": 10590,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p04",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.black-waterproof-lace-up-boots",
+   "appCategory": "shoes",
+   "spec": "black waterproof lace-up boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 방수 끈 부츠",
+    "en": "Black waterproof lace-up boots",
+    "de": "Schwarze wasserfeste Schnürstiefel"
+   },
+   "sourceNameEn": "black waterproof lace-up boots",
+   "howToWear": {
+    "ko": "젖은 보도에서 발이 흔들리지 않도록 끈을 단단히 묶는다.",
+    "en": "Tie the boots snugly for steady footing on wet pavement.",
+    "de": "Die Stiefel für sicheren Tritt auf nassem Pflaster fest schnüren."
+   },
+   "image": "products/black-waterproof-lace-up-boots.webp",
+   "sha256": "742aac623b3c1f7ab0a78b870308fdacf043f9114142999d70c8c31d81803184",
+   "bytes": 36698,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p05",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.ink-navy-short-ribbed-fisherman-beanie",
+   "appCategory": "headwear",
+   "spec": "ink navy short ribbed fisherman beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "잉크 네이비 숏 비니",
+    "en": "Ink navy short ribbed fisherman beanie",
+    "de": "Kurze tintenblaue Strickmütze"
+   },
+   "sourceNameEn": "ink navy short ribbed fisherman beanie",
+   "howToWear": {
+    "ko": "잉크 네이비 비니를 레인코트와 맞춘다.",
+    "en": "Match the ink navy beanie to the raincoat.",
+    "de": "Die tintenblaue Mütze auf den Regenmantel abstimmen."
+   },
+   "image": "products/ink-navy-short-ribbed-fisherman-beanie.webp",
+   "sha256": "d66a590fe3f6c77ff2880dc39202551c480eaf882dc49eb11ee3cc3bd79aa0c2",
+   "bytes": 31824,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p06",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.charcoal-fringed-scarf",
+   "appCategory": "scarf",
+   "spec": "charcoal fringed scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 프린지 목도리",
+    "en": "Charcoal fringed scarf",
+    "de": "Anthrazitfarbener Fransenschal"
+   },
+   "sourceNameEn": "charcoal fringed scarf",
+   "howToWear": {
+    "ko": "안장 가까이에서 작업할 때 목도리 끝을 코트에 넣는다.",
+    "en": "Tuck the scarf ends into the coat before working near the saddle.",
+    "de": "Vor der Arbeit am Sattel die Schalenden in den Mantel stecken."
+   },
+   "image": "products/charcoal-fringed-scarf.webp",
+   "sha256": "b6ef537dbdd78581b1dfc7ad5251af78ff3ec194f480e01fd9b6580dc9dbaf6e",
+   "bytes": 39366,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m03-p07",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-03.black-elastic-bicycle-saddle-rain-cover",
+   "appCategory": "accessory",
+   "spec": "black elastic bicycle saddle rain cover",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 자전거 안장 방수 커버",
+    "en": "Black elastic bicycle saddle rain cover",
+    "de": "Schwarzer Fahrrad-Sattelregenschutz"
+   },
+   "sourceNameEn": "black elastic bicycle saddle rain cover",
+   "howToWear": {
+    "ko": "커버의 고무 밴드를 안장 아랫부분까지 씌운다.",
+    "en": "Stretch the elastic edge under the saddle.",
+    "de": "Den elastischen Rand unter den Sattel ziehen."
+   },
+   "image": "products/black-elastic-bicycle-saddle-rain-cover.webp",
+   "sha256": "02e464e7eb27f3c72020d3dacd7c22ac3fe45df2a5cbdabc1b14bc911413ef4f",
+   "bytes": 31632,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

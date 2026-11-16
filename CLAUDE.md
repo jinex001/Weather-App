@@ -20,7 +20,7 @@
 
 광고 없이 지금 날씨를 숫자 하나로 보여주는 아이폰용 날씨앱. 디자인은 Claude 디자인 캔버스에서 확정했고, 이 폴더의 `design/`에 그대로 들어 있습니다.
 
-## 현재 상태 (2026-11-16, 버전 1.0 · 빌드 240)
+## 현재 상태 (2026-11-16, 버전 1.0 · 빌드 241)
 
 - GitHub Pages로 배포됨: https://jinex001.github.io/Weather-App/ · `main`에 push하면 1~2분 뒤 반영.
 - `index.html`: 웹앱. Open-Meteo 예보 + DWD 실측(Bright Sky) + 구름 양 중간값(MET Norway), 5가지 색 상태(낮 4 + 밤 1, 흐린 낮은 햇빛 3단계), 움직이는 날씨 그림, 체감온도 9단계 블록, 홈의 오늘의 룩 글자 + 요약 = 오늘의 픽 룩 타이틀·캡션·인트로 + 비 문장(b117), 24시간 예보(바람·강수), 하단 메뉴(홈·캘린더·설정·알림, 공통 글라스), 캘린더 7 DAYS = 내일부터 7일 카드(그날 날씨에 맞는 룩의 대표 제품 컷, 누르면 그 룩 에디토리얼 + 날짜·요일·움직이는 아이콘·기온·강수·바람, b107; 끝없이 도는 겹친 카드 b165), **Today's Look**(공통 글라스 시트, 고른 스타일·성별 안에서 룩 3개 랜덤, 사진만 스와이프, 흐린 날 세트는 제품 카드 안에 입는 법), 질문 화면, 기기 언어 자동(ko/en/de), 15분 새로고침, 오프라인 캐시. 도시 이름(+ 위치 핀)을 누르면 위치 시트: 도시 검색 · 내 목록 저장 · 현재 위치(b123).
@@ -729,3 +729,7 @@ User approved playful-v2 editorials and direct Codex publication without Claude 
 ## b240 · ° 5px 아래, 상태 문구와 숫자 바닥 정렬 (2026-11-16)
 
 사용자: 섭씨(°)는 5px 아래로, RAIN과 숫자는 아래 정렬. `.fh-deg top: -5px → 0`, `.fh-tc align-items: flex-end → baseline`(상태 문구 글자 바닥선 = 큰 숫자 바닥선), `.fh-cond` 아래 여백 6px 없앰. 가짜 데이터(비)로 확대 확인.
+
+## b241 · 유럽 도시(베를린) · 가벼운 비 · 쌀쌀함 · 남성 · 35+ · 저녁 · 시크(키 minimal) — 2026-11-16 세트 5룩
+
+사용자가 에디토리얼 5장(01–04 비니 v2, 05 캐스팅 v4)을 승인하고 이 배치의 `origin/main` 반영·배포를 명시 승인. 제품 33개(7/7/7/6/6)는 Codex image_gen, 제작 측 QA만(제품별 사용자 육안 승인 아님). READY.json 108개 해시 일치, `originals/APP_MAPPING.json`과 `originals/delivery/male-01…05/`만 씀: 에디토리얼 5장(1024×1536 JPG ≤266,380 B) + 투명 WebP 33개(500×500, ≤47,952 B) 바이트 그대로 → `look/global/berlin-light-rain-chilly-male-night-chic-20261116/<룩 ID>/`(제품 파일 = 영문 이름 슬러그, `producerId`에 원래 ID), 보충 파일 `look/european-urban-rain-light-chilly-male-night-chic-20261116.js`(b224 모듈 뒤·cutouts.js 앞). 룩 `eu-rain-light-chilly-m-night-chic-20261116-01`–`05`(sky `rain` · rain `light` · chilly · minimal · m · "35" · `time: "evening"`, european-urban · 습도 unknown · reviewed), 10°C / 체감 6°C는 제작 설정(측정 아님). 분류는 전달 그대로(03 자전거 안장 레인 커버는 `accessory`). 문구: 제목·본문(=인트로)·제품 이름·입는 법 33개(언어마다 모두 다름)는 제작 측(한국어 마스터) 그대로, 전달에 없던 deck·pull·tip은 에디토리얼 보고 ko/en/de로 씀. 대표 컷: 01 차콜 오버코트 · 02·04 아우터 · 03 잉크 네이비 레인코트(수동, 자동은 안장 커버) · 05 부츠(규칙 7 수동, BOOTLACES), 제품 WebP 자체. 선택 코드·`global-context.js` 변경 없음. 효과: european-urban 장소(도시 검색 베를린 등)의 가벼운 비(51–57·61·80) 저녁 남성 시크(추움·쌀쌀함·선선함) COMING SOON → 이 5룩 중 3개; 지역 미상 GPS·중립·동아시아·해안 장소는 이 칸이 그대로 COMING SOON, 보통 비·쏟아지는 비·마른 저녁·낮·여성·다른 스타일은 그대로. 이 세션은 JS 실행 환경(node·jsc·JXA)이 없어 선택기를 파이썬으로 옮겨 9,720경우 비교(기존 후보 변화 0, 바뀐 18칸은 모두 위 칸), 브라우저·실기기 렌더링은 못 함. 보고만: 부츠·우산·안장 커버 컷에 빗방울이 그려져 있음, 03·05 머플러 입는 법은 끝을 코트 안에 넣으라는데 사진은 밖으로 늘어뜨림, 04 제목의 awning은 사진에선 창턱. `BUILD` b241. [검증](design/european-urban-rain-light-chilly-male-night-chic-20261116-validation.md).

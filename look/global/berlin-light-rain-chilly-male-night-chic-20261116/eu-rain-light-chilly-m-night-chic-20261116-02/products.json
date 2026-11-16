@@ -1,0 +1,210 @@
+{
+ "batch": "berlin-light-rain-chilly-male-night-chic-20261116",
+ "id": "male-02",
+ "appOutfitId": "eu-rain-light-chilly-m-night-chic-20261116-02",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "rain",
+ "rain": "light",
+ "band": "chilly",
+ "time": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "appStyleLabel": "Chic",
+ "visualRegion": "european-urban",
+ "sourceCity": "Berlin",
+ "humidityContext": "unknown",
+ "temperatureC": 10,
+ "feelsLikeC": 6,
+ "isLiveMeasurement": false,
+ "scene": "sitting on a wet bench in a tram shelter at night, looking down at a paper ticket",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "18ff2a9c61d8bf88b732abe0d4f8e0bca7ba800b35f0e923a6801e6bd3e943ec",
+ "masterEditorial": "editorials/02-espresso-tram-stop-beanie-v2.png",
+ "copy": {
+  "title": {
+   "ko": "빗속 트램 정류장",
+   "en": "At the tram stop in the rain",
+   "de": "An der Haltestelle im Regen"
+  },
+  "intro": {
+   "ko": "크림 목도리와 오트밀 케이블 니트가 에스프레소 코트 안쪽을 밝힌다.",
+   "en": "A cream scarf and an oatmeal cable knit brighten the inside of the espresso coat.",
+   "de": "Ein cremefarbener Schal und haferfarbener Zopfstrick hellen den espressobraunen Mantel auf."
+  },
+  "deck": {
+   "ko": "비 오는 저녁 정류장 벤치에 앉아 승차권을 들여다보는, 갈색 코트와 밝은 니트 차림.",
+   "en": "A brown coat over pale knitwear, on the shelter bench with a ticket to check while the rain comes down.",
+   "de": "Brauner Mantel über hellem Strick – auf der Bank im Wartehäuschen, das Ticket in der Hand, während es regnet."
+  },
+  "articleTitle": "AT THE TRAM STOP IN THE RAIN",
+  "pull": "TICKET READY, TRAM NOT YET.",
+  "tip": {
+   "ko": "비 오는 날 종이 승차권은 코트 안주머니에 넣어 두면 젖지 않아요.",
+   "en": "On a rainy day, a paper ticket stays dry in the inside pocket of your coat.",
+   "de": "An Regentagen bleibt ein Papierticket in der Innentasche des Mantels trocken."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery); English product names only sentence-cased (sourceNameEn)"
+ },
+ "heroItem": "eu-rain-light-chilly-m-night-chic-20261116-02.espresso-long-wool-coat",
+ "productCount": 7,
+ "products": [
+  {
+   "producerId": "m02-p01",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.espresso-long-wool-coat",
+   "appCategory": "outer",
+   "spec": "espresso long wool coat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "에스프레소 롱 울 코트",
+    "en": "Espresso long wool coat",
+    "de": "Langer espressobrauner Wollmantel"
+   },
+   "sourceNameEn": "espresso long wool coat",
+   "howToWear": {
+    "ko": "벤치에 앉기 전 긴 코트 자락을 양옆으로 정리한다.",
+    "en": "Move the long coat skirts aside before sitting.",
+    "de": "Die langen Mantelschöße vor dem Hinsetzen zur Seite legen."
+   },
+   "image": "products/espresso-long-wool-coat.webp",
+   "sha256": "77545953e726a4ec1949cde32e2189ab146c5a861f7ab9665e4adc63f0053b5f",
+   "bytes": 15520,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p02",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.oatmeal-cable-knit-sweater",
+   "appCategory": "top",
+   "spec": "oatmeal cable knit sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "오트밀 케이블 니트",
+    "en": "Oatmeal cable knit sweater",
+    "de": "Haferfarbener Zopfstrickpullover"
+   },
+   "sourceNameEn": "oatmeal cable knit sweater",
+   "howToWear": {
+    "ko": "코트와 목도리 사이로 케이블 짜임을 드러낸다.",
+    "en": "Let the cable pattern show between the coat and scarf.",
+    "de": "Das Zopfmuster zwischen Mantel und Schal sichtbar lassen."
+   },
+   "image": "products/oatmeal-cable-knit-sweater.webp",
+   "sha256": "d5710c059c7c75a69db669b48b05f6afd47df1e88ff0b32ce70dd29788fc8989",
+   "bytes": 45810,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p03",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.charcoal-flannel-trousers",
+   "appCategory": "bottom",
+   "spec": "charcoal flannel trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 플란넬 팬츠",
+    "en": "Charcoal flannel trousers",
+    "de": "Anthrazitfarbene Flanellhose"
+   },
+   "sourceNameEn": "charcoal flannel trousers",
+   "howToWear": {
+    "ko": "앉을 때 무릎이 편하도록 여유 있는 핏을 고른다.",
+    "en": "Choose a cut that leaves room at the knee when seated.",
+    "de": "Einen Schnitt mit Platz am Knie für das Sitzen wählen."
+   },
+   "image": "products/charcoal-flannel-trousers.webp",
+   "sha256": "9ef2d9631ce726809e11a69b8c2cc21e1f359892b7abc3345dc27cf230a2fbcb",
+   "bytes": 19074,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p04",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.dark-brown-lace-up-rubber-soled-boots",
+   "appCategory": "shoes",
+   "spec": "dark brown lace-up rubber-soled boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "다크 브라운 끈 부츠",
+    "en": "Dark brown lace-up rubber-soled boots",
+    "de": "Dunkelbraune Schnürstiefel"
+   },
+   "sourceNameEn": "dark brown lace-up rubber-soled boots",
+   "howToWear": {
+    "ko": "두꺼운 양말 위에 끈을 고르게 조인다.",
+    "en": "Tighten the laces evenly over thick socks.",
+    "de": "Die Schnürsenkel über dicken Socken gleichmäßig festziehen."
+   },
+   "image": "products/dark-brown-lace-up-rubber-soled-boots.webp",
+   "sha256": "60bff1eb68ca3449d11dc595123a9f9ce4f9228af5b22b621ef3d149b65d2353",
+   "bytes": 36800,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p05",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.deep-olive-short-ribbed-fisherman-beanie",
+   "appCategory": "headwear",
+   "spec": "deep olive short ribbed fisherman beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "딥 올리브 숏 비니",
+    "en": "Deep olive short ribbed fisherman beanie",
+    "de": "Kurze dunkelolivgrüne Strickmütze"
+   },
+   "sourceNameEn": "deep olive short ribbed fisherman beanie",
+   "howToWear": {
+    "ko": "갈색 코트에 짙은 올리브로 작은 색 차이를 준다.",
+    "en": "Pair the brown coat with a deep olive beanie for a subtle contrast.",
+    "de": "Den braunen Mantel mit einer dunkelolivgrünen Mütze kombinieren."
+   },
+   "image": "products/deep-olive-short-ribbed-fisherman-beanie.webp",
+   "sha256": "e222a2ef5c48959035fc01fd8dba02c560534de0122e2fcd8528a366c1cc05ef",
+   "bytes": 43120,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p06",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.ivory-fringed-wool-scarf",
+   "appCategory": "scarf",
+   "spec": "ivory fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "아이보리 프린지 울 목도리",
+    "en": "Ivory fringed wool scarf",
+    "de": "Elfenbeinfarbener Wollschal mit Fransen"
+   },
+   "sourceNameEn": "ivory fringed wool scarf",
+   "howToWear": {
+    "ko": "밝은 프린지가 코트 앞에 보이도록 끝을 하나 내린다.",
+    "en": "Let one fringed end fall against the front of the coat.",
+    "de": "Ein Fransenende vorne am Mantel herunterhängen lassen."
+   },
+   "image": "products/ivory-fringed-wool-scarf.webp",
+   "sha256": "a85e2bec98562615fb414e10c83d1e5d1d7b5953edd5f8e49f6b409b3230fb78",
+   "bytes": 42568,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m02-p07",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-02.cream-wool-socks",
+   "appCategory": "socks",
+   "spec": "cream wool socks",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "크림 울 양말",
+    "en": "Cream wool socks",
+    "de": "Cremefarbene Wollsocken"
+   },
+   "sourceNameEn": "cream wool socks",
+   "howToWear": {
+    "ko": "앉았을 때 부츠 위로 크림색 양말이 조금 보이게 신는다.",
+    "en": "Show a little cream wool above the boots when seated.",
+    "de": "Beim Sitzen etwas cremefarbene Wolle über den Stiefeln zeigen."
+   },
+   "image": "products/cream-wool-socks.webp",
+   "sha256": "92c403c81142917ad9cc7f6bff66380cd376ba1cb03d3e88a288f19018521a47",
+   "bytes": 31754,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

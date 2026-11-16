@@ -1,0 +1,210 @@
+{
+ "batch": "berlin-light-rain-chilly-male-night-chic-20261116",
+ "id": "male-01",
+ "appOutfitId": "eu-rain-light-chilly-m-night-chic-20261116-01",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "rain",
+ "rain": "light",
+ "band": "chilly",
+ "time": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "appStyleLabel": "Chic",
+ "visualRegion": "european-urban",
+ "sourceCity": "Berlin",
+ "humidityContext": "unknown",
+ "temperatureC": 10,
+ "feelsLikeC": 6,
+ "isLiveMeasurement": false,
+ "scene": "tipping a wet black umbrella away from a lit café doorway at night, other hand in the coat pocket",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "101ad666f76d69790538ebba1f82c0e1bdfb7ae9b474f87298ff93e875608ac9",
+ "masterEditorial": "editorials/01-charcoal-cafe-umbrella-beanie-v2.png",
+ "copy": {
+  "title": {
+   "ko": "카페 문 앞의 차콜 울",
+   "en": "Charcoal at the café door",
+   "de": "Anthrazit vor der Cafétür"
+  },
+  "intro": {
+   "ko": "차콜 울 코트 아래 검정 터틀넥을 입고, 젖은 우산은 카페 문 밖으로 기울였다.",
+   "en": "A black turtleneck sits under the charcoal wool coat as he tips his wet umbrella away from the café door.",
+   "de": "Unter dem anthrazitfarbenen Wollmantel trägt er einen schwarzen Rollkragen. Den nassen Schirm hält er von der Cafétür weg."
+  },
+  "deck": {
+   "ko": "카페에 들어서기 전 문 앞에서 우산의 빗물을 털어 내는, 차콜과 회색으로 맞춘 저녁 차림.",
+   "en": "Charcoal and grey for a wet evening, with one last shake of the umbrella before going in.",
+   "de": "Anthrazit und Grau für einen nassen Abend – der Schirm wird vor dem Hineingehen noch einmal ausgeschüttelt."
+  },
+  "articleTitle": "CHARCOAL AT THE CAFÉ DOOR",
+  "pull": "SHAKE IT OFF BEFORE YOU GO IN.",
+  "tip": {
+   "ko": "가는 비가 오는 저녁엔 울 코트에 맺힌 물방울을 문 앞에서 가볍게 털고 들어가요.",
+   "en": "On a drizzly evening, brush the drops off a wool coat at the door before you go inside.",
+   "de": "An einem Nieselabend die Tropfen vor der Tür leicht vom Wollmantel streichen, bevor man hineingeht."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery); English product names only sentence-cased (sourceNameEn)"
+ },
+ "heroItem": "eu-rain-light-chilly-m-night-chic-20261116-01.charcoal-long-wool-overcoat",
+ "productCount": 7,
+ "products": [
+  {
+   "producerId": "m01-p01",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.charcoal-long-wool-overcoat",
+   "appCategory": "outer",
+   "spec": "charcoal long wool overcoat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 롱 울 코트",
+    "en": "Charcoal long wool overcoat",
+    "de": "Langer anthrazitfarbener Wollmantel"
+   },
+   "sourceNameEn": "charcoal long wool overcoat",
+   "howToWear": {
+    "ko": "코트 위쪽을 열어 터틀넥을 드러낸다.",
+    "en": "Leave the coat open at the collar to show the rollneck.",
+    "de": "Den Mantel am Kragen offen lassen, damit der Rollkragen sichtbar bleibt."
+   },
+   "image": "products/charcoal-long-wool-overcoat.webp",
+   "sha256": "dcc1d7711468ec465063936917ea71cb69fd7933651713dce7fee001bc29d091",
+   "bytes": 19602,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p02",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.black-ribbed-merino-turtleneck",
+   "appCategory": "top",
+   "spec": "black ribbed merino turtleneck",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 메리노 터틀넥",
+    "en": "Black ribbed merino turtleneck",
+    "de": "Schwarzer Merino-Rollkragen"
+   },
+   "sourceNameEn": "black ribbed merino turtleneck",
+   "howToWear": {
+    "ko": "회색 목도리 아래 검정 터틀넥을 겹쳐 입는다.",
+    "en": "Layer the black rollneck beneath the grey scarf.",
+    "de": "Den schwarzen Rollkragen unter dem grauen Schal tragen."
+   },
+   "image": "products/black-ribbed-merino-turtleneck.webp",
+   "sha256": "867018840d0170548459347f21e798a0999759fe2366b7577d91f83ffb12136d",
+   "bytes": 21476,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p03",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.grey-straight-wool-trousers",
+   "appCategory": "bottom",
+   "spec": "grey straight wool trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "회색 스트레이트 울 팬츠",
+    "en": "Grey straight wool trousers",
+    "de": "Gerade graue Wollhose"
+   },
+   "sourceNameEn": "grey straight wool trousers",
+   "howToWear": {
+    "ko": "젖은 포장에 끌리지 않도록 바짓단을 부츠 위에 둔다.",
+    "en": "Keep the trouser hems above the wet pavement.",
+    "de": "Die Hosensäume über dem nassen Pflaster halten."
+   },
+   "image": "products/grey-straight-wool-trousers.webp",
+   "sha256": "37dff1003ad647344cefba4daa6f4673896b9c44c06fa21ee6e297cf6dc0ff48",
+   "bytes": 19868,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p04",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.black-leather-lug-chelsea-boots",
+   "appCategory": "shoes",
+   "spec": "black leather lug Chelsea boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 가죽 첼시 부츠",
+    "en": "Black leather lug Chelsea boots",
+    "de": "Schwarze Chelsea-Boots aus Leder"
+   },
+   "sourceNameEn": "black leather lug Chelsea boots",
+   "howToWear": {
+    "ko": "굽이 낮고 밑창에 홈이 있는 첼시 부츠를 신는다.",
+    "en": "Wear low-heeled Chelsea boots with a treaded sole.",
+    "de": "Chelsea-Boots mit niedrigem Absatz und Profilsohle tragen."
+   },
+   "image": "products/black-leather-lug-chelsea-boots.webp",
+   "sha256": "fbffef6a854161897a049827e2366a2dcc5d211b3fb871c9c94f32249fdd1582",
+   "bytes": 29006,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p05",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.heather-charcoal-short-ribbed-fisherman-beanie",
+   "appCategory": "headwear",
+   "spec": "heather charcoal short ribbed fisherman beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "멜란지 차콜 숏 비니",
+    "en": "Heather charcoal short ribbed fisherman beanie",
+    "de": "Kurze melierte Anthrazitmütze"
+   },
+   "sourceNameEn": "heather charcoal short ribbed fisherman beanie",
+   "howToWear": {
+    "ko": "밴드를 한 번 접어 귀 위에 맞춘다.",
+    "en": "Fold the cuff once and set it above the ears.",
+    "de": "Den Umschlag einmal falten und über den Ohren tragen."
+   },
+   "image": "products/heather-charcoal-short-ribbed-fisherman-beanie.webp",
+   "sha256": "39a5437b8d96951a2c3b3c8d75914e140268f3efb737f3ece044102b80bd8704",
+   "bytes": 47952,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p06",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.granite-grey-fringed-wool-scarf",
+   "appCategory": "scarf",
+   "spec": "granite grey fringed wool scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "그라나이트 그레이 울 목도리",
+    "en": "Granite grey fringed wool scarf",
+    "de": "Granitgrauer Wollschal"
+   },
+   "sourceNameEn": "granite grey fringed wool scarf",
+   "howToWear": {
+    "ko": "목에 한 번 감고 긴 끝을 코트 앞으로 내린다.",
+    "en": "Loop it once and let the long end fall over the coat front.",
+    "de": "Einmal wickeln und das lange Ende vor dem Mantel hängen lassen."
+   },
+   "image": "products/granite-grey-fringed-wool-scarf.webp",
+   "sha256": "81c821d98d2b0a7d1b755e85a3be8d4cb3f90e664e277f40954ff00fdcfd5430",
+   "bytes": 42714,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m01-p07",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-01.black-umbrella-with-curved-handle",
+   "appCategory": "accessory",
+   "spec": "black umbrella with curved handle",
+   "evidence": "partially-visible-reconstructed",
+   "name": {
+    "ko": "곡선 손잡이 검정 우산",
+    "en": "Black umbrella with curved handle",
+    "de": "Schwarzer Regenschirm mit Rundgriff"
+   },
+   "sourceNameEn": "black umbrella with curved handle",
+   "howToWear": {
+    "ko": "문 밖으로 우산을 기울여 물기를 턴다.",
+    "en": "Tip the umbrella outside the doorway to drain it.",
+    "de": "Den Schirm draußen vor der Tür abtropfen lassen."
+   },
+   "image": "products/black-umbrella-with-curved-handle.webp",
+   "sha256": "93cda98cb64aebbb70d48ad8c39ea358dc5c4d00fc3232550aaa83635f3ad0b7",
+   "bytes": 34218,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}
