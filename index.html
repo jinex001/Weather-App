@@ -573,6 +573,13 @@
   .fh-temp { position: relative; font: 800 64px/.9 var(--sans); letter-spacing: -.04em; }
   .fh-temp .fh-deg { position: absolute; left: calc(100% - 7px); top: -2px; font-size: .55em; font-weight: 700; line-height: 1; }
   .fh-cond { position: relative; margin-top: -15px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
+  /* b229: feels-like line under the condition: temperature, band-color bar, moving person, band name, all at the condition's size */
+  .fh-fl { display: flex; align-items: center; margin-top: 6px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; white-space: nowrap; }
+  .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); box-shadow: 0 0 0 1px #000; vertical-align: 0; }
+  .fh-fl .feels-ic { width: 22px; height: 24px; background: none; color: #FFFFFF; --bg: transparent; --graph: #FFFFFF; margin-right: 6px;
+    filter: drop-shadow(1px 0 0 #000) drop-shadow(-1px 0 0 #000) drop-shadow(0 1px 0 #000) drop-shadow(0 -1px 0 #000); text-shadow: none; }
+  .fh-fl .feels-ic svg { width: 22px; height: 22px; left: 0; top: 0; }
+  .fh-fl .person-ic .hd { stroke: none; }
   .fh-umb { margin-top: 8px; font: 700 12px/1.4 var(--sans); max-width: 300px; }
   .fh-bot { margin-top: 26px; }
   .fh-k { font: 700 11px/1.2 var(--sans); letter-spacing: -.01em; }
@@ -602,7 +609,7 @@
     <div class="fh-wx">
       <button type="button" class="fh-city" id="fh-city"></button>
       <div class="fh-ar"><div class="fh-art" id="fh-art"></div></div>
-      <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div></div>
+      <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div><div class="fh-fl" id="fh-fl"></div></div>
       <div class="fh-umb" id="fh-umb" hidden></div>
     </div>
     <div class="fh-bot"><div class="fh-k" id="fh-k"></div><div class="fh-title" id="fh-title"></div></div>
@@ -1186,7 +1193,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b228";
+  var BUILD = "b229";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
@@ -1869,6 +1876,7 @@
     var c = v.data.current;
     $("fh-temp").innerHTML = r(c.temperature_2m) + '<span class="fh-deg">°</span>';
     $("fh-cond").textContent = $("cond").textContent;
+    $("fh-fl").innerHTML = "<span>" + v.f + '°</span><i class="lk-bar" style="--band:' + readableOn(BAND_COLOR[v.band[1]], "#FFFFFF", 1.5) + '"></i>' + v.icon + "<span>" + esc(v.band[2][LANG]) + "</span>";
     var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0, mm = D.precipitation_sum ? D.precipitation_sum[0] : null;
     var wet = (v.rain || p >= 50) && !isSnow(v.code), u = $("fh-umb");
     u.hidden = !wet;
