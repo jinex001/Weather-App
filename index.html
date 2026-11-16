@@ -314,7 +314,10 @@
     padding: 11px 4px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
     transition: padding .3s cubic-bezier(.2,.8,.2,1), background-color .2s ease, color .2s ease;
   }
-  .tabbar button.on { background: #141414; color: #FFFFFF; }
+  /* b234 (Figma Glass, user): the menu is clear glass so the photo shows through (shoes and all): fill white 10%, Frost 4 (a 3px blur, not the common 24px), the open tab is a white-40% glass pill with dark icons */
+  .tabbar.glass { background: rgba(255,255,255,.10); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); }
+  .tabbar button.on { background: rgba(255,255,255,.40); color: #141414; -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.55), inset 2px 2px 6px rgba(255,255,255,.75), inset -2px -2px 6px rgba(255,255,255,.25); }
   .tabbar svg { width: 24px; height: 24px; flex: none; fill: currentColor; transition: width .3s ease, height .3s ease; }
   .tabbar .tab-dot { position: absolute; top: 8px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
   .tabbar.scroll-hidden {
@@ -1231,7 +1234,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b233";
+  var BUILD = "b234";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
