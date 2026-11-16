@@ -537,7 +537,19 @@
   .pl-msg { padding: 14px 0; font-size: 14px; font-weight: 500; opacity: .6; }
   .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   /* ── b226: full-screen editorial home (Figma 14:36) ── */
-  .fh { position: sticky; top: 0; z-index: 0; height: 100svh; margin: calc(-1 * (env(safe-area-inset-top) + 20px)) -24px 0; overflow: hidden; background: var(--bg); }
+  /* b227: the photo is fixed to the screen and ends 60px above its bottom edge, where the article sheet peeks in
+     (the user's second iPhone screenshot). Fixed, not 100svh: in the iOS home-screen app svh came out one status bar
+     too tall on some launches, which zoomed the photo. The spacer in <main> takes the hero's measured height. */
+  .fh { position: fixed; z-index: 0; top: 0; bottom: 60px; left: 50%; width: min(100%, 480px); transform: translateX(-50%); overflow: hidden; background: var(--bg); }
+  body[data-tab]:not([data-tab="home"]) .fh { display: none; }
+  body.look-open .fh { filter: blur(10px); }
+  .fh-space { margin: calc(-1 * (env(safe-area-inset-top) + 20px)) -24px 0; pointer-events: none; }
+  body.fh-on .app { pointer-events: none; }
+  body.fh-on .app > * { pointer-events: auto; }
+  body.fh-on .app > .fh-space { pointer-events: none; }
+  /* small drifting clouds cross the whole screen and fade at both ends (fhDrift sets the distances), no popping in */
+  .fh-art .art-drift { animation-name: fh-drift; }
+  @keyframes fh-drift { 0% { opacity: 0; transform: translateX(calc(var(--fd0, -200) * 1px)); } 7%, 93% { opacity: 1; } 100% { opacity: 0; transform: translateX(calc(var(--fd1, 440) * 1px)); } }
   body.fh-on .head-tap, body.fh-on #hl, body.fh-on #about, body.fh-on #summary, body.fh-on .grow { display: none !important; }
   body.fh-on .app { padding-bottom: 0; }
   .fh-rail { position: absolute; inset: 0; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
@@ -589,22 +601,23 @@
 </style>
 </head>
 <body data-state="sun">
+<section class="fh" id="fh" hidden>
+  <div class="fh-rail" id="fh-rail"></div>
+  <div class="fh-over" id="fh-over">
+    <div class="fh-wx">
+      <button type="button" class="fh-city" id="fh-city"></button>
+      <div class="fh-ar"><div class="fh-art" id="fh-art"></div><span class="fh-p" id="fh-p"></span></div>
+      <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div></div>
+      <div class="fh-umb" id="fh-umb" hidden></div>
+    </div>
+    <div class="fh-bot"><div class="fh-k" id="fh-k"></div><div class="fh-title" id="fh-title"></div></div>
+  </div>
+</section>
 <main class="app">
   <!-- b226: full-screen editorial home (Figma 14:36). The photo of today's pick fills the first screen and stays behind
        (sticky) while the glass article scrolls up over it; swipe sideways for the three styles. Only once a clothing
        style is picked (ABOUT YOU and the old layout stay until then). -->
-  <section class="fh" id="fh" hidden>
-    <div class="fh-rail" id="fh-rail"></div>
-    <div class="fh-over" id="fh-over">
-      <div class="fh-wx">
-        <button type="button" class="fh-city" id="fh-city"></button>
-        <div class="fh-ar"><div class="fh-art" id="fh-art"></div><span class="fh-p" id="fh-p"></span></div>
-        <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div></div>
-        <div class="fh-umb" id="fh-umb" hidden></div>
-      </div>
-      <div class="fh-bot"><div class="fh-k" id="fh-k"></div><div class="fh-title" id="fh-title"></div></div>
-    </div>
-  </section>
+  <div class="fh-space" id="fh-space" hidden></div>
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div class="city" id="city" role="button" tabindex="0"><span id="city-n">Berlin</span><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg></div>
@@ -1178,7 +1191,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b226";
+  var BUILD = "b227";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
@@ -1677,10 +1690,10 @@
     var v = lastView; if (!v) return;
     var prof = load("wx-profile") || {};
     $("summary").hidden = true;
-    if (!prof.style) { document.body.classList.remove("fh-on"); $("fh").hidden = true; $("fh-read").hidden = true; $("hl").hidden = true; paintAbout(v, prof); return; }
+    if (!prof.style) { document.body.classList.remove("fh-on"); $("fh").hidden = true; $("fh-space").hidden = true; $("fh-read").hidden = true; $("hl").hidden = true; paintAbout(v, prof); return; }
     $("about").hidden = true;
     var was = document.body.classList.contains("fh-on");
-    document.body.classList.add("fh-on"); $("fh").hidden = false;
+    document.body.classList.add("fh-on"); $("fh").hidden = false; $("fh-space").hidden = false; fhFit();
     if (!was) rainFx();
     paintFull(v, prof);
   }
@@ -1870,6 +1883,18 @@
     rail.scrollLeft = start * rail.clientWidth;
     fhShow(start, true);
   }
+  // the spacer in the page is as tall as the fixed hero, so the article starts right under the photo
+  function fhFit() {
+    var h = $("fh").getBoundingClientRect().height;
+    if (h) $("fh-space").style.height = Math.round(h) + "px";
+  }
+  // drifting clouds: from just off the left screen edge to just off the right one, in the art's own units
+  function fhDrift() {
+    var art = $("fh-art"), a = art.getBoundingClientRect(), f = $("fh").getBoundingClientRect(); if (!a.width) return;
+    var k = 240 / a.width;
+    art.style.setProperty("--fd0", Math.round((f.left - a.left) * k - 90));
+    art.style.setProperty("--fd1", Math.round((f.right - a.left) * k + 10));
+  }
   function fhShow(k, now) {
     var h = fhLooks[k]; if (!h) return;
     fhAt = k;
@@ -1878,6 +1903,7 @@
     Promise.all([fhSide(e.soon ? null : e.o), new Promise(function (res) { setTimeout(res, now ? 0 : 200); })]).then(function (r2) {
       if (fhAt !== k) return;
       over.classList.toggle("right", r2[0] === "right");
+      fhDrift();
       $("fh-k").textContent = fmt(FH.today, { s: LT.styles[STYLES.indexOf(h.st)] });
       twoLines($("fh-title"), homeTitle(e));
       fhRead(h);
@@ -1901,7 +1927,9 @@
     // a tap on the photo reads on: scroll to the article
     rail.addEventListener("click", function () { window.scrollTo({ top: $("fh-body").getBoundingClientRect().top + window.scrollY, behavior: "smooth" }); });
     $("fh-city").addEventListener("click", openPlaces);
-    addEventListener("resize", function () { if (fhAt >= 0) rail.scrollLeft = fhAt * rail.clientWidth; });
+    var refit = function () { fhFit(); fhDrift(); if (fhAt >= 0) rail.scrollLeft = fhAt * rail.clientWidth; };
+    addEventListener("resize", refit);
+    if (window.ResizeObserver) new ResizeObserver(refit).observe($("fh"));
   })();
 
   function openLook(dayView) {
@@ -2556,6 +2584,7 @@
   }
   function showTab(t) {
     tab = t;
+    document.body.dataset.tab = t;
     $("tabbar").querySelectorAll("button").forEach(function (b) {
       var on = b.getAttribute("data-tab") === t;
       b.classList.toggle("on", on);
