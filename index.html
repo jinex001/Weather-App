@@ -576,8 +576,8 @@
   .fh-top { position: absolute; z-index: 2; left: 0; right: 0; top: calc(env(safe-area-inset-top) + 8px); height: 38px; display: flex; align-items: center; justify-content: center; }
   .fh-top .fh-city { margin: 0; padding: 8px 12px; color: var(--fg); font-size: 17px; text-shadow: none; display: flex; align-items: center; gap: 5px; }
   .fh-city svg { width: 19px; height: 19px; flex: none; fill: currentColor; }
-  .fh-rain { position: absolute; z-index: 2; left: 24px; top: calc(env(safe-area-inset-top) + 64px); height: 36px; padding: 0 12px; border: 0; border-radius: 18px; display: flex; align-items: center; gap: 8px; background: #1428FF; color: #FFFFFF; cursor: pointer; }
-  .fh-rain svg { width: 22px; height: 22px; fill: currentColor; flex: none; }
+  .fh-rain { position: absolute; z-index: 2; left: 24px; top: calc(env(safe-area-inset-top) + 64px); height: 38px; padding: 0 13px; border: 0; border-radius: 19px; display: flex; align-items: center; gap: 8px; background: #F2C14E; color: #141414; cursor: pointer; }
+  .fh-rain svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; flex: none; }
   .fh-rain span { font: 800 15px/1 var(--sans); letter-spacing: -.02em; }
   .rn-sec + .rn-sec { margin-top: 34px; }
   .rn-k { font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
@@ -616,8 +616,8 @@
   .fh-temp { position: relative; font: 800 62px/.9 var(--sans); letter-spacing: -.04em; }
   /* b232: the ° sits low at the number's right edge and goes under the digits (negative z-index inside the number's own stacking context), so the digits cover it a little */
   .fh-temp { isolation: isolate; }
-  .fh-temp .fh-deg { position: absolute; z-index: -1; left: calc(100% - 9px); top: -5px; font-size: 22px; font-weight: 800; line-height: 1; }
-  .fh-cond { position: relative; margin: 0 0 6px -16px; z-index: 1; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
+  .fh-temp .fh-deg { position: absolute; z-index: -1; left: calc(100% - 4px); top: -5px; font-size: 22px; font-weight: 800; line-height: 1; }
+  .fh-cond { position: relative; margin: 0 0 6px -6px; z-index: 1; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
   /* b229: feels-like line under the condition: temperature, band-color bar, moving person, band name, all at the condition's size */
   .fh-fl { display: flex; align-items: center; flex-basis: 100%; margin-top: 6px; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; white-space: nowrap; }
   .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); box-shadow: 0 0 0 1px #000; vertical-align: 0; }
@@ -1253,7 +1253,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b238";
+  var BUILD = "b239";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
@@ -1927,12 +1927,13 @@
   // b238: ONE badge for the day's "bring this" items — umbrella (rain), SPF + sunglasses (UV), wind — in a single blue pill;
   // tap opens the detail sheet with a section for each (b237 rain sheet grew into this)
   var BI = {
-    plus: '<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H136v32a8,8,0,0,1-16,0V136H88a8,8,0,0,1,0-16h32V88a8,8,0,0,1,16,0v32h32A8,8,0,0,1,176,128Z"/>',
-    umb: '<path d="M128,24A104.11,104.11,0,0,0,24,128a8,8,0,0,0,8,8h88v64a24,24,0,0,0,48,0,8,8,0,0,0-16,0,8,8,0,0,1-16,0V136h88a8,8,0,0,0,8-8A104.11,104.11,0,0,0,128,24Zm0,16a88.14,88.14,0,0,1,87.35,80H40.65A88.14,88.14,0,0,1,128,40Z"/>',
-    sun: '<path d="M32,112a24,24,0,0,1,24-24h28a32,32,0,0,1,44,0,32,32,0,0,1,44,0h28a24,24,0,0,1,24,24v20a48,48,0,0,1-48,48h-4a40,40,0,0,1-36-24h-8a40,40,0,0,1-36,24h-4a48,48,0,0,1-48-48Zm24-8a8,8,0,0,0-8,8v20a32,32,0,0,0,32,32h4a24,24,0,0,0,24-24V104Zm112,0v36a24,24,0,0,0,24,24h4a32,32,0,0,0,32-32V112a8,8,0,0,0-8-8Z"/>',
-    wind: '<path d="M184,184a32,32,0,0,1-32,32c-13.7,0-26.95-8.93-31.5-21.22a8,8,0,0,1,15-5.56C137.74,195.27,145,200,152,200a16,16,0,0,0,0-32H40a8,8,0,0,1,0-16H152A32,32,0,0,1,184,184Zm-64-80a8,8,0,0,0,8-8,8,8,0,0,0-8-8H40a8,8,0,0,0,0,16Zm88-32c-13.7,0-26.95,8.93-31.5,21.22a8,8,0,0,0,15,5.56C195.74,83.73,203,80,210,80a16,16,0,0,1,0,32H32a8,8,0,0,0,0,16H210a32,32,0,0,0,0-64Z"/>'
+    plus: '<circle cx="128" cy="128" r="96"/><path d="M88 128h80M128 88v80"/>',
+    umb: '<path d="M32 128a96 96 0 0 1 192 0z"/><path d="M128 128v72a20 20 0 0 0 40 0"/>',
+    sun: '<rect x="22" y="104" width="96" height="76" rx="26"/><rect x="138" y="104" width="96" height="76" rx="26"/><path d="M118 130h20"/><path d="M22 124l-8-18M234 124l8-18"/>',
+    wind: '<path d="M24 100h116a30 30 0 1 0-30-30"/><path d="M24 150h156a30 30 0 1 1-30 30"/>'
   };
-  function bsvg(k) { return '<svg viewBox="0 0 256 256" aria-hidden="true">' + BI[k] + "</svg>"; }
+
+  function bsvg(k) { return '<svg viewBox="0 0 256 256" aria-hidden="true">' + BI[k] + "</svg>"; } // b239: line icons (stroke 16), same weight for all
   // what the day asks for: { rain, uv (max), spf, shades, wind (km/h) }
   function dayTips(v) {
     var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0;
