@@ -576,6 +576,19 @@
   .fh-top { position: absolute; z-index: 2; left: 0; right: 0; top: calc(env(safe-area-inset-top) + 8px); height: 38px; display: flex; align-items: center; justify-content: center; }
   .fh-top .fh-city { margin: 0; padding: 8px 12px; color: var(--fg); font-size: 17px; text-shadow: none; display: flex; align-items: center; gap: 5px; }
   .fh-city svg { width: 19px; height: 19px; flex: none; fill: currentColor; }
+  .fh-rain { position: absolute; z-index: 2; left: 24px; top: calc(env(safe-area-inset-top) + 64px); height: 36px; padding: 0 12px; border: 0; border-radius: 18px; display: flex; align-items: center; gap: 8px; background: #1428FF; color: #FFFFFF; cursor: pointer; }
+  .fh-rain svg { width: 22px; height: 22px; fill: currentColor; }
+  .rn-k { font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+  .rn-big { margin-top: 8px; font: 800 56px/1 var(--sans); letter-spacing: -.04em; }
+  .rn-big small { font-size: 22px; letter-spacing: -.02em; margin-left: 4px; }
+  .rn-sub { margin-top: 8px; font: 800 17px/1.3 var(--sans); letter-spacing: -.02em; }
+  .rn-list { margin-top: 22px; }
+  .rn-row { display: flex; align-items: center; gap: 12px; padding: 7px 0; font: 800 13px var(--sans); }
+  .rn-row.dry { opacity: .4; }
+  .rn-t { width: 50px; flex: none; }
+  .rn-bar { flex: 1; height: 10px; border-radius: 5px; background: rgba(20,20,20,.08); overflow: hidden; }
+  .rn-bar i { display: block; height: 100%; border-radius: 5px; background: #1428FF; }
+  .rn-v { width: 92px; flex: none; text-align: right; }
   .fh-flt { position: absolute; z-index: 2; right: 24px; top: calc(env(safe-area-inset-top) + 64px); width: 44px; height: 44px; border: 0; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; color: #141414; cursor: pointer; }
   .fh-flt svg { width: 22px; height: 22px; fill: currentColor; }
   body.fh-on .fh-rail { -webkit-mask-image: none; }
@@ -642,10 +655,10 @@
     <div class="fh-wx">
       <div class="fh-ar"><div class="fh-art" id="fh-art"></div></div>
       <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div><div class="fh-fl" id="fh-fl"></div></div>
-      <div class="fh-umb" id="fh-umb" hidden></div>
     </div>
     <div class="fh-bot"><div class="fh-k" id="fh-k"></div><div class="fh-title" id="fh-title"></div></div>
   </div>
+  <button type="button" class="fh-rain" id="fh-rain" hidden><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H136v32a8,8,0,0,1-16,0V136H88a8,8,0,0,1,0-16h32V88a8,8,0,0,1,16,0v32h32A8,8,0,0,1,176,128Z"/></svg><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104.11,104.11,0,0,0,24,128a8,8,0,0,0,8,8h88v64a24,24,0,0,0,48,0,8,8,0,0,0-16,0,8,8,0,0,1-16,0V136h88a8,8,0,0,0,8-8A104.11,104.11,0,0,0,128,24Zm0,16a88.14,88.14,0,0,1,87.35,80H40.65A88.14,88.14,0,0,1,128,40Z"/></svg></button>
   <button type="button" class="fh-flt glass" id="fh-flt"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M40,88H73a32,32,0,0,0,62,0h81a8,8,0,0,0,0-16H135a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16Zm64-24A16,16,0,1,1,88,80,16,16,0,0,1,104,64ZM216,168H199a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16h97a32,32,0,0,0,62,0h17a8,8,0,0,0,0-16Zm-48,24a16,16,0,1,1,16-16A16,16,0,0,1,168,192Z"/></svg></button>
 </section>
 <main class="app">
@@ -723,6 +736,11 @@
 <section class="look glass" id="flt" role="dialog" aria-modal="true" style="--lk-bg:#FFFFFF;--lk-ink:#141414" hidden>
   <button class="lk-grab" id="flt-grab" type="button" aria-label="Close"></button>
   <div class="flt-body" id="flt-body"></div>
+</section>
+
+<section class="look glass" id="rnd" role="dialog" aria-modal="true" style="--lk-bg:#FFFFFF;--lk-ink:#141414" hidden>
+  <button class="lk-grab" id="rnd-grab" type="button" aria-label="Close"></button>
+  <div class="flt-body" id="rnd-body"></div>
 </section>
 
 <script src="look/outfits.js?v=b149"></script>
@@ -949,21 +967,21 @@
   }
   // Bottom menu and its pages (b88)
   var NV = {
-    en: { home: "Home", hours: "Hours", fWho: "For", men: "Men", women: "Women", kids: "Kids", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", tmr: "Tomorrow", week: "Next 7 days",
+    en: { home: "Home", rainK: "Rain today", hours: "Hours", fWho: "For", men: "Men", women: "Women", kids: "Kids", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", tmr: "Tomorrow", week: "Next 7 days",
           noAlerts: "No weather warnings for this area right now.", outside: "Weather warnings come from the German Weather Service (DWD) and are only available in Germany.",
           alertsK: "Weather warnings", until: "until", loc: "Location", change: "Change",
           profile: "Today's Look profile", edit: "Edit", style: "Clothing style",
           hlNew: "New looks", umb: "Take an umbrella", rainAmt: "Rain today {m} mm · {p}% chance", rainP: "{p}% chance of rain today",
           ask: "Pick the style you wear most. From today we'll choose your looks in it. Change it anytime in Settings.", lang: "Language", langV: "English (device)", units: "Units", src: "Data", ver: "Version",
           sev: { minor: "Minor", moderate: "Moderate", severe: "Severe", extreme: "Extreme" } },
-    de: { home: "Start", hours: "Stunden", fWho: "Für", men: "Herren", women: "Damen", kids: "Kinder", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
+    de: { home: "Start", rainK: "Regen heute", hours: "Stunden", fWho: "Für", men: "Herren", women: "Damen", kids: "Kinder", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
           noAlerts: "Für diese Gegend gibt es gerade keine Unwetterwarnung.", outside: "Unwetterwarnungen kommen vom Deutschen Wetterdienst (DWD) und gibt es nur für Deutschland.",
           alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", change: "Ändern",
           profile: "Profil für Today's Look", edit: "Ändern", style: "Kleidungsstil",
           hlNew: "Neue Looks", umb: "Schirm mitnehmen", rainAmt: "Regen heute {m} mm · {p} %", rainP: "Regenwahrscheinlichkeit heute {p} %",
           ask: "Wähle den Stil, den du am meisten trägst. Ab heute suchen wir deine Looks darin aus. Jederzeit in den Optionen änderbar.", lang: "Sprache", langV: "Deutsch (Gerät)", units: "Einheiten", src: "Daten", ver: "Version",
           sev: { minor: "Wetterwarnung", moderate: "Markante Warnung", severe: "Unwetter", extreme: "Extremes Unwetter" } },
-    ko: { home: "홈", hours: "시간", fWho: "대상", men: "남성", women: "여성", kids: "키즈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
+    ko: { home: "홈", rainK: "오늘의 비", hours: "시간", fWho: "대상", men: "남성", women: "여성", kids: "키즈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
           noAlerts: "지금 이 지역에 기상 경보가 없어요.", outside: "기상 경보는 독일 기상청(DWD) 자료라 독일 안에서만 볼 수 있어요.",
           alertsK: "기상 경보", until: "까지", loc: "위치", change: "바꾸기",
           profile: "Today's Look 프로필", edit: "수정", style: "옷 스타일",
@@ -1233,7 +1251,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b236";
+  var BUILD = "b237";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
@@ -1919,9 +1937,9 @@
     $("fh-cond").textContent = $("cond").textContent;
     $("fh-fl").innerHTML = "<span>" + v.f + '°</span><i class="lk-bar" style="--band:' + readableOn(BAND_COLOR[v.band[1]], "#FFFFFF", 1.5) + '"></i>' + v.icon + "<span>" + esc(v.band[2][LANG]) + "</span>";
     var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0, mm = D.precipitation_sum ? D.precipitation_sum[0] : null;
-    var wet = (v.rain || p >= 50) && !isSnow(v.code), u = $("fh-umb");
-    u.hidden = !wet;
-    u.textContent = wet ? NV.umb + " · " + (typeof mm === "number" ? fmt(NV.rainAmt, { m: (Math.round(mm * 10) / 10).toLocaleString(LOCALE), p: p }) : fmt(NV.rainP, { p: p })) : "";
+    var wet = (v.rain || p >= 50) && !isSnow(v.code);
+    $("fh-rain").hidden = !wet; // b237: the umbrella badge (tap = rain detail sheet) replaces the umbrella text line
+    $("fh-rain").setAttribute("aria-label", NV.umb);
     fhAt = -1;
     rail.scrollLeft = start * rail.clientWidth;
     fhShow(start, true);
@@ -2285,7 +2303,7 @@
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,direct_radiation,cloud_cover" +
-      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
+      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation,snowfall,weather_code,is_day,wind_speed_10m" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,precipitation_sum,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
@@ -2772,6 +2790,46 @@
     setTimeout(function () { if (!fltOpen) $("flt").hidden = true; }, 400);
   }
   $("fh-flt").addEventListener("click", openFilter);
+
+  // ── Rain detail (b237): the umbrella badge at the photo's top left → how much, when, hour by hour ──
+  var rndOpen = false;
+  function paintRain() {
+    var v = lastView; if (!v || !v.data) return;
+    var data = v.data, H = data.hourly, D = data.daily, cur = data.current;
+    var key = cur.time.slice(0, 13);
+    if (typeof data.utc_offset_seconds === "number") key = new Date(Date.now() + data.utc_offset_seconds * 1000).toISOString().slice(0, 13);
+    var i0 = H.time.findIndex(function (x) { return x.slice(0, 13) === key; });
+    if (i0 < 0) i0 = 0;
+    var mm = D.precipitation_sum ? D.precipitation_sum[0] : null, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0;
+    var hasMm = !!H.precipitation, rows = "", maxMm = 0.5, n;
+    for (n = 0; n < 24 && i0 + n < H.time.length; n++) if (hasMm) maxMm = Math.max(maxMm, H.precipitation[i0 + n] || 0);
+    // when it rains: first / last hour at 50% or more (the same cut as the 12-hour graph)
+    var first = -1, last = -1;
+    for (n = 0; n < 24 && i0 + n < H.time.length; n++) if ((H.precipitation_probability[i0 + n] || 0) >= 50) { if (first < 0) first = n; last = n; }
+    var when = first < 0 ? T.rainLight : first === 0 ? (last + 1 < 24 && i0 + last + 1 < H.time.length ? fmt(T.rainUntil, { t: hourText(H.time[i0 + last + 1]) }) : T.rainOn) : fmt(T.rainFrom, { t: hourText(H.time[i0 + first]) });
+    for (n = 0; n < 24 && i0 + n < H.time.length; n++) {
+      var x = i0 + n, pp = H.precipitation_probability[x] || 0, m = hasMm ? (H.precipitation[x] || 0) : null;
+      var w = hasMm ? Math.min(100, Math.round(m / maxMm * 100)) : pp;
+      rows += '<div class="rn-row' + (pp < 20 && !m ? " dry" : "") + '"><span class="rn-t">' + (n === 0 ? T.now : H.time[x].slice(11, 13) + ":00") + '</span><span class="rn-bar"><i style="width:' + Math.max(w, pp || m ? 4 : 0) + '%"></i></span><span class="rn-v">' +
+        (hasMm ? (Math.round(m * 10) / 10).toLocaleString(LOCALE) + " mm · " : "") + pp + "%</span></div>";
+    }
+    $("rnd-body").innerHTML = '<div class="rn-k">' + esc(NV.rainK) + "</div>" +
+      '<div class="rn-big">' + (typeof mm === "number" ? (Math.round(mm * 10) / 10).toLocaleString(LOCALE) + "<small>mm</small>" : p + "<small>%</small>") + "</div>" +
+      '<div class="rn-sub">' + esc(when) + " · " + esc(fmt(NV.rainP, { p: p })) + '</div><div class="rn-list">' + rows + "</div>";
+  }
+  function openRain() {
+    var s = $("rnd"); paintRain();
+    s.hidden = false; void s.offsetWidth; s.classList.add("open");
+    document.body.style.overflow = "hidden"; document.body.classList.add("look-open"); rndOpen = true;
+  }
+  function closeRain() {
+    if (!rndOpen) return;
+    rndOpen = false; $("rnd").classList.remove("open");
+    document.body.style.overflow = ""; document.body.classList.remove("look-open");
+    setTimeout(function () { if (!rndOpen) $("rnd").hidden = true; }, 400);
+  }
+  $("fh-rain").addEventListener("click", openRain);
+  $("rnd-grab").addEventListener("click", closeRain);
   $("flt-grab").addEventListener("click", closeFilter);
   $("flt-body").addEventListener("click", function (e) {
     var b = e.target.closest("[data-k]"); if (!b) return;
