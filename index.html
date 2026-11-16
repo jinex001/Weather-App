@@ -597,8 +597,10 @@
   /* temperature + condition: the condition sits half over the number's foot; the ° overlaps the number, half raised */
   .fh-tc { display: flex; flex-wrap: wrap; align-items: flex-end; align-self: stretch; margin-top: 18px; }
   .fh-temp { position: relative; font: 800 64px/.9 var(--sans); letter-spacing: -.04em; }
-  .fh-temp .fh-deg { position: absolute; left: calc(100% - 7px); top: -2px; font-size: .55em; font-weight: 700; line-height: 1; }
-  .fh-cond { position: relative; margin: 0 0 7px 12px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
+  /* b232: the ° sits low at the number's right edge and goes under the digits (negative z-index inside the number's own stacking context), so the digits cover it a little */
+  .fh-temp { isolation: isolate; }
+  .fh-temp .fh-deg { position: absolute; z-index: -1; left: calc(100% - 9px); top: 30px; font-size: .55em; font-weight: 700; line-height: 1; }
+  .fh-cond { position: relative; margin: 0 0 7px 22px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
   /* b229: feels-like line under the condition: temperature, band-color bar, moving person, band name, all at the condition's size */
   .fh-fl { display: flex; align-items: center; flex-basis: 100%; margin-top: 6px; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; white-space: nowrap; }
   .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); box-shadow: 0 0 0 1px #000; vertical-align: 0; }
@@ -618,7 +620,7 @@
   .fh-over.right .fh-ar { flex-direction: row-reverse; }
   .fh-over.right .fh-art { margin: 0 -12px 0 0; }
   .fh-over.right .fh-tc { flex-direction: row-reverse; margin-right: 16px; }
-  .fh-over.right .fh-cond { margin: 0 12px 7px 0; }
+  .fh-over.right .fh-cond { margin: 0 22px 7px 0; }
   .fh-over.right .fh-fl { justify-content: flex-end; }
   /* the article and the forecast below it: common glass over the photo */
   body.fh-on .fh-body { position: relative; z-index: 1; margin: 0 -24px; padding: 22px 24px calc(env(safe-area-inset-bottom) + 112px); min-height: 70svh;
@@ -1229,7 +1231,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b231";
+  var BUILD = "b232";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
