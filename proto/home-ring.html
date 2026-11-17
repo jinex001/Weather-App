@@ -191,7 +191,8 @@
 
   // weather head (fake values) with the moving art
   var ART = {
-    night: '<g class="moon"><circle cx="124" cy="88" r="44" fill="#F4F1E8"/><circle cx="146" cy="72" r="40" fill="#1B2140"/></g>' +
+    night: '<mask id="cres"><rect x="-100" y="-100" width="440" height="370" fill="#fff"/><circle cx="146" cy="72" r="40" fill="#000"/></mask>' +
+      '<g class="moon"><circle cx="124" cy="88" r="44" fill="#F4F1E8" mask="url(#cres)"/></g>' +
       '<circle cx="40" cy="40" r="3" fill="#F4F1E8"/><circle cx="200" cy="30" r="2.5" fill="#F4F1E8"/><circle cx="190" cy="130" r="2" fill="#F4F1E8"/>',
     sunny: '<g class="rays">' + [0, 45, 90, 135, 180, 225, 270, 315].map(function (a) { return '<rect x="116" y="18" width="8" height="20" rx="4" fill="#E8621C" transform="rotate(' + a + ' 120 86)"/>'; }).join("") + "</g>" +
       '<circle class="core" cx="120" cy="86" r="40" fill="#E8621C"/>',
