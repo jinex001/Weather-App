@@ -307,7 +307,7 @@
     position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
     display: flex; gap: 2px; padding: 5px; border-radius: 34px;
     width: min(calc(100% - 32px), 336px); transform: translateX(-50%); transform-origin: 50% 100%;
-    color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease, visibility .3s;
+    color: var(--fg); transition: transform .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease, visibility .3s;
   }
   .tabbar button {
     position: relative; flex: 1 1 0; min-width: 0; display: flex; align-items: center; justify-content: center;
@@ -315,8 +315,9 @@
     transition: padding .3s cubic-bezier(.2,.8,.2,1), background-color .2s ease, color .2s ease;
   }
   /* b234 (Figma Glass, user): the menu is clear glass so the photo shows through (shoes and all): fill white 10%, Frost 4 (a 3px blur, not the common 24px), the open tab is a white-40% glass pill with dark icons */
-  .tabbar button.on { background: rgba(255,255,255,.40); color: #141414; -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
+  .tabbar button.on { background: rgba(255,255,255,.40); color: var(--fg); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
     box-shadow: inset 0 0 0 1px rgba(255,255,255,.55), inset 2px 2px 6px rgba(255,255,255,.75), inset -2px -2px 6px rgba(255,255,255,.25); }
+  body[data-state="rain"] .tabbar button.on, body[data-state="night"] .tabbar button.on { background: rgba(255,255,255,.20); }
   .tabbar svg { width: 24px; height: 24px; flex: none; fill: currentColor; transition: width .3s ease, height .3s ease; }
   .tabbar .tab-dot { position: absolute; top: 8px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
   .tabbar.scroll-hidden {
@@ -573,8 +574,8 @@
   /* b229: weather-colour frame (the .fh background) around the photo: the photo starts below the status bar so the OS blur never sits on it */
   /* b231 (Figma 15:117): the place sits in the frame right under the status bar (where iOS blurs), the photo starts below it with rounder corners */
   .fh-rail, .fh-over { top: calc(env(safe-area-inset-top) + 50px); right: 10px; bottom: 10px; left: 10px; border-radius: 48px; }
-  .fh-top { position: absolute; z-index: 2; left: 0; right: 0; top: calc(env(safe-area-inset-top) + 8px); height: 38px; display: flex; align-items: center; justify-content: center; }
-  .fh-top .fh-city { margin: 0; padding: 8px 12px; color: var(--fg); font-size: 17px; text-shadow: none; display: flex; align-items: center; gap: 5px; }
+  .fh-top { position: absolute; z-index: 2; left: 0; right: 0; top: calc(env(safe-area-inset-top) + 8px); height: 40px; padding-left: 24px; display: flex; align-items: center; justify-content: flex-start; pointer-events: none; }
+  .fh-top .fh-city { margin: 0; height: 40px; padding: 0 16px 0 18px; border-radius: 20px; pointer-events: auto; color: var(--fg); font-size: 17px; text-shadow: none; display: flex; align-items: center; gap: 5px; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light); }
   .fh-city svg { width: 19px; height: 19px; flex: none; fill: currentColor; }
   .fh-rain { position: absolute; z-index: 2; left: 24px; top: calc(env(safe-area-inset-top) + 64px); height: 38px; padding: 0 13px; border: 0; border-radius: 19px; display: flex; align-items: center; gap: 8px; background: #F2C14E; color: #141414; cursor: pointer; }
   .fh-rain svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; flex: none; }
@@ -591,7 +592,7 @@
   .rn-bar { flex: 1; height: 10px; border-radius: 5px; background: rgba(20,20,20,.08); overflow: hidden; }
   .rn-bar i { display: block; height: 100%; border-radius: 5px; background: #1428FF; }
   .rn-v { width: 92px; flex: none; text-align: right; }
-  .fh-flt { position: absolute; z-index: 2; right: 24px; top: calc(env(safe-area-inset-top) + 64px); width: 44px; height: 44px; border: 0; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; color: #141414; cursor: pointer; }
+  .fh-flt { position: absolute; z-index: 2; right: 24px; top: calc(env(safe-area-inset-top) + 8px); width: 40px; height: 40px; border: 0; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; color: var(--fg); cursor: pointer; }
   .fh-flt svg { width: 22px; height: 22px; fill: currentColor; }
   body.fh-on .fh-rail { -webkit-mask-image: none; }
   .fh-over { overflow: hidden; }
@@ -641,8 +642,8 @@
   .fh-over.right .fh-fl { justify-content: flex-end; }
   /* the article and the forecast below it: common glass over the photo */
   body.fh-on .fh-body { position: relative; z-index: 1; margin: 0 -24px; padding: 22px 24px calc(env(safe-area-inset-bottom) + 112px); min-height: 70svh;
-    border-radius: 28px 28px 0 0; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light);
-    color: #141414; --fg: #141414; }
+    border-radius: 28px 28px 0 0; background: color-mix(in srgb, var(--bg) 60%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); box-shadow: var(--glass-light);
+    color: var(--fg); }
   .fh-read { padding-bottom: 30px; }
   .fh-read .fh-rk { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; opacity: .7; }
   .fh-read .lk-atitle { margin-top: 8px; }
@@ -1254,7 +1255,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b244";
+  var BUILD = "b245";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
