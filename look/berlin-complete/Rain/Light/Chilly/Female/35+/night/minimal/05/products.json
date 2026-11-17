@@ -128,14 +128,14 @@
   "copy": {
     "title": "FRINGE AT THE FRONT DOOR",
     "deck": {
-      "ko": "문을 열며 바람에 날리는 머플러를 붙잡는 순간. 블랙 코트에 연회색 프린지.",
-      "en": "Catching the scarf in the wind while she unlocks the door. Light grey fringe over a black coat.",
-      "de": "Beim Aufschließen den Schal im Wind festhalten. Hellgraue Fransen über einem schwarzen Mantel."
+      "ko": "접은 우산을 들고 현관문을 여는 순간. 블랙 코트 위로 연회색 프린지가 내려와요.",
+      "en": "Opening the front door with a folded umbrella in hand. Light grey fringe falls over a black coat.",
+      "de": "Mit dem geschlossenen Schirm in der Hand öffnet sie die Haustür. Hellgraue Fransen fallen über den schwarzen Mantel."
     },
     "intro": {
-      "ko": "블랙 코트와 블랙 팬츠로 긴 기둥을 세우고, 연회색 머플러 하나로 움직임을 더해요. 바람에 날리는 프린지가 젖은 밤거리의 어둠 속에서 가장 먼저 보여요. 작은 브라운 가방과 골드 후프가 따뜻함을 조금 보태요.",
-      "en": "Black coat and black trousers build one long column; a light grey scarf adds the movement. The fringe caught by the wind is the first thing you see against the wet night street. A small brown bag and gold hoops add a touch of warmth.",
-      "de": "Schwarzer Mantel und schwarze Hose bilden eine lange Säule, ein hellgrauer Schal bringt Bewegung hinein. Die Fransen im Wind sieht man vor der nassen Nachtstraße zuerst. Eine kleine braune Tasche und Goldcreolen geben etwas Wärme dazu."
+      "ko": "블랙 코트와 블랙 팬츠로 긴 기둥을 세우고, 연회색 머플러 하나로 움직임을 더해요. 코트 앞에 길게 내려오는 프린지가 젖은 밤거리의 어둠 속에서 가장 먼저 보여요. 작은 브라운 가방과 골드 후프가 따뜻함을 조금 보태요.",
+      "en": "Black coat and black trousers build one long column; a light grey scarf adds the movement. The long fringe stands out against the dark, rain-soaked street. A small brown bag and gold hoops add a touch of warmth.",
+      "de": "Schwarzer Mantel und schwarze Hose bilden eine lange Säule, ein hellgrauer Schal bringt Bewegung hinein. Die langen Fransen heben sich von der dunklen, regennassen Straße ab. Eine kleine braune Tasche und Goldcreolen geben etwas Wärme dazu."
     },
     "pullQuoteEn": "LET THE SCARF MOVE.",
     "tip": {
