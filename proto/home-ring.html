@@ -45,7 +45,7 @@
   @keyframes drift { from { transform: translateX(-140px); } to { transform: translateX(260px); } }
   @keyframes fall { from { transform: translateY(0); opacity: 1; } to { transform: translateY(40px); opacity: 0; } }
   .temp { text-align: center; font: 200px/.86 var(--display); letter-spacing: -4px; margin-top: 34px; }
-  .temp span { font-size: .8em; position: relative; top: -.29em; }
+  .temp span { font-size: .64em; position: relative; top: -.559em; }
   .cond { text-align: center; font: 700 40px/1.1 var(--sans); text-transform: uppercase; margin-top: -20px; position: relative;
     text-shadow: 0 0 3px var(--bg), 0 0 3px var(--bg), 0 0 3px var(--bg); }
   .hl { text-align: center; font: 500 13px var(--sans); margin-top: 16px; }
@@ -53,6 +53,7 @@
   .feel small { display: block; font: 600 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; opacity: .8; }
   .feel b { display: block; font: 700 15px var(--sans); text-transform: uppercase; }
   .feel i { font: 56px/1 var(--display); font-style: normal; }
+  .feel i span { font-size: .72em; position: relative; top: -.41em; }
   /* KEEP 3: TODAY'S LOOK row, filter button moved here on the right */
   .lk-row { display: flex; align-items: center; justify-content: space-between; margin-top: 40px; }
   .k { font: 500 11px var(--sans); letter-spacing: .06em; text-transform: uppercase; }
@@ -209,7 +210,7 @@
     $("art").innerHTML = ART[SKY];
     $("date").textContent = new Intl.DateTimeFormat(LANG, { weekday: "short", day: "numeric", month: "short" }).format(new Date()) + " · 18:40";
     $("temp").innerHTML = '6<span>°</span>'; $("cond").textContent = T.cond[SKY]; $("hl").textContent = T.hl;
-    $("feel-k").textContent = T.feel; $("feel-b").textContent = T.band; $("feel-n").textContent = "3°"; $("faux").textContent = T.faux;
+    $("feel-k").textContent = T.feel; $("feel-b").textContent = T.band; $("feel-n").innerHTML = "3<span>°</span>"; $("faux").textContent = T.faux;
   }
   // hours tab, fake 24 rows
   function hours() {

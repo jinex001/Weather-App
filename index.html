@@ -125,6 +125,10 @@
   }
   .temp.long { font-size: 190px; }
   .deg { font-size: .8em; position: relative; top: -.29em; }
+  /* b250: big temperature ° 20% smaller (64% of the digits), feels-like ° 10% smaller (72%); both keep their top on the digits' top line
+     (Anton: digit top 1761/2048 em, ° top 1607/2048 em → top = -(1761 / (2048 × size) − 1607 / 2048) em) */
+  #temp .deg { font-size: .64em; top: -.559em; }
+  .feels-n .deg { font-size: .72em; top: -.41em; }
   .cond {
     position: relative; text-align: center; font-size: 40px; font-weight: 700;
     line-height: 1.1; letter-spacing: -.02em; margin-top: -20px; text-transform: uppercase;
@@ -1106,7 +1110,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  var BUILD = "b249";
+  var BUILD = "b250";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
