@@ -191,16 +191,18 @@
   .hl-flt { flex: none; width: 40px; height: 40px; margin-right: -4px; border: 0; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; color: inherit; cursor: pointer;
     background: rgba(255,255,255,.10); box-shadow: inset 1.5px 1.5px 1px rgba(255,255,255,.8), inset -1px -1px 1px rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.16); }
   .hl-flt svg { width: 22px; height: 22px; fill: currentColor; }
-  /* b251: the chosen style's looks on a turning ring (360°, endless), three in view: the front card and one each side.
-     The first three are random (lookSeed); dragging turns the ring, a flick keeps it going, it settles on a card. */
-  .hl-stage { position: relative; height: 420px; margin: 14px -24px 0; perspective: 1100px; touch-action: pan-y; user-select: none; -webkit-user-select: none; cursor: grab; }
-  .hl-ring { position: absolute; inset: 0; transform-style: preserve-3d; }
-  .hl-in { position: absolute; left: 50%; top: 18px; width: 62%; aspect-ratio: 2 / 3; margin-left: -31%; border-radius: 26px; overflow: hidden; background: #F3EFE8;
-    backface-visibility: hidden; -webkit-backface-visibility: hidden; will-change: transform; }
-  .hl-in img { width: 100%; height: 100%; object-fit: cover; display: block; pointer-events: none; -webkit-user-drag: none; }
+  /* b252: the chosen style's looks as the 7 DAYS stack (b165) instead of the b251 3D ring (too heavy, the page shook):
+     scroll-snap row, the front card big and on top, neighbours pulled in behind, tilted from the bottom, 12% smaller,
+     slightly darker; endless (the cards three times over, recentred by whole sets once a swipe settles) */
+  .hl-rail { isolation: isolate; --cw: calc(74% + 40px); display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain;
+    margin: 0 -24px; padding: 18px calc((100% - var(--cw)) / 2) 0; }
+  .hl-rail::-webkit-scrollbar { display: none; }
+  .hl-card { position: relative; flex: 0 0 var(--cw); scroll-snap-align: center; scroll-snap-stop: always; aspect-ratio: 2 / 3; padding: 0; border: 0; background: none; cursor: pointer; }
+  .hl-in { position: absolute; inset: 0; border-radius: 26px; overflow: hidden; transform-origin: 50% 100%; will-change: transform; background: #F3EFE8; }
+  .hl-in img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .hl-in::after { content: ""; position: absolute; inset: 0; background: #141414; opacity: var(--dim, 0); pointer-events: none; }
   .hl-in .soon { position: absolute; inset: 0; }
-  .hl-under { margin-top: 16px; } /* width and left edge follow the front card (hlPlace) */
+  .hl-under { margin-top: 16px; } /* width and left edge follow the front card (hlStack) */
   .hl-title { font-family: var(--display); font-size: 40px; line-height: .92; letter-spacing: 0; text-transform: uppercase; transition: opacity .18s; }
   .hl-title.out { opacity: 0; }
   .hl-title span { display: block; }
@@ -590,7 +592,7 @@
   </div>
   <div class="hl" id="hl" hidden>
     <div class="hl-head"><span class="hl-h" id="hl-h"></span><button type="button" class="hl-flt" id="hl-flt"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M40,88H73a32,32,0,0,0,62,0h81a8,8,0,0,0,0-16H135a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16Zm64-24A16,16,0,1,1,88,80,16,16,0,0,1,104,64ZM216,168H199a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16h97a32,32,0,0,0,62,0h17a8,8,0,0,0,0-16Zm-48,24a16,16,0,1,1,16-16A16,16,0,0,1,168,192Z"/></svg></button></div>
-    <div class="hl-stage" id="hl-stage"><div class="hl-ring" id="hl-ring"></div></div>
+    <div class="hl-rail" id="hl-rail"></div>
     <div class="hl-under" id="hl-under"><div class="hl-title" id="hl-title"></div><div class="hl-rain" id="hl-rain" hidden></div></div>
     <div class="dc-dots" id="hl-dots" aria-hidden="true"></div>
   </div>
@@ -1152,7 +1154,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b251";
+  var BUILD = "b252";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1689,11 +1691,11 @@
     setTimeout(paintPeek, 450);
   });
 
-  // ── Home look ring (b251, replaces the b182 three-style stack) ──
-  // Only the looks of the clothing style picked in ABOUT YOU or the filter, for the picked audience: up to eight of them
-  // (lookPool's best fits, shuffled by lookSeed, so the first three in view are random) on a ring that turns all the way
-  // round. Kids have no looks yet: three "coming soon" cards. A style with nothing made for today's weather: the same.
-  var homeLooks = [], hlPos = 0, hlShown = -1, hlAnim = 0;
+  // ── Home look stack (b252: the 7 DAYS stack, b165, in place of the b251 ring) ──
+  // Only the looks of the clothing style picked in ABOUT YOU or the filter, for the picked audience: up to eight
+  // (lookPool's best fits, shuffled by lookSeed, so the three in view at first are random). Kids have no looks yet and a
+  // style with nothing made for today's weather shows the same: three "coming soon" cards.
+  var homeLooks = [], hlShown = -1, hlN = 0, hlHeld = false, hlIdle;
   function paintHome(v, prof) {
     var soon = null;
     if (prof.gender === "k") { homeLooks = []; soon = "Kids"; }
@@ -1702,20 +1704,25 @@
       if (list[0] && list[0].soon) { homeLooks = []; soon = list[0].soon; } else homeLooks = list;
     }
     var cards = homeLooks.length ? homeLooks.map(function (e, k) {
-      return '<div class="hl-in" data-k="' + k + '">' + (e.o.image ? '<img alt="" draggable="false" src="' + e.o.image + '"' + (k < 2 || k === homeLooks.length - 1 ? "" : ' loading="lazy"') + ">" : "") + "</div>";
-    }) : [0, 1, 2].map(function (k) { return '<div class="hl-in" data-k="' + k + '">' + soonHtml(soon, v.code) + "</div>"; });
-    $("hl-ring").innerHTML = cards.join("");
+      return '<button type="button" class="hl-card" data-k="' + k + '" aria-label="' + esc(homeTitle(e)) + '"><span class="hl-in">' +
+        (e.o.image ? '<img alt="" src="' + e.o.image + '"' + (k < 2 || k === homeLooks.length - 1 ? "" : ' loading="lazy"') + ">" : "") + "</span></button>";
+    }) : [0, 1, 2].map(function (k) { return '<button type="button" class="hl-card" data-k="' + k + '"><span class="hl-in">' + soonHtml(soon, v.code) + "</span></button>"; });
+    hlN = cards.length;
+    // three times over (copies out of the tab order and hidden from screen readers), the middle set first in view
+    var copy = cards.map(function (h) { return h.replace('<button type="button" class="hl-card"', '<button type="button" class="hl-card" tabindex="-1" aria-hidden="true"'); });
+    var rail = $("hl-rail");
+    rail.innerHTML = copy.join("") + cards.join("") + copy.join("");
+    rail.dataset.soon = soon || "";
     $("hl-dots").innerHTML = cards.map(function () { return "<span></span>"; }).join("");
     $("hl-h").textContent = NV.lkh;
     $("hl-flt").setAttribute("aria-label", NV.fBtn);
-    $("hl-ring").dataset.soon = soon || "";
     var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0, mm = D.precipitation_sum ? D.precipitation_sum[0] : null;
     var wet = (v.rain || p >= 50) && !isSnow(v.code), rl = $("hl-rain");
     rl.hidden = !wet;
     rl.innerHTML = wet ? esc(NV.umb) + "<span>" + esc(typeof mm === "number" ? fmt(NV.rainAmt, { m: (Math.round(mm * 10) / 10).toLocaleString(LOCALE), p: p }) : fmt(NV.rainP, { p: p })) + "</span>" : "";
     $("hl").hidden = false;
-    cancelAnimationFrame(hlAnim); hlPos = 0; hlShown = -1;
-    hlPlace();
+    hlShown = -1;
+    hlCenter(hlN); hlStack();
   }
   function homeTitle(e) { return e.o.article ? e.o.article.title : e.o.deck[LANG]; }
   // the title always starts at two lines (like the home headline before it, b135): split where the lines come out most even
@@ -1729,67 +1736,54 @@
     }
     el.innerHTML = lines.map(function (x, i) { return "<span>" + esc(x) + (i < lines.length - 1 ? " " : "") + "</span>"; }).join("");
   }
-  // card k sits d places from the front (wrapped into -N/2..N/2) on a cylinder; the back of the ring fades out
-  function hlPlace() {
-    var cs = $("hl-ring").children, N = cs.length; if (!N) return;
-    var w = cs[0].offsetWidth; if (!w) return;
-    var M = Math.max(N, 6), step = 360 / M, R = (w / 2) / Math.tan(Math.PI / M) + 14, front = ((Math.round(hlPos) % N) + N) % N;
-    $("hl-stage").style.height = Math.round(w * 1.5 + 30) + "px";
+  // the same moves as the calendar stack (dayCards)
+  function hlStack() {
+    var rail = $("hl-rail"), cs = rail.children, w = cs.length && cs[0].offsetWidth; if (!w) return 0;
+    var mid = rail.scrollLeft + rail.clientWidth / 2, at = 0, best = 1e9;
     [].forEach.call(cs, function (el, k) {
-      var d = k - hlPos; d = ((d % N) + N) % N; if (d > N / 2) d -= N;
-      var a = Math.abs(d);
-      el.style.transform = "translateZ(" + (-R).toFixed(1) + "px) rotateY(" + (d * step).toFixed(2) + "deg) translateZ(" + R.toFixed(1) + "px)";
-      el.style.opacity = a > 1.6 ? Math.max(0, 1 - (a - 1.6) * 1.5).toFixed(2) : "";
+      var t = (el.offsetLeft + w / 2 - mid) / w, a = Math.abs(t), m = Math.min(a, 2.6), sg = t < 0 ? -1 : 1;
+      if (a > 3.5) { el.style.visibility = "hidden"; return; }
+      el.style.visibility = ""; var inn = el.firstChild;
+      var pull = sg * (m <= 1 ? m * .34 : .34 + (m - 1) * .14) * w, e = Math.min(m, 1), ease = e * e * (3 - 2 * e), more = Math.max(0, Math.min(m - 1, 1));
+      inn.style.transform = "translateX(" + (pull - t * w).toFixed(1) + "px) rotate(" + (sg * (3 * ease + 1.2 * more)).toFixed(2) + "deg) scale(" + (1 - .12 * Math.min(m, 2.2)).toFixed(4) + ")";
       el.style.zIndex = 100 - Math.round(a * 10);
-      el.style.setProperty("--dim", Math.min(.1 * a, .3).toFixed(3));
+      inn.style.setProperty("--dim", Math.min(.06 * a, .14).toFixed(3));
+      inn.style.opacity = a > 2.4 ? Math.max(0, 1 - (a - 2.4) * 2).toFixed(2) : "";
+      if (a < best) { best = a; at = k; }
     });
+    var front = hlN ? at % hlN : 0;
     [].forEach.call($("hl-dots").children, function (s, k) { s.className = k === front ? "on" : ""; });
-    // the title block takes the front card's width and left edge (the stage runs edge to edge, the block sits inside 24px)
-    var u = $("hl-under"), sw = $("hl-stage").clientWidth; u.style.width = w + "px"; u.style.marginLeft = ((sw - w) / 2 - 24) + "px";
+    // the title block takes the front card's width and left edge (the row runs edge to edge, the block sits inside 24px)
+    var u = $("hl-under"); u.style.width = w + "px"; u.style.marginLeft = ((rail.clientWidth - w) / 2 - 24) + "px";
     if (front !== hlShown) {
-      var el = $("hl-title"), e = homeLooks[front], t = e ? homeTitle(e) : ($("hl-ring").dataset.soon || "") + " looks", first = hlShown < 0;
+      var el = $("hl-title"), e = homeLooks[front], t = e ? homeTitle(e) : (rail.dataset.soon || "") + " looks", first = hlShown < 0;
       hlShown = front;
       if (first) twoLines(el, t);
       else { el.classList.add("out"); setTimeout(function () { twoLines(el, t); el.classList.remove("out"); }, 180); }
     }
+    return at;
   }
-  function hlGo(to) {
-    cancelAnimationFrame(hlAnim);
-    var from = hlPos, t0 = performance.now(), dur = 420 + Math.min(600, Math.abs(to - from) * 160);
-    (function f(now) { var k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3); hlPos = from + (to - from) * e; hlPlace(); if (k < 1) hlAnim = requestAnimationFrame(f); })(t0);
+  function hlCenter(k) { var rail = $("hl-rail"), c = rail.children[k]; if (c) rail.scrollLeft = c.offsetLeft + c.offsetWidth / 2 - rail.clientWidth / 2; }
+  // once a swipe has settled (no finger down), step back into the middle set by whole sets, which looks the same
+  function hlRecenter() {
+    var rail = $("hl-rail"), w = rail.children.length && rail.children[0].offsetWidth; if (!w || hlHeld || !hlN) return;
+    var at = hlStack();
+    if (at < hlN) rail.scrollLeft += hlN * w; else if (at >= 2 * hlN) rail.scrollLeft -= hlN * w;
   }
-  // drag to turn (one card width = one place); a tap on the front card opens Today's Look on that look, a side card comes to the front
   (function () {
-    var st = $("hl-stage"), x0 = 0, y0 = 0, p0 = 0, moved = 0, last = [], down = false, sideways = null;
-    st.addEventListener("pointerdown", function (e) {
-      down = true; sideways = null; cancelAnimationFrame(hlAnim); x0 = e.clientX; y0 = e.clientY; p0 = hlPos; moved = 0; last = [[e.clientX, e.timeStamp]];
+    var rail = $("hl-rail");
+    rail.addEventListener("touchstart", function () { hlHeld = true; }, { passive: true });
+    rail.addEventListener("touchend", function () { hlHeld = false; clearTimeout(hlIdle); hlIdle = setTimeout(hlRecenter, 160); }, { passive: true });
+    rail.addEventListener("scroll", function () { requestAnimationFrame(hlStack); clearTimeout(hlIdle); hlIdle = setTimeout(hlRecenter, 160); }, { passive: true });
+    // the front card opens Today's Look on that look; a side card comes to the front
+    rail.addEventListener("click", function (e) {
+      var b = e.target.closest(".hl-card"); if (!b) return;
+      var k = [].indexOf.call(rail.children, b);
+      if (k !== hlStack()) { rail.scrollTo({ left: b.offsetLeft + b.offsetWidth / 2 - rail.clientWidth / 2, behavior: "smooth" }); return; }
+      var h = homeLooks[+b.dataset.k];
+      if (!h || !lastView) return;
+      openLook(Object.assign({}, lastView, { mast: "Today's Look", style: h.o.style, pick: { o: h.o } }));
     });
-    st.addEventListener("pointermove", function (e) {
-      if (!down) return;
-      var dx = e.clientX - x0, dy = e.clientY - y0;
-      if (sideways === null && (Math.abs(dx) > 6 || Math.abs(dy) > 6)) { sideways = Math.abs(dx) > Math.abs(dy); if (sideways) try { st.setPointerCapture(e.pointerId); } catch (er) {} }
-      if (!sideways) return;
-      var c = $("hl-ring").children[0], w = c ? c.offsetWidth : 1;
-      moved = Math.max(moved, Math.abs(dx)); hlPos = p0 - dx / w; hlPlace();
-      last.push([e.clientX, e.timeStamp]); if (last.length > 5) last.shift();
-    });
-    function end(e) {
-      if (!down) return; down = false;
-      if (sideways) {
-        var c = $("hl-ring").children[0], w = c ? c.offsetWidth : 1, a = last[0], b = last[last.length - 1], vel = (b[0] - a[0]) / Math.max(16, b[1] - a[1]);
-        hlGo(Math.round(hlPos - vel * 260 / w)); return;
-      }
-      if (sideways === null && e.type === "pointerup") {
-        var hit = document.elementFromPoint(e.clientX, e.clientY), card = hit && hit.closest(".hl-in"); if (!card) return;
-        var N = $("hl-ring").children.length, k = +card.dataset.k, d = k - Math.round(hlPos); d = ((d % N) + N) % N; if (d > N / 2) d -= N;
-        if (d) { hlGo(Math.round(hlPos) + d); return; }
-        var h = homeLooks[k], prof = load("wx-profile") || {};
-        if (!h || !lastView) return;
-        openLook(Object.assign({}, lastView, { mast: "Today's Look", style: h.o.style, pick: { o: h.o } }));
-      }
-    }
-    st.addEventListener("pointerup", end);
-    st.addEventListener("pointercancel", end);
   })();
   // the look filter (b251, from the 1.0 filter, b231): audience women / men / kids and the clothing style, saved on tap
   function paintFilter() {
@@ -1818,8 +1812,8 @@
     prof[b.parentNode.dataset.k] = b.dataset.v; store("wx-profile", prof);
     paintFilter(); paintPeek();
   });
-  addEventListener("resize", function () { hlPlace(); rainFx(); });
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { hlShown = -1; hlPlace(); rainFx(); });
+  addEventListener("resize", function () { hlStack(); rainFx(); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { hlShown = -1; hlStack(); rainFx(); });
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
