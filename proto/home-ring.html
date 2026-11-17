@@ -34,6 +34,9 @@
   .art .rays { transform-origin: 120px 86px; animation: spin 18s linear infinite; }
   .art .core { transform-origin: 120px 86px; animation: breathe 4s ease-in-out infinite; }
   .art .moon { transform-origin: 124px 88px; animation: rock 5s ease-in-out infinite; }
+  /* stars: each small dot fades almost out and back, on its own beat */
+  .art .star { transform-box: fill-box; transform-origin: center; animation: twinkle 3s ease-in-out infinite; }
+  @keyframes twinkle { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .15; transform: scale(.7); } }
   .art .drift { animation: drift 16s linear infinite; }
   .art .drop { animation: fall 1.1s cubic-bezier(.5,0,1,1) infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -193,7 +196,8 @@
   var ART = {
     night: '<mask id="cres"><rect x="-100" y="-100" width="440" height="370" fill="#fff"/><circle cx="146" cy="72" r="40" fill="#000"/></mask>' +
       '<g class="moon"><circle cx="124" cy="88" r="44" fill="#F4F1E8" mask="url(#cres)"/></g>' +
-      '<circle cx="40" cy="40" r="3" fill="#F4F1E8"/><circle cx="200" cy="30" r="2.5" fill="#F4F1E8"/><circle cx="190" cy="130" r="2" fill="#F4F1E8"/>',
+      [[34, 40, 3, 0, 3.2], [62, 112, 2, 1.1, 2.6], [200, 30, 2.5, .5, 3.8], [214, 92, 1.8, 1.8, 2.9], [190, 136, 2, .9, 3.4], [92, 22, 1.6, 2.3, 3]].map(function (s) {
+        return '<circle class="star" style="animation-delay:' + s[3] + 's;animation-duration:' + s[4] + 's" cx="' + s[0] + '" cy="' + s[1] + '" r="' + s[2] + '" fill="#F4F1E8"/>'; }).join(""),
     sunny: '<g class="rays">' + [0, 45, 90, 135, 180, 225, 270, 315].map(function (a) { return '<rect x="116" y="18" width="8" height="20" rx="4" fill="#E8621C" transform="rotate(' + a + ' 120 86)"/>'; }).join("") + "</g>" +
       '<circle class="core" cx="120" cy="86" r="40" fill="#E8621C"/>',
     rain: '<g class="drift"><path d="M40 60a14 14 0 0 1 26 -4a12 12 0 0 1 18 10h-44z" fill="#BCC8D4" opacity=".7"/></g>' +
