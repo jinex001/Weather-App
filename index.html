@@ -24,8 +24,8 @@
     /* b105: one glass for every glass surface (Today's Look sheet, bottom menu), from the user's Figma Glass effect:
        fill white 50% · Frost 49 → backdrop blur 24px · Light -45° 80% → bright edge top-left, faint edge bottom-right ·
        Depth 20 → soft inner glow 20px. Refraction 80 / Dispersion 50 / Splay 0 have no Safari equivalent (no lens bending in CSS). */
-    --glass-fill: rgba(255,255,255,.10);
-    --glass-blur: blur(3px);
+    --glass-fill: rgba(255,255,255,.5);
+    --glass-blur: blur(24px);
     --glass-light: inset 1.5px 1.5px 1px rgba(255,255,255,.8), inset -1px -1px 1px rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.16);
   }
   .glass { background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light); }
@@ -306,18 +306,15 @@
   .tabbar {
     position: fixed; z-index: 9; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 12px);
     display: flex; gap: 2px; padding: 5px; border-radius: 34px;
-    width: min(calc(100% - 32px), 336px); transform: translateX(-50%); transform-origin: 50% 100%;
-    color: var(--fg); transition: transform .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease, visibility .3s;
+    width: min(calc(100% - 32px), 272px); transform: translateX(-50%); transform-origin: 50% 100%;
+    color: #141414; transition: transform .3s cubic-bezier(.2,.8,.2,1), opacity .25s ease, visibility .3s;
   }
   .tabbar button {
     position: relative; flex: 1 1 0; min-width: 0; display: flex; align-items: center; justify-content: center;
     padding: 11px 4px; border: 0; border-radius: 28px; background: none; color: inherit; cursor: pointer;
     transition: padding .3s cubic-bezier(.2,.8,.2,1), background-color .2s ease, color .2s ease;
   }
-  /* b234 (Figma Glass, user): the menu is clear glass so the photo shows through (shoes and all): fill white 10%, Frost 4 (a 3px blur, not the common 24px), the open tab is a white-40% glass pill with dark icons */
-  .tabbar button.on { background: rgba(255,255,255,.40); color: var(--fg); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px);
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.55), inset 2px 2px 6px rgba(255,255,255,.75), inset -2px -2px 6px rgba(255,255,255,.25); }
-  body[data-state="rain"] .tabbar button.on, body[data-state="night"] .tabbar button.on { background: rgba(255,255,255,.20); }
+  .tabbar button.on { background: #141414; color: #FFFFFF; }
   .tabbar svg { width: 24px; height: 24px; flex: none; fill: currentColor; transition: width .3s ease, height .3s ease; }
   .tabbar .tab-dot { position: absolute; top: 8px; left: calc(50% + 8px); width: 8px; height: 8px; border-radius: 50%; background: #D94448; }
   .tabbar.scroll-hidden {
@@ -329,22 +326,6 @@
 
   /* Calendar · Alerts · Settings pages: same screen color as home, magazine type, no lines or cards */
   .page { max-width: 480px; margin: 0 auto; min-height: 100dvh; padding-top: calc(env(safe-area-inset-top) + 20px); padding-left: 24px; padding-right: 24px; }
-  .flt-body { padding: 18px 24px calc(env(safe-area-inset-bottom) + 40px); }
-  .flt-g { margin-top: 26px; }
-  .flt-g .pg-k { display: block; margin-bottom: 12px; }
-  .flt-row { display: flex; flex-wrap: wrap; gap: 8px; }
-  .flt-b { border: 0; border-radius: 24px; padding: 13px 20px; background: rgba(20,20,20,.08); color: #141414; font: 700 14px var(--sans); letter-spacing: -.01em; cursor: pointer; }
-  .flt-b.on { background: #141414; color: #FFFFFF; }
-  .hv-list { margin-top: 22px; }
-  .hv { display: flex; align-items: center; gap: 16px; padding: 12px 0; }
-  .hv svg:first-of-type { width: 34px; height: 34px; flex: none; }
-  .hv-t { width: 52px; flex: none; font-family: var(--mono); font-weight: 500; font-size: 13px; }
-  .hv-v { font-family: var(--display); letter-spacing: 0; font-size: 30px; width: 64px; }
-  .hv .hour-w { margin-left: auto; width: 62px; font-size: 12px; }
-  .hv-p { width: 44px; text-align: right; font-family: var(--mono); font-weight: 500; font-size: 13px; }
-  .fh-soon { position: absolute; inset: 0; justify-content: flex-start; padding: 28px; }
-  .fh-soon .dc-ic { width: 110px; height: 88px; }
-  .fh-soon .soon-h, .fh-soon .soon-p { display: none; }
   .pg-k { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
   .pg-h { font-family: var(--display); font-size: 64px; line-height: .9; letter-spacing: 0; text-transform: uppercase; margin-top: 10px; }
   .pg-list { margin-top: 26px; }
@@ -555,121 +536,10 @@
   .pl-act { flex: none; background: none; border: 0; padding: 12px 0 12px 12px; font: 700 11px var(--sans); letter-spacing: .05em; text-transform: uppercase; color: inherit; cursor: pointer; }
   .pl-msg { padding: 14px 0; font-size: 14px; font-weight: 500; opacity: .6; }
   .lk-skip { display: block; margin: 8px auto 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
-  /* ── b226: full-screen editorial home (Figma 14:36) ── */
-  /* b228: the photo is fixed to the screen and fills it from top to bottom (the user: full height; b227 stopped 60px
-     short to let the article peek in). Fixed, not 100svh: in the iOS home-screen app svh differed between launches.
-     The spacer in <main> takes the hero's measured height, so the article starts just below the screen. */
-  .fh { position: fixed; z-index: 0; top: 0; bottom: 0; left: 50%; width: min(100%, 480px); transform: translateX(-50%); overflow: hidden; background: var(--bg); }
-  body[data-tab]:not([data-tab="home"]) .fh { display: none; }
-  body.look-open .fh { filter: blur(10px); }
-  .fh-space { margin: calc(-1 * (env(safe-area-inset-top) + 20px)) -24px 0; pointer-events: none; }
-  body.fh-on .app { pointer-events: none; }
-  body.fh-on .app > * { pointer-events: auto; }
-  body.fh-on .app > .fh-space { pointer-events: none; }
-  /* small drifting clouds cross the whole screen and fade at both ends (fhDrift sets the distances), no popping in */
-  .fh-art .art-drift { animation-name: fh-drift; }
-  @keyframes fh-drift { 0% { opacity: 0; transform: translateX(calc(var(--fd0, -200) * 1px)); } 7%, 93% { opacity: 1; } 100% { opacity: 0; transform: translateX(calc(var(--fd1, 440) * 1px)); } }
-  body.fh-on .head-tap, body.fh-on #hl, body.fh-on #about, body.fh-on #summary, body.fh-on .grow { display: none !important; }
-  body.fh-on .app { padding-bottom: 0; }
-  /* b229: weather-colour frame (the .fh background) around the photo: the photo starts below the status bar so the OS blur never sits on it */
-  /* b231 (Figma 15:117): the place sits in the frame right under the status bar (where iOS blurs), the photo starts below it with rounder corners */
-  .fh-rail, .fh-over { top: calc(env(safe-area-inset-top) + 60px); right: 10px; bottom: 10px; left: 10px; border-radius: 48px; }
-  .fh-top { position: absolute; z-index: 2; left: 0; right: 0; top: calc(env(safe-area-inset-top) + 8px); height: 40px; padding-left: 10px; display: flex; align-items: center; justify-content: flex-start; pointer-events: none; }
-  .fh-top .fh-city { margin: 0; height: 40px; padding: 0 16px 0 18px; border-radius: 20px; pointer-events: auto; color: var(--fg); font-size: 17px; text-shadow: none; display: flex; align-items: center; gap: 5px; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light); }
-  .fh-city svg { width: 19px; height: 19px; flex: none; fill: currentColor; }
-  .fh-rain { position: absolute; z-index: 2; right: 24px; top: calc(env(safe-area-inset-top) + 66px); height: 38px; padding: 0 13px; border: 0; border-radius: 19px; display: flex; align-items: center; gap: 8px; background: #F2C14E; color: #141414; cursor: pointer; }
-  .fh-rain svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; flex: none; }
-  .fh-rain span { font: 800 15px/1 var(--sans); letter-spacing: -.02em; }
-  .rn-sec + .rn-sec { margin-top: 34px; }
-  .rn-k { font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
-  .rn-big { margin-top: 8px; font: 800 56px/1 var(--sans); letter-spacing: -.04em; }
-  .rn-big small { font-size: 22px; letter-spacing: -.02em; margin-left: 4px; }
-  .rn-sub { margin-top: 8px; font: 800 17px/1.3 var(--sans); letter-spacing: -.02em; }
-  .rn-list { margin-top: 22px; }
-  .rn-row { display: flex; align-items: center; gap: 12px; padding: 7px 0; font: 800 13px var(--sans); }
-  .rn-row.dry { opacity: .4; }
-  .rn-t { width: 50px; flex: none; }
-  .rn-bar { flex: 1; height: 10px; border-radius: 5px; background: rgba(20,20,20,.08); overflow: hidden; }
-  .rn-bar i { display: block; height: 100%; border-radius: 5px; background: #8FB8DE; }
-  .rn-v { width: 92px; flex: none; text-align: right; }
-  .fh-flt { position: absolute; z-index: 2; right: 10px; top: calc(env(safe-area-inset-top) + 8px); width: 40px; height: 40px; border: 0; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; color: var(--fg); cursor: pointer; }
-  .fh-flt svg { width: 22px; height: 22px; fill: currentColor; }
-  body.fh-on .fh-rail { -webkit-mask-image: none; }
-  .fh-over { overflow: hidden; }
-  .fh-rail { position: absolute; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
-  .fh-rail::-webkit-scrollbar { display: none; }
-  .fh-slide { position: relative; flex: 0 0 100%; height: 100%; scroll-snap-align: center; scroll-snap-stop: always; padding: 0; border: 0; background: var(--bg); cursor: pointer; }
-  .fh-slide img { display: block; width: 100%; height: 100%; object-fit: cover; }
-  /* type straight on the photo, white with a 1px black outline so it reads on any picture (user's Figma) */
-  .fh-over { position: absolute; pointer-events: none; color: #FFFFFF; display: flex; flex-direction: column; justify-content: flex-end;
-    padding: 22px 12px calc(env(safe-area-inset-bottom) + 86px) 10px;
-    text-shadow: 0 0 3px rgba(0,0,0,.35); }
-  .fh-wx, .fh-bot { transition: opacity .2s; }
-  .fh-over.moving .fh-wx, .fh-over.moving .fh-bot { opacity: 0; }
-  .fh-wx { display: flex; flex-direction: column; align-items: flex-start; }
-  .fh-city { pointer-events: auto; font: 800 15px/1.1 var(--sans); letter-spacing: -.02em; color: inherit; background: none; border: 0; padding: 8px 8px 8px 0; margin: -8px 0; text-shadow: inherit; cursor: pointer; }
-  .fh-ar { display: flex; align-items: flex-end; margin-top: 18px; }
-  .fh-art, .fh-art svg { width: 150px; height: 106px; overflow: visible; }
-  .fh-art { margin-left: -12px; }
-  .fh-art { filter: drop-shadow(0 2px 2px rgba(0,0,0,.35)) drop-shadow(0 10px 14px rgba(0,0,0,.30)); } /* b246: depth */
-  .fh-art svg { display: block; }
-  /* temperature + condition: the condition sits half over the number's foot; the ° overlaps the number, half raised */
-  .fh-tc { display: flex; flex-wrap: wrap; align-items: baseline; align-self: stretch; margin-top: 18px; }
-  .fh-temp { position: relative; font: 800 62px/.9 var(--sans); letter-spacing: -.04em; }
-  /* b232: the ° sits low at the number's right edge and goes under the digits (negative z-index inside the number's own stacking context), so the digits cover it a little */
-  .fh-temp { isolation: isolate; }
-  .fh-temp .fh-deg { position: absolute; z-index: -1; left: calc(100% - 4px); top: -2px; font-size: 22px; font-weight: 800; line-height: 1; }
-  .fh-cond { position: relative; margin: 0 0 0 -6px; z-index: 1; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
-  /* b229: feels-like line under the condition: temperature, band-color bar, moving person, band name, all at the condition's size */
-  .fh-fl { display: flex; align-items: center; flex-basis: 100%; margin-top: 6px; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; white-space: nowrap; }
-  .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); vertical-align: 0; }
-  .fh-fl .feels-ic { width: 22px; height: 24px; background: none; color: #FFFFFF; --bg: transparent; --graph: #FFFFFF; margin-right: 6px;
-    filter: drop-shadow(0 0 3px rgba(0,0,0,.35)); text-shadow: none; }
-  .fh-fl .feels-ic svg { width: 22px; height: 22px; left: 0; top: 0; }
-  .fh-fl .person-ic .hd { stroke: none; }
-  .fh-umb { margin-top: 8px; font: 800 17px/1.25 var(--sans); max-width: 300px; }
-  .fh-bot { margin-top: 26px; }
-  .fh-k { font: 800 12px/1.2 var(--sans); letter-spacing: -.01em; }
-  .fh-title { margin-top: 6px; font: 800 32px/1.03 var(--sans); letter-spacing: -.03em; text-transform: uppercase; }
-  .fh-title span { display: block; }
-  /* the text block goes to the calmer side of the lower photo (fhSide) and moves over as the photos swipe */
-  .fh-over.right { padding-left: 12px; padding-right: 10px; }
-  .fh-over.right .fh-wx { align-items: flex-end; text-align: right; }
-  .fh-over.right .fh-bot { text-align: right; }
-  .fh-over.right .fh-ar { flex-direction: row-reverse; }
-  .fh-over.right .fh-art { margin: 0 -12px 0 0; }
-  .fh-over.right .fh-tc { flex-direction: row-reverse; margin-right: 16px; }
-  .fh-over.right .fh-cond { margin: 0 22px 7px 0; }
-  .fh-over.right .fh-fl { justify-content: flex-end; }
-  /* the article and the forecast below it: common glass over the photo */
-  body.fh-on .fh-body { position: relative; z-index: 1; margin: 0 -24px; padding: 22px 24px calc(env(safe-area-inset-bottom) + 112px); min-height: 70svh;
-    border-radius: 28px 28px 0 0; background: color-mix(in srgb, var(--bg) 60%, transparent); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); box-shadow: var(--glass-light);
-    color: var(--fg); }
-  .fh-read { padding-bottom: 30px; }
-  .fh-read .fh-rk { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; opacity: .7; }
-  .fh-read .lk-atitle { margin-top: 8px; }
-  .fh-deck { margin-top: 16px; font-size: 18px; font-weight: 700; line-height: 1.35; word-break: keep-all; }
 </style>
 </head>
 <body data-state="sun">
-<section class="fh" id="fh" hidden>
-  <div class="fh-top"><button type="button" class="fh-city" id="fh-city"></button></div>
-  <div class="fh-rail" id="fh-rail"></div>
-  <div class="fh-over" id="fh-over">
-    <div class="fh-wx">
-      <div class="fh-ar"><div class="fh-art" id="fh-art"></div></div>
-      <div class="fh-tc"><div class="fh-temp" id="fh-temp"></div><div class="fh-cond" id="fh-cond"></div><div class="fh-fl" id="fh-fl"></div></div>
-    </div>
-    <div class="fh-bot"><div class="fh-k" id="fh-k"></div><div class="fh-title" id="fh-title"></div></div>
-  </div>
-  <button type="button" class="fh-rain" id="fh-rain" hidden></button>
-  <button type="button" class="fh-flt glass" id="fh-flt"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M40,88H73a32,32,0,0,0,62,0h81a8,8,0,0,0,0-16H135a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16Zm64-24A16,16,0,1,1,88,80,16,16,0,0,1,104,64ZM216,168H199a32,32,0,0,0-62,0H40a8,8,0,0,0,0,16h97a32,32,0,0,0,62,0h17a8,8,0,0,0,0-16Zm-48,24a16,16,0,1,1,16-16A16,16,0,0,1,168,192Z"/></svg></button>
-</section>
 <main class="app">
-  <!-- b226: full-screen editorial home (Figma 14:36). The photo of today's pick fills the first screen and stays behind
-       (sticky) while the glass article scrolls up over it; swipe sideways for the three styles. Only once a clothing
-       style is picked (ABOUT YOU and the old layout stay until then). -->
-  <div class="fh-space" id="fh-space" hidden></div>
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div class="city" id="city" role="button" tabindex="0"><span id="city-n">Berlin</span><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg></div>
@@ -697,8 +567,6 @@
 
   <div class="grow"></div>
 
-  <div class="fh-body" id="fh-body">
-  <article class="fh-read" id="fh-read" hidden></article>
   <div class="line" id="line" hidden></div>
   <div class="graph" id="graph" hidden>
     <div class="graph-head"><div class="graph-title" id="gtitle"></div><div class="graph-max" id="gmax"></div></div>
@@ -708,10 +576,8 @@
 
   <div class="hours-wrap"><div class="hours" id="hours"></div></div>
   <div class="status" id="status"></div>
-  </div>
 </main>
 
-<section class="page" id="pg-hours" hidden></section>
 <section class="page" id="pg-cal" hidden></section>
 <section class="page" id="pg-set" hidden></section>
 <section class="page" id="pg-alert" hidden></section>
@@ -719,7 +585,6 @@
 <!-- icons: Phosphor Icons, regular (outline) weight (phosphoricons.com, MIT), b91 -->
 <nav class="tabbar glass" id="tabbar" aria-label="Menu">
   <button type="button" data-tab="home" class="on" aria-current="page"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"/></svg></button>
-  <button type="button" data-tab="hours"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"/></svg></button>
   <button type="button" data-tab="cal"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Z"/></svg></button>
   <button type="button" data-tab="set"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm109.94-52.79a8,8,0,0,0-3.89-5.4l-29.83-17-.12-33.62a8,8,0,0,0-2.83-6.08,111.91,111.91,0,0,0-36.72-20.67,8,8,0,0,0-6.46.59L128,41.85,97.88,25a8,8,0,0,0-6.47-.6A112.1,112.1,0,0,0,54.73,45.15a8,8,0,0,0-2.83,6.07l-.15,33.65-29.83,17a8,8,0,0,0-3.89,5.4,106.47,106.47,0,0,0,0,41.56,8,8,0,0,0,3.89,5.4l29.83,17,.12,33.62a8,8,0,0,0,2.83,6.08,111.91,111.91,0,0,0,36.72,20.67,8,8,0,0,0,6.46-.59L128,214.15,158.12,231a7.91,7.91,0,0,0,3.9,1,8.09,8.09,0,0,0,2.57-.42,112.1,112.1,0,0,0,36.68-20.73,8,8,0,0,0,2.83-6.07l.15-33.65,29.83-17a8,8,0,0,0,3.89-5.4A106.47,106.47,0,0,0,237.94,107.21Zm-15,34.91-28.57,16.25a8,8,0,0,0-3,3c-.58,1-1.19,2.06-1.81,3.06a7.94,7.94,0,0,0-1.22,4.21l-.15,32.25a95.89,95.89,0,0,1-25.37,14.3L134,199.13a8,8,0,0,0-3.91-1h-.19c-1.21,0-2.43,0-3.64,0a8.08,8.08,0,0,0-4.1,1l-28.84,16.1A96,96,0,0,1,67.88,201l-.11-32.2a8,8,0,0,0-1.22-4.22c-.62-1-1.23-2-1.8-3.06a8.09,8.09,0,0,0-3-3.06l-28.6-16.29a90.49,90.49,0,0,1,0-28.26L61.67,97.63a8,8,0,0,0,3-3c.58-1,1.19-2.06,1.81-3.06a7.94,7.94,0,0,0,1.22-4.21l.15-32.25a95.89,95.89,0,0,1,25.37-14.3L122,56.87a8,8,0,0,0,4.1,1c1.21,0,2.43,0,3.64,0a8.08,8.08,0,0,0,4.1-1l28.84-16.1A96,96,0,0,1,188.12,55l.11,32.2a8,8,0,0,0,1.22,4.22c.62,1,1.23,2,1.8,3.06a8.09,8.09,0,0,0,3,3.06l28.6,16.29A90.49,90.49,0,0,1,222.9,142.12Z"/></svg></button>
   <button type="button" data-tab="alert"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M236.8,188.09,149.35,36.22h0a24.76,24.76,0,0,0-42.7,0L19.2,188.09a23.51,23.51,0,0,0,0,23.72A24.35,24.35,0,0,0,40.55,224h174.9a24.35,24.35,0,0,0,21.33-12.19A23.51,23.51,0,0,0,236.8,188.09ZM222.93,203.8a8.5,8.5,0,0,1-7.48,4.2H40.55a8.5,8.5,0,0,1-7.48-4.2,7.59,7.59,0,0,1,0-7.72L120.52,44.21a8.75,8.75,0,0,1,15,0l87.45,151.87A7.59,7.59,0,0,1,222.93,203.8ZM120,144V104a8,8,0,0,1,16,0v40a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,180Z"/></svg><span class="tab-dot" id="tab-dot" hidden></span></button>
@@ -737,16 +602,6 @@
   <div class="pl-body" id="pl-body"></div>
 </section>
 
-<section class="look glass" id="flt" role="dialog" aria-modal="true" style="--lk-bg:#FFFFFF;--lk-ink:#141414" hidden>
-  <button class="lk-grab" id="flt-grab" type="button" aria-label="Close"></button>
-  <div class="flt-body" id="flt-body"></div>
-</section>
-
-<section class="look glass" id="rnd" role="dialog" aria-modal="true" style="--lk-bg:#FFFFFF;--lk-ink:#141414" hidden>
-  <button class="lk-grab" id="rnd-grab" type="button" aria-label="Close"></button>
-  <div class="flt-body" id="rnd-body"></div>
-</section>
-
 <script src="look/outfits.js?v=b149"></script>
 <script src="look/sunny-male-day-street.js?v=b146"></script>
 <script src="look/sunny-female-night-minimal.js?v=b129"></script>
@@ -755,7 +610,7 @@
 <script src="look/overcast-male-day-street.js?v=b145"></script>
 <script src="look/rain-female-night-street.js?v=b149"></script>
 <script src="look/rain-female-night-street-20261024.js?v=b150"></script>
-<script src="look/rain-female-night-minimal.js?v=fringe-20261117"></script>
+<script src="look/rain-female-night-minimal.js?v=b151"></script>
 <script src="look/overcast-female-night-20261025.js?v=b153"></script>
 <script src="look/rain-normal-female-day-running-20261025.js?v=b157"></script>
 <script src="look/rain-light-male-night-running-20261025.js?v=b158"></script>
@@ -811,7 +666,7 @@
 <script src="look/neutral-urban-clear-chilly-male-day-20261114.js?v=b223"></script>
 <script src="look/neutral-urban-clear-chilly-male-night-20261114.js?v=b224"></script>
 <script src="look/european-urban-rain-light-chilly-male-night-chic-20261116.js?v=b241"></script>
-<script src="look/cutouts.js?v=b241"></script>
+<script src="look/cutouts.js?v=b249"></script>
 <script src="look/coast-grid.js?v=b175"></script>
 <script src="look/global-context.js?v=b225"></script>
 <script>
@@ -972,21 +827,21 @@
   }
   // Bottom menu and its pages (b88)
   var NV = {
-    en: { home: "Home", rainK: "Rain today", tipsK: "Today's essentials", uvK: "Sun today", uvHigh: "Strong sun: sunscreen and sunglasses", uvMid: "Sunscreen recommended", uvPeak: "peaks around {t}", windK: "Wind today", windLine: "Strong wind, hold on to your hat", hours: "Hours", fWho: "For", men: "Men", women: "Women", kids: "Kids", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", tmr: "Tomorrow", week: "Next 7 days",
+    en: { home: "Home", cal: "Calendar", set: "Settings", alert: "Alerts", today: "Today", tmr: "Tomorrow", week: "Next 7 days",
           noAlerts: "No weather warnings for this area right now.", outside: "Weather warnings come from the German Weather Service (DWD) and are only available in Germany.",
           alertsK: "Weather warnings", until: "until", loc: "Location", change: "Change",
           profile: "Today's Look profile", edit: "Edit", style: "Clothing style",
           hlNew: "New looks", umb: "Take an umbrella", rainAmt: "Rain today {m} mm · {p}% chance", rainP: "{p}% chance of rain today",
           ask: "Pick the style you wear most. From today we'll choose your looks in it. Change it anytime in Settings.", lang: "Language", langV: "English (device)", units: "Units", src: "Data", ver: "Version",
           sev: { minor: "Minor", moderate: "Moderate", severe: "Severe", extreme: "Extreme" } },
-    de: { home: "Start", rainK: "Regen heute", tipsK: "Das brauchst du heute", uvK: "Sonne heute", uvHigh: "Starke Sonne: Sonnencreme und Sonnenbrille", uvMid: "Sonnencreme empfohlen", uvPeak: "Spitze gegen {t}", windK: "Wind heute", windLine: "Starker Wind, Mütze festhalten", hours: "Stunden", fWho: "Für", men: "Herren", women: "Damen", kids: "Kinder", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
+    de: { home: "Start", cal: "Kalender", set: "Optionen", alert: "Warnung", today: "Heute", tmr: "Morgen", week: "Nächste 7 Tage",
           noAlerts: "Für diese Gegend gibt es gerade keine Unwetterwarnung.", outside: "Unwetterwarnungen kommen vom Deutschen Wetterdienst (DWD) und gibt es nur für Deutschland.",
           alertsK: "Unwetterwarnungen", until: "bis", loc: "Ort", change: "Ändern",
           profile: "Profil für Today's Look", edit: "Ändern", style: "Kleidungsstil",
           hlNew: "Neue Looks", umb: "Schirm mitnehmen", rainAmt: "Regen heute {m} mm · {p} %", rainP: "Regenwahrscheinlichkeit heute {p} %",
           ask: "Wähle den Stil, den du am meisten trägst. Ab heute suchen wir deine Looks darin aus. Jederzeit in den Optionen änderbar.", lang: "Sprache", langV: "Deutsch (Gerät)", units: "Einheiten", src: "Daten", ver: "Version",
           sev: { minor: "Wetterwarnung", moderate: "Markante Warnung", severe: "Unwetter", extreme: "Extremes Unwetter" } },
-    ko: { home: "홈", rainK: "오늘의 비", tipsK: "오늘 챙길 것", uvK: "오늘의 햇빛", uvHigh: "햇빛이 강해요: 선크림과 선글라스", uvMid: "선크림을 권해요", uvPeak: "{t}쯤 가장 강해요", windK: "오늘의 바람", windLine: "바람이 세요, 모자를 조심하세요", hours: "시간", fWho: "대상", men: "남성", women: "여성", kids: "키즈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
+    ko: { home: "홈", cal: "캘린더", set: "설정", alert: "알림", today: "오늘", tmr: "내일", week: "앞으로 7일",
           noAlerts: "지금 이 지역에 기상 경보가 없어요.", outside: "기상 경보는 독일 기상청(DWD) 자료라 독일 안에서만 볼 수 있어요.",
           alertsK: "기상 경보", until: "까지", loc: "위치", change: "바꾸기",
           profile: "Today's Look 프로필", edit: "수정", style: "옷 스타일",
@@ -1033,7 +888,7 @@
     }
     return '<g stroke="#8FB8DE" stroke-width="' + w + '" stroke-linecap="round">' + out + "</g>";
   }
-  // Teardrops under the front cloud only (b154, b248: none under the back cloud / right of it): tip up at (x, y), radius r
+  // Teardrops under the clouds (b154): tip up at (x, y), radius r
   var TEARS = [[58, 126, 0], [78, 132, .45], [98, 126, .2], [118, 132, .65], [138, 126, .35], [160, 130, .8]];
   function tearPath(x, y, r) {
     return "M" + x + " " + y + "c" + (r * .55).toFixed(1) + " " + (r * .8).toFixed(1) + " " + r + " " + (r * 1.45).toFixed(1) + " " + r + " " + 2 * r +
@@ -1120,7 +975,6 @@
   function rainFx(level, burst) {
     if (level !== undefined) { splashLevel = level; splashBurst = !!burst; }
     var old = document.getElementById("rfx"); if (old) old.remove();
-    if (document.body.classList.contains("fh-on")) return;
     var art = $("art"), t = $("temp"), L = SPLASH[splashLevel];
     if (!L || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     var svgArt = art.querySelector("svg"); if (!svgArt) return;
@@ -1252,12 +1106,7 @@
   }
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
-  // Version (user, 2026-11-15) + build number, shown together as "v1.0 (226)". The version changes only when the user
-  // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
-  // line in the form var BUILD = "bNN".
-  var VERSION = "1.0";
-  var BUILD = "b248";
-  var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
+  var BUILD = "b249";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1383,7 +1232,7 @@
   function lookPhotos(v, profile) {
     var day = Math.floor(Date.parse(v.data.current.time.slice(0, 10)) / 864e5) || 0;
     var style = profile.style === "street" || profile.style === "run" ? profile.style : "minimal";
-    var g = profile.gender === "f" || profile.gender === "m" || profile.gender === "k" ? profile.gender : (day % 2 ? "f" : "m");
+    var g = profile.gender === "f" || profile.gender === "m" ? profile.gender : (day % 2 ? "f" : "m");
     return { g: g, style: style, adult: null };
   }
 
@@ -1521,7 +1370,6 @@
 
   var lastView = null, lookOpen = false;
   var sheetView = null; // the view the sheet shows: today (lastView) or a calendar day's editor's pick (b94)
-  var hoursPageHtml = "";
   var lookNow = null, railAt = {}; // the row on screen, swipe position per style + gender
   // b100: which three looks show (and in what order) is random, fixed per seed; a new seed on start and on each open from home
   var lookSeed = String(Math.random());
@@ -1756,12 +1604,9 @@
     var v = lastView; if (!v) return;
     var prof = load("wx-profile") || {};
     $("summary").hidden = true;
-    if (!prof.style) { document.body.classList.remove("fh-on"); $("fh").hidden = true; $("fh-space").hidden = true; $("fh-read").hidden = true; $("hl").hidden = true; paintAbout(v, prof); return; }
+    if (!prof.style) { $("hl").hidden = true; paintAbout(v, prof); return; }
     $("about").hidden = true;
-    var was = document.body.classList.contains("fh-on");
-    document.body.classList.add("fh-on"); $("fh").hidden = false; $("fh-space").hidden = false; fhFit();
-    if (!was) rainFx();
-    paintFull(v, prof);
+    paintHome(v, prof);
   }
   // b152: the three clothing styles, each shown by the hero cut of the look it would pick today (else any of its looks)
   // b219: the minimal style is shown as Chic (key, saved profiles and looks keep "minimal")
@@ -1888,142 +1733,6 @@
   });
   addEventListener("resize", function () { hlStack(); rainFx(); });
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { hlShown = -1; hlStack(); rainFx(); });
-
-  // ── Full-screen editorial home (b226, Figma 14:36) ──
-  var lastArt = "", fhLooks = [], fhAt = 0, fhSides = {};
-  var FH = { ko: { today: "오늘의 {s}" }, en: { today: "Today's {s}" }, de: { today: "Heute: {s}" } }[LANG];
-  // night art covers the moon with a circle in the night color; on a photo that circle would show, so cut it with a mask
-  function moonMask(svg) {
-    var n = 0;
-    return svg.replace(/<circle cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)" fill="(#[0-9A-Fa-f]{6})"\/><circle cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)" fill="#1B2140"\/>/g,
-      function (_, a, b, c, f, x, y, rr) {
-        var id = "fhm" + (++n);
-        return '<mask id="' + id + '"><rect x="-300" y="-300" width="900" height="800" fill="#fff"/><circle cx="' + x + '" cy="' + y + '" r="' + rr + '" fill="#000"/></mask>' +
-          '<circle cx="' + a + '" cy="' + b + '" r="' + c + '" fill="' + f + '" mask="url(#' + id + ')"/>';
-      });
-  }
-  // which side of the lower photo is calmer: luminance edges in the visible crop (object-fit: cover), lower 40 %, left vs right half
-  function fhSide(o) {
-    if (!o || !o.image) return Promise.resolve("left");
-    if (fhSides[o.image]) return Promise.resolve(fhSides[o.image]);
-    return new Promise(function (res) {
-      var im = new Image();
-      im.onload = function () {
-        try {
-          var W = 120, H = 180, c = document.createElement("canvas"); c.width = W; c.height = H;
-          var g = c.getContext("2d"); g.drawImage(im, 0, 0, W, H);
-          var d = g.getImageData(0, 0, W, H).data, fh = $("fh");
-          var vis = Math.min(1, (fh.clientWidth / Math.max(1, fh.clientHeight)) / (W / H)), x0 = Math.round(W * (1 - vis) / 2), vw = Math.round(W * vis);
-          var y0 = Math.round(H * .58), y1 = Math.round(H * .97), e = [0, 0], n = [0, 0];
-          var L = function (x, y) { var i = (y * W + x) * 4; return .3 * d[i] + .59 * d[i + 1] + .11 * d[i + 2]; };
-          for (var y = y0; y < y1; y++) for (var x = x0 + 1; x < x0 + vw; x++) {
-            var k = x < x0 + vw / 2 ? 0 : 1;
-            e[k] += Math.abs(L(x, y) - L(x - 1, y)) + Math.abs(L(x, y) - L(x, y - 1)); n[k]++;
-          }
-          res(fhSides[o.image] = e[1] / n[1] < e[0] / n[0] * .92 ? "right" : "left");
-        } catch (err) { res("left"); }
-      };
-      im.onerror = function () { res("left"); };
-      im.src = o.image;
-    });
-  }
-  // b238: ONE badge for the day's "bring this" items — umbrella (rain), SPF + sunglasses (UV), wind — in a single blue pill;
-  // tap opens the detail sheet with a section for each (b237 rain sheet grew into this)
-  var BI = {
-    plus: '<circle cx="128" cy="128" r="96"/><path d="M88 128h80M128 88v80"/>',
-    umb: '<path d="M32 128a96 96 0 0 1 192 0z"/><path d="M128 128v72a20 20 0 0 0 40 0"/>',
-    sun: '<rect x="22" y="104" width="96" height="76" rx="26"/><rect x="138" y="104" width="96" height="76" rx="26"/><path d="M118 130h20"/><path d="M22 124l-8-18M234 124l8-18"/>',
-    wind: '<path d="M24 100h116a30 30 0 1 0-30-30"/><path d="M24 150h156a30 30 0 1 1-30 30"/>'
-  };
-
-  function bsvg(k) { return '<svg viewBox="0 0 256 256" aria-hidden="true">' + BI[k] + "</svg>"; } // b239: line icons (stroke 16), same weight for all
-  // what the day asks for: { rain, uv (max), spf, shades, wind (km/h) }
-  function dayTips(v) {
-    var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0;
-    var uv = D.uv_index_max ? D.uv_index_max[0] : null, wmax = D.wind_speed_10m_max ? r(D.wind_speed_10m_max[0]) : 0, t = {};
-    t.rain = (v.rain || p >= 50) && !isSnow(v.code);
-    if (typeof uv === "number" && uv >= 3 && !t.rain) { t.uv = Math.round(uv * 10) / 10; t.spf = uv >= 6 ? 50 : 30; t.shades = uv >= 6; }
-    if (wmax >= 30) t.wind = wmax;
-    return t;
-  }
-  function badgeHtml(t) {
-    var h = bsvg("plus");
-    if (t.rain) h += bsvg("umb");
-    if (t.spf) h += "<span>SPF " + t.spf + "</span>" + (t.shades ? bsvg("sun") : "");
-    if (t.wind) h += bsvg("wind") + "<span>" + t.wind + "</span>";
-    return h;
-  }
-  function paintFull(v, prof) {
-    fhLooks = drawHome(v, prof);
-    var start = Math.max(0, STYLES.indexOf(prof.style)), rail = $("fh-rail");
-    rail.innerHTML = fhLooks.map(function (h, k) {
-      var e = h.e, img = e.soon ? soonHtml(e.soon, v.code, "fh-soon") : e.o.image ? '<img alt="" src="' + e.o.image + '"' + (k === start ? "" : ' loading="lazy"') + ">" : "";
-      return '<button type="button" class="fh-slide" data-k="' + k + '" aria-label="' + esc(homeTitle(e)) + '">' + img + "</button>";
-    }).join("");
-    $("fh-city").innerHTML = "<span>" + esc($("city-n").textContent) + "</span>" + PIN;
-    $("fh-city").setAttribute("aria-label", T.plOpen);
-    $("fh-art").innerHTML = moonMask(lastArt);
-    var c = v.data.current;
-    $("fh-temp").innerHTML = r(c.temperature_2m) + '<span class="fh-deg">°</span>';
-    $("fh-cond").textContent = $("cond").textContent;
-    $("fh-fl").innerHTML = "<span>" + v.f + '°</span><i class="lk-bar" style="--band:' + readableOn(BAND_COLOR[v.band[1]], "#FFFFFF", 1.5) + '"></i>' + v.icon + "<span>" + esc(v.band[2][LANG]) + "</span>";
-    var D = v.data.daily, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0, mm = D.precipitation_sum ? D.precipitation_sum[0] : null;
-    var tips = dayTips(v), anyTip = tips.rain || tips.spf || tips.wind;
-    $("fh-rain").hidden = !anyTip; // b238: one badge for rain / sun / wind (tap = detail sheet)
-    $("fh-rain").innerHTML = anyTip ? badgeHtml(tips) : "";
-    $("fh-rain").setAttribute("aria-label", NV.tipsK);
-    fhAt = -1;
-    rail.scrollLeft = start * rail.clientWidth;
-    fhShow(start, true);
-  }
-  // the spacer in the page is as tall as the fixed hero, so the article starts right under the photo
-  function fhFit() {
-    var h = $("fh").getBoundingClientRect().height;
-    if (h) $("fh-space").style.height = Math.round(h) + "px";
-  }
-  // drifting clouds: from just off the left screen edge to just off the right one, in the art's own units
-  function fhDrift() {
-    var art = $("fh-art"), a = art.getBoundingClientRect(), f = $("fh").getBoundingClientRect(); if (!a.width) return;
-    var k = 240 / a.width;
-    art.style.setProperty("--fd0", Math.round((f.left - a.left) * k - 90));
-    art.style.setProperty("--fd1", Math.round((f.right - a.left) * k + 10));
-  }
-  function fhShow(k, now) {
-    var h = fhLooks[k]; if (!h) return;
-    fhAt = k;
-    var over = $("fh-over"), e = h.e;
-    if (!now) over.classList.add("moving");
-    Promise.all([fhSide(e.soon ? null : e.o), new Promise(function (res) { setTimeout(res, now ? 0 : 200); })]).then(function (r2) {
-      if (fhAt !== k) return;
-      over.classList.remove("right"); // b233: text always left-aligned (the side finder is no longer used)
-      fhDrift();
-      $("fh-k").textContent = fmt(FH.today, { s: LT.styles[STYLES.indexOf(h.st)] });
-      twoLines($("fh-title"), homeTitle(e));
-      fhRead(h);
-      over.classList.remove("moving");
-    });
-  }
-  // the article under the photo: kicker, title, caption, then the same intro / product cards / pull quote / tip as the sheet
-  function fhRead(h) {
-    var e = h.e, a = $("fh-read"), o = e.soon ? null : e.o, k = '<div class="fh-rk">' + esc(fmt(FH.today, { s: LT.styles[STYLES.indexOf(h.st)] })) + "</div>";
-    a.innerHTML = o ? k + (o.article ? '<div class="lk-atitle">' + esc(o.article.title) + "</div>" : "") + '<div class="fh-deck">' + esc(o.deck[LANG]) + "</div>" +
-        (o.article ? articleHtml(o, [], lookState()) : "")
-      : k + '<div class="lk-atitle">' + esc(homeTitle(e)) + '</div><div class="fh-deck">' + esc(LT.soon) + "</div>";
-    a.hidden = false;
-  }
-  (function () {
-    var rail = $("fh-rail"), tm = null;
-    rail.addEventListener("scroll", function () {
-      clearTimeout(tm);
-      tm = setTimeout(function () { var k = Math.round(rail.scrollLeft / Math.max(1, rail.clientWidth)); if (k !== fhAt) fhShow(k); }, 90);
-    }, { passive: true });
-    // a tap on the photo reads on: scroll to the article
-    rail.addEventListener("click", function () { window.scrollTo({ top: $("fh-body").getBoundingClientRect().top + window.scrollY, behavior: "smooth" }); });
-    $("fh-city").addEventListener("click", openPlaces);
-    var refit = function () { fhFit(); fhDrift(); if (fhAt >= 0) rail.scrollLeft = fhAt * rail.clientWidth; };
-    addEventListener("resize", refit);
-    if (window.ResizeObserver) new ResizeObserver(refit).observe($("fh"));
-  })();
 
   function openLook(dayView) {
     sheetView = dayView && dayView.mast ? dayView : null;
@@ -2184,8 +1893,7 @@
 
     $("city-n").textContent = placeName(place);
     $("date").textContent = dateLine(nowLocal);
-    lastArt = artFor(state, cur.weather_code, isDay);
-    $("art").innerHTML = lastArt;
+    $("art").innerHTML = artFor(state, cur.weather_code, isDay);
     var rc = cur.weather_code, rainArt = (state === "rain" || state === "rain-night") && !isDrizzle(rc);
 
     var t = r(cur.temperature_2m);
@@ -2262,15 +1970,6 @@
             '<div class="hour-p">' + pp + "%" + "</div></div>";
     }
     $("hours").innerHTML = hh;
-    // b231: the Hours tab lists the same 24 hours as rows
-    var hv = '<div class="pg-k">' + esc(NV.hours) + '</div><div class="pg-h">24 ' + esc(NV.hours) + '</div><div class="hv-list">';
-    for (var m2 = 0; m2 < 24 && i0 + m2 < H.time.length; m2++) {
-      var x2 = i0 + m2, p2 = H.precipitation_probability[x2] || 0;
-      hv += '<div class="hv' + (m2 === 0 ? " now" : "") + '"><div class="hv-t">' + (m2 === 0 ? T.now : H.time[x2].slice(11, 13) + ":00") + "</div>" + icon(H.weather_code[x2], H.is_day[x2] === 0) +
-            '<div class="hv-v">' + r(H.temperature_2m[x2]) + "°</div>" + windCell(H.wind_speed_10m && H.wind_speed_10m[x2]) + '<div class="hv-p">' + p2 + "%</div></div>";
-    }
-    hoursPageHtml = hv + "</div>";
-    if (tab === "hours") $("pg-hours").innerHTML = hoursPageHtml;
     $("hours").scrollLeft = 0;
 
     // evening looks from 10 minutes before today's sunset until 5:00 (b83: day looks from 5 in the morning, people dress
@@ -2297,7 +1996,7 @@
     var old = stale && Date.now() - data._fetched > 20 * 60 * 1000;
     $("status").textContent = fmt(old ? T.offline : T.updated, { t: when }) + (measured ? " · DWD" : "") + (cloud && cloud.met ? " · MET" : "") +
       (cloud ? " · ☁" + Math.round(cloud.cover) + "%" : "") + (sun ? " · ☀" + Math.round(sun.share * 100) + "%" : "") +
-      (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · v" + VER_LABEL;
+      (light ? " · " + Math.round(cur.shortwave_radiation) + " W/m²" : "") + " · " + BUILD;
   }
 
 
@@ -2335,8 +2034,8 @@
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,direct_radiation,cloud_cover" +
-      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation,uv_index,snowfall,weather_code,is_day,wind_speed_10m" +
-      "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,precipitation_sum,sunrise,sunset,wind_speed_10m_max,uv_index_max" +
+      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,precipitation_sum,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
   }
@@ -2674,7 +2373,7 @@
       '<div class="set"><span><span class="pg-k">' + esc(NV.lang) + '</span><span class="set-v">' + esc(NV.langV) + "</span></span></div>" +
       '<div class="set"><span><span class="pg-k">' + esc(NV.units) + '</span><span class="set-v">°C · km/h</span></span></div>' +
       '<div class="set"><span><span class="pg-k">' + esc(NV.src) + '</span><span class="set-v">Open-Meteo · DWD · MET Norway</span></span></div>' +
-      '<div class="set"><span><span class="pg-k">' + esc(NV.ver) + '</span><span class="set-v">' + VER_LABEL + "</span></span></div></div>";
+      '<div class="set"><span><span class="pg-k">' + esc(NV.ver) + '</span><span class="set-v">' + BUILD + "</span></span></div></div>";
     $("set-loc").addEventListener("click", openPlaces);
     $("set-style").addEventListener("click", function () { setStyleOpen = !setStyleOpen; paintSettings(); });
     var tiles = document.querySelector("#pg-set .set-sty");
@@ -2686,14 +2385,13 @@
   }
   function showTab(t) {
     tab = t;
-    document.body.dataset.tab = t;
     $("tabbar").querySelectorAll("button").forEach(function (b) {
       var on = b.getAttribute("data-tab") === t;
       b.classList.toggle("on", on);
       if (on) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
     });
     document.querySelector(".app").hidden = t !== "home";
-    $("pg-hours").hidden = t !== "hours"; if (t === "hours") $("pg-hours").innerHTML = hoursPageHtml; $("pg-cal").hidden = t !== "cal"; $("pg-set").hidden = t !== "set"; $("pg-alert").hidden = t !== "alert";
+    $("pg-cal").hidden = t !== "cal"; $("pg-set").hidden = t !== "set"; $("pg-alert").hidden = t !== "alert";
     if (t !== "home") paintPages(load("wx-data"));
     window.scrollTo(0, 0);
     $("tabbar").classList.remove("scroll-hidden");
@@ -2796,92 +2494,6 @@
   $("pl-q").addEventListener("input", searchPlaces);
   $("pl-q").addEventListener("keydown", function (e) { if (e.key === "Enter") $("pl-q").blur(); });
   $("pl-grab").addEventListener("click", closePlaces);
-
-  // ── Look filter (b231, Figma 15:117): the round button at the photo's top right → who the looks are for (women / men /
-  // kids) and the clothing style. Saved in wx-profile (gender f/m/k, style) and the home repaints at once. No kids looks
-  // are made yet: that choice shows the Coming soon cards.
-  var fltOpen = false;
-  function paintFilter() {
-    var prof = load("wx-profile") || {};
-    function chips(key, list, cur) {
-      return '<div class="flt-row">' + list.map(function (c) { return '<button type="button" class="flt-b' + (c[0] === cur ? " on" : "") + '" data-k="' + key + '" data-v="' + c[0] + '">' + esc(c[1]) + "</button>"; }).join("") + "</div>";
-    }
-    $("flt-body").innerHTML =
-      '<div class="flt-g"><span class="pg-k">' + esc(NV.fWho) + "</span>" + chips("gender", [["f", NV.women], ["m", NV.men], ["k", NV.kids]], prof.gender) + "</div>" +
-      '<div class="flt-g"><span class="pg-k">' + esc(NV.style) + "</span>" + chips("style", STYLES.map(function (st) { return [st, STYLE_NAME[st]]; }), prof.style) + "</div>";
-  }
-  function openFilter() {
-    var s = $("flt"); paintFilter();
-    s.hidden = false; void s.offsetWidth; s.classList.add("open");
-    document.body.style.overflow = "hidden"; document.body.classList.add("look-open"); fltOpen = true;
-  }
-  function closeFilter() {
-    if (!fltOpen) return;
-    fltOpen = false; $("flt").classList.remove("open");
-    document.body.style.overflow = ""; document.body.classList.remove("look-open");
-    setTimeout(function () { if (!fltOpen) $("flt").hidden = true; }, 400);
-  }
-  $("fh-flt").addEventListener("click", openFilter);
-
-  // ── Rain detail (b237): the umbrella badge at the photo's top left → how much, when, hour by hour ──
-  var rndOpen = false;
-  function paintRain() {
-    var v = lastView; if (!v || !v.data) return;
-    var data = v.data, H = data.hourly, D = data.daily, cur = data.current, tips = dayTips(v), out = "";
-    var key = cur.time.slice(0, 13);
-    if (typeof data.utc_offset_seconds === "number") key = new Date(Date.now() + data.utc_offset_seconds * 1000).toISOString().slice(0, 13);
-    var i0 = H.time.findIndex(function (x) { return x.slice(0, 13) === key; });
-    if (i0 < 0) i0 = 0;
-    var n;
-    if (tips.spf) {
-      // sun: today's UV peak, the SPF to wear, and when it peaks (hours of today left)
-      var pk = -1, pv = 0;
-      if (H.uv_index) for (n = 0; n < 24 && i0 + n < H.time.length; n++) { var u = H.uv_index[i0 + n] || 0; if (u > pv) { pv = u; pk = n; } }
-      out += '<div class="rn-sec"><div class="rn-k">' + esc(NV.uvK) + '</div><div class="rn-big">UV ' + tips.uv.toLocaleString(LOCALE) + '<small>SPF ' + tips.spf + "</small></div>" +
-        '<div class="rn-sub">' + esc(tips.shades ? NV.uvHigh : NV.uvMid) + (pk >= 0 ? " · " + esc(fmt(NV.uvPeak, { t: hourText(H.time[i0 + pk]) })) : "") + "</div></div>";
-    }
-    if (tips.wind) {
-      out += '<div class="rn-sec"><div class="rn-k">' + esc(NV.windK) + '</div><div class="rn-big">' + tips.wind + "<small>km/h</small></div>" +
-        '<div class="rn-sub">' + esc(NV.windLine) + "</div></div>";
-    }
-    if (tips.rain) {
-      var mm = D.precipitation_sum ? D.precipitation_sum[0] : null, p = D.precipitation_probability_max ? D.precipitation_probability_max[0] || 0 : 0;
-      var hasMm = !!H.precipitation, rows = "", maxMm = 0.5;
-      for (n = 0; n < 24 && i0 + n < H.time.length; n++) if (hasMm) maxMm = Math.max(maxMm, H.precipitation[i0 + n] || 0);
-      // when it rains: first / last hour at 50% or more (the same cut as the 12-hour graph)
-      var first = -1, last = -1;
-      for (n = 0; n < 24 && i0 + n < H.time.length; n++) if ((H.precipitation_probability[i0 + n] || 0) >= 50) { if (first < 0) first = n; last = n; }
-      var when = first < 0 ? T.rainLight : first === 0 ? (last + 1 < 24 && i0 + last + 1 < H.time.length ? fmt(T.rainUntil, { t: hourText(H.time[i0 + last + 1]) }) : T.rainOn) : fmt(T.rainFrom, { t: hourText(H.time[i0 + first]) });
-      for (n = 0; n < 24 && i0 + n < H.time.length; n++) {
-        var x = i0 + n, pp = H.precipitation_probability[x] || 0, m = hasMm ? (H.precipitation[x] || 0) : null;
-        var w = hasMm ? Math.min(100, Math.round(m / maxMm * 100)) : pp;
-        rows += '<div class="rn-row' + (pp < 20 && !m ? " dry" : "") + '"><span class="rn-t">' + (n === 0 ? T.now : H.time[x].slice(11, 13) + ":00") + '</span><span class="rn-bar"><i style="width:' + Math.max(w, pp || m ? 4 : 0) + '%"></i></span><span class="rn-v">' +
-          (hasMm ? (Math.round(m * 10) / 10).toLocaleString(LOCALE) + " mm · " : "") + pp + "%</span></div>";
-      }
-      out += '<div class="rn-sec"><div class="rn-k">' + esc(NV.rainK) + '</div><div class="rn-big">' + (typeof mm === "number" ? (Math.round(mm * 10) / 10).toLocaleString(LOCALE) + "<small>mm</small>" : p + "<small>%</small>") + "</div>" +
-        '<div class="rn-sub">' + esc(when) + " · " + esc(fmt(NV.rainP, { p: p })) + '</div><div class="rn-list">' + rows + "</div></div>";
-    }
-    $("rnd-body").innerHTML = out;
-  }
-  function openRain() {
-    var s = $("rnd"); paintRain();
-    s.hidden = false; void s.offsetWidth; s.classList.add("open");
-    document.body.style.overflow = "hidden"; document.body.classList.add("look-open"); rndOpen = true;
-  }
-  function closeRain() {
-    if (!rndOpen) return;
-    rndOpen = false; $("rnd").classList.remove("open");
-    document.body.style.overflow = ""; document.body.classList.remove("look-open");
-    setTimeout(function () { if (!rndOpen) $("rnd").hidden = true; }, 400);
-  }
-  $("fh-rain").addEventListener("click", openRain);
-  $("rnd-grab").addEventListener("click", closeRain);
-  $("flt-grab").addEventListener("click", closeFilter);
-  $("flt-body").addEventListener("click", function (e) {
-    var b = e.target.closest("[data-k]"); if (!b) return;
-    var prof = load("wx-profile") || {}; prof[b.dataset.k] = b.dataset.v; store("wx-profile", prof);
-    paintFilter(); paintPeek();
-  });
   $("pl-body").addEventListener("click", function (e) {
     var b = e.target.closest("button"); if (!b) return;
     var k = b.getAttribute("data-act") || b.getAttribute("data-pick"), c = k.charAt(0), i = +k.slice(1), mine = myPlaces();
