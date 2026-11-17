@@ -1,0 +1,188 @@
+{
+ "batch": "berlin-light-rain-chilly-male-night-chic-20261116",
+ "id": "male-05",
+ "appOutfitId": "eu-rain-light-chilly-m-night-chic-20261116-05",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "rain",
+ "rain": "light",
+ "band": "chilly",
+ "time": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "appStyleLabel": "Chic",
+ "visualRegion": "european-urban",
+ "sourceCity": "Berlin",
+ "humidityContext": "unknown",
+ "temperatureC": 10,
+ "feelsLikeC": 6,
+ "isLiveMeasurement": false,
+ "scene": "under a shop awning in the rain at night, one boot up on a stone ledge, retying the lace",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "0176885530169866f9e0e441650c292cf8b7d6be760f3c540057fdcf6d7b97ab",
+ "masterEditorial": "editorials/05-deep-grey-boot-lace-beanie-v4.png",
+ "copy": {
+  "title": {
+   "ko": "돌계단 위의 부츠 끈",
+   "en": "Bootlaces on the stone step",
+   "de": "Schnürsenkel auf der Steinstufe"
+  },
+  "intro": {
+   "ko": "짧은 차콜 비니 아래로 붉은 머리가 보인다. 돌계단에 한 발을 올려 부츠 끈을 고쳐 묶는다.",
+   "en": "Copper hair shows below the short charcoal beanie as he braces a boot on the step to retie it.",
+   "de": "Kupferrotes Haar schaut unter der kurzen anthrazitfarbenen Mütze hervor, während er den Stiefel auf der Stufe neu schnürt."
+  },
+  "deck": {
+   "ko": "비를 피해 차양 아래에서 풀린 끈을 다시 묶는, 짙은 회색 코트와 갈색 소품의 저녁 차림.",
+   "en": "Deep grey wool with brown accents, stopped under a shop awning to deal with a lace that came loose.",
+   "de": "Dunkelgraue Wolle mit braunen Akzenten – ein Halt unter der Ladenmarkise, weil sich ein Schnürsenkel gelöst hat."
+  },
+  "articleTitle": "BOOTLACES ON THE STONE STEP",
+  "pull": "A DOUBLE KNOT FOR THE WET WALK HOME.",
+  "tip": {
+   "ko": "비 오는 날엔 끈을 두 번 묶어 두면 젖은 길에서 다시 멈출 일이 줄어요.",
+   "en": "On rainy days a double knot means fewer stops on wet streets.",
+   "de": "An Regentagen spart ein Doppelknoten weitere Stopps auf nasser Straße."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery); English product names only sentence-cased (sourceNameEn)"
+ },
+ "heroItem": "eu-rain-light-chilly-m-night-chic-20261116-05.dark-brown-rubber-soled-lace-up-boots",
+ "productCount": 6,
+ "products": [
+  {
+   "producerId": "m05-p01",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-05.deep-grey-long-dense-wool-coat",
+   "appCategory": "outer",
+   "spec": "deep grey long dense wool coat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "딥 그레이 롱 울 코트",
+    "en": "Deep grey long dense wool coat",
+    "de": "Langer dunkelgrauer Wollmantel"
+   },
+   "sourceNameEn": "deep grey long dense wool coat",
+   "howToWear": {
+    "ko": "허리를 굽힐 때 코트 아래쪽을 열어 움직임을 확보한다.",
+    "en": "Leave the lower coat open for room to bend.",
+    "de": "Den Mantel unten offen lassen, damit man sich bequem bücken kann."
+   },
+   "image": "products/deep-grey-long-dense-wool-coat.webp",
+   "sha256": "cd80d1a52967699e2a752b7568b8419c7b57e9ec131148b9a3e9562102936df6",
+   "bytes": 25060,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p02",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-05.steel-blue-ribbed-sweater",
+   "appCategory": "top",
+   "spec": "steel blue ribbed sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "스틸 블루 골지 니트",
+    "en": "Steel blue ribbed sweater",
+    "de": "Stahlblauer Rippstrickpullover"
+   },
+   "sourceNameEn": "steel blue ribbed sweater",
+   "howToWear": {
+    "ko": "울 코트 아래로 스틸 블루 소매가 조금 보이게 한다.",
+    "en": "Let the steel-blue cuffs show a little under the wool coat.",
+    "de": "Die stahlblauen Bündchen etwas unter dem Wollmantel hervorblitzen lassen."
+   },
+   "image": "products/steel-blue-ribbed-sweater.webp",
+   "sha256": "902f0bd7a53ea22021475d0814bf9af90b53fd28ee1d7e9763d972ceafa4fc82",
+   "bytes": 44414,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p03",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-05.espresso-straight-trousers",
+   "appCategory": "bottom",
+   "spec": "espresso straight trousers",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "에스프레소 스트레이트 팬츠",
+    "en": "Espresso straight trousers",
+    "de": "Gerade espressobraune Hose"
+   },
+   "sourceNameEn": "espresso straight trousers",
+   "howToWear": {
+    "ko": "에스프레소색 바지 밑단을 부츠 목 위에 둔다.",
+    "en": "Let the espresso trouser hems sit above the boot shafts.",
+    "de": "Die Säume der espressobraunen Hose über den Stiefelschäften enden lassen."
+   },
+   "image": "products/espresso-straight-trousers.webp",
+   "sha256": "2c2822d3d25c889a4e22d72c3aa29f0c79fed6c9161b9dd1df2f35afd5c21851",
+   "bytes": 13402,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p04",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-05.dark-brown-rubber-soled-lace-up-boots",
+   "appCategory": "shoes",
+   "spec": "dark brown rubber-soled lace-up boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "다크 브라운 러그 부츠",
+    "en": "Dark brown rubber-soled lace-up boots",
+    "de": "Dunkelbraune Stiefel mit Profilsohle"
+   },
+   "sourceNameEn": "dark brown rubber-soled lace-up boots",
+   "howToWear": {
+    "ko": "한 발을 낮은 돌계단에 올려 풀린 끈을 묶는다.",
+    "en": "Rest one foot on a low step to retie a loose lace.",
+    "de": "Einen Fuß auf eine niedrige Stufe stellen und den losen Schnürsenkel neu binden."
+   },
+   "image": "products/dark-brown-rubber-soled-lace-up-boots.webp",
+   "sha256": "a3a52197e40b2f72ece8357f7e38729174ef40d63bc55506862a077e4ab6e9d5",
+   "bytes": 43930,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p05",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-05.heather-charcoal-short-ribbed-fisherman-beanie",
+   "appCategory": "headwear",
+   "spec": "heather charcoal short ribbed fisherman beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "멜란지 차콜 숏 비니",
+    "en": "Heather charcoal short ribbed fisherman beanie",
+    "de": "Kurze melierte Anthrazitmütze"
+   },
+   "sourceNameEn": "heather charcoal short ribbed fisherman beanie",
+   "howToWear": {
+    "ko": "비니 밴드를 귀 위에 두어 붉은 머리 가장자리가 보이게 쓴다.",
+    "en": "Set the cuff above the ears so a little copper hair shows.",
+    "de": "Den Umschlag über den Ohren tragen, damit etwas kupferrotes Haar sichtbar wird."
+   },
+   "image": "products/heather-charcoal-short-ribbed-fisherman-beanie.webp",
+   "sha256": "8ab2a98379ef0cb32a5484a6e0473713b7a943129c1d1bfd644b62c45a68ecda",
+   "bytes": 41874,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m05-p06",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-05.dark-brown-fringed-scarf",
+   "appCategory": "scarf",
+   "spec": "dark brown fringed scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "다크 브라운 프린지 목도리",
+    "en": "Dark brown fringed scarf",
+    "de": "Dunkelbrauner Fransenschal"
+   },
+   "sourceNameEn": "dark brown fringed scarf",
+   "howToWear": {
+    "ko": "브라운 목도리 끝을 코트 안쪽으로 정리한다.",
+    "en": "Tuck the brown scarf ends into the coat.",
+    "de": "Die Enden des braunen Schals in den Mantel stecken."
+   },
+   "image": "products/dark-brown-fringed-scarf.webp",
+   "sha256": "05410bcbdaf1b35e35f3d30a5f2827404e52fba3e8a665028bfa5c644a418dd6",
+   "bytes": 40548,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}

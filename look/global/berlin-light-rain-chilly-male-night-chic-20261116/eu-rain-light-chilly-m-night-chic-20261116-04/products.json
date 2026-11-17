@@ -1,0 +1,188 @@
+{
+ "batch": "berlin-light-rain-chilly-male-night-chic-20261116",
+ "id": "male-04",
+ "appOutfitId": "eu-rain-light-chilly-m-night-chic-20261116-04",
+ "mappingStatus": "mapped",
+ "productionStatus": "ready",
+ "userApprovedEditorial": true,
+ "individualProductHumanApproval": false,
+ "sky": "rain",
+ "rain": "light",
+ "band": "chilly",
+ "time": "evening",
+ "gender": "m",
+ "age": "35",
+ "style": "minimal",
+ "appStyleLabel": "Chic",
+ "visualRegion": "european-urban",
+ "sourceCity": "Berlin",
+ "humidityContext": "unknown",
+ "temperatureC": 10,
+ "feelsLikeC": 6,
+ "isLiveMeasurement": false,
+ "scene": "leaning on a stone window ledge on a wet side street at night, taking a paper cup handed over from the right, one hand in the jeans pocket",
+ "editorialImage": "editorial.jpg",
+ "editorialSha256": "cc9717e7a827a6774c8739c863b530b8a8dcdd886268fe3eea28f26606bc82fa",
+ "masterEditorial": "editorials/04-olive-doorway-beanie-v2.png",
+ "copy": {
+  "title": {
+   "ko": "처마 밑의 따뜻한 한 잔",
+   "en": "A warm cup under the awning",
+   "de": "Ein warmer Becher unter dem Vordach"
+  },
+  "intro": {
+   "ko": "올리브 롱 코트에 브릭 레드 목도리를 감고 처마 아래에서 따뜻한 컵을 받는다.",
+   "en": "A brick-red scarf picks up warmth against the olive coat as he reaches for a hot cup.",
+   "de": "Ein ziegelroter Schal setzt einen warmen Akzent zum olivgrünen Mantel, während er nach dem heißen Becher greift."
+  },
+  "deck": {
+   "ko": "가는 비 내리는 골목에서 창턱에 기대어 뜨거운 컵을 건네받는, 올리브와 붉은 목도리의 저녁 차림.",
+   "en": "Olive with a red scarf on a drizzly side street, leaning on the window ledge as a hot drink is handed over.",
+   "de": "Olivgrün mit rotem Schal in einer verregneten Seitenstraße – an den Fenstersims gelehnt, während ein heißes Getränk herübergereicht wird."
+  },
+  "articleTitle": "A WARM CUP UNDER THE AWNING",
+  "pull": "ONE HAND FOR THE CUP, ONE FOR THE POCKET.",
+  "tip": {
+   "ko": "밖에서 따뜻한 음료를 받을 땐 한 손은 주머니에 넣어 두고, 컵을 든 손을 번갈아 녹여요.",
+   "en": "With a hot drink outdoors, keep one hand in a pocket and swap hands to warm them in turn.",
+   "de": "Mit einem heißen Getränk draußen eine Hand in der Tasche lassen und die Hände abwechselnd wärmen."
+  },
+  "note": "title and body are the producer copy (Korean master) verbatim; deck, pull and tip written by Claude Code from the editorial (not in the delivery); English product names only sentence-cased (sourceNameEn)"
+ },
+ "heroItem": "eu-rain-light-chilly-m-night-chic-20261116-04.olive-long-insulated-hooded-coat",
+ "productCount": 6,
+ "products": [
+  {
+   "producerId": "m04-p01",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-04.olive-long-insulated-hooded-coat",
+   "appCategory": "outer",
+   "spec": "olive long insulated hooded coat",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "올리브 롱 후드 코트",
+    "en": "Olive long insulated hooded coat",
+    "de": "Langer olivgrüner Kapuzenmantel"
+   },
+   "sourceNameEn": "olive long insulated hooded coat",
+   "howToWear": {
+    "ko": "올리브 코트 윗부분을 열어 붉은 목도리를 드러낸다.",
+    "en": "Open the top of the olive coat to show the red scarf.",
+    "de": "Den olivgrünen Mantel oben öffnen, damit der rote Schal sichtbar bleibt."
+   },
+   "image": "products/olive-long-insulated-hooded-coat.webp",
+   "sha256": "8e926905891d7e8d2c9200ebf27f413178aed50669228df615bbd884d7163848",
+   "bytes": 18180,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p02",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-04.charcoal-ribbed-sweater",
+   "appCategory": "top",
+   "spec": "charcoal ribbed sweater",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "차콜 골지 니트",
+    "en": "Charcoal ribbed sweater",
+    "de": "Anthrazitfarbener Rippstrickpullover"
+   },
+   "sourceNameEn": "charcoal ribbed sweater",
+   "howToWear": {
+    "ko": "차콜 니트를 어두운 데님과 이어 입는다.",
+    "en": "Pair the charcoal knit with dark denim.",
+    "de": "Anthrazitfarbenen Strick mit dunklem Denim kombinieren."
+   },
+   "image": "products/charcoal-ribbed-sweater.webp",
+   "sha256": "6fc88fd9ea9aaab3b8a5ab4c21e3b6d5a49987e70069cf7f881fdacee717c823",
+   "bytes": 37562,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p03",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-04.dark-cuffed-straight-jeans",
+   "appCategory": "bottom",
+   "spec": "dark cuffed straight jeans",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "진청 스트레이트 데님",
+    "en": "Dark cuffed straight jeans",
+    "de": "Gerade dunkelblaue Jeans"
+   },
+   "sourceNameEn": "dark cuffed straight jeans",
+   "howToWear": {
+    "ko": "데님 밑단을 한 번 접어 부츠 윗부분을 드러낸다.",
+    "en": "Turn up the denim hems once to show the tops of the boots.",
+    "de": "Den Jeanssaum einmal umschlagen, damit die Stiefelschäfte sichtbar sind."
+   },
+   "image": "products/dark-cuffed-straight-jeans.webp",
+   "sha256": "f95413e8b7e0cad4d81cb6c9f434fe6ea464f52e60e96cb31f73ac1bfffc916e",
+   "bytes": 15994,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p04",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-04.black-leather-lace-up-lug-boots",
+   "appCategory": "shoes",
+   "spec": "black leather lace-up lug boots",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 가죽 끈 부츠",
+    "en": "Black leather lace-up lug boots",
+    "de": "Schwarze Lederschnürstiefel"
+   },
+   "sourceNameEn": "black leather lace-up lug boots",
+   "howToWear": {
+    "ko": "올리브 코트 아래 검정 가죽 부츠로 차분하게 맞춘다.",
+    "en": "Keep the palette muted with black leather boots under the olive coat.",
+    "de": "Schwarze Lederstiefel zum olivgrünen Mantel tragen."
+   },
+   "image": "products/black-leather-lace-up-lug-boots.webp",
+   "sha256": "d562f95f48c8808112cb17531b2fda07a18f6fb5ad8125ee877d0fbd6cc66ee2",
+   "bytes": 31914,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p05",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-04.black-short-ribbed-fisherman-beanie",
+   "appCategory": "headwear",
+   "spec": "black short ribbed fisherman beanie",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "검정 숏 비니",
+    "en": "Black short ribbed fisherman beanie",
+    "de": "Kurze schwarze Strickmütze"
+   },
+   "sourceNameEn": "black short ribbed fisherman beanie",
+   "howToWear": {
+    "ko": "검정 비니를 낮은 정수리 핏으로 맞춰 쓴다.",
+    "en": "Wear the black beanie close to the crown.",
+    "de": "Die schwarze Mütze eng am Kopf tragen."
+   },
+   "image": "products/black-short-ribbed-fisherman-beanie.webp",
+   "sha256": "415e0b9c01e25b6615c9d78fca019a8f4ab0e42dd2a73da5c60370045086eb09",
+   "bytes": 31966,
+   "source": "Codex built-in imagegen"
+  },
+  {
+   "producerId": "m04-p06",
+   "appItemId": "eu-rain-light-chilly-m-night-chic-20261116-04.brick-red-fringed-scarf",
+   "appCategory": "scarf",
+   "spec": "brick red fringed scarf",
+   "evidence": "visible-item-reconstructed",
+   "name": {
+    "ko": "브릭 레드 프린지 목도리",
+    "en": "Brick red fringed scarf",
+    "de": "Ziegelroter Fransenschal"
+   },
+   "sourceNameEn": "brick red fringed scarf",
+   "howToWear": {
+    "ko": "목도리를 두르고 붉은 끝을 차콜 니트 앞으로 내린다.",
+    "en": "Wrap the scarf and let the red ends fall against the charcoal knit.",
+    "de": "Den Schal wickeln und die roten Enden vor dem anthrazitfarbenen Strick hängen lassen."
+   },
+   "image": "products/brick-red-fringed-scarf.webp",
+   "sha256": "47fe3ccc828e6713893b7f9c60b160db04c9478579b4087907d6f382e07e0639",
+   "bytes": 41404,
+   "source": "Codex built-in imagegen"
+  }
+ ]
+}
