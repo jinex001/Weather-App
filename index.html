@@ -602,7 +602,7 @@
   /* type straight on the photo, white with a 1px black outline so it reads on any picture (user's Figma) */
   .fh-over { position: absolute; pointer-events: none; color: #FFFFFF; display: flex; flex-direction: column; justify-content: flex-end;
     padding: 22px 12px calc(env(safe-area-inset-bottom) + 86px) 10px;
-    text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
+    text-shadow: 0 0 3px rgba(0,0,0,.35); }
   .fh-wx, .fh-bot { transition: opacity .2s; }
   .fh-over.moving .fh-wx, .fh-over.moving .fh-bot { opacity: 0; }
   .fh-wx { display: flex; flex-direction: column; align-items: flex-start; }
@@ -620,9 +620,9 @@
   .fh-cond { position: relative; margin: 0 0 0 -6px; z-index: 1; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; }
   /* b229: feels-like line under the condition: temperature, band-color bar, moving person, band name, all at the condition's size */
   .fh-fl { display: flex; align-items: center; flex-basis: 100%; margin-top: 6px; font: 800 17px/1.1 var(--sans); letter-spacing: -.02em; text-transform: uppercase; white-space: nowrap; }
-  .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); box-shadow: 0 0 0 1px #000; vertical-align: 0; }
+  .fh-fl .lk-bar { margin: 0 7px; width: 5px; height: 1.3em; background: var(--band); vertical-align: 0; }
   .fh-fl .feels-ic { width: 22px; height: 24px; background: none; color: #FFFFFF; --bg: transparent; --graph: #FFFFFF; margin-right: 6px;
-    filter: drop-shadow(1px 0 0 #000) drop-shadow(-1px 0 0 #000) drop-shadow(0 1px 0 #000) drop-shadow(0 -1px 0 #000); text-shadow: none; }
+    filter: drop-shadow(0 0 3px rgba(0,0,0,.35)); text-shadow: none; }
   .fh-fl .feels-ic svg { width: 22px; height: 22px; left: 0; top: 0; }
   .fh-fl .person-ic .hd { stroke: none; }
   .fh-umb { margin-top: 8px; font: 800 17px/1.25 var(--sans); max-width: 300px; }
@@ -1254,7 +1254,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b243";
+  var BUILD = "b244";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
