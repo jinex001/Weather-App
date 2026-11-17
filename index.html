@@ -577,7 +577,7 @@
   .fh-top { position: absolute; z-index: 2; left: 0; right: 0; top: calc(env(safe-area-inset-top) + 8px); height: 40px; padding-left: 24px; display: flex; align-items: center; justify-content: flex-start; pointer-events: none; }
   .fh-top .fh-city { margin: 0; height: 40px; padding: 0 16px 0 18px; border-radius: 20px; pointer-events: auto; color: var(--fg); font-size: 17px; text-shadow: none; display: flex; align-items: center; gap: 5px; background: var(--glass-fill); -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur); box-shadow: var(--glass-light); }
   .fh-city svg { width: 19px; height: 19px; flex: none; fill: currentColor; }
-  .fh-rain { position: absolute; z-index: 2; left: 24px; top: calc(env(safe-area-inset-top) + 64px); height: 38px; padding: 0 13px; border: 0; border-radius: 19px; display: flex; align-items: center; gap: 8px; background: #F2C14E; color: #141414; cursor: pointer; }
+  .fh-rain { position: absolute; z-index: 2; right: 24px; top: calc(env(safe-area-inset-top) + 56px); height: 38px; padding: 0 13px; border: 0; border-radius: 19px; display: flex; align-items: center; gap: 8px; background: #F2C14E; color: #141414; cursor: pointer; }
   .fh-rain svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; flex: none; }
   .fh-rain span { font: 800 15px/1 var(--sans); letter-spacing: -.02em; }
   .rn-sec + .rn-sec { margin-top: 34px; }
@@ -590,7 +590,7 @@
   .rn-row.dry { opacity: .4; }
   .rn-t { width: 50px; flex: none; }
   .rn-bar { flex: 1; height: 10px; border-radius: 5px; background: rgba(20,20,20,.08); overflow: hidden; }
-  .rn-bar i { display: block; height: 100%; border-radius: 5px; background: #1428FF; }
+  .rn-bar i { display: block; height: 100%; border-radius: 5px; background: #8FB8DE; }
   .rn-v { width: 92px; flex: none; text-align: right; }
   .fh-flt { position: absolute; z-index: 2; right: 24px; top: calc(env(safe-area-inset-top) + 8px); width: 40px; height: 40px; border: 0; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center; color: var(--fg); cursor: pointer; }
   .fh-flt svg { width: 22px; height: 22px; fill: currentColor; }
@@ -611,6 +611,7 @@
   .fh-ar { display: flex; align-items: flex-end; margin-top: 18px; }
   .fh-art, .fh-art svg { width: 150px; height: 106px; overflow: visible; }
   .fh-art { margin-left: -12px; }
+  .fh-art { filter: drop-shadow(0 2px 2px rgba(0,0,0,.35)) drop-shadow(0 10px 14px rgba(0,0,0,.30)); } /* b246: depth */
   .fh-art svg { display: block; }
   /* temperature + condition: the condition sits half over the number's foot; the ° overlaps the number, half raised */
   .fh-tc { display: flex; flex-wrap: wrap; align-items: baseline; align-self: stretch; margin-top: 18px; }
@@ -1255,7 +1256,7 @@
   // says so; the build number goes up on every deploy of app code. The auto-update check compares BUILD, so keep the
   // line in the form var BUILD = "bNN".
   var VERSION = "1.0";
-  var BUILD = "b245";
+  var BUILD = "b246";
   var VER_LABEL = VERSION + " (" + BUILD.slice(1) + ")";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
