@@ -69,7 +69,7 @@
   .hero-art svg { width: 100%; height: 170px; overflow: visible; }
   /* b251 (kept from 1.0, b246): depth shadow on the weather art; the night moon is cut with a mask so only the crescent casts it */
   .hero-art { padding: 14px 0 24px; height: 208px; margin-top: 17px; margin-bottom: -24px; }
-  .hero-art svg { filter: drop-shadow(0 0 12px rgba(0,0,0,.35)); }
+  .hero-art svg { filter: drop-shadow(0 0 12px rgba(0,0,0,.15)); }
   /* Hero art motion (loops) */
   .art-drop { opacity: 0; animation: art-fall .9s linear infinite; }
   /* rain (b154): teardrops falling straight down from under the clouds, speeding up */
@@ -1201,7 +1201,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b254";
+  var BUILD = "b255";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
