@@ -332,6 +332,12 @@
   @keyframes wi-drift { from { transform: translateX(-1.2px); } to { transform: translateX(1.2px); } }
   @keyframes wi-glow { 0%, 100% { opacity: .35; } 50% { opacity: .85; } }
   @media (prefers-reduced-motion: reduce) { .wi * { animation: none !important; } }
+  /* b258: 24-hour icons = the big weather art scaled down (240×170 → 44×31), clipped to its box */
+  .mi { width: 44px; height: 31px; flex: none; overflow: hidden; }
+  /* overcast-art cloud colours come from the overcast screen; other screens get the default overcast greys */
+  body:not([data-state="overcast"]) .mi { --oc-back: #958E81; --oc-drift: #91989F; }
+  .hv > svg.mi:first-of-type { width: 48px; height: 34px; }
+  @media (prefers-reduced-motion: reduce) { .mi * { animation: none !important; } }
   [hidden] { display: none !important; }
 
   /* Bottom menu (b88): a glass pill like the Today's Look sheet with the group switcher's ink pill for the open tab.
@@ -1157,6 +1163,15 @@
     if (night) return open + '<path class="wi-moon"' + d(0) + ' d="M11.5 2.5a6.5 6.5 0 1 0 4 11.6A7 7 0 0 1 11.5 2.5z" ' + f + '/></svg>';
     return open + '<circle class="wi-core"' + d(0) + ' cx="9" cy="9" r="4.6" ' + f + '/><path class="wi-ray"' + d(0) + ' d="M15.6 9L17.4 9M13.67 13.67L14.94 14.94M9 15.6L9 17.4M4.33 13.67L3.06 14.94M2.4 9L0.6 9M4.33 4.33L3.06 3.06M9 2.4L9 0.6M13.67 4.33L14.94 3.06" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>';
   }
+  // b258: the 24-hour forecast (home row and Hours tab) uses the big weather art itself, scaled down, with all its
+  // animation (user request). Each hour gets the art for its own code and day/night; the night moon is cut with a
+  // mask (ids unique per icon) so the cover circle does not show on a daytime background.
+  var MI = 0;
+  function micon(c, night) {
+    var p = "mi" + (++MI) + "-";
+    var svg = moonMask(artFor(stateOf(c, !night), c, !night)).replace(/id="artm/g, 'id="' + p).replace(/url\(#artm/g, "url(#" + p);
+    return svg.replace("<svg ", '<svg class="mi" aria-hidden="true" ');
+  }
   function person(band, windy, rain, snow) {
     var cls = "person-ic b-" + band + (windy ? " windy" : "") + (rain ? " wet" : "") + (snow ? " snowy" : "");
     var back = "", over = "", front = "";
@@ -1201,7 +1216,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b257";
+  var BUILD = "b258";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -2092,7 +2107,7 @@
     for (var n = 0; n < 24 && i0 + n < H.time.length; n++) {
       var x = i0 + n, pp = H.precipitation_probability[x] || 0;
       hh += '<div class="hour' + (n === 0 ? " now" : "") + '"><div class="hour-t">' + (n === 0 ? T.now : H.time[x].slice(11, 13)) + "</div>" +
-            aicon(H.weather_code[x], H.is_day[x] === 0, n) + '<div class="hour-v">' + r(H.temperature_2m[x]) + "°</div>" +
+            micon(H.weather_code[x], H.is_day[x] === 0) + '<div class="hour-v">' + r(H.temperature_2m[x]) + "°</div>" +
             windCell(H.wind_speed_10m && H.wind_speed_10m[x]) +
             '<div class="hour-pb"><div class="hour-bar" style="height:' + Math.max(3, Math.round(pp / pTop * 32)) + 'px"></div></div>' +
             '<div class="hour-p">' + pp + "%" + "</div></div>";
@@ -2103,7 +2118,7 @@
     var hv = '<div class="pg-k">' + esc(NV.hours) + '</div><div class="pg-h">24 ' + esc(NV.hours) + '</div><div class="hv-list">';
     for (var m2 = 0; m2 < 24 && i0 + m2 < H.time.length; m2++) {
       var x2 = i0 + m2, p2 = H.precipitation_probability[x2] || 0;
-      hv += '<div class="hv' + (m2 === 0 ? " now" : "") + '"><div class="hv-t">' + (m2 === 0 ? T.now : H.time[x2].slice(11, 13) + ":00") + "</div>" + aicon(H.weather_code[x2], H.is_day[x2] === 0, m2) +
+      hv += '<div class="hv' + (m2 === 0 ? " now" : "") + '"><div class="hv-t">' + (m2 === 0 ? T.now : H.time[x2].slice(11, 13) + ":00") + "</div>" + micon(H.weather_code[x2], H.is_day[x2] === 0) +
             '<div class="hv-v">' + r(H.temperature_2m[x2]) + "°</div>" + windCell(H.wind_speed_10m && H.wind_speed_10m[x2]) + '<div class="hv-p">' + p2 + "%</div></div>";
     }
     hoursPageHtml = hv + "</div>";
