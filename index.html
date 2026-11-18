@@ -380,6 +380,10 @@
   .hv-v { font-family: var(--display); letter-spacing: 0; font-size: 30px; width: 64px; }
   .hv .hour-w { margin-left: auto; width: 62px; font-size: 12px; }
   .hv-p { width: 44px; text-align: right; font-family: var(--mono); font-weight: 500; font-size: 13px; }
+  /* b261: rain chance %, then the amount right after it at the row's end */
+  .hv-mm { width: 56px; white-space: nowrap; font-family: var(--mono); font-weight: 500; font-size: 13px; }
+  .hv .hv-p { width: 40px; margin-right: 8px; }
+  .hv .hour-w { width: 54px; }
   /* b251: the look filter, a short glass sheet from the bottom */
   .fshade { position: fixed; inset: 0; z-index: 20; background: rgba(0,0,0,.25); }
   .fsheet { position: fixed; z-index: 21; left: 0; right: 0; bottom: 0; max-width: 480px; margin: 0 auto; padding: 12px 24px calc(env(safe-area-inset-bottom) + 28px);
@@ -1227,7 +1231,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b260";
+  var BUILD = "b261";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -2127,10 +2131,14 @@
     $("hours").scrollLeft = 0;
     // b251 (kept from 1.0, b231): the Hours tab lists the same 24 hours as rows
     var hv = '<div class="pg-k">' + esc(NV.hours) + '</div><div class="pg-h">24 ' + esc(NV.hours) + '</div><div class="hv-list">';
+    // b261: rain is "chance %, then amount mm" side by side at the row's end (mm from hourly precipitation; blank under 0.05)
+    var mmA = H.precipitation;
     for (var m2 = 0; m2 < 24 && i0 + m2 < H.time.length; m2++) {
-      var x2 = i0 + m2, p2 = H.precipitation_probability[x2] || 0;
-      hv += '<div class="hv' + (m2 === 0 ? " now" : "") + '"><div class="hv-t">' + (m2 === 0 ? T.now : H.time[x2].slice(11, 13) + ":00") + "</div>" + micon(H.weather_code[x2], H.is_day[x2] === 0) +
-            '<div class="hv-v">' + r(H.temperature_2m[x2]) + "°</div>" + windCell(H.wind_speed_10m && H.wind_speed_10m[x2]) + '<div class="hv-p">' + p2 + "%</div></div>";
+      var x2 = i0 + m2, p2 = H.precipitation_probability[x2] || 0, mm2 = mmA ? mmA[x2] || 0 : 0;
+      hv += '<div class="hv' + (m2 === 0 ? " now" : "") + '">' +
+            '<div class="hv-t">' + (m2 === 0 ? T.now : H.time[x2].slice(11, 13) + ":00") + "</div>" + micon(H.weather_code[x2], H.is_day[x2] === 0) +
+            '<div class="hv-v">' + r(H.temperature_2m[x2]) + "°</div>" + windCell(H.wind_speed_10m && H.wind_speed_10m[x2]) +
+            '<div class="hv-p">' + p2 + '%</div><div class="hv-mm">' + (mm2 >= .05 ? (Math.round(mm2 * 10) / 10) + " mm" : "") + "</div></div>";
     }
     hoursPageHtml = hv + "</div>";
     if (tab === "hours") $("pg-hours").innerHTML = hoursPageHtml;
@@ -2197,7 +2205,7 @@
   function url(p) {
     return "https://api.open-meteo.com/v1/forecast?latitude=" + p.lat + "&longitude=" + p.lon +
       "&current=temperature_2m,apparent_temperature,weather_code,is_day,wind_speed_10m,precipitation,shortwave_radiation,direct_radiation,cloud_cover" +
-      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,snowfall,weather_code,is_day,wind_speed_10m" +
+      "&hourly=temperature_2m,apparent_temperature,precipitation_probability,precipitation,snowfall,weather_code,is_day,wind_speed_10m" +
       "&daily=weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,precipitation_probability_max,precipitation_sum,sunrise,sunset,wind_speed_10m_max" +
       "&minutely_15=precipitation&past_minutely_15=4&forecast_minutely_15=4" +
       "&timezone=auto&forecast_days=8";
