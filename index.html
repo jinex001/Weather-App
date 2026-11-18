@@ -337,6 +337,8 @@
   /* overcast-art cloud colours come from the overcast screen; other screens get the default overcast greys */
   body:not([data-state="overcast"]) .mi { --oc-back: #958E81; --oc-drift: #91989F; }
   .hv > svg.mi:first-of-type { width: 48px; height: 34px; }
+  /* b259: in the 24-hour icons only rain and snow move (falling drops and flakes); everything else stands still */
+  .mi *:not(.art-drop):not(.art-dz):not(.art-tear):not(.art-flake) { animation: none !important; }
   @media (prefers-reduced-motion: reduce) { .mi * { animation: none !important; } }
   [hidden] { display: none !important; }
 
@@ -1216,7 +1218,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b258";
+  var BUILD = "b259";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
