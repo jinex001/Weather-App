@@ -111,6 +111,8 @@
   .art-bob { animation: art-bob 5s ease-in-out infinite; }
   @keyframes art-bob { 0%,100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
   .art-drift { animation: art-drift linear infinite; }
+  .art-bolt { animation: art-bolt 4s linear infinite; }
+  @keyframes art-bolt { 0%, 60%, 100% { opacity: 0; } 61%, 63% { opacity: 1; } 64%, 66% { opacity: 0; } 67%, 70% { opacity: 1; } 74% { opacity: 0; } }
   @keyframes art-drift { from { transform: translateX(-200px); } to { transform: translateX(440px); } }
   /* partly cloudy (b198): the small clouds never leave the screen together, see ART.sunCloudy */
   .pc-drift { animation: pc-drift 38s linear infinite; }
@@ -1109,11 +1111,18 @@
       return '<circle class="art-flake" style="animation-delay:' + d[3] + 's" cx="' + d[0] + '" cy="' + d[1] + '" r="' + d[2] + '"/>';
     }).join("") + '</g><path d="M44 112h132a30 30 0 0 0 0-60 46 46 0 0 0-88 10 26 26 0 0 0-44 50z" fill="#BCC8D4"/></svg>';
   }
+  // b260: thunderstorm (95–99) = the rain art plus a yellow bolt coming out from under the front cloud; it flashes twice
+  // every 4 s (CSS .art-bolt). In the 24-hour icons and with "reduce motion" it simply stays visible.
+  var BOLT = '<path class="art-bolt" d="M114 100L94 142h14l-11 30 30-44h-14l10-28z" fill="#F2C14E"/>';
+  function withBolt(svg) {
+    var i = svg.lastIndexOf('<path d="' + CLOUD + '" fill=');
+    return i < 0 ? svg : svg.slice(0, i) + BOLT + svg.slice(i);
+  }
   function artFor(state, c, isDay) {
     if (state === "snow") return snowArt(isDay ? "#5C7A99" : "#E6ECF2");
     if (state === "overcast") return isFog(c) ? ART.fog : ART.overcast;
-    if (state === "rain") return isDrizzle(c) ? ART.drizzle : isShower(c) ? ART.shower : ART.rain;
-    if (state === "rain-night") return isDrizzle(c) ? ART.drizzleNight : isShower(c) ? ART.showerNight : ART.rainNight;
+    if (state === "rain") return isDrizzle(c) ? ART.drizzle : isShower(c) ? ART.shower : c >= 95 ? withBolt(ART.rain) : ART.rain;
+    if (state === "rain-night") return isDrizzle(c) ? ART.drizzleNight : isShower(c) ? ART.showerNight : c >= 95 ? withBolt(ART.rainNight) : ART.rainNight;
     if (state === "night") return isFog(c) ? ART.fogNight : c === 3 ? ART.nightOvercast : c >= 2 ? ART.nightCloudy : ART.night;
     return c === 0 ? ART.sunClear : c === 1 ? ART.sunMostly : ART.sunCloudy;
   }
@@ -1218,7 +1227,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b259";
+  var BUILD = "b260";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
