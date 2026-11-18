@@ -381,7 +381,9 @@
   .hv .hour-w { margin-left: auto; width: 62px; font-size: 12px; }
   .hv-p { width: 44px; text-align: right; font-family: var(--mono); font-weight: 500; font-size: 13px; }
   /* b261: rain chance %, then the amount right after it at the row's end */
-  .hv-mm { width: 56px; white-space: nowrap; font-family: var(--mono); font-weight: 500; font-size: 13px; }
+  .hv-mm { width: 56px; height: 8px; display: flex; align-items: center; }
+  .hv-mm i { display: block; height: 8px; min-width: 8px; border-radius: 4px; background: #8FB8DE; }
+  body[data-state="sun"] .hv-mm i, body[data-state="overcast"] .hv-mm i, body[data-state="snow"] .hv-mm i { background: var(--fg); }
   .hv .hv-p { width: 40px; margin-right: 8px; }
   .hv .hour-w { width: 54px; }
   /* b251: the look filter, a short glass sheet from the bottom */
@@ -1231,7 +1233,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b261";
+  var BUILD = "b262";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -2131,14 +2133,16 @@
     $("hours").scrollLeft = 0;
     // b251 (kept from 1.0, b231): the Hours tab lists the same 24 hours as rows
     var hv = '<div class="pg-k">' + esc(NV.hours) + '</div><div class="pg-h">24 ' + esc(NV.hours) + '</div><div class="hv-list">';
-    // b261: rain is "chance %, then amount mm" side by side at the row's end (mm from hourly precipitation; blank under 0.05)
-    var mmA = H.precipitation;
+    // b261/b262: rain is "chance %, then the amount" at the row's end; the amount is a bar, not a number (length = mm of
+    // this hour against the wettest of these 24 hours, at least 2 mm full scale; nothing under 0.05 mm)
+    var mmA = H.precipitation, mmTop = 2;
+    if (mmA) for (var q = 0; q < 24 && i0 + q < H.time.length; q++) mmTop = Math.max(mmTop, mmA[i0 + q] || 0);
     for (var m2 = 0; m2 < 24 && i0 + m2 < H.time.length; m2++) {
       var x2 = i0 + m2, p2 = H.precipitation_probability[x2] || 0, mm2 = mmA ? mmA[x2] || 0 : 0;
       hv += '<div class="hv' + (m2 === 0 ? " now" : "") + '">' +
             '<div class="hv-t">' + (m2 === 0 ? T.now : H.time[x2].slice(11, 13) + ":00") + "</div>" + micon(H.weather_code[x2], H.is_day[x2] === 0) +
             '<div class="hv-v">' + r(H.temperature_2m[x2]) + "°</div>" + windCell(H.wind_speed_10m && H.wind_speed_10m[x2]) +
-            '<div class="hv-p">' + p2 + '%</div><div class="hv-mm">' + (mm2 >= .05 ? (Math.round(mm2 * 10) / 10) + " mm" : "") + "</div></div>";
+            '<div class="hv-p">' + p2 + '%</div><div class="hv-mm"' + (mm2 >= .05 ? ' aria-label="' + (Math.round(mm2 * 10) / 10) + ' mm"><i style="width:' + Math.max(8, Math.round(mm2 / mmTop * 100)) + '%"></i>' : ">") + "</div></div>";
     }
     hoursPageHtml = hv + "</div>";
     if (tab === "hours") $("pg-hours").innerHTML = hoursPageHtml;
