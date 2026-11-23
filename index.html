@@ -63,7 +63,7 @@
   .city { display: inline-flex; align-items: center; gap: 5px; height: 40px; padding: 0 16px 0 18px; margin-left: -6px; border-radius: 20px; font-size: 17px; font-weight: 700; cursor: pointer;
     background: rgba(255,255,255,.10); box-shadow: inset 1.5px 1.5px 1px rgba(255,255,255,.8), inset -1px -1px 1px rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.16); }
   .city svg { width: 17px; height: 17px; flex: none; fill: currentColor; }
-  .date { font-family: var(--mono); font-weight: 500; font-size: 11px; letter-spacing: .02em; }
+  /* b260: no date · time on the home top row any more (user) — just the place pill and share */
   /* Full-bleed: the 240×170 drawing stays centered at the same size, drifting clouds cross the whole screen width */
   .hero-art { display: flex; justify-content: center; margin: 31px -24px 0; height: 170px; overflow: hidden; }
   .hero-art svg { width: 100%; height: 170px; overflow: visible; }
@@ -604,11 +604,23 @@
     background: rgba(255,255,255,.10); box-shadow: inset 1.5px 1.5px 1px rgba(255,255,255,.8), inset -1px -1px 1px rgba(255,255,255,.2), inset 0 0 20px rgba(255,255,255,.16); }
   .top .share svg { width: 19px; height: 19px; fill: currentColor; }
   .fsheet.share { max-height: 94vh; overflow-y: auto; }
-  .sh-pair { display: flex; gap: 12px; margin-top: 14px; }
-  .sh-card { flex: 1; min-width: 0; border: 0; padding: 0; background: none; font: inherit; color: #141414; text-align: center; cursor: pointer; }
-  .sh-card img { display: block; width: 100%; aspect-ratio: 9 / 16; border-radius: 10px; object-fit: cover; background: #141414; outline: 2.5px solid transparent; outline-offset: 3px; transition: outline-color .2s; }
-  .sh-card.on img { outline-color: #141414; }
-  .sh-card span { display: block; margin-top: 10px; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; opacity: .4; transition: opacity .2s; }
+  .sh-t { margin: 4px 0 14px; font-size: 18px; font-weight: 700; line-height: 1.25; }
+  .sh-pair { display: flex; gap: 6px; }
+  .sh-card.wait img { opacity: .5; }
+  .sh-acts { display: flex; flex-direction: column; gap: 2px; margin-top: 14px; }
+  .sh-acts[hidden] { display: none; }
+  .sh-act { display: flex; align-items: center; gap: 14px; width: 100%; border: 0; border-radius: 14px; padding: 7px 4px; background: none; font: inherit; color: #141414; text-align: left; cursor: pointer; }
+  .sh-act i { flex: none; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #141414; color: #FFFFFF; }
+  .sh-act svg { width: 20px; height: 20px; fill: currentColor; }
+  .sh-act b { display: block; font-size: 14px; font-weight: 600; }
+  .sh-act small { display: block; margin-top: 1px; font-size: 11.5px; opacity: .55; }
+  .sh-act:disabled { opacity: .4; cursor: progress; }
+  .sh-card.wait { cursor: progress; }
+  .sh-card { flex: 1; min-width: 0; border: 0; padding: 8px 8px 0; border-radius: 18px; background: transparent; font: inherit; color: #141414; text-align: center; cursor: pointer; transition: background-color .2s ease, color .2s ease; }
+  .sh-card.on { background: #141414; color: #FFFFFF; }
+  .sh-card img { display: block; width: 100%; aspect-ratio: 9 / 16; border-radius: 10px; object-fit: cover; background: #141414; }
+  .sh-card span { display: block; padding: 10px 0 11px; font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; transition: opacity .2s; }
+  .sh-pair:has(.on) .sh-card:not(.on) span { opacity: .4; }
   .sh-card.on span { opacity: 1; }
   .sh-ed { position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column; background: #000000; color: #FFFFFF; padding: calc(env(safe-area-inset-top) + 8px) 16px calc(env(safe-area-inset-bottom) + 16px); }
   .sh-ed-top { display: flex; justify-content: space-between; align-items: center; height: 44px; }
@@ -645,7 +657,6 @@
   <div class="head-tap" id="head-tap" role="button" tabindex="0" aria-label="Today's Look">
   <div class="top">
     <div class="city" id="city" role="button" tabindex="0"><span id="city-n">Berlin</span><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"/></svg></div>
-    <div class="date" id="date">&nbsp;</div>
     <button type="button" class="share" id="share"><svg viewBox="0 0 256 256" aria-hidden="true"><path d="M216,112v96a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V112A16,16,0,0,1,56,96H80a8,8,0,0,1,0,16H56v96H200V112H176a8,8,0,0,1,0-16h24A16,16,0,0,1,216,112ZM93.66,69.66,120,43.31V136a8,8,0,0,0,16,0V43.31l26.34,26.35a8,8,0,0,0,11.32-11.32l-40-40a8,8,0,0,0-11.32,0l-40,40A8,8,0,0,0,93.66,69.66Z"/></svg></button>
   </div>
 
@@ -1237,11 +1248,6 @@
     if (LANG === "ko") return h + "시";
     if (LANG === "de") return h + " Uhr";
     var ap = h < 12 ? "am" : "pm"; var hh = h % 12 || 12; return hh + " " + ap;
-  }
-  function dateLine(s) {
-    var d = asDate(s);
-    var day = new Intl.DateTimeFormat(LOCALE, { weekday: "short", month: "short", day: "numeric", timeZone: "UTC" }).format(d);
-    return day + " · " + s.slice(11, 16);
   }
   function r(n) { var v = Math.round(n); return v === 0 ? 0 : v; }
 
@@ -1914,17 +1920,17 @@
   // no gradient (text shadow = the 1.0 art depth shadow), "AI generated" under Today's Look, "Felt: …" under the own photo.
   // The art is the home art as a still picture (the reduced-motion look: teardrops under the cloud, no splash).
   var SH = {
-    en: { btn: "Share", look: "Today's Look", mine: "My photo", pick: "Choose photo", head: "Your title", felt: "How well did today's outfit suit the weather?", swap: "Change photo",
+    en: { btn: "Share", ask: "How do you want to share?", aApps: "Share to apps", aAppsS: "Instagram, Facebook, WhatsApp and more", aSave: "Save image", aCopy: "Copy image", aCopied: "Copied", look: "Today's Look", mine: "My photo", pick: "Choose photo", head: "Your title", felt: "How well did today's outfit suit the weather?", swap: "Change photo",
           cold: "Too cold", ok: "Just right", warm: "Too warm", send: "Share", kLook: "Today's Look", kMine: "My Look", ai: "AI generated by UOWA",
           feltT: { cold: "Felt: too cold", ok: "Felt: just right", warm: "Felt: too warm" } },
-    de: { btn: "Teilen", look: "Look des Tages", mine: "Mein Foto", pick: "Foto wählen", head: "Dein Titel", felt: "Wie gut passte dein Outfit heute zum Wetter?", swap: "Foto ändern",
+    de: { btn: "Teilen", ask: "Wie möchtest du teilen?", aApps: "In Apps teilen", aAppsS: "Instagram, Facebook, WhatsApp und mehr", aSave: "Bild speichern", aCopy: "Bild kopieren", aCopied: "Kopiert", look: "Look des Tages", mine: "Mein Foto", pick: "Foto wählen", head: "Dein Titel", felt: "Wie gut passte dein Outfit heute zum Wetter?", swap: "Foto ändern",
           cold: "Zu kalt", ok: "Genau richtig", warm: "Zu warm", send: "Teilen", kLook: "Look des Tages", kMine: "Mein Look", ai: "KI-generiert von UOWA",
           feltT: { cold: "Gefühlt: zu kalt", ok: "Gefühlt: genau richtig", warm: "Gefühlt: zu warm" } },
-    ko: { btn: "공유", look: "오늘의 룩", mine: "내 사진", pick: "사진 고르기", head: "제목 입력", felt: "오늘 입은 옷, 날씨에 얼마나 맞았나요?", swap: "사진 바꾸기",
+    ko: { btn: "공유", ask: "어떻게 공유할까요?", aApps: "앱으로 공유", aAppsS: "인스타그램 · 페이스북 · 왓츠앱 등", aSave: "이미지 저장", aCopy: "이미지 복사", aCopied: "복사됨", look: "오늘의 룩", mine: "내 사진", pick: "사진 고르기", head: "제목 입력", felt: "오늘 입은 옷, 날씨에 얼마나 맞았나요?", swap: "사진 바꾸기",
           cold: "추웠어", ok: "딱 좋았어", warm: "더웠어", send: "공유하기", kLook: "오늘의 룩", kMine: "내 룩", ai: "AI 생성 이미지 · UOWA",
           feltT: { cold: "체감: 추웠음", ok: "체감: 딱 좋았음", warm: "체감: 더웠음" } }
   }[LANG];
-  var shareCtx = null, shMode = "look", shOwn = null, shHead = "", shFelt = "ok", shFile = { look: null, mine: null }, shUrl = { look: "", mine: "" }, shJob = { look: 0, mine: 0 }, shBox = null, shLines = 0, shT = 0;
+  var shareCtx = null, shMode = null, shOwn = null, shHead = "", shFelt = "ok", shFile = { look: null, mine: null }, shUrl = { look: "", mine: "" }, shJob = { look: 0, mine: 0 }, shBox = null, shLines = 0, shT = 0;
   function shLoad(src) {
     return new Promise(function (ok, no) { var i = new Image(); i.onload = function () { ok(i); }; i.onerror = no; i.src = src; });
   }
@@ -2026,11 +2032,36 @@
       return cv;
     });
   }
-  function shGo() { var g = $("sh-go"); if (g) g.disabled = !shFile[shMode]; $("sh-ed-go").disabled = !shFile.mine; }
+  function shGo() { var c = document.querySelector('.sh-card[data-s="look"]'); if (c) c.classList.toggle("wait", !shFile.look); [].forEach.call(document.querySelectorAll(".sh-act"), function (a) { a.disabled = !shFile.look; }); $("sh-ed-go").disabled = !shFile.mine; }
+  function shCanShare(file) { return !!(navigator.canShare && navigator.canShare({ files: [file || new File([""], "x.png", { type: "image/png" })] })); }
+  function shSave(file) {
+    if (!file) return;
+    var a = document.createElement("a"); a.href = URL.createObjectURL(file); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+  }
   function shSend(file) {
     if (!file) return;
-    if (navigator.canShare && navigator.canShare({ files: [file] })) navigator.share({ files: [file] }).catch(function () {});
-    else { var a = document.createElement("a"); a.href = URL.createObjectURL(file); a.download = file.name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000); }
+    if (shCanShare(file)) navigator.share({ files: [file] }).catch(function () {}); else shSave(file);
+  }
+  function shCopy(file, btn) {
+    if (!file) return;
+    navigator.clipboard.write([new ClipboardItem({ "image/png": file })]).then(function () {
+      var b = btn.querySelector("b"); b.textContent = SH.aCopied; setTimeout(function () { b.textContent = SH.aCopy; }, 1600);
+    }).catch(function () {});
+  }
+  // web can only hand the image to the system share sheet (a native app would open each story composer directly)
+  function shActs() {
+    var ic = {
+      apps: '<path d="M216,112v96a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V112A16,16,0,0,1,56,96H80a8,8,0,0,1,0,16H56v96H200V112H176a8,8,0,0,1,0-16h24A16,16,0,0,1,216,112ZM93.66,69.66,120,43.31V136a8,8,0,0,0,16,0V43.31l26.34,26.35a8,8,0,0,0,11.32-11.32l-40-40a8,8,0,0,0-11.32,0l-40,40A8,8,0,0,0,93.66,69.66Z"/>',
+      save: '<path d="M224,144v64a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V144a8,8,0,0,1,16,0v56H208V144a8,8,0,0,1,16,0Zm-101.66,5.66a8,8,0,0,0,11.32,0l40-40a8,8,0,0,0-11.32-11.32L136,124.69V32a8,8,0,0,0-16,0v92.69L93.66,98.34a8,8,0,0,0-11.32,11.32Z"/>',
+      copy: '<path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z"/>'
+    };
+    var rows = [];
+    if (shCanShare()) rows.push(["apps", SH.aApps, SH.aAppsS]);
+    rows.push(["save", SH.aSave, ""]);
+    if (navigator.clipboard && navigator.clipboard.write && window.ClipboardItem) rows.push(["copy", SH.aCopy, ""]);
+    return '<div class="sh-acts" id="sh-acts"' + (shMode === "look" ? "" : " hidden") + '>' + rows.map(function (r) {
+      return '<button type="button" class="sh-act" data-a="' + r[0] + '" disabled><i><svg viewBox="0 0 256 256" aria-hidden="true">' + ic[r[0]] + '</svg></i><span><b>' + esc(r[1]) + "</b>" + (r[2] ? "<small>" + esc(r[2]) + "</small>" : "") + "</span></button>";
+    }).join("") + "</div>";
   }
   // ── full-screen editor for my photo: the card big, the title typed right on it, the fit question underneath
   function shCount() {
@@ -2093,24 +2124,20 @@
   function paintShare() {
     var sh = $("fsheet");
     sh.innerHTML = '<button type="button" class="f-bar" id="f-close" aria-label="Close"></button>' +
-      '<div class="sh-pair">' + ["look", "mine"].map(function (m) { return '<button type="button" data-s="' + m + '" class="sh-card' + (shMode === m ? " on" : "") + '"><img id="sh-prev-' + m + '" alt=""' + (shUrl[m] ? ' src="' + shUrl[m] + '"' : "") + '><span>' + esc(SH[m]) + "</span></button>"; }).join("") + "</div>" +
-      '<div class="sh-row"><button type="button" class="sh-go" id="sh-go" disabled>' + esc(SH.send) + '</button></div><input type="file" id="sh-file" accept="image/*" hidden>';
+      '<h2 class="sh-t">' + esc(SH.ask) + '</h2><div class="sh-pair">' + ["look", "mine"].map(function (m) { return '<button type="button" data-s="' + m + '" class="sh-card' + (shMode === m ? " on" : "") + '"><img id="sh-prev-' + m + '" alt=""' + (shUrl[m] ? ' src="' + shUrl[m] + '"' : "") + '><span>' + esc(SH[m]) + "</span></button>"; }).join("") + "</div>" +
+      shActs() + '<input type="file" id="sh-file" accept="image/*" hidden>';
     $("f-close").onclick = closeFilter;
     $("sh-file").onchange = function () {
       var f = this.files && this.files[0]; if (!f) return;
       if (shOwn) URL.revokeObjectURL(shOwn);
       shOwn = URL.createObjectURL(f); this.value = "";
-      if (shMode !== "mine") { shMode = "mine"; paintShare(); }
       shRefresh("mine"); if ($("sh-ed").hidden) shEdOpen(); else shEdDraw();
-    };
-    $("sh-go").onclick = function () {
-      shSend(shFile[shMode]);
     };
     shGo();
   }
   function openShare() {
     if (!shareCtx) return;
-    shUrl = { look: "", mine: "" };
+    shUrl = { look: "", mine: "" }; shMode = null; // nothing chosen until a card is tapped
     $("fsheet").classList.add("share"); paintShare(); shRefresh(); $("fshade").hidden = false; $("fsheet").hidden = false;
     void $("fsheet").offsetWidth; $("fsheet").classList.add("open");
   }
@@ -2118,12 +2145,18 @@
   $("share").setAttribute("aria-label", SH.btn);
   $("fsheet").addEventListener("click", function (e) {
     if (!$("fsheet").classList.contains("share")) return;
+    var a = e.target.closest("button[data-a]");
+    if (a) { var f = shFile.look; if (a.dataset.a === "apps") shSend(f); else if (a.dataset.a === "save") shSave(f); else shCopy(f, a); return; }
     var b = e.target.closest("button[data-s], button[data-f]"); if (!b) return;
     if (b.dataset.s) {
       // the camera card (or my card tapped again) opens the photo picker
-      if (b.dataset.s === "mine" && !shOwn) { $("sh-file").click(); return; }
-      if (b.dataset.s === "mine" && shMode === "mine") { shEdOpen(); return; }
-      if (shMode !== b.dataset.s) { shMode = b.dataset.s; paintShare(); }
+      // tapping a card is the choice: today's look shares straight away, my photo goes to the picker or the editor
+      var m = b.dataset.s;
+      if (shMode !== m) { shMode = m; [].forEach.call(document.querySelectorAll(".sh-card"), function (c) { c.classList.toggle("on", c.dataset.s === m); }); }
+      $("sh-acts").hidden = m !== "look";
+      if (m === "look") return;
+      if (!shOwn) $("sh-file").click();
+      else shEdOpen();
     }
     else { shFelt = b.dataset.f; [].forEach.call(b.parentNode.children, function (c) { c.className = c === b ? "on" : ""; }); shRefresh("mine"); }
   });
@@ -2296,7 +2329,6 @@
     document.querySelector('meta[name="theme-color"]').setAttribute("content", bgHex);
 
     $("city-n").textContent = placeName(place);
-    $("date").textContent = dateLine(nowLocal);
     $("art").innerHTML = moonMask(artFor(state, cur.weather_code, isDay));
     var rc = cur.weather_code, rainArt = (state === "rain" || state === "rain-night") && !isDrizzle(rc);
 
