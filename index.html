@@ -1263,7 +1263,7 @@
 
   // Shown in the status line so it is easy to tell whether the phone runs the latest version
   var VERSION = "0.5";
-  var BUILD = "b260";
+  var BUILD = "b261";
 
   // ── Today's Look: outfit sheet behind the feels-like block ──
   // Profile (gender f/m/x, age u35/35/60, style run/street/minimal, baby y/n) lives only in localStorage.
@@ -1991,7 +1991,7 @@
       shText(x, "UOWA", M + 59.4, ty);
       if ("letterSpacing" in x) x.letterSpacing = "0px";
       var day = new Intl.DateTimeFormat(LOCALE, { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }).format(asDate(S.now));
-      x.font = "600 37px Poppins"; x.textAlign = "right"; shText(x, S.city + " · " + day, W - M - 59.4, ty); x.textAlign = "left";
+      x.font = "600 37px Poppins"; x.textAlign = "right"; shText(x, (S.city ? S.city + " · " : "") + day, W - M - 59.4, ty); x.textAlign = "left";
       // bottom-up: label, felt, headline, kicker, feels line, number, art
       if (!mine && photo) { x.font = "600 28px Poppins"; x.fillStyle = "rgba(255,255,255,.62)"; x.textAlign = "center"; shText(x, SH.ai, W / 2, M + CH - 54); x.textAlign = "left"; x.fillStyle = "#FFFFFF"; }
       var y = M + CH - CH * .065;
@@ -2345,7 +2345,7 @@
     $("feels-n").innerHTML = f + '<span class="deg">°</span>';
     $("feels-b").textContent = band[2][LANG];
     $("feels-l").textContent = T.feelsL;
-    shareCtx = { bg: bgHex, band: BAND_COLOR[band[1]], bandName: band[2][LANG], f: f, t: t, cond: condLabel(cur.weather_code, isDay), city: placeName(place), now: nowLocal };
+    shareCtx = { bg: bgHex, band: BAND_COLOR[band[1]], bandName: band[2][LANG], f: f, t: t, cond: condLabel(cur.weather_code, isDay), city: place.gps && !place.name ? "" : placeName(place), now: nowLocal }; gpsName();
     $("feels").style.setProperty("--badge", readableOn(BAND_COLOR[band[1]], bgHex, 1.5));
     playPerson();
 
@@ -2457,7 +2457,22 @@
 
   var place = load("wx-place") || BERLIN;
   if (!place.gps && !place.id) place = BERLIN; // before b123 the only fixed place was Berlin
-  function placeName(p) { return p.gps ? T.here : p.id === BERLIN.id ? T.berlin : p.name; }
+  function placeName(p) { return p.gps ? p.name || T.here : p.id === BERLIN.id ? T.berlin : p.name; }
+  // b261: a GPS place gets its city name once (BigDataCloud client reverse geocoding, no key; coordinates rounded to
+  // ~1 km), kept with the place. Until then the pill says "Current location" and the share card shows only the date.
+  var gpsAsk = "";
+  function gpsName() {
+    var p = place; if (!p.gps || p.name) return;
+    var lat = (+p.lat).toFixed(2), lon = (+p.lon).toFixed(2), k = lat + "," + lon;
+    if (gpsAsk === k) return; gpsAsk = k;
+    fetch("https://api-bdc.io/data/reverse-geocode-client?latitude=" + lat + "&longitude=" + lon + "&localityLanguage=" + LANG)
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        var n = d && (d.city || d.locality || d.principalSubdivision); if (!n || place !== p) return;
+        p.name = String(n).slice(0, 40); store("wx-place", place);
+        $("city-n").textContent = placeName(place); if (shareCtx) shareCtx.city = p.name;
+      }).catch(function () { gpsAsk = ""; });
+  }
   function placeKey(p) { return (+p.lat).toFixed(3) + "," + (+p.lon).toFixed(3); }
   // b173: the look-choice context of the place on screen: visual region from ?region= (tests) or the country code, and
   // humidity only from an explicit ?humidity= (no measured humidity is categorized yet); a future day never gets today's.
